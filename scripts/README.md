@@ -40,12 +40,28 @@ node scripts/fetch-images.mjs --delay=400
 
 Δοκιμάζει με τη σειρά:
 
-1. **Bing Image Search** (κύρια πηγή — πιο αξιόπιστη).
-2. **DuckDuckGo search** + οpen graph images από Greek pharmacy retailers (vita4you, pharm24, fr.com, kosmas, farmasi κλπ).
-3. **Skroutz** (συχνά μπλοκάρει bots).
-4. **Open Beauty Facts API**.
+1. **Manual override** από `images/urls.json` (αν υπάρχει).
+2. **Brand-direct**: Bing `site:apivita.com {barcode|name}` (και ανάλογα για τις άλλες εταιρίες) → ανοίγει τη σελίδα του προϊόντος → παίρνει το `og:image`.
+3. **Bing Image Search**.
+4. **DuckDuckGo** + Greek pharmacy retailers (vita4you, pharm24, fr.com, kosmas, farmasi κλπ).
+5. **Skroutz** (συχνά μπλοκάρει bots).
+6. **Open Beauty Facts API**.
 
 Όταν βρει εικόνα, την κατεβάζει στο `images/{barcode}.{jpg|png|webp}` και ενημερώνει το `images/manifest.json` αμέσως (resumable).
+
+### Manual URLs override
+
+Για όσα προϊόντα δεν βρει αυτόματα, μπορείτε να βάλετε χειροκίνητα direct URLs στο
+`images/urls.json`:
+
+```json
+{
+  "5201279080198": "https://www.apivita.com/.../bee-sun-safe-cream.jpg",
+  "5202888400131": "https://www.frezyderm.com/.../acnorm.jpg"
+}
+```
+
+Σε νέο run του script, αυτά κατεβαίνουν πρώτα.
 
 ### Debug / Test
 
