@@ -3,20 +3,16 @@
 const OBF_API = "https://world.openbeautyfacts.org/api/v2/product/";
 const OBF_CACHE_KEY = "obf_cache_v1";
 
-// Local image manifest: { "<barcode>": "<filename>" }
-// IMAGE_MANIFEST_VERSION is bumped manually whenever new images are committed,
-// to bust the browser cache. (GitHub Pages caches static assets up to ~10 min.)
-const IMAGE_MANIFEST_VERSION = "5";
-let imageManifest = null;
-let manifestPromise = null;
-function getImageManifest() {
-  if (imageManifest) return Promise.resolve(imageManifest);
-  if (manifestPromise) return manifestPromise;
-  manifestPromise = fetch(`images/manifest.json?v=${IMAGE_MANIFEST_VERSION}`, { cache: "no-store" })
-    .then(r => r.ok ? r.json() : {})
-    .catch(() => ({}))
-    .then(m => { imageManifest = m || {}; return imageManifest; });
-  return manifestPromise;
+// Local image manifest: window.IMAGE_MANIFEST is loaded synchronously via the
+// <script src="images/manifest.js"> tag in index.html / product.html.
+// No network fetch, no async timing — the data is in memory before app.js runs.
+function getLocalImageFile(barcode) {
+  const m = (typeof window !== "undefined" && window.IMAGE_MANIFEST) || {};
+  return m[barcode] || null;
+}
+function getLocalImageUrl(barcode) {
+  const f = getLocalImageFile(barcode);
+  return f ? `images/${f}` : null;
 }
 
 function loadCache() {
@@ -138,21 +134,17 @@ function shade(hex, percent) {
 }
 
 function imageUrlFor(barcode, obfData) {
-  // Prefer local image from manifest, then fall back to OBF
-  if (imageManifest && imageManifest[barcode]) {
-    return `images/${imageManifest[barcode]}`;
-  }
-  if (obfData) {
-    return obfData.image_front_url || obfData.image_url || null;
-  }
+  const local = getLocalImageUrl(barcode);
+  if (local) return local;
+  if (obfData) return obfData.image_front_url || obfData.image_url || null;
   return null;
 }
 
-// Resolve image url for a product: local manifest first, OBF as fallback.
-// Returns a Promise<string|null>.
+// Resolve image url for a product. Synchronous when the manifest has it
+// (which is the common case), otherwise async via OBF.
 async function resolveImageUrl(barcode) {
-  await getImageManifest();
-  if (imageManifest && imageManifest[barcode]) return `images/${imageManifest[barcode]}`;
+  const local = getLocalImageUrl(barcode);
+  if (local) return local;
   const data = await fetchOBF(barcode);
   return imageUrlFor(barcode, data);
 }

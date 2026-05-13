@@ -35,6 +35,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const IMG_DIR = path.join(ROOT, "images");
 const MANIFEST_FILE = path.join(IMG_DIR, "manifest.json");
+const MANIFEST_JS_FILE = path.join(IMG_DIR, "manifest.js");
 const URLS_FILE = path.join(IMG_DIR, "urls.json");
 const DATA_FILE = path.join(ROOT, "js/data.js");
 
@@ -402,6 +403,12 @@ async function loadManifest() {
 }
 async function saveManifest(m) {
   await fs.writeFile(MANIFEST_FILE, JSON.stringify(m, null, 2) + "\n", "utf8");
+  // Also emit a JS form that the site loads synchronously via <script>
+  const clean = Object.fromEntries(Object.entries(m).filter(([k]) => !k.startsWith("_")));
+  const js = "// Auto-generated από το scripts/fetch-images.mjs.\n"
+           + "// Συγχρονισμένο με images/manifest.json — μην το επεξεργαστείτε χειροκίνητα.\n"
+           + "window.IMAGE_MANIFEST = " + JSON.stringify(clean, null, 2) + ";\n";
+  await fs.writeFile(MANIFEST_JS_FILE, js, "utf8");
 }
 
 async function processProduct(p, manifest, ctx, idx, total) {

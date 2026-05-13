@@ -90,19 +90,24 @@ function render(p) {
     ` : ""}
   `;
 
-  // Load hero image (local manifest first, OBF fallback) + OBF extra info in parallel
+  // Hero image: local first (synchronous), OBF fallback async
   const heroImg = document.getElementById("hero-img");
   const ph = document.getElementById("ph");
-  resolveImageUrl(p.barcode).then(url => {
-    if (url) {
-      heroImg.onload = () => {
-        heroImg.style.opacity = "1";
-        ph.style.opacity = "0";
-      };
-      heroImg.src = url;
+  const heroLocal = getLocalImageUrl(p.barcode);
+  if (heroLocal) {
+    heroImg.onload = () => { heroImg.style.opacity = "1"; ph.style.opacity = "0"; };
+    heroImg.src = heroLocal;
+  }
+  fetchOBF(p.barcode).then(data => {
+    if (!heroLocal && data) {
+      const url = data.image_front_url || data.image_url;
+      if (url) {
+        heroImg.onload = () => { heroImg.style.opacity = "1"; ph.style.opacity = "0"; };
+        heroImg.src = url;
+      }
     }
+    renderOBFExtra(data);
   });
-  fetchOBF(p.barcode).then(renderOBFExtra);
 
   // Related
   const relWrap = document.getElementById("related");
@@ -144,14 +149,17 @@ function miniCard(p, brand) {
   a.href = `product.html?id=${encodeURIComponent(p.id)}`;
   a.className = "product-card block bg-white rounded-xl overflow-hidden border border-slate-200";
 
+  const localUrl = getLocalImageUrl(p.barcode);
+  const initials = brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+
   const wrap = document.createElement("div");
   wrap.className = "aspect-square relative";
   wrap.innerHTML = `
     <div class="placeholder-bg absolute inset-0 flex items-center justify-center text-white font-bold text-xl"
-         style="--accent:${brand.accent};--accent-dark:${shade(brand.accent,-20)}">
-      ${brand.name.split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase()}
+         style="--accent:${brand.accent};--accent-dark:${shade(brand.accent, -20)}">
+      ${initials}
     </div>
-    <img class="product-img absolute inset-0 w-full h-full p-2 opacity-0 transition-opacity" alt="${escapeHtml(p.name)}" loading="lazy">
+    ${localUrl ? `<img src="${localUrl}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" class="absolute inset-0 w-full h-full object-contain p-2 bg-white" onerror="this.remove()">` : ""}
     ${parsed.spf ? `<span class="absolute top-1 left-1 px-1.5 py-0.5 text-[10px] font-bold rounded text-white" style="background:${brand.accent}">SPF ${parsed.spf}</span>` : ""}
   `;
   a.appendChild(wrap);
@@ -164,13 +172,15 @@ function miniCard(p, brand) {
   `;
   a.appendChild(body);
 
-  // Async image (local manifest first, OBF fallback)
-  resolveImageUrl(p.barcode).then(url => {
-    if (!url) return;
-    const img = wrap.querySelector("img");
-    img.onload = () => { img.style.opacity = "1"; };
-    img.src = url;
-  });
+  // OBF fallback only when we have no local image
+  if (!localUrl) {
+    fetchOBF(p.barcode).then(data => {
+      const url = data && (data.image_front_url || data.image_url);
+      if (!url) return;
+      wrap.insertAdjacentHTML("beforeend",
+        `<img src="${url}" loading="lazy" alt="${escapeHtml(p.name)}" class="absolute inset-0 w-full h-full object-contain p-2 bg-white">`);
+    });
+  }
 
   return a;
 }
