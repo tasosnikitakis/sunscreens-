@@ -84,8 +84,10 @@ function makeCard(p) {
   `;
   card.appendChild(body);
 
-  // Lazy load OBF image when card is visible
-  observeCard(card, () => loadImageFor(p, img, placeholder));
+  // Eager: kick off image resolution immediately. Browser-native `loading="lazy"`
+  // on the <img> defers the actual network request until the card is near
+  // viewport, so we don't pay for all 361 requests up-front.
+  loadImageFor(p, img, placeholder);
 
   return card;
 }
@@ -101,21 +103,6 @@ function loadImageFor(p, img, placeholder) {
     img.onerror = () => { /* keep placeholder */ };
     img.src = url;
   });
-}
-
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const cb = entry.target._onVisible;
-      if (cb) cb();
-      io.unobserve(entry.target);
-    }
-  });
-}, { rootMargin: "150px" });
-
-function observeCard(card, cb) {
-  card._onVisible = cb;
-  io.observe(card);
 }
 
 function buildCatalog() {
@@ -179,7 +166,8 @@ function applySearch(term) {
   resultCountEl.textContent = t ? `${visible} αποτελέσματα` : `${PRODUCTS.length} προϊόντα συνολικά`;
 }
 
-// Init
+// Init — kick off manifest fetch immediately so cards have URLs by render time
+getImageManifest();
 buildBrandNav();
 buildCatalog();
 applySearch("");
