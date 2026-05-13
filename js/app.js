@@ -91,8 +91,7 @@ function makeCard(p) {
 }
 
 function loadImageFor(p, img, placeholder) {
-  fetchOBF(p.barcode).then(data => {
-    const url = imageUrlFor(p.barcode, data);
+  resolveImageUrl(p.barcode).then(url => {
     if (!url) return; // keep placeholder
     img.onload = () => {
       img.classList.remove("loading");
