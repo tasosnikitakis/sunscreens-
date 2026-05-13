@@ -45,12 +45,13 @@ function makeCard(p) {
   placeholder.textContent = brand.name.split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase();
   imgWrap.appendChild(placeholder);
 
-  // Image (loaded async)
+  // Image (loaded async). Use opacity:0 — NOT display:none — so the element
+  // still has layout. Browser-native loading="lazy" needs the img to have a
+  // box on the page to decide when to fetch it.
   const img = document.createElement("img");
   img.className = "product-img loading absolute inset-0 w-full h-full p-3";
   img.alt = p.name;
   img.loading = "lazy";
-  img.style.display = "none";
   imgWrap.appendChild(img);
 
   // Badges
@@ -96,8 +97,7 @@ function loadImageFor(p, img, placeholder) {
   resolveImageUrl(p.barcode).then(url => {
     if (!url) return; // keep placeholder
     img.onload = () => {
-      img.classList.remove("loading");
-      img.style.display = "";
+      img.classList.remove("loading"); // fades opacity 0 → 1 via CSS
       placeholder.style.opacity = "0";
     };
     img.onerror = () => { /* keep placeholder */ };
