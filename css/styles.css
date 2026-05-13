@@ -1,0 +1,38 @@
+/* Custom styles on top of Tailwind */
+
+.placeholder-bg {
+  background-image:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.6), transparent 50%),
+    linear-gradient(135deg, var(--accent, #f59e0b) 0%, var(--accent-dark, #ea580c) 100%);
+}
+
+.product-card {
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -10px rgba(0, 0, 0, 0.18);
+}
+
+.brand-pill {
+  transition: background-color 150ms, color 150ms, transform 150ms;
+}
+.brand-pill:hover {
+  transform: translateY(-1px);
+}
+
+img.product-img {
+  object-fit: contain;
+  background: white;
+  transition: opacity 200ms ease;
+}
+img.product-img.loading {
+  opacity: 0;
+}
+
+/* Smooth scroll for in-page anchors */
+html { scroll-behavior: smooth; }
+
+/* Anchor offset so sticky search doesn't cover section title */
+.brand-anchor { scroll-margin-top: 6rem; }
