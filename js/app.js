@@ -37,22 +37,30 @@ function makeCard(p) {
   const imgWrap = document.createElement("div");
   imgWrap.className = "aspect-square relative overflow-hidden";
 
-  // Placeholder (always present, hidden if image loads)
-  const placeholder = document.createElement("div");
-  placeholder.className = "placeholder-bg absolute inset-0 flex items-center justify-center text-white font-bold text-3xl";
-  placeholder.style.setProperty("--accent", accent);
-  placeholder.style.setProperty("--accent-dark", shade(accent, -20));
-  placeholder.textContent = brand.name.split(/\s+/).slice(0,2).map(w=>w[0]).join("").toUpperCase();
-  imgWrap.appendChild(placeholder);
+  // Brand-colored placeholder visible behind the image (also visible if image 404s)
+  const initials = brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+  imgWrap.innerHTML = `
+    <div class="placeholder-bg absolute inset-0 flex items-center justify-center text-white font-bold text-3xl"
+         style="--accent:${accent};--accent-dark:${shade(accent, -20)}">
+      ${initials}
+    </div>
+  `;
 
-  // Image (loaded async). Use opacity:0 — NOT display:none — so the element
-  // still has layout. Browser-native loading="lazy" needs the img to have a
-  // box on the page to decide when to fetch it.
-  const img = document.createElement("img");
-  img.className = "product-img loading absolute inset-0 w-full h-full p-3";
-  img.alt = p.name;
-  img.loading = "lazy";
-  imgWrap.appendChild(img);
+  // <img> with src baked in at render time. The browser sees a real, sized image
+  // and handles loading/decoding natively, with loading="lazy" deferring the
+  // network request until the card is near the viewport. No JS magic.
+  const localUrl = getLocalImageUrl(p.barcode);
+  if (localUrl) {
+    const img = document.createElement("img");
+    img.src = localUrl;
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.alt = p.name;
+    img.className = "absolute inset-0 w-full h-full object-contain p-3 bg-white";
+    img.onerror = () => { img.remove(); }; // fall back to placeholder if file missing
+    imgWrap.appendChild(img);
+  }
+  // If no local image, the placeholder stays; OBF lookup happens lazily below.
 
   // Badges
   const badges = document.createElement("div");
@@ -85,24 +93,21 @@ function makeCard(p) {
   `;
   card.appendChild(body);
 
-  // Eager: kick off image resolution immediately. Browser-native `loading="lazy"`
-  // on the <img> defers the actual network request until the card is near
-  // viewport, so we don't pay for all 361 requests up-front.
-  loadImageFor(p, img, placeholder);
+  // For products with no local image, try OBF asynchronously.
+  if (!localUrl) {
+    fetchOBF(p.barcode).then(data => {
+      const url = data && (data.image_front_url || data.image_url);
+      if (!url) return;
+      const img = document.createElement("img");
+      img.src = url;
+      img.loading = "lazy";
+      img.alt = p.name;
+      img.className = "absolute inset-0 w-full h-full object-contain p-3 bg-white";
+      imgWrap.appendChild(img);
+    });
+  }
 
   return card;
-}
-
-function loadImageFor(p, img, placeholder) {
-  resolveImageUrl(p.barcode).then(url => {
-    if (!url) return; // keep placeholder
-    img.onload = () => {
-      img.classList.remove("loading"); // fades opacity 0 → 1 via CSS
-      placeholder.style.opacity = "0";
-    };
-    img.onerror = () => { /* keep placeholder */ };
-    img.src = url;
-  });
 }
 
 function buildCatalog() {
@@ -166,8 +171,7 @@ function applySearch(term) {
   resultCountEl.textContent = t ? `${visible} αποτελέσματα` : `${PRODUCTS.length} προϊόντα συνολικά`;
 }
 
-// Init — kick off manifest fetch immediately so cards have URLs by render time
-getImageManifest();
+// Init
 buildBrandNav();
 buildCatalog();
 applySearch("");
