@@ -5,77 +5,98 @@ const BRANDS = {
   apivita: {
     name: "Apivita",
     accent: "#f5b400",
-    tagline: "Bee Sun Safe - Ελληνική φυσική φροντίδα με μέλι & βότανα"
+    tagline: "Bee Sun Safe - Ελληνική φυσική φροντίδα με μέλι & βότανα",
+    discount: "32% - 33,5%"
   },
   bioderma: {
     name: "Bioderma Photoderm",
     accent: "#0072bb",
-    tagline: "Δερματολογική προστασία με Cellular Bioprotection™"
+    tagline: "Δερματολογική προστασία με Cellular Bioprotection™",
+    discount: "26% - 27,5%"
   },
   frezyderm: {
     name: "Frezyderm",
     accent: "#e30613",
-    tagline: "Ελληνική δερμοκαλλυντική για κάθε τύπο δέρματος"
+    tagline: "Ελληνική δερμοκαλλυντική για κάθε τύπο δέρματος",
+    discount: "27% - 28,5%"
   },
   freshline: {
     name: "Fresh Line",
     accent: "#7a9e3f",
-    tagline: "Φυσικά καλλυντικά εμπνευσμένα από την ελληνική παράδοση"
+    tagline: "Φυσικά καλλυντικά εμπνευσμένα από την ελληνική παράδοση",
+    discount: "34% - 35,5%"
   },
   heliodor: {
     name: "Heliodor Pharmasept",
     accent: "#ff8a00",
-    tagline: "Προστασία υψηλής ποιότητας με ελληνική σφραγίδα"
+    tagline: "Προστασία υψηλής ποιότητας με ελληνική σφραγίδα",
+    discount: "25% - 26,5%"
   },
   korres: {
     name: "Korres",
     accent: "#6b8e23",
-    tagline: "Yoghurt, Red Vine & Aegean Bronze - φυσικά συστατικά"
+    tagline: "Yoghurt, Red Vine & Aegean Bronze - φυσικά συστατικά",
+    discount: "27% - 28,5%"
   },
   laroche: {
     name: "La Roche-Posay",
     accent: "#003a70",
-    tagline: "Anthelios - δερματολογική αντηλιακή προστασία UVMune"
+    tagline: "Anthelios - δερματολογική αντηλιακή προστασία UVMune",
+    discount: "19% - 20,5%",
+    discountNote: "L'Oréal Group"
   },
   vichy: {
     name: "Vichy",
     accent: "#d72660",
-    tagline: "Capital Soleil & Idéal Soleil - εξειδικευμένη φωτοπροστασία"
+    tagline: "Capital Soleil & Idéal Soleil - εξειδικευμένη φωτοπροστασία",
+    discount: "19% - 20,5%",
+    discountNote: "L'Oréal Group"
   },
   cerave: {
     name: "CeraVe",
     accent: "#0064a4",
-    tagline: "Αντηλιακή φροντίδα με κεραμίδια & υαλουρονικό"
+    tagline: "Αντηλιακή φροντίδα με κεραμίδια & υαλουρονικό",
+    discount: "19% - 20,5%",
+    discountNote: "L'Oréal Group"
   },
   luxurious: {
     name: "Luxurious Suncare",
     accent: "#d4a017",
-    tagline: "Ελληνική γκάμα αντηλιακών για πρόσωπο & σώμα"
+    tagline: "Ελληνική γκάμα αντηλιακών για πρόσωπο & σώμα",
+    discount: "32% - 33,5%"
   },
   aderma: {
     name: "A-Derma (Pierre Fabre)",
     accent: "#3a8c4a",
-    tagline: "Protect & Epitheliale - φυτική προστασία με Βρώμη Realba"
+    tagline: "Protect & Epitheliale - φυτική προστασία με Βρώμη Realba",
+    discount: "20% - 21,5%",
+    discountNote: "Pierre Fabre Group"
   },
   avene: {
     name: "Avène (Pierre Fabre)",
     accent: "#0090c8",
-    tagline: "Très Haute Protection με Θερμομεταλλικό νερό Avène"
+    tagline: "Très Haute Protection με Θερμομεταλλικό νερό Avène",
+    discount: "20% - 21,5%",
+    discountNote: "Pierre Fabre Group"
   },
   ducray: {
     name: "Ducray (Pierre Fabre)",
     accent: "#7c2d3e",
-    tagline: "Melascreen - εξειδικευμένη φροντίδα κατά των κηλίδων"
+    tagline: "Melascreen - εξειδικευμένη φροντίδα κατά των κηλίδων",
+    discount: "20% - 21,5%",
+    discountNote: "Pierre Fabre Group"
   },
   svr: {
     name: "SVR",
     accent: "#00a09b",
-    tagline: "Sun Secure - υψηλή προστασία για ευαίσθητα δέρματα"
+    tagline: "Sun Secure - υψηλή προστασία για ευαίσθητα δέρματα",
+    discount: "24% - 25,5%"
   },
   isdin: {
     name: "ISDIN",
     accent: "#005ca9",
-    tagline: "Fotoprotector & Fotoultra - ισπανική φωτοπροστασία"
+    tagline: "Fotoprotector & Fotoultra - ισπανική φωτοπροστασία",
+    discount: "17% - 18,5%"
   }
 };
 

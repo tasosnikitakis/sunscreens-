@@ -130,13 +130,29 @@ function buildCatalog() {
     section.dataset.brand = key;
 
     section.innerHTML = `
-      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2" style="border-color:${brand.accent}">
+      <div class="flex items-end justify-between gap-3 mb-3 pb-3 border-b-2" style="border-color:${brand.accent}">
         <div>
           <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" style="color:${brand.accent}">${brand.name}</h2>
           <p class="text-sm text-slate-500 mt-1">${brand.tagline}</p>
         </div>
         <div class="text-sm text-slate-400 font-medium whitespace-nowrap">${products.length} προϊόντα</div>
       </div>
+      ${brand.discount ? `
+      <div class="mb-5 rounded-xl p-3 sm:p-4 flex flex-wrap items-center gap-x-4 gap-y-2"
+           style="background:${brand.accent}14;border-left:4px solid ${brand.accent}">
+        <div class="flex items-center gap-2">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5" style="color:${brand.accent}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z"/>
+          </svg>
+          <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider" style="color:${brand.accent}">
+            Έκπτωση επί τιμολογίου
+          </span>
+        </div>
+        <div class="text-lg sm:text-xl font-bold text-slate-800">${brand.discount}</div>
+        ${brand.discountNote ? `<div class="text-xs text-slate-500 italic">(${brand.discountNote})</div>` : ""}
+        <div class="text-xs text-slate-500 ml-auto hidden sm:block">για αρχική παραγγελία &gt; 40 τμχ</div>
+      </div>
+      ` : ""}
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4" data-grid></div>
     `;
 
