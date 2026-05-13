@@ -3,6 +3,19 @@
 const OBF_API = "https://world.openbeautyfacts.org/api/v2/product/";
 const OBF_CACHE_KEY = "obf_cache_v1";
 
+// Local image manifest: { "<barcode>": "<filename>" }
+let imageManifest = null;
+let manifestPromise = null;
+function getImageManifest() {
+  if (imageManifest) return Promise.resolve(imageManifest);
+  if (manifestPromise) return manifestPromise;
+  manifestPromise = fetch("images/manifest.json", { cache: "force-cache" })
+    .then(r => r.ok ? r.json() : {})
+    .catch(() => ({}))
+    .then(m => { imageManifest = m || {}; return imageManifest; });
+  return manifestPromise;
+}
+
 function loadCache() {
   try { return JSON.parse(localStorage.getItem(OBF_CACHE_KEY) || "{}"); }
   catch { return {}; }
@@ -122,10 +135,23 @@ function shade(hex, percent) {
 }
 
 function imageUrlFor(barcode, obfData) {
+  // Prefer local image from manifest, then fall back to OBF
+  if (imageManifest && imageManifest[barcode]) {
+    return `images/${imageManifest[barcode]}`;
+  }
   if (obfData) {
     return obfData.image_front_url || obfData.image_url || null;
   }
   return null;
+}
+
+// Resolve image url for a product: local manifest first, OBF as fallback.
+// Returns a Promise<string|null>.
+async function resolveImageUrl(barcode) {
+  await getImageManifest();
+  if (imageManifest && imageManifest[barcode]) return `images/${imageManifest[barcode]}`;
+  const data = await fetchOBF(barcode);
+  return imageUrlFor(barcode, data);
 }
 
 function placeholderEl(brandKey, name) {

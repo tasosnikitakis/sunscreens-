@@ -90,11 +90,10 @@ function render(p) {
     ` : ""}
   `;
 
-  // Load hero image from OBF
+  // Load hero image (local manifest first, OBF fallback) + OBF extra info in parallel
   const heroImg = document.getElementById("hero-img");
   const ph = document.getElementById("ph");
-  fetchOBF(p.barcode).then(data => {
-    const url = imageUrlFor(p.barcode, data);
+  resolveImageUrl(p.barcode).then(url => {
     if (url) {
       heroImg.onload = () => {
         heroImg.style.opacity = "1";
@@ -102,8 +101,8 @@ function render(p) {
       };
       heroImg.src = url;
     }
-    renderOBFExtra(data);
   });
+  fetchOBF(p.barcode).then(renderOBFExtra);
 
   // Related
   const relWrap = document.getElementById("related");
@@ -165,9 +164,8 @@ function miniCard(p, brand) {
   `;
   a.appendChild(body);
 
-  // Async OBF
-  fetchOBF(p.barcode).then(data => {
-    const url = imageUrlFor(p.barcode, data);
+  // Async image (local manifest first, OBF fallback)
+  resolveImageUrl(p.barcode).then(url => {
     if (!url) return;
     const img = wrap.querySelector("img");
     img.onload = () => { img.style.opacity = "1"; };
