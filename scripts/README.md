@@ -38,11 +38,24 @@ node scripts/fetch-images.mjs --delay=400
 
 ### Τι κάνει για κάθε προϊόν
 
-1. Ψάχνει στο **Skroutz** με βάση το barcode (EAN).
-2. Αν αποτύχει, ψάχνει στο Skroutz με βάση το όνομα.
-3. Αν αποτύχει, δοκιμάζει **Open Beauty Facts API**.
-4. Κατεβάζει την εικόνα στο `images/{barcode}.{jpg|png|webp}`.
-5. Ενημερώνει το `images/manifest.json` αμέσως (resumable αν διακοπεί).
+Δοκιμάζει με τη σειρά:
+
+1. **Bing Image Search** (κύρια πηγή — πιο αξιόπιστη).
+2. **DuckDuckGo search** + οpen graph images από Greek pharmacy retailers (vita4you, pharm24, fr.com, kosmas, farmasi κλπ).
+3. **Skroutz** (συχνά μπλοκάρει bots).
+4. **Open Beauty Facts API**.
+
+Όταν βρει εικόνα, την κατεβάζει στο `images/{barcode}.{jpg|png|webp}` και ενημερώνει το `images/manifest.json` αμέσως (resumable).
+
+### Debug / Test
+
+Για να δείτε τι ακριβώς αποτυγχάνει σε ένα συγκεκριμένο προϊόν:
+
+```bash
+node scripts/fetch-images.mjs --test=5201279080198 --debug
+```
+
+Αυτό τρέχει όλες τις πηγές για το ένα EAN και εκτυπώνει αναλυτικά τι έγινε σε κάθε βήμα (HTTP status, αν βρήκε ή όχι, ποιο URL κατέβηκε).
 
 ### Έπειτα
 
