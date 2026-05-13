@@ -4,12 +4,15 @@ const OBF_API = "https://world.openbeautyfacts.org/api/v2/product/";
 const OBF_CACHE_KEY = "obf_cache_v1";
 
 // Local image manifest: { "<barcode>": "<filename>" }
+// IMAGE_MANIFEST_VERSION is bumped manually whenever new images are committed,
+// to bust the browser cache. (GitHub Pages caches static assets up to ~10 min.)
+const IMAGE_MANIFEST_VERSION = "3";
 let imageManifest = null;
 let manifestPromise = null;
 function getImageManifest() {
   if (imageManifest) return Promise.resolve(imageManifest);
   if (manifestPromise) return manifestPromise;
-  manifestPromise = fetch("images/manifest.json", { cache: "force-cache" })
+  manifestPromise = fetch(`images/manifest.json?v=${IMAGE_MANIFEST_VERSION}`, { cache: "no-store" })
     .then(r => r.ok ? r.json() : {})
     .catch(() => ({}))
     .then(m => { imageManifest = m || {}; return imageManifest; });
