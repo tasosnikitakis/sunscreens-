@@ -6,7 +6,7 @@ const OBF_CACHE_KEY = "obf_cache_v1";
 // Local image manifest: { "<barcode>": "<filename>" }
 // IMAGE_MANIFEST_VERSION is bumped manually whenever new images are committed,
 // to bust the browser cache. (GitHub Pages caches static assets up to ~10 min.)
-const IMAGE_MANIFEST_VERSION = "4";
+const IMAGE_MANIFEST_VERSION = "5";
 let imageManifest = null;
 let manifestPromise = null;
 function getImageManifest() {
