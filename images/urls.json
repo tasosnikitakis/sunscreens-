@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual barcode → image URL overrides. Format: \"<barcode>\": \"<image-url>\". The script downloads these first before trying any search engine. Use for problem products that automated discovery misses.",
+  "_example_5201279080198": "https://www.apivita.com/media/catalog/product/cache/.../bee-sun-safe.jpg"
+}
