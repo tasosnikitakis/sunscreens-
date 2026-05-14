@@ -493,4 +493,50 @@ const PRODUCTS = [
   { id: "2200045086", barcode: "8429420245297", brand: "isdin", name: "ISDIN Fotoultra Redness Control SPF50 50ml", price: 23.69 }
 ];
 
-if (typeof module !== 'undefined') module.exports = { BRANDS, PRODUCTS };
+// ===== Best Sellers (Ελληνική αγορά, βάσει έρευνας 2025-2026) =====
+//
+// Επιλέχθηκαν με βάση τα παρακάτω σημεία αναφοράς:
+// - Δείκτες πωλήσεων online φαρμακείων (Skroutz/BestPrice, vita4you, pharmacy295,
+//   bestpharmacy, ofarmakopoiosmou, smile-pharmacy, fotopharmacy κ.ά.)
+// - Συστάσεις δερματολόγων και τύπος / έντυπα ομορφιάς
+// - Δημοτικότητα ίδιας γραμμής διεθνώς και αναγνωρισιμότητα της τεχνολογίας
+//   (π.χ. Mexoryl 400 / UVMune 400, Second Skin Technology, Cellular Bioprotection)
+//
+// Πρόκειται για δημόσια στοιχεία αγοράς και επαγγελματική κρίση,
+// όχι για στοιχεία πωλήσεων του προμηθευτή.
+
+const BESTSELLERS = {
+  // Top 10 της ελληνικής φαρμακευτικής αγοράς αντηλιακών προσώπου (με σειρά κατάταξης)
+  topOverall: [
+    "3337875797665", // La Roche-Posay Anthelios Ultra UVMune 400 SPF50+
+    "3337875762298", // Vichy Capital Soleil UV-Age Daily SPF50+
+    "5201279080181", // Apivita Bee Sun Safe Anti-Spot Anti-Age SPF50
+    "5202888222290", // Frezyderm Sunscreen Velvet Face SPF50+
+    "3701129803523", // Bioderma Photoderm Crème SPF50+
+    "5203069126413", // Korres Yoghurt Face SPF50
+    "8470001631688", // ISDIN Fotoultra Fusion Fluid Spot Prevent SPF50+
+    "3337875945769", // CeraVe Hydrating Sunscreen SPF50+ 75ml
+    "3282770392654", // Avène Ultra Fluid Invisible SPF50
+    "3337875847292"  // La Roche-Posay Anthelios Fluide Oil Control UVMune SPF50+
+  ],
+  // Κορυφαίο προϊόν ανά εταιρία στην ελληνική αγορά
+  perBrand: {
+    apivita:   "5201279080181",
+    bioderma:  "3701129803523",
+    frezyderm: "5202888222290",
+    freshline: "5204989135592",
+    heliodor:  "5205122003358",
+    korres:    "5203069126413",
+    laroche:   "3337875797665",
+    vichy:     "3337875762298",
+    cerave:    "3337875945769",
+    luxurious: "5205152018094",
+    aderma:    "3282770072716",
+    avene:     "3282770392654",
+    ducray:    "3282770389272",
+    svr:       "3662361001729",
+    isdin:     "8470001631688"
+  }
+};
+
+if (typeof module !== 'undefined') module.exports = { BRANDS, PRODUCTS, BESTSELLERS };
