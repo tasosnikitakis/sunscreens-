@@ -111,6 +111,21 @@ async function loadProducts() {
   const ctx = {};
   vm.createContext(ctx);
   vm.runInContext(code + "\nglobalThis.__OUT={PRODUCTS,BRANDS};", ctx);
+
+  // Also include cosmetics products if the file exists. We flatten them into
+  // PRODUCTS so a single run downloads images for both catalogs.
+  const cosmeticsPath = path.join(ROOT, "js/cosmetics-data.js");
+  try {
+    const ccode = await fs.readFile(cosmeticsPath, "utf8");
+    const cctx = {};
+    vm.createContext(cctx);
+    vm.runInContext(ccode + "\nglobalThis.__OUT={COSMETICS_PRODUCTS,COSMETICS_BRANDS};", cctx);
+    const cosmetics = cctx.__OUT.COSMETICS_PRODUCTS || [];
+    // Mark cosmetic products so brand-direct searches use the right domain map.
+    cosmetics.forEach(c => { c.__cosmetic = true; });
+    ctx.__OUT.PRODUCTS = [...ctx.__OUT.PRODUCTS, ...cosmetics];
+  } catch { /* cosmetics-data.js not present yet */ }
+
   return ctx.__OUT;
 }
 

@@ -46,7 +46,18 @@ async function loadProducts() {
   vm.createContext(ctx);
   const data = await fs.readFile(path.join(ROOT, "js/data.js"), "utf8");
   vm.runInContext(data + "\nglobalThis.PRODUCTS=PRODUCTS;", ctx);
-  return ctx.PRODUCTS;
+  const products = [...ctx.PRODUCTS];
+
+  // Also include cosmetics
+  try {
+    const ccode = await fs.readFile(path.join(ROOT, "js/cosmetics-data.js"), "utf8");
+    const cctx = {};
+    vm.createContext(cctx);
+    vm.runInContext(ccode + "\nglobalThis.COSMETICS=COSMETICS_PRODUCTS;", cctx);
+    products.push(...(cctx.COSMETICS || []));
+  } catch {}
+
+  return products;
 }
 
 async function main() {

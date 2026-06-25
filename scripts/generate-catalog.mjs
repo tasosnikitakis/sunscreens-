@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // scripts/generate-catalog.mjs
-// Παράγει catalog.csv (UTF-8 BOM, semicolon) ΚΑΙ catalog.xlsx (native Excel)
-// με όλα τα προϊόντα του καταλόγου σε ξεχωριστές στήλες.
+// Παράγει 4 αρχεία:
+//   catalog.csv              + catalog.xlsx           — αντηλιακά (sunscreens)
+//   cosmetics-catalog.csv    + cosmetics-catalog.xlsx — καλλυντικά
 //
 // Χρήση:  node scripts/generate-catalog.mjs
 
@@ -13,11 +14,10 @@ import { buildXlsx } from "./lib-xlsx.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const CSV_FILE = path.join(ROOT, "catalog.csv");
-const XLSX_FILE = path.join(ROOT, "catalog.xlsx");
 
-// Λεκτικά intro ανά εταιρία (αντιγραφή από product.js)
-const INTROS = {
+// ===== Sunscreens descriptions =====
+
+const SUN_INTROS = {
   apivita: "Από τη γραμμή Bee Sun Safe της APIVITA, εμπνευσμένη από την προστατευτική δύναμη της μέλισσας και τη φύση της Ελλάδας.",
   bioderma: "Από τη Photoderm της Bioderma με αποκλειστική τεχνολογία Cellular Bioprotection™ για ολοκληρωμένη προστασία σε κυτταρικό επίπεδο.",
   frezyderm: "Ελληνικής παραγωγής από τη Frezyderm, με ασφαλή & καινοτόμα φίλτρα και εξειδικευμένες συνθέσεις για κάθε ανάγκη.",
@@ -35,21 +35,16 @@ const INTROS = {
   isdin: "Από την ISDIN με τις γραμμές Fotoprotector & Fotoultra — κορυφαία ισπανική φωτοπροστασία."
 };
 
-function buildDescription(p, parsed, brand) {
-  const bits = [];
-  bits.push(INTROS[p.brand] || `Προϊόν από τη γκάμα της ${brand.name}.`);
-
+function sunscreenDescription(p, parsed, brand) {
+  const bits = [SUN_INTROS[p.brand] || `Προϊόν από τη γκάμα της ${brand.name}.`];
   if (parsed.spf) {
     const n = parseInt(parsed.spf);
     if (n >= 50) bits.push(`Πολύ υψηλή αντηλιακή προστασία (SPF ${parsed.spf}) ενάντια σε UVB και UVA ακτινοβολία.`);
     else if (n >= 30) bits.push(`Υψηλή αντηλιακή προστασία (SPF ${parsed.spf}).`);
     else bits.push(`Αντηλιακή προστασία SPF ${parsed.spf}.`);
   }
-  if (parsed.types.length) {
-    bits.push(`Σε υφή ${parsed.types.join(" / ").toLowerCase()}${parsed.volume ? ", συσκευασία " + parsed.volume : ""}.`);
-  } else if (parsed.volume) {
-    bits.push(`Συσκευασία ${parsed.volume}.`);
-  }
+  if (parsed.types.length) bits.push(`Σε υφή ${parsed.types.join(" / ").toLowerCase()}${parsed.volume ? ", συσκευασία " + parsed.volume : ""}.`);
+  else if (parsed.volume) bits.push(`Συσκευασία ${parsed.volume}.`);
   if (parsed.audience.includes("Παιδικό")) bits.push("Κατάλληλο για παιδιά.");
   if (parsed.audience.includes("Ευαίσθητο δέρμα")) bits.push("Ειδικά για ευαίσθητο δέρμα.");
   if (parsed.audience.includes("Anti-Aging")) bits.push("Δράση κατά της φωτογήρανσης και των ρυτίδων.");
@@ -63,16 +58,73 @@ function buildDescription(p, parsed, brand) {
   return bits.join(" ");
 }
 
-// CSV cell quoting (RFC 4180-ish, semicolon variant)
+// ===== Cosmetics descriptions =====
+
+const COS_INTROS = {
+  vichy: "Από τη Vichy, με την αποκλειστική θερμομεταλλική σύνθεση Vichy Mineralizing Water εμπλουτισμένη με 15 ιχνοστοιχεία.",
+  laroche: "Από τη La Roche-Posay με δερματολογικά ελεγμένη σύνθεση και την La Roche-Posay Thermal Spring Water.",
+  cerave: "Από τη CeraVe, με 3 βασικά κεραμίδια και την τεχνολογία MVE για ενίσχυση του δερματικού φραγμού επί 24 ώρες."
+};
+const COS_LINE_NOTES = {
+  "Liftactiv": "Από τη γραμμή Liftactiv — anti-aging με βιταμίνη C και ρετινόλη.",
+  "Neovadiol": "Από τη Neovadiol — εξειδικευμένη anti-aging φροντίδα για ώριμο δέρμα.",
+  "Mineral 89": "Από τη Mineral 89 — daily booster με υαλουρονικό οξύ και 89% θερμομεταλλικό νερό Vichy.",
+  "Purete Thermale": "Από τη Purete Thermale — προϊόντα καθαρισμού & demaquillage.",
+  "Vichy Homme": "Από τη γραμμή Vichy Homme για άνδρες.",
+  "Dercos": "Από τη γραμμή Dercos — εξειδικευμένη φροντίδα τριχωτής κεφαλής & μαλλιών.",
+  "Dermablend": "Από τη γραμμή Dermablend — υψηλής κάλυψης corrective makeup.",
+  "Capital Soleil": "Από τη Capital Soleil — αντηλιακή και αντι-φωτογηραντική προστασία.",
+  "Effaclar": "Από τη γραμμή Effaclar — λιπαρό δέρμα με τάση ακμής.",
+  "Toleriane": "Από τη γραμμή Toleriane — εξαιρετικά ευαίσθητο δέρμα.",
+  "Toleriane Makeup": "Από τη Toleriane Makeup — υποαλλεργικό makeup για ευαίσθητο δέρμα.",
+  "Cicaplast": "Από τη Cicaplast — επανορθωτική φροντίδα με Panthenol και Madecassoside.",
+  "Lipikar": "Από τη Lipikar — ξηρό προς ατοπικό δέρμα.",
+  "LIPIKAR": "Από τη Lipikar — ξηρό προς ατοπικό δέρμα.",
+  "Hyalu B5": "Από τη Hyalu B5 — anti-aging φόρμουλα με υαλουρονικό οξύ και Β5.",
+  "Mela B3": "Από τη Mela B3 — στοχευμένη φροντίδα κατά των πανάδων και δυσχρωμιών με Melasyl™.",
+  "Retinol LRP": "Από τη γραμμή Retinol — pure retinol για ανανέωση επιδερμίδας.",
+  "Anthelios": "Από την Anthelios — υψηλή αντηλιακή προστασία UVMune 400.",
+  "Pure Vitamin C": "Από τη Pure Vitamin C — antioxidant brightening με 10% καθαρή Βιταμίνη C.",
+  "Hyaluronic Acid Serum": "Hydrating serum με υαλουρονικό για ενυδάτωση και αναπλήρωση.",
+  "Hydrating Cleanser": "Καθαρισμός χωρίς να αφυδατώνει — με κεραμίδια και υαλουρονικό.",
+  "Hydrating Sunscreen": "Αντηλιακή προστασία με ενυδάτωση 24 ωρών.",
+  "Moisturizing Cream + Lotion": "Πλούσια ενυδάτωση επί 24 ώρες με 3 κεραμίδια.",
+  "Facial Moisturizers": "Καθημερινή ενυδάτωση προσώπου με κεραμίδια.",
+  "Skin Renewal Anti-Aging": "Anti-aging φροντίδα με ρετινόλη και κεραμίδια.",
+  "SA": "Με σαλικυλικό οξύ — απολέπιση και smoothing για τραχύ δέρμα.",
+  "Acne": "Στοχευμένη φροντίδα για δέρμα με τάση ακμής."
+};
+
+function cosmeticDescription(p, brand) {
+  const bits = [COS_INTROS[p.brand] || `Προϊόν από τη γκάμα της ${brand.name}.`];
+  if (p.line && COS_LINE_NOTES[p.line]) bits.push(COS_LINE_NOTES[p.line]);
+  else if (p.line) bits.push(`Από τη γραμμή ${p.line}.`);
+  return bits.join(" ");
+}
+
+// ===== CSV helpers =====
+
 function csvCell(v) {
   let s = String(v ?? "");
-  // Strip newlines for one-line cells in Excel
   s = s.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
-  if (/[";]/.test(s)) {
-    s = '"' + s.replace(/"/g, '""') + '"';
-  }
+  if (/[";]/.test(s)) s = '"' + s.replace(/"/g, '""') + '"';
   return s;
 }
+function fmtCsv(v) {
+  if (typeof v === "number" && Number.isFinite(v)) return v.toFixed(2).replace(".", ",");
+  return v;
+}
+const BOM = "﻿";
+
+function emitCsv(file, headers, rows) {
+  const lines = [
+    headers.map(csvCell).join(";"),
+    ...rows.map(row => row.map(c => csvCell(fmtCsv(c))).join(";"))
+  ];
+  return fs.writeFile(file, BOM + lines.join("\r\n"), "utf8");
+}
+
+// ===== Load context =====
 
 async function loadContext() {
   const ctx = {
@@ -82,95 +134,95 @@ async function loadContext() {
     fetch: () => Promise.resolve({ ok: false })
   };
   vm.createContext(ctx);
-  const data = await fs.readFile(path.join(ROOT, "js/data.js"), "utf8");
-  vm.runInContext(data + "\nglobalThis.PRODUCTS=PRODUCTS;globalThis.BRANDS=BRANDS;", ctx);
-  const manifest = await fs.readFile(path.join(ROOT, "images/manifest.js"), "utf8");
-  vm.runInContext(manifest, ctx);
-  const utils = await fs.readFile(path.join(ROOT, "js/utils.js"), "utf8");
-  vm.runInContext(utils + "\nglobalThis.parseProduct=parseProduct;", ctx);
+  vm.runInContext(await fs.readFile(path.join(ROOT, "js/data.js"), "utf8")
+    + "\nglobalThis.PRODUCTS=PRODUCTS;globalThis.BRANDS=BRANDS;", ctx);
+  vm.runInContext(await fs.readFile(path.join(ROOT, "images/manifest.js"), "utf8"), ctx);
+  vm.runInContext(await fs.readFile(path.join(ROOT, "js/utils.js"), "utf8")
+    + "\nglobalThis.parseProduct=parseProduct;", ctx);
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/cosmetics-data.js"), "utf8")
+      + "\nglobalThis.COSMETICS_PRODUCTS=COSMETICS_PRODUCTS;globalThis.COSMETICS_BRANDS=COSMETICS_BRANDS;", ctx);
+  } catch {}
   return ctx;
+}
+
+// ===== Build sunscreens table =====
+
+function buildSunscreensTable(ctx, manifest) {
+  const headers = [
+    "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
+    "Τύπος", "Περιοχή", "Χαρακτηριστικά",
+    "Εταιρία", "Φωτογραφία", "Κωδικός",
+    "Barcode (EAN)", "SPF", "Συσκευασία"
+  ];
+  const rows = ctx.PRODUCTS.map(p => {
+    const brand = ctx.BRANDS[p.brand];
+    const parsed = ctx.parseProduct(p);
+    return [
+      p.name, p.price, sunscreenDescription(p, parsed, brand),
+      parsed.types.join(", "), parsed.areas.join(", "), parsed.audience.join(", "),
+      brand.name, manifest[p.barcode] || "", p.id,
+      p.barcode, parsed.spf || "", parsed.volume || ""
+    ];
+  });
+  return { headers, rows, sheetName: "Αντηλιακά 2026", barcodeColIdx: 9,
+    columnWidths: [50, 14, 70, 18, 18, 30, 18, 50, 12, 16, 8, 12] };
+}
+
+function buildCosmeticsTable(ctx, manifest) {
+  if (!ctx.COSMETICS_PRODUCTS) return null;
+  const headers = [
+    "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
+    "Γραμμή", "Εταιρία", "Φωτογραφία",
+    "Κωδικός", "Barcode (EAN)", "ΦΠΑ", "Επίσημη ονομασία"
+  ];
+  const rows = ctx.COSMETICS_PRODUCTS.map(p => {
+    const brand = ctx.COSMETICS_BRANDS[p.brand];
+    return [
+      p.name, p.price, cosmeticDescription(p, brand),
+      p.line, brand.name, manifest[p.barcode] || "",
+      p.id, p.barcode, p.vat || 24, p.rawName || ""
+    ];
+  });
+  return { headers, rows, sheetName: "Καλλυντικά 2026", barcodeColIdx: 7,
+    columnWidths: [50, 14, 70, 22, 18, 50, 14, 16, 8, 45] };
+}
+
+// ===== Emit XLSX/CSV for a table =====
+
+async function emitTable(table, csvPath, xlsxPath, label) {
+  if (!table) return;
+  await emitCsv(csvPath, table.headers, table.rows);
+  // Barcode column stored as text so Excel doesn't convert to scientific notation.
+  const xlsxRows = table.rows.map(row => row.map((cell, i) =>
+    (i === table.barcodeColIdx && cell != null && cell !== "") ? String(cell) : cell
+  ));
+  const xlsxBuf = buildXlsx({
+    sheetName: table.sheetName,
+    headers: table.headers,
+    rows: xlsxRows,
+    columnWidths: table.columnWidths
+  });
+  await fs.writeFile(xlsxPath, xlsxBuf);
+  console.log(`Wrote ${label}: ${table.rows.length} προϊόντα — ${csvPath} + ${xlsxPath}`);
 }
 
 async function main() {
   const ctx = await loadContext();
   const manifest = ctx.window.IMAGE_MANIFEST || {};
 
-  const headers = [
-    "Όνομα",
-    "Χονδρική τιμή (€)",
-    "Περιγραφή",
-    "Τύπος",
-    "Περιοχή",
-    "Χαρακτηριστικά",
-    "Εταιρία",
-    "Φωτογραφία",
-    "Κωδικός",
-    "Barcode (EAN)",
-    "SPF",
-    "Συσκευασία"
-  ];
-
-  const rows = ctx.PRODUCTS.map(p => {
-    const brand = ctx.BRANDS[p.brand];
-    const parsed = ctx.parseProduct(p);
-    return [
-      p.name,
-      p.price,                                   // number — Excel θα μπορεί να ταξινομήσει
-      buildDescription(p, parsed, brand),
-      parsed.types.join(", "),
-      parsed.areas.join(", "),
-      parsed.audience.join(", "),
-      brand.name,
-      manifest[p.barcode] || "",
-      p.id,
-      p.barcode,                                 // string (EAN — διατηρούμε leading zeros)
-      parsed.spf || "",
-      parsed.volume || ""
-    ];
-  });
-
-  // ----- CSV (UTF-8 BOM, semicolon, comma decimal για ελληνικό Excel) -----
-  function fmtCsv(v) {
-    if (typeof v === "number" && Number.isFinite(v)) return v.toFixed(2).replace(".", ",");
-    return v;
-  }
-  const lines = [
-    headers.map(csvCell).join(";"),
-    ...rows.map(row => row.map(c => csvCell(fmtCsv(c))).join(";"))
-  ];
-  const BOM = "﻿";
-  await fs.writeFile(CSV_FILE, BOM + lines.join("\r\n"), "utf8");
-  console.log(`Wrote ${CSV_FILE} — ${rows.length} προϊόντα, ${headers.length} στήλες.`);
-
-  // ----- XLSX (native Excel) -----
-  const columnWidths = [
-    50,  // Όνομα
-    14,  // Χονδρική τιμή
-    70,  // Περιγραφή
-    18,  // Τύπος
-    18,  // Περιοχή
-    30,  // Χαρακτηριστικά
-    18,  // Εταιρία
-    50,  // Φωτογραφία
-    12,  // Κωδικός
-    16,  // Barcode
-    8,   // SPF
-    12   // Συσκευασία
-  ];
-  // Barcodes (col 10, 0-indexed 9) stored as text — αλλιώς το Excel τα μετατρέπει
-  // σε επιστημονική σημείωση.
-  const xlsxRows = rows.map(row => row.map((cell, i) => {
-    if (i === 9 && cell != null && cell !== "") return String(cell);
-    return cell;
-  }));
-  const xlsxBuf = buildXlsx({
-    sheetName: "Αντηλιακά 2026",
-    headers,
-    rows: xlsxRows,
-    columnWidths
-  });
-  await fs.writeFile(XLSX_FILE, xlsxBuf);
-  console.log(`Wrote ${XLSX_FILE} — ${xlsxBuf.length.toLocaleString()} bytes.`);
+  await emitTable(
+    buildSunscreensTable(ctx, manifest),
+    path.join(ROOT, "catalog.csv"),
+    path.join(ROOT, "catalog.xlsx"),
+    "Αντηλιακά"
+  );
+  await emitTable(
+    buildCosmeticsTable(ctx, manifest),
+    path.join(ROOT, "cosmetics-catalog.csv"),
+    path.join(ROOT, "cosmetics-catalog.xlsx"),
+    "Καλλυντικά"
+  );
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
