@@ -375,14 +375,34 @@ function extFromContentType(ct, url) {
   return "jpg";
 }
 
-async function downloadImage(url, barcode) {
+// Slug γενιά - πρέπει να ταυτίζεται με το rename-images.mjs ώστε όνομα αρχείου
+// = "<product-slug>-<barcode>.<ext>"
+function slugify(name) {
+  return name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[Ͱ-Ͽἀ-῿]/g, " ")
+    .replace(/[+]/g, "")
+    .replace(/[&]/g, " ")
+    .replace(/[\/\\]/g, "-")
+    .replace(/[^\w\s-]/g, " ")
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 70)
+    .replace(/-+$/, "");
+}
+
+async function downloadImage(url, barcode, product) {
   dbg(`download ${url}`);
   const res = await fetch(url, { headers: { "User-Agent": pickUA(), "Referer": "https://www.bing.com/" } });
   if (!res.ok) throw new Error(`download HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 1500) throw new Error("image too small (probably blocked)");
   const e = extFromContentType(res.headers.get("content-type"), url);
-  const filename = `${barcode}.${e}`;
+  const slug = product ? slugify(product.name) : "";
+  const filename = slug ? `${slug}-${barcode}.${e}` : `${barcode}.${e}`;
   await fs.writeFile(path.join(IMG_DIR, filename), buf);
   dbg(`saved ${filename} (${buf.length} bytes)`);
   return filename;
@@ -418,7 +438,7 @@ async function processProduct(p, manifest, ctx, idx, total) {
     try {
       const url = await src.find(p, ctx);
       if (!url) continue;
-      const filename = await downloadImage(url, p.barcode);
+      const filename = await downloadImage(url, p.barcode, p);
       manifest[p.barcode] = filename;
       if (!DEBUG) console.log(`${label} OK  via ${src.name} -> ${filename}`);
       else console.log(`   => OK via ${src.name}: ${filename}`);
