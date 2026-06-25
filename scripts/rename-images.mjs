@@ -36,8 +36,67 @@ export function slugify(name) {
     .replace(/-+$/, "");
 }
 
+// Expand cryptic cosmetic SKU descriptions before slugifying so the file
+// name reflects what the product actually is. Mirrors expandCosmeticName
+// in scripts/fetch-images.mjs.
+function expandCosmeticName(p) {
+  const base = (p.rawName || p.name || "").toString();
+  let s = " " + base + " ";
+  const abbr = [
+    [/\bPT\b/gi, "Purete Thermale"],
+    [/\bM\.?89\b/gi, "Mineral 89"],
+    [/\bMIN\.?\s?89\b/gi, "Mineral 89"],
+    [/\bLFT\b/gi, "Liftactiv"],
+    [/\bLIFT\b(?!ACT)/gi, "Liftactiv"],
+    [/\bNEO\b/gi, "Neovadiol"],
+    [/\bDB\b/gi, "Dermablend"],
+    [/\bDEM\b/gi, "Dermablend"],
+    [/\bEFF\b/gi, "Effaclar"],
+    [/\bTOL\b/gi, "Toleriane"],
+    [/\bCICA\b/gi, "Cicaplast"],
+    [/\bLIP\b/gi, "Lipikar"],
+    [/\bHOM\b/gi, "Homme"],
+    [/\bWAT\b/gi, "Water"],
+    [/\bMIC\b/gi, "Micellar"],
+    [/\bSENS\b/gi, "Sensitive"],
+    [/\bCRM?\b/gi, "Cream"],
+    [/\bLOT\b/gi, "Lotion"],
+    [/\bSPR\b/gi, "Spray"],
+    [/\bSH\b/gi, "Shampoo"],
+    [/\bM-?UP\b/gi, "Make-up"],
+    [/\bREM\b/gi, "Remover"],
+    [/\bSOOT\b/gi, "Soothing"],
+    [/\bPERFEC\b/gi, "Perfecting"],
+    [/\bMOUS\b/gi, "Mousse"],
+    [/\bINV\b/gi, "Invisible"],
+    [/\bHYDRA\b/gi, "Hydra"],
+    [/\bMAT\b(?!CH)/gi, "Mat"],
+    [/\bANTI[- ]?TR\b/gi, "Anti-Transpirant"],
+    [/\bDEO\b/gi, "Deodorant"]
+  ];
+  for (const [re, rep] of abbr) s = s.replace(re, rep);
+  s = s.replace(/\b[FJTBSP](\d+(?:\.\d+)?)\s*(ml|gr|kg|g)\b/gi, "$1$2");
+  s = s.replace(/\b(?:GR|EN|FR|ES|PT|RU|EL|PL|DE|IT|NL|DU|DA|SCAN|GB|CH|CZ|HU|SK|RO|HR|BG|TR)\b/gi, "");
+  return s.replace(/\s+/g, " ").trim();
+}
+
+function slugSourceFor(product) {
+  // Cosmetics records carry .line, .rawName and 3 fixed brand keys.
+  const isCosmetic = product.line && ["vichy", "laroche", "cerave"].includes(product.brand);
+  if (!isCosmetic) return product.name;
+  const expanded = expandCosmeticName(product);
+  const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[product.brand] || "";
+  function reEscape(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+  const lineRe = product.line ? new RegExp(`\\b${reEscape(product.line)}\\b`, "i") : null;
+  const linePart = (product.line && !lineRe.test(expanded)) ? product.line + " " : "";
+  const brandRe = brandName ? new RegExp(`\\b${reEscape(brandName)}\\b`, "i") : null;
+  const head = linePart + expanded;
+  const brandPart = (brandName && !brandRe.test(head)) ? brandName + " " : "";
+  return (brandPart + head).replace(/\s+/g, " ").trim();
+}
+
 export function makeNewName(product, ext) {
-  const slug = slugify(product.name) || product.brand;
+  const slug = slugify(slugSourceFor(product)) || product.brand;
   return `${slug}-${product.barcode}.${ext}`;
 }
 
