@@ -46,7 +46,17 @@ async function loadProducts() {
   vm.createContext(ctx);
   const data = await fs.readFile(path.join(ROOT, "js/data.js"), "utf8");
   vm.runInContext(data + "\nglobalThis.PRODUCTS=PRODUCTS;", ctx);
-  return ctx.PRODUCTS;
+  const all = [...ctx.PRODUCTS];
+  // Merge cosmetics if present
+  try {
+    const cosCode = await fs.readFile(path.join(ROOT, "js/cosmetics-data.js"), "utf8");
+    vm.runInContext(cosCode + "\nglobalThis.__COS=COSMETICS_PRODUCTS;", ctx);
+    for (const p of ctx.__COS) {
+      // brand stays as-is; we only need barcode + name for slug
+      all.push(p);
+    }
+  } catch {}
+  return all;
 }
 
 async function main() {

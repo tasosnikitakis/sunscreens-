@@ -38,6 +38,7 @@ const MANIFEST_FILE = path.join(IMG_DIR, "manifest.json");
 const MANIFEST_JS_FILE = path.join(IMG_DIR, "manifest.js");
 const URLS_FILE = path.join(IMG_DIR, "urls.json");
 const DATA_FILE = path.join(ROOT, "js/data.js");
+const COSMETICS_DATA_FILE = path.join(ROOT, "js/cosmetics-data.js");
 
 const args = process.argv.slice(2);
 const opt = (k, def) => {
@@ -107,11 +108,23 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function dbg(...a) { if (DEBUG) console.log("   ", ...a); }
 
 async function loadProducts() {
-  const code = await fs.readFile(DATA_FILE, "utf8");
   const ctx = {};
   vm.createContext(ctx);
-  vm.runInContext(code + "\nglobalThis.__OUT={PRODUCTS,BRANDS};", ctx);
-  return ctx.__OUT;
+  const sunscreens = await fs.readFile(DATA_FILE, "utf8");
+  vm.runInContext(sunscreens + "\nglobalThis.__SUN={PRODUCTS,BRANDS};", ctx);
+
+  let cosmetics = { PRODUCTS: [], BRANDS: {} };
+  try {
+    const cosmCode = await fs.readFile(COSMETICS_DATA_FILE, "utf8");
+    vm.runInContext(cosmCode + "\nglobalThis.__COS={PRODUCTS:COSMETICS_PRODUCTS,BRANDS:COSMETICS_BRANDS};", ctx);
+    cosmetics = ctx.__COS;
+  } catch {}
+
+  // Merge: each product gets a __catalog marker for brand-site lookup.
+  const all = [];
+  for (const p of ctx.__SUN.PRODUCTS) all.push({ ...p, __catalog: "sun" });
+  for (const p of cosmetics.PRODUCTS) all.push({ ...p, __catalog: "cos" });
+  return { PRODUCTS: all, BRANDS: { ...ctx.__SUN.BRANDS, ...cosmetics.BRANDS } };
 }
 
 async function loadManualUrls() {
