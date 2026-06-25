@@ -1,22 +1,20 @@
 #!/usr/bin/env node
 // scripts/generate-catalog.mjs
-// Παράγει το catalog.csv με όλα τα προϊόντα του καταλόγου σε ξεχωριστές στήλες:
-//   Όνομα, Χονδρική τιμή, Περιγραφή, Τύπος, Περιοχή, Χαρακτηριστικά, Εταιρία, Φωτογραφία
+// Παράγει catalog.csv (UTF-8 BOM, semicolon) ΚΑΙ catalog.xlsx (native Excel)
+// με όλα τα προϊόντα του καταλόγου σε ξεχωριστές στήλες.
 //
 // Χρήση:  node scripts/generate-catalog.mjs
-//
-// Το αρχείο είναι UTF-8 με BOM και semicolon-delimited, οπότε ανοίγει
-// απευθείας στο ελληνικό Excel με τις στήλες σπασμένες σωστά και
-// τα ελληνικά να εμφανίζονται κανονικά.
 
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { buildXlsx } from "./lib-xlsx.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const OUT_FILE = path.join(ROOT, "catalog.csv");
+const CSV_FILE = path.join(ROOT, "catalog.csv");
+const XLSX_FILE = path.join(ROOT, "catalog.xlsx");
 
 // Λεκτικά intro ανά εταιρία (αντιγραφή από product.js)
 const INTROS = {
@@ -117,7 +115,7 @@ async function main() {
     const parsed = ctx.parseProduct(p);
     return [
       p.name,
-      p.price.toFixed(2).replace(".", ","),
+      p.price,                                   // number — Excel θα μπορεί να ταξινομήσει
       buildDescription(p, parsed, brand),
       parsed.types.join(", "),
       parsed.areas.join(", "),
@@ -125,20 +123,54 @@ async function main() {
       brand.name,
       manifest[p.barcode] || "",
       p.id,
-      p.barcode,
+      p.barcode,                                 // string (EAN — διατηρούμε leading zeros)
       parsed.spf || "",
       parsed.volume || ""
     ];
   });
 
+  // ----- CSV (UTF-8 BOM, semicolon, comma decimal για ελληνικό Excel) -----
+  function fmtCsv(v) {
+    if (typeof v === "number" && Number.isFinite(v)) return v.toFixed(2).replace(".", ",");
+    return v;
+  }
   const lines = [
     headers.map(csvCell).join(";"),
-    ...rows.map(row => row.map(csvCell).join(";"))
+    ...rows.map(row => row.map(c => csvCell(fmtCsv(c))).join(";"))
   ];
-
   const BOM = "﻿";
-  await fs.writeFile(OUT_FILE, BOM + lines.join("\r\n"), "utf8");
-  console.log(`Wrote ${OUT_FILE} — ${rows.length} προϊόντα, ${headers.length} στήλες.`);
+  await fs.writeFile(CSV_FILE, BOM + lines.join("\r\n"), "utf8");
+  console.log(`Wrote ${CSV_FILE} — ${rows.length} προϊόντα, ${headers.length} στήλες.`);
+
+  // ----- XLSX (native Excel) -----
+  const columnWidths = [
+    50,  // Όνομα
+    14,  // Χονδρική τιμή
+    70,  // Περιγραφή
+    18,  // Τύπος
+    18,  // Περιοχή
+    30,  // Χαρακτηριστικά
+    18,  // Εταιρία
+    50,  // Φωτογραφία
+    12,  // Κωδικός
+    16,  // Barcode
+    8,   // SPF
+    12   // Συσκευασία
+  ];
+  // Barcodes (col 10, 0-indexed 9) stored as text — αλλιώς το Excel τα μετατρέπει
+  // σε επιστημονική σημείωση.
+  const xlsxRows = rows.map(row => row.map((cell, i) => {
+    if (i === 9 && cell != null && cell !== "") return String(cell);
+    return cell;
+  }));
+  const xlsxBuf = buildXlsx({
+    sheetName: "Αντηλιακά 2026",
+    headers,
+    rows: xlsxRows,
+    columnWidths
+  });
+  await fs.writeFile(XLSX_FILE, xlsxBuf);
+  console.log(`Wrote ${XLSX_FILE} — ${xlsxBuf.length.toLocaleString()} bytes.`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
