@@ -12,6 +12,24 @@
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
 
+  <!-- Top navbar (αντηλιακά active) -->
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">
+      <a href="index.html" class="flex items-center gap-2 font-bold text-slate-800">
+        <span class="text-xl">🏥</span>
+        <span class="hidden sm:inline">Κατάλογος Φαρμακείου</span>
+      </a>
+      <div class="flex items-center gap-1">
+        <a href="index.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-bold bg-slate-900 text-white transition flex items-center gap-1.5">
+          <span>🧴</span><span>Αντηλιακά</span>
+        </a>
+        <a href="cosmetics.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5">
+          <span>💄</span><span>Καλλυντικά</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
   <header class="bg-gradient-to-br from-amber-400 via-orange-400 to-rose-400 text-white shadow-lg">
     <div class="max-w-7xl mx-auto px-4 py-10 sm:py-14">
       <div class="flex items-center gap-3 mb-2 text-white/90 text-sm font-medium uppercase tracking-wider">
@@ -73,7 +91,7 @@
       </div>
     </a>
 
-    <div class="mb-8 sticky top-0 z-20 bg-slate-50/95 backdrop-blur py-3 -mx-4 px-4 border-b border-slate-200">
+    <div class="mb-8 sticky top-14 z-20 bg-slate-50/95 backdrop-blur py-3 -mx-4 px-4 border-b border-slate-200">
       <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
         <div class="relative flex-1">
           <input
@@ -105,7 +123,7 @@
   </footer>
 
   <script src="js/data.js"></script>
-  <script src="images/manifest.js?v=2"></script>
+  <script src="images/manifest.js?v=3"></script>
   <script src="js/utils.js"></script>
   <script src="js/app.js"></script>
 </body>
