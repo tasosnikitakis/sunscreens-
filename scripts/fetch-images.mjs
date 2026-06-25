@@ -497,8 +497,26 @@ function slugify(name) {
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "")
-    .slice(0, 70)
+    .slice(0, 90)
     .replace(/-+$/, "");
+}
+
+// Build the readable string we slugify into the filename.
+// For cosmetics we expand the cryptic SKU description and prepend brand + line,
+// so "PT Mic Wat Sens f200ml" becomes
+// "Vichy Purete Thermale Micellar Water Sensitive 200ML".
+function slugSourceFor(product) {
+  if (!product) return "";
+  if (!product.__cosmetic) return product.name;
+  const expanded = expandCosmeticName(product);
+  const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[product.brand] || "";
+  function reEscape(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+  const lineRe = product.line ? new RegExp(`\\b${reEscape(product.line)}\\b`, "i") : null;
+  const linePart = (product.line && !lineRe.test(expanded)) ? product.line + " " : "";
+  const brandRe = brandName ? new RegExp(`\\b${reEscape(brandName)}\\b`, "i") : null;
+  const head = linePart + expanded;
+  const brandPart = (brandName && !brandRe.test(head)) ? brandName + " " : "";
+  return (brandPart + head).replace(/\s+/g, " ").trim();
 }
 
 async function downloadImage(url, barcode, product) {
@@ -508,7 +526,7 @@ async function downloadImage(url, barcode, product) {
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 1500) throw new Error("image too small (probably blocked)");
   const e = extFromContentType(res.headers.get("content-type"), url);
-  const slug = product ? slugify(product.name) : "";
+  const slug = product ? slugify(slugSourceFor(product)) : "";
   const filename = slug ? `${slug}-${barcode}.${e}` : `${barcode}.${e}`;
   await fs.writeFile(path.join(IMG_DIR, filename), buf);
   dbg(`saved ${filename} (${buf.length} bytes)`);
