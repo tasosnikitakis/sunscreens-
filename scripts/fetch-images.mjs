@@ -199,6 +199,69 @@ function simplifyName(name, opts = {}) {
   return s.slice(0, opts.maxLen || 90);
 }
 
+// Expand cryptic SKU descriptions of cosmetics into search-friendly text.
+// Source name is humanized ("PT Mic Wat Sens f200ml"); rawName has the
+// original locale tokens ("PT MIC WAT SENS F200ML FR EN gr"). We start from
+// rawName if present so the prefixes are in the canonical case.
+function expandCosmeticName(p) {
+  const base = (p.rawName || p.name || "").toString();
+  let s = " " + base + " ";
+  const abbr = [
+    [/\bPT\b/gi, "Purete Thermale"],
+    [/\bM\.?89\b/gi, "Mineral 89"],
+    [/\bMIN\.?\s?89\b/gi, "Mineral 89"],
+    [/\bLFT\b/gi, "Liftactiv"],
+    [/\bLIFT\b(?!ACT)/gi, "Liftactiv"],
+    [/\bNEO\b/gi, "Neovadiol"],
+    [/\bDB\b/gi, "Dermablend"],
+    [/\bDEM\b/gi, "Dermablend"],
+    [/\bEFF\b/gi, "Effaclar"],
+    [/\bTOL\b/gi, "Toleriane"],
+    [/\bCICA\b/gi, "Cicaplast"],
+    [/\bLIP\b/gi, "Lipikar"],
+    [/\bHOM\b/gi, "Homme"],
+    [/\bWAT\b/gi, "Water"],
+    [/\bMIC\b/gi, "Micellar"],
+    [/\bSENS\b/gi, "Sensitive"],
+    [/\bCRM?\b/gi, "Cream"],
+    [/\bLOT\b/gi, "Lotion"],
+    [/\bSPR\b/gi, "Spray"],
+    [/\bSH\b/gi, "Shampoo"],
+    [/\bM-?UP\b/gi, "Make-up"],
+    [/\bREM\b/gi, "Remover"],
+    [/\bSOOT\b/gi, "Soothing"],
+    [/\bPERFEC\b/gi, "Perfecting"],
+    [/\bMOUS\b/gi, "Mousse"],
+    [/\bINV\b/gi, "Invisible"],
+    [/\bHYDRA\b/gi, "Hydra"],
+    [/\bMAT\b(?!CH)/gi, "Mat"],
+    [/\bANTI[- ]?TR\b/gi, "Anti-Transpirant"],
+    [/\bDEO\b/gi, "Deodorant"],
+    [/\bSP[FB]?\b/gi, m => m.toUpperCase()] // keep SPF as-is
+  ];
+  for (const [re, rep] of abbr) s = s.replace(re, rep);
+  // Drop the single-letter container codes that hug the volume (F50ML, T300ML, J50ML)
+  s = s.replace(/\b[FJTBSP](\d+(?:\.\d+)?)\s*(ml|gr|kg|g)\b/gi, "$1$2");
+  // Strip locale/region tokens (we don't want them muddying the query)
+  s = s.replace(/\b(?:GR|EN|FR|ES|PT|RU|EL|PL|DE|IT|NL|DU|DA|SCAN|GB|CH|CZ|HU|SK|RO|HR|BG|TR)\b/gi, "");
+  return s.replace(/\s+/g, " ").trim();
+}
+
+// Build a search query for a product. For cosmetics we prepend brand + line.
+function searchQueryFor(p, opts = {}) {
+  if (p.__cosmetic) {
+    const expanded = expandCosmeticName(p);
+    // Avoid duplicating the line name if expansion already contains it
+    const linePart = (p.line && !new RegExp(`\\b${p.line.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\b`, "i").test(expanded))
+      ? p.line + " "
+      : "";
+    let q = (linePart + expanded).replace(/\s+/g, " ").trim();
+    if (opts.maxLen) q = q.slice(0, opts.maxLen);
+    return q;
+  }
+  return simplifyName(p.name, opts);
+}
+
 // ---------- Sources ----------
 
 async function manualUrlsSource(p, ctx) {
@@ -215,9 +278,11 @@ async function bingSiteSearch(p, ctx) {
   // Build query: try (barcode + brand name) and (name on brand site).
   const queries = [];
   for (const site of sites) {
-    queries.push(`site:${site} ${p.barcode}`);
-    queries.push(`site:${site} ${simplifyName(p.name, { maxLen: 60, dropGreek: true })}`);
-    queries.push(`site:${site} ${simplifyName(p.name, { maxLen: 60 })}`);
+    if (p.barcode) queries.push(`site:${site} ${p.barcode}`);
+    queries.push(`site:${site} ${searchQueryFor(p, { maxLen: 70 })}`);
+    if (!p.__cosmetic) {
+      queries.push(`site:${site} ${simplifyName(p.name, { maxLen: 60, dropGreek: true })}`);
+    }
   }
 
   for (const q of queries) {
@@ -258,7 +323,9 @@ async function bingSiteSearch(p, ctx) {
 }
 
 async function bingImagesSource(p) {
-  const q = `${p.barcode} ${simplifyName(p.name, { maxLen: 50 })}`;
+  const q = p.__cosmetic
+    ? `${searchQueryFor(p, { maxLen: 80 })} ${p.barcode || ""}`.trim()
+    : `${p.barcode} ${simplifyName(p.name, { maxLen: 50 })}`;
   const url = `https://www.bing.com/images/search?q=${encodeURIComponent(q)}&form=HDRSC2&first=1`;
   dbg(`bing-img GET ${url}`);
   let html;
@@ -297,7 +364,9 @@ async function bingImagesSource(p) {
 }
 
 async function ddgRetailerSource(p) {
-  const q = `${p.barcode} ${simplifyName(p.name, { maxLen: 50 })}`;
+  const q = p.__cosmetic
+    ? `${searchQueryFor(p, { maxLen: 80 })} ${p.barcode || ""}`.trim()
+    : `${p.barcode} ${simplifyName(p.name, { maxLen: 50 })}`;
   const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(q)}`;
   dbg(`ddg GET ${url}`);
   let html;
