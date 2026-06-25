@@ -322,6 +322,21 @@ async function bingSiteSearch(p, ctx) {
   return null;
 }
 
+// Spot the obvious wrong-variant URLs (Day/Night, Cream/Lotion mixups, etc.)
+// Bing's first hit on barcode can be a sibling SKU. We don't try to be clever,
+// just block the cases that came up in real testing.
+function variantMismatch(productName, imageUrl) {
+  const n = productName.toUpperCase();
+  const u = imageUrl.toLowerCase();
+  const wantsDay   = /\bDAY\b/.test(n);
+  const wantsNight = /\bNIGHT\b|\bNGT\b/.test(n);
+  const urlNight = /noapte|night|nuit|nacht|noche|notte|noche|nattcr|nightcr/.test(u);
+  const urlDay   = /(?<![a-z])day(?![a-z])|crema-de-zi|crema-zi|daycream|day-cream|jour/.test(u);
+  if (wantsDay && urlNight && !urlDay) return "day vs night";
+  if (wantsNight && urlDay && !urlNight) return "night vs day";
+  return null;
+}
+
 async function bingImagesSource(p) {
   const q = p.__cosmetic
     ? `${searchQueryFor(p, { maxLen: 80 })} ${p.barcode || ""}`.trim()
@@ -338,28 +353,30 @@ async function bingImagesSource(p) {
   saveDebugHtml(`bing-img_${p.barcode}`, html);
   if (looksBlocked(html)) { dbg("bing-img blocked"); return null; }
 
-  // Try several patterns that Bing has used for image URLs.
+  // Collect candidate URLs from every pattern Bing has used, then pick the
+  // first one that survives the variant-mismatch filter.
   const patterns = [
-    /"murl":"([^"]+)"/,
-    /&quot;murl&quot;:&quot;([^&]+)&quot;/,
-    /"contentUrl":"([^"]+)"/,
-    /m="\{[^"]*&quot;murl&quot;:&quot;([^&]+)&quot;/,
-    /imgurl=([^&"'<>]+)/,
-    /mediaurl=([^&"'<>]+)/
+    [/&quot;murl&quot;:&quot;([^&]+)&quot;/g, true],
+    [/"murl":"([^"]+)"/g, false],
+    [/"contentUrl":"([^"]+)"/g, false],
+    [/imgurl=([^&"'<>]+)/g, true],
+    [/mediaurl=([^&"'<>]+)/g, true]
   ];
-  for (const re of patterns) {
-    const m = html.match(re);
-    if (!m) continue;
-    let u = decodeHtml(m[1]).replace(/\\\//g, "/");
-    if (re.source.includes("imgurl") || re.source.includes("mediaurl")) {
-      try { u = decodeURIComponent(u); } catch {}
-    }
-    if (/^https?:\/\//.test(u) && /\.(jpe?g|png|webp)(\?|$)/i.test(u)) {
-      dbg(`bing-img match via ${re.source.slice(0, 30)}: ${u}`);
+  const seen = new Set();
+  for (const [re, urlEncoded] of patterns) {
+    for (const m of html.matchAll(re)) {
+      let u = decodeHtml(m[1]).replace(/\\\//g, "/");
+      if (urlEncoded) { try { u = decodeURIComponent(u); } catch {} }
+      if (!/^https?:\/\//.test(u) || !/\.(jpe?g|png|webp)(\?|$)/i.test(u)) continue;
+      if (seen.has(u)) continue;
+      seen.add(u);
+      const mm = variantMismatch(p.name, u);
+      if (mm) { dbg(`bing-img skip (${mm}): ${u}`); continue; }
+      dbg(`bing-img match: ${u}`);
       return u;
     }
   }
-  dbg("bing-img: no parseable matches");
+  dbg(`bing-img: no usable match (${seen.size} candidates tried)`);
   return null;
 }
 
@@ -435,13 +452,19 @@ async function obfSource(p) {
   return null;
 }
 
+// Note: bing-site (`bingSiteSearch`) was removed from the default pipeline
+// because Bing detects the `site:` operator and serves a CAPTCHA wall to
+// scripted clients — every run logged HTTP 200 with looksBlocked() === true,
+// and on a 368-product catalog those 4 wasted attempts per product added
+// up to ~50 minutes of dead time. The function is still defined and can be
+// re-enabled by uncommenting the line below if Bing relaxes its detection.
 const sources = [
-  { name: "manual",        find: manualUrlsSource  },
-  { name: "brand-direct",  find: bingSiteSearch    },
-  { name: "bing-images",   find: bingImagesSource  },
-  { name: "ddg-retailers", find: ddgRetailerSource },
-  { name: "skroutz",       find: skroutzSource     },
-  { name: "openbeautyfacts", find: obfSource       }
+  { name: "manual",          find: manualUrlsSource  },
+  // { name: "brand-direct",  find: bingSiteSearch    },  // disabled
+  { name: "bing-images",     find: bingImagesSource  },
+  { name: "ddg-retailers",   find: ddgRetailerSource },
+  { name: "skroutz",         find: skroutzSource     },
+  { name: "openbeautyfacts", find: obfSource         }
 ];
 
 // ---------- Download ----------
