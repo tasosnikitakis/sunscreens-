@@ -247,42 +247,73 @@ async function searchLinks(query, barcode) {
 // φιλοξενείται η εικόνα). Σύμφωνα με τα live tests του fetch-images.mjs,
 // ένα ζωντανό κανάλι όταν DDG μας rate-limit-άρει και το site:vichy.gr query
 // σε Bing web πέφτει σε cookie wall.
+// Αυστηρός έλεγχος hostname για να μη γίνεται δεκτό vichy.com.vn ή
+// vichy-deutschland.de επειδή τυχαίνει να περιέχουν "vichy.com"/"vichy.gr".
+function hostMatches(url, sites) {
+  try {
+    const host = new URL(url).hostname.toLowerCase().replace(/^www\./, "");
+    return sites.includes(host);
+  } catch { return false; }
+}
+
 async function bingImagesBrandPages(p, sites) {
   const expanded = expandCosmeticName(p);
   const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const lineRe = p.line ? new RegExp(`\\b${reEscape(p.line)}\\b`, "i") : null;
   const withLine = (p.line && !lineRe.test(expanded)) ? `${p.line} ${expanded}` : expanded;
-  const q = `${withLine} ${p.barcode || ""}`.trim();
-  const url = `https://www.bing.com/images/search?q=${encodeURIComponent(q)}&form=HDRSC2&first=1`;
-  dbg(`bing-img GET ${url}`);
-  let html;
-  try {
-    const r = await fetchHtml(url);
-    html = r.text;
-    dbg(`bing-img => ${html.length}b`);
-  } catch (e) { dbg(`bing-img ${e.message}`); return []; }
-  if (SAVE_HTML) await saveHtml(url, html, p.barcode);
 
-  // Το Bing βάζει σε κάθε image result ένα JSON-blob ως m="..." attribute.
-  // Δοκιμάζουμε όλα τα γνωστά patterns για το purl (page URL).
-  const purls = new Set();
-  const patterns = [
-    /&quot;purl&quot;:&quot;([^&]+)&quot;/g,
-    /"purl":"([^"]+)"/g,
-    /purl=([^&"'<>]+)/g
+  // Δοκιμάζουμε δύο queries για να αυξήσουμε τις πιθανότητες να εμφανιστούν
+  // .gr και .com URLs στα image results.
+  const queries = [
+    `${withLine} ${p.barcode || ""}`.trim(),
+    `${sites[0]} ${withLine}`              // bias toward primary host (vichy.gr)
   ];
-  for (const re of patterns) {
-    for (const m of html.matchAll(re)) {
-      let u;
-      try { u = decodeHtml(m[1]).replace(/\\\//g, "/"); }
-      catch { continue; }
-      if (re.source.includes("purl=")) { try { u = decodeURIComponent(u); } catch {} }
-      if (!/^https?:\/\//.test(u)) continue;
-      if (sites.some(s => u.includes(s))) purls.add(u);
+
+  const collected = new Map(); // url -> first-seen index (για ranking)
+  for (let qi = 0; qi < queries.length; qi++) {
+    const q = queries[qi];
+    const url = `https://www.bing.com/images/search?q=${encodeURIComponent(q)}&form=HDRSC2&first=1`;
+    dbg(`bing-img GET ${url}`);
+    let html;
+    try {
+      const r = await fetchHtml(url);
+      html = r.text;
+      dbg(`bing-img => ${html.length}b`);
+    } catch (e) { dbg(`bing-img ${e.message}`); continue; }
+    if (SAVE_HTML) await saveHtml(url, html, p.barcode);
+
+    const patterns = [
+      /&quot;purl&quot;:&quot;([^&]+)&quot;/g,
+      /"purl":"([^"]+)"/g,
+      /purl=([^&"'<>]+)/g
+    ];
+    let found = 0, kept = 0;
+    for (const re of patterns) {
+      for (const m of html.matchAll(re)) {
+        let u;
+        try { u = decodeHtml(m[1]).replace(/\\\//g, "/"); }
+        catch { continue; }
+        if (re.source.includes("purl=")) { try { u = decodeURIComponent(u); } catch {} }
+        if (!/^https?:\/\//.test(u)) continue;
+        found++;
+        if (!hostMatches(u, sites)) continue;
+        if (!collected.has(u)) collected.set(u, qi);
+        kept++;
+      }
     }
+    dbg(`bing-img query ${qi+1}/${queries.length} => ${found} total purls, ${kept} brand-strict`);
+    if (qi < queries.length - 1) await sleep(700);
   }
-  dbg(`bing-img => ${purls.size} brand-domain page URLs`);
-  return [...purls];
+
+  // Order: prefer .gr over .com, then by first-seen query index
+  const urls = [...collected.entries()].sort((a, b) => {
+    const ag = a[0].includes(".gr") ? 0 : 1;
+    const bg = b[0].includes(".gr") ? 0 : 1;
+    if (ag !== bg) return ag - bg;
+    return a[1] - b[1];
+  }).map(([u]) => u);
+  dbg(`bing-img => ${urls.length} brand-domain page URLs (strict host match)`);
+  return urls;
 }
 
 async function brandDirectSource(p) {
