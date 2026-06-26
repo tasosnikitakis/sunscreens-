@@ -136,7 +136,10 @@ async function main() {
       continue;
     }
     const ext = path.extname(oldFile).slice(1).toLowerCase() || "jpg";
-    const newFile = makeNewName(product, ext);
+    const newBase = makeNewName(product, ext);
+    // Preserve the existing subfolder layout (e.g. "sunscreens/foo.jpg" → "sunscreens/<newBase>")
+    const subfolder = path.dirname(oldFile).replace(/\\/g, "/");
+    const newFile = (subfolder && subfolder !== ".") ? `${subfolder}/${newBase}` : newBase;
     newManifest[barcode] = newFile;
 
     if (oldFile === newFile) { unchanged++; continue; }
