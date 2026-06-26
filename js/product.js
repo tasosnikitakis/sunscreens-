@@ -112,7 +112,6 @@ function render({ product: p, brands, catalog }) {
           ${escapeHtml(brand.name)}${isCosmetic ? " · " + escapeHtml(p.line) : ""}
         </div>
         <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(displayName)}</h1>
-        ${isCosmetic && enrich.name && p.name !== enrich.name ? `<div class="text-xs text-slate-500 mt-1 italic">Καταχώρηση προμηθευτή: ${escapeHtml(p.name)}</div>` : ""}
 
         <div class="mt-5 flex items-baseline gap-3">
           <span class="text-3xl font-bold text-slate-900">${fmtPrice(p.price)}</span>
@@ -124,8 +123,6 @@ function render({ product: p, brands, catalog }) {
             ? (enrich.description ? escapeHtml(enrich.description) : cosmeticDescription(p, brand))
             : sunscreenDescription(p, parsed)
         }</p>
-        ${isCosmetic && !enrich.description ? `<p class="mt-3 text-slate-600 text-sm">${cosmeticDescription(p, brand)}</p>` : ""}
-        ${isCosmetic && enrich.url ? `<p class="mt-3 text-xs text-slate-400">Πηγή: <a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="underline hover:text-slate-600">${escapeHtml(enrich.source || "official")}</a></p>` : ""}
 
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
           <dt class="text-slate-500">Κωδικός</dt>

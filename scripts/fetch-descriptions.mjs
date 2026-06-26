@@ -41,11 +41,6 @@ const BRAND_SITES = {
   laroche: ["laroche-posay.gr", "laroche-posay.com"],
   cerave: ["cerave.gr", "cerave.com"]
 };
-const RETAILER_HOSTS = [
-  "vita4you.gr", "pharm24.gr", "pharmacy295.gr", "kosmas.gr", "fr.gr",
-  "blinkshop.com", "blinkshop.gr", "pharmagora.gr", "smile-pharmacy.gr",
-  "ofarmakopoiosmou.gr", "bestpharmacy.gr"
-];
 
 const UAS = [
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
@@ -181,53 +176,58 @@ async function ddgSearch(query) {
 async function brandDirectSource(p) {
   const sites = BRAND_SITES[p.brand];
   if (!sites) return null;
-  const q = searchQueryFor(p);
-  const links = await ddgSearch(q);
-  const onBrand = links.filter(u => sites.some(s => u.includes(s)));
-  for (const url of onBrand.slice(0, 4)) {
-    dbg(`brand try ${url}`);
-    try {
-      const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
-      if (looksBlocked(text)) { dbg("  blocked"); continue; }
-      if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
-      const meta = extractMeta(text);
-      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
-      const title = cleanupTitle(meta.title, brandName);
-      const description = cleanupDescription(meta.description);
-      if (title || description) {
-        return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
-      }
-    } catch (e) { dbg(`  ${e.message}`); }
-    await sleep(250);
+
+  // Πολλαπλά queries: ξεκινάμε με αυτό που πιο πιθανά πιάνει product page στο
+  // επίσημο site, και πέφτουμε σε πιο γενικά αν δεν φέρουν αποτέλεσμα.
+  const expanded = expandCosmeticName(p);
+  const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const lineRe = p.line ? new RegExp(`\\b${reEscape(p.line)}\\b`, "i") : null;
+  const withLine = (p.line && !lineRe.test(expanded)) ? `${p.line} ${expanded}` : expanded;
+
+  const queries = [];
+  for (const site of sites) {
+    if (p.barcode) queries.push(`site:${site} ${p.barcode}`);
+    queries.push(`site:${site} ${withLine}`);
+    queries.push(`site:${site} ${expanded}`);
+  }
+  // Επιπλέον γενικά queries — εδώ φιλτράρουμε αυστηρά στο επίσημο domain στο
+  // post-processing.
+  if (p.barcode) queries.push(`${withLine} ${p.barcode}`);
+  queries.push(withLine);
+
+  const seenUrls = new Set();
+  for (const q of queries) {
+    let links = [];
+    try { links = await ddgSearch(q); } catch (e) { dbg(`ddg ${e.message}`); continue; }
+    const onBrand = links.filter(u => sites.some(s => u.includes(s)) && !seenUrls.has(u));
+    for (const url of onBrand.slice(0, 3)) {
+      seenUrls.add(url);
+      dbg(`brand try ${url}`);
+      try {
+        const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
+        if (looksBlocked(text)) { dbg("  blocked"); continue; }
+        if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
+        const meta = extractMeta(text);
+        const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
+        const title = cleanupTitle(meta.title, brandName);
+        const description = cleanupDescription(meta.description);
+        if (title || description) {
+          return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
+        }
+      } catch (e) { dbg(`  ${e.message}`); }
+      await sleep(250);
+    }
+    await sleep(200);
   }
   return null;
 }
 
-async function retailerSource(p) {
-  const q = searchQueryFor(p) + " " + (p.barcode || "");
-  const links = await ddgSearch(q);
-  const onRetailer = links.filter(u => RETAILER_HOSTS.some(h => u.includes(h)));
-  for (const url of onRetailer.slice(0, 5)) {
-    dbg(`retailer try ${url}`);
-    try {
-      const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
-      if (looksBlocked(text)) { dbg("  blocked"); continue; }
-      const meta = extractMeta(text);
-      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
-      const title = cleanupTitle(meta.title, brandName);
-      const description = cleanupDescription(meta.description);
-      if (title || description) {
-        return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
-      }
-    } catch (e) { dbg(`  ${e.message}`); }
-    await sleep(250);
-  }
-  return null;
-}
-
+// Αποκλειστικά επίσημες πηγές — δεν θέλουμε περιγραφές από φαρμακεία
+// γιατί συχνά είναι λακωνικές ή ασύμβατες με την επίσημη επικοινωνία της
+// μάρκας. Αν ο manufacturer δεν επιστρέψει αποτέλεσμα, αφήνουμε το προϊόν
+// χωρίς enrichment και πέφτει στο auto-generated brand+line blurb.
 const sources = [
-  { name: "brand-direct", find: brandDirectSource },
-  { name: "retailers",    find: retailerSource }
+  { name: "brand-direct", find: brandDirectSource }
 ];
 
 // ----- Main loop -----
