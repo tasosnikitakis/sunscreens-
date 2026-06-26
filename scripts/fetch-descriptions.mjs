@@ -347,12 +347,154 @@ async function brandDirectSource(p) {
   return null;
 }
 
-// Αποκλειστικά επίσημες πηγές — δεν θέλουμε περιγραφές από φαρμακεία
-// γιατί συχνά είναι λακωνικές ή ασύμβατες με την επίσημη επικοινωνία της
-// μάρκας. Αν ο manufacturer δεν επιστρέψει αποτέλεσμα, αφήνουμε το προϊόν
-// χωρίς enrichment και πέφτει στο auto-generated brand+line blurb.
+// ===== Sitemap source =====
+// Search engines δεν φέρνουν αξιόπιστα vichy.gr / laroche-posay.gr /
+// cerave.gr URLs (Bing image purls = 0 hits, DDG rate-limit, Bing site:
+// = cookie wall). Αντί γι' αυτά, κατεβάζουμε μία φορά το sitemap κάθε
+// brand site, κρατάμε όλες τις διευθύνσεις προϊόντων, και κάνουμε
+// fuzzy match του ονόματος προϊόντος σε σχέση με το slug της κάθε URL.
+// Έτσι, οι περιγραφές που παίρνουμε είναι **ντόπιες ελληνικές** από
+// το vichy.gr / laroche-posay.gr.
+
+const sitemapCache = new Map();
+
+function isLikelyProductUrl(url) {
+  const lower = url.toLowerCase();
+  if (/sitemap|robots|\.xml(\?|$)/.test(lower)) return false;
+  if (/\/(category|categories|search|account|cart|checkout|help|contact|about|stores|brands|home|store-locator|customer-service|find-a-store|register|login|press|privacy|cookie|terms|legal)(\/|$)/.test(lower)) return false;
+  // Επιθυμητά path patterns (vichy.gr & laroche-posay.gr Salesforce Commerce,
+  // και cerave.gr / international /products/)
+  if (/\/(proionta|products|product|collections\/[^\/]+\/products|skin-care|sun-care|peripoihsh|προϊοντα|peripoiisi)\//.test(lower)) return true;
+  // Permissive: μεγάλο last segment με dashes (συνήθως product slug)
+  const path = lower.replace(/^https?:\/\/[^\/]+/, "").replace(/[?#].*$/, "");
+  const parts = path.split("/").filter(Boolean);
+  if (parts.length < 2) return false;
+  const last = parts[parts.length - 1];
+  if (last.length > 20 && last.includes("-")) return true;
+  return false;
+}
+
+async function getSitemapProductUrls(host) {
+  if (sitemapCache.has(host)) return sitemapCache.get(host);
+  const urls = new Set();
+  const seen = new Set();
+
+  // 1. robots.txt για να βρούμε το sitemap location
+  const sitemapUrls = new Set();
+  try {
+    const { text } = await fetchHtml(`https://www.${host}/robots.txt`);
+    for (const m of text.matchAll(/Sitemap:\s*(\S+)/gi)) sitemapUrls.add(m[1].trim());
+  } catch {}
+  // 2. Fallback σε standard sitemap paths
+  if (sitemapUrls.size === 0) {
+    sitemapUrls.add(`https://www.${host}/sitemap.xml`);
+    sitemapUrls.add(`https://www.${host}/sitemap_index.xml`);
+  }
+
+  async function processSitemap(smUrl, depth = 0) {
+    if (depth > 3 || seen.has(smUrl)) return;
+    seen.add(smUrl);
+    dbg(`sitemap GET ${smUrl}`);
+    let text;
+    try {
+      const r = await fetchHtml(smUrl);
+      text = r.text;
+    } catch (e) { dbg(`  ${e.message}`); return; }
+    const locs = [...text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map(m => m[1]);
+    const isIndex = /<sitemapindex/i.test(text);
+    dbg(`  ${isIndex ? "index" : "sitemap"} with ${locs.length} entries`);
+    if (isIndex) {
+      // Process child sitemaps. Limit to those likely to contain products.
+      const childrenToProcess = locs.filter(u => /product|catalog|skin|sun|care/i.test(u));
+      const finalChildren = childrenToProcess.length > 0 ? childrenToProcess : locs.slice(0, 10);
+      for (const child of finalChildren) {
+        await processSitemap(child, depth + 1);
+        await sleep(150);
+      }
+    } else {
+      for (const u of locs) urls.add(u);
+    }
+  }
+
+  for (const smUrl of sitemapUrls) {
+    try { await processSitemap(smUrl); } catch (e) { dbg(`  ${e.message}`); }
+  }
+
+  const filtered = [...urls].filter(isLikelyProductUrl);
+  sitemapCache.set(host, filtered);
+  console.log(`sitemap ${host}: ${urls.size} total URLs, ${filtered.length} likely product URLs`);
+  return filtered;
+}
+
+function bestSitemapMatch(p, urls) {
+  // Build keyword list from expanded English/Latin product name
+  const expanded = expandCosmeticName(p).toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ");
+  const keywords = [...new Set(expanded.split(/\s+/).filter(w => w.length >= 3))];
+  // Volume-only tokens like "200ml" carry information too
+  const linePart = (p.line || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(w => w.length >= 3);
+  const allKeywords = [...new Set([...keywords, ...linePart])];
+
+  let best = null, bestScore = 0, bestMeta = null;
+  for (const url of urls) {
+    const lower = url.toLowerCase();
+    const path = lower.replace(/^https?:\/\/[^\/]+/, "").replace(/[?#].*$/, "");
+    const slug = path.split("/").filter(Boolean).pop() || "";
+    const slugWords = new Set(slug.replace(/[^a-z0-9]+/g, " ").split(/\s+/).filter(Boolean));
+    const pathWords = new Set(path.replace(/[^a-z0-9]+/g, " ").split(/\s+/).filter(Boolean));
+
+    let score = 0;
+    for (const kw of allKeywords) {
+      if (slugWords.has(kw)) score += 2;          // πιο βαρύ αν στο slug
+      else if (pathWords.has(kw)) score += 0.5;   // πιο ελαφρύ αν στο path
+    }
+    if (score > bestScore) { bestScore = score; best = url; bestMeta = { slug, matches: allKeywords.filter(kw => slugWords.has(kw) || pathWords.has(kw)) }; }
+  }
+  return { url: best, score: bestScore, ...bestMeta };
+}
+
+async function sitemapSource(p) {
+  const sites = BRAND_SITES[p.brand];
+  if (!sites) return null;
+
+  for (const host of sites) {
+    let urls;
+    try { urls = await getSitemapProductUrls(host); }
+    catch (e) { dbg(`sitemap ${host} ERR ${e.message}`); continue; }
+    if (urls.length === 0) { dbg(`sitemap ${host}: no products`); continue; }
+
+    const match = bestSitemapMatch(p, urls);
+    // Threshold: τουλάχιστον 2 keyword matches (score ≥ 4) ώστε να αποφύγουμε
+    // false positives. Για short slugs απαιτούμε λίγο περισσότερο.
+    if (!match.url || match.score < 4) {
+      dbg(`sitemap ${host}: best score ${match.score.toFixed(1)} (${match.slug || "—"}) — skip`);
+      continue;
+    }
+    dbg(`sitemap ${host} match score=${match.score.toFixed(1)} kws=[${(match.matches || []).join(",")}]`);
+    dbg(`  ${match.url}`);
+    try {
+      const { text } = await fetchHtml(match.url, { Referer: `https://www.${host}/` });
+      if (SAVE_HTML) await saveHtml(match.url, text, p.barcode);
+      if (looksBlocked(text)) { dbg(`  blocked (HTML ${text.length}b)`); continue; }
+      const meta = extractMeta(text);
+      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
+      const title = cleanupTitle(meta.title, brandName);
+      const description = cleanupDescription(meta.description);
+      dbg(`  meta: title=${title ? title.slice(0, 60) : "—"} | desc=${description ? description.slice(0, 60) : "—"}`);
+      if (title || description) {
+        return { name: title, description, source: host, url: match.url };
+      }
+    } catch (e) { dbg(`  ${e.message}`); }
+  }
+  return null;
+}
+
+// Αποκλειστικά επίσημες πηγές — σε σειρά προτεραιότητας:
+//   1) sitemap (vichy.gr → ελληνικές περιγραφές)
+//   2) brand-direct via Bing image purls (fallback)
 const sources = [
-  { name: "brand-direct", find: brandDirectSource }
+  { name: "sitemap",      find: sitemapSource      },
+  { name: "brand-direct", find: brandDirectSource  }
 ];
 
 // ----- Main loop -----
