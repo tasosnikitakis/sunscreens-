@@ -1,0 +1,313 @@
+#!/usr/bin/env node
+// scripts/fetch-descriptions.mjs
+// Φέρνει το επίσημο όνομα και περιγραφή για κάθε καλλυντικό από:
+//   1) τις επίσημες σελίδες του κατασκευαστή (vichy.gr, laroche-posay.gr, cerave.gr)
+//   2) τα ελληνικά φαρμακεία (vita4you, pharm24, kosmas, fr.gr, blinkshop κλπ.)
+//
+// Αποθηκεύει στο js/cosmetics-enrichment.js (window.COSMETICS_ENRICHMENT)
+// και το site το προτιμά πάνω από τα supplier SKU descriptions.
+//
+// Χρήση:
+//   node scripts/fetch-descriptions.mjs                      # όλα όσα λείπουν
+//   node scripts/fetch-descriptions.mjs --limit=10           # δοκιμή
+//   node scripts/fetch-descriptions.mjs --test=<barcode>     # ένα προϊόν με log
+//   node scripts/fetch-descriptions.mjs --debug              # αναλυτικό log
+//   node scripts/fetch-descriptions.mjs --force              # ξαναπροσπάθεια όλων
+//
+// Απαιτεί Node 18+ (built-in fetch).
+
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import vm from "node:vm";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const OUT_FILE = path.join(ROOT, "js/cosmetics-enrichment.js");
+const COSMETICS_FILE = path.join(ROOT, "js/cosmetics-data.js");
+
+const args = process.argv.slice(2);
+const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); return a ? a.split("=")[1] : def; };
+const flag = (k) => args.includes(`--${k}`);
+
+const LIMIT = parseInt(opt("limit", "0")) || Infinity;
+const TEST = opt("test", null);
+const FORCE = flag("force");
+const DEBUG = flag("debug");
+const DELAY_MS = parseInt(opt("delay", "1100"));
+
+const BRAND_SITES = {
+  vichy: ["vichy.gr", "vichy.com"],
+  laroche: ["laroche-posay.gr", "laroche-posay.com"],
+  cerave: ["cerave.gr", "cerave.com"]
+};
+const RETAILER_HOSTS = [
+  "vita4you.gr", "pharm24.gr", "pharmacy295.gr", "kosmas.gr", "fr.gr",
+  "blinkshop.com", "blinkshop.gr", "pharmagora.gr", "smile-pharmacy.gr",
+  "ofarmakopoiosmou.gr", "bestpharmacy.gr"
+];
+
+const UAS = [
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+];
+const pickUA = () => UAS[Math.floor(Math.random() * UAS.length)];
+
+function browserHeaders(extra = {}) {
+  return {
+    "User-Agent": pickUA(),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "el-GR,el;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Upgrade-Insecure-Requests": "1",
+    ...extra
+  };
+}
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const dbg = (...a) => { if (DEBUG) console.log("   ", ...a); };
+
+async function fetchHtml(url, extra = {}) {
+  const res = await fetch(url, { headers: browserHeaders(extra), redirect: "follow" });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return { status: res.status, text: await res.text(), finalUrl: res.url || url };
+}
+
+function decodeHtml(s) {
+  return s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/&#34;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ");
+}
+
+function looksBlocked(html) {
+  const t = html.toLowerCase();
+  return t.includes("captcha") || t.includes("are you a robot") ||
+         t.includes("access denied") || t.includes("you have been blocked");
+}
+
+// ----- Cosmetic name expansion (same as fetch-images.mjs) -----
+function expandCosmeticName(p) {
+  const base = (p.rawName || p.name || "").toString();
+  let s = " " + base + " ";
+  const abbr = [
+    [/\bPT\b/gi, "Purete Thermale"], [/\bM\.?89\b/gi, "Mineral 89"],
+    [/\bMIN\.?\s?89\b/gi, "Mineral 89"], [/\bLFT\b/gi, "Liftactiv"],
+    [/\bLIFT\b(?!ACT)/gi, "Liftactiv"], [/\bNEO\b/gi, "Neovadiol"],
+    [/\bDB\b/gi, "Dermablend"], [/\bDEM\b/gi, "Dermablend"],
+    [/\bEFF\b/gi, "Effaclar"], [/\bTOL\b/gi, "Toleriane"],
+    [/\bCICA\b/gi, "Cicaplast"], [/\bLIP\b/gi, "Lipikar"],
+    [/\bHOM\b/gi, "Homme"], [/\bWAT\b/gi, "Water"], [/\bMIC\b/gi, "Micellar"],
+    [/\bSENS\b/gi, "Sensitive"], [/\bCRM?\b/gi, "Cream"], [/\bLOT\b/gi, "Lotion"],
+    [/\bSPR\b/gi, "Spray"], [/\bSH\b/gi, "Shampoo"], [/\bM-?UP\b/gi, "Make-up"],
+    [/\bREM\b/gi, "Remover"], [/\bSOOT\b/gi, "Soothing"],
+    [/\bPERFEC\b/gi, "Perfecting"], [/\bMOUS\b/gi, "Mousse"],
+    [/\bINV\b/gi, "Invisible"], [/\bHYDRA\b/gi, "Hydra"],
+    [/\bMAT\b(?!CH)/gi, "Mat"], [/\bDEO\b/gi, "Deodorant"]
+  ];
+  for (const [re, rep] of abbr) s = s.replace(re, rep);
+  s = s.replace(/\b[FJTBSP](\d+(?:\.\d+)?)\s*(ml|gr|kg|g)\b/gi, "$1$2");
+  s = s.replace(/\b(?:GR|EN|FR|ES|PT|RU|EL|PL|DE|IT|NL|DU|DA|SCAN|GB|CH|CZ|HU|SK|RO|HR|BG|TR)\b/gi, "");
+  return s.replace(/\s+/g, " ").trim();
+}
+function searchQueryFor(p) {
+  const expanded = expandCosmeticName(p);
+  const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const lineRe = p.line ? new RegExp(`\\b${reEscape(p.line)}\\b`, "i") : null;
+  const linePart = (p.line && !lineRe.test(expanded)) ? p.line + " " : "";
+  return (linePart + expanded).replace(/\s+/g, " ").trim();
+}
+
+// ----- og:* extraction -----
+function extractMeta(html) {
+  const og = (...names) => {
+    for (const n of names) {
+      let m = html.match(new RegExp(`<meta[^>]+property=["']${n}["'][^>]+content=["']([^"']+)["']`, "i"));
+      if (m) return decodeHtml(m[1]);
+      m = html.match(new RegExp(`<meta[^>]+name=["']${n}["'][^>]+content=["']([^"']+)["']`, "i"));
+      if (m) return decodeHtml(m[1]);
+    }
+    return null;
+  };
+  const title = og("og:title", "twitter:title");
+  const description = og("og:description", "description", "twitter:description");
+  return { title, description };
+}
+
+function cleanupTitle(title, brandName) {
+  if (!title) return null;
+  let t = title.trim();
+  // Strip " | Vichy", " - La Roche-Posay", "| CeraVe Greece" etc.
+  t = t.replace(/\s*[|–\-—]\s*(Vichy|La Roche[- ]?Posay|CeraVe)(\s+(Hellas|Greece|GR|Ελλάδα))?\s*$/i, "");
+  t = t.replace(/\s*[|]\s*Official\s+(Site|Online\s+Shop)\s*$/i, "");
+  t = t.replace(/\s+/g, " ").trim();
+  return t || null;
+}
+
+function cleanupDescription(desc) {
+  if (!desc) return null;
+  let d = desc.replace(/\s+/g, " ").trim();
+  // Cut at first sentence boundary if extremely long
+  if (d.length > 500) d = d.slice(0, 497).replace(/\s+\S*$/, "") + "...";
+  return d || null;
+}
+
+function isProductPage(url, html) {
+  // Heuristic: a product page usually has og:type=product, or matches a /product/ or /p/ pattern
+  const u = url.toLowerCase();
+  if (/<meta[^>]+property=["']og:type["'][^>]+content=["']product/i.test(html)) return true;
+  if (/\/(product|p|products|item|skin-care|sun-care|body|face|hair)\//.test(u)) return true;
+  // Avoid category / brand / search pages
+  if (/\/category\/|\/search\/|\/c\/|\/collection\//.test(u)) return false;
+  return true; // be permissive — caller still has to extract a description
+}
+
+// ----- Sources -----
+
+async function ddgSearch(query) {
+  const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
+  dbg(`ddg GET ${url}`);
+  const { text } = await fetchHtml(url);
+  const links = [];
+  for (const m of text.matchAll(/<a[^>]+class="result__a"[^>]+href="([^"]+)"/g)) {
+    let u = decodeHtml(m[1]);
+    if (u.startsWith("//")) u = "https:" + u;
+    const redir = u.match(/uddg=([^&]+)/);
+    if (redir) { try { u = decodeURIComponent(redir[1]); } catch {} }
+    links.push(u);
+  }
+  return links;
+}
+
+async function brandDirectSource(p) {
+  const sites = BRAND_SITES[p.brand];
+  if (!sites) return null;
+  const q = searchQueryFor(p);
+  const links = await ddgSearch(q);
+  const onBrand = links.filter(u => sites.some(s => u.includes(s)));
+  for (const url of onBrand.slice(0, 4)) {
+    dbg(`brand try ${url}`);
+    try {
+      const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
+      if (looksBlocked(text)) { dbg("  blocked"); continue; }
+      if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
+      const meta = extractMeta(text);
+      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
+      const title = cleanupTitle(meta.title, brandName);
+      const description = cleanupDescription(meta.description);
+      if (title || description) {
+        return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
+      }
+    } catch (e) { dbg(`  ${e.message}`); }
+    await sleep(250);
+  }
+  return null;
+}
+
+async function retailerSource(p) {
+  const q = searchQueryFor(p) + " " + (p.barcode || "");
+  const links = await ddgSearch(q);
+  const onRetailer = links.filter(u => RETAILER_HOSTS.some(h => u.includes(h)));
+  for (const url of onRetailer.slice(0, 5)) {
+    dbg(`retailer try ${url}`);
+    try {
+      const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
+      if (looksBlocked(text)) { dbg("  blocked"); continue; }
+      const meta = extractMeta(text);
+      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
+      const title = cleanupTitle(meta.title, brandName);
+      const description = cleanupDescription(meta.description);
+      if (title || description) {
+        return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
+      }
+    } catch (e) { dbg(`  ${e.message}`); }
+    await sleep(250);
+  }
+  return null;
+}
+
+const sources = [
+  { name: "brand-direct", find: brandDirectSource },
+  { name: "retailers",    find: retailerSource }
+];
+
+// ----- Main loop -----
+
+async function loadProducts() {
+  const ctx = {};
+  vm.createContext(ctx);
+  const code = await fs.readFile(COSMETICS_FILE, "utf8");
+  vm.runInContext(code + "\nglobalThis.OUT=COSMETICS_PRODUCTS;", ctx);
+  return ctx.OUT;
+}
+
+async function loadExisting() {
+  try {
+    const text = await fs.readFile(OUT_FILE, "utf8");
+    const m = text.match(/window\.COSMETICS_ENRICHMENT\s*=\s*(\{[\s\S]*?\});\s*$/);
+    if (m) return JSON.parse(m[1]);
+  } catch {}
+  return {};
+}
+
+async function saveEnrichment(enrichment) {
+  const js = "// Auto-generated από το scripts/fetch-descriptions.mjs.\n"
+           + "// Επίσημα ονόματα + περιγραφές καλλυντικών από vichy.gr / laroche-posay.gr /\n"
+           + "// cerave.gr και ελληνικά φαρμακεία. Μην το επεξεργαστείτε χειροκίνητα —\n"
+           + "// θα ξαναγραφτεί στην επόμενη εκτέλεση. Manual overrides: cosmetics-overrides.json\n"
+           + "window.COSMETICS_ENRICHMENT = " + JSON.stringify(enrichment, null, 2) + ";\n";
+  await fs.writeFile(OUT_FILE, js, "utf8");
+}
+
+async function processProduct(p, enrichment, idx, total) {
+  const label = `[${idx}${total ? "/" + total : ""}] ${(p.barcode || "").padEnd(13)} ${p.name.slice(0, 50).padEnd(50)}`;
+  if (DEBUG) console.log(`\n${label}`);
+  for (const src of sources) {
+    try {
+      const result = await src.find(p);
+      if (!result || (!result.name && !result.description)) continue;
+      enrichment[p.barcode] = result;
+      if (!DEBUG) console.log(`${label} OK  ${src.name.padEnd(13)} ${(result.source || "").padEnd(20)} ${result.name ? "n+" : "n-"} ${result.description ? "d+" : "d-"}`);
+      else console.log(`   => OK via ${src.name}: ${result.source}`);
+      return true;
+    } catch (e) {
+      dbg(`${src.name} ERR: ${e.message}`);
+    }
+    await sleep(200);
+  }
+  if (!DEBUG) console.log(`${label} MISS`);
+  else console.log(`   => MISS`);
+  return false;
+}
+
+async function main() {
+  const products = await loadProducts();
+  const enrichment = await loadExisting();
+  console.log(`Loaded ${Object.keys(enrichment).length} existing enrichments`);
+
+  if (TEST) {
+    const p = products.find(x => x.barcode === TEST);
+    if (!p) { console.error(`barcode ${TEST} not in catalog`); process.exit(1); }
+    p.__cosmetic = true;
+    await processProduct(p, enrichment, 1, 1);
+    await saveEnrichment(enrichment);
+    return;
+  }
+
+  let ok = 0, skip = 0, miss = 0, processed = 0;
+  const pool = products.filter(p => p.barcode);
+  for (const p of pool) {
+    if (processed >= LIMIT) break;
+    if (!FORCE && enrichment[p.barcode]) { skip++; continue; }
+    processed++;
+    p.__cosmetic = true;
+    const total = Math.min(pool.length, LIMIT);
+    const success = await processProduct(p, enrichment, processed, total);
+    if (success) ok++; else miss++;
+    if (success && processed % 5 === 0) await saveEnrichment(enrichment); // checkpoint
+    await sleep(DELAY_MS + Math.random() * 500);
+  }
+  await saveEnrichment(enrichment);
+  console.log(`\nDone. enriched=${ok}  already-had=${skip}  missed=${miss}`);
+}
+
+main().catch(err => { console.error("FATAL:", err); process.exit(1); });
