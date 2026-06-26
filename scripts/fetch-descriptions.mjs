@@ -191,10 +191,11 @@ function isProductPage(url, html) {
 
 // ----- Sources -----
 
-async function ddgSearch(query) {
+async function ddgSearch(query, barcode = "ddg") {
   const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
   dbg(`ddg GET ${url}`);
   const { text } = await fetchHtml(url);
+  if (SAVE_HTML) await saveHtml(url, text, barcode);
   const links = [];
   for (const m of text.matchAll(/<a[^>]+class="result__a"[^>]+href="([^"]+)"/g)) {
     let u = decodeHtml(m[1]);
@@ -202,6 +203,42 @@ async function ddgSearch(query) {
     const redir = u.match(/uddg=([^&]+)/);
     if (redir) { try { u = decodeURIComponent(redir[1]); } catch {} }
     links.push(u);
+  }
+  dbg(`ddg => ${links.length} links`);
+  return links;
+}
+
+// Bing web search — fallback όταν το DDG μας rate-limit-άρει ή επιστρέφει
+// άδειες απαντήσεις. Διαφορετική IP-based throttling, οπότε συνήθως έχει
+// διαθεσιμότητα όταν το DDG δεν έχει.
+async function bingSearch(query, barcode = "bing") {
+  const url = `https://www.bing.com/search?q=${encodeURIComponent(query)}&FORM=QBLH`;
+  dbg(`bing GET ${url}`);
+  let text;
+  try {
+    const r = await fetchHtml(url);
+    text = r.text;
+  } catch (e) { dbg(`bing ${e.message}`); return []; }
+  if (SAVE_HTML) await saveHtml(url, text, barcode);
+  const links = [];
+  // Bing's organic result links sit inside <h2><a href="...">
+  for (const m of text.matchAll(/<h2><a[^>]+href="(https?:\/\/[^"]+)"/g)) {
+    const u = decodeHtml(m[1]);
+    // Skip Bing's own tracking URLs (bing.com/aclick, bing.com/ck/a)
+    if (/(?:bing\.com\/(?:aclick|ck\/a))/.test(u)) continue;
+    links.push(u);
+  }
+  dbg(`bing => ${links.length} links`);
+  return links;
+}
+
+// Συνδυασμένη αναζήτηση: πρώτα DDG, μετά Bing fallback.
+async function searchLinks(query, barcode) {
+  let links = [];
+  try { links = await ddgSearch(query, barcode); } catch (e) { dbg(`ddg ERR: ${e.message}`); }
+  if (links.length === 0) {
+    await sleep(300);
+    try { links = await bingSearch(query, barcode); } catch (e) { dbg(`bing ERR: ${e.message}`); }
   }
   return links;
 }
@@ -231,7 +268,7 @@ async function brandDirectSource(p) {
   const seenUrls = new Set();
   for (const q of queries) {
     let links = [];
-    try { links = await ddgSearch(q); } catch (e) { dbg(`ddg ${e.message}`); continue; }
+    try { links = await searchLinks(q, p.barcode); } catch (e) { dbg(`search ${e.message}`); continue; }
     const onBrand = links.filter(u => sites.some(s => u.includes(s)) && !seenUrls.has(u));
     for (const url of onBrand.slice(0, 3)) {
       seenUrls.add(url);
@@ -250,9 +287,10 @@ async function brandDirectSource(p) {
           return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
         }
       } catch (e) { dbg(`  ${e.message}`); }
-      await sleep(250);
+      await sleep(350);
     }
-    await sleep(200);
+    // Πιο μεγάλο sleep μεταξύ διαφορετικών search queries για το ίδιο product
+    await sleep(700);
   }
   return null;
 }
