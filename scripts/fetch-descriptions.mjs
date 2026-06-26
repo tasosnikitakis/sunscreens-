@@ -34,6 +34,8 @@ const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const TEST = opt("test", null);
 const FORCE = flag("force");
 const DEBUG = flag("debug");
+const SAVE_HTML = flag("save-html");
+const DEBUG_DIR = path.join(ROOT, "images", "_debug_descriptions");
 const DELAY_MS = parseInt(opt("delay", "1100"));
 
 const BRAND_SITES = {
@@ -63,6 +65,16 @@ function browserHeaders(extra = {}) {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const dbg = (...a) => { if (DEBUG) console.log("   ", ...a); };
 
+async function saveHtml(url, text, barcode) {
+  try {
+    await fs.mkdir(DEBUG_DIR, { recursive: true });
+    const safe = url.replace(/^https?:\/\//, "").replace(/[^a-z0-9.-]/gi, "_").slice(0, 100);
+    const file = path.join(DEBUG_DIR, `${barcode}_${safe}.html`);
+    await fs.writeFile(file, text, "utf8");
+    dbg(`  saved html: ${file}`);
+  } catch {}
+}
+
 async function fetchHtml(url, extra = {}) {
   const res = await fetch(url, { headers: browserHeaders(extra), redirect: "follow" });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -74,10 +86,22 @@ function decodeHtml(s) {
     .replace(/&#34;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ");
 }
 
+// Πρέπει να είμαστε προσεκτικοί: πολλά κανονικά product pages αναφέρουν
+// "captcha" (reCAPTCHA σε φόρμες) ή "access denied" (νομικά κείμενα) χωρίς
+// να είναι bot-walls. Ψάχνουμε ΜΟΝΟ ξεκάθαρα σήματα Cloudflare / challenge.
 function looksBlocked(html) {
   const t = html.toLowerCase();
-  return t.includes("captcha") || t.includes("are you a robot") ||
-         t.includes("access denied") || t.includes("you have been blocked");
+  if (t.includes("cf-browser-verification") || t.includes("cf_chl_opt")) return true;
+  if (t.includes("checking your browser before accessing")) return true;
+  if (t.includes("attention required") && t.includes("cloudflare")) return true;
+  if (t.includes("just a moment") && t.includes("cloudflare")) return true;
+  if (t.includes("are you a robot")) return true;
+  // Short page (<5KB) με αναφορά σε CAPTCHA = πιθανότατα wall
+  if (html.length < 5000 && /\brecaptcha\b|\bg-recaptcha\b/.test(t)) return true;
+  // Title-bar λέει "access denied" / "blocked" / "403"
+  const titleMatch = t.match(/<title>([^<]*)<\/title>/);
+  if (titleMatch && /\b(access denied|blocked|forbidden|403)\b/i.test(titleMatch[1])) return true;
+  return false;
 }
 
 // ----- Cosmetic name expansion (same as fetch-images.mjs) -----
@@ -147,13 +171,22 @@ function cleanupDescription(desc) {
 }
 
 function isProductPage(url, html) {
-  // Heuristic: a product page usually has og:type=product, or matches a /product/ or /p/ pattern
   const u = url.toLowerCase();
+  // Δυνατό σήμα: og:type=product
   if (/<meta[^>]+property=["']og:type["'][^>]+content=["']product/i.test(html)) return true;
-  if (/\/(product|p|products|item|skin-care|sun-care|body|face|hair)\//.test(u)) return true;
-  // Avoid category / brand / search pages
-  if (/\/category\/|\/search\/|\/c\/|\/collection\//.test(u)) return false;
-  return true; // be permissive — caller still has to extract a description
+
+  const path = u.replace(/^https?:\/\/[^\/]+/, "").replace(/[?#].*$/, "");
+  // Παραλείπουμε homepage / language root (π.χ. "/", "/gr", "/en/")
+  if (path === "" || path === "/" || /^\/[a-z]{2}\/?$/.test(path)) return false;
+  // Σαφώς non-product πεδία
+  if (/\/(category|categories|search|brand|brands|about|contact|faq|help|news|blog)\//.test(u)) return false;
+  // Σαφώς product πεδία (συμπεριλαμβανομένου του /proionta/ του vichy.gr/lrp.gr)
+  if (/\/(product|p|products|item|skin-care|sun-care|body|face|hair|proionta|προϊοντα)\//.test(u)) return true;
+  // Μεγάλο slug στο τέλος → πιθανότατα product
+  const segments = path.split("/").filter(Boolean);
+  const last = segments[segments.length - 1] || "";
+  if (last.length > 15 && last.includes("-")) return true;
+  return true;
 }
 
 // ----- Sources -----
@@ -205,12 +238,14 @@ async function brandDirectSource(p) {
       dbg(`brand try ${url}`);
       try {
         const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
-        if (looksBlocked(text)) { dbg("  blocked"); continue; }
+        if (SAVE_HTML) await saveHtml(url, text, p.barcode);
+        if (looksBlocked(text)) { dbg(`  blocked (HTML ${text.length}b)`); continue; }
         if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
         const meta = extractMeta(text);
         const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
         const title = cleanupTitle(meta.title, brandName);
         const description = cleanupDescription(meta.description);
+        dbg(`  meta: title=${title ? title.slice(0,60) : "—"} | desc=${description ? description.slice(0,60) : "—"}`);
         if (title || description) {
           return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
         }
