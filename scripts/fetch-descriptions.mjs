@@ -113,6 +113,7 @@ function expandCosmeticName(p) {
     [/\bMIN\.?\s?89\b/gi, "Mineral 89"], [/\bLFT\b/gi, "Liftactiv"],
     [/\bLIFT\b(?!ACT)/gi, "Liftactiv"], [/\bNEO\b/gi, "Neovadiol"],
     [/\bDB\b/gi, "Dermablend"], [/\bDEM\b/gi, "Dermablend"],
+    [/\bCRV\b/gi, "CeraVe"],
     [/\bEFF\b/gi, "Effaclar"], [/\bTOL\b/gi, "Toleriane"],
     [/\bCICA\b/gi, "Cicaplast"], [/\bLIP\b/gi, "Lipikar"],
     [/\bHOM\b/gi, "Homme"], [/\bWAT\b/gi, "Water"], [/\bMIC\b/gi, "Micellar"],
@@ -381,15 +382,27 @@ async function getSitemapProductUrls(host) {
 
   // 1. robots.txt για να βρούμε το sitemap location
   const sitemapUrls = new Set();
+  const robotsUrl = `https://www.${host}/robots.txt`;
+  dbg(`sitemap robots GET ${robotsUrl}`);
   try {
-    const { text } = await fetchHtml(`https://www.${host}/robots.txt`);
+    const { text } = await fetchHtml(robotsUrl);
+    const before = sitemapUrls.size;
     for (const m of text.matchAll(/Sitemap:\s*(\S+)/gi)) sitemapUrls.add(m[1].trim());
-  } catch {}
-  // 2. Fallback σε standard sitemap paths
-  if (sitemapUrls.size === 0) {
-    sitemapUrls.add(`https://www.${host}/sitemap.xml`);
-    sitemapUrls.add(`https://www.${host}/sitemap_index.xml`);
-  }
+    dbg(`  robots OK (${text.length}b), ${sitemapUrls.size - before} Sitemap: entries`);
+  } catch (e) { dbg(`  robots ${e.message} (${e.cause?.code || "?"})`); }
+
+  // 2. Πολλαπλά candidate paths με/χωρίς www, και brand-specific paths
+  const variants = [`https://www.${host}`, `https://${host}`];
+  const paths = [
+    "/sitemap_index.xml",
+    "/sitemap-index.xml",
+    "/sitemap.xml",
+    "/sitemap-products.xml",
+    "/gr/sitemap.xml",
+    "/el/sitemap.xml",
+    "/en_gr/sitemap.xml"
+  ];
+  for (const root of variants) for (const p of paths) sitemapUrls.add(root + p);
 
   async function processSitemap(smUrl, depth = 0) {
     if (depth > 3 || seen.has(smUrl)) return;
@@ -399,7 +412,11 @@ async function getSitemapProductUrls(host) {
     try {
       const r = await fetchHtml(smUrl);
       text = r.text;
-    } catch (e) { dbg(`  ${e.message}`); return; }
+    } catch (e) {
+      const code = e.cause?.code || e.code || "";
+      dbg(`  ${e.message}${code ? ` (${code})` : ""}`);
+      return;
+    }
     const locs = [...text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map(m => m[1]);
     const isIndex = /<sitemapindex/i.test(text);
     dbg(`  ${isIndex ? "index" : "sitemap"} with ${locs.length} entries`);
@@ -418,6 +435,8 @@ async function getSitemapProductUrls(host) {
 
   for (const smUrl of sitemapUrls) {
     try { await processSitemap(smUrl); } catch (e) { dbg(`  ${e.message}`); }
+    // Early exit: αν έχουμε ήδη αρκετά URLs δεν δοκιμάζουμε άλλους sitemap paths
+    if (urls.size > 100) break;
   }
 
   const filtered = [...urls].filter(isLikelyProductUrl);
