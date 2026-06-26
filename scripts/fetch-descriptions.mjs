@@ -243,54 +243,75 @@ async function searchLinks(query, barcode) {
   return links;
 }
 
-async function brandDirectSource(p) {
-  const sites = BRAND_SITES[p.brand];
-  if (!sites) return null;
-
-  // Πολλαπλά queries: ξεκινάμε με αυτό που πιο πιθανά πιάνει product page στο
-  // επίσημο site, και πέφτουμε σε πιο γενικά αν δεν φέρουν αποτέλεσμα.
+// Bing Image Search: για κάθε image result κρατάει και `purl` (page URL όπου
+// φιλοξενείται η εικόνα). Σύμφωνα με τα live tests του fetch-images.mjs,
+// ένα ζωντανό κανάλι όταν DDG μας rate-limit-άρει και το site:vichy.gr query
+// σε Bing web πέφτει σε cookie wall.
+async function bingImagesBrandPages(p, sites) {
   const expanded = expandCosmeticName(p);
   const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const lineRe = p.line ? new RegExp(`\\b${reEscape(p.line)}\\b`, "i") : null;
   const withLine = (p.line && !lineRe.test(expanded)) ? `${p.line} ${expanded}` : expanded;
+  const q = `${withLine} ${p.barcode || ""}`.trim();
+  const url = `https://www.bing.com/images/search?q=${encodeURIComponent(q)}&form=HDRSC2&first=1`;
+  dbg(`bing-img GET ${url}`);
+  let html;
+  try {
+    const r = await fetchHtml(url);
+    html = r.text;
+    dbg(`bing-img => ${html.length}b`);
+  } catch (e) { dbg(`bing-img ${e.message}`); return []; }
+  if (SAVE_HTML) await saveHtml(url, html, p.barcode);
 
-  const queries = [];
-  for (const site of sites) {
-    if (p.barcode) queries.push(`site:${site} ${p.barcode}`);
-    queries.push(`site:${site} ${withLine}`);
-    queries.push(`site:${site} ${expanded}`);
+  // Το Bing βάζει σε κάθε image result ένα JSON-blob ως m="..." attribute.
+  // Δοκιμάζουμε όλα τα γνωστά patterns για το purl (page URL).
+  const purls = new Set();
+  const patterns = [
+    /&quot;purl&quot;:&quot;([^&]+)&quot;/g,
+    /"purl":"([^"]+)"/g,
+    /purl=([^&"'<>]+)/g
+  ];
+  for (const re of patterns) {
+    for (const m of html.matchAll(re)) {
+      let u;
+      try { u = decodeHtml(m[1]).replace(/\\\//g, "/"); }
+      catch { continue; }
+      if (re.source.includes("purl=")) { try { u = decodeURIComponent(u); } catch {} }
+      if (!/^https?:\/\//.test(u)) continue;
+      if (sites.some(s => u.includes(s))) purls.add(u);
+    }
   }
-  // Επιπλέον γενικά queries — εδώ φιλτράρουμε αυστηρά στο επίσημο domain στο
-  // post-processing.
-  if (p.barcode) queries.push(`${withLine} ${p.barcode}`);
-  queries.push(withLine);
+  dbg(`bing-img => ${purls.size} brand-domain page URLs`);
+  return [...purls];
+}
+
+async function brandDirectSource(p) {
+  const sites = BRAND_SITES[p.brand];
+  if (!sites) return null;
+
+  const pages = await bingImagesBrandPages(p, sites);
+  if (pages.length === 0) return null;
 
   const seenUrls = new Set();
-  for (const q of queries) {
-    let links = [];
-    try { links = await searchLinks(q, p.barcode); } catch (e) { dbg(`search ${e.message}`); continue; }
-    const onBrand = links.filter(u => sites.some(s => u.includes(s)) && !seenUrls.has(u));
-    for (const url of onBrand.slice(0, 3)) {
-      seenUrls.add(url);
-      dbg(`brand try ${url}`);
-      try {
-        const { text } = await fetchHtml(url, { Referer: "https://duckduckgo.com/" });
-        if (SAVE_HTML) await saveHtml(url, text, p.barcode);
-        if (looksBlocked(text)) { dbg(`  blocked (HTML ${text.length}b)`); continue; }
-        if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
-        const meta = extractMeta(text);
-        const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
-        const title = cleanupTitle(meta.title, brandName);
-        const description = cleanupDescription(meta.description);
-        dbg(`  meta: title=${title ? title.slice(0,60) : "—"} | desc=${description ? description.slice(0,60) : "—"}`);
-        if (title || description) {
-          return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
-        }
-      } catch (e) { dbg(`  ${e.message}`); }
-      await sleep(350);
-    }
-    // Πιο μεγάλο sleep μεταξύ διαφορετικών search queries για το ίδιο product
-    await sleep(700);
+  for (const url of pages.slice(0, 6)) {
+    if (seenUrls.has(url)) continue;
+    seenUrls.add(url);
+    dbg(`brand try ${url}`);
+    try {
+      const { text } = await fetchHtml(url, { Referer: "https://www.bing.com/" });
+      if (SAVE_HTML) await saveHtml(url, text, p.barcode);
+      if (looksBlocked(text)) { dbg(`  blocked (HTML ${text.length}b)`); continue; }
+      if (!isProductPage(url, text)) { dbg("  not a product page"); continue; }
+      const meta = extractMeta(text);
+      const brandName = ({ vichy: "Vichy", laroche: "La Roche-Posay", cerave: "CeraVe" })[p.brand];
+      const title = cleanupTitle(meta.title, brandName);
+      const description = cleanupDescription(meta.description);
+      dbg(`  meta: title=${title ? title.slice(0, 60) : "—"} | desc=${description ? description.slice(0, 60) : "—"}`);
+      if (title || description) {
+        return { name: title, description, source: url.replace(/^https?:\/\//, "").split("/")[0], url };
+      }
+    } catch (e) { dbg(`  ${e.message}`); }
+    await sleep(400);
   }
   return null;
 }
