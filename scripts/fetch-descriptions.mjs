@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // scripts/fetch-descriptions.mjs
 // Φέρνει το επίσημο όνομα και περιγραφή για κάθε καλλυντικό από:
-//   1) τις επίσημες σελίδες του κατασκευαστή (vichy.gr, laroche-posay.gr, cerave.gr)
+//   1) τις επίσημες σελίδες του κατασκευαστή (vichy.gr, larocheposay.gr, cerave.gr)
 //   2) τα ελληνικά φαρμακεία (vita4you, pharm24, kosmas, fr.gr, blinkshop κλπ.)
 //
 // Αποθηκεύει στο js/cosmetics-enrichment.js (window.COSMETICS_ENRICHMENT)
@@ -40,7 +40,9 @@ const DELAY_MS = parseInt(opt("delay", "1100"));
 
 const BRAND_SITES = {
   vichy: ["vichy.gr", "vichy.com"],
-  laroche: ["laroche-posay.gr", "laroche-posay.com"],
+  // Σημ.: το ελληνικό site είναι "larocheposay.gr" (χωρίς ενωτικό), ενώ το
+  // διεθνές είναι "laroche-posay.com" (με ενωτικό). Δύο διαφορετικοί κανόνες.
+  laroche: ["larocheposay.gr", "laroche-posay.com"],
   cerave: ["cerave.gr", "cerave.com"]
 };
 
@@ -349,13 +351,13 @@ async function brandDirectSource(p) {
 }
 
 // ===== Sitemap source =====
-// Search engines δεν φέρνουν αξιόπιστα vichy.gr / laroche-posay.gr /
+// Search engines δεν φέρνουν αξιόπιστα vichy.gr / larocheposay.gr /
 // cerave.gr URLs (Bing image purls = 0 hits, DDG rate-limit, Bing site:
 // = cookie wall). Αντί γι' αυτά, κατεβάζουμε μία φορά το sitemap κάθε
 // brand site, κρατάμε όλες τις διευθύνσεις προϊόντων, και κάνουμε
 // fuzzy match του ονόματος προϊόντος σε σχέση με το slug της κάθε URL.
 // Έτσι, οι περιγραφές που παίρνουμε είναι **ντόπιες ελληνικές** από
-// το vichy.gr / laroche-posay.gr.
+// το vichy.gr / larocheposay.gr.
 
 const sitemapCache = new Map();
 
@@ -363,7 +365,7 @@ function isLikelyProductUrl(url) {
   const lower = url.toLowerCase();
   if (/sitemap|robots|\.xml(\?|$)/.test(lower)) return false;
   if (/\/(category|categories|search|account|cart|checkout|help|contact|about|stores|brands|home|store-locator|customer-service|find-a-store|register|login|press|privacy|cookie|terms|legal)(\/|$)/.test(lower)) return false;
-  // Επιθυμητά path patterns (vichy.gr & laroche-posay.gr Salesforce Commerce,
+  // Επιθυμητά path patterns (vichy.gr & larocheposay.gr Salesforce Commerce,
   // και cerave.gr / international /products/)
   if (/\/(proionta|products|product|collections\/[^\/]+\/products|skin-care|sun-care|peripoihsh|προϊοντα|peripoiisi)\//.test(lower)) return true;
   // Permissive: μεγάλο last segment με dashes (συνήθως product slug)
@@ -537,7 +539,7 @@ async function loadExisting() {
 
 async function saveEnrichment(enrichment) {
   const js = "// Auto-generated από το scripts/fetch-descriptions.mjs.\n"
-           + "// Επίσημα ονόματα + περιγραφές καλλυντικών από vichy.gr / laroche-posay.gr /\n"
+           + "// Επίσημα ονόματα + περιγραφές καλλυντικών από vichy.gr / larocheposay.gr /\n"
            + "// cerave.gr και ελληνικά φαρμακεία. Μην το επεξεργαστείτε χειροκίνητα —\n"
            + "// θα ξαναγραφτεί στην επόμενη εκτέλεση. Manual overrides: cosmetics-overrides.json\n"
            + "window.COSMETICS_ENRICHMENT = " + JSON.stringify(enrichment, null, 2) + ";\n";
