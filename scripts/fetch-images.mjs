@@ -63,7 +63,7 @@ const BRAND_SITES = {
   freshline: ["freshline.gr", "freshline.com"],
   heliodor: ["pharmasept.gr", "pharmasept.com"],
   korres: ["korres.com", "korres.gr"],
-  laroche: ["laroche-posay.gr", "laroche-posay.com"],
+  laroche: ["larocheposay.gr", "laroche-posay.com"],
   vichy: ["vichy.gr", "vichy.com"],
   cerave: ["cerave.gr", "cerave.com"],
   luxurious: ["luxurious-cosmetics.com", "luxurious-cosmetics.gr"],
