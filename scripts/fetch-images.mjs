@@ -519,6 +519,11 @@ function slugSourceFor(product) {
   return (brandPart + head).replace(/\s+/g, " ").trim();
 }
 
+function subfolderFor(product) {
+  if (!product) return "";
+  return product.__cosmetic ? "cosmetics" : "sunscreens";
+}
+
 async function downloadImage(url, barcode, product) {
   dbg(`download ${url}`);
   const res = await fetch(url, { headers: { "User-Agent": pickUA(), "Referer": "https://www.bing.com/" } });
@@ -527,14 +532,26 @@ async function downloadImage(url, barcode, product) {
   if (buf.length < 1500) throw new Error("image too small (probably blocked)");
   const e = extFromContentType(res.headers.get("content-type"), url);
   const slug = product ? slugify(slugSourceFor(product)) : "";
-  const filename = slug ? `${slug}-${barcode}.${e}` : `${barcode}.${e}`;
-  await fs.writeFile(path.join(IMG_DIR, filename), buf);
-  dbg(`saved ${filename} (${buf.length} bytes)`);
-  return filename;
+  const baseName = slug ? `${slug}-${barcode}.${e}` : `${barcode}.${e}`;
+  const subfolder = subfolderFor(product);
+  if (subfolder) await fs.mkdir(path.join(IMG_DIR, subfolder), { recursive: true });
+  const relPath = subfolder ? `${subfolder}/${baseName}` : baseName;
+  await fs.writeFile(path.join(IMG_DIR, relPath), buf);
+  dbg(`saved ${relPath} (${buf.length} bytes)`);
+  return relPath;
 }
 
-async function existingFor(barcode) {
+async function existingFor(barcode, product) {
   const exts = ["jpg", "jpeg", "png", "webp", "gif"];
+  const subfolder = subfolderFor(product);
+  // 1) Preferred: new layout (images/<subfolder>/<barcode>.ext)
+  if (subfolder) {
+    for (const e of exts) {
+      try { await fs.access(path.join(IMG_DIR, subfolder, `${barcode}.${e}`)); return `${subfolder}/${barcode}.${e}`; }
+      catch {}
+    }
+  }
+  // 2) Legacy layout (images/<barcode>.ext directly under images/)
   for (const e of exts) {
     try { await fs.access(path.join(IMG_DIR, `${barcode}.${e}`)); return `${barcode}.${e}`; }
     catch {}
@@ -606,7 +623,7 @@ async function main() {
     if (processed >= LIMIT) break;
 
     if (!FORCE) {
-      const existing = manifest[p.barcode] || await existingFor(p.barcode);
+      const existing = manifest[p.barcode] || await existingFor(p.barcode, p);
       if (existing) { manifest[p.barcode] = existing; skip++; continue; }
     }
     processed++;
