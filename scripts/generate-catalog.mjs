@@ -143,6 +143,9 @@ async function loadContext() {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/cosmetics-data.js"), "utf8")
       + "\nglobalThis.COSMETICS_PRODUCTS=COSMETICS_PRODUCTS;globalThis.COSMETICS_BRANDS=COSMETICS_BRANDS;", ctx);
   } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/cosmetics-enrichment.js"), "utf8"), ctx);
+  } catch {}
   return ctx;
 }
 
@@ -171,21 +174,25 @@ function buildSunscreensTable(ctx, manifest) {
 
 function buildCosmeticsTable(ctx, manifest) {
   if (!ctx.COSMETICS_PRODUCTS) return null;
+  const enrich = (ctx.window && ctx.window.COSMETICS_ENRICHMENT) || {};
   const headers = [
     "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
     "Γραμμή", "Εταιρία", "Φωτογραφία",
-    "Κωδικός", "Barcode (EAN)", "ΦΠΑ", "Επίσημη ονομασία"
+    "Κωδικός", "Barcode (EAN)", "ΦΠΑ", "Καταχώρηση προμηθευτή", "Πηγή περιγραφής"
   ];
   const rows = ctx.COSMETICS_PRODUCTS.map(p => {
     const brand = ctx.COSMETICS_BRANDS[p.brand];
+    const e = enrich[p.barcode] || {};
+    const displayName = e.name || p.name;
+    const description = e.description || cosmeticDescription(p, brand);
     return [
-      p.name, p.price, cosmeticDescription(p, brand),
+      displayName, p.price, description,
       p.line, brand.name, manifest[p.barcode] || "",
-      p.id, p.barcode, p.vat || 24, p.rawName || ""
+      p.id, p.barcode, p.vat || 24, p.rawName || "", e.source || ""
     ];
   });
   return { headers, rows, sheetName: "Καλλυντικά 2026", barcodeColIdx: 7,
-    columnWidths: [50, 14, 70, 22, 18, 50, 14, 16, 8, 45] };
+    columnWidths: [50, 14, 70, 22, 18, 50, 14, 16, 8, 45, 22] };
 }
 
 // ===== Emit XLSX/CSV for a table =====

@@ -57,7 +57,10 @@ function render({ product: p, brands, catalog }) {
   const brand = brands[p.brand];
   const isCosmetic = catalog === "cosmetic";
   const parsed = isCosmetic ? null : parseProduct(p);
-  document.title = `${p.name} — ${brand.name}`;
+  // Enrichment: prefer official name + description if we have it.
+  const enrich = isCosmetic ? ((window.COSMETICS_ENRICHMENT || {})[p.barcode] || {}) : {};
+  const displayName = enrich.name || p.name;
+  document.title = `${displayName} — ${brand.name}`;
 
   const catalogList = isCosmetic ? COSMETICS_PRODUCTS : PRODUCTS;
   // For cosmetics prefer products from the same product line; fall back to brand.
@@ -78,7 +81,7 @@ function render({ product: p, brands, catalog }) {
       <a href="${homeUrl}#brand-${p.brand}" class="hover:text-amber-600" style="color:${brand.accent}">${escapeHtml(brand.name)}</a>
       ${isCosmetic && p.line ? `<span>›</span><span class="text-slate-700">${escapeHtml(p.line)}</span>` : ""}
       <span>›</span>
-      <span class="text-slate-700">${escapeHtml(p.name)}</span>
+      <span class="text-slate-700">${escapeHtml(displayName)}</span>
     </nav>
 
     <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
@@ -88,7 +91,7 @@ function render({ product: p, brands, catalog }) {
                style="--accent:${brand.accent};--accent-dark:${shade(brand.accent, -25)}">
             ${brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase()}
           </div>
-          <img id="hero-img" class="product-img absolute inset-0 w-full h-full p-6 opacity-0 transition-opacity" alt="${escapeHtml(p.name)}">
+          <img id="hero-img" class="product-img absolute inset-0 w-full h-full p-6 opacity-0 transition-opacity" alt="${escapeHtml(displayName)}">
         </div>
 
         ${!isCosmetic ? `
@@ -108,7 +111,8 @@ function render({ product: p, brands, catalog }) {
         <div class="inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-md mb-3" style="background:${brand.accent}1a;color:${brand.accent}">
           ${escapeHtml(brand.name)}${isCosmetic ? " · " + escapeHtml(p.line) : ""}
         </div>
-        <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(p.name)}</h1>
+        <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(displayName)}</h1>
+        ${isCosmetic && enrich.name && p.name !== enrich.name ? `<div class="text-xs text-slate-500 mt-1 italic">Καταχώρηση προμηθευτή: ${escapeHtml(p.name)}</div>` : ""}
 
         <div class="mt-5 flex items-baseline gap-3">
           <span class="text-3xl font-bold text-slate-900">${fmtPrice(p.price)}</span>
@@ -116,8 +120,12 @@ function render({ product: p, brands, catalog }) {
         </div>
 
         <p class="mt-6 text-slate-700 leading-relaxed" id="description">${
-          isCosmetic ? cosmeticDescription(p, brand) : sunscreenDescription(p, parsed)
+          isCosmetic
+            ? (enrich.description ? escapeHtml(enrich.description) : cosmeticDescription(p, brand))
+            : sunscreenDescription(p, parsed)
         }</p>
+        ${isCosmetic && !enrich.description ? `<p class="mt-3 text-slate-600 text-sm">${cosmeticDescription(p, brand)}</p>` : ""}
+        ${isCosmetic && enrich.url ? `<p class="mt-3 text-xs text-slate-400">Πηγή: <a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="underline hover:text-slate-600">${escapeHtml(enrich.source || "official")}</a></p>` : ""}
 
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
           <dt class="text-slate-500">Κωδικός</dt>

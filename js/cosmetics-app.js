@@ -12,6 +12,12 @@ function fmtPriceLocal(n) { return n.toFixed(2).replace(".", ",") + " €"; }
 
 function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 
+// Pick the most readable name we have: enrichment > supplier-cleaned > rawName
+function displayName(p) {
+  const enrich = (window.COSMETICS_ENRICHMENT || {})[p.barcode];
+  return (enrich && enrich.name) || p.name || p.rawName || "";
+}
+
 function buildBrandNav() {
   brandOrder.forEach(key => {
     const brand = COSMETICS_BRANDS[key];
@@ -32,7 +38,8 @@ function makeCard(p, accent) {
   const card = document.createElement("a");
   card.href = `product.html?id=${encodeURIComponent(p.id)}&type=cosmetic`;
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
-  const searchBlob = (p.name + " " + p.rawName + " " + p.line + " " + p.barcode + " " + p.id).toLowerCase();
+  const enrich = (window.COSMETICS_ENRICHMENT || {})[p.barcode] || {};
+  const searchBlob = (p.name + " " + p.rawName + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + p.line + " " + p.barcode + " " + p.id).toLowerCase();
   card.dataset.search = searchBlob;
 
   const imgWrap = document.createElement("div");
@@ -75,7 +82,7 @@ function makeCard(p, accent) {
   body.className = "p-4";
   body.innerHTML = `
     <div class="text-xs font-semibold uppercase tracking-wide mb-1" style="color:${accent}">${escapeText(COSMETICS_BRANDS[p.brand].name)}</div>
-    <h3 class="text-sm font-semibold text-slate-800 leading-snug line-clamp-2 min-h-[2.5rem]">${escapeText(p.name)}</h3>
+    <h3 class="text-sm font-semibold text-slate-800 leading-snug line-clamp-2 min-h-[2.5rem]">${escapeText(displayName(p))}</h3>
     <div class="mt-2 text-[10px] uppercase tracking-wide text-slate-500 font-medium">${escapeText(p.id)}</div>
   `;
   card.appendChild(body);
