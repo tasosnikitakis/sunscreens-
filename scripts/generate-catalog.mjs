@@ -157,6 +157,9 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/seasonal-overrides.js"), "utf8"), ctx);
   } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/vican-data.js"), "utf8"), ctx);
+  } catch {}
   return ctx;
 }
 
@@ -225,6 +228,28 @@ function buildSeasonalTable(ctx, manifest) {
     columnWidths: [50, 14, 70, 22, 22, 22, 50, 14, 16, 45, 22] };
 }
 
+// ===== Vican =====
+
+function buildVicanTable(ctx, manifest) {
+  const products = (ctx.window && ctx.window.VICAN_PRODUCTS) || [];
+  if (!products.length) return null;
+  const sections = (ctx.window && ctx.window.VICAN_SECTIONS) || {};
+  const headers = [
+    "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
+    "Κατηγορία", "Barcode (EAN)", "Φωτογραφία", "URL επίσημου site"
+  ];
+  const rows = products.map(p => {
+    const section = sections[p.section] || { name: p.section };
+    const localImg = manifest[p.barcode] || "";
+    return [
+      p.name, p.price || "", p.description || "",
+      section.name, p.barcode, localImg || p.image || "", p.url || ""
+    ];
+  });
+  return { headers, rows, sheetName: "Vican", barcodeColIdx: 4,
+    columnWidths: [50, 14, 70, 24, 16, 50, 50] };
+}
+
 function buildCosmeticsTable(ctx, manifest) {
   if (!ctx.COSMETICS_PRODUCTS) return null;
   const enrich = (ctx.window && ctx.window.COSMETICS_ENRICHMENT) || {};
@@ -288,6 +313,12 @@ async function main() {
     path.join(ROOT, "seasonal-catalog.csv"),
     path.join(ROOT, "seasonal-catalog.xlsx"),
     "Εποχιακά"
+  );
+  await emitTable(
+    buildVicanTable(ctx, manifest),
+    path.join(ROOT, "vican-catalog.csv"),
+    path.join(ROOT, "vican-catalog.xlsx"),
+    "Vican"
   );
 }
 

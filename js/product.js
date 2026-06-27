@@ -1,18 +1,26 @@
-// Product detail page — supports 3 catalogs (sunscreens + cosmetics + seasonal)
+// Product detail page — supports 4 catalogs (sunscreens + cosmetics + seasonal + vican)
 
 const root = document.getElementById("product-root");
 const params = new URLSearchParams(location.search);
 const productId = params.get("id");
-const typeHint = params.get("type"); // "cosmetic" | "seasonal" | (default: sunscreen)
+const productBarcode = params.get("barcode");
+const typeHint = params.get("type"); // "cosmetic" | "seasonal" | "vican" | (default: sunscreen)
 
 const _COSMETICS_PRODUCTS = typeof COSMETICS_PRODUCTS !== "undefined" ? COSMETICS_PRODUCTS : [];
 const _COSMETICS_BRANDS   = typeof COSMETICS_BRANDS   !== "undefined" ? COSMETICS_BRANDS   : {};
 const _SEASONAL_PRODUCTS  = typeof SEASONAL_PRODUCTS  !== "undefined" ? SEASONAL_PRODUCTS  : [];
 const _SEASONAL_BRANDS    = typeof SEASONAL_BRANDS    !== "undefined" ? SEASONAL_BRANDS    : {};
 const _SEASONAL_SECTIONS  = typeof SEASONAL_SECTIONS  !== "undefined" ? SEASONAL_SECTIONS  : {};
+const _VICAN_PRODUCTS     = typeof VICAN_PRODUCTS     !== "undefined" ? VICAN_PRODUCTS     : [];
+const _VICAN_SECTIONS     = typeof VICAN_SECTIONS     !== "undefined" ? VICAN_SECTIONS     : {};
+const _VICAN_BRAND        = (typeof window !== "undefined" && window.VICAN_BRAND) || { name: "Vican", accent: "#0ea5e9" };
 
 // Resolve product across all catalogs.
-function findProduct(id, hint) {
+function findProduct(id, hint, barcode) {
+  if (hint === "vican" && barcode) {
+    const p = _VICAN_PRODUCTS.find(x => x.barcode === barcode);
+    if (p) return { product: p, brands: { vican: _VICAN_BRAND }, catalog: "vican" };
+  }
   if (hint === "seasonal") {
     const p = _SEASONAL_PRODUCTS.find(x => x.id === id);
     if (p) return { product: p, brands: _SEASONAL_BRANDS, catalog: "seasonal" };
@@ -21,16 +29,22 @@ function findProduct(id, hint) {
     const p = _COSMETICS_PRODUCTS.find(x => x.id === id);
     if (p) return { product: p, brands: _COSMETICS_BRANDS, catalog: "cosmetic" };
   }
-  let p = PRODUCTS.find(x => x.id === id);
-  if (p) return { product: p, brands: BRANDS, catalog: "sunscreen" };
-  p = _COSMETICS_PRODUCTS.find(x => x.id === id);
-  if (p) return { product: p, brands: _COSMETICS_BRANDS, catalog: "cosmetic" };
-  p = _SEASONAL_PRODUCTS.find(x => x.id === id);
-  if (p) return { product: p, brands: _SEASONAL_BRANDS, catalog: "seasonal" };
+  if (id) {
+    let p = PRODUCTS.find(x => x.id === id);
+    if (p) return { product: p, brands: BRANDS, catalog: "sunscreen" };
+    p = _COSMETICS_PRODUCTS.find(x => x.id === id);
+    if (p) return { product: p, brands: _COSMETICS_BRANDS, catalog: "cosmetic" };
+    p = _SEASONAL_PRODUCTS.find(x => x.id === id);
+    if (p) return { product: p, brands: _SEASONAL_BRANDS, catalog: "seasonal" };
+  }
+  if (barcode) {
+    const p = _VICAN_PRODUCTS.find(x => x.barcode === barcode);
+    if (p) return { product: p, brands: { vican: _VICAN_BRAND }, catalog: "vican" };
+  }
   return null;
 }
 
-const found = productId ? findProduct(productId, typeHint) : null;
+const found = (productId || productBarcode) ? findProduct(productId, typeHint, productBarcode) : null;
 
 // Update navbar active state + back link
 (function updateNav() {
@@ -39,6 +53,7 @@ const found = productId ? findProduct(productId, typeHint) : null;
     const tab = a.dataset.tab;
     const active = (tab === "cosmetic" && cat === "cosmetic") ||
                    (tab === "seasonal" && cat === "seasonal") ||
+                   (tab === "vican" && cat === "vican") ||
                    (tab === "sunscreen" && (!cat || cat === "sunscreen"));
     a.className = active
       ? "px-3 sm:px-4 py-1.5 rounded-lg text-sm font-bold bg-slate-900 text-white transition flex items-center gap-1.5"
@@ -52,6 +67,9 @@ const found = productId ? findProduct(productId, typeHint) : null;
   } else if (cat === "seasonal") {
     backLink.href = "seasonal.html";
     backText.textContent = "Πίσω στα εποχιακά";
+  } else if (cat === "vican") {
+    backLink.href = "vican.html";
+    backText.textContent = "Πίσω στον κατάλογο Vican";
   } else {
     backLink.href = "index.html";
     backText.textContent = "Πίσω στα αντηλιακά";
@@ -71,43 +89,47 @@ if (!found) {
 }
 
 function render({ product: p, brands, catalog }) {
-  const brand = brands[p.brand] || { name: p.brand, accent: "#64748b" };
   const isCosmetic = catalog === "cosmetic";
   const isSeasonal = catalog === "seasonal";
-  const parsed = (!isCosmetic && !isSeasonal) ? parseProduct(p) : null;
+  const isVican = catalog === "vican";
+  const brand = isVican ? _VICAN_BRAND : (brands[p.brand] || { name: p.brand, accent: "#64748b" });
+  const parsed = (!isCosmetic && !isSeasonal && !isVican) ? parseProduct(p) : null;
   // Enrichment: prefer official name + description if we have it.
   let enrich = {};
   if (isCosmetic) enrich = (window.COSMETICS_ENRICHMENT || {})[p.barcode] || {};
   else if (isSeasonal) enrich = (window.SEASONAL_OVERRIDES || {})[p.barcode]
                                || (window.SEASONAL_ENRICHMENT || {})[p.barcode]
                                || {};
+  else if (isVican) enrich = { name: p.name, description: p.description, source: "vican.gr", url: p.url };
   const displayName = enrich.name || p.name;
   document.title = `${displayName} — ${brand.name}`;
 
   let catalogList = PRODUCTS;
   if (isCosmetic) catalogList = _COSMETICS_PRODUCTS;
   else if (isSeasonal) catalogList = _SEASONAL_PRODUCTS;
+  else if (isVican) catalogList = _VICAN_PRODUCTS;
 
-  // For cosmetics/seasonal prefer products from the same product line; fall back to brand.
-  const related = (isCosmetic || isSeasonal)
-    ? catalogList.filter(x => x.brand === p.brand && x.line === p.line && x.id !== p.id).slice(0, 6)
-    : catalogList.filter(x => x.brand === p.brand && x.id !== p.id).slice(0, 6);
+  // Related: same line for cosmetics/seasonal; same section for vican; same brand otherwise.
+  const related = isVican
+    ? catalogList.filter(x => x.section === p.section && x.barcode !== p.barcode).slice(0, 6)
+    : (isCosmetic || isSeasonal)
+      ? catalogList.filter(x => x.brand === p.brand && x.line === p.line && x.id !== p.id).slice(0, 6)
+      : catalogList.filter(x => x.brand === p.brand && x.id !== p.id).slice(0, 6);
   const fallbackRelated = (isCosmetic || isSeasonal) && related.length < 6
     ? catalogList.filter(x => x.brand === p.brand && x.line !== p.line && x.id !== p.id).slice(0, 6 - related.length)
     : [];
 
-  const homeUrl = isCosmetic ? "cosmetics.html" : isSeasonal ? "seasonal.html" : "index.html";
-  const homeLabel = isCosmetic ? "Καλλυντικά" : isSeasonal ? "Εποχιακά" : "Αντηλιακά";
+  const homeUrl = isCosmetic ? "cosmetics.html" : isSeasonal ? "seasonal.html" : isVican ? "vican.html" : "index.html";
+  const homeLabel = isCosmetic ? "Καλλυντικά" : isSeasonal ? "Εποχιακά" : isVican ? "Vican" : "Αντηλιακά";
 
-  const isEnrichable = isCosmetic || isSeasonal;
-  const sectionInfo = isSeasonal ? _SEASONAL_SECTIONS[p.section] : null;
+  const isEnrichable = isCosmetic || isSeasonal || isVican;
+  const sectionInfo = isSeasonal ? _SEASONAL_SECTIONS[p.section] : isVican ? _VICAN_SECTIONS[p.section] : null;
 
   root.innerHTML = `
     <nav class="text-sm text-slate-500 mb-6 flex flex-wrap gap-1.5 items-center">
       <a href="${homeUrl}" class="hover:text-amber-600">${homeLabel}</a>
-      ${isSeasonal && sectionInfo ? `<span>›</span><a href="${homeUrl}#section-${p.section}" class="hover:text-amber-600" style="color:${sectionInfo.accent}">${escapeHtml(sectionInfo.name)}</a>` : ""}
-      <span>›</span>
-      <a href="${homeUrl}#brand-${p.brand}" class="hover:text-amber-600" style="color:${brand.accent}">${escapeHtml(brand.name)}</a>
+      ${(isSeasonal || isVican) && sectionInfo ? `<span>›</span><a href="${homeUrl}#section-${p.section}" class="hover:text-amber-600" style="color:${sectionInfo.accent}">${escapeHtml(sectionInfo.name)}</a>` : ""}
+      ${!isVican ? `<span>›</span><a href="${homeUrl}#brand-${p.brand}" class="hover:text-amber-600" style="color:${brand.accent}">${escapeHtml(brand.name)}</a>` : ""}
       ${isEnrichable && p.line ? `<span>›</span><span class="text-slate-700">${escapeHtml(p.line)}</span>` : ""}
       <span>›</span>
       <span class="text-slate-700">${escapeHtml(displayName)}</span>
@@ -132,7 +154,7 @@ function render({ product: p, brands, catalog }) {
         ` : `
         <div class="mt-4 flex flex-wrap gap-2">
           ${p.line ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${brand.accent}">${escapeHtml(p.line)}</span>` : ""}
-          ${isSeasonal && sectionInfo ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${sectionInfo.accent}">${sectionInfo.icon} ${escapeHtml(sectionInfo.name)}</span>` : ""}
+          ${(isSeasonal || isVican) && sectionInfo ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${sectionInfo.accent}">${sectionInfo.icon} ${escapeHtml(sectionInfo.name)}</span>` : ""}
         </div>
         `}
       </div>
@@ -153,17 +175,18 @@ function render({ product: p, brands, catalog }) {
             ? (enrich.description ? escapeHtml(enrich.description) : cosmeticDescription(p, brand))
             : isSeasonal
               ? (enrich.description ? escapeHtml(enrich.description) : seasonalDescription(p, brand, sectionInfo))
-              : sunscreenDescription(p, parsed)
+              : isVican
+                ? escapeHtml(p.description || `Προϊόν Vican στην κατηγορία ${(sectionInfo && sectionInfo.name) || p.section}.`)
+                : sunscreenDescription(p, parsed)
         }</p>
 
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
-          <dt class="text-slate-500">Κωδικός</dt>
-          <dd class="font-medium text-slate-800">${escapeHtml(p.id)}</dd>
+          ${p.id ? `<dt class="text-slate-500">Κωδικός</dt><dd class="font-medium text-slate-800">${escapeHtml(p.id)}</dd>` : ""}
           <dt class="text-slate-500">Barcode (EAN)</dt>
           <dd class="font-mono text-slate-800">${escapeHtml(p.barcode)}</dd>
           ${isEnrichable ? `
             ${p.line ? `<dt class="text-slate-500">Γραμμή / Κατηγορία</dt><dd class="font-medium text-slate-800">${escapeHtml(p.line)}</dd>` : ""}
-            ${isSeasonal && sectionInfo ? `<dt class="text-slate-500">Ενότητα</dt><dd class="font-medium text-slate-800">${escapeHtml(sectionInfo.name)}</dd>` : ""}
+            ${(isSeasonal || isVican) && sectionInfo ? `<dt class="text-slate-500">Ενότητα</dt><dd class="font-medium text-slate-800">${escapeHtml(sectionInfo.name)}</dd>` : ""}
             ${p.vat ? `<dt class="text-slate-500">ΦΠΑ</dt><dd class="font-medium text-slate-800">${p.vat}%</dd>` : ""}
           ` : `
             ${parsed.spf ? `<dt class="text-slate-500">Δείκτης προστασίας</dt><dd class="font-medium text-slate-800">SPF ${parsed.spf}</dd>` : ""}
@@ -192,16 +215,17 @@ function render({ product: p, brands, catalog }) {
     ` : ""}
   `;
 
-  // Hero image: local manifest first, OBF fallback
+  // Hero image: local manifest first, then remote URL (vican), OBF fallback
   const heroImg = document.getElementById("hero-img");
   const ph = document.getElementById("ph");
   const heroLocal = getLocalImageUrl(p.barcode);
-  if (heroLocal) {
+  const heroFallback = heroLocal || (isVican ? p.image : null);
+  if (heroFallback) {
     heroImg.onload = () => { heroImg.style.opacity = "1"; ph.style.opacity = "0"; };
-    heroImg.src = heroLocal;
+    heroImg.src = heroFallback;
   }
   fetchOBF(p.barcode).then(data => {
-    if (!heroLocal && data) {
+    if (!heroFallback && data) {
       const url = data.image_front_url || data.image_url;
       if (url) {
         heroImg.onload = () => { heroImg.style.opacity = "1"; ph.style.opacity = "0"; };
@@ -242,11 +266,17 @@ function renderOBFExtra(data) {
 
 function miniCard(p, brand, catalog) {
   const a = document.createElement("a");
-  const typeParam = catalog === "cosmetic" ? "&type=cosmetic" : catalog === "seasonal" ? "&type=seasonal" : "";
-  a.href = `product.html?id=${encodeURIComponent(p.id)}${typeParam}`;
+  const typeParam = catalog === "cosmetic" ? "&type=cosmetic"
+                  : catalog === "seasonal" ? "&type=seasonal"
+                  : catalog === "vican"    ? "&type=vican"
+                  : "";
+  a.href = catalog === "vican"
+    ? `product.html?barcode=${encodeURIComponent(p.barcode)}${typeParam}`
+    : `product.html?id=${encodeURIComponent(p.id)}${typeParam}`;
   a.className = "product-card block bg-white rounded-xl overflow-hidden border border-slate-200";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
+  const remoteUrl = localUrl || (catalog === "vican" ? p.image : null);
   const initials = brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
   const isSunscreen = catalog === "sunscreen";
   const parsed = isSunscreen ? parseProduct(p) : null;
@@ -258,7 +288,7 @@ function miniCard(p, brand, catalog) {
          style="--accent:${brand.accent};--accent-dark:${shade(brand.accent, -20)}">
       ${initials}
     </div>
-    ${localUrl ? `<img src="${localUrl}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" class="absolute inset-0 w-full h-full object-contain p-2 bg-white" onerror="this.remove()">` : ""}
+    ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" class="absolute inset-0 w-full h-full object-contain p-2 bg-white" onerror="this.remove()">` : ""}
     ${isSunscreen && parsed && parsed.spf ? `<span class="absolute top-1 left-1 px-1.5 py-0.5 text-[10px] font-bold rounded text-white" style="background:${brand.accent}">SPF ${parsed.spf}</span>` : ""}
   `;
   a.appendChild(wrap);
