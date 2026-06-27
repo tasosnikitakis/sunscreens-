@@ -560,12 +560,36 @@ function subfolderFor(product) {
   return "sunscreens";
 }
 
+// Έλεγχος magic bytes — μερικοί servers επιστρέφουν HTML/JS με
+// Content-Type: image/png (consent walls, error pages, embedded widgets).
+// Χωρίς αυτόν τον έλεγχο, τέτοιο περιεχόμενο μπορεί να εκθέσει 3rd-party
+// JavaScript / API keys που εμφανίζεται μέσα σε commits.
+function looksLikeImage(buf) {
+  if (buf.length < 8) return false;
+  // PNG: 89 50 4E 47 0D 0A 1A 0A
+  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4E && buf[3] === 0x47) return true;
+  // JPEG: FF D8 FF
+  if (buf[0] === 0xFF && buf[1] === 0xD8 && buf[2] === 0xFF) return true;
+  // GIF: GIF87a / GIF89a
+  if (buf[0] === 0x47 && buf[1] === 0x49 && buf[2] === 0x46 && buf[3] === 0x38) return true;
+  // WEBP: RIFF????WEBP
+  if (buf[0] === 0x52 && buf[1] === 0x49 && buf[2] === 0x46 && buf[3] === 0x46
+      && buf[8] === 0x57 && buf[9] === 0x45 && buf[10] === 0x42 && buf[11] === 0x50) return true;
+  // BMP
+  if (buf[0] === 0x42 && buf[1] === 0x4D) return true;
+  // SVG (XML or <svg)
+  const head = buf.slice(0, 256).toString("utf8").trim().toLowerCase();
+  if (head.startsWith("<?xml") || head.startsWith("<svg")) return true;
+  return false;
+}
+
 async function downloadImage(url, barcode, product) {
   dbg(`download ${url}`);
   const res = await fetch(url, { headers: { "User-Agent": pickUA(), "Referer": "https://www.bing.com/" } });
   if (!res.ok) throw new Error(`download HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 1500) throw new Error("image too small (probably blocked)");
+  if (!looksLikeImage(buf)) throw new Error(`not an image (magic bytes mismatch; server may have returned HTML)`);
   const e = extFromContentType(res.headers.get("content-type"), url);
   const slug = product ? slugify(slugSourceFor(product)) : "";
   const baseName = slug ? `${slug}-${barcode}.${e}` : `${barcode}.${e}`;

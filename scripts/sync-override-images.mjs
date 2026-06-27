@@ -54,6 +54,19 @@ async function fetchText(url, extra = {}) {
   return res.text();
 }
 
+function looksLikeImage(buf) {
+  if (buf.length < 8) return false;
+  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4E && buf[3] === 0x47) return true;
+  if (buf[0] === 0xFF && buf[1] === 0xD8 && buf[2] === 0xFF) return true;
+  if (buf[0] === 0x47 && buf[1] === 0x49 && buf[2] === 0x46 && buf[3] === 0x38) return true;
+  if (buf[0] === 0x52 && buf[1] === 0x49 && buf[2] === 0x46 && buf[3] === 0x46
+      && buf[8] === 0x57 && buf[9] === 0x45 && buf[10] === 0x42 && buf[11] === 0x50) return true;
+  if (buf[0] === 0x42 && buf[1] === 0x4D) return true;
+  const head = buf.slice(0, 256).toString("utf8").trim().toLowerCase();
+  if (head.startsWith("<?xml") || head.startsWith("<svg")) return true;
+  return false;
+}
+
 async function fetchBuf(url, referer) {
   const res = await fetch(url, {
     headers: { "User-Agent": UA, "Accept": "image/*,*/*;q=0.8", "Referer": referer },
@@ -62,6 +75,7 @@ async function fetchBuf(url, referer) {
   if (!res.ok) throw new Error(`download HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 1500) throw new Error("image too small (probably blocked)");
+  if (!looksLikeImage(buf)) throw new Error("not an image (server returned HTML)");
   const ct = res.headers.get("content-type") || "";
   return { buf, contentType: ct };
 }

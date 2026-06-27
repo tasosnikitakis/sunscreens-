@@ -662,7 +662,6 @@ window.IMAGE_MANIFEST = {
   "5200321013825": "seasonal/power-health-lipolean-formula-x30-platinum-5200321013825.jpg",
   "5200321012538": "seasonal/power-health-lipolean-formula-x60-platinum-5200321012538.jpg",
   "5200321011166": "seasonal/power-health-water-shape-effervescent-x14-stevia-5200321011166.jpg",
-  "5213006870002": "seasonal/superfood-slim-detox-liquid-300ml-5213006870002.png",
   "33984015807": "seasonal/solgar-lipotropic-factors-x50-tablets-33984015807.jpg",
   "5202888224263": "seasonal/frezyderm-crilen-after-nip-gel-30ml-5202888224263.jpg",
   "5202888224317": "seasonal/frezyderm-crilen-effective-protection-wipes-x20-5202888224317.jpg",
