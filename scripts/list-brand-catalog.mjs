@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 // scripts/list-brand-catalog.mjs
-// Διαβάζει το sitemap ενός brand site και εκτυπώνει για κάθε product URL
-// το og:title (Greek). Χρησιμοποιείται για να συντάξουμε χειροκίνητα το
-// js/seasonal-overrides.json — barcode → URL αντιστοίχιση.
+// Διαβάζει το sitemap ενός brand site (ή μία category page) και εκτυπώνει
+// για κάθε product URL το og:title (Greek). Χρησιμοποιείται για να
+// συντάξουμε χειροκίνητα το js/seasonal-overrides.json — barcode → URL.
 //
 // Χρήση:
 //   node scripts/list-brand-catalog.mjs --brand=compeed
 //   node scripts/list-brand-catalog.mjs --brand=compeed --host=compeed.gr
 //   node scripts/list-brand-catalog.mjs --brand=compeed --json   # JSON output
+//
+// Για brands χωρίς δικό τους site (πωλούνται μέσω distributor όπως vican.gr):
+//   node scripts/list-brand-catalog.mjs --category-url="https://www.vican.gr/el/proionta.html?manufacturer=1229"
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -22,6 +25,7 @@ const flag = (k) => args.includes(`--${k}`);
 
 const BRAND = opt("brand", "compeed");
 const HOST_OVERRIDE = opt("host", null);
+const CATEGORY_URL = opt("category-url", null);
 const JSON_OUT = flag("json");
 const DELAY_MS = parseInt(opt("delay", "400"));
 
@@ -40,8 +44,8 @@ const BRAND_HOSTS = {
 };
 
 const HOST = HOST_OVERRIDE || BRAND_HOSTS[BRAND];
-if (!HOST) {
-  console.error(`Άγνωστο brand: ${BRAND}. Δώστε --host=...`);
+if (!CATEGORY_URL && !HOST) {
+  console.error(`Άγνωστο brand: ${BRAND}. Δώστε --host=... ή --category-url=...`);
   process.exit(1);
 }
 
@@ -138,9 +142,45 @@ async function getSitemapProductUrls(host) {
   return [...urls].filter(u => isLikelyProductUrl(u, host));
 }
 
+// Παίρνει όλα τα <a href=...> ενός category page, φιλτράρει σε product-like
+// links από τον ίδιο host. Συμπληρώνει pagination αν εντοπίσει "?page=" links.
+async function scrapeCategoryPage(catUrl) {
+  const seen = new Set();
+  const found = new Set();
+  const queue = [catUrl];
+  const host = new URL(catUrl).hostname.toLowerCase();
+  while (queue.length) {
+    const url = queue.shift();
+    if (seen.has(url)) continue;
+    seen.add(url);
+    console.error(`category page GET ${url}`);
+    let html;
+    try { html = await fetchText(url); } catch (e) { console.error(`  ${e.message}`); continue; }
+    for (const m of html.matchAll(/<a[^>]+href=["']([^"'#]+)["']/gi)) {
+      let u = decodeHtml(m[1]);
+      try { u = new URL(u, url).toString(); } catch { continue; }
+      const lower = u.toLowerCase();
+      if (new URL(u).hostname.toLowerCase() !== host) continue;
+      // Pagination
+      if (/[?&](p|page)=\d+/.test(lower) && !seen.has(u)) queue.push(u.split("#")[0]);
+      if (!isLikelyProductUrl(u, host)) continue;
+      found.add(u.split("#")[0]);
+    }
+    await sleep(DELAY_MS);
+    if (queue.length > 20) break; // safety
+  }
+  return [...found];
+}
+
 async function main() {
-  console.error(`Sitemap discovery για ${HOST}…`);
-  const urls = await getSitemapProductUrls(HOST);
+  let urls;
+  if (CATEGORY_URL) {
+    console.error(`Category-page scraping ${CATEGORY_URL}…`);
+    urls = await scrapeCategoryPage(CATEGORY_URL);
+  } else {
+    console.error(`Sitemap discovery για ${HOST}…`);
+    urls = await getSitemapProductUrls(HOST);
+  }
   console.error(`Βρέθηκαν ${urls.length} product URLs. Διαβάζω og:title για κάθε ένα…\n`);
 
   const items = [];
