@@ -71,7 +71,30 @@ const BRAND_SITES = {
   avene: ["eau-thermale-avene.gr", "eau-thermale-avene.com", "avene.gr"],
   ducray: ["ducray.com", "ducray.gr"],
   svr: ["labo-svr.com", "labosvr.com", "svr.com"],
-  isdin: ["isdin.com", "isdin.gr"]
+  isdin: ["isdin.com", "isdin.gr"],
+  // Εποχιακά brand sites
+  elancyl: ["elancyl.gr", "elancyl.com"],
+  powerhealth: ["powerhealth.gr"],
+  slimdetox: ["superfoods.gr", "superfoods.com"],
+  solgar: ["solgar.gr", "solgar.com"],
+  jungle: ["jungleformula.gr", "jungleformula.com"],
+  cer8: ["cer-8.gr", "cer-8.com"],
+  repel: ["repel.gr"],
+  galesyn: ["galesyn.gr"],
+  son: ["scienceofnature.gr", "scinat.gr"],
+  autan: ["autan-international.com", "autan.de"],
+  moshield: ["mo-shield.com"],
+  realcare: ["realcare.gr"],
+  esi: ["esi-italia.com", "esi.it"],
+  aboca: ["aboca.com", "aboca.gr"],
+  compeed: ["compeed.gr", "compeed.com"],
+  earplugs: ["ohropax.de"],
+  pharmalead: ["pharmalead.gr", "lavipharm.com"],
+  travelfix: ["travel-fix.gr", "lavipharm.com"],
+  hangover: [],
+  klerat: ["bayer.com"],
+  storm: ["pestcontrol.basf.com"],
+  addict: ["bayer.com"]
 };
 
 // Greek pharmacy retailers used as fallbacks
@@ -113,7 +136,7 @@ async function loadProducts() {
   vm.runInContext(code + "\nglobalThis.__OUT={PRODUCTS,BRANDS};", ctx);
 
   // Also include cosmetics products if the file exists. We flatten them into
-  // PRODUCTS so a single run downloads images for both catalogs.
+  // PRODUCTS so a single run downloads images for all catalogs.
   const cosmeticsPath = path.join(ROOT, "js/cosmetics-data.js");
   try {
     const ccode = await fs.readFile(cosmeticsPath, "utf8");
@@ -121,10 +144,21 @@ async function loadProducts() {
     vm.createContext(cctx);
     vm.runInContext(ccode + "\nglobalThis.__OUT={COSMETICS_PRODUCTS,COSMETICS_BRANDS};", cctx);
     const cosmetics = cctx.__OUT.COSMETICS_PRODUCTS || [];
-    // Mark cosmetic products so brand-direct searches use the right domain map.
     cosmetics.forEach(c => { c.__cosmetic = true; });
     ctx.__OUT.PRODUCTS = [...ctx.__OUT.PRODUCTS, ...cosmetics];
   } catch { /* cosmetics-data.js not present yet */ }
+
+  // Seasonal products live in their own subfolder when downloaded.
+  const seasonalPath = path.join(ROOT, "js/seasonal-data.js");
+  try {
+    const scode = await fs.readFile(seasonalPath, "utf8");
+    const sctx = {};
+    vm.createContext(sctx);
+    vm.runInContext(scode + "\nglobalThis.__OUT={SEASONAL_PRODUCTS,SEASONAL_BRANDS};", sctx);
+    const seasonal = (sctx.__OUT.SEASONAL_PRODUCTS || []).filter(p => p.barcode);
+    seasonal.forEach(s => { s.__seasonal = true; });
+    ctx.__OUT.PRODUCTS = [...ctx.__OUT.PRODUCTS, ...seasonal];
+  } catch { /* seasonal-data.js not present yet */ }
 
   return ctx.__OUT;
 }
@@ -521,7 +555,9 @@ function slugSourceFor(product) {
 
 function subfolderFor(product) {
   if (!product) return "";
-  return product.__cosmetic ? "cosmetics" : "sunscreens";
+  if (product.__seasonal) return "seasonal";
+  if (product.__cosmetic) return "cosmetics";
+  return "sunscreens";
 }
 
 async function downloadImage(url, barcode, product) {
