@@ -10,10 +10,15 @@ function fmtPriceLocal(n) { return n > 0 ? n.toFixed(2).replace(".", ",") + " â‚
 function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 function slugForId(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 
-// Pick the most readable name: enrichment > supplier-cleaned > rawName
+// Pick the most readable name: override > enrichment > supplier-cleaned > rawName
+function enrichmentFor(p) {
+  return (window.SEASONAL_OVERRIDES || {})[p.barcode]
+      || (window.SEASONAL_ENRICHMENT || {})[p.barcode]
+      || null;
+}
 function displayName(p) {
-  const enrich = (window.SEASONAL_ENRICHMENT || {})[p.barcode];
-  return (enrich && enrich.name) || p.name || p.rawName || "";
+  const e = enrichmentFor(p);
+  return (e && e.name) || p.name || p.rawName || "";
 }
 
 function buildSectionNav() {
@@ -38,7 +43,7 @@ function makeCard(p) {
   const card = document.createElement("a");
   card.href = `product.html?id=${encodeURIComponent(p.id)}&type=seasonal`;
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
-  const enrich = (window.SEASONAL_ENRICHMENT || {})[p.barcode] || {};
+  const enrich = enrichmentFor(p) || {};
   const blob = (p.name + " " + p.rawName + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (p.line || "") + " " + p.barcode + " " + p.id).toLowerCase();
   card.dataset.search = blob;
 

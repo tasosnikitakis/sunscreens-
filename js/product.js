@@ -78,7 +78,9 @@ function render({ product: p, brands, catalog }) {
   // Enrichment: prefer official name + description if we have it.
   let enrich = {};
   if (isCosmetic) enrich = (window.COSMETICS_ENRICHMENT || {})[p.barcode] || {};
-  else if (isSeasonal) enrich = (window.SEASONAL_ENRICHMENT || {})[p.barcode] || {};
+  else if (isSeasonal) enrich = (window.SEASONAL_OVERRIDES || {})[p.barcode]
+                               || (window.SEASONAL_ENRICHMENT || {})[p.barcode]
+                               || {};
   const displayName = enrich.name || p.name;
   document.title = `${displayName} — ${brand.name}`;
 

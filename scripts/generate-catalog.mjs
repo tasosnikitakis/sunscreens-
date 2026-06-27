@@ -154,6 +154,9 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/seasonal-enrichment.js"), "utf8"), ctx);
   } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/seasonal-overrides.js"), "utf8"), ctx);
+  } catch {}
   return ctx;
 }
 
@@ -198,6 +201,8 @@ function seasonalDescription(p, brand, sectionInfo) {
 function buildSeasonalTable(ctx, manifest) {
   if (!ctx.SEASONAL_PRODUCTS) return null;
   const enrich = (ctx.window && ctx.window.SEASONAL_ENRICHMENT) || {};
+  const overrides = (ctx.window && ctx.window.SEASONAL_OVERRIDES) || {};
+  const enrichmentFor = (bc) => overrides[bc] || enrich[bc] || {};
   const headers = [
     "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
     "Ενότητα", "Γραμμή", "Εταιρία", "Φωτογραφία",
@@ -206,7 +211,7 @@ function buildSeasonalTable(ctx, manifest) {
   const rows = ctx.SEASONAL_PRODUCTS.map(p => {
     const brand = ctx.SEASONAL_BRANDS[p.brand];
     const sectionInfo = ctx.SEASONAL_SECTIONS && ctx.SEASONAL_SECTIONS[p.section];
-    const e = enrich[p.barcode] || {};
+    const e = enrichmentFor(p.barcode);
     const displayName = e.name || p.name;
     const description = e.description || seasonalDescription(p, brand, sectionInfo);
     return [
