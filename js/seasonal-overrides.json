@@ -1,5 +1,74 @@
 {
   "_comment": "Χειροκίνητη αντιστοίχιση barcode → επίσημο product URL. Τρέξτε scripts/build-overrides.mjs για να μεταφραστεί σε js/seasonal-overrides.js.",
-  "_format": "Κάθε entry: \"<barcode>\": { \"url\": \"...\", \"line\": \"...\" (optional), \"name\": \"...\" (optional override) }",
-  "overrides": {}
+  "_format": "Κάθε entry: \"<barcode>\": { \"url\": \"...\", \"name\": \"...\" (optional override), \"description\": \"...\" (optional override) }",
+  "overrides": {
+    "3574660559859": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-fouskales-sto-pelma-apo/",
+      "name": "Compeed Επιθέματα για Φουσκάλες στο Πέλμα από Αθλητικές Δραστηριότητες x5"
+    },
+    "3663555001457": {
+      "url": "https://www.compeed.gr/products/mesaia-epithemata-gia-fouskales/",
+      "name": "Compeed Μεσαία Επιθέματα για Φουσκάλες x5"
+    },
+    "3663555001679": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-fouskales-sta-daktila-t/",
+      "name": "Compeed Επιθέματα για Φουσκάλες στα Δάκτυλα των Ποδιών x8"
+    },
+    "3663555001440": {
+      "url": "https://www.compeed.gr/products/mikra-epithemata-gia-fouskales/",
+      "name": "Compeed Μικρά Επιθέματα για Φουσκάλες x6"
+    },
+    "3663555001938": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-kotsi/",
+      "name": "Compeed Επιθέματα για Κότσι x5"
+    },
+    "3663555002126": {
+      "url": "https://www.compeed.gr/products/aorato-epithema-gia-ton-epixeilio-erpi/",
+      "name": "Compeed Αόρατο Επίθεμα για τον Επιχείλιο Έρπη x15"
+    },
+    "3663555002386": {
+      "url": "https://www.compeed.gr/products/mesaia-epithemata-gia-fouskales/",
+      "name": "Compeed Extreme Μεσαία Επιθέματα για Φουσκάλες x5"
+    },
+    "3663555002652": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-fouskales-apo-psilotako/",
+      "name": "Compeed Επιθέματα για Φουσκάλες από Ψηλοτάκουνα Παπούτσια x5"
+    },
+    "3663555002744": {
+      "url": "https://www.compeed.gr/products/epithemata-diaforetikon-megethon-gia-f/",
+      "name": "Compeed Επιθέματα Διαφορετικών Μεγεθών για Φουσκάλες x5"
+    },
+    "3663555002973": {
+      "url": "https://www.compeed.gr/products/mesaia-epithemata-gia-fouskales/",
+      "name": "Compeed Μεσαία Επιθέματα για Φουσκάλες x10"
+    },
+    "3663555001969": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-kalous-sta-daktila-ton-p/",
+      "name": "Compeed Μεσαία Επιθέματα για Κάλους στα Μικρά Δάκτυλα των Ποδιών x10"
+    },
+    "3663555001945": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-sklirinsis/",
+      "name": "Compeed Μεσαία Επιθέματα για Σκληρύνσεις x6"
+    },
+    "3663555001952": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-kalous-sta-daktila-ton-p/",
+      "name": "Compeed Μεσαία Επιθέματα για Κάλους Μεταξύ Δακτύλων x10"
+    },
+    "3663555001549": {
+      "url": "https://www.compeed.gr/products/epithemata-gia-sklirinsis/",
+      "name": "Compeed Μεγάλα Επιθέματα για Σκληρύνσεις x2"
+    },
+    "3663555002492": {
+      "url": "https://www.compeed.gr/products/enidatika-epithemata-gia-kalous/",
+      "name": "Compeed Μεσαία Ενυδατικά Επιθέματα για Κάλους x6"
+    },
+    "3663555005394": {
+      "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-conceal-go/",
+      "name": "Compeed Επιθέματα για Σπυράκια Conceal & Go x15"
+    },
+    "3663555005349": {
+      "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-katharismou/",
+      "name": "Compeed Επιθέματα για Σπυράκια Καθαρισμού x7"
+    }
+  }
 }
