@@ -1,0 +1,5 @@
+{
+  "_comment": "Χειροκίνητη αντιστοίχιση barcode → επίσημο product URL. Τρέξτε scripts/build-overrides.mjs για να μεταφραστεί σε js/seasonal-overrides.js.",
+  "_format": "Κάθε entry: \"<barcode>\": { \"url\": \"...\", \"line\": \"...\" (optional), \"name\": \"...\" (optional override) }",
+  "overrides": {}
+}
