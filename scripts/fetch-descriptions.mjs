@@ -23,12 +23,36 @@ import vm from "node:vm";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const OUT_FILE = path.join(ROOT, "js/cosmetics-enrichment.js");
-const COSMETICS_FILE = path.join(ROOT, "js/cosmetics-data.js");
 
 const args = process.argv.slice(2);
 const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); return a ? a.split("=")[1] : def; };
 const flag = (k) => args.includes(`--${k}`);
+
+const CATALOG = opt("catalog", "cosmetics");
+if (!["cosmetics", "seasonal"].includes(CATALOG)) {
+  console.error(`Unknown --catalog=${CATALOG}. Use: cosmetics | seasonal`);
+  process.exit(1);
+}
+
+const CATALOG_CONFIG = {
+  cosmetics: {
+    dataFile: path.join(ROOT, "js/cosmetics-data.js"),
+    dataVar: "COSMETICS_PRODUCTS",
+    outFile: path.join(ROOT, "js/cosmetics-enrichment.js"),
+    windowVar: "COSMETICS_ENRICHMENT",
+    catalogFlag: "__cosmetic"
+  },
+  seasonal: {
+    dataFile: path.join(ROOT, "js/seasonal-data.js"),
+    dataVar: "SEASONAL_PRODUCTS",
+    outFile: path.join(ROOT, "js/seasonal-enrichment.js"),
+    windowVar: "SEASONAL_ENRICHMENT",
+    catalogFlag: "__seasonal"
+  }
+};
+const CFG = CATALOG_CONFIG[CATALOG];
+const OUT_FILE = CFG.outFile;
+const DATA_FILE = CFG.dataFile;
 
 const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const TEST = opt("test", null);
@@ -39,11 +63,33 @@ const DEBUG_DIR = path.join(ROOT, "images", "_debug_descriptions");
 const DELAY_MS = parseInt(opt("delay", "1100"));
 
 const BRAND_SITES = {
+  // Καλλυντικά
   vichy: ["vichy.gr", "vichy.com"],
   // Σημ.: το ελληνικό site είναι "larocheposay.gr" (χωρίς ενωτικό), ενώ το
   // διεθνές είναι "laroche-posay.com" (με ενωτικό). Δύο διαφορετικοί κανόνες.
   laroche: ["larocheposay.gr", "laroche-posay.com"],
-  cerave: ["cerave.gr", "cerave.com"]
+  cerave: ["cerave.gr", "cerave.com"],
+  // Αντηλιακά (που εμπλέκονται και ως brands εποχιακών)
+  frezyderm: ["frezyderm.gr", "frezyderm.com"],
+  korres: ["korres.gr", "korres.com"],
+  // Εποχιακά
+  elancyl: ["elancyl.gr", "elancyl.com"],
+  powerhealth: ["powerhealth.gr"],
+  slimdetox: ["superfoods.gr"],
+  solgar: ["solgar.gr", "solgar.com"],
+  jungle: ["jungleformula.gr", "jungleformula.com"],
+  cer8: ["cer-8.gr", "cer-8.com"],
+  repel: ["repel.gr"],
+  galesyn: ["galesyn.gr"],
+  son: ["scienceofnature.gr", "scinat.gr"],
+  autan: ["autan-international.com"],
+  moshield: ["mo-shield.com"],
+  realcare: ["realcare.gr"],
+  esi: ["esi-italia.com", "esi.it"],
+  aboca: ["aboca.com", "aboca.gr"],
+  compeed: ["compeed.gr", "compeed.com"],
+  pharmalead: ["pharmalead.gr"],
+  travelfix: ["travel-fix.gr"]
 };
 
 const UAS = [
@@ -523,26 +569,31 @@ const sources = [
 async function loadProducts() {
   const ctx = {};
   vm.createContext(ctx);
-  const code = await fs.readFile(COSMETICS_FILE, "utf8");
-  vm.runInContext(code + "\nglobalThis.OUT=COSMETICS_PRODUCTS;", ctx);
+  const code = await fs.readFile(DATA_FILE, "utf8");
+  vm.runInContext(code + `\nglobalThis.OUT=${CFG.dataVar};`, ctx);
   return ctx.OUT;
 }
 
 async function loadExisting() {
   try {
     const text = await fs.readFile(OUT_FILE, "utf8");
-    const m = text.match(/window\.COSMETICS_ENRICHMENT\s*=\s*(\{[\s\S]*?\});\s*$/);
+    const re = new RegExp(`window\\.${CFG.windowVar}\\s*=\\s*(\\{[\\s\\S]*?\\});\\s*$`);
+    const m = text.match(re);
     if (m) return JSON.parse(m[1]);
   } catch {}
   return {};
 }
 
 async function saveEnrichment(enrichment) {
-  const js = "// Auto-generated από το scripts/fetch-descriptions.mjs.\n"
-           + "// Επίσημα ονόματα + περιγραφές καλλυντικών από vichy.gr / larocheposay.gr /\n"
-           + "// cerave.gr και ελληνικά φαρμακεία. Μην το επεξεργαστείτε χειροκίνητα —\n"
-           + "// θα ξαναγραφτεί στην επόμενη εκτέλεση. Manual overrides: cosmetics-overrides.json\n"
-           + "window.COSMETICS_ENRICHMENT = " + JSON.stringify(enrichment, null, 2) + ";\n";
+  const banner = CATALOG === "seasonal"
+    ? "// Auto-generated από το scripts/fetch-descriptions.mjs (--catalog=seasonal).\n"
+      + "// Επίσημα ονόματα + περιγραφές εποχιακών από τις σελίδες των κατασκευαστών.\n"
+      + "// Μην το επεξεργαστείτε χειροκίνητα — θα ξαναγραφτεί στην επόμενη εκτέλεση.\n"
+    : "// Auto-generated από το scripts/fetch-descriptions.mjs.\n"
+      + "// Επίσημα ονόματα + περιγραφές καλλυντικών από vichy.gr / larocheposay.gr /\n"
+      + "// cerave.gr και ελληνικά φαρμακεία. Μην το επεξεργαστείτε χειροκίνητα —\n"
+      + "// θα ξαναγραφτεί στην επόμενη εκτέλεση. Manual overrides: cosmetics-overrides.json\n";
+  const js = banner + `window.${CFG.windowVar} = ` + JSON.stringify(enrichment, null, 2) + ";\n";
   await fs.writeFile(OUT_FILE, js, "utf8");
 }
 
@@ -575,7 +626,7 @@ async function main() {
   if (TEST) {
     const p = products.find(x => x.barcode === TEST);
     if (!p) { console.error(`barcode ${TEST} not in catalog`); process.exit(1); }
-    p.__cosmetic = true;
+    p[CFG.catalogFlag] = true;
     await processProduct(p, enrichment, 1, 1);
     await saveEnrichment(enrichment);
     return;
@@ -587,7 +638,7 @@ async function main() {
     if (processed >= LIMIT) break;
     if (!FORCE && enrichment[p.barcode]) { skip++; continue; }
     processed++;
-    p.__cosmetic = true;
+    p[CFG.catalogFlag] = true;
     const total = Math.min(pool.length, LIMIT);
     const success = await processProduct(p, enrichment, processed, total);
     if (success) ok++; else miss++;

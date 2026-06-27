@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // scripts/generate-catalog.mjs
-// Παράγει 4 αρχεία:
+// Παράγει 6 αρχεία:
 //   catalog.csv              + catalog.xlsx           — αντηλιακά (sunscreens)
 //   cosmetics-catalog.csv    + cosmetics-catalog.xlsx — καλλυντικά
+//   seasonal-catalog.csv     + seasonal-catalog.xlsx  — εποχιακά
 //
 // Χρήση:  node scripts/generate-catalog.mjs
 
@@ -146,6 +147,13 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/cosmetics-enrichment.js"), "utf8"), ctx);
   } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/seasonal-data.js"), "utf8")
+      + "\nglobalThis.SEASONAL_PRODUCTS=SEASONAL_PRODUCTS;globalThis.SEASONAL_BRANDS=SEASONAL_BRANDS;globalThis.SEASONAL_SECTIONS=SEASONAL_SECTIONS;", ctx);
+  } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/seasonal-enrichment.js"), "utf8"), ctx);
+  } catch {}
   return ctx;
 }
 
@@ -170,6 +178,46 @@ function buildSunscreensTable(ctx, manifest) {
   });
   return { headers, rows, sheetName: "Αντηλιακά 2026", barcodeColIdx: 9,
     columnWidths: [50, 14, 70, 18, 18, 30, 18, 50, 12, 16, 8, 12] };
+}
+
+// ===== Seasonal descriptions =====
+
+const SEASONAL_SECTION_INTROS = {
+  slimming: "Συμπλήρωμα/προϊόν αδυνατίσματος για ολοκληρωμένη φροντίδα σώματος.",
+  insectrepel: "Εποχιακό προϊόν για προστασία ή ανακούφιση κατά τις θερινές δραστηριότητες.",
+  rodenticide: "Επαγγελματικό δόλωμα κατά τρωκτικών/εντόμων."
+};
+
+function seasonalDescription(p, brand, sectionInfo) {
+  const bits = [];
+  if (sectionInfo) bits.push(SEASONAL_SECTION_INTROS[p.section] || `Από την κατηγορία "${sectionInfo.name}".`);
+  bits.push(`Προϊόν της σειράς ${brand ? brand.name : p.brand}${p.line ? " (" + p.line + ")" : ""}.`);
+  return bits.join(" ");
+}
+
+function buildSeasonalTable(ctx, manifest) {
+  if (!ctx.SEASONAL_PRODUCTS) return null;
+  const enrich = (ctx.window && ctx.window.SEASONAL_ENRICHMENT) || {};
+  const headers = [
+    "Όνομα", "Χονδρική τιμή (€)", "Περιγραφή",
+    "Ενότητα", "Γραμμή", "Εταιρία", "Φωτογραφία",
+    "Κωδικός", "Barcode (EAN)", "Καταχώρηση προμηθευτή", "Πηγή περιγραφής"
+  ];
+  const rows = ctx.SEASONAL_PRODUCTS.map(p => {
+    const brand = ctx.SEASONAL_BRANDS[p.brand];
+    const sectionInfo = ctx.SEASONAL_SECTIONS && ctx.SEASONAL_SECTIONS[p.section];
+    const e = enrich[p.barcode] || {};
+    const displayName = e.name || p.name;
+    const description = e.description || seasonalDescription(p, brand, sectionInfo);
+    return [
+      displayName, p.price || "", description,
+      sectionInfo ? sectionInfo.name : p.section,
+      p.line || "", brand ? brand.name : p.brand, manifest[p.barcode] || "",
+      p.id, p.barcode, p.rawName || "", e.source || ""
+    ];
+  });
+  return { headers, rows, sheetName: "Εποχιακά 2026", barcodeColIdx: 8,
+    columnWidths: [50, 14, 70, 22, 22, 22, 50, 14, 16, 45, 22] };
 }
 
 function buildCosmeticsTable(ctx, manifest) {
@@ -229,6 +277,12 @@ async function main() {
     path.join(ROOT, "cosmetics-catalog.csv"),
     path.join(ROOT, "cosmetics-catalog.xlsx"),
     "Καλλυντικά"
+  );
+  await emitTable(
+    buildSeasonalTable(ctx, manifest),
+    path.join(ROOT, "seasonal-catalog.csv"),
+    path.join(ROOT, "seasonal-catalog.xlsx"),
+    "Εποχιακά"
   );
 }
 
