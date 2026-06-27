@@ -1,5 +1,6 @@
 // Auto-generated από το scripts/fetch-descriptions.mjs (--catalog=seasonal).
 // Επίσημα ονόματα + περιγραφές εποχιακών από τις σελίδες των κατασκευαστών.
+// Διορθώσεις per-brand από scripts/refine-by-barcode.mjs.
 // Μην το επεξεργαστείτε χειροκίνητα — θα ξαναγραφτεί στην επόμενη εκτέλεση.
 window.SEASONAL_ENRICHMENT = {
   "5202888227400": {
@@ -219,10 +220,10 @@ window.SEASONAL_ENRICHMENT = {
     "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-katharismou/"
   },
   "3663555001969": {
-    "name": "COMPEED® Advanced Corn Care",
-    "description": "COMPEED® Corn cuhions contain hydrocolloid active gel technology which relieves pain immediately and helps remove the corn",
+    "name": "Eeltplekkenpleisters Medium | Compeed®",
+    "description": "COMPEED® Eeltplekkenpleisters Medium beschermt tegen wrijving door als een tweede huid te werken. Wacht niet langer om de pijn te verlichten en eelt te elimineren.",
     "source": "compeed.gr",
-    "url": "https://www.compeedusa.com/product/compeed-advanced-corn-care/"
+    "url": "https://www.compeed.be/product/compeed-eeltplekkenpleisters-medium/"
   },
   "3663555001440": {
     "name": "Blarenpleisters Small | Compeed® | Behandeling van kleine blaren",
@@ -231,15 +232,15 @@ window.SEASONAL_ENRICHMENT = {
     "url": "https://www.compeed.be/product/compeed-blarenpleisters-small/"
   },
   "3663555001938": {
-    "name": "Επιθέματα για Σπυράκια* Conceal & Go | Compeed®",
-    "description": "Καθαρίστε, καλύψτε και προστατέψτε τα σπυράκια σας με τα Επιθέματα Compeed Conceal & Go. Ανακαλύψτε πως η υδροκολλοειδή τεχνολογία των επιθεμάτων για σπυράκια βοηθάει στην αντιμετώπιση των σπυριών.",
-    "source": "www.compeed.gr",
-    "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-conceal-go/"
+    "name": "Eeltplekkenpleisters Medium | Compeed®",
+    "description": "COMPEED® Eeltplekkenpleisters Medium beschermt tegen wrijving door als een tweede huid te werken. Wacht niet langer om de pijn te verlichten en eelt te elimineren.",
+    "source": "compeed.gr",
+    "url": "https://www.compeed.be/product/compeed-eeltplekkenpleisters-medium/"
   },
   "3663555001549": {
     "name": "Επιθέματα για Σπυράκια* Conceal & Go | Compeed®",
     "description": "Καθαρίστε, καλύψτε και προστατέψτε τα σπυράκια σας με τα Επιθέματα Compeed Conceal & Go. Ανακαλύψτε πως η υδροκολλοειδή τεχνολογία των επιθεμάτων για σπυράκια βοηθάει στην αντιμετώπιση των σπυριών.",
-    "source": "www.compeed.gr",
+    "source": "compeed.gr",
     "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-conceal-go/"
   },
   "3663555001945": {
@@ -255,10 +256,10 @@ window.SEASONAL_ENRICHMENT = {
     "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-katharismou/"
   },
   "3663555002126": {
-    "name": "Compeed® Anti-Imperfection* Patch Discreet, ideaal voor overdag",
-    "description": "De discrete patch Compeed® Anti-Imperfection heeft 3-voudige werking: reinigen, verbergen en beschermen van kleine puistjes en zwarte puntjes",
+    "name": "Invisible Patch koortsblaasjes | Compeed®",
+    "description": "COMPEED® Invisible Patch koortsblaasjes verzacht jeuk en behandelt snel en discreet koortsblaasjes. Als een schild om besmetting te verminderen",
     "source": "compeed.gr",
-    "url": "https://www.compeed.be/product/compeed-anti-imperfection-patch-discreet/"
+    "url": "https://www.compeed.be/product/compeed-invisible-patch-tegen-koortsblaasjes-met-applicator/"
   },
   "3663555002386": {
     "name": "Eeltplekkenpleisters Medium | Compeed®",
@@ -267,34 +268,34 @@ window.SEASONAL_ENRICHMENT = {
     "url": "https://www.compeed.be/product/compeed-eeltplekkenpleisters-medium/"
   },
   "3663555005394": {
-    "name": "Compeed® Anti-Imperfection* Patch Discreet, ideaal voor overdag",
-    "description": "De discrete patch Compeed® Anti-Imperfection heeft 3-voudige werking: reinigen, verbergen en beschermen van kleine puistjes en zwarte puntjes",
-    "source": "compeed.gr",
-    "url": "https://www.compeed.be/product/compeed-anti-imperfection-patch-discreet/"
-  },
-  "3663555002492": {
-    "name": "Eeltplekkenpleisters Medium | Compeed®",
-    "description": "COMPEED® Eeltplekkenpleisters Medium beschermt tegen wrijving door als een tweede huid te werken. Wacht niet langer om de pijn te verlichten en eelt te elimineren.",
-    "source": "compeed.gr",
-    "url": "https://www.compeed.be/product/compeed-eeltplekkenpleisters-medium/"
-  },
-  "3663555002973": {
-    "name": "Eeltplekkenpleisters Medium | Compeed®",
-    "description": "COMPEED® Eeltplekkenpleisters Medium beschermt tegen wrijving door als een tweede huid te werken. Wacht niet langer om de pijn te verlichten en eelt te elimineren.",
-    "source": "compeed.gr",
-    "url": "https://www.compeed.be/product/compeed-eeltplekkenpleisters-medium/"
-  },
-  "3663555002652": {
     "name": "Επιθέματα για Σπυράκια* Conceal & Go | Compeed®",
     "description": "Καθαρίστε, καλύψτε και προστατέψτε τα σπυράκια σας με τα Επιθέματα Compeed Conceal & Go. Ανακαλύψτε πως η υδροκολλοειδή τεχνολογία των επιθεμάτων για σπυράκια βοηθάει στην αντιμετώπιση των σπυριών.",
-    "source": "www.compeed.gr",
+    "source": "compeed.gr",
     "url": "https://www.compeed.gr/products/compeed-epithemata-gia-spirakia-conceal-go/"
   },
-  "3663555002744": {
-    "name": "Pansement Ampoules Assortiment - Pack 3 en 1 | Compeed®",
-    "description": "Le pansement COMPEED® Ampoules Assortiment est la solution pratique pour soigner tous les types d’ampoules au pied grâce à ses 3 formats différents.",
+  "3663555002492": {
+    "name": "Compeed Callus Moisturizing Patches 6 Τεμάχια | Pharm24.gr",
+    "description": "Compeed Callus Moisturizing Patches 6 Τεμάχια - Ενυδατικά Επιθέματα Μεσαίου Μεγέθους για Κάλους, Προσφέρουν Ενυδάτωση Διαρκείας Ανακουφίζοντας από τον Πόνο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/compeed-mesaia-enydatika-epithemata-gia-kaloys-poy-prosferoyn-enydatwsh-kai-aporrofoyn-toys-kradasmoys-6tmx-p-35222.html"
+  },
+  "3663555002973": {
+    "name": "COMPEED® Advanced Blister Care Medium | Compeed®",
+    "description": "COMPEED® Advanced Blister Care Medium cushions provide instant relief and help to protect blisters on the feet by providing optimum healing conditions for recovery.",
     "source": "compeed.gr",
-    "url": "https://www.compeed.be/fr/produit/compeed-pansement-ampoule-assortiment-pack-3-en-1-mixpack-boite-en-carton/"
+    "url": "https://www.compeedusa.com/product/compeed-advanced-blister-care-medium/"
+  },
+  "3663555002652": {
+    "name": "COMPEED® Advanced Blister Care High Heel | Compeed®",
+    "description": "COMPEED® High Heel Cushions are discreetly designed blister pads for when wearing high heels. For subtle, instant relief, and quicker recovery try COMPEED®.",
+    "source": "compeed.gr",
+    "url": "https://www.compeedusa.com/product/compeed-advanced-blister-care-high-heel/"
+  },
+  "3663555002744": {
+    "name": "COMPEED® Advanced Blister Care Medium | Compeed®",
+    "description": "COMPEED® Advanced Blister Care Medium cushions provide instant relief and help to protect blisters on the feet by providing optimum healing conditions for recovery.",
+    "source": "compeed.gr",
+    "url": "https://www.compeedusa.com/product/compeed-advanced-blister-care-medium/"
   },
   "5203339000122": {
     "name": "Αιμόσταση - Pharmalead Vitorgan",
@@ -307,5 +308,11 @@ window.SEASONAL_ENRICHMENT = {
     "description": "Ideal for minor bleeding. Promotes early healing. Highly absorbent. Soft & conformable",
     "source": "pharmalead.gr",
     "url": "https://pharmalead.gr/product/hemosatic-cotton-wool/"
+  },
+  "3663555005349": {
+    "name": "Compeed Cleaning Patches 7 Τεμάχια | Pharm24.gr",
+    "description": "Compeed Cleaning Patches 7 Τεμάχια - Επιθέματα για Σπυράκια Τριπλής Δράσης Καθαρισμού, Απορρόφησης & Απολέπισης σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/compeed-epithemata-katharismoy-gia-spyrakia-7-temaxia-p-53347.html"
   }
 };
