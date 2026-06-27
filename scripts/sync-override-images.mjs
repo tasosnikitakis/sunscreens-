@@ -74,15 +74,63 @@ function decodeHtml(s) {
 function extractOgImage(html) {
   const re = /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i;
   const m = html.match(re);
-  if (m) return decodeHtml(m[1]);
+  if (m) return { url: decodeHtml(m[1]), source: "og:image" };
   const re2 = /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i;
   const m2 = html.match(re2);
-  if (m2) return decodeHtml(m2[1]);
-  // Linked image via <link rel="image_src">
+  if (m2) return { url: decodeHtml(m2[1]), source: "twitter:image" };
   const re3 = /<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["']/i;
   const m3 = html.match(re3);
-  if (m3) return decodeHtml(m3[1]);
+  if (m3) return { url: decodeHtml(m3[1]), source: "link rel=image_src" };
   return null;
+}
+
+// JSON-LD Product schema — πιο αξιόπιστη για WP/WooCommerce sites που
+// δεν δίνουν og:image (compeed.gr). Παίρνουμε το πρώτο εικόνα URL από
+// product schema entries.
+function extractJsonLdImage(html) {
+  const blocks = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  for (const b of blocks) {
+    let json;
+    try { json = JSON.parse(b[1].trim()); } catch { continue; }
+    const stack = Array.isArray(json) ? [...json] : [json];
+    while (stack.length) {
+      const node = stack.shift();
+      if (!node || typeof node !== "object") continue;
+      const type = node["@type"];
+      const typeArr = Array.isArray(type) ? type : [type];
+      if (typeArr.includes("Product") && node.image) {
+        const img = Array.isArray(node.image) ? node.image[0] : node.image;
+        if (typeof img === "string") return { url: img, source: "json-ld Product" };
+        if (img && img.url) return { url: img.url, source: "json-ld Product.image.url" };
+      }
+      if (node["@graph"] && Array.isArray(node["@graph"])) stack.push(...node["@graph"]);
+    }
+  }
+  return null;
+}
+
+// WooCommerce / WP gallery <img> tag. Φιλτράρισμα logos/icons/avatars.
+function extractGalleryImage(html, baseUrl) {
+  const candidates = [];
+  // wp-content/uploads images that look like products
+  const re = /<img[^>]+(?:src|data-src|data-large_image|data-zoom-image)=["']([^"']+wp-content\/uploads\/[^"']+)["'][^>]*>/gi;
+  for (const m of html.matchAll(re)) candidates.push(decodeHtml(m[1]));
+  // Skip icons, logos, avatars, banners
+  const blacklist = /\b(logo|icon|favicon|sprite|placeholder|banner|avatar|loading|spinner|footer|header|menu)\b/i;
+  const filtered = candidates
+    .map(u => u.replace(/-\d+x\d+(?=\.(?:jpg|jpeg|png|webp))/i, "")) // strip "-300x300" thumbnail suffix
+    .filter(u => !blacklist.test(u));
+  if (filtered.length === 0) return null;
+  // De-dupe and pick first
+  const seen = new Set();
+  for (const u of filtered) { if (!seen.has(u)) { seen.add(u); return { url: u, source: "wp-content gallery" }; } }
+  return null;
+}
+
+function findImageInPage(html, pageUrl) {
+  return extractOgImage(html)
+      || extractJsonLdImage(html)
+      || extractGalleryImage(html, pageUrl);
 }
 
 function extFromContentType(ct, url) {
@@ -168,12 +216,13 @@ async function main() {
     try {
       dbg(`GET ${url}`);
       const html = await fetchText(url);
-      const ogImage = extractOgImage(html);
-      if (!ogImage) { console.log(`${bc} no og:image at ${url}`); fail++; continue; }
+      const hit = findImageInPage(html, url);
+      if (!hit) { console.log(`${bc} no image found at ${url}`); fail++; continue; }
+      const ogImage = hit.url;
       const imgUrl = ogImage.startsWith("//") ? "https:" + ogImage
                    : ogImage.startsWith("/") ? new URL(ogImage, url).toString()
                    : ogImage;
-      dbg(`  og:image -> ${imgUrl}`);
+      dbg(`  ${hit.source} -> ${imgUrl}`);
       const { buf, contentType } = await fetchBuf(imgUrl, url);
       const ext = extFromContentType(contentType, imgUrl);
 
@@ -193,7 +242,7 @@ async function main() {
       if (oldRel && oldRel !== relPath) await deleteIfExists(oldRel);
 
       manifest[bc] = relPath;
-      console.log(`${bc} OK ${relPath} (${(buf.length / 1024).toFixed(0)}kb)`);
+      console.log(`${bc} OK [${hit.source}] ${relPath} (${(buf.length / 1024).toFixed(0)}kb)`);
       ok++;
     } catch (e) {
       console.log(`${bc} ERR ${e.message}`);
