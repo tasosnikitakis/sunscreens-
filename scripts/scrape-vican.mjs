@@ -145,11 +145,23 @@ function sectionIcons(slug) {
 }
 
 async function discoverSections() {
-  const html = await fetchText(ROOT_CATEGORY_URL);
+  let html;
+  try { html = await fetchText(ROOT_CATEGORY_URL); }
+  catch (e) { console.error(`discovery ${e.message}`); html = ""; }
   const found = new Set();
-  for (const m of html.matchAll(/href=["'](\/el\/proionta\/[^"'#]+\.html)["']/gi)) {
-    const slug = m[1].replace(/^\/el\/proionta\//, "").replace(/\.html$/, "");
+  // Πιάνουμε και absolute και relative URLs
+  const re = /href=["']((?:https?:\/\/[^"'\/]+)?\/el\/proionta\/[^"'#]+\.html)["']/gi;
+  for (const m of html.matchAll(re)) {
+    let pathOnly = m[1];
+    if (pathOnly.startsWith("http")) {
+      try { pathOnly = new URL(pathOnly).pathname; } catch { continue; }
+    }
+    const slug = pathOnly.replace(/^\/el\/proionta\//, "").replace(/\.html$/, "");
     if (slug && !slug.includes("/")) found.add(slug);
+  }
+  if (found.size === 0) {
+    console.error("Δεν εντοπίστηκαν κατηγορίες από HTML — χρησιμοποιώ fallback list.");
+    return Object.keys(SECTION_LABELS);
   }
   return [...found];
 }
@@ -161,25 +173,29 @@ async function discoverProductsInSection(slug) {
     const url = page === 1
       ? `${BASE}/el/proionta/${slug}.html`
       : `${BASE}/el/proionta/${slug}.html?p=${page}`;
-    dbg(`section ${slug} page=${page} GET ${url}`);
+    console.error(`section ${slug} page=${page} GET ${url}`);
     let html;
     try { html = await fetchText(url); }
-    catch (e) { dbg(`  ${e.message}`); break; }
+    catch (e) { console.error(`  ${e.message}`); break; }
     const before = found.size;
-    for (const m of html.matchAll(/href=["'](\/el\/[^"'#\/]+\.html)["']/gi)) {
-      const productPath = m[1];
+    // Πιάνουμε absolute + relative URLs
+    const re = /href=["']((?:https?:\/\/[^"'\/]+)?\/el\/[^"'#\/?]+\.html)["']/gi;
+    for (const m of html.matchAll(re)) {
+      let pathOnly = m[1];
+      if (pathOnly.startsWith("http")) {
+        try { pathOnly = new URL(pathOnly).pathname; } catch { continue; }
+      }
       // Φιλτράρουμε out the proionta.html category links and other navigation
-      if (productPath.startsWith("/el/proionta")) continue;
-      if (!barcodeFromUrl(productPath)) continue;
-      found.add(BASE + productPath);
+      if (pathOnly.startsWith("/el/proionta")) continue;
+      if (!barcodeFromUrl(pathOnly)) continue;
+      found.add(BASE + pathOnly);
     }
     const gained = found.size - before;
-    dbg(`  +${gained} products (total ${found.size})`);
-    // Αν δε βρέθηκαν νέα προϊόντα ή δεν υπάρχει pagination link, σταμάτα
+    console.error(`  +${gained} products (total ${found.size})`);
     if (gained === 0) break;
-    if (!/[?&]p=\d+/.test(html)) break;
+    if (!new RegExp(`[?&]p=${page + 1}\\b`).test(html)) break;
     page++;
-    if (page > 50) break; // safety
+    if (page > 50) break;
     await sleep(DELAY_MS);
   }
   return [...found];
