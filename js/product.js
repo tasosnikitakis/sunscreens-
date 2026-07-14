@@ -14,9 +14,17 @@ const _SEASONAL_SECTIONS  = typeof SEASONAL_SECTIONS  !== "undefined" ? SEASONAL
 const _VICAN_PRODUCTS     = typeof VICAN_PRODUCTS     !== "undefined" ? VICAN_PRODUCTS     : [];
 const _VICAN_SECTIONS     = typeof VICAN_SECTIONS     !== "undefined" ? VICAN_SECTIONS     : {};
 const _VICAN_BRAND        = (typeof window !== "undefined" && window.VICAN_BRAND) || { name: "Vican", accent: "#0ea5e9" };
+const _FREZ_SUPPLIER      = (typeof window !== "undefined" && window.FREZYDERM_SUPPLIER) || (typeof FREZYDERM_SUPPLIER !== "undefined" ? FREZYDERM_SUPPLIER : []);
+const _FREZ_OVERRIDES     = (typeof window !== "undefined" && window.FREZYDERM_OVERRIDES) || {};
+const _FREZ_SECTIONS      = (typeof window !== "undefined" && window.FREZYDERM_SECTION_LABELS) || {};
+const _FREZ_BRAND         = { name: "Frezyderm", accent: "#0d9488" };
 
 // Resolve product across all catalogs.
 function findProduct(id, hint, barcode) {
+  if (hint === "frezyderm" && barcode) {
+    const p = _FREZ_SUPPLIER.find(x => x.barcode === barcode || (x.variants || []).includes(barcode));
+    if (p) return { product: p, brands: { frezyderm: _FREZ_BRAND }, catalog: "frezyderm" };
+  }
   if (hint === "vican" && barcode) {
     const p = _VICAN_PRODUCTS.find(x => x.barcode === barcode);
     if (p) return { product: p, brands: { vican: _VICAN_BRAND }, catalog: "vican" };
@@ -38,8 +46,10 @@ function findProduct(id, hint, barcode) {
     if (p) return { product: p, brands: _SEASONAL_BRANDS, catalog: "seasonal" };
   }
   if (barcode) {
-    const p = _VICAN_PRODUCTS.find(x => x.barcode === barcode);
+    let p = _VICAN_PRODUCTS.find(x => x.barcode === barcode);
     if (p) return { product: p, brands: { vican: _VICAN_BRAND }, catalog: "vican" };
+    p = _FREZ_SUPPLIER.find(x => x.barcode === barcode || (x.variants || []).includes(barcode));
+    if (p) return { product: p, brands: { frezyderm: _FREZ_BRAND }, catalog: "frezyderm" };
   }
   return null;
 }
@@ -54,6 +64,7 @@ const found = (productId || productBarcode) ? findProduct(productId, typeHint, p
     const active = (tab === "cosmetic" && cat === "cosmetic") ||
                    (tab === "seasonal" && cat === "seasonal") ||
                    (tab === "vican" && cat === "vican") ||
+                   (tab === "frezyderm" && cat === "frezyderm") ||
                    (tab === "sunscreen" && (!cat || cat === "sunscreen"));
     a.className = active
       ? "px-3 sm:px-4 py-1.5 rounded-lg text-sm font-bold bg-slate-900 text-white transition flex items-center gap-1.5"
@@ -70,6 +81,9 @@ const found = (productId || productBarcode) ? findProduct(productId, typeHint, p
   } else if (cat === "vican") {
     backLink.href = "vican.html";
     backText.textContent = "Πίσω στον κατάλογο Vican";
+  } else if (cat === "frezyderm") {
+    backLink.href = "frezyderm.html";
+    backText.textContent = "Πίσω στον κατάλογο Frezyderm";
   } else {
     backLink.href = "index.html";
     backText.textContent = "Πίσω στα αντηλιακά";
@@ -92,8 +106,9 @@ function render({ product: p, brands, catalog }) {
   const isCosmetic = catalog === "cosmetic";
   const isSeasonal = catalog === "seasonal";
   const isVican = catalog === "vican";
-  const brand = isVican ? _VICAN_BRAND : (brands[p.brand] || { name: p.brand, accent: "#64748b" });
-  const parsed = (!isCosmetic && !isSeasonal && !isVican) ? parseProduct(p) : null;
+  const isFrezyderm = catalog === "frezyderm";
+  const brand = isVican ? _VICAN_BRAND : isFrezyderm ? _FREZ_BRAND : (brands[p.brand] || { name: p.brand, accent: "#64748b" });
+  const parsed = (!isCosmetic && !isSeasonal && !isVican && !isFrezyderm) ? parseProduct(p) : null;
   // Enrichment: prefer official name + description if we have it.
   let enrich = {};
   if (isCosmetic) enrich = (window.COSMETICS_ENRICHMENT || {})[p.barcode] || {};
@@ -101,6 +116,7 @@ function render({ product: p, brands, catalog }) {
                                || (window.SEASONAL_ENRICHMENT || {})[p.barcode]
                                || {};
   else if (isVican) enrich = { name: p.name, description: p.description, source: "vican.gr", url: p.url };
+  else if (isFrezyderm) enrich = _FREZ_OVERRIDES[p.barcode] || {};
   const displayName = enrich.name || p.name;
   document.title = `${displayName} — ${brand.name}`;
 
@@ -108,27 +124,33 @@ function render({ product: p, brands, catalog }) {
   if (isCosmetic) catalogList = _COSMETICS_PRODUCTS;
   else if (isSeasonal) catalogList = _SEASONAL_PRODUCTS;
   else if (isVican) catalogList = _VICAN_PRODUCTS;
+  else if (isFrezyderm) catalogList = _FREZ_SUPPLIER;
 
-  // Related: same line for cosmetics/seasonal; same section for vican; same brand otherwise.
-  const related = isVican
-    ? catalogList.filter(x => x.section === p.section && x.barcode !== p.barcode).slice(0, 6)
-    : (isCosmetic || isSeasonal)
-      ? catalogList.filter(x => x.brand === p.brand && x.line === p.line && x.id !== p.id).slice(0, 6)
-      : catalogList.filter(x => x.brand === p.brand && x.id !== p.id).slice(0, 6);
+  // Related: same line/section as available
+  const related = isFrezyderm
+    ? catalogList.filter(x => x.barcode !== p.barcode && (_FREZ_OVERRIDES[x.barcode] || {}).section === (enrich.section || null)).slice(0, 6)
+    : isVican
+      ? catalogList.filter(x => x.section === p.section && x.barcode !== p.barcode).slice(0, 6)
+      : (isCosmetic || isSeasonal)
+        ? catalogList.filter(x => x.brand === p.brand && x.line === p.line && x.id !== p.id).slice(0, 6)
+        : catalogList.filter(x => x.brand === p.brand && x.id !== p.id).slice(0, 6);
   const fallbackRelated = (isCosmetic || isSeasonal) && related.length < 6
     ? catalogList.filter(x => x.brand === p.brand && x.line !== p.line && x.id !== p.id).slice(0, 6 - related.length)
     : [];
 
-  const homeUrl = isCosmetic ? "cosmetics.html" : isSeasonal ? "seasonal.html" : isVican ? "vican.html" : "index.html";
-  const homeLabel = isCosmetic ? "Καλλυντικά" : isSeasonal ? "Εποχιακά" : isVican ? "Vican" : "Αντηλιακά";
+  const homeUrl = isCosmetic ? "cosmetics.html" : isSeasonal ? "seasonal.html" : isVican ? "vican.html" : isFrezyderm ? "frezyderm.html" : "index.html";
+  const homeLabel = isCosmetic ? "Καλλυντικά" : isSeasonal ? "Εποχιακά" : isVican ? "Vican" : isFrezyderm ? "Frezyderm" : "Αντηλιακά";
 
-  const isEnrichable = isCosmetic || isSeasonal || isVican;
-  const sectionInfo = isSeasonal ? _SEASONAL_SECTIONS[p.section] : isVican ? _VICAN_SECTIONS[p.section] : null;
+  const isEnrichable = isCosmetic || isSeasonal || isVican || isFrezyderm;
+  const sectionInfo = isSeasonal ? _SEASONAL_SECTIONS[p.section]
+                    : isVican    ? _VICAN_SECTIONS[p.section]
+                    : isFrezyderm ? _FREZ_SECTIONS[enrich.section]
+                    : null;
 
   root.innerHTML = `
     <nav class="text-sm text-slate-500 mb-6 flex flex-wrap gap-1.5 items-center">
       <a href="${homeUrl}" class="hover:text-amber-600">${homeLabel}</a>
-      ${(isSeasonal || isVican) && sectionInfo ? `<span>›</span><a href="${homeUrl}#section-${p.section}" class="hover:text-amber-600" style="color:${sectionInfo.accent}">${escapeHtml(sectionInfo.name)}</a>` : ""}
+      ${(isSeasonal || isVican || isFrezyderm) && sectionInfo ? `<span>›</span><a href="${homeUrl}#section-${p.section}" class="hover:text-amber-600" style="color:${sectionInfo.accent}">${escapeHtml(sectionInfo.name)}</a>` : ""}
       ${!isVican ? `<span>›</span><a href="${homeUrl}#brand-${p.brand}" class="hover:text-amber-600" style="color:${brand.accent}">${escapeHtml(brand.name)}</a>` : ""}
       ${isEnrichable && p.line ? `<span>›</span><span class="text-slate-700">${escapeHtml(p.line)}</span>` : ""}
       <span>›</span>
@@ -154,7 +176,7 @@ function render({ product: p, brands, catalog }) {
         ` : `
         <div class="mt-4 flex flex-wrap gap-2">
           ${p.line ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${brand.accent}">${escapeHtml(p.line)}</span>` : ""}
-          ${(isSeasonal || isVican) && sectionInfo ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${sectionInfo.accent}">${sectionInfo.icon} ${escapeHtml(sectionInfo.name)}</span>` : ""}
+          ${(isSeasonal || isVican || isFrezyderm) && sectionInfo ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${sectionInfo.accent}">${sectionInfo.icon} ${escapeHtml(sectionInfo.name)}</span>` : ""}
         </div>
         `}
       </div>
@@ -166,7 +188,7 @@ function render({ product: p, brands, catalog }) {
         <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(displayName)}</h1>
 
         <div class="mt-5 flex items-baseline gap-3">
-          <span class="text-3xl font-bold text-slate-900">${p.price > 0 ? fmtPrice(p.price) : "—"}</span>
+          <span class="text-3xl font-bold text-slate-900">${(() => { const pr = isFrezyderm ? p.wholesale : p.price; return pr > 0 ? fmtPrice(pr) : "—"; })()}</span>
           <span class="text-sm text-slate-500">χονδρική τιμή${isCosmetic && p.vat ? ` (ΦΠΑ ${p.vat}%)` : ""}</span>
         </div>
 
@@ -177,7 +199,9 @@ function render({ product: p, brands, catalog }) {
               ? (enrich.description ? escapeHtml(enrich.description) : seasonalDescription(p, brand, sectionInfo))
               : isVican
                 ? escapeHtml(p.description || `Προϊόν Vican στην κατηγορία ${(sectionInfo && sectionInfo.name) || p.section}.`)
-                : sunscreenDescription(p, parsed)
+                : isFrezyderm
+                  ? escapeHtml(enrich.description || `Προϊόν Frezyderm — ${p.name}.`)
+                  : sunscreenDescription(p, parsed)
         }</p>
 
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
@@ -186,8 +210,10 @@ function render({ product: p, brands, catalog }) {
           <dd class="font-mono text-slate-800">${escapeHtml(p.barcode)}</dd>
           ${isEnrichable ? `
             ${p.line ? `<dt class="text-slate-500">Γραμμή / Κατηγορία</dt><dd class="font-medium text-slate-800">${escapeHtml(p.line)}</dd>` : ""}
-            ${(isSeasonal || isVican) && sectionInfo ? `<dt class="text-slate-500">Ενότητα</dt><dd class="font-medium text-slate-800">${escapeHtml(sectionInfo.name)}</dd>` : ""}
+            ${(isSeasonal || isVican || isFrezyderm) && sectionInfo ? `<dt class="text-slate-500">Ενότητα</dt><dd class="font-medium text-slate-800">${escapeHtml(sectionInfo.name)}</dd>` : ""}
             ${p.vat ? `<dt class="text-slate-500">ΦΠΑ</dt><dd class="font-medium text-slate-800">${p.vat}%</dd>` : ""}
+            ${isFrezyderm && p.retail ? `<dt class="text-slate-500">Λιανική ενδεικτική</dt><dd class="font-medium text-slate-800">${p.retail.toFixed(2).replace(".", ",")} €</dd>` : ""}
+            ${isFrezyderm && (p.variants || []).length > 1 ? `<dt class="text-slate-500">Παραλλαγές (variants)</dt><dd class="font-mono text-slate-800 text-xs">${p.variants.filter(v => v !== p.barcode).map(v => escapeHtml(v)).join(", ")}</dd>` : ""}
           ` : `
             ${parsed.spf ? `<dt class="text-slate-500">Δείκτης προστασίας</dt><dd class="font-medium text-slate-800">SPF ${parsed.spf}</dd>` : ""}
             ${parsed.volume ? `<dt class="text-slate-500">Συσκευασία</dt><dd class="font-medium text-slate-800">${parsed.volume}</dd>` : ""}
@@ -219,7 +245,7 @@ function render({ product: p, brands, catalog }) {
   const heroImg = document.getElementById("hero-img");
   const ph = document.getElementById("ph");
   const heroLocal = getLocalImageUrl(p.barcode);
-  const heroFallback = heroLocal || (isVican ? p.image : null);
+  const heroFallback = heroLocal || (isVican ? p.image : null) || (isFrezyderm ? enrich.image : null);
   if (heroFallback) {
     heroImg.onload = () => { heroImg.style.opacity = "1"; ph.style.opacity = "0"; };
     heroImg.src = heroFallback;
@@ -266,17 +292,20 @@ function renderOBFExtra(data) {
 
 function miniCard(p, brand, catalog) {
   const a = document.createElement("a");
-  const typeParam = catalog === "cosmetic" ? "&type=cosmetic"
-                  : catalog === "seasonal" ? "&type=seasonal"
-                  : catalog === "vican"    ? "&type=vican"
+  const typeParam = catalog === "cosmetic"  ? "&type=cosmetic"
+                  : catalog === "seasonal"  ? "&type=seasonal"
+                  : catalog === "vican"     ? "&type=vican"
+                  : catalog === "frezyderm" ? "&type=frezyderm"
                   : "";
-  a.href = catalog === "vican"
+  a.href = (catalog === "vican" || catalog === "frezyderm")
     ? `product.html?barcode=${encodeURIComponent(p.barcode)}${typeParam}`
     : `product.html?id=${encodeURIComponent(p.id)}${typeParam}`;
   a.className = "product-card block bg-white rounded-xl overflow-hidden border border-slate-200";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
-  const remoteUrl = localUrl || (catalog === "vican" ? p.image : null);
+  const remoteUrl = localUrl
+    || (catalog === "vican" ? p.image : null)
+    || (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).image : null);
   const initials = brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
   const isSunscreen = catalog === "sunscreen";
   const parsed = isSunscreen ? parseProduct(p) : null;
@@ -295,9 +324,11 @@ function miniCard(p, brand, catalog) {
 
   const body = document.createElement("div");
   body.className = "p-2";
+  const displayN = (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).name : null) || p.name;
+  const priceN = catalog === "frezyderm" ? p.wholesale : p.price;
   body.innerHTML = `
-    <p class="text-xs text-slate-700 line-clamp-2 leading-tight min-h-[2rem]">${escapeHtml(p.name)}</p>
-    <p class="text-xs font-bold text-slate-900 mt-1">${p.price > 0 ? fmtPrice(p.price) : "—"}</p>
+    <p class="text-xs text-slate-700 line-clamp-2 leading-tight min-h-[2rem]">${escapeHtml(displayN)}</p>
+    <p class="text-xs font-bold text-slate-900 mt-1">${priceN > 0 ? fmtPrice(priceN) : "—"}</p>
   `;
   a.appendChild(body);
 
