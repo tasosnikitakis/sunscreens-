@@ -160,6 +160,15 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/vican-data.js"), "utf8"), ctx);
   } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-supplier.js"), "utf8"), ctx);
+  } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-overrides.js"), "utf8"), ctx);
+  } catch {}
+  try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-sections.js"), "utf8"), ctx);
+  } catch {}
   return ctx;
 }
 
@@ -250,6 +259,36 @@ function buildVicanTable(ctx, manifest) {
     columnWidths: [50, 14, 70, 24, 16, 50, 50] };
 }
 
+// ===== Frezyderm =====
+
+function buildFrezydermTable(ctx, manifest) {
+  const products = (ctx.window && ctx.window.FREZYDERM_SUPPLIER) || [];
+  if (!products.length) return null;
+  const overrides = (ctx.window && ctx.window.FREZYDERM_OVERRIDES) || {};
+  const sections = (ctx.window && ctx.window.FREZYDERM_SECTION_LABELS) || {};
+  const headers = [
+    "Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή",
+    "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
+    "Φωτογραφία", "URL επίσημου site"
+  ];
+  const rows = products.map(p => {
+    const e = overrides[p.barcode] || {};
+    const secKey = e.section || "diafora";
+    const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
+    const displayName = e.name || p.name;
+    const desc = e.description || `Προϊόν Frezyderm — ${p.name}`;
+    const localImg = manifest[p.barcode] || "";
+    const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
+    return [
+      displayName, p.wholesale || "", p.retail || "", desc,
+      sectionLabel, p.barcode, variants,
+      localImg || e.image || "", e.url || ""
+    ];
+  });
+  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 5,
+    columnWidths: [50, 14, 14, 70, 24, 16, 24, 50, 50] };
+}
+
 function buildCosmeticsTable(ctx, manifest) {
   if (!ctx.COSMETICS_PRODUCTS) return null;
   const enrich = (ctx.window && ctx.window.COSMETICS_ENRICHMENT) || {};
@@ -319,6 +358,12 @@ async function main() {
     path.join(ROOT, "vican-catalog.csv"),
     path.join(ROOT, "vican-catalog.xlsx"),
     "Vican"
+  );
+  await emitTable(
+    buildFrezydermTable(ctx, manifest),
+    path.join(ROOT, "frezyderm-catalog.csv"),
+    path.join(ROOT, "frezyderm-catalog.xlsx"),
+    "Frezyderm"
   );
 }
 
