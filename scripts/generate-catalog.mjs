@@ -167,6 +167,9 @@ async function loadContext() {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-overrides.js"), "utf8"), ctx);
   } catch {}
   try {
+    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-supplemental.js"), "utf8"), ctx);
+  } catch {}
+  try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-sections.js"), "utf8"), ctx);
   } catch {}
   return ctx;
@@ -273,14 +276,27 @@ function buildFrezydermTable(ctx, manifest) {
   const products = (ctx.window && ctx.window.FREZYDERM_SUPPLIER) || [];
   if (!products.length) return null;
   const overrides = (ctx.window && ctx.window.FREZYDERM_OVERRIDES) || {};
+  const supplemental = (ctx.window && ctx.window.FREZYDERM_SUPPLEMENTAL) || {};
   const sections = (ctx.window && ctx.window.FREZYDERM_SECTION_LABELS) || {};
+  const enrichmentFor = (bc) => {
+    const o = overrides[bc] || {};
+    const s = supplemental[bc] || {};
+    return {
+      name: o.name || s.name || null,
+      description: o.description || s.description || null,
+      image: o.image || s.image || null,
+      url: o.url || s.url || null,
+      source: o.source || s.source || null,
+      section: o.section || s.section || null
+    };
+  };
   const headers = [
     "Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή",
     "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
     "Φωτογραφία", "URL επίσημου site"
   ];
   const rows = products.map(p => {
-    const e = overrides[p.barcode] || {};
+    const e = enrichmentFor(p.barcode);
     const secKey = e.section || "diafora";
     const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
     const displayName = prettifyFrezydermName(e.name || p.name);
