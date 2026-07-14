@@ -73,6 +73,12 @@ function stripHtml(html) {
 // Πιθανά containers που μπορεί να περιέχουν την περιγραφή. Δοκιμάζονται
 // με σειρά — παίρνουμε το ΠΡΩΤΟ που δίνει text > 120 chars.
 const CANDIDATE_PATTERNS = [
+  // Frezyderm.gr custom CMS: <div class="product-text"><div class="text">...</div></div>
+  // Το εσωτερικό .text έχει την πλήρη περιγραφή σε <p>…<br><br>… paragraphs.
+  { name: "frezyderm-inner-text", re: /<div[^>]+class=["']product-text["'][^>]*>\s*<div[^>]+class=["']text["'][^>]*>([\s\S]*?)<\/div>\s*<\/div>/i },
+  { name: "frezyderm-product-text", re: /<div[^>]+class=["']product-text["'][^>]*>([\s\S]*?)<\/div>\s*<\/div>/i },
+  // Bold subtitle line ("Αντηλιακό με λευκαντικά…") σε ξεχωριστό div
+  { name: "frezyderm-strong-desc", re: /<div[^>]+class=["']strong-desc["'][^>]*>([\s\S]*?)<\/div>/i },
   // Standard WooCommerce full-description tab
   { name: "wc-tabs-desc",   re: /<div[^>]+class=["'][^"']*woocommerce-Tabs-panel--description[^"']*["'][^>]*>([\s\S]*?)<\/div>\s*<\/div>/i },
   { name: "tab-description",re: /<div[^>]+id=["']tab-description["'][^>]*>([\s\S]*?)<\/div>\s*(?=<div|<footer|<section)/i },
