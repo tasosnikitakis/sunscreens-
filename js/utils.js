@@ -161,6 +161,18 @@ function fmtPrice(p) {
   return p.toFixed(2).replace(".", ",") + " €";
 }
 
+// Frezyderm names έρχονται σε ALL CAPS από το supplier Excel και συχνά και
+// από το og:title (πχ "CRILEN ADULT PLUS Ενυδατικό γαλάκτωμα"). Θέλουμε
+// "Frezyderm Crilen Adult Plus Ενυδατικό γαλάκτωμα" — brand prefix + title
+// case στα Latin runs (Ελληνικά και μεικτές λέξεις μένουν όπως είναι).
+function prettifyFrezydermName(raw) {
+  if (!raw) return "";
+  const titled = String(raw).replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase());
+  const trimmed = titled.replace(/\s+/g, " ").trim();
+  if (/^frezyderm\b/i.test(trimmed)) return trimmed;
+  return "Frezyderm " + trimmed;
+}
+
 function highlightTerm(text, term) {
   if (!term) return text;
   const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
