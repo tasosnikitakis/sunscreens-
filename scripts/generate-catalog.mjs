@@ -261,6 +261,14 @@ function buildVicanTable(ctx, manifest) {
 
 // ===== Frezyderm =====
 
+function prettifyFrezydermName(raw) {
+  if (!raw) return "";
+  const titled = String(raw).replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase());
+  const trimmed = titled.replace(/\s+/g, " ").trim();
+  if (/^frezyderm\b/i.test(trimmed)) return trimmed;
+  return "Frezyderm " + trimmed;
+}
+
 function buildFrezydermTable(ctx, manifest) {
   const products = (ctx.window && ctx.window.FREZYDERM_SUPPLIER) || [];
   if (!products.length) return null;
@@ -275,7 +283,7 @@ function buildFrezydermTable(ctx, manifest) {
     const e = overrides[p.barcode] || {};
     const secKey = e.section || "diafora";
     const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
-    const displayName = e.name || p.name;
+    const displayName = prettifyFrezydermName(e.name || p.name);
     const desc = e.description || `Προϊόν Frezyderm — ${p.name}`;
     const localImg = manifest[p.barcode] || "";
     const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");

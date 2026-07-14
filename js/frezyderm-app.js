@@ -27,7 +27,7 @@ function labelFor(section) {
 
 function displayName(p) {
   const e = OVERRIDES[p.barcode];
-  return (e && e.name) || p.name || p.barcode;
+  return prettifyFrezydermName((e && e.name) || p.name || p.barcode);
 }
 
 function buildSectionNav(byS) {

@@ -117,7 +117,8 @@ function render({ product: p, brands, catalog }) {
                                || {};
   else if (isVican) enrich = { name: p.name, description: p.description, source: "vican.gr", url: p.url };
   else if (isFrezyderm) enrich = _FREZ_OVERRIDES[p.barcode] || {};
-  const displayName = enrich.name || p.name;
+  let displayName = enrich.name || p.name;
+  if (isFrezyderm) displayName = prettifyFrezydermName(displayName);
   document.title = `${displayName} — ${brand.name}`;
 
   let catalogList = PRODUCTS;
@@ -324,7 +325,8 @@ function miniCard(p, brand, catalog) {
 
   const body = document.createElement("div");
   body.className = "p-2";
-  const displayN = (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).name : null) || p.name;
+  let displayN = (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).name : null) || p.name;
+  if (catalog === "frezyderm") displayN = prettifyFrezydermName(displayN);
   const priceN = catalog === "frezyderm" ? p.wholesale : p.price;
   body.innerHTML = `
     <p class="text-xs text-slate-700 line-clamp-2 leading-tight min-h-[2rem]">${escapeHtml(displayN)}</p>
