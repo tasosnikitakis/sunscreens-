@@ -10,14 +10,31 @@ const noResultsEl = document.getElementById("no-results");
 const resultCountEl = document.getElementById("result-count");
 
 const OVERRIDES = window.FREZYDERM_OVERRIDES || {};
+const SUPPLEMENTAL = window.FREZYDERM_SUPPLEMENTAL || {};
 const SECTION_LABELS = window.FREZYDERM_SECTION_LABELS || {};
+
+// Cascade: OVERRIDES (frezyderm.gr) win where present, SUPPLEMENTAL
+// (pharmacies) fills gaps. Never merge partially — read individual fields.
+function enrichmentFor(barcode) {
+  const o = OVERRIDES[barcode] || {};
+  const s = SUPPLEMENTAL[barcode] || {};
+  return {
+    name:        o.name        || s.name        || null,
+    description: o.description || s.description || null,
+    image:       o.image       || s.image       || null,
+    url:         o.url         || s.url         || null,
+    source:      o.source      || s.source      || null,
+    section:     o.section     || s.section     || null,
+    review:      o.review || false
+  };
+}
 
 function fmtPriceLocal(n) { return n > 0 ? n.toFixed(2).replace(".", ",") + " €" : "—"; }
 function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 function slugForId(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 
 function sectionOf(p) {
-  const e = OVERRIDES[p.barcode];
+  const e = enrichmentFor(p.barcode);
   return (e && e.section) || "diafora";
 }
 
@@ -26,7 +43,7 @@ function labelFor(section) {
 }
 
 function displayName(p) {
-  const e = OVERRIDES[p.barcode];
+  const e = enrichmentFor(p.barcode);
   return prettifyFrezydermName((e && e.name) || p.name || p.barcode);
 }
 
@@ -48,7 +65,7 @@ function buildSectionNav(byS) {
 }
 
 function makeCard(p) {
-  const enrich = OVERRIDES[p.barcode] || {};
+  const enrich = enrichmentFor(p.barcode);
   const section = sectionOf(p);
   const label = labelFor(section);
   const accent = label.accent;

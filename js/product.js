@@ -16,7 +16,22 @@ const _VICAN_SECTIONS     = typeof VICAN_SECTIONS     !== "undefined" ? VICAN_SE
 const _VICAN_BRAND        = (typeof window !== "undefined" && window.VICAN_BRAND) || { name: "Vican", accent: "#0ea5e9" };
 const _FREZ_SUPPLIER      = (typeof window !== "undefined" && window.FREZYDERM_SUPPLIER) || (typeof FREZYDERM_SUPPLIER !== "undefined" ? FREZYDERM_SUPPLIER : []);
 const _FREZ_OVERRIDES     = (typeof window !== "undefined" && window.FREZYDERM_OVERRIDES) || {};
+const _FREZ_SUPPLEMENTAL  = (typeof window !== "undefined" && window.FREZYDERM_SUPPLEMENTAL) || {};
 const _FREZ_SECTIONS      = (typeof window !== "undefined" && window.FREZYDERM_SECTION_LABELS) || {};
+
+function _frezEnrichmentFor(barcode) {
+  const o = _FREZ_OVERRIDES[barcode] || {};
+  const s = _FREZ_SUPPLEMENTAL[barcode] || {};
+  return {
+    name:        o.name        || s.name        || null,
+    description: o.description || s.description || null,
+    image:       o.image       || s.image       || null,
+    url:         o.url         || s.url         || null,
+    source:      o.source      || s.source      || null,
+    section:     o.section     || s.section     || null,
+    review:      o.review || false
+  };
+}
 const _FREZ_BRAND         = { name: "Frezyderm", accent: "#0d9488" };
 
 // Resolve product across all catalogs.
@@ -116,7 +131,7 @@ function render({ product: p, brands, catalog }) {
                                || (window.SEASONAL_ENRICHMENT || {})[p.barcode]
                                || {};
   else if (isVican) enrich = { name: p.name, description: p.description, source: "vican.gr", url: p.url };
-  else if (isFrezyderm) enrich = _FREZ_OVERRIDES[p.barcode] || {};
+  else if (isFrezyderm) enrich = _frezEnrichmentFor(p.barcode);
   let displayName = enrich.name || p.name;
   if (isFrezyderm) displayName = prettifyFrezydermName(displayName);
   document.title = `${displayName} — ${brand.name}`;
@@ -129,7 +144,7 @@ function render({ product: p, brands, catalog }) {
 
   // Related: same line/section as available
   const related = isFrezyderm
-    ? catalogList.filter(x => x.barcode !== p.barcode && (_FREZ_OVERRIDES[x.barcode] || {}).section === (enrich.section || null)).slice(0, 6)
+    ? catalogList.filter(x => x.barcode !== p.barcode && _frezEnrichmentFor(x.barcode).section === (enrich.section || null)).slice(0, 6)
     : isVican
       ? catalogList.filter(x => x.section === p.section && x.barcode !== p.barcode).slice(0, 6)
       : (isCosmetic || isSeasonal)
@@ -306,7 +321,7 @@ function miniCard(p, brand, catalog) {
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl
     || (catalog === "vican" ? p.image : null)
-    || (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).image : null);
+    || (catalog === "frezyderm" ? (_frezEnrichmentFor(p.barcode)).image : null);
   const initials = brand.name.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
   const isSunscreen = catalog === "sunscreen";
   const parsed = isSunscreen ? parseProduct(p) : null;
@@ -325,7 +340,7 @@ function miniCard(p, brand, catalog) {
 
   const body = document.createElement("div");
   body.className = "p-2";
-  let displayN = (catalog === "frezyderm" ? (_FREZ_OVERRIDES[p.barcode] || {}).name : null) || p.name;
+  let displayN = (catalog === "frezyderm" ? (_frezEnrichmentFor(p.barcode)).name : null) || p.name;
   if (catalog === "frezyderm") displayN = prettifyFrezydermName(displayN);
   const priceN = catalog === "frezyderm" ? p.wholesale : p.price;
   body.innerHTML = `
