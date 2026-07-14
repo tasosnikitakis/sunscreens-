@@ -174,7 +174,7 @@ async function main() {
     const isHigh = top.score >= HIGH_SCORE;
     overrides[p.barcode] = {
       name: s.name,
-      description: s.description || null,
+      description: s.longDescription || s.description || null,
       image: s.image || null,
       url: s.url,
       source: "frezyderm.gr",

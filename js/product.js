@@ -217,6 +217,8 @@ function render({ product: p, brands, catalog }) {
                 ? escapeHtml(p.description || `Προϊόν Vican στην κατηγορία ${(sectionInfo && sectionInfo.name) || p.section}.`)
                 : isFrezyderm
                   ? escapeHtml(enrich.description || `Προϊόν Frezyderm — ${p.name}.`)
+                      .replace(/\n{2,}/g, "</p><p class=\"mt-3\">")
+                      .replace(/\n/g, "<br>")
                   : sunscreenDescription(p, parsed)
         }</p>
 
