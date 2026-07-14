@@ -30,6 +30,7 @@ const DEBUG = flag("debug");
 const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const FORCE = flag("force");
 const INSPECT = opt("inspect", null);
+const GREP = opt("grep", null);
 const DELAY_MS = parseInt(opt("delay", "350"));
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
@@ -158,6 +159,50 @@ async function inspect(url) {
   const best = bestDescription(html);
   if (best) console.log(`\n=> BEST: ${best.name} (${best.length} chars)`);
   else console.log(`\n=> NO candidate above 120 chars threshold`);
+
+  // Save raw HTML για offline inspection
+  await fs.mkdir(path.join(ROOT, "_debug"), { recursive: true });
+  const debugFile = path.join(ROOT, "_debug", "frezyderm-inspect.html");
+  await fs.writeFile(debugFile, html, "utf8");
+  console.log(`\nRaw HTML saved to ${path.relative(ROOT, debugFile)} για offline inspection.`);
+
+  // Λίστα από ύποπτα class + id names
+  const classSet = new Set();
+  for (const m of html.matchAll(/\bclass=["']([^"']+)["']/g)) {
+    for (const c of m[1].split(/\s+/)) {
+      if (/desc|content|product|text|body|main|entry|article|tab|summary|editor|elementor|singular|post/i.test(c)) classSet.add(c);
+    }
+  }
+  const idSet = new Set();
+  for (const m of html.matchAll(/\bid=["']([^"']+)["']/g)) {
+    if (/desc|content|product|text|body|main|entry|article|tab|summary|editor|elementor/i.test(m[1])) idSet.add(m[1]);
+  }
+  console.log(`\nSuspect classes (${classSet.size}):`);
+  [...classSet].slice(0, 40).forEach(c => console.log(`  .${c}`));
+  console.log(`\nSuspect ids (${idSet.size}):`);
+  [...idSet].slice(0, 20).forEach(i => console.log(`  #${i}`));
+
+  // Grep mode: εντοπίζει keyword στο HTML και δείχνει 300 chars context
+  if (GREP) {
+    console.log(`\n--- GREP "${GREP}" context ---`);
+    const idx = html.toLowerCase().indexOf(GREP.toLowerCase());
+    if (idx < 0) console.log("Not found in HTML.");
+    else {
+      const start = Math.max(0, idx - 200);
+      const end = Math.min(html.length, idx + 800);
+      console.log(html.slice(start, end));
+      // Βρες τα ονόματα των γονέων tags που περικλείουν το keyword
+      const before = html.slice(0, idx);
+      const opens = [...before.matchAll(/<(div|section|article|main|aside)\b[^>]*>/gi)];
+      const closes = [...before.matchAll(/<\/(div|section|article|main|aside)>/gi)];
+      const depth = opens.length - closes.length;
+      console.log(`\nDepth from start of body: ${depth} open containers`);
+      // Show last 5 open tags
+      const lastFewOpens = opens.slice(-8).map(m => m[0]);
+      console.log(`Last 8 opened containers before match:`);
+      lastFewOpens.forEach(t => console.log(`  ${t.slice(0, 200)}`));
+    }
+  }
 }
 
 // ----- Main -----
