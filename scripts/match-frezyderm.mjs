@@ -43,9 +43,35 @@ const STOPWORDS = new Set([
   "serum", "ορος", "the", "και", "of", "for", "gia", "με", "για", "και",
   "50ml", "100ml", "150ml", "200ml", "250ml", "300ml", "500ml", "1000ml",
   "ml", "gr", "kg", "mg", "iu", "l", "ρευστο", "λευκο", "μαυρο",
+  // Πολύ γενικά — προκαλούν αντιστοιχία σε πολλά προϊόντα
+  "moisturizing", "moisture", "rich", "plus", "care", "aid", "extra", "pro", "active",
+  "kit", "set", "step", "day", "night", "eye", "face", "body", "hand",
+  // Ελληνικά words που εμφανίζονται συχνά σε promo pack titles
+  "δωρο", "δειγμα", "επιπλεον", "ποσοτητα", "νεσεσερ", "ειδικη", "συσκευασια", "με",
+  "σε", "και",
   // Language markers
   "en", "gr", "fr", "es", "pt", "de", "it", "nl", "pl", "ro", "el"
 ]);
+
+// Promo pack pages στο frezyderm.gr έχουν URL slug που περιέχει τη λέξη
+// "δωρο" ή είναι κάτω από το section "proionta-prosfores". Αυτά κατά
+// κανόνα δεν πρέπει να ταιριάζουν με απλά προϊόντα του supplier — έχουν
+// πολλά common tokens και "μαγνητίζουν" false matches.
+function isPromoPackSite(sp) {
+  if (!sp) return false;
+  const url = (sp.url || "").toLowerCase();
+  const name = (sp.name || "").toLowerCase();
+  if (sp.section === "proionta-prosfores") return true;
+  if (name.includes("δωρο") || name.includes("δώρο")) return true;
+  if (url.includes("δωρο") || url.includes("me-doro") || url.includes("doro")) return true;
+  return false;
+}
+
+function isPromoPackSupplier(p) {
+  const n = (p.name || "").toLowerCase();
+  return n.includes("δωρο") || n.includes("δώρο") || n.includes("νεσεσερ")
+      || n.includes("νεσσεσαιρ") || n.includes("επιπλεον") || n.includes("δειγμα");
+}
 
 // Volume/quantity numeric tokens ξεχωριστά — δεν στοπάρονται αλλά έχουν
 // μικρότερο βάρος (specific number matches γίνονται bonus)
@@ -72,30 +98,36 @@ function extractVolume(s) {
   return m ? m[1] + m[2] : null;
 }
 
-function scoreMatch(supplierTokens, supplierVol, sitePr) {
+function scoreMatch(supplierTokens, supplierVol, supplierIsPromo, sitePr) {
   const siteName = sitePr.name || "";
   const siteUrl = sitePr.url || "";
-  const siteTokens = extractTokens(siteName + " " + siteUrl.replace(/[\/\-]/g, " "));
+  const nameTokens = extractTokens(siteName);
+  const urlTokens = extractTokens(siteUrl.replace(/[\/\-\.]/g, " "));
   const siteVol = extractVolume(siteName);
 
   let score = 0;
   const matched = [];
   for (const t of supplierTokens) {
-    if (siteTokens.has(t)) { score += 2; matched.push(t); }
+    if (nameTokens.has(t)) { score += 2; matched.push(t); }
+    else if (urlTokens.has(t)) { score += 0.5; }
   }
-  // Volume exact match bonus
+  // Volume exact match bonus / penalty
   if (supplierVol && siteVol && supplierVol === siteVol) score += 3;
   else if (supplierVol && siteVol && supplierVol !== siteVol) score -= 1;
-  // Penalty αν το site name είναι πολύ κοντύτερο από τα tokens του supplier
-  // (πχ supplier "Ac-Norm Cleanser 150ml" ↔ site "Frezyderm Ac-Norm Body" — άσχετο)
+  // Penalty αν το site είναι promo pack αλλά ο supplier δεν είναι — μεγάλος
+  // slug + πολλά common tokens μαγνητίζουν false matches
+  if (isPromoPackSite(sitePr) && !supplierIsPromo) score -= 3;
+  // Bonus αν και τα δύο είναι promo packs (τότε ταιριάζουν σαφώς)
+  if (isPromoPackSite(sitePr) && supplierIsPromo) score += 2;
   return { score, matched };
 }
 
 function bestMatch(supplier, siteCatalog) {
   const st = extractTokens(supplier.name);
   const sv = extractVolume(supplier.name);
+  const isPromo = isPromoPackSupplier(supplier);
   const scored = siteCatalog
-    .map(sp => ({ site: sp, ...scoreMatch(st, sv, sp) }))
+    .map(sp => ({ site: sp, ...scoreMatch(st, sv, isPromo, sp) }))
     .sort((a, b) => b.score - a.score);
   return { top: scored[0], top3: scored.slice(0, 3) };
 }
