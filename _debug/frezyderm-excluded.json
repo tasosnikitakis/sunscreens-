@@ -1,0 +1,234 @@
+{
+  "excludedCount": 38,
+  "keptCount": 310,
+  "excluded": [
+    {
+      "barcode": "5202888273018",
+      "name": "FREZYDERM  Elastin Refill Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273063",
+      "name": "FREZYDERM Antioxidant Vitamin C Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273070",
+      "name": "FREZYDERM Antispot Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273087",
+      "name": "FREZYDERM Expression Blocker Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273117",
+      "name": "FREZYDERM Face Tightener Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888277474",
+      "name": "FREZYDERM Frezyderm Promo Νεσεσέρ με Moisturizing Rich Cream 50ml & Super Booster 5ml -30%",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888273100",
+      "name": "FREZYDERM Lipolysis Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273032",
+      "name": "FREZYDERM Peptides & Stems Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888228742",
+      "name": "FREZYDERM Promo Ac-Norm Active Cleanser 200ml & ΔΩΡΟ Επιπλέον Προϊόν 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888228681",
+      "name": "FREZYDERM Promo Ac-Norm Medilike Effect Type 2  50ml & ΔΩΡΟ Active Cleanser 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888277481",
+      "name": "FREZYDERM Promo Anti- Wrinkle Rich Day Cream 50ml & Skin Radiance Cream Booster 5ml με ΕΚΠΤΩΣΗ 30% & ΔΩΡΟ Νεσεσέρ",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888277498",
+      "name": "FREZYDERM Promo Anti-wrinkle Rich Night Cream 50ml & Face Tightener Cream Booster 5ml με ΕΚΠΤΩΣΗ 30% & ΔΩΡΟ Νεσεσέρ",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888230950",
+      "name": "FREZYDERM Promo Baby Bath 300ml & ΔΩΡΟ Baby Shampoo100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888221637",
+      "name": "FREZYDERM Promo Baby Cream 175ml & ΔΩΡΟ Baby Foam 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230943",
+      "name": "FREZYDERM Promo Baby Cream 175ml & ΔΩΡΟ Baby Shampoo 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230974",
+      "name": "FREZYDERM Promo Baby Hydra Milk 200ml & ΔΩΡΟ Baby Cologne 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888221491",
+      "name": "FREZYDERM Promo Baby Hydra Milk 200ml & ΔΩΡΟ Baby Hydra Milk 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230967",
+      "name": "FREZYDERM Promo Baby Shampoo 300ml & ΔΩΡΟ Baby Bath 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888227875",
+      "name": "FREZYDERM Promo Dermofilia Hand Protective Cream 75ml & ΔΩΡΟ Επιπλέον 40ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888225727",
+      "name": "FREZYDERM Promo Hair Force Shampoo Men 200ml & Δώρο Eπιπλέον 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888277528",
+      "name": "FREZYDERM Promo Instant Lifting Serum 15ml & ΔΩΡΟ Neck Contour Cream 15ml & Anti- Wrinkle Eye Cream 5ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888227790",
+      "name": "FREZYDERM Promo Intim Area Foam 150ml & Intim Area Wipes 20τμχ -50%",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230905",
+      "name": "FREZYDERM Promo -Its A Boy- Baby Bath 300ml & Baby Shampoo 300ml & Baby Cream 175ml & ΔΩΡΟ Βαμβακερή Πετσέτα-Κάπα 70x70",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230912",
+      "name": "FREZYDERM Promo -Its A Girl- Baby Bath 300ml & Baby Shampoo 300ml & Baby Cream 175ml & ΔΩΡΟ Βαμβακερή Πετσέτα-Κάπα 70x70",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888222931",
+      "name": "FREZYDERM Promo Kids Sun and Nip SPF50+ 2τμχ x 150ml -30%",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888224294",
+      "name": "FREZYDERM Promo Lice Free Set Shampoo 125ml & Lotion 125ml & ΔΩΡΟ Lice Rep Spray Extreme 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888224287",
+      "name": "FREZYDERM Promo Lice Rep Extreme Spray 150ml & ΔΩΡΟ Επιπλέον Ποσότητα 80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888277078",
+      "name": "FREZYDERM Promo Moisturizing Plus Cream 50ml και ΔΩΡΟ De-Make Up 4 in 1  80ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888227769",
+      "name": "FREZYDERM Promo Prevenstria Cream για την Προ?ληψη των Ραγα?δων 150ml & ΔΩΡΟ Επιπλέον 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230585",
+      "name": "FREZYDERM Promo SensiTeeth Kids Toothpaste 500ppm 50ml & ΔΩΡΟ SensiTeeth Kids Mouthwash 100ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230936",
+      "name": "FREZYDERM Promo Sensitive Kids Magic Spray 150ml & ΔΩΡΟ 80ml Επιπλέον Προϊόν",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888230929",
+      "name": "FREZYDERM Promo Sensitive Kids Styling Gel 100ml & ΔΩΡΟ Επιπλέον Ποσότητα 50ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888222702",
+      "name": "FREZYDERM Promo Sun Screen Mousse για Πρόσωπο & Σώμα με SPF30 150ml & ΔΩΡΟ Sun Screen Lip Balm SPF50 6ml",
+      "rule": "promo-prefix",
+      "reason": "Promo bundle"
+    },
+    {
+      "barcode": "5202888273001",
+      "name": "FREZYDERM Pure Collagen Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273056",
+      "name": "FREZYDERM Skin Nursery Vitamin B Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273094",
+      "name": "FREZYDERM Skin Radiance Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273049",
+      "name": "FREZYDERM Skin Restart Vitamin A Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "barcode": "5202888273124",
+      "name": "FREZYDERM Wrinkle Plumper Cream Booster 5ml",
+      "rule": "booster-5ml",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    }
+  ]
+}

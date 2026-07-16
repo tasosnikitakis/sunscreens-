@@ -4,11 +4,11 @@
 // (OVERRIDES > SUPPLEMENTAL > supplier fallback).
 window.FREZYDERM_SUPPLEMENTAL = {
   "5202888227554": {
-    "name": "Frezyderm Aqua Care Gel Lubricant Care 50g | Pharm24.gr",
-    "description": "Frezyderm Aqua Care Gel Lubricant Care 50g - Ενυδατική & Λιπαντική Αιδιοκολπική Γέλη για Χρήση Κατά την Εμμηνόπαυση σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888227554_1.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-aqua-care-gel-lubricant-care-50g-p-63322.html"
+    "name": "Frezyderm Aqua Care Gel pH 7 Ενυδατική & Λιπαντική Αιδιοκολπική Γέλη, 50g - oFarmakopoiosMou.gr",
+    "description": "Η γέλη Aqua Care είναι ειδικά σχεδιασμένη για την ανακούφιση από τα συμπτώματα της κολπικής ξηρότητας όπως κνησμός, ερεθισμός, αίσθημα καύσου, τοπικοί ερεθισ...",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888227554.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-aqua-care-gel-ph-7-enydatiki-lipantiki-aidiokolpiki-geli-50g"
   },
   "5202888221224": {
     "name": "Frezyderm Acnorm Baby 40ml | Pharm24.gr",
@@ -39,11 +39,11 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharmacy295.gr/catalog/mallia/sampoyan/product/frezyderm-anti-dandruff-shampoo-200ml--5202888102011"
   },
   "5202888105050": {
-    "name": "Frezyderm Antidandruff Shampoo 200ml | Pharm24.gr",
-    "description": "Frezyderm Antidandruff Shampoo 200ml - Σαμπουάν για την Αντιμετώπιση της Λιπαρής Πιτυρίδας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/frezyderm2.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-antidandruff-shampoo-200ml-p-1676.html"
+    "name": "Frezyderm Antidandruff Shampoo for Oily Dandruff, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Specially formulated shampoo for the treatment of dandruff in oily hair.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm-antidandruff-shampoo-sampoyan-gia-ti-lipari-pityrida.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-antidandruff-shampoo-oily-dandruff-200ml"
   },
   "5202888101151": {
     "name": "Frezyderm Baby ABCC 50ml | Pharm24.gr",
@@ -102,18 +102,18 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharmacy295.gr/catalog/prosopo/kremes-prosopoy/product/frezyderm-dermiox-cream-50ml--5202888271182"
   },
   "5202888106200": {
-    "name": "Frezyderm dMannosa 14 Sachets | Pharm24.gr",
-    "description": "Frezyderm dMannosa 14 Sachets - Συμπλήρωμα Διατροφής με D-Μαννόζη & Εκχύλισμα Κράνμπερι για την Καλή Υγεία του Ουροποιητικού Συστήματος & Προστασία Έναντι Λοιμώξεων με Γεύση Λεμόνι Σμέουρο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888106200.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-dmannosa-symplhrwma-diatrofhs-gia-thn-ygeia-toy-oyropoihtikoy-systhmatos-14-fakelakia-x-4gr-p-38679.html"
+    "name": "Frezyderm dMannosa & Cranberry Extract for Urinary System Health, 14x4gr - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Maintains the health of the urinary system as it protects against pathogen colonization",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888106200-1.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-dmannosa-cranberry-extract-urinary-system-health-14x4gr"
   },
   "5202888105173": {
-    "name": "Frezyderm Every Day Use Shampoo 200ml | Pharm24.gr",
-    "description": "Frezyderm Every Day Use Shampoo 200ml - Απαλό Καθαριστικό Σαμπουάν για Συχνή Χρήση σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888105173.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-every-day-use-shampoo-200ml-p-1686.html"
+    "name": "Frezyderm Every Day Use Shampoo, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Very gentle shampoo that provides effective cleaning & protects the scalp and hair.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm-every-day-shampoo-apalo-sampoyan-gia-kathimerini-hrisi-200ml.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-every-day-use-shampoo-200ml"
   },
   "5202888271175": {
     "name": "Frezyderm Facial Scrub, 100ml - Online Pharmacy Ofarmakopoiosmou.gr",
@@ -144,32 +144,32 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-holistic-arnica-cream-krema-gia-proswpo-kai-swma-poy-anakoyfizei-meta-apo-traymatismoys-myikh-kataponhsh-50ml-p-28543.html"
   },
   "5202888222474": {
-    "name": "Frezyderm Icy After Sun Relieving Cooling Hydrogel Face & Body 200ml | Pharm24.gr",
-    "description": "Frezyderm Icy After Sun Relieving Cooling Hydrogel Face & Body 200ml - Υδρογέλη Αποκατάστασης Δέρματος Μετά την Έντονη Έκθεση στον Ήλιο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888222474a.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-icy-after-sun-face-body-relieving-cooling-hydrogel-200ml-p-60417.html"
+    "name": "Frezyderm Icy After Sun Face & Body, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Frezyderm Icy After Sun reduces its temperature by at least 1.5oC in just 2 minutes! It features Dark CPD Block innovation that prevents the formation of fre...",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888222474.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-icy-after-sun-face-body-200ml"
   },
   "5202888331558": {
-    "name": "Frezyderm Immuno Defence 30caps | Pharm24.gr",
-    "description": "Frezyderm Immuno Defence 30caps - Συμπλήρωμα Διατροφής με Βιταμίνη D3, Σελήνιο & Ψευδάργυρο με Εκχύλισμα Εχινάκειας για την Ενίσχυση του Ανοσοποιητικού Συστήματος σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331558.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-immuno-defence-30caps-p-56321.html"
+    "name": "Frezyderm Immuno Defence, 30caps - oFarmakopoiosMou.gr",
+    "description": "Συμπλήρωμα διατροφής για την ενίσχυση του ανοσοποιητικού συστήματος.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888331558.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-immuno-defence-30caps"
   },
   "5202888106194": {
-    "name": "Frezyderm Intimeo 325mg, 14caps - Online Pharmacy Ofarmakopoiosmou.gr",
-    "description": "Dietary supplement containing four live cells of lactobacilli and ensures intimate area health.",
+    "name": "Frezyderm Intimeo 325mg, 14caps - oFarmakopoiosMou.gr",
+    "description": "Συμπλήρωμα διατροφής που περιέχει τέσσερα στελέχη γαλακτοβακίλλων και διασφαλίζει την υγεία της γυναικείας ευαίσθητης περι",
     "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888106194-1.jpg",
     "source": "ofarmakopoiosmou.gr",
-    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-intimeo-325mg-14caps"
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-intimeo-325mg-14caps"
   },
   "5202888222450": {
-    "name": "Frezyderm Kids Sun Care Cream Spray Spf50+, 275ml | Pharm24.gr",
-    "description": "Frezyderm Kids Sun Care Cream Spray Spf50+, 275ml - Παιδικό Αντηλιακό Πολύ Υψηλής Προστασίας Προσώπου & Σώματος σε Μορφή Κρέμας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/046043_1.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-kids-sun-care-cream-spray-spf50-275ml-p-46043.html"
+    "name": "Frezyderm Kids Sun Care Cream Spray Water Resistant SPF50+, 275ml - oFarmakopoiosMou.gr",
+    "description": "Παιδικό αντηλιακό spray πολύ υψηλής προστασίας σε μορφή ψεκάσιμης κρέμας για εύκολη εφαρμογή.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888222450.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-kids-sun-care-cream-spray-water-resistant-spf50-275ml"
   },
   "5202888222436": {
     "name": "Frezyderm for Kids Sun+Nip Lotion Spf50+, 175ml | Pharm24.gr",
@@ -179,11 +179,11 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-kids-sunnip-spf50-175ml-p-28595.html"
   },
   "5202888100123": {
-    "name": "Frezyderm Mild Foam Wash 150ml | Pharm24.gr",
-    "description": "Frezyderm Mild Foam Wash 150ml - Απαλό Αφρώδες Καθαριστικό για Ευαίσθητες Επιδερμίδες σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888100123.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-mild-foam-wash-150ml-p-3633.html"
+    "name": "Frezyderm Mild Wash Foam Απαλός Αφρός Καθαρισμού για Πρόσωπο & Σώμα, 150ml - oFarmakopoiosMou.gr",
+    "description": "Απαλός αφρός καθαρισμού, προσώπου και σώματος, για κάθε τύπο δέρματος.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888100123.png",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-mild-wash-foam-apalos-afros-katharismoy-gia-prosopo-soma-150ml-0"
   },
   "5202888271007": {
     "name": "Frezyderm Moisturizing 24h Cream 20+ 50ml | Pharm24.gr",
@@ -193,32 +193,32 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-moisturizing-24h-cream-20-50ml-p-86.html"
   },
   "5202888271014": {
-    "name": "Frezyderm Moisturizing Plus Cream 30+, 50ml | Pharm24.gr",
-    "description": "Frezyderm Moisturizing Plus Cream 30+, 50ml - Εντατική Ενυδάτωση & Επανόρθωση Προσώπου & Λαιμού για Ηλικίες 30+ σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271014.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-moisturizing-plus-cream-30-50ml-p-87.html"
+    "name": "Frezyderm Moisturizing Plus Cream 30+, 50ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Rich and gentle cream for face and neck, offering a dynamic and thoroug",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888271014.png",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-moisturizing-plus-cream-30-50ml"
   },
   "5202888271021": {
-    "name": "Frezyderm Moisturizing Rich Cream Age 45+, 50ml | Pharm24.gr",
-    "description": "Frezyderm Moisturizing Rich Cream Age 45+, 50ml - Ενυδατική Κρέμα για Ξηρό Δέρμα, για Ώριμες Επιδερμίδες, Ηλικίες 45+ σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271021.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-moisturizing-rich-cream-age-45-50ml-p-88.html"
+    "name": "Frezyderm Moisturizing Rich Cream 45+ Dry Skin, 50ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Rich moisturizing face and neck cream for mature and dry skin.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888271021.png",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-moisturizing-rich-cream-45-dry-skin-50ml"
   },
   "5202888282027": {
-    "name": "Frezyderm Gingivital Mouthwash 250ml | Pharm24.gr",
-    "description": "Frezyderm Gingivital Mouthwash 250ml - Φθοριούχο Στοματικό Διάλυμα Κατά της Ουλίτιδας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/gingivital_mouthwash.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-gingivital-mouthwash-250ml-p-11386.html"
+    "name": "Frezyderm Gingivital Mouthwash Στοματικό Διάλυμα για την Αντιμετώπιση της Ουλίτιδας, 250ml - oFarmakopoiosMou.gr",
+    "description": "Φθοριούχο στοματικό διάλυμα κατά της ουλίτιδας.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm-gingivital-mouthwash-stomatiko-dialyma.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-gingivital-mouthwash-stomatiko-dialyma-gia-tin-antimetopisi-tis-oylitidas-250ml"
   },
   "5202888282010": {
-    "name": "Frezyderm Periodigum Mouthwash 250ml | Pharm24.gr",
-    "description": "Frezyderm Periodigum Mouthwash 250ml - Φθοριούχο Στοματικό Διάλυμα Κατά των Συμπτωμάτων της Περιοδοντίτιδας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888282010_P_12365.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-periodigum-mouthwash-250ml-p-11385.html"
+    "name": "Frezyderm Periodigum Mouthwash Στοματικό Διάλυμα κατά της Περιοδοντίτιδας, 250ml - oFarmakopoiosMou.gr",
+    "description": "Στοματικό Διάλυμα κατά της Περιοδοντίτιδας που επιταχύνει τη φυσική ανάπλαση των ούλων & των δοντιών, συμβάλε",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm-periodontitis-mouthwash-stomatiko-dialyma-kata-tis-periodontitidas-250ml.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-periodigum-mouthwash-stomatiko-dialyma-kata-tis-periodontitidas-250ml"
   },
   "5202888261046": {
     "name": "Frezyderm Nasal Ointment Άνυδρη Ρινική Αλοιφή Ενίσχυσης του Επιδερμικού Φραγμού 15ml | Pharm24.gr",
@@ -228,18 +228,18 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-nasal-ointment-anydrh-rinikh-aloifh-enisxyshs-toy-epidermikoy-fragmoy-15ml-p-27117.html"
   },
   "5202888109355": {
-    "name": "Frezyderm Organic Chamomile 15gr | Pharm24.gr",
-    "description": "Frezyderm Organic Chamomile 15gr - Ελληνικό Βιολογικό Ρόφημα με Χαμομήλι για Βρέφη, Παιδιά & Ενήλικες σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888109355.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-organic-chamomile-15gr-p-44084.html"
+    "name": "FREZYDERM - ORGANIC Chamomile - 15sach.",
+    "description": "Frezyderm Organic Chamomile - Χαμομήλι (15sach.) Το Organic Chamomile της Frezyderm είναι Ελληνικό βιολογικό ρόφημα με ολόκληρα άνθη χ...",
+    "image": "https://static.pharmacy295.gr/images/313026.jpg",
+    "source": "pharmacy295.gr",
+    "url": "https://www.pharmacy295.gr/catalog/goneis-paidi/diatrofi-moroy-paidioy/rofimata-votanon/product/frezyderm-organic-chamomile-15sach--5202888109355"
   },
   "5202888331596": {
-    "name": "Frezyderm Prelactic Ovules Balancing Care 10 Ovules | Pharm24.gr",
-    "description": "Frezyderm Prelactic Ovules Balancing Care 10 Ovules - Κολπικά Υπόθετα με Καταπραϋντική Δράση Κατά των Ερεθισμών που Χαρίζουν Προστασία & Ενυδάτωση στον Βλεννογόνο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331596.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-predilac-ovules-balancing-care-10-suppositories-p-60562.html"
+    "name": "Frezyderm Prelactic Ovules Balancing Care Κολπικά Υπόθετα για Ενυδάτωση & Προστασία του Κολπικού Βλεννογόνου, 10τεμ - oFarmakopoiosMou.gr",
+    "description": "Τα κολπικά υπόθετα Frezyderm Prelactic Ovules σχηματίζουν ένα προστατευτικό υμένιο στην επιφάνεια του κολπικού βλεννογόνου, προσφέροντας ενυδάτωση και προστα...",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888331596.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-prelactic-ovules-balancing-care-kolpika-ypotheta-gia-enydatosi-prostasia-toy-kolpikoy"
   },
   "5202888102899": {
     "name": "Frezyderm Prelactic Gel Balancing Care Κολπικό Gel Ανακούφισης της Ευαίσθητης Περιοχής, 50g - oFarmakopoiosMou.gr",
@@ -256,18 +256,18 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-proflamine-40ml-p-4024.html"
   },
   "5202888331022": {
-    "name": "Frezyderm Propolis Oral Spray 30ml | Pharm24.gr",
-    "description": "Frezyderm Propolis Oral Spray 30ml - Συμπλήρωμα Διατροφής με Πρόπολη, Βιταμίνη C & Θυμάρι σε Μορφή Spray για τον Ερεθισμένο Λαιμό σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331022a12.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-propolis-oral-spray-30ml-p-56325.html"
+    "name": "Frezyderm Propolis Oral Spray, 30ml - oFarmakopoiosMou.gr",
+    "description": "Περιέχει πρόπολη, μέλι, βιταμίνη C και εκχύλισμα θυμαριού για καταπράυνση του ε",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888331022.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-propolis-oral-spray-30ml"
   },
   "5202888227592": {
-    "name": "Frezyderm Rectanal Aid Ointment 40ml | Pharm24.gr",
-    "description": "Frezyderm Rectanal Aid Ointment 40ml - Καταπραϋντική Αλοιφή για Αιμορροΐδες & Ραγάδες Πρωκτού σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888227592_1.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-rectanal-aid-ointment-40ml-p-62397.html"
+    "name": "Frezyderm Rectanal Aid Ointment Καταπραϋντική Aλοιφή για Αιμορροΐδες, 40ml - oFarmakopoiosMou.gr",
+    "description": "Καταπραϋντική αλοιφή για την ανακούφιση των συμπτωμάτων των αιμορροΐδων και των ραγάδων του πρωκτού.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888227592-3.png",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/frezyderm-rectanal-aid-ointment-kataprayntiki-aloifi-gia-aimorroides-40ml"
   },
   "5202888271113": {
     "name": "Frezyderm Revitalizing Serum 30ml | Pharm24.gr",
@@ -277,11 +277,11 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "url": "https://www.pharm24.gr/frezyderm-revitalizing-serum-30ml-p-91.html"
   },
   "5202888106217": {
-    "name": "Frezyderm Rinopure Sterile Isotonic Solution of Sodium Chloride 0.9% 30vials x 5ml | Pharm24.gr",
-    "description": "Frezyderm Rinopure Sterile Isotonic Solution of Sodium Chloride 0.9% 30vials x 5ml - Αποστειρωμένο Ισοτονικό Διάλυμα Χλωριούχου Νατρίου 0.9% για Καθαρισμό Μύτης, Ματιών, Αυτιών & Πληγών σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
-    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888106217.jpg",
-    "source": "pharm24.gr",
-    "url": "https://www.pharm24.gr/frezyderm-rinopure-sterile-isotonic-solution-of-sodium-chloride-09-30vials-x-5ml-p-39071.html"
+    "name": "Frezyderm Rinopure Sterile Isotonic Solution of Sodium Chloride 0.9%, 30amps x 5ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Sterile saline solution that helps maintain daily nasal hygiene.",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/5202888106217.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-rinopure-sterile-isotonic-solution-sodium-chloride-09-30amps-x-5ml"
   },
   "5202888230042": {
     "name": "Frezyderm Sensitive Kids Face & Body Milk 200ml | Pharm24.gr",
@@ -324,5 +324,19 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331589.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-vomi-free-30-chewtabs-p-61137.html"
+  },
+  "5202888271205": {
+    "name": "Frezyderm Instant Lifting Serum 15ml | Pharm24.gr",
+    "description": "Frezyderm Instant Lifting Serum 15ml - Ορός Άμεσης Σύσφιξης για το Πρόσωπο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/new5202888271205.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/frezyderm-instant-lifting-serum-15ml-p-4418.html"
+  },
+  "5202888271151": {
+    "name": "Frezyderm Night Force A+E Cream 50ml | Pharm24.gr",
+    "description": "Frezyderm Night Force A+E Cream 50ml - Αντιγηραντική Κρέμα Νύχτας με Ρετινόλη & Βιταμίνη Ε σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271151.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/frezyderm-night-force-ae-cream-50ml-p-92.html"
   }
 };

@@ -1,0 +1,816 @@
+{
+  "totals": {
+    "products": 310,
+    "ok": 231,
+    "flagged": 79,
+    "reasonCounts": {
+      "truncated": 6,
+      "pharmacy-fluff": 22,
+      "missing": 32,
+      "too-short": 19,
+      "english-only": 10
+    }
+  },
+  "flagged": [
+    {
+      "barcode": "5202888227554",
+      "name": "Frezyderm Aqua Care Gel pH 7 Ενυδατική & Λιπαντική Αιδιοκολπική Γέλη, 50g - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-aqua-care-gel-ph-7-enydatiki-lipantiki-aidiokolpiki-geli-50g",
+      "reasons": [
+        "truncated"
+      ],
+      "descLength": 160
+    },
+    {
+      "barcode": "5202888221224",
+      "name": "Frezyderm Acnorm Baby 40ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-acnorm-baby-40ml-p-8307.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 178
+    },
+    {
+      "barcode": "5202888400100",
+      "name": "Frezyderm Active Sun Screen Tinted Face Cream Spf50+ Ενεργή Έγχρωμη Αντηλιακή Κρέμα Υψηλής Προστασίας με Ειδική Μαύρη Χρώση 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-active-sun-screen-tinted-face-cream-spf50-energh-egxrwmh-anthliakh-krema-ypshlhs-prostasias-me-eidikh-mayrh-xrwsh-50ml-p-25429.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 206
+    },
+    {
+      "barcode": "5202888105166",
+      "name": "FREZYDERM Anti - Age Shampoo 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888102936",
+      "name": "Frezyderm Anticort Cream Κρέμα Στεροειδούς Δράσης Χωρίς Κορτιζόνη, 50ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-anticort-cream-krema-steroeidoys-drasis-horis-kortizoni-50ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 113
+    },
+    {
+      "barcode": "5202888102011",
+      "name": "FREZYDERM - Anti-Dandruff Shampoo - 200ml",
+      "source": "pharmacy295.gr",
+      "url": "https://www.pharmacy295.gr/catalog/mallia/sampoyan/product/frezyderm-anti-dandruff-shampoo-200ml--5202888102011",
+      "reasons": [
+        "truncated"
+      ],
+      "descLength": 121
+    },
+    {
+      "barcode": "5202888105050",
+      "name": "Frezyderm Antidandruff Shampoo for Oily Dandruff, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-antidandruff-shampoo-oily-dandruff-200ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 72
+    },
+    {
+      "barcode": "5202888102882",
+      "name": "FREZYDERM AQUA CARE  VAGINAL CREAM 50ML",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888101151",
+      "name": "Frezyderm Baby ABCC 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-baby-abcc-50ml-p-1387.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 175
+    },
+    {
+      "barcode": "5202888221187",
+      "name": "Frezyderm Baby Cream 175ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-baby-cream-175ml-p-4214.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 168
+    },
+    {
+      "barcode": "5202888101076",
+      "name": "Frezyderm Baby Cream 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-baby-cream-50ml-p-3849.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 162
+    },
+    {
+      "barcode": "5202888101144",
+      "name": "Frezyderm Baby Foam 150ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-baby-foam-150ml-p-1370.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 160
+    },
+    {
+      "barcode": "5202888101069",
+      "name": "FREZYDERM Baby Shampoo 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888221248",
+      "name": "Frezyderm Baby Shampoo, 300ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-baby-shampoo-300ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 71
+    },
+    {
+      "barcode": "5202888281082",
+      "name": "Frezyderm Periodontitis Chlorhexene 0,2% Gel 30ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-periodontitis-chlorhexene-02-gel-30ml-p-11383.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 211
+    },
+    {
+      "barcode": "5202888105142",
+      "name": "FREZYDERM Color Protect Shampoo 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105159",
+      "name": "FREZYDERM Color Protect Spray 100ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888010989",
+      "name": "Frezyderm Crilen Cream 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-crilen-cream-50ml-p-4521.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 152
+    },
+    {
+      "barcode": "5202888271182",
+      "name": "FREZYDERM - Dermiox Cream - 50ml",
+      "source": "pharmacy295.gr",
+      "url": "https://www.pharmacy295.gr/catalog/prosopo/kremes-prosopoy/product/frezyderm-dermiox-cream-50ml--5202888271182",
+      "reasons": [
+        "truncated"
+      ],
+      "descLength": 152
+    },
+    {
+      "barcode": "5202888106200",
+      "name": "Frezyderm dMannosa & Cranberry Extract for Urinary System Health, 14x4gr - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-dmannosa-cranberry-extract-urinary-system-health-14x4gr",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 87
+    },
+    {
+      "barcode": "5705675071168",
+      "name": "FREZYDERM Ecovag Balance Κολπικά Υπόθετα για Αποκατάσταση της Κολπικής Χλωρίδας 10τμχ",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105173",
+      "name": "Frezyderm Every Day Use Shampoo, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-every-day-use-shampoo-200ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 83
+    },
+    {
+      "barcode": "5202888271175",
+      "name": "Frezyderm Facial Scrub, 100ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-facial-scrub-100ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 61
+    },
+    {
+      "barcode": "5202888331572",
+      "name": "Frezyderm Ferti Women 30 Sachets | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-ferti-woman-30-sachets-p-61163.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 215
+    },
+    {
+      "barcode": "5202888261008",
+      "name": "Frezyderm Frezykeld Cream 40ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-frezykeld-cream-40ml-p-4023.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 149
+    },
+    {
+      "barcode": "5202888261107",
+      "name": "FREZYDERM Frezymar Baby Spray 100ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888261114",
+      "name": "FREZYDERM Frezymar Normal Spray 100ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105111",
+      "name": "FREZYDERM Hair Balance Shampoo 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105104",
+      "name": "FREZYDERM Hair Implant Shampoo 150ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105197",
+      "name": "FREZYDERM Hair Repair Conditioner 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "9999991010956",
+      "name": "FREZYDERM Hair Repair Mask 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105180",
+      "name": "FREZYDERM Hair Repair Shampoo 200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888261213",
+      "name": "Frezyderm Holistic Arnica Cream 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-holistic-arnica-cream-krema-gia-proswpo-kai-swma-poy-anakoyfizei-meta-apo-traymatismoys-myikh-kataponhsh-50ml-p-28543.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 199
+    },
+    {
+      "barcode": "5202888261060",
+      "name": "FREZYDERM HOLISTIC ARNICA CREAM 50ML",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888261084",
+      "name": "FREZYDERM Holistic Calendula Cream 50ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888261077",
+      "name": "FREZYDERM Holistic Hypericum Cream 50ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888226106",
+      "name": "FREZYDERM Holistic Propolis Cream 50ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888222474",
+      "name": "Frezyderm Icy After Sun Face & Body, 200ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-icy-after-sun-face-body-200ml",
+      "reasons": [
+        "english-only",
+        "truncated"
+      ],
+      "descLength": 160
+    },
+    {
+      "barcode": "5202888331558",
+      "name": "Frezyderm Immuno Defence, 30caps - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-immuno-defence-30caps",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 68
+    },
+    {
+      "barcode": "5202888271205",
+      "name": "Frezyderm Instant Lifting Serum 15ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-instant-lifting-serum-15ml-p-4418.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 152
+    },
+    {
+      "barcode": "5202888222450",
+      "name": "Frezyderm Kids Sun Care Cream Spray Water Resistant SPF50+, 275ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-kids-sun-care-cream-spray-water-resistant-spf50-275ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 93
+    },
+    {
+      "barcode": "5202888222436",
+      "name": "Frezyderm for Kids Sun+Nip Lotion Spf50+, 175ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-kids-sunnip-spf50-175ml-p-28595.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 206
+    },
+    {
+      "barcode": "5202888271229",
+      "name": "FREZYDERM Matte Effect Cream 50ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105074",
+      "name": "FREZYDERM Mediated Cream-Gel 50ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105067",
+      "name": "FREZYDERM MEDIATED SH.DRY DANDR.200ML",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888100123",
+      "name": "Frezyderm Mild Wash Foam Απαλός Αφρός Καθαρισμού για Πρόσωπο & Σώμα, 150ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-mild-wash-foam-apalos-afros-katharismoy-gia-prosopo-soma-150ml-0",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 70
+    },
+    {
+      "barcode": "5202888271007",
+      "name": "Frezyderm Moisturizing 24h Cream 20+ 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-moisturizing-24h-cream-20-50ml-p-86.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 157
+    },
+    {
+      "barcode": "5202888271014",
+      "name": "Frezyderm Moisturizing Plus Cream 30+, 50ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-moisturizing-plus-cream-30-50ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 71
+    },
+    {
+      "barcode": "5202888271021",
+      "name": "Frezyderm Moisturizing Rich Cream 45+ Dry Skin, 50ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-moisturizing-rich-cream-45-dry-skin-50ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 62
+    },
+    {
+      "barcode": "5202888282027",
+      "name": "Frezyderm Gingivital Mouthwash Στοματικό Διάλυμα για την Αντιμετώπιση της Ουλίτιδας, 250ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-gingivital-mouthwash-stomatiko-dialyma-gia-tin-antimetopisi-tis-oylitidas-250ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 47
+    },
+    {
+      "barcode": "5202888282010",
+      "name": "Frezyderm Periodigum Mouthwash Στοματικό Διάλυμα κατά της Περιοδοντίτιδας, 250ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-periodigum-mouthwash-stomatiko-dialyma-kata-tis-periodontitidas-250ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 109
+    },
+    {
+      "barcode": "5202888261046",
+      "name": "Frezyderm Nasal Ointment Άνυδρη Ρινική Αλοιφή Ενίσχυσης του Επιδερμικού Φραγμού 15ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-nasal-ointment-anydrh-rinikh-aloifh-enisxyshs-toy-epidermikoy-fragmoy-15ml-p-27117.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 162
+    },
+    {
+      "barcode": "5202888271151",
+      "name": "Frezyderm Night Force A+E Cream 50ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-night-force-ae-cream-50ml-p-92.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 168
+    },
+    {
+      "barcode": "5202888227165",
+      "name": "FREZYDERM Nipple Care Restructuring Cream-Gel 40ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888109355",
+      "name": "FREZYDERM - ORGANIC Chamomile - 15sach.",
+      "source": "pharmacy295.gr",
+      "url": "https://www.pharmacy295.gr/catalog/goneis-paidi/diatrofi-moroy-paidioy/rofimata-votanon/product/frezyderm-organic-chamomile-15sach--5202888109355",
+      "reasons": [
+        "truncated"
+      ],
+      "descLength": 137
+    },
+    {
+      "barcode": "5202888009075",
+      "name": "FREZYDERM Organic Fennel 60gr",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888331596",
+      "name": "Frezyderm Prelactic Ovules Balancing Care Κολπικά Υπόθετα για Ενυδάτωση & Προστασία του Κολπικού Βλεννογόνου, 10τεμ - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-prelactic-ovules-balancing-care-kolpika-ypotheta-gia-enydatosi-prostasia-toy-kolpikoy",
+      "reasons": [
+        "truncated"
+      ],
+      "descLength": 160
+    },
+    {
+      "barcode": "5202888102899",
+      "name": "Frezyderm Prelactic Gel Balancing Care Κολπικό Gel Ανακούφισης της Ευαίσθητης Περιοχής, 50g - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-prelactic-gel-balancing-care-kolpiko-gel-anakoyfisis-tis-eyaisthitis-periohis-50g",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 91
+    },
+    {
+      "barcode": "5202888102110",
+      "name": "FREZYDERM PREVENSTRIA CREAM 150ML",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888105500",
+      "name": "FREZYDERM Prodilac Ease 10τμχ",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888320101",
+      "name": "FREZYDERM PRODILAC EASE 30 STICKS",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888320057",
+      "name": "FREZYDERM PRODILAC ORAL (30 ΜΑΣΩΜΕΝΑ ΔΙΣΚΙΑ)-  (Φ.Π.Α 6%)",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888261015",
+      "name": "Frezyderm Proflamine 40ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-proflamine-40ml-p-4024.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 180
+    },
+    {
+      "barcode": "5202888331022",
+      "name": "Frezyderm Propolis Oral Spray, 30ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-propolis-oral-spray-30ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 79
+    },
+    {
+      "barcode": "5202888263019",
+      "name": "FREZYDERM PS T Keratolytic Cream Step 2  200ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888102127",
+      "name": "FREZYDERM RECONSTRIA 75ML",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888227592",
+      "name": "Frezyderm Rectanal Aid Ointment Καταπραϋντική Aλοιφή για Αιμορροΐδες, 40ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-rectanal-aid-ointment-kataprayntiki-aloifi-gia-aimorroides-40ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 100
+    },
+    {
+      "barcode": "5202888221217",
+      "name": "FREZYDERM Reform Abdomen Care Cream 150ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888271113",
+      "name": "Frezyderm Revitalizing Serum 30ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-revitalizing-serum-30ml-p-91.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 147
+    },
+    {
+      "barcode": "5202888106217",
+      "name": "Frezyderm Rinopure Sterile Isotonic Solution of Sodium Chloride 0.9%, 30amps x 5ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-rinopure-sterile-isotonic-solution-sodium-chloride-09-30amps-x-5ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 64
+    },
+    {
+      "barcode": "5202888102158",
+      "name": "FREZYDERM Self Care Gel 75ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888230042",
+      "name": "Frezyderm Sensitive Kids Face & Body Milk 200ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-sensitive-kids-face-body-milk-200ml-p-3644.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 195
+    },
+    {
+      "barcode": "5202888230073",
+      "name": "Frezyderm Sensitive Kids Styling Gel Παιδικό Ζελέ Μαλλιών για Δυνατό Κράτημα, 100ml - oFarmakopoiosMou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/frezyderm-sensitive-kids-styling-gel-paidiko-zele-mallion-gia-dynato-kratima-100ml",
+      "reasons": [
+        "too-short"
+      ],
+      "descLength": 70
+    },
+    {
+      "barcode": "5202888281068",
+      "name": "Frezyderm Gingivital Toothpaste 1.000ppm 75ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-gingivital-toothpaste-1000ppm-75ml-p-11381.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 166
+    },
+    {
+      "barcode": "5202888281044",
+      "name": "Frezyderm Periodigum Toothpaste 75ml | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-periodigum-toothpaste-75ml-p-11379.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 169
+    },
+    {
+      "barcode": "5202888281051",
+      "name": "Frezyderm Pregnancy Toothpaste, 75ml - Online Pharmacy Ofarmakopoiosmou.gr",
+      "source": "ofarmakopoiosmou.gr",
+      "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-pregnancy-toothpaste-75ml",
+      "reasons": [
+        "too-short",
+        "english-only"
+      ],
+      "descLength": 61
+    },
+    {
+      "barcode": "5202888102103",
+      "name": "FREZYDERM Tripleffect Cream Gel 150ml",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    },
+    {
+      "barcode": "5202888331589",
+      "name": "Frezyderm Vomi Free 30 Chew.tabs | Pharm24.gr",
+      "source": "pharm24.gr",
+      "url": "https://www.pharm24.gr/frezyderm-vomi-free-30-chewtabs-p-61137.html",
+      "reasons": [
+        "pharmacy-fluff"
+      ],
+      "descLength": 235
+    },
+    {
+      "barcode": "5202888009068",
+      "name": "FREZYDERM Βιολογικό Χαμομήλι 30gr",
+      "source": "(none)",
+      "url": null,
+      "reasons": [
+        "missing"
+      ],
+      "descLength": 0
+    }
+  ]
+}
