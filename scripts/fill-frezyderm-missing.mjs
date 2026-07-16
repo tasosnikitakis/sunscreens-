@@ -204,16 +204,12 @@ async function bingSearch(barcode) {
 }
 
 async function pharmacyResult(barcode, opts = {}) {
-  const skipHosts = new Set(opts.skipHosts || []);
   let links = await ddgSearch(barcode);
   if (links.length === 0) { await sleep(300); links = await bingSearch(barcode); }
   if (links.length === 0) return null;
 
   const score = (u) => {
     const h = hostOf(u);
-    if (skipHosts.has(h)) return 100;
-    // Σε retry-flagged mode προτιμάμε Vita4you/Fr.gr που έχουν πλήρεις περιγραφές
-    // αντί για pharm24 fluff — αν το ζητήσει ο caller
     if (opts.preferRich) {
       if (h === "vita4you.gr") return 0;
       if (h === "fr.gr") return 1;
@@ -232,10 +228,23 @@ async function pharmacyResult(barcode, opts = {}) {
   };
   links.sort((a, b) => score(a) - score(b));
 
+  // Quick quality heuristic για description ranking
+  const descQualityScore = (d) => {
+    if (!d) return 0;
+    const s = d.trim();
+    let sc = Math.min(s.length, 500) / 100; // longer = better up to 500 chars
+    if (/(σε προσφορά στο\s+Pharm24|Δωρε[άα]ν μεταφορικ[άα]|σε αγορ[έε]ς [άα]νω των|Online\s+Pharmacy|Ofarmakopoiosmou)/i.test(s)) sc -= 5;
+    const greek = (s.match(/[α-ωΑ-Ωά-ώΆ-Ώ]/g) || []).length;
+    const latin = (s.match(/[a-zA-Z]/g) || []).length;
+    if (latin > 30 && greek < latin / 3) sc -= 3;
+    if (s.length < 220 && /(\.{3,}|…)\s*$/.test(s)) sc -= 1;
+    return sc;
+  };
+
+  let bestHit = null, bestScore = -Infinity, firstHit = null;
   for (const u of links.slice(0, 8)) {
     const h = hostOf(u);
     if (!PHARMACY_HOSTS.includes(h)) continue;
-    if (skipHosts.has(h)) continue;
     dbg(`pharm try ${u}`);
     try {
       const text = await fetchText(u);
@@ -244,13 +253,19 @@ async function pharmacyResult(barcode, opts = {}) {
       const desc = cleanupDescription(meta.description);
       const img = meta.image;
       if (title || img) {
-        dbg(`  hit: ${title ? title.slice(0, 70) : "—"} | ${img ? "img+" : "img-"}`);
-        return { name: title, description: desc, image: img, source: h, url: u };
+        const hit = { name: title, description: desc, image: img, source: h, url: u };
+        const qScore = descQualityScore(desc);
+        dbg(`  hit: ${title ? title.slice(0, 70) : "—"} | ${img ? "img+" : "img-"} | qScore=${qScore.toFixed(1)}`);
+        if (!firstHit) firstHit = hit;
+        if (!opts.returnBestByQuality) return hit;
+        if (qScore > bestScore) { bestScore = qScore; bestHit = hit; }
+        // Early exit: αν βρήκαμε πολύ καλή περιγραφή, σταμάτα
+        if (qScore >= 3) return bestHit;
       }
     } catch (e) { dbg(`  ${e.message}`); }
     await sleep(300);
   }
-  return null;
+  return bestHit || firstHit || null;
 }
 
 // ----- I/O -----
@@ -335,10 +350,12 @@ async function main() {
 
     let hit = null;
     try {
-      // Σε retry-flagged: αποφεύγουμε το host που είχε δώσει fluff description
-      const prevSource = (supplemental[p.barcode] || {}).source || null;
+      // Σε retry-flagged: reorder (pharm24 τελευταίο), αλλά ΔΕΝ το skip-άρουμε
+      // εντελώς — καλύτερα να το πάρουμε ως fallback παρά να αφήσουμε το
+      // προϊόν χωρίς περιγραφή. Επίσης παίρνουμε τα top-3 hits και κρατάμε
+      // αυτό με την καλύτερη ποιότητα περιγραφής.
       const opts = RETRY_FLAGGED
-        ? { preferRich: true, skipHosts: prevSource === "pharm24.gr" ? ["pharm24.gr"] : [] }
+        ? { preferRich: true, returnBestByQuality: true }
         : {};
       hit = await pharmacyResult(p.barcode, opts);
     }
