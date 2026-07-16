@@ -193,6 +193,7 @@ function render({ product: p, brands, catalog }) {
         <div class="mt-4 flex flex-wrap gap-2">
           ${p.line ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${brand.accent}">${escapeHtml(p.line)}</span>` : ""}
           ${(isSeasonal || isVican || isFrezyderm) && sectionInfo ? `<span class="px-3 py-1 rounded-full text-sm font-bold text-white" style="background:${sectionInfo.accent}">${sectionInfo.icon} ${escapeHtml(sectionInfo.name)}</span>` : ""}
+          ${isFrezyderm ? (() => { const q = frezydermDescriptionQuality(enrich.description); if (q.ok) return ""; const tip = q.reasons.map(frezReasonLabel).join(" · "); return `<span class="px-3 py-1 rounded-full text-sm font-bold bg-rose-500 text-white" title="${escapeHtml(tip)}">🔍 Περιγραφή χρειάζεται review</span>`; })() : ""}
         </div>
         `}
       </div>

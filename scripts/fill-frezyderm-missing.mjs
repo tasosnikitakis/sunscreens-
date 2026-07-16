@@ -38,9 +38,23 @@ const flag = (k) => args.includes(`--${k}`);
 
 const DEBUG = flag("debug");
 const FORCE = flag("force");
+const RETRY_FLAGGED = flag("retry-flagged");
 const ONLY = opt("barcode", null);
 const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const DELAY_MS = parseInt(opt("delay", "1100"));
+
+// Quality check — απομόνωσε αντίγραφο του utils για standalone script
+function isPoorQuality(desc) {
+  const s = (desc || "").trim();
+  if (!s) return true;
+  if (s.length < 120) return true;
+  if (/(σε προσφορά στο\s+Pharm24|Δωρε[άα]ν μεταφορικ[άα]|σε αγορ[έε]ς [άα]νω των|Online\s+Pharmacy|Ofarmakopoiosmou)/i.test(s)) return true;
+  const greekChars = (s.match(/[α-ωΑ-Ωά-ώΆ-Ώ]/g) || []).length;
+  const latinChars = (s.match(/[a-zA-Z]/g) || []).length;
+  if (latinChars > 30 && greekChars < latinChars / 3) return true;
+  if (s.length < 220 && /(\.{3,}|…)\s*$/.test(s)) return true;
+  return false;
+}
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -189,13 +203,26 @@ async function bingSearch(barcode) {
   return links;
 }
 
-async function pharmacyResult(barcode) {
+async function pharmacyResult(barcode, opts = {}) {
+  const skipHosts = new Set(opts.skipHosts || []);
   let links = await ddgSearch(barcode);
   if (links.length === 0) { await sleep(300); links = await bingSearch(barcode); }
   if (links.length === 0) return null;
 
   const score = (u) => {
     const h = hostOf(u);
+    if (skipHosts.has(h)) return 100;
+    // Σε retry-flagged mode προτιμάμε Vita4you/Fr.gr που έχουν πλήρεις περιγραφές
+    // αντί για pharm24 fluff — αν το ζητήσει ο caller
+    if (opts.preferRich) {
+      if (h === "vita4you.gr") return 0;
+      if (h === "fr.gr") return 1;
+      if (h === "blinkshop.gr") return 2;
+      if (h === "ofarmakopoiosmou.gr") return 3;
+      if (h === "kosmas.gr") return 4;
+      if (h === "skroutz.gr") return 5;
+      if (h === "pharm24.gr") return 6;
+    }
     if (h === "skroutz.gr") return 0;
     if (h === "pharm24.gr") return 1;
     if (h === "vita4you.gr") return 2;
@@ -205,9 +232,10 @@ async function pharmacyResult(barcode) {
   };
   links.sort((a, b) => score(a) - score(b));
 
-  for (const u of links.slice(0, 6)) {
+  for (const u of links.slice(0, 8)) {
     const h = hostOf(u);
     if (!PHARMACY_HOSTS.includes(h)) continue;
+    if (skipHosts.has(h)) continue;
     dbg(`pharm try ${u}`);
     try {
       const text = await fetchText(u);
@@ -280,12 +308,18 @@ async function main() {
   const manifest = await loadManifest();
 
   // Target: όσα δεν έχουν override με εικόνα (και δεν έχουν ήδη supplemental,
-  // εκτός αν --force)
+  // εκτός αν --force ή --retry-flagged)
   let pool = supplier.filter(p => {
     if (ONLY && p.barcode !== ONLY) return false;
     const o = overrides[p.barcode];
+    const s = supplemental[p.barcode];
+    if (RETRY_FLAGGED) {
+      // Ξαναδοκίμασε όσα έχουν κακή περιγραφή (σε overrides + supplemental)
+      const desc = (o && o.description) || (s && s.description) || null;
+      return isPoorQuality(desc);
+    }
     if (o && o.image) return false;                  // ήδη ΟΚ από frezyderm.gr
-    if (!FORCE && supplemental[p.barcode]) return false; // ήδη γεμισμένο
+    if (!FORCE && s) return false;                   // ήδη γεμισμένο
     return true;
   });
 
@@ -300,7 +334,14 @@ async function main() {
     if (DEBUG) console.log(`\n${label} ${p.name.slice(0, 55)}`);
 
     let hit = null;
-    try { hit = await pharmacyResult(p.barcode); }
+    try {
+      // Σε retry-flagged: αποφεύγουμε το host που είχε δώσει fluff description
+      const prevSource = (supplemental[p.barcode] || {}).source || null;
+      const opts = RETRY_FLAGGED
+        ? { preferRich: true, skipHosts: prevSource === "pharm24.gr" ? ["pharm24.gr"] : [] }
+        : {};
+      hit = await pharmacyResult(p.barcode, opts);
+    }
     catch (e) { dbg(`ERR: ${e.message}`); }
     if (!hit) {
       console.log(`${label} MISS ${p.name.slice(0, 55)}`);

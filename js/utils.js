@@ -173,6 +173,35 @@ function prettifyFrezydermName(raw) {
   return "Frezyderm " + trimmed;
 }
 
+// Αξιολογεί την περιγραφή Frezyderm και επιστρέφει { ok, reasons[] }.
+// Χρησιμοποιείται και από το UI (badge) και από τα scripts (report).
+// reasons: missing | too-short | pharmacy-fluff | english-only | truncated
+function frezydermDescriptionQuality(desc) {
+  const reasons = [];
+  const s = (desc || "").trim();
+  if (!s) return { ok: false, reasons: ["missing"] };
+  if (s.length < 120) reasons.push("too-short");
+  // Pharmacy filler που εμφανίζεται από og:description αντί για πραγματική
+  // περιγραφή προϊόντος
+  if (/(σε προσφορά στο\s+Pharm24|Δωρε[άα]ν μεταφορικ[άα]|σε αγορ[έε]ς [άα]νω των|Online\s+Pharmacy|Ofarmakopoiosmou)/i.test(s)) reasons.push("pharmacy-fluff");
+  // Αγγλικά αντί για ελληνικά (αγγλική σελίδα του pharm)
+  const greekChars = (s.match(/[α-ωΑ-Ωά-ώΆ-Ώ]/g) || []).length;
+  const latinChars = (s.match(/[a-zA-Z]/g) || []).length;
+  if (latinChars > 30 && greekChars < latinChars / 3) reasons.push("english-only");
+  // Trailing "…" σε κοντή περιγραφή = προφανώς cut-off
+  if (s.length < 220 && /(\.{3,}|…)\s*$/.test(s)) reasons.push("truncated");
+  return { ok: reasons.length === 0, reasons };
+}
+
+const FREZ_REASON_LABELS = {
+  "missing":         "Λείπει περιγραφή",
+  "too-short":       "Πολύ κοντή περιγραφή",
+  "pharmacy-fluff":  "Pharmacy filler (όχι πραγματική περιγραφή)",
+  "english-only":    "Αγγλικά αντί για ελληνικά",
+  "truncated":       "Truncated (…) περιγραφή"
+};
+function frezReasonLabel(r) { return FREZ_REASON_LABELS[r] || r; }
+
 function highlightTerm(text, term) {
   if (!term) return text;
   const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

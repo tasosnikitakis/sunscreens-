@@ -74,6 +74,8 @@ function makeCard(p) {
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
   const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (p.barcode || "")).toLowerCase();
   card.dataset.search = blob;
+  const qualityInit = frezydermDescriptionQuality(enrich.description);
+  card.dataset.needsReview = qualityInit.ok ? "0" : "1";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl || enrich.image || null;
@@ -88,7 +90,8 @@ function makeCard(p) {
     </div>
     ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeText(displayName(p))}" class="absolute inset-0 w-full h-full object-contain p-3 bg-white" onerror="this.remove()">` : ""}
     <div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>
-    ${enrich.review ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm">Review</div>` : ""}
+    ${enrich.review ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm" title="Match confidence < 6">Match?</div>` : ""}
+    ${(() => { const q = frezydermDescriptionQuality(enrich.description); if (q.ok) return ""; const tip = q.reasons.map(frezReasonLabel).join(" · "); return `<div class="absolute ${enrich.review ? "top-8" : "top-2"} left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-rose-500/95 text-white shadow-sm" title="${escapeText(tip)}">🔍 Περιγραφή</div>`; })()}
   `;
   card.appendChild(imgWrap);
 
@@ -144,19 +147,23 @@ function buildCatalog() {
 
 function applySearch(term) {
   const t = term.trim().toLowerCase();
+  const onlyReview = !!(document.getElementById("filter-review") && document.getElementById("filter-review").checked);
   let visible = 0;
   document.querySelectorAll("section[data-section]").forEach(sec => {
     let secVisible = 0;
     sec.querySelectorAll(".product-card").forEach(card => {
-      const match = !t || card.dataset.search.includes(t);
-      card.style.display = match ? "" : "none";
-      if (match) secVisible++;
+      const passSearch = !t || card.dataset.search.includes(t);
+      const passReview = !onlyReview || card.dataset.needsReview === "1";
+      const show = passSearch && passReview;
+      card.style.display = show ? "" : "none";
+      if (show) secVisible++;
     });
     sec.style.display = secVisible ? "" : "none";
     visible += secVisible;
   });
   noResultsEl.classList.toggle("hidden", visible > 0);
-  resultCountEl.textContent = t ? `${visible} αποτελέσματα` : `${FREZYDERM_SUPPLIER.length} προϊόντα συνολικά`;
+  const suffix = onlyReview ? " με ανεπαρκή περιγραφή" : "";
+  resultCountEl.textContent = t ? `${visible} αποτελέσματα${suffix}` : (onlyReview ? `${visible} χρειάζονται review` : `${FREZYDERM_SUPPLIER.length} προϊόντα συνολικά`);
 }
 
 buildCatalog();
@@ -167,3 +174,5 @@ searchEl.addEventListener("input", e => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => applySearch(e.target.value), 120);
 });
+const filterReview = document.getElementById("filter-review");
+if (filterReview) filterReview.addEventListener("change", () => applySearch(searchEl.value));
