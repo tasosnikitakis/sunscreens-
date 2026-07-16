@@ -1,0 +1,13 @@
+# Debug output από inspect scripts. Περιέχει raw HTML από 3rd party sites
+# που μπορεί να έχει embedded API keys / secrets που δεν είναι δικά μας.
+_debug/
+
+# Debug output από fetch-descriptions
+images/_debug_descriptions/
+
+# Node modules (αν προστεθούν κάποια στιγμή)
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
