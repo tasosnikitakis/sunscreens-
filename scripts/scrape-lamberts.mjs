@@ -153,8 +153,22 @@ async function getSitemapProductUrls() {
 function sectionFromUrl(url) {
   try {
     const p = new URL(url).pathname.replace(/^\/+/, "").split("/").filter(Boolean);
-    return p[0] || "diafora";
+    // Skip locale prefix (en, el, gr, de, fr, es κ.λπ.)
+    const locales = new Set(["en", "el", "gr", "de", "fr", "es", "it", "nl", "ro"]);
+    let idx = 0;
+    while (idx < p.length && locales.has(p[idx].toLowerCase())) idx++;
+    // Skip common WooCommerce/site container paths
+    if (["product", "products", "shop", "proion", "proionta"].includes(p[idx])) idx++;
+    return p[idx] || "diafora";
   } catch { return "diafora"; }
+}
+
+function cleanupTitle(t) {
+  if (!t) return "";
+  let s = t.replace(/\s+/g, " ").trim();
+  s = s.replace(/\s*[-–—]\s*lamberts\.gr\s*$/i, "");
+  s = s.replace(/\s*[\|]\s*Lamberts\s*(Greece|Ελλάδα)?\s*$/i, "");
+  return s.trim();
 }
 
 function cleanupDescription(d) {
@@ -172,7 +186,7 @@ async function scrapeProduct(url) {
   return {
     url,
     section: sectionFromUrl(url),
-    name: (ld && ld.name) || meta.title || "",
+    name: cleanupTitle((ld && ld.name) || meta.title || ""),
     description: cleanupDescription((ld && ld.description) || meta.description || ""),
     image: (ld && ld.image) || meta.image || null,
     sku: (ld && ld.sku) || skus[0] || null,
