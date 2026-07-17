@@ -232,7 +232,19 @@ function extractSubtitle(html) {
   return null;
 }
 
-async function scrapeProduct(url) {
+// Το sitemap του lamberts.gr επιστρέφει URLs κάτω από /en/product/ που
+// σερβίρουν αγγλικά περιεχόμενα. Η Ελληνική έκδοση είναι στο root path
+// (/product/…). Rewrite ώστε να τραβάμε την Ελληνική σελίδα.
+function toGreekUrl(url) {
+  try {
+    const u = new URL(url);
+    u.pathname = u.pathname.replace(/^\/en\//i, "/");
+    return u.toString();
+  } catch { return url; }
+}
+
+async function scrapeProduct(rawUrl) {
+  const url = toGreekUrl(rawUrl);
   const html = await fetchText(url);
   const meta = extractMeta(html);
   const ld = extractJsonLd(html);
