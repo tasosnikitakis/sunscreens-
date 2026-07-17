@@ -172,6 +172,10 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-sections.js"), "utf8"), ctx);
   } catch {}
+  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-supplier.js"), "utf8"), ctx); } catch {}
+  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-overrides.js"), "utf8"), ctx); } catch {}
+  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-supplemental.js"), "utf8"), ctx); } catch {}
+  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-sections.js"), "utf8"), ctx); } catch {}
   return ctx;
 }
 
@@ -263,6 +267,49 @@ function buildVicanTable(ctx, manifest) {
 }
 
 // ===== Frezyderm =====
+
+function prettifyLambertsName(raw) {
+  if (!raw) return "";
+  const titled = String(raw).replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase());
+  const trimmed = titled.replace(/\s+/g, " ").trim();
+  if (/^lamberts\b/i.test(trimmed)) return trimmed;
+  return "Lamberts " + trimmed;
+}
+
+function buildLambertsTable(ctx, manifest) {
+  const products = (ctx.window && ctx.window.LAMBERTS_SUPPLIER) || [];
+  if (!products.length) return null;
+  const overrides = (ctx.window && ctx.window.LAMBERTS_OVERRIDES) || {};
+  const supplemental = (ctx.window && ctx.window.LAMBERTS_SUPPLEMENTAL) || {};
+  const sections = (ctx.window && ctx.window.LAMBERTS_SECTION_LABELS) || {};
+  const enrichmentFor = (bc) => {
+    const o = overrides[bc] || {};
+    const s = supplemental[bc] || {};
+    return {
+      name: o.name || s.name || null,
+      description: o.description || s.description || null,
+      image: o.image || s.image || null,
+      url: o.url || s.url || null,
+      source: o.source || s.source || null,
+      section: o.section || s.section || null
+    };
+  };
+  const headers = ["Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή",
+    "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)", "Φωτογραφία", "URL επίσημου site"];
+  const rows = products.map(p => {
+    const e = enrichmentFor(p.barcode);
+    const secKey = e.section || "diafora";
+    const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
+    const displayName = prettifyLambertsName(e.name || p.name);
+    const desc = e.description || `Συμπλήρωμα διατροφής Lamberts — ${p.name}`;
+    const localImg = manifest[p.barcode] || "";
+    const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
+    return [displayName, p.wholesale || "", p.retail || "", desc,
+      sectionLabel, p.barcode, variants, localImg || e.image || "", e.url || ""];
+  });
+  return { headers, rows, sheetName: "Lamberts", barcodeColIdx: 5,
+    columnWidths: [50, 14, 14, 70, 24, 16, 24, 50, 50] };
+}
 
 function prettifyFrezydermName(raw) {
   if (!raw) return "";
@@ -388,6 +435,12 @@ async function main() {
     path.join(ROOT, "frezyderm-catalog.csv"),
     path.join(ROOT, "frezyderm-catalog.xlsx"),
     "Frezyderm"
+  );
+  await emitTable(
+    buildLambertsTable(ctx, manifest),
+    path.join(ROOT, "lamberts-catalog.csv"),
+    path.join(ROOT, "lamberts-catalog.xlsx"),
+    "Lamberts"
   );
 }
 
