@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamberts — Κατάλογος Φαρμακείου</title>
+  <meta name="description" content="Κατάλογος συμπληρωμάτων διατροφής Lamberts με ονόματα, περιγραφές και εικόνες από lamberts.gr.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">
+      <a href="index.html" class="flex items-center gap-2 font-bold text-slate-800">
+        <span class="text-xl">🏥</span>
+        <span class="hidden sm:inline">Κατάλογος Φαρμακείου</span>
+      </a>
+      <div class="flex items-center gap-1 flex-wrap">
+        <a href="index.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🧴</span><span>Αντηλιακά</span></a>
+        <a href="cosmetics.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>💄</span><span>Καλλυντικά</span></a>
+        <a href="seasonal.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🌴</span><span>Εποχιακά</span></a>
+        <a href="vican.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🏪</span><span>Vican</span></a>
+        <a href="frezyderm.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🧪</span><span>Frezyderm</span></a>
+        <a href="lamberts.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-bold bg-slate-900 text-white transition flex items-center gap-1.5"><span>💊</span><span>Lamberts</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-10 sm:py-14">
+      <div class="flex items-center gap-3 mb-2 text-white/90 text-sm font-medium uppercase tracking-wider">
+        <span class="inline-block w-2 h-2 bg-white rounded-full animate-pulse"></span>
+        Συμπληρώματα Διατροφής — Πλήρης κατάλογος
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight drop-shadow">Lamberts</h1>
+      <p class="mt-3 max-w-2xl text-white/95 text-base sm:text-lg">
+        Κατάλογος συμπληρωμάτων διατροφής Lamberts UK. Βιταμίνες, μεταλλικά στοιχεία,
+        προβιοτικά, αμινοξέα, φυσικά εκχυλίσματα — δεδομένα από lamberts.gr.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-2">
+        <a href="lamberts-catalog.xlsx" download class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/95 text-slate-800 font-semibold text-sm shadow hover:bg-white hover:shadow-md transition">
+          <svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m-7 5h14a2 2 0 002-2V8a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          Κατέβασε όλο τον κατάλογο
+          <span class="text-xs font-bold uppercase tracking-wide px-1.5 py-0.5 bg-purple-100 text-purple-700 rounded">XLSX</span>
+        </a>
+        <a href="lamberts-catalog.csv" download class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/80 text-slate-700 font-medium text-sm shadow hover:bg-white hover:shadow-md transition">
+          ή ως <span class="font-bold">CSV</span>
+        </a>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-2" id="section-nav"></div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-8 sm:py-12">
+    <div class="mb-8 sticky top-14 z-20 bg-slate-50/95 backdrop-blur py-3 -mx-4 px-4 border-b border-slate-200">
+      <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
+        <div class="relative flex-1">
+          <input id="search" type="search" placeholder="Αναζήτηση προϊόντος, EAN…"
+                 class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-300 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-purple-400 transition">
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-1.35z"/></svg>
+        </div>
+        <label class="flex items-center gap-2 text-sm text-slate-700 whitespace-nowrap">
+          <input type="checkbox" id="filter-review" class="w-4 h-4 rounded border-slate-300 text-rose-500 focus:ring-rose-400">
+          <span>🔍 Μόνο με ανεπαρκή περιγραφή</span>
+        </label>
+        <div id="result-count" class="text-sm text-slate-500 sm:w-48 sm:text-right"></div>
+      </div>
+    </div>
+
+    <div id="catalog"></div>
+    <div id="no-results" class="hidden text-center py-16">
+      <p class="text-slate-400 text-lg">Δεν βρέθηκαν προϊόντα.</p>
+    </div>
+  </main>
+
+  <footer class="mt-16 border-t border-slate-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-slate-500">
+      <p>Κατάλογος Lamberts — τιμές χονδρικής προμηθευτή. Ονόματα/περιγραφές/εικόνες από lamberts.gr.</p>
+    </div>
+  </footer>
+
+  <script src="js/lamberts-supplier.js?v=1"></script>
+  <script src="js/lamberts-overrides.js?v=1"></script>
+  <script src="js/lamberts-supplemental.js?v=1"></script>
+  <script src="js/lamberts-sections.js?v=1"></script>
+  <script src="images/manifest.js?v=3"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/lamberts-app.js"></script>
+</body>
+</html>
