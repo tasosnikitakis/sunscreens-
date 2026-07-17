@@ -24,6 +24,8 @@ const flag = (k) => args.includes(`--${k}`);
 const DEBUG = flag("debug");
 const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const DELAY_MS = parseInt(opt("delay", "300"));
+const INSPECT = opt("inspect", null);
+const GREP = opt("grep", null);
 
 const HOST = "lamberts.gr";
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
@@ -195,17 +197,55 @@ function cleanupDescription(d) {
   return s;
 }
 
+function stripHtmlKeepText(html) {
+  return decodeHtml(html.replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, ""))
+    .replace(/\s+/g, " ").trim();
+}
+
+// Ο user θέλει μόνο το short subtitle κάτω από το product title. Στο
+// lamberts.gr τυπικά είναι σε <h2>, <h3>, <strong> ή WooCommerce
+// short-description. Δοκιμάζουμε cascade — παίρνουμε το πρώτο ≥ 15
+// χαρακτήρες που είναι λογικός υπότιτλος (< 250 chars, όχι multi-paragraph).
+const SUBTITLE_PATTERNS = [
+  { name: "wc-short-desc",   re: /<div[^>]+class=["'][^"']*woocommerce-product-details__short-description[^"']*["'][^>]*>([\s\S]*?)<\/div>/i },
+  { name: "entry-summary-strong", re: /<div[^>]+class=["'][^"']*entry-summary[^"']*["'][^>]*>[\s\S]*?<(?:h2|h3|h4|p|strong|b)[^>]*>([\s\S]*?)<\/(?:h2|h3|h4|p|strong|b)>/i },
+  { name: "product-subtitle",re: /<(?:div|h2|h3|p)[^>]+class=["'][^"']*(?:product[- ]?subtitle|tagline|subtitle|product[- ]?tagline|product[- ]?intro)[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|h2|h3|p)>/i },
+  { name: "h2-after-title",  re: /<h1[^>]*>[\s\S]*?<\/h1>\s*<h2[^>]*>([\s\S]*?)<\/h2>/i },
+  { name: "first-strong",    re: /<h1[^>]*>[\s\S]*?<\/h1>[\s\S]*?<(?:p|div)[^>]*>\s*<strong[^>]*>([\s\S]*?)<\/strong>\s*<\/(?:p|div)>/i },
+  { name: "elementor-heading", re: /<h2[^>]+class=["'][^"']*elementor-heading-title[^"']*["'][^>]*>([\s\S]*?)<\/h2>/i },
+];
+
+function extractSubtitle(html) {
+  for (const p of SUBTITLE_PATTERNS) {
+    const m = html.match(p.re);
+    if (!m) continue;
+    const txt = stripHtmlKeepText(m[1]);
+    if (txt.length < 15 || txt.length > 250) continue;
+    if (txt.split(/[.!?]\s+/).length > 3) continue; // πάρα πολλές προτάσεις
+    return { name: p.name, text: txt };
+  }
+  return null;
+}
+
 async function scrapeProduct(url) {
   const html = await fetchText(url);
   const meta = extractMeta(html);
   const ld = extractJsonLd(html);
   const skus = extractSkuFromHtml(html);
   const name = cleanupTitle((ld && ld.name) || meta.title || "");
+  // Απλή περιγραφή: μόνο ο υπότιτλος κάτω από το title. Αν δεν βρεθεί,
+  // fallback στο og:description (το οποίο τυπικά είναι κοντό).
+  const subtitle = extractSubtitle(html);
+  const description = subtitle ? subtitle.text
+                              : cleanupDescription((ld && ld.description) || meta.description || "");
   return {
     url,
     section: sectionFromName(name),
     name,
-    description: cleanupDescription((ld && ld.description) || meta.description || ""),
+    description,
+    subtitleSource: subtitle ? subtitle.name : null,
     image: (ld && ld.image) || meta.image || null,
     sku: (ld && ld.sku) || skus[0] || null,
     gtin: (ld && ld.gtin) || null,
@@ -213,7 +253,42 @@ async function scrapeProduct(url) {
   };
 }
 
+async function inspect(url) {
+  console.log(`GET ${url}\n`);
+  const html = await fetchText(url);
+  console.log(`HTML size: ${(html.length / 1024).toFixed(0)}kb\n`);
+
+  for (const p of SUBTITLE_PATTERNS) {
+    const m = html.match(p.re);
+    if (!m) { console.log(`[${p.name}] (no match)`); continue; }
+    const txt = stripHtmlKeepText(m[1]);
+    console.log(`[${p.name}] ${txt.length}c: ${txt.slice(0, 300)}${txt.length > 300 ? "…" : ""}`);
+  }
+
+  const best = extractSubtitle(html);
+  if (best) console.log(`\n=> BEST: [${best.name}] ${best.text}`);
+  else console.log(`\n=> NO subtitle candidate found`);
+
+  await fs.mkdir(path.join(ROOT, "_debug"), { recursive: true });
+  await fs.writeFile(path.join(ROOT, "_debug", "lamberts-inspect.html"), html, "utf8");
+  console.log(`\nRaw HTML → _debug/lamberts-inspect.html`);
+
+  if (GREP) {
+    const idx = html.toLowerCase().indexOf(GREP.toLowerCase());
+    if (idx < 0) console.log(`\nGREP "${GREP}" not found in HTML.`);
+    else {
+      console.log(`\n--- GREP "${GREP}" context (${idx}b in) ---`);
+      console.log(html.slice(Math.max(0, idx - 200), Math.min(html.length, idx + 800)));
+      const before = html.slice(0, idx);
+      const opens = [...before.matchAll(/<(div|section|article|main|aside|p|h1|h2|h3|strong)\b[^>]*>/gi)];
+      console.log(`\nLast 8 opened containers before match:`);
+      opens.slice(-8).forEach(m => console.log(`  ${m[0].slice(0, 200)}`));
+    }
+  }
+}
+
 async function main() {
+  if (INSPECT) { await inspect(INSPECT); return; }
   console.log("Lamberts scraper — sitemap discovery…");
   const urls = await getSitemapProductUrls();
   console.log(`Βρέθηκαν ${urls.length} product URLs.\n`);
