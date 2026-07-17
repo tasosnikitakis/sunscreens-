@@ -150,17 +150,34 @@ async function getSitemapProductUrls() {
   return [...urls].filter(isProductUrl);
 }
 
-function sectionFromUrl(url) {
-  try {
-    const p = new URL(url).pathname.replace(/^\/+/, "").split("/").filter(Boolean);
-    // Skip locale prefix (en, el, gr, de, fr, es κ.λπ.)
-    const locales = new Set(["en", "el", "gr", "de", "fr", "es", "it", "nl", "ro"]);
-    let idx = 0;
-    while (idx < p.length && locales.has(p[idx].toLowerCase())) idx++;
-    // Skip common WooCommerce/site container paths
-    if (["product", "products", "shop", "proion", "proionta"].includes(p[idx])) idx++;
-    return p[idx] || "diafora";
-  } catch { return "diafora"; }
+// Το lamberts.gr έχει flat URLs (/en/product-slug/) χωρίς category segment.
+// Οπότε δεν μπορούμε να πάρουμε section από το URL — αντ' αυτού κάνουμε
+// heuristic classification από το όνομα του προϊόντος.
+const SECTION_RULES = [
+  { section: "wmega",              re: /\b(omega|fish\s+oil|krill|cod\s+liver|dha|epa|flaxseed|linseed)\b/i },
+  { section: "probiotika",         re: /\b(probio|acidophil|bifido|biome|prebio|lactobacill)\b/i },
+  { section: "aminoxea",           re: /\b(carnitine|arginine|lysine|glutamine|taurine|tryptophan|htp|5-htp|creatine|bcaa|whey|methionine)\b/i },
+  { section: "adynatisma",         re: /\b(cla|garcinia|chitosan|diet|weight|slim|water\s+shape)\b/i },
+  { section: "gynaikeia-frontida", re: /\b(meno[- ]?pause|meno-|fertil|folic|pregnan|prenatal|feminex|cystoco)\b/i },
+  { section: "andrikh-frontida",   re: /\b(prosta|men'?s|testo|male)\b/i },
+  { section: "paidiki-frontida",   re: /\b(kids|children|gummies\s+for|junior|multi\s+guard\s+for\s+kids)\b/i },
+  { section: "ugeia-osteon",       re: /\b(glucosamine|chondroit|joint|bone|arthri|msm|collagen|calcium|magnesium|osteo)\b/i },
+  { section: "ugeia-kardias",      re: /\b(cardio|heart|coq10|coenzyme|red\s+yeast|policosanol|garlic|hawthorn)\b/i },
+  { section: "amyna-organismou",   re: /\b(immune|elderberry|echinacea|zinc|vitamin\s+c\s+\d)\b/i },
+  { section: "antigiransi",        re: /\b(retinol|resveratrol|hyalur|astaxanthin|beauty|radiance|skin|nails|hair)\b/i },
+  { section: "energia",            re: /\b(energy|caffeine|guarana|ginseng|maca|rhodiola|siberian)\b/i },
+  { section: "fisika-symplirwmata",re: /\b(ashwagand|curcumin|turmer|milk\s+thistle|ginkgo|ginger|garlic|nettle|extract|herbal|silymar|liquorice|tribulus|saw\s+palmet|black\s+cohosh|st\s+john|passifl|valer)\b/i },
+  { section: "mineralia",          re: /\b(magnesium|calcium|zinc|iron|selenium|potassium|chromium|iodine|molybdenum|copper|manganese|multi\s+mineral)\b/i },
+  { section: "vitamines",          re: /\b(vitamin|b[-\s]?\d{1,2}|b\s?complex|multi[- ]?guard|multi[- ]?vitamin|a-z|niacin|biotin|folate)\b/i },
+  { section: "eidiki-diatrofh",    re: /\b(super\s+food|spirulin|chlorella|greens|barley|wheatgrass|maca|cocoa)\b/i },
+  { section: "omoiopathitika",     re: /\b(homeo)\b/i },
+];
+
+function sectionFromName(name) {
+  for (const r of SECTION_RULES) {
+    if (r.re.test(name || "")) return r.section;
+  }
+  return "diafora";
 }
 
 function cleanupTitle(t) {
@@ -183,10 +200,11 @@ async function scrapeProduct(url) {
   const meta = extractMeta(html);
   const ld = extractJsonLd(html);
   const skus = extractSkuFromHtml(html);
+  const name = cleanupTitle((ld && ld.name) || meta.title || "");
   return {
     url,
-    section: sectionFromUrl(url),
-    name: cleanupTitle((ld && ld.name) || meta.title || ""),
+    section: sectionFromName(name),
+    name,
     description: cleanupDescription((ld && ld.description) || meta.description || ""),
     image: (ld && ld.image) || meta.image || null,
     sku: (ld && ld.sku) || skus[0] || null,
