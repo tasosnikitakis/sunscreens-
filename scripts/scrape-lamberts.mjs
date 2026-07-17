@@ -209,6 +209,9 @@ function stripHtmlKeepText(html) {
 // short-description. Δοκιμάζουμε cascade — παίρνουμε το πρώτο ≥ 15
 // χαρακτήρες που είναι λογικός υπότιτλος (< 250 chars, όχι multi-paragraph).
 const SUBTITLE_PATTERNS = [
+  // Lamberts.gr custom theme: <h4 class="sub-title">…</h4> κάτω από
+  // το <h2 class="product_title">. Αυτό ακριβώς θέλει ο user.
+  { name: "lamberts-sub-title", re: /<h4[^>]+class=["'][^"']*sub-title[^"']*["'][^>]*>([\s\S]*?)<\/h4>/i },
   { name: "wc-short-desc",   re: /<div[^>]+class=["'][^"']*woocommerce-product-details__short-description[^"']*["'][^>]*>([\s\S]*?)<\/div>/i },
   { name: "entry-summary-strong", re: /<div[^>]+class=["'][^"']*entry-summary[^"']*["'][^>]*>[\s\S]*?<(?:h2|h3|h4|p|strong|b)[^>]*>([\s\S]*?)<\/(?:h2|h3|h4|p|strong|b)>/i },
   { name: "product-subtitle",re: /<(?:div|h2|h3|p)[^>]+class=["'][^"']*(?:product[- ]?subtitle|tagline|subtitle|product[- ]?tagline|product[- ]?intro)[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|h2|h3|p)>/i },
