@@ -16,16 +16,21 @@ const SECTION_LABELS = window.FREZYDERM_SECTION_LABELS || {};
 // Cascade: OVERRIDES (frezyderm.gr) win where present, SUPPLEMENTAL
 // (pharmacies) fills gaps. Never merge partially — read individual fields.
 function enrichmentFor(barcode) {
-  const o = OVERRIDES[barcode] || {};
-  const s = SUPPLEMENTAL[barcode] || {};
+  const o = OVERRIDES[barcode] || null;
+  const s = SUPPLEMENTAL[barcode] || null;
+  const src = o || s || {};
   return {
-    name:        o.name        || s.name        || null,
-    description: o.description || s.description || null,
-    image:       o.image       || s.image       || null,
-    url:         o.url         || s.url         || null,
-    source:      o.source      || s.source      || null,
-    section:     o.section     || s.section     || null,
-    review:      o.review || false
+    name:        (o && o.name)        || (s && s.name)        || null,
+    description: (o && o.description) || (s && s.description) || null,
+    image:       (o && o.image)       || (s && s.image)       || null,
+    url:         (o && o.url)         || (s && s.url)         || null,
+    source:      (o && o.source)      || (s && s.source)      || null,
+    section:     (o && o.section)     || (s && s.section)     || null,
+    review:      (o && o.review) || false,
+    // "Χωρίς Match": δεν βρέθηκε σελίδα στο frezyderm.gr (καμία εγγραφή
+    // στα OVERRIDES). Το προϊόν μπορεί ακόμα να έχει δεδομένα από
+    // supplemental (φαρμακείο) — αλλά δεν υπάρχει επίσημη σελίδα brand.
+    noFrezydermPage: !o
   };
 }
 
@@ -90,8 +95,8 @@ function makeCard(p) {
     </div>
     ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeText(displayName(p))}" class="absolute inset-0 w-full h-full object-contain p-3 bg-white" onerror="this.remove()">` : ""}
     <div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>
-    ${enrich.review ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm" title="Match confidence < 6">Match?</div>` : ""}
-    ${(() => { const q = frezydermDescriptionQuality(enrich.description); if (q.ok) return ""; const tip = q.reasons.map(frezReasonLabel).join(" · "); return `<div class="absolute ${enrich.review ? "top-8" : "top-2"} left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-rose-500/95 text-white shadow-sm" title="${escapeText(tip)}">🔍 Περιγραφή</div>`; })()}
+    ${enrich.noFrezydermPage ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-slate-800/95 text-white shadow-sm" title="Δεν βρέθηκε σελίδα στο frezyderm.gr">Χωρίς Σελίδα</div>` : (enrich.review ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm" title="Match confidence < 6">Match?</div>` : "")}
+    ${(() => { const q = frezydermDescriptionQuality(enrich.description); if (q.ok) return ""; const tip = q.reasons.map(frezReasonLabel).join(" · "); const showAny = enrich.noFrezydermPage || enrich.review; return `<div class="absolute ${showAny ? "top-8" : "top-2"} left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-rose-500/95 text-white shadow-sm" title="${escapeText(tip)}">🔍 Περιγραφή</div>`; })()}
   `;
   card.appendChild(imgWrap);
 

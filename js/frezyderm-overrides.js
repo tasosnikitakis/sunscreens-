@@ -1,9 +1,20 @@
 // Auto-generated από το scripts/match-frezyderm.mjs.
-// Fuzzy-matched supplier products με frezyderm.gr catalog.
-// score >= 6 = high confidence (χρησιμοποιείται στο site)
-// score 3-6 = review needed (μπαίνει με review:true)
+// IDF-weighted fuzzy match supplier products ↔ frezyderm.gr catalog.
+// score >= 7 = high confidence (χρησιμοποιείται κανονικά)
+// score 3.5-7 = review needed (μπαίνει με review:true)
+// score < 3.5 = skip (καμία εγγραφή — 'Χωρίς Match' badge στο UI)
 // Ξαναγράφεται στην επόμενη εκτέλεση.
 window.FREZYDERM_OVERRIDES = {
+  "5202888227554": {
+    "name": "SELF CARE GEL INTIM LUBRICANT CARE",
+    "description": "Ενυδατική και λιπαντική αιδοιoκολπική γέλη για την ανακούφιση των συμπτωμάτων κολπικής ξηρότητας στην αναπαραγωγική ηλικία, όπως κνησμός, τσούξιμο, αίσθημα καύσου, τοπικοί ερεθισμοί η δυσχέρεια κατά τη συνεύρεση.\n\nΔεν περιέχει δραστικές φαρμακευτικές ουσίες και ουσίες με ορμονική δράση.\n\nΓυναικολογικά ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/SELF_CARE_INTIM_LUBRICANT_GEL/Self_Care_Intim_Gel.jpg",
+    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/eidikh-peripoihsh-euaisthhths-perioxhs/self-care-gel-gia-thn-peripoihsh-euaisthhths-perioxhs/",
+    "source": "frezyderm.gr",
+    "section": "peripoihsh-euaisthhths-perioxhs",
+    "score": 10.5,
+    "review": false
+  },
   "5202888230189": {
     "name": "BABY HYDRA MILK",
     "description": "Ενυδατικό γαλάκτωμα κατάλληλο για το ξηρό και ευαίσθητο δέρμα. Με φυσιολογικούς ενυδατικούς παράγοντες για πλούσια και σε βάθος ενυδάτωση του δέρματος. Περιποιείται και μαλακώνει το δερματάκι του μωρού και προλαμβάνει την αφυδάτωση και την ξηροδερμία. Εμπλουτισμένο με πρωτεΐνες σιταριού για την ενίσχυση του υδρολιπιδικού μανδύα, που αφήνει ένα λεπτό στρώμα υδρολιπιδικής ισορροπίας για την προστασία της επιδερμίδας από ερεθισμούς. Παράλληλα, περιέχει εκχύλισμα χαμομηλιού για αντιφλογιστική και αντιερεθιστική δράση και αντιφλογιστικά συστατικά με επουλωτικές και καταπραϋντικές ιδιότητες.\n\nΔερματολογικά Ελεγμένο\n\nΝέα ΜΕΓΑΛΥΤΕΡΗ συσκευασία με πρακτική αντλία\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
@@ -11,7 +22,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiko-galaktoma/baby-hydra-milk-brefiko-galaktwma/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 6,
+    "score": 24.5,
     "review": false
   },
   "5202888227158": {
@@ -21,8 +32,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/afroloutra/body-shower-katharistiko-swmatos-euaisthhth-epidermida/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 35.1,
+    "review": false
   },
   "5202888100413": {
     "name": "CHRISTIALEN EMULSION",
@@ -31,8 +42,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-100/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 14.7,
+    "review": false
   },
   "5202888271199": {
     "name": "NECK CONTOUR CREAM",
@@ -41,8 +52,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/krema-susfiksis-laimou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 20.5,
+    "review": false
   },
   "5202888227394": {
     "name": "ABD REFORM SKIN TENSIONER CREAM GEL ",
@@ -51,7 +62,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-susfikshs-gia-egkuous/abd-reform-skin-tensioner-cream-gel-krema-sisfiksis-somatos/",
     "source": "frezyderm.gr",
     "section": "proionta-egkumosunhs",
-    "score": 8,
+    "score": 42.9,
     "review": false
   },
   "5202888228117": {
@@ -61,7 +72,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-cleanser-apalo-ygro-katharismou-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 28.8,
     "review": false
   },
   "5202888228377": {
@@ -71,7 +82,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-cleanser-apalo-ygro-katharismou-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 28.8,
     "review": false
   },
   "5202888228384": {
@@ -81,37 +92,37 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-foam-plus-afros-katharismou-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 38.3,
+    "review": false
   },
   "5202888228445": {
-    "name": "AC-NORM ACTIVE FOAM PLUS ",
-    "description": "Ενεργός αφρός καθαρισμού και περιποίησης κατάλληλος για το λιπαρό δέρμα με τάση ακμής. Σε πρακτική μορφή έτοιμου αφρού που δεν απαιτεί τρίψιμο, για απαλό καθαρισμό χωρίς ερεθισμούς.\n\nΑφαιρεί το υπερβολικό σμήγμα, τους ρύπους και το μακιγιάζ, παρέχει βακτηριακή προστασία, μειώνει τη λιπαρότητα και παρέχει σμηγματορρυθμιστική δράση.\n\nΔερματολογικά Ελεγμένο\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ακμή στο Πρόσωπο.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Ac-Norm/active_foam_plus/Acnorm_Active_Foam_Plus_150ml_big_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-foam-plus-afros-katharismou-proswpou/",
+    "name": "AC-NORM ACTIVE WASH",
+    "description": "Άνυδρο καθαριστικό gel το οποίο ενεργοποιείται με το νερό και μετατρέπεται σε γαλάκτωμα με αποτέλεσμα να ξεπλένεται πιο εύκολα.\nΠροσφέρει αποτελεσματικό καθαρισμό, αποσυμφορεί τους φαγέσωρες, αποτρέπει τη δημιουργία μαύρων στιγμάτων και παρέχει βακτηριακή προστασία. Επίσης, προσφέρει ήπια απολέπιση και δρα εξισορροπιστικά στην επιδερμική μικροχλωρίδα.\n\nΔερματολογικά Ελεγμένο\n\nΔείτε εδώ χρήσιμες συμβουλές για τον σωστό, καθημερινό καθαρισμό της λιπαρής επιδερμίδας με τάση ακμής!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/active_wash/Acnorm-Active-Wash_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-wash-anydro-tzel-katharismou-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 30.1,
+    "review": false
   },
   "5202888228070": {
-    "name": "AC-NORM AQUATIC SERUM",
-    "description": "Ενυδατικός oil-free ορός για την περιποίηση του υπό φαρμακευτική αγωγή δέρματος. Προσφέρει δυναμική ενυδάτωση, μειώνει τη δερματική δυσανεξία και τις ευαισθησίες και προσδίδει ματ όψη. Είναι ιδανικό και ως after-shave gel.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/aquatic_serum/Acnorm_Aquatic_Serum_50ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-aquatic-serum-enydatikos-oil-free-oros-proswpou/",
+    "name": "AC-NORM AQUATIC CREAM",
+    "description": "Ενυδατική κρέμα για την περιποίηση του υπό φαρμακευτική αγωγή δέρματος. Ενυδατώνει εντατικά και σε βάθος για περισσότερες από 8 ώρες, προσφέρει ελαστικότητα και άνεση στο δέρμα, μειώνει αποτελεσματικά τα εμφανή σημάδια ξηροδερμίας, ελαχιστοποιεί τη δερματική δυσανεξία και τις ευαισθησίες και προσδίδει ματ όψη.\n\nΕίναι ιδανική και ως after shave cream.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/aquatic_cream/Acnorm-Aquatic-cream_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-aquatic-cream-enydatikh-krema/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 29.4,
     "review": false
   },
   "5202888228452": {
-    "name": "AC-NORM AQUATIC SERUM",
-    "description": "Ενυδατικός oil-free ορός για την περιποίηση του υπό φαρμακευτική αγωγή δέρματος. Προσφέρει δυναμική ενυδάτωση, μειώνει τη δερματική δυσανεξία και τις ευαισθησίες και προσδίδει ματ όψη. Είναι ιδανικό και ως after-shave gel.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/aquatic_serum/Acnorm_Aquatic_Serum_50ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-aquatic-serum-enydatikos-oil-free-oros-proswpou/",
+    "name": "AC-NORM AQUATIC CREAM",
+    "description": "Ενυδατική κρέμα για την περιποίηση του υπό φαρμακευτική αγωγή δέρματος. Ενυδατώνει εντατικά και σε βάθος για περισσότερες από 8 ώρες, προσφέρει ελαστικότητα και άνεση στο δέρμα, μειώνει αποτελεσματικά τα εμφανή σημάδια ξηροδερμίας, ελαχιστοποιεί τη δερματική δυσανεξία και τις ευαισθησίες και προσδίδει ματ όψη.\n\nΕίναι ιδανική και ως after shave cream.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/aquatic_cream/Acnorm-Aquatic-cream_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-aquatic-cream-enydatikh-krema/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 29.7,
     "review": false
   },
   "5202888228421": {
@@ -121,7 +132,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-aquatic-serum-enydatikos-oil-free-oros-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 32.8,
+    "review": false
+  },
+  "5202888221224": {
+    "name": "AC-NORM BABY CREAM",
+    "description": "Απαλή κρέμα για τα σπυράκια της νεογνικής, βρεφικής και παιδικής επιδερμίδας. Ενδυναμώνει την αυτοάμυνα του ευαίσθητου δέρματος και τον ατελή επιδερμικό φραγμό, ενισχύοντας τα αντιμικροβιακά πεπτίδια του δέρματος που θεωρούνται φυσικά αντιβιοτικά (κατά βακτηρίων, μυκήτων και ιών) και η έλλειψή τους διεγείρει φλεγμονές. Ο συνδυασμός των επιλεγμένων φυτικών συστατικών προσφέρει αντιμικροβιακή, σμηγματορρυθμιστική, αντιφλεγμονώδη και αντιερεθιστική δράση. Είναι ειδικά μελετημένη και προσαρμοσμένη στις ανάγκες του βρεφικού και παιδικού δέρματος.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/acnorm_baby_cream/ACNORM_BABY_CREAM_40ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/ac-norm-baby-cream-krema-gia-spurakia/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 24.1,
     "review": false
   },
   "5202888102097": {
@@ -131,7 +152,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-hydra-screen-spf-15-enydatikh-anthliakh-krema/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 28,
     "review": false
   },
   "5202888228476": {
@@ -141,7 +162,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-lip-balm-spf-15-enydatiko-balm-xeiliwn/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 33.4,
     "review": false
   },
   "5202888228322": {
@@ -151,7 +172,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-medilike-effect-1-cream-symptwmata-akmhs/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 14.1,
     "review": false
   },
   "5202888228315": {
@@ -161,7 +182,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-medilike-effect-1-cream-symptwmata-akmhs/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 14.1,
     "review": false
   },
   "5202888228308": {
@@ -171,7 +192,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-medilike-effect-1-cream-symptwmata-akmhs/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 14.1,
     "review": false
   },
   "5202888228346": {
@@ -181,7 +202,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-micellar-water-calming-lotion/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 31.2,
     "review": false
   },
   "5202888228339": {
@@ -191,7 +212,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-normalizing-lotion-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 33.9,
     "review": false
   },
   "5202888228094": {
@@ -201,7 +222,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-peeling-gel-apolepishs-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 32.2,
     "review": false
   },
   "5202888228353": {
@@ -211,7 +232,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-peeling-gel-apolepishs-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 32.5,
     "review": false
   },
   "5202888228360": {
@@ -221,7 +242,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/proionta-peripoiisis-prosopouproionta-katharismou-liparou-dermatos-me-tash-akmhsac-norm-micellar-water-calming-lotion/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 41.5,
     "review": false
   },
   "5202888228407": {
@@ -231,7 +252,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-seb-adsorb-cream-ekseidikeymenh-krema-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 44.2,
     "review": false
   },
   "5202888228469": {
@@ -241,7 +262,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-spot-care-gia-efarmogh-panw-sta-spyrakia/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 29.7,
     "review": false
   },
   "5202888102349": {
@@ -251,7 +272,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-spot-care-gia-efarmogh-panw-sta-spyrakia/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 27.8,
     "review": false
   },
   "5202888400025": {
@@ -261,7 +282,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/acnorm-sun-screen-fluid-mat-spf50-antiliako-gia-liparo-me-tasi-akmis-derma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 10.5,
+    "score": 35.5,
     "review": false
   },
   "5202888400131": {
@@ -271,18 +292,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/acnorm-sun-screen-fluid-tinted-mat-spf50-antiliako-me-xroma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 12.5,
+    "score": 34.1,
     "review": false
   },
   "5202888228414": {
-    "name": "AC-NORM ACTIVE FOAM PLUS ",
-    "description": "Ενεργός αφρός καθαρισμού και περιποίησης κατάλληλος για το λιπαρό δέρμα με τάση ακμής. Σε πρακτική μορφή έτοιμου αφρού που δεν απαιτεί τρίψιμο, για απαλό καθαρισμό χωρίς ερεθισμούς.\n\nΑφαιρεί το υπερβολικό σμήγμα, τους ρύπους και το μακιγιάζ, παρέχει βακτηριακή προστασία, μειώνει τη λιπαρότητα και παρέχει σμηγματορρυθμιστική δράση.\n\nΔερματολογικά Ελεγμένο\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ακμή στο Πρόσωπο.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Ac-Norm/active_foam_plus/Acnorm_Active_Foam_Plus_150ml_big_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-foam-plus-afros-katharismou-proswpou/",
+    "name": "AC-NORM SEB ADSORB CREAM",
+    "description": "Εξειδικευμένη κρέμα κατά της γυαλάδας που προσφέρει άμεση προσρόφηση και ρύθμιση της λιπαρότητας του δέρματος. Προσροφά το περίσσιο σμήγμα, προσφέρει σμίκρυνση των πόρων, ενυδατώνει και προσδίδει ματ όψη (primer). Είναι ιδανική για την ανδρική επιδερμίδα.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/1/products/face/akmi/Frezyderm_AcNorm_SeboAdsorb.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-seb-adsorb-cream-ekseidikeymenh-krema-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 7.6,
+    "review": false
   },
   "5202888228438": {
     "name": "AC-NORM TOTAL CONTROL CREAM",
@@ -291,7 +312,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-total-control-cream-symptwmata-akmhs/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 45,
     "review": false
   },
   "5202888271120": {
@@ -301,17 +322,27 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/active-antigirantiki-krema/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 26.3,
     "review": false
   },
-  "5202888400063": {
-    "name": "ACTIVE SUN SCREEN FACE FOUNDATION SPF 30",
-    "description": "Ενεργό αντηλιακό make-up προσώπου που καλύπτει δερματικές ατέλειες και δυσχρωμίες, προστατεύει από τις ευρυαγγείες και μειώνει την εμφάνισή τους. Η 360ο σύνθεσή του εξασφαλίζει μία 3 σε 1 φροντίδα της επιδερμίδας, προσφέροντας:\n\n1) υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΕπιπλέον, η τεχνολογία χρωματικής προσαρμογής, Color Adapt Pigments, εξασφαλίζει τέλεια χρωματική ομοιογένεια σε κάθε τόνο επιδερμίδας, από τον πιο ανοιχτόχρωμο έως τον πιο σκουρόχρωμο.\n\nΕπιπλέον, η σύνθεσή του είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/face_foundation/Active_Face_Foundation_SPF30_30ml_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/active-antiliako-make-up/",
+  "5202888400100": {
+    "name": "ACTIVE SUN SCREEN CREAM SPRAY SPF 50+",
+    "description": "Αντηλιακό γαλάκτωμα προσώπου και σώματος πολύ υψηλής ηλιοπροστασίας. Έχει προηγμένα φωτοσταθερά φίλτρα ευρέος φάσματος τα οποία κατανέμονται άριστα στο δέρμα και σύνθεση που προστατεύει από UVA, UVB, Μπλε Φως και IR ακτινοβολία.\n\nΜε ειδικά μελετημένα αντιοξειδωτικά ενεργά που προστατεύουν από τις ελεύθερες ρίζες και τη φωτογήρανση, αποκαθιστώντας την ακεραιότητα της δομής της επιδερμίδας.\n\nΤεχνολογία Ψεκάσιμης Κρέμας\nΗ ειδική αντλία μετατρέπει το γαλάκτωμα σε μικροσταγονίδια, ώστε να προσφέρει τις ενυδατικές και περιποιητικές ιδιότητες μιας κρέμας αλλά σε μια ελαφριά, μη κολλώδη υφή που απλώνεται στο δέρμα εύκολα και γρήγορα.\n\nSWOP TECHNOLOGY\nΚαινοτόμος τεχνολογία ανάστροφής φάσης πάνω στην επιδερμίδα: με την επάλειψη η ρευστή κρέμα μετατρέπεται σε ένα, ανθεκτικό στο νερό, φωτοσταθερό φιλμ για εντατική και παρατεταμένη ενυδατική φροντίδα. Ιδανικό για το πολύ ξηρό, αφυδατωμένο δέρμα και για όσους δεν προτιμούν τα αντηλιακά λάδια.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/active_sunscreen_cream_spray_SPF_50_/frame-1.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/active-sun-screen-cream-spray-spf50-antiliako-spray-galaktoma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 4.9,
+    "review": true
+  },
+  "5202888400063": {
+    "name": "ACTIVE SUN SCREEN BODY FOUNDATION SPF 30",
+    "description": "Ενεργό αντηλιακό make-up σώματος που καλύπτει δερματικές ατέλειες και δυσχρωμίες, προστατεύει από τις ευρυαγγείες και μειώνει την εμφάνισή τους. Η καινοτόμος 3in1 σύνθεσή του παρέχει στο δέρμα 3πλή φροντίδα:\n\n1) υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΕπιπλέον, η τεχνολογία χρωματικής προσαρμογής Color Adapt Pigments που διαθέτει, εξασφαλίζει τέλεια χρωματική ομοιογένεια σε κάθε τόνο επιδερμίδας, από τον πιο ανοιχτόχρωμο έως τον πιο σκουρόχρωμο.\n\nΤέλος, η σύνθεσή του είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/body_foundation/Active_Body_Make_up_30_SPF_big_700x963.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/active-antiliako-make-up-gia-to-swma/",
+    "source": "frezyderm.gr",
+    "section": "adiliaka",
+    "score": 28.2,
     "review": false
   },
   "5202888400056": {
@@ -321,37 +352,37 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-antiliako-gia-egkuous-kai-euaisthito-derma-me-energo-anthraka/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 26.4,
     "review": false
   },
   "5202888400087": {
-    "name": "SUN SCREEN VELVET FACE SPF 30 ",
-    "description": "Αδιαπραγμάτευτη ασφάλεια κάτω απ’ τον ήλιο με το πρωτοποριακό, διάφανο αντηλιακό υψηλής προστασίας που ξεχωρίζει για την χαρακτηριστική βελούδινη και ultra ανάλαφρη υφή του σαν αόρατο δεύτερο δέρμα.\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΤΟΣΟ ΒΕΛΟΥΔΙΝΟ! ΤΟΣΟ ΑΝΑΛΑΦΡΟ! ΤΟΣΟ ΔΙΑΦΑΝΟ!\n\nΤο πρώτο και μοναδικό αντηλιακό που έφερε την επανάσταση στην αντηλιακή προστασία με την υπερανάλαφρη υφή που γίνεται ένα με το δέρμα. Αφήνει μια βελούδινη αίσθηση στο δέρμα .\n\nΔΕΝ ΦΡΑΣΣΕΙ ΤΟΥΣ ΠΟΡΟΥΣ. ΔΕΝ ΒΑΡΑΙΝΕΙ. ΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ.\n\nΜη φαγεσωρογόνος σύνθεση που δεν παρεμποδίζει τη φυσική αναπνοή του δέρματος και την εφίδρωσή του και δεν προκαλεί μαύρα ή άσπρα στίγματα. Αφήνει ματ αποτέλεσμα μεγάλης διάρκειας και είναι ιδανικό και για λιπαρά με τάση ακμής δέρματα.\n\n• Με μικροπρισματικούς κρυστάλλους για άμεσο εφέ λείανσης ρυτίδων.\n• Ιδανικό σαν primer για το μακιγιάζ.\n\nYou have to feel it to believe it!\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΙδανικό και για άντρες, αφού εφαρμόζεται και σε περιοχές του προσώπου με αυξημένη τριχοφυΐα.\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\nΧωρίς άρωμα\nΧωρίς γλουτένη\n\nΔΕΙΤΕ ΤΟ VIDEO ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΠΡΩΤΗΣ ΧΡΗΣΗΣ\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_30/Sunscreen_Velvet_30_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-30/",
+    "name": "ACTIVE SUN SCREEN FACE CREAM SPF 50+",
+    "description": "Μία ενεργή αντηλιακή κρέμα προσώπου με καινοτόμο 3in1 σύνθεση που προσφέρει ολική φροντίδα στο δέρμα, παρέχοντας:\n\n1) πολύ υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΧάρη στην καινοτομία Detox Plant Charcoal (ενεργός άνθρακας) έχει ειδική μαύρη χρώση που υποδεικνύει την ακριβή περιοχή εφαρμογής του αντηλιακού (χωρίς να βάφει το δέρμα), εξασφαλίζοντας ομοιόμορφη επάλειψη και αποτελεσματικότερη ηλιοπροστασία ενώ παράλληλα έχει ισχυρή αποτοξινωτική δράση.\n\nΕπιπλέον, η σύνθεσή της είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nΜε φωτοσταθερά φίλτρα νέας τεχνολογίας UVA/UVB/VIS/IR.\n\nΜε πλούσια, κρεμώδη, μη-λιπαρή υφή.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/face_cream_50/Active_Face_Cream_SPF50__50ml_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-antiliako-me-energo-anthraka-gia-polu-upsili-prostasia/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 4,
-    "review": true
+    "score": 23,
+    "review": false
   },
   "5202888400094": {
-    "name": "AC-NORM SUN SCREEN FLUID ΜΑΤ SPF 50+",
-    "description": "Νέα, ανανεωμένη σύνθεση αντηλιακού προσώπου για το λιπαρό, με τάση ακμής δέρμα.\nΠροσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως και IR ακτινοβολία).\n\nΕξαιρετικά ανάλαφρη, υγρή, μη λιπαρή υφή, χωρίς να αφήνει κέρινη αίσθηση που βαραίνει την επιδερμίδα. Εξισορροπεί την υπερβολική λιπαρότητα και προσφέρει ματ αποτέλεσμα. Το εκχύλισμα βλαστοκυττάρων Morinda Citrifolia που περιέχει, επαναφέρει το διαταραγμένο μικροβίωμα του δέρματος με ατέλειες, μειώνει το μέγεθος και την εικόνα των πόρων και ρυθμίζει την υπερβολική παραγωγή σμήγματος.\n\nΠροσφέρει προστασία από το οξειδωτικό stress χάρη στη συνέργεια νεότερων αντηλιακών φίλτρων.\n\nΑνανεωμένο, με λευκή απόχρωση που δεν αφήνει λευκά σημάδια.\nΔεν αφήνει γυαλάδα.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/AC_NORM/AC-NORM_SUN_SCREEN_FLUID_ΜΑΤ_SPF_50__/frame-1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/acnorm-sun-screen-fluid-mat-spf50-antiliako-gia-liparo-me-tasi-akmis-derma/",
+    "name": "ACTIVE SUN SCREEN FACE CREAM SPF 50+",
+    "description": "Μία ενεργή αντηλιακή κρέμα προσώπου με καινοτόμο 3in1 σύνθεση που προσφέρει ολική φροντίδα στο δέρμα, παρέχοντας:\n\n1) πολύ υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΧάρη στην καινοτομία Detox Plant Charcoal (ενεργός άνθρακας) έχει ειδική μαύρη χρώση που υποδεικνύει την ακριβή περιοχή εφαρμογής του αντηλιακού (χωρίς να βάφει το δέρμα), εξασφαλίζοντας ομοιόμορφη επάλειψη και αποτελεσματικότερη ηλιοπροστασία ενώ παράλληλα έχει ισχυρή αποτοξινωτική δράση.\n\nΕπιπλέον, η σύνθεσή της είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nΜε φωτοσταθερά φίλτρα νέας τεχνολογίας UVA/UVB/VIS/IR.\n\nΜε πλούσια, κρεμώδη, μη-λιπαρή υφή.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/face_cream_50/Active_Face_Cream_SPF50__50ml_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-antiliako-me-energo-anthraka-gia-polu-upsili-prostasia/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 4.5,
-    "review": true
+    "score": 23.5,
+    "review": false
   },
   "5202888400032": {
-    "name": "AC-NORM SUN SCREEN FLUID ΜΑΤ SPF 50+",
-    "description": "Νέα, ανανεωμένη σύνθεση αντηλιακού προσώπου για το λιπαρό, με τάση ακμής δέρμα.\nΠροσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως και IR ακτινοβολία).\n\nΕξαιρετικά ανάλαφρη, υγρή, μη λιπαρή υφή, χωρίς να αφήνει κέρινη αίσθηση που βαραίνει την επιδερμίδα. Εξισορροπεί την υπερβολική λιπαρότητα και προσφέρει ματ αποτέλεσμα. Το εκχύλισμα βλαστοκυττάρων Morinda Citrifolia που περιέχει, επαναφέρει το διαταραγμένο μικροβίωμα του δέρματος με ατέλειες, μειώνει το μέγεθος και την εικόνα των πόρων και ρυθμίζει την υπερβολική παραγωγή σμήγματος.\n\nΠροσφέρει προστασία από το οξειδωτικό stress χάρη στη συνέργεια νεότερων αντηλιακών φίλτρων.\n\nΑνανεωμένο, με λευκή απόχρωση που δεν αφήνει λευκά σημάδια.\nΔεν αφήνει γυαλάδα.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/AC_NORM/AC-NORM_SUN_SCREEN_FLUID_ΜΑΤ_SPF_50__/frame-1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/acnorm-sun-screen-fluid-mat-spf50-antiliako-gia-liparo-me-tasi-akmis-derma/",
+    "name": "ACTIVE SUN SCREEN FACE FLUID SPF 50+",
+    "description": "Μία ενεργή υγρή αντηλιακή κρέμα προσώπου με μοναδική σύνθεση. Η προηγμένη της φόρμουλα συνενώνει 3 καινοτομίες σε 1 ώστε να καλύψει κάθε ανάγκη της επιδερμίδας, παρέχοντας:\n\n1) πολύ υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΧάρη στην καινοτομία Detox Plant Charcoal (ενεργός άνθρακας) έχει ειδική μαύρη χρώση που υποδεικνύει την ακριβή περιοχή εφαρμογής του αντηλιακού (χωρίς να βάφει το δέρμα), εξασφαλίζοντας ομοιόμορφη επάλειψη και αποτελεσματικότερη ηλιοπροστασία ενώ παράλληλα έχει ισχυρή αποτοξινωτική δράση.\n\nΕπιπλέον, η σύνθεσή της είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nΜε φωτοσταθερά φίλτρα νέας τεχνολογίας UVA/UVB/VIS/IR.\nΚαθώς προστατεύει από την ερυθρότητα και τις ευρυαγγείες, αποτελεί ιδανική επιλογή για δυσανεκτικά δέρματα.\n\nΜε λεπτόρρευστη, μη-λιπαρή υφή που αφήνει μία δροσερή αίσθηση στην επιδερμίδα.\n\nΜε EcoSunPass* πιστοποίηση των αντηλιακών φίλτρων του προϊόντος, τα οποία δεν ρυπαίνουν και δεν επιβαρύνουν το περιβάλλον.\n\n*Μελέτη BASF The BASF EcoSun Pass Calculation.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/antiliaka/ACTIVE_SUNSCREEN_2018/face_fluid_50.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-ugro-antiliako-me-energo-anthraka-polu-ipsili-prostasia/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6.5,
+    "score": 27,
     "review": false
   },
   "5202888400070": {
@@ -361,7 +392,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/active-antiliako-make-up/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 26.5,
     "review": false
   },
   "5202888400018": {
@@ -371,28 +402,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-antiliako-gia-xeili-me-energo-anthraka/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 30.5,
     "review": false
   },
   "5202888400049": {
-    "name": "AC-NORM SUN SCREEN FLUID ΜΑΤ SPF 50+",
-    "description": "Νέα, ανανεωμένη σύνθεση αντηλιακού προσώπου για το λιπαρό, με τάση ακμής δέρμα.\nΠροσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως και IR ακτινοβολία).\n\nΕξαιρετικά ανάλαφρη, υγρή, μη λιπαρή υφή, χωρίς να αφήνει κέρινη αίσθηση που βαραίνει την επιδερμίδα. Εξισορροπεί την υπερβολική λιπαρότητα και προσφέρει ματ αποτέλεσμα. Το εκχύλισμα βλαστοκυττάρων Morinda Citrifolia που περιέχει, επαναφέρει το διαταραγμένο μικροβίωμα του δέρματος με ατέλειες, μειώνει το μέγεθος και την εικόνα των πόρων και ρυθμίζει την υπερβολική παραγωγή σμήγματος.\n\nΠροσφέρει προστασία από το οξειδωτικό stress χάρη στη συνέργεια νεότερων αντηλιακών φίλτρων.\n\nΑνανεωμένο, με λευκή απόχρωση που δεν αφήνει λευκά σημάδια.\nΔεν αφήνει γυαλάδα.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/AC_NORM/AC-NORM_SUN_SCREEN_FLUID_ΜΑΤ_SPF_50__/frame-1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/acnorm-sun-screen-fluid-mat-spf50-antiliako-gia-liparo-me-tasi-akmis-derma/",
+    "name": "ACTIVE SUN SCREEN FACE FLUID SPF 50+",
+    "description": "Μία ενεργή υγρή αντηλιακή κρέμα προσώπου με μοναδική σύνθεση. Η προηγμένη της φόρμουλα συνενώνει 3 καινοτομίες σε 1 ώστε να καλύψει κάθε ανάγκη της επιδερμίδας, παρέχοντας:\n\n1) πολύ υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΧάρη στην καινοτομία Detox Plant Charcoal (ενεργός άνθρακας) έχει ειδική μαύρη χρώση που υποδεικνύει την ακριβή περιοχή εφαρμογής του αντηλιακού (χωρίς να βάφει το δέρμα), εξασφαλίζοντας ομοιόμορφη επάλειψη και αποτελεσματικότερη ηλιοπροστασία ενώ παράλληλα έχει ισχυρή αποτοξινωτική δράση.\n\nΕπιπλέον, η σύνθεσή της είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nΜε φωτοσταθερά φίλτρα νέας τεχνολογίας UVA/UVB/VIS/IR.\nΚαθώς προστατεύει από την ερυθρότητα και τις ευρυαγγείες, αποτελεί ιδανική επιλογή για δυσανεκτικά δέρματα.\n\nΜε λεπτόρρευστη, μη-λιπαρή υφή που αφήνει μία δροσερή αίσθηση στην επιδερμίδα.\n\nΜε EcoSunPass* πιστοποίηση των αντηλιακών φίλτρων του προϊόντος, τα οποία δεν ρυπαίνουν και δεν επιβαρύνουν το περιβάλλον.\n\n*Μελέτη BASF The BASF EcoSun Pass Calculation.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/antiliaka/ACTIVE_SUNSCREEN_2018/face_fluid_50.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-ugro-antiliako-me-energo-anthraka-polu-ipsili-prostasia/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6.5,
+    "score": 20.3,
     "review": false
-  },
-  "5202888102226": {
-    "name": "SUN SCREEN MOUSSE SPF 30",
-    "description": "Αντηλιακό προσώπου και σώματος, ανθεκτικό στο νερό. Σε μορφή αφρού με άριστη υφή, για κάθε τύπο δέρματος. Χάρη στη καινοτόμο του μορφή (αφρός), εφαρμόζεται εύκολα επιτυγχάνοντας ιδανική διασπορά φίλτρων για ομοιόμορφο μαύρισμα δημιουργώντας παράλληλα στο δέρμα ένα συνεχές film προστασίας, χωρίς να αφήνει ίχνη λιπαρότητας.\n\nΠροσφέρει παρατεταμένη και σταθερή ηλιοπροστασία, προστατεύει τα βλαστοκύτταρα του δέρματος, θωρακίζει το DNA και ενισχύει τους μηχανισμούς αυτοεπιδιόρθωσής του, προστατεύει από τη φωτογήρανση και τη φωτοανοσοκαταστολή και παρέχει αποτελεσματική αντιοξειδωτική προστασία και προστασία από τους περιβαλλοντικούς ρύπους.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/mousse_30/mouse_30_new/Sun_Screen_Mousse_spf_30_700x963_1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-mous-spf-30/",
-    "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "score": 4,
-    "review": true
   },
   "5202888271168": {
     "name": "AGE REPAIR SET",
@@ -401,8 +422,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/age-repair-set-agwgh-antighranshs/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 24.5,
+    "review": false
   },
   "5202888271137": {
     "name": "ANTI-AGEING BODY CREAM",
@@ -411,8 +432,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/anti-ageing-body-cream-antighrantiko-galaktwma-swmatos/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 32.2,
+    "review": false
   },
   "5202888222368": {
     "name": "ANTI-THERMAL SPRING SEA WATER MIST",
@@ -421,7 +442,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/sprei-nerou/sprei-nerou-gia-ton-ilio/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 25.6,
     "review": false
   },
   "5202888261091": {
@@ -431,8 +452,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/anticort-ointment-aloifh-steroeidous-drashs/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 12.2,
+    "review": false
+  },
+  "5202888102011": {
+    "name": "ANTIDANDRUFF SHAMPOO",
+    "description": "Σαμπουάν με εξειδικευμένη σύνθεση για την αντιμετώπιση της λιπαρής πιτυρίδας. Ρυθμίζει την έκκριση σμήγματος, μειώνει σημαντικά τις ανεπιθύμητες συνέπειες της λιπαρής πιτυρίδας, όπως ο κνησμός και η ερυθρότητα, χάρη στα φυτικά εκχυλίσματα και το σαλικυλικό οξύ που περιέχει και προσφέρει μαλλιά υγιή και με όγκο. Ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/antidandruff_shampoo/Antidandruff_shampoo_200ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-thn-piturida/antidandruff-shampoo-gia-liparh-piturida/",
+    "source": "frezyderm.gr",
+    "section": "peripoiisi-mallion",
+    "score": 12.9,
+    "review": false
+  },
+  "5202888105050": {
+    "name": "ANTIDANDRUFF SHAMPOO",
+    "description": "Σαμπουάν με εξειδικευμένη σύνθεση για την αντιμετώπιση της λιπαρής πιτυρίδας. Ρυθμίζει την έκκριση σμήγματος, μειώνει σημαντικά τις ανεπιθύμητες συνέπειες της λιπαρής πιτυρίδας, όπως ο κνησμός και η ερυθρότητα, χάρη στα φυτικά εκχυλίσματα και το σαλικυλικό οξύ που περιέχει και προσφέρει μαλλιά υγιή και με όγκο. Ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/antidandruff_shampoo/Antidandruff_shampoo_200ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-thn-piturida/antidandruff-shampoo-gia-liparh-piturida/",
+    "source": "frezyderm.gr",
+    "section": "peripoiisi-mallion",
+    "score": 9.7,
+    "review": false
   },
   "5202888271663": {
     "name": "ANTIOXIDANT RADIATION GUARD SPF 50+",
@@ -441,7 +482,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/antiokseidwtikh-krema/antioxidant-radiation-guard/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "score": 6,
+    "score": 27.3,
     "review": false
   },
   "5202888271038": {
@@ -451,28 +492,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/antirutidiki-krema-imeras/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 17.1,
+    "review": false
   },
   "5202888271052": {
-    "name": "ANTI-WRINKLE RICH DAY CREAM",
-    "description": "Αντιρυτιδική κρέμα ημέρας με πλούσια, μη λιπαρή υφή, που προσφέρει συσφικτική και επανορθωτική περιποίηση. Με καινοτόμο φόρμουλα που ''γεμίζει'' τις ρυτίδες από τις πρώτες ημέρες εφαρμογής, επανορθώνει την επιδερμίδα, βελτιώνει το περίγραμμα του προσώπου και προλαμβάνει τα σημάδια της φωτογήρανσης. Παράλληλα, προστατεύει τα βλαστοκύτταρα από τη φθορά και τα ενεργοποιεί για την παραγωγή λιπιδίων και πρωτεϊνών που ''γεμίζουν'' τις ρυτίδες από μέσα. Έτσι, η επιδερμίδα επανακτά τη χαμένη λάμψη, την ομοιομορφία και τη νεανική και φρέσκια όψη της.\n\nΔερματολογικά Ελεγμένη\n\n71%\nΛιγότερες ρυτίδες*\n\n60%\nΒελτίωση τραχύτητας δέρματος*\n\n50%\nΜείωση βάθους ρυτίδων*\n\n*Active Ingredients– Technical data.\n\nΔείτε εδώ συμβουλές για αντιρυτιδική φροντίδα της επιδερμίδας με συσφικτική και ανορθωτική δράση!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/anti-wrinkle_rich_day/Antiwrinkle_Day_50ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/antirutidiki-krema-imeras/",
+    "name": "ANTI-WRINKLE RICH DAY CREAM ΝΕΣΕΣΕΡ ΜΕ ΔΩΡΟ ΔΕΙΓΜΑ ANTI-WRINKLE NIGHT 15ml, EYE CREAM 5ml &amp; VELVET COLORS MEDIUM 2ml",
+    "description": "Ανανεώστε την επιδερμίδα σας με την anti-wrinkle rich day cream και ολοκληρώστε την αγωγή σας με δώρο δέιγμα anti-wrinkle rich day cream 15ml, eye cream 5ml και velvet colors make up medium 2ml\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2024/6th/427176.jpg",
+    "url": "https://www.frezyderm.gr/proionta-prosfores/anti-wrinkle-rich-day-cream-neseser-me-doro-deigma-anti-wrinkle-night-eye-cream-velvet-colors-medium/",
     "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "section": "proionta-prosfores",
+    "score": 21.8,
+    "review": false
   },
   "5202888271045": {
-    "name": "ANTI-WRINKLE RICH DAY CREAM",
-    "description": "Αντιρυτιδική κρέμα ημέρας με πλούσια, μη λιπαρή υφή, που προσφέρει συσφικτική και επανορθωτική περιποίηση. Με καινοτόμο φόρμουλα που ''γεμίζει'' τις ρυτίδες από τις πρώτες ημέρες εφαρμογής, επανορθώνει την επιδερμίδα, βελτιώνει το περίγραμμα του προσώπου και προλαμβάνει τα σημάδια της φωτογήρανσης. Παράλληλα, προστατεύει τα βλαστοκύτταρα από τη φθορά και τα ενεργοποιεί για την παραγωγή λιπιδίων και πρωτεϊνών που ''γεμίζουν'' τις ρυτίδες από μέσα. Έτσι, η επιδερμίδα επανακτά τη χαμένη λάμψη, την ομοιομορφία και τη νεανική και φρέσκια όψη της.\n\nΔερματολογικά Ελεγμένη\n\n71%\nΛιγότερες ρυτίδες*\n\n60%\nΒελτίωση τραχύτητας δέρματος*\n\n50%\nΜείωση βάθους ρυτίδων*\n\n*Active Ingredients– Technical data.\n\nΔείτε εδώ συμβουλές για αντιρυτιδική φροντίδα της επιδερμίδας με συσφικτική και ανορθωτική δράση!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/anti-wrinkle_rich_day/Antiwrinkle_Day_50ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/antirutidiki-krema-imeras/",
+    "name": "ANTI-WRINKLE RICH NIGHT CREAM",
+    "description": "Αντιρυτιδική κρέμα εξειδικευμένη να δρα κατά τη διάρκεια της νύχτας, τότε που τα κύτταρα της επιδερμίδας ανανεώνονται. Μειώνει την έκταση και το βάθος των ρυτίδων, επαναπροσδιορίζει το περίγραμμα του προσώπου και μιμείται τη δράση της ορμόνης νεότητας για την παραγωγή κολλαγόνου.\n\nΠαράλληλα, προστατεύει τα βλαστοκύτταρα από τη φθορά και τα ενεργοποιεί για την παραγωγή λιπιδίων και πρωτεϊνών που ''γεμίζουν'' τις ρυτίδες από μέσα. Απλώστε τη σε πρόσωπο και λαιμό πριν τον ύπνο και αποκτήστε ξανά λαμπερή και αναζωογονημένη εμφάνιση. Με πλούσια, μη λιπαρή υφή που απορροφάται άμεσα.\n\nΔερματολογικά Ελεγμένη\n\n71%\nΜείωση αριθμού ρυτίδων*\n\n20%\nΜείωση βάθους ρυτίδων*\n\n34%\nΑύξηση σύνθεσης κολλαγόνου*\n\n*Active Ingredients– Technical data.\n\nΔείτε εδώ συμβουλές για αντιρυτιδική φροντίδα της επιδερμίδας με συσφικτική και ανορθωτική δράση!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/anti-wrinkle_rich_night/Antiwrinkle-night-50ml_medium_05.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/antirutidiki-krema-nuxtas/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 17.1,
+    "review": false
   },
   "5202888109690": {
     "name": "APHTHAE GEL Adults  ",
@@ -481,8 +522,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/aphthae-gel-kataprayntiko-tzel-gia-afthes/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 17.7,
+    "review": false
+  },
+  "5202888102882": {
+    "name": "AQUA CARE GEL",
+    "description": "Η γέλη Aqua Care είναι ειδικά σχεδιασμένη για την ανακούφιση από τα συμπτώματα της κολπικής ξηρότητας όπως κνησμός, ερεθισμός, αίσθημα καύσου, τοπικοί ερεθισμοί που εμφανίζονται μετά την εμμηνόπαυση ή δυσχέρεια κατά την συνεύρεση. Προσφέρει ενυδάτωση και λίπανση του κολπικού βλεννογόνου.\n\n25% αύξηση ενυδάτωσης στα πρώτα 30 λεπτά εφαρμογής*\n*Active Ingredient-Technical data.\n\nΔεν περιέχει δραστικές φαρμακευτικές ουσίες και ουσίες με ορμονική δράση- Δεν είναι αντισυλληπτικό.\n\nParabens free\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Aqua_Care_Gel/Aqua_Care_Gel.jpg",
+    "url": "https://www.frezyderm.gr/omoiopathitiki/euaisthhth-perioxh/aqua-care-gel-lipantiko-kolpou-gia-thn-emmhnopaush/",
+    "source": "frezyderm.gr",
+    "section": "omoiopathitiki",
+    "score": 9.1,
+    "review": false
   },
   "5202888229084": {
     "name": "BABY LAUNDRY",
@@ -491,8 +542,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-aporrupantika/baby-laundry-brefiko-aporrupantiko/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 9.1,
+    "review": false
   },
   "5202888295003": {
     "name": "ATOPREL BARRIER CREAM",
@@ -501,28 +552,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-barrier-cream-krema-proswpou-swmatos/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 21.8,
+    "review": false
   },
   "5202888102394": {
-    "name": "ATOPREL MILKY BATH OIL",
-    "description": "Ειδικό λάδι για τον καθαρισμό και την αναλίπανση της ξηρής, ευαίσθητης επιδερμίδας και με ατοπική προδιάθεση. Ένα λάδι πλήρους ανάμειξης με το νερό που προσφέρει καθαρισμό, αναλίπανση και αποτρέπει την επαφή του νερού με τον διαταραγμένο επιδερμικό φραγμό.\n\nΕμπλουτίζει το νερό με λιπιδικό φορτίο.\n\nΕνισχύει και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας\n\n- Αναλίπανση\n- Ενυδάτωση\n- Ενδυνάμωση δερματικού φραγμού\n- Προστασία\n\nΦόρμουλα διπλής καινοτομίας:\n\n- 100% Λειτουργικό Λιπιδικό Περιεχόμενο (F.L.C.) για εμπλουτισμό του νερού με λιπιδικό φορτίο\n- 100% Μη Πτητικό Περιεχόμενο (N.V.C.) για ενίσχυση και προστασία του υδρολιπιδικού μανδύα\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ατοπική Δερματίτιδα σε Φάση Έξαρσης σε Τριχωτό και Σώμα.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Atoprel_NEW/3D_images/milky_bath_oil/atoprel_milky_bath_oil_01.jpg",
-    "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-milky-bath-oil-enydatiko-ladi/",
+    "name": "ATOPREL BATH CREAM",
+    "description": "Κρεμώδες καθαριστικό πλούσιο σε φυτικά βούτυρα & έλαια για τον καθημερινό καθαρισμό της ξηρής, ευαίσθητης, εύθραυστης επιδερμίδας και με ατοπική προδιάθεση.\n\nΠροσφέρει καθαρισμό και επιλίπανση του Υδρολιπιδικού μανδύα.\n\nΦόρμουλα υψηλής καινοτομίας με Ιδανικό Λειτουργικό Λιπιδικό Περιεχόμενο (20% F.L.C Functional Lipidic Content) που αποτρέπει τη διατάραξη του υδρολιπιδικού μανδύα και δεν επιβαρύνει το ξηρό με ατοπική προδιάθεση δέρμα.\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ατοπική Δερματίτιδα σε Φάση Έξαρσης σε Τριχωτό και Σώμα.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Atoprel_NEW/3D_images/bath_cream/atoprel_bath_cream_01.jpg",
+    "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-bath-cream-eidiko-kremwdes-katharistiko/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 20,
+    "review": false
   },
   "5202888295010": {
-    "name": "ATOPREL MILKY BATH OIL",
-    "description": "Ειδικό λάδι για τον καθαρισμό και την αναλίπανση της ξηρής, ευαίσθητης επιδερμίδας και με ατοπική προδιάθεση. Ένα λάδι πλήρους ανάμειξης με το νερό που προσφέρει καθαρισμό, αναλίπανση και αποτρέπει την επαφή του νερού με τον διαταραγμένο επιδερμικό φραγμό.\n\nΕμπλουτίζει το νερό με λιπιδικό φορτίο.\n\nΕνισχύει και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας\n\n- Αναλίπανση\n- Ενυδάτωση\n- Ενδυνάμωση δερματικού φραγμού\n- Προστασία\n\nΦόρμουλα διπλής καινοτομίας:\n\n- 100% Λειτουργικό Λιπιδικό Περιεχόμενο (F.L.C.) για εμπλουτισμό του νερού με λιπιδικό φορτίο\n- 100% Μη Πτητικό Περιεχόμενο (N.V.C.) για ενίσχυση και προστασία του υδρολιπιδικού μανδύα\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ατοπική Δερματίτιδα σε Φάση Έξαρσης σε Τριχωτό και Σώμα.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Atoprel_NEW/3D_images/milky_bath_oil/atoprel_milky_bath_oil_01.jpg",
-    "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-milky-bath-oil-enydatiko-ladi/",
+    "name": "ATOPREL BATH CREAM",
+    "description": "Κρεμώδες καθαριστικό πλούσιο σε φυτικά βούτυρα & έλαια για τον καθημερινό καθαρισμό της ξηρής, ευαίσθητης, εύθραυστης επιδερμίδας και με ατοπική προδιάθεση.\n\nΠροσφέρει καθαρισμό και επιλίπανση του Υδρολιπιδικού μανδύα.\n\nΦόρμουλα υψηλής καινοτομίας με Ιδανικό Λειτουργικό Λιπιδικό Περιεχόμενο (20% F.L.C Functional Lipidic Content) που αποτρέπει τη διατάραξη του υδρολιπιδικού μανδύα και δεν επιβαρύνει το ξηρό με ατοπική προδιάθεση δέρμα.\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ατοπική Δερματίτιδα σε Φάση Έξαρσης σε Τριχωτό και Σώμα.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Atoprel_NEW/3D_images/bath_cream/atoprel_bath_cream_01.jpg",
+    "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-bath-cream-eidiko-kremwdes-katharistiko/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 20,
+    "review": false
   },
   "5202888295041": {
     "name": "ATOPREL EMOLLIENT BAUME",
@@ -531,7 +582,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-emollient-baume-malaktikh-krema/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 6,
+    "score": 26.4,
     "review": false
   },
   "5202888295201": {
@@ -541,7 +592,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-emollient-classic-malaktikh-krema/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 6,
+    "score": 23.4,
     "review": false
   },
   "5202888102370": {
@@ -551,8 +602,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-emollient-baume-malaktikh-krema/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 10.5,
+    "review": false
   },
   "5202888295058": {
     "name": "ATOPREL EMOLLIENT MOUSSE",
@@ -561,7 +612,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-emollient-mousse-malaktikos-afros/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 6,
+    "score": 24.8,
     "review": false
   },
   "5202888229046": {
@@ -571,8 +622,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-foamy-shampoo-eidiko-sampouan-se-morfh-afrou/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 25.6,
+    "review": false
   },
   "5202888295027": {
     "name": "ATOPREL FOAMY SHAMPOO",
@@ -581,8 +632,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-foamy-shampoo-eidiko-sampouan-se-morfh-afrou/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 4,
-    "review": true
+    "score": 25.6,
+    "review": false
   },
   "5202888102387": {
     "name": "ATOPREL MILKY BATH OIL",
@@ -591,8 +642,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/ekzema-atopikh-dermatitida/atoprel-milky-bath-oil-enydatiko-ladi/",
     "source": "frezyderm.gr",
     "section": "ekzema-atopikh-dermatitida",
-    "score": 8,
+    "score": 39.5,
     "review": false
+  },
+  "5202888101151": {
+    "name": "BABY A.B.C.C.",
+    "description": "Μαλακτικό λάδι για την απομάκρυνση της νινίδας των βρεφών. Βελτιώνει την ατελή λειτουργία της βρεφικής επιδερμίδας χάρη στην εμπλουτισμένη σύνθεσή του με βιταμίνη Ε, μαλακώνει και απομακρύνει τη νινίδα, έχει αντιερεθιστική και αντισηπτική δράση και σέβεται την φυσιολογία του βρεφικού δέρματος.\n\nΗ νινίδα είναι η υπερβολική έκκριση σμήγματος που προκαλείται από την έντονη δραστηριότητα των σμηγματογόνων αδένων. Εμφανίζεται με μεγάλες, λιπαρές κίτρινες πλάκες που αποκολλώνται δύσκολα από το κεφαλάκι και είναι ένα συχνό φαινόμενο που συνήθως παρουσιάζουν 2 στα 3 βρέφη.\n\nΓια την αποκόλληση (απομάκρυνση) της νινίδας συστήνεται μαλακή τρίχινη βούρτσα και όχι ξύσιμο για την αποφυγή επιμολύνσεων και τραυματισμών.\n\nΔερματολογικά Ελεγμένο\n\nΜάθετε στη Frezyland τι είναι η νινίδα, και πως να την αντιμετωπίσετε.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/baby/eidiki_peripoiisi/Baby_ABCC.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-abcc-ladi-gia-ninida/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 4.4,
+    "review": true
   },
   "5202888101137": {
     "name": "BABY BATH",
@@ -601,8 +662,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 9.5,
+    "review": false
   },
   "5202888221255": {
     "name": "BABY BATH",
@@ -611,8 +672,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 9.5,
+    "review": false
   },
   "5202888101120": {
     "name": "BABY CHAMOMILE BATH",
@@ -621,7 +682,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-chamomile-bath-brefiko-kalluntiko/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 6,
+    "score": 24.8,
     "review": false
   },
   "5202888102806": {
@@ -631,8 +692,38 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-cologne-brefiki-kolwnia/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
+    "score": 11.5,
+    "review": false
+  },
+  "5202888221187": {
+    "name": "BABY CREAM",
+    "description": "Απαλή, προστατευτική και αδιάβροχη κρέμα καθημερινής περιποίησης για την αλλαγή της πάνας. Η σύνθεση της είναι ειδικά μελετημένη για τα βρέφη από την πρώτη μέρα της γέννησής τους και περιέχει ασφαλές ποσοστό οξειδίου του ψευδαργύρου, φαρμακευτικής καθαρότητας για δερματική προστασία χωρίς να παρεμποδίζει τη φυσιολογική αναπνοή του δέρματος.\n\nΗ σύνθεση της είναι εμπλουτισμένη με χαμομηλέλαιο για καταπραϋντική και αντιφλογιστική δράση και με πανθενόλη για την ανάπλαση και επούλωση της επιδερμίδας. Με λεπτόρρευστη υφή που απλώνεται εύκολα και αφαιρείται πανεύκολα χωρίς τριβή, πριν την επόμενη επάλειψη, για να μην προκαλούνται τραυματισμοί στο ευαίσθητο δερματάκι.\n\nΔερματολογικά Ελεγμένο\n\nΔείτε στη Frezyland χρήσιμες συμβουλές για την αλλαγή της πάνας!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Babyline/baby_cream_175ml/Baby_Cream_175ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/kremes-gia-sygkama/baby-cream-175-ml-krema-gia-sygkama/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 14.1,
+    "review": false
+  },
+  "5202888101076": {
+    "name": "BABY CREAM",
+    "description": "Απαλή, προστατευτική και αδιάβροχη κρέμα καθημερινής περιποίησης για την αλλαγή της πάνας. Η σύνθεση της είναι ειδικά μελετημένη για τα βρέφη από την πρώτη μέρα της γέννησής τους και περιέχει ασφαλές ποσοστό οξειδίου του ψευδαργύρου, φαρμακευτικής καθαρότητας για δερματική προστασία χωρίς να παρεμποδίζει τη φυσιολογική αναπνοή του δέρματος.\n\nΗ σύνθεση της είναι εμπλουτισμένη με χαμομηλέλαιο για καταπραϋντική και αντιφλογιστική δράση και με πανθενόλη για την ανάπλαση και επούλωση της επιδερμίδας. Με λεπτόρρευστη υφή που απλώνεται εύκολα και αφαιρείται πανεύκολα χωρίς τριβή, πριν την επόμενη επάλειψη, για να μην προκαλούνται τραυματισμοί στο ευαίσθητο δερματάκι.\n\nΔερματολογικά Ελεγμένο\n\nΔείτε στη Frezyland χρήσιμες συμβουλές για την αλλαγή της πάνας!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Babyline/baby_cream_50ml/Baby_Cream_50ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/kremes-gia-sygkama/baby-cream-50-ml-krema-gia-sygkama/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 6.1,
     "review": true
+  },
+  "5202888101144": {
+    "name": "BABY FOAM",
+    "description": "Απαλός αφρός καθαρισμού για την καθημερινή υγιεινή του βρεφικού δέρματος. Προσφέρει αποτελεσματικό καθαρισμό χωρίς ερεθισμούς και παράλληλα ενισχύει τον υδρολιπιδικό μανδύα δημιουργώντας μια ασπίδα προστασίας από εξωτερικούς παράγοντες. Τα ενυδατικά, μαλακτικά και αντιφλογιστικά συστατικά που περιέχει ενυδατώνουν, φροντίζουν και καταπραΰνουν το ευαίσθητο και ερεθισμένο δέρμα.\n\nΧάρη στην ειδική αντλία, ο αφρός είναι έτοιμος για να προσφέρει εύκολο, γρήγορο και αποτελεσματικό καθαρισμό. Δεν χρειάζεται τρίψιμο και σφουγγάρι και αφαιρείται πανεύκολα με ένα χαρτομάντιλο ή με νερό. Είναι ιδανικό για χρήση εκτός σπιτιού, σε περιπτώσεις τοπικού καθαρισμού, όπως για την αλλαγή πάνας και το πλύσιμο χεριών.\n\nΕπισκεφθείτε τη Frezyland με συμβουλές για την αλλαγή πάνας του μωρού σας!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/baby_foam/Baby_Foam_150ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-foam-afros-katharismou/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 8.5,
+    "review": false
   },
   "5202888221170": {
     "name": "BABY GUMS GEL",
@@ -641,8 +732,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiki-stomatiki-ugieini/tzel-gia-oyla-dontia-brefous/baby-gums-gel-tzel-gia-oula-mwrwn/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 22.6,
+    "review": false
   },
   "5202888101090": {
     "name": "BABY HYDRA MILK",
@@ -651,7 +742,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiko-galaktoma/baby-hydra-milk-brefiko-galaktwma/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 6,
+    "score": 24.5,
     "review": false
   },
   "5202888101106": {
@@ -661,7 +752,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-liquid-talc-krema-talc/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
+    "score": 6.5,
     "review": true
   },
   "5202888101113": {
@@ -671,8 +762,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-oil-brefiko-ladi-masaz/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 9.5,
+    "review": false
   },
   "5202888221194": {
     "name": "BABY PERIORAL ΟΙΝΤΜΕΝΤ",
@@ -681,8 +772,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiki-stomatiki-ugieini/baby-perioral-cream-brefiko-kalluntiko/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 11.7,
+    "review": false
   },
   "5202888238000": {
     "name": "BABY PERIORAL ΟΙΝΤΜΕΝΤ",
@@ -691,8 +782,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiki-stomatiki-ugieini/baby-perioral-cream-brefiko-kalluntiko/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 9,
+    "review": false
+  },
+  "5202888101069": {
+    "name": "BABY SHAMPOO",
+    "description": "Απαλό σαμπουάν για το καθημερινό λούσιμο των βρεφών. Χάρη στην ειδική του σύνθεση καθαρίζει και περιποιείται απαλά τα μαλλάκια, ενώ παράλληλα οι πρωτεΐνες σίτου που περιέχει ενισχύουν τη δομή της τρίχας. Εμπλουτισμένο με εκχύλισμα χαμομηλιού για αντιφλογιστική και αντιερεθιστική δράση. Σέβεται τη φυσιολογία της βρεφικής επιδερμίδας προστατεύοντας το δερματικό φραγμό, το pH και την φυσιολογική δερματική χλωρίδα.\n\nΔερματολογικά και Οφθαλμολογικά ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/shampoo/BABY-SHAMPOO-300ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-sampouan/baby-shampoo-brefiko-sampouan/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 8.3,
+    "review": false
+  },
+  "5202888221248": {
+    "name": "BABY SHAMPOO",
+    "description": "Απαλό σαμπουάν για το καθημερινό λούσιμο των βρεφών. Χάρη στην ειδική του σύνθεση καθαρίζει και περιποιείται απαλά τα μαλλάκια, ενώ παράλληλα οι πρωτεΐνες σίτου που περιέχει ενισχύουν τη δομή της τρίχας. Εμπλουτισμένο με εκχύλισμα χαμομηλιού για αντιφλογιστική και αντιερεθιστική δράση. Σέβεται τη φυσιολογία της βρεφικής επιδερμίδας προστατεύοντας το δερματικό φραγμό, το pH και την φυσιολογική δερματική χλωρίδα.\n\nΔερματολογικά και Οφθαλμολογικά ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/shampoo/BABY-SHAMPOO-300ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-sampouan/baby-shampoo-brefiko-sampouan/",
+    "source": "frezyderm.gr",
+    "section": "frontida-mwrou",
+    "score": 8.3,
+    "review": false
   },
   "5202888221262": {
     "name": "BABY SUN CARE SPF 25",
@@ -701,7 +812,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-antiliaka/baby-sun-care-spf-25-brefiko-antiliako/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 8,
+    "score": 36.7,
     "review": false
   },
   "5202888102363": {
@@ -711,18 +822,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-antiliaka/baby-sun-care-spf-25-brefiko-antiliako/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 13,
+    "review": false
   },
-  "5202888222382": {
-    "name": "ANTI-THERMAL SPRING SEA WATER MIST",
-    "description": "Καταπραϋντικό νερό που δροσίζει άμεσα την καταπονημένη από τον ήλιο επιδερμίδα. Η ανανεωμένη σύνθεσή του είναι εμπλουτισμένη με Spring Sea Water που αντλείται από τη γαλλική Βρετάνη. Διαθέτει ισχυρές αντιγηραντικές ιδιότητες και προσφέρει αποτελεσματική ενυδάτωση ενώ παράλληλα προστατεύει το δέρμα από το οξειδωτικό stress. Ταυτόχρονα, ενισχύει το δερματικό φραγμό ο οποίος αποδυναμώνεται από την αύξηση της θερμοκρασίας και την υπερβολική έκθεση στον ήλιο ενώ παρέχει προστασία των δερματικών κυττάρων. Ενισχύει το δίκτυο κολλαγόνου και την ελαστίνη, προστατεύει την επιδερμίδα από τις ελεύθερες ρίζες ενώ μειώνει τα ορατά σημεία φωτογήρανσης. Σε καινοτόμο airless συσκευασία με ειδική βαλβίδα που εξασφαλίζει ομοιόμορφο συνεχή ψεκασμό για εύκολη εφαρμογή.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/anti_thermal/Antithermal_Water_Mist_300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/sprei-nerou/sprei-nerou-gia-ton-ilio/",
+  "5202888281082": {
+    "name": "PERIODIGUM CHLORHEXENE GEL",
+    "description": "Gel τοπικής χρήσης με αποτελεσματική συγκέντρωση Χλωρεξιδίνης 0,2 % για την επικουρική αντιμετώπιση των προβλημάτων των ούλων (ουλίτιδα, περιδοντίτιδα). Εμπλουτισμένο με γαρυφαλέλαιο, ένα τοπικό φυσικό καταπραυντικό, χωρίς φαρμακευτικές ουσίες\n\n- Καταπολεμά τη μικροβιακή πλάκα\n- Προλαμβάνει πιθανές επιμολύνσεις\n- Συσφίγγει και ενυδατώνει και τα ούλα\n- Καταπραΰνει με φυσικό τρόπο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Oral/Gingivital-periodigum/Oral_Chlorhexene_Periodigum_Gel/Chlorhexene_Gel_Periodigum_30ml_small_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/prostasia-apo-thn-periodontitida/periodigum-chlorhexene-gel/",
     "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "score": 4,
-    "review": true
+    "section": "proionta-gia-th-stomatikh-ygieinh",
+    "score": 11.1,
+    "review": false
   },
   "5202888282041": {
     "name": "CHLORHEXENE PRO MOUTHWASH",
@@ -731,8 +842,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/prostasia-apo-thn-periodontitida/chlorhexene-pro-mouthwash-stomatiko-dialyma/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 26.1,
+    "review": false
   },
   "5202888271106": {
     "name": "CHRISTIALEN EMULSION",
@@ -741,8 +852,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-100/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 14.5,
+    "review": false
   },
   "5202888106149": {
     "name": "FREZYMAR CLEANER HYPERTONIC STRONG ",
@@ -751,7 +862,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-sprei/frezymar-cleaner-riniko-aposumforhtiko-strong/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 6,
+    "score": 21,
     "review": false
   },
   "5202888221231": {
@@ -761,8 +872,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/colic-relief-massage-gel-iga-kolikous-mwrou/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 3,
-    "review": true
+    "score": 24,
+    "review": false
   },
   "5202888271670": {
     "name": "COLOR EYE BALM",
@@ -771,8 +882,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-peripoihshs-matiwn/egxrwmi-krema-gia-sakoules-sta-matia/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 19.5,
+    "review": false
   },
   "5202888227240": {
     "name": "UP CONFIDENCE BUST RECOVERY CREAM GEL",
@@ -781,8 +892,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/krema-anorthosis-stithous/confidence-up-bust-recovery-cream-gel-krema-anorthwshs-sththous/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 10.8,
+    "review": false
   },
   "5202888331008": {
     "name": "COUGH SYRUP ADULTS",
@@ -791,7 +902,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/siropia-gia-ton-bhxa/cough-syrup-adults-siropi-gia-ton-bhxa/",
     "source": "frezyderm.gr",
     "section": "siropia-gia-ton-bhxa",
-    "score": 6,
+    "score": 24.7,
     "review": false
   },
   "5202888331015": {
@@ -801,7 +912,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/siropia-gia-ton-bhxa/cough-syrup-kids-siropi-gia-ton-bhxa/",
     "source": "frezyderm.gr",
     "section": "siropia-gia-ton-bhxa",
-    "score": 6,
+    "score": 22.2,
     "review": false
   },
   "5202888224348": {
@@ -811,7 +922,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/entomoapothitika/crilen-anti-mosquito-10-galaktwma-gia-prostasia-apo-kounoupia/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 8,
+    "score": 35.4,
     "review": false
   },
   "5202888224355": {
@@ -821,18 +932,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/entomoapothitika/crilen-anti-mosquito-plus-spray-20-gia-prostasia-apo-kounoupia/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 8,
+    "score": 32.9,
     "review": false
   },
   "5202888010996": {
-    "name": "CRILEN ΓΑΛΑΚΤΩΜΑ 125ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 40ml",
-    "description": "Για βαθιά ενυδάτωση και εντομοαπωθητική δράση υπάρχει το πακέτο με το Crilen Γαλάκτωμα σε συσκευασία δώρου με επιπλέον ποσότητα, 40ml.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2026/422266_Crilen.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/crilen-entomoapwthhtiko-galaktwma/",
+    "name": "CRILEN ΓΑΛΑΚΤΩΜΑ",
+    "description": "Ενυδατικό γαλάκτωμα εμπλουτισμένο με κατάλληλο συνδυασμό ενεργών συστατικών που ασκούν προστασία από την εξωγενή επίδραση των εντόμων στα ακάλυπτα σημεία. Προσφέρει βαθιά ενυδάτωση και εντομοαπωθητική δράση.\n\nΔερματολογικά ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Crilen/cream_125ml/Crilen_Γαλακτωμα_125ml_big_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/enydatwsi/crilen-galaktwma-125ml-tsimpimata-entomwn/",
     "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 4,
-    "review": true
+    "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
+    "score": 8.1,
+    "review": false
   },
   "5202888224300": {
     "name": "CRILEN ADULT PLUS",
@@ -841,8 +952,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/enydatwsi/crilen-adult-plus-enydatiko-galaktwma-kai-me-entomoapwthish/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 4,
-    "review": true
+    "score": 24.9,
+    "review": false
   },
   "5202888224263": {
     "name": "CRILEN AFTER NIP Gel",
@@ -851,17 +962,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/gel/crilen-after-nip-anakoufisi-tsimpimata-entomwn/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 6,
+    "score": 29.8,
     "review": false
   },
-  "5202888102219": {
-    "name": "CRILEN MOUSSE",
-    "description": "Ενυδατικός αφρός εμπλουτισμένο με κατάλληλο συνδυασμό ενεργών συστατικών που ασκούν προστασία από την εξωγενή επίδραση των εντόμων στα ακάλυπτα σημεία. Είναι σε μορφή αφρού, ώστε να εξασφαλίζει εύκολη και άριστη εφαρμογή χωρίς να αφήνει ίχνη λιπαρότητας.\n\nΔερματολογικά ελεγμένο\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/1/products/entomoapothisi/new_crilen/Crilen_Mousse.jpg",
-    "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/enydatwsi/crilen-mousse-entomoapwthitiko/",
+  "5202888010989": {
+    "name": "CRILEN ΓΑΛΑΚΤΩΜΑ ",
+    "description": "Ενυδατικό γαλάκτωμα εμπλουτισμένο με κατάλληλο συνδυασμό ενεργών συστατικών που ασκούν προστασία από την εξωγενή επίδραση των εντόμων στα ακάλυπτα σημεία. Προσφέρει βαθιά ενυδάτωση και εντομοαπωθητική δράση.\n\nΔερματολογικά ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/1/products/entomoapothisi/new_crilen/Crilen_Cream_50ml.jpg",
+    "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/enydatwsi/crilen-galaktwma-50ml-tsimpimata-entomwn/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 4,
+    "score": 6.4,
     "review": true
   },
   "5202888224324": {
@@ -871,18 +982,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/enydatwsi/crilen-roll-ball-enydatiko-galaktwma-kai-me-entomoapwthish/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 6,
+    "score": 28.7,
     "review": false
-  },
-  "5202888224317": {
-    "name": "CRILEN ANTI-MOSQUITO PLUS SPRAY 20%",
-    "description": "Spray με 20% IR3535 που απωθεί αποτελεσματικά τα κουνούπια και το κουνούπι τίγρης. Η δράση του διαρκεί για 8 ώρες.\n\nΧρησιμοποιείτε εντομοαπωθητικά με ασφαλή τρόπο.\nΝα φυλάσσονται μακριά από παιδιά.\nΝα διαβάζετε πάντα την ετικέτα και τις πληροφορίες για το προϊόν, πριν από τη χρήση.\nΗ εφαρμογή σε παιδιά ηλικίας κάτω των 12 ετών, θα πρέπει να γίνεται από ενήλικα.\n\nΔείτε εδώ τις προειδοποιήσεις\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Crilen/20_/NEW_UPDATE_2026/mosquito_20__700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn/entomoapothitika/crilen-anti-mosquito-plus-spray-20-gia-prostasia-apo-kounoupia/",
-    "source": "frezyderm.gr",
-    "section": "proionta-gia-anakoufisi-prostasia-apo-tsimpimata-entomwn",
-    "score": 4,
-    "review": true
   },
   "5202888271144": {
     "name": "DE-MAKE UP 4 in 1",
@@ -891,7 +992,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/katharismos-proswpou/proionta-ntemakigiaz/galaktwma-ntemakigiaz/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 8.7,
     "review": false
   },
   "5202888224379": {
@@ -901,7 +1002,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/aposmhtika-gia-paidia-enhlikes/adults-deo-cream-hybrid-deodorant-formula/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 6,
+    "score": 34.5,
     "review": false
   },
   "5202888102417": {
@@ -911,7 +1012,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-prosfores/dermofilia-hand-cream-me-doro-epipleon-posotita/",
     "source": "frezyderm.gr",
     "section": "proionta-prosfores",
-    "score": 4,
+    "score": 5,
     "review": true
   },
   "5202888102790": {
@@ -921,8 +1022,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-prosfores/dermofilia-hand-cream-me-doro-epipleon-posotita/",
     "source": "frezyderm.gr",
     "section": "proionta-prosfores",
-    "score": 4,
-    "review": true
+    "score": 34.8,
+    "review": false
   },
   "5202888281075": {
     "name": "DIABETEETH TOOTHPASTE",
@@ -931,17 +1032,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-stomatikhs-ygieinhs-kai-diabhths/proionta-stomatikhs-ygieinhs-gia-enhlikesproionta-stomatikhs-ygieinhs-kai-diabhths/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 9.4,
+    "review": false
   },
   "5202888271298": {
-    "name": "DIAMOND VELVET ΑΝΤΙ-WRINKLE CREAM",
-    "description": "Κρέμα ενισχυμένης αντιγηραντικής δράσης για άμεση σύσφιγξη και ταχεία μείωση ρυτίδων στο ώριμο ή/και ταλαιπωρημένο δέρμα. Συνενώνοντας μοναδικές καινοτομίες επανόρθωσης, αποτελεί την ιδανική λύση, εάν οι αισθητικές επεμβάσεις δεν είναι στις επιλογές σας ή μετά από αυτές, για μία ενισχυμένη καθημερινή φροντίδα. Περιέχοντας ειδική τεχνολογία Velvet-in-Water, προσφέρει ασύγκριτα βελούδινη υφή χωρίς την κηρώδη αίσθηση ασφυξίας ενώ η πρωτοποριακή δομή κρυστάλλων φυσικού διαμαντιού και το Boron Nitride επιταχύνουν την ανανέωση της επιδερμίδας και χαρίζουν μοναδική λάμψη. Παράλληλα, τα ειδικά επιλεγμένα ενεργά συστατικά, βασισμένα στην Επιστήμη της Επιγενετικής, αυξάνουν την παραγωγή κολλαγόνου, ελαστίνης και υαλουρονικού οξέος, αντιστρέφοντας δραστικά την πορεία φθοράς του χρόνου.\n\nΗ επιδερμική αναγέννηση επιταχύνεται, η πυκνότητα της επιδερμίδας αυξάνεται, η σφριγηλότητα και η ελαστικότητα επανέρχονται, οι ρυτίδες «γεμίζουν» αποτελεσματικά και η φυσική λάμψη αποκαθίσταται ορατά. Επιπλέον, η Diamond Velvet Anti-Wrinkle Cream διαθέτει ειδικά σχεδιασμένη σύνθεση που προσφέρει βαθιά και παρατεταμένη ενυδάτωση στο δέρμα διατηρώντας τα αποθέματα υγρασίας του.\n\n* Hyaluronic Acid – Technical Data\n** Marine Exopolysaccharide – Technical Data\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/Diamond_antiwrinkle/Diamond_Anti_Wrinkle_Cream_1_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/diamond-antighrantikh-krema-proswpou-gia-wrimo-derma/",
+    "name": "DIAMOND VELVET ANTI-WRINKLE CREAM LUMINOUS GLOW",
+    "description": "Κρέμα ισχυρής αντιγήρανσης που προσφέρει στην επιδερμίδα θεαματική, πολυπρισματική λάμψη, εμπνευσμένη από την Επιστήμη της Οπτικής.\n\nΧ3 Glow System\nΕπαναφέρει τη λάμψη του δέρματος σε 3 άξονες-κλειδιά:\n\n1.Η θαμπή όψη αναστρέφεται με ειδικά pearlescent ενεργά που προσφέρουν highlighting λάμψη και αντανακλούν το φως σαν καθρέπτης\n2.Η φυσική λάμψη επιταχύνεται. Οι κρύσταλλοι φυσικού διαμαντιού κάνουν ένα αόρατο peeling, αποκαλύπτοντας άμεσα τη φυσική λάμψη της επιδερμίδας.\n3.Ο χρωματικός τόνος διορθώνεται για ομοιόμορφη, αψεγάδιαστη όψη που αποπνέει νεανικότητα.\n\nInstant Mirror Effect\nΕπιδερμίδα χωρίς ατέλειες που αντανακλά και διαθλά το φως σαν καθρέφτης και τονίζεται η λάμψη της.\n\nΕπαναφορά μηχανισμών αναγέννησης δέρματος\nΑυστηρά επιλεγμένα πολύτιμα συστατικά προσφέρουν αντιγηραντική δράση, χαρίζουν αναγέννηση και επανόρθωση του δέρματος. Οι ρυτίδες μειώνονται, η ελαστικότητα αυξάνεται, το δέρμα είναι πιο λείο και αναδομημένο. Άμεση μείωση ρυτίδων και γραμμών έκφρασης χωρίς παρεμπόδιση της μυοκινητικής λειτουργίας.\n\nΗ τέλεια αρμονία προσώπου\nΜε τη συσφιγκτική δύναμη του Bacillus Ferment, το περίγραμμα προσδιορίζεται ξανά για ένα απόλυτα συμμετρικό αποτέλεσμα. Ένα πολύτιμο συστατικό για την προστασία των τελοκυττάρων και βλαστοκυττάρων του δέρματος από το οξειδωτικό στρες και για τη διατήρηση του δικτύου των ινών κολλαγόνου.\n\nΕντυπωσιακά αποτελέσματα από την πρώτη κιόλας εφαρμογή\n\n+25% ΕΝΥΔΑΤΩΣΗ σε μόλις 2 ώρες*\n+14% ΟΜΟΙΟΜΟΡΦΟΣ ΧΡΩΜΑΤΙΚΟΣ ΤΟΝΟΣ από τη 14η ημέρα*\n+6,3% ΣΥΜΜΕΤΡΙΑ ΤΟΥ ΠΕΡΙΓΡΑΜΜΑΤΟΣ ΠΡΟΣΩΠΟΥ από την 28η ημέρα*\n\nΔερματολογικά ελεγμένη.\n\n*Active Ingredients – Technical data.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/diamond_luminus_glow_/Diamond_Luminus-Glow_1_700x963.png",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/krema-antighranshs-diamond-velvet-luminous-glow/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 14.9,
     "review": false
   },
   "5202888271281": {
@@ -951,18 +1052,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/enudatikes-kremes-prosopou/diamond-enudatikh-krema-proswpou-gia-wrimo-derma/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 23.9,
+    "review": false
+  },
+  "5202888105173": {
+    "name": "EVERY DAY USE SHAMPOO",
+    "description": "Πολύ απαλό σαμπουάν που προσφέρει αποτελεσματικό καθαρισμό, προστατεύει το τριχωτό και τα μαλλιά από την περιβαλλοντική ρύπανση και ενισχύει τη δύναμη και τη λάμψη της τρίχας. Έτσι τα ευαίσθητα, άτονα και αδύναμα μαλλιά αποκτούν λάμψη, όγκο και στιλπνότητα. Με ουδέτερο pH.\n\nΜελέτες\nAποτελεσματικότητας\nAξιολόγησης ασφάλειας\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/every_day_use_shampoo/Every_Day_Use_Shampoo_200ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/kanonika-mallia/every-day-use-shampoo-sampouan-gia-kathhmerinh-xrhsh/",
+    "source": "frezyderm.gr",
+    "section": "peripoiisi-mallion",
+    "score": 18,
+    "review": false
   },
   "5202888271069": {
-    "name": "AC-NORM LIP BALM SPF 15",
-    "description": "Ενυδατικό Balm με άνυδρη σύνθεση για την καθημερινή περιποίηση των χειλιών και την ανακούφιση της χειλίτιδας από φαρμακευτικές αγωγές. Ενυδατώνει, ανακουφίζει και αποκαθιστά τα σκασμένα χείλη, παρέχει ηλιοπροστασία, έχει αναπλαστική δράση και μειώνει τη δερματική δυσανεξία.\n\nΔερματολογικά Ελεγμένο\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Ac-Norm/lip_balm/Acnorm_Lip_Balm15ml_small_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-liparo-derma-me-tash-akmhs/ac-norm-lip-balm-spf-15-enydatiko-balm-xeiliwn/",
+    "name": "EYE BALM",
+    "description": "Απαλή και δροσερή κρέμα - gel που καταπολεμά τους μαύρους κύκλους, τις σακούλες και τη θαμπή όψη της επιδερμίδας στην περιοχή γύρω από τα μάτια. Ενεργοποιεί άμεσα τη μικροκυκλοφορία, επαναφέρει την ελαστικότητα και την ομοιομορφία στην όψη της επιδερμίδας, συσφίγγει την περιοχή και μειώνει τις λεπτές γραμμές. Με λεπτόρρευστη, δροσερή υφή που απορροφάται άμεσα. Αποκτήστε αμέσως ένα αναζωογονημένο, ξεκούραστο και λαμπερό βλέμμα.\n\nΔερματολογικά και Οφθαλμολογικά Ελεγμένη\n\n*Αrgan oil-Technical data\n\nΔείτε πως θα αποκτήσετε φρέσκο και φωτεινό βλέμμα!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/eye_balm/Eye_balm_15ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-peripoihshs-matiwn/krema-gia-tis-sakoules-sta-matia/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 9.4,
+    "review": false
   },
   "5202888221200": {
     "name": "FIRST AID BUTTER",
@@ -971,8 +1082,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/first-aid-butter-krema-gia-mwlwpes/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 27.2,
+    "review": false
   },
   "5202888320072": {
     "name": "PRODILAC IMMUNO SHIELD FAST MELT",
@@ -981,7 +1092,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-to-anwtero-anapneystiko/prodilac-immuno-shield-fast-melt-symplhrwma/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 10,
+    "score": 57,
     "review": false
   },
   "5202888102868": {
@@ -991,8 +1102,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/peripoihsh-podiwn/frezyfeet-diaped-cream-krema-podiwn-gia-diabhtikous/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 23.5,
+    "review": false
   },
   "5202888102875": {
     "name": "FREZYFEET HEAVY LEGS",
@@ -1001,7 +1112,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/peripoihsh-podiwn/frezyfeet-heavy-legs-krema-gia-prhsmena-podia/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 6,
+    "score": 26.2,
     "review": false
   },
   "5202888102844": {
@@ -1011,8 +1122,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/peripoihsh-podiwn/frezyfeet-keractive-cream-krema-apolepishs-podiwn/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 23.3,
+    "review": false
   },
   "5202888102837": {
     "name": "FREZYFEET ODOR STOP SPRAY",
@@ -1021,7 +1132,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/peripoihsh-podiwn/frezyfeet-odor-stop-spray-aposmhtiko-podiwn/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 6,
+    "score": 32.3,
     "review": false
   },
   "5202888102851": {
@@ -1031,17 +1142,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/peripoihsh-podiwn/frezyfeet-revital-cream-krema-anaplashs-podiwn/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 14.1,
+    "review": false
   },
-  "5202888106163": {
-    "name": "FREZYMAR CLEANER HYPERTONIC ALOE & EUCALYPTUS MEDIUM",
-    "description": "Ρινικό αποσυµφορητικό µε θαλασσινό νερό για µεγαλύτερη ενυδάτωση και ανακούφιση από τη δυσφορία χάρη στην Aloe Vera και το ευχάριστο άρωµα Ευκάλυπτου.\n\nΥψηλή Αποσυμφόρηση\n\nΡινίτιδα\n\nΙγμορίτιδα\n\nΦρεσκάδα που διαρκεί\n\nΤο θαλασσινό νερό Frezymar Hypertonic Aloe & Eucalyptus συλλέγεται απευθείας από την ελεγχόµενη περιοχή του κόλπου Cancale στη Βρετάνη που είναι ευρέως γνωστή για την ποιότητα και την καθαρότητα των υδάτων της.\n\nPHARMALINK- Av. Universitat Autónoma 13, Parc Tecnològic del Vallès 08290 Cerdanyola del Vallès (Barcelona), Spain.\n\nΔιανέμεται από: FREZYDERM SA – Μενάνδρου 75 – 104 37 – Αθήνα – Ελλάδα, Τηλ.: +30 210 5246900, www.frezyderm.com, [email protected]\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/frezymar_new___nazal_baby/3d/frezymar_medium/Frezymar-Cleaner-Medium-Aloe-_-Eucalyptus-120ml_01.jpg",
-    "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-sprei/frezymar-cleaner-medium-riniko-aposumforhtiko-/",
+  "5202888261008": {
+    "name": "FREZYKELD CREAM",
+    "description": "Απαλή κρέμα, αντιμετώπισης ουλών που προκαλούνται από τραυματισμό, εγχείρηση ή ακόμη και από σοβαρή ακμή, αφενός προληπτικά για την αποφυγή σχηματισμού τους και αφετέρου βελτιώνοντας όσες έχουν ήδη δημιουργηθεί. Τα ενεργά συστατικά της ενισχύουν την αναγέννηση δερματικών κυττάρων, αναδομούν τους κατεστραμμένους και γηρασμένους ιστούς της επιδερμίδας, προσφέρουν ισχυρή ενυδάτωση και παρέχουν αντιοξειδωτική και αντιφλεγμονώδη προστασία. Η επιδερμίδα στην πάσχουσα περιοχή αναδομείται, οι ουλές λειαίνονται και το δέρμα επανακτά την ομοιόμορφη όψη του.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Frezykeld/frezykeld_cream_small_05.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/kremes-anaplashs/frezykeld-cream-anaplastikh-krema-gia-oules/",
     "source": "frezyderm.gr",
-    "section": "aposumforitika-mutis",
-    "score": 6,
+    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
+    "score": 10.2,
     "review": false
   },
   "5202888106125": {
@@ -1051,18 +1162,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-sprei/frezymar-cleaner-baby-riniko-aposumforhtiko-vrefous/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 8,
+    "score": 30.3,
     "review": false
   },
   "5202888105036": {
-    "name": "HAIR FORCE SHAMPOO MEN",
-    "description": "Τριχοτονωτικό σαμπουάν, με ειδική σύνθεση για την αντιμετώπιση της αντρικής τριχόπτωσης. Τα ενεργά συστατικά του αντιμετωπίζουν τη χρόνια και εποχική αντιδραστική τριχόπτωση, την αραίωση, την αλωπεκία (φαλάκρα) και τα αδύναμα μαλλιά και προσφέρουν ενδυνάμωση των θυλάκων και ενίσχυση της τριχοφυΐας. Με ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nΔείτε πως θα αντιμετωπίσετε την αντρική τριχόπτωση.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/hair_force_shampoo_men/Hair_Force_Shampoo_Men_200ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
+    "name": "HAIR FORCE LOTION EXTRA",
+    "description": "Λοσιόν για την πρόληψη και την αντιμετώπιση της τριχόπτωσης. Αντιμετωπίζει την τριχόπτωση οποιασδήποτε αιτίας, την αραίωση, την εποχική αντιδραστική τριχόπτωση και τα αδύναμα μαλλιά. Προσφέρει ενδυνάμωση των θυλάκων, ενίσχυση τριχοφυΐας και οξυγόνωση των κυττάρων. Ενισχύει τα άτονα και αδύναμα μαλλιά. Με ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nΔείτε πως θα αντιμετωπίσετε τη χρόνια και εποχική τριχόπτωση.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/Hair_force_lotion/Hair_Force_Lotion_Extra_100ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-mallion/losion-mallion-se-morfh-sprei/losion-gia-trixoptwsh/hair-force-lotion-extra-losion-trixoptwshs/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 37.2,
+    "review": false
   },
   "5202888105043": {
     "name": "HAIR FORCE SHAMPOO MEN",
@@ -1071,18 +1182,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 8.7,
+    "review": false
   },
   "5202888105029": {
-    "name": "HAIR FORCE SHAMPOO MEN",
-    "description": "Τριχοτονωτικό σαμπουάν, με ειδική σύνθεση για την αντιμετώπιση της αντρικής τριχόπτωσης. Τα ενεργά συστατικά του αντιμετωπίζουν τη χρόνια και εποχική αντιδραστική τριχόπτωση, την αραίωση, την αλωπεκία (φαλάκρα) και τα αδύναμα μαλλιά και προσφέρουν ενδυνάμωση των θυλάκων και ενίσχυση της τριχοφυΐας. Με ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nΔείτε πως θα αντιμετωπίσετε την αντρική τριχόπτωση.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/hair_force_shampoo_men/Hair_Force_Shampoo_Men_200ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
+    "name": "HAIR FORCE MONODOSES DAY / NIGHT",
+    "description": "Ειδική αγωγή κατά της τριχόπτωσης, για άνδρες και γυναίκες. Συμβάλλει στον έλεγχο της ορμονοεπαγόμενης τριχόπτωσης, υποστηρίζοντας την αγκίστρωση της ρίζας επί του τριχωτού. Παράλληλα, ενεργοποιούν τον κυτταρικό μεταβολισμό, ενισχύουν την τριχοφυΐα και παρέχουν αντιφλεγμονώδη προστασία. Με ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nAξιολόγησης ασφάλειας\n\nΔείτε πως θα αντιμετωπίσετε τη χρόνια και εποχική τριχόπτωση.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/hair/trixoptosi/Hair_Force_monodoses.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-mallion/therapia-trixoptosis/losion/hair-force-monodoses-day-night-agwgh-kata-ths-trixoptwshs/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 26.1,
+    "review": false
   },
   "5202888105005": {
     "name": "HAIR FORCE SHAMPOO MEN",
@@ -1091,7 +1202,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 6,
+    "score": 36.8,
     "review": false
   },
   "5202888105012": {
@@ -1101,7 +1212,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-women-sampouan-gia-thn-gunaikeia-trixoptwsh/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 6,
+    "score": 36.8,
     "review": false
   },
   "5202888331534": {
@@ -1111,7 +1222,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/therapia-trixoptosis/ampoules-trixoptwshs/hair-force-tabs-gia-mallia-derma-nyxia/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 6,
+    "score": 20,
     "review": false
   },
   "5202888105210": {
@@ -1121,8 +1232,38 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
+    "score": 5.7,
     "review": true
+  },
+  "5202888261084": {
+    "name": "CALENDULA CREAM ",
+    "description": "Κρέμα για πρόσωπο και σώμα που ανακουφίζει, ενυδατώνει, καταπραΰνει και βοηθά στην εξισορρόπηση καταστάσεων διαταραχής της δερματικής χλωρίδας. Χάρη στο καινοτόμο δραστικό συστατικό FD Symbiosis Complex που περιλαμβάνει η σύνθεσή της, ενισχύει αποτελεσματικά τον δερματικό φραγμό, διατηρεί την ισορροπία της δερματικής χλωρίδας και βοηθά το δέρμα να αποβάλλει τις τοξίνες. Παράλληλα, δύο βασικά αντιερεθιστικά ενεργά συστατικά δρουν σε απόλυτη συνέργεια για να χαρίσουν την απόλυτη δερματική άνεση και φροντίδα: Calendula Officinalis και Zanthoxylum Alatum. Η κρέμα, όπως και οι υπόλοιπες της σειράς, διαθέτει και έναν μοναδικό συνδυασμό από:\n\n- Picea Abies Eκχύλισμα (Νορβηγικό Έλατο) & Εκχύλισμα Μανόλιας για ενξισορρόπηση της δερματικής μικροχλωρίδας, αντιοξειδωτική και αντιερεθιστική δράση,\n- Φυτικά Έλαια Καρύδας, Ελιάς, Ζαχαροκάλαμου και Babassu από ανανεώσιμες φυσικές πηγές, για ισχυρή δερματική προστασία.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Holistic/calendula/CALENDULA_big_05.jpg",
+    "url": "https://www.frezyderm.gr/omoiopathitiki/proionta-olistikhs-frontidas/holistic-krema-kalentoula/",
+    "source": "frezyderm.gr",
+    "section": "omoiopathitiki",
+    "score": 11.3,
+    "review": false
+  },
+  "5202888261077": {
+    "name": "HYPERICUM CREAM",
+    "description": "Κρέμα για πρόσωπο και σώμα που μειώνει τους ερεθισμούς και διαθέτει αναδομητική δράση. Περιέχει το μοναδικό δραστικό συστατικό FD Symbiosis Complex που προστατεύει το δερματικό μικροβίωμα και αποτοξινώνει την επιδερμίδα. Παράλληλα, η συνεργιστική δράση Hypericum Perforatum και Πασιφλόρας αναδομεί τον δερματικό ιστό αναπλάθοντας το δέρμα, μειώνει τους ερεθισμούς και προσφέρει δερματική άνεση. Και βέβαια, όπως σε όλα τα προϊόντα της σειράς, υπάρχει ο συνδυασμός φυτικών δραστικών συστατικών με ασύγκριτες ιδιότητες δερματικής φροντίδας:\n\n- Picea Abies Eκχύλισμα (Νορβηγικό Έλατο) & Εκχύλισμα Μανόλιας για ενξισορρόπηση της δερματικής μικροχλωρίδας, αντιοξειδωτική και αντιερεθιστική δράση,\n- Φυτικά Έλαια Καρύδας, Ελιάς, Ζαχαροκάλαμου και Babassu από ανανεώσιμες φυσικές πηγές, για ισχυρή δερματική προστασία.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Holistic/hypericum/Hypericum_100ml.jpg",
+    "url": "https://www.frezyderm.gr/omoiopathitiki/proionta-olistikhs-frontidas/holistic-hypericum-cream-krema/",
+    "source": "frezyderm.gr",
+    "section": "omoiopathitiki",
+    "score": 16.4,
+    "review": false
+  },
+  "5202888226106": {
+    "name": "PROPOLIS CREAM",
+    "description": "Κρέμα για πρόσωπο και σώμα, μειώνει τους ερεθισμούς και ενισχύει τη δερματική άμυνα. Αξιοποιώντας τη δύναμη του δραστικού συστατικού FD Symbiosis Complex, υποβοηθά την διατήρηση της υγείας του δέρματος και προστατεύει από την ξηρότητα. Η φυσιολογική μικροχλωρίδα του δέρματος προστατεύεται μέσω ενίσχυσης τόσο του επιδερμικού φραγμού όσο και των ανοσοποιητικών & αποτοξινωτικών μηχανισμών του δέρματος. Ενεργό συστατικό της κρέμας αποτελεί η πρόπολη, μία πολύτιμη ουσία της φύσης που ενισχύει τους μηχανισμούς άμυνας του δέρματος.\nΕπιπλέον, στη σύνθεσή της κρέμας, περιλαμβάνονται πρόσθετα δραστικά φυτικά συστατικά:\n\n- Picea Abies Eκχύλισμα (Νορβηγικό Έλατο) & Εκχύλισμα Μανόλιας για ενξισορρόπηση της δερματικής μικροχλωρίδας, αντιοξειδωτική και αντιερεθιστική δράση,\n- Φυτικά Έλαια Καρύδας, Ελιάς, Ζαχαροκάλαμου και Babassu από ανανεώσιμες φυσικές πηγές, για ισχυρή δερματική προστασία.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Holistic/propolis/PROPOLIS_big_05.jpg",
+    "url": "https://www.frezyderm.gr/omoiopathitiki/proionta-olistikhs-frontidas/holistic-krema-propolh/",
+    "source": "frezyderm.gr",
+    "section": "omoiopathitiki",
+    "score": 10.7,
+    "review": false
   },
   "5202888273025": {
     "name": "FACE SERUM HYALURONIC ACID - Ορός Ενυδάτωσης Προσώπου",
@@ -1131,8 +1272,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/serum-proswpou/face-serum-hyaluronic-acid-oros-enudatosis-prosopou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 12.8,
+    "review": false
   },
   "5202888282089": {
     "name": "HYDRORAL XERO TOOTHPASTE",
@@ -1141,8 +1282,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-kata-ths-kshrostomias/hydroral-xero-toothpaste-odontokrema-kata-tis-xirostomias/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 10.4,
+    "review": false
   },
   "5202888282065": {
     "name": "HYDRORAL XERO MOUTHWASH ",
@@ -1151,7 +1292,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-kata-ths-kshrostomias/hydroral-xero-mouthwash-stomatiko-dialuma-kata-tis-xirostomias/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 24.9,
     "review": false
   },
   "5202888281099": {
@@ -1161,7 +1302,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-kata-ths-kshrostomias/hydroral-xero-toothpaste-odontokrema-kata-tis-xirostomias/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 24.2,
     "review": false
   },
   "5202888271380": {
@@ -1171,27 +1312,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-peripoihshs-matiwn/antirutidiko-tzel-pagou-matiwn/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 14.8,
     "review": false
   },
-  "5202888223143": {
-    "name": "INTIM VAGINAL DOUCHE MONODOSE ΞΥΔΙ pH 3.5",
-    "description": "Ενδοκολπικό καθαριστικό για την απομάκρυνση παθολογικών εκκρίσεων βακτηριακής προέλευσης που συνεπικουρεί την φαρμακευτική αγωγή.\n\nΔιάλυμα κολπικής πλύσης σε μονοδόση για τον καθαρισμό του κόλπου από παθολογικές εκκρίσεις βακτηριακής προέλευσης. Το Ξύδι ρυθμίζει το pH του κόλπου όταν αυξάνεται παθολογικά λόγω βακτηριακής κολπίτιδας. Ενισχύει την παράλληλη φαρμακευτική αγωγή.\n\nΤοξικολογικά Test Ασφάλειας\nΣύμφωνα με το ISO 10993-1:2018\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/INTIM_VAGINAL_DOUCHE_MONODOSE_ΞΥΔΙ_pH_3.5 new/Vaginal_Douche_Xudi_pH3_5.jpg",
-    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-ksudi-ph-3-5-endokolpiko-katharistiko/",
-    "source": "frezyderm.gr",
-    "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
-  },
   "5202888271212": {
-    "name": "INFANT SUN CARE SPF 50+",
-    "description": "Αντηλιακό γαλάκτωμα προσώπου και σώματος για νήπια, που προσφέρει αποτελεσματική πολύ υψηλή ηλιοπροστασία μόνο με φυσικά φίλτρα. Δημιουργεί ένα αδιάβροχο φιλμ προστασίας με γαλάζιο φυτικό χρώμα, που υποδεικνύει την ακριβή περιοχή εφαρμογής. Παράλληλα, η εμπλουτισμένη του σύνθεση με χαμομήλι, προστατεύει από την αφυδάτωση και τους ερεθισμούς. Απορροφάται άμεσα και δεν αφήνει λευκή ή γαλάζια χροιά.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Suncare/infant/Infant_Suncare-100ml-1.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/brefika-antiliaka/infant-sun-care-spf-50-brefiko-antiliako/",
+    "name": "INFANT SUN CARE SPF 50+ 100ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 50ml",
+    "description": "Για την πολύ υψηλή αντηλιακή προστασία της ευαίσθητης επιδερμίδας των νηπίων υπάρχει το πακέτο με το Infant Sun Care σε πακέτο προσφοράς 2 τεμαχίων.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2026/423126_Infant_Sun_Care.jpg",
+    "url": "https://www.frezyderm.gr/proionta-prosfores/infant-sun-care-spf-50-100ml-me-doro-epipleon-posotita-50ml/",
     "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 8,
+    "section": "proionta-prosfores",
+    "score": 50.5,
     "review": false
   },
   "5202888223167": {
@@ -1201,8 +1332,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-aid-cleanser-katharistiko-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
+    "score": 21.8,
+    "review": false
   },
   "5202888223198": {
     "name": "INTIM AID CLEANSER",
@@ -1211,8 +1342,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-aid-cleanser-katharistiko-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
+    "score": 18.8,
+    "review": false
   },
   "5202888223235": {
     "name": "INTIM AID CRANBERRY FOAM",
@@ -1221,18 +1352,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-aid-cranberry-foam-afros-katharismou-gia-euaisthiti-periohi-ph5/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4.5,
-    "review": true
+    "score": 39.6,
+    "review": false
   },
   "5202888223211": {
-    "name": "INTIM VAGINAL DOUCHE MONODOSE ΣΟΔΑ pH 9",
-    "description": "Ενδοκολπικό καθαριστικό για την απομάκρυνση παθολογικών εκκρίσεων μυκητιασικής προέλευσης που συνεπικουρεί την φαρμακευτική αγωγή.\n\nΔιάλυμα κολπικής πλύσης σε μονοδόση για τον καθαρισμό του κόλπου από παθολογικές εκκρίσεις μυκητιασικής προέλευσης ή λευκόρροιας. Η Σόδα προσφέρει ρύθμιση του pH του κόλπου όταν μειώνεται παθολογικά λόγω μυκητιασικής κολπίτιδας.\n\nΤοξικολογικά Test Ασφάλειας\nΣύμφωνα με το ISO 10993-1:2018\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/INTIM_VAGINAL_DOUCHE_MONODOSE_ΣΟΔΑ_pH_9_/Vaginal_Douche_Soda_pH9.jpg",
-    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-soda-ph-9-endokolpiko-katharistiko/",
+    "name": "INTIM AID SODA FOAM",
+    "description": "Ειδικός αφρός καθαρισμού με υψηλό pH (9.0) ιδανικός για τις ανάγκες της ευαίσθητης περιοχής σε περίοδο αυξημένης φροντίδας. Καθώς εξισορροπεί το pH της περιγεννητικής περιοχής, είναι ιδανικός για εφαρμογή συνδυαστικά με αντιμυκητιασικές αγωγές και χαρίζει υγιεινή και προστασία.\n\nΔιαθέτει εξειδικευμένη σύνθεση με ενεργά στοχευμένης και αποτελεσματικής δράσης:\n\n1)Σόδα που ρυθμίζει το pH του κόλπου, όταν μειώνεται παθολογικά λόγω μυκητιασικής κολπίτιδας και ενισχύει την παράλληλη φαρμακευτική αγωγή.\n\n2) Εχινάκεια που αυξάνει τη βακτηριακή προστασία και ενδυναμώνει την αυτοάμυνα της ευαίσθητης περιοχής.\n\n3) Ξυλιτόλη & β-γλυκάνη που προστατεύουν τη φυσιολογική χλωρίδα και ενισχύουν τη φυσική άμυνα της ευαίσθητης περιοχής.\n\nΔερματολογικά ελεγμένο\n\nΕξωτερική χρήση\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Intim-Area-Soda-Foam/Intim-Area-Soda-Foam.jpg",
+    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-aid-soda-foam-afros-katharismou-ph-90-/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4.5,
-    "review": true
+    "score": 37.7,
+    "review": false
   },
   "5202888100093": {
     "name": "INTIM AREA MENOPAUSE FOAM",
@@ -1241,8 +1372,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-menopause-foam-afros-katharismou-ph-70-/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
+    "score": 10,
+    "review": false
   },
   "5202888223174": {
     "name": "INTIM AREA MENOPAUSE FOAM",
@@ -1251,8 +1382,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-menopause-foam-afros-katharismou-ph-70-/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4.5,
-    "review": true
+    "score": 17,
+    "review": false
   },
   "5202888227110": {
     "name": "INTIM AREA LIQUID ",
@@ -1261,7 +1392,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-liquid-katharistiko-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
+    "score": 22.4,
     "review": false
   },
   "5202888223181": {
@@ -1271,7 +1402,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-liquid-katharistiko-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
+    "score": 20.1,
     "review": false
   },
   "5202888227141": {
@@ -1281,7 +1412,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-wipes-manthlakia-katharismou/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
+    "score": 23.6,
     "review": false
   },
   "5202888223129": {
@@ -1291,8 +1422,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-soda-ph-9-endokolpiko-katharistiko/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
-    "review": false
+    "score": 3.7,
+    "review": true
   },
   "5202888223136": {
     "name": "INTIM VAGINAL DOUCHE MONODOSE ΧΑΜΟΜΗΛΙ pH 4.5 ",
@@ -1301,8 +1432,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-xamomhli-ph-4-5-endokolpiko-katharistiko/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
-    "review": false
+    "score": 3.7,
+    "review": true
   },
   "5202888102189": {
     "name": "INTIM AID CLEANSER",
@@ -1311,17 +1442,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-aid-cleanser-katharistiko-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
+    "score": 22,
+    "review": false
   },
-  "5202888230165": {
-    "name": "SENSITIVE KIDS DEODORANT CREAM",
-    "description": "Παιδικό αποσμητικό για την προσρόφηση των οσμών και του ιδρώτα που συχνά εμφανίζονται στην παιδική/προεφηβική/εφηβική ηλικία. Με υβριδική deodorant formula έξυπνων ενεργών μικροσπόγγων σε μια ενυδατική κρέμα που σέβεται την ισορροπία του δερματικού μικροβιώματος και την ευαίσθητη παιδική και εφηβική επιδερμίδα. Περιέχει μοναδικό συνδυασμό ενεργών συστατικών που δρουν σε απόλυτη συνέργεια για την αποτελεσματική μείωση των οσμών του σώματος και την απορρόφηση του σμήγματος και άλλων λιπαρών συστατικών του ιδρώτα στα οποία οφείλεται η οσμή.\n\n- Δεν φράσσει τους πόρους και δεν παρεμποδίζει τη διαπνοή του δέρματος.\n- Δεν αφήνει λεκέδες στα ρούχα.\n- Δερματολογικά ελεγμένο\n\n1.(20 εθελοντές: 10 έφηβοι – 10 ενήλικες, 2 φορές την ημέρα /28 ημέρες). Όλοι οι συμμετέχοντες ανέφεραν καλή αίσθηση εφαρμογής και αποτελεσματικότητα (ΒΙΟ 208-21 2109G20F-1, Bio Basic Europe SrI). Dermo-Clinical Research Institute-Bio Basic Europe-University of Pavia. Study of the effect and cosmetic properties of a product through evaluations and instrumental analysis performed by professionals under medical supervision and consumer self-assessments.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/KIDS/deodorant/correct_ones/deodorant_01.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-somatos/aposmhtika-gia-paidia-enhlikes/sensitive-kids-deodorant-cream-aposmhtiko-gia-paidia/",
+  "5202888222450": {
+    "name": "KIDS SUN CARE SPF 50+ WET SKIN SPRAY",
+    "description": "Παιδικό αντηλιακό spray πολύ υψηλής προστασίας που ψεκάζεται απευθείας και σε βρεγμένο δέρμα. Δεν απαιτείται σκούπισμα της επιδερμίδας πριν την εφαρμογή και έτσι δεν χρειάζεται να διακόπτεται το παιχνίδι ή η αθλητική δραστηριότητα των παιδιών στη θάλασσα και την παραλία. Έχει στοχευμένο ψεκασμό για εύκολη εφαρμογή ακόμα και σε συνθήκες ισχυρού ανέμου. Με λεπτόρρευστη, διάφανη, υγρή σύνθεση που δεν αφήνει λευκά ίχνη.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Suncare/KIDS/wet_skin/nEW/Kids-Sun-Care-Wet-Skin-200ml_big_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-anthliaka/kids-sun-care-spf-50-paidiko-anthliako-sprei/",
     "source": "frezyderm.gr",
-    "section": "peripoiisi-somatos",
-    "score": 4,
+    "section": "proionta-paidikhs-peripoihshs",
+    "score": 3.8,
     "review": true
   },
   "5202888222269": {
@@ -1331,7 +1462,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-anthliaka/kids-sun-care-spf-50-paidiko-anthliako-sprei/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 8,
+    "score": 14.7,
     "review": false
   },
   "5202888222429": {
@@ -1341,7 +1472,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-anthliaka/kids-sun-care-spf-50-paidiko-anthliako-sprei/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 8,
+    "score": 24.9,
     "review": false
   },
   "1111111021194": {
@@ -1351,7 +1482,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-anthliaka/kids-sun-care-spf-50-paidiko-anthliako-sprei/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 8,
+    "score": 24.9,
     "review": false
   },
   "5202888221996": {
@@ -1361,8 +1492,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/antiftheirika-gia-paidia/proionta-gia-pseires-lice-free-set/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
+    "score": 23.4,
+    "review": false
   },
   "5202888224270": {
     "name": "LICE REP EXTREME SPRAY",
@@ -1371,7 +1502,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/antiftheirika-gia-paidia/lice-rep-lotion-gia-pseires/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 37.6,
     "review": false
   },
   "5202888224904": {
@@ -1381,8 +1512,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/antiftheirika-gia-paidia/lice-rep-lotion-gia-pseires/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
+    "score": 15.4,
+    "review": false
   },
   "5202888111006": {
     "name": "MACROGOL ADULTS 3350",
@@ -1391,7 +1522,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumptwmatikh-therapeia-duskoiliotitas/macrogol-adults-3350-skoni-gia-duskoiliotita/",
     "source": "frezyderm.gr",
     "section": "sumptwmatikh-therapeia-duskoiliotitas",
-    "score": 6,
+    "score": 8,
     "review": false
   },
   "5202888111013": {
@@ -1401,8 +1532,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumptwmatikh-therapeia-duskoiliotitas/macrogol-kids-3350-skoni-gia-duskoiliotita-se-paidia/",
     "source": "frezyderm.gr",
     "section": "sumptwmatikh-therapeia-duskoiliotitas",
-    "score": 6,
-    "review": false
+    "score": 6.6,
+    "review": true
+  },
+  "5202888271229": {
+    "name": "AC-NORM MEDILIKE EFFECT 1 CREAM",
+    "description": "Μείωση των συμπτωμάτων της ακμής Τύπου 1 (ήπια-φαγεσωρική)\n\nΕναλλακτική επιλογή φαρμακευτικών αγωγών. Μιμείται τη δράση της κλασικής θεραπείας για τη μείωση των συμπτωμάτων της ακμής Τύπου 1 (ήπια-φαγεσωρική) χωρίς τη χρήση φαρμακευτικών μορίων.\n\nΗ FREZYDERM καινοτομεί και παρουσιάζει τη σειρά AC-NORM για ολοκληρωμένη προστασία του ακνεϊκού δέρματος. Δρα αυτόνομα ή συνδυάζεται με φαρμακευτικές αγωγές κατά της ακμής, ενώ ταυτόχρονα προκαλεί σμίκρυνση των διεσταλμένων θυλάκων και μείωση των φλεγμονωδών επαρμάτων.\n\nΗ δράση της βασίζεται στην ειδική φόρμουλα επιδερμικής εφαρμογής που σχηματίζει υμένιο βαθμιαίας αποδέσμευσης δραστικών συστατικών μέσω της σμηγματοπροσροφητικής δράσης ειδικής σκόνης.\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ακμή στο Πρόσωπο.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Ac-Norm/medilike_1/Acnorm_Medilike_new1_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-medilike-effect-1-cream-symptwmata-akmhs/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoiisis-prosopou",
+    "score": 5.8,
+    "review": true
   },
   "5202888271304": {
     "name": "AC-NORM MICELLAR WATER",
@@ -1411,8 +1552,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-micellar-water-calming-lotion/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 11.8,
+    "review": false
+  },
+  "5202888100123": {
+    "name": "MILD WASH FOAM",
+    "description": "Πολύ απαλός αφρός καθαρισμού, ιδανικός για τη φυσιολογική καθώς και την ευαίσθητη επιδερμίδα. Προσφέρει αποτελεσματικό καθαρισμό και σέβεται τη φυσιολογία του δέρματος, ενώ είναι σε μορφή έτοιμου αφρού, που δεν απαιτεί τρίψιμο ή χρήση σφουγγαριού, για απαλό καθαρισμό χωρίς ερεθισμούς. Ταυτόχρονα, είναι εμπλουτισμένο με φυτικά δραστικά συστατικά για προστασία από ερεθισμούς και ενισχύει τη φυσιολογική άμυνα του δέρματος. Έχει ενυδατική και μαλακτική δράση για υψηλή φροντίδα ακόμη και της πολύ ευαίσθητης επιδερμίδας.\n\nΠρωτόκολλο In Vitro και Ex vivo σε swabs εθελοντών με διαγνωσμένο από Δερματολόγο Ευαίσθητο Δέρμα στην περιοχή του Προσώπου.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/mild_wash_foam/Mild_Wash_Foam_150ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/katharismos-proswpou/katharistika-prosopou/apalos-afros-katharismou/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoiisis-prosopou",
+    "score": 11.2,
+    "review": false
   },
   "5202888223150": {
     "name": "MILD WASH LIQUID",
@@ -1421,8 +1572,38 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/katharismos-proswpou/katharistika-prosopou/apalo-katharistiko-prosopou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 21.4,
+    "review": false
+  },
+  "5202888271007": {
+    "name": "MOISTURIZING 24H CREAM",
+    "description": "Πολύ απαλή και δροσερή κρέμα για το πρόσωπο και το λαιμό, με σύνθεση εμπλουτισμένη με 3 φυτικά εκχυλίσματα και κεραμίδια ώστε να προσφέρει παρατεταμένη ενυδάτωση στην επιδερμίδα και ενίσχυση του κολλαγόνου και της ζωτικότητας του δέρματος. Παράλληλα, προστατεύει το DNA του δέρματος, προλαμβάνει τα σημάδια της φωτογήρανσης και παρέχει αντιοξειδωτική προστασία.\n\nΑπό την πρώτη εφαρμογή θα νιώσετε το δέρμα σας να ξεδιψά και να αποκτά την απαλότητα και την ελαστικότητα που αναζητά. Έχει λεπτόρρευστη, μη λιπαρή υφή, που απορροφάται άμεσα χωρίς να αφήνει ίχνη λιπαρότητας και αποτελεί εξαιρετική βάση μακιγιάζ.\n\nΔερματολογικά Ελεγμένη\n\n50%\n\nΠιο ενυδατωμένο δέρμα ακόμα και 7 ώρες μετά την εφαρμογή*\n\n*Active Ingredients– Technical data.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/moisturizing_24h/moisturizing_24h_50ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/enudatikes-kremes-prosopou/enudatiki-krema-prosopou/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoiisis-prosopou",
+    "score": 9.3,
+    "review": false
+  },
+  "5202888271014": {
+    "name": "MOISTURIZING PLUS ΜΕ ΔΩΡΟ MICELLAR WATER ΣΕ ΕΙΔΙΚΗ ΣΥΣΚΕΥΑΣΙΑ 50ml",
+    "description": "Πακέτο προσφοράς ενυδατικής κρέμας προσώπου Moisturizing Plus και δώρο ενεργό μικκυλιακό νερό Micellar Water σε ειδική συσκευασία των 50ml.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2025/5th/427813.png",
+    "url": "https://www.frezyderm.gr/proionta-prosfores/moisturizing-plus-me-doro-micellar-water-se-eidiki-suskeuasia-50ml/",
+    "source": "frezyderm.gr",
+    "section": "proionta-prosfores",
+    "score": 8.4,
+    "review": false
+  },
+  "5202888271021": {
+    "name": "MOISTURIZING RICH ΜΕ ΔΩΡΟ MICELLAR WATER ΣΕ ΕΙΔΙΚΗ ΣΥΣΚΕΥΑΣΙΑ 50ml",
+    "description": "Αποκτήστε ενυδατωμένη επιδερμίδα με την Moisturizing Rich Cream σε συσκευασία δώρου με το Micellar Water σε ειδικό μέγεθος.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2025/5th/427812.png",
+    "url": "https://www.frezyderm.gr/proionta-prosfores/moisturizing-rich-me-doro-micellar-water-se-eidiki-suskeuasia-50ml/",
+    "source": "frezyderm.gr",
+    "section": "proionta-prosfores",
+    "score": 17.2,
+    "review": false
   },
   "5202888283017": {
     "name": "HOMEOPATHY MOUTHWASH",
@@ -1431,28 +1612,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-stomatikhs-ygieinhs-kai-omoiopathhtikh/homeopathy-mouthwash-stomatiko-dialuma-sumbato-me-omoiopathitiki-agwgi/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
+    "score": 4.4,
     "review": true
   },
   "5202888282102": {
-    "name": "BLACK &amp; POLISH OXYGEN MOUTHWASH ",
-    "description": "Στοματικό διάλυμα με σύνθεση που συνδυάζει δύο αποτελεσματικά δραστικά: ο Ενεργός Άνθρακας, λόγω της μεγάλης προσροφητικής του ικανότητας, απομακρύνει αποτελεσματικά από τα δόντια χρώσεις και κηλίδες (από καπνό, τσάι, καφέ, χρωματιστά τρόφιμα) χαρίζοντας φυσική λεύκανση και λάμψη, για ορατή χρωματική αντίθεση. Παράλληλα, το Ενεργό Οξυγόνο προσφέρει καθαρισμό με απομάκρυνση των υπολειμμάτων των τροφών που προκαλούν τερηδόνα και προβλήματα των ούλων και προστατεύει από την ανάπτυξη μικροβίων.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Oral/Black__Polish_Oxygen_Mouthwash_/Black_PolishMouthwash250ml_1.jpg",
-    "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-leykanshs-dontiwn/black-polish-oxygen-mouthwash-stomatiko-dialyma/",
+    "name": "OXYGEΝ PRO MOUTHWASH",
+    "description": "Για τον καθαρισμό & την προστασία της στοματικής κοιλότητας\n\nΣτοματικό διάλυμα με Ενεργό Οξυγόνο και Υαλουρονικό Οξύ για τη μηχανική απομάκρυνση των υπολειμμάτων των τροφών από τα δόντια, τα ούλα, τα μεσοδόντια διαστήματα, τα εμφυτεύματα και τους ορθοδοντικούς μηχανισμούς, καθώς και για την ενυδάτωση του στοματικού βλεννογόνου.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Oral/oxygen_mouthwash/mouthwash_oxygen_01_new.jpg",
+    "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/oxygen-pro-mouthwash-stomatiko-dialyma/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
-  },
-  "5202888282003": {
-    "name": "SENSITIVE TEETH MOUTHWASH",
-    "description": "Φθοριούχο στοματικό διάλυμα για την καθημερινή φροντίδα των ευαίσθητων δοντιών. Με σύνθεση εμπλουτισμένη με οργανικό άλας καλίου, που η εξειδικευμένη δράση του αντιμετωπίζει άμεσα και αποτελεσματικά τα συμπτώματα και μειώνει σημαντικά την υπερευαισθησία των δοντιών.\n\n- Φροντίζει τα ευαίσθητα δόντια\n- Καταπολεμά τη μικροβιακή πλάκα\n- Αποτρέπει τη δημιουργία μεμβράνης μικροβίων\n- Προστατεύει από την τερηδόνα\n- Έχει αντιφλογιστική και αντιμικροβιακή δράση\n- Προσφέρει ευχάριστη δροσερή αναπνοή\n\nΜάθετε περισσότερα για την στοματική υγιεινή στο νέο μας blog!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Oral/sensitive_teeth_mouthwash/Sensitive_Teeth_Mouthwash_250ml_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-stomatikhs-ygieinhs-gia-eyaisthhta-dontia/proionta-stomatikhs-ygieinhs-gia-eyaisthhta-dontiasensitive-teeth-mouthwash-stomatiko-dialuma-gia-euaisthita-dontia/",
-    "source": "frezyderm.gr",
-    "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 9.9,
+    "review": false
   },
   "5202888261176": {
     "name": "NAZAL CLEANER ALLERGY (0,9% NaCl)",
@@ -1461,7 +1632,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-allergy-riniko-sprei-gia-allergikh-rinitida/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 6,
+    "score": 24.2,
     "review": false
   },
   "5202888106170": {
@@ -1471,8 +1642,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-baby-riniko-dialyma-gia-brefh/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 4.5,
-    "review": true
+    "score": 11.2,
+    "review": false
   },
   "5202888261152": {
     "name": "NAZAL CLEANER COLD (2,2% NaCl)",
@@ -1481,7 +1652,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-cold-riniko-sprei-xwris-kortizonh/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 6,
+    "score": 23.5,
     "review": false
   },
   "5202888261190": {
@@ -1491,7 +1662,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-cold-spicy-riniko-sprei-gia-entono-kruologhma/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 8,
+    "score": 38.5,
     "review": false
   },
   "5202888261169": {
@@ -1501,7 +1672,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-homeo-riniko-sprei-gia-omoiopathhtikh-therapeia/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 6,
+    "score": 24.2,
     "review": false
   },
   "5202888261183": {
@@ -1511,7 +1682,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-moist-riniko-sprei-gia-kshrothta/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 6,
+    "score": 24.2,
     "review": false
   },
   "5202888261145": {
@@ -1521,7 +1692,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/aposumforitika-mutis/rinika-eknefwmata/nazal-cleaner-sinus-protect-riniko-sprei-gia-igmoritida/",
     "source": "frezyderm.gr",
     "section": "aposumforitika-mutis",
-    "score": 8,
+    "score": 39.5,
+    "review": false
+  },
+  "5202888271151": {
+    "name": "NIGHT FORCE A + E CREAM",
+    "description": "Αντιγηραντική κρέμα νύχτας για το πρόσωπο και το λαιμό. Η πλούσια σύνθεσή της σε ρετινόλη ενισχύει τη σύνθεση του κολλαγόνου, ρυθμίζει τον πολλαπλασιασμό των κυττάρων, καταπολεμά τα πρώτα σημάδια γήρανσης και μειώνει ορατά τις ρυτίδες, ενώ η βιταμίνη Ε παρέχει αποτελεσματική προστασία από τις επιθέσεις των ελεύθερων ριζών.\n\nΕνυδατώνει την επιδερμίδα, αυξάνει το πάχος της λεπτής επιδερμίδας και ενισχύει το δερματικό φραγμό, που αποτελεί ασπίδα προστασίας από εξωγενείς επιθέσεις. Με πλούσια, μη λιπαρή υφή που απορροφάται άμεσα. Απλώστε την πριν τον ύπνο και αποκτήστε ξανά σφικτή, λαμπερή και αναζωογονημένη επιδερμίδα.\n\nΔερματολογικά Ελεγμένη\n\n22%\nΜείωση αριθμού βαθιών ρυτίδων*\n\n36%\nΑναδόμηση δέρματος*\n\n*Active Ingredients– Technical data.\n\nΔείτε πως θα αποκτήσετε νεανική επιδερμίδα!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/night_force/Night_Force_50ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/antigiradiki-krema-nuxtas/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoiisis-prosopou",
+    "score": 16.1,
     "review": false
   },
   "5202888102141": {
@@ -1531,8 +1712,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-thiles/nipple-care-malaktikh-krema-gia-thhles/",
     "source": "frezyderm.gr",
     "section": "proionta-egkumosunhs",
-    "score": 4,
-    "review": true
+    "score": 17,
+    "review": false
+  },
+  "5202888227165": {
+    "name": "NIPPLE EMOLLIENT CREAM-GEL ",
+    "description": "Μαλακτική κρέμα για περιποίηση και προστασία των θηλών. Προετοιμάζει τις θηλές και τις διατηρεί μαλακές, ώστε να ακολουθήσει πιο εύκολος και ανώδυνος θηλασμός. Έχει αντιερεθιστική και καταπραϋντική δράση, ενυδατώνει και ενισχύει την μικροκυκλοφορία της περιοχής και διατηρεί το δέρμα της θηλής ελαστικό και ανθεκτικό.\n\nΕίναι απόλυτα ασφαλές προϊόν, χωρίς να προκαλεί αλλεργίες. Δεν αλλοιώνει στο βρέφος την φυσική αίσθηση της θηλής.\n\nΔερματολογικά ελεγμένο\nΤοξικολογικό Τεστ Ασφάλειας\n\n12% αύξηση ενυδάτωσης*\n\n*Olea Europaea-Technical Data.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Nipple_Care_EMOLLIENT_CREAM_Gel/Nipple_Care_EMOLLIENT_CREAM_Gel_fram1.jpg",
+    "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-thiles/nipple-care-malaktikh-krema-gia-thhles/",
+    "source": "frezyderm.gr",
+    "section": "proionta-egkumosunhs",
+    "score": 11.8,
+    "review": false
   },
   "5202888282096": {
     "name": "ODOR BLOCKER TOOTHPASTE ",
@@ -1541,8 +1732,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/kakosmia-stomatos/odor-blocker-toothpaste-odontokrema-gia-tin-kakosmia-tou-stomatos/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
-    "review": true
+    "score": 7.5,
+    "review": false
   },
   "5202888282072": {
     "name": "ODOR BLOCKER MOUTHWASH",
@@ -1551,7 +1742,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/kakosmia-stomatos/odor-blocker-mouthwash-stomatiko-dialuma-gia-tin-kakosmia-tou-stomatos/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 24.5,
     "review": false
   },
   "5202888282034": {
@@ -1561,8 +1752,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/prostasia-apo-thn-terhdona/plaque-tartar-mouthwash-stomatiko-dialuma-gia-tin-teridona/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 20.4,
     "review": false
+  },
+  "5202888102110": {
+    "name": "PREVENSTRIA PROTECTIVE ANTI-STRIA CREAM ",
+    "description": "Προστατευτική κρέμα σώματος για την πρόληψη των ραβδώσεων (ραγάδων), κατά την περίοδο της εγκυμοσύνης και όποτε σημειώνεται απότομη αυξομείωση βάρους ή αύξηση ύψους, όπως την περίοδο της εφηβείας. Ενυδατώνει την επιδερμίδα, μειώνει τη διαδερμική απώλεια νερού, βελτιώνει τη δερματική υφή και αυξάνει την ελαστικότητα και την ανθεκτικότητα του δέρματος. Προλαμβάνει την αποδυνάμωση του δερματικού ιστού, τη χαλάρωση και τη δημιουργία ραβδώσεων. Ιδανικό και για την περιοχή του στήθους.\n\nΚατάλληλη από τον 3ο μήνα της κύησης και 1-2 μήνες μετά τον τοκετό.\n\nΤοξικολογικό Τεστ Ασφάλειας\n\n-50% φθορά ινών ελαστίνης\n+33% σύνθεση κολλαγόνου\n*Αctive Ingredients -Technical Data\n\nΔείτε στη Frezyland, πώς να αντιμετωπίσετε τις ραγάδες!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Prevenstria/Prevenstria_frame1.jpg",
+    "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-ragades-egkumosunhs/prevenstria-cream-prolhptikh-krema-gia-ragades/",
+    "source": "frezyderm.gr",
+    "section": "proionta-egkumosunhs",
+    "score": 5.5,
+    "review": true
   },
   "5202888223259": {
     "name": "PREVENSTRIA PROTECTIVE ANTI-STRIA CREAM ",
@@ -1571,8 +1772,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-ragades-egkumosunhs/prevenstria-cream-prolhptikh-krema-gia-ragades/",
     "source": "frezyderm.gr",
     "section": "proionta-egkumosunhs",
-    "score": 4,
-    "review": true
+    "score": 15.5,
+    "review": false
   },
   "5202888320125": {
     "name": "PRODILAC IMMUNO SHIELD FAST MELT",
@@ -1581,7 +1782,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-to-anwtero-anapneystiko/prodilac-immuno-shield-fast-melt-symplhrwma/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 10,
+    "score": 57,
     "review": false
   },
   "5202888320088": {
@@ -1591,7 +1792,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-to-anwtero-anapneystiko/prodilac-immuno-shield-start-gia-amyna-organismou-/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 8,
+    "score": 41,
     "review": false
   },
   "5202888320118": {
@@ -1601,7 +1802,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-to-anwtero-anapneystiko/prodilac-immuno-shield-start-gia-amyna-organismou-/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 8,
+    "score": 41,
     "review": false
   },
   "5202888105494": {
@@ -1611,18 +1812,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-kids-symplhrwma-diatrofhs-gia-paidia/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
-  },
-  "5202888320064": {
-    "name": "PRODILAC KIDS",
-    "description": "1 μασώμενο δισκίο Prodilac KIDS περιέχει 100 εκατομμύρια ζώντα στελέχη κατά την ημερομηνία λήξης:\n- Lactobacillus rhamnosus GG - Bifidobacterium longum BB536\n\nΗμερήσια συνιστώμενη δοσολογία:\n\n1-2 μασώμενα δισκία την ημέρα για συνήθη χρήση\n2-3 μασώμενα την ημέρα σε περίοδο αυξημένης ανάγκης\nΜε γεύση μανταρίνι\n\nΑρ. Γνωστοποίησης ΕΟΦ: 3043/13.01.2012. Δεν επέχει θέση άδειας κυκλοφορίας.\n\nΑνιχνεύονται ίχνη γάλακτος\nΚατάλληλο για χορτοφάγους.\nΔεν χορηγείται σε ανοσοκατεσταλμένα άτομα\n\nΔείτε εδώ τις Προειδοποιήσεις\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/sumplirwmata/proviotika/Frezyderm_Prodilac_Kids_rgb.jpg",
-    "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-kids-symplhrwma-diatrofhs-gia-paidia/",
-    "source": "frezyderm.gr",
-    "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
+    "score": 12.9,
+    "review": false
   },
   "5202888105517": {
     "name": "PRODILAC RESTORE",
@@ -1631,8 +1822,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-restore-symplhrwma-diatrofhs-gia-enhlikes-/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
+    "score": 17,
+    "review": false
   },
   "5202888105487": {
     "name": "PRODILAC START",
@@ -1641,8 +1832,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-start-symplhrwma-diatrofhs-gia-mwra/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
+    "score": 16.3,
+    "review": false
   },
   "5202888320095": {
     "name": "PRODILAC START",
@@ -1651,247 +1842,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-start-symplhrwma-diatrofhs-gia-mwra/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
-  },
-  "5202888228742": {
-    "name": "AC-NORM ACTIVE CLEANSER",
-    "description": "Απαλό υγρό καθαρισμού για το λιπαρό δέρμα με τάση ακμής. Αφαιρεί το υπερβολικό σμήγμα, τους ρύπους και το μακιγιάζ, παρέχει βακτηριακή προστασία, προστατεύει από τους περιβαλλοντικούς ρύπους, μειώνει τη λιπαρότητα και παρέχει σμηγματορρυθμιστική δράση. Επιπλέον, έχει κερατολυτική δράση και μειώνει τη δερματική δυσανεξία.\n\nΔερματολογικά Ελεγμένο\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ακμή στο Πρόσωπο.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Ac-Norm/active_cleanser/Acnorm_Active_Cleanser_big_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/proionta-katharismou-liparou-dermatos-me-tash-akmhs/ac-norm-active-cleanser-apalo-ygro-katharismou-proswpou/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 10.9,
     "review": false
   },
-  "5202888228681": {
-    "name": "AC-NORM MEDILIKE EFFECT 1 CREAM",
-    "description": "Μείωση των συμπτωμάτων της ακμής Τύπου 1 (ήπια-φαγεσωρική)\n\nΕναλλακτική επιλογή φαρμακευτικών αγωγών. Μιμείται τη δράση της κλασικής θεραπείας για τη μείωση των συμπτωμάτων της ακμής Τύπου 1 (ήπια-φαγεσωρική) χωρίς τη χρήση φαρμακευτικών μορίων.\n\nΗ FREZYDERM καινοτομεί και παρουσιάζει τη σειρά AC-NORM για ολοκληρωμένη προστασία του ακνεϊκού δέρματος. Δρα αυτόνομα ή συνδυάζεται με φαρμακευτικές αγωγές κατά της ακμής, ενώ ταυτόχρονα προκαλεί σμίκρυνση των διεσταλμένων θυλάκων και μείωση των φλεγμονωδών επαρμάτων.\n\nΗ δράση της βασίζεται στην ειδική φόρμουλα επιδερμικής εφαρμογής που σχηματίζει υμένιο βαθμιαίας αποδέσμευσης δραστικών συστατικών μέσω της σμηγματοπροσροφητικής δράσης ειδικής σκόνης.\n\nΠρωτόκολλο In Vitro και Ex Vivo σε swabs εθελοντών με διαγνωσμένη από Δερματολόγο Ακμή στο Πρόσωπο.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Ac-Norm/medilike_1/Acnorm_Medilike_new1_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-gia-akmh/ac-norm-medilike-effect-1-cream-symptwmata-akmhs/",
+  "5202888331022": {
+    "name": "FREZYDERM PROPOLIS ORAL SPRAY",
+    "description": "Συμπλήρωμα διατροφής για τον ερεθισμένο λαιμό. Περιέχει πρόπολη, μέλι, βιταμίνη C και εκχύλισμα θυμαριού, για καταπράυνση του ευαίσθητου, ερεθισμένου λαιμού.\n\nΠρόπολη: χρησιμοποιείται για προστασία λόγω της αντισηπτικής και αντιβακτηριδιακής της δράσης.\n\n-Μέλι – Θυμάρι : καταπραϋντική δράση και ανακούφιση του ερεθισμένου, ευαίσθητου λαιμού.\n\n-Βιταμίνη C: συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και προστατεύει τα κύτταρα από το οξειδωτικό stress ως φυσικό αντιοξειδωτικό (ΕFSA Journal 2015).\n\nΔείτε εδώ τις Προειδοποιήσεις\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/propolis_spray/PropolisSpray_big_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/propolis-oral-spray-sumplirwma-diatrofis-gia-erethismeno-laimo/",
     "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
-    "review": false
-  },
-  "5202888277481": {
-    "name": "ANTI-WRINKLE RICH DAY CREAM ΝΕΣΕΣΕΡ ΜΕ ΔΩΡΟ ΔΕΙΓΜΑ ANTI-WRINKLE NIGHT 15ml, EYE CREAM 5ml &amp; VELVET COLORS MEDIUM 2ml",
-    "description": "Ανανεώστε την επιδερμίδα σας με την anti-wrinkle rich day cream και ολοκληρώστε την αγωγή σας με δώρο δέιγμα anti-wrinkle rich day cream 15ml, eye cream 5ml και velvet colors make up medium 2ml\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2024/6th/427176.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/anti-wrinkle-rich-day-cream-neseser-me-doro-deigma-anti-wrinkle-night-eye-cream-velvet-colors-medium/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 7,
-    "review": false
-  },
-  "5202888277498": {
-    "name": "ANTI-WRINKLE RICH DAY CREAM ΝΕΣΕΣΕΡ ΜΕ ΔΩΡΟ ΔΕΙΓΜΑ ANTI-WRINKLE NIGHT 15ml, EYE CREAM 5ml &amp; VELVET COLORS MEDIUM 2ml",
-    "description": "Ανανεώστε την επιδερμίδα σας με την anti-wrinkle rich day cream και ολοκληρώστε την αγωγή σας με δώρο δέιγμα anti-wrinkle rich day cream 15ml, eye cream 5ml και velvet colors make up medium 2ml\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2024/6th/427176.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/anti-wrinkle-rich-day-cream-neseser-me-doro-deigma-anti-wrinkle-night-eye-cream-velvet-colors-medium/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 7,
-    "review": false
-  },
-  "5202888230950": {
-    "name": "BABY BATH",
-    "description": "Απαλό αφρόλουτρο για το καθημερινό μπάνιο που σέβεται το pH, τη φυσιολογική δερματική χλωρίδα και τον δερματικό φραγμό του βρέφους. Χάρη στα ήπια επιφανειοδραστικά προσφέρει καθαρισμό χωρίς να προκαλεί ερεθισμούς. Η εμπλουτισμένη του σύνθεση με εστέρες από αμύγδαλο εξασφαλίζει την αναλίπανση της επιδερμίδας και τη διατήρηση ανέπαφου του δερματικού φραγμού. Παράλληλα, το εκχύλισμα χαμομηλιού προσφέρει αντιφλογιστική και αντιερεθιστική προστασία ενώ οι πρωτεΐνες σίτου με τις μαλακτικές και ενυδατικές ιδιότητες τους ενισχύουν τον υδρολιπιδικό μανδύα.\n\nΔερματολογικά και Οφθαλμολογικά Ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/baby_bath/Baby-Bath-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
-  },
-  "5202888221637": {
-    "name": "BABY SUN CARE SPF 50 100ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 50ml",
-    "description": "Προστατέψτε το δέρμα του μωρού σας από τον ήλιο, με το αντηλιακό γαλάκτωμα προσώπου και σώματος για βρέφη Baby Sun Care SPF 50, μόνο με φυσικά φίλτρα, σε ειδικό πακέτο προσφοράς.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2026/423125_Baby_sun_care_50.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/baby-sun-care-spf-50-100ml-me-doro-epipleon-posotita-50ml/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 3,
-    "review": true
-  },
-  "5202888230943": {
-    "name": "BABY SUN CARE SPF 50 100ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 50ml",
-    "description": "Προστατέψτε το δέρμα του μωρού σας από τον ήλιο, με το αντηλιακό γαλάκτωμα προσώπου και σώματος για βρέφη Baby Sun Care SPF 50, μόνο με φυσικά φίλτρα, σε ειδικό πακέτο προσφοράς.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2026/423125_Baby_sun_care_50.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/baby-sun-care-spf-50-100ml-me-doro-epipleon-posotita-50ml/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 3,
-    "review": true
-  },
-  "5202888230974": {
-    "name": "BABY HYDRA MILK",
-    "description": "Ενυδατικό γαλάκτωμα κατάλληλο για το ξηρό και ευαίσθητο δέρμα. Με φυσιολογικούς ενυδατικούς παράγοντες για πλούσια και σε βάθος ενυδάτωση του δέρματος. Περιποιείται και μαλακώνει το δερματάκι του μωρού και προλαμβάνει την αφυδάτωση και την ξηροδερμία. Εμπλουτισμένο με πρωτεΐνες σιταριού για την ενίσχυση του υδρολιπιδικού μανδύα, που αφήνει ένα λεπτό στρώμα υδρολιπιδικής ισορροπίας για την προστασία της επιδερμίδας από ερεθισμούς. Παράλληλα, περιέχει εκχύλισμα χαμομηλιού για αντιφλογιστική και αντιερεθιστική δράση και αντιφλογιστικά συστατικά με επουλωτικές και καταπραϋντικές ιδιότητες.\n\nΔερματολογικά Ελεγμένο\n\nΝέα ΜΕΓΑΛΥΤΕΡΗ συσκευασία με πρακτική αντλία\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/hydra_milk/BABY-HYDRA-MILK-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/brefiko-galaktoma/baby-hydra-milk-brefiko-galaktwma/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 6,
-    "review": false
-  },
-  "5202888221491": {
-    "name": "BABY HYDRA MILK",
-    "description": "Ενυδατικό γαλάκτωμα κατάλληλο για το ξηρό και ευαίσθητο δέρμα. Με φυσιολογικούς ενυδατικούς παράγοντες για πλούσια και σε βάθος ενυδάτωση του δέρματος. Περιποιείται και μαλακώνει το δερματάκι του μωρού και προλαμβάνει την αφυδάτωση και την ξηροδερμία. Εμπλουτισμένο με πρωτεΐνες σιταριού για την ενίσχυση του υδρολιπιδικού μανδύα, που αφήνει ένα λεπτό στρώμα υδρολιπιδικής ισορροπίας για την προστασία της επιδερμίδας από ερεθισμούς. Παράλληλα, περιέχει εκχύλισμα χαμομηλιού για αντιφλογιστική και αντιερεθιστική δράση και αντιφλογιστικά συστατικά με επουλωτικές και καταπραϋντικές ιδιότητες.\n\nΔερματολογικά Ελεγμένο\n\nΝέα ΜΕΓΑΛΥΤΕΡΗ συσκευασία με πρακτική αντλία\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/hydra_milk/BABY-HYDRA-MILK-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/brefiko-galaktoma/baby-hydra-milk-brefiko-galaktwma/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 6,
-    "review": false
-  },
-  "5202888230967": {
-    "name": "BABY BATH",
-    "description": "Απαλό αφρόλουτρο για το καθημερινό μπάνιο που σέβεται το pH, τη φυσιολογική δερματική χλωρίδα και τον δερματικό φραγμό του βρέφους. Χάρη στα ήπια επιφανειοδραστικά προσφέρει καθαρισμό χωρίς να προκαλεί ερεθισμούς. Η εμπλουτισμένη του σύνθεση με εστέρες από αμύγδαλο εξασφαλίζει την αναλίπανση της επιδερμίδας και τη διατήρηση ανέπαφου του δερματικού φραγμού. Παράλληλα, το εκχύλισμα χαμομηλιού προσφέρει αντιφλογιστική και αντιερεθιστική προστασία ενώ οι πρωτεΐνες σίτου με τις μαλακτικές και ενυδατικές ιδιότητες τους ενισχύουν τον υδρολιπιδικό μανδύα.\n\nΔερματολογικά και Οφθαλμολογικά Ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/baby_bath/Baby-Bath-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
-  },
-  "5202888227875": {
-    "name": "DERMOFILIA HAND CREAM 75ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 40ml",
-    "description": "Aποκτήστε βελούδινα χέρια προσφέροντας ενισχυμένη ενυδάτωση και προστασία με την προστατευτική κρέμα χεριών Dermofilia Hand Cream και δώρο επιπλέον ποσότητα 40ml σε περιέκτη χωρητικότητας 75ml.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2025/6th/427796.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/dermofilia-hand-cream-me-doro-epipleon-posotita/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 11,
-    "review": false
-  },
-  "5202888225727": {
-    "name": "HAIR FORCE SHAMPOO MEN",
-    "description": "Τριχοτονωτικό σαμπουάν, με ειδική σύνθεση για την αντιμετώπιση της αντρικής τριχόπτωσης. Τα ενεργά συστατικά του αντιμετωπίζουν τη χρόνια και εποχική αντιδραστική τριχόπτωση, την αραίωση, την αλωπεκία (φαλάκρα) και τα αδύναμα μαλλιά και προσφέρουν ενδυνάμωση των θυλάκων και ενίσχυση της τριχοφυΐας. Με ουδέτερο pH.\n\nΜελέτες\nΑποτελεσματικότητας\nΑξιολόγησης ασφάλειας\n\nΔείτε πως θα αντιμετωπίσετε την αντρική τριχόπτωση.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Hairline/hair_force_shampoo_men/Hair_Force_Shampoo_Men_200ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/",
-    "source": "frezyderm.gr",
-    "section": "peripoiisi-mallion",
-    "score": 6,
-    "review": false
-  },
-  "5202888277528": {
-    "name": "ANTI-WRINKLE RICH DAY CREAM ΝΕΣΕΣΕΡ ΜΕ ΔΩΡΟ ΔΕΙΓΜΑ ANTI-WRINKLE NIGHT 15ml, EYE CREAM 5ml &amp; VELVET COLORS MEDIUM 2ml",
-    "description": "Ανανεώστε την επιδερμίδα σας με την anti-wrinkle rich day cream και ολοκληρώστε την αγωγή σας με δώρο δέιγμα anti-wrinkle rich day cream 15ml, eye cream 5ml και velvet colors make up medium 2ml\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2024/6th/427176.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/anti-wrinkle-rich-day-cream-neseser-me-doro-deigma-anti-wrinkle-night-eye-cream-velvet-colors-medium/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 13,
-    "review": false
-  },
-  "5202888227790": {
-    "name": "INTIM AREA WIPES",
-    "description": "Πρακτικά μαντήλια καθαρισμού για την καθημερινή υγιεινή της ευαίσθητης και περιπρωκτικής περιοχής κατά την αναπαραγωγική ηλικία. Προσφέρουν ήπιο καθαρισμό και προστασία από ερεθισμούς, ξηρότητα και τοπική δυσανεξία. Διαθέτουν ειδικά μελετημένη σύνθεση που ενισχύει την άμυνα της περιοχής και προσφέρουν βακτηριακή προστασία.\n\nΤο κουτί περιέχει 20 μαντήλια σε ατομική συσκευασία.\n\nΕιδικό Τοξικολογικό Τεστ Ασφάλειας\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Intim_Area_Wipes/Intim_Area_Wipes.jpg",
-    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/katharismos/intim-area-wipes-manthlakia-katharismou/",
-    "source": "frezyderm.gr",
-    "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 6,
-    "review": false
-  },
-  "5202888230905": {
-    "name": "BABY BATH",
-    "description": "Απαλό αφρόλουτρο για το καθημερινό μπάνιο που σέβεται το pH, τη φυσιολογική δερματική χλωρίδα και τον δερματικό φραγμό του βρέφους. Χάρη στα ήπια επιφανειοδραστικά προσφέρει καθαρισμό χωρίς να προκαλεί ερεθισμούς. Η εμπλουτισμένη του σύνθεση με εστέρες από αμύγδαλο εξασφαλίζει την αναλίπανση της επιδερμίδας και τη διατήρηση ανέπαφου του δερματικού φραγμού. Παράλληλα, το εκχύλισμα χαμομηλιού προσφέρει αντιφλογιστική και αντιερεθιστική προστασία ενώ οι πρωτεΐνες σίτου με τις μαλακτικές και ενυδατικές ιδιότητες τους ενισχύουν τον υδρολιπιδικό μανδύα.\n\nΔερματολογικά και Οφθαλμολογικά Ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/baby_bath/Baby-Bath-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
-  },
-  "5202888230912": {
-    "name": "BABY BATH",
-    "description": "Απαλό αφρόλουτρο για το καθημερινό μπάνιο που σέβεται το pH, τη φυσιολογική δερματική χλωρίδα και τον δερματικό φραγμό του βρέφους. Χάρη στα ήπια επιφανειοδραστικά προσφέρει καθαρισμό χωρίς να προκαλεί ερεθισμούς. Η εμπλουτισμένη του σύνθεση με εστέρες από αμύγδαλο εξασφαλίζει την αναλίπανση της επιδερμίδας και τη διατήρηση ανέπαφου του δερματικού φραγμού. Παράλληλα, το εκχύλισμα χαμομηλιού προσφέρει αντιφλογιστική και αντιερεθιστική προστασία ενώ οι πρωτεΐνες σίτου με τις μαλακτικές και ενυδατικές ιδιότητες τους ενισχύουν τον υδρολιπιδικό μανδύα.\n\nΔερματολογικά και Οφθαλμολογικά Ελεγμένο\n\nΕπισκεφθείτε τη Frezyland για το πρώτο μπανάκι του μωρού σας!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Babyline/baby_bath/Baby-Bath-300ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/vrefika-afroloutra/baby-bath-vrefiko-afroloutro/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
-  },
-  "5202888222931": {
-    "name": "SUN SCREEN VELVET FACE SPF 30 ",
-    "description": "Αδιαπραγμάτευτη ασφάλεια κάτω απ’ τον ήλιο με το πρωτοποριακό, διάφανο αντηλιακό υψηλής προστασίας που ξεχωρίζει για την χαρακτηριστική βελούδινη και ultra ανάλαφρη υφή του σαν αόρατο δεύτερο δέρμα.\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΤΟΣΟ ΒΕΛΟΥΔΙΝΟ! ΤΟΣΟ ΑΝΑΛΑΦΡΟ! ΤΟΣΟ ΔΙΑΦΑΝΟ!\n\nΤο πρώτο και μοναδικό αντηλιακό που έφερε την επανάσταση στην αντηλιακή προστασία με την υπερανάλαφρη υφή που γίνεται ένα με το δέρμα. Αφήνει μια βελούδινη αίσθηση στο δέρμα .\n\nΔΕΝ ΦΡΑΣΣΕΙ ΤΟΥΣ ΠΟΡΟΥΣ. ΔΕΝ ΒΑΡΑΙΝΕΙ. ΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ.\n\nΜη φαγεσωρογόνος σύνθεση που δεν παρεμποδίζει τη φυσική αναπνοή του δέρματος και την εφίδρωσή του και δεν προκαλεί μαύρα ή άσπρα στίγματα. Αφήνει ματ αποτέλεσμα μεγάλης διάρκειας και είναι ιδανικό και για λιπαρά με τάση ακμής δέρματα.\n\n• Με μικροπρισματικούς κρυστάλλους για άμεσο εφέ λείανσης ρυτίδων.\n• Ιδανικό σαν primer για το μακιγιάζ.\n\nYou have to feel it to believe it!\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΙδανικό και για άντρες, αφού εφαρμόζεται και σε περιοχές του προσώπου με αυξημένη τριχοφυΐα.\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\nΧωρίς άρωμα\nΧωρίς γλουτένη\n\nΔΕΙΤΕ ΤΟ VIDEO ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΠΡΩΤΗΣ ΧΡΗΣΗΣ\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_30/Sunscreen_Velvet_30_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-30/",
-    "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "score": 4,
-    "review": true
-  },
-  "5202888224294": {
-    "name": "CRILEN ΓΑΛΑΚΤΩΜΑ 125ml ΜΕ ΔΩΡΟ ΕΠΙΠΛΕΟΝ ΠΟΣΟΤΗΤΑ 40ml",
-    "description": "Για βαθιά ενυδάτωση και εντομοαπωθητική δράση υπάρχει το πακέτο με το Crilen Γαλάκτωμα σε συσκευασία δώρου με επιπλέον ποσότητα, 40ml.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/PROMO_PACKS/2026/422266_Crilen.jpg",
-    "url": "https://www.frezyderm.gr/proionta-prosfores/crilen-entomoapwthhtiko-galaktwma/",
-    "source": "frezyderm.gr",
-    "section": "proionta-prosfores",
-    "score": 7,
-    "review": false
-  },
-  "5202888224287": {
-    "name": "LICE REP EXTREME SPRAY",
-    "description": "Προληπτική αντιφθειρική λοσιόν για καθημερινή χρήση. Χαρίζει απαλότητα και λάμψη. Δεν λαδώνει τα μαλλιά.\n\nΧρησιμοποιείτε τo Lice Rep Extreme Spray με ασφαλή τρόπο. Να διαβάζετε πάντα την ετικέτα και τις πληροφορίες για το προϊόν πριν τη χρήση.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/extreme_spray/Lice_Rep_Extreme_150ml_big_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/antiftheirika-gia-paidia/lice-rep-lotion-gia-pseires/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
-    "review": false
-  },
-  "5202888277078": {
-    "name": "DE-MAKE UP 4 in 1",
-    "description": "Απαλό γαλάκτωμα καθαρισμού για το πρόσωπο, το λαιμό και τα μάτια. Προσφέρει αποτελεσματικό καθαρισμό από ρύπους και προϊόντα μακιγιάζ, ενώ ταυτόχρονα τονώνει, δροσίζει και ενυδατώνει την επιδερμίδα, χωρίς να αφήνει την αίσθηση λιπαρότητας. Είναι κατάλληλο και για την αφαίρεση αδιάβροχων προϊόντων μακιγιάζ. Με λεπτόρρευστη, δροσερή υφή που δεν αφήνει ίχνη λιπαρότητας.\nΔερματολογικά Ελεγμένο\n\nΥψηλή αποτελεσματικότητα αφαίρεσης μακιγιάζ*\n\n*Active Ingredients– Technical data.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/demakeup/De_Makeup_200ml_new_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/katharismos-proswpou/proionta-ntemakigiaz/galaktwma-ntemakigiaz/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
-    "review": false
-  },
-  "5202888230585": {
-    "name": "SENSITEETH KIDS TOOTHPASTE 500ppm",
-    "description": "Παιδική οδοντόκρεμα, κατά της τερηδόνας, για τον καθημερινό καθαρισμό των δοντιών. Η σύνθεση της απαλή, και ασφαλή για τον στοματικό βλεννογόνο. Η συνεργική δράση Φθόριου 500ppm και Ασβεστίου, προστατεύει τα δοντάκια από την τερηδόνα και τα μικρόβια, ενισχύει το σμάλτο των δοντιών και εξασφαλίζει γερά δόντια. Με υπέροχη γεύση βατόμουρου.\n\nΚλινικά Ελεγμένη\n\nΔείτε στη Frezyland πώς να κάνετε το βούρτισμα των παιδιών σας, παιχνίδι!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/500/SENSITEETH_TOOTHPASTE_500ppm_50ml__medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidikes-odontokremes/sensiteeth-kids-toothpaste-paidikh-odontokrema/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 8,
-    "review": false
-  },
-  "5202888230936": {
-    "name": "SENSITIVE KIDS MAGIC SPRAY",
-    "description": "Αρωματική λοσιόν που ξεμπερδεύει τα μαλλάκια, χωρίς να τα βαραίνει. Περιέχει μαλακτικούς παράγοντες που ενυδατώνουν την τρίχα σε βάθος και ενισχύουν την ελαστικότητα της τρίχας, διευκολύνοντας το χτένισμα. Προστατεύει τη φυσιολογική δερματική χλωρίδα και ενισχύει το μικροβιολογικό φραγμό της φυσιολογικής καθώς και της ευαίσθητης παιδικής επιδερμίδας.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensitive_kids/magic_spray/Sensitive_Kids_Magic_Spray_100ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/proionta-styling-malliwn-gia-paidia/sensitive-kids-paidiko-sprei-gia-ksemplegma-malliwn/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
-    "review": false
-  },
-  "5202888230929": {
-    "name": "SENSITIVE KIDS STYLING GEL",
-    "description": "Απαλό gel για δυνατό κράτημα που παράλληλα θρέφει και τονώνει την τρίχα. Προστατεύει τη φυσιολογική δερματική χλωρίδα και ενισχύει το μικροβιολογικό φραγμό, ενώ παράλληλα ενυδατώνει την τρίχα, ενισχύει την ελαστικότητα και προστατεύει από τη φθορά.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensitive_kids/styling_gel/SENSITIVE_KIDS_HAIR_STYLING_GEL_100ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/proionta-styling-malliwn-gia-paidia/sensitive-kids-styling-gel-paidiko-zele-malliwn/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
-    "review": false
-  },
-  "5202888222702": {
-    "name": "ACTIVE SUN SCREEN LIP BALM SPF 50+",
-    "description": "Μία ενεργή αντηλιακή προστασία χειλιών με προηγμένη φόρμουλα που συνενώνει 3 καινοτομίες σε 1 εξασφαλίζοντας:\n\n1) πολύ υψηλή ηλιοπροστασία που διαρκεί\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΠεριέχει αντιοξειδωτικούς παράγοντες καθώς και φυτικά έλαια που προστατεύουν τα χείλη από την αφυδάτωση.\n\nΜε φωτοσταθερά φίλτρα νέας τεχνολογίας UVA/UVB/VIS/IR\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/lip_balm/Active_Lip_Balm_Spf_50__15ml_small_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/active-antiliako-gia-xeili-me-energo-anthraka/",
-    "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "score": 8,
+    "section": "sumplhrwmata-diatrofis",
+    "score": 17.5,
     "review": false
   },
   "5202888263026": {
@@ -1901,8 +1862,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst-flakes-balance-eidikh-krema-gia-thn-pswriash/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "score": 4,
-    "review": true
+    "score": 19.6,
+    "review": false
   },
   "5202888263040": {
     "name": "PS.T. CLEANSER STEP 1",
@@ -1911,8 +1872,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst-cleanser-katharistiko-gia-pswriash/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "score": 4,
-    "review": true
+    "score": 20.7,
+    "review": false
+  },
+  "5202888263019": {
+    "name": "PS.T. SECOND SKIN CREAM STEP 4",
+    "description": "Η ψωρίαση είναι αυτοάνοση δερματική διαταραχή. Η λειτουργία των κερατινοκυττάρων και των ινοβλαστών του δέρματος διαταράσσεται. Τα κύτταρα ανανεώνονται υπερβολικά γρήγορα, δεν αποβάλλονται με κανονικό ρυθμό, εμφανίζεται ερυθρότητα, ξηρότητα, κνησμός, συσσώρευση φολίδων. Το PS.T system στοχεύει στην άμεση ανακούφιση του δέρματος σε 3 στάδια.\nΠροστατεύει και βελτιώνει την όψη της επιδερμίδας. Δημιουργεί ένα ματ αόρατο φιλμ, προστατεύει το λεπτό ευαίσθητο δέρμα από εξωγενείς παράγοντες, βελτιώνει την εμφάνιση των φολίδων και ενισχύει την αποτελεσματικότητα των προϊόντων PS.T.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Psoriasis_pst/4/PST-Psoriasis-Step-4-50ml_medium_05.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst4-second-skin-cream-step-4/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
+    "score": 11.1,
+    "review": false
   },
   "5202888263033": {
     "name": "PS.T. SECOND SKIN CREAM STEP 4",
@@ -1921,28 +1892,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst4-second-skin-cream-step-4/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "score": 6,
+    "score": 44.9,
     "review": false
-  },
-  "5202888263071": {
-    "name": "PS.T. SECOND SKIN CREAM STEP 4",
-    "description": "Η ψωρίαση είναι αυτοάνοση δερματική διαταραχή. Η λειτουργία των κερατινοκυττάρων και των ινοβλαστών του δέρματος διαταράσσεται. Τα κύτταρα ανανεώνονται υπερβολικά γρήγορα, δεν αποβάλλονται με κανονικό ρυθμό, εμφανίζεται ερυθρότητα, ξηρότητα, κνησμός, συσσώρευση φολίδων. Το PS.T system στοχεύει στην άμεση ανακούφιση του δέρματος σε 3 στάδια.\nΠροστατεύει και βελτιώνει την όψη της επιδερμίδας. Δημιουργεί ένα ματ αόρατο φιλμ, προστατεύει το λεπτό ευαίσθητο δέρμα από εξωγενείς παράγοντες, βελτιώνει την εμφάνιση των φολίδων και ενισχύει την αποτελεσματικότητα των προϊόντων PS.T.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Psoriasis_pst/4/PST-Psoriasis-Step-4-50ml_medium_05.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst4-second-skin-cream-step-4/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "score": 4,
-    "review": true
-  },
-  "5202888273001": {
-    "name": "FACE SERUM PURE COLLAGEN - Ορός Σύσφιξης Προσώπου με Κολλαγόνο",
-    "description": "Ορός σύσφιγξης και ενίσχυσης του δέρματος με διπλή τεχνολογία κολλαγόνου για επαναφορά ελαστικότητας και πλήρη αναδόμηση του δέρματος. Περιέχει κολλαγόνο (Vegan) μη ζωικής προέλευσης υψηλής καθαρότητας, συμβατότητας & ασφάλειας και ενεργοποιημένη μορφή Αμινοξέων και Χαλκού τα οποία ενεργοποιούν τη σύνθεση κολλαγόνου και ελαστίνης. Αυξάνει τη σφριγηλότητα και αποκαθιστά τη συνοχή του δέρματος βελτιώνοντας την ποιότητα και τη δομή των δικτύου των ινών κολλαγόνου, μειώνει άμεσα τον όγκο και το βάθος των ρυτίδων και καταπολεμά συνολικά τα σημεία κούρασης στο δέρμα, επαναφέροντας τη φωτεινή, λαμπερή όψη. Ενισχύει την άμυνα του δέρματος απέναντι στους ενδογενείς και εξωγενείς παράγοντες φθοράς του και προστατεύει το κολλαγόνο από τη διαδικασία γλυκοζυλίωσης και την επιβλαβή της δράση στη δομή του δέρματος.\n\nx13 σύσφιγξη σε 15 μέρες1\n+60% ελαστικότητα σε 15 μέρες1\n-15% βάθος ρυτίδων σε 15 μέρες1\n-69% δερματική κόπωση2\n\nΕναλλακτική προσέγγιση επεμβατικών διεργασιών αλλά και μετά από επεμβατικές πράξεις για επιμήκυνση αποτελεσμάτων.\n\nΔερματολογικά ελεγμένο\n\n1.MG6P-Technical Data.\n2. Albizia Julibrissin.-Technical Data.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Serums_/PURE_COLLAGEN/Face_Seum_Face_PURE_COLLAGEN_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/serum-proswpou/face-serum-pure-collagen-oros-susfiksis-prosopou-me-kollagono/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
   },
   "5202888223266": {
     "name": "RECONSTRIA RESTRUCTURING ANTI-STRIA CREAM",
@@ -1951,8 +1902,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-ragades-egkumosunhs/reconstria-cream-krema-antimetwpishs-ragadwn/",
     "source": "frezyderm.gr",
     "section": "proionta-egkumosunhs",
-    "score": 4,
-    "review": true
+    "score": 15.5,
+    "review": false
+  },
+  "5202888227592": {
+    "name": "RECTANAL AID OINTMENT ",
+    "description": "Καταπραϋντική αλοιφή για την ανακούφιση των συμπτωμάτων των αιμορροΐδων και των ραγάδων του πρωκτού.\nΜαλακτική & επουλωτική δράση.\nΕμπλουτισμένη με φυτικά συστατικά, silica και φυσικά μιμητικά Λανολίνης & Βαζελίνη.\nΔεν αφήνει αίσθηση λιπαρότητας.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Rectanal/ointment/rectanal_aid_oinment.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/aimoroides/rectanal-aid-ointment-/",
+    "source": "frezyderm.gr",
+    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
+    "score": 12.4,
+    "review": false
   },
   "5202888262500": {
     "name": "REVITALIZATION HYDROGEL EYE PATCH",
@@ -1961,7 +1922,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/maskes-proswpou-eye-patches/revitalization-hydrogel-eye-patch-maska-matiwn/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 42.7,
     "review": false
   },
   "5202888222443": {
@@ -1971,7 +1932,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/sun-screen-on-the-move-spf-50-anthliako-spray-proswpou/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 10,
+    "score": 29,
     "review": false
   },
   "5202888222375": {
@@ -1981,7 +1942,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sea-side-antiliako-mist/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 35.6,
     "review": false
   },
   "5202888262531": {
@@ -1991,7 +1952,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/maskes-proswpou-eye-patches/seaweed-hydrogel-care-patch-maska-proswpou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 41.4,
     "review": false
   },
   "5202888105135": {
@@ -2001,8 +1962,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/lipara-mallia/seb-excess-shampoo-sampouan/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 11.6,
+    "review": false
   },
   "5202888105128": {
     "name": "SEB EXCESS SHAMPOO",
@@ -2011,8 +1972,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/lipara-mallia/seb-excess-shampoo-sampouan/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 26.8,
+    "review": false
   },
   "5202888105098": {
     "name": "SEBUM CONTROL SHAMPOO",
@@ -2021,8 +1982,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/smigmatorroiki-dermatitida/sebum-control-shampoo-sampouan/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 12.9,
+    "review": false
   },
   "5202888105081": {
     "name": "SEBUM CONTROL SHAMPOO",
@@ -2031,8 +1992,18 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/smigmatorroiki-dermatitida/sebum-control-shampoo-sampouan/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-mallion",
-    "score": 4,
-    "review": true
+    "score": 27,
+    "review": false
+  },
+  "5202888102158": {
+    "name": "SELF CARE GEL INTIM LUBRICANT CARE",
+    "description": "Ενυδατική και λιπαντική αιδοιoκολπική γέλη για την ανακούφιση των συμπτωμάτων κολπικής ξηρότητας στην αναπαραγωγική ηλικία, όπως κνησμός, τσούξιμο, αίσθημα καύσου, τοπικοί ερεθισμοί η δυσχέρεια κατά τη συνεύρεση.\n\nΔεν περιέχει δραστικές φαρμακευτικές ουσίες και ουσίες με ορμονική δράση.\n\nΓυναικολογικά ελεγμένο\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/SELF_CARE_INTIM_LUBRICANT_GEL/Self_Care_Intim_Gel.jpg",
+    "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/eidikh-peripoihsh-euaisthhths-perioxhs/self-care-gel-gia-thn-peripoihsh-euaisthhths-perioxhs/",
+    "source": "frezyderm.gr",
+    "section": "peripoihsh-euaisthhths-perioxhs",
+    "score": 21.3,
+    "review": false
   },
   "5202888227585": {
     "name": "SELF CARE GEL INTIM LUBRICANT CARE",
@@ -2041,8 +2012,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/eidikh-peripoihsh-euaisthhths-perioxhs/self-care-gel-gia-thn-peripoihsh-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "peripoihsh-euaisthhths-perioxhs",
-    "score": 4,
-    "review": true
+    "score": 30.6,
+    "review": false
   },
   "5202888222283": {
     "name": "SELF TAN BODY SHAPE",
@@ -2051,7 +2022,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/automauristiko/automauristiko-galaktwma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 27,
     "review": false
   },
   "5202888230103": {
@@ -2061,8 +2032,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidikes-odontokremes/sensiteeth-epismalto-toothpaste/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
+    "score": 10.1,
+    "review": false
   },
   "5202888230127": {
     "name": "SENSITEETH FIRST TOOTHPASTE ",
@@ -2071,8 +2042,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/frontida-mwrou/brefiki-stomatiki-ugieini/brefikes-odontokremes/sensiteeth-first-toothpaste-brefiki-odontokrema/",
     "source": "frezyderm.gr",
     "section": "frontida-mwrou",
-    "score": 4,
-    "review": true
+    "score": 8.8,
+    "review": false
   },
   "5202888230134": {
     "name": "SENSITEETH KIDS APHTHAE GEL",
@@ -2081,27 +2052,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidika-kataprauntika-gel-gia-afthes-stomatika-elkh/sensiteeth-kids-aphthae-gel-tzel-afthes/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
-    "review": false
-  },
-  "5202888230080": {
-    "name": "SENSITEETH KIDS MOUTHWASH ",
-    "description": "Στοματικό διάλυμα κατά της τερηδόνας, για παιδιά από 6 ετών με Φθόριο 250ppm και Ασβέστιο. Προστατεύει από την τερηδόνα, τα μικρόβια και τους ερεθισμούς των ούλων, ενισχύει το σμάλτο των δοντιών, εξασφαλίζει γερά δόντια χωρίς σφραγίσματα, και είναι ασφαλές για το στοματικό βλενογόννο. Με υπέροχη γεύση βατόμουρου.\n\nΚλινικά Ελεγμένο\n\nΔείτε στη Frezyland πώς να κάνετε το βούρτισμα των παιδιών σας, παιχνίδι!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/mouthwash_new_/Sensiteeth-Mouthwash-250ml_big_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/stomatika-dialumata-gia-paidia/sensiteeth-kids-stomatiko-dialuma-gia-paidia/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
-  },
-  "5202888230691": {
-    "name": "SENSITEETH KIDS MOUTHWASH ",
-    "description": "Στοματικό διάλυμα κατά της τερηδόνας, για παιδιά από 6 ετών με Φθόριο 250ppm και Ασβέστιο. Προστατεύει από την τερηδόνα, τα μικρόβια και τους ερεθισμούς των ούλων, ενισχύει το σμάλτο των δοντιών, εξασφαλίζει γερά δόντια χωρίς σφραγίσματα, και είναι ασφαλές για το στοματικό βλενογόννο. Με υπέροχη γεύση βατόμουρου.\n\nΚλινικά Ελεγμένο\n\nΔείτε στη Frezyland πώς να κάνετε το βούρτισμα των παιδιών σας, παιχνίδι!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/mouthwash_new_/Sensiteeth-Mouthwash-250ml_big_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/stomatika-dialumata-gia-paidia/sensiteeth-kids-stomatiko-dialuma-gia-paidia/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 32.3,
     "review": false
   },
   "5202888230097": {
@@ -2111,17 +2062,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidikes-odontokremes/sensiteeth-kids-toothpaste-paidikh-odontokrema/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
-  },
-  "5202888230059": {
-    "name": "SENSITEETH FIRST TOOTHPASTE ",
-    "description": "Οδοντόκρεμα για την πρώτη οδοντοφυΐα, για βρέφη από 6 μηνών έως παιδιά 3 ετών. Η σύνθεση της απαλή και ασφαλή για τον στοματικό βλεννογόνο, προστατεύει τα πρώτα δοντάκια από την τερηδόνα και την δημιουργία πλάκας, και το στόμα από την ανάπτυξη μικροβίων, ενώ σέβεται τη φυσιολογία των ούλων. Με καταπληκτική γεύση βατόμουρου.\n\nΔείτε στη Frezyland συμβουλές για τον καθαρισμό των νεογιλών δοντιών!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/first/SENSITEETH_FIRST_40ml_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/frontida-mwrou/brefiki-stomatiki-ugieini/brefikes-odontokremes/sensiteeth-first-toothpaste-brefiki-odontokrema/",
-    "source": "frezyderm.gr",
-    "section": "frontida-mwrou",
-    "score": 4,
+    "score": 3.8,
     "review": true
   },
   "5202888230158": {
@@ -2131,17 +2072,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/afroloutra/sensitive-kids-afros-katharismou-euaisthhths-perioxhs/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 23.5,
     "review": false
   },
   "5202888230066": {
-    "name": "SENSITIVE KIDS SHAMPOO GIRLS",
-    "description": "Εξειδικευμένο σαμπουάν για κορίτσια, το οποίο περιποιείται απαλά την ευαίσθητη και ερεθισμένη παιδική επιδερμίδα και αφήνει απαλά μαλλιά για εύκολο χτένισμα. Προσφέρει βαθύ καθαρισμό ενώ παράλληλα προστατεύει τη φυσιολογική δερματική χλωρίδα, ενισχύει το μικροβιολογικό φραγμό και καταπραΰνει υπάρχοντες ερεθισμούς. Ενυδατώνει και ενισχύει την ελαστικότητα της τρίχας και προσφέρει στα μαλλιά όγκο και λάμψη.\nΔημιουργεί πλούσιο αφρό που κάνει το λούσιμο “παιχνίδι” και ξεπλένεται πολύ εύκολα. Έχει ουδέτερο pH και δεν ερεθίζει τα μάτια!\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensitive_kids/shampoo_girl/Sensitive_kids_Shampoo_Girl_200ml_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-sampouan/sensitive-kids-paidiko-sampouan-gia-koritsia/",
+    "name": "SENSITIVE KIDS MAGIC SPRAY",
+    "description": "Αρωματική λοσιόν που ξεμπερδεύει τα μαλλάκια, χωρίς να τα βαραίνει. Περιέχει μαλακτικούς παράγοντες που ενυδατώνουν την τρίχα σε βάθος και ενισχύουν την ελαστικότητα της τρίχας, διευκολύνοντας το χτένισμα. Προστατεύει τη φυσιολογική δερματική χλωρίδα και ενισχύει το μικροβιολογικό φραγμό της φυσιολογικής καθώς και της ευαίσθητης παιδικής επιδερμίδας.\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensitive_kids/magic_spray/Sensitive_Kids_Magic_Spray_100ml_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/proionta-styling-malliwn-gia-paidia/sensitive-kids-paidiko-sprei-gia-ksemplegma-malliwn/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 25.3,
     "review": false
   },
   "5202888230011": {
@@ -2151,18 +2092,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-sampouan/sensitive-kids-paidiko-sampouan-gia-agoria/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 28,
     "review": false
-  },
-  "5202888230028": {
-    "name": "SENSITIVE KIDS INTIM GIRL FOAM",
-    "description": "Αφρός καθαρισμού για την καθημερινή υγιεινή της ευαίσθητης περιοχής κατά τη νεογνική, παιδική και προεφηβική ηλικία. Με ειδική φόρμουλα που δεν επηρεάζει τη φυσιολογική χλωρίδα και ενισχύει την άμυνας της ευαίσθητης περιοχής. Συμβάλλει στη μείωση ερεθισμών και κακοσμίας. Είναι σε εύχρηστη μορφή έτοιμου αφρού, όπου δεν απαιτείται η χρήση σπόγγου και ξεβγάζεται εύκολα.\n\nΔερματολογικά ελεγμένος\n\nΕπισκεφθείτε τη Frezyland, έναν κόσμο γεμάτο δραστήριες μαμάδες!\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensitive_kids/intim_foam/intim_girl_sensitive_foam_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/afroloutra/sensitive-kids-afros-katharismou-euaisthhths-perioxhs/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "score": 4,
-    "review": true
   },
   "5202888230035": {
     "name": "SENSITIVE KIDS SHOWER BATH",
@@ -2171,7 +2102,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/afroloutra/sensitive-kids-shower-bath/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 6,
+    "score": 34.2,
     "review": false
   },
   "5202888271656": {
@@ -2181,7 +2112,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/kremes-gia-eyaisthhto-derma/krema-gia-euaisthito-derma-rodoxrous-noso/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 37.8,
     "review": false
   },
   "5202888271649": {
@@ -2191,7 +2122,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/kremes-gia-eyaisthhto-derma/egxrwmi-krema-gia-euaisthito-derma-rodoxrous-noso/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "score": 28.2,
     "review": false
   },
   "5202888010026": {
@@ -2201,8 +2132,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/katharismos-proswpou/katharistika-prosopou/katharistiko-prosopou-xeriwn-kai-swmatos/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 9.3,
+    "review": false
   },
   "5202888273131": {
     "name": "FACE SERUM SUPER SKIN CODE - Αντιρυτιδικός Ορός ",
@@ -2211,7 +2142,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/serum-proswpou/face-serum-super-skin-code-antirutidikos-oros/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 15.3,
     "review": false
   },
   "5202888102165": {
@@ -2221,8 +2152,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/sooth-balm-galaktwma-swmatos-knhsmos-erethismoi/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 4,
-    "review": true
+    "score": 10.3,
+    "review": false
   },
   "5202888102462": {
     "name": "SPOT END CORRECTIVE",
@@ -2231,7 +2162,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-krema-gia-panades/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 23.4,
     "review": false
   },
   "5202888102424": {
@@ -2241,8 +2172,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-krema-prosopou-gia-panades/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 25.5,
+    "review": false
   },
   "5202888102431": {
     "name": "SPOT END ESSENCE ACTIVE GEL",
@@ -2251,28 +2182,28 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-gel-gia-panades/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 6,
+    "score": 40.6,
     "review": false
   },
   "5202888102448": {
-    "name": "SPOT END DAY CREAM SPF 15",
-    "description": "Λευκαντική κρέμα ημέρας για την πρόληψη και τη διόρθωση των δυσχρωμιών.\n\nΧάρη στην πρωτοποριακή Τεχνολογία Active Cosmetics, τα εξειδικευμένα λευκαντικά ενεργά φτάνουν στις βαθύτερες επιδερμικές στιβάδες, εκεί όπου παράγεται η μελανίνη, για στοχευμένη δράση.\n\nΠαράλληλα, το πρωτοποριακό Whitening Skin System αναστέλλει και τα 3 στάδια παραγωγής μελανίνης (μελανογένεσης) για δραστική καταπολέμηση των κηλίδων.\n\nΕμπλουτισμένη με Βιταμίνη Ε για αντιοξειδωτική δράση και ενισχυμένη με ενυδατικούς και αντιγηραντικούς παράγοντες για μία 360ο δερματική φροντίδα.\n\n-66% παρεμπόδιση μελανογένεσης από τη UVB ακτινοβολία*\n\nΠολύ σημαντική αύξηση φωτεινότητας στο 86% των εθελοντών με πανάδες*\n\n*Active Ingredients – Technical data.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/face/leukansi/SpotEnd_day_cream.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-krema-prosopou-gia-panades/",
+    "name": "SPOT END HAND CREAM SPF 15",
+    "description": "Λευκαντική κρέμα χεριών για την πρόληψη και τη διόρθωση των καφέ κηλίδων.\n\nΤο Τριπλό Σύστημα Λεύκανσης αναστέλλει και τα 3 στάδια μελανογένεσης για αποτελεσματική στόχευση ενάντια στις δυσχρωμίες και η Τεχνολογία Active Cosmetics επιτρέπει στα συστατικά να φτάνουν στα βαθύτερα επίπεδα του δέρματος.\n\nΠαράλληλα, διαθέτει αντηλιακά φίλτρα UVA-UVB με δείκτη SPF 15, προστατεύοντας το δέρμα από τις κηλίδες φωτογήρανσης.\n\nΠροσφέρει και ενυδατική φροντίδα αυξάνοντας την ελαστικότητα της επιδερμίδας αλλά και αντιοξειδωτική προστασία, για μια ολιστική αντιγηραντική περιποίηση.\n\n-24% μείωση μελανίνης στις δυσχρωμικές περιοχές*\n\n+29% φωτεινότητα στις δυσχρωμικές περιοχές*\n\nΠολύ σημαντική αύξηση φωτεινότητας στο 86% των εθελοντών με πανάδες*\n\n*Active Ingredients – Technical data.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/face/leukansi/SpotEnd_hand_cream.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-somatos/kremes-xeriwn/spot-end-hand-spf-15-krema-gia-panades-sta-xeria/",
     "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 8,
+    "section": "peripoiisi-somatos",
+    "score": 49.4,
     "review": false
   },
   "5202888102455": {
-    "name": "SPOT END DAY CREAM SPF 15",
-    "description": "Λευκαντική κρέμα ημέρας για την πρόληψη και τη διόρθωση των δυσχρωμιών.\n\nΧάρη στην πρωτοποριακή Τεχνολογία Active Cosmetics, τα εξειδικευμένα λευκαντικά ενεργά φτάνουν στις βαθύτερες επιδερμικές στιβάδες, εκεί όπου παράγεται η μελανίνη, για στοχευμένη δράση.\n\nΠαράλληλα, το πρωτοποριακό Whitening Skin System αναστέλλει και τα 3 στάδια παραγωγής μελανίνης (μελανογένεσης) για δραστική καταπολέμηση των κηλίδων.\n\nΕμπλουτισμένη με Βιταμίνη Ε για αντιοξειδωτική δράση και ενισχυμένη με ενυδατικούς και αντιγηραντικούς παράγοντες για μία 360ο δερματική φροντίδα.\n\n-66% παρεμπόδιση μελανογένεσης από τη UVB ακτινοβολία*\n\nΠολύ σημαντική αύξηση φωτεινότητας στο 86% των εθελοντών με πανάδες*\n\n*Active Ingredients – Technical data.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/face/leukansi/SpotEnd_day_cream.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-krema-prosopou-gia-panades/",
+    "name": "SPOT END NIGHT CREAM",
+    "description": "Κρέμα νύχτας για την πρόληψη και τη διόρθωση των δυσχρωμιών.\n\nΒασίζεται στην πρωτοποριακή Τεχνολογία Active Cosmetics με Ενεργά Λιποσώματα που ενισχύει τη διείσδυση των λευκαντικών ενεργών στα βαθύτερα επίπεδα του δέρματος για εστιασμένη στόχευση.\n\nΤο Τριπλό Σύστημα Λεύκανσης που διαθέτει, αναστέλλει και τα 3 στάδια παραγωγής μελανίνης για ορατή αποκατάσταση του τόνου του δέρματος και φωτεινή, ομοιόμορφη όψη.\n\nΤο έλαιο Jojoba, το Υαλουρονικό Οξύ χαμηλού μοριακού βάρους και η βιταμίνη E συνδυάζονται για να προσφέρουν βαθιά ενυδάτωση και αποτελεσματική αντιγηραντική δράση, χαρίζοντας στην επιδερμίδα νεανική όψη και λάμψη.\n\nΈως και 30% πιο φωτεινό δέρμα σε 14 ημέρες*\n\n-70% μελανογένεση*\n\n*Active Ingredients – Technical data.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/1/products/face/leukansi/Spot_End_night_cream.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/panades-leukansi-proswpou/spot-end-krema-nuxtas-gia-panades-prosopou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 28.6,
+    "review": false
   },
   "5202888221279": {
     "name": "KIDS SUN CARE SPF 50+ WET SKIN SPRAY",
@@ -2281,7 +2212,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/paidika-anthliaka/kids-sun-care-spf-50-paidiko-anthliako-sprei/",
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
-    "score": 8,
+    "score": 9.2,
     "review": false
   },
   "5202888102516": {
@@ -2291,27 +2222,27 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sun-screen-anti-seb-spray-spf-30/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 36.5,
     "review": false
   },
   "5202888102486": {
-    "name": "ACTIVE SUN SCREEN FACE FOUNDATION SPF 30",
-    "description": "Ενεργό αντηλιακό make-up προσώπου που καλύπτει δερματικές ατέλειες και δυσχρωμίες, προστατεύει από τις ευρυαγγείες και μειώνει την εμφάνισή τους. Η 360ο σύνθεσή του εξασφαλίζει μία 3 σε 1 φροντίδα της επιδερμίδας, προσφέροντας:\n\n1) υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΕπιπλέον, η τεχνολογία χρωματικής προσαρμογής, Color Adapt Pigments, εξασφαλίζει τέλεια χρωματική ομοιογένεια σε κάθε τόνο επιδερμίδας, από τον πιο ανοιχτόχρωμο έως τον πιο σκουρόχρωμο.\n\nΕπιπλέον, η σύνθεσή του είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/face_foundation/Active_Face_Foundation_SPF30_30ml_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/active-antiliako-make-up/",
+    "name": "ACTIVE SUN SCREEN BODY FOUNDATION SPF 30",
+    "description": "Ενεργό αντηλιακό make-up σώματος που καλύπτει δερματικές ατέλειες και δυσχρωμίες, προστατεύει από τις ευρυαγγείες και μειώνει την εμφάνισή τους. Η καινοτόμος 3in1 σύνθεσή του παρέχει στο δέρμα 3πλή φροντίδα:\n\n1) υψηλή ηλιοπροστασία\n\n2) ενυδάτωση μακράς δράσης\n\n3) ισχυρή δράση ενάντια στη φωτο- και χρονο- γήρανση\n\nΕπιπλέον, η τεχνολογία χρωματικής προσαρμογής Color Adapt Pigments που διαθέτει, εξασφαλίζει τέλεια χρωματική ομοιογένεια σε κάθε τόνο επιδερμίδας, από τον πιο ανοιχτόχρωμο έως τον πιο σκουρόχρωμο.\n\nΤέλος, η σύνθεσή του είναι εμπλουτισμένη με Glycogen, έναν πολυσακχαρίτη θαλάσσιας προέλευσης, που προστατεύει από τις συνέπειες της έκθεσης στην ηλεκτρομαγνητική ακτινοβολία ενώ τα πολύτιμα φυτικά βλαστο­κύτταρα βαμβακιού δημιουργούν μία ασπίδα προστασίας από τα στερεά σωματίδια των ατμοσφαιρικών ρύπων.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Active/body_foundation/Active_Body_Make_up_30_SPF_big_700x963.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/active-antiliako-make-up-gia-to-swma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 21.1,
     "review": false
   },
   "5202888102509": {
-    "name": "SUN SCREEN VELVET FACE SPF 30 ",
-    "description": "Αδιαπραγμάτευτη ασφάλεια κάτω απ’ τον ήλιο με το πρωτοποριακό, διάφανο αντηλιακό υψηλής προστασίας που ξεχωρίζει για την χαρακτηριστική βελούδινη και ultra ανάλαφρη υφή του σαν αόρατο δεύτερο δέρμα.\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΤΟΣΟ ΒΕΛΟΥΔΙΝΟ! ΤΟΣΟ ΑΝΑΛΑΦΡΟ! ΤΟΣΟ ΔΙΑΦΑΝΟ!\n\nΤο πρώτο και μοναδικό αντηλιακό που έφερε την επανάσταση στην αντηλιακή προστασία με την υπερανάλαφρη υφή που γίνεται ένα με το δέρμα. Αφήνει μια βελούδινη αίσθηση στο δέρμα .\n\nΔΕΝ ΦΡΑΣΣΕΙ ΤΟΥΣ ΠΟΡΟΥΣ. ΔΕΝ ΒΑΡΑΙΝΕΙ. ΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ.\n\nΜη φαγεσωρογόνος σύνθεση που δεν παρεμποδίζει τη φυσική αναπνοή του δέρματος και την εφίδρωσή του και δεν προκαλεί μαύρα ή άσπρα στίγματα. Αφήνει ματ αποτέλεσμα μεγάλης διάρκειας και είναι ιδανικό και για λιπαρά με τάση ακμής δέρματα.\n\n• Με μικροπρισματικούς κρυστάλλους για άμεσο εφέ λείανσης ρυτίδων.\n• Ιδανικό σαν primer για το μακιγιάζ.\n\nYou have to feel it to believe it!\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΙδανικό και για άντρες, αφού εφαρμόζεται και σε περιοχές του προσώπου με αυξημένη τριχοφυΐα.\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\nΧωρίς άρωμα\nΧωρίς γλουτένη\n\nΔΕΙΤΕ ΤΟ VIDEO ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΠΡΩΤΗΣ ΧΡΗΣΗΣ\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_30/Sunscreen_Velvet_30_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-30/",
+    "name": "SUN SCREEN ANTI-SEB SPRAY SPF 30",
+    "description": "Αντηλιακό γαλάκτωμα προσώπου και σώματος σε spray, ανθεκτικό στο νερό. Ιδανικό για δέρματα με αυξημένη λιπαρότητα και τάση ακμής. Έχει σμηγματορρυθμιστική, αντιακνεϊκή και αντιμικροβιακή δράση. Προσφέρει παρατεταμένη και σταθερή ηλιοπροστασία, προστατεύει τα βλαστοκύτταρα του δέρματος, θωρακίζει το DNA και ενισχύει τους μηχανισμούς αυτοεπιδιόρθωσής του, προστατεύει από τη φωτογήρανση και τη φωτοανοσοκαταστολή και παρέχει αποτελεσματική αντιοξειδωτική προστασία και προστασία από τους περιβαλλοντικούς ρύπους.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/antiliaka/eidiki_prostasia/SunScreen_Anti_Seb_Spray_SPF30.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sun-screen-anti-seb-spray-spf-30/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 4,
+    "score": 4.2,
     "review": true
   },
   "5202888400124": {
@@ -2321,7 +2252,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/sun-screen-cream-to-powder-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 23.7,
     "review": false
   },
   "5202888222405": {
@@ -2331,7 +2262,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/diafano-antiliako-somatos/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 22,
     "review": false
   },
   "5202888222467": {
@@ -2341,27 +2272,27 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sun-screen-mousse-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 10,
+    "score": 35,
     "review": false
   },
   "5202888222412": {
-    "name": "SUN SCREEN MOUSSE SPF 30",
-    "description": "Αντηλιακό προσώπου και σώματος, ανθεκτικό στο νερό. Σε μορφή αφρού με άριστη υφή, για κάθε τύπο δέρματος. Χάρη στη καινοτόμο του μορφή (αφρός), εφαρμόζεται εύκολα επιτυγχάνοντας ιδανική διασπορά φίλτρων για ομοιόμορφο μαύρισμα δημιουργώντας παράλληλα στο δέρμα ένα συνεχές film προστασίας, χωρίς να αφήνει ίχνη λιπαρότητας.\n\nΠροσφέρει παρατεταμένη και σταθερή ηλιοπροστασία, προστατεύει τα βλαστοκύτταρα του δέρματος, θωρακίζει το DNA και ενισχύει τους μηχανισμούς αυτοεπιδιόρθωσής του, προστατεύει από τη φωτογήρανση και τη φωτοανοσοκαταστολή και παρέχει αποτελεσματική αντιοξειδωτική προστασία και προστασία από τους περιβαλλοντικούς ρύπους.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/mousse_30/mouse_30_new/Sun_Screen_Mousse_spf_30_700x963_1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-mous-spf-30/",
+    "name": "SUN SCREEN MOUSSE SPF 50+",
+    "description": "Καινοτομία αντηλιακού σε μορφή αφρού που δεν αφήνει λιπαρότητα στο δέρμα. Προσφέρει πολύ υψηλή ηλιοπροστασία ευρέος φάσματος και διαθέτει ειδικά μελετημένη σύνθεση που προστατεύει την επιδερμίδα από το οξειδωτικό στρες και τους περιβαλλοντικούς ρύπους. Η λεπτόρρευστη, μη λιπαρή υφή mousse επιτρέπει εύκολη και ομοιόμορφη εφαρμογή, ενυδατώνει το δέρμα και προσφέρει υψηλή αίσθηση ευεξίας. Έτσι, ενισχύεται η συχνή επάλειψη για συνεχή, αποτελεσματική προστασία κάτω απ’ τον ήλιο.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/mousse50_/SUNSCREEN-MOUSSE-SPF-50_-1715766785029.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sun-screen-mousse-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 14.9,
     "review": false
   },
   "5202888102233": {
-    "name": "SUN SCREEN MOUSSE SPF 30",
-    "description": "Αντηλιακό προσώπου και σώματος, ανθεκτικό στο νερό. Σε μορφή αφρού με άριστη υφή, για κάθε τύπο δέρματος. Χάρη στη καινοτόμο του μορφή (αφρός), εφαρμόζεται εύκολα επιτυγχάνοντας ιδανική διασπορά φίλτρων για ομοιόμορφο μαύρισμα δημιουργώντας παράλληλα στο δέρμα ένα συνεχές film προστασίας, χωρίς να αφήνει ίχνη λιπαρότητας.\n\nΠροσφέρει παρατεταμένη και σταθερή ηλιοπροστασία, προστατεύει τα βλαστοκύτταρα του δέρματος, θωρακίζει το DNA και ενισχύει τους μηχανισμούς αυτοεπιδιόρθωσής του, προστατεύει από τη φωτογήρανση και τη φωτοανοσοκαταστολή και παρέχει αποτελεσματική αντιοξειδωτική προστασία και προστασία από τους περιβαλλοντικούς ρύπους.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/mousse_30/mouse_30_new/Sun_Screen_Mousse_spf_30_700x963_1.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-mous-spf-30/",
+    "name": "SUN SCREEN MOUSSE SPF 50+",
+    "description": "Καινοτομία αντηλιακού σε μορφή αφρού που δεν αφήνει λιπαρότητα στο δέρμα. Προσφέρει πολύ υψηλή ηλιοπροστασία ευρέος φάσματος και διαθέτει ειδικά μελετημένη σύνθεση που προστατεύει την επιδερμίδα από το οξειδωτικό στρες και τους περιβαλλοντικούς ρύπους. Η λεπτόρρευστη, μη λιπαρή υφή mousse επιτρέπει εύκολη και ομοιόμορφη εφαρμογή, ενυδατώνει το δέρμα και προσφέρει υψηλή αίσθηση ευεξίας. Έτσι, ενισχύεται η συχνή επάλειψη για συνεχή, αποτελεσματική προστασία κάτω απ’ τον ήλιο.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/mousse50_/SUNSCREEN-MOUSSE-SPF-50_-1715766785029.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/sun-screen-mousse-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 14.9,
     "review": false
   },
   "5202888222306": {
@@ -2371,17 +2302,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-30/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 8.1,
     "review": false
   },
   "5202888222290": {
-    "name": "SUN SCREEN VELVET FACE SPF 50+",
-    "description": "Αδιαπραγμάτευτη ασφάλεια κάτω απ’ τον ήλιο με το πρωτοποριακό, διάφανο αντηλιακό πολύ υψηλής προστασίας που ξεχωρίζει για την χαρακτηριστική βελούδινη και ultra ανάλαφρη υφή του σαν αόρατο δεύτερο δέρμα.\n\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΤΟΣΟ ΒΕΛΟΥΔΙΝΟ! ΤΟΣΟ ΑΝΑΛΑΦΡΟ! ΤΟΣΟ ΔΙΑΦΑΝΟ!\n\nΤο πρώτο και μοναδικό αντηλιακό που έφερε την επανάσταση στην αντηλιακή προστασία με την υπερανάλαφρη υφή που γίνεται ένα με το δέρμα. Αφήνει μια βελούδινη αίσθηση στο δέρμα .\n\nΔΕΝ ΦΡΑΣΣΕΙ ΤΟΥΣ ΠΟΡΟΥΣ. ΔΕΝ ΒΑΡΑΙΝΕΙ. ΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ.\n\nΜη φαγεσωρογόνος σύνθεση που δεν παρεμποδίζει τη φυσική αναπνοή του δέρματος και την εφίδρωσή του και δεν προκαλεί μαύρα ή άσπρα στίγματα. Αφήνει ματ αποτέλεσμα μεγάλης διάρκειας και είναι ιδανικό και για λιπαρά με τάση ακμής δέρματα.\n\n• Με μικροπρισματικούς κρυστάλλους για άμεσο εφέ λείανσης ρυτίδων.\n• Ιδανικό σαν primer για το μακιγιάζ.\n\nYou have to feel it to believe it!\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΙδανικό και για άντρες, αφού εφαρμόζεται και σε περιοχές του προσώπου με αυξημένη τριχοφυΐα.\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\nΧωρίς άρωμα\nΧωρίς γλουτένη\n\nΔΕΙΤΕ ΤΟ VIDEO ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΠΡΩΤΗΣ ΧΡΗΣΗΣ\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_50/Sunscreen-Velvet-SPF50-50ml_medium_05.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-50/",
+    "name": "PS.T. SECOND SKIN CREAM STEP 4",
+    "description": "Η ψωρίαση είναι αυτοάνοση δερματική διαταραχή. Η λειτουργία των κερατινοκυττάρων και των ινοβλαστών του δέρματος διαταράσσεται. Τα κύτταρα ανανεώνονται υπερβολικά γρήγορα, δεν αποβάλλονται με κανονικό ρυθμό, εμφανίζεται ερυθρότητα, ξηρότητα, κνησμός, συσσώρευση φολίδων. Το PS.T system στοχεύει στην άμεση ανακούφιση του δέρματος σε 3 στάδια.\nΠροστατεύει και βελτιώνει την όψη της επιδερμίδας. Δημιουργεί ένα ματ αόρατο φιλμ, προστατεύει το λεπτό ευαίσθητο δέρμα από εξωγενείς παράγοντες, βελτιώνει την εμφάνιση των φολίδων και ενισχύει την αποτελεσματικότητα των προϊόντων PS.T.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Psoriasis_pst/4/PST-Psoriasis-Step-4-50ml_medium_05.jpg",
+    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst4-second-skin-cream-step-4/",
     "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "score": 6,
+    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
+    "score": 7.1,
     "review": false
   },
   "5202888102592": {
@@ -2391,17 +2322,17 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-gia-grigoro-maurisma/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 23.8,
     "review": false
   },
   "5202888222313": {
-    "name": "SUN SCREEN VELVET FACE SPF 50+",
-    "description": "Αδιαπραγμάτευτη ασφάλεια κάτω απ’ τον ήλιο με το πρωτοποριακό, διάφανο αντηλιακό πολύ υψηλής προστασίας που ξεχωρίζει για την χαρακτηριστική βελούδινη και ultra ανάλαφρη υφή του σαν αόρατο δεύτερο δέρμα.\n\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΤΟΣΟ ΒΕΛΟΥΔΙΝΟ! ΤΟΣΟ ΑΝΑΛΑΦΡΟ! ΤΟΣΟ ΔΙΑΦΑΝΟ!\n\nΤο πρώτο και μοναδικό αντηλιακό που έφερε την επανάσταση στην αντηλιακή προστασία με την υπερανάλαφρη υφή που γίνεται ένα με το δέρμα. Αφήνει μια βελούδινη αίσθηση στο δέρμα .\n\nΔΕΝ ΦΡΑΣΣΕΙ ΤΟΥΣ ΠΟΡΟΥΣ. ΔΕΝ ΒΑΡΑΙΝΕΙ. ΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ.\n\nΜη φαγεσωρογόνος σύνθεση που δεν παρεμποδίζει τη φυσική αναπνοή του δέρματος και την εφίδρωσή του και δεν προκαλεί μαύρα ή άσπρα στίγματα. Αφήνει ματ αποτέλεσμα μεγάλης διάρκειας και είναι ιδανικό και για λιπαρά με τάση ακμής δέρματα.\n\n• Με μικροπρισματικούς κρυστάλλους για άμεσο εφέ λείανσης ρυτίδων.\n• Ιδανικό σαν primer για το μακιγιάζ.\n\nYou have to feel it to believe it!\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΙδανικό και για άντρες, αφού εφαρμόζεται και σε περιοχές του προσώπου με αυξημένη τριχοφυΐα.\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\nΧωρίς άρωμα\nΧωρίς γλουτένη\n\nΔΕΙΤΕ ΤΟ VIDEO ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΠΡΩΤΗΣ ΧΡΗΣΗΣ\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_50/Sunscreen-Velvet-SPF50-50ml_medium_05.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-50/",
+    "name": "SUN SCREEN VELVET BODY LOTION SPF 50+",
+    "description": "Η προστασία από τον ήλιο δεν χωρά διαπραγματεύσεις. Το πρωτοποριακό διάφανο αντηλιακό σώματος προσφέρει πολύ υψηλή προστασία με βελούδινη, υπερ-ανάλαφρη υφή που απλώνεται εύκολα και γρήγορα στο δέρμα, χωρίς τριβή.\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΕΝΑ ΕΚΠΛΗΚΤIΚΑ ΒΕΛΟΥΔΙΝΟ, ΑΝΑΛΑΦΡΟ, ΔΙΑΦΑΝΟ ΠΕΠΛΟ ΣΤΟ ΔΕΡΜΑ\n\nΤο αντηλιακό σώματος που άλλαξε τον χάρτη της ηλιοπροστασίας έχει ως σήμα κατατεθέν του τη διάφανη σύνθεση με την υπέροχη βελούδινη υφή που απλώνεται σαν αόρατο δεύτερο δέρμα.\n\nΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ\n\nΈχει μη λιπαρή σύνθεση που επιτρέπει στο δέρμα να αναπνέει και δεν δημιουργεί ασφυκτικό φιλμ.\n\nΙδανικό για καθημερινή χρήση, όχι μόνο στην παραλία\nαλλά και στις ανοιξιάτικες και καλοκαιρινές βόλτες.\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΔερματολογικά ελεγμένο\nΑνθεκτικό στο νερό\n\nΗ προστασία ολοκληρώνεται με το αντηλιακό προσώπου SUN SCREEN VELVET.\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.\n\nMore\nLess",
+    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_body/Sunscreen_Velvet_Body_50_medium_700x963.jpg",
+    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-swmatos-velvet/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 10,
+    "score": 44.1,
     "review": false
   },
   "5202888222351": {
@@ -2411,7 +2342,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/antiliako-me-xrwma-velvet-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 12,
+    "score": 32.5,
     "review": false
   },
   "5202888222399": {
@@ -2421,7 +2352,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/antiliako-me-xrwma-velvet-spf-50/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 8,
+    "score": 15.2,
     "review": false
   },
   "5202888400117": {
@@ -2431,7 +2362,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/sun-screen-fluid-to-powder-spf-50-anthliako-proswpou/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 6,
+    "score": 8.7,
     "review": false
   },
   "5202888281112": {
@@ -2441,8 +2372,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-leykanshs-dontiwn/black-white-toothpaste/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4.5,
-    "review": true
+    "score": 10.4,
+    "review": false
   },
   "5202888283000": {
     "name": "HOMEOPATHY TOOTHPASTE",
@@ -2451,7 +2382,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-stomatikhs-ygieinhs-kai-omoiopathhtikh/homeopathy-toothpaste-odontokrema-sumbati-me-omoiopathitiki-agwgi/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
+    "score": 4.1,
     "review": true
   },
   "5202888281105": {
@@ -2461,7 +2392,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/kakosmia-stomatos/odor-blocker-toothpaste-odontokrema-gia-tin-kakosmia-tou-stomatos/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 16.9,
     "review": false
   },
   "5202888281037": {
@@ -2471,7 +2402,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/prostasia-apo-thn-terhdona/plaque-tartar-toothpaste-odontokrema-gia-tin-teridona/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 12.6,
     "review": false
   },
   "5202888281020": {
@@ -2481,7 +2412,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-stomatikhs-ygieinhs-gia-eyaisthhta-dontia/sensitive-teeth-toothpaste-odontokrema-gia-euaisthita-dontia/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 15.6,
     "review": false
   },
   "5202888281013": {
@@ -2491,7 +2422,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-leykanshs-dontiwn/whitening-toothpaste-odontokrema-leukansis-dontiwn/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 4,
+    "score": 3.8,
     "review": true
   },
   "5202888281006": {
@@ -2501,7 +2432,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-leykanshs-dontiwn/instant-whitening-blue-toothpaste-odontokrema-leukansis-dontiwn/",
     "source": "frezyderm.gr",
     "section": "proionta-gia-th-stomatikh-ygieinh",
-    "score": 6,
+    "score": 16.6,
     "review": false
   },
   "6202888222979": {
@@ -2511,8 +2442,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/velvet-stars-sun-screen-spf-50-/",
     "source": "frezyderm.gr",
     "section": "adiliaka",
-    "score": 4,
-    "review": true
+    "score": 8.8,
+    "review": false
   },
   "5202888331527": {
     "name": "VITAMIN D3",
@@ -2521,8 +2452,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-elleipsh-bitaminhs-d3-/symplhrwma-diatrofhs-ws-phgh-bitaminhs-d3/",
     "source": "frezyderm.gr",
     "section": "sumplhrwmata-diatrofis",
-    "score": 4,
-    "review": true
+    "score": 9.2,
+    "review": false
   },
   "5202888271083": {
     "name": "VOLPADERM AHA MILK",
@@ -2531,7 +2462,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/volpaderm-aha-milk-galaktwma-enudatwsh-apolepish-swmatos/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 6,
+    "score": 17.1,
     "review": false
   },
   "5202888271076": {
@@ -2541,8 +2472,8 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/enudatikes-kremes-prosopou/krema-apolepisis-enudatwshs-prosopou/",
     "source": "frezyderm.gr",
     "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
+    "score": 18.6,
+    "review": false
   },
   "5202888010620": {
     "name": "VOLPADERM NAILS TREATING GEL",
@@ -2551,17 +2482,7 @@ window.FREZYDERM_OVERRIDES = {
     "url": "https://www.frezyderm.gr/peripoiisi-somatos/kremes-xeriwn/volpaderm-krema-gia-thn-peripoihsh-nuxiwn/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "score": 6,
+    "score": 32.7,
     "review": false
-  },
-  "5202888273124": {
-    "name": "FACE SERUM WRINKLE PLUMPER - Ορός Αντιγήρανσης προσώπου",
-    "description": "Ορός με 3πλή τεχνολογία γεμίσματος ρυτίδων: φυσική ρητίνη, kombuchka (προϊόν ζύμωσης από μαύρο τσάι) και υαλουρονικό οξύ δρουν σε πλήρη συνέργεια για ενισχυμένη δράση λείανσης ρυτίδων και επαναφορά της ομοιομορφίας του ανάγλυφου του προσώπου. Η δομή όλων των στιβάδων της επιδερμίδας και του κυρίως δέρματος ενεργοποιείται για γέμισμα των ρυτίδων εκ των έσω και αποκατάσταση του όγκου του δέρματος, η διαδικασία της λιπογένεσης ενισχύεται, τα σημάδια τραχύτητας μειώνονται και η φωτεινότητα επιστέφει στο δέρμα. Παράλληλα, το κολλαγόνο προστατεύεται από τη φθορά των ενζύμων που το αποδομούν (γλυκοζυλίωση) και αυξάνεται η δερματική άμυνα απέναντι στο περιβαλλοντικό αποτύπωμα.\n\n-16,2% δερματική τραχύτητα σε 29 μέρες1\n+15% φωτεινότητα σε 29 μέρες1\n\nΕναλλακτική προσέγγιση επεμβατικών διεργασιών αλλά και μετά από επεμβατικές πράξεις για επιμήκυνση αποτελεσμάτων.\n\nΔερματολογικά ελεγμένο\n\n1.Kombuchka.- Κλινική βαθμολόγηση σε 14 εθελοντές.\n\nMore\nLess",
-    "image": "https://www.frezyderm.gr/Images/f/FacebookPresetSmall//Content/Files/3D_PRODUCTS/Serums_/SERUM_WRINKLE_PLUMPER/Face_Serum_WRINKLE_PLUMBER_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/serum-proswpou/face-serum-wrinkle-plumper-oros-antigiransis-prosopou/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "score": 4,
-    "review": true
   }
 };
