@@ -140,8 +140,28 @@ function cleanupTitle(t) {
 function cleanupDescription(d) {
   if (!d) return null;
   let s = d.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  // Αφαίρεσε boilerplate suffix που κολλάει το meta description των φαρμακείων —
+  // η αρχή της περιγραφής είναι κανονικά χρήσιμη, οπότε καλύτερα να την
+  // κρατάμε καθαρή παρά να την απορρίπτουμε ως pharm-fluff.
+  s = s
+    .replace(/\s*σε προσφορά στο\s+Pharm24\.gr\b.*$/i, "")
+    .replace(/\s*Δωρε[άα]ν μεταφορικ[άα]\s+σε\s+αγορ[έε]ς\s+[άα]νω των\s*\d+[€\s].*$/i, "")
+    .replace(/\s*Online\s+Pharmacy\s*[\-·|]*\s*[A-Za-zΑ-Ωα-ω0-9\s\.\,]{0,80}$/i, "")
+    .replace(/\s*\|\s*Skroutz\.gr\s*$/i, "")
+    .replace(/[·\-\|]\s*$/, "")
+    .trim();
   if (s.length > 600) s = s.slice(0, 597).replace(/\s+\S*$/, "") + "...";
   return s || null;
+}
+
+// Μετατρέπει URLs φαρμακείων στην ελληνική τους έκδοση όταν έχουν αγγλικό
+// path prefix — αλλιώς παίρνουμε αγγλικές περιγραφές σε ελληνικό site.
+function normalizeToGreekUrl(u) {
+  if (!u) return u;
+  return u
+    .replace(/(ofarmakopoiosmou\.gr)\/en\//i, "$1/")
+    .replace(/(lifepharmacy\.gr)\/en\//i, "$1/")
+    .replace(/(lamberts\.gr)\/en\//i, "$1/");
 }
 
 function extFromContentType(ct, url) {
@@ -242,7 +262,8 @@ async function pharmacyResult(barcode, opts = {}) {
   };
 
   let bestHit = null, bestScore = -Infinity, firstHit = null;
-  for (const u of links.slice(0, 8)) {
+  for (const uRaw of links.slice(0, 8)) {
+    const u = normalizeToGreekUrl(uRaw);
     const h = hostOf(u);
     if (!PHARMACY_HOSTS.includes(h)) continue;
     dbg(`pharm try ${u}`);

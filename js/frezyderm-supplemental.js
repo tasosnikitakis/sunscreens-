@@ -1,7 +1,6 @@
 // Auto-generated από το scripts/fill-frezyderm-missing.mjs.
-// Pharmacy-based συμπλήρωμα για Frezyderm barcodes που δεν βρήκαν
-// override στο frezyderm.gr. Ο site τα διαβάζει σαν fallback layer
-// (OVERRIDES > SUPPLEMENTAL > supplier fallback).
+// Καθαρίστηκε τελευταία φορά από το scripts/clean-frezyderm-descriptions.mjs.
+// Δεν αγγίζουμε — γράφεται από τα scripts.
 window.FREZYDERM_SUPPLEMENTAL = {
   "5202888227554": {
     "name": "Frezyderm Aqua Care Gel pH 7 Ενυδατική & Λιπαντική Αιδιοκολπική Γέλη, 50g - oFarmakopoiosMou.gr",
@@ -12,14 +11,14 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888221224": {
     "name": "Frezyderm Acnorm Baby 40ml | Pharm24.gr",
-    "description": "Frezyderm Acnorm Baby 40ml - Απαλή Κρέμα για την Ανακούφιση της Νεογνικής, Βρεφικής & Παιδικής Ακμής σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Acnorm Baby 40ml - Απαλή Κρέμα για την Ανακούφιση της Νεογνικής, Βρεφικής & Παιδικής Ακμής",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888221224.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-acnorm-baby-40ml-p-8307.html"
   },
   "5202888400100": {
     "name": "Frezyderm Active Sun Screen Tinted Face Cream Spf50+ Ενεργή Έγχρωμη Αντηλιακή Κρέμα Υψηλής Προστασίας με Ειδική Μαύρη Χρώση 50ml | Pharm24.gr",
-    "description": "Frezyderm Active Sun Screen Tinted Face Cream Spf50+ Ενεργή Έγχρωμη Αντηλιακή Κρέμα Υψηλής Προστασίας με Ειδική Μαύρη Χρώση 50ml σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Active Sun Screen Tinted Face Cream Spf50+ Ενεργή Έγχρωμη Αντηλιακή Κρέμα Υψηλής Προστασίας με Ειδική Μαύρη Χρώση 50ml",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/025429_1.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-active-sun-screen-tinted-face-cream-spf50-energh-egxrwmh-anthliakh-krema-ypshlhs-prostasias-me-eidikh-mayrh-xrwsh-50ml-p-25429.html"
@@ -47,28 +46,28 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888101151": {
     "name": "Frezyderm Baby ABCC 50ml | Pharm24.gr",
-    "description": "Frezyderm Baby ABCC 50ml - Λεπτόρρευστο Μαλακτικό Λάδι για την Απομάκρυνση της Νινίδας των Βρεφών σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Baby ABCC 50ml - Λεπτόρρευστο Μαλακτικό Λάδι για την Απομάκρυνση της Νινίδας των Βρεφών",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/Baby_ABCC.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-baby-abcc-50ml-p-1387.html"
   },
   "5202888221187": {
     "name": "Frezyderm Baby Cream 175ml | Pharm24.gr",
-    "description": "Frezyderm Baby Cream 175ml - Απαλή, Προστατευτική Αδιάβροχη Κρέμα για την Αλλαγή της Πάνας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Baby Cream 175ml - Απαλή, Προστατευτική Αδιάβροχη Κρέμα για την Αλλαγή της Πάνας",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/BABYCREAM_175ML.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-baby-cream-175ml-p-4214.html"
   },
   "5202888101076": {
     "name": "Frezyderm Baby Cream 50ml | Pharm24.gr",
-    "description": "Frezyderm Baby Cream 50ml - Απαλή, Προστατευτική, Αδιάβροχη Κρέμα για Βρέφη & Παιδιά σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Baby Cream 50ml - Απαλή, Προστατευτική, Αδιάβροχη Κρέμα για Βρέφη & Παιδιά",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888101076a.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-baby-cream-50ml-p-3849.html"
   },
   "5202888101144": {
     "name": "Frezyderm Baby Foam 150ml | Pharm24.gr",
-    "description": "Frezyderm Baby Foam 150ml - Απαλός Αφρός Καθαρισμού για το Βρεφικό & Παιδικό Δέρμα σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Baby Foam 150ml - Απαλός Αφρός Καθαρισμού για το Βρεφικό & Παιδικό Δέρμα",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888101144.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-baby-foam-150ml-p-1370.html"
@@ -82,14 +81,14 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888281082": {
     "name": "Frezyderm Periodontitis Chlorhexene 0,2% Gel 30ml | Pharm24.gr",
-    "description": "Frezyderm Periodontitis Chlorhexene 0,2% Gel 30ml - Ζελ Τοπικής Χρήσης για Αντιμετώπιση των Συμπτωμάτων Περιοδοντίτιδας και Ουλίτιδας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Periodontitis Chlorhexene 0,2% Gel 30ml - Ζελ Τοπικής Χρήσης για Αντιμετώπιση των Συμπτωμάτων Περιοδοντίτιδας και Ουλίτιδας",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888281082_123654.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-periodontitis-chlorhexene-02-gel-30ml-p-11383.html"
   },
   "5202888010989": {
     "name": "Frezyderm Crilen Cream 50ml | Pharm24.gr",
-    "description": "Frezyderm Crilen Cream 50ml - Ενυδατικό Γαλάκτωμα με Εντομοαπωθητική Δράση σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Crilen Cream 50ml - Ενυδατικό Γαλάκτωμα με Εντομοαπωθητική Δράση",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888010989.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-crilen-cream-50ml-p-4521.html"
@@ -124,21 +123,21 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888331572": {
     "name": "Frezyderm Ferti Women 30 Sachets | Pharm24.gr",
-    "description": "Frezyderm Ferti Women 30 Sachets - Συμπλήρωμα Διατροφής Ινοσιτόλης, Φολικού Οξέος & Μαγγάνιου για την Ενίσχυση της Γυναικείας Γονιμότητας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Ferti Women 30 Sachets - Συμπλήρωμα Διατροφής Ινοσιτόλης, Φολικού Οξέος & Μαγγάνιου για την Ενίσχυση της Γυναικείας Γονιμότητας",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331572.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-ferti-woman-30-sachets-p-61163.html"
   },
   "5202888261008": {
     "name": "Frezyderm Frezykeld Cream 40ml | Pharm24.gr",
-    "description": "Frezyderm Frezykeld Cream 40ml - Αναπλαστική Κρέμα για Ουλές & Τραύματα σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Frezykeld Cream 40ml - Αναπλαστική Κρέμα για Ουλές & Τραύματα",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888261008.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-frezykeld-cream-40ml-p-4023.html"
   },
   "5202888261213": {
     "name": "Frezyderm Holistic Arnica Cream 50ml | Pharm24.gr",
-    "description": "Frezyderm Holistic Arnica Cream 50ml - Κρέμα για Πρόσωπο & Σώμα που Ανακουφίζει Μετά Από Τραυματισμούς & Μυϊκή Καταπόνηση σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Holistic Arnica Cream 50ml - Κρέμα για Πρόσωπο & Σώμα που Ανακουφίζει Μετά Από Τραυματισμούς & Μυϊκή Καταπόνηση",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/Frezyderm_Arnica_Cream.png",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-holistic-arnica-cream-krema-gia-proswpo-kai-swma-poy-anakoyfizei-meta-apo-traymatismoys-myikh-kataponhsh-50ml-p-28543.html"
@@ -173,7 +172,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888222436": {
     "name": "Frezyderm for Kids Sun+Nip Lotion Spf50+, 175ml | Pharm24.gr",
-    "description": "Frezyderm for Kids Sun+Nip Lotion Spf50+, 175ml - Παιδικό Αντηλιακό Γαλάκτωμα για Πρόσωπο & Σώμα με Εντομοαπωθητικούς Παράγοντες σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm for Kids Sun+Nip Lotion Spf50+, 175ml - Παιδικό Αντηλιακό Γαλάκτωμα για Πρόσωπο & Σώμα με Εντομοαπωθητικούς Παράγοντες",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888222436.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-kids-sunnip-spf50-175ml-p-28595.html"
@@ -187,7 +186,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888271007": {
     "name": "Frezyderm Moisturizing 24h Cream 20+ 50ml | Pharm24.gr",
-    "description": "Frezyderm Moisturizing 24h Cream 20+ 50ml - Ενυδατική Κρέμα 24h για Ηλικίες 20+ σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Moisturizing 24h Cream 20+ 50ml - Ενυδατική Κρέμα 24h για Ηλικίες 20+",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271007.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-moisturizing-24h-cream-20-50ml-p-86.html"
@@ -222,7 +221,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888261046": {
     "name": "Frezyderm Nasal Ointment Άνυδρη Ρινική Αλοιφή Ενίσχυσης του Επιδερμικού Φραγμού 15ml | Pharm24.gr",
-    "description": "Frezyderm Nasal Ointment Άνυδρη Ρινική Αλοιφή Ενίσχυσης του Επιδερμικού Φραγμού 15ml σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Nasal Ointment Άνυδρη Ρινική Αλοιφή Ενίσχυσης του Επιδερμικού Φραγμού 15ml",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888261046.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-nasal-ointment-anydrh-rinikh-aloifh-enisxyshs-toy-epidermikoy-fragmoy-15ml-p-27117.html"
@@ -250,7 +249,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888261015": {
     "name": "Frezyderm Proflamine 40ml | Pharm24.gr",
-    "description": "Frezyderm Proflamine 40ml - Αναπλαστική Κρέμα για τη Προστασία, Ανακούφιση & Αποκατάσταση του Δέρματος σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Proflamine 40ml - Αναπλαστική Κρέμα για τη Προστασία, Ανακούφιση & Αποκατάσταση του Δέρματος",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/PROFLAMINE.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-proflamine-40ml-p-4024.html"
@@ -271,7 +270,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888271113": {
     "name": "Frezyderm Revitalizing Serum 30ml | Pharm24.gr",
-    "description": "Frezyderm Revitalizing Serum 30ml - Ορός Αντιγήρανσης & Αναζωογόνησης σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Revitalizing Serum 30ml - Ορός Αντιγήρανσης & Αναζωογόνησης",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271113.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-revitalizing-serum-30ml-p-91.html"
@@ -285,7 +284,7 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888230042": {
     "name": "Frezyderm Sensitive Kids Face & Body Milk 200ml | Pharm24.gr",
-    "description": "Frezyderm Sensitive Kids Face & Body Milk 200ml - Απαλό Ενυδατικό Γαλάκτωμα για την Παιδική Επιδερμίδα Πρόσωπο & Σώμα σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Sensitive Kids Face & Body Milk 200ml - Απαλό Ενυδατικό Γαλάκτωμα για την Παιδική Επιδερμίδα Πρόσωπο & Σώμα",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888230042.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-sensitive-kids-face-body-milk-200ml-p-3644.html"
@@ -299,14 +298,14 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888281068": {
     "name": "Frezyderm Gingivital Toothpaste 1.000ppm 75ml | Pharm24.gr",
-    "description": "Frezyderm Gingivital Toothpaste 1.000ppm 75ml - Οδοντόπαστα Κατά της Ουλίτιδας με Φθόριο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Gingivital Toothpaste 1.000ppm 75ml - Οδοντόπαστα Κατά της Ουλίτιδας με Φθόριο",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/Gingivitalbbbb.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-gingivital-toothpaste-1000ppm-75ml-p-11381.html"
   },
   "5202888281044": {
     "name": "Frezyderm Periodigum Toothpaste 75ml | Pharm24.gr",
-    "description": "Frezyderm Periodigum Toothpaste 75ml - Οδοντόπαστα κατά των Συμπτωμάτων της Περιοδοντίτιδας σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Periodigum Toothpaste 75ml - Οδοντόπαστα κατά των Συμπτωμάτων της Περιοδοντίτιδας",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/fcjhvgkjbglbhlugvhykufvkiy_2.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-periodigum-toothpaste-75ml-p-11379.html"
@@ -320,21 +319,21 @@ window.FREZYDERM_SUPPLEMENTAL = {
   },
   "5202888331589": {
     "name": "Frezyderm Vomi Free 30 Chew.tabs | Pharm24.gr",
-    "description": "Frezyderm Vomi Free 30 Chew.tabs - Συμπλήρωμα Διατροφής με Εκχύλισμα Πιπερόριζας & Βιταμίνες του Συμπλέγματος Β για την Καταπολέμηση της Ναυτίας & του Εμετού σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Vomi Free 30 Chew.tabs - Συμπλήρωμα Διατροφής με Εκχύλισμα Πιπερόριζας & Βιταμίνες του Συμπλέγματος Β για την Καταπολέμηση της Ναυτίας & του Εμετού",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888331589.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-vomi-free-30-chewtabs-p-61137.html"
   },
   "5202888271205": {
     "name": "Frezyderm Instant Lifting Serum 15ml | Pharm24.gr",
-    "description": "Frezyderm Instant Lifting Serum 15ml - Ορός Άμεσης Σύσφιξης για το Πρόσωπο σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Instant Lifting Serum 15ml - Ορός Άμεσης Σύσφιξης για το Πρόσωπο",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/new5202888271205.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-instant-lifting-serum-15ml-p-4418.html"
   },
   "5202888271151": {
     "name": "Frezyderm Night Force A+E Cream 50ml | Pharm24.gr",
-    "description": "Frezyderm Night Force A+E Cream 50ml - Αντιγηραντική Κρέμα Νύχτας με Ρετινόλη & Βιταμίνη Ε σε προσφορά στο Pharm24.gr. Δωρεάν μεταφορικά σε αγορές άνω των 69€ για μέλη.",
+    "description": "Frezyderm Night Force A+E Cream 50ml - Αντιγηραντική Κρέμα Νύχτας με Ρετινόλη & Βιταμίνη Ε",
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271151.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-night-force-ae-cream-50ml-p-92.html"
