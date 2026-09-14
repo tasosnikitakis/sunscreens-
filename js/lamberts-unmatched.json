@@ -3,7 +3,7 @@
     "barcode": "5055148400095",
     "name": "LAMBERTS Acidophilus Extra 10  30caps",
     "status": "skip",
-    "bestScore": -8.2,
+    "bestScore": -8.3,
     "bestName": "Rosehip 10.000mg",
     "bestUrl": "https://lamberts.gr/product/rosehip-10-000mg/"
   },
@@ -11,7 +11,7 @@
     "barcode": "5055148411541",
     "name": "LAMBERTS Acidophilus Extra 10  60caps",
     "status": "skip",
-    "bestScore": -8.2,
+    "bestScore": -8.3,
     "bestName": "Rosehip 10.000mg",
     "bestUrl": "https://lamberts.gr/product/rosehip-10-000mg/"
   },
@@ -27,7 +27,7 @@
     "barcode": "5055148408220",
     "name": "LAMBERTS A-Z MULTI VITAMIN 20 αναβράζοντα δισκία",
     "status": "skip",
-    "bestScore": 2.2,
+    "bestScore": 2,
     "bestName": "Multi Vitamin AtoZ effervescent tabs",
     "bestUrl": "https://lamberts.gr/product/multi-vitamin-atoz-effervescent-tabs/"
   },
@@ -107,7 +107,7 @@
     "barcode": "5055148414139",
     "name": "LAMBERTS Glucosamine & Chondroitin Complex 60tabs",
     "status": "skip",
-    "bestScore": -2.1,
+    "bestScore": -2,
     "bestName": "Glucosamine & Phytodroitin™ Complex",
     "bestUrl": "https://lamberts.gr/product/glucosamine-phytodroitin-complex/"
   },
@@ -139,7 +139,7 @@
     "barcode": "5055148405588",
     "name": "LAMBERTS HER GINKGO BILOBA 6000MG*30T",
     "status": "skip",
-    "bestScore": -6.8,
+    "bestScore": -6.9,
     "bestName": "Ashwagandha Advance",
     "bestUrl": "https://lamberts.gr/product/ashwagandha-6000mg/"
   },
@@ -155,7 +155,7 @@
     "barcode": "5055148413743",
     "name": "LAMBERTS IBISENE (ARTICHOKE 8000MG)180TABS",
     "status": "skip",
-    "bestScore": -2.6,
+    "bestScore": -2.7,
     "bestName": "Artichoke 7425mg",
     "bestUrl": "https://lamberts.gr/product/artichoke-7425mg/"
   },
@@ -187,7 +187,7 @@
     "barcode": "5055148414085",
     "name": "LAMBERTS MAGASORB 300MG 20TABS",
     "status": "skip",
-    "bestScore": 0.7,
+    "bestScore": 0.6,
     "bestName": "MagAsorb 300mg-Effervescent tabs",
     "bestUrl": "https://lamberts.gr/product/magasorb-300mg-effervescent-tabs/"
   },
@@ -251,7 +251,7 @@
     "barcode": "5055148412111",
     "name": "LAMBERTS MULTI GUARD ADR 120TABS",
     "status": "skip",
-    "bestScore": 0.7,
+    "bestScore": 0.4,
     "bestName": "MultiGuard OsteoAdvance 50+",
     "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
   },
@@ -259,7 +259,7 @@
     "barcode": "5055148412708",
     "name": "LAMBERTS MULTI GUARD ADR 60TABS",
     "status": "skip",
-    "bestScore": 0.7,
+    "bestScore": 0.4,
     "bestName": "MultiGuard OsteoAdvance 50+",
     "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
   },
@@ -267,7 +267,7 @@
     "barcode": "5055148411985",
     "name": "LAMBERTS Multi-Guard® High Potency One-a-Day 30tabs",
     "status": "skip",
-    "bestScore": -11.7,
+    "bestScore": -11.6,
     "bestName": "High Potency Omega 3s for Cats and Dogs",
     "bestUrl": "https://lamberts.gr/product/high-potency-omega-3s-for-cats-and-dogs/"
   },
@@ -331,7 +331,7 @@
     "barcode": "5055148404918",
     "name": "LAMBERTS QUERCETIN 500MG 60TABS",
     "status": "skip",
-    "bestScore": -6.4,
+    "bestScore": -6.5,
     "bestName": "L -Carnitine 500mg",
     "bestUrl": "https://lamberts.gr/product/l-carnitine-500mg/"
   },
@@ -339,7 +339,7 @@
     "barcode": "5055148411855",
     "name": "LAMBERTS Rhodiola Rosea 1200mg 90tabs",
     "status": "skip",
-    "bestScore": -11,
+    "bestScore": -11.1,
     "bestName": "Soya Lecithin 1200mg",
     "bestUrl": "https://lamberts.gr/product/soya-lecithin-1200mg/"
   },
@@ -363,7 +363,7 @@
     "barcode": "5055148400262",
     "name": "LAMBERTS SUP SILICA 90CAPS",
     "status": "skip",
-    "bestScore": -6.4,
+    "bestScore": -6.5,
     "bestName": "L-Theanine 200mg",
     "bestUrl": "https://lamberts.gr/product/l-theanine-200mg/"
   },
@@ -379,7 +379,7 @@
     "barcode": "5055148411251",
     "name": "LAMBERTS VITAMIN B MYO INOSITOL 200GR",
     "status": "skip",
-    "bestScore": -1.5,
+    "bestScore": -1.6,
     "bestName": "Vitamin B-100 Complex",
     "bestUrl": "https://lamberts.gr/product/vitamin-b-100-complex/"
   },

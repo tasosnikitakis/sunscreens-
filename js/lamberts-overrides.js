@@ -34,7 +34,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "aminoxea",
     "matchType": "high",
-    "score": 30.5,
+    "score": 30.6,
     "review": false
   },
   "5055148411534": {
@@ -51,7 +51,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "probiotika",
     "matchType": "review",
-    "score": 19.4,
+    "score": 19.5,
     "review": true
   },
   "5055148409845": {
@@ -68,7 +68,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 37,
+    "score": 37.1,
     "review": false
   },
   "5055148400675": {
@@ -85,7 +85,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 11.5,
+    "score": 11.6,
     "review": false
   },
   "5055148411497": {
@@ -118,9 +118,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/vitamin-b12-100mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
-    "matchType": "review",
+    "matchType": "high",
     "score": 9,
-    "review": true
+    "review": false
   },
   "5055148401733": {
     "name": "Chewable Calcium 400mg",
@@ -136,7 +136,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "ugeia-osteon",
     "matchType": "high",
-    "score": 23.6,
+    "score": 23.7,
     "review": false
   },
   "5055148402020": {
@@ -153,7 +153,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "mineralia",
     "matchType": "high",
-    "score": 10,
+    "score": 10.1,
     "review": false
   },
   "5055148400620": {
@@ -170,7 +170,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 33.4,
+    "score": 33.5,
     "review": false
   },
   "5055148405182": {
@@ -198,13 +198,13 @@ window.LAMBERTS_OVERRIDES = {
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/Co-EnzymeQ10_30mg-1-1.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/Co-EnzymeQ10_30mg-1-1.png",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8531-60-hr-00936A-1024x1024.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8531-60-hr-00936A-1024x1024.png",
     "url": "https://lamberts.gr/product/co-enzyme-q10-30mg/",
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 21.3,
+    "score": 21.4,
     "review": false
   },
   "5055148409586": {
@@ -238,7 +238,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 17.4,
+    "score": 17.5,
     "review": false
   },
   "5055148403058": {
@@ -306,7 +306,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 33.4,
+    "score": 33.5,
     "review": false
   },
   "5055148413682": {
@@ -374,7 +374,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "aminoxea",
     "matchType": "high",
-    "score": 51.7,
+    "score": 51.8,
     "review": false
   },
   "5055148402136": {
@@ -408,7 +408,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 21.1,
+    "score": 21.2,
     "review": false
   },
   "5055148410605": {
@@ -442,7 +442,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "mineralia",
     "matchType": "high",
-    "score": 26.1,
+    "score": 25.9,
     "review": false
   },
   "8055148408848": {
@@ -459,7 +459,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "review",
-    "score": 7.9,
+    "score": 7.7,
     "review": true
   },
   "5055148410612": {
@@ -510,7 +510,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 48.7,
+    "score": 48.8,
     "review": false
   },
   "1111111036136": {
@@ -527,7 +527,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 42.6,
+    "score": 42.8,
     "review": false
   },
   "5055148407575": {
@@ -544,7 +544,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 34.2,
+    "score": 34.3,
     "review": false
   },
   "5055148400477": {
@@ -561,7 +561,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 34.2,
+    "score": 34.3,
     "review": false
   },
   "5055148409074": {
@@ -578,7 +578,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 10.6,
+    "score": 10.7,
     "review": false
   },
   "5055148410377": {
@@ -646,7 +646,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 13.5,
+    "score": 13.4,
     "review": false
   },
   "5055148400309": {
@@ -663,7 +663,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "review",
-    "score": 7.8,
+    "score": 7.5,
     "review": true
   },
   "5055148400231": {
@@ -680,7 +680,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "gynaikeia-frontida",
     "matchType": "high",
-    "score": 14.9,
+    "score": 15,
     "review": false
   },
   "5055148400217": {
@@ -714,7 +714,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 20.8,
+    "score": 20.5,
     "review": false
   },
   "5055148400293": {
@@ -731,7 +731,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 20.8,
+    "score": 20.5,
     "review": false
   },
   "5055148408213": {
@@ -748,7 +748,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 16.8,
+    "score": 16.5,
     "review": false
   },
   "5055148413231": {
@@ -765,7 +765,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 19.6,
+    "score": 19.5,
     "review": false
   },
   "5055148403942": {
@@ -782,7 +782,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 19.6,
+    "score": 19.5,
     "review": false
   },
   "5055148411381": {
@@ -803,37 +803,37 @@ window.LAMBERTS_OVERRIDES = {
     "review": false
   },
   "5055148410599": {
-    "name": "Vegan Vitamin D3 1000iu",
-    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu φυτικής προελεύσεως",
-    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu φυτικής προελεύσεως",
+    "name": "Vitamin D3 1000iu Gummies",
+    "subtitle": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
+    "description": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8137-90-hr-1.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8137-90-hr-1.png",
-    "url": "https://lamberts.gr/product/vegan-vitamin-d3-1000iu/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
+    "url": "https://lamberts.gr/product/vitamin-d3-1000iu-gummies/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 17.2,
+    "score": 17.3,
     "review": false
   },
   "5055148411480": {
-    "name": "Vegan Vitamin D3 1000iu",
-    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu φυτικής προελεύσεως",
-    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu φυτικής προελεύσεως",
+    "name": "Vitamin D3 1000iu Gummies",
+    "subtitle": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
+    "description": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8137-90-hr-1.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8137-90-hr-1.png",
-    "url": "https://lamberts.gr/product/vegan-vitamin-d3-1000iu/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
+    "url": "https://lamberts.gr/product/vitamin-d3-1000iu-gummies/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 17.2,
+    "score": 17.3,
     "review": false
   },
   "5055148413804": {
@@ -901,7 +901,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "review",
-    "score": 6.7,
+    "score": 6.6,
     "review": true
   },
   "5055148409326": {
@@ -918,7 +918,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "review",
-    "score": 6.7,
+    "score": 6.6,
     "review": true
   },
   "5055148412807": {
@@ -952,7 +952,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 37.7,
+    "score": 37.8,
     "review": false
   }
 };
