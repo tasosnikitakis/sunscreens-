@@ -368,10 +368,19 @@ async function main() {
       const d = chosen.details || {};
       // Βασικά στοιχεία (strong-desc: "pH7", "Ιατροτεχνολογικό προϊόν", "CE 2803") και
       // badges ("ΝΕΟ") μπαίνουν στις ιδιότητες· η συσκευασία ("50g") έχει δικό της πεδίο.
-      const extraClaims = [...(d.keyFacts || []), ...(d.badges || []).map(b => b === "ΝΕΟ" ? "Νέο" : b)]
+      // Καθάρισμα strong-desc γραμμών: "Μη φαγεσωρογόνο. ." → "Μη φαγεσωρογόνο",
+      // "CΕ2803" (ελληνικό Ε) → "CE 2803", σκέτο "CE" → "Σήμανση CE".
+      const normFact = s => String(s).replace(/\s+/g, " ").replace(/[\s.·]+$/g, "").trim()
+        .replace(/^C[EΕ]\s*(\d{3,4})$/i, "CE $1").replace(/^C[EΕ]$/i, "Σήμανση CE");
+      const extraClaims = [...(d.keyFacts || []).map(normFact), ...(d.badges || []).map(b => b === "ΝΕΟ" ? "Νέο" : b)]
         .filter(c => c && c !== d.size && !VOLUME_TOKEN.test(c.replace(/\s+/g, "")));
+      // Σύντομα (≤45 χαρ.) → pills (claims)· ολόκληρες προτάσεις → λίστα "Βασικά χαρακτηριστικά".
       const allClaims = [...claims];
-      for (const c of extraClaims) if (!allClaims.some(x => x.toLowerCase() === c.toLowerCase())) allClaims.push(c);
+      const highlights = [];
+      for (const c of extraClaims) {
+        const target = c.length <= 45 ? allClaims : highlights;
+        if (!target.some(x => x.toLowerCase() === c.toLowerCase())) target.push(c);
+      }
       const attributes = {};
       if (d.size) attributes["Συσκευασία"] = d.size;
       if (d.category) attributes["Κατηγορία frezyderm.gr"] = d.category;
@@ -383,6 +392,7 @@ async function main() {
         subtitle: d.subtitle || null,
         description,
         claims: allClaims,
+        highlights,
         attributes,
         sections,
         // Μεγέθυνση (ProductLarge) για καλύτερη ανάλυση· το og:image μένει ως fallback
