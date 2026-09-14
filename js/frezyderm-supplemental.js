@@ -337,5 +337,12 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5202888271151.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/frezyderm-night-force-ae-cream-50ml-p-92.html"
+  },
+  "5202888261084": {
+    "name": "Frezyderm Holistic Calendula Cream, 50ml - Online Pharmacy Ofarmakopoiosmou.gr",
+    "description": "Cream for face and body that relieves, moisturizes, soothes and helps balancing disorders of the skin flo",
+    "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm_calendula_cream_0.jpg",
+    "source": "ofarmakopoiosmou.gr",
+    "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-holistic-calendula-cream-50ml"
   }
 };

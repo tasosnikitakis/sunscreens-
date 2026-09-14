@@ -1051,7 +1051,7 @@ window.IMAGE_MANIFEST = {
   "5202888105210": "frezyderm/hair-force-shampoo-men-5202888105210.jpg",
   "5202888261213": "frezyderm/holistic-arnica-cream-50ml-pharm24-gr-5202888261213.png",
   "5202888261060": "frezyderm/moisturizing-rich-micellar-water-50ml-5202888261060.png",
-  "5202888261084": "frezyderm/calendula-cream-5202888261084.jpg",
+  "5202888261084": "frezyderm/holistic-calendula-cream-50ml-online-pharmacy-ofarmakopoiosmou-gr-5202888261084.jpg",
   "5202888261077": "frezyderm/hypericum-cream-5202888261077.jpg",
   "5202888226106": "frezyderm/propolis-cream-5202888226106.jpg",
   "5202888273025": "frezyderm/face-serum-hyaluronic-acid-5202888273025.jpg",
