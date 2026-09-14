@@ -31,7 +31,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadWindowFile, cleanSiteName, cleanLongDescription, cleanPharmacyName, tabLabel, VOLUME_TOKEN } from "./lib-frezyderm.mjs";
+import { loadWindowFile, cleanSiteName, cleanLongDescription, cleanPharmacyName, tabLabel, toLargePreset, VOLUME_TOKEN } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -385,7 +385,10 @@ async function main() {
         claims: allClaims,
         attributes,
         sections,
-        image: d.imageLarge || chosen.image || null,
+        // Μεγέθυνση (ProductLarge) για καλύτερη ανάλυση· το og:image μένει ως fallback
+        // για το sync αν το μεγάλο preset δεν υπάρχει.
+        image: d.imageZoom || toLargePreset(d.imageLarge || chosen.image) || null,
+        imageFallback: d.imageLarge || chosen.image || null,
         url: chosen.url,
         source: "frezyderm.gr",
         section: chosen.section,
