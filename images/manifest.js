@@ -1297,11 +1297,11 @@ window.IMAGE_MANIFEST = {
   "5055148413231": "lamberts/vitamin-d-2000iu-5055148413231.png",
   "5055148403942": "lamberts/natural-form-vitamin-e-400iu-5055148403942.png",
   "5055148411381": "lamberts/vitamin-d3-k2-5055148411381.png",
-  "5055148410599": "lamberts/vitamin-d3-1000iu-gummies-5055148410599.png",
-  "5055148411480": "lamberts/vitamin-d3-1000iu-gummies-5055148411480.png",
+  "5055148410599": "lamberts/vitamin-d-1000iu-5055148410599.png",
+  "5055148411480": "lamberts/vitamin-d-1000iu-5055148411480.png",
   "5055148413804": "lamberts/vitamin-d3-2000iu-k2-90-g-5055148413804.png",
-  "5055148413248": "lamberts/vitamin-d3-2000iu-k2-90-g-5055148413248.png",
-  "5055148413224": "lamberts/vitamin-d3-2000iu-k2-90-g-5055148413224.png",
+  "5055148413248": "lamberts/vitamin-d-2000iu-5055148413248.png",
+  "5055148413224": "lamberts/vitamin-d-2000iu-5055148413224.png",
   "5055148411473": "lamberts/vitamin-d-4000iu-100-g-5055148411473.png",
   "5055148409326": "lamberts/vitamin-d-4000iu-100-g-5055148409326.png",
   "5055148412807": "lamberts/vitamin-d3-drops-5055148412807.png",
@@ -1312,5 +1312,8 @@ window.IMAGE_MANIFEST = {
   "5202888102110": "frezyderm/prevenstria-protective-anti-stria-cream-5202888102110.jpg",
   "5055148403058": "lamberts/cranberry-complex-5055148403058.png",
   "5055148401566": "lamberts/l-glutathione-complex-5055148401566.png",
-  "5055148401900": "lamberts/vitamin-b12-1000-g-5055148401900.png"
+  "5055148401900": "lamberts/vitamin-b12-1000-g-5055148401900.png",
+  "5055148412982": "lamberts/ashwagandha-advance-5055148412982.png",
+  "5055148412050": "lamberts/osteoguard-advance-5055148412050.png",
+  "5055148412067": "lamberts/osteoguard-advance-5055148412067.png"
 };
