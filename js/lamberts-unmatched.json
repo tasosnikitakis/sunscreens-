@@ -88,14 +88,6 @@
     "bestUrl": "https://lamberts.gr/product/ashwagandha-6000mg/"
   },
   {
-    "barcode": "5055148414139",
-    "name": "LAMBERTS Glucosamine & Chondroitin Complex 60tabs",
-    "status": "skip",
-    "bestScore": 2.5,
-    "bestName": "Glucosamine & Phytodroitin™ Complex",
-    "bestUrl": "https://lamberts.gr/product/glucosamine-phytodroitin-complex/"
-  },
-  {
     "barcode": "5000453120268",
     "name": "LAMBERTS Hawthorn 2500mg  60tabs",
     "status": "skip",
@@ -136,14 +128,6 @@
     "bestUrl": "https://lamberts.gr/product/echinacea-1000mg/"
   },
   {
-    "barcode": "5055148413743",
-    "name": "LAMBERTS IBISENE (ARTICHOKE 8000MG)180TABS",
-    "status": "skip",
-    "bestScore": 1.3,
-    "bestName": "Artichoke 7425mg",
-    "bestUrl": "https://lamberts.gr/product/artichoke-7425mg/"
-  },
-  {
     "barcode": "5055148414702",
     "name": "LAMBERTS IMMUNO STRENGTH",
     "status": "skip",
@@ -168,36 +152,12 @@
     "bestUrl": "https://lamberts.gr/product/cranberry-complex/"
   },
   {
-    "barcode": "5055148411428",
-    "name": "LAMBERTS MAGNESIUM 375",
-    "status": "skip",
-    "bestScore": 3.1,
-    "bestName": "Magnesium Citrate",
-    "bestUrl": "https://lamberts.gr/product/magnesium-citrate/"
-  },
-  {
-    "barcode": "5055148412876",
-    "name": "LAMBERTS MAGNESIUM 375 60TABS",
-    "status": "skip",
-    "bestScore": 3.1,
-    "bestName": "Magnesium Citrate",
-    "bestUrl": "https://lamberts.gr/product/magnesium-citrate/"
-  },
-  {
     "barcode": "5055148403508",
     "name": "LAMBERTS MILK THISTLE 8500MG 90TABS",
     "status": "skip",
     "bestScore": -9.6,
     "bestName": "Cranberry Complex",
     "bestUrl": "https://lamberts.gr/product/cranberry-complex/"
-  },
-  {
-    "barcode": "5055148401931",
-    "name": "LAMBERTS MIN IRON 14MG 100TABS",
-    "status": "skip",
-    "bestScore": 3.2,
-    "bestName": "Bio-Iron Complex",
-    "bestUrl": "https://lamberts.gr/product/bio-iron-complex/"
   },
   {
     "barcode": "5055148400163",
@@ -216,6 +176,22 @@
     "bestUrl": "https://lamberts.gr/product/cranberry-complex/"
   },
   {
+    "barcode": "5055148412111",
+    "name": "LAMBERTS MULTI GUARD ADR 120TABS",
+    "status": "manual-skip",
+    "bestScore": 7.6,
+    "bestName": "MultiGuard OsteoAdvance 50+",
+    "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
+  },
+  {
+    "barcode": "5055148412708",
+    "name": "LAMBERTS MULTI GUARD ADR 60TABS",
+    "status": "manual-skip",
+    "bestScore": 7.6,
+    "bestName": "MultiGuard OsteoAdvance 50+",
+    "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
+  },
+  {
     "barcode": "5055148411985",
     "name": "LAMBERTS Multi-Guard® High Potency One-a-Day 30tabs",
     "status": "skip",
@@ -230,14 +206,6 @@
     "bestScore": -10.1,
     "bestName": "Vitamin B12 1000μg",
     "bestUrl": "https://lamberts.gr/product/vitamin-b12-1000mg/"
-  },
-  {
-    "barcode": "5055148413644",
-    "name": "LAMBERTS NEURO-LOGICAL PEA (B1, B6 & B12) 60CAPS",
-    "status": "skip",
-    "bestScore": 2.9,
-    "bestName": "Neuro-Logical Plus",
-    "bestUrl": "https://lamberts.gr/product/neuro-logical-plus/"
   },
   {
     "barcode": "5055148411503",
