@@ -18,10 +18,12 @@ import { cleanPharmacyName } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const SUP_FILE = path.join(ROOT, "js/frezyderm-supplemental.js");
-
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry-run");
+// --brand=lamberts για το js/lamberts-supplemental.js (default: frezyderm)
+const BRAND = (args.find(a => a.startsWith("--brand=")) || "--brand=frezyderm").slice(8).toLowerCase();
+const SUP_FILE = path.join(ROOT, `js/${BRAND}-supplemental.js`);
+const WINDOW_VAR = `${BRAND.toUpperCase()}_SUPPLEMENTAL`;
 
 // Patterns για κοινό pharmacy filler που κολλάει στο τέλος του meta description
 const SUFFIX_PATTERNS = [
@@ -49,15 +51,15 @@ async function loadSupplemental() {
   const ctx = { window: {} };
   vm.createContext(ctx);
   vm.runInContext(await fs.readFile(SUP_FILE, "utf8"), ctx);
-  return ctx.window.FREZYDERM_SUPPLEMENTAL || {};
+  return ctx.window[WINDOW_VAR] || {};
 }
 
 async function saveSupplemental(m) {
-  const banner = "// Auto-generated από το scripts/fill-frezyderm-missing.mjs.\n"
+  const banner = `// Auto-generated από το scripts/fill-${BRAND}-missing.mjs.\n`
                + "// Καθαρίστηκε τελευταία φορά από το scripts/clean-frezyderm-descriptions.mjs.\n"
                + "// Δεν αγγίζουμε — γράφεται από τα scripts.\n";
   await fs.writeFile(SUP_FILE,
-    banner + "window.FREZYDERM_SUPPLEMENTAL = " + JSON.stringify(m, null, 2) + ";\n", "utf8");
+    banner + `window.${WINDOW_VAR} = ` + JSON.stringify(m, null, 2) + ";\n", "utf8");
 }
 
 async function main() {
@@ -79,7 +81,7 @@ async function main() {
     console.log(`  AFTER : ${s.after.slice(0, 180)}${s.after.length > 180 ? "…" : ""}`);
     console.log();
   }
-  if (!DRY && (changed || namesChanged)) { await saveSupplemental(sup); console.log("Έγραψε js/frezyderm-supplemental.js."); }
+  if (!DRY && (changed || namesChanged)) { await saveSupplemental(sup); console.log(`Έγραψε js/${BRAND}-supplemental.js.`); }
   if (DRY) console.log("(dry-run — δεν έγραψα τίποτα)");
 }
 

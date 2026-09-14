@@ -1,4 +1,6 @@
 // Lamberts catalog page logic — groups by SECTION → products
+// Data: LAMBERTS_SUPPLIER (barcodes + wholesale)
+// Enrichment: LAMBERTS_OVERRIDES (matched from lamberts.gr), LAMBERTS_SUPPLEMENTAL (pharmacy fallback)
 
 const catalogEl = document.getElementById("catalog");
 const searchEl = document.getElementById("search");
@@ -10,22 +12,28 @@ const OVERRIDES = window.LAMBERTS_OVERRIDES || {};
 const SUPPLEMENTAL = window.LAMBERTS_SUPPLEMENTAL || {};
 const SECTION_LABELS = window.LAMBERTS_SECTION_LABELS || {};
 
-function fmtPriceLocal(n) { return n > 0 ? n.toFixed(2).replace(".", ",") + " €" : "—"; }
-function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
-
+// Αν υπάρχει σελίδα στο lamberts.gr (OVERRIDES) χρησιμοποιούμε ΜΟΝΟ αυτή —
+// ποτέ μείγμα με δεδομένα φαρμακείου. Το SUPPLEMENTAL είναι fallback
+// αποκλειστικά για προϊόντα χωρίς σελίδα brand.
 function enrichmentFor(barcode) {
-  const o = OVERRIDES[barcode] || {};
+  const o = OVERRIDES[barcode];
+  if (o) {
+    return {
+      name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
+      url: o.url || null, source: "lamberts.gr", section: o.section || null,
+      claims: o.claims || [], review: !!o.review, noBrandPage: false
+    };
+  }
   const s = SUPPLEMENTAL[barcode] || {};
   return {
-    name: o.name || s.name || null,
-    description: o.description || s.description || null,
-    image: o.image || s.image || null,
-    url: o.url || s.url || null,
-    source: o.source || s.source || null,
-    section: o.section || s.section || null,
-    review: o.review || false
+    name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
+    url: s.url || null, source: s.source || null, section: s.section || null,
+    claims: [], review: false, noBrandPage: true
   };
 }
+
+function fmtPriceLocal(n) { return n > 0 ? n.toFixed(2).replace(".", ",") + " €" : "—"; }
+function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
 
 function sectionOf(p) { const e = enrichmentFor(p.barcode); return e.section || "diafora"; }
 function labelFor(section) { return SECTION_LABELS[section] || { name: section, icon: "📦", accent: "#64748b" }; }
@@ -65,22 +73,31 @@ function makeCard(p) {
   const card = document.createElement("a");
   card.href = `product.html?barcode=${encodeURIComponent(p.barcode)}&type=lamberts`;
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
-  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (p.barcode || "")).toLowerCase();
+  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.subtitle || "") + " " + (enrich.description || "") + " " + (enrich.claims || []).join(" ") + " " + (p.barcode || "")).toLowerCase();
   card.dataset.search = blob;
-  const qualityInit = frezydermDescriptionQuality(enrich.description);
-  card.dataset.needsReview = qualityInit.ok ? "0" : "1";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl || enrich.image || null;
+  const quality = frezydermDescriptionQuality(enrich.description);
+  card.dataset.needsReview = quality.ok ? "0" : "1";
+  card.dataset.noPage = enrich.noBrandPage ? "1" : "0";
+  // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
+  card.dataset.allOk = (!enrich.noBrandPage && quality.ok && !enrich.review && !!remoteUrl) ? "1" : "0";
 
   const imgWrap = document.createElement("div");
   imgWrap.className = "aspect-square relative overflow-hidden";
+  const topBadge = enrich.noBrandPage
+    ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-slate-800/95 text-white shadow-sm" title="Δεν βρέθηκε σελίδα στο lamberts.gr">Χωρίς Σελίδα</div>`
+    : enrich.review
+      ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm" title="Match για έλεγχο">Match?</div>`
+      : "";
+  const descBadge = quality.ok ? "" :
+    `<div class="absolute ${topBadge ? "top-8" : "top-2"} left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-rose-500/95 text-white shadow-sm" title="${escapeText(quality.reasons.map(frezReasonLabel).join(" · "))}">🔍 Περιγραφή</div>`;
   imgWrap.innerHTML = `
     <div class="placeholder-bg absolute inset-0 flex items-center justify-center text-white font-bold text-3xl" style="--accent:${accent};--accent-dark:${shade(accent, -20)}">LB</div>
     ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeText(displayName(p))}" class="absolute inset-0 w-full h-full object-contain p-3 bg-white" onerror="this.remove()">` : ""}
     <div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>
-    ${enrich.review ? `<div class="absolute top-2 left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-amber-500/95 text-white shadow-sm" title="Match confidence < 6">Match?</div>` : ""}
-    ${!qualityInit.ok ? `<div class="absolute ${enrich.review ? "top-8" : "top-2"} left-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-rose-500/95 text-white shadow-sm" title="${escapeText(qualityInit.reasons.map(frezReasonLabel).join(" · "))}">🔍 Περιγραφή</div>` : ""}
+    ${topBadge}${descBadge}
   `;
   card.appendChild(imgWrap);
 
@@ -89,6 +106,7 @@ function makeCard(p) {
   body.innerHTML = `
     <div class="text-xs font-semibold uppercase tracking-wide mb-1" style="color:${accent}">${escapeText(label.name)}</div>
     <h3 class="text-sm font-semibold text-slate-800 leading-snug line-clamp-2 min-h-[2.5rem]">${escapeText(displayName(p))}</h3>
+    ${enrich.subtitle ? `<p class="mt-1 text-xs text-slate-500 line-clamp-2">${escapeText(enrich.subtitle)}</p>` : ""}
     <div class="mt-2 text-[10px] uppercase tracking-wide text-slate-500 font-medium">EAN ${escapeText(p.barcode)}</div>
   `;
   card.appendChild(body);
@@ -127,16 +145,32 @@ function buildCatalog() {
   });
 }
 
+const QUALITY_LABEL = {
+  ok:         "όλα ΟΚ",
+  issue:      "με κάποιο θέμα",
+  complete:   "με πλήρη περιγραφή",
+  incomplete: "με ανεπαρκή περιγραφή",
+  nopage:     "χωρίς σελίδα lamberts.gr"
+};
+
+function passesQuality(card, mode) {
+  if (mode === "ok")         return card.dataset.allOk === "1";
+  if (mode === "issue")      return card.dataset.allOk !== "1";
+  if (mode === "complete")   return card.dataset.needsReview === "0";
+  if (mode === "incomplete") return card.dataset.needsReview === "1";
+  if (mode === "nopage")     return card.dataset.noPage === "1";
+  return true;
+}
+
 function applySearch(term) {
   const t = term.trim().toLowerCase();
-  const onlyReview = !!(document.getElementById("filter-review") && document.getElementById("filter-review").checked);
+  const qualityEl = document.getElementById("filter-quality");
+  const mode = qualityEl ? qualityEl.value : "all";
   let visible = 0;
   document.querySelectorAll("section[data-section]").forEach(sec => {
     let secVisible = 0;
     sec.querySelectorAll(".product-card").forEach(card => {
-      const passSearch = !t || card.dataset.search.includes(t);
-      const passReview = !onlyReview || card.dataset.needsReview === "1";
-      const show = passSearch && passReview;
+      const show = (!t || card.dataset.search.includes(t)) && passesQuality(card, mode);
       card.style.display = show ? "" : "none";
       if (show) secVisible++;
     });
@@ -144,8 +178,8 @@ function applySearch(term) {
     visible += secVisible;
   });
   noResultsEl.classList.toggle("hidden", visible > 0);
-  const suffix = onlyReview ? " με ανεπαρκή περιγραφή" : "";
-  resultCountEl.textContent = t ? `${visible} αποτελέσματα${suffix}` : (onlyReview ? `${visible} χρειάζονται review` : `${LAMBERTS_SUPPLIER.length} προϊόντα συνολικά`);
+  const suffix = QUALITY_LABEL[mode] ? ` ${QUALITY_LABEL[mode]}` : "";
+  resultCountEl.textContent = (t || mode !== "all") ? `${visible} προϊόντα${suffix}` : `${LAMBERTS_SUPPLIER.length} προϊόντα συνολικά`;
 }
 
 buildCatalog();
@@ -153,5 +187,5 @@ applySearch("");
 
 let searchTimer;
 searchEl.addEventListener("input", e => { clearTimeout(searchTimer); searchTimer = setTimeout(() => applySearch(e.target.value), 120); });
-const filterReview = document.getElementById("filter-review");
-if (filterReview) filterReview.addEventListener("change", () => applySearch(searchEl.value));
+const filterQuality = document.getElementById("filter-quality");
+if (filterQuality) filterQuality.addEventListener("change", () => applySearch(searchEl.value));

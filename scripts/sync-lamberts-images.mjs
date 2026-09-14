@@ -7,6 +7,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { PHARMACY_IMAGE_MARKER } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -105,12 +106,9 @@ async function main() {
   const supplemental = await loadJs(SUPPLEMENTAL_FILE, "LAMBERTS_SUPPLEMENTAL");
   const manifest = await loadManifest();
 
-  let pool = supplier.filter(p => {
-    const o = overrides[p.barcode] || {};
-    const s = supplemental[p.barcode] || {};
-    const img = o.image || s.image;
-    return !!img;
-  });
+  // Μόνο προϊόντα με σελίδα στο lamberts.gr (override) — οι εικόνες φαρμακείου
+  // κατεβαίνουν από το fill-lamberts-missing.mjs για τα υπόλοιπα.
+  let pool = supplier.filter(p => overrides[p.barcode] && overrides[p.barcode].image);
   if (ONLY) pool = pool.filter(p => p.barcode === ONLY);
 
   console.log(`Συγχρονισμός ${pool.length} Lamberts εικόνων…\n`);
@@ -119,27 +117,44 @@ async function main() {
   let ok = 0, skip = 0, fail = 0;
   for (let i = 0; i < pool.length; i++) {
     const p = pool[i];
-    const o = overrides[p.barcode] || {};
-    const s = supplemental[p.barcode] || {};
-    const img = o.image || s.image;
-    const url = o.url || s.url;
-    const name = o.name || s.name || p.name;
+    const o = overrides[p.barcode];
+    const img = o.image;
+    const url = o.url;
+    const name = o.name || p.name;
     const existing = manifest[p.barcode];
-    if (!FORCE && existing && existing.startsWith("lamberts/")) {
-      try { await fs.access(path.join(IMG_DIR, existing)); skip++; continue; }
-      catch {}
+    // Provenance: από ποιο lamberts.gr URL κατέβηκε η τοπική εικόνα — ξεχωρίζει
+    // εικόνες φαρμακείου (ίδιος φάκελος) και αλλαγή match σε άλλη σελίδα.
+    const sources = manifest._lambSource || (manifest._lambSource = {});
+    const looksOfficial = existing && existing.startsWith("lamberts/") && !PHARMACY_IMAGE_MARKER.test(existing);
+    const sameSource = !sources[p.barcode] || sources[p.barcode] === img;
+    if (!FORCE && looksOfficial && sameSource) {
+      try {
+        await fs.access(path.join(IMG_DIR, existing));
+        if (!sources[p.barcode]) sources[p.barcode] = img;
+        skip++; continue;
+      } catch {}
     }
 
     const label = `[${i + 1}/${pool.length}] ${p.barcode}`;
     try {
-      const { buf, contentType } = await fetchBuf(img, url);
+      let fetched;
+      try { fetched = await fetchBuf(img, url); }
+      catch (err) {
+        if (!o.imageFallback || o.imageFallback === img) throw err;
+        fetched = await fetchBuf(o.imageFallback, url);
+      }
+      const { buf, contentType } = fetched;
       const ext = extFromContentType(contentType, img);
       const baseName = (name || p.barcode).replace(/^LAMBERTS\s*/i, "");
       const slug = slugify(baseName);
       const relPath = `lamberts/${slug}-${p.barcode}.${ext}`;
       await fs.writeFile(path.join(IMG_DIR, relPath), buf);
+      if (existing && existing !== relPath && existing.startsWith("lamberts/")) {
+        try { await fs.unlink(path.join(IMG_DIR, existing)); } catch {}
+      }
       manifest[p.barcode] = relPath;
-      console.log(`${label} OK ${relPath} (${(buf.length/1024).toFixed(0)}kb)`);
+      sources[p.barcode] = img;
+      console.log(`${label} OK ${relPath} (${(buf.length/1024).toFixed(0)}kb)${existing && existing !== relPath ? `  (αντικατέστησε ${existing})` : ""}`);
       ok++;
     } catch (err) {
       console.log(`${label} ERR ${err.message}`);

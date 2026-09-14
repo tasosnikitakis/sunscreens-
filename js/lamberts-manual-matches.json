@@ -1,0 +1,3 @@
+{
+  "_comment": "Χειροκίνητες διορθώσεις match: barcode → URL σελίδας στο lamberts.gr. Τιμή null = το προϊόν ΔΕΝ έχει σελίδα (μην το ταιριάξεις). Διαβάζεται από scripts/match-lamberts.mjs και υπερισχύει του fuzzy. Για να εγκρίνετε μια πρόταση από το lamberts-match-report.csv, αντιγράψτε εδώ barcode + URL."
+}

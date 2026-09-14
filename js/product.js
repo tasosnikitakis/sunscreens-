@@ -24,17 +24,22 @@ const _LAMB_SUPPLEMENTAL  = (typeof window !== "undefined" && window.LAMBERTS_SU
 const _LAMB_SECTIONS      = (typeof window !== "undefined" && window.LAMBERTS_SECTION_LABELS) || {};
 const _LAMB_BRAND         = { name: "Lamberts", accent: "#7c3aed" };
 
+// Σελίδα στο lamberts.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
 function _lambEnrichmentFor(barcode) {
-  const o = _LAMB_OVERRIDES[barcode] || {};
+  const o = _LAMB_OVERRIDES[barcode];
+  if (o) {
+    return {
+      name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
+      url: o.url || null, source: "lamberts.gr", section: o.section || null,
+      claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {}, matchType: o.matchType || null,
+      review: !!o.review, official: true
+    };
+  }
   const s = _LAMB_SUPPLEMENTAL[barcode] || {};
   return {
-    name: o.name || s.name || null,
-    description: o.description || s.description || null,
-    image: o.image || s.image || null,
-    url: o.url || s.url || null,
-    source: o.source || s.source || null,
-    section: o.section || s.section || null,
-    review: o.review || false
+    name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
+    url: s.url || null, source: s.source || null, section: s.section || null,
+    claims: [], highlights: [], attributes: {}, sections: {}, matchType: null, review: false, official: false
   };
 }
 function prettifyLambertsName(raw) {
@@ -251,7 +256,7 @@ function render({ product: p, brands, catalog }) {
           ${escapeHtml(brand.name)}${isEnrichable && p.line ? " · " + escapeHtml(p.line) : ""}
         </div>
         <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(displayName)}</h1>
-        ${isFrezyderm && enrich.subtitle ? `<p class="mt-1 text-base text-slate-600">${escapeHtml(enrich.subtitle)}</p>` : ""}
+        ${(isFrezyderm || isLamberts) && enrich.subtitle ? `<p class="mt-1 text-base text-slate-600">${escapeHtml(enrich.subtitle)}</p>` : ""}
 
         <div class="mt-5 flex items-baseline gap-3">
           <span class="text-3xl font-bold text-slate-900">${(() => { const pr = (isFrezyderm || isLamberts) ? p.wholesale : p.price; return pr > 0 ? fmtPrice(pr) : "—"; })()}</span>
@@ -276,12 +281,12 @@ function render({ product: p, brands, catalog }) {
                     : sunscreenDescription(p, parsed)
         }</p>
 
-        ${isFrezyderm && enrich.claims && enrich.claims.length ? `
+        ${(isFrezyderm || isLamberts) && enrich.claims && enrich.claims.length ? `
           <div class="mt-4 flex flex-wrap gap-2">
             ${enrich.claims.map(c => `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-teal-50 text-teal-700 border border-teal-200">✓ ${escapeHtml(c)}</span>`).join("")}
           </div>` : ""}
 
-        ${isFrezyderm && enrich.highlights && enrich.highlights.length ? `
+        ${(isFrezyderm || isLamberts) && enrich.highlights && enrich.highlights.length ? `
           <section class="mt-6">
             <h2 class="text-sm font-bold uppercase tracking-wide text-teal-700 mb-2">Βασικά χαρακτηριστικά</h2>
             <ul class="list-disc pl-5 text-sm text-slate-700 leading-relaxed space-y-1">
@@ -289,7 +294,7 @@ function render({ product: p, brands, catalog }) {
             </ul>
           </section>` : ""}
 
-        ${isFrezyderm && enrich.sections && Object.keys(enrich.sections).length ? Object.entries(enrich.sections).map(([title, text]) => `
+        ${(isFrezyderm || isLamberts) && enrich.sections && Object.keys(enrich.sections).length ? Object.entries(enrich.sections).map(([title, text]) => `
           <section class="mt-6">
             <h2 class="text-sm font-bold uppercase tracking-wide text-teal-700 mb-2">${escapeHtml(title)}</h2>
             <p class="text-slate-700 leading-relaxed text-sm">${escapeHtml(text).replace(/\n{2,}/g, "</p><p class=\"mt-2\">").replace(/\n/g, "<br>")}</p>
@@ -305,8 +310,8 @@ function render({ product: p, brands, catalog }) {
             ${p.vat ? `<dt class="text-slate-500">ΦΠΑ</dt><dd class="font-medium text-slate-800">${p.vat}%</dd>` : ""}
             ${(isFrezyderm || isLamberts) && p.retail ? `<dt class="text-slate-500">Λιανική ενδεικτική</dt><dd class="font-medium text-slate-800">${p.retail.toFixed(2).replace(".", ",")} €</dd>` : ""}
             ${(isFrezyderm || isLamberts) && (p.variants || []).length > 1 ? `<dt class="text-slate-500">Παραλλαγές (variants)</dt><dd class="font-mono text-slate-800 text-xs">${p.variants.filter(v => v !== p.barcode).map(v => escapeHtml(v)).join(", ")}</dd>` : ""}
-            ${isFrezyderm && enrich.attributes ? Object.entries(enrich.attributes).map(([k, v]) => `<dt class="text-slate-500">${escapeHtml(k)}</dt><dd class="font-medium text-slate-800">${escapeHtml(Array.isArray(v) ? v.join(", ") : v)}</dd>`).join("") : ""}
-            ${isFrezyderm && enrich.official && enrich.url ? `<dt class="text-slate-500">Επίσημη σελίδα</dt><dd><a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="font-medium text-teal-700 hover:underline">frezyderm.gr ↗</a></dd>` : ""}
+            ${(isFrezyderm || isLamberts) && enrich.attributes ? Object.entries(enrich.attributes).map(([k, v]) => `<dt class="text-slate-500">${escapeHtml(k)}</dt><dd class="font-medium text-slate-800">${escapeHtml(Array.isArray(v) ? v.join(", ") : v)}</dd>`).join("") : ""}
+            ${(isFrezyderm || isLamberts) && enrich.official && enrich.url ? `<dt class="text-slate-500">Επίσημη σελίδα</dt><dd><a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="font-medium text-teal-700 hover:underline">${isLamberts ? "lamberts.gr" : "frezyderm.gr"} ↗</a></dd>` : ""}
           ` : `
             ${parsed.spf ? `<dt class="text-slate-500">Δείκτης προστασίας</dt><dd class="font-medium text-slate-800">SPF ${parsed.spf}</dd>` : ""}
             ${parsed.volume ? `<dt class="text-slate-500">Συσκευασία</dt><dd class="font-medium text-slate-800">${parsed.volume}</dd>` : ""}
