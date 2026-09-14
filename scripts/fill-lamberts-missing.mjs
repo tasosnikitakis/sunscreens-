@@ -8,6 +8,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { cleanPharmacyName } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -100,10 +101,7 @@ function extractMeta(html) {
 }
 
 function cleanupTitle(t) {
-  if (!t) return null;
-  let s = t.replace(/\s+/g, " ").trim();
-  s = s.replace(/\s*[\|–\-—]\s*(Skroutz(\.gr)?|BestPrice(\.gr)?|Vita4you|Pharm24|Kosmas(\.gr)?|Fr\.gr|Blinkshop|Pharmacy295|BestPharmacy|MyPharmacy|SmilePharmacy|oFarmakopoiosmou|LifePharmacy|Pharmaplaza|Galinos)\s*\.?$/i, "");
-  return s.replace(/\s+/g, " ").trim() || null;
+  return cleanPharmacyName(t);
 }
 
 function cleanupDescription(d) {
@@ -247,15 +245,12 @@ async function main() {
   const supplemental = await loadJs(OUT_FILE, "LAMBERTS_SUPPLEMENTAL");
   const manifest = await loadManifest();
 
+  // Προϊόντα με σελίδα στο lamberts.gr (override) ΔΕΝ αγγίζονται ποτέ από εδώ.
   let pool = supplier.filter(p => {
     if (ONLY && p.barcode !== ONLY) return false;
-    const o = overrides[p.barcode];
+    if (overrides[p.barcode]) return false;
     const s = supplemental[p.barcode];
-    if (RETRY_FLAGGED) {
-      const desc = (o && o.description) || (s && s.description) || null;
-      return isPoorQuality(desc);
-    }
-    if (o && o.image) return false;
+    if (RETRY_FLAGGED) return isPoorQuality(s && s.description);
     if (!FORCE && s) return false;
     return true;
   });
@@ -285,7 +280,7 @@ async function main() {
         const slug = slugify(baseName);
         const relPath = `lamberts/${slug}-${p.barcode}.${ext}`;
         await fs.writeFile(path.join(IMG_DIR, relPath), buf);
-        manifest[p.barcode] = relPath;
+        if (!(overrides[p.barcode] && overrides[p.barcode].image)) manifest[p.barcode] = relPath;
         imgOk++;
         console.log(`${label} OK ${hit.source} img+ (${(buf.length/1024).toFixed(0)}kb)  ${(hit.name || "").slice(0, 55)}`);
       } catch (e) {

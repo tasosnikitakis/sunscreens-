@@ -26,6 +26,7 @@ const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const DELAY_MS = parseInt(opt("delay", "300"));
 const INSPECT = opt("inspect", null);
 const GREP = opt("grep", null);
+const DUMP = opt("dump", null);
 
 const HOST = "lamberts.gr";
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
@@ -104,7 +105,7 @@ function isProductUrl(url) {
   const lower = url.toLowerCase();
   if (!lower.includes(HOST)) return false;
   if (/sitemap|robots|\.xml(\?|$)/.test(lower)) return false;
-  if (/\/(category|categories|search|account|cart|checkout|help|contact|about|stores|brands|store-locator|wp-content|wp-json|feed|blog|arthra)(\/|$)/.test(lower)) return false;
+  if (/\/(category|categories|product-category|product-tag|tag|brand|brands|search|account|cart|checkout|help|contact|about|stores|store-locator|wp-content|wp-json|feed|blog|arthra|page)(\/|$)/.test(lower)) return false;
   const p = lower.replace(/^https?:\/\/[^\/]+/, "").replace(/[?#].*$/, "");
   const parts = p.split("/").filter(Boolean);
   if (parts.length < 1) return false;
@@ -136,7 +137,8 @@ async function getSitemapProductUrls() {
     try { text = await fetchText(smUrl); } catch (e) { dbg(`  ${e.message}`); return; }
     const locs = [...text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map(m => m[1]);
     if (/<sitemapindex/i.test(text)) {
-      const children = locs.filter(u => /product|proion|catalog/i.test(u));
+      // Μόνο τα product sitemaps — όχι product-category / product-tag (σελίδες αρχείων)
+      const children = locs.filter(u => /product|proion|catalog/i.test(u) && !/product[-_](category|tag|brand)/i.test(u));
       const finalChildren = children.length ? children : locs;
       for (const c of finalChildren) { await process(c, depth + 1); await sleep(120); }
     } else {
@@ -287,6 +289,18 @@ async function inspect(url) {
   await fs.mkdir(path.join(ROOT, "_debug"), { recursive: true });
   await fs.writeFile(path.join(ROOT, "_debug", "lamberts-inspect.html"), html, "utf8");
   console.log(`\nRaw HTML → _debug/lamberts-inspect.html`);
+
+  // --dump=samples/x.html: sanitized αντίγραφο (χωρίς scripts/inline handlers/
+  // tokens σε URLs) που μπορεί να γίνει commit για μελέτη του template.
+  if (DUMP) {
+    const safe = html
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      .replace(/\son\w+=("[^"]*"|'[^']*')/gi, "")
+      .replace(/([?&](?:key|token|api_key|apikey|access_token|secret|nonce)=)[^&"'\s]+/gi, "$1REDACTED");
+    await fs.mkdir(path.dirname(path.resolve(ROOT, DUMP)), { recursive: true });
+    await fs.writeFile(path.resolve(ROOT, DUMP), safe, "utf8");
+    console.log(`Sanitized HTML → ${DUMP} (${(safe.length / 1024).toFixed(0)}kb) — ασφαλές για commit.`);
+  }
 
   if (GREP) {
     const idx = html.toLowerCase().indexOf(GREP.toLowerCase());

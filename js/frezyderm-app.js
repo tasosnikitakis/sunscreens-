@@ -81,6 +81,8 @@ function makeCard(p) {
   const qualityInit = frezydermDescriptionQuality(enrich.description);
   card.dataset.needsReview = qualityInit.ok ? "0" : "1";
   card.dataset.noPage = enrich.noFrezydermPage ? "1" : "0";
+  // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
+  card.dataset.allOk = (!enrich.noFrezydermPage && qualityInit.ok && !enrich.review && !!(localUrl || enrich.image)) ? "1" : "0";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl || enrich.image || null;
@@ -152,12 +154,16 @@ function buildCatalog() {
 }
 
 const QUALITY_LABEL = {
+  ok:         "όλα ΟΚ",
+  issue:      "με κάποιο θέμα",
   complete:   "με πλήρη περιγραφή",
   incomplete: "με ανεπαρκή περιγραφή",
   nopage:     "χωρίς σελίδα frezyderm.gr"
 };
 
 function passesQuality(card, mode) {
+  if (mode === "ok")         return card.dataset.allOk === "1";
+  if (mode === "issue")      return card.dataset.allOk !== "1";
   if (mode === "complete")   return card.dataset.needsReview === "0";
   if (mode === "incomplete") return card.dataset.needsReview === "1";
   if (mode === "nopage")     return card.dataset.noPage === "1";

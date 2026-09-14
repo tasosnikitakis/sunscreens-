@@ -282,33 +282,43 @@ function buildLambertsTable(ctx, manifest) {
   const overrides = (ctx.window && ctx.window.LAMBERTS_OVERRIDES) || {};
   const supplemental = (ctx.window && ctx.window.LAMBERTS_SUPPLEMENTAL) || {};
   const sections = (ctx.window && ctx.window.LAMBERTS_SECTION_LABELS) || {};
+  // Σελίδα στο lamberts.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
+  const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
   const enrichmentFor = (bc) => {
-    const o = overrides[bc] || {};
+    const o = overrides[bc];
+    if (o) return { name: o.name, subtitle: o.subtitle || "", description: o.description, image: o.image, url: o.url, source: "lamberts.gr",
+      section: o.section, claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
     const s = supplemental[bc] || {};
-    return {
-      name: o.name || s.name || null,
-      description: o.description || s.description || null,
-      image: o.image || s.image || null,
-      url: o.url || s.url || null,
-      source: o.source || s.source || null,
-      section: o.section || s.section || null
-    };
+    return { name: s.name || null, subtitle: "", description: s.description || null, image: s.image || null, url: s.url || null,
+      source: s.source || null, section: s.section || null, claims: [], highlights: [], attributes: {}, sections: {}, match: "Χωρίς σελίδα" };
   };
-  const headers = ["Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή",
-    "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)", "Φωτογραφία", "URL επίσημου site"];
+  const TAB_COLUMNS = ["Χρήση", "Συστατικά", "Προειδοποιήσεις"];
+  const headers = [
+    "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
+    ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
+    "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
+  ];
   const rows = products.map(p => {
     const e = enrichmentFor(p.barcode);
     const secKey = e.section || "diafora";
     const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
     const displayName = prettifyLambertsName(e.name || p.name);
     const desc = e.description || `Συμπλήρωμα διατροφής Lamberts — ${p.name}`;
+    const tabCols = TAB_COLUMNS.map(t => e.sections[t] || "");
+    const otherAttrs = [
+      ...Object.entries(e.attributes).filter(([k]) => k !== "Συσκευασία").map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`),
+      ...Object.entries(e.sections).filter(([k]) => !TAB_COLUMNS.includes(k)).map(([k, v]) => `${k}: ${v}`)
+    ].join(" | ");
     const localImg = manifest[p.barcode] || "";
     const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
-    return [displayName, p.wholesale || "", p.retail || "", desc,
-      sectionLabel, p.barcode, variants, localImg || e.image || "", e.url || ""];
+    return [
+      displayName, e.subtitle, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), e.highlights.join(" • "),
+      ...tabCols, e.attributes["Συσκευασία"] || "", otherAttrs, sectionLabel, p.barcode, variants,
+      localImg || e.image || "", e.url || "", e.source || "", e.match
+    ];
   });
-  return { headers, rows, sheetName: "Lamberts", barcodeColIdx: 5,
-    columnWidths: [50, 14, 14, 70, 24, 16, 24, 50, 50] };
+  return { headers, rows, sheetName: "Lamberts", barcodeColIdx: 13,
+    columnWidths: [50, 40, 14, 14, 70, 40, 50, 60, 50, 40, 14, 40, 24, 16, 24, 50, 50, 18, 16] };
 }
 
 function prettifyFrezydermName(raw) {

@@ -60,10 +60,14 @@
                  class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-300 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-purple-400 transition">
           <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-1.35z"/></svg>
         </div>
-        <label class="flex items-center gap-2 text-sm text-slate-700 whitespace-nowrap">
-          <input type="checkbox" id="filter-review" class="w-4 h-4 rounded border-slate-300 text-rose-500 focus:ring-rose-400">
-          <span>🔍 Μόνο με ανεπαρκή περιγραφή</span>
-        </label>
+        <select id="filter-quality" class="text-sm text-slate-700 rounded-xl border border-slate-300 bg-white shadow-sm py-3 px-3 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-purple-400">
+          <option value="all">Όλα τα προϊόντα</option>
+          <option value="ok">✅ Όλα ΟΚ (σελίδα + περιγραφή + εικόνα)</option>
+          <option value="issue">⚠️ Με κάποιο θέμα</option>
+          <option value="complete">Μόνο με πλήρη περιγραφή</option>
+          <option value="incomplete">🔍 Μόνο με ανεπαρκή περιγραφή</option>
+          <option value="nopage">⛔ Μόνο χωρίς σελίδα lamberts.gr</option>
+        </select>
         <div id="result-count" class="text-sm text-slate-500 sm:w-48 sm:text-right"></div>
       </div>
     </div>
@@ -81,11 +85,11 @@
   </footer>
 
   <script src="js/lamberts-supplier.js?v=1"></script>
-  <script src="js/lamberts-overrides.js?v=1"></script>
-  <script src="js/lamberts-supplemental.js?v=1"></script>
+  <script src="js/lamberts-overrides.js?v=2"></script>
+  <script src="js/lamberts-supplemental.js?v=2"></script>
   <script src="js/lamberts-sections.js?v=1"></script>
   <script src="images/manifest.js?v=3"></script>
   <script src="js/utils.js"></script>
-  <script src="js/lamberts-app.js"></script>
+  <script src="js/lamberts-app.js?v=2"></script>
 </body>
 </html>
