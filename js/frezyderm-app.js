@@ -13,24 +13,23 @@ const OVERRIDES = window.FREZYDERM_OVERRIDES || {};
 const SUPPLEMENTAL = window.FREZYDERM_SUPPLEMENTAL || {};
 const SECTION_LABELS = window.FREZYDERM_SECTION_LABELS || {};
 
-// Cascade: OVERRIDES (frezyderm.gr) win where present, SUPPLEMENTAL
-// (pharmacies) fills gaps. Never merge partially — read individual fields.
+// Αν υπάρχει σελίδα στο frezyderm.gr (OVERRIDES) χρησιμοποιούμε ΜΟΝΟ αυτή —
+// ποτέ μείγμα με δεδομένα φαρμακείου. Το SUPPLEMENTAL (φαρμακεία) είναι
+// fallback αποκλειστικά για προϊόντα χωρίς σελίδα brand.
 function enrichmentFor(barcode) {
-  const o = OVERRIDES[barcode] || null;
-  const s = SUPPLEMENTAL[barcode] || null;
-  const src = o || s || {};
+  const o = OVERRIDES[barcode];
+  if (o) {
+    return {
+      name: o.name || null, description: o.description || null, image: o.image || null,
+      url: o.url || null, source: "frezyderm.gr", section: o.section || null,
+      claims: o.claims || [], review: !!o.review, noFrezydermPage: false
+    };
+  }
+  const s = SUPPLEMENTAL[barcode] || {};
   return {
-    name:        (o && o.name)        || (s && s.name)        || null,
-    description: (o && o.description) || (s && s.description) || null,
-    image:       (o && o.image)       || (s && s.image)       || null,
-    url:         (o && o.url)         || (s && s.url)         || null,
-    source:      (o && o.source)      || (s && s.source)      || null,
-    section:     (o && o.section)     || (s && s.section)     || null,
-    review:      (o && o.review) || false,
-    // "Χωρίς Match": δεν βρέθηκε σελίδα στο frezyderm.gr (καμία εγγραφή
-    // στα OVERRIDES). Το προϊόν μπορεί ακόμα να έχει δεδομένα από
-    // supplemental (φαρμακείο) — αλλά δεν υπάρχει επίσημη σελίδα brand.
-    noFrezydermPage: !o
+    name: s.name || null, description: s.description || null, image: s.image || null,
+    url: s.url || null, source: s.source || null, section: s.section || null,
+    claims: [], review: false, noFrezydermPage: true
   };
 }
 
@@ -77,7 +76,7 @@ function makeCard(p) {
   const card = document.createElement("a");
   card.href = `product.html?barcode=${encodeURIComponent(p.barcode)}&type=frezyderm`;
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
-  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (p.barcode || "")).toLowerCase();
+  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (enrich.claims || []).join(" ") + " " + (p.barcode || "")).toLowerCase();
   card.dataset.search = blob;
   const qualityInit = frezydermDescriptionQuality(enrich.description);
   card.dataset.needsReview = qualityInit.ok ? "0" : "1";

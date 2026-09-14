@@ -14,6 +14,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { cleanPharmacyName } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -61,22 +62,24 @@ async function saveSupplemental(m) {
 
 async function main() {
   const sup = await loadSupplemental();
-  let changed = 0, samples = [];
+  let changed = 0, namesChanged = 0, samples = [];
   for (const [barcode, rec] of Object.entries(sup)) {
+    const cleanedName = cleanPharmacyName(rec.name);
+    if (cleanedName && cleanedName !== rec.name) { if (!DRY) rec.name = cleanedName; namesChanged++; }
     const cleaned = clean(rec.description);
     if (cleaned === null) continue;
     if (samples.length < 5) samples.push({ barcode, before: rec.description, after: cleaned });
     if (!DRY) rec.description = cleaned;
     changed++;
   }
-  console.log(`Καθαρίστηκαν: ${changed} περιγραφές (από ${Object.keys(sup).length} supplemental).\n`);
+  console.log(`Καθαρίστηκαν: ${changed} περιγραφές, ${namesChanged} ονόματα (από ${Object.keys(sup).length} supplemental).\n`);
   for (const s of samples) {
     console.log(`--- ${s.barcode} ---`);
     console.log(`  BEFORE: ${s.before.slice(0, 180)}${s.before.length > 180 ? "…" : ""}`);
     console.log(`  AFTER : ${s.after.slice(0, 180)}${s.after.length > 180 ? "…" : ""}`);
     console.log();
   }
-  if (!DRY && changed) { await saveSupplemental(sup); console.log("Έγραψε js/frezyderm-supplemental.js."); }
+  if (!DRY && (changed || namesChanged)) { await saveSupplemental(sup); console.log("Έγραψε js/frezyderm-supplemental.js."); }
   if (DRY) console.log("(dry-run — δεν έγραψα τίποτα)");
 }
 

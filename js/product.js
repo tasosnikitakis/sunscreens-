@@ -45,17 +45,22 @@ function prettifyLambertsName(raw) {
   return "Lamberts " + trimmed;
 }
 
+// Σελίδα στο frezyderm.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
 function _frezEnrichmentFor(barcode) {
-  const o = _FREZ_OVERRIDES[barcode] || {};
+  const o = _FREZ_OVERRIDES[barcode];
+  if (o) {
+    return {
+      name: o.name || null, description: o.description || null, image: o.image || null,
+      url: o.url || null, source: "frezyderm.gr", section: o.section || null,
+      claims: o.claims || [], attributes: o.attributes || {}, matchType: o.matchType || null,
+      review: !!o.review, official: true
+    };
+  }
   const s = _FREZ_SUPPLEMENTAL[barcode] || {};
   return {
-    name:        o.name        || s.name        || null,
-    description: o.description || s.description || null,
-    image:       o.image       || s.image       || null,
-    url:         o.url         || s.url         || null,
-    source:      o.source      || s.source      || null,
-    section:     o.section     || s.section     || null,
-    review:      o.review || false
+    name: s.name || null, description: s.description || null, image: s.image || null,
+    url: s.url || null, source: s.source || null, section: s.section || null,
+    claims: [], attributes: {}, matchType: null, review: false, official: false
   };
 }
 const _FREZ_BRAND         = { name: "Frezyderm", accent: "#0d9488" };
@@ -270,6 +275,11 @@ function render({ product: p, brands, catalog }) {
                     : sunscreenDescription(p, parsed)
         }</p>
 
+        ${isFrezyderm && enrich.claims && enrich.claims.length ? `
+          <div class="mt-4 flex flex-wrap gap-2">
+            ${enrich.claims.map(c => `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-teal-50 text-teal-700 border border-teal-200">✓ ${escapeHtml(c)}</span>`).join("")}
+          </div>` : ""}
+
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
           ${p.id ? `<dt class="text-slate-500">Κωδικός</dt><dd class="font-medium text-slate-800">${escapeHtml(p.id)}</dd>` : ""}
           <dt class="text-slate-500">Barcode (EAN)</dt>
@@ -280,6 +290,8 @@ function render({ product: p, brands, catalog }) {
             ${p.vat ? `<dt class="text-slate-500">ΦΠΑ</dt><dd class="font-medium text-slate-800">${p.vat}%</dd>` : ""}
             ${(isFrezyderm || isLamberts) && p.retail ? `<dt class="text-slate-500">Λιανική ενδεικτική</dt><dd class="font-medium text-slate-800">${p.retail.toFixed(2).replace(".", ",")} €</dd>` : ""}
             ${(isFrezyderm || isLamberts) && (p.variants || []).length > 1 ? `<dt class="text-slate-500">Παραλλαγές (variants)</dt><dd class="font-mono text-slate-800 text-xs">${p.variants.filter(v => v !== p.barcode).map(v => escapeHtml(v)).join(", ")}</dd>` : ""}
+            ${isFrezyderm && enrich.attributes ? Object.entries(enrich.attributes).map(([k, v]) => `<dt class="text-slate-500">${escapeHtml(k)}</dt><dd class="font-medium text-slate-800">${escapeHtml(Array.isArray(v) ? v.join(", ") : v)}</dd>`).join("") : ""}
+            ${isFrezyderm && enrich.official && enrich.url ? `<dt class="text-slate-500">Επίσημη σελίδα</dt><dd><a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="font-medium text-teal-700 hover:underline">frezyderm.gr ↗</a></dd>` : ""}
           ` : `
             ${parsed.spf ? `<dt class="text-slate-500">Δείκτης προστασίας</dt><dd class="font-medium text-slate-800">SPF ${parsed.spf}</dd>` : ""}
             ${parsed.volume ? `<dt class="text-slate-500">Συσκευασία</dt><dd class="font-medium text-slate-800">${parsed.volume}</dd>` : ""}

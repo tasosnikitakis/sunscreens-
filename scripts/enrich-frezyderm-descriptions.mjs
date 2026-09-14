@@ -31,6 +31,7 @@ const LIMIT = parseInt(opt("limit", "0")) || Infinity;
 const FORCE = flag("force");
 const INSPECT = opt("inspect", null);
 const GREP = opt("grep", null);
+const DUMP = opt("dump", null);
 const DELAY_MS = parseInt(opt("delay", "350"));
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
@@ -171,6 +172,18 @@ async function inspect(url) {
   const debugFile = path.join(ROOT, "_debug", "frezyderm-inspect.html");
   await fs.writeFile(debugFile, html, "utf8");
   console.log(`\nRaw HTML saved to ${path.relative(ROOT, debugFile)} για offline inspection.`);
+
+  // --dump=samples/x.html: sanitized αντίγραφο (χωρίς scripts/inline handlers/
+  // tokens σε URLs) που μπορεί να γίνει commit για μελέτη του template.
+  if (DUMP) {
+    const safe = html
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      .replace(/\son\w+=("[^"]*"|'[^']*')/gi, "")
+      .replace(/([?&](?:key|token|api_key|apikey|access_token|secret)=)[^&"'\s]+/gi, "$1REDACTED");
+    await fs.mkdir(path.dirname(path.resolve(ROOT, DUMP)), { recursive: true });
+    await fs.writeFile(path.resolve(ROOT, DUMP), safe, "utf8");
+    console.log(`Sanitized HTML saved to ${DUMP} (${(safe.length / 1024).toFixed(0)}kb) — ασφαλές για commit.`);
+  }
 
   // Λίστα από ύποπτα class + id names
   const classSet = new Set();

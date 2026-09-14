@@ -325,22 +325,20 @@ function buildFrezydermTable(ctx, manifest) {
   const overrides = (ctx.window && ctx.window.FREZYDERM_OVERRIDES) || {};
   const supplemental = (ctx.window && ctx.window.FREZYDERM_SUPPLEMENTAL) || {};
   const sections = (ctx.window && ctx.window.FREZYDERM_SECTION_LABELS) || {};
+  // Σελίδα στο frezyderm.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
+  const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
   const enrichmentFor = (bc) => {
-    const o = overrides[bc] || {};
+    const o = overrides[bc];
+    if (o) return { name: o.name, description: o.description, image: o.image, url: o.url, source: "frezyderm.gr",
+      section: o.section, claims: o.claims || [], attributes: o.attributes || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
     const s = supplemental[bc] || {};
-    return {
-      name: o.name || s.name || null,
-      description: o.description || s.description || null,
-      image: o.image || s.image || null,
-      url: o.url || s.url || null,
-      source: o.source || s.source || null,
-      section: o.section || s.section || null
-    };
+    return { name: s.name || null, description: s.description || null, image: s.image || null, url: s.url || null,
+      source: s.source || null, section: s.section || null, claims: [], attributes: {}, match: "Χωρίς σελίδα" };
   };
   const headers = [
-    "Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή",
-    "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
-    "Φωτογραφία", "URL επίσημου site"
+    "Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες",
+    "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
+    "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
   ];
   const rows = products.map(p => {
     const e = enrichmentFor(p.barcode);
@@ -348,16 +346,17 @@ function buildFrezydermTable(ctx, manifest) {
     const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
     const displayName = prettifyFrezydermName(e.name || p.name);
     const desc = e.description || `Προϊόν Frezyderm — ${p.name}`;
+    const attrs = Object.entries(e.attributes).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`).join(" | ");
     const localImg = manifest[p.barcode] || "";
     const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
     return [
-      displayName, p.wholesale || "", p.retail || "", desc,
+      displayName, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), attrs,
       sectionLabel, p.barcode, variants,
-      localImg || e.image || "", e.url || ""
+      localImg || e.image || "", e.url || "", e.source || "", e.match
     ];
   });
-  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 5,
-    columnWidths: [50, 14, 14, 70, 24, 16, 24, 50, 50] };
+  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 7,
+    columnWidths: [50, 14, 14, 70, 40, 40, 24, 16, 24, 50, 50, 18, 16] };
 }
 
 function buildCosmeticsTable(ctx, manifest) {

@@ -13,6 +13,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
+import { PHARMACY_IMAGE_MARKER } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -130,9 +131,18 @@ async function main() {
     const p = pool[i];
     const e = overrides[p.barcode];
     const existing = manifest[p.barcode];
-    if (!FORCE && existing && existing.startsWith("frezyderm/")) {
-      try { await fs.access(path.join(IMG_DIR, existing)); skip++; continue; }
-      catch {}
+    // Provenance: από ποιο frezyderm.gr URL κατέβηκε η τοπική εικόνα. Χωρίς
+    // αυτό δεν ξεχωρίζουμε εικόνες φαρμακείου (fill-frezyderm-missing τις
+    // αποθηκεύει κι αυτές στο images/frezyderm/) ούτε αλλαγή match σε άλλη σελίδα.
+    const sources = manifest._frezSource || (manifest._frezSource = {});
+    const looksOfficial = existing && existing.startsWith("frezyderm/") && !PHARMACY_IMAGE_MARKER.test(existing);
+    const sameSource = !sources[p.barcode] || sources[p.barcode] === e.image;
+    if (!FORCE && looksOfficial && sameSource) {
+      try {
+        await fs.access(path.join(IMG_DIR, existing));
+        if (!sources[p.barcode]) sources[p.barcode] = e.image;  // legacy: καταγράφουμε την πηγή τώρα
+        skip++; continue;
+      } catch {}
     }
 
     const label = `[${i + 1}/${pool.length}] ${p.barcode}`;
@@ -144,8 +154,12 @@ async function main() {
       const slug = slugify(baseName);
       const relPath = `frezyderm/${slug}-${p.barcode}.${ext}`;
       await fs.writeFile(path.join(IMG_DIR, relPath), buf);
+      if (existing && existing !== relPath && existing.startsWith("frezyderm/")) {
+        try { await fs.unlink(path.join(IMG_DIR, existing)); } catch {}
+      }
       manifest[p.barcode] = relPath;
-      console.log(`${label} OK ${relPath} (${(buf.length / 1024).toFixed(0)}kb)`);
+      sources[p.barcode] = e.image;
+      console.log(`${label} OK ${relPath} (${(buf.length / 1024).toFixed(0)}kb)${existing && existing !== relPath ? `  (αντικατέστησε ${existing})` : ""}`);
       ok++;
     } catch (err) {
       console.log(`${label} ERR ${err.message}`);
