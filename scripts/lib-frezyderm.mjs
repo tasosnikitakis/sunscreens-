@@ -204,6 +204,10 @@ export function extractProductDetails(html) {
 
   const img = html.match(/<div class="img">[\s\S]*?<img[^>]+src="([^"]+)"/i);
   if (img) d.imageLarge = decodeHtml(img[1]);
+  // Η μεγέθυνση (lightbox) χρησιμοποιεί το preset ProductLarge — ίδιο αρχείο,
+  // μεγαλύτερη ανάλυση.
+  const zoom = html.match(/https?:\/\/[^"'\s)]+\/Images\/f\/ProductLarge\/[^"'\s)]+/i);
+  if (zoom) d.imageZoom = decodeHtml(zoom[0]);
 
   const wrap = innerOfClass(html, "tabs-wrap");
   if (wrap) {
@@ -217,6 +221,14 @@ export function extractProductDetails(html) {
     }
   }
   return d;
+}
+
+// Οι εικόνες του frezyderm.gr σερβίρονται από image-resizer route
+// /Images/f/<preset>/<path>: FacebookPresetSmall (og:image) < ProductDetail
+// (κύρια εικόνα σελίδας) < ProductLarge (μεγέθυνση). Ίδιο αρχείο, άλλο preset.
+export function toLargePreset(url) {
+  if (!url) return null;
+  return url.replace(/\/Images\/f\/[A-Za-z0-9_]+\//, "/Images/f/ProductLarge/");
 }
 
 // Ετικέτες καρτελών όπως θέλουμε να εμφανίζονται (η σελίδα τις έχει ΚΕΦΑΛΑΙΑ).

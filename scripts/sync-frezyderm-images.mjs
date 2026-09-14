@@ -148,7 +148,16 @@ async function main() {
     const label = `[${i + 1}/${pool.length}] ${p.barcode}`;
     try {
       dbg(`GET ${e.image}`);
-      const { buf, contentType } = await fetchBuf(e.image, e.url);
+      let fetched;
+      try { fetched = await fetchBuf(e.image, e.url); }
+      catch (err) {
+        // Το μεγάλο preset (ProductLarge) μπορεί να λείπει για κάποια εικόνα —
+        // πέφτουμε στο og:image αντί να μείνει το προϊόν χωρίς εικόνα.
+        if (!e.imageFallback || e.imageFallback === e.image) throw err;
+        dbg(`  ${err.message} → fallback ${e.imageFallback}`);
+        fetched = await fetchBuf(e.imageFallback, e.url);
+      }
+      const { buf, contentType } = fetched;
       const ext = extFromContentType(contentType, e.image);
       const baseName = (e.name || p.name || p.barcode).replace(/^FREZYDERM\s*/i, "");
       const slug = slugify(baseName);
