@@ -20,14 +20,14 @@ function enrichmentFor(barcode) {
   const o = OVERRIDES[barcode];
   if (o) {
     return {
-      name: o.name || null, description: o.description || null, image: o.image || null,
+      name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
       url: o.url || null, source: "frezyderm.gr", section: o.section || null,
       claims: o.claims || [], review: !!o.review, noFrezydermPage: false
     };
   }
   const s = SUPPLEMENTAL[barcode] || {};
   return {
-    name: s.name || null, description: s.description || null, image: s.image || null,
+    name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
     url: s.url || null, source: s.source || null, section: s.section || null,
     claims: [], review: false, noFrezydermPage: true
   };
@@ -76,7 +76,7 @@ function makeCard(p) {
   const card = document.createElement("a");
   card.href = `product.html?barcode=${encodeURIComponent(p.barcode)}&type=frezyderm`;
   card.className = "product-card group block bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-300";
-  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.description || "") + " " + (enrich.claims || []).join(" ") + " " + (p.barcode || "")).toLowerCase();
+  const blob = (p.name + " " + (enrich.name || "") + " " + (enrich.subtitle || "") + " " + (enrich.description || "") + " " + (enrich.claims || []).join(" ") + " " + (p.barcode || "")).toLowerCase();
   card.dataset.search = blob;
   const qualityInit = frezydermDescriptionQuality(enrich.description);
   card.dataset.needsReview = qualityInit.ok ? "0" : "1";
@@ -105,6 +105,7 @@ function makeCard(p) {
   body.innerHTML = `
     <div class="text-xs font-semibold uppercase tracking-wide mb-1" style="color:${accent}">${escapeText(label.name)}</div>
     <h3 class="text-sm font-semibold text-slate-800 leading-snug line-clamp-2 min-h-[2.5rem]">${escapeText(displayName(p))}</h3>
+    ${enrich.subtitle ? `<p class="mt-1 text-xs text-slate-500 line-clamp-2">${escapeText(enrich.subtitle)}</p>` : ""}
     <div class="mt-2 text-[10px] uppercase tracking-wide text-slate-500 font-medium">EAN ${escapeText(p.barcode)}</div>
   `;
   card.appendChild(body);

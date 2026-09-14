@@ -50,17 +50,17 @@ function _frezEnrichmentFor(barcode) {
   const o = _FREZ_OVERRIDES[barcode];
   if (o) {
     return {
-      name: o.name || null, description: o.description || null, image: o.image || null,
+      name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
       url: o.url || null, source: "frezyderm.gr", section: o.section || null,
-      claims: o.claims || [], attributes: o.attributes || {}, matchType: o.matchType || null,
+      claims: o.claims || [], attributes: o.attributes || {}, sections: o.sections || {}, matchType: o.matchType || null,
       review: !!o.review, official: true
     };
   }
   const s = _FREZ_SUPPLEMENTAL[barcode] || {};
   return {
-    name: s.name || null, description: s.description || null, image: s.image || null,
+    name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
     url: s.url || null, source: s.source || null, section: s.section || null,
-    claims: [], attributes: {}, matchType: null, review: false, official: false
+    claims: [], attributes: {}, sections: {}, matchType: null, review: false, official: false
   };
 }
 const _FREZ_BRAND         = { name: "Frezyderm", accent: "#0d9488" };
@@ -251,6 +251,7 @@ function render({ product: p, brands, catalog }) {
           ${escapeHtml(brand.name)}${isEnrichable && p.line ? " · " + escapeHtml(p.line) : ""}
         </div>
         <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">${escapeHtml(displayName)}</h1>
+        ${isFrezyderm && enrich.subtitle ? `<p class="mt-1 text-base text-slate-600">${escapeHtml(enrich.subtitle)}</p>` : ""}
 
         <div class="mt-5 flex items-baseline gap-3">
           <span class="text-3xl font-bold text-slate-900">${(() => { const pr = (isFrezyderm || isLamberts) ? p.wholesale : p.price; return pr > 0 ? fmtPrice(pr) : "—"; })()}</span>
@@ -279,6 +280,12 @@ function render({ product: p, brands, catalog }) {
           <div class="mt-4 flex flex-wrap gap-2">
             ${enrich.claims.map(c => `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-teal-50 text-teal-700 border border-teal-200">✓ ${escapeHtml(c)}</span>`).join("")}
           </div>` : ""}
+
+        ${isFrezyderm && enrich.sections && Object.keys(enrich.sections).length ? Object.entries(enrich.sections).map(([title, text]) => `
+          <section class="mt-6">
+            <h2 class="text-sm font-bold uppercase tracking-wide text-teal-700 mb-2">${escapeHtml(title)}</h2>
+            <p class="text-slate-700 leading-relaxed text-sm">${escapeHtml(text).replace(/\n{2,}/g, "</p><p class=\"mt-2\">").replace(/\n/g, "<br>")}</p>
+          </section>`).join("") : ""}
 
         <dl class="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
           ${p.id ? `<dt class="text-slate-500">Κωδικός</dt><dd class="font-medium text-slate-800">${escapeHtml(p.id)}</dd>` : ""}
