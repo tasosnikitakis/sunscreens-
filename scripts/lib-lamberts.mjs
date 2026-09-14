@@ -88,7 +88,7 @@ export function extractLambertsDetails(rawHtml) {
     if (title && text) d.tabs[title] = text;
   }
   for (const k of Object.keys(d.tabs)) {
-    if (/Μορφ[ήη]\s*&\s*Συσκευασ[ίι]α/i.test(k)) { d.size = d.tabs[k].replace(/\s+/g, " ").trim(); delete d.tabs[k]; }
+    if (/Μορφ[ήη]\s*&\s*Συσκευασ[ίι]α|Form\s*&\s*Packaging/i.test(k)) { d.size = d.tabs[k].replace(/\s+/g, " ").trim(); delete d.tabs[k]; }
   }
 
   // Εικονίδια διατροφής → ιδιότητες

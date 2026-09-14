@@ -255,7 +255,16 @@ const TAB_LABELS = {
   "ΑΠΟΔΟΣΗ & ΣΥΣΤΑΤΙΚΑ": "Απόδοση & Συστατικά",
   "ΠΡΟΦΥΛΑΞΕΙΣ": "Προφυλάξεις",
   "ΜΟΡΦΗ & ΣΥΣΚΕΥΑΣΙΑ": "Μορφή & Συσκευασία",
-  "ΠΕΡΙΓΡΑΦΗ": "Περιγραφή"
+  "ΠΕΡΙΓΡΑΦΗ": "Περιγραφή",
+  // Λίγες σελίδες του lamberts.gr έχουν τις ενότητες στα αγγλικά
+  "DOSAGE & INGREDIENTS": "Απόδοση & Συστατικά",
+  "DIRECTIONS": "Χρήση",
+  "PRECAUTIONS": "Προφυλάξεις",
+  "FORM & PACKAGING": "Μορφή & Συσκευασία",
+  "DESCRIPTION": "Περιγραφή",
+  "SUITABLE FOR": "Κατάλληλο για",
+  "USE": "Χρήση",
+  "ACTION - ACTIVE INGREDIENTS": "Δράση – Ενεργά συστατικά"
 };
 const stripAccents = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
 const TAB_LABELS_KEYED = Object.fromEntries(Object.entries(TAB_LABELS).map(([k, v]) => [stripAccents(k), v]));
