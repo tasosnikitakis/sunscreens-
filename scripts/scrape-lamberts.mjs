@@ -12,6 +12,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { extractLambertsDetails } from "./lib-lamberts.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -257,13 +258,17 @@ async function scrapeProduct(rawUrl) {
   const subtitle = extractSubtitle(html);
   const description = subtitle ? subtitle.text
                               : cleanupDescription((ld && ld.description) || meta.description || "");
+  // Πλήρης δομή σελίδας (περιγραφή, ενότητες, ιδιότητες, κατηγορία, εικόνες)
+  const details = extractLambertsDetails(html);
   return {
     url,
     section: sectionFromName(name),
-    name,
+    name: details.title || name,
     description,
     subtitleSource: subtitle ? subtitle.name : null,
-    image: (ld && ld.image) || meta.image || null,
+    longDescription: details.description || null,
+    details,
+    image: details.imageLarge || (ld && ld.image) || meta.image || null,
     sku: (ld && ld.sku) || skus[0] || null,
     gtin: (ld && ld.gtin) || null,
     allSkus: skus
@@ -285,6 +290,9 @@ async function inspect(url) {
   const best = extractSubtitle(html);
   if (best) console.log(`\n=> BEST: [${best.name}] ${best.text}`);
   else console.log(`\n=> NO subtitle candidate found`);
+
+  console.log(`\n--- details (title/subtitle/description/tabs/facts/category/images) ---`);
+  console.log(JSON.stringify(extractLambertsDetails(html), null, 2).slice(0, 4000));
 
   await fs.mkdir(path.join(ROOT, "_debug"), { recursive: true });
   await fs.writeFile(path.join(ROOT, "_debug", "lamberts-inspect.html"), html, "utf8");
@@ -319,7 +327,9 @@ async function inspect(url) {
 async function main() {
   if (INSPECT) { await inspect(INSPECT); return; }
   console.log("Lamberts scraper — sitemap discovery…");
-  const urls = await getSitemapProductUrls();
+  // Το sitemap δίνει /en/product/x/ ΚΑΙ /product/x/ — μετά το rewrite στην ελληνική
+  // έκδοση είναι η ίδια σελίδα, την κατεβάζουμε μία φορά.
+  const urls = [...new Set((await getSitemapProductUrls()).map(toGreekUrl))];
   console.log(`Βρέθηκαν ${urls.length} product URLs.\n`);
 
   const out = [];
@@ -331,8 +341,9 @@ async function main() {
       const p = await scrapeProduct(url);
       out.push(p);
       sectionCounts[p.section] = (sectionCounts[p.section] || 0) + 1;
-      const tag = [p.image ? "img+" : "img-", p.sku ? "sku+" : "sku-"].join(" ");
-      console.log(`[${i + 1}/${cap}] ${p.section.padEnd(30)} ${tag} ${(p.name || "").slice(0, 55)}`);
+      const tabs = Object.keys(p.details.tabs || {}).length;
+      const tag = [p.image ? "img+" : "img-", p.longDescription ? `desc${p.longDescription.length}` : "desc-", `tabs${tabs}`].join(" ");
+      console.log(`[${i + 1}/${cap}] ${p.section.padEnd(22)} ${tag.padEnd(24)} ${(p.name || "").slice(0, 50)}`);
     } catch (e) {
       console.log(`[${i + 1}/${cap}] ERR ${url} ${e.message}`);
     }

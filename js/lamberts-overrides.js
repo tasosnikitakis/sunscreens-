@@ -1,6 +1,6 @@
 // Auto-generated από το scripts/match-lamberts.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.
 // Πηγή: lamberts.gr (js/lamberts-site.json). Διορθώσεις match → js/lamberts-manual-matches.json.
-// matchType: manual | exact | high | review (score 5-9, φαίνεται ως 'Match?')
+// matchType: manual | exact | high | review (score 4-9, φαίνεται ως 'Match?')
 // Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα' στο UI, λίστα στο js/lamberts-unmatched.json).
 window.LAMBERTS_OVERRIDES = {
   "5055148404383": {
@@ -17,7 +17,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "aminoxea",
     "matchType": "high",
-    "score": 21,
+    "score": 26.5,
     "review": false
   },
   "5055148411060": {
@@ -34,7 +34,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "aminoxea",
     "matchType": "high",
-    "score": 30.6,
+    "score": 34.6,
     "review": false
   },
   "5055148411534": {
@@ -51,7 +51,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "probiotika",
     "matchType": "review",
-    "score": 19.5,
+    "score": 23.5,
     "review": true
   },
   "5055148409845": {
@@ -68,7 +68,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 37.1,
+    "score": 41.1,
     "review": false
   },
   "5055148400675": {
@@ -85,24 +85,71 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 11.6,
+    "score": 16,
+    "review": false
+  },
+  "5055148412982": {
+    "name": "Ashwagandha Advance",
+    "subtitle": "Υψηλής ισχύος τιτλοδοτημένο εκχύλισμα Ασβαγκάντα",
+    "description": "Υψηλής ισχύος τιτλοδοτημένο εκχύλισμα Ασβαγκάντα",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8576-60_NEW-1.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8576-60_NEW-1.png",
+    "url": "https://lamberts.gr/product/ashwagandha-6000mg/",
+    "source": "lamberts.gr",
+    "section": "diafora",
+    "matchType": "review",
+    "score": 6.1,
+    "review": true
+  },
+  "5055148408220": {
+    "name": "Multi Vitamin AtoZ effervescent tabs",
+    "subtitle": "Αναβράζουσα πολυβιταμίνη για πλήρη κάλυψη",
+    "description": "Αναβράζουσα πολυβιταμίνη για πλήρη κάλυψη",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8428-20.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8428-20.png",
+    "url": "https://lamberts.gr/product/multi-vitamin-atoz-effervescent-tabs/",
+    "source": "lamberts.gr",
+    "section": "vitamines",
+    "matchType": "high",
+    "score": 23.3,
     "review": false
   },
   "5055148411497": {
     "name": "Vitamin B12 1000μg",
     "subtitle": "Υψηλής ισχύος Βιταμίνη Β12 για περιπτώσεις ανεπάρκειας και έλλειψης",
-    "description": "Υψηλής ισχύος Βιταμίνη Β12 για περιπτώσεις ανεπάρκειας και έλλειψης",
-    "claims": [],
+    "description": "Η βιταμίνη B12 κατέχει εξέχουσα θέση μεταξύ των βιταμινών, καθώς διαδραματίζει κεντρικό ρόλο σε θεμελιώδεις οργανικές λειτουργίες. Συγκεκριμένα εμπλέκεται στη σύνθεση του DNA και της μυελίνης, παίζοντας ρόλο στη διαδικασία της κυτταρικής διαίρεσης, συμβάλλοντας στο φυσιολογικό σχηματισμό των ερυθρών αιμοσφαιρίων και στη φυσιολογική λειτουργία του νευρικού συστήματος*.\n\nΕπιπροσθέτως, όπως όλες οι βιταμίνες του συμπλέγματος Β, διαθέτει σημαντικές μεταβολικές ιδιότητες, συμβάλλοντας στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης* και στη φυσιολογική λειτουργία των μεταβολικών διεργασιών που αποσκοπούν στην παραγωγή ενέργειας και στη μείωση της κούρασης και της κόπωσης *.\n\nΗ βιταμίνη Β12 ανευρίσκεται σε τροφές ζωικής προελεύσεως, όπως είναι το κόκκινο κρέας. Για το λόγο αυτό, η συμπληρωματική λήψη βιταμίνης Β12 είναι συχνή πρακτική από χορτοφάγους και αυστηρώς χορτοφάγους (vegans). Συχνά συνιστάται και σε ηλικιωμένους, στους οποίους η ανεπάρκεια Β12 είναι συχνό εύρημα λόγω πολυφαρμακίας, πτωχής διατροφής και αχλωρυδρίας.\n\nΤο σκεύασμα Vitamin B12 1000μg της Lamberts® παρέχει 1000μg βιταμίνης Β12 (ως μεθυλοκοβαλαμίνη) ανά ταμπλέτα , μια ποσότητα που απευθύνεται σε άτομα έλλειψη ή ανεπάρκεια Β12.\n\nΌπως όλα τα σκευάσματα της Lamberts® παρασκευάζεται εντός του Ηνωμένου Βασιλείου σύμφωνα με τα αυστηρά πρότυπα της φαρμακευτικής GMP (Pharmaceutical GMP).",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Vegan",
+      "Χωρίς γλουτένη",
+      "Χωρίς γαλακτοκομικά"
+    ],
     "highlights": [],
-    "attributes": {},
-    "sections": {},
+    "attributes": {
+      "Αρ. Γνωστ. ΕΟΦ": "18104/04.03.2013",
+      "Συσκευασία": "30&60tabs",
+      "Κατηγορία lamberts.gr": "Βιταμίνες › Βιταμίνες B"
+    },
+    "sections": {
+      "Απόδοση & Συστατικά": "Διατροφικές πληροφορίες\nAνά ταμπλέτα\n\nΒιταμίνη B12 (ως Μεθυλοκοβαλαμίνη)\n1000μg\n\nΣυστατικά: Διογκωτικοί Παράγοντες (Φωσφορικό Διασβέστιο & Κυτταρίνη), Παράγοντες Αντισυσσωμάτωσης (Διοξείδιο του Πυριτίου, Στεατικό Οξύ, & Στεατικό Μαγνήσιο), Στιλβωτικοί Παράγοντες (Υδρόξυπρόπυλο Μέθυλοκυτταρίνη & Γλυκερόλη), Βιταμίνη Β12 (Μέθυλοκοβαλαμίνη).",
+      "Χρήση": "Λαμβάνετε 1 ταμπλέτα ημερησίως με το γεύμα ή σύμφωνα με την σύσταση του ιατρού ή του φαρμακοποιού σας. Μην υπερβαίνετε την προτεινόμενη ημερήσια πρόσληψη.",
+      "Προφυλάξεις": "Προφυλάξεις: Να μην λαμβάνεται από έγκυες ή θηλάζουσες γυναίκες και από παιδιά.\n\nΑλλεργίες: ΤΟ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΕΥΑΣΜΑ ΔΕΝ ΠΕΡΙΕΧΕΙ: γλουτένη, αλλεργιογόνα σίτου, κριθάρι, σόγια, αυγά, γάλα (και παράγωγα γάλακτος), λακτόζη, ξηρούς καρπούς, ψάρι, οστρακοειδή και θειώδη."
+    },
     "image": "https://lamberts.gr/wp-content/uploads/2025/01/8087-60_-1.png",
     "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8087-60_-1.png",
     "url": "https://lamberts.gr/product/vitamin-b12-1000mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 18.6,
+    "score": 22.6,
     "review": false
   },
   "5055148401825": {
@@ -119,7 +166,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 9,
+    "score": 13.3,
     "review": false
   },
   "5055148401733": {
@@ -136,7 +183,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "ugeia-osteon",
     "matchType": "high",
-    "score": 23.7,
+    "score": 27.7,
     "review": false
   },
   "5055148402020": {
@@ -153,7 +200,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "mineralia",
     "matchType": "high",
-    "score": 10.1,
+    "score": 14.1,
     "review": false
   },
   "5055148400620": {
@@ -170,7 +217,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 33.5,
+    "score": 37.5,
     "review": false
   },
   "5055148405182": {
@@ -187,7 +234,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 19.9,
+    "score": 23.9,
     "review": false
   },
   "5055148408909": {
@@ -204,7 +251,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 21.4,
+    "score": 25.4,
     "review": false
   },
   "5055148409586": {
@@ -221,7 +268,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 25.9,
+    "score": 29.9,
     "review": false
   },
   "5055148414177": {
@@ -238,7 +285,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 17.5,
+    "score": 21.5,
     "review": false
   },
   "5055148403058": {
@@ -254,9 +301,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/cranberry-complex/",
     "source": "lamberts.gr",
     "section": "diafora",
-    "matchType": "review",
-    "score": 6.4,
-    "review": true
+    "matchType": "high",
+    "score": 10.4,
+    "review": false
   },
   "5055148411572": {
     "name": "Peppermint Oil Capsules 100mg",
@@ -271,9 +318,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/peppermint-oil-capsules-100mg/",
     "source": "lamberts.gr",
     "section": "diafora",
-    "matchType": "review",
-    "score": 5.8,
-    "review": true
+    "matchType": "high",
+    "score": 9.8,
+    "review": false
   },
   "5055148400507": {
     "name": "Pure Evening Primrose Oil 1000mg",
@@ -289,7 +336,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 30.2,
+    "score": 34.7,
     "review": false
   },
   "5055148402396": {
@@ -306,27 +353,10 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 33.5,
+    "score": 37.5,
     "review": false
   },
   "5055148413682": {
-    "name": "Glucosamine Complete",
-    "subtitle": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
-    "description": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
-    "claims": [],
-    "highlights": [],
-    "attributes": {},
-    "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8512-120-LL418-8-1.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8512-120-LL418-8-1.png",
-    "url": "https://lamberts.gr/product/glucosamine-complete/",
-    "source": "lamberts.gr",
-    "section": "ugeia-osteon",
-    "matchType": "review",
-    "score": 8.3,
-    "review": true
-  },
-  "5055148408879": {
     "name": "Glucosamine Complete",
     "subtitle": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
     "description": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
@@ -343,6 +373,23 @@ window.LAMBERTS_OVERRIDES = {
     "score": 12.3,
     "review": false
   },
+  "5055148408879": {
+    "name": "Glucosamine Complete",
+    "subtitle": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
+    "description": "Η ολοκληρωμένη φόρμουλα Γλυκοζαμίνης & Χονδροϊτίνης",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8512-120-LL418-8-1.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8512-120-LL418-8-1.png",
+    "url": "https://lamberts.gr/product/glucosamine-complete/",
+    "source": "lamberts.gr",
+    "section": "ugeia-osteon",
+    "matchType": "high",
+    "score": 16.3,
+    "review": false
+  },
   "5055148401566": {
     "name": "L-Glutathione Complex",
     "subtitle": "Υψηλής ισχύος σύμπλεγμα Γλουταθειόνης",
@@ -356,9 +403,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/l-glutathione-complex/",
     "source": "lamberts.gr",
     "section": "diafora",
-    "matchType": "review",
-    "score": 5.8,
-    "review": true
+    "matchType": "high",
+    "score": 10.1,
+    "review": false
   },
   "5055148414030": {
     "name": "Griffonia Seed Extract (5-HTP 100mg)",
@@ -374,7 +421,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "aminoxea",
     "matchType": "high",
-    "score": 51.8,
+    "score": 55.8,
     "review": false
   },
   "5055148402136": {
@@ -391,8 +438,25 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 13.3,
+    "score": 20.5,
     "review": false
+  },
+  "5055148414085": {
+    "name": "MagAsorb 300mg-Effervescent tabs",
+    "subtitle": "Αναβράζον Μαγνήσιο υψηλής απορρόφησης και βιοδιαθεσιμότητας",
+    "description": "Αναβράζον Μαγνήσιο υψηλής απορρόφησης και βιοδιαθεσιμότητας",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8245-20_A-2-scaled.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8245-20_A-2-scaled.png",
+    "url": "https://lamberts.gr/product/magasorb-300mg-effervescent-tabs/",
+    "source": "lamberts.gr",
+    "section": "diafora",
+    "matchType": "review",
+    "score": 8.9,
+    "review": true
   },
   "5055148410698": {
     "name": "Methyl B complex",
@@ -408,7 +472,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 21.2,
+    "score": 25.2,
     "review": false
   },
   "5055148410605": {
@@ -424,8 +488,25 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/magasorb-300mg-effervescent-tabs/",
     "source": "lamberts.gr",
     "section": "diafora",
+    "matchType": "high",
+    "score": 14.5,
+    "review": false
+  },
+  "5055148412050": {
+    "name": "Osteoguard® Advance",
+    "subtitle": "Η “advance” φόρμουλα για την υγεία των οστών",
+    "description": "Η “advance” φόρμουλα για την υγεία των οστών",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8227-90-hr.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8227-90-hr.png",
+    "url": "https://lamberts.gr/product/osteoguard-advance/",
+    "source": "lamberts.gr",
+    "section": "diafora",
     "matchType": "review",
-    "score": 7.3,
+    "score": 4.5,
     "review": true
   },
   "5055148400002": {
@@ -442,8 +523,42 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "mineralia",
     "matchType": "high",
-    "score": 25.9,
+    "score": 30.4,
     "review": false
+  },
+  "5055148412111": {
+    "name": "MultiGuard OsteoAdvance 50+",
+    "subtitle": "Πλήρης κάλυψη γυναικών γυναικών > 50 ετών",
+    "description": "Πλήρης κάλυψη γυναικών γυναικών > 50 ετών",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/MultiGuard-OsteoAdvance-50-1-1.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/MultiGuard-OsteoAdvance-50-1-1.png",
+    "url": "https://lamberts.gr/product/multiguard-osteoadvance-50/",
+    "source": "lamberts.gr",
+    "section": "vitamines",
+    "matchType": "review",
+    "score": 7.6,
+    "review": true
+  },
+  "5055148412708": {
+    "name": "MultiGuard OsteoAdvance 50+",
+    "subtitle": "Πλήρης κάλυψη γυναικών γυναικών > 50 ετών",
+    "description": "Πλήρης κάλυψη γυναικών γυναικών > 50 ετών",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/MultiGuard-OsteoAdvance-50-1-1.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/MultiGuard-OsteoAdvance-50-1-1.png",
+    "url": "https://lamberts.gr/product/multiguard-osteoadvance-50/",
+    "source": "lamberts.gr",
+    "section": "vitamines",
+    "matchType": "review",
+    "score": 7.6,
+    "review": true
   },
   "8055148408848": {
     "name": "Multi-Guard® Sugar Control",
@@ -458,9 +573,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/multi-guard-sugar-control/",
     "source": "lamberts.gr",
     "section": "vitamines",
-    "matchType": "review",
-    "score": 7.7,
-    "review": true
+    "matchType": "high",
+    "score": 12.2,
+    "review": false
   },
   "5055148410612": {
     "name": "Natural Form Vitamin E 400iu",
@@ -476,8 +591,25 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 38.6,
+    "score": 42.6,
     "review": false
+  },
+  "5055148410742": {
+    "name": "Vegan Omega 3 Oil",
+    "subtitle": "Έλαιο EPA & DHA από άλγη ελεγχόμενης καλλιέργειας",
+    "description": "Έλαιο EPA & DHA από άλγη ελεγχόμενης καλλιέργειας",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/VeganOmega3_oil.jpg",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/VeganOmega3_oil.jpg",
+    "url": "https://lamberts.gr/product/vegan-omega-3-oil/",
+    "source": "lamberts.gr",
+    "section": "wmega",
+    "matchType": "review",
+    "score": 6,
+    "review": true
   },
   "5055148410674": {
     "name": "Vegan Omega 3 Oil",
@@ -492,9 +624,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/vegan-omega-3-oil/",
     "source": "lamberts.gr",
     "section": "wmega",
-    "matchType": "review",
-    "score": 5.4,
-    "review": true
+    "matchType": "high",
+    "score": 10.2,
+    "review": false
   },
   "5055148409135": {
     "name": "Omega 3-6-9 1200mg",
@@ -510,8 +642,42 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 48.8,
+    "score": 52.8,
     "review": false
+  },
+  "5055148412067": {
+    "name": "Osteoguard® Advance",
+    "subtitle": "Η “advance” φόρμουλα για την υγεία των οστών",
+    "description": "Η “advance” φόρμουλα για την υγεία των οστών",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8227-90-hr.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8227-90-hr.png",
+    "url": "https://lamberts.gr/product/osteoguard-advance/",
+    "source": "lamberts.gr",
+    "section": "diafora",
+    "matchType": "review",
+    "score": 4.5,
+    "review": true
+  },
+  "5055148405700": {
+    "name": "ENERGY DRINK με γεύση πορτοκάλι",
+    "subtitle": "Ηλεκτρολύτες και Υδατάνθρακες για την διάρκεια της εκγύμνασης",
+    "description": "Ηλεκτρολύτες και Υδατάνθρακες για την διάρκεια της εκγύμνασης",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/ENERGY-DRINK_ΠΟΡΤΟΚΑΛΙ-1-1.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/ENERGY-DRINK_ΠΟΡΤΟΚΑΛΙ-1-1.png",
+    "url": "https://lamberts.gr/product/energy-drink-me-gefsi-portokali/",
+    "source": "lamberts.gr",
+    "section": "energia",
+    "matchType": "review",
+    "score": 8.9,
+    "review": true
   },
   "1111111036136": {
     "name": "Pure Evening Primrose Oil 500mg",
@@ -527,7 +693,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 42.8,
+    "score": 46.7,
     "review": false
   },
   "5055148407575": {
@@ -544,7 +710,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 34.3,
+    "score": 38.3,
     "review": false
   },
   "5055148400477": {
@@ -561,7 +727,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "wmega",
     "matchType": "high",
-    "score": 34.3,
+    "score": 38.3,
     "review": false
   },
   "5055148409074": {
@@ -577,6 +743,23 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/rosehip-10-000mg/",
     "source": "lamberts.gr",
     "section": "diafora",
+    "matchType": "high",
+    "score": 14.6,
+    "review": false
+  },
+  "5055148402891": {
+    "name": "Selenium 200μg + Βιταμίνες A, C, E",
+    "subtitle": "Σελήνιο των 200μg & αντιοξειδωτικές Βιταμίνες A, C & E",
+    "description": "Σελήνιο των 200μg & αντιοξειδωτικές Βιταμίνες A, C & E",
+    "claims": [],
+    "highlights": [],
+    "attributes": {},
+    "sections": {},
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8273-100-scaled.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8273-100-scaled.png",
+    "url": "https://lamberts.gr/product/selenium-200mg-vitamines-a-c-e/",
+    "source": "lamberts.gr",
+    "section": "mineralia",
     "matchType": "high",
     "score": 10.7,
     "review": false
@@ -595,7 +778,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 16.3,
+    "score": 20.3,
     "review": false
   },
   "5055148412616": {
@@ -612,7 +795,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 26.3,
+    "score": 30.3,
     "review": false
   },
   "5055148400316": {
@@ -629,24 +812,37 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 31.2,
+    "score": 35.2,
     "review": false
   },
   "5055148401900": {
     "name": "Vitamin B12 1000μg",
     "subtitle": "Υψηλής ισχύος Βιταμίνη Β12 για περιπτώσεις ανεπάρκειας και έλλειψης",
-    "description": "Υψηλής ισχύος Βιταμίνη Β12 για περιπτώσεις ανεπάρκειας και έλλειψης",
-    "claims": [],
+    "description": "Η βιταμίνη B12 κατέχει εξέχουσα θέση μεταξύ των βιταμινών, καθώς διαδραματίζει κεντρικό ρόλο σε θεμελιώδεις οργανικές λειτουργίες. Συγκεκριμένα εμπλέκεται στη σύνθεση του DNA και της μυελίνης, παίζοντας ρόλο στη διαδικασία της κυτταρικής διαίρεσης, συμβάλλοντας στο φυσιολογικό σχηματισμό των ερυθρών αιμοσφαιρίων και στη φυσιολογική λειτουργία του νευρικού συστήματος*.\n\nΕπιπροσθέτως, όπως όλες οι βιταμίνες του συμπλέγματος Β, διαθέτει σημαντικές μεταβολικές ιδιότητες, συμβάλλοντας στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης* και στη φυσιολογική λειτουργία των μεταβολικών διεργασιών που αποσκοπούν στην παραγωγή ενέργειας και στη μείωση της κούρασης και της κόπωσης *.\n\nΗ βιταμίνη Β12 ανευρίσκεται σε τροφές ζωικής προελεύσεως, όπως είναι το κόκκινο κρέας. Για το λόγο αυτό, η συμπληρωματική λήψη βιταμίνης Β12 είναι συχνή πρακτική από χορτοφάγους και αυστηρώς χορτοφάγους (vegans). Συχνά συνιστάται και σε ηλικιωμένους, στους οποίους η ανεπάρκεια Β12 είναι συχνό εύρημα λόγω πολυφαρμακίας, πτωχής διατροφής και αχλωρυδρίας.\n\nΤο σκεύασμα Vitamin B12 1000μg της Lamberts® παρέχει 1000μg βιταμίνης Β12 (ως μεθυλοκοβαλαμίνη) ανά ταμπλέτα , μια ποσότητα που απευθύνεται σε άτομα έλλειψη ή ανεπάρκεια Β12.\n\nΌπως όλα τα σκευάσματα της Lamberts® παρασκευάζεται εντός του Ηνωμένου Βασιλείου σύμφωνα με τα αυστηρά πρότυπα της φαρμακευτικής GMP (Pharmaceutical GMP).",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Vegan",
+      "Χωρίς γλουτένη",
+      "Χωρίς γαλακτοκομικά"
+    ],
     "highlights": [],
-    "attributes": {},
-    "sections": {},
+    "attributes": {
+      "Αρ. Γνωστ. ΕΟΦ": "18104/04.03.2013",
+      "Συσκευασία": "30&60tabs",
+      "Κατηγορία lamberts.gr": "Βιταμίνες › Βιταμίνες B"
+    },
+    "sections": {
+      "Απόδοση & Συστατικά": "Διατροφικές πληροφορίες\nAνά ταμπλέτα\n\nΒιταμίνη B12 (ως Μεθυλοκοβαλαμίνη)\n1000μg\n\nΣυστατικά: Διογκωτικοί Παράγοντες (Φωσφορικό Διασβέστιο & Κυτταρίνη), Παράγοντες Αντισυσσωμάτωσης (Διοξείδιο του Πυριτίου, Στεατικό Οξύ, & Στεατικό Μαγνήσιο), Στιλβωτικοί Παράγοντες (Υδρόξυπρόπυλο Μέθυλοκυτταρίνη & Γλυκερόλη), Βιταμίνη Β12 (Μέθυλοκοβαλαμίνη).",
+      "Χρήση": "Λαμβάνετε 1 ταμπλέτα ημερησίως με το γεύμα ή σύμφωνα με την σύσταση του ιατρού ή του φαρμακοποιού σας. Μην υπερβαίνετε την προτεινόμενη ημερήσια πρόσληψη.",
+      "Προφυλάξεις": "Προφυλάξεις: Να μην λαμβάνεται από έγκυες ή θηλάζουσες γυναίκες και από παιδιά.\n\nΑλλεργίες: ΤΟ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΕΥΑΣΜΑ ΔΕΝ ΠΕΡΙΕΧΕΙ: γλουτένη, αλλεργιογόνα σίτου, κριθάρι, σόγια, αυγά, γάλα (και παράγωγα γάλακτος), λακτόζη, ξηρούς καρπούς, ψάρι, οστρακοειδή και θειώδη."
+    },
     "image": "https://lamberts.gr/wp-content/uploads/2025/01/8087-60_-1.png",
     "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8087-60_-1.png",
     "url": "https://lamberts.gr/product/vitamin-b12-1000mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 13.4,
+    "score": 17.4,
     "review": false
   },
   "5055148400309": {
@@ -662,9 +858,9 @@ window.LAMBERTS_OVERRIDES = {
     "url": "https://lamberts.gr/product/gentle-vitamin-c-500mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
-    "matchType": "review",
-    "score": 7.5,
-    "review": true
+    "matchType": "high",
+    "score": 12,
+    "review": false
   },
   "5055148400231": {
     "name": "Folic Acid 400μg",
@@ -680,7 +876,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "gynaikeia-frontida",
     "matchType": "high",
-    "score": 15,
+    "score": 19,
     "review": false
   },
   "5055148400217": {
@@ -697,7 +893,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 15.5,
+    "score": 19.5,
     "review": false
   },
   "5055148407049": {
@@ -714,7 +910,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 20.5,
+    "score": 24.9,
     "review": false
   },
   "5055148400293": {
@@ -731,7 +927,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 20.5,
+    "score": 24.9,
     "review": false
   },
   "5055148408213": {
@@ -748,7 +944,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 16.5,
+    "score": 20.5,
     "review": false
   },
   "5055148413231": {
@@ -765,7 +961,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 19.5,
+    "score": 21.8,
     "review": false
   },
   "5055148403942": {
@@ -782,7 +978,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 19.5,
+    "score": 21.8,
     "review": false
   },
   "5055148411381": {
@@ -799,41 +995,41 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 10.2,
+    "score": 12.7,
     "review": false
   },
   "5055148410599": {
-    "name": "Vitamin D3 1000iu Gummies",
-    "subtitle": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
-    "description": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
+    "name": "Vitamin D 1000iu",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-1000iu-gummies/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8143-120.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8143-120.png",
+    "url": "https://lamberts.gr/product/vitamin-d-1000iu/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 17.3,
+    "score": 21.4,
     "review": false
   },
   "5055148411480": {
-    "name": "Vitamin D3 1000iu Gummies",
-    "subtitle": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
-    "description": "Ζελεδάκια Βιταμίνης D3 των 1000iu",
+    "name": "Vitamin D 1000iu",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 1000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/05/8611-Vitamin-D3-gummies.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-1000iu-gummies/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8143-120.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8143-120.png",
+    "url": "https://lamberts.gr/product/vitamin-d-1000iu/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 17.3,
+    "score": 21.4,
     "review": false
   },
   "5055148413804": {
@@ -854,72 +1050,72 @@ window.LAMBERTS_OVERRIDES = {
     "review": false
   },
   "5055148413248": {
-    "name": "Vitamin D3 2000iu & K2 90 µg",
-    "subtitle": "Συνδυασμός υψηλής ισχύος Βιταμινών Κ2 & D3 (2000iu)",
-    "description": "Συνδυασμός υψηλής ισχύος Βιταμινών Κ2 & D3 (2000iu)",
+    "name": "Vitamin D 2000iu",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 2000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 2000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8145-90-lr-00596A-4.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8145-90-lr-00596A-4.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-2000iu-k2-90-%c2%b5g/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8147-120-hr-2.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8147-120-hr-2.png",
+    "url": "https://lamberts.gr/product/vitamin-d-2000iu/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 14.7,
+    "score": 21.8,
     "review": false
   },
   "5055148413224": {
-    "name": "Vitamin D3 2000iu & K2 90 µg",
-    "subtitle": "Συνδυασμός υψηλής ισχύος Βιταμινών Κ2 & D3 (2000iu)",
-    "description": "Συνδυασμός υψηλής ισχύος Βιταμινών Κ2 & D3 (2000iu)",
+    "name": "Vitamin D 2000iu",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 2000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 2000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8145-90-lr-00596A-4.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8145-90-lr-00596A-4.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-2000iu-k2-90-%c2%b5g/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8147-120-hr-2.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8147-120-hr-2.png",
+    "url": "https://lamberts.gr/product/vitamin-d-2000iu/",
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 14.7,
+    "score": 21.8,
     "review": false
   },
   "5055148411473": {
-    "name": "Vitamin D3 Drops",
-    "subtitle": "Φυσική Βιταμίνη D3 σε έξτρα παρθένο ελαιόλαδο",
-    "description": "Φυσική Βιταμίνη D3 σε έξτρα παρθένο ελαιόλαδο",
+    "name": "Vitamin D 4000iu (100μg)",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 4000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 4000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8138-20ml-hr.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8138-20ml-hr.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-drops/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8142-120.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8142-120.png",
+    "url": "https://lamberts.gr/product/vitamin-d-4000iu-100mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
-    "matchType": "review",
-    "score": 6.6,
-    "review": true
+    "matchType": "high",
+    "score": 27.2,
+    "review": false
   },
   "5055148409326": {
-    "name": "Vitamin D3 Drops",
-    "subtitle": "Φυσική Βιταμίνη D3 σε έξτρα παρθένο ελαιόλαδο",
-    "description": "Φυσική Βιταμίνη D3 σε έξτρα παρθένο ελαιόλαδο",
+    "name": "Vitamin D 4000iu (100μg)",
+    "subtitle": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 4000iu",
+    "description": "Βιταμίνη D3 (Χοληκαλσιφερόλη) των 4000iu",
     "claims": [],
     "highlights": [],
     "attributes": {},
     "sections": {},
-    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8138-20ml-hr.png",
-    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8138-20ml-hr.png",
-    "url": "https://lamberts.gr/product/vitamin-d3-drops/",
+    "image": "https://lamberts.gr/wp-content/uploads/2025/01/8142-120.png",
+    "imageFallback": "https://lamberts.gr/wp-content/uploads/2025/01/8142-120.png",
+    "url": "https://lamberts.gr/product/vitamin-d-4000iu-100mg/",
     "source": "lamberts.gr",
     "section": "vitamines",
-    "matchType": "review",
-    "score": 6.6,
-    "review": true
+    "matchType": "high",
+    "score": 22.1,
+    "review": false
   },
   "5055148412807": {
     "name": "Vitamin D3 Drops",
@@ -935,7 +1131,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "vitamines",
     "matchType": "high",
-    "score": 19.2,
+    "score": 18.1,
     "review": false
   },
   "5055148403072": {
@@ -952,7 +1148,7 @@ window.LAMBERTS_OVERRIDES = {
     "source": "lamberts.gr",
     "section": "diafora",
     "matchType": "high",
-    "score": 37.8,
+    "score": 41.8,
     "review": false
   }
 };

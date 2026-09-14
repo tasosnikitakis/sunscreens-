@@ -292,7 +292,7 @@ function buildLambertsTable(ctx, manifest) {
     return { name: s.name || null, subtitle: "", description: s.description || null, image: s.image || null, url: s.url || null,
       source: s.source || null, section: s.section || null, claims: [], highlights: [], attributes: {}, sections: {}, match: "Χωρίς σελίδα" };
   };
-  const TAB_COLUMNS = ["Χρήση", "Συστατικά", "Προειδοποιήσεις"];
+  const TAB_COLUMNS = ["Απόδοση & Συστατικά", "Χρήση", "Προφυλάξεις"];
   const headers = [
     "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
     ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
