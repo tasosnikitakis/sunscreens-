@@ -52,7 +52,7 @@ function _frezEnrichmentFor(barcode) {
     return {
       name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
       url: o.url || null, source: "frezyderm.gr", section: o.section || null,
-      claims: o.claims || [], attributes: o.attributes || {}, sections: o.sections || {}, matchType: o.matchType || null,
+      claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {}, matchType: o.matchType || null,
       review: !!o.review, official: true
     };
   }
@@ -60,7 +60,7 @@ function _frezEnrichmentFor(barcode) {
   return {
     name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
     url: s.url || null, source: s.source || null, section: s.section || null,
-    claims: [], attributes: {}, sections: {}, matchType: null, review: false, official: false
+    claims: [], highlights: [], attributes: {}, sections: {}, matchType: null, review: false, official: false
   };
 }
 const _FREZ_BRAND         = { name: "Frezyderm", accent: "#0d9488" };
@@ -280,6 +280,14 @@ function render({ product: p, brands, catalog }) {
           <div class="mt-4 flex flex-wrap gap-2">
             ${enrich.claims.map(c => `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-teal-50 text-teal-700 border border-teal-200">✓ ${escapeHtml(c)}</span>`).join("")}
           </div>` : ""}
+
+        ${isFrezyderm && enrich.highlights && enrich.highlights.length ? `
+          <section class="mt-6">
+            <h2 class="text-sm font-bold uppercase tracking-wide text-teal-700 mb-2">Βασικά χαρακτηριστικά</h2>
+            <ul class="list-disc pl-5 text-sm text-slate-700 leading-relaxed space-y-1">
+              ${enrich.highlights.map(h => `<li>${escapeHtml(h)}</li>`).join("")}
+            </ul>
+          </section>` : ""}
 
         ${isFrezyderm && enrich.sections && Object.keys(enrich.sections).length ? Object.entries(enrich.sections).map(([title, text]) => `
           <section class="mt-6">
