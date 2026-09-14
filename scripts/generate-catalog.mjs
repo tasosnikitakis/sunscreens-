@@ -329,15 +329,17 @@ function buildFrezydermTable(ctx, manifest) {
   const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
   const enrichmentFor = (bc) => {
     const o = overrides[bc];
-    if (o) return { name: o.name, description: o.description, image: o.image, url: o.url, source: "frezyderm.gr",
-      section: o.section, claims: o.claims || [], attributes: o.attributes || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
+    if (o) return { name: o.name, subtitle: o.subtitle || "", description: o.description, image: o.image, url: o.url, source: "frezyderm.gr",
+      section: o.section, claims: o.claims || [], attributes: o.attributes || {}, sections: o.sections || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
     const s = supplemental[bc] || {};
-    return { name: s.name || null, description: s.description || null, image: s.image || null, url: s.url || null,
-      source: s.source || null, section: s.section || null, claims: [], attributes: {}, match: "Χωρίς σελίδα" };
+    return { name: s.name || null, subtitle: "", description: s.description || null, image: s.image || null, url: s.url || null,
+      source: s.source || null, section: s.section || null, claims: [], attributes: {}, sections: {}, match: "Χωρίς σελίδα" };
   };
+  // Σταθερές στήλες για τις γνωστές καρτέλες της σελίδας· ό,τι άλλο πάει στα "Χαρακτηριστικά".
+  const TAB_COLUMNS = ["Κατάλληλο για", "Χρήση", "Δράση – Ενεργά συστατικά"];
   const headers = [
-    "Όνομα", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες",
-    "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
+    "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες",
+    ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
     "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
   ];
   const rows = products.map(p => {
@@ -346,17 +348,21 @@ function buildFrezydermTable(ctx, manifest) {
     const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
     const displayName = prettifyFrezydermName(e.name || p.name);
     const desc = e.description || `Προϊόν Frezyderm — ${p.name}`;
-    const attrs = Object.entries(e.attributes).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`).join(" | ");
+    const tabCols = TAB_COLUMNS.map(t => e.sections[t] || "");
+    const otherAttrs = [
+      ...Object.entries(e.attributes).filter(([k]) => k !== "Συσκευασία").map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`),
+      ...Object.entries(e.sections).filter(([k]) => !TAB_COLUMNS.includes(k)).map(([k, v]) => `${k}: ${v}`)
+    ].join(" | ");
     const localImg = manifest[p.barcode] || "";
     const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
     return [
-      displayName, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), attrs,
-      sectionLabel, p.barcode, variants,
+      displayName, e.subtitle, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "),
+      ...tabCols, e.attributes["Συσκευασία"] || "", otherAttrs, sectionLabel, p.barcode, variants,
       localImg || e.image || "", e.url || "", e.source || "", e.match
     ];
   });
-  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 7,
-    columnWidths: [50, 14, 14, 70, 40, 40, 24, 16, 24, 50, 50, 18, 16] };
+  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 12,
+    columnWidths: [50, 40, 14, 14, 70, 40, 30, 60, 50, 14, 40, 24, 16, 24, 50, 50, 18, 16] };
 }
 
 function buildCosmeticsTable(ctx, manifest) {

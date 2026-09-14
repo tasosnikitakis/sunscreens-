@@ -31,7 +31,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadWindowFile, cleanSiteName, cleanLongDescription, cleanPharmacyName, VOLUME_TOKEN } from "./lib-frezyderm.mjs";
+import { loadWindowFile, cleanSiteName, cleanLongDescription, cleanPharmacyName, tabLabel, VOLUME_TOKEN } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -365,11 +365,27 @@ async function main() {
 
     if (chosen) {
       const { description, claims } = cleanLongDescription(chosen.longDescription || chosen.description || "");
+      const d = chosen.details || {};
+      // Βασικά στοιχεία (strong-desc: "pH7", "Ιατροτεχνολογικό προϊόν", "CE 2803") και
+      // badges ("ΝΕΟ") μπαίνουν στις ιδιότητες· η συσκευασία ("50g") έχει δικό της πεδίο.
+      const extraClaims = [...(d.keyFacts || []), ...(d.badges || []).map(b => b === "ΝΕΟ" ? "Νέο" : b)]
+        .filter(c => c && c !== d.size && !VOLUME_TOKEN.test(c.replace(/\s+/g, "")));
+      const allClaims = [...claims];
+      for (const c of extraClaims) if (!allClaims.some(x => x.toLowerCase() === c.toLowerCase())) allClaims.push(c);
+      const attributes = {};
+      if (d.size) attributes["Συσκευασία"] = d.size;
+      if (d.category) attributes["Κατηγορία frezyderm.gr"] = d.category;
+      if (d.sku) attributes["SKU"] = d.sku;
+      const sections = {};
+      for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
       overrides[p.barcode] = {
-        name: cleanSiteName(chosen.name),
+        name: cleanSiteName(d.title || chosen.name),
+        subtitle: d.subtitle || null,
         description,
-        claims,
-        image: chosen.image || null,
+        claims: allClaims,
+        attributes,
+        sections,
+        image: d.imageLarge || chosen.image || null,
         url: chosen.url,
         source: "frezyderm.gr",
         section: chosen.section,

@@ -119,3 +119,120 @@ export function cleanLongDescription(text) {
 
 // Volume tokens τύπου 150ml / 200gr / 30caps / 2x50ml
 export const VOLUME_TOKEN = /^\d+([.,]\d+)?(ml|gr|g|kg|mg|l|iu|caps|tabs|tablets|sachets|amp|amps|x\d+)$/i;
+
+// ----- Δομή σελίδας προϊόντος frezyderm.gr -----
+//
+//   <div class="product">
+//     <div class="media"> <div class="img"><img src="…/ProductDetail/…"> <span class="Measurement">50g</span></div>
+//                         <div class="extra-icons"><a class="extra-icon …"><span class="text">ΝΕΟ</span></a></div>
+//     <div class="details">
+//       <h2 class="cat">Κατηγορία</h2>
+//       <h1>ΟΝΟΜΑ - Ελληνικός υπότιτλος</h1>
+//       <p class="strong-desc"><strong><p>pH7<br>Ιατροτεχνολογικό προϊόν<br>CE 2803<br>50g</p></strong></p>
+//       <div class="desc"> <div class="sku_code">SKU : 422755</div>
+//                          <div class="product-text"><div class="text">…περιγραφή…</div></div>
+//     <div class="tabs-wrap"> <div class="header"><div>ΚΑΤΑΛΛΗΛΟ ΓΙΑ</div><div>ΧΡΗΣΗ</div><div>ΔΡΑΣΗ - ΕΝΕΡΓΑ ΣΥΣΤΑΤΙΚΑ</div></div>
+//                             <div class="tabs"><div>…</div><div>…</div><div>…</div></div>
+
+export function htmlToText(html) {
+  return decodeHtml(String(html || "")
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<\/(?:div|li|h[1-6]|tr|blockquote)>/gi, "\n")
+    .replace(/<[^>]+>/g, ""))
+    .replace(/\r/g, "")
+    .split("\n").map(l => l.replace(/[ \t ]+/g, " ").trim()).join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+// Inner HTML του πρώτου <tag class="…cls…"> με σωστό μέτρημα εμφωλευμένων
+// tags (τα regex δεν αντέχουν <div> μέσα σε <div>).
+function innerOfClass(html, cls, tag = "div") {
+  const open = new RegExp(`<${tag}\\b[^>]*class="[^"]*\\b${cls}\\b[^"]*"[^>]*>`, "i");
+  const m = html.match(open);
+  if (!m) return null;
+  const start = m.index + m[0].length;
+  let depth = 1;
+  for (const t of html.slice(start).matchAll(new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, "gi"))) {
+    depth += t[0].startsWith("</") ? -1 : 1;
+    if (depth === 0) return html.slice(start, start + t.index);
+  }
+  return null;
+}
+
+// Τα άμεσα παιδιά <tag> ενός inner HTML (ως inner HTML το καθένα).
+function directChildren(inner, tag = "div") {
+  const out = [];
+  let depth = 0, cur = null;
+  for (const t of inner.matchAll(new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, "gi"))) {
+    if (!t[0].startsWith("</")) { if (depth === 0) cur = t.index + t[0].length; depth++; }
+    else { depth--; if (depth === 0 && cur !== null) { out.push(inner.slice(cur, t.index)); cur = null; } }
+  }
+  return out;
+}
+
+const oneLine = s => htmlToText(s).replace(/\s+/g, " ").trim();
+
+export function extractProductDetails(html) {
+  const d = {};
+  const details = innerOfClass(html, "details") || html;
+
+  const h1 = details.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  if (h1) {
+    const t = oneLine(h1[1]);
+    const parts = t.split(/\s+[-–—]\s+/);
+    d.title = parts[0].trim();
+    if (parts.length > 1) d.subtitle = parts.slice(1).join(" - ").trim();
+  }
+  const cat = details.match(/<h2[^>]*class="[^"]*\bcat\b[^"]*"[^>]*>([\s\S]*?)<\/h2>/i);
+  if (cat) d.category = oneLine(cat[1]);
+
+  const sd = innerOfClass(details, "strong-desc", "p");
+  if (sd) d.keyFacts = htmlToText(sd).split("\n").map(s => s.trim()).filter(Boolean);
+
+  const sku = details.match(/class="sku_code"[^>]*>\s*SKU\s*:?\s*([A-Za-z0-9\-\.]+)/i);
+  if (sku) d.sku = sku[1];
+
+  const meas = html.match(/class="Measurement"[^>]*>([^<]+)</i);
+  if (meas) d.size = meas[1].trim();
+
+  const badges = [...html.matchAll(/class="extra-icon[^"]*"[^>]*>\s*<span class="text">\s*([^<]+?)\s*<\/span>/gi)].map(m => m[1].trim());
+  if (badges.length) d.badges = [...new Set(badges)];
+
+  const img = html.match(/<div class="img">[\s\S]*?<img[^>]+src="([^"]+)"/i);
+  if (img) d.imageLarge = decodeHtml(img[1]);
+
+  const wrap = innerOfClass(html, "tabs-wrap");
+  if (wrap) {
+    const header = innerOfClass(wrap, "header");
+    const tabs = innerOfClass(wrap, "tabs");
+    if (header && tabs) {
+      const titles = directChildren(header).map(oneLine);
+      const bodies = directChildren(tabs).map(x => htmlToText(x));
+      d.tabs = {};
+      titles.forEach((t, i) => { if (t && bodies[i]) d.tabs[t] = bodies[i]; });
+    }
+  }
+  return d;
+}
+
+// Ετικέτες καρτελών όπως θέλουμε να εμφανίζονται (η σελίδα τις έχει ΚΕΦΑΛΑΙΑ).
+const TAB_LABELS = {
+  "ΚΑΤΑΛΛΗΛΟ ΓΙΑ": "Κατάλληλο για",
+  "ΧΡΗΣΗ": "Χρήση",
+  "ΔΡΑΣΗ - ΕΝΕΡΓΑ ΣΥΣΤΑΤΙΚΑ": "Δράση – Ενεργά συστατικά",
+  "ΔΡΑΣΗ": "Δράση",
+  "ΕΝΕΡΓΑ ΣΥΣΤΑΤΙΚΑ": "Ενεργά συστατικά",
+  "ΣΥΣΤΑΤΙΚΑ": "Συστατικά",
+  "ΠΡΟΕΙΔΟΠΟΙΗΣΕΙΣ": "Προειδοποιήσεις",
+  "ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ": "Οδηγίες χρήσης"
+};
+export function tabLabel(raw) {
+  const key = String(raw || "").replace(/\s+/g, " ").trim().toUpperCase();
+  if (TAB_LABELS[key]) return TAB_LABELS[key];
+  const s = key.toLowerCase();
+  return s ? s[0].toUpperCase() + s.slice(1) : s;
+}

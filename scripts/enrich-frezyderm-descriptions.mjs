@@ -17,6 +17,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { extractProductDetails } from "./lib-frezyderm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -167,6 +168,9 @@ async function inspect(url) {
   if (best) console.log(`\n=> BEST: ${best.name} (${best.length} chars)`);
   else console.log(`\n=> NO candidate above 120 chars threshold`);
 
+  console.log(`\n--- details (h1/cat/strong-desc/tabs) ---`);
+  console.log(JSON.stringify(extractProductDetails(html), null, 2).slice(0, 3000));
+
   // Save raw HTML για offline inspection
   await fs.mkdir(path.join(ROOT, "_debug"), { recursive: true });
   const debugFile = path.join(ROOT, "_debug", "frezyderm-inspect.html");
@@ -232,8 +236,8 @@ async function main() {
   const raw = await fs.readFile(SITE_FILE, "utf8");
   const site = JSON.parse(raw);
 
-  const pool = site.filter(p => p.url && (FORCE || !p.longDescription));
-  console.log(`Enriching ${pool.length} product descriptions from frezyderm.gr…\n`);
+  const pool = site.filter(p => p.url && (FORCE || !p.longDescription || !p.details));
+  console.log(`Enriching ${pool.length} product pages from frezyderm.gr (περιγραφή + details/καρτέλες)…\n`);
 
   let ok = 0, noBetter = 0, fail = 0, n = 0;
   for (const p of pool) {
@@ -242,12 +246,14 @@ async function main() {
     const label = `[${n}/${Math.min(pool.length, LIMIT)}] ${p.url.replace(/^https?:\/\/[^\/]+/, "")}`;
     try {
       const html = await fetchText(p.url);
+      p.details = extractProductDetails(html);
       const best = bestDescription(html);
       if (best) {
         p.longDescription = best.text;
         p.longDescriptionSource = best.name;
         ok++;
-        console.log(`${label} OK [${best.name}] ${best.length}c`);
+        const tabs = p.details.tabs ? Object.keys(p.details.tabs).length : 0;
+        console.log(`${label} OK [${best.name}] ${best.length}c  tabs=${tabs}${p.details.subtitle ? " sub+" : ""}${p.details.size ? " " + p.details.size : ""}`);
       } else {
         noBetter++;
         console.log(`${label} NO_BETTER (kept og:description of ${(p.description || "").length}c)`);
