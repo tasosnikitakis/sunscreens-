@@ -1,3 +1,18 @@
 {
-  "_comment": "Χειροκίνητες διορθώσεις match: barcode → URL σελίδας στο lamberts.gr. Τιμή null = το προϊόν ΔΕΝ έχει σελίδα (μην το ταιριάξεις). Διαβάζεται από scripts/match-lamberts.mjs και υπερισχύει του fuzzy. Για να εγκρίνετε μια πρόταση από το lamberts-match-report.csv, αντιγράψτε εδώ barcode + URL."
+  "_comment": "Χειροκίνητες διορθώσεις match: barcode → URL σελίδας στο lamberts.gr. Τιμή null = το προϊόν ΔΕΝ έχει σελίδα. Υπερισχύει του fuzzy. Οι μετονομασίες παρακάτω εγκρίθηκαν από την αναφορά lamberts-match-report.csv.",
+  "5055148414139": "https://lamberts.gr/product/glucosamine-phytodroitin-complex/",
+  "5055148413743": "https://lamberts.gr/product/artichoke-7425mg/",
+  "5055148413644": "https://lamberts.gr/product/neuro-logical-plus/",
+  "5055148411428": "https://lamberts.gr/product/magnesium-citrate/",
+  "5055148412876": "https://lamberts.gr/product/magnesium-citrate/",
+  "5055148401931": "https://lamberts.gr/product/bio-iron-complex/",
+  "5055148411534": "https://lamberts.gr/product/biome-balance-everyday/",
+  "5055148412982": "https://lamberts.gr/product/ashwagandha-6000mg/",
+  "5055148412067": "https://lamberts.gr/product/osteoguard-advance/",
+  "5055148412050": "https://lamberts.gr/product/osteoguard-advance/",
+  "5055148414085": "https://lamberts.gr/product/magasorb-300mg-effervescent-tabs/",
+  "5055148410742": "https://lamberts.gr/product/high-potency-omega-3s-for-cats-and-dogs/",
+  "_no_page": "Δεν υπάρχουν στο lamberts.gr:",
+  "5055148412111": null,
+  "5055148412708": null
 }
