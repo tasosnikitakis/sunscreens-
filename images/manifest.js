@@ -1227,14 +1227,14 @@ window.IMAGE_MANIFEST = {
   "5055148412999": "lamberts/ginkgo-biloba-extract-6000mg-60tabs-pharm24-gr-5055148412999.jpg",
   "5055148405588": "lamberts/ginkgo-6000mg-30tabs-online-pharmacy-ofarmakopoiosmou-gr-5055148405588.png",
   "5055148402822": "lamberts/refreshall-120tabs-pharm24-gr-5055148402822.jpg",
-  "5055148413743": "lamberts/artichoke-high-strength-7425mg-180tabs-pharm24-gr-5055148413743.jpg",
+  "5055148413743": "lamberts/artichoke-7425mg-5055148413743.png",
   "5055148414702": "lamberts/imuno-strength-gummies-60-pharm24-gr-5055148414702.jpg",
   "5055148402136": "lamberts/magasorb-300mg-effervescent-tabs-5055148402136.png",
-  "5055148411428": "lamberts/magnesium-375-100-nrv-180tabs-pharm24-gr-5055148411428.jpg",
-  "5055148412876": "lamberts/magnesium-375-100-nrv-60tabs-pharm24-gr-5055148412876.jpg",
+  "5055148411428": "lamberts/magnesium-citrate-5055148411428.png",
+  "5055148412876": "lamberts/magnesium-citrate-5055148412876.png",
   "5055148410698": "lamberts/methyl-b-complex-5055148410698.png",
   "5055148403508": "lamberts/milk-thistle-6250mg-90tabs-pharm24-gr-5055148403508.jpg",
-  "5055148401931": "lamberts/iron-14mg-100tabs-pharm24-gr-5055148401931.jpg",
+  "5055148401931": "lamberts/bio-iron-complex-5055148401931.png",
   "5055148410605": "lamberts/magasorb-300mg-effervescent-tabs-5055148410605.png",
   "5055148400002": "lamberts/selenium-200-g-a-c-e-5055148400002.png",
   "5055148402815": "lamberts/zincatest-100ml-online-pharmacy-ofarmakopoiosmou-gr-5055148402815.png",
@@ -1315,5 +1315,6 @@ window.IMAGE_MANIFEST = {
   "5055148401900": "lamberts/vitamin-b12-1000-g-5055148401900.png",
   "5055148412982": "lamberts/ashwagandha-advance-5055148412982.png",
   "5055148412050": "lamberts/osteoguard-advance-5055148412050.png",
-  "5055148412067": "lamberts/osteoguard-advance-5055148412067.png"
+  "5055148412067": "lamberts/osteoguard-advance-5055148412067.png",
+  "5055148414139": "lamberts/glucosamine-phytodroitin-complex-5055148414139.png"
 };
