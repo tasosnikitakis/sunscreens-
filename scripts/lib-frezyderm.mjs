@@ -150,7 +150,7 @@ export function htmlToText(html) {
 
 // Inner HTML του πρώτου <tag class="…cls…"> με σωστό μέτρημα εμφωλευμένων
 // tags (τα regex δεν αντέχουν <div> μέσα σε <div>).
-function innerOfClass(html, cls, tag = "div") {
+export function innerOfClass(html, cls, tag = "div") {
   const open = new RegExp(`<${tag}\\b[^>]*class="[^"]*\\b${cls}\\b[^"]*"[^>]*>`, "i");
   const m = html.match(open);
   if (!m) return null;
@@ -164,7 +164,17 @@ function innerOfClass(html, cls, tag = "div") {
 }
 
 // Τα άμεσα παιδιά <tag> ενός inner HTML (ως inner HTML το καθένα).
-function directChildren(inner, tag = "div") {
+// Inner HTML από ένα offset (αμέσως μετά το opening tag) μέχρι το ταίρι του.
+export function balancedInner(html, start, tag = "div") {
+  let depth = 1;
+  for (const t of html.slice(start).matchAll(new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, "gi"))) {
+    depth += t[0].startsWith("</") ? -1 : 1;
+    if (depth === 0) return html.slice(start, start + t.index);
+  }
+  return null;
+}
+
+export function directChildren(inner, tag = "div") {
   const out = [];
   let depth = 0, cur = null;
   for (const t of inner.matchAll(new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, "gi"))) {
@@ -240,11 +250,20 @@ const TAB_LABELS = {
   "ΕΝΕΡΓΑ ΣΥΣΤΑΤΙΚΑ": "Ενεργά συστατικά",
   "ΣΥΣΤΑΤΙΚΑ": "Συστατικά",
   "ΠΡΟΕΙΔΟΠΟΙΗΣΕΙΣ": "Προειδοποιήσεις",
-  "ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ": "Οδηγίες χρήσης"
+  "ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ": "Οδηγίες χρήσης",
+  // lamberts.gr expandable sections
+  "ΑΠΟΔΟΣΗ & ΣΥΣΤΑΤΙΚΑ": "Απόδοση & Συστατικά",
+  "ΠΡΟΦΥΛΑΞΕΙΣ": "Προφυλάξεις",
+  "ΜΟΡΦΗ & ΣΥΣΚΕΥΑΣΙΑ": "Μορφή & Συσκευασία",
+  "ΠΕΡΙΓΡΑΦΗ": "Περιγραφή"
 };
+const stripAccents = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
+const TAB_LABELS_KEYED = Object.fromEntries(Object.entries(TAB_LABELS).map(([k, v]) => [stripAccents(k), v]));
 export function tabLabel(raw) {
-  const key = String(raw || "").replace(/\s+/g, " ").trim().toUpperCase();
-  if (TAB_LABELS[key]) return TAB_LABELS[key];
-  const s = key.toLowerCase();
+  const clean = String(raw || "").replace(/\s+/g, " ").trim();
+  const key = stripAccents(clean).toUpperCase();
+  if (TAB_LABELS_KEYED[key]) return TAB_LABELS_KEYED[key];
+  if (clean !== clean.toUpperCase()) return clean;   // ήδη σε κανονική γραφή (lamberts.gr) — κρατάμε ως έχει
+  const s = clean.toLowerCase();
   return s ? s[0].toUpperCase() + s.slice(1) : s;
 }

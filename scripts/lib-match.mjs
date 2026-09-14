@@ -36,14 +36,19 @@ export function createMatcher(cfg) {
 
   function tokenize(s) {
     if (!s) return [];
-    const split = normalize(String(s))
+    const src = normalize(String(s));
+    // camelCase ("MagAsorb", "AcNorm"): κρατάμε ΚΑΙ την ενωμένη μορφή, ώστε να
+    // ταιριάζει είτε ο άλλος το γράφει "MAGASORB" είτε "AC-NORM".
+    const joined = (src.match(/\b[A-Za-z]+[a-z][A-Z][a-z]+\b/g) || []).map(w => w.toLowerCase()).join(" ");
+    const split = src
       .replace(/([a-z])([A-Z])/g, "$1 $2")
-      .replace(/([A-Za-zα-ωΑ-Ω]{2})(\d)/g, "$1 $2");
+      .replace(/([A-Za-zα-ωΑ-Ω]{2})(\d)/g, "$1 $2") + " " + joined;
     const lower = split.toLowerCase()
       .normalize("NFD").replace(/[̀-ͯ]/g, "")
       .replace(/[+&\/\\.\-_']/g, " ")
       .replace(/[^\wα-ωά-ώΑ-Ωa-z0-9]/gi, " ");
     return lower.split(/\s+/)
+      .filter(t => t && !STOP.has(t))          // stopwords ΠΡΙΝ το stemming ("lamberts" → "lambert" θα ξέφευγε)
       .map(t => ABBREV[t] || t)
       .map(stem)
       .filter(t => (t.length >= 2 || /^\d$/.test(t) || (cfg.keepSingleLetters && /^[a-z]$/.test(t))) && !STOP.has(t));
@@ -124,9 +129,10 @@ export function createMatcher(cfg) {
       if (VOL.test(t)) continue;
       const w = idfWeight(idf, t);
       const hit = s.nameSet.has(t) ? 1 : s.urlSet.has(t) ? 0.7 : 0;
-      if (hit) { score += hit * w; matched.push(hit === 1 ? t : t + "·url"); }
+      if (hit) { score += hit * w; matched.push((hit === 1 ? t : t + "·url") + "(" + w.toFixed(1) + ")"); }
       if (!PACK.has(t)) { totalW += w; matchedW += hit * w; }
     }
+    if (totalW - matchedW > 0.05) matched.push("miss(-" + (P.miss * (totalW - matchedW)).toFixed(1) + ")");
     score -= P.miss * (totalW - matchedW);
     // Προαιρετικά: λέξεις της σελίδας που ΔΕΝ υπάρχουν στο query ("Vitamin D3
     // 2000iu & K2" για query "Vitamin D3 2000iu") — μικρή ποινή ώστε να
@@ -136,12 +142,14 @@ export function createMatcher(cfg) {
       let extra = 0;
       for (const t of s.nameSet) if (!qSet.has(t) && !VOL.test(t) && !PACK.has(t)) extra += idfWeight(idf, t);
       score -= P.extraSite * extra;
+      if (extra) matched.push("extra(-" + (P.extraSite * extra).toFixed(1) + ")");
     }
-    score += consecutiveBonus(q.toks, s.nameToks, idf);
-    score += 0.5 * consecutiveBonus(q.toks, s.urlToks, idf);
+    const big = consecutiveBonus(q.toks, s.nameToks, idf) + 0.5 * consecutiveBonus(q.toks, s.urlToks, idf);
+    if (big) matched.push("bigram(+" + big.toFixed(1) + ")");
+    score += big;
 
-    if (q.vol && s.vol && q.vol === s.vol) score += P.volumeMatch;
-    else if (q.vol && s.vol && q.vol !== s.vol) { score -= P.volumeMismatch; matched.push("vol≠"); }
+    if (q.vol && s.vol && q.vol === s.vol) { score += P.volumeMatch; matched.push("vol=" + q.vol); }
+    else if (q.vol && s.vol && q.vol !== s.vol) { score -= P.volumeMismatch; matched.push("vol≠(" + q.vol + "/" + s.vol + ")"); }
 
     if (q.forms.size && s.forms.size && ![...q.forms].some(f => s.forms.has(f))) { score -= P.form; matched.push("form≠"); }
     if (q.spf && s.spf && s.spf.replace("+", "") !== q.spf.replace("+", "")) { score -= P.spf; matched.push("spf≠"); }

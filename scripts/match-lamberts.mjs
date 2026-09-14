@@ -44,7 +44,7 @@ const flag = (k) => args.includes(`--${k}`);
 
 const DEBUG = flag("debug");
 const ONLY = opt("barcode", null);
-const MIN_SCORE = parseFloat(opt("min-score", "5"));
+const MIN_SCORE = parseFloat(opt("min-score", "4"));
 const HIGH_SCORE = parseFloat(opt("high-score", "9"));
 
 // ----- Brand-specific matching config -----
@@ -69,7 +69,8 @@ const QTY_TOKEN = /^\d+([.,]\d+)?(mg|mcg|μg|ug|iu|g|gr|ml|billion|tabs?|tabl|ta
 
 const matcher = createMatcher({
   // "B-12" → "B12", "D-3" → "D3", "Co-Enzyme" → "Coenzyme" ώστε να ταυτίζονται με τα ονόματα του site
-  normalize: s => s.replace(/\b([A-Za-z])-(\d{1,2})\b/g, "$1$2").replace(/\bco-?enzyme\b/gi, "coenzyme"),
+  // "D3" ≡ "D": ο supplier γράφει "VITAMIN D3 2000iu", το site "Vitamin D 2000iu" (και "Vitamin D3 … & K2")
+  normalize: s => s.replace(/\b([A-Za-z])-(\d{1,2})\b/g, "$1$2").replace(/\bco-?enzyme\b/gi, "coenzyme").replace(/\bA-Z\b/g, "AtoZ").replace(/\bD3\b/g, "D"),
   stopwords: new Set([
     "lamberts", "the", "of", "and", "with", "for", "in", "on", "at", "to", "by",
     "και", "με", "για", "σε", "των", "του", "της",
@@ -94,7 +95,7 @@ const matcher = createMatcher({
   volumeToken: QTY_TOKEN,
   extractVolume: extractDosage,
   keepSingleLetters: true,   // Vitamin D / E / C / K — το γράμμα είναι η ταυτότητα
-  penalties: { miss: parseFloat(opt("miss-penalty", "0.75")), form: parseFloat(opt("form-penalty", "4")), volumeMatch: 4, volumeMismatch: parseFloat(opt("dose-penalty", "6")), extraSite: parseFloat(opt("extra-penalty", "0.3")) }
+  penalties: { miss: parseFloat(opt("miss-penalty", "0.75")), form: parseFloat(opt("form-penalty", "4")), volumeMatch: 4, volumeMismatch: parseFloat(opt("dose-penalty", "6")), extraSite: parseFloat(opt("extra-penalty", "0.2")) }
 });
 
 // Σελίδες κατηγοριών/αρχείων που μπήκαν κατά λάθος στο scrape ("… Archives")
