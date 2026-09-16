@@ -22,14 +22,15 @@ function enrichmentFor(barcode) {
     return {
       name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
       url: o.url || null, source: "frezyderm.gr", section: o.section || null,
-      claims: o.claims || [], review: !!o.review, noFrezydermPage: false
+      claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {},
+      matchType: o.matchType || null, review: !!o.review, noFrezydermPage: false
     };
   }
   const s = SUPPLEMENTAL[barcode] || {};
   return {
     name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
     url: s.url || null, source: s.source || null, section: s.section || null,
-    claims: [], review: false, noFrezydermPage: true
+    claims: [], highlights: [], attributes: {}, sections: {}, matchType: null, review: false, noFrezydermPage: true
   };
 }
 
@@ -81,11 +82,12 @@ function makeCard(p) {
   const qualityInit = frezydermDescriptionQuality(enrich.description);
   card.dataset.needsReview = qualityInit.ok ? "0" : "1";
   card.dataset.noPage = enrich.noFrezydermPage ? "1" : "0";
-  // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
-  card.dataset.allOk = (!enrich.noFrezydermPage && qualityInit.ok && !enrich.review && !!(localUrl || enrich.image)) ? "1" : "0";
 
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl || enrich.image || null;
+  // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
+  card.dataset.allOk = (!enrich.noFrezydermPage && qualityInit.ok && !enrich.review && !!remoteUrl) ? "1" : "0";
+  card.dataset.barcode = p.barcode;
   const initials = "FZ";
 
   const imgWrap = document.createElement("div");
@@ -188,6 +190,21 @@ function applySearch(term) {
   noResultsEl.classList.toggle("hidden", visible > 0);
   const suffix = QUALITY_LABEL[mode] ? ` ${QUALITY_LABEL[mode]}` : "";
   resultCountEl.textContent = (t || mode !== "all") ? `${visible} προϊόντα${suffix}` : `${FREZYDERM_SUPPLIER.length} προϊόντα συνολικά`;
+  const exportBtn = document.getElementById("export-filtered");
+  if (exportBtn) { exportBtn.disabled = visible === 0; exportBtn.querySelector("[data-count]").textContent = visible; }
+}
+
+// Export των ορατών (φιλτραρισμένων) προϊόντων σε XLSX — ίδιες στήλες με το frezyderm-catalog.xlsx
+function exportFiltered() {
+  const visible = new Set([...document.querySelectorAll(".product-card")].filter(c => c.style.display !== "none").map(c => c.dataset.barcode));
+  const products = FREZYDERM_SUPPLIER.filter(p => visible.has(p.barcode));
+  const { headers, rows } = CatalogExport.buildRows({
+    products, enrichmentFor, sectionLabels: SECTION_LABELS,
+    prettify: prettifyFrezydermName, fallbackDesc: p => `Προϊόν Frezyderm — ${p.name}`,
+    tabColumns: ["Κατάλληλο για", "Χρήση", "Δράση – Ενεργά συστατικά"], categoryAttr: "Κατηγορία frezyderm.gr"
+  });
+  const mode = (document.getElementById("filter-quality") || {}).value || "all";
+  CatalogExport.download(`frezyderm-${mode}-${rows.length}.xlsx`, headers, rows, "Frezyderm");
 }
 
 buildCatalog();
@@ -200,3 +217,5 @@ searchEl.addEventListener("input", e => {
 });
 const filterQuality = document.getElementById("filter-quality");
 if (filterQuality) filterQuality.addEventListener("change", () => applySearch(searchEl.value));
+const exportFilteredBtn = document.getElementById("export-filtered");
+if (exportFilteredBtn) exportFilteredBtn.addEventListener("click", exportFiltered);

@@ -68,6 +68,10 @@
           <option value="incomplete">🔍 Μόνο με ανεπαρκή περιγραφή</option>
           <option value="nopage">⛔ Μόνο χωρίς σελίδα lamberts.gr</option>
         </select>
+        <button id="export-filtered" type="button" title="Κατεβάζει σε XLSX ακριβώς τα προϊόντα που φαίνονται (φίλτρο + αναζήτηση)"
+                class="inline-flex items-center gap-2 px-3 py-3 rounded-xl border border-purple-300 bg-purple-50 text-purple-800 text-sm font-semibold hover:bg-purple-100 disabled:opacity-40 disabled:cursor-not-allowed whitespace-nowrap">
+          ⬇ XLSX (<span data-count>0</span>)
+        </button>
         <div id="result-count" class="text-sm text-slate-500 sm:w-48 sm:text-right"></div>
       </div>
     </div>
@@ -90,6 +94,8 @@
   <script src="js/lamberts-sections.js?v=1"></script>
   <script src="images/manifest.js?v=3"></script>
   <script src="js/utils.js"></script>
-  <script src="js/lamberts-app.js?v=2"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="js/catalog-export.js?v=1"></script>
+  <script src="js/lamberts-app.js?v=3"></script>
 </body>
 </html>
