@@ -21,14 +21,15 @@ function enrichmentFor(barcode) {
     return {
       name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
       url: o.url || null, source: "lamberts.gr", section: o.section || null,
-      claims: o.claims || [], review: !!o.review, noBrandPage: false
+      claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {},
+      matchType: o.matchType || null, review: !!o.review, noBrandPage: false
     };
   }
   const s = SUPPLEMENTAL[barcode] || {};
   return {
     name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
     url: s.url || null, source: s.source || null, section: s.section || null,
-    claims: [], review: false, noBrandPage: true
+    claims: [], highlights: [], attributes: {}, sections: {}, matchType: null, review: false, noBrandPage: true
   };
 }
 
@@ -83,6 +84,7 @@ function makeCard(p) {
   card.dataset.noPage = enrich.noBrandPage ? "1" : "0";
   // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
   card.dataset.allOk = (!enrich.noBrandPage && quality.ok && !enrich.review && !!remoteUrl) ? "1" : "0";
+  card.dataset.barcode = p.barcode;
 
   const imgWrap = document.createElement("div");
   imgWrap.className = "aspect-square relative overflow-hidden";
@@ -180,6 +182,21 @@ function applySearch(term) {
   noResultsEl.classList.toggle("hidden", visible > 0);
   const suffix = QUALITY_LABEL[mode] ? ` ${QUALITY_LABEL[mode]}` : "";
   resultCountEl.textContent = (t || mode !== "all") ? `${visible} προϊόντα${suffix}` : `${LAMBERTS_SUPPLIER.length} προϊόντα συνολικά`;
+  const exportBtn = document.getElementById("export-filtered");
+  if (exportBtn) { exportBtn.disabled = visible === 0; exportBtn.querySelector("[data-count]").textContent = visible; }
+}
+
+// Export των ορατών (φιλτραρισμένων) προϊόντων σε XLSX — ίδιες στήλες με το lamberts-catalog.xlsx
+function exportFiltered() {
+  const visible = new Set([...document.querySelectorAll(".product-card")].filter(c => c.style.display !== "none").map(c => c.dataset.barcode));
+  const products = LAMBERTS_SUPPLIER.filter(p => visible.has(p.barcode));
+  const { headers, rows } = CatalogExport.buildRows({
+    products, enrichmentFor, sectionLabels: SECTION_LABELS,
+    prettify: prettifyLambertsName, fallbackDesc: p => `Συμπλήρωμα διατροφής Lamberts — ${p.name}`,
+    tabColumns: ["Απόδοση & Συστατικά", "Χρήση", "Προφυλάξεις"], categoryAttr: "Κατηγορία lamberts.gr"
+  });
+  const mode = (document.getElementById("filter-quality") || {}).value || "all";
+  CatalogExport.download(`lamberts-${mode}-${rows.length}.xlsx`, headers, rows, "Lamberts");
 }
 
 buildCatalog();
@@ -189,3 +206,5 @@ let searchTimer;
 searchEl.addEventListener("input", e => { clearTimeout(searchTimer); searchTimer = setTimeout(() => applySearch(e.target.value), 120); });
 const filterQuality = document.getElementById("filter-quality");
 if (filterQuality) filterQuality.addEventListener("change", () => applySearch(searchEl.value));
+const exportFilteredBtn = document.getElementById("export-filtered");
+if (exportFilteredBtn) exportFilteredBtn.addEventListener("click", exportFiltered);
