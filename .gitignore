@@ -11,3 +11,6 @@ node_modules/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Ενδιάμεσες σημειώσεις έρευνας (deep-research) — η τελική αναφορά μπαίνει στο reports/
+research_notes/
