@@ -36,3 +36,8 @@ html { scroll-behavior: smooth; }
 
 /* Anchor offset so sticky search doesn't cover section title */
 .brand-anchor { scroll-margin-top: 6rem; }
+
+/* Navigation tabs: οριζόντιο scroll σε κινητό αντί για αναδίπλωση (κρατάει το ύψος 56px) */
+nav .flex-nowrap { scrollbar-width: none; }
+nav .flex-nowrap::-webkit-scrollbar { display: none; }
+nav .flex-nowrap > a { flex-shrink: 0; }

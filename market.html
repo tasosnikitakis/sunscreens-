@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Αγορά παραφαρμάκου — Κατάλογος Φαρμακείου</title>
+  <meta name="description" content="Έρευνα αγοράς: οι δημοφιλέστερες κατηγορίες παραφαρμακευτικών, καλλυντικών και συμπληρωμάτων στο ελληνικό φαρμακείο, οι κορυφαίες εταιρίες ανά κατηγορία, τι πωλείται online και προτεραιότητες εμπλουτισμού καταλόγου.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .tag { display:inline-flex; align-items:center; gap:.25rem; padding:.125rem .5rem; border-radius:9999px; font-size:.7rem; font-weight:700; letter-spacing:.02em; white-space:nowrap; }
+    .tag-m { background:#dcfce7; color:#166534; border:1px solid #86efac; }
+    .tag-k { background:#dbeafe; color:#1e40af; border:1px solid #93c5fd; }
+    .tag-p { background:#f1f5f9; color:#475569; border:1px solid #cbd5e1; }
+    .tag-yes { background:#d1fae5; color:#065f46; }
+    .tag-part { background:#fef3c7; color:#92400e; }
+    .tag-no { background:#fee2e2; color:#991b1b; }
+    table.data { width:100%; border-collapse:separate; border-spacing:0; font-size:.875rem; }
+    table.data th { background:#f8fafc; color:#475569; font-weight:600; text-align:left; padding:.6rem .75rem; border-bottom:1px solid #e2e8f0; white-space:nowrap; }
+    table.data td { padding:.6rem .75rem; border-bottom:1px solid #f1f5f9; vertical-align:top; color:#1e293b; }
+    table.data tr:last-child td { border-bottom:0; }
+    table.data td.num { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    .src a { color:#0369a1; text-decoration:none; }
+    .src a:hover { text-decoration:underline; }
+    details > summary { cursor:pointer; list-style:none; }
+    details > summary::-webkit-details-marker { display:none; }
+    details[open] .chev { transform:rotate(90deg); }
+    .chev { transition:transform .15s; display:inline-block; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">
+      <a href="index.html" class="flex items-center gap-2 font-bold text-slate-800">
+        <span class="text-xl">🏥</span>
+        <span class="hidden sm:inline">Κατάλογος Φαρμακείου</span>
+      </a>
+      <div class="flex items-center gap-1 overflow-x-auto flex-nowrap">
+        <a href="index.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🧴</span><span>Αντηλιακά</span></a>
+        <a href="cosmetics.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>💄</span><span>Καλλυντικά</span></a>
+        <a href="seasonal.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🌴</span><span>Εποχιακά</span></a>
+        <a href="vican.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🏪</span><span>Vican</span></a>
+        <a href="frezyderm.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>🧪</span><span>Frezyderm</span></a>
+        <a href="lamberts.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-medium text-slate-600 hover:bg-slate-100 transition flex items-center gap-1.5"><span>💊</span><span>Lamberts</span></a>
+        <a href="market.html" class="px-3 sm:px-4 py-1.5 rounded-lg text-sm font-bold bg-slate-900 text-white transition flex items-center gap-1.5"><span>📊</span><span>Αγορά</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-gradient-to-br from-slate-800 via-slate-900 to-sky-900 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-10 sm:py-14">
+      <div class="flex items-center gap-3 mb-2 text-white/80 text-sm font-medium uppercase tracking-wider">
+        <span class="inline-block w-2 h-2 bg-sky-300 rounded-full animate-pulse"></span>
+        Έρευνα αγοράς — Ελλάδα, Σεπτέμβριος 2026
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight drop-shadow">Η αγορά παραφαρμάκου στο ελληνικό φαρμακείο</h1>
+      <p class="mt-3 max-w-3xl text-white/90 text-base sm:text-lg">
+        Ποιες κατηγορίες πουλάνε, ποιες εταιρίες ηγούνται σε καθεμία, τι επιτρέπεται να πωληθεί ηλεκτρονικά —
+        και με ποια σειρά αξίζει να εμπλουτιστεί ο κατάλογος.
+      </p>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-5 gap-3">
+        <div class="rounded-2xl bg-white/10 backdrop-blur px-4 py-3">
+          <div class="text-2xl sm:text-3xl font-extrabold">7+ δισ. €</div>
+          <div class="text-xs text-white/80 mt-1">αγορά φαρμακείου 2025 (λιανική, STOCHASIS)</div>
+        </div>
+        <div class="rounded-2xl bg-white/10 backdrop-blur px-4 py-3">
+          <div class="text-2xl sm:text-3xl font-extrabold">27%</div>
+          <div class="text-xs text-white/80 mt-1">παραφαρμακευτικά (≈1,7–1,9 δισ. €)· στενοί ορισμοί 15–18%</div>
+        </div>
+        <div class="rounded-2xl bg-white/10 backdrop-blur px-4 py-3">
+          <div class="text-2xl sm:text-3xl font-extrabold">278 εκατ. €</div>
+          <div class="text-xs text-white/80 mt-1">e-φαρμακεία 2024 (−1%, Convert Group)</div>
+        </div>
+        <div class="rounded-2xl bg-white/10 backdrop-blur px-4 py-3">
+          <div class="text-2xl sm:text-3xl font-extrabold">38%</div>
+          <div class="text-xs text-white/80 mt-1">μέση πραγματική έκπτωση online επί ΠΛΤ</div>
+        </div>
+        <div class="rounded-2xl bg-white/10 backdrop-blur px-4 py-3">
+          <div class="text-2xl sm:text-3xl font-extrabold">82–94%</div>
+          <div class="text-xs text-white/80 mt-1">των online πωλήσεων = OTC + ομορφιά/προσωπική φροντίδα (IQVIA)</div>
+        </div>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-2 text-sm">
+        <a href="#categories" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">1. Κατηγορίες</a>
+        <a href="#brands" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">2. Εταιρίες ανά κατηγορία</a>
+        <a href="#legal" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">3. Τι πωλείται online</a>
+        <a href="#online" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">4. Το online κανάλι</a>
+        <a href="#priorities" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">5. Προτεραιότητες καταλόγου</a>
+        <a href="#gaps" class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25">6. Κενά & πηγές</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-8 sm:py-12 space-y-14">
+
+    <!-- Σύνοψη -->
+    <section class="rounded-2xl bg-white border border-slate-200 shadow-sm p-6 sm:p-8">
+      <h2 class="text-xl font-bold text-slate-900">Σε μία παράγραφο</h2>
+      <p class="mt-3 text-slate-700 leading-relaxed">
+        Η ιεραρχία του μη-συνταγογραφούμενου καλαθιού σε αξία είναι σαφής: πρώτα τα <strong>ΜΗΣΥΦΑ</strong> (625 εκατ. € στον στενό ορισμό IQVIA 2024, ~1 δισ. € στον ευρύ),
+        μετά τα <strong>δερμοκαλλυντικά</strong> (~280–450 εκατ. €), τα <strong>συμπληρώματα διατροφής</strong> (>200 εκατ. €, φαρμακεία = 55% της διανομής),
+        τα ιατροτεχνολογικά, τα βρεφικά και η στοματική/προσωπική υγιεινή. Το κρίσιμο όμως για έναν ηλεκτρονικό κατάλογο είναι ότι
+        <strong>η μεγαλύτερη κατηγορία — τα ΜΗΣΥΦΑ — είναι σχεδόν εξ ολοκλήρου εκτός online</strong>: μόνο τα ΓΕΔΙΦΑ (~216 από 1.582 σκευάσματα) επιτρέπονται εξ αποστάσεως.
+        Έτσι τα ελληνικά e-φαρμακεία ζουν από δύο κατηγορίες, <strong>ομορφιά/δερμοκαλλυντικά και συμπληρώματα</strong>, ενώ τα βρεφικά υποχωρούν (−15% το 2024).
+        Στις εταιρίες, η <strong>L'Oréal</strong> (27% του skin care) και η <strong>Pierre Fabre</strong> (Νο 2 φαρμακείου) ηγούνται στα δερμοκαλλυντικά με το ελληνικό τρίο
+        <strong>Korres–Frezyderm–Apivita</strong> να ακολουθεί· <strong>Vian (Depon)</strong> και <strong>Haleon (Panadol)</strong> στα ΜΗΣΥΦΑ· <strong>Eviol</strong> στις πολυβιταμίνες
+        με <strong>Solgar, Power Health, Lamberts</strong> ως κορυφαία brands ραφιού.
+      </p>
+      <div class="mt-4 rounded-xl bg-amber-50 border border-amber-200 px-4 py-3 text-sm text-amber-900">
+        <strong>Σημείωση αξιοπιστίας.</strong> Τα στοιχεία προέρχονται από δημοσιευμένα αποσπάσματα (IQVIA, Euromonitor, ICAP, ΠΣΒΑΚ, Convert Group, Τύπος) — οι πλήρεις σελίδες δεν ήταν προσπελάσιμες κατά την έρευνα.
+        Αριθμοί που επαναλαμβάνονται σε πολλές πηγές (278 εκατ. € online, 625 εκατ. € ΜΗΣΥΦΑ, 1,4 δισ. € καλλυντικά) θεωρούνται αξιόπιστοι. Δείκτης βεβαιότητας στα brands:
+        <span class="tag tag-m">Μ μετρημένο μερίδιο</span> <span class="tag tag-k">Κ κατάταξη / τζίρος</span> <span class="tag tag-p">Π εκτίμηση από παρουσία</span>
+      </div>
+    </section>
+
+    <!-- 1. Κατηγορίες -->
+    <section id="categories" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-sky-600">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-sky-800">1. Κατάταξη κατηγοριών</h2>
+        <div class="text-sm text-slate-400">μη-συνταγογραφούμενο καλάθι φαρμακείου</div>
+      </div>
+      <p class="text-slate-600 mb-4 text-sm">Η σειρά 1–3 είναι μετρημένη· από τη θέση 4 και κάτω είναι συμπέρασμα από αποσπάσματα (36% καλλυντικά & στοματική, 32% συμπληρώματα, 6% βρεφικά, 4% ορθοπεδικά — IQVIA 2023, περίμετρος μη επιβεβαιωμένη).</p>
+      <div class="rounded-2xl bg-white border border-slate-200 shadow-sm overflow-x-auto">
+        <table class="data">
+          <thead><tr><th>#</th><th>Κατηγορία</th><th>Μέγεθος & έτος</th><th>Ρυθμός</th><th>Online;</th><th>Πηγές</th></tr></thead>
+          <tbody>
+            <tr><td class="num font-bold">1</td><td><strong>ΜΗΣΥΦΑ</strong> (OTC φάρμακα)</td><td>625 εκατ. € (2024, IQVIA, μη αποζημ.) · ~1,0 δισ. € (2025, STOCHASIS) · 1,2 δισ. € «OTC κλάδος» (ΕΦΕΧ 2023-24)</td><td class="num">+6,2% αξία / −1% όγκος (2024)</td><td><span class="tag tag-part">Μόνο ΓΕΔΙΦΑ</span></td><td class="src text-xs"><a href="https://www.iatronet.gr/article/131076/625-ekat-edosan-oi-ellhnes-to-2024-gia-115-ekat-mh-syntagografoymena-mh-apozhmioymena-farmaka" target="_blank" rel="noopener">iatronet/IQVIA 2025</a> · <a href="https://www.naftemporiki.gr/health/2147916/ayxitiki-tasi-ton-poliseon-sta-idiotika-farmakeia/" target="_blank" rel="noopener">Ναυτεμπορική/STOCHASIS 2026</a></td></tr>
+            <tr><td class="num font-bold">2</td><td><strong>Δερμοκαλλυντικά</strong> & αντηλιακά</td><td>~280–450 εκατ. € (20–26% × 1,4–1,7 δισ. € αγοράς καλλυντικών 2024-25)</td><td class="num">Καλλυντικά +5,7% (2024) · αντηλιακά +6,1% (2024) / +16% (2023)</td><td><span class="tag tag-yes">Ναι, ελεύθερα</span></td><td class="src text-xs"><a href="https://www.powergame.gr/ikonomia/802070/kallyntika-afxisi-57-poliseon-to-2024-14-dis-i-axia-tous/" target="_blank" rel="noopener">ΠΣΒΑΚ 2025</a> · <a href="https://www.businessdaily.gr/epiheiriseis/113142_icap-se-anodo-kai-tin-epomeni-dietia-i-elliniki-agora-kallyntikon" target="_blank" rel="noopener">ICAP 2024</a></td></tr>
+            <tr><td class="num font-bold">3</td><td><strong>Συμπληρώματα διατροφής</strong> & βιταμίνες</td><td>>200 εκατ. € (2018) · φαρμακείο = 55% της διανομής · ~32% του παραφαρμάκου</td><td class="num">Αξία ↑ 2025 κυρίως λόγω τιμών · online +2% (2024)</td><td><span class="tag tag-yes">Ναι, ελεύθερα</span></td><td class="src text-xs"><a href="https://eefam.gr/sympliromata-diatrofis-oi-trechouses-taseis-stin-ellada-kai-stin-evropi/" target="_blank" rel="noopener">ΕΕΦΑΜ</a> · <a href="https://www.euromonitor.com/vitamins-in-greece/report" target="_blank" rel="noopener">Euromonitor 2025</a></td></tr>
+            <tr><td class="num font-bold">4</td><td><strong>Ιατροτεχνολογικά</strong> / patient care (πιεσόμετρα, θερμόμετρα, ρινικά, οφθαλμικά, τεστ, επιδεσμικό)</td><td>Χωρίς € Ελλάδας · οφθαλμικά συμπληρώματα 33,6 εκατ. € (2023-24) · ΕΕ: 2,1 δισ. συσκευασίες / 20,7 δισ. € (2025)</td><td class="num">+8,4% τεμάχια (ταχύτερη κατηγορία, IQVIA Weekly)</td><td><span class="tag tag-yes">Ναι</span> <span class="text-xs text-slate-500">(όχι κτηνιατρικά)</span></td><td class="src text-xs"><a href="https://eefam.gr/iqvia-weekly-data-oi-poliseis-ton-farmakeion-to-1o-15imero-noemvriou/" target="_blank" rel="noopener">ΕΕΦΑΜ/IQVIA</a> · <a href="https://eefam.gr/aftofrontida-45-dis-proionta-poulithikan-stin-evropi-to-2025/" target="_blank" rel="noopener">AESGP 2025</a></td></tr>
+            <tr><td class="num font-bold">5</td><td><strong>Βρεφικά</strong> & μητέρα-παιδί</td><td>~6% του παραφαρμάκου</td><td class="num text-rose-700">−15% online (2024), −16% Η1 2024 — πτώση γεννήσεων</td><td><span class="tag tag-yes">Ναι</span></td><td class="src text-xs"><a href="https://www.forin.gr/articles/article/83424/convert-group-meiwmenos-o-tziros-twn-hlektronikwn-farmakeiwn-to-2024" target="_blank" rel="noopener">Convert Group 2025</a></td></tr>
+            <tr><td class="num font-bold">6</td><td><strong>Στοματική υγιεινή</strong></td><td>Μαζί με καλλυντικά 36% του παραφαρμάκου · στο ΣΜ = 15,2% των καλλυντικών</td><td class="num">+3,2% (2025)</td><td><span class="tag tag-yes">Ναι</span></td><td class="src text-xs"><a href="https://www.insider.gr/epiheiriseis/401432/agora-kallyntikon-tzirarei-17-dis-eyro-kai-diekdikei-akomi-pio-omorfes-meres" target="_blank" rel="noopener">Insider 2025</a></td></tr>
+            <tr><td class="num font-bold">7</td><td><strong>Προσωπική υγιεινή</strong>, ευαίσθητη περιοχή, αποσμητικά, ακράτεια</td><td>Χωρίς €</td><td class="num">+3,7% (2024)</td><td><span class="tag tag-yes">Ναι</span></td><td class="src text-xs"><a href="https://www.skai.gr/news/finance/anaptyksi-gia-tin-agora-kallyntikon-to-2025-oi-prokliseis-kai-oi-eykairies-gia-tis-epixeir" target="_blank" rel="noopener">ΣΚΑΪ/ΠΣΒΑΚ 2025</a></td></tr>
+            <tr><td class="num font-bold">8</td><td><strong>Ορθοπεδικά</strong></td><td>~4% του παραφαρμάκου</td><td>—</td><td><span class="tag tag-yes">Ναι</span></td><td class="src text-xs"><a href="https://www.iatronet.gr/article/128806/dekaniki-oi-anatimhseis-gia-ta-mhsyfa-to-9mhno" target="_blank" rel="noopener">iatronet/IQVIA 2023</a></td></tr>
+            <tr><td class="num font-bold">9</td><td><strong>Ομοιοπαθητικά</strong> & φυτικά</td><td>Χωρίς €</td><td>—</td><td><span class="tag tag-yes">Ναι</span> <span class="text-xs text-slate-500">(τα εγκεκριμένα ως φάρμακα δεν ερευνήθηκαν)</span></td><td class="src text-xs">—</td></tr>
+            <tr><td class="num font-bold">10</td><td><strong>Κτηνιατρικά φάρμακα</strong></td><td>Χωρίς €</td><td>—</td><td><span class="tag tag-no">Όχι</span> <span class="text-xs text-slate-500">— πρόστιμα ΕΟΦ σε 17 επιχειρήσεις (2025)</span></td><td class="src text-xs"><a href="https://www.naftemporiki.gr/society/2090862/eof-kyroseis-se-17-epicheiriseis-gia-diafimisi-kai-diathesi-exapostaseos-ktiniatrikon-farmakon/" target="_blank" rel="noopener">Ναυτεμπορική/ΕΟΦ 2025</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 grid md:grid-cols-3 gap-4 text-sm">
+        <div class="rounded-xl bg-white border border-slate-200 p-4"><div class="font-semibold text-slate-800">Ταχύτερα αναπτυσσόμενα</div><p class="text-slate-600 mt-1">OTC online +20,5% (IQVIA, κυλιόμενο 12μηνο), patient care σε τεμάχια, αντηλιακά, και κατά Euromonitor: βοηθήματα ύπνου, βιταμίνη D, βιταμίνες Β, πολυβιταμινούχα.</p></div>
+        <div class="rounded-xl bg-white border border-slate-200 p-4"><div class="font-semibold text-slate-800">Τι προτιμούν οι καταναλωτές στο φαρμακείο</div><p class="text-slate-600 mt-1">IQVIA Α' τρίμ. 2025: πεπτικό (προβιοτικά, καθαρτικά), δέρμα και βιταμίνες.</p></div>
+        <div class="rounded-xl bg-white border border-slate-200 p-4"><div class="font-semibold text-slate-800">Ποιος μπαίνει στο κανάλι</div><p class="text-slate-600 mt-1">Fourlis (Holland & Barrett / Dr Pharmacy, στόχος 100 σημεία), Σαράντης με premium συμπληρώματα — ένδειξη ελκυστικότητας του καλαθιού ευεξίας.</p></div>
+      </div>
+    </section>
+
+    <!-- 2. Εταιρίες ανά κατηγορία -->
+    <section id="brands" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-emerald-600">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-emerald-800">2. Κορυφαίες εταιρίες ανά κατηγορία</h2>
+        <div class="text-sm text-slate-400">Μ = μετρημένο · Κ = κατάταξη/τζίρος · Π = παρουσία</div>
+      </div>
+
+      <div class="space-y-4">
+        <!-- ΜΗΣΥΦΑ -->
+        <details class="rounded-2xl bg-white border border-slate-200 shadow-sm" open>
+          <summary class="px-5 py-4 flex items-center gap-3"><span class="chev text-slate-400">▶</span><span class="text-2xl">💊</span><span class="font-bold text-lg text-slate-800">ΜΗΣΥΦΑ (OTC φάρμακα)</span><span class="text-sm text-slate-500 ml-auto hidden sm:inline">αναλγητικά + κρυολόγημα = >50% της αγοράς</span></summary>
+          <div class="px-5 pb-5">
+            <p class="text-sm text-slate-600 mb-3">625 εκατ. € το 2024 (+6,2%), 73,1 εκατ. κουτιά (−1%) — η ανάπτυξη ήρθε από ανατιμήσεις (~8%). Αναλγητικά 118 εκατ. €, βήχας/κρυολόγημα 85 εκατ. €· οι 4 κορυφαίες κατηγορίες = 79% των πωλήσεων.</p>
+            <div class="overflow-x-auto"><table class="data">
+              <thead><tr><th>Εταιρία / brands</th><th>Κατηγορία</th><th>Τεκμήριο</th><th>Βεβ.</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Vian (όμιλος Vianex)</strong> — Depon, Depon Plus</td><td>Αναλγητικά</td><td>Νο 1 consumer health Ελλάδας 2025· «το Depon κατέχει τη μερίδα του λέοντος» (Euromonitor)</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Haleon Hellas</strong> — Panadol, Otrivin, Voltaren, Advil, Fenistil, Sensodyne, Centrum</td><td>Αναλγητικά, ρινικά, τοπικά, αλλεργία</td><td>Νο 2 consumer health 2025· Panadol best-seller (Euromonitor)</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Sanofi, Kenvue (J&J), Reckitt</strong> — Nurofen, Strepsils, Gaviscon, Durex</td><td>Πόνος, λαιμός, πεπτικό</td><td>Θέσεις 3–5 consumer health 2025 (Euromonitor)</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Uni-Pharma</strong> (Apotel), Algofren, Brufen, Buscofem</td><td>Παρακεταμόλη / ιβουπροφαίνη</td><td>Mainstream στη λίστα εναλλάξιμων OTC ΕΟΦ· Uni-Pharma «True Leader 2024» (ICAP)</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>Elpen</strong></td><td>OTC & συμπληρώματα</td><td>Πωλήσεις 154,5 εκατ. € (12μηνο έως 4/2026), 4,2% της φαρμ. αγοράς (σύνολο)</td><td><span class="tag tag-k">Κ</span></td></tr>
+              </tbody>
+            </table></div>
+            <p class="mt-3 text-xs text-slate-500">Για τον ηλεκτρονικό κατάλογο: μόνο τα ΓΕΔΙΦΑ (π.χ. μικρές συσκευασίες παρακεταμόλης/ιβουπροφαίνης) επιτρέπονται online — βλ. ενότητα 3.</p>
+          </div>
+        </details>
+
+        <!-- Δερμοκαλλυντικά -->
+        <details class="rounded-2xl bg-white border border-slate-200 shadow-sm" open>
+          <summary class="px-5 py-4 flex items-center gap-3"><span class="chev text-slate-400">▶</span><span class="text-2xl">🧴</span><span class="font-bold text-lg text-slate-800">Δερμοκαλλυντικά & αντηλιακά</span><span class="text-sm text-slate-500 ml-auto hidden sm:inline">φαρμακείο = 20–26% της αγοράς καλλυντικών</span></summary>
+          <div class="px-5 pb-5">
+            <p class="text-sm text-slate-600 mb-3">Αγορά καλλυντικών ~1,4 δισ. € (2024, +5,7%). Πρόσωπο +6,7%, σώμα +6,1%, αντηλιακά +6,1% (2024, μετά +16% το 2023)· Euromonitor: διψήφια αύξηση sun care 2024 από τον τουρισμό. Τάσεις: «skinification» αντηλιακών (ματ, tinted, anti-age), ρουτίνα δραστικά + SPF, K-beauty online.</p>
+            <div class="overflow-x-auto"><table class="data">
+              <thead><tr><th>Εταιρία / brands</th><th>Υποκατηγορίες</th><th>Τεκμήριο</th><th>Βεβ.</th></tr></thead>
+              <tbody>
+                <tr><td><strong>L'Oréal Dermatological Beauty</strong> — La Roche-Posay, Vichy, CeraVe, SkinCeuticals</td><td>Πρόσωπο, αντηλιακά (Anthelios, Capital Soleil), μαλλιά (Dercos), αποσμητικά</td><td><strong>27% skin care 2025</strong> (Euromonitor)· τζίρος L'Oréal Hellas 251 εκατ. € 2024 (+13%)· LRP & Vichy στα «καλύτερα αντηλιακά» Skroutz 5/2025</td><td><span class="tag tag-m">Μ</span></td></tr>
+                <tr><td><strong>Pierre Fabre</strong> — Avène, Ducray, A-Derma, Klorane, Elancyl, René Furterer</td><td>Ευαίσθητο δέρμα, αντηλιακά, τριχόπτωση, βρεφικά</td><td>Αυτοδηλούμενο <strong>Νο 2 δερμοκαλλυντικών φαρμακείου</strong>· Avène στο Skroutz best-of 2025</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Korres</strong></td><td>Φυσικά καλλυντικά, αντηλιακά, σώμα</td><td>Τζίρος 75,5 εκατ. € 2024 (+11,9%), κέρδη +65%, 26% του τζίρου online</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Frezyderm</strong></td><td>Αντηλιακά (Velvet), πρόσωπο, βρεφικά, στοματική, ρινικά, Crilen</td><td>Τζίρος 62,2 εκατ. € 2024 (+3,7%)· Skroutz best-of αντηλιακών 2025· ισχυρισμός «Νο 1 αντηλιακό Ελλάδας» (Velvet) — μη επιβεβαιωμένος</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Apivita (Puig)</strong></td><td>Φυσικά καλλυντικά, αντηλιακά (Bee Sun Safe)</td><td><strong>8% skin care 2025</strong> (Euromonitor)· τζίρος 59,1 εκατ. € 2024 (+2%), 2025 −3,9%</td><td><span class="tag tag-m">Μ</span></td></tr>
+                <tr><td><strong>Beiersdorf</strong> — Eucerin</td><td>Ξηρό/ατοπικό δέρμα, αντηλιακά</td><td>Beiersdorf Hellas 45,5 εκατ. € 2024 (+7,8%, μαζί με Nivea)</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>NAOS — Bioderma</strong></td><td>Καθαρισμός (Sensibio), αντηλιακά (Photoderm)</td><td>Ευρεία διάθεση σε φαρμακεία/e-pharmacies· χωρίς ελληνικά μεγέθη</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>ISDIN</strong></td><td>Αντηλιακά</td><td>Νο 1 αντηλιακό Ισπανίας, στην Ελλάδα από 12/2019</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>Medisei — Panthenol Extra</strong></td><td>Σώμα/πρόσωπο προσιτής τιμής</td><td>Πελατολόγιο 6.500 φαρμακεία· 305 listings Skroutz</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>Beauty of Joseon</strong> (K-beauty), <strong>Bio-Oil</strong></td><td>Αντηλιακά προσώπου · ραγάδες/ουλές</td><td>Skroutz best-of αντηλιακών 2025 (κυρίως online)· Bio-Oil «Νο 1 σε 17 χώρες» (εταιρικός)</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Pharmasept, Youth Lab, Uni-Pharma, Vican, Power Health (cosmetics)</td><td>Ελληνικά mid-size</td><td>Μόνο εταιρικά προφίλ</td><td><span class="tag tag-p">Π</span></td></tr>
+              </tbody>
+            </table></div>
+          </div>
+        </details>
+
+        <!-- Συμπληρώματα -->
+        <details class="rounded-2xl bg-white border border-slate-200 shadow-sm" open>
+          <summary class="px-5 py-4 flex items-center gap-3"><span class="chev text-slate-400">▶</span><span class="text-2xl">🌿</span><span class="font-bold text-lg text-slate-800">Συμπληρώματα διατροφής & βιταμίνες</span><span class="text-sm text-slate-500 ml-auto hidden sm:inline">πολυβιταμίνες η μεγαλύτερη υποκατηγορία</span></summary>
+          <div class="px-5 pb-5">
+            <p class="text-sm text-slate-600 mb-3">Ελλάδα: «2η πιο ανεπτυγμένη αγορά συμπληρωμάτων κατά κεφαλήν» (Euromonitor/ΕΕΦΑΜ)· φαρμακεία 55% της διανομής· ηγούνται ενέργεια, πέψη/προβιοτικά, στρες & ύπνος, πολυβιταμίνες. Οδηγοί ανάπτυξης: βιταμίνη D, βιταμίνες Β, πολυβιταμινούχα. Online +2% (2024)· «Ειδικά συμπληρώματα» top-3 κατηγορία Skroutz Black Friday 2025.</p>
+            <div class="overflow-x-auto"><table class="data">
+              <thead><tr><th>Εταιρία / brand</th><th>Υποκατηγορίες</th><th>Τεκμήριο</th><th>Βεβ.</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Eviol (Vian/Vianex)</strong></td><td>Πολυβιταμίνες, B-complex, μνήμη, βιταμίνη Ε</td><td>IQVIA Α' τρίμ. 2025: <strong>Νο 1 πολυβιταμίνες</strong> (1 στους 5), 49% μνήμη/συγκέντρωση, 29,1% βιταμίνες Β, 88,9% βιταμίνη Ε (ως ΜΗΣΥΦΑ)</td><td><span class="tag tag-m">Μ</span></td></tr>
+                <tr><td><strong>Solgar</strong> (Nestlé Ελλάς από 4/2023)</td><td>Premium βιταμίνες, D3, ω-3, προβιοτικά</td><td>Εξαγορά διανομής 11,1 εκατ. €· «κινητήρια δύναμη» της Nestlé Ελλάς 2023· flagship brand βιταμινών στα e-pharmacies</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Power Health</strong></td><td>Φυσικά συμπληρώματα, ανοσοποιητικό, αδυνάτισμα</td><td>1η θέση κερδοφορίας κλάδου (Diamonds 2021), πωλήσεις +8,3% 2021</td><td><span class="tag tag-k">Κ</span></td></tr>
+                <tr><td><strong>Lamberts</strong></td><td>Premium βιταμίνες/μέταλλα, ω-3, αρθρώσεις</td><td>Στα «top brands» των e-pharmacy οδηγών· ισχυρή παρουσία Skroutz</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>Doctor's Formulas, Altion, Health Aid, Vitabiotics, Möller's, Centrum</strong></td><td>Γενικές βιταμίνες, ω-3, παιδικά</td><td>«Κορυφαία brands στα ελληνικά φαρμακεία» σε e-pharmacy οδηγούς</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td><strong>Now Foods</strong></td><td>Βιταμίνες, sports nutrition</td><td>42 βιταμίνες στο Skroutz· ισχυρή online παρουσία</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Frezyderm, Vican, Uni-Pharma, Elpen, Genecom, Superfoods, Viogenesis, Quest, Nature's Plus</td><td>Ελληνικά / διανεμόμενα</td><td>Χωρίς δημόσια μερίδια· Frezyderm δηλώνει ανάκτηση μεριδίων 2023-24</td><td><span class="tag tag-p">Π</span></td></tr>
+              </tbody>
+            </table></div>
+            <p class="mt-3 text-xs text-slate-500">Online, με μέση έκπτωση 38%, ευνοούνται τα premium brands με υψηλή ΠΛΤ (Solgar, Lamberts, Now Foods) — εκεί συγκεντρώνονται τα περισσότερα listings και συγκρίσεις τιμών.</p>
+          </div>
+        </details>
+
+        <!-- Μικρότερες κατηγορίες -->
+        <details class="rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <summary class="px-5 py-4 flex items-center gap-3"><span class="chev text-slate-400">▶</span><span class="text-2xl">🧸</span><span class="font-bold text-lg text-slate-800">Βρεφικά, στοματική, υγιεινή, συσκευές & λοιπές</span><span class="text-sm text-slate-500 ml-auto hidden sm:inline">ηγέτες τεκμηριωμένοι κυρίως από παρουσία</span></summary>
+          <div class="px-5 pb-5">
+            <p class="text-sm text-slate-600 mb-3">Για αυτές τις κατηγορίες δεν υπάρχει κανένα δημόσιο μερίδιο IQVIA/Nielsen/Euromonitor στην Ελλάδα (εξαίρεση: Omron). Το βρεφικό γάλα είναι 32–213% ακριβότερο από τη χαμηλότερη τιμή ΕΕ (Επιτροπή Ανταγωνισμού 1/2024).</p>
+            <div class="overflow-x-auto"><table class="data">
+              <thead><tr><th>Κατηγορία</th><th>Κορυφαία brands</th><th>Τεκμήριο</th><th>Βεβ.</th></tr></thead>
+              <tbody>
+                <tr><td>Βρεφικά γάλατα</td><td><strong>Nestlé NAN</strong>, <strong>Nutricia Almiron</strong>, Friso, HiPP</td><td>Κυριαρχούν σε πλήθος παραλλαγών σε Pharmacy295, MyPharmacy, Dpharmacy</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Βρεφική φροντίδα δέρματος</td><td><strong>Frezyderm Baby</strong>, <strong>Mustela</strong>, <strong>Bepanthol</strong>, A-Derma, Uriage</td><td>Wecare: 46 προϊόντα Frezyderm / 41 Mustela· Bayer «Bepanthol Νο 1» (εταιρικός)</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Πάνες · μπιμπερό/πιπίλες</td><td><strong>Babylino (ΜΕΓΑ)</strong>, Pampers · <strong>Philips Avent</strong>, <strong>Chicco</strong></td><td>Παρόντα σε Pharm24, Wecare, Carespot</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Στοματική υγιεινή</td><td><strong>Elgydium</strong>, <strong>Sensodyne / Parodontax</strong>, <strong>Colgate</strong>, Frezyderm, GUM, Curaprox</td><td>Sensodyne «ηγετική θέση» (Forbes)· Elgydium αποκλειστικά φαρμακείο</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Ευαίσθητη περιοχή · αποσμητικά</td><td><strong>Lactacyd</strong> · <strong>Vichy</strong>, <strong>Perspirex</strong></td><td>Εταιρικοί ισχυρισμοί «Νο 1»</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Ακράτεια</td><td><strong>TENA (Essity)</strong>, <strong>Hartmann MoliCare</strong></td><td>Πλήρεις σειρές σε e-pharmacies</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Τριχόπτωση</td><td><strong>Ducray</strong> (Anaphase, Anacaps), <strong>Vichy Dercos</strong></td><td>Σειρές των δύο ηγετών φαρμακείου</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Πιεσόμετρα / θερμόμετρα</td><td><strong>Omron</strong>, <strong>Microlife</strong></td><td>Omron «Νο 1, μερίδιο 53%» (IMS Hellas, αχρονολόγητο — παλαιό)</td><td><span class="tag tag-m">Μ</span></td></tr>
+                <tr><td>Ρινικά (θαλασσινό νερό)</td><td><strong>Physiomer</strong>, <strong>Sinomarin</strong>, <strong>Sterimar</strong>, Frezyderm, Tonimer</td><td>Skroutz listings: 19 / 15 / 8</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Αντιφθειρικά · εντομοαπωθητικά</td><td><strong>Hedrin</strong>, <strong>Paranix</strong> · <strong>Crilen (Frezyderm)</strong></td><td>Παρόντα σε όλα τα e-pharmacies</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Μετρητές σακχάρου · τεχνητά δάκρυα</td><td><strong>Accu-Chek</strong>, <strong>Contour</strong> · <strong>Systane</strong>, <strong>Hylo</strong></td><td>Συστηματική παρουσία· Ursapharm (Hylo): «η Ελλάδα στρατηγική επιλογή»</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Σεξουαλική υγεία</td><td><strong>Durex</strong>, <strong>Clearblue</strong></td><td>Durex έως −40% online (ζήτηση)</td><td><span class="tag tag-p">Π</span></td></tr>
+                <tr><td>Ομοιοπαθητικά</td><td><strong>Boiron</strong>, Heel, Bach</td><td>Μέσω εξειδικευμένων φαρμακείων</td><td><span class="tag tag-p">Π</span></td></tr>
+              </tbody>
+            </table></div>
+            <p class="mt-3 text-xs text-slate-500">Η Frezyderm είναι ο ελληνικός παίκτης με τη μεγαλύτερη διακατηγοριακή παρουσία (βρεφικά, εντομοαπωθητικά, ρινικά, στοματική, τριχόπτωση, ευαίσθητη περιοχή, συμπληρώματα), με δηλωμένη έμφαση 2025 σε οδοντιατρικά, παιδική διατροφή και συμπληρώματα.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 3. Νομικό πλαίσιο -->
+    <section id="legal" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-rose-600">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-rose-800">3. Τι επιτρέπεται να πωληθεί online</h2>
+        <div class="text-sm text-slate-400">ΕΟΦ · ΠΦΣ · ΓΕΔΙΦΑ · ΔΕΕ C-604/24</div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="rounded-2xl bg-white border border-slate-200 p-5">
+          <div class="text-xs font-bold uppercase tracking-wide text-rose-700 mb-2">Ποιος μπορεί</div>
+          <p class="text-sm text-slate-700">Μόνο αδειούχος φαρμακοποιός με φυσικό φαρμακείο, μετά από πιστοποίηση ΠΦΣ και γνωστοποίηση στον ΕΟΦ. Το κοινό λογότυπο ΕΕ (Καν. 699/2014) πρέπει να εμφανίζεται σε κάθε σελίδα που σχετίζεται με διάθεση φαρμάκων, με συνδέσμους ΠΦΣ/ΕΟΦ.</p>
+        </div>
+        <div class="rounded-2xl bg-white border border-slate-200 p-5">
+          <div class="text-xs font-bold uppercase tracking-wide text-rose-700 mb-2">Τι επιτρέπεται</div>
+          <ul class="text-sm text-slate-700 space-y-1">
+            <li><span class="tag tag-yes">Ναι</span> παραφάρμακα, συμπληρώματα, καλλυντικά, ιατροτεχνολογικά, βρεφικά, στοματική, υγιεινή</li>
+            <li><span class="tag tag-part">Μόνο ΓΕΔΙΦΑ</span> από τα ΜΗΣΥΦΑ: ~216 σκευάσματα / 40 δραστικές (π.χ. παρακεταμόλη, ιβουπροφαίνη) — ΚΥΑ 4/2022</li>
+            <li><span class="tag tag-no">Όχι</span> συνταγογραφούμενα, λοιπά ΜΗΣΥΦΑ, κτηνιατρικά φάρμακα (ούτε διαφήμιση)</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl bg-white border border-slate-200 p-5">
+          <div class="text-xs font-bold uppercase tracking-wide text-rose-700 mb-2">Η αμφισβήτηση</div>
+          <p class="text-sm text-slate-700">Μετά την ΣτΕ 1138/2024, το ΔΕΕ (C-604/24) έκρινε ότι το άρθρο 85γ της Οδηγίας 2001/83 απαγορεύει τον περιορισμό των online πωλήσεων σε υποκατηγορίες ΜΗΣΥΦΑ. Ελλάδα και Κύπρος είναι οι μόνες χώρες χωρίς online ΜΗΣΥΦΑ. Ο ΠΦΣ επιμένει στη διάθεση «διά χειρός φαρμακοποιού»· έως 9/2026 καμία νομοθετική προσαρμογή.</p>
+        </div>
+      </div>
+      <div class="mt-4 rounded-xl bg-slate-100 border border-slate-200 px-4 py-3 text-sm text-slate-700">
+        <strong>Πρακτικό ρίσκο:</strong> ο ρυθμιστικός κίνδυνος για το online εστιάζεται στην <em>προβολή εκπτώσεων</em> (οδηγίες ΥΠΑΝ 9/2023 — κατά Convert Group βασική αιτία της κάμψης του τζίρου) και όχι στη διαθεσιμότητα παραφαρμάκων. Η απόφαση ΔΕΕ είναι το μεγαλύτερο ρίσκο-ευκαιρία των επόμενων 12–24 μηνών: αν η Ελλάδα συμμορφωθεί, Depon/Panadol/Otrivin/Nurofen γίνονται online κατηγορία-οδηγός.
+      </div>
+    </section>
+
+    <!-- 4. Online κανάλι -->
+    <section id="online" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-violet-600">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-violet-800">4. Το online κανάλι</h2>
+        <div class="text-sm text-slate-400">Convert Group · IQVIA ePharmacy audit · Skroutz</div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="rounded-2xl bg-white border border-slate-200 p-5">
+          <div class="font-semibold text-slate-800 mb-2">Μέγεθος & πορεία</div>
+          <div class="overflow-x-auto"><table class="data"><tbody>
+            <tr><td>2022</td><td class="num">+13%</td><td class="text-xs text-slate-500">Convert Group</td></tr>
+            <tr><td>2023</td><td class="num">282–283 εκατ. € (+4–5%)</td><td class="text-xs text-slate-500">91 e-φαρμακεία</td></tr>
+            <tr><td>2024</td><td class="num"><strong>278 εκατ. € (−1%)</strong></td><td class="text-xs text-slate-500">πρώτη πτώση από το 2019· κάλυψη 90%</td></tr>
+            <tr><td>2025</td><td class="num">~268 εκατ. € (ανεπιβεβαίωτο)</td><td class="text-xs text-slate-500">εκτίμηση Τύπου</td></tr>
+          </tbody></table></div>
+          <p class="mt-3 text-sm text-slate-600">Οι πραγματικές εκπτώσεις φτάνουν το <strong>38%</strong> επί της ΠΛΤ, δηλαδή τα 278 εκατ. € αντιστοιχούν σε ~450 εκατ. € σε ΠΛΤ. Το online = ~15% του παραφαρμάκου (≈4% της συνολικής αγοράς φαρμακείου).</p>
+        </div>
+        <div class="rounded-2xl bg-white border border-slate-200 p-5">
+          <div class="font-semibold text-slate-800 mb-2">Κατά κατηγορία (2024, Convert Group)</div>
+          <div class="overflow-x-auto"><table class="data"><tbody>
+            <tr><td>Ομορφιά / προσωπική φροντίδα</td><td class="num">−3%</td><td class="text-xs text-slate-500">ιστορικά 46% του online καλαθιού</td></tr>
+            <tr><td>Συμπληρώματα & βιταμίνες</td><td class="num text-emerald-700"><strong>+2%</strong></td><td class="text-xs text-slate-500">η μόνη μεγάλη με θετικό πρόσημο</td></tr>
+            <tr><td>Βρεφικά</td><td class="num text-rose-700">−15%</td><td class="text-xs text-slate-500">πτώση γεννήσεων</td></tr>
+            <tr><td>Γενική υγεία</td><td class="num">−6%</td><td></td></tr>
+            <tr><td>OTC (IQVIA, χωρίς ΜΗΣΥΦΑ)</td><td class="num text-emerald-700">+20,5%</td><td class="text-xs text-slate-500">κυλιόμενο 12μηνο</td></tr>
+          </tbody></table></div>
+          <p class="mt-3 text-sm text-slate-600">Η ζήτηση μετακινείται στα marketplaces: Skroutz «Υγεία & Ομορφιά» <strong>+22% το 2025</strong> (μεγαλύτερη αύξηση κατηγορίας)· «Ειδικά Συμπληρώματα» top-3 σε παραγγελίες Black Friday 2025· 72,8% των καταναλωτών εμπιστεύεται e-shop με γνωστό όνομα ή σύνδεση με φυσικό φαρμακείο.</p>
+        </div>
+      </div>
+      <div class="mt-4 rounded-2xl bg-white border border-slate-200 p-5">
+        <div class="font-semibold text-slate-800 mb-2">Οι παίκτες</div>
+        <p class="text-sm text-slate-700">«Big 3» του Τύπου: <strong>Pharm24</strong> (~15 εκατ. €, ανάπτυξη >20%), <strong>Vita4you</strong> (~11 εκατ. € 2022, Pharmacy of the Year 2023-24), <strong>Pharmacy295</strong> (13,4 εκατ. € 2023, ζημίες 0,8 εκατ. € 2024, 53% σε Crossover Ventures από 2025) — μαζί ~14% της αγοράς. Σε συνολικό τζίρο μεγαλύτερες οι <strong>ToFarmakeioMou</strong> (19,7 εκατ. €) και <strong>WeCare</strong> (19,3 εκατ. €). Ο κλάδος είναι κατακερματισμένος και πιεσμένος σε κερδοφορία· η είσοδος επενδυτών (Crossover, Golden Age Capital) προαναγγέλλει συγκέντρωση.</p>
+      </div>
+    </section>
+
+    <!-- 5. Προτεραιότητες -->
+    <section id="priorities" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-amber-500">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-amber-700">5. Προτεινόμενη προτεραιότητα εμπλουτισμού καταλόγου</h2>
+        <div class="text-sm text-slate-400">με βάση μέγεθος, online δυναμική, νομική ελευθερία, τεκμήριο</div>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">Ο κατάλογος καλύπτει ήδη τις δύο κατηγορίες που «οδηγούν» το online φαρμακείο (αντηλιακά 15 brands, L'Oréal δερμοκαλλυντικά ~365 κωδικοί, Frezyderm ~310) και έχει μια πρώτη βάση σε συμπληρώματα (Lamberts ~107, Vican). Τα κενά: βάθος στα συμπληρώματα, ο Νο 2 παίκτης (Pierre Fabre) πέρα από τα αντηλιακά, ιατροτεχνολογικά αυτοφροντίδας, και οι κατηγορίες επαναλαμβανόμενης αγοράς.</p>
+      <div class="space-y-3">
+        <div class="rounded-2xl bg-white border-l-4 border-amber-500 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-amber-600 w-10 shrink-0">1</div>
+          <div><div class="font-bold text-slate-900">Συμπληρώματα διατροφής — πλήρες βάθος</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Solgar, Eviol, Power Health, Doctor's Formulas, Now Foods</strong>, Health Aid, Vitabiotics, Möller's, Centrum. Υποκατηγορίες: πολυβιταμίνες, D3(+K2), προβιοτικά/πεπτικό, μαγνήσιο, ω-3, ύπνος/στρες, ενέργεια, αθλητικά.</p>
+            <p class="text-xs text-slate-500 mt-1">~32% του παραφαρμάκου · η μόνη μεγάλη online κατηγορία με +2% · premium brands ευνοούνται από το μοντέλο έκπτωσης · Eviol <span class="tag tag-m">Μ</span> Solgar <span class="tag tag-k">Κ</span></p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-amber-400 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-amber-600 w-10 shrink-0">2</div>
+          <div><div class="font-bold text-slate-900">Δερμοκαλλυντικά — Pierre Fabre πλήρης γκάμα</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Avène</strong> (πρόσωπο, Cicalfate, Cleanance), <strong>Ducray</strong> (τριχόπτωση, πιτυρίδα), <strong>A-Derma</strong>, <strong>Klorane</strong>, Elancyl.</p>
+            <p class="text-xs text-slate-500 mt-1">Νο 2 του φαρμακείου · ο κατάλογος έχει μόνο τα αντηλιακά τους · καλύπτει τριχόπτωση και ευαίσθητο/ατοπικό δέρμα <span class="tag tag-k">Κ</span></p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-amber-300 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-amber-600 w-10 shrink-0">3</div>
+          <div><div class="font-bold text-slate-900">Δερμοκαλλυντικά — ελληνικά & λοιπά ξένα</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Korres</strong> (πλήρης, +11,9%, 26% online), <strong>Apivita</strong> (8% skin care), <strong>Bioderma</strong> (Sensibio/Atoderm), <strong>Eucerin</strong>, <strong>Panthenol Extra</strong>, Bio-Oil, ISDIN (πέρα από αντηλιακά)· προαιρετικά K-beauty (Beauty of Joseon) online-only.</p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-sky-400 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-sky-600 w-10 shrink-0">4</div>
+          <div><div class="font-bold text-slate-900">Ιατροτεχνολογικά αυτοφροντίδας & αυτομέτρησης</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Omron / Microlife</strong> (πιεσόμετρα, θερμόμετρα), <strong>Physiomer / Sinomarin / Sterimar</strong>, <strong>Hedrin / Paranix</strong>, <strong>Accu-Chek / Contour</strong>, <strong>Systane / Hylo</strong>, first aid (Hansaplast).</p>
+            <p class="text-xs text-slate-500 mt-1">Patient care +8,4% τεμ. · OTC online +20,5% · ελεύθερα online · ο κατάλογος δεν έχει καθόλου συσκευές</p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-sky-300 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-sky-600 w-10 shrink-0">5</div>
+          <div><div class="font-bold text-slate-900">Στοματική υγιεινή</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Elgydium</strong>, <strong>Sensodyne / Parodontax</strong>, Colgate (φαρμακευτικές σειρές), GUM, Curaprox, Corega — κατηγορία επαναλαμβανόμενης αγοράς (15,2% των καλλυντικών ΣΜ, +3,2%).</p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-slate-300 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-slate-500 w-10 shrink-0">6</div>
+          <div><div class="font-bold text-slate-900">Προσωπική υγιεινή & ακράτεια</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>Lactacyd</strong>, <strong>Vichy / Perspirex</strong> αποσμητικά, <strong>TENA</strong>, <strong>Hartmann</strong>, Durex, Clearblue — χαμηλό κόστος προσθήκης, υψηλή συχνότητα.</p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-slate-300 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-slate-500 w-10 shrink-0">7</div>
+          <div><div class="font-bold text-slate-900">Βρεφικά — μόνο core</div>
+            <p class="text-sm text-slate-700 mt-1"><strong>NAN / Almiron</strong>, <strong>Mustela</strong>, <strong>Bepanthol</strong>, <strong>Avent / Chicco</strong>, Babylino — μόνο οι ηγέτες για πληρότητα· κατηγορία σε πτώση (−15% online), όχι growth driver.</p></div>
+        </div>
+        <div class="rounded-2xl bg-white border-l-4 border-rose-300 border border-slate-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-rose-500 w-10 shrink-0">8</div>
+          <div><div class="font-bold text-slate-900">ΓΕΔΙΦΑ — μόνο με ΠΦΣ-πιστοποίηση</div>
+            <p class="text-sm text-slate-700 mt-1">Μικρές συσκευασίες <strong>Depon / Panadol / Nurofen / Brufen</strong> και όποια ΓΕΔΙΦΑ του καταλόγου ΕΟΦ — μόνο εφόσον το e-shop είναι ΠΦΣ-πιστοποιημένο, με λογότυπο ΕΕ σε κάθε σχετική σελίδα και χωρίς προβολή εκπτώσεων σε φάρμακα. Παρακολούθηση της συμμόρφωσης με C-604/24.</p></div>
+        </div>
+        <div class="rounded-2xl bg-rose-50 border border-rose-200 p-5 flex gap-4">
+          <div class="text-3xl font-extrabold text-rose-500 w-10 shrink-0">✕</div>
+          <div><div class="font-bold text-rose-900">Κτηνιατρικά φάρμακα (Frontline, Seresto, Advantix)</div>
+            <p class="text-sm text-rose-800 mt-1">Να <strong>μην</strong> προστεθούν: απαγόρευση εξ αποστάσεως διάθεσης και διαφήμισης, πρόστιμα ΕΟΦ 2025.</p></div>
+        </div>
+      </div>
+      <div class="mt-4 rounded-xl bg-amber-50 border border-amber-200 px-4 py-3 text-sm text-amber-900">
+        <strong>Δύο πρακτικές παρατηρήσεις.</strong> Με μέση έκπτωση 38% και ζημιογόνους μεγάλους παίκτες, ο εμπλουτισμός πρέπει να προτιμά brands με υψηλή ΠΛΤ και επαναληπτική αγορά (premium συμπληρώματα, δερμοκαλλυντικά ρουτίνας, στοματική). Η δομή δεδομένων του καταλόγου (κατηγορία, EAN, αρ. γνωστοποίησης ΕΟΦ) είναι ήδη κατάλληλη για συμπληρώματα και συσκευές· για ΓΕΔΙΦΑ χρειάζεται επιπλέον σήμανση και διαχωρισμός σελίδων.
+      </div>
+    </section>
+
+    <!-- 6. Κενά & πηγές -->
+    <section id="gaps" class="scroll-mt-20">
+      <div class="flex items-end justify-between gap-3 mb-5 pb-3 border-b-2 border-slate-400">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-slate-700">6. Κενά δεδομένων, μέθοδος & πηγές</h2>
+      </div>
+      <details class="rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <summary class="px-5 py-4 flex items-center gap-3"><span class="chev text-slate-400">▶</span><span class="font-bold text-slate-800">Τι δεν βρέθηκε / τι θέλει επιβεβαίωση</span></summary>
+        <div class="px-5 pb-5 text-sm text-slate-700 space-y-2">
+          <p><strong>Μεγέθη κατηγοριών:</strong> κανένας δημόσιος πίνακας IQVIA/ICAP/ΙΟΒΕ δεν επιμερίζει τα 6,4–7 δισ. € σε ευρώ ανά κατηγορία παραφαρμάκου για 2024–25. Τα μεγέθη συμπληρωμάτων είναι παλαιά (2017–18)· τα δερμοκαλλυντικά φαρμακείου (280–450 εκατ. €) είναι υπολογισμός. Για στοματική, ορθοπεδικά, ακράτεια, ευαίσθητη περιοχή, τριχόπτωση, σεξουαλική υγεία, οφθαλμικά, ομοιοπαθητικά, pet care δεν υπάρχει ελληνικό ποσοτικό στοιχείο.</p>
+          <p><strong>Μερίδια brands:</strong> μετρημένα μόνο L'Oréal 27% / Apivita 8% / Estée Lauder 7% (skin care, όλα τα κανάλια), Eviol (IQVIA μέσω εταιρικής ανακοίνωσης), Omron 53% (IMS, παλαιό). Οι κατατάξεις Euromonitor είναι χωρίς ποσοστά. Τα brand rankings Convert Group / IQVIA ePharmacy audit είναι συνδρομητικά. Οι ισχυρισμοί «Νο 1» (Frezyderm Velvet, Bepanthol, Vichy αποσμητικά, Lactacyd, Durex) είναι εταιρικοί. Δεν ερευνήθηκαν: GUM, Curaprox, Corega, Listerine, Septona, Dettol, Uriage, Nuxe, Caudalie, Rilastil, Beurer, Pic, Braun, Hansaplast, Frontline/Advantix, Weleda, Heel.</p>
+          <p><strong>Νομικό:</strong> δεν ανακτήθηκαν ο πλήρης κατάλογος ΓΕΔΙΦΑ (40 δραστικές), το περιεχόμενο των ΥΑ Δ3(α) 6030/2025 και ΚΥΑ 40321/2025 (ΦΕΚ Β' 5158/2025), η ακριβής ημερομηνία της C-604/24, ο τρέχων αριθμός ΠΦΣ-πιστοποιημένων e-shops.</p>
+          <p><strong>Online:</strong> δεν επιβεβαιώθηκε το πλήρες 2025 της Convert Group· δεν υπάρχουν % ανά κατηγορία του online τζίρου, αριθμός παραγγελιών ή μέσο καλάθι· τα οικονομικά Pharm24/Vita4you είναι δημοσιογραφικά.</p>
+          <p class="text-xs text-slate-500">Μέθοδος: 5 παράλληλες έρευνες (δομή αγοράς, δερμοκαλλυντικά, συμπληρώματα & OTC, λοιπές κατηγορίες, online κανάλι) με web search, Σεπτέμβριος 2026. Οι πλήρεις σελίδες των ελληνικών ιστοτόπων δεν ήταν προσπελάσιμες· τα στοιχεία προέρχονται από αποσπάσματα. Η πλήρης αναφορά με όλες τις παραπομπές: <a class="text-sky-700 underline" href="reports/Κατηγορίες φαρμακείου Ελλάδα.md">reports/Κατηγορίες φαρμακείου Ελλάδα.md</a>.</p>
+        </div>
+      </details>
+      <div class="mt-4 rounded-2xl bg-white border border-slate-200 p-5 src text-sm">
+        <div class="font-bold text-slate-800 mb-2">Βασικές πηγές</div>
+        <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-slate-700">
+          <li><a href="https://www.naftemporiki.gr/health/2147916/ayxitiki-tasi-ton-poliseon-sta-idiotika-farmakeia/" target="_blank" rel="noopener">Ναυτεμπορική / STOCHASIS — αγορά φαρμακείου 2025-26</a></li>
+          <li><a href="https://www.naftemporiki.gr/health/1996161/agora-farmakoy-psachnontas-antidoto-gia-tis-nees-prokliseis/" target="_blank" rel="noopener">Ναυτεμπορική / IQVIA — 6,37 δισ. € MAT 5/2025</a></li>
+          <li><a href="https://www.iatronet.gr/article/131076/625-ekat-edosan-oi-ellhnes-to-2024-gia-115-ekat-mh-syntagografoymena-mh-apozhmioymena-farmaka" target="_blank" rel="noopener">iatronet / IQVIA — ΜΗΣΥΦΑ 625 εκατ. € 2024</a></li>
+          <li><a href="https://www.naftemporiki.gr/health/1723234/misyfa-pano-apo-1-dis-eyro-anilthan-oi-poliseis/" target="_blank" rel="noopener">Ναυτεμπορική / ΕΦΕΧ — OTC κλάδος 1,2 δισ. €</a></li>
+          <li><a href="https://www.euromonitor.com/consumer-health-in-greece/report" target="_blank" rel="noopener">Euromonitor — Consumer Health in Greece 2025</a></li>
+          <li><a href="https://www.euromonitor.com/skin-care-in-greece/report" target="_blank" rel="noopener">Euromonitor — Skin Care in Greece 2025</a></li>
+          <li><a href="https://www.powergame.gr/ikonomia/802070/kallyntika-afxisi-57-poliseon-to-2024-14-dis-i-axia-tous/" target="_blank" rel="noopener">Powergame / ΠΣΒΑΚ — καλλυντικά 1,4 δισ. € 2024</a></li>
+          <li><a href="https://www.businessdaily.gr/epiheiriseis/113142_icap-se-anodo-kai-tin-epomeni-dietia-i-elliniki-agora-kallyntikon" target="_blank" rel="noopener">Business Daily / ICAP — αγορά καλλυντικών</a></li>
+          <li><a href="https://www.naftemporiki.gr/business/1971641/loreal-hellas-ayxisi-poliseon-kai-kerdon-to-2024-thetiki-ektimisi-gia-to-2025/" target="_blank" rel="noopener">Ναυτεμπορική — L'Oréal Hellas 2024</a></li>
+          <li><a href="https://www.pharmamanage.gr/pierre-fabre-hellas-a-e/" target="_blank" rel="noopener">Pharmamanage — Pierre Fabre Hellas</a></li>
+          <li><a href="https://www.capital.gr/epixeiriseis/3922033/korres-auxisi-tzirou-119-sta-755-ekat-to-2024/" target="_blank" rel="noopener">Capital.gr — Korres 2024</a></li>
+          <li><a href="https://www.capital.gr/epixeiriseis/3959942/frezyderm-ellinika-dermokalluntika-se-50-xores-pou-anebazei-meridia/" target="_blank" rel="noopener">Capital.gr — Frezyderm 2024</a></li>
+          <li><a href="https://www.naftemporiki.gr/business/1956512/apivita-piesi-sta-megethi-toy-2024-stochos-i-ayxisi-meridion-sti-diethni-agora-to-2025/" target="_blank" rel="noopener">Ναυτεμπορική — Apivita 2024</a></li>
+          <li><a href="https://eefam.gr/sympliromata-diatrofis-oi-trechouses-taseis-stin-ellada-kai-stin-evropi/" target="_blank" rel="noopener">ΕΕΦΑΜ — συμπληρώματα διατροφής, τάσεις</a></li>
+          <li><a href="https://eviol.gr/%CF%83%CF%85%CE%BC%CF%80%CE%BB%CE%B7%CF%81%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%BF%CF%86%CE%AE%CF%82-eviol-%CF%83%CF%84%CE%B1%CE%B8%CE%B5%CF%81%CE%AC-%CF%80%CF%81%CF%8E/" target="_blank" rel="noopener">Eviol / IQVIA — μερίδια Q1 2025</a></li>
+          <li><a href="https://www.forin.gr/articles/article/83424/convert-group-meiwmenos-o-tziros-twn-hlektronikwn-farmakeiwn-to-2024" target="_blank" rel="noopener">Forin / Convert Group — e-φαρμακεία 2024</a></li>
+          <li><a href="https://www.pharmamanage.gr/h-iqvia-ellados-parousiazei-thn-kainotomo-yphresia-epharmacy-audit/" target="_blank" rel="noopener">Pharmamanage / IQVIA — ePharmacy audit</a></li>
+          <li><a href="https://www.capital.gr/epixeiriseis/3970959/skroutz-anodos-21-sto-ilektroniko-emporio-kai-22-ston-paragomeno-tziro-ton-epixeiriseon-to-2025/" target="_blank" rel="noopener">Capital.gr / Skroutz — 2025</a></li>
+          <li><a href="https://www.news4health.gr/politiki-ygeias/14171/mono-ta-genikis-diathesis-farmaka-tha-poloyntai-apo-ta-ilektronika-farmakeia-kya" target="_blank" rel="noopener">News4Health — ΚΥΑ ΓΕΔΙΦΑ 2022</a></li>
+          <li><a href="https://www.iatropedia.gr/eidiseis/apofasi-stathmos-apo-to-dee-anoigei-o-dromos-gia-farmaka-misyfa-meso-e-shops-antidroun-oi-farmakopoioi/224579/" target="_blank" rel="noopener">Iatropedia — απόφαση ΔΕΕ C-604/24</a></li>
+          <li><a href="https://eefam.gr/aftofrontida-45-dis-proionta-poulithikan-stin-evropi-to-2025/" target="_blank" rel="noopener">ΕΕΦΑΜ / AESGP — αυτοφροντίδα Ευρώπη 2025</a></li>
+          <li><a href="https://www.eof.gr/" target="_blank" rel="noopener">ΕΟΦ</a> · <a href="https://pfs.gr/" target="_blank" rel="noopener">ΠΦΣ</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 border-t border-slate-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-slate-500">
+      <p>Έρευνα αγοράς για τον εμπλουτισμό του καταλόγου — Σεπτέμβριος 2026. Τα στοιχεία είναι ενδεικτικά και πρέπει να επιβεβαιωθούν από τις πρωτογενείς πηγές πριν από επιχειρηματικές αποφάσεις.</p>
+    </div>
+  </footer>
+</body>
+</html>
