@@ -149,6 +149,19 @@ node scripts/clean-frezyderm-descriptions.mjs --brand=aderma   # καθαρίζ�
 node scripts/generate-catalog.mjs
 ```
 
+Όλα τα brands (και Frezyderm / Lamberts) χτίζουν τον supplier με το ίδιο script —
+η διάταξη στηλών των Excel Frezyderm/Lamberts (barcode, όνομα, λιανική, χονδρική,
+variants) είναι προεπιλεγμένη:
+
+```bash
+node scripts/build-brand-supplier.mjs --brand=frezyderm --xlsx=Frezyderm.xlsx   # εφαρμόζει js/frezyderm-exclusions.json + discontinued
+node scripts/build-brand-supplier.mjs --brand=lamberts  --xlsx=Lamberts.xlsx
+```
+
+Κανόνες αποκλεισμού με βάση το όνομα (promo πακέτα, νεσεσέρ, boosters 5ml):
+`js/<brand>-exclusions.json` `{ "rules": [{ "name", "pattern", "reason" }] }` — το
+`pattern` είναι JavaScript RegExp (flags i).
+
 Αποσυρμένα προϊόντα (στο Excel αλλά όχι πια στο site / εξαντλημένα στα φαρμακεία):
 `js/<brand>-discontinued.json` (barcode → όνομα, τιμές, αιτιολόγηση, διάδοχος,
 πηγές). Εξαιρούνται από τον κατάλογο στο βήμα build και μπαίνουν στη σημείωση

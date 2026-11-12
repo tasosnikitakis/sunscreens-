@@ -33,12 +33,15 @@ const flag = (k) => args.includes(`--${k}`);
 
 const BRAND = (opt("brand", "") || "").toLowerCase();
 const XLSX = opt("xlsx", null);
-const COLS = opt("cols", "code,barcode,name,retail,wholesale,variants").split(",").map(s => s.trim());
+// Προεπιλεγμένη διάταξη στηλών ανά brand (τα Excel Frezyderm/Lamberts δεν έχουν στήλη κωδικού)
+const DEFAULT_COLS = { frezyderm: "barcode,name,retail,wholesale,variants", lamberts: "barcode,name,retail,wholesale,variants" };
+const COLS = opt("cols", DEFAULT_COLS[(opt("brand", "") || "").toLowerCase()] || "code,barcode,name,retail,wholesale,variants").split(",").map(s => s.trim());
 const SKIP = parseInt(opt("skip", "0"));
 const DRY = flag("dry-run");
 const WITH_SITE = flag("with-site");
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
 const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
+const EXCLUSIONS_FILE = path.join(ROOT, `js/${BRAND}-exclusions.json`);         // { rules: [{ name, pattern, flags?, reason }] } — κανόνες ονόματος (promo, boosters…)
 const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (π.χ. LRP-CA024786) για προϊόντα χωρίς EAN στο site
   const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
 if (!BRAND || (!XLSX && !WITH_SITE)) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--with-site] [--cols=...] [--skip=N]\n       node scripts/build-brand-supplier.mjs --brand=<key> --with-site   (μόνο από το brand site, χωρίς Excel/τιμές)"); process.exit(1); }
@@ -114,6 +117,11 @@ async function main() {
   try { discontinued = JSON.parse(await fs.readFile(DISCONTINUED_FILE, "utf8")); } catch {}
   const isDiscontinued = bc => !!discontinued[bc] && !String(bc).startsWith("_");
   let dropped = 0;
+  // Κανόνες αποκλεισμού με βάση το όνομα (js/<brand>-exclusions.json): promo πακέτα, νεσεσέρ, boosters 5ml…
+  let exclusionRules = [];
+  try { exclusionRules = (JSON.parse(await fs.readFile(EXCLUSIONS_FILE, "utf8")).rules || []).map(r => ({ ...r, re: new RegExp(r.pattern, r.flags || "i") })); } catch {}
+  const excludedBy = name => exclusionRules.find(r => r.re.test(name));
+  const excluded = [];
   const byBarcode = new Map();
   const dupes = [];
   let skippedHeader = 0;
@@ -123,6 +131,8 @@ async function main() {
     if (!isBarcode(barcode)) { skippedHeader++; continue; }   // κεφαλίδα ή κενή γραμμή
     if (isDiscontinued(barcode)) { dropped++; continue; }
     const name = fixName(get("name"));
+    const ex = excludedBy(name);
+    if (ex) { excluded.push({ barcode, name, rule: ex.name }); continue; }
     const variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(isBarcode)])];
     const rec = { barcode, name, retail: num(get("retail")), wholesale: num(get("wholesale")), variants };
     if (byBarcode.has(barcode)) {
@@ -162,6 +172,7 @@ async function main() {
     console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`);
   }
   for (const d of dupes) console.log(`  διπλό ${d.barcode}: κράτησα λιανική/χονδρική ${d.kept}, αγνόησα ${d.dropped}`);
+  if (excluded.length) { const by = {}; for (const e of excluded) by[e.rule] = (by[e.rule] || 0) + 1; console.log(`  εκτός με κανόνες ονόματος (js/${BRAND}-exclusions.json): ${excluded.length} — ` + Object.entries(by).map(([k, v]) => `${k} ${v}`).join(", ")); }
   const fixed = products.filter(p => /È/.test(p.name)).length;
   if (fixed) console.log(`  διορθώθηκε κωδικοποίηση (CRÈME) σε ${fixed} ονόματα`);
   if (DRY) { for (const p of products) console.log(`  ${p.barcode} ${p.name} | ${p.retail} / ${p.wholesale} | ${p.variants.join(",")}`); return; }
@@ -170,7 +181,8 @@ async function main() {
       ? `// Auto-generated από supplier Excel (${path.basename(XLSX)}) με το scripts/build-brand-supplier.mjs${WITH_SITE ? " --with-site" : ""}.\n// Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.\n`
       : `// Auto-generated από το brand site (js/${BRAND}-site.json) με το scripts/build-brand-supplier.mjs --with-site — ΧΩΡΙΣ Excel προμηθευτή (όλα χωρίς τιμές).\n// Δεν επεξεργάζεται χειροκίνητα. Όταν υπάρξει τιμοκατάλογος: --xlsx=… --with-site.\n`)
     + (WITH_SITE ? `// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).\n` : "")
-    + (dropped ? `// Αποσυρμένα (εξαιρούνται): js/${BRAND}-discontinued.json.\n` : "") + "//\n"
+    + (dropped ? `// Αποσυρμένα (εξαιρούνται): js/${BRAND}-discontinued.json.\n` : "")
+    + (excluded.length ? `// Εκτός με κανόνες ονόματος (promo/boosters…): js/${BRAND}-exclusions.json (${excluded.length}).\n` : "") + "//\n"
     + `// Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/${BRAND}-overrides.js.\n\n`;
   const body = products.map(p => "  " + JSON.stringify(p)).join(",\n");
   await fs.writeFile(OUT_FILE, `${banner}window.${VAR} = [\n${body}\n];\n`, "utf8");
