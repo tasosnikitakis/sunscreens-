@@ -87,6 +87,8 @@ export function extractLrpDetails(html, url) {
   const upc = jsonAttr(html, "upc-list") || [];
   const init = jsonAttr(html, "initial-data");
   d.gtin = (init && String(init.DefaultEAN || "").replace(/\D/g, "")) || (d.variants.find(v => v.checked) || d.variants[0] || {}).ean || (upc[0] ? String(upc[0]).replace(/\D/g, "") : null) || null;
+  // Νέα προϊόντα χωρίς EAN στο site: κλειδί από το Sitecore product-id ("LRP-CA024786"), ώστε να μπαίνουν στον κατάλογο
+  if (!d.gtin) { const slug = String(url).replace(/\/+$/, "").split("/").pop() || d.productId || ""; if (slug) d.gtin = "LRP-" + slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80); }
   d.eans = [...new Set([d.gtin, ...d.variants.map(v => v.ean), ...upc.map(x => String(x).replace(/\D/g, ""))].filter(Boolean))];
   d.sizes = [...new Set(d.variants.map(v => v.size).filter(Boolean))];
   const cur = d.variants.find(v => v.checked) || d.variants[0];

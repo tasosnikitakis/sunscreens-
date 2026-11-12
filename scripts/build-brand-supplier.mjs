@@ -39,7 +39,8 @@ const DRY = flag("dry-run");
 const WITH_SITE = flag("with-site");
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
 const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
-const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
+const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (π.χ. LRP-CA024786) για προϊόντα χωρίς EAN στο site
+  const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
 if (!BRAND || (!XLSX && !WITH_SITE)) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--with-site] [--cols=...] [--skip=N]\n       node scripts/build-brand-supplier.mjs --brand=<key> --with-site   (μόνο από το brand site, χωρίς Excel/τιμές)"); process.exit(1); }
 
 const OUT_FILE = path.join(ROOT, `js/${BRAND}-supplier.js`);

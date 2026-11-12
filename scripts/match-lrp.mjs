@@ -72,7 +72,8 @@ function siteProductName(d, fallback) {
   return norm(title).includes(norm(first)) ? title : `${line} ${title}`;
 }
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
-const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
+const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (LRP-…) για σελίδες χωρίς EAN
+  const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
 
 function extractVolume(s) {
   if (!s) return null;
