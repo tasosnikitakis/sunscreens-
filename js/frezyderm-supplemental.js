@@ -1,6 +1,6 @@
-// Auto-generated από το scripts/fill-frezyderm-missing.mjs.
-// Καθαρίστηκε τελευταία φορά από το scripts/clean-frezyderm-descriptions.mjs.
-// Δεν αγγίζουμε — γράφεται από τα scripts.
+// Auto-generated από το scripts/fill-brand-missing.mjs --brand=frezyderm.
+// Pharmacy-based συμπλήρωμα για Frezyderm barcodes χωρίς σελίδα στο frezyderm.gr.
+// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).
 window.FREZYDERM_SUPPLEMENTAL = {
   "5202888227554": {
     "name": "Frezyderm Aqua Care Gel pH 7 Ενυδατική & Λιπαντική Αιδιοκολπική Γέλη, 50g",
@@ -344,5 +344,40 @@ window.FREZYDERM_SUPPLEMENTAL = {
     "image": "https://www.ofarmakopoiosmou.gr/sites/default/files/frezyderm_calendula_cream_0.jpg",
     "source": "ofarmakopoiosmou.gr",
     "url": "https://www.ofarmakopoiosmou.gr/en/frezyderm-holistic-calendula-cream-50ml"
+  },
+  "5202888105166": {
+    "name": "Frezyderm Anti Age Σαμπουάν για Ξηρά Μαλλιά 200ml",
+    "description": "Το Frezyderm Anti Age Σαμπουάν για Ξηρά Μαλλιά 200ml είναι ειδικά σχεδιασμένο για να αντιμετωπίζει τα σημάδια γήρανσης στα ξηρά μαλλιά σου.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg26/7Hi54/1Uwxam_SX596Y596/1751361638/frezyderm-anti-age-sampouan-gia-xira-mallia-200ml.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2153150370/frezyderm-anti-age-shampoo-200ml.html"
+  },
+  "5202888105104": {
+    "name": "Frezyderm Hair Implant Σαμπουάν για Επανόρθωση 150ml",
+    "description": "Σύγκρινε τιμές για Frezyderm Hair Implant Σαμπουάν για Επανόρθωση 150ml από καταστήματα στην Ελλάδα. Δες χαρακτηριστικά, προσφορές και αξιολογήσεις χρηστών.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg48/7Hi5q/1SYzV1_SX319Y319/1728492731/frezyderm-hair-implant-sampouan-gia-epanorthosi-150ml.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2153150599/frezyderm-hair-implant-shampoo-150ml.html"
+  },
+  "9999991010956": {
+    "name": "Frezyderm Hair Repair Pump Μάσκα Μαλλιών για Επανόρθωση για Ξηρά Λεπτά & Ταλαιπωρημένα Μαλλιά 200ml",
+    "description": "Η Frezyderm Hair Repair Pump Μάσκα Μαλλιών προσφέρει βαθιά επανόρθωση στα ξηρά, λεπτά και ταλαιπωρημένα μαλλιά σου.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg20/2lNGqo/1SDP6K_SX565Y565/1723546230/frezyderm-hair-repair-pump-maska-mallion-gia-epanorthosi-gia-xira-lepta-talaiporimena-mallia-200ml.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2154409876/frezyderm-hair-repair-mask-200ml.html"
+  },
+  "5202888221217": {
+    "name": "Frezyderm Reform Abdomen Κρέμα Σύσφιξης Κοιλιάς 150ml",
+    "description": "Κρέμα σύσφιξης της Frezyderm, αντιμετωπίζει τη χαλάρωση της επιδερμίδας σε κοιλιά, γλουτούς και μπράτσα.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg58/8JrpE/1Uwxam_SX468Y468/1751361638/frezyderm-reform-abdomen-krema-sysfixis-koilias-150ml.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2153211748/frezyderm-reform-abdomen-body-cream-150ml.html"
+  },
+  "5202888320057": {
+    "name": "Frezyderm Prodilac Oral Kids 30 Μασώμενα Δισκία",
+    "description": "Σύγκρινε τιμές για Frezyderm Prodilac Oral Kids 30 Μασώμενα Δισκία από καταστήματα στην Ελλάδα. Δες χαρακτηριστικά, προσφορές και αξιολογήσεις χρηστών.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg31/cZoJ1/1X8nFw_SX574Y574/1789934266/frezyderm-prodilac-oral-kids-30-masomena-diskia.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2154762168/frezyderm-prodilac-oral-kids-30s.html"
   }
 };

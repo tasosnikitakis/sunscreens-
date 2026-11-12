@@ -1,0 +1,27 @@
+{
+  "_comment": "Σελίδες pharm24/bestprice για προϊόντα Lamberts χωρίς σελίδα στο lamberts.gr και χωρίς εικόνα (δεύτερη προσπάθεια, 12/11/2026). Το scripts/fill-brand-missing.mjs τις διαβάζει απευθείας.",
+  "5055148400071": [
+    "https://www.bestprice.gr/item/2152957927/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.html"
+  ],
+  "5055148411558": [
+    "https://www.bestprice.gr/item/2152957927/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.html"
+  ],
+  "5055148410308": [
+    "https://www.pharm24.gr/eyewise-high-strength-lutein-200mg-60-tabs-lamberts-p-18397.html"
+  ],
+  "5055148404925": [
+    "https://www.pharm24.gr/lamberts-fema-45-180-tabs-p-18373.html"
+  ],
+  "5000453120268": [
+    "https://www.pharm24.gr/lamberts-hawthorn-2500mg-60tabs-p-40294.html"
+  ],
+  "5055148404017": [
+    "https://www.pharm24.gr/lamberts-ginkgo-biloba-extract-6000mg-180tabs-p-55606.html"
+  ],
+  "5055148411640": [
+    "https://www.bestprice.gr/item/2155276087/lamberts-iodine-150mg-180s.html"
+  ],
+  "5055148411503": [
+    "https://www.bestprice.gr/item/2152946119/lamberts-probioguard-60s.html"
+  ]
+}
