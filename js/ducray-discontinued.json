@@ -1,0 +1,168 @@
+{
+  "_comment": "Προϊόντα του τιμοκαταλόγου Ducray που ΔΕΝ υπάρχουν στο ducray.com/gr-gr (promo πακέτα, παλαιότερες σειρές, προϊόντα άλλων brands Pierre Fabre). Αφαιρέθηκαν από τον κατάλογο με απόφαση (12/11/2026)· εξαιρούνται από το build-brand-supplier.mjs και μπαίνουν στη σημείωση reports/Αποσυρμένα προϊόντα.md.",
+  "3282779065863": {
+    "name": "DUCRAY ANACAPS 60 ΚΑΨΟΥΛΕΣ",
+    "retail": 27.92,
+    "wholesale": 16.45,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Παλαιότερη συσκευασία Anacaps 60 caps· δεν υπάρχει στο ducray.com και δεν βρέθηκε σε φαρμακεία.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282770105322": {
+    "name": "DUCRAY ANACAPS PROGRESSIV 30 caps",
+    "retail": 28.6,
+    "wholesale": 17.06,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Η σειρά Anacaps Progressiv δεν υπάρχει πλέον στο ducray.com (αντικαταστάθηκε από Anacaps Expert).",
+    "successor": "3282770389029",
+    "successorName": "ANACAPS EXPERT 30 caps (στον κατάλογο)",
+    "evidence": []
+  },
+  "3282779119146": {
+    "name": "DUCRAY Anacaps Progressiv Promo Συμπλήρωμα Διατροφής για Μαλλιά 2 x 30caps",
+    "retail": 46.72,
+    "wholesale": 27.91,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Promo πακέτο 2x30 της σειράς Anacaps Progressiv που δεν υπάρχει πλέον.",
+    "successor": "3282770389029",
+    "successorName": "ANACAPS EXPERT 30 caps (στον κατάλογο)",
+    "evidence": []
+  },
+  "3282779119115": {
+    "name": "DUCRAY Anacaps Reactiv Promo Συμπλήρωμα Διατροφής για Μαλλιά & Νύχια 2 x 30caps",
+    "retail": 46.7,
+    "wholesale": 27.9,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Promo πακέτο 2x30· το μονό προϊόν Anacaps Reactiv είναι στον κατάλογο.",
+    "successor": "3282770389425",
+    "successorName": "ANACAPS REACTIV 30 caps (στον κατάλογο)",
+    "evidence": []
+  },
+  "3282779119238": {
+    "name": "DUCRAY Anaphase+ Shampoo Δυναμωτικό Σαμπουάν κατά της Τριχόπτωσης 200ml & Δώρο AnaphaseSoin Apres Shampooing Fortifiant",
+    "retail": 12.3,
+    "wholesale": 7.35,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Promo πακέτο σαμπουάν + δώρο conditioner· το σαμπουάν Anaphase+ είναι στον κατάλογο.",
+    "successor": "3282770075533",
+    "successorName": "ANAPHASE+ Shampoo 200ml (στον κατάλογο)",
+    "evidence": []
+  },
+  "3573994006350": {
+    "name": "DUCRAY DEXERYL CREAM DM 500 GR",
+    "retail": 18.5,
+    "wholesale": 13.1,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Dexeryl: προϊόν Pierre Fabre Dermatologie, όχι της Ducray· εκτός καταλόγου Ducray.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282770075793": {
+    "name": "DUCRAY Dexyane Baume Emolliente Anti-Grattage Μαλακτικό Βάλσαμο κατά του Κνησμού 400ml",
+    "retail": 24.3,
+    "wholesale": 14.52,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Σειρά Dexyane (μη-MeD) δεν υπάρχει στο ducray.com/gr-gr.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282770053029": {
+    "name": "DUCRAY Dexyane Gel Nettoyant Surgras Εξαιρετικά Πλούσιο Ζελ Καθαρισμού 400ml",
+    "retail": 16.7,
+    "wholesale": 9.98,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Σειρά Dexyane (μη-MeD) δεν υπάρχει στο ducray.com/gr-gr.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282770205558": {
+    "name": "DUCRAY Kertyol P S O Gel Nettoyant Surgras Ζελ Καθαρισμού για Δέρμα με Τάση Ψωρίασης 400ml",
+    "retail": 18,
+    "wholesale": 10.75,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Kertyol P.S.O. Gel Nettoyant 400ml δεν υπάρχει στο ducray.com/gr-gr.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282779315500": {
+    "name": "DUCRAY Melascreen Soin Eclat Legere Καθημερινή Φροντίδα κατά των Δυσχρωμιών Λεπτόρευστη Υφής Spf15 40ml",
+    "retail": 28.7,
+    "wholesale": 17.14,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Melascreen Eclat SPF15: παλαιότερη σειρά, δεν υπάρχει στο ducray.com/gr-gr.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282779119191": {
+    "name": "DUCRAY Neoptide Hommes Lotion Antichute Ανδρική Λοσιόν Kατά Tης Τριχόπτωσης 100ml",
+    "retail": 49.9,
+    "wholesale": 29.81,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Neoptide Hommes: παλαιότερη σειρά, αντικαταστάθηκε από Neoptide Expert.",
+    "successor": "3282770153255",
+    "successorName": "NEOPTIDE EXPERT ορός 2x50ml (στον κατάλογο)",
+    "evidence": []
+  },
+  "3282779119214": {
+    "name": "DUCRAY Neoptide Women Lotion Λοσιόν Κατά Της Γυναικείας Τριχόπτωσης 3x30ml",
+    "retail": 49.9,
+    "wholesale": 29.81,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Neoptide Women 3x30ml: παλαιότερη σειρά, αντικαταστάθηκε από Neoptide Expert.",
+    "successor": "3282770153255",
+    "successorName": "NEOPTIDE EXPERT ορός 2x50ml (στον κατάλογο)",
+    "evidence": []
+  },
+  "3592619314311": {
+    "name": "DUCRAY ONYSTER PATE UREE DM CEE1 10GR",
+    "retail": 26,
+    "wholesale": 15.36,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Onyster: προϊόν Pierre Fabre Santé, όχι της Ducray· εκτός καταλόγου Ducray.",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "3282779156561": {
+    "name": "DUCRAY Promo Melascreen Creme Legere Αντηλιακή Προσώπου Ελαφριάς Υφής για Δυσχρωμίες SPF50 2x40ml",
+    "retail": 27.36,
+    "wholesale": 16.34,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Promo 2x40ml Melascreen UV Creme Legere SPF50: παλαιότερη σειρά (νέα: Melascreen αντηλιακό SPF50+).",
+    "successor": "3282770389272",
+    "successorName": "MELASCREEN αντηλιακό κατά των κηλίδων SPF50+ (στον κατάλογο)",
+    "evidence": []
+  },
+  "3282779156479": {
+    "name": "DUCRAY Promo Melascreen Creme Riche Αντηλιακή Προσώπου Πλούσιας Υφής για Δυσχρωμίες SPF50 2x40ml",
+    "retail": 27.76,
+    "wholesale": 16.58,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Promo 2x40ml Melascreen UV Creme Riche SPF50: παλαιότερη σειρά (νέα: Melascreen προστατευτική κρέμα SPF50+).",
+    "successor": "3282770389296",
+    "successorName": "MELASCREEN προστατευτική κρέμα κατά των κηλίδων SPF50+ (μόνο στο site)",
+    "evidence": []
+  }
+}
