@@ -50,11 +50,14 @@ export function extractAdermaDetails(rawHtml, url = "") {
   const t = html.match(/<h1[^>]*class="[^"]*\bc-product__title\b[^"]*"[^>]*>([\s\S]*?)<\/h1>/i) || html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
   if (t) d.title = oneLine(t[1]);
 
-  const hl = [...html.matchAll(/<p[^>]*class="[^"]*u-text-color--highlight[^"]*"[^>]*>([\s\S]*?)<\/p>/gi)].find(m => oneLine(m[1]));
+  // Το klorane.com βάζει στην ίδια κλάση και badges προϊόντος («Μόνιμος», «Συλλέκτης») — τα αγνοούμε.
+  const BADGE = /^(Μόνιμος|Μόνιμο|Συλλέκτης|Νέο|Νέα|New|Nouveau|Permanent|Collector|Édition limitée|Limited edition|Best seller|Bestseller)$/i;
+  const hl = [...html.matchAll(/<p[^>]*class="[^"]*u-text-color--highlight[^"]*"[^>]*>([\s\S]*?)<\/p>/gi)].find(m => { const t = oneLine(m[1]).replace(/\*+/g, "").trim(); return t && !BADGE.test(t); });
   if (hl) {
     const raw = oneLine(hl[1]).replace(/\*+/g, "").trim();
-    // το <p> επαναλαμβάνει τα ίδια spans (desktop/mobile) → κρατάμε κάθε φράση μία φορά
-    const parts = [...new Set(raw.split(/\s+-\s+/).map(x => x.trim()).filter(x => x.length > 2))];
+    // το <p> επαναλαμβάνει τα ίδια spans (desktop/mobile) → κρατάμε κάθε φράση μία φορά· badges εκτός
+    const BADGE_WORD = /^(Μόνιμος|Μόνιμο|Συλλέκτης|Νέο|Νέα|New|Nouveau|Permanent|Collector)\s+/i;
+    const parts = [...new Set(raw.replace(BADGE_WORD, "").split(/\s+-\s+/).map(x => x.trim().replace(BADGE_WORD, "")).filter(x => x.length > 2 && !BADGE.test(x)))];
     d.subtitle = parts.join(" - ");
     d.keyFacts.push(...parts);
   }

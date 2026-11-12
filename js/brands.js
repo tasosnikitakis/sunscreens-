@@ -40,6 +40,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Ducray", imageDir: "ducray", sourceKey: "_ducraySource",
     fallbackDesc: "Προϊόν Ducray (Pierre Fabre) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  klorane: {
+    key: "klorane", name: "Klorane", host: "klorane.com", page: "klorane.html",
+    icon: "🌿", initials: "KL", accent: "#15803d",
+    sheetName: "Klorane", imageDir: "klorane", sourceKey: "_kloraneSource",
+    fallbackDesc: "Προϊόν Klorane (Pierre Fabre) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
