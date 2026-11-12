@@ -47,6 +47,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Klorane", imageDir: "klorane", sourceKey: "_kloraneSource",
     fallbackDesc: "Προϊόν Klorane (Pierre Fabre) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  avene: {
+    key: "avene", name: "Avène", host: "eau-thermale-avene.gr", page: "avene.html",
+    icon: "💧", initials: "AV", accent: "#ea580c",
+    sheetName: "Avene", imageDir: "avene", sourceKey: "_aveneSource",
+    fallbackDesc: "Προϊόν Eau Thermale Avène (Pierre Fabre) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
@@ -64,7 +71,7 @@ window.BRAND_CATALOGS_UTIL = {
       .replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase())
       .replace(/(\d)(Ml|Gr|Mg|Iu|Kg|L|G)\b/g, (m, d, u) => d + u.toLowerCase());   // 400Ml → 400ml
     const trimmed = titled.replace(/\s+/g, " ").trim();
-    const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?") + "\\b", "i");
+    const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
     if (brandRe.test(trimmed)) return trimmed.replace(brandRe, cfg.name);
     return cfg.name + " " + trimmed;
   },
