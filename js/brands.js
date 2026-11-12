@@ -54,6 +54,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Avene", imageDir: "avene", sourceKey: "_aveneSource",
     fallbackDesc: "Προϊόν Eau Thermale Avène (Pierre Fabre) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  lrp: {
+    key: "lrp", name: "La Roche-Posay", host: "larocheposay.gr", page: "lrp.html",
+    icon: "🔬", initials: "LRP", accent: "#0369a1",
+    sheetName: "La Roche-Posay", imageDir: "lrp", sourceKey: "_lrpSource",
+    fallbackDesc: "Προϊόν La Roche-Posay (L'Oréal) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
@@ -73,6 +80,7 @@ window.BRAND_CATALOGS_UTIL = {
     const trimmed = titled.replace(/\s+/g, " ").trim();
     const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
     if (brandRe.test(trimmed)) return trimmed.replace(brandRe, cfg.name);
+    if (cfg.key === "lrp" && /^L\s?R\s+Posay\b/i.test(trimmed)) return trimmed.replace(/^L\s?R\s+Posay\b/i, cfg.name);
     return cfg.name + " " + trimmed;
   },
   // Σελίδα στο brand site (override) → ΜΟΝΟ αυτή· αλλιώς fallback φαρμακείου.
