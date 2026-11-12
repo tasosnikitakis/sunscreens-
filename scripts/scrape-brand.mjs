@@ -101,7 +101,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const dbg = (...a) => { if (DEBUG) console.log("   ", ...a); };
 
 async function fetchText(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "el-GR,el;q=0.9,en;q=0.5" }, redirect: "follow" });
+  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "el-GR,el;q=0.9,en;q=0.5" }, redirect: "follow", signal: AbortSignal.timeout(45000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 }
