@@ -104,3 +104,37 @@ git push
   Node 18+.
 - **Πολλά MISS:** Φυσιολογικό για νέα προϊόντα 2026 — μπορείτε να τα προσθέσετε
   manually όπως παραπάνω.
+
+## Brand catalogs (Frezyderm, Lamberts, A-Derma, …) — ενότητα ανά εταιρία
+
+Κάθε εταιρία με δική της ενότητα ορίζεται στο `js/brands.js` (όνομα, site, χρώμα,
+στήλες xlsx). Τα δεδομένα της ζουν σε 4 αρχεία `js/<brand>-{supplier,overrides,
+supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το γενικό
+`js/brand-app.js`, και το `product.html` τα διαβάζει αυτόματα.
+
+Πλήρης ροή για νέα εταιρία (παράδειγμα A-Derma, site aderma.gr):
+
+```bash
+# 0. (μία φορά) Excel προμηθευτή → supplier.js  [στήλες: κωδικός, barcode, όνομα, λιανική, χονδρική, variants]
+node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx
+
+# 1. Δείγμα σελίδας για μελέτη του template (sanitized, μπορεί να γίνει commit)
+node scripts/scrape-brand.mjs --brand=aderma --inspect="https://www.aderma.gr/<σελίδα προϊόντος>" --dump=samples/aderma-sample.html
+
+# 2. Scrape όλων των σελίδων προϊόντων (sitemap → JSON-LD Product) → js/aderma-site.json
+node scripts/scrape-brand.mjs --brand=aderma
+
+# 3. Match supplier ↔ σελίδες (manual → GTIN → fuzzy) → overrides + aderma-match-report.csv + unmatched
+node scripts/match-aderma.mjs            # --debug για top-3 ανά προϊόν
+
+# 4. Επίσημες εικόνες τοπικά (images/aderma/) + fallback φαρμακείων για όσα δεν έχουν σελίδα
+node scripts/sync-brand-images.mjs --brand=aderma
+node scripts/fill-brand-missing.mjs --brand=aderma
+node scripts/clean-frezyderm-descriptions.mjs --brand=aderma   # καθαρίζει suffix φαρμακείων
+
+# 5. xlsx/csv
+node scripts/generate-catalog.mjs
+```
+
+Διορθώσεις match: `js/<brand>-manual-matches.json` (barcode → URL, ή `null` =
+δεν έχει σελίδα), μετά ξανά το βήμα 3.

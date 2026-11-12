@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // scripts/generate-catalog.mjs
-// Παράγει 6 αρχεία:
-//   catalog.csv              + catalog.xlsx           — αντηλιακά (sunscreens)
-//   cosmetics-catalog.csv    + cosmetics-catalog.xlsx — καλλυντικά
-//   seasonal-catalog.csv     + seasonal-catalog.xlsx  — εποχιακά
+// Παράγει csv + xlsx ανά κατάλογο:
+//   catalog.*            — αντηλιακά        cosmetics-catalog.* — καλλυντικά
+//   seasonal-catalog.*   — εποχιακά         vican-catalog.*     — Vican
+//   <brand>-catalog.*    — κάθε brand του js/brands.js (Frezyderm, Lamberts, A-Derma, …)
 //
 // Χρήση:  node scripts/generate-catalog.mjs
 
@@ -160,22 +160,13 @@ async function loadContext() {
   try {
     vm.runInContext(await fs.readFile(path.join(ROOT, "js/vican-data.js"), "utf8"), ctx);
   } catch {}
-  try {
-    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-supplier.js"), "utf8"), ctx);
-  } catch {}
-  try {
-    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-overrides.js"), "utf8"), ctx);
-  } catch {}
-  try {
-    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-supplemental.js"), "utf8"), ctx);
-  } catch {}
-  try {
-    vm.runInContext(await fs.readFile(path.join(ROOT, "js/frezyderm-sections.js"), "utf8"), ctx);
-  } catch {}
-  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-supplier.js"), "utf8"), ctx); } catch {}
-  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-overrides.js"), "utf8"), ctx); } catch {}
-  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-supplemental.js"), "utf8"), ctx); } catch {}
-  try { vm.runInContext(await fs.readFile(path.join(ROOT, "js/lamberts-sections.js"), "utf8"), ctx); } catch {}
+  // Brand catalogs (Frezyderm, Lamberts, A-Derma, …): μητρώο + 4 αρχεία ανά brand
+  vm.runInContext(await fs.readFile(path.join(ROOT, "js/brands.js"), "utf8"), ctx);
+  for (const key of Object.keys(ctx.window.BRAND_CATALOGS)) {
+    for (const suffix of ["supplier", "overrides", "supplemental", "sections"]) {
+      try { vm.runInContext(await fs.readFile(path.join(ROOT, `js/${key}-${suffix}.js`), "utf8"), ctx); } catch {}
+    }
+  }
   return ctx;
 }
 
@@ -266,44 +257,35 @@ function buildVicanTable(ctx, manifest) {
     columnWidths: [50, 14, 70, 24, 16, 50, 50] };
 }
 
-// ===== Frezyderm =====
+// ===== Brand catalogs (Frezyderm, Lamberts, A-Derma, …) =====
+//
+// Ένας πίνακας ανά brand του js/brands.js. Σελίδα στο brand site (override)
+// → μόνο αυτή· αλλιώς fallback φαρμακείου. Ίδιες στήλες με το κουμπί
+// "⬇ XLSX" της σελίδας (js/catalog-export.js) — αν αλλάξουν εδώ, αλλάζουν κι εκεί.
 
-function prettifyLambertsName(raw) {
-  if (!raw) return "";
-  const titled = String(raw).replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase());
-  const trimmed = titled.replace(/\s+/g, " ").trim();
-  if (/^lamberts\b/i.test(trimmed)) return trimmed;
-  return "Lamberts " + trimmed;
-}
+const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
 
-function buildLambertsTable(ctx, manifest) {
-  const products = (ctx.window && ctx.window.LAMBERTS_SUPPLIER) || [];
-  if (!products.length) return null;
-  const overrides = (ctx.window && ctx.window.LAMBERTS_OVERRIDES) || {};
-  const supplemental = (ctx.window && ctx.window.LAMBERTS_SUPPLEMENTAL) || {};
-  const sections = (ctx.window && ctx.window.LAMBERTS_SECTION_LABELS) || {};
-  // Σελίδα στο lamberts.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
-  const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
+function buildBrandTable(ctx, manifest, cfg) {
+  const BU = ctx.window.BRAND_CATALOGS_UTIL;
+  const data = BU.data(cfg, ctx.window);
+  if (!data.supplier.length) return null;
   const enrichmentFor = (bc) => {
-    const o = overrides[bc];
-    if (o) return { name: o.name, subtitle: o.subtitle || "", description: o.description, image: o.image, url: o.url, source: "lamberts.gr",
-      section: o.section, claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
-    const s = supplemental[bc] || {};
-    return { name: s.name || null, subtitle: "", description: s.description || null, image: s.image || null, url: s.url || null,
-      source: s.source || null, section: s.section || null, claims: [], highlights: [], attributes: {}, sections: {}, match: "Χωρίς σελίδα" };
+    const e = BU.enrichmentFor(cfg, bc, data);
+    e.match = e.noBrandPage ? "Χωρίς σελίδα" : (MATCH_LABEL[e.matchType] || "Αυτόματο");
+    return e;
   };
-  const TAB_COLUMNS = ["Απόδοση & Συστατικά", "Χρήση", "Προφυλάξεις"];
+  const TAB_COLUMNS = cfg.exportSections;
   const headers = [
     "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
     ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
     "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
   ];
-  const rows = products.map(p => {
+  const rows = data.supplier.map(p => {
     const e = enrichmentFor(p.barcode);
     const secKey = e.section || "diafora";
-    const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
-    const displayName = prettifyLambertsName(e.name || p.name);
-    const desc = e.description || `Συμπλήρωμα διατροφής Lamberts — ${p.name}`;
+    const sectionLabel = (data.sections[secKey] && data.sections[secKey].name) || secKey;
+    const displayName = BU.prettify(e.name || p.name, cfg);
+    const desc = e.description || cfg.fallbackDesc.replace("{name}", p.name);
     const tabCols = TAB_COLUMNS.map(t => e.sections[t] || "");
     const otherAttrs = [
       ...Object.entries(e.attributes).filter(([k]) => k !== "Συσκευασία").map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`),
@@ -312,67 +294,13 @@ function buildLambertsTable(ctx, manifest) {
     const localImg = manifest[p.barcode] || "";
     const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
     return [
-      displayName, e.subtitle, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), e.highlights.join(" • "),
+      displayName, e.subtitle || "", p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), e.highlights.join(" • "),
       ...tabCols, e.attributes["Συσκευασία"] || "", otherAttrs, sectionLabel, p.barcode, variants,
       localImg || e.image || "", e.url || "", e.source || "", e.match
     ];
   });
-  return { headers, rows, sheetName: "Lamberts", barcodeColIdx: 13,
+  return { headers, rows, sheetName: cfg.sheetName, barcodeColIdx: 13,
     columnWidths: [50, 40, 14, 14, 70, 40, 50, 60, 50, 40, 14, 40, 24, 16, 24, 50, 50, 18, 16] };
-}
-
-function prettifyFrezydermName(raw) {
-  if (!raw) return "";
-  const titled = String(raw).replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase());
-  const trimmed = titled.replace(/\s+/g, " ").trim();
-  if (/^frezyderm\b/i.test(trimmed)) return trimmed;
-  return "Frezyderm " + trimmed;
-}
-
-function buildFrezydermTable(ctx, manifest) {
-  const products = (ctx.window && ctx.window.FREZYDERM_SUPPLIER) || [];
-  if (!products.length) return null;
-  const overrides = (ctx.window && ctx.window.FREZYDERM_OVERRIDES) || {};
-  const supplemental = (ctx.window && ctx.window.FREZYDERM_SUPPLEMENTAL) || {};
-  const sections = (ctx.window && ctx.window.FREZYDERM_SECTION_LABELS) || {};
-  // Σελίδα στο frezyderm.gr (override) → μόνο αυτή· αλλιώς fallback φαρμακείου.
-  const MATCH_LABEL = { manual: "Χειροκίνητο", exact: "Ακριβές (GTIN)", high: "Αυτόματο", review: "Για έλεγχο" };
-  const enrichmentFor = (bc) => {
-    const o = overrides[bc];
-    if (o) return { name: o.name, subtitle: o.subtitle || "", description: o.description, image: o.image, url: o.url, source: "frezyderm.gr",
-      section: o.section, claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {}, match: MATCH_LABEL[o.matchType] || "Αυτόματο" };
-    const s = supplemental[bc] || {};
-    return { name: s.name || null, subtitle: "", description: s.description || null, image: s.image || null, url: s.url || null,
-      source: s.source || null, section: s.section || null, claims: [], highlights: [], attributes: {}, sections: {}, match: "Χωρίς σελίδα" };
-  };
-  // Σταθερές στήλες για τις γνωστές καρτέλες της σελίδας· ό,τι άλλο πάει στα "Χαρακτηριστικά".
-  const TAB_COLUMNS = ["Κατάλληλο για", "Χρήση", "Δράση – Ενεργά συστατικά"];
-  const headers = [
-    "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
-    ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
-    "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
-  ];
-  const rows = products.map(p => {
-    const e = enrichmentFor(p.barcode);
-    const secKey = e.section || "diafora";
-    const sectionLabel = (sections[secKey] && sections[secKey].name) || secKey;
-    const displayName = prettifyFrezydermName(e.name || p.name);
-    const desc = e.description || `Προϊόν Frezyderm — ${p.name}`;
-    const tabCols = TAB_COLUMNS.map(t => e.sections[t] || "");
-    const otherAttrs = [
-      ...Object.entries(e.attributes).filter(([k]) => k !== "Συσκευασία").map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(", ") : v}`),
-      ...Object.entries(e.sections).filter(([k]) => !TAB_COLUMNS.includes(k)).map(([k, v]) => `${k}: ${v}`)
-    ].join(" | ");
-    const localImg = manifest[p.barcode] || "";
-    const variants = (p.variants || []).filter(v => v !== p.barcode).join(", ");
-    return [
-      displayName, e.subtitle, p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), e.highlights.join(" • "),
-      ...tabCols, e.attributes["Συσκευασία"] || "", otherAttrs, sectionLabel, p.barcode, variants,
-      localImg || e.image || "", e.url || "", e.source || "", e.match
-    ];
-  });
-  return { headers, rows, sheetName: "Frezyderm", barcodeColIdx: 13,
-    columnWidths: [50, 40, 14, 14, 70, 40, 50, 30, 60, 50, 14, 40, 24, 16, 24, 50, 50, 18, 16] };
 }
 
 function buildCosmeticsTable(ctx, manifest) {
@@ -445,18 +373,11 @@ async function main() {
     path.join(ROOT, "vican-catalog.xlsx"),
     "Vican"
   );
-  await emitTable(
-    buildFrezydermTable(ctx, manifest),
-    path.join(ROOT, "frezyderm-catalog.csv"),
-    path.join(ROOT, "frezyderm-catalog.xlsx"),
-    "Frezyderm"
-  );
-  await emitTable(
-    buildLambertsTable(ctx, manifest),
-    path.join(ROOT, "lamberts-catalog.csv"),
-    path.join(ROOT, "lamberts-catalog.xlsx"),
-    "Lamberts"
-  );
+  for (const cfg of Object.values(ctx.window.BRAND_CATALOGS)) {
+    const table = buildBrandTable(ctx, manifest, cfg);
+    if (!table) { console.log(`Skip ${cfg.name}: κανένα προϊόν (js/${cfg.key}-supplier.js λείπει;)`); continue; }
+    await emitTable(table, path.join(ROOT, `${cfg.key}-catalog.csv`), path.join(ROOT, `${cfg.key}-catalog.xlsx`), cfg.name);
+  }
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
