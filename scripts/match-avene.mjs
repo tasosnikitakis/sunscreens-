@@ -37,7 +37,7 @@ const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); ret
 const flag = (k) => args.includes(`--${k}`);
 const DEBUG = flag("debug");
 const ONLY = opt("barcode", null);
-const MIN_SCORE = parseFloat(opt("min-score", "9"));
+const MIN_SCORE = parseFloat(opt("min-score", "99"));   // fuzzy ουσιαστικά OFF: ελληνικά ονόματα supplier vs ελληνικές σελίδες δίνουν ψευδείς ταυτίσεις
 const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 
 // Σειρά προϊόντος → ενότητα καταλόγου (js/avene-sections.js). Κρίνεται από το
@@ -57,13 +57,14 @@ const LINE_RULES = [
   ["eauthermale",  /sprei-iamatikoy|iamatiko|spray eau thermale|eau thermale (50|150|300)/i],
   ["sun",          /antiliak|αντηλιακ|\bspf|sunsimed|sunsistick|reflex-sun|reflexe|ultra-fluid|ultra-serum|ultra-stick|ultra fluid|meta-ton-ilio|apres[- ]soleil|aytomayristiko|autobronzant|solaire|mist-spf|brume|fluide-mineral|lait-enfant|lait-solaire|spray-enfant|spray-solaire|intense-protect|b- ?protect|krema-mineral|galaktoma-mineral|stik-heilion-spf/i],
   ["body",         /body-|body |afroloytro|gommage|deodorant|aposmitiko|enydatiko-baume|enydatiki-losion|corps/i],
-  ["essentials",   /katharism|ntemakigiaz|demaquillant|micellaire|mikyllia|losion|lotion|tonique|apolepistiko|gommante|maska|masque|afros|mousse|sterei-mpara|gel-gia|gelee|soin levres|heilion|yeux|matia|mation/i]
+  ["essentials",   /les-essentiels|les essentiels|threpsis-kai-anazoogonisis|katharism|ntemakigiaz|demaquillant|micellaire|mikyllia|losion|lotion|tonique|apolepistiko|gommante|maska|masque|afros|mousse|sterei-mpara|gel-gia|gelee|soin levres|heilion|yeux|matia|mation/i]
 ];
 // Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
 // αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
 // προτάσσουμε τη σειρά (χωρίς τις λέξεις κατηγορίας "Πρόσωπο"/"Μαλλιά").
 function siteProductName(d, fallback) {
-  const title = d.fullTitle || d.title || fallback || "";
+  let title = d.fullTitle || d.title || fallback || "";
+  title = title.replace(/\s*\|\s*[^|]{2,30}$/, "").trim();     // "Σπρέι … | Cicalfate" → χωρίς το suffix σειράς
   const line = String(d.line || "").replace(/\s+(Πρόσωπο|Μαλλιά|Σώμα)\s*$/i, "").replace(/^Eau Thermale Avène\s*/i, "").trim();
   const first = line.split(/\s+/)[0] || "";
   if (!line || !first || first.length < 3) return title;
