@@ -13,6 +13,7 @@
 //   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx --with-site
 //       → προσθέτει ΚΑΙ τα προϊόντα του js/<brand>-site.json που δεν υπάρχουν στο Excel
 //         (listed:false, χωρίς τιμές) — ο κατάλογος δείχνει όλη τη γκάμα του brand site
+//   node scripts/build-brand-supplier.mjs --brand=ducray --xlsx=Ducray.tsv --with-site   (δέχεται και tsv/csv)
 //   node scripts/build-brand-supplier.mjs --brand=ducray --with-site
 //       → ΧΩΡΙΣ Excel: όλος ο κατάλογος από το site (όλα listed:false). Όταν έρθει ο
 //         τιμοκατάλογος, ξανατρέξτε με --xlsx=… --with-site και οι τιμές συμπληρώνονται.
@@ -55,7 +56,17 @@ function decodeXml(s) {
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n)));
 }
 
+// Τιμοκατάλογος σε tsv/csv (επικόλληση από Excel): ίδιες στήλες με το --cols
+async function readDelimited(file) {
+  const text = (await fs.readFile(file, "utf8")).replace(/^\uFEFF/, "");
+  const sep = text.includes("\t") ? "\t" : ";";
+  return text.split(/\r?\n/).filter(l => l.trim()).map(line => {
+    const cells = {}; line.split(sep).forEach((v, i) => { cells[colLetter(i)] = v.trim(); }); return cells;
+  });
+}
+
 async function readSheet(file) {
+  if (/\.(tsv|csv|txt)$/i.test(file)) return readDelimited(file);
   const tmp = path.join("/tmp", "_xlsx_" + process.pid);
   execSync(`rm -rf "${tmp}" && mkdir -p "${tmp}" && unzip -q -o "${file}" -d "${tmp}"`);
   let strings = [];

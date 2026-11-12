@@ -1,0 +1,33 @@
+{
+  "_comment": "Σελίδες ελληνικών φαρμακείων για προϊόντα Ducray του τιμοκαταλόγου που ΔΕΝ υπάρχουν στο ducray.com/gr-gr (promo πακέτα, παλαιότερες σειρές). Το scripts/fill-brand-missing.mjs --brand=ducray τις διαβάζει απευθείας (χωρίς αναζήτηση). Μόνο pharm24.gr / bestprice.gr: τα vita4you, ofarmakopoiosmou, bestpharmacy, pharmacy295, skroutz έχουν προστασία από bots και δεν διαβάζονται αυτόματα.",
+  "3282770105322": [
+    "https://www.bestprice.gr/item/2155155819/ducray-anacaps-progressiv-30-kapsoyles.html"
+  ],
+  "3282779119146": [
+    "https://www.bestprice.gr/item/2155155820/ducray-anacaps-progressiv-2x30-kapsoyles.html"
+  ],
+  "3282779119115": [
+    "https://www.pharm24.gr/ducray-promo-anacaps-reactiv-hair-loss-60caps-2x30caps-p-68036.html"
+  ],
+  "3282779119238": [
+    "https://www.bestprice.gr/item/2155764025/ducray-anaphase-plus-sampouan-kata-tis-trichoptosis-200ml.html"
+  ],
+  "3573994006350": [
+    "https://www.pharm24.gr/dexeryl-emollient-cream-500g-p-13242.html"
+  ],
+  "3282779315500": [
+    "https://www.pharm24.gr/ducray-melascreen-eclat-creme-legere-spf15-40ml-p-4549.html"
+  ],
+  "3282779119191": [
+    "https://www.bestprice.gr/item/2154658295/ducray-neoptide-lotion-man-100ml.html"
+  ],
+  "3592619314311": [
+    "https://www.bestprice.gr/item/2158857513/ducray-pierre-fabre-onyster-pate-uree-krema-therapeias-gia-mykhtes-epwnyxia-10gr.html"
+  ],
+  "3282779156561": [
+    "https://www.bestprice.gr/item/2153824220/ducray-melascreen-photoprotection-creme-legere-spf50-2x40ml.html"
+  ],
+  "3282779156479": [
+    "https://www.bestprice.gr/item/2154782896/ducray-melascreen-uv-creme-riche-dry-touch-spf50-2x40ml.html"
+  ]
+}

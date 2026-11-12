@@ -90,7 +90,7 @@ function cleanupDescription(d) {
   return s || null;
 }
 // Ελληνική έκδοση των σελίδων φαρμακείων που έχουν και αγγλικό path
-const toGreekUrl = u => u.replace(/(ofarmakopoiosmou\.gr|lifepharmacy\.gr|vita4you\.gr|bestpharmacy\.gr|pharmacy295\.gr)\/en\//i, "$1/");
+const toGreekUrl = u => u.replace(/(ofarmakopoiosmou\.gr|lifepharmacy\.gr)\/en\//i, "$1/").replace(/(vita4you\.gr|bestpharmacy\.gr|pharmacy295\.gr)\/en\//i, "$1/el/");
 const hostOf = u => { try { return new URL(u).hostname.toLowerCase().replace(/^www\./, ""); } catch { return ""; } };
 
 async function ddgSearch(q) {
@@ -155,8 +155,9 @@ async function main() {
     if (overrides[p.barcode]) return false;                       // έχει σελίδα brand — δεν το αγγίζουμε
     if (manualLinks(p.barcode)) return true;                      // χειροκίνητη σελίδα φαρμακείου → πάντα
     const s = supplemental[p.barcode];
-    if (RETRY_FLAGGED) return isPoorQuality(s && s.description);
-    return FORCE || !s;
+    const empty = !s || !(s.name || s.description || s.image);           // μόνο section = δεν έχει ψαχτεί
+    if (RETRY_FLAGGED) return empty || isPoorQuality(s && s.description);
+    return FORCE || empty;
   });
   console.log(`${cfg.name}: ${pool.length} προϊόντα χωρίς σελίδα στο ${cfg.host} προς αναζήτηση σε φαρμακεία.\n`);
 
@@ -177,7 +178,7 @@ async function main() {
     const links = manualLinks(p.barcode);
     try { hit = await pharmacyResult(p.barcode, links ? { links, returnBestByQuality: true } : RETRY_FLAGGED ? { preferRich: true, returnBestByQuality: true } : {}); } catch (e) { dbg(`ERR ${e.message}`); }
     if (!hit) { console.log(`${label} MISS ${p.name.slice(0, 55)}`); miss++; await sleep(DELAY_MS); continue; }
-    supplemental[p.barcode] = { name: hit.name || null, description: hit.description || null, image: hit.image || null, source: hit.source, url: hit.url };
+    supplemental[p.barcode] = Object.assign({}, supplemental[p.barcode] || {}, { name: hit.name || null, description: hit.description || null, image: hit.image || null, source: hit.source, url: hit.url });
     if (hit.image) {
       try {
         const { buf, contentType } = await fetchBuf(hit.image, hit.url);
