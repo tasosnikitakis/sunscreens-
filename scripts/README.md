@@ -139,6 +139,10 @@ node scripts/clean-frezyderm-descriptions.mjs --brand=aderma   # καθαρίζ�
 node scripts/generate-catalog.mjs
 ```
 
+Προϊόντα χωρίς σελίδα που δεν τα βρίσκει ούτε η αναζήτηση barcode (αποσυρμένα):
+`js/<brand>-manual-pharmacy.json` (barcode → URL ή λίστα URL ελληνικών
+φαρμακείων) και ξανά το `fill-brand-missing.mjs` — διαβάζει τις σελίδες απευθείας.
+
 Διορθώσεις match: `js/<brand>-manual-matches.json` (barcode → URL, ή `null` =
 δεν έχει σελίδα), μετά ξανά το βήμα 3. Για το A-Derma το Excel είναι στα γαλλικά
 και οι σελίδες στα ελληνικά, άρα το fuzzy match είναι αναξιόπιστο: βασιζόμαστε
