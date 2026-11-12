@@ -1,4 +1,4 @@
-// Auto-generated από το scripts/fetch-images.mjs.
+// Auto-generated από τα scripts εικόνων (fetch-images / sync-brand-images / fill-brand-missing).
 // Συγχρονισμένο με images/manifest.json — μην το επεξεργαστείτε χειροκίνητα.
 window.IMAGE_MANIFEST = {
   "30065949": "sunscreens/vichy-face-capital-soleil-stick-spf50-30065949.jpg",
@@ -289,7 +289,7 @@ window.IMAGE_MANIFEST = {
   "3282770209419": "sunscreens/a-derma-epitheliale-a-h-ultra-cream-spf50-100ml-3282770209419.jpg",
   "3282770209440": "sunscreens/a-derma-epitheliale-a-h-ultra-cream-spf50-40ml-3282770209440.jpg",
   "3282770398717": "sunscreens/a-derma-epitheliale-a-h-ultra-reparateur-spf50-100ml-3282770398717.jpg",
-  "3282770397765": "sunscreens/a-derma-exomega-control-emollient-cream-spf50-150ml-3282770397765.jpg",
+  "3282770397765": "aderma/exomega-control-emollient-solar-cream-spf50-150ml-ofarmakopoiosmou-3282770397765.jpg",
   "3282770110258": "sunscreens/a-derma-protect-lait-kids-spf50-250ml-3282770110258.jpg",
   "3282770072754": "sunscreens/a-derma-protect-ac-fluid-mat-spf50-40ml-3282770072754.jpg",
   "3282770072761": "sunscreens/a-derma-protect-ad-cream-spf50-150ml-3282770072761.jpg",
@@ -1316,5 +1316,18 @@ window.IMAGE_MANIFEST = {
   "5055148412982": "lamberts/ashwagandha-advance-5055148412982.png",
   "5055148412050": "lamberts/osteoguard-advance-5055148412050.png",
   "5055148412067": "lamberts/osteoguard-advance-5055148412067.png",
-  "5055148414139": "lamberts/glucosamine-phytodroitin-complex-5055148414139.png"
+  "5055148414139": "lamberts/glucosamine-phytodroitin-complex-5055148414139.png",
+  "3282770153002": "aderma/biology-ac-400ml-ofarmakopoiosmou-3282770153002.png",
+  "3282770146714": "aderma/biology-nutri-dermatological-care-nourishing-40ml-pharm24-3282770146714.jpg",
+  "3282770144291": "aderma/dermalibour-repairing-cica-cream-50ml-pharm24-3282770144291.jpg",
+  "3282770390995": "aderma/dermalibour-soothing-barrier-cream-100ml-pharm24-3282770390995.jpg",
+  "3282770398632": "aderma/epitheliale-ha-ultra-repair-cream-40ml-pharm24-3282770398632.jpg",
+  "3282770209471": "aderma/epitheliale-a-h-ultra-face-body-cream-15ml-pharm24-3282770209471.jpg",
+  "3282770149722": "aderma/exomega-control-emollient-balm-400ml-pharm24-3282770149722.jpg",
+  "3282770149685": "aderma/exomega-control-emollient-cream-400ml-pharm24-3282770149685.jpg",
+  "3282770149678": "aderma/exomega-control-emollient-cream-200ml-pharm24-3282770149678.jpg",
+  "3282770144314": "aderma/exomega-control-2in1-emolient-cleansing-gel-500ml-pharm24-3282770144314.jpg",
+  "3282770393842": "aderma/exomega-control-anti-scratching-emolient-shower-oil-200ml-pharm24-3282770393842.jpg",
+  "3282770393866": "aderma/exomega-control-emollient-anti-scratching-shower-oil-1000ml-pharm24-3282770393866.jpg",
+  "3282770149746": "aderma/exomega-control-emollient-lotion-anti-scratching-400ml-pharm24-3282770149746.jpg"
 };
