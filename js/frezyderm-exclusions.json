@@ -1,0 +1,25 @@
+{
+  "_comment": "Κανόνες αποκλεισμού ονομάτων για τον κατάλογο Frezyderm (πρώην scripts/exclude-frezyderm-boosters-promos.mjs). Τα Cream Boosters 5ml πωλούνται μόνο σε set· promo/νεσεσέρ/δώρο δείγμα είναι εποχιακά πακέτα. Διαβάζεται από το build-brand-supplier.mjs (pattern = JavaScript RegExp, flags προεπιλογή i).",
+  "rules": [
+    {
+      "name": "booster-5ml",
+      "pattern": "\\bcream\\s+booster\\s+5\\s*ml\\b",
+      "reason": "Cream Booster 5ml — πωλείται μόνο σε set"
+    },
+    {
+      "name": "promo",
+      "pattern": "\\b(?:promo|frezyderm\\s+promo)\\b",
+      "reason": "Promo bundle"
+    },
+    {
+      "name": "nesecer",
+      "pattern": "νεσεσ[εέ]ρ|νεσσε?σαιρ",
+      "reason": "Νεσεσέρ / bundle"
+    },
+    {
+      "name": "gift-sample",
+      "pattern": "δωρο\\s+δειγμα|δωρο\\s+extra|δωρο\\s+επιπλεον|επιπλεον\\s+ποσοτητα",
+      "reason": "Προσφορά (δώρο δείγμα / επιπλέον ποσότητα)"
+    }
+  ]
+}
