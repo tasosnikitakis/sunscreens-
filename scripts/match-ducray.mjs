@@ -57,6 +57,17 @@ const LINE_RULES = [
   ["hidrosis",   /hidrosis/i],
   ["diaseptyl",  /diaseptyl/i]
 ];
+// Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
+// αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
+// προτάσσουμε τη σειρά (χωρίς τις λέξεις κατηγορίας "Πρόσωπο"/"Μαλλιά").
+function siteProductName(d, fallback) {
+  const title = d.fullTitle || d.title || fallback || "";
+  const line = String(d.line || "").replace(/\s+(Πρόσωπο|Μαλλιά|Σώμα)\s*$/i, "").trim();
+  const first = line.split(/\s+/)[0] || "";
+  if (!line || !first || first.length < 3) return title;
+  const norm = x => x.toLowerCase().replace(/[^a-zα-ωά-ώ0-9]/gi, "");
+  return norm(title).includes(norm(first)) ? title : `${line} ${title}`;
+}
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
 const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
 
@@ -172,7 +183,7 @@ async function main() {
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
       const slug = chosen.url.split("/p/")[1] || chosen.url;
       overrides[p.barcode] = {
-        name: cleanSiteName(d.fullTitle || d.title || chosen.name),
+        name: cleanSiteName(siteProductName(d, chosen.name)),
         subtitle: d.subtitle || chosen.subtitle || d.shortDescription || null,
         description: description || d.shortDescription || null,
         claims, highlights, attributes, sections,
