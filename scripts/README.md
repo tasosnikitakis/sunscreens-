@@ -112,6 +112,16 @@ git push
 supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το γενικό
 `js/brand-app.js`, και το `product.html` τα διαβάζει αυτόματα.
 
+Δύο αφετηρίες: (α) από το Excel του προμηθευτή (A-Derma) ή (β) **από το site**
+(Ducray): `build-brand-supplier.mjs --brand=ducray --with-site` χωρίς `--xlsx` φτιάχνει
+τον κατάλογο μόνο από τις σελίδες του brand (όλα `listed:false`, χωρίς τιμές)· όταν
+έρθει ο τιμοκατάλογος, ξανά με `--xlsx=… --with-site` και οι τιμές συμπληρώνονται.
+Τα brands της Pierre Fabre (A-Derma, Ducray, …) μοιράζονται το ίδιο template, άρα και
+τον ίδιο extractor (`scripts/lib-aderma.mjs`).
+
+Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
+`NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).
+
 Πλήρης ροή για νέα εταιρία (παράδειγμα A-Derma, site aderma.gr):
 
 ```bash

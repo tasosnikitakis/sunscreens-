@@ -1,5 +1,5 @@
 // scripts/lib-aderma.mjs
-// Δομή σελίδας προϊόντος aderma.gr (Pierre Fabre "Elea" template),
+// Δομή σελίδας προϊόντος aderma.gr / ducray.com (Pierre Fabre "Elea" template — ίδιο για όλα τα brands του ομίλου),
 // χαρτογραφημένη από samples/aderma-sample.html:
 //
 //   p.c-product__range                  EXOMEGA ALLERGO                      (σειρά)
@@ -59,8 +59,13 @@ export function extractAdermaDetails(rawHtml, url = "") {
     d.keyFacts.push(...parts);
   }
 
-  const id = html.match(/"item_id"\s*:\s*"(\d{13,14})"/) || html.match(/socialez-product-id="(\d{13,14})"/) || url.match(/-(\d{13})-[a-z0-9]+\/?$/i);
+  // GTIN: πρώτα από το URL (η σελίδα περιέχει item_id και για cross-sell προϊόντα)
+  const id = url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || html.match(/"item_id"\s*:\s*"(\d{13,14})"/) || html.match(/socialez-product-id="(\d{13,14})"/);
   if (id) d.gtin = gtin13(id[1]);
+  // <title> = "KERACNYL PP+ Καταπραϋντική κρέμα κατά των ατελειών | Ducray" — πλήρες όνομα
+  // (σειρά + προϊόν), ενώ το h1 μπορεί να είναι μόνο "Κρέμα κατά των ατελειών".
+  const tt = html.match(/<title>([\s\S]*?)<\/title>/i);
+  if (tt) { const ft = oneLine(tt[1]).replace(/\s*[|–-]\s*(Ducray|A-?Derma|Avène|Klorane|René Furterer|Pierre Fabre)\s*$/i, "").trim(); if (ft) d.fullTitle = ft; }
 
   const infos = innerOfClass(html, "c-product__infos") || html;
   const short = infos.match(/<p[^>]*class="[^"]*u-body-m-caption[^"]*"[^>]*>([\s\S]*?)<\/p>/i);
@@ -154,3 +159,6 @@ export function extractAdermaDetails(rawHtml, url = "") {
   if (images.length) { d.images = images; d.imageLarge = images[0]; }
   return d;
 }
+
+// Το ίδιο template χρησιμοποιούν όλα τα brands της Pierre Fabre (Ducray, Avène, Klorane…).
+export const extractPierreFabreDetails = extractAdermaDetails;

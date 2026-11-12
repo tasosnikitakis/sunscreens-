@@ -10,7 +10,7 @@
 //      Για template-specific εξαγωγή (όπως lib-frezyderm / lib-lamberts)
 //      δηλώνεται extractor στο BRANDS παρακάτω μόλις μελετηθεί ένα δείγμα.
 //
-// Χρήση:
+// Χρήση (σε cloud session με proxy: NODE_USE_ENV_PROXY=1 node scripts/scrape-brand.mjs …):
 //   node scripts/scrape-brand.mjs --brand=aderma
 //   node scripts/scrape-brand.mjs --brand=aderma --limit=20 --debug
 //   node scripts/scrape-brand.mjs --brand=aderma --inspect="https://www.aderma.gr/…/" --dump=samples/aderma-sample.html
@@ -20,7 +20,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { decodeHtml, htmlToText } from "./lib-frezyderm.mjs";
-import { extractAdermaDetails } from "./lib-aderma.mjs";
+import { extractAdermaDetails, extractPierreFabreDetails } from "./lib-aderma.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -32,7 +32,7 @@ const flag = (k) => args.includes(`--${k}`);
 const BRAND = (opt("brand", "") || "").toLowerCase();
 const DEBUG = flag("debug");
 const LIMIT = parseInt(opt("limit", "0")) || Infinity;
-const DELAY_MS = parseInt(opt("delay", "400"));
+let DELAY_MS = parseInt(opt("delay", "0"));
 const INSPECT = opt("inspect", null);
 const DUMP = opt("dump", null);
 const URLS_FILE = opt("urls", null);
@@ -48,11 +48,23 @@ const BRANDS = {
     prefer: /\/p\//i,
     toLocalUrl: u => u,
     extractor: async (html, url) => extractAdermaDetails(html, url)
+  },
+  ducray: {
+    host: "ducray.com",
+    // Διεθνές site με locale στο path: κρατάμε ΜΟΝΟ το ελληνικό product sitemap
+    // (/gr-gr/product.xml) και τις σελίδες προϊόντων του (/gr-gr/p/…)
+    only: /\/gr-gr\/product\.xml$|\/gr-gr\/p\//i,
+    skip: /\/(blog|news|nea|arthra|article|articles|about|contact|stores|store-locator|legal|privacy|cookies|terms|tag|tags|search|cart|account|faq|routine|routines|conseils|advice|symvoules|sitemap|media|files)(\/|$)/i,
+    prefer: /\/gr-gr\/p\//i,
+    toLocalUrl: u => u,
+    delay: 5000,            // robots.txt: Crawl-delay: 5
+    extractor: async (html, url) => extractPierreFabreDetails(html, url)
   }
 };
 const cfg = BRANDS[BRAND];
 if (!cfg) { console.error(`Άγνωστο brand "${BRAND}". Διαθέσιμα: ${Object.keys(BRANDS).join(", ")}`); process.exit(1); }
 const OUT_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
+if (!DELAY_MS) DELAY_MS = cfg.delay || 400;
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15";
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -171,7 +183,7 @@ async function getSitemapUrls() {
     dbg(`sitemap GET ${u}`);
     let t; try { t = await fetchText(u); } catch (e) { dbg(`  ${e.message}`); return; }
     const locs = [...t.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map(m => decodeHtml(m[1]));
-    if (/<sitemapindex/i.test(t)) { for (const c of locs) { await walk(c, depth + 1); await sleep(150); } }
+    if (/<sitemapindex/i.test(t)) { for (const c of locs) { if (cfg.only && !cfg.only.test(c)) continue; await walk(c, depth + 1); await sleep(150); } }
     else for (const l of locs) urls.add(l);
   }
   for (const s of sitemaps) { await walk(s); if (urls.size > 3000) break; }
@@ -232,7 +244,7 @@ async function main() {
   else {
     console.log(`${BRAND}: sitemap discovery στο ${cfg.host}…`);
     const all = await getSitemapUrls();
-    urls = all.filter(u => u.includes(cfg.host) && !cfg.skip.test(u) && !/\.(xml|jpg|jpeg|png|webp|pdf|svg)(\?|$)/i.test(u));
+    urls = all.filter(u => u.includes(cfg.host) && (!cfg.only || cfg.only.test(u)) && !cfg.skip.test(u) && !/\.(xml|jpg|jpeg|png|webp|pdf|svg)(\?|$)/i.test(u));
     urls = [...new Set(urls.map(cfg.toLocalUrl))].sort((a, b) => (cfg.prefer.test(b) ? 1 : 0) - (cfg.prefer.test(a) ? 1 : 0));
     console.log(`Sitemap: ${all.length} URLs → ${urls.length} υποψήφιες σελίδες (κρατούνται μόνο όσες είναι σελίδες προϊόντος).\n`);
   }
