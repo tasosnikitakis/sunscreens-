@@ -68,6 +68,7 @@ function siteProductName(d, fallback) {
   const line = String(d.line || "").replace(/\s+(Πρόσωπο|Μαλλιά|Σώμα)\s*$/i, "").replace(/^Eau Thermale Avène\s*/i, "").trim();
   const first = line.split(/\s+/)[0] || "";
   if (!line || !first || first.length < 3) return title;
+  if (/^(Αντηλιακή φροντίδα|Les Essentiels|Ιαματικό νερό|Body|SunsiMed)/i.test(line)) return title;   // κατηγορία, όχι σειρά
   const norm = x => x.toLowerCase().replace(/[^a-zα-ωά-ώ0-9]/gi, "");
   return norm(title).includes(norm(first)) ? title : `${line} ${title}`;
 }
