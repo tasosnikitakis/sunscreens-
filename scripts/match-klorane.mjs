@@ -43,28 +43,34 @@ const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 // Σειρά προϊόντος → ενότητα καταλόγου (js/klorane-sections.js). Κρίνεται από το
 // slug της σελίδας (λατινική μεταγραφή) + το όνομα supplier/σελίδας + breadcrumb.
 const LINE_RULES = [
-  // Σειρά ελέγχου: πρώτα οι «στενές» κατηγορίες, μετά μαλλιά (σαμπουάν/μαλακτικά/φροντίδα), τέλος πρόσωπο/σώμα.
-  ["sympliromata",  /keratincaps|sympliroma-diatrofis|συμπλήρωμα διατροφής|caps/i],
-  ["vrefika",       /bebe|bébé|vrefi|vrefik|moro|moroy|petit-brin|petit junior|junior|eryteal|panas|kalentoyla|calendula|2-se-1-(ahladi|vatomoyro)|rodakino|peche|poire|framboise|mantilakia|lingettes|μωρομάντηλα|poydra-gia-toys-erethismoys|ΠΟΥΔΡΑ/i],
-  ["antiliaka",     /antiliak|αντηλιακ|meta-ton-ilio|tamanu|monoi|polysianes|spf/i],
+  // Σειρά ελέγχου: πρώτα οι «στενές» κατηγορίες, μετά μαλλιά (σαμπουάν/μαλακτικά/φροντίδα), τέλος σώμα/πρόσωπο.,
+  ["sympliromata",  /keratincaps|sympliroma-diatrofis|συμπλήρωμα διατροφής|\bcaps\b/i],
+  ["vrefika",       /\bbebe\b|bébé|vrefi|vrefik|\bmoro\b|moroy|petit-brin|petit junior|junior|eryteal|panas|kalentoyla|calendula|καλέντουλα|καλεντουλα|2-se-1-(ahladi|vatomoyro)|rodakino|peche|poire|framboise|mantilakia|lingettes|μωρομάντηλα|poydra-gia-toys-erethismoys|ΠΟΥΔΡΑ/i],
+  ["antiliaka",     /antiliak|αντηλιακ|meta-ton-ilio|tamanu|monoi|polysianes|\bspf/i],
   ["trixoptosi",    /trihoptos|τριχοπτ|antichute|growth|kinini|quinine|κινίνη|cure-de-force|cure de force/i],
-  ["xiro-sampouan", /dry-shampoo|shampoing-sec|dry shampoo|shampoo sec|sh\.? sec|sec extra|poydra-3-se-1|ΠΟΥΔΡΑ 3/i],
-  ["sampouan",      /sampoyan|shampoing|shampoo|σαμπουάν|sh\.|mpara-sampoyan|stereo-sampoyan/i],
-  ["malaktika",     /malaktiki-krema|malaktiki krema|μαλακτικ|conditioner|conditoner|apres-shampoo|baume apres|maska-|μάσκα|mask|masque|gelee/i],
-  ["frontida",      /elaio-threpsis|elaio-me-|huile|λάδι|oil|oros-|serum|spray-gia-xemplegma|sprei-me-viologiko-hamomili|spray (camomille|menthe|linum)|eau de brillance|krema-imeras-me-voytyro-mangko|crem jour|cica-oros|mist-me-viologiki-ydatini-menta|krema-exygiansis|exygiantiki|soin anti-age|sans rincage|ylang/i],
-  ["prosopo",       /kyani-kentayria|cornflower|bleuet|prosopo|πρόσωπο|makigiaz|demaq|micellaire|patch|roll-on|roll on|eye|serum reveil|sleeping mask|water cream|paionia-eyaisthito|enydatiki-zel-krema|enydatikos-oros/i],
-  ["soma",          /afroloytro|αφρολουτρο|ΑΦΡΟΛΟΥΤΡΟ|galaktoma-somatos|γαλάκτωμα|ΓΑΛΑΚΤΩΜΑ|sapoyni|σαπούνι|ΣΑΠΟΥΝΙ|savon|ntoys|douche|aposmitiko|deodorant|apotrihos|αποτριχωτ|wax|cold wax|mist-enydatosis-somatos|huile-multi-usages|gel douche|lait de|creme de douche/i]
+  ["prosopo",       /kyani-kentayria|cornflower|bleuet|krema-exygiansis|exygiantiki-poydra|poydra-3-se-1|paionia-eyaisthito|galaktoma-katharismoy-me-viologiki-paionia/i],
+  ["xiro-sampouan", /dry-shampoo|shampoing-sec|dry shampoo|shampoo sec|sh\.? sec|sec extra/i],
+  ["sampouan",      /sampoyan|shampoing|shampoo|σαμπουάν|\bsh\.|mpara-sampoyan|stereo-sampoyan/i],
+  ["malaktika",     /malaktiki-krema|malaktiki krema|μαλακτικ|conditioner|conditoner|apres-shampoo|baume apres|maska-|μάσκα|\bmask|masque|gelee/i],
+  ["soma",          /afroloytro|somatos|σώματος|αφρολουτρο|ΑΦΡΟΛΟΥΤΡΟ|galaktoma-somatos|γαλάκτωμα σώματος|ΓΑΛΑΚΤΩΜΑ (EAU|FLEUR|FEUILLE)|sapoyni|σαπούνι|ΣΑΠΟΥΝΙ|savon|ntoys|douche|aposmitiko|deodorant|apotrihos|αποτριχωτ|cold wax|\bwax\b|huile-multi-usages|gel douche|lait de|creme de douche/i],
+  ["frontida",      /elaio-threpsis|elaio-me-|huile|λάδι|\boil\b|oros-|serum|spray-gia-xemplegma|sprei-me-viologiko-hamomili|spray (camomille|menthe|linum)|eau de brillance|krema-imeras-me-voytyro-mangko|crem jour|cica-oros|mist-me-viologiki-ydatini-menta|soin anti-age|sans rincage|ylang/i],
+  ["prosopo",       /prosopo|πρόσωπο|makigiaz|demaq|micellaire|patch|roll-on|roll on|\beye\b|serum reveil|sleeping mask|water cream|enydatikos-oros/i]
 ];
 // Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
 // αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
 // προτάσσουμε τη σειρά (χωρίς τις λέξεις κατηγορίας "Πρόσωπο"/"Μαλλιά").
 function siteProductName(d, fallback) {
   const title = d.fullTitle || d.title || fallback || "";
+  // Klorane: η «σειρά» είναι το φυτό (Βρώμη, Καλέντουλα…) και οι τίτλοι είναι ήδη
+  // πλήρεις («Σαμπουάν με Βρώμη για όλη την οικογένεια») — δεν προτάσσουμε τίποτα.
+  return title;
   const line = String(d.line || "").replace(/\s+(Πρόσωπο|Μαλλιά|Σώμα)\s*$/i, "").trim();
   const first = line.split(/\s+/)[0] || "";
   if (!line || !first || first.length < 3) return title;
-  const norm = x => x.toLowerCase().replace(/[^a-zα-ωά-ώ0-9]/gi, "");
-  return norm(title).includes(norm(first)) ? title : `${line} ${title}`;
+  if (/^(Υγιεινή σώματος|Αποσμητικά|Γλυκό αμύγδαλο)$/i.test(line)) return title;     // κατηγορία, όχι σειρά
+  const norm = x => x.toLowerCase().replace(/[^a-zα-ωά-ώϊϋΐΰ0-9]/gi, "");
+  const stem = norm(first).slice(0, Math.max(4, norm(first).length - 2));             // Βρώμη→βρώ, Κενταύρια→κενταύρ
+  return norm(title).includes(stem) ? title : `${line} ${title}`;
 }
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
 const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
@@ -190,7 +196,7 @@ async function main() {
         images: d.images || null,
         url: chosen.url,
         source: "klorane.com",
-        section: lineOf(slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
+        section: lineOf(slug, d.line, d.fullTitle, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"
