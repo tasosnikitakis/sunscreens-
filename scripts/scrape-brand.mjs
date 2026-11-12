@@ -60,6 +60,15 @@ const BRANDS = {
     delay: 5000,            // robots.txt: Crawl-delay: 5
     extractor: async (html, url) => extractPierreFabreDetails(html, url)
   },
+  avene: {
+    host: "eau-thermale-avene.gr",
+    only: /\/product\.xml$|\/p\//i,
+    skip: /\/(blog|news|article|articles|about|contact|stores|store-locator|legal|privacy|cookies|terms|tag|tags|search|cart|account|faq|routine|routines|conseils|advice|sitemap|media|files)(\/|$)/i,
+    prefer: /\/p\//i,
+    toLocalUrl: u => u,
+    delay: 5000,            // robots.txt: Crawl-delay: 5
+    extractor: async (html, url) => extractPierreFabreDetails(html, url)
+  },
   klorane: {
     host: "klorane.com",
     only: /\/gr-el\/product\.xml$|\/gr-el\/p\//i,

@@ -68,7 +68,7 @@ export function extractAdermaDetails(rawHtml, url = "") {
   // <title> = "KERACNYL PP+ Καταπραϋντική κρέμα κατά των ατελειών | Ducray" — πλήρες όνομα
   // (σειρά + προϊόν), ενώ το h1 μπορεί να είναι μόνο "Κρέμα κατά των ατελειών".
   const tt = html.match(/<title>([\s\S]*?)<\/title>/i);
-  if (tt) { const ft = oneLine(tt[1]).replace(/\s*[|–-]\s*(Ducray|A-?Derma|Avène|Klorane|René Furterer|Pierre Fabre)\s*$/i, "").trim(); if (ft) d.fullTitle = ft; }
+  if (tt) { const ft = oneLine(tt[1]).replace(/\s*[|–-]\s*(Ducray|A-?Derma|(Eau Thermale )?Av[èe]ne|Klorane|René Furterer|Pierre Fabre)\s*$/i, "").trim(); if (ft) d.fullTitle = ft; }
 
   const infos = innerOfClass(html, "c-product__infos") || html;
   const short = infos.match(/<p[^>]*class="[^"]*u-body-m-caption[^"]*"[^>]*>([\s\S]*?)<\/p>/i);
