@@ -1,0 +1,45 @@
+{
+  "_comment": "Αποσυρμένα προϊόντα A-Derma: υπάρχουν στο Excel του προμηθευτή αλλά ΟΧΙ στο aderma.gr και τα φαρμακεία τα δείχνουν εξαντλημένα/αποσυρμένα. Εξαιρούνται από τον κατάλογο (build-brand-supplier.mjs) και μπαίνουν στη σημείωση ελέγχου reports/Αποσυρμένα προϊόντα.md (scripts/discontinued-report.mjs). status: 'προς επιβεβαίωση' μέχρι να το επιβεβαιώσει ο αντιπρόσωπος, μετά 'επιβεβαιωμένο' ή διαγραφή της εγγραφής αν τελικά κυκλοφορεί.",
+  "3282770209648": {
+    "name": "A-DERMA CUTALGAN SPRAY RAFRAICHISSANT 100ML",
+    "retail": 13.7, "wholesale": 8.01,
+    "status": "προς επιβεβαίωση",
+    "checked": "2026-11-12",
+    "reason": "Η σειρά Cutalgan δεν υπάρχει πλέον στο aderma.gr. Το vita4you.gr το σημειώνει ως «καταργημένο», άλλα φαρμακεία το δείχνουν με λίγα αποθέματα.",
+    "successor": null,
+    "evidence": [
+      "https://www.vita4you.gr/a-derma-cutalgan-spray-100-ml",
+      "https://www.pharm24.gr/aderma-cutalgan-refreshing-spray-anazwogonhtiko-spray-me-kataprayntikes-idiothtes-gia-thn-eyaisthhth-eythraysth-epidermida-100ml-p-31570.html",
+      "https://www.pharmacy295.gr/catalog/farmakeio/protes-voitheies/antiknismodi/product/a-derma-cutalgan-spray-100ml--3282770209648"
+    ]
+  },
+  "3282770037029": {
+    "name": "A-DERMA PHYS-AC GEL MOUSSANT PURIFIANT 400ML",
+    "retail": 17.5, "wholesale": 10.23,
+    "status": "προς επιβεβαίωση",
+    "checked": "2026-11-12",
+    "reason": "Η σειρά Phys-AC αντικαταστάθηκε από τη Biology AC. Vidal (FR): «Supprimé», Redcare (FR): «Retiré du marché». Στα ελληνικά φαρμακεία εμφανίζεται εξαντλημένο.",
+    "successor": "3282770153002",
+    "successorName": "BIOLOGY AC Αφρίζον ζελ καθαρισμού 400ml (στον κατάλογο)",
+    "evidence": [
+      "https://www.vidal.fr/parapharmacie/aderma-physac-gel-moussant-purifiant-136892.html",
+      "https://www.redcare-pharmacie.fr/beaute/BE03097664/a-derma-phys-ac-gel-moussant-purifiant.htm",
+      "https://www.pharmacy295.gr/el/products/a-derma-phys-ac-gel-moussant-purifiant-400ml",
+      "https://www.skroutz.gr/s/9811468/A-Derma-Phys-AC-Purifying-Foaming-Gel-400ml.html"
+    ]
+  },
+  "3282770105865": {
+    "name": "A-DERMA PHYS-AC GLOBAL SOIN IMPERFECTIONS SEVERES 40ML",
+    "retail": 14.6, "wholesale": 9.35,
+    "status": "προς επιβεβαίωση",
+    "checked": "2026-11-12",
+    "reason": "Ενσωματώθηκε στη σειρά Biology AC (Biology AC Global, άλλος κωδικός). Vita4you: «καταργημένο», ofarmakopoiosmou: η σελίδα έχει αφαιρεθεί.",
+    "successor": "3282770388916",
+    "successorName": "BIOLOGY AC Πλήρης φροντίδα κατά των ατελειών 40ml (στον κατάλογο)",
+    "evidence": [
+      "https://www.vita4you.gr/a-derma-global-soin-imperfections-severes-40-ml",
+      "https://www.easypara.fr/a-derma-phys-ac-global-soin-imperfection-severes-40ml.html",
+      "https://skroutz.gr/s/9771091/A-Derma-Phys-AC-Global-Soin-Imperfections-Severes-40ml.html"
+    ]
+  }
+}

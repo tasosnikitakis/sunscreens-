@@ -12,6 +12,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 import { buildXlsx } from "./lib-xlsx.mjs";
+import { writeDiscontinuedReport } from "./discontinued-report.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -379,6 +380,9 @@ async function main() {
     if (!table) { console.log(`Skip ${cfg.name}: κανένα προϊόν (js/${cfg.key}-supplier.js λείπει;)`); continue; }
     await emitTable(table, path.join(ROOT, `${cfg.key}-catalog.csv`), path.join(ROOT, `${cfg.key}-catalog.xlsx`), cfg.name);
   }
+  // Σημείωση ελέγχου αποσυρμένων (js/<brand>-discontinued.json → reports/)
+  const d = await writeDiscontinuedReport();
+  if (d.total) console.log(`Wrote ${path.relative(ROOT, d.file)}: ${d.total} αποσυρμένα (${d.pending} προς επιβεβαίωση)`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
