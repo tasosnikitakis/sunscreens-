@@ -33,6 +33,13 @@ window.BRAND_CATALOGS = {
     sheetName: "A-Derma", imageDir: "aderma", sourceKey: "_adermaSource",
     fallbackDesc: "Προϊόν A-Derma (Pierre Fabre) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  ducray: {
+    key: "ducray", name: "Ducray", host: "ducray.com", page: "ducray.html",
+    icon: "💆", initials: "DU", accent: "#1d4ed8",
+    sheetName: "Ducray", imageDir: "ducray", sourceKey: "_ducraySource",
+    fallbackDesc: "Προϊόν Ducray (Pierre Fabre) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
