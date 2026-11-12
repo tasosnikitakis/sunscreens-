@@ -278,7 +278,7 @@ function buildBrandTable(ctx, manifest, cfg) {
   const headers = [
     "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
     ...TAB_COLUMNS, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
-    "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
+    "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match", "Τιμοκατάλογος"
   ];
   const rows = data.supplier.map(p => {
     const e = enrichmentFor(p.barcode);
@@ -296,11 +296,12 @@ function buildBrandTable(ctx, manifest, cfg) {
     return [
       displayName, e.subtitle || "", p.wholesale || "", p.retail || "", desc, e.claims.join(" · "), e.highlights.join(" • "),
       ...tabCols, e.attributes["Συσκευασία"] || "", otherAttrs, sectionLabel, p.barcode, variants,
-      localImg || e.image || "", e.url || "", e.source || "", e.match
+      localImg || e.image || "", e.url || "", e.source || "", e.match,
+      p.listed === false ? "Μόνο στο site (χωρίς τιμή)" : "Προμηθευτής"
     ];
   });
   return { headers, rows, sheetName: cfg.sheetName, barcodeColIdx: 13,
-    columnWidths: [50, 40, 14, 14, 70, 40, 50, 60, 50, 40, 14, 40, 24, 16, 24, 50, 50, 18, 16] };
+    columnWidths: [50, 40, 14, 14, 70, 40, 50, 60, 50, 40, 14, 40, 24, 16, 24, 50, 50, 18, 16, 24] };
 }
 
 function buildCosmeticsTable(ctx, manifest) {

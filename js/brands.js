@@ -6,6 +6,9 @@
 // js/<key>-sections.js. Τα window variables παράγονται από το key:
 // <KEY>_SUPPLIER, <KEY>_OVERRIDES, <KEY>_SUPPLEMENTAL, <KEY>_SECTION_LABELS.
 //
+// Supplier entries μπορεί να έχουν `listed: false` = προϊόν που υπάρχει στο brand
+// site αλλά ΟΧΙ στον τιμοκατάλογο του προμηθευτή (χωρίς χονδρική τιμή).
+//
 // Το αρχείο φορτώνεται και στον browser (brand-app.js, product.js,
 // catalog-export.js) και στα Node scripts (generate-catalog, sync, fill).
 window.BRAND_CATALOGS = {
@@ -29,7 +32,7 @@ window.BRAND_CATALOGS = {
     icon: "🌾", initials: "AD", accent: "#65a30d",
     sheetName: "A-Derma", imageDir: "aderma", sourceKey: "_adermaSource",
     fallbackDesc: "Προϊόν A-Derma (Pierre Fabre) — {name}",
-    exportSections: ["Χρήση", "Συστατικά", "Προφυλάξεις"]
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 

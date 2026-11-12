@@ -115,14 +115,17 @@ supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το
 Πλήρης ροή για νέα εταιρία (παράδειγμα A-Derma, site aderma.gr):
 
 ```bash
-# 0. (μία φορά) Excel προμηθευτή → supplier.js  [στήλες: κωδικός, barcode, όνομα, λιανική, χονδρική, variants]
-node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx
-
 # 1. Δείγμα σελίδας για μελέτη του template (sanitized, μπορεί να γίνει commit)
 node scripts/scrape-brand.mjs --brand=aderma --inspect="https://www.aderma.gr/<σελίδα προϊόντος>" --dump=samples/aderma-sample.html
 
-# 2. Scrape όλων των σελίδων προϊόντων (sitemap → JSON-LD Product) → js/aderma-site.json
+# 2. Scrape όλων των σελίδων προϊόντων (sitemap → JSON-LD + template extractor scripts/lib-<brand>.mjs) → js/aderma-site.json
 node scripts/scrape-brand.mjs --brand=aderma
+
+# 2b. Excel προμηθευτή → supplier.js  [στήλες: κωδικός, barcode, όνομα, λιανική, χονδρική, variants]
+#     --with-site: προσθέτει ΚΑΙ τα προϊόντα του site που λείπουν από το Excel (listed:false, χωρίς τιμές —
+#     badge "Χωρίς Τιμή" / φίλτρο "χωρίς τιμή προμηθευτή" / στήλη xlsx "Τιμοκατάλογος"), ώστε ο κατάλογος
+#     να δείχνει όλη τη γκάμα του brand. Τρέχει ΜΕΤΑ το scrape.
+node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx --with-site
 
 # 3. Match supplier ↔ σελίδες (manual → GTIN → fuzzy) → overrides + aderma-match-report.csv + unmatched
 node scripts/match-aderma.mjs            # --debug για top-3 ανά προϊόν
@@ -137,4 +140,7 @@ node scripts/generate-catalog.mjs
 ```
 
 Διορθώσεις match: `js/<brand>-manual-matches.json` (barcode → URL, ή `null` =
-δεν έχει σελίδα), μετά ξανά το βήμα 3.
+δεν έχει σελίδα), μετά ξανά το βήμα 3. Για το A-Derma το Excel είναι στα γαλλικά
+και οι σελίδες στα ελληνικά, άρα το fuzzy match είναι αναξιόπιστο: βασιζόμαστε
+στο GTIN (13ψήφιο = το 14ψήφιο του site χωρίς το αρχικό 0) και στα manual
+matches για άλλα μεγέθη του ίδιου προϊόντος (η σελίδα καλύπτει όλα τα μεγέθη).

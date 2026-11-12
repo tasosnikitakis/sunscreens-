@@ -49,6 +49,8 @@ function makeCard(p) {
   const quality = frezydermDescriptionQuality(enrich.description);
   card.dataset.needsReview = quality.ok ? "0" : "1";
   card.dataset.noPage = enrich.noBrandPage ? "1" : "0";
+  // listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο του προμηθευτή
+  card.dataset.noPrice = (p.listed === false || !(p.wholesale > 0)) ? "1" : "0";
   // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
   card.dataset.allOk = (!enrich.noBrandPage && quality.ok && !enrich.review && !!remoteUrl) ? "1" : "0";
   card.dataset.barcode = p.barcode;
@@ -66,7 +68,9 @@ function makeCard(p) {
   imgWrap.innerHTML = `
     <div class="placeholder-bg absolute inset-0 flex items-center justify-center text-white font-bold text-3xl" style="--accent:${accent};--accent-dark:${shade(accent, -20)}">${BRAND.initials}</div>
     ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeText(displayName(p))}" class="absolute inset-0 w-full h-full object-contain p-3 bg-white" onerror="this.remove()">` : ""}
-    <div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>
+    ${p.wholesale > 0
+      ? `<div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>`
+      : `<div class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-violet-600/95 text-white shadow-sm" title="Υπάρχει στο ${escapeText(BRAND.host)} αλλά όχι στον τιμοκατάλογο του προμηθευτή">Χωρίς Τιμή</div>`}
     ${topBadge}${descBadge}
   `;
   card.appendChild(imgWrap);
@@ -116,7 +120,8 @@ const QUALITY_LABEL = {
   issue:      "με κάποιο θέμα",
   complete:   "με πλήρη περιγραφή",
   incomplete: "με ανεπαρκή περιγραφή",
-  nopage:     `χωρίς σελίδα ${BRAND.host}`
+  nopage:     `χωρίς σελίδα ${BRAND.host}`,
+  noprice:    "χωρίς τιμή προμηθευτή"
 };
 
 function passesQuality(card, mode) {
@@ -125,6 +130,7 @@ function passesQuality(card, mode) {
   if (mode === "complete")   return card.dataset.needsReview === "0";
   if (mode === "incomplete") return card.dataset.needsReview === "1";
   if (mode === "nopage")     return card.dataset.noPage === "1";
+  if (mode === "noprice")    return card.dataset.noPrice === "1";
   return true;
 }
 

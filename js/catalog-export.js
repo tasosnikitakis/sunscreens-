@@ -1,4 +1,4 @@
-// Export φιλτραρισμένων προϊόντων σε XLSX από τον browser (Frezyderm, Lamberts).
+// Export φιλτραρισμένων προϊόντων σε XLSX από τον browser (Frezyderm, Lamberts, A-Derma).
 // Ίδιες στήλες με τα αρχεία που παράγει το scripts/generate-catalog.mjs —
 // αν αλλάξουν εκεί, αλλάζουν κι εδώ. Χρησιμοποιεί SheetJS (window.XLSX) αν
 // έχει φορτωθεί, αλλιώς πέφτει σε CSV (UTF-8 BOM, ';').
@@ -10,7 +10,7 @@ window.CatalogExport = (() => {
     const headers = [
       "Όνομα", "Υπότιτλος", "Χονδρική τιμή (€)", "Λιανική τιμή (€)", "Περιγραφή", "Ιδιότητες", "Βασικά χαρακτηριστικά",
       ...tabColumns, "Συσκευασία", "Χαρακτηριστικά", "Κατηγορία", "Barcode (EAN)", "Παραλλαγές (variants)",
-      "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match"
+      "Φωτογραφία", "URL επίσημου site", "Πηγή", "Match", "Τιμοκατάλογος"
     ];
     const rows = products.map(p => {
       const e = enrichmentFor(p.barcode);
@@ -29,7 +29,8 @@ window.CatalogExport = (() => {
         e.description || fallbackDesc(p), (e.claims || []).join(" · "), (e.highlights || []).join(" • "),
         ...tabColumns.map(t => sections[t] || ""), attrs["Συσκευασία"] || "", otherAttrs, sectionLabel,
         p.barcode, (p.variants || []).filter(v => v !== p.barcode).join(", "),
-        localImg || e.image || "", e.url || "", e.source || "", match
+        localImg || e.image || "", e.url || "", e.source || "", match,
+        p.listed === false ? "Μόνο στο site (χωρίς τιμή)" : "Προμηθευτής"
       ];
     });
     return { headers, rows };

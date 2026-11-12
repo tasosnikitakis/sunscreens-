@@ -19,7 +19,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { decodeHtml, htmlToText, loadWindowFile } from "./lib-frezyderm.mjs";
+import { decodeHtml, htmlToText } from "./lib-frezyderm.mjs";
+import { extractAdermaDetails } from "./lib-aderma.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -44,8 +45,9 @@ const BRANDS = {
     // Σελίδες που σίγουρα δεν είναι προϊόντα
     skip: /\/(blog|news|nea|arthra|article|articles|about|sxetika|contact|epikoinonia|stores|store-locator|legal|privacy|cookies|terms|tag|tags|search|cart|account|faq|routine|routines|conseils|advice|symvoules|sitemap|wp-content|wp-json|feed|node|user|taxonomy|media|files)(\/|$)/i,
     // Προτίμηση διαδρομών προϊόντων (αν υπάρχουν — αλλιώς κρίνει το JSON-LD)
-    prefer: /\/(product|products|produit|produits|proion|proionta|skin-care|soins)(\/|-)/i,
-    toLocalUrl: u => u
+    prefer: /\/p\//i,
+    toLocalUrl: u => u,
+    extractor: async (html, url) => extractAdermaDetails(html, url)
   }
 };
 const cfg = BRANDS[BRAND];
@@ -196,9 +198,10 @@ async function scrapeProduct(url) {
     name: decodeHtml(String(name)).replace(/\s+/g, " ").trim(),
     description: htmlToText((ld && ld.description) || meta.description || "").replace(/\s+/g, " ").trim().slice(0, 700),
     longDescription: details.description || genericLongDescription(html, ld),
+    subtitle: details.subtitle || null,
     details,
     image: details.imageLarge || (ld && ld.image) || meta.image || null,
-    sku: ld && ld.sku || null, gtin: ld && ld.gtin ? String(ld.gtin) : null
+    sku: ld && ld.sku || null, gtin: (details.gtin || (ld && ld.gtin) || (url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1] || null) && String(details.gtin || (ld && ld.gtin) || url.match(/-(\d{13})-[a-z0-9]+\/?$/i)[1])
   };
 }
 
