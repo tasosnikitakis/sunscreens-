@@ -21,6 +21,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { decodeHtml, htmlToText } from "./lib-frezyderm.mjs";
 import { extractAdermaDetails, extractPierreFabreDetails } from "./lib-aderma.mjs";
+import { extractLrpDetails, isLrpProductPage } from "./lib-lrp.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -69,6 +70,17 @@ const BRANDS = {
     delay: 5000,            // robots.txt: Crawl-delay: 5
     extractor: async (html, url) => extractPierreFabreDetails(html, url)
   },
+  lrp: {
+    // La Roche-Posay (L'Oréal / Sitecore): σελίδες προϊόντων = /<σειρά>/<slug>, χωρίς JSON-LD Product
+    host: "larocheposay.gr",
+    only: /^https:\/\/www\.larocheposay\.gr\/(?!article\/|event\/)[a-z0-9-]+\/[a-z0-9-]+\/?$/i,
+    skip: /\/(article|event|farmakeia|accounts|search|sitecore|api|diagonismos)(\/|$)/i,
+    prefer: /\/(anthelios|effaclar|toleriane|lipikar|cicaplast|hyalu-b5|mela-b3|hydraphase|kerium|nutritic|vitamin-c|retinol|toleriane-make-up)\//i,
+    toLocalUrl: u => u,
+    delay: 1500,
+    isProduct: html => isLrpProductPage(html),
+    extractor: async (html, url) => extractLrpDetails(html, url)
+  },
   klorane: {
     host: "klorane.com",
     only: /\/gr-el\/product\.xml$|\/gr-el\/p\//i,
@@ -89,7 +101,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const dbg = (...a) => { if (DEBUG) console.log("   ", ...a); };
 
 async function fetchText(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "el-GR,el;q=0.9,en;q=0.5" }, redirect: "follow" });
+  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "el-GR,el;q=0.9,en;q=0.5" }, redirect: "follow", signal: AbortSignal.timeout(45000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 }
@@ -153,6 +165,7 @@ function extractBreadcrumbs(html) {
 }
 
 function isProductPage(html, meta, ld) {
+  if (cfg.isProduct) return cfg.isProduct(html);
   if (ld) return true;
   if (meta.type && /product/i.test(meta.type)) return true;
   if (/itemtype=["']https?:\/\/schema\.org\/Product["']/i.test(html)) return true;

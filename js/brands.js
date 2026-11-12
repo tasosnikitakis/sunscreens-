@@ -54,6 +54,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Avene", imageDir: "avene", sourceKey: "_aveneSource",
     fallbackDesc: "Προϊόν Eau Thermale Avène (Pierre Fabre) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  lrp: {
+    key: "lrp", name: "La Roche-Posay", host: "larocheposay.gr", page: "lrp.html",
+    icon: "🔬", initials: "LRP", accent: "#0369a1",
+    sheetName: "La Roche-Posay", imageDir: "lrp", sourceKey: "_lrpSource",
+    fallbackDesc: "Προϊόν La Roche-Posay (L'Oréal) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
@@ -68,11 +75,14 @@ window.BRAND_CATALOGS_UTIL = {
   prettify(raw, cfg) {
     if (!raw) return "";
     const titled = String(raw)
-      .replace(/[A-Z]{2,}/g, m => m[0] + m.slice(1).toLowerCase())
-      .replace(/(\d)(Ml|Gr|Mg|Iu|Kg|L|G)\b/g, (m, d, u) => d + u.toLowerCase());   // 400Ml → 400ml
+      .replace(/[A-ZÀ-ÖØ-Þ]{2,}/g, m => m[0] + m.slice(1).toLowerCase())              // CRÈME → Crème
+      .replace(/(\d)\s?(Ml|Gr|Mg|Iu|Kg|L|G)\b/g, (m, d, u) => d + " " .trim() + u.toLowerCase())    // 400Ml / 30 ML → 400ml / 30ml
+      // Γνωστά ακρωνύμια μένουν κεφαλαία: SPF, UV/UVA/UVB, XL, BB/CC, HA, B3/B5, KA, DP, AP+M, PP+, A.D, DS, AC, PSO, SOS, AHA/BHA, INCI
+      .replace(/\b(Spf|Uva|Uvb|Uv|Xl|Bb|Cc|Ha|Ka|Dp|Ap|Pp|Ad|Ds|Ac|Pso|Sos|Aha|Bha|Inci|Lrp|Med|Defi|Nf|Rp|Nc|Cica)(?![a-zà-ÿ])/g, m => m.toUpperCase());
     const trimmed = titled.replace(/\s+/g, " ").trim();
     const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
     if (brandRe.test(trimmed)) return trimmed.replace(brandRe, cfg.name);
+    if (cfg.key === "lrp" && /^L\s?R\s+Posay\b/i.test(trimmed)) return trimmed.replace(/^L\s?R\s+Posay\b/i, cfg.name);
     return cfg.name + " " + trimmed;
   },
   // Σελίδα στο brand site (override) → ΜΟΝΟ αυτή· αλλιώς fallback φαρμακείου.

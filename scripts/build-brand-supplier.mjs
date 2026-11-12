@@ -39,7 +39,8 @@ const DRY = flag("dry-run");
 const WITH_SITE = flag("with-site");
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
 const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
-const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
+const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (π.χ. LRP-CA024786) για προϊόντα χωρίς EAN στο site
+  const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
 if (!BRAND || (!XLSX && !WITH_SITE)) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--with-site] [--cols=...] [--skip=N]\n       node scripts/build-brand-supplier.mjs --brand=<key> --with-site   (μόνο από το brand site, χωρίς Excel/τιμές)"); process.exit(1); }
 
 const OUT_FILE = path.join(ROOT, `js/${BRAND}-supplier.js`);
@@ -145,12 +146,18 @@ async function main() {
     try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
     const known = new Set(products.flatMap(p => p.variants));
     for (const sp of site) {
-      const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
-      if (!g || known.has(g) || isDiscontinued(g)) continue;
-      known.add(g);
       const name = String(sp.name || "").replace(/\s+/g, " ").trim();
-      products.push({ barcode: g, name, retail: 0, wholesale: 0, variants: [g], listed: false });
-      fromSite++;
+      // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):
+      // μία εγγραφή ανά παραλλαγή, με το μέγεθος στο όνομα.
+      const vars = ((sp.details && sp.details.variants) || []).map(v => ({ g: gtin13(v.ean), size: v.size || "" })).filter(v => v.g);
+      const entries = vars.length ? vars : [{ g: gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]), size: "" }];
+      for (const { g, size } of entries) {
+        if (!g || known.has(g) || isDiscontinued(g)) continue;
+        known.add(g);
+        const nm = size && !new RegExp(size.replace(/\s+/g, "\\s*"), "i").test(name) ? `${name} ${size}` : name;
+        products.push({ barcode: g, name: nm, retail: 0, wholesale: 0, variants: [g], listed: false });
+        fromSite++;
+      }
     }
     console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`);
   }
