@@ -10,6 +10,9 @@
 // Χρήση:
 //   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx
 //   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx --cols=code,barcode,name,retail,wholesale,variants --skip=0
+//   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx --with-site
+//       → προσθέτει ΚΑΙ τα προϊόντα του js/<brand>-site.json που δεν υπάρχουν στο Excel
+//         (listed:false, χωρίς τιμές) — ο κατάλογος δείχνει όλη τη γκάμα του brand site
 //   --dry-run  δείχνει τι θα γραφτεί
 
 import fs from "node:fs/promises";
@@ -29,6 +32,9 @@ const XLSX = opt("xlsx", null);
 const COLS = opt("cols", "code,barcode,name,retail,wholesale,variants").split(",").map(s => s.trim());
 const SKIP = parseInt(opt("skip", "0"));
 const DRY = flag("dry-run");
+const WITH_SITE = flag("with-site");
+const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
+const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
 if (!BRAND || !XLSX) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--cols=...] [--skip=N]"); process.exit(1); }
 
 const OUT_FILE = path.join(ROOT, `js/${BRAND}-supplier.js`);
@@ -108,13 +114,32 @@ async function main() {
   }
   const products = [...byBarcode.values()];
   console.log(`${XLSX}: ${rows.length} γραμμές → ${products.length} προϊόντα (${skippedHeader} γραμμές χωρίς barcode, ${dupes.length} διπλά barcode)`);
+
+  // Προϊόντα του brand site που λείπουν από τον τιμοκατάλογο: μπαίνουν χωρίς τιμές
+  // (listed:false), με barcode το GTIN της σελίδας, ώστε το match να είναι ακριβές.
+  let fromSite = 0;
+  if (WITH_SITE) {
+    let site = [];
+    try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
+    const known = new Set(products.flatMap(p => p.variants));
+    for (const sp of site) {
+      const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
+      if (!g || known.has(g)) continue;
+      known.add(g);
+      const name = String(sp.name || "").replace(/\s+/g, " ").trim();
+      products.push({ barcode: g, name, retail: 0, wholesale: 0, variants: [g], listed: false });
+      fromSite++;
+    }
+    console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`);
+  }
   for (const d of dupes) console.log(`  διπλό ${d.barcode}: κράτησα λιανική/χονδρική ${d.kept}, αγνόησα ${d.dropped}`);
   const fixed = products.filter(p => /È/.test(p.name)).length;
   if (fixed) console.log(`  διορθώθηκε κωδικοποίηση (CRÈME) σε ${fixed} ονόματα`);
   if (DRY) { for (const p of products) console.log(`  ${p.barcode} ${p.name} | ${p.retail} / ${p.wholesale} | ${p.variants.join(",")}`); return; }
 
-  const banner = `// Auto-generated από supplier Excel (${path.basename(XLSX)}) με το scripts/build-brand-supplier.mjs.\n`
-    + "// Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.\n//\n"
+  const banner = `// Auto-generated από supplier Excel (${path.basename(XLSX)}) με το scripts/build-brand-supplier.mjs${WITH_SITE ? " --with-site" : ""}.\n`
+    + "// Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.\n"
+    + (WITH_SITE ? `// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).\n` : "") + "//\n"
     + `// Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/${BRAND}-overrides.js.\n\n`;
   const body = products.map(p => "  " + JSON.stringify(p)).join(",\n");
   await fs.writeFile(OUT_FILE, `${banner}window.${VAR} = [\n${body}\n];\n`, "utf8");

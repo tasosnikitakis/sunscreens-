@@ -38,16 +38,26 @@ const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); ret
 const flag = (k) => args.includes(`--${k}`);
 const DEBUG = flag("debug");
 const ONLY = opt("barcode", null);
-const MIN_SCORE = parseFloat(opt("min-score", "6"));
-const HIGH_SCORE = parseFloat(opt("high-score", "11"));
+const MIN_SCORE = parseFloat(opt("min-score", "9"));
+const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 
-// Σειρά προϊόντος → ενότητα καταλόγου (js/aderma-sections.js)
+// Σειρά προϊόντος → ενότητα καταλόγου (js/aderma-sections.js). Κρίνεται από το
+// slug της σελίδας (λατινική μεταγραφή) + το όνομα supplier/σελίδας + breadcrumb.
 const LINE_RULES = [
-  ["exomega", /exomega/i], ["epitheliale", /epitheliale|epith[eé]liale/i], ["dermalibour", /dermalibour/i],
-  ["biology", /biology/i], ["phys-ac", /phys[\s-]?ac/i], ["primalba", /primalba/i],
-  ["cutalgan", /cutalgan/i], ["cytelium", /cytelium/i], ["protect", /\bprotect\b|solaire|sun/i]
+  ["exomega",        /exomega|allergo|knismoy|κνησμ/i],
+  ["biology-ac",     /biology[\s-]?ac/i],
+  ["biology",        /biology|dermatologiki-|mikyllia|dermatologik/i],
+  ["protect",        /\bprotect\b|antiliak|αντηλιακ|meta-ton-ilio|solaire|spf/i],
+  ["epitheliale",    /epitheliale|ultra-repair|simadion|σημαδι|epanorthos|επανορθ/i],
+  ["dermalibour",    /dermalibour|cica/i],
+  ["primalba",       /primalba|vrefi|vrefik|βρεφ|panas|πάνας/i],
+  ["indispensables", /indispensables|the-essentials|herion|χεριών|genikis-hrisis|somatos-gia-24ori|72oris|katharismoy-gia-to-xiro|ydato-prostateytiko|kremodes-katharistiko/i],
+  ["cytelium",       /cytelium|xirantik|ξηραντικ/i],
+  ["cutalgan",       /cutalgan/i],
+  ["phys-ac",        /phys[\s-]?ac/i]
 ];
-const lineOf = s => (LINE_RULES.find(([, re]) => re.test(s || "")) || ["diafora"])[0];
+const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
+const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
 
 function extractVolume(s) {
   if (!s) return null;
@@ -101,7 +111,9 @@ async function main() {
   const idf = matcher.buildIdf(site);
   const byGtin = new Map(), byUrl = new Map();
   for (const sp of site) {
-    if (sp.gtin) byGtin.set(String(sp.gtin).trim(), sp);
+    // GTIN: το JSON-LD δίνει 14ψήφιο με 0 μπροστά ("03282770072730"), το URL το 13ψήφιο
+    const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
+    if (g) { sp.gtin = g; byGtin.set(g, sp); }
     byUrl.set(normUrl(sp.url), sp);
   }
   console.log(`Site: ${site.length} σελίδες (${byGtin.size} με GTIN), IDF λεξιλόγιο ${idf.size} tokens.`);
@@ -144,26 +156,31 @@ async function main() {
 
     if (chosen) {
       const d = chosen.details || {};
-      const { description, claims } = cleanLongDescription(chosen.longDescription || d.description || chosen.description || "");
-      const highlights = [];
+      const { description, claims } = cleanLongDescription(d.description || chosen.longDescription || chosen.description || "");
+      // Πλεονεκτήματα (bullets της σελίδας) → "Βασικά χαρακτηριστικά"· σύντομα claims → pills
+      const highlights = [...(d.advantages || [])];
       for (const c of (d.keyFacts || [])) { const t = c.length <= 45 ? claims : highlights; if (!t.some(x => x.toLowerCase() === c.toLowerCase())) t.push(c); }
       const attributes = Object.assign({}, d.attributes || {});
-      if (d.size) attributes["Συσκευασία"] = d.size;
-      else { const v = extractVolume(p.name); if (v) attributes["Συσκευασία"] = v; }
+      // Μέγεθος: του supplier αν το ξέρουμε (η σελίδα καλύπτει πολλά μεγέθη), αλλιώς της σελίδας
+      const supplierVol = extractVolume(p.name);
+      if (supplierVol) attributes["Συσκευασία"] = supplierVol.replace(/g$/, "g");
+      else if (d.size) attributes["Συσκευασία"] = d.size;
       if (d.category) attributes["Κατηγορία aderma.gr"] = d.category;
-      if (chosen.sku) attributes["Κωδικός"] = chosen.sku;
+      if (d.line) attributes["Σειρά"] = d.line;
       const sections = {};
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
+      const slug = chosen.url.split("/p/")[1] || chosen.url;
       overrides[p.barcode] = {
         name: cleanSiteName(d.title || chosen.name),
-        subtitle: d.subtitle || null,
-        description: description || null,
+        subtitle: d.subtitle || chosen.subtitle || d.shortDescription || null,
+        description: description || d.shortDescription || null,
         claims, highlights, attributes, sections,
         image: d.imageLarge || chosen.image || null,
         imageFallback: chosen.image || null,
+        images: d.images || null,
         url: chosen.url,
         source: "aderma.gr",
-        section: lineOf(chosen.name + " " + chosen.url) !== "diafora" ? lineOf(chosen.name + " " + chosen.url) : lineOf(p.name),
+        section: lineOf(slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"

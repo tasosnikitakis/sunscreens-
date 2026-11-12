@@ -1,5 +1,6 @@
-// Auto-generated από supplier Excel (Aderma.xlsx) με το scripts/build-brand-supplier.mjs.
+// Auto-generated από supplier Excel (Aderma.xlsx) με το scripts/build-brand-supplier.mjs --with-site.
 // Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.
+// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).
 //
 // Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/aderma-overrides.js.
 
@@ -27,5 +28,52 @@ window.ADERMA_SUPPLIER = [
   {"barcode":"3282770149753","name":"A-DERMA EXOMEGA CONTROL LAIT COSMETIC STERILE 200ML","retail":22.2,"wholesale":12.97,"variants":["3282770149753","3282770110166","3282770073065"]},
   {"barcode":"3282770037029","name":"A-DERMA PHYS-AC GEL MOUSSANT PURIFIANT 400ML","retail":17.5,"wholesale":10.23,"variants":["3282770037029"]},
   {"barcode":"3282770105865","name":"A-DERMA PHYS-AC GLOBAL SOIN IMPERFECTIONS SEVERES 40ML","retail":14.6,"wholesale":9.35,"variants":["3282770105865"]},
-  {"barcode":"3282770145991","name":"A-DERMA PRIMALBA GEL LAVANT DOUCEUR 500ML","retail":12.7,"wholesale":8.89,"variants":["3282770145991","3282779309110"]}
+  {"barcode":"3282770145991","name":"A-DERMA PRIMALBA GEL LAVANT DOUCEUR 500ML","retail":12.7,"wholesale":8.89,"variants":["3282770145991","3282779309110"]},
+  {"barcode":"3282770072730","name":"Αντηλιακό σπρέι υψηλής προστασίας SPF50+","retail":0,"wholesale":0,"variants":["3282770072730"],"listed":false},
+  {"barcode":"3282770072778","name":"Επανορθωτικό ενυδατικό γαλάκτωμα για μετά τον ήλιο","retail":0,"wholesale":0,"variants":["3282770072778"],"listed":false},
+  {"barcode":"3282770072761","name":"Αντηλιακή κρέμα SPF50+","retail":0,"wholesale":0,"variants":["3282770072761"],"listed":false},
+  {"barcode":"3282770110234","name":"Αντηλιακό γαλάκτωμα SPF 50+","retail":0,"wholesale":0,"variants":["3282770110234"],"listed":false},
+  {"barcode":"3282770110258","name":"Παιδικό αντηλιακό γαλάκτωμα SPF 50+","retail":0,"wholesale":0,"variants":["3282770110258"],"listed":false},
+  {"barcode":"3282770202144","name":"Εξαιρετικά λεπτόρρευστη αντηλιακή κρέμα προσώπου SPF 50+","retail":0,"wholesale":0,"variants":["3282770202144"],"listed":false},
+  {"barcode":"3282770072747","name":"Παιδικό αντηλιακό σπρέι υψηλής προστασίας SPF50+","retail":0,"wholesale":0,"variants":["3282770072747"],"listed":false},
+  {"barcode":"3282770030211","name":"Λεπτόρρευστο Γαλάκτωμα Σώματος 24ωρης ενυδάτωσης","retail":0,"wholesale":0,"variants":["3282770030211"],"listed":false},
+  {"barcode":"3282770049374","name":"24ωρη Απαλή Κρέμα Φροντίδας για Βρέφη","retail":0,"wholesale":0,"variants":["3282770049374"],"listed":false},
+  {"barcode":"3282770015225","name":"Εξαιρετικά πλούσιο ζελ καθαρισμού για το ξηρό δέρμα","retail":0,"wholesale":0,"variants":["3282770015225"],"listed":false},
+  {"barcode":"3282770114843","name":"Κρέμα Χεριών","retail":0,"wholesale":0,"variants":["3282770114843"],"listed":false},
+  {"barcode":"3282779410168","name":"Ζελ Καθαρισμού 2 σε 1 για το Ευαίσθητο Βρεφικό Δέρμα","retail":0,"wholesale":0,"variants":["3282779410168"],"listed":false},
+  {"barcode":"3282770108668","name":"Υδατο-προστατευτικό ζελ καθαρισμού","retail":0,"wholesale":0,"variants":["3282770108668"],"listed":false},
+  {"barcode":"3282770142341","name":"Universal Ενυδατική Κρέμα","retail":0,"wholesale":0,"variants":["3282770142341"],"listed":false},
+  {"barcode":"3282770072754","name":"Λεπτόρρευστη αντηλιακή κρέμα προσώπου για ματ αποτέλεσμα SPF 50+","retail":0,"wholesale":0,"variants":["3282770072754"],"listed":false},
+  {"barcode":"3282770072716","name":"Αντηλιακή κρέμα SPF50+","retail":0,"wholesale":0,"variants":["3282770072716"],"listed":false},
+  {"barcode":"3282770104790","name":"Καταπραϋντική ξηραντική λοσιόν","retail":0,"wholesale":0,"variants":["3282770104790"],"listed":false},
+  {"barcode":"3282770114768","name":"Κρέμα για την αλλαγή της πάνας","retail":0,"wholesale":0,"variants":["3282770114768"],"listed":false},
+  {"barcode":"3282770145021","name":"Εξυγιαντικό Αφρίζον CICA-Ζελ","retail":0,"wholesale":0,"variants":["3282770145021"],"listed":false},
+  {"barcode":"3282770142013","name":"Επανορθωτικό Eξυγιαντικό CICA-Στικ","retail":0,"wholesale":0,"variants":["3282770142013"],"listed":false},
+  {"barcode":"3282770145984","name":"Ενυδατικό Γαλάκτωμα Καθαρισμού για Βρέφη","retail":0,"wholesale":0,"variants":["3282770145984"],"listed":false},
+  {"barcode":"3282770143744","name":"Μαλακτικό Αφρίζον Ζελ Καθαρισμού Κατά του Αισθήματος Κνησμού","retail":0,"wholesale":0,"variants":["3282770143744"],"listed":false},
+  {"barcode":"3282770144062","name":"Εξαιρετικά Πλούσιο Ζελ Καθαρισμού για το Ξηρό Δέρμα","retail":0,"wholesale":0,"variants":["3282770144062"],"listed":false},
+  {"barcode":"3282770141962","name":"Επανορθωτική Εξυγιαντική CICA-κρέμα","retail":0,"wholesale":0,"variants":["3282770141962"],"listed":false},
+  {"barcode":"3282770145908","name":"Υδατο-προστατευτικό ζελ καθαρισμού","retail":0,"wholesale":0,"variants":["3282770145908"],"listed":false},
+  {"barcode":"3282770144246","name":"Έλαιο για μασάζ κατά των δερματικών σημαδιών","retail":0,"wholesale":0,"variants":["3282770144246"],"listed":false},
+  {"barcode":"3282770146530","name":"Ενυδατικό γαλάκτωμα καθαρισμού με μικύλλια","retail":0,"wholesale":0,"variants":["3282770146530"],"listed":false},
+  {"barcode":"3282770146578","name":"Ενυδατικό νερό καθαρισμού με μικύλλια","retail":0,"wholesale":0,"variants":["3282770146578"],"listed":false},
+  {"barcode":"3282770146615","name":"Δερματολογική εμπλουτισμένη ενυδατική κρέμα","retail":0,"wholesale":0,"variants":["3282770146615"],"listed":false},
+  {"barcode":"3282770146646","name":"Δερματολογική ελαφριά ενυδατική κρέμα","retail":0,"wholesale":0,"variants":["3282770146646"],"listed":false},
+  {"barcode":"3282770146691","name":"Δερματολογική φροντίδα κατά της ερυθρότητας","retail":0,"wholesale":0,"variants":["3282770146691"],"listed":false},
+  {"barcode":"3282770146677","name":"Δερματολογική Καταπραϋντική φροντίδα","retail":0,"wholesale":0,"variants":["3282770146677"],"listed":false},
+  {"barcode":"3282770143683","name":"Επανορθωτικό CICA-Βάλσαμο Χειλιών","retail":0,"wholesale":0,"variants":["3282770143683"],"listed":false},
+  {"barcode":"3282770149777","name":"Μαλακτικό σπρέι κατά του αισθήματος κνησμού","retail":0,"wholesale":0,"variants":["3282770149777"],"listed":false},
+  {"barcode":"3282770388701","name":"Μαλακτικό έλαιο καθαρισμού κατά του αισθήματος κνησμού","retail":0,"wholesale":0,"variants":["3282770388701"],"listed":false},
+  {"barcode":"3282770149807","name":"EXOMEGA ALLERGO Αποστειρωμένο Μαλακτικό βάλσαμο","retail":0,"wholesale":0,"variants":["3282770149807"],"listed":false},
+  {"barcode":"3282770154276","name":"Ενυδατική κρέμα χεριών και νυχιών","retail":0,"wholesale":0,"variants":["3282770154276"],"listed":false},
+  {"barcode":"3282770154085","name":"Ενυδατικός - προστατευτικός Δερματολογικός αφρός καθαρισμού","retail":0,"wholesale":0,"variants":["3282770154085"],"listed":false},
+  {"barcode":"3282770388886","name":"BIOLOGY AC Φροντίδα κατά των ατελειών και κατά των σημαδιών","retail":0,"wholesale":0,"variants":["3282770388886"],"listed":false},
+  {"barcode":"3282770153033","name":"BIOLOGY AC Νερό καθαρισμού & ντεμακιγιάζ με μικύλλλια","retail":0,"wholesale":0,"variants":["3282770153033"],"listed":false},
+  {"barcode":"3282770388916","name":"Πλήρης φροντίδα κατά των ατελειών που χαρίζει ματ όψη","retail":0,"wholesale":0,"variants":["3282770388916"],"listed":false},
+  {"barcode":"3282770396553","name":"Ενυδατικό κρεμώδες καθαριστικό","retail":0,"wholesale":0,"variants":["3282770396553"],"listed":false},
+  {"barcode":"3282770396539","name":"Εξαιρετικά Πλούσιο Ζελ Καθαρισμού για το Ξηρό Δέρμα","retail":0,"wholesale":0,"variants":["3282770396539"],"listed":false},
+  {"barcode":"3282770397673","name":"Επανορθωτική μαλακτική κρέμα νυκτός","retail":0,"wholesale":0,"variants":["3282770397673"],"listed":false},
+  {"barcode":"3282770398557","name":"Ορός πολλαπλής επανόρθωσης","retail":0,"wholesale":0,"variants":["3282770398557"],"listed":false},
+  {"barcode":"3282770398564","name":"Ορός επανόρθωσης λάμψης","retail":0,"wholesale":0,"variants":["3282770398564"],"listed":false},
+  {"barcode":"3282770399080","name":"Λοσιόν σώματος 72ωρης ενυδάτωσης","retail":0,"wholesale":0,"variants":["3282770399080"],"listed":false}
 ];

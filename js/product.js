@@ -202,7 +202,7 @@ function render({ product: p, brands, catalog }) {
 
         <div class="mt-5 flex items-baseline gap-3">
           <span class="text-3xl font-bold text-slate-900">${(() => { const pr = isBrand ? p.wholesale : p.price; return pr > 0 ? fmtPrice(pr) : "—"; })()}</span>
-          <span class="text-sm text-slate-500">χονδρική τιμή${isCosmetic && p.vat ? ` (ΦΠΑ ${p.vat}%)` : ""}</span>
+          <span class="text-sm text-slate-500">${isBrand && p.listed === false ? `χωρίς τιμή προμηθευτή — υπάρχει μόνο στο ${escapeHtml(brandCfg.host)}` : `χονδρική τιμή${isCosmetic && p.vat ? ` (ΦΠΑ ${p.vat}%)` : ""}`}</span>
         </div>
 
         <p class="mt-6 text-slate-700 leading-relaxed" id="description">${
