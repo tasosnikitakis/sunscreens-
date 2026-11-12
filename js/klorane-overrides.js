@@ -1345,8 +1345,8 @@ window.KLORANE_OVERRIDES = {
       "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
       "Συστατικά": "κυανή Κενταύρια\nINCI: WATER (AQUA). GLYCERIN. PENTYLENE GLYCOL. BUTYLENE GLYCOL. CENTAUREA CYANUS FLOWER WATER*. ALOE BARBADENSIS LEAF JUICE POWDER*. CITRIC ACID. COCO-GLUCOSIDE. ETHYL LAUROYL ARGINATE HCL. POLYGLYCERYL-4 CAPRATE. POLYGLYCERYL-6 CAPRYLATE"
     },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
     "images": [
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
@@ -3203,8 +3203,8 @@ window.KLORANE_OVERRIDES = {
       "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
       "Συστατικά": "INCI: WATER (AQUA). SODIUM LAURETH SULFATE. LAURYL BETAINE. DECYL GLUCOSIDE. CAPRYLYL GLYCOL. CETEARETH-60 MYRISTYL GLYCOL. CITRIC ACID. COCO-GLUCOSIDE. FRAGRANCE (PARFUM). GLYCERYL OLEATE. GREEN 3 (CI 42053). HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS ANNUUS SEED OIL). HYDROGENATED PALM GLYCERIDES CITRATE. PEG-7 GLYCERYL COCOATE. PHENOXYETHANOL. SODIUM BENZOATE. SODIUM CHLORIDE. THEOBROMA GRANDIFLORUM SEED BUTTER. TOCOPHEROL. YELLOW 5 (CI 19140)"
     },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y/pf_square/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y/pf_square/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y?t=resize&width=800&height=800",
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy/pf_square/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy/pf_square/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy?t=resize&width=800&height=800",
     "images": [
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y/pf_square/u5wa3z31qn5sjixw1kk89nqfcg9phkwz4qu384y?t=resize&width=800&height=800",
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy/pf_square/u5wa3z31qn5sey1djegmtq7chzhitc8msdhumpy?t=resize&width=800&height=800"
@@ -3704,8 +3704,8 @@ window.KLORANE_OVERRIDES = {
       "Χρήση": "Συχνότητα χρήσης: Μια φορά την ημέρα",
       "Συστατικά": "Μάνγκο\nINCI: WATER (AQUA)*. CETEARYL ALCOHOL*. ETHYLHEXYL PALMITATE*. DICAPRYLYL CARBONATE*. BEHENAMIDOPROPYL DIMETHYLAMINE*. MANGIFERA INDICA (MANGO) SEED BUTTER (MANGIFERA INDICA SEED BUTTER)*. 1,2-HEXANEDIOL. BENZOIC ACID. CETEARYL GLUCOSIDE*. FRAGRANCE (PARFUM). LACTIC ACID*. POLYQUATERNIUM-37. TOCOPHEROL. YELLOW 5 (CI 19140). YELLOW 6 (CI 15985) 97% συστατικά φυσικής προέλευσης"
     },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy/pf_square/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy/pf_square/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy?t=resize&width=800&height=800",
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je/pf_square/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je/pf_square/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je?t=resize&width=800&height=800",
     "images": [
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy/pf_square/u5wa3z31qn5se9om45yy9qnspuhitc8msdhumpy?t=resize&width=800&height=800",
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je/pf_square/u5wa3z31qn5se5yc4qcna8wj9z3rh14d61ik6je?t=resize&width=800&height=800",
@@ -5160,8 +5160,8 @@ window.KLORANE_OVERRIDES = {
       "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
       "Συστατικά": "κυανή Κενταύρια\nINCI: WATER (AQUA). BUTYLENE GLYCOL. CENTAUREA CYANUS FLOWER WATER. POLOXAMER 184. PEG-6 CAPRYLIC/CAPRIC GLYCERIDES. CETRIMONIUM BROMIDE 90% φυσικά συστατικά"
     },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjk3zf7ocnw8w8akqcmm9o3j3m8y/pf_square/u5wa3z31qn5sjk3zf7ocnw8w8akqcmm9o3j3m8y?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjk3zf7ocnw8w8akqcmm9o3j3m8y/pf_square/u5wa3z31qn5sjk3zf7ocnw8w8akqcmm9o3j3m8y?t=resize&width=800&height=800",
     "images": [
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjkqze393bm4gccpthos33ngeieo/pf_square/u5wa3z31qn5sjkqze393bm4gccpthos33ngeieo?t=resize&width=800&height=800",
@@ -7501,8 +7501,8 @@ window.KLORANE_OVERRIDES = {
       "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
       "Συστατικά": "κυανή Κενταύρια\nINCI: WATER (AQUA). GLYCERIN. PENTYLENE GLYCOL. BUTYLENE GLYCOL. CENTAUREA CYANUS FLOWER WATER*. ALOE BARBADENSIS LEAF JUICE POWDER*. CITRIC ACID. COCO-GLUCOSIDE. ETHYL LAUROYL ARGINATE HCL. POLYGLYCERYL-4 CAPRATE. POLYGLYCERYL-6 CAPRYLATE"
     },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
     "images": [
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",

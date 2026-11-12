@@ -127,6 +127,13 @@ async function main() {
         dbg(`  ${err.message} → fallback ${o.imageFallback}`);
         fetched = await fetchBuf(o.imageFallback, o.url);
       }
+      // Κενό placeholder του CDN (π.χ. Pierre Fabre wedia: διάφανο PNG ~2kb) → δοκίμασε τις υπόλοιπες εικόνες της σελίδας
+      if (fetched.buf.length < 3000) {
+        const alts = [...(o.images || []), o.imageFallback].filter(u => u && u !== o.image);
+        let found = null;
+        for (const alt of alts) { try { const f = await fetchBuf(alt, o.url); if (f.buf.length >= 3000) { found = f; dbg(`  κενό placeholder → ${alt}`); break; } } catch {} }
+        if (found) fetched = found; else throw new Error(`κενή εικόνα (${fetched.buf.length} bytes) και καμία εναλλακτική`);
+      }
       const { buf, contentType } = fetched;
       const ext = extFromContentType(contentType, o.image);
       const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?") + "\\s*", "i");
