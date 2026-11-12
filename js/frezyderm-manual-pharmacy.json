@@ -1,0 +1,27 @@
+{
+  "_comment": "Σελίδες pharm24/bestprice για προϊόντα Frezyderm χωρίς σελίδα στο frezyderm.gr και χωρίς εικόνα (δεύτερη προσπάθεια, 12/11/2026). Το scripts/fill-brand-missing.mjs τις διαβάζει απευθείας.",
+  "5202888105166": [
+    "https://www.bestprice.gr/item/2153150370/frezyderm-anti-age-shampoo-200ml.html"
+  ],
+  "5705675071168": [
+    "https://www.pharm24.gr/frezyderm-ecovag-balance-kolpika-ypotheta-gia-thn-apokatastash-thn-diathrhsh-ths-ygeias-ths-kolpikhs-xlwridas-10-temaxia-p-28014.html"
+  ],
+  "5202888105104": [
+    "https://www.bestprice.gr/item/2153150599/frezyderm-hair-implant-shampoo-150ml.html"
+  ],
+  "9999991010956": [
+    "https://www.bestprice.gr/item/2154409876/frezyderm-hair-repair-mask-200ml.html"
+  ],
+  "5202888105500": [
+    "https://www.pharm24.gr/frezyderm-prodilac-ease-10-fakelakia-p-2811.html"
+  ],
+  "5202888320057": [
+    "https://www.bestprice.gr/item/2154762168/frezyderm-prodilac-oral-kids-30s.html"
+  ],
+  "5202888221217": [
+    "https://www.bestprice.gr/item/2153211748/frezyderm-reform-abdomen-body-cream-150ml.html"
+  ],
+  "5202888009068": [
+    "https://www.pharm24.gr/frezyderm-organic-chamomile-ellhniko-biologiko-xamomhli-30gr-p-30353.html"
+  ]
+}

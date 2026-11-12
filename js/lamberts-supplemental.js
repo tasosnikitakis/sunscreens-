@@ -1,6 +1,6 @@
-// Auto-generated από το scripts/fill-lamberts-missing.mjs.
-// Καθαρίστηκε τελευταία φορά από το scripts/clean-frezyderm-descriptions.mjs.
-// Δεν αγγίζουμε — γράφεται από τα scripts.
+// Auto-generated από το scripts/fill-brand-missing.mjs --brand=lamberts.
+// Pharmacy-based συμπλήρωμα για Lamberts barcodes χωρίς σελίδα στο lamberts.gr.
+// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).
 window.LAMBERTS_SUPPLEMENTAL = {
   "5055148411534": {
     "name": "Lamberts Biome Balance Everyday 30caps",
@@ -176,5 +176,89 @@ window.LAMBERTS_SUPPLEMENTAL = {
     "image": "https://cdn.pharm24.gr/images/1200x630-90/5055148410032a1.jpg",
     "source": "pharm24.gr",
     "url": "https://www.pharm24.gr/lamberts-zinc-as-citrate-25mg-120tabs-p-14431.html"
+  },
+  "5055148400071": {
+    "name": "Lamberts Acidophilus Extra 4 Προβιοτικά 30 Κάψουλες",
+    "description": "Τα Lamberts Acidophilus Extra 4 Προβιοτικά είναι ένα συμπλήρωμα διατροφής με 30 κάψουλες.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg48/XAFa/1SYzV1_SX866Y866/1728492731/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2152957927/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.html"
+  },
+  "5055148410308": {
+    "name": "Lamberts Eyewise High Strength Lutein 20mg, 60tabs",
+    "description": "Lamberts Eyewise High Strength Lutein 20mg, 60tabs - Συμπλήρωμα Διατροφής Λουτεΐνης για τη Διατήρηση της Φυσιολογικής Όρασης",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/Phos055148410308_1.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/eyewise-high-strength-lutein-200mg-60-tabs-lamberts-p-18397.html"
+  },
+  "5055148404925": {
+    "name": "Lamberts Fema 45+, 180tabs",
+    "description": "Lamberts Fema 45+, 180tabs - Συμπλήρωμα Διατροφής Πολυβιταμινών για τις Γυναίκες που Εισέρχονται ή Βρίσκονται σε Περίοδο Εμμηνόπαυσης",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/5055148404925.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-fema-45-180-tabs-p-18373.html"
+  },
+  "5000453120268": {
+    "name": "Lamberts Hawthorn 2500mg, 60tabs",
+    "description": "Lamberts Hawthorn 2500mg, 60tabs - Συμπλήρωμα Διατροφής με Εκχύλισμα Κράταιγου με Καρδιοτονωτικές Ιδιότητες",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/5055148401795a1.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-hawthorn-2500mg-60tabs-p-40294.html"
+  },
+  "5055148404017": {
+    "name": "Lamberts Ginkgo Biloba Extract 6000mg, 180tabs",
+    "description": "Lamberts Ginkgo Biloba Extract 6000mg, 180tabs - Συμπλήρωμα Διατροφής για την Καλή Λειτουργία του Κυκλοφορικού & της Μνήμης",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/ginkgobilboa6000mg180tabs.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-ginkgo-biloba-extract-6000mg-180tabs-p-55606.html"
+  },
+  "5055148411640": {
+    "name": "Lamberts Iodine 150mg 180 Ταμπλέτες",
+    "description": "Το Lamberts Iodine 150mg προσφέρει υψηλής ποιότητας ιώδιο σε πρακτική μορφή ταμπλέτας.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg61/a1AGF/1XpNOt_SX571Y571/1794086341/lamberts-iodine-150mg-180-tampletes.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2155276087/lamberts-iodine-150mg-180s.html"
+  },
+  "5055148412111": {
+    "name": "Lamberts Multi-Guard ADR 120tabs",
+    "description": "Lamberts Multi-Guard ADR 120tabs - Συμπλήρωμα Διατροφής για την Αντιμετώπιση της Ψυχολογικής & Σωματικής Κόπωσης",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/5055148412111.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-multiguard-adr-120tabs-p-18432.html"
+  },
+  "5055148411985": {
+    "name": "Lamberts Multi-Guard High Potency 30tabs",
+    "description": "Lamberts Multi-Guard High Potency 30tabs - Συμπλήρωμα Διατροφής Πολυβιταμινών, Μετάλλων & Ιχνοστοιχείων Υψηλής Δραστικότητας με Αντιοξειδωτικά για Ενέργεια & Τόνωση",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/a5055148411985aa1.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-multiguard-high-potency-30tabs-p-18374.html"
+  },
+  "5055148414504": {
+    "name": "Lamberts Neuro-Guard 60tabs",
+    "description": "Lamberts Neuro-Guard 60tabs - Συμπλήρωμα Διατροφής Συμπλέγματος Βιταμινών Β Υψηλής Συγκέντρωσης για τη Φυσιολογική Λειτουργία του Νευρικού Συστήματος",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/n5055148414504.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-neuroguard-60tabs-p-61798.html"
+  },
+  "5055148411503": {
+    "name": "Lamberts Probioguard Προβιοτικά 60 Κάψουλες",
+    "description": "Τα Lamberts Probioguard Προβιοτικά είναι ένα συμπλήρωμα διατροφής με 60 κάψουλες.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg2/8ipSq/1SYzV1_SX866Y866/1728492731/lamberts-probioguard-proviotika-60-kapsoules.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2152946119/lamberts-probioguard-60s.html"
+  },
+  "5055148401528": {
+    "name": "Lamberts Valerian 1600mg, 60tabs",
+    "description": "Lamberts Valerian 1600mg, 60tabs - Συμπλήρωμα Διατροφής Εκχυλίσματος Βαλεριάνας για Μείωση του Χρόνου Αναμονής Έλευσης του Ύπνου με Χαλαρωτικές Ιδιότητες",
+    "image": "https://cdn.pharm24.gr/images/1200x630-90/5055148401528a1.jpg",
+    "source": "pharm24.gr",
+    "url": "https://www.pharm24.gr/lamberts-valerian-1600mg-60tabs-p-18438.html"
+  },
+  "5055148411558": {
+    "name": "Lamberts Acidophilus Extra 4 Προβιοτικά 30 Κάψουλες",
+    "description": "Τα Lamberts Acidophilus Extra 4 Προβιοτικά είναι ένα συμπλήρωμα διατροφής με 30 κάψουλες.",
+    "image": "https://bbpcdn.pstatic.gr/bpimg48/XAFa/1SYzV1_SX866Y866/1728492731/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.jpg",
+    "source": "bestprice.gr",
+    "url": "https://www.bestprice.gr/item/2152957927/lamberts-acidophilus-extra-4-proviotika-30-kapsoules.html"
   }
 };

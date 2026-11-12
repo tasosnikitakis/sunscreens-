@@ -1,0 +1,113 @@
+{
+  "_comment": "Προϊόντα του τιμοκαταλόγου Frezyderm χωρίς σελίδα στο επίσημο site και χωρίς εικόνα/περιγραφή σε φαρμακεία (pharm24/bestprice) μετά από δύο προσπάθειες. Αφαιρέθηκαν από τον κατάλογο με απόφαση (12/11/2026)· η σημείωση ελέγχου είναι στο reports/Αποσυρμένα προϊόντα.md. ΠΡΟΣΟΧΗ: ο supplier του frezyderm χτίζεται με παλαιότερο script — αν ξαναχτιστεί από το Excel, αφαιρέστε ξανά αυτά τα barcodes (ή χρησιμοποιήστε build-brand-supplier.mjs που διαβάζει αυτό το αρχείο).",
+  "5202888105142": {
+    "name": "FREZYDERM Color Protect Shampoo 200ml",
+    "retail": 12.72,
+    "wholesale": 8.12,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5705675071168": {
+    "name": "FREZYDERM Ecovag Balance Κολπικά Υπόθετα για Αποκατάσταση της Κολπικής Χλωρίδας 10τμχ",
+    "retail": 22.11,
+    "wholesale": 13.21,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888105111": {
+    "name": "FREZYDERM Hair Balance Shampoo 200ml",
+    "retail": 13.22,
+    "wholesale": 7.9,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888105197": {
+    "name": "FREZYDERM Hair Repair Conditioner 200ml",
+    "retail": 13.48,
+    "wholesale": 8.05,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888105180": {
+    "name": "FREZYDERM Hair Repair Shampoo 200ml",
+    "retail": 14.25,
+    "wholesale": 8.51,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888009075": {
+    "name": "FREZYDERM Organic Fennel 60gr",
+    "retail": 12.36,
+    "wholesale": 7.38,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888105500": {
+    "name": "FREZYDERM Prodilac Ease 10τμχ",
+    "retail": 15.33,
+    "wholesale": 9.16,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888320101": {
+    "name": "FREZYDERM PRODILAC EASE 30 STICKS",
+    "retail": 16.8,
+    "wholesale": 11.7,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888102103": {
+    "name": "FREZYDERM Tripleffect Cream Gel 150ml",
+    "retail": 31.42,
+    "wholesale": 18.77,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  },
+  "5202888009068": {
+    "name": "FREZYDERM Βιολογικό Χαμομήλι 30gr",
+    "retail": 12.36,
+    "wholesale": 7.38,
+    "status": "εκτός καταλόγου (απόφαση)",
+    "checked": "2026-11-12",
+    "reason": "Δεν υπάρχει σελίδα στο επίσημο site και δεν βρέθηκε εικόνα/περιγραφή σε ελληνικά φαρμακεία (pharm24: σελίδα αποσυρμένη ή ανύπαρκτη).",
+    "successor": null,
+    "successorName": null,
+    "evidence": []
+  }
+}
