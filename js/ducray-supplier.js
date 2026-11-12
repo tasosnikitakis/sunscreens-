@@ -1,25 +1,18 @@
 // Auto-generated από supplier Excel (Ducray.tsv) με το scripts/build-brand-supplier.mjs --with-site.
 // Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.
 // listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).
+// Αποσυρμένα (εξαιρούνται): js/ducray-discontinued.json.
 //
 // Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/ducray-overrides.js.
 
 window.DUCRAY_SUPPLIER = [
   {"barcode":"3282770148138","name":"DUCRAY DEXYANE MED CRÈME 100ML","retail":20,"wholesale":11.69,"variants":["3282770148138"]},
-  {"barcode":"3282779065863","name":"DUCRAY ANACAPS 60 ΚΑΨΟΥΛΕΣ","retail":27.92,"wholesale":16.45,"variants":["3282779065863"]},
   {"barcode":"3282770389029","name":"DUCRAY ANACAPS EXPERT 30 caps","retail":31.8,"wholesale":18.58,"variants":["3282770389029"]},
-  {"barcode":"3282770105322","name":"DUCRAY ANACAPS PROGRESSIV 30 caps","retail":28.6,"wholesale":17.06,"variants":["3282770105322"]},
-  {"barcode":"3282779119146","name":"DUCRAY Anacaps Progressiv Promo Συμπλήρωμα Διατροφής για Μαλλιά 2 x 30caps","retail":46.72,"wholesale":27.91,"variants":["3282779119146"]},
   {"barcode":"3282770389425","name":"DUCRAY ANACAPS REACTIV 30 caps","retail":30.8,"wholesale":18.4,"variants":["3282770389425"]},
-  {"barcode":"3282779119115","name":"DUCRAY Anacaps Reactiv Promo Συμπλήρωμα Διατροφής για Μαλλιά & Νύχια 2 x 30caps","retail":46.7,"wholesale":27.9,"variants":["3282779119115"]},
   {"barcode":"3282770075533","name":"DUCRAY ANAPHASE+ SHAMPOO 200 ML","retail":14.9,"wholesale":8.89,"variants":["3282770075533"]},
-  {"barcode":"3282779119238","name":"DUCRAY Anaphase+ Shampoo Δυναμωτικό Σαμπουάν κατά της Τριχόπτωσης 200ml & Δώρο AnaphaseSoin Apres Shampooing Fortifiant","retail":12.3,"wholesale":7.35,"variants":["3282779119238"]},
   {"barcode":"3282770110111","name":"DUCRAY ARGEAL SHAMPOOING 150ML","retail":13.5,"wholesale":8.06,"variants":["3282770110111"]},
   {"barcode":"3282779119221","name":"DUCRAY Creastim Lotion Λοσιόν κατά της Αντιδραστικής Τριχόπτωσης 2x30ml","retail":44.41,"wholesale":26.53,"variants":["3282779119221"]},
   {"barcode":"3282770155112","name":"DUCRAY CREASTIM REACTIV LOTION 60ML","retail":48.9,"wholesale":31,"variants":["3282770155112"]},
-  {"barcode":"3573994006350","name":"DUCRAY DEXERYL CREAM DM 500 GR","retail":18.5,"wholesale":13.1,"variants":["3573994006350"]},
-  {"barcode":"3282770075793","name":"DUCRAY Dexyane Baume Emolliente Anti-Grattage Μαλακτικό Βάλσαμο κατά του Κνησμού 400ml","retail":24.3,"wholesale":14.52,"variants":["3282770075793"]},
-  {"barcode":"3282770053029","name":"DUCRAY Dexyane Gel Nettoyant Surgras Εξαιρετικά Πλούσιο Ζελ Καθαρισμού 400ml","retail":16.7,"wholesale":9.98,"variants":["3282770053029"]},
   {"barcode":"3282770394115","name":"DUCRAY DEXYANE MED CRÈME PALPEBRAL15ML","retail":19.8,"wholesale":11.69,"variants":["3282770394115"]},
   {"barcode":"3282770109610","name":"DUCRAY Elution Rebalancing Shampoo Εξισορροπητικό Σαμπουάν 400ml","retail":15.01,"wholesale":8.97,"variants":["3282770109610"]},
   {"barcode":"3282770148282","name":"DUCRAY EXTRA DOUX SHAMPOO ΜΕ ΑΝΤΛΙΑ 400ML","retail":14.7,"wholesale":8.59,"variants":["3282770148282"]},
@@ -35,20 +28,13 @@ window.DUCRAY_SUPPLIER = [
   {"barcode":"3282770395716","name":"DUCRAY KERACNYL REPAIR BAUME LEVRES 15ML","retail":10.61,"wholesale":6.2,"variants":["3282770395716"]},
   {"barcode":"3282770074468","name":"DUCRAY Keracnyl Serum Ορός Προσώπου για Δέρμα με Τάση Ακμής για Ενήλικες 30ml","retail":20.5,"wholesale":12.25,"variants":["3282770074468"]},
   {"barcode":"3282779368995","name":"DUCRAY Keracnyl Stop Bouton Kερατορυθμιστικό Gel για Άμεση Δράση 10ml","retail":10.1,"wholesale":6.03,"variants":["3282779368995"]},
-  {"barcode":"3282770205558","name":"DUCRAY Kertyol P S O Gel Nettoyant Surgras Ζελ Καθαρισμού για Δέρμα με Τάση Ψωρίασης 400ml","retail":18,"wholesale":10.75,"variants":["3282770205558"]},
   {"barcode":"3282779293518","name":"DUCRAY Kertyol P S O Keratoreducing Cream Κερατινορρυθμιστική Κρέμα 100ml","retail":16,"wholesale":9.56,"variants":["3282779293518"]},
   {"barcode":"3282770148473","name":"DUCRAY KERTYOL P.S.O. SHAMPOOING 200ML","retail":16,"wholesale":9.1,"variants":["3282770148473"]},
   {"barcode":"3282770141320","name":"DUCRAY KKERACNYL PP+ CRΕME 30 ML","retail":15.5,"wholesale":10.8,"variants":["3282770141320"]},
   {"barcode":"3282770073249","name":"DUCRAY MELASCREEN CRÈME MAINS GLOBAL 50ML","retail":16.5,"wholesale":9.82,"variants":["3282770073249"]},
   {"barcode":"3282770389272","name":"DUCRAY MELASCREEN FLUIDE ANTITACHES SPF 50+ 50ML","retail":20,"wholesale":11.69,"variants":["3282770389272"]},
   {"barcode":"3282770055108","name":"DUCRAY Melascreen Photo-Aging Creme Nuit Regenerante Διορθωτική Κρέμα Νύχτας Κατά της Φωτογήρανσης & των Δυσχρωμιών 50ml","retail":34,"wholesale":20.31,"variants":["3282770055108"]},
-  {"barcode":"3282779315500","name":"DUCRAY Melascreen Soin Eclat Legere Καθημερινή Φροντίδα κατά των Δυσχρωμιών Λεπτόρευστη Υφής Spf15 40ml","retail":28.7,"wholesale":17.14,"variants":["3282779315500"]},
   {"barcode":"3282770153255","name":"DUCRAY NEOPTIDE EXPERT SERUM 2x50 ML","retail":63.5,"wholesale":37.11,"variants":["3282770153255"]},
-  {"barcode":"3282779119191","name":"DUCRAY Neoptide Hommes Lotion Antichute Ανδρική Λοσιόν Kατά Tης Τριχόπτωσης 100ml","retail":49.9,"wholesale":29.81,"variants":["3282779119191"]},
-  {"barcode":"3282779119214","name":"DUCRAY Neoptide Women Lotion Λοσιόν Κατά Της Γυναικείας Τριχόπτωσης 3x30ml","retail":49.9,"wholesale":29.81,"variants":["3282779119214"]},
-  {"barcode":"3592619314311","name":"DUCRAY ONYSTER PATE UREE DM CEE1 10GR","retail":26,"wholesale":15.36,"variants":["3592619314311"]},
-  {"barcode":"3282779156561","name":"DUCRAY Promo Melascreen Creme Legere Αντηλιακή Προσώπου Ελαφριάς Υφής για Δυσχρωμίες SPF50 2x40ml","retail":27.36,"wholesale":16.34,"variants":["3282779156561"]},
-  {"barcode":"3282779156479","name":"DUCRAY Promo Melascreen Creme Riche Αντηλιακή Προσώπου Πλούσιας Υφής για Δυσχρωμίες SPF50 2x40ml","retail":27.76,"wholesale":16.58,"variants":["3282779156479"]},
   {"barcode":"3282779317658","name":"DUCRAY SHAMPOOING SENSINOL 200 ML","retail":12.9,"wholesale":7.53,"variants":["3282779317658"]},
   {"barcode":"3282770037388","name":"DUCRAY Squanorm Dry Dandruff Shampoo Σαμπουάν Αγωγής για Ξηρή Πιτυρίδα 200ml","retail":13.3,"wholesale":7.95,"variants":["3282770037388"]},
   {"barcode":"3282779277143","name":"DUCRAY Squanorm Lotion Λοσιόν Αγωγής Κατά της Πυτιρίδας & του Κνησμού 200ml","retail":15.01,"wholesale":8.97,"variants":["3282779277143"]},
