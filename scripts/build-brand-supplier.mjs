@@ -145,12 +145,18 @@ async function main() {
     try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
     const known = new Set(products.flatMap(p => p.variants));
     for (const sp of site) {
-      const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
-      if (!g || known.has(g) || isDiscontinued(g)) continue;
-      known.add(g);
       const name = String(sp.name || "").replace(/\s+/g, " ").trim();
-      products.push({ barcode: g, name, retail: 0, wholesale: 0, variants: [g], listed: false });
-      fromSite++;
+      // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):
+      // μία εγγραφή ανά παραλλαγή, με το μέγεθος στο όνομα.
+      const vars = ((sp.details && sp.details.variants) || []).map(v => ({ g: gtin13(v.ean), size: v.size || "" })).filter(v => v.g);
+      const entries = vars.length ? vars : [{ g: gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]), size: "" }];
+      for (const { g, size } of entries) {
+        if (!g || known.has(g) || isDiscontinued(g)) continue;
+        known.add(g);
+        const nm = size && !new RegExp(size.replace(/\s+/g, "\\s*"), "i").test(name) ? `${name} ${size}` : name;
+        products.push({ barcode: g, name: nm, retail: 0, wholesale: 0, variants: [g], listed: false });
+        fromSite++;
+      }
     }
     console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`);
   }
