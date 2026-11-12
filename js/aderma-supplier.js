@@ -2,13 +2,13 @@
 // Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.
 // listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).
 //
+// Αποσυρμένα (εξαιρούνται): js/aderma-discontinued.json.
 // Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/aderma-overrides.js.
 
 window.ADERMA_SUPPLIER = [
   {"barcode":"3282770153002","name":"A-DERMA BIOLOGY AC GEL MOUSSANT PURIFIANT (ΜΕ ΑΝΤΛΙΑ) 400ML","retail":19.4,"wholesale":11.34,"variants":["3282770153002"]},
   {"barcode":"3282770388855","name":"A-DERMA BIOLOGY AC HYDRA CRÈME COMPENSATRICE 40ML","retail":18.2,"wholesale":10.64,"variants":["3282770388855"]},
   {"barcode":"3282770146714","name":"A-DERMA BIOLOGY SOIN NUTRITIF 40ML","retail":22.5,"wholesale":13.15,"variants":["3282770146714"]},
-  {"barcode":"3282770209648","name":"A-DERMA CUTALGAN SPRAY RAFRAICHISSANT 100ML","retail":13.7,"wholesale":8.01,"variants":["3282770209648"]},
   {"barcode":"3282770104783","name":"A-DERMA CYTELIUM SPRAY 100ML","retail":10.3,"wholesale":6.02,"variants":["3282770104783","3282779284721"]},
   {"barcode":"3282770144291","name":"A-DERMA DERMALIBOUR+ CICA- CRÈME 50ML","retail":13.1,"wholesale":7.66,"variants":["3282770144291"]},
   {"barcode":"3282770390995","name":"A-DERMA DERMALIBOUR+ CRÈME BARRIER 100ML","retail":15.7,"wholesale":9.35,"variants":["3282770390995","3282770108729"]},
@@ -26,8 +26,6 @@ window.ADERMA_SUPPLIER = [
   {"barcode":"3282770393866","name":"A-DERMA EXOMEGA CONTROL HUILE NETTOYANT RP NC (ΜΕ ΑΝΤΛΙΑ)750","retail":27.9,"wholesale":16.3,"variants":["3282770393866"]},
   {"barcode":"3282770149746","name":"A-DERMA EXOMEGA CONTROL LAIT 400 ML","retail":28.3,"wholesale":16.54,"variants":["3282770149746","3282779247825","3282770110173"]},
   {"barcode":"3282770149753","name":"A-DERMA EXOMEGA CONTROL LAIT COSMETIC STERILE 200ML","retail":22.2,"wholesale":12.97,"variants":["3282770149753","3282770110166","3282770073065"]},
-  {"barcode":"3282770037029","name":"A-DERMA PHYS-AC GEL MOUSSANT PURIFIANT 400ML","retail":17.5,"wholesale":10.23,"variants":["3282770037029"]},
-  {"barcode":"3282770105865","name":"A-DERMA PHYS-AC GLOBAL SOIN IMPERFECTIONS SEVERES 40ML","retail":14.6,"wholesale":9.35,"variants":["3282770105865"]},
   {"barcode":"3282770145991","name":"A-DERMA PRIMALBA GEL LAVANT DOUCEUR 500ML","retail":12.7,"wholesale":8.89,"variants":["3282770145991","3282779309110"]},
   {"barcode":"3282770072730","name":"Αντηλιακό σπρέι υψηλής προστασίας SPF50+","retail":0,"wholesale":0,"variants":["3282770072730"],"listed":false},
   {"barcode":"3282770072778","name":"Επανορθωτικό ενυδατικό γαλάκτωμα για μετά τον ήλιο","retail":0,"wholesale":0,"variants":["3282770072778"],"listed":false},

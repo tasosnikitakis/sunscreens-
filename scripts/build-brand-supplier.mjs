@@ -34,6 +34,7 @@ const SKIP = parseInt(opt("skip", "0"));
 const DRY = flag("dry-run");
 const WITH_SITE = flag("with-site");
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
+const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
 const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
 if (!BRAND || !XLSX) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--cols=...] [--skip=N]"); process.exit(1); }
 
@@ -92,6 +93,12 @@ function fixName(s) {
 
 async function main() {
   const rows = await readSheet(path.resolve(ROOT, XLSX));
+  // Αποσυρμένα προϊόντα (js/<brand>-discontinued.json) μένουν εκτός καταλόγου —
+  // παρακολουθούνται στη σημείωση ελέγχου (scripts/discontinued-report.mjs).
+  let discontinued = {};
+  try { discontinued = JSON.parse(await fs.readFile(DISCONTINUED_FILE, "utf8")); } catch {}
+  const isDiscontinued = bc => !!discontinued[bc] && !String(bc).startsWith("_");
+  let dropped = 0;
   const byBarcode = new Map();
   const dupes = [];
   let skippedHeader = 0;
@@ -99,6 +106,7 @@ async function main() {
     const get = name => r[colLetter(COLS.indexOf(name))] ?? "";
     const barcode = String(get("barcode")).trim();
     if (!isBarcode(barcode)) { skippedHeader++; continue; }   // κεφαλίδα ή κενή γραμμή
+    if (isDiscontinued(barcode)) { dropped++; continue; }
     const name = fixName(get("name"));
     const variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(isBarcode)])];
     const rec = { barcode, name, retail: num(get("retail")), wholesale: num(get("wholesale")), variants };
@@ -113,7 +121,7 @@ async function main() {
     byBarcode.set(barcode, rec);
   }
   const products = [...byBarcode.values()];
-  console.log(`${XLSX}: ${rows.length} γραμμές → ${products.length} προϊόντα (${skippedHeader} γραμμές χωρίς barcode, ${dupes.length} διπλά barcode)`);
+  console.log(`${XLSX}: ${rows.length} γραμμές → ${products.length} προϊόντα (${skippedHeader} γραμμές χωρίς barcode, ${dupes.length} διπλά barcode${dropped ? `, ${dropped} αποσυρμένα εκτός` : ""})`);
 
   // Προϊόντα του brand site που λείπουν από τον τιμοκατάλογο: μπαίνουν χωρίς τιμές
   // (listed:false), με barcode το GTIN της σελίδας, ώστε το match να είναι ακριβές.
@@ -124,7 +132,7 @@ async function main() {
     const known = new Set(products.flatMap(p => p.variants));
     for (const sp of site) {
       const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
-      if (!g || known.has(g)) continue;
+      if (!g || known.has(g) || isDiscontinued(g)) continue;
       known.add(g);
       const name = String(sp.name || "").replace(/\s+/g, " ").trim();
       products.push({ barcode: g, name, retail: 0, wholesale: 0, variants: [g], listed: false });
@@ -139,7 +147,8 @@ async function main() {
 
   const banner = `// Auto-generated από supplier Excel (${path.basename(XLSX)}) με το scripts/build-brand-supplier.mjs${WITH_SITE ? " --with-site" : ""}.\n`
     + "// Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.\n"
-    + (WITH_SITE ? `// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).\n` : "") + "//\n"
+    + (WITH_SITE ? `// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).\n` : "")
+    + (dropped ? `// Αποσυρμένα (εξαιρούνται): js/${BRAND}-discontinued.json.\n` : "") + "//\n"
     + `// Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/${BRAND}-overrides.js.\n\n`;
   const body = products.map(p => "  " + JSON.stringify(p)).join(",\n");
   await fs.writeFile(OUT_FILE, `${banner}window.${VAR} = [\n${body}\n];\n`, "utf8");

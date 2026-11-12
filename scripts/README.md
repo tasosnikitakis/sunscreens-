@@ -139,7 +139,13 @@ node scripts/clean-frezyderm-descriptions.mjs --brand=aderma   # καθαρίζ�
 node scripts/generate-catalog.mjs
 ```
 
-Προϊόντα χωρίς σελίδα που δεν τα βρίσκει ούτε η αναζήτηση barcode (αποσυρμένα):
+Αποσυρμένα προϊόντα (στο Excel αλλά όχι πια στο site / εξαντλημένα στα φαρμακεία):
+`js/<brand>-discontinued.json` (barcode → όνομα, τιμές, αιτιολόγηση, διάδοχος,
+πηγές). Εξαιρούνται από τον κατάλογο στο βήμα build και μπαίνουν στη σημείωση
+ελέγχου `reports/Αποσυρμένα προϊόντα.md` (`scripts/discontinued-report.mjs`,
+τρέχει και από το generate-catalog) για επιβεβαίωση με τον αντιπρόσωπο.
+
+Προϊόντα χωρίς σελίδα που δεν τα βρίσκει ούτε η αναζήτηση barcode:
 `js/<brand>-manual-pharmacy.json` (barcode → URL ή λίστα URL ελληνικών
 φαρμακείων) και ξανά το `fill-brand-missing.mjs` — διαβάζει τις σελίδες απευθείας.
 
