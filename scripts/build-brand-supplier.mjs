@@ -1,0 +1,124 @@
+#!/usr/bin/env node
+// scripts/build-brand-supplier.mjs
+// Supplier Excel (χονδρικός κατάλογος προμηθευτή) → js/<brand>-supplier.js
+//   window.<BRAND>_SUPPLIER = [{ barcode, name, retail, wholesale, variants[] }]
+//
+// Διαβάζει το xlsx χωρίς εξαρτήσεις (unzip + sharedStrings), όπως το
+// parse-cosmetics-xlsx.mjs. Προεπιλεγμένη διάταξη στηλών (A-Derma):
+//   A κωδικός · B barcode · C όνομα · D λιανική · E χονδρική · F variants ("a , b")
+//
+// Χρήση:
+//   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx
+//   node scripts/build-brand-supplier.mjs --brand=aderma --xlsx=Aderma.xlsx --cols=code,barcode,name,retail,wholesale,variants --skip=0
+//   --dry-run  δείχνει τι θα γραφτεί
+
+import fs from "node:fs/promises";
+import path from "node:path";
+import { execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+
+const args = process.argv.slice(2);
+const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); return a ? a.slice(k.length + 3) : def; };
+const flag = (k) => args.includes(`--${k}`);
+
+const BRAND = (opt("brand", "") || "").toLowerCase();
+const XLSX = opt("xlsx", null);
+const COLS = opt("cols", "code,barcode,name,retail,wholesale,variants").split(",").map(s => s.trim());
+const SKIP = parseInt(opt("skip", "0"));
+const DRY = flag("dry-run");
+if (!BRAND || !XLSX) { console.error("Usage: node scripts/build-brand-supplier.mjs --brand=<key> --xlsx=<file.xlsx> [--cols=...] [--skip=N]"); process.exit(1); }
+
+const OUT_FILE = path.join(ROOT, `js/${BRAND}-supplier.js`);
+const VAR = BRAND.toUpperCase() + "_SUPPLIER";
+
+// Γνωστά λάθη κωδικοποίησης του Excel του προμηθευτή (Latin-1 → "?")
+const NAME_FIXES = [
+  [/CR\?ME/g, "CRÈME"], [/CREME/g, "CRÈME"], [/CR\?/g, "CRÈ"],
+  [/\?\s*/g, "? "]
+];
+
+function decodeXml(s) {
+  return s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n)));
+}
+
+async function readSheet(file) {
+  const tmp = path.join("/tmp", "_xlsx_" + process.pid);
+  execSync(`rm -rf "${tmp}" && mkdir -p "${tmp}" && unzip -q -o "${file}" -d "${tmp}"`);
+  let strings = [];
+  try {
+    const sst = await fs.readFile(`${tmp}/xl/sharedStrings.xml`, "utf8");
+    for (const m of sst.matchAll(/<si>([\s\S]*?)<\/si>/g)) {
+      strings.push(decodeXml([...m[1].matchAll(/<t[^>]*>([\s\S]*?)<\/t>/g)].map(x => x[1]).join("")));
+    }
+  } catch {}
+  const sheet = await fs.readFile(`${tmp}/xl/worksheets/sheet1.xml`, "utf8");
+  const rows = [];
+  for (const rm of sheet.matchAll(/<row[^>]*>([\s\S]*?)<\/row>/g)) {
+    const cells = {};
+    for (const cm of rm[1].matchAll(/<c\s+r="([A-Z]+)\d+"([^>]*)>([\s\S]*?)<\/c>/g)) {
+      const col = cm[1], attrs = cm[2], body = cm[3];
+      const type = (attrs.match(/\st="([^"]*)"/) || [])[1];
+      let v = (body.match(/<v>([^<]*)<\/v>/) || [])[1];
+      if (v === undefined) v = (body.match(/<t[^>]*>([\s\S]*?)<\/t>/) || [])[1] || "";
+      if (type === "s") v = strings[parseInt(v)] ?? "";
+      else v = decodeXml(v);
+      cells[col] = v.trim();
+    }
+    if (Object.keys(cells).length) rows.push(cells);
+  }
+  execSync(`rm -rf "${tmp}"`);
+  return rows;
+}
+
+const colLetter = i => String.fromCharCode(65 + i);
+const num = v => { const n = parseFloat(String(v).replace(",", ".")); return Number.isFinite(n) ? Math.round(n * 100) / 100 : 0; };
+const isBarcode = v => /^\d{8,14}$/.test(String(v).trim());
+
+function fixName(s) {
+  let out = String(s).replace(/\s+/g, " ").trim();
+  for (const [re, rep] of NAME_FIXES) out = out.replace(re, rep);
+  return out.replace(/\s+/g, " ").trim();
+}
+
+async function main() {
+  const rows = await readSheet(path.resolve(ROOT, XLSX));
+  const byBarcode = new Map();
+  const dupes = [];
+  let skippedHeader = 0;
+  for (const r of rows.slice(SKIP)) {
+    const get = name => r[colLetter(COLS.indexOf(name))] ?? "";
+    const barcode = String(get("barcode")).trim();
+    if (!isBarcode(barcode)) { skippedHeader++; continue; }   // κεφαλίδα ή κενή γραμμή
+    const name = fixName(get("name"));
+    const variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(isBarcode)])];
+    const rec = { barcode, name, retail: num(get("retail")), wholesale: num(get("wholesale")), variants };
+    if (byBarcode.has(barcode)) {
+      // Ίδιο barcode δύο φορές (πχ. δύο τιμοκατάλογοι) — κρατάμε την πρώτη γραμμή,
+      // ενώνουμε variants, και το σημειώνουμε.
+      const prev = byBarcode.get(barcode);
+      prev.variants = [...new Set([...prev.variants, ...variants])];
+      dupes.push({ barcode, kept: `${prev.retail}/${prev.wholesale}`, dropped: `${rec.retail}/${rec.wholesale}` });
+      continue;
+    }
+    byBarcode.set(barcode, rec);
+  }
+  const products = [...byBarcode.values()];
+  console.log(`${XLSX}: ${rows.length} γραμμές → ${products.length} προϊόντα (${skippedHeader} γραμμές χωρίς barcode, ${dupes.length} διπλά barcode)`);
+  for (const d of dupes) console.log(`  διπλό ${d.barcode}: κράτησα λιανική/χονδρική ${d.kept}, αγνόησα ${d.dropped}`);
+  const fixed = products.filter(p => /È/.test(p.name)).length;
+  if (fixed) console.log(`  διορθώθηκε κωδικοποίηση (CRÈME) σε ${fixed} ονόματα`);
+  if (DRY) { for (const p of products) console.log(`  ${p.barcode} ${p.name} | ${p.retail} / ${p.wholesale} | ${p.variants.join(",")}`); return; }
+
+  const banner = `// Auto-generated από supplier Excel (${path.basename(XLSX)}) με το scripts/build-brand-supplier.mjs.\n`
+    + "// Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.\n//\n"
+    + `// Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/${BRAND}-overrides.js.\n\n`;
+  const body = products.map(p => "  " + JSON.stringify(p)).join(",\n");
+  await fs.writeFile(OUT_FILE, `${banner}window.${VAR} = [\n${body}\n];\n`, "utf8");
+  console.log(`Έγραψε ${path.relative(ROOT, OUT_FILE)} (${products.length}).`);
+}
+
+main().catch(err => { console.error("FATAL:", err); process.exit(1); });
