@@ -45,7 +45,9 @@ export function looksLikeImage(buf) {
 }
 
 export async function fetchBuf(url, referer) {
-  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "image/*,*/*;q=0.8", "Referer": referer || "https://www.google.com/" }, redirect: "follow" });
+  // URL/Referer με μη-ASCII χαρακτήρες (ελληνικά ονόματα αρχείων, ™ στο Shopify) → percent-encoding, αλλιώς ByteString error
+  const enc = u => { try { return new URL(u).href; } catch { return encodeURI(u); } };
+  const res = await fetch(enc(url), { headers: { "User-Agent": UA, "Accept": "image/*,*/*;q=0.8", "Referer": enc(referer || "https://www.google.com/") }, redirect: "follow" });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 1500) throw new Error("image too small (blocked?)");
