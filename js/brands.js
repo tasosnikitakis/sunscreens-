@@ -75,6 +75,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Apivita", imageDir: "apivita", sourceKey: "_apivitaSource",
     fallbackDesc: "Προϊόν Apivita — {name}",
     exportSections: ["Πληροφορίες", "Χρήση", "Συστατικά"]
+  },
+  vichy: {
+    key: "vichy", name: "Vichy", host: "vichy.gr", page: "vichy.html",
+    icon: "💠", initials: "VY", accent: "#0f766e",
+    sheetName: "Vichy", imageDir: "vichy", sourceKey: "_vichySource",
+    fallbackDesc: "Προϊόν Vichy (L'Oréal) — {name}",
+    exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
   }
 };
 
