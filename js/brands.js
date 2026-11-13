@@ -96,6 +96,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Nivea", imageDir: "nivea", sourceKey: "_niveaSource",
     fallbackDesc: "Προϊόν Nivea (Beiersdorf) — {name}",
     exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
+  },
+  hansaplast: {
+    key: "hansaplast", name: "Hansaplast", host: "hansaplast.gr", page: "hansaplast.html",
+    icon: "🩹", initials: "HP", accent: "#b91c1c",
+    sheetName: "Hansaplast", imageDir: "hansaplast", sourceKey: "_hansaplastSource",
+    fallbackDesc: "Προϊόν Hansaplast (Beiersdorf) — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Συχνές ερωτήσεις"]
   }
 };
 
