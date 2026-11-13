@@ -129,6 +129,10 @@ context ανά αίτημα· ένα ερώτημα ανά προϊόν γιατ
 με manual matches). Τα δωρεάν δείγματα (`is_free`) μένουν εκτός στο build. Οι εικόνες του
 assets.apivita.com δίνουν 403 στο fetch → `sync-brand-images.mjs --brand=apivita --browser`
 (λήψη μέσω headless Chromium).
+`scripts/lib-vichy.mjs` (Vichy, L'Oréal/Sitecore με άλλο theme από LRP: JSON-LD Product + accordions +
+επιλογέας μεγεθών/αποχρώσεων). `scripts/lib-beiersdorf.mjs` (Beiersdorf NiveaX/Sitecore: liposan.gr και
+μελλοντικά nivea.gr, eucerin.gr, hansaplast — EAN από τα 13 πρώτα ψηφία του article id στο URL,
+εικόνες img.nivea.com, κάθε μέγεθος/έκδοση έχει δική της σελίδα).
 
 Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
 `NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).
