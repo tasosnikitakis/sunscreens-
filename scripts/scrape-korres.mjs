@@ -120,6 +120,8 @@ function buildEntry(p, js, html) {
     description: grDesc || enBody || null, descriptionEn: enBody || null,
     tabs, attributes, images, imageLarge: images[0] || null,
     breadcrumbs: [], category: null, tags: p.tags || [], productType: p.product_type || null, handle: p.handle,
+    // Σετ δώρου / web promo (1+1): μένουν εκτός καταλόγου στο build (βλ. build-brand-supplier set-flag)
+    isSet: (p.tags || []).some(t => /^(GIFT SETS|PROMOS)$/i.test(String(t).trim())),
     greek: !!g
   };
   return {
