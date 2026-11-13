@@ -202,7 +202,7 @@ async function main() {
         url: chosen.url,
         source: "apivita.com/hellas",
         section: (d.isSet || d.size === "prepacked_set") ? "set"
-          : lineOf((d.categories || []).map(c => c.path).filter(x => !/^(prosfores-dora|free-samples|best-sellers|the-blue-collection|honey-collection|bradini-routina|hair-care)/.test(x)).join(" | "), d.line, chosen.name, d.fullTitle, p.name, slug),
+          : lineOf((d.categories || []).map(c => c.path).filter(x => !/prosfores-dora|free-samples|best-sellers|collection|routin|hair-care/.test(x)).join(" | "), d.line, chosen.name, d.fullTitle, p.name, slug),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"

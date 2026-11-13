@@ -1,0 +1,15 @@
+{
+  "_comment": "Κανόνες αποκλεισμού ονομάτων για τον κατάλογο Apivita: σετ δώρου, ρουτίνες, duo, promo πακέτα «σε Ειδική Τιμή», 2+1, τσάντες. Ο κατάλογος κρατά μόνο τα βασικά προϊόντα (απόφαση ιδιοκτήτη 2026-11-13). Διαβάζεται από το build-brand-supplier.mjs για τιμοκατάλογο ΚΑΙ προϊόντα του site (pattern = JavaScript RegExp, flags προεπιλογή i). Τα σετ με attribute is_offer_set / size prepacked_set βγαίνουν ούτως ή άλλως (set-flag).",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "\\bset\\b|\\bσετ\\b|ρουτίνα|\\broutine\\b|\\bduo\\b|πρόγραμμα|ειδική\\s+τιμή|\\d\\+\\d|discovery|\\bgift\\b|δώρο|δώρου",
+      "reason": "Σετ δώρου / ρουτίνα / promo πακέτο"
+    },
+    {
+      "name": "bag",
+      "pattern": "\\bbag\\b|τσάντα|pouch|νεσεσ[εέ]ρ",
+      "reason": "Τσάντα / νεσεσέρ"
+    }
+  ]
+}

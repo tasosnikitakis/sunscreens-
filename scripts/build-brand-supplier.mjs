@@ -187,6 +187,8 @@ async function main() {
       if (allVars.length && allVars.every(v => typeof v.price === "number") && !allVars.some(v => v.price > 0)) { unpriced++; continue; }
       // Δωρεάν δείγματα / δώρα με αγορές (Apivita: attribute is_free) — δεν είναι προϊόντα προς πώληση
       if (sp.details && sp.details.isFree) { unpriced++; continue; }
+      // Σετ δώρου / promo πακέτα (Apivita: is_offer_set ή size "prepacked_set") — ο κατάλογος κρατά μόνο βασικά προϊόντα
+      if (sp.details && (sp.details.isSet || sp.details.size === "prepacked_set")) { siteExcluded.push({ name, rule: "set-flag" }); continue; }
       const ex = excludedBy(name);
       if (ex) { siteExcluded.push({ name, rule: ex.name }); continue; }
       // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):
