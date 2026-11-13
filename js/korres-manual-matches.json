@@ -1,0 +1,3 @@
+{
+  "_comment": "Χειροκίνητες διορθώσεις match: barcode → URL σελίδας στο gr.korres.com. Τιμή null = το προϊόν ΔΕΝ έχει σελίδα. Υπερισχύει GTIN/variant. Fuzzy απενεργοποιημένο."
+}

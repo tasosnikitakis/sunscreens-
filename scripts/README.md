@@ -119,6 +119,10 @@ supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το
 Τα brands της Pierre Fabre (A-Derma, Ducray, …) μοιράζονται το ίδιο template, άρα και
 τον ίδιο extractor (`scripts/lib-aderma.mjs`).
 
+Sites χωρίς κοινό template έχουν δικό τους scraper/extractor: `scripts/lib-lrp.mjs`
+(La Roche-Posay, Sitecore/Vue) και `scripts/scrape-korres.mjs` (Korres, Shopify:
+products.json + <handle>.js για barcodes + σελίδα για τα ελληνικά κείμενα).
+
 Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
 `NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).
 

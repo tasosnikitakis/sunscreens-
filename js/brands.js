@@ -61,6 +61,13 @@ window.BRAND_CATALOGS = {
     sheetName: "La Roche-Posay", imageDir: "lrp", sourceKey: "_lrpSource",
     fallbackDesc: "Προϊόν La Roche-Posay (L'Oréal) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  korres: {
+    key: "korres", name: "Korres", host: "gr.korres.com", page: "korres.html",
+    icon: "🫒", initials: "KR", accent: "#b45309",
+    sheetName: "Korres", imageDir: "korres", sourceKey: "_korresSource",
+    fallbackDesc: "Προϊόν Korres — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Περιγραφή (EN)"]
   }
 };
 
