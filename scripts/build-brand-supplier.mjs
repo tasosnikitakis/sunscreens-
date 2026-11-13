@@ -155,11 +155,41 @@ async function main() {
     let site = [];
     try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
     const known = new Set(products.flatMap(p => p.variants));
+    // Χειροκίνητα match (js/<brand>-manual-matches.json: barcode → url): το προϊόν του τιμοκαταλόγου
+    // ΕΙΝΑΙ το προϊόν της σελίδας (νέος κωδικός/νέα ονομασία). Το EAN της σελίδας μπαίνει ως variant
+    // του προϊόντος, ώστε να μην προστεθεί δεύτερη (άτιμη) εγγραφή για την ίδια σελίδα.
+    // Σε σελίδες με πολλά μεγέθη (δικό τους EAN) παίρνουμε μόνο το μέγεθος που αναφέρει το όνομα.
+    let manual = {};
+    try { manual = JSON.parse(await fs.readFile(path.join(ROOT, `js/${BRAND}-manual-matches.json`), "utf8")); } catch {}
+    const normUrl = u => String(u || "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
+    const siteByUrl = new Map(site.map(sp => [normUrl(sp.url), sp]));
+    const sizeOf = s => { const m = String(s || "").match(/(\d{1,4}(?:[.,]\d+)?)\s?(ml|gr|g|kg|l|τμχ|caps|tabs)\b/i); return m ? (m[1].replace(",", ".") + m[2].toLowerCase().replace("gr", "g")).replace(/^(\d+)l$/, "$1000ml") : null; };
+    let aliased = 0;
+    for (const p of products) {
+      const u = manual[p.barcode];
+      const sp = u ? siteByUrl.get(normUrl(u)) : null;
+      if (!sp) continue;
+      const vars = ((sp.details && sp.details.variants) || []).map(v => ({ g: gtin13(v.ean), size: v.size ? sizeOf(v.size) : null })).filter(v => v.g);
+      let g = null;
+      if (vars.length <= 1) g = (vars[0] && vars[0].g) || gtin13(sp.gtin);
+      else { const ps = sizeOf(p.name); const hit = vars.filter(v => v.size === ps); if (hit.length === 1) g = hit[0].g; }
+      if (!g || known.has(g)) continue;
+      p.variants.push(g); known.add(g); aliased++;
+    }
+    if (aliased) console.log(`  ${aliased} EAN σελίδων μπήκαν ως variants προϊόντων του τιμοκαταλόγου (χειροκίνητα match — χωρίς διπλή εγγραφή)`);
+    let unpriced = 0;
+    const siteExcluded = [];
     for (const sp of site) {
       const name = String(sp.name || "").replace(/\s+/g, " ").trim();
+      const allVars = (sp.details && sp.details.variants) || [];
+      // Σελίδες χωρίς τιμή πώλησης στο site (Shopify: όλες οι παραλλαγές price 0 = δώρα, promo,
+      // κρυφές/παλιές σελίδες) δεν μπαίνουν ως «νέα» προϊόντα. Ισχύει μόνο όταν το site δίνει τιμές.
+      if (allVars.length && allVars.every(v => typeof v.price === "number") && !allVars.some(v => v.price > 0)) { unpriced++; continue; }
+      const ex = excludedBy(name);
+      if (ex) { siteExcluded.push({ name, rule: ex.name }); continue; }
       // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):
       // μία εγγραφή ανά παραλλαγή, με το μέγεθος στο όνομα.
-      const vars = ((sp.details && sp.details.variants) || []).map(v => ({ g: gtin13(v.ean), size: v.size || "" })).filter(v => v.g);
+      const vars = allVars.map(v => ({ g: gtin13(v.ean), size: v.size || "" })).filter(v => v.g);
       const entries = vars.length ? vars : [{ g: gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]), size: "" }];
       for (const { g, size } of entries) {
         if (!g || known.has(g) || isDiscontinued(g)) continue;
@@ -169,7 +199,9 @@ async function main() {
         fromSite++;
       }
     }
-    console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`);
+    console.log(`  + ${fromSite} προϊόντα από το ${BRAND}.gr που δεν υπάρχουν στο Excel (listed:false, χωρίς τιμές)`
+      + (unpriced ? `; ${unpriced} σελίδες χωρίς τιμή πώλησης στο site (δώρα/promo/κρυφές) εκτός` : "")
+      + (siteExcluded.length ? `; ${siteExcluded.length} εκτός με κανόνες ονόματος` : ""));
   }
   for (const d of dupes) console.log(`  διπλό ${d.barcode}: κράτησα λιανική/χονδρική ${d.kept}, αγνόησα ${d.dropped}`);
   if (excluded.length) { const by = {}; for (const e of excluded) by[e.rule] = (by[e.rule] || 0) + 1; console.log(`  εκτός με κανόνες ονόματος (js/${BRAND}-exclusions.json): ${excluded.length} — ` + Object.entries(by).map(([k, v]) => `${k} ${v}`).join(", ")); }

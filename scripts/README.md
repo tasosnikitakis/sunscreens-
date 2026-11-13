@@ -119,6 +119,10 @@ supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το
 Τα brands της Pierre Fabre (A-Derma, Ducray, …) μοιράζονται το ίδιο template, άρα και
 τον ίδιο extractor (`scripts/lib-aderma.mjs`).
 
+Sites χωρίς κοινό template έχουν δικό τους scraper/extractor: `scripts/lib-lrp.mjs`
+(La Roche-Posay, Sitecore/Vue) και `scripts/scrape-korres.mjs` (Korres, Shopify:
+products.json + <handle>.js για barcodes + σελίδα για τα ελληνικά κείμενα).
+
 Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
 `NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).
 
@@ -177,3 +181,9 @@ node scripts/build-brand-supplier.mjs --brand=lamberts  --xlsx=Lamberts.xlsx
 και οι σελίδες στα ελληνικά, άρα το fuzzy match είναι αναξιόπιστο: βασιζόμαστε
 στο GTIN (13ψήφιο = το 14ψήφιο του site χωρίς το αρχικό 0) και στα manual
 matches για άλλα μεγέθη του ίδιου προϊόντος (η σελίδα καλύπτει όλα τα μεγέθη).
+Με `--with-site` το build διαβάζει τα manual matches και περνά το EAN της
+σελίδας ως variant του προϊόντος του τιμοκαταλόγου (σε σελίδες με πολλά μεγέθη
+μόνο το μέγεθος του ονόματος), ώστε να μην μπει δεύτερη, άτιμη εγγραφή για
+την ίδια σελίδα. Σελίδες Shopify με όλες τις παραλλαγές σε τιμή 0 (δώρα,
+Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προστίθενται ως νέα προϊόντα,
+και οι κανόνες `js/<brand>-exclusions.json` ισχύουν και για τα προϊόντα του site.
