@@ -23,7 +23,7 @@ import { decodeHtml, htmlToText } from "./lib-frezyderm.mjs";
 import { extractAdermaDetails, extractPierreFabreDetails } from "./lib-aderma.mjs";
 import { extractLrpDetails, isLrpProductPage } from "./lib-lrp.mjs";
 import { extractVichyDetails, isVichyProductPage } from "./lib-vichy.mjs";
-import { extractBeiersdorfDetails, isBeiersdorfProductPage } from "./lib-beiersdorf.mjs";
+import { extractBeiersdorfAny, isBeiersdorfProductPage } from "./lib-beiersdorf.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -103,7 +103,18 @@ const BRANDS = {
     toLocalUrl: u => u.replace(/-%7c-/i, "-"),     // το "|" στο slug (Hydro Care) δίνει HTTP 500 στο site· χωρίς αυτό απαντά 200
     delay: 1000,
     isProduct: (html, url) => isBeiersdorfProductPage(html, url),
-    extractor: async (html, url) => extractBeiersdorfDetails(html, url)
+    extractor: async (html, url) => extractBeiersdorfAny(html, url)
+  },
+  nivea: {
+    // Nivea (Beiersdorf, νεότερο template): προϊόντα = /products/<slug>-<article id>.html, JSON-LD Product με gtin
+    host: "nivea.gr",
+    only: /^https:\/\/www\.nivea\.gr\/products\/[^\/]+-\d{14,20}\.html$/i,
+    skip: /\/(arthra|sxetika-me-emas|xajax|alpacaforms|Testing-Folder)(\/|$)/i,
+    prefer: /\/products\//i,
+    toLocalUrl: u => u.replace(/-%7c-/i, "-"),
+    delay: 1200,
+    isProduct: (html, url) => isBeiersdorfProductPage(html, url),
+    extractor: async (html, url) => extractBeiersdorfAny(html, url)
   },
   klorane: {
     host: "klorane.com",
