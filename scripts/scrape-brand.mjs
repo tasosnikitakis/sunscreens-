@@ -116,6 +116,18 @@ const BRANDS = {
     isProduct: (html, url) => isBeiersdorfProductPage(html, url),
     extractor: async (html, url) => extractBeiersdorfAny(html, url)
   },
+  hansaplast: {
+    // Hansaplast (Beiersdorf, template «cookpit»/Eucerin, χωρίς sitemap): προϊόντα = /products/<κατηγορία>/<slug>
+    host: "hansaplast.gr",
+    listPages: ["https://www.hansaplast.gr/products", "https://www.hansaplast.gr/products/%CF%80%CE%B5%CF%81%CE%B9%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7-%CF%80%CE%BB%CE%B7%CE%B3%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CE%BC%CE%B1-%CF%80%CE%BB%CE%B7%CE%B3%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%B9%CE%B8%CE%AD%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%BF%CE%B4%CE%B9%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%AF%CE%B4%CE%B5%CF%83%CE%BC%CE%BF%CE%B9-%CF%83%CF%84%CE%B7%CF%81%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1"],
+    only: /^https:\/\/www\.hansaplast\.gr\/products\/[a-z0-9-]+\/[a-z0-9-]+\/?$/i,
+    skip: /\/(articles|about-hansaplast|instant-help|pages|sitecore|components)(\/|$)/i,
+    prefer: /\/products\//i,
+    toLocalUrl: u => u,
+    delay: 1200,
+    isProduct: (html, url) => isBeiersdorfProductPage(html, url),
+    extractor: async (html, url) => extractBeiersdorfAny(html, url)
+  },
   klorane: {
     host: "klorane.com",
     only: /\/gr-el\/product\.xml$|\/gr-el\/p\//i,
@@ -307,6 +319,20 @@ async function main() {
   if (INSPECT) { await inspect(INSPECT); return; }
   let urls;
   if (URLS_FILE) urls = (await fs.readFile(URLS_FILE, "utf8")).split(/\r?\n/).map(s => s.trim()).filter(s => /^https?:/.test(s));
+  else if (cfg.listPages) {
+    // Sites χωρίς sitemap (hansaplast.gr): σύνδεσμοι προϊόντων από σελίδες λίστας/κατηγοριών
+    console.log(`${BRAND}: συλλογή συνδέσμων από ${cfg.listPages.length} σελίδες λίστας…`);
+    const found = new Set();
+    for (const lp of cfg.listPages) {
+      try {
+        const t = await fetchText(lp);
+        for (const m of t.matchAll(/href="([^"#?]+)"/g)) { let u = m[1]; if (u.startsWith("/")) u = new URL(u, lp).href; if (u.includes(cfg.host) && (!cfg.only || cfg.only.test(u)) && !cfg.skip.test(u)) found.add(u); }
+      } catch (e) { console.log(`  ! ${lp}: ${e.message}`); }
+      await sleep(500);
+    }
+    urls = [...found].map(cfg.toLocalUrl);
+    console.log(`Λίστες: ${urls.length} υποψήφιες σελίδες προϊόντος.\n`);
+  }
   else {
     console.log(`${BRAND}: sitemap discovery στο ${cfg.host}…`);
     const all = await getSitemapUrls();

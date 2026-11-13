@@ -256,7 +256,90 @@ export function extractBeiersdorfV2Details(html, url) {
   return d;
 }
 
-// Σελίδα προϊόντος (παλιό template: product stage headline, νέο: data-test="product-title") με article id στο URL
-export const isBeiersdorfProductPage = (html, url) => (/nx-product-stage__headline/.test(html) || isBeiersdorfV2Page(html)) && (!url || /-\d{14,20}\.html/.test(url));
+// ---------------------------------------------------------------------------------------------
+// Τρίτο template Beiersdorf («cookpit» / Eucerin theme, Next.js RSC: hansaplast.gr, eucerin.gr). Τα δεδομένα είναι
+// στο RSC payload (self.__next_f.push([1,"…"])): JSON-LD Product (name, description, image[], gtin13, sku) μέσα στο
+// κείμενο, πεδία Sitecore {"benefits":{"id","value"},"emotionalDescription","productShortDescription","nART"…},
+// και στο server HTML: <h1 class="hdl-4">, .product-stage__title (κατηγορία), .size-value (Μέγεθος),
+// .skin-concern-taglines (Ανάγκες), .all-benefits__li (χαρακτηριστικά), .accordion-jss (πλήρης περιγραφή),
+// JSON-LD FAQPage. Εικόνες: images-1.eucerin.com. URL: /products/<κατηγορία>/<slug> (χωρίς article id).
+export const isBeiersdorfV3Page = html => /self\.__next_f\.push/.test(html) && /product-stage__title|"@type":"Product"|\\"@type\\":\\"Product\\"/.test(html);
+
+function rscText(html) {
+  let out = "";
+  for (const m of html.matchAll(/self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)/g)) { try { out += JSON.parse(m[1]); } catch {} }
+  return out;
+}
+const scField = (txt, name) => { const m = txt.match(new RegExp(`"${name}":\\{"id":"[^"]*","value":("(?:[^"\\\\]|\\\\.)*"|\\d+|true|false|null)`)); if (!m) return null; try { return JSON.parse(m[1]); } catch { return null; } };
+
+export function extractBeiersdorfV3Details(html, url) {
+  const host = (() => { try { return new URL(url).host; } catch { return "www.hansaplast.gr"; } })();
+  const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
+  const rsc = rscText(html);
+  const lds = [...jsonLd(html), ...jsonLd(rsc)];
+  const prod = lds.find(n => n["@type"] === "Product") || {};
+  const faq = lds.find(n => n["@type"] === "FAQPage");
+
+  const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  d.title = h1 ? oneLine(h1[1]) : oneLine(prod.name || "");
+  d.fullTitle = oneLine(prod.name || "") || d.title;
+  const catLabel = (html.match(/class="product-stage__title[^"]*"[^>]*>([^<]*)</i) || [])[1];
+  if (catLabel) d.line = oneLine(catLabel);
+  const pim = {}; for (const m of html.matchAll(/'PIM_L(\d)':\\?"([^"\\]*)/g)) pim[m[1]] = m[2];
+  const slugCat = (String(url).match(/\/products\/([^/]+)\//) || [])[1] || null;
+  d.category = [d.line, pim["1"], pim["2"]].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(" › ") || slugCat;
+  d.breadcrumbs = ["Προϊόντα", d.line].filter(Boolean);
+  if (slugCat) d.slugCategory = slugCat;
+
+  const art = String(prod.sku || scField(rsc, "sku") || (html.match(/'productID':\\?"(\d{14,20})/) || [])[1] || "");
+  d.gtin = String(prod.gtin13 || prod.gtin || "").replace(/\D/g, "") || eanFromArticle(art) || null;
+  if (!d.gtin) { const slug = String(url).replace(/\/+$/, "").split("/").pop() || ""; if (slug) d.gtin = "BDF-" + slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80); }
+  if (art) d.articleId = art;
+  const nart = scField(rsc, "nART") || (html.match(/NART:\s*([\d-]+)/) || [])[1];
+  if (nart) d.attributes["Αριθμός προϊόντος"] = oneLine(nart);
+  d.eans = [d.gtin].filter(Boolean);
+  const sizeTxt = oneLine((html.match(/class="size-value[^"]*"[^>]*>([^<]*)</i) || [])[1] || "");
+  if (/\d\s?(ml|g|gr|l|cm|m|τεμ|τμχ|strips|pieces|units)\b/i.test(sizeTxt)) d.size = /\d\s?(ml|g|gr|l)\b/i.test(sizeTxt) ? sizeNorm(sizeTxt.match(/\d+(?:[.,]\d+)?\s?(?:ml|g|gr|l)\b/i)[0]) : sizeTxt;
+  else if (sizeTxt) d.size = sizeTxt;
+  d.variants = d.gtin && /^\d+$/.test(d.gtin) ? [{ ean: d.gtin, size: d.size || null }] : [];
+  d.sizes = d.size ? [d.size] : [];
+  if (d.size) d.attributes["Μέγεθος"] = d.size;
+
+  // Εικόνες: JSON-LD image[] (packshots, πλήρες μέγεθος με hash), αλλιώς og:image
+  const imgs = Array.isArray(prod.image) ? prod.image : prod.image ? [prod.image] : [];
+  for (const u of imgs) { const x = String(u).replace(/&amp;/g, "&"); if (x && !d.images.includes(x)) d.images.push(x); }
+  if (!d.images.length) { const og = (html.match(/property="og:image" content="([^"]+)"/) || [])[1]; if (og) d.images.push(og.replace(/&amp;/g, "&")); }
+  d.imageLarge = d.images[0] || null;
+
+  // Ανάγκες, χαρακτηριστικά, περιγραφές
+  const needs = [...html.matchAll(/skin-concern-taglines[\s\S]*?<\/div>/gi)].flatMap(m => [...m[0].matchAll(/<span[^>]*>([\s\S]*?)<\/span>/g)].map(x => oneLine(x[1]))).filter(Boolean);
+  if (needs.length) d.attributes["Ανάγκες"] = [...new Set(needs)].join(", ");
+  const ben = scField(rsc, "benefits");
+  const benList = ben ? String(ben).split(/\r?\n/).map(s => oneLine(s)).filter(Boolean) : [...html.matchAll(/all-benefits__li[^>]*>([\s\S]*?)<\/li>/gi)].map(m => oneLine(m[1])).filter(Boolean);
+  for (const b of benList) if (!d.keyFacts.includes(b)) d.keyFacts.push(b);
+  const emo = scField(rsc, "emotionalDescription");
+  const shortD = scField(rsc, "productShortDescription") || oneLine(prod.description || "");
+  // Πλήρης περιγραφή: accordion (τίτλος προϊόντος + κείμενο)
+  const acc = html.match(/accordion-jss__content[^>]*>([\s\S]*?)<\/div>\s*<\/div>/i) || html.match(/<div class="accordion-jss">([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>/i);
+  let longD = acc ? text(stripSvg(acc[1]).replace(/<p[^>]*>[^<]*<\/p>\s*<svg/i, "")) : "";
+  if (longD && d.fullTitle && longD.startsWith(d.fullTitle)) longD = longD.slice(d.fullTitle.length).trim();
+  if (longD && longD.length > 40) d.tabs["Περιγραφή"] = longD; else if (shortD) d.tabs["Περιγραφή"] = oneLine(shortD);
+  if (d.keyFacts.length) d.tabs["Χαρακτηριστικά"] = d.keyFacts.map(b => "• " + b).join("\n");
+  if (faq && Array.isArray(faq.mainEntity)) {
+    const qa = faq.mainEntity.flat().map(q => { const a = q.acceptedAnswer && q.acceptedAnswer.text; return q.name && a ? `${oneLine(q.name)}\n${text(a)}` : null; }).filter(Boolean);
+    if (qa.length) d.tabs["Συχνές ερωτήσεις"] = qa.join("\n\n");
+  }
+  d.shortDescription = shortD ? oneLine(shortD) : null;
+  d.subtitle = emo ? oneLine(emo) : d.shortDescription;
+  d.description = (d.tabs["Περιγραφή"] || d.shortDescription || "").replace(/\s+/g, " ").trim() || null;
+  if (d.line) d.attributes["Κατηγορία"] = d.line;
+  if (d.category && d.category !== d.line) d.attributes[`Κατηγορία ${host.replace(/^www\./, "")}`] = d.category;
+  if (d.keyFacts.length) d.attributes["Χαρακτηριστικά"] = d.keyFacts.slice(0, 6).map(b => b.split(/\s[–-]\s/)[0]).join(" · ");
+  return d;
+}
+
+// Σελίδα προϊόντος: παλιό template (product stage headline) / νέο (data-test="product-title") με article id στο URL,
+// ή cookpit (hansaplast.gr: /products/<κατηγορία>/<slug>, Product JSON-LD στο RSC payload)
+export const isBeiersdorfProductPage = (html, url) => ((/nx-product-stage__headline/.test(html) || isBeiersdorfV2Page(html)) && (!url || /-\d{14,20}\.html/.test(url))) || (isBeiersdorfV3Page(html) && /product-stage__title|hdl-4/.test(html));
 // Αυτόματη επιλογή template
-export const extractBeiersdorfAny = (html, url) => isBeiersdorfV2Page(html) ? extractBeiersdorfV2Details(html, url) : extractBeiersdorfDetails(html, url);
+export const extractBeiersdorfAny = (html, url) => isBeiersdorfV2Page(html) ? extractBeiersdorfV2Details(html, url) : isBeiersdorfV3Page(html) ? extractBeiersdorfV3Details(html, url) : extractBeiersdorfDetails(html, url);
