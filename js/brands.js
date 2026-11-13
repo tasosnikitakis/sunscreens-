@@ -82,6 +82,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Vichy", imageDir: "vichy", sourceKey: "_vichySource",
     fallbackDesc: "Προϊόν Vichy (L'Oréal) — {name}",
     exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
+  },
+  liposan: {
+    key: "liposan", name: "Liposan", host: "liposan.gr", page: "liposan.html",
+    icon: "💋", initials: "LP", accent: "#be123c",
+    sheetName: "Liposan", imageDir: "liposan", sourceKey: "_liposanSource",
+    fallbackDesc: "Προϊόν Liposan (Beiersdorf) — {name}",
+    exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
   }
 };
 
