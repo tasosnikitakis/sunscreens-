@@ -22,6 +22,7 @@ import { fileURLToPath } from "node:url";
 import { decodeHtml, htmlToText } from "./lib-frezyderm.mjs";
 import { extractAdermaDetails, extractPierreFabreDetails } from "./lib-aderma.mjs";
 import { extractLrpDetails, isLrpProductPage } from "./lib-lrp.mjs";
+import { extractVichyDetails, isVichyProductPage } from "./lib-vichy.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -80,6 +81,17 @@ const BRANDS = {
     delay: 1500,
     isProduct: html => isLrpProductPage(html),
     extractor: async (html, url) => extractLrpDetails(html, url)
+  },
+  vichy: {
+    // Vichy (L'Oréal / Sitecore, άλλο theme από LRP): προϊόντα = /proionta/<κατηγορία>[/<υποκατηγορία>]/<slug>
+    host: "vichy.gr",
+    only: /^https:\/\/www\.vichy\.gr\/proionta\/[a-z0-9-]+(?:\/[a-z0-9-]+){1,3}\/?$/i,
+    skip: /\/(arthra|olistiki-ygeia|farmakeia|accounts|search|sitecore|api|diagonismos)(\/|$)/i,
+    prefer: /\/proionta\//i,
+    toLocalUrl: u => u,
+    delay: 1500,
+    isProduct: html => isVichyProductPage(html),
+    extractor: async (html, url) => extractVichyDetails(html, url)
   },
   klorane: {
     host: "klorane.com",
