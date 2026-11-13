@@ -1,0 +1,5659 @@
+// Auto-generated από το scripts/match-vichy.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.
+// Πηγή: vichy.gr (js/vichy-site.json). Διορθώσεις match → js/vichy-manual-matches.json.
+// matchType: manual | exact (GTIN) | high | review (score 99-14, 'Match?')
+// Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα', λίστα στο js/vichy-unmatched.json).
+window.VICHY_OVERRIDES = {
+  "3337875804431": {
+    "name": "Deodorant Clinical Control 96h Αποσμητικό Roll-On",
+    "subtitle": "Προστασία διάρκειας 96 ωρών κατά της οσμής και της εφίδρωσης. Αντιβακτηριδιακά ενεργά δραστικά συστατικά.",
+    "description": "Το \"CLINICAL CONTROL 96H είναι κλινικά αποδεδειγμένο ότι ελέγχει την υπερβολική εφίδρωση: • 96Η στεγνή επιδερμίδα • Κατά της κακοσμίας και κατά της εφίδρωσης • Αντιβακτηριδιακή δράση",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Χωρίς αλκοόλ · Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το \"CLINICAL CONTROL 96H είναι κλινικά αποδεδειγμένο ότι ελέγχει την υπερβολική εφίδρωση:\n• 96Η στεγνή επιδερμίδα\n• Κατά της κακοσμίας και κατά της εφίδρωσης\n• Αντιβακτηριδιακή δράση",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER - ALUMINUM CHLOROHYDRATE - DIMETHICONE - C14-22 ALCOHOLS - PARFUM / FRAGRANCE - STEARETH-100/PEG-136/HDI COPOLYMER - PERLITE - ZINC PCA - C12-20 ALKYL GLUCOSIDE - PENTYLENE GLYCOL"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431packshotfront-gr-1200x12.jpg?rev=851e7c4552d14ce69db6bfeb1c2b5c2b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431packshotfront-gr-1200x12.jpg?rev=851e7c4552d14ce69db6bfeb1c2b5c2b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431packshotfront-gr-1200x12.jpg?rev=851e7c4552d14ce69db6bfeb1c2b5c2b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875804431/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431ingredients-gr-1200x1200.jpg?rev=780d3413957f4f37b27201331e409507",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875804431/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431efficacy-gr-1200x1200.jpg?rev=9323fa7a2adb4caaacd787e126ba57d7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875804431/vichyproductdeodorantsrollonclinicalcontrol96hdetranspirant50ml3337875804431beforeafter-gr-1200x1200.jpg?rev=f10af9be680f468ba05cd24f16802921"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-clinical-control-96h-aposmhtiko-roll-on",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871324582": {
+    "name": "Deo Déodorant 48h Αποσμητικό Σπρέι κατά των Σημαδιών",
+    "subtitle": "Προλαμβάνει τη δημιουργία κίτρινων σημαδιών και την ακαμψία στο ύφασμα.",
+    "description": "Το αντιιδρωτικό σπρέι διαρκεί έως και 48 ώρες. Μειώνει τα κίτρινα σημάδια και την ακαμψία του ρούχου. Παρεμποδίζει το σχηματισμό λευκών σημαδιών στα σκουρόχρωμα ρούχα. Στεγνή και απαλή, μη κολλώδης υφή.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "125ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "125ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αντιιδρωτικό σπρέι διαρκεί έως και 48 ώρες. Μειώνει τα κίτρινα σημάδια και την ακαμψία του ρούχου. Παρεμποδίζει το σχηματισμό λευκών σημαδιών στα σκουρόχρωμα ρούχα.\nΣτεγνή και απαλή, μη κολλώδης υφή.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: ISOBUTANE, AQUA / WATER, DIMETHICONE, ALUMINUM CHLOROHYDRATE, PHENOXYETHANOL, LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE, TETRASODIUM GLUTAMATE DIACETATE, DIMETHICONOL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantiperspirantnowhitemarksyellowstains48hraerosol0003337871324582webfront728x820.png?rev=e989ab548ef34f4ea22f46a1778f450f",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantiperspirantnowhitemarksyellowstains48hraerosol0003337871324582webfront728x820.png?rev=e989ab548ef34f4ea22f46a1778f450f",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantiperspirantnowhitemarksyellowstains48hraerosol0003337871324582webfront728x820.png?rev=e989ab548ef34f4ea22f46a1778f450f"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-48h-aposmhtiko-sprei-kata-twn-shmadiwn",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871324599": {
+    "name": "Deo Déodorant 48h Αποσμητικό Roll-On κατά των Σημαδιών",
+    "subtitle": "Μειώνει τους κίτρινους λεκέδες και τα λευκά σημάδια.",
+    "description": "Το αντιιδρωτικό roll-on διαρκεί έως και 48 ώρες. Μειώνει τα κίτρινα σημάδια και την ακαμψία του ρούχου. Αποτρέπει το σχηματισό λευκών σημαδιών στα σκουρόχρωμα ρούχα. Στεγνή και απαλή, μη κολλώδης υφή.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αντιιδρωτικό roll-on διαρκεί έως και 48 ώρες. Μειώνει τα κίτρινα σημάδια και την ακαμψία του ρούχου. Αποτρέπει το σχηματισό λευκών σημαδιών στα σκουρόχρωμα ρούχα.\nΣτεγνή και απαλή, μη κολλώδης υφή.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER, ALUMINUM CHLOROHYDRATE, DIMETHICONE, C14-22 ALCOHOLS, STEARETH-100/PEG-136/HDI COPOLYMER, PERLITE, TETRASODIUM GLUTAMATE DIACETATE, C12-20 ALKYL GLUCOSIDE, PENTYLENE GLYCOL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48hantimarks50ml3337871324599mrhi-gr-728x820.png?rev=507e135606054b50b7fc246236130cf9",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48hantimarks50ml3337871324599mrhi-gr-728x820.png?rev=507e135606054b50b7fc246236130cf9",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48hantimarks50ml3337871324599mrhi-gr-728x820.png?rev=507e135606054b50b7fc246236130cf9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/vichyproductdeodorantsrollonantiperspirant48hantimarks50ml3337871324599ingredients-gr-1200x1200.jpg?rev=cdc864b5902347348da182e22743f457"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871320300": {
+    "name": "Deo Déodorant 48h Αποσμητικό Roll-On",
+    "subtitle": "48Η προστασία από την κακοσμία και την έντονη εφίδρωση. Βέλτιστη ανοχή ακόμη και σε ευαίσθητο δέρμα.",
+    "description": "Δράση κατά της εφίδρωσης που προσφέρει βέλτιστη προστασία: 48Η από την εφίδρωση 48Η από την κακοσμία και δράση στη ρύθμιση της έντονης εφίδρωσης",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς αλκοόλ",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς αλκοόλ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Δράση κατά της εφίδρωσης που προσφέρει βέλτιστη προστασία:\n48Η από την εφίδρωση\n48Η από την κακοσμία\nκαι δράση στη ρύθμιση της έντονης εφίδρωσης",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, ALUMINUM CHLOROHYDRATE, CETEARYL ALCOHOL, CETEARETH-33, PENTYLENE GLYCOL, DIMETHICONE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300mrhi-gr-716x716.jpg?rev=1e0191f24c0d4a389ce8072eca4f9bb4",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300mrhi-gr-716x716.jpg?rev=1e0191f24c0d4a389ce8072eca4f9bb4",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300mrhi-gr-716x716.jpg?rev=1e0191f24c0d4a389ce8072eca4f9bb4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300ingredients-gr-716x716.jpg?rev=4754dc6708ca4fb78e59633c3525b554",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300efficacy-gr-716x716.jpg?rev=50567a0495744e129ab229a55d6c1d88",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300beforeafter-gr-716x716.jpg?rev=69fe2d83d5c34d609c4d740e8915e26b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-kata-twn-shmadiwn/new/vichyproductdeodorantsrollonantiperspirant48htreatment50ml3337871320300comparison-gr-716x716.jpg?rev=02efbafd78714f9fad952c58d2b64930"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-48h-aposmhtiko-roll-on",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871310592": {
+    "name": "Deo Déodorant 48h Αποσμητικό Σπρέι",
+    "subtitle": "Αποσμητικό διάρκειας 48 ωρών κατά της εφίδρωσης.",
+    "description": "Προσφέρει άμεση φρεσκάδα. Το αποσμητικό σπρέι διαρκεί έως και 48 ώρες. Αίσθηση φρεσκάδας και μεταξένιο άγγιγμα όλη ημέρα. Για γυναίκες που έχουν τάση έντονης εφίδρωσης. Απαλή, μη κολλώδης υφή.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "125ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "125ml"
+    },
+    "sections": {
+      "Περιγραφή": "Προσφέρει άμεση φρεσκάδα. Το αποσμητικό σπρέι διαρκεί έως και 48 ώρες. Αίσθηση φρεσκάδας και μεταξένιο άγγιγμα όλη ημέρα.\nΓια γυναίκες που έχουν τάση έντονης εφίδρωσης.\nΑπαλή, μη κολλώδης υφή.",
+      "Χρήση": "ΠΡΟΣΟΧΗ -- ΕΞΑΙΡΕΤΙΚΑ ΕΥΦΛΕΚΤΟ ΑΕΡΟΖΟΛ.\nΔοχείο υπό πίεση: Μπορεί να εκραγεί εάν θερμανθεί. Να φυλάσσεται μακριά από θερμότητα, ζεστές επιφάνειες, σπινθήρες, ανοιχτές φλόγες και άλλες πηγές ανάφλεξης. Απαγορεύεται το κάπνισμα. Μην ψεκάζετε σε ανοιχτή φλόγα ή σε άλλη πηγή ανάφλεξης. Μην τρυπάτε ή καίτε, ακόμη και μετά τη χρήση. Προστατέψτε το από το ηλιακό φως. Μην εκτίθεται σε θερμοκρασία άνω των 50°C. ΜΗΝ ΕΚΤΙΘΕΤΑΙ ΣΕ ΑΥΤΟΚΙΝΗΤΟ, ΣΤΟΝ ΗΛΙΟ, ΣΤΗΝ ΠΑΡΑΛΙΑ Ή ΣΕ ΚΑΛΟΡΙΦΕΡ. ΟΠΟΙΑΔΗΠΟΤΕ ΠΑΡΑΜΟΡΦΩΜΕΝΟ\nΔΟΧΕΙΟ ΔΕΝ ΠΡΕΠΕΙ ΝΑ ΧΡΗΣΙΜΟΠΟΙΕΙΤΑΙ.\nΝα φυλάσσεται μακριά από παιδιά. Αποφεύγετε να ψεκάζετε προς τα μάτια ή σε\nερεθισμένη επιδερμίδα και την σκόπιμη εισπνοή. Μην χρησιμοποιείτε για κανένα σκοπό\nάλλον από αυτόν για το οποίο προορίζεται το προϊόν. Να μη χρησιμοποιείται σε\nπεριορισμένο χώρο.",
+      "Συστατικά": "INCI: ISOBUTANE, DIMETHICONE, ALUMINUM CHLOROHYDRATE, TRIETHYL CITRATE, DIMETHICONOL, ISOPROPYL PALMITATE, PARFUM / FRAGRANCE, PERLITE, STEARALKONIUM BENTONITE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantitranspirant48haerosol0003337871310592webfront728x820.png?rev=c9cec807729f430996d68906291b9d91",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantitranspirant48haerosol0003337871310592webfront728x820.png?rev=c9cec807729f430996d68906291b9d91",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deo-new-packshots/vichydeodorantantitranspirant48haerosol0003337871310592webfront728x820.png?rev=c9cec807729f430996d68906291b9d91"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-48h-aposmhtiko-sprei",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871320324": {
+    "name": "Deo Déodorant 48h Αποσμητικό Roll-On για Ευαίσθητες Επιδερμίδες",
+    "subtitle": "Αποσμητικό κατά της εφίδρωσης, μακράς διάρκειας 48 ωρών, για ευαίσθητο δέρμα.",
+    "description": "Ένα αποσμητικό ενάντια στην εφίδρωση με ενεργά συστατικά που παρέχει προστασία από τον ιδρώτα και χαρίζει απαλή αίσθηση για έως και 48 ώρες. Για γυναίκες με ευαίσθητη ή επιδερμίδα έπειτα από αποτρίχωση Λεπτόρρευστη, μη κολλώδης και μη λιπαρή υφή.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ένα αποσμητικό ενάντια στην εφίδρωση με ενεργά συστατικά που παρέχει προστασία από τον ιδρώτα και χαρίζει απαλή αίσθηση για έως και 48 ώρες.\nΓια γυναίκες με ευαίσθητη ή επιδερμίδα έπειτα από αποτρίχωση\nΛεπτόρρευστη, μη κολλώδης και μη λιπαρή υφή.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER, ALUMINUM CHLOROHYDRATE, PPG-15 STEARYL ETHER, CETEARYL ALCOHOL, CETEARETH-33, DIMETHICONE, IODOPROPYNYL BUTYLCARBAMATE, NYMPHAEA ALBA EXTRACT / NYMPHAEA ALBA FLOWER EXTRACT, SODIUM PALMITOYL PROLINE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/new/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324packshotfront-gr-728x820.png?rev=18d23adca6974b9d81e175b4c2ddd15d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/new/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324packshotfront-gr-728x820.png?rev=18d23adca6974b9d81e175b4c2ddd15d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/new/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324packshotfront-gr-728x820.png?rev=18d23adca6974b9d81e175b4c2ddd15d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324efficacy-gr-1200x1200.jpg?rev=54a0cbff033c4db0b794e725df88f76c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324ingredients-gr-1200x1200.jpg?rev=ad711b1e437245b5b1714b7d7602a98c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides/vichyproductdeodorantsrollonsoothing48hantiperspirant50ml3337871320324beforeafter-gr-1200x1200.jpg?rev=91597461e35641a884476904017c9354"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-48h-aposmhtiko-roll-on-gia-euaisthhtes-epidermides",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871325671": {
+    "name": "Déodorant Ideal Finish 48h Αποσμητικό Roll-On",
+    "subtitle": "Αποσμητικό κατά της εφίδρωσης διάρκειας 48 ωρών. Βελτιώνει το ανάγλυφο της επιδερμίδας.",
+    "description": "48Η αποσμητικό roll-on κατά της εφίδρωσης για ευαίσθητο δέρμα που βελτιώνει το ανάγλυφο της επιδερμίδας. Χάρη στο LHA, το ανάγλυφο της επιδερμίδας γίνεται ποιο ομοιόμορφο και η τριχοφυΐα γίνεται λιγότερο ορατή. Περιέχει δραστικά συστατικά οπτικής διόρθωσης για άμεσα λαμπερή, φωτεινή επιδερμίδα. Μοντέρνο και θηλυκό άρωμα με υφή που απορροφάται γρήγορα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "48Η αποσμητικό roll-on κατά της εφίδρωσης για ευαίσθητο δέρμα που βελτιώνει το ανάγλυφο της επιδερμίδας. Χάρη στο LHA, το ανάγλυφο της επιδερμίδας γίνεται ποιο ομοιόμορφο και η τριχοφυΐα γίνεται λιγότερο ορατή. Περιέχει δραστικά συστατικά οπτικής διόρθωσης για άμεσα λαμπερή, φωτεινή επιδερμίδα.\nΜοντέρνο και θηλυκό άρωμα με υφή που απορροφάται γρήγορα.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER, ALUMINUM CHLOROHYDRATE, CETEARYL ALCOHOL, CETEARETH-33, PARFUM / FRAGRANCE, PERLITE, PHENOXYETHANOL, DIMETHICONE, CITRUS LIMON FRUIT EXTRACT / LEMON FRUIT EXTRACT, CAPRYLOYL SALICYLIC ACID, MICA, TETRASODIUM GLUTAMATE DIACETATE, CI 77891 / TITANIUM DIOXIDE, ASCORBYL GLUCOSIDE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichydeodorantantitranspirantbeaute48hmosaic-1-gr-728x820.png?rev=84c652a701184be5a70ba2e9d0e99c33",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichydeodorantantitranspirantbeaute48hmosaic-1-gr-728x820.png?rev=84c652a701184be5a70ba2e9d0e99c33",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichydeodorantantitranspirantbeaute48hmosaic-1-gr-728x820.png?rev=84c652a701184be5a70ba2e9d0e99c33",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichydeodorantantiperspirant48hbeautytreatmentwebsitepdp-briefmosaic-4-gr-716x716.jpg?rev=f1faf55f5b734d69a5886ffd58944846",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichydeodorantantiperspirant48hbeautytreatmentwebsitepdp-briefmosaic-5-gr-716x716.jpg?rev=58e37683c28c4f848933887700505348",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-ideal-finish-48h-aposmhtiko-roll-on/new/vichyproductdeodorantsrollonantiperspirant48hbeautytreatment50ml3337871325657beforeafters-gr-716x716.jpg?rev=aab2414bf1894cdab3f5ee20d39b280d"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-ideal-finish-48h-aposmhtiko-roll-on",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875894265": {
+    "name": "Deo Déodorant 72H Invisible Resist Γυναικείο Αποσμητικό",
+    "subtitle": "ΑΟΡΑΤΟ ΑΠΟΣΜΗΤΙΚΟ ΚΑΤΑ ΤΩΝ ΣΗΜΑΔΙΩΝ ΚΑΙ ΤΗΣ ΕΝΤΟΝΗΣ ΕΦΙΔΡΩΣΗΣ",
+    "description": "Το INVISIBLE RESIST 72H προσφέρει υψηλή προστασία από τον ιδρώτα, ακόμα και υπό συνθήκες έντονης εφίδρωσης: - 72 ώρες προστασίας από τον ιδρώτα*, - προστασία από οσμές & λεκέδες, - αόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα. * * Οργανομετρική δοκιμή.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς αλκοόλ",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το INVISIBLE RESIST 72H προσφέρει υψηλή προστασία από τον ιδρώτα, ακόμα και υπό συνθήκες έντονης εφίδρωσης:\n- 72 ώρες προστασίας από τον ιδρώτα*,\n- προστασία από οσμές & λεκέδες,\n- αόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα.\n* * Οργανομετρική δοκιμή.",
+      "Οφέλη": "72 ΩΡΕΣ ΠΡΟΣΤΑΣΙΑΣ ΑΠΟ ΤΟΝ ΙΔΡΩΤΑ*.\nΠροστασία από οσμές & λεκέδες.\nΑόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα.\nΑποδεδειγμένη αποτελεσματικότητα ενάντια στο ξεθώριασμα του χρώματος.\nΕνδυναμώνει τον επιδερμιδικό φραγμό",
+      "Υφή": "Σύνθεση για άμεσα στεγνή επιδερμίδα, με μη λιπαρό και μη κολλώδες αποτέλεσμα. Αφήνει την επιδερμίδα να αναπνέει, για βέλτιστη άνεση.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU ● ALUMINUM CHLOROHYDRATE ● DIMETHICONE ● C14-22 ALCOHOLS ● PARFUM / FRAGRANCE ● STEARETH-100/PEG-136/HDI COPOLYMER ● PERLITE ● TETRASODIUM GLUTAMATE DIACETATE ● C12-20 ALKYL GLUCOSIDE ● PENTYLENE GLYCOL ●"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/new-packshot/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265packshotfront-gr-72.png?rev=e32dbf1ecb25489eb5df5e332356ca99",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/new-packshot/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265packshotfront-gr-72.png?rev=e32dbf1ecb25489eb5df5e332356ca99",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/new-packshot/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265packshotfront-gr-72.png?rev=e32dbf1ecb25489eb5df5e332356ca99",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265efficacy-gr-716x716.jpg?rev=3a9d2d592c37425d9a6066cee5858765",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265ingredients-gr-716x.jpg?rev=2e18fe6d49cd4d698d87f747c08ce96d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-72h-invisible-resist-gunaikeio-aposmhtiko/vichyproductdeodorantsrolloninvisibleresist72hdermodetranspirant50ml3337875894265beforeafter-gr-716x.jpg?rev=d8d428e415504f02bbd4347ce9ea9ff8"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-72h-invisible-resist-gunaikeio-aposmhtiko",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875957045": {
+    "name": "Clinical Control 96h Υποαλλεργικό Αποσμητικό Σπρέι",
+    "subtitle": "96 ΩΡΕΣ ΠΡΟΣΤΑΣΙΑΣ. ΧΩΡΙΣ ΙΧΝΗ. ΣΤΕΓΝΗ ΑΙΣΘΗΣΗ.",
+    "description": "Απαράμιλλη αποτελεσματικότητα που συνδυάζεται με υψηλή ανοχή. Το προϊόν αυτό προστατεύει από τον ιδρώτα και την κακοσμία για έως και 96 ώρες, χωρίς ορατά ίχνη, με απόλυτα στεγνή αίσθηση. Σύνθεση με 0% αλκοόλη. Δερματολογικά ελεγμένο, υποαλλεργικό, και κατάλληλο για ευαίσθητες επιδερμίδες.",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "125ml",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Χωρίς αλκοόλ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό",
+      "Συσκευασία": "125ml"
+    },
+    "sections": {
+      "Περιγραφή": "Απαράμιλλη αποτελεσματικότητα που συνδυάζεται με υψηλή ανοχή. Το προϊόν αυτό προστατεύει από τον ιδρώτα και την κακοσμία για έως και 96 ώρες, χωρίς ορατά ίχνη, με απόλυτα στεγνή αίσθηση. Σύνθεση με 0% αλκοόλη. Δερματολογικά ελεγμένο, υποαλλεργικό, και κατάλληλο για ευαίσθητες επιδερμίδες.",
+      "Υφή": "Ανάλαφρη υφή με άρωμα φρεσκάδας. Με στεγνή αίσθηση στην επιδερμίδα αμέσως μετά από την εφαρμογή.",
+      "Συστατικά": "Διπλή τεχνολογία Sweat-Lock: με τη δύναμη δύο αλάτων αλουμινίου, για απαράμιλλη αποτελεσματικότητα κατά του ιδρώτα και της κακοσμίας.\nINCI: ISOBUTANE ● ALUMINUM CHLOROHYDRATE ● DIMETHICONE ● ALUMINUM SESQUICHLOROHYDRATE ● ISOPROPYL PALMITATE ● ISODODECANE ● PARFUM / FRAGRANCE ● DISTEARDIMONIUM HECTORITE ● PROPYLENE CARBONATE ● DIMETHICONOL",
+      "Χρήση": "ΚΑΘΑΡΙΣΜΟΣ\nΧρησιμοποιήστε το Pureté Thermal Fresh Cleansing Gel, για καθαρισμό της επιδερμίδας σας πριν εφαρμόσετε το αποσμητικό σας.\nΕΛΕΓΧΟΣ\nΧρησιμοποιήστε το CLINICAL CONTROL AEROSOL Antiperspirant καθημερινά, πρωί & βράδυ, εφαρμόζοντας στις μασχάλες από απόσταση 15 εκ."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/aeorosolhyperantiperspirant728x820.png?rev=6a3b9f9024a2473ba6f22b1d45760b42",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/aeorosolhyperantiperspirant728x820.png?rev=6a3b9f9024a2473ba6f22b1d45760b42",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/aeorosolhyperantiperspirant728x820.png?rev=6a3b9f9024a2473ba6f22b1d45760b42",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/vichydeodrantsaeorosolhyperantiperspirantwomen-716x716.jpg?rev=a52090713bc64544b4e97929d1b62050",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/vichyproductskincaredeoaeorosolhyperantiperspirantwomen3337875957045btfmobileclinicalresults-gr-new.jpg?rev=2e16af667056422e9fc5868fab8b0e0a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/deodrantsaeorosolhyperantiperspirantwomen716x716.jpg?rev=5305b386c5df48868c90ef263afb94c3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei/vichyproductskincaredeoaeorosolhyperantiperspirantwomen716x716.jpg?rev=738dc5a0b2f042a7a21cb316680990fd"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-clinical-control-96h-ypoallergiko-aposmhtiko-sprei",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875553278": {
+    "name": "Deo Déodorant Mineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου",
+    "subtitle": "Βέλτιστη αποτελεσματικότητα και ανοχή.",
+    "description": "Τα τελευταία χρόνια, υπάρχει μια αυξανόμενη τάση προς φυσικά και πιο υγιεινά προϊόντα προσωπικής περιποίησης, ιδιαίτερα στον τομέα των αποσμητικών. Τα ορυκτά αποσμητικά χωρίς αλουμίνιο έχουν κερδίσει δημοτικότητα καθώς οι καταναλωτές συνειδητοποιούν περισσότερο τα συστατικά που εφαρμόζουν στο δέρμα τους. Σε αντίθεση με τα συμβατικά αποσμητικά που συχνά περιέχουν ενώσεις αλουμινίου για να μπλοκάρουν τους ιδρωτοποιούς αδένες, τα ορυκτά αποσμητικά αξιοποιούν φυσικά μέταλλα, για να εξουδετερώνουν την οσμή χωρίς να παρεμβαίνουν στις φυσικές διαδικασίες του σώματος. Ένα από τα κύρια οφέλη της χρήσης αποσμητικά ορυκτών χωρίς αλουμίνιο είναι η απαλότητά τους στο δέρμα. Πολλά άτομα εμφανίζουν ερεθισμό ή αλλεργικές αντιδράσεις σε συνθετικά συστατικά που βρίσκονται στα παραδοσιακά αποσμητικά. Τα ορυκτά αποσμητικά είναι συνήθως απαλλαγμένα από τεχνητά αρώματα, βαφές και συντηρητικά, καθιστώντας τα μια κατάλληλη επιλογή για άτομα με ευαίσθητο δέρμα. Επιπλέον, αυτά τα αποσμητικά επιτρέπουν στο σώμα να ιδρώνει φυσικά, μια απαραίτητη διαδικασία για τη ρύθμιση της θερμοκρασίας και την αποβολή των τοξινών. Εξουδετερώνοντας τις οσμές χωρίς να μπλοκάρουν τον ιδρώτα, τα ορυκτά αποσμητικά προάγουν ένα πιο υγιές περιβάλλον στις μασχάλες. Καθώς οι άνθρωποι αναζητούν εναλλακτικές λύσεις στα παραδοσιακά προϊόντα, τα ορυκτά αποσμητικά χωρίς αλουμίνιο προσφέρουν μια αποτελεσματική και φυσική λύση για τον έλεγχο των οσμών. Το D&eacute;odorant Mineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου υπόσχεται βέλτιστη αποτελεσματικότητα και ανοχή κατά του ιδρώτα για 48 ώρες. Το αποσμητικό είναι κατάλληλο για άνδρες και γυναίκες που αναζητούν ένα προϊόν χωρίς άλατα αλουμινίου. Το Mineral 48h Αποσμητικό Roll-On σέβεται την ευαίσθητη επιδερμίδα της μασχάλης και ακολουθεί την τάση των καταναλωτών για πιο υγιεινά προϊόντα προσωπικής περιποίησης.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο"
+    },
+    "sections": {
+      "Περιγραφή": "Τα τελευταία χρόνια, υπάρχει μια αυξανόμενη τάση προς φυσικά και πιο υγιεινά προϊόντα προσωπικής περιποίησης, ιδιαίτερα στον τομέα των αποσμητικών. Τα ορυκτά αποσμητικά χωρίς αλουμίνιο έχουν κερδίσει δημοτικότητα καθώς οι καταναλωτές συνειδητοποιούν περισσότερο τα συστατικά που εφαρμόζουν στο δέρμα τους. Σε αντίθεση με τα συμβατικά αποσμητικά που συχνά περιέχουν ενώσεις αλουμινίου για να μπλοκάρουν τους ιδρωτοποιούς αδένες, τα ορυκτά αποσμητικά αξιοποιούν φυσικά μέταλλα, για να εξουδετερώνουν την οσμή χωρίς να παρεμβαίνουν στις φυσικές διαδικασίες του σώματος.\nΈνα από τα κύρια οφέλη της χρήσης αποσμητικά ορυκτών χωρίς αλουμίνιο είναι η απαλότητά τους στο δέρμα. Πολλά άτομα εμφανίζουν ερεθισμό ή αλλεργικές αντιδράσεις σε συνθετικά συστατικά που βρίσκονται στα παραδοσιακά αποσμητικά. Τα ορυκτά αποσμητικά είναι συνήθως απαλλαγμένα από τεχνητά αρώματα, βαφές και συντηρητικά, καθιστώντας τα μια κατάλληλη επιλογή για άτομα με ευαίσθητο δέρμα.\nΕπιπλέον, αυτά τα αποσμητικά επιτρέπουν στο σώμα να ιδρώνει φυσικά, μια απαραίτητη διαδικασία για τη ρύθμιση της θερμοκρασίας και την αποβολή των τοξινών. Εξουδετερώνοντας τις οσμές χωρίς να μπλοκάρουν τον ιδρώτα, τα ορυκτά αποσμητικά προάγουν ένα πιο υγιές περιβάλλον στις μασχάλες.\nΚαθώς οι άνθρωποι αναζητούν εναλλακτικές λύσεις στα παραδοσιακά προϊόντα, τα ορυκτά αποσμητικά χωρίς αλουμίνιο προσφέρουν μια αποτελεσματική και φυσική λύση για τον έλεγχο των οσμών. Το D&eacute;odorant\nMineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου υπόσχεται βέλτιστη αποτελεσματικότητα και ανοχή κατά του ιδρώτα για 48 ώρες. Το αποσμητικό είναι κατάλληλο για άνδρες και γυναίκες που αναζητούν ένα προϊόν χωρίς άλατα αλουμινίου. Το Mineral 48h Αποσμητικό Roll-On σέβεται την ευαίσθητη επιδερμίδα της μασχάλης και ακολουθεί την τάση των καταναλωτών για πιο υγιεινά προϊόντα προσωπικής περιποίησης.",
+      "Συστατικά": "Βιταμίνη Β5\nΨευδάργυρος\nΙαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nINCI: AQUA / WATER - PROPYLENE GLYCOL - PPG-26-BUTETH-26 - STEARETH-100/PEG-136/HDI COPOLYMER - PARFUM / FRAGRANCE - PEG-40 HYDROGENATED CASTOR OIL - ZINC GLUCONATE - CITRIC ACID - PHENOXYETHANOL - CAPRYLYL GLYCOL - PANTHENOL - CALCIUM CARBONATE - SODIUM CHLORIDE - MAGNESIUM GLUCONATE",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278packshotfront-gr-1200x1200.jpg?rev=2f163e8806d546468a60c45906117dff",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278packshotfront-gr-1200x1200.jpg?rev=2f163e8806d546468a60c45906117dff",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/articles/deodorant/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278packshotfront-gr-1200x1200.jpg?rev=2f163e8806d546468a60c45906117dff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875553278/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278notext1-gr-1200x1200.jpg?rev=7ba519f2a6784c98bd88128d55a1d194",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875553278/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278ingredients-gr-1200x1200.jpg?rev=82a08b94585247ec8308fbbd5c8c7ead",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875553278/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278efficacy-gr-1200x1200.jpg?rev=02d2177fff0c4a3cb89151305e994f84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875553278/vichyproductdeodorantsrollonmineral48hdeodorant50ml3337875553278beforeafter-gr-1200x1200.jpg?rev=ac59eb6495db4ab28140d695403a6507"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-mineral-48h-aposmhtiko-roll-on-xwris-alata-alouminiou",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871324001": {
+    "name": "Deo Déodorant Stress Resist 72h Αποσμητικό Roll-On",
+    "subtitle": "Προστασία διάρκειας 72 ωρών από οσμές και υγρασία, ακόμα και για έντονη εφίδρωση. Βέλτιστη ανθεκτικότητα ακόμη και σε ευαίσθητο δέρμα.",
+    "description": "ΒΕΛΤΙΣΤΗ ΠΡΟΣΤΑΣΙΑ: 72 ώρες προστασία από την υγρασία 72 ώρες προστασία από οσμές Ρυθμίζει την υπερβολική εφίδρωση ακόμη και σε περιόδους έντονου στρες Δοκιμασμένο σε ακραίες συνθήκες",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Deo",
+      "Κατηγορία vichy.gr": "Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "ΒΕΛΤΙΣΤΗ ΠΡΟΣΤΑΣΙΑ:\n72 ώρες προστασία από την υγρασία\n72 ώρες προστασία από οσμές\nΡυθμίζει την υπερβολική εφίδρωση ακόμη και σε περιόδους έντονου στρες\nΔοκιμασμένο σε ακραίες συνθήκες",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, ALUMINUM CHLOROHYDRATE, DIMETHICONE, C14-22 ALCOHOLS, STEARETH-100/PEG-136/HDI COPOLYMER, PARFUM / FRAGRANCE, PERLITE, ROSA GALLICA FLOWER EXTRACT, C12-20 ALKYL GLUCOSIDE, PENTYLENE GLYCOL, PROPYLENE GLYCOL, SORBITOL"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---deo-stress-resist-48h-anti-perspirant--mosaic-1.png?rev=285f2107128b4a8e83565e93ff69804e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---deo-stress-resist-48h-anti-perspirant--mosaic-1.png?rev=285f2107128b4a8e83565e93ff69804e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---deo-stress-resist-48h-anti-perspirant--mosaic-1.png?rev=285f2107128b4a8e83565e93ff69804e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871324001/vichyproductdeodorantsrollonstressresist72hantiperspirant50ml3337871324001ingredients-gr-1200x1200.jpg?rev=34abb536995a4d3ea8a6fc1371194c6c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871324001/vichyproductdeodorantsrollonstressresist72hantiperspirant50ml3337871324001efficacy-gr-1200x1200.jpg?rev=c599da2551874d4ebad5ff4fc83170fd",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871324001/vichyproductdeodorantsrollonstressresist72hantiperspirant50ml3337871324001beforeafter-gr-1200x1200.jpg?rev=be01ba930e3349c58b495cdc9cde79c2"
+    ],
+    "url": "https://www.vichy.gr/proionta/aposmhtika/deos-stress-resist-72h-aposmhtiko-roll-on",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875677967": {
+    "name": "Dercos Densi-Solutions Conditioner για Πύκνωση Μαλλιών",
+    "subtitle": "Ενυδατώνει το τριχωτό της κεφαλής, ενισχύει την αντοχή των μαλλιών και αποκαθιστά τις ίνες της τρίχας.",
+    "description": "To conditioner Dercos Densi-Solutions ενισχύει τη πυκνότητα, ενυδατώνει το τριχωτό της κεφαλής και την αντοχή των μαλλιών. Περιέχει επανορθωτικά Ceramides και ενδυναμωτικό κερί Candelilla. Μετά απο κάθε χρήση, τα μαλλιά αποκτούν περισσότερο όγκο. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Conditioner Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "To conditioner Dercos Densi-Solutions ενισχύει τη πυκνότητα, ενυδατώνει το τριχωτό της κεφαλής και την αντοχή των μαλλιών. Περιέχει επανορθωτικά Ceramides και ενδυναμωτικό κερί Candelilla. Μετά απο κάθε χρήση, τα μαλλιά αποκτούν περισσότερο όγκο. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA, HYDROXYPROPYL STARCH PHOSPHATE, GLYCERIN, QUATERNIUM-87, STEARYL ALCOHOL, BEHENTRIMONIUM CHLORIDE, CANDELILLA CERA, CAPRYLYL GLYCOL, CETYL ESTERS, GERANIOL, HEXYL CINNAMAL, ISONONYL ISONONANOATE, ISOPROPYL ALCOHOL, LIMONENE, LINALOOL, MENTHA PIPERITA OIL, MENTHOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, PHENOXYETHANOL, PROPYLENE GLYCOL, RHAMNOSE, SODIUM HYDROXIDE, TOCOPHERYL ACETATE, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic085vichydercosdensisolutions-restoring-thickening-balm--thinning--weak-hair.jpg?rev=1bed4d46ec2749568193299d4478999e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic085vichydercosdensisolutions-restoring-thickening-balm--thinning--weak-hair.jpg?rev=1bed4d46ec2749568193299d4478999e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic085vichydercosdensisolutions-restoring-thickening-balm--thinning--weak-hair.jpg?rev=1bed4d46ec2749568193299d4478999e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---restoring-thickening-balm/densi-solutions-restoring-thickening-balm-pack2.jpeg?rev=d00e6dd482e040719b49cc9217b43608",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---restoring-thickening-balm/densi-solutions-restoring-thickening-balm-pack3.jpeg?rev=413fa4b67fc243d79b349322c265f8fb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---restoring-thickening-balm/densi-solutions-restoring-thickening-balm-pack4.jpeg?rev=8f63effafc9140629fe7d7514a13c3b9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---restoring-thickening-balm/densi-solutions-restoring-thickening-balm-pack5.jpeg?rev=6208e4ae481840d2adfcb13bf604d8e0"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/conditioner-malliwn/dercos-densi-solutions-conditioner-gia-puknwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875920971": {
+    "name": "Dercos Collagen 17 Filler Conditioner για Ενδυνάμωση Μαλλιών",
+    "subtitle": "Αναπληρώνει το κολλαγόνο 17 για πιο δυνατό τριχωτό και μαλλιά με περισσότερο όγκο. Επανορθώνει τη φθορά 5 χρόνων από την πρώτη χρήση.",
+    "description": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο. * * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Conditioner Μαλλιών"
+    },
+    "sections": {
+      "Περιγραφή": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο.\n* * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+      "Οφέλη": "Αφήνει αμέσως τα μαλλιά ευκολοχτένιστα και πιο δυνατά ενάντια στο σπάσιμο.\nΕνίσχυση της εσωτερικής δομής της τρίχας κατά +99%*.\n+50% περισσότερη απαλότητα**.\n+38% επανόρθωση της ψαλίδας**.\n* Εργαστηριακή μελέτη μετά από 6 εφαρμογές του πρωτοκόλλου. ** Εργαστηριακές μελέτες.\n* * Εργαστηριακή μελέτη μετά από 6 εφαρμογές του πρωτοκόλλου. ** Εργαστηριακές μελέτες.",
+      "Υφή": "Κρεμώδης υφή που δημιουργεί πλούσιο αφρό.",
+      "Συστατικά": "ΣΥΜΠΛΟΚΟ ΠΡΟΚΟΛΛΑΓΟΝΟΥ\nΤο κολλαγόνο είναι η πιο άφθονη πρωτεΐνη που παράγει το σώμα μας. Τα Πεπτίδια Προκολλαγόνου προάγουν την παραγωγή κολλαγόνου στο δέρμα, συμβάλλοντας έτσι στη νεανική εμφάνιση της επιδερμίδας.\nINCI: AQUA / WATER ● GLYCERIN ●CETEARYL ALCOHOL ● DISTARCH PHOSPHATE ● QUATERNIUM-87 ●DIMETHICONE ● PARFUM / FRAGRANCE ● PEG-100 STEARATE ● PEG-150/DECYL ALCOHOL/SMDI COPOLYMER ● STEARETH-6 ●GLYCINE ● TRIDECETH-10 ●TRIDECETH-3 ● AMODIMETHICONE ●BEHENTRIMONIUM CHLORIDE ●SODIUM HYDROXIDE ● SODIUM LACTATE ● PALMITOYL TETRAPEPTIDE-7 ● PALMITOYL TRIPEPTIDE-1 ● ISOPROPYL ALCOHOL ● PROPYLENE GLYCOL ● CITRIC ACID ● ACETIC ACID ● XANTHAN GUM ● PHENOXYETHANOL ● CHLORHEXIDINE DIGLUCONATE ● LIMONENE",
+      "Χρήση": "ΣΤΟΧΕΥΣΗ\nΕφαρμόστε το Collagen 17 FILLER Treatment σε βρεγμένο τριχωτό και μαλλιά.\nΛΟΥΣΙΜΟ\nΕφαρμόστε από πάνω το Collagen 17 FILLER Shampoo. Κάντε μασάζ, και ξεβγάλτε.\nΠΕΡΙΠΟΙΗΣΗ\nΕφαρμόστε το Collagen 17 FILLER Conditioner. Ξεβγάλτε."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichydercoscollagen17conditioner200mlimagepackshotfront-gr-728x820.png?rev=b007fe5363a548a2a509e7cc99961032",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichydercoscollagen17conditioner200mlimagepackshotfront-gr-728x820.png?rev=b007fe5363a548a2a509e7cc99961032",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichydercoscollagen17conditioner200mlimagepackshotfront-gr-728x820.png?rev=b007fe5363a548a2a509e7cc99961032",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichyproducthaircaredercoscollagen17conditioner3337875920971atfkeybenefits-716x716.jpg?rev=732d5f292dfc42649142d6a709d5fbf9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/vichy-product-haircare-dercos-collagen17-conditioner-3337875920971-atf-clinicalresults.jpg?rev=01291a5143db44aaab0dc24ee3825a4f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichyproducthaircarecollagen17333787592090233378759210083337875920971atfbeforeafter-716x716.jpg?rev=485edcf50d384002980e7ae83936aa89",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/vichy-product-haircare-dercos-collagen17-pre-shampoo-3337875920902-atf-ingredients.jpg?rev=4fdba64c53e54ede86b3fd3fdca2e441",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/vichyproducthaircaredercosaminexilclinicalregenbooster90ml3337875932080professionnalendorsemen-1.jpg?rev=447b7ed2803d4286a8782f7bf9abf698",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/vichy-product-haircare-dercos-collagen17-conditioner-3337875920971-atf-texture.jpg?rev=cbb894c0cf8f42ae98bc9406f71e192e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichyproducthaircarecollagen17333787592090233378759210083337875920971atfhowtouse-716x716.jpg?rev=7937af4f787f4d14a82143dc6030c280",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/mosaic-7-all-products.jpg?rev=e36143f612a647be919365176c67998d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn/vichyproducthaircaredercoscollagen17shampoo200ml3337875920971btfmobilesafety-716x716.jpg?rev=9b32ce1e0e414bec951af9af282aa4a7"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/conditioner-malliwn/dercos-collagen-17-filler-conditioner-gia-endynamwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875673914": {
+    "name": "Dercos Kera Solutions Restoring 2min Μάσκα για Ξηρά Μαλλιά",
+    "subtitle": "Θρέφει και επανορθώνει τα μαλλιά χωρίς να τα βαραίνει",
+    "description": "Η Μάσκα Dercos Kera Solutions θρέφει και επανορθώνει τα ξηρά, ταλαιπωρημένα και καταπονημένα μαλλιά. Συνδυάζει μια σύνθεση με pro-keratin complex και Βιταμίνη Β5 για να ανανεώσει τα μαλλιά σε μία μόνο χρήση. Θρέφει τις ίνες της τρίχας, ξεμπερδεύει τα μαλλιά και βελτιώνει την απαλότητα και τη λάμψη τους. Για βέλτιστα αποτελέσματα χρησιμοποιείστε σε συνδυασμό με το Kera-Solutions Shampoo.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Μάσκες Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο"
+    },
+    "sections": {
+      "Περιγραφή": "Η Μάσκα Dercos Kera Solutions θρέφει και επανορθώνει τα ξηρά, ταλαιπωρημένα και καταπονημένα μαλλιά. Συνδυάζει μια σύνθεση με pro-keratin complex και Βιταμίνη Β5 για να ανανεώσει τα μαλλιά σε μία μόνο χρήση. Θρέφει τις ίνες της τρίχας, ξεμπερδεύει τα μαλλιά και βελτιώνει την απαλότητα και τη λάμψη τους. Για βέλτιστα αποτελέσματα χρησιμοποιείστε σε συνδυασμό με το Kera-Solutions Shampoo.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, CETEARYL ALCOHOL, DICETYLDIMONIUM CHLORIDE, COCOS NUCIFERA OIL / COCONUT OIL, CETRIMONIUM CHLORIDE, ACETIC ACID, AMODIMETHICONE, CETYL ESTERS, CHLORHEXIDINE DIGLUCONATE, DIMETHICONE, HYDROLYZED CORN PROTEIN, HYDROLYZED SOY PROTEIN, HYDROLYZED WHEAT PROTEIN, ISOPROPYL ALCOHOL, PANTHENOL, PEG-100 STEARATE, PHENOXYETHANOL, SODIUM BENZOATE, STEARETH-6, TARTARIC ACID, TRIDECETH-10, TRIDECETH-3, TRISODIUM HEDTA, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera-solutions_masque_2min_reparateur.jpg?rev=b32089d4430f49df9a7bc9bcf08d829e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera-solutions_masque_2min_reparateur.jpg?rev=b32089d4430f49df9a7bc9bcf08d829e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera-solutions_masque_2min_reparateur.jpg?rev=b32089d4430f49df9a7bc9bcf08d829e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions---restoring-2min-mask/kera-solutions-mask-pack2.jpeg?rev=e714e312a2644a4793201cc6e0983ee0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions---restoring-2min-mask/kera-solutions-mask-pack3.jpeg?rev=df0a7a6c6a7643b3ae080e1d5c9e4feb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions---restoring-2min-mask/kera-solutions-mask-pack4.jpeg?rev=c8729cc475b14302abf33c791902c829",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions---restoring-2min-mask/kera-solutions-mask-pack5.jpeg?rev=d138a7c19c0f4865944e9de5b392483d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/maskes-malliwn/dercos-kera-solutions-restoring-2min-maska-gia-xhra-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875522748": {
+    "name": "Dercos Aminexil Clinical 5 Αμπούλες για Τριχόπτωση Ανρδών",
+    "subtitle": "Αποτελεσματικότητα κατά της τριχόπτωσης",
+    "description": "Η τριχόπτωση στους άνδρες αποτελεί ένα συχνό φαινόμενο που απασχολεί μεγάλο μέρος του ανδρικού πληθυσμού. Οι αιτίες που την προκαλούν ποικίλουν και περιλαμβάνουν, μεταξύ άλλων, το στρες, την κούραση, τις εποχικές αλλαγές, αλλά και γενετικούς παράγοντες. Για την αποτελεσματική αντιμετώπιση της τριχόπτωσης, η Vichy δημιούργησε το Aminexil Clinical 5. Πρόκειται για μια σύνθεση που συνδυάζει την αποτελεσματικότητα του Aminexil με 5 ακόμη δραστικά συστατικά, προσφέροντας μια ολοκληρωμένη λύση κατά της τριχόπτωσης.Το Aminexil, βασικό συστατικό της σύνθεσης, έχει κλινικά αποδεδειγμένη δράση ενάντια στην τριχόπτωση. Η καινοτόμος σύνθεση του Aminexil Clinical 5, ενισχυμένη με 5 επιπλέον δραστικά συστατικά, δρα στοχευμένα ενάντια στους παράγοντες που προκαλούν τριχόπτωση, χαρίζοντας πιο υγιή και δυνατά μαλλιά. Η αποτελεσματικότητα του Aminexil Clinical 5 έχει βεβαιωθεί με κλινικές μελέτες υπό δερματολογικό έλεγχο, εξασφαλίζοντας την ασφάλεια και την αποτελεσματικότητα του προϊόντος.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "6ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Αγωγές Τριχόπτωσης",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "6ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η τριχόπτωση στους άνδρες αποτελεί ένα συχνό φαινόμενο που απασχολεί μεγάλο μέρος του ανδρικού πληθυσμού. Οι αιτίες που την προκαλούν ποικίλουν και περιλαμβάνουν, μεταξύ άλλων, το στρες, την κούραση, τις εποχικές αλλαγές, αλλά και γενετικούς παράγοντες.\nΓια την αποτελεσματική αντιμετώπιση της τριχόπτωσης, η Vichy δημιούργησε το Aminexil Clinical 5. Πρόκειται για μια σύνθεση που συνδυάζει την αποτελεσματικότητα του Aminexil με 5 ακόμη δραστικά συστατικά, προσφέροντας μια ολοκληρωμένη λύση κατά της τριχόπτωσης.Το Aminexil, βασικό συστατικό της σύνθεσης, έχει κλινικά αποδεδειγμένη δράση ενάντια στην τριχόπτωση. Η καινοτόμος σύνθεση του Aminexil Clinical 5, ενισχυμένη με 5 επιπλέον δραστικά συστατικά, δρα στοχευμένα ενάντια στους παράγοντες που προκαλούν τριχόπτωση, χαρίζοντας πιο υγιή και δυνατά μαλλιά.\nΗ αποτελεσματικότητα του Aminexil Clinical 5 έχει βεβαιωθεί με κλινικές μελέτες υπό δερματολογικό έλεγχο, εξασφαλίζοντας την ασφάλεια και την αποτελεσματικότητα του προϊόντος.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, ALCOHOL DENAT., DIAMINOPYRIMIDINE OXIDE, ACRYLATES/BEHENETH-25 METHACRYLATE COPOLYMER, AMINOMETHYL PROPANOL, ARGININE, BHT, CAFFEINE, LACTIC ACID, PEG-40 HYDROGENATED CASTOR OIL, PIROCTONE OLAMINE, SAFFLOWER GLUCOSIDE, SODIUM CITRATE, TOCOPHEROL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-074_vichy_aminexil-men.jpg?rev=bf9c574017de4c418c4dee9e3c780ea0",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-074_vichy_aminexil-men.jpg?rev=bf9c574017de4c418c4dee9e3c780ea0",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-074_vichy_aminexil-men.jpg?rev=bf9c574017de4c418c4dee9e3c780ea0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/tested-aminexil-men-gr-1200x1200.jpg?rev=484092d0d61d49e3be0967dabbf9d7ea",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vic074vichyaminexilmen1-gr-1200x1200.jpg?rev=c16e1480ac0f47aeaf079b0ad78f146c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichy1.jpg?rev=8b836d8e3a3346cb899bef9b4f5c938f"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/agwges-trixoptwshs/dercos-aminexil-clinical-5-ampoules-gia-trixoptwsh-andrwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875522786": {
+    "name": "Dercos Aminexil Clinical 5 Αμπούλες για Τριχόπτωση Γυναικών",
+    "subtitle": "Αποτελεσματικότητα κατά της τριχόπτωσης",
+    "description": "Η τριχόπτωση στις γυναίκες αποτελεί ένα συχνό φαινόμενο που μπορεί να προκληθεί από ένα ευρύ φάσμα παραγόντων. Στρες, έντονοι ρυθμοί ζωής, εποχιακές αλλαγές και ορμονικές διακυμάνσεις είναι μόνο μερικές από τις αιτίες που μπορούν να οδηγήσουν σε απώλεια μαλλιών. Για την καταπολέμηση αυτού του προβλήματος, η έρευνα και η καινοτομία έχουν συνδυαστεί στο Aminexil Clinical 5. Πρόκειται για μια προηγμένη σύνθεση που αξιοποιεί τη δύναμη του Aminexil, ενός ισχυρού συστατικού με κλινικά αποδεδειγμένη αποτελεσματικότητα κατά της τριχόπτωσης. Η φόρμουλα ενισχύεται με 5 επιπλέον δραστικά συστατικά, δημιουργώντας ένα μοναδικό μείγμα που στοχεύει σε πολλαπλά αίτια της τριχόπτωσης. Το Aminexil Clinical 5 έχει υποβληθεί σε αυστηρούς δερματολογικούς ελέγχους, οι οποίοι επιβεβαιώνουν την αποτελεσματικότητά του στην αντιμετώπιση της τριχόπτωσης, χαρίζοντας σας υγιή και δυνατά μαλλιά.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "6ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Αγωγές Τριχόπτωσης",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "6ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η τριχόπτωση στις γυναίκες αποτελεί ένα συχνό φαινόμενο που μπορεί να προκληθεί από ένα ευρύ φάσμα παραγόντων. Στρες, έντονοι ρυθμοί ζωής, εποχιακές αλλαγές και ορμονικές διακυμάνσεις είναι μόνο μερικές από τις αιτίες που μπορούν να οδηγήσουν σε απώλεια μαλλιών.\nΓια την καταπολέμηση αυτού του προβλήματος, η έρευνα και η καινοτομία έχουν συνδυαστεί στο Aminexil Clinical 5. Πρόκειται για μια προηγμένη σύνθεση που αξιοποιεί τη δύναμη του Aminexil, ενός ισχυρού συστατικού με κλινικά αποδεδειγμένη αποτελεσματικότητα κατά της τριχόπτωσης. Η φόρμουλα ενισχύεται με 5 επιπλέον δραστικά συστατικά, δημιουργώντας ένα μοναδικό μείγμα που στοχεύει σε πολλαπλά αίτια της τριχόπτωσης.\nΤο Aminexil Clinical 5 έχει υποβληθεί σε αυστηρούς δερματολογικούς ελέγχους, οι οποίοι επιβεβαιώνουν την αποτελεσματικότητά του στην αντιμετώπιση της τριχόπτωσης, χαρίζοντας σας υγιή και δυνατά μαλλιά.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, ALCOHOL DENAT., DIAMINOPYRIMIDINE OXIDE, ACRYLATES/BEHENETH-25 METHACRYLATE COPOLYMER, AMINOMETHYL PROPANOL, ARGININE, CAFFEINE, LACTIC ACID, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PIROCTONE OLAMINE, PYRIDOXINE HCl, SAFFLOWER GLUCOSIDE, SODIUM CITRATE, TOCOPHEROL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-073_vichy-aminexil_women.jpg?rev=822d51065f4d4467a976b2ae42d6d1f0",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-073_vichy-aminexil_women.jpg?rev=822d51065f4d4467a976b2ae42d6d1f0",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic-073_vichy-aminexil_women.jpg?rev=822d51065f4d4467a976b2ae42d6d1f0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vic073vichyaminexilwomen-gr-1200x1200.jpg?rev=f19e733542de4da1bbcaa0a61ea1bd95",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/efficacy-banner-aminexil-gr-1200x1200.jpg?rev=2a956f33405b48c287fffba2c504bd75",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichyproductdercosaminexil-clinical-5-women-21x6ml-monodose21x6ml3337875522786diversity-gr-1200x1200.jpg?rev=f27af303a28749609151d94e3adc886d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/agwges-trixoptwshs/dercos-aminexil-clinical-5-ampoules-gia-trixoptwsh-gunaikwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875932080": {
+    "name": "Dercos Aminexil Clinical R.E.G.E.N. Booster για Τριχόπτωση",
+    "subtitle": "+14.000 ΤΡΙΧΕΣ ΣΕ 12 ΕΒΔΟΜΑΔΕΣ",
+    "description": "Ανακαλύψτε τον πρώτο ορό αναγέννησης των μαλλιών του Dercos της Vichy με 1,5 % Aminexil & το σύμπλοκο R.E.G.E.N. που αποτελείται από εκχύλισμα Τζίντζερ και Νιασιναμίδη για διπλή δράση: Καταπολεμά την τριχόπτωση* και βοηθά στην ανάπτυξη της τρίχας** * * Κλινική μελέτη σε 40 γυναίκες και 37 άνδρες, με εφαρμογή 5 φορές την εβδομάδα για 12 εβδομάδες. ** Αφορά στις υπάρχουσες τρίχες.",
+    "claims": [
+      "Χωρίς Χρωστικές"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "90ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Αγωγές Τριχόπτωσης",
+      "Δερματολογικά": "Χωρίς Χρωστικές",
+      "Συσκευασία": "90ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε τον πρώτο ορό αναγέννησης των μαλλιών του Dercos της Vichy με 1,5 % Aminexil & το σύμπλοκο R.E.G.E.N. που αποτελείται από εκχύλισμα Τζίντζερ και Νιασιναμίδη για διπλή δράση: Καταπολεμά την τριχόπτωση* και βοηθά στην ανάπτυξη της τρίχας**\n* * Κλινική μελέτη σε 40 γυναίκες και 37 άνδρες, με εφαρμογή 5 φορές την εβδομάδα για 12 εβδομάδες. ** Αφορά στις υπάρχουσες τρίχες.",
+      "Οφέλη": "Κλινικά αποδεδειγμένη αποτελεσματικότητα σε γυναίκες & άνδρες: +14.000 τρίχες σε 12 εβδομάδες*.\nΚαταπολεμά την τριχόπτωση*.\nΕνεργοποιεί την ανάπτυξη της τρίχας – μεγαλύτερη κάλυψη του τριχωτού.\n+68% περισσότερος όγκος αμέσως, για μαλλιά που φαίνονται πιο πυκνά***.\n10x πιο δυνατά μαλλιά****.\n* Κλινική μελέτη σε 40 γυναίκες και 37 άνδρες, με εφαρμογή 5 φορές την εβδομάδα για 12 εβδομάδες. ** Αφορά στις υπάρχουσες τρίχες. *** Οργανομετρική αξιολόγηση μόνο για το Aminexil Clinical R.E.G.E.N Booster. **** Οργανομετρική αξιολόγηση για τα Energy+ Shampoo & Conditioner & Aminexil Clinical R.E.G.E.N Booster.",
+      "Υφή": "Ελαφριά υφή, απορροφάται άμεσα δεν αφήνει λιπαρότητα\n100% είπαν ότι το προϊόν έχει ευχάριστη υφή*****.\n100% είπαν ότι το προϊόν έχει ευχάριστο άρωμα*****.\n98% συμφώνησαν ότι το προϊόν δεν αφήνει κατάλοιπα στα μαλλιά και το τριχωτό*****.\n* **** Μελέτη αυτοαξιολόγησης καταναλωτών, μετά από 4 εβδομάδες.",
+      "Συστατικά": "AMINEXIL\nΚαταπολεμά την τριχόπτωση.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει το τριχωτό.\nΕΚΧΥΛΙΣΜΑ ΤΖΙΝΤΖΕΡ\nΕνεργοποιεί τον βολβό για την ανάπτυξη της τρίχας.\nINCI: AQUA / WATER / EAU ● ALCOHOL DENAT. ● NIACINAMIDE ● PROPYLENE GLYCOL ● DIAMINOPYRIMIDINE OXIDE ● ACRYLATES/BEHENETH-25 METHACRYLATE COPOLYMER ● AMINOMETHYL PROPANOL ● CITRAL ● LACTIC ACID ● LIMONENE ● LINALOOL ● PEG-40 HYDROGENATED CASTOR OIL ● PIROCTONE OLAMINE ● ZINGIBER OFFICINALE ROOT EXTRACT / GINGER ROOT EXTRACT ● PARFUM / FRAGRANCE",
+      "Χρήση": "Χρησιμοποιείστε τον δοσομετρητή για στοχευμένη, εύκολη και γρήγορη εφαρμογή.\nΕφαρμόστε 5-7 φορές την εβδομάδα για 12 εβδομάδες σε νωπό ή στεγνό τριχωτό.\nΧωρίστε τα μαλλιά σε 4 τμήματα και χρησιμοποιήστε 1 δόση σε κάθε τμήμα κάνοντας μασάζ.\nΔε ξεβγάζεται.\n100% δήλωσαν ότι το προϊόν είναι εύκολο και γρήγορο στη χρήση*****.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.\n* ****Μελέτηαυτοαξιολόγησης καταναλωτών, μετά από 4 εβδομάδες."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vichy-dercos-regen-website-pdp-mosaic-1.png?rev=10b9b7be73ec422fbe28743af82f1e63",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vichy-dercos-regen-website-pdp-mosaic-1.png?rev=10b9b7be73ec422fbe28743af82f1e63",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vichy-dercos-regen-website-pdp-mosaic-1.png?rev=10b9b7be73ec422fbe28743af82f1e63",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/regen/vichyproducthaircaredercosaminexilclinicalregenbooster90ml3337875932080keybenefits-gr-1200x1200.jpg?rev=5bd5388ced33408da6ce385bd80a0e48",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/regen/vichyproducthaircaredercosaminexilclinicalregenbooster90ml3337875932080clinicalresults-gr-1200x1200.jpg?rev=bd0a963e88a04d0aa3981944a14697d5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/regen/vichyproducthaircaredercosaminexilclinicalregenbooster90ml3337875932080texture-gr-1200x1200.jpg?rev=02e2a44629024bad89e0953b12fde141",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/regen/vichyproducthaircaredercosaminexilclinicalregenbooster90ml3337875932080other-gr-1200x1200.jpg?rev=e5fa4af380f142c5b0acb563c681e9a8"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/agwges-trixoptwshs/dercos-aminexil-clinical-r-e-g-e-n-booster-gia-trixoptwsh",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875920902": {
+    "name": "Dercos Collagen 17 Filler Ultra-Repairing Θεραπεία Επανόρθωσης Μαλλιών",
+    "subtitle": "Αναπληρώνει το κολλαγόνο 17 για πιο δυνατό τριχωτό και μαλλιά με περισσότερο όγκο. Επανορθώνει τη φθορά 5 χρόνων από την πρώτη χρήση.",
+    "description": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: 10x πιο δυνατά μαλλιά. +29% περισσότερος όγκος**. +99% ενίσχυση της δομής της τρίχας***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο. * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από 1 εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη μετά από 6 εφαρμογές του πρωτοκόλλου.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Αγωγές Τριχόπτωσης",
+      "Συσκευασία": "150ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: 10x πιο δυνατά μαλλιά. +29% περισσότερος όγκος**. +99% ενίσχυση της δομής της τρίχας***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο.\n* In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από 1 εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη μετά από 6 εφαρμογές του πρωτοκόλλου.",
+      "Οφέλη": "Εμπλουτισμένο με Πεπτίδια Προκολλαγόνου και Κιτρικό Οξύ, καταπολεμά το σπάσιμο που οφείλεται στην απώλεια του κολλαγόνου 17. Δρα βαθιά στο εσωτερικό της τρίχας, εξασφαλίζοντας εντατική επανόρθωση και προλαμβάνοντας την τριχόπτωση.\nΥπέροχη τζελ υφή που απλώνεται εύκολα στο τριχωτό και τα μαλλιά, ενδυναμώνοντας αμέσως την τρίχα από τη ρίζα ως την άκρη.\n* Ενίσχυση της εσωτερικής δομής της τρίχας κατά +99%. 10x πιο δυνατά μαλλιά.",
+      "Υφή": "Πολυτελής τζελ υφή.",
+      "Συστατικά": "ΣΥΜΠΛΟΚΟ ΠΡΟΚΟΛΛΑΓΟΝΟΥ\nΤο κολλαγόνο είναι η πιο άφθονη πρωτεΐνη που παράγει το σώμα μας. Τα Πεπτίδια Προκολλαγόνου προάγουν την παραγωγή κολλαγόνου στο δέρμα, συμβάλλοντας έτσι στη νεανική εμφάνιση της επιδερμίδας.\nINCI: AQUA / WATER / EAU ● GLYCERIN ● PROPYLENE GLYCOL ● GLYCINE ●CITRIC ACID ● PEG-40 HYDROGENATED CASTOR OIL ● PARFUM / FRAGRANCE ● SODIUM HYDROXIDE ● CARVONE ● CETRIMONIUM CHLORIDE ● CITRUS AURANTIUM BERGAMIA PEEL OIL ● CITRUS LIMON PEEL OIL ● DISODIUM PHOSPHATE ● HYDROLYZED VEGETABLE PROTEIN PG-PROPYL SILANETRIOL ● HYDROXYETHYLCELLULOSE ● HYDROXYPROPYL GUAR ● HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE ● LIMONENE ● LINALYL ACETATE ● PALMITOYL TETRAPEPTIDE-7 ● PALMITOYL TRIPEPTIDE-1 ● PHENOXYETHANOL ● PINENE ● POLYSORBATE 20 ● POLYSORBATE 60 ● POLYSORBATE 80 ● POTASSIUM SORBATE ● QUATERNIUM-80 ● SODIUM BENZOATE ● SODIUM LACTATE ● SODIUM PHOSPHATE ● TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES ● XANTHAN GUM",
+      "Χρήση": "01.ΣΤΟΧΕΥΣΗ\nΕφαρμόστε το Collagen 17 FILLER Treatment σε βρεγμένο τριχωτό και μαλλιά. Αφήστε να δράσει για 5 λεπτά.\n02.ΛΟΥΣΙΜΟ\nΕφαρμόστε από πάνω το Collagen 17 FILLER Shampoo. Κάντε καλό μασάζ, και έπειτα ξεβγάλτε.\n03.ΠΕΡΙΠΟΙΗΣΗ\nΕφαρμόστε το Collagen 17 FILLER Conditioner. Ξεβγάλτε."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircaredercoscollagen17preshampoo3337875920902atfpackshotfront-gr-728x820.png?rev=5d7e85ad41684ba188ba3a61c1d9b719",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircaredercoscollagen17preshampoo3337875920902atfpackshotfront-gr-728x820.png?rev=5d7e85ad41684ba188ba3a61c1d9b719",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircaredercoscollagen17preshampoo3337875920902atfpackshotfront-gr-728x820.png?rev=5d7e85ad41684ba188ba3a61c1d9b719",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircaredercoscollagen17conditioner3337875920971atfkeybenefits-716x716.jpg?rev=35a46eaef3b5415dbbe570b59a83d600",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircarecollagen17333787592090233378759210083337875920971atfbeforeafter-716x716.jpg?rev=cee67c77891144bfbf2ccbd814dab200",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircarecollagen17333787592090233378759210083337875920971atfhowtouse-716x716.jpg?rev=23e0496bcd6b4f608708a23830c6fb6a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn/vichyproducthaircarecollagen17333787592090233378759210083337875920971atfdiversity-716x716.jpg?rev=0fda739e595446fbb4f4a902675cf6b5"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/agwges-trixoptwshs/dercos-collagen-17-filler-ultra-repairing-therapeia-epanorthwshs-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875901420": {
+    "name": "Dercos Anti-dandruff 10 Serum Μαλλιών κατά της Πιτυρίδας",
+    "subtitle": "ΑΝΤΙΜΕΤΩΠΙΖΕΙ 10 ΠΡΟΒΛΗΜΑΤΑ ΤΟΥ ΤΡΙΧΩΤΟΥ ΠΟΥ ΣΥΝΔΕΟΝΤΑΙ ΜΕ ΤΗΝ ΠΙΤΥΡΙΔΑ",
+    "description": "Αυτός ο ορός κατά της πιτυρίδας προσφέρει 24ωρη αποδεδειγμένη αποτελεσματικότητα* αντιμετωπίζοντας άμεσα την πιτυρίδα και 10 προβλήματα του τριχωτού ενδιάμεσα από τα λουσίματα. * Αυτοαξιολόγηση, 33 άτομα, χρήση για 21 ημέρες.",
+    "claims": [
+      "ΔΕΡΜΑΤΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ ΣΕ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "90ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › SERUM ΜΑΛΛΙΩΝ",
+      "Δερματολογικά": "ΔΕΡΜΑΤΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ ΣΕ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ",
+      "Συσκευασία": "90ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αυτός ο ορός κατά της πιτυρίδας προσφέρει 24ωρη αποδεδειγμένη αποτελεσματικότητα* αντιμετωπίζοντας άμεσα την πιτυρίδα και 10 προβλήματα του τριχωτού ενδιάμεσα από τα λουσίματα.\n* Αυτοαξιολόγηση, 33 άτομα, χρήση για 21 ημέρες.",
+      "Οφέλη": "24ωρη αποδεδειγμένη αποτελεσματικότητα* ενάντια στην αυξημένη παραγωγή σμήγματος, τον πολλαπλασιασμό των μυκήτων, τη δυσφορία, την αποδυνάμωση του επιδερμιδικού φραγμού, την οξείδωση, τον κνησμό, τις νιφάδες & τις πλάκες, την αίσθηση τραβήγματος, την ερυθρότητα και τις οσμές, για συνολική βελτίωση της υγείας του τριχωτού.\n* Αυτοαξιολόγηση, 33 άτομα, χρήση για 21 ημέρες.",
+      "Υφή": "Διάφανη, ανάλαφρη υφή που δεν αφήνει κατάλοιπα στο τριχωτό ή στα μαλλιά. Μη κολλώδες και μη λιπαρό αποτέλεσμα. Το 91% των συμμετεχόντων συμφωνούν ότι προσφέρει αίσθηση φρεσκάδας*, χάρη στο άρωμά του με νότες μανταρινιού.\n* Δοκιμή χρήσης για το σαμπουάν Anti-Dandruff DS στην Ιταλία.",
+      "Συστατικά": "ΟΛΑΜΙΝΙΚΗ ΠΙΡΟΚΤΟΝΗ\nΓια καταπολέμηση της πιτυρίδας.\nMADECASSOSIDE\nΓια καταπράυνση του τριχωτού.\nΒΙΤΑΜΙΝΗ C\nΓια βελτίωση της υγείας του τριχωτού.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., ASCORBYL GLUCOSIDE, AMINOMETHYL PROPANOL, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CITRIC ACID, MADECASSOSIDE, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PIROCTONE OLAMINE, SODIUM HYALURONATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Χρησιμοποιήστε το Anti-dandruff Serum 10 σε στεγνά ή βρεγμένα μαλλιά, ενδιάμεσα από τα λουσίματα με το σαμπουάν Anti-Dandruff DS.\nΧωρίστε τα μαλλιά σε 4 τμήματα, εφαρμόστε 5 δόσεις σε κάθε τμήμα, και κάντε μασάζ. Μην ξεβγάλετε.\nΕπαναλάβετε 3 φορές την εβδομάδα, για 4 εβδομάδες.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε καλά με άφθονο νερό.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-1.png?rev=b9666df882bc42dfb9a80abfae032f13",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-1.png?rev=b9666df882bc42dfb9a80abfae032f13",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-1.png?rev=b9666df882bc42dfb9a80abfae032f13",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-2.jpg?rev=602aae25b1ac40f8a6fb9d4a56bc95a5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-3.jpg?rev=80168989a36d4392854e78b2b39f92c4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-4.jpg?rev=aaefb002655b49e4946b6ea44a0eb42c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-serum-10/vichy-website-pdp-add-serum10-3337875901420-mosaic-5.jpg?rev=ae589b23a34a4f1c9f35b95b93f21db0"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/serum-malliwn/dercos-anti-dandruff-10-serum-malliwn-kata-ths-pituridas",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875673907": {
+    "name": "Dercos Kera Solutions Resurfacing Σαμπουάν για Ξηρά Μαλλιά",
+    "subtitle": "Επανορθώνει τα καταπονημένα και ταλαιπωρημένα μαλλιά.",
+    "description": "Το σαμπουάν Dercos Kera Solutions θρέφει και επανορθώνει τα ξηρά, ταλαιπωρημένα και καταπονημένα μαλλιά. Συνδυάζει μια σύνθεση με pro-keratin complex και Βιταμίνη Β5 για να ανανεώσει τα μαλλιά σε μία μόνο χρήση. Θρέφει τις ίνες της τρίχας, δεν βαραίνει τα μαλλιά και προσφέρει άνεση στο τριχωτό της κεφαλής ενώ βελτιώνει την απαλότητα και τη λάμψη της τρίχας. Για βέλτιστα αποτελέσματα χρησιμοποιείστε σε συνδυασμό με τη μάσκα Kera-Solutions.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "250ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Dercos Kera Solutions θρέφει και επανορθώνει τα ξηρά, ταλαιπωρημένα και καταπονημένα μαλλιά. Συνδυάζει μια σύνθεση με pro-keratin complex και Βιταμίνη Β5 για να ανανεώσει τα μαλλιά σε μία μόνο χρήση. Θρέφει τις ίνες της τρίχας, δεν βαραίνει τα μαλλιά και προσφέρει άνεση στο τριχωτό της κεφαλής ενώ βελτιώνει την απαλότητα και τη λάμψη της τρίχας. Για βέλτιστα αποτελέσματα χρησιμοποιείστε σε συνδυασμό με τη μάσκα Kera-Solutions.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, DIMETHICONE, SODIUM CHLORIDE, PARFUM, ACETIC ACID, ALLANTOIN, AMODIMETHICONE, CARBOMER, CI 77891, CITRIC ACID, COCO-BETAINE, COCOS NUCIFERA OIL, FUMARIC ACID, GLYCOL DISTEARATE, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, HEXYLENE GLYCOL, HYDROLYZED CORN PROTEIN, HYDROLYZED SOY PROTEIN, HYDROLYZED WHEAT PROTEIN, MICA, PEG-100 STEARATE, PHENOXYETHANOL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM HYDROXIDE, STEARETH-6, TRIDECETH-10, TRIDECETH-3"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera_shampoo_250ml.jpg?rev=f1bdb5670a4743138b21aead4db03b22",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera_shampoo_250ml.jpg?rev=f1bdb5670a4743138b21aead4db03b22",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_kera_shampoo_250ml.jpg?rev=f1bdb5670a4743138b21aead4db03b22",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions-resurfacing-shampoo/kera-solutions-resurfacing-shampoo-pack2.jpeg?rev=e000f6e9512b4e2fb24ff4be104e886f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions-resurfacing-shampoo/kera-solutions-resurfacing-shampoo-pack3.jpeg?rev=acaba52722f34900978a9b3748c0f974",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions-resurfacing-shampoo/kera-solutions-resurfacing-shampoo-pack4.jpeg?rev=35ae6e49fc1247cf8a9a7ddafc80ac1d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---kera-solutions-resurfacing-shampoo/kera-solutions-resurfacing-shampoo-pack5.jpeg?rev=256beb4a10c944b0abbe4c286ab16633"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/dercos-kera-solutions-resurfacing-sampouan-gia-xhra-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875921008": {
+    "name": "Dercos Collagen 17 Filler Σαμπουάν για Ενδυνάμωση Μαλλιών",
+    "subtitle": "Αναπληρώνει το κολλαγόνο 17 για πιο δυνατό τριχωτό και μαλλιά με περισσότερο όγκο. Επανορθώνει τη φθορά 5 χρόνων από την πρώτη χρήση.",
+    "description": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο. * * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο.\n* * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+      "Οφέλη": "Αναζωογονεί και ενδυναμώνει αμέσως το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. Εξυγιαίνει σε βάθος το τριχωτό & τα μαλλιά, απομακρύνοντας αποτελεσματικά τους ρύπους. Προσφέρει +53% περισσότερο όγκο στα μαλλιά*.\n* * Εργαστηριακή μελέτη.",
+      "Υφή": "Κρεμώδης υφή που δημιουργεί πλούσιο αφρό.",
+      "Συστατικά": "Εμπλουτισμένο με Προκολλαγόνο & Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο.\n* * In vitro μελέτη για τα συστατικά.\nINCI: AQUA / WATER ● SODIUM C14-16 OLEFIN SULFONATE ● GLYCERIN ● SODIUM CHLORIDE ●COCAMIDE MEA ● COCAMIDOPROPYL BETAINE ● GLYCOL DISTEARATE ● SODIUM LAUROYL SARCOSINATE ● TRIETHYL CITRATE ● PARFUM / FRAGRANCE ● CARBOMER ● GLYCINE ● SODIUM HYDROXIDE ● SODIUM LACTATE ● PALMITOYL TETRAPEPTIDE-7 ● PALMITOYL TRIPEPTIDE-1 ● COCO-BETAINE ● HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE ● CITRIC ACID ● XANTHAN GUM ● POLYQUATERNIUM-7 ● SODIUM BENZOATE ● SALICYLIC ACID ● BENZOIC ACID ● LIMONENE ●",
+      "Χρήση": "ΣΤΟΧΕΥΣΗ\nΕφαρμόστε το Collagen 17 FILLER Treatment σε βρεγμένο τριχωτό και μαλλιά. Αφήστε να δράσει για 5 λεπτά.\nΛΟΥΣΙΜΟ\nΕφαρμόστε από πάνω το Collagen 17 FILLER Shampoo. Κάντε καλό μασάζ, και έπειτα ξεβγάλτε.\nΠΕΡΙΠΟΙΗΣΗ\nΕφαρμόστε το Collagen 17 FILLER Conditioner. Ξεβγάλτε."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercos200pack728x820.png?rev=f41d30a2d3c6413da3f67b8074e46b82",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercos200pack728x820.png?rev=f41d30a2d3c6413da3f67b8074e46b82",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercos200pack728x820.png?rev=f41d30a2d3c6413da3f67b8074e46b82",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17conditionerkeybenefits-716x716.jpg?rev=b7ae5de99835448fb1d61bca92ebd8e9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichy-collagen17-beforeafter.jpg?rev=04d5b2ec9255454ba35fc6ce68178474",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/haircarecollagen17howtouse-716x716.jpg?rev=d1532e39188e4f539e56c15742d02509",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichy-product-haircare-collagen17-diversity.jpg?rev=31e806d5d3d74c9e8d88b33aec4ca12b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17shampoosafety-gr-716x716.jpg?rev=cc97150d2c1741549259643b733d8580",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17shampoo400mlatfpackshotfront-gr-728x820.png?rev=4bcbf01c7571458b848d0cc452f405ef"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875921039": {
+    "name": "Dercos Collagen 17 Filler Σαμπουάν για Ενδυνάμωση Μαλλιών",
+    "subtitle": "Αναπληρώνει το κολλαγόνο 17 για πιο δυνατό τριχωτό και μαλλιά με περισσότερο όγκο. Επανορθώνει τη φθορά 5 χρόνων από την πρώτη χρήση.",
+    "description": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο. * * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το πρώτο πρωτόκολλο DERCOS για εντατική επανόρθωση του τριχωτού & των μαλλιών. Εμπλουτισμένο με Προκολλαγόνο και Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο. ΑΠΟΔΕΔΕΙΓΜΕΝΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ: Εξυγιαίνει και αναζωογονεί το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. 10x πιο δυνατά μαλλιά**. +53% περισσότερος όγκος***. Κατάλληλο για όλους τους τύπους μαλλιών. Δερματολογικά ελεγμένο.\n* * In vitro μελέτη για τα συστατικά. ** Εργαστηριακή μελέτη μετά από εφαρμογή του πρωτοκόλλου. *** Εργαστηριακή μελέτη.",
+      "Οφέλη": "Αναζωογονεί και ενδυναμώνει αμέσως το τριχωτό & τα μαλλιά, από τις ρίζες ως τις άκρες. Εξυγιαίνει σε βάθος το τριχωτό & τα μαλλιά, απομακρύνοντας αποτελεσματικά τους ρύπους. Προσφέρει +53% περισσότερο όγκο στα μαλλιά*.\n* * Εργαστηριακή μελέτη.",
+      "Υφή": "Κρεμώδης υφή που δημιουργεί πλούσιο αφρό.",
+      "Συστατικά": "Εμπλουτισμένο με Προκολλαγόνο & Κιτρικό Οξύ, το πρωτόκολλο αυτό βελτιώνει την αντοχή των μαλλιών που έχουν αποδυναμωθεί από την απώλεια κολλαγόνου 17*. Ενισχύει την εσωτερική δομή της τρίχας και προλαμβάνει την τριχόπτωση που οφείλεται σε σπάσιμο.\n* * In vitro μελέτη για τα συστατικά.\nINCI: AQUA / WATER ● SODIUM C14-16 OLEFIN SULFONATE ● GLYCERIN ● SODIUM CHLORIDE ●COCAMIDE MEA ● COCAMIDOPROPYL BETAINE ● GLYCOL DISTEARATE ● SODIUM LAUROYL SARCOSINATE ● TRIETHYL CITRATE ● PARFUM / FRAGRANCE ● CARBOMER ● GLYCINE ● SODIUM HYDROXIDE ● SODIUM LACTATE ● PALMITOYL TETRAPEPTIDE-7 ● PALMITOYL TRIPEPTIDE-1 ● COCO-BETAINE ● HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE ● CITRIC ACID ● XANTHAN GUM ● POLYQUATERNIUM-7 ● SODIUM BENZOATE ● SALICYLIC ACID ● BENZOIC ACID ● LIMONENE ●",
+      "Χρήση": "ΣΤΟΧΕΥΣΗ\nΕφαρμόστε το Collagen 17 FILLER Treatment σε βρεγμένο τριχωτό και μαλλιά. Αφήστε να δράσει για 5 λεπτά.\nΛΟΥΣΙΜΟ\nΕφαρμόστε από πάνω το Collagen 17 FILLER Shampoo. Κάντε καλό μασάζ, και έπειτα ξεβγάλτε.\nΠΕΡΙΠΟΙΗΣΗ\nΕφαρμόστε το Collagen 17 FILLER Conditioner. Ξεβγάλτε."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17shampoo400mlatfpackshotfront-gr-728x820.png?rev=4bcbf01c7571458b848d0cc452f405ef",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercos200pack728x820.png?rev=f41d30a2d3c6413da3f67b8074e46b82",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercos200pack728x820.png?rev=f41d30a2d3c6413da3f67b8074e46b82",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17conditionerkeybenefits-716x716.jpg?rev=b7ae5de99835448fb1d61bca92ebd8e9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichy-collagen17-beforeafter.jpg?rev=04d5b2ec9255454ba35fc6ce68178474",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/haircarecollagen17howtouse-716x716.jpg?rev=d1532e39188e4f539e56c15742d02509",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichy-product-haircare-collagen17-diversity.jpg?rev=31e806d5d3d74c9e8d88b33aec4ca12b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17shampoosafety-gr-716x716.jpg?rev=cc97150d2c1741549259643b733d8580",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn/vichydercoscollagen17shampoo400mlatfpackshotfront-gr-728x820.png?rev=4bcbf01c7571458b848d0cc452f405ef"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/dercos-collagen-17-filler-sampouan-gia-endynamwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322656": {
+    "name": "Dercos Σαμπουάν για Βαθύ Καθαρισμό",
+    "subtitle": "Σύνθεση κατάλληλη για ευαίσθητο τριχωτό για πιο δυνατά και λαμπερά μαλλιά από τη ρίζα μέχρι τις άκρες.",
+    "description": "Το σαμπουάν καθημερινής χρήσης Mineral της σειράς Dercos τονώνει και καθαρίζει σε βάθος την τρίχα, προσφέροντας απαλά και λαμπερά μαλλιά, μετά από κάθε χρήση. Το πρώτο απαλό και δυναμωτικό σαμπουάν, εμπλουτισμένο με το Ιαματικό Νερό της Vichy, πλούσιο σε σπάνια μεταλλικά στοιχεία: - Σίδηρο για οξυγόνωση των κυττάρων - Μαγνήσιο για τόνωση και ανανέωση των κυττάρων - Μαγγάνιο για αντιοξειδωτική δράση - Πυρίτιο για αναγέννηση των ιστών - Ασβέστιο για προστασία των ιστών Σε κάθε λούσιμο, καθαρίζει και δυναμώνει τα μαλλιά ενώ σέβεται την ισορροπία τους. Δύναμη και απαλότητα μαζί. Μαλλιά ορατά πιο υγιή: πιο δυνατά και λαμπερά μαλλιά από τη ρίζα τους. Κατάλληλο για όλη την οικογένεια.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Χρωστικές"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Χρωστικές",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν καθημερινής χρήσης Mineral της σειράς Dercos τονώνει και καθαρίζει σε βάθος την τρίχα, προσφέροντας απαλά και λαμπερά μαλλιά, μετά από κάθε χρήση. Το πρώτο απαλό και δυναμωτικό σαμπουάν, εμπλουτισμένο με το Ιαματικό Νερό της Vichy, πλούσιο σε σπάνια μεταλλικά στοιχεία: - Σίδηρο για οξυγόνωση των κυττάρων - Μαγνήσιο για τόνωση και ανανέωση των κυττάρων - Μαγγάνιο για αντιοξειδωτική δράση - Πυρίτιο για αναγέννηση των ιστών - Ασβέστιο για προστασία των ιστών Σε κάθε λούσιμο, καθαρίζει και δυναμώνει τα μαλλιά ενώ σέβεται την ισορροπία τους. Δύναμη και απαλότητα μαζί. Μαλλιά ορατά πιο υγιή: πιο δυνατά και λαμπερά μαλλιά από τη ρίζα τους. Κατάλληλο για όλη την οικογένεια.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, SODIUM LAURETH SULFATE, PEG-200 HYDROGENATED GLYCERYL PALMATE, DISODIUM COCOAMPHODIACETATE, POLYSORBATE 20, SODIUM CHLORIDE, PEG-7 GLYCERYL COCOATE, CITRIC ACID, HEXYLENE GLYCOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, POLYQUATERNIUM-10, SALICYLIC ACID, SODIUM BENZOATE, SODIUM GLYCOLATE, SODIUM HYDROXIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_065_vichy_dercos_mineral-soft---soft-and-fortifying-shampoo.jpg?rev=b82095ffaa3e447aa7f3bb0c594974d9",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_065_vichy_dercos_mineral-soft---soft-and-fortifying-shampoo.jpg?rev=b82095ffaa3e447aa7f3bb0c594974d9",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_065_vichy_dercos_mineral-soft---soft-and-fortifying-shampoo.jpg?rev=b82095ffaa3e447aa7f3bb0c594974d9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---mineral-soft---soft-and-fortifying-shampoo/mineral-soft-shampoo-pack2.jpeg?rev=8e9dd95d252b4e86ba9a54a7e249fd0c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---mineral-soft---soft-and-fortifying-shampoo/mineral-soft-shampoo-pack3.jpeg?rev=42243036748a41c1ab98de1fbf2ef1ef",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---mineral-soft---soft-and-fortifying-shampoo/mineral-soft-shampoo-pack4.jpeg?rev=6aeef28c5da5445a9d7a2209bae7390e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---mineral-soft---soft-and-fortifying-shampoo/mineral-soft-shampoo-pack5.jpeg?rev=33b006de59c440ff95f2e4b5e48b25d5"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/dercos-sampouan-gia-bathu-katharismo",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871311346": {
+    "name": "Dercos Oil Control-Advanced Action Σαμπουάν για Λιπαρά Μαλλιά",
+    "subtitle": "Εξυγιαίνει το τριχωτό, χαρίζει ανάλαφρη αίσθηση στα μαλλιά, όγκο και σώμα.",
+    "description": "Το σαμπουάν Oil Control με ένα συνδυασμό για δράση κατά του σμήγματος μειώνει τη λιπαρότητα. Καθαρίζει εντατικά το τριχωτό, αφήνοντας αμέσως τα μαλλιά πιο απαλά και πιο ανάλαφρα και διευκολύνοντας το styling τους.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Oil Control με ένα συνδυασμό για δράση κατά του σμήγματος μειώνει τη λιπαρότητα. Καθαρίζει εντατικά το τριχωτό, αφήνοντας αμέσως τα μαλλιά πιο απαλά και πιο ανάλαφρα και διευκολύνοντας το styling τους.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, AMMONIUM LAURYL SULFATE, SODIUM C14-16 OLEFIN SULFONATE, DISODIUM COCOAMPHODIACETATE, COCAMIDE MIPA, SODIUM LAURETH SULFATE, CITRIC ACID, SODIUM CHLORIDE, SODIUM HYDROXIDE, HEXYLENE GLYCOL, SODIUM BENZOATE, SALICYLIC ACID, TARTARIC ACID, BENZOIC ACID, PARFUM / FRAGRANCΕ"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_064_vichy_dercos_oil-control---advanced-action-shampoo_200ml.jpg?rev=82da7e8bc2104badb29df5610f9e98b9",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_064_vichy_dercos_oil-control---advanced-action-shampoo_200ml.jpg?rev=82da7e8bc2104badb29df5610f9e98b9",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_064_vichy_dercos_oil-control---advanced-action-shampoo_200ml.jpg?rev=82da7e8bc2104badb29df5610f9e98b9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---oil-control---advanced-action-shampoo/oil-control-shampoo-pack2.jpeg?rev=0bada8f8ef2c4a7a946550cb0616e12a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---oil-control---advanced-action-shampoo/oil-control-shampoo-pack3.jpeg?rev=298c6f1b7fe742af8389c3ab55d1704b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---oil-control---advanced-action-shampoo/oil-control-shampoo-pack4.jpeg?rev=9b528a5102a7467e83587b1fe2f3dfa6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---oil-control---advanced-action-shampoo/oil-control-shampoo-pack5.jpeg?rev=644ae7ffed1245e68e491b0ffd03001f"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/dercos-oil-control-advanced-action-sampouan-gia-lipara-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871332303": {
+    "name": "Dermablend 3D Correction Make-Up Προσώπου",
+    "subtitle": "Κρεμώδες foundation με έως 16Η διάρκεια κάλυψη και επιδιόρθωση.",
+    "description": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+      "Συστατικά": "Σαλικυλικό Οξύ\nEperuline\nINCI: AQUA / WATER / EAU, DIMETHICONE, ISODODECANE, SILICA, NIACINAMIDE, ACRYLATES/POLYTRIMETHYLSILOXYMETHACRYLATE COPOLYMER, ISONONYL ISONONANOATE, GLYCERIN, PEG-10 DIMETHICONE, SYNTHETIC FLUORPHLOGOPITE, ISOHEXADECANE, PENTYLENE GLYCOL, SORBITAN ISOSTEARATE, DIMETHICONE CROSSPOLYMER, SILICA SILYLATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINUM HYDROXIDE, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, CAPRYLYL GLYCOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, CITRIC ACID, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DISTEARDIMONIUM HECTORITE, BUTYLENE GLYCOL, POLYSORBATE 60, BIS-PEG/PPG-14/14 DIMETHICONE ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]. (FIL N70034600/1).",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-25pack3337871332303-gr-728x820.png?rev=266cbff644f14e2389c264298a56b35b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-25pack3337871332303-gr-728x820.png?rev=266cbff644f14e2389c264298a56b35b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-35pack3337871332310-gr-728x820.png?rev=1989f0e50fe74d2e8ac2bc9778b15df1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-45pack3337871332327-gr-728x820.png?rev=e71a1b49f18348cd8febff8ad6e2bfff"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-3d-make-up-proswpou",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871332297": {
+    "name": "Dermablend Covermatte Make Up σε μορφή Πούδρας",
+    "subtitle": "Compact πούδρα για ματ αποτέλεσμα.",
+    "description": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: TALC, PERLITE, NYLON-12, TITANIUM DIOXIDE, DIMETHICONE, MAGNESIUM STEARATE, TRIISOCETYL CITRATE, PARAFFINUM LIQUIDUM/MINERAL OIL, STEARIC ACID, AQUA (WATER), ZINC GLUCONATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINIUM HYDROXIDE, TOCOPHERYL ACETATE, CAPRYLYL GLYCOL, LAUROYL LYSINE, CETYL DIMETHICONE. MAY CONTAIN : CI 77891 TITANIUM DIOXIDE, CI 77163 BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499/IRON OXIDES, MICA."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-covermatte-make-up-se-morfh-poudras",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871332310": {
+    "name": "Dermablend 3D Correction Make-Up Προσώπου",
+    "subtitle": "Κρεμώδες foundation με έως 16Η διάρκεια κάλυψη και επιδιόρθωση.",
+    "description": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+      "Συστατικά": "Σαλικυλικό Οξύ\nEperuline\nINCI: AQUA / WATER / EAU, DIMETHICONE, ISODODECANE, SILICA, NIACINAMIDE, ACRYLATES/POLYTRIMETHYLSILOXYMETHACRYLATE COPOLYMER, ISONONYL ISONONANOATE, GLYCERIN, PEG-10 DIMETHICONE, SYNTHETIC FLUORPHLOGOPITE, ISOHEXADECANE, PENTYLENE GLYCOL, SORBITAN ISOSTEARATE, DIMETHICONE CROSSPOLYMER, SILICA SILYLATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINUM HYDROXIDE, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, CAPRYLYL GLYCOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, CITRIC ACID, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DISTEARDIMONIUM HECTORITE, BUTYLENE GLYCOL, POLYSORBATE 60, BIS-PEG/PPG-14/14 DIMETHICONE ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]. (FIL N70034600/1).",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-35pack3337871332310-gr-728x820.png?rev=1989f0e50fe74d2e8ac2bc9778b15df1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-25pack3337871332303-gr-728x820.png?rev=266cbff644f14e2389c264298a56b35b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-35pack3337871332310-gr-728x820.png?rev=1989f0e50fe74d2e8ac2bc9778b15df1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-45pack3337871332327-gr-728x820.png?rev=e71a1b49f18348cd8febff8ad6e2bfff"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-3d-make-up-proswpou",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871332327": {
+    "name": "Dermablend 3D Correction Make-Up Προσώπου",
+    "subtitle": "Κρεμώδες foundation με έως 16Η διάρκεια κάλυψη και επιδιόρθωση.",
+    "description": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΛΙΠΑΡΗ ΕΠΙΔΕΡΜΙΔΑ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΠΙΔΕΡΜΙΔΑ ΜΕ ΑΤΕΛΕΙΕΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Διορθωτικό foundation που καλύπτει, σταθμίζει και επιδιορθώνει την λιπαρή και με τάση ακμής επιδερμίδα. Προσφέρει πολύ υψηλή κάλυψη με έως 16 ώρες διάρκεια. Εμπλουτισμένο με σαλικυλικό οξύ και eperuline, το 3D make-up προσώπου της σειράς Dermablend μειώνει ορατά τις ατέλειες μέρα με τη μέρα.",
+      "Συστατικά": "Σαλικυλικό Οξύ\nEperuline\nINCI: AQUA / WATER / EAU, DIMETHICONE, ISODODECANE, SILICA, NIACINAMIDE, ACRYLATES/POLYTRIMETHYLSILOXYMETHACRYLATE COPOLYMER, ISONONYL ISONONANOATE, GLYCERIN, PEG-10 DIMETHICONE, SYNTHETIC FLUORPHLOGOPITE, ISOHEXADECANE, PENTYLENE GLYCOL, SORBITAN ISOSTEARATE, DIMETHICONE CROSSPOLYMER, SILICA SILYLATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINUM HYDROXIDE, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, CAPRYLYL GLYCOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, CITRIC ACID, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DISTEARDIMONIUM HECTORITE, BUTYLENE GLYCOL, POLYSORBATE 60, BIS-PEG/PPG-14/14 DIMETHICONE ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]. (FIL N70034600/1).",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-45pack3337871332327-gr-728x820.png?rev=e71a1b49f18348cd8febff8ad6e2bfff",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-25pack3337871332303-gr-728x820.png?rev=266cbff644f14e2389c264298a56b35b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-35pack3337871332310-gr-728x820.png?rev=1989f0e50fe74d2e8ac2bc9778b15df1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-45pack3337871332327-gr-728x820.png?rev=e71a1b49f18348cd8febff8ad6e2bfff"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-3d-make-up-proswpou",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875563031": {
+    "name": "Dermablend Covermatte Make Up σε μορφή Πούδρας",
+    "subtitle": "Compact πούδρα για ματ αποτέλεσμα.",
+    "description": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: TALC, PERLITE, NYLON-12, TITANIUM DIOXIDE, DIMETHICONE, MAGNESIUM STEARATE, TRIISOCETYL CITRATE, PARAFFINUM LIQUIDUM/MINERAL OIL, STEARIC ACID, AQUA (WATER), ZINC GLUCONATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINIUM HYDROXIDE, TOCOPHERYL ACETATE, CAPRYLYL GLYCOL, LAUROYL LYSINE, CETYL DIMETHICONE. MAY CONTAIN : CI 77891 TITANIUM DIOXIDE, CI 77163 BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499/IRON OXIDES, MICA."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-covermatte-make-up-se-morfh-poudras",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875563048": {
+    "name": "Dermablend Covermatte Make Up σε μορφή Πούδρας",
+    "subtitle": "Compact πούδρα για ματ αποτέλεσμα.",
+    "description": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: TALC, PERLITE, NYLON-12, TITANIUM DIOXIDE, DIMETHICONE, MAGNESIUM STEARATE, TRIISOCETYL CITRATE, PARAFFINUM LIQUIDUM/MINERAL OIL, STEARIC ACID, AQUA (WATER), ZINC GLUCONATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINIUM HYDROXIDE, TOCOPHERYL ACETATE, CAPRYLYL GLYCOL, LAUROYL LYSINE, CETYL DIMETHICONE. MAY CONTAIN : CI 77891 TITANIUM DIOXIDE, CI 77163 BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499/IRON OXIDES, MICA."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-covermatte-make-up-se-morfh-poudras",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875563055": {
+    "name": "Dermablend Covermatte Make Up σε μορφή Πούδρας",
+    "subtitle": "Compact πούδρα για ματ αποτέλεσμα.",
+    "description": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Ένα φρέσκο, ελαφρύ και εύπλαστο μέικαπ υψηλής κάλυψης, για διόρθωση και βελτίωση της υφής καθώς και του χρώματος του λιπαρού δέρματος και του δέρματος με τάση ακμής. Η φόρμουλα αυτή καμουφλάρει και κρύβει τις ατέλειες όλη την ημέρα, για αποφυγή του «φαινομένου της μάσκας» ή του αποτελέσματος «cakey».",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: TALC, PERLITE, NYLON-12, TITANIUM DIOXIDE, DIMETHICONE, MAGNESIUM STEARATE, TRIISOCETYL CITRATE, PARAFFINUM LIQUIDUM/MINERAL OIL, STEARIC ACID, AQUA (WATER), ZINC GLUCONATE, SALICYLIC ACID, TRIMETHYLSILOXYSILICATE, ALUMINIUM HYDROXIDE, TOCOPHERYL ACETATE, CAPRYLYL GLYCOL, LAUROYL LYSINE, CETYL DIMETHICONE. MAY CONTAIN : CI 77891 TITANIUM DIOXIDE, CI 77163 BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499/IRON OXIDES, MICA."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-covermatte-make-up-se-morfh-poudras",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871316594": {
+    "name": "Dermablend Ματ Μέικ Απ για το Πρόσωπο",
+    "subtitle": "Λεπτόρρευστο foundation με έως 16Η διάρκειας κάλυψη.",
+    "description": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [
+      "ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    ],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, UNDECANE, DIMETHICONE, GLYCERIN, TRIDECANE, POLYGLYCERYL-4 ISOSTEARATE, PENTYLENE GLYCOL, CETYL PEG/PPG-10/1 DIMETHICONE, HEXYL LAURATE, MAGNESIUM SULFATE, DISTEARDIMONIUM HECTORITE, TRIHYDROXYSTEARIN, CELLULOSE GUM, ALUMINUM HYDROXIDE, DISODIUM STEAROYL GLUTAMATE, ACETYLATED GLYCOL STEARATE, ACRYLONITRILE/METHYL METHACRYLATE/VINYLIDENE CHLORIDE COPOLYMER, ETHYLHEXYLGLYCERIN ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES].",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend---fluid-corrective-foundation/vichyfoundationdermablendfluidcorrective300013337875572378front-gr-728x820.png?rev=69206b5391564b1ab0b63514d537d241",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-mat-meik-ap",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871316600": {
+    "name": "Dermablend Ματ Μέικ Απ για το Πρόσωπο",
+    "subtitle": "Λεπτόρρευστο foundation με έως 16Η διάρκειας κάλυψη.",
+    "description": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [
+      "ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    ],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, UNDECANE, DIMETHICONE, GLYCERIN, TRIDECANE, POLYGLYCERYL-4 ISOSTEARATE, PENTYLENE GLYCOL, CETYL PEG/PPG-10/1 DIMETHICONE, HEXYL LAURATE, MAGNESIUM SULFATE, DISTEARDIMONIUM HECTORITE, TRIHYDROXYSTEARIN, CELLULOSE GUM, ALUMINUM HYDROXIDE, DISODIUM STEAROYL GLUTAMATE, ACETYLATED GLYCOL STEARATE, ACRYLONITRILE/METHYL METHACRYLATE/VINYLIDENE CHLORIDE COPOLYMER, ETHYLHEXYLGLYCERIN ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES].",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend---fluid-corrective-foundation/vichyfoundationdermablendfluidcorrective300013337875572378front-gr-728x820.png?rev=69206b5391564b1ab0b63514d537d241",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-mat-meik-ap",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875572378": {
+    "name": "Dermablend Ματ Μέικ Απ για το Πρόσωπο",
+    "subtitle": "Λεπτόρρευστο foundation με έως 16Η διάρκειας κάλυψη.",
+    "description": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [
+      "ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    ],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, UNDECANE, DIMETHICONE, GLYCERIN, TRIDECANE, POLYGLYCERYL-4 ISOSTEARATE, PENTYLENE GLYCOL, CETYL PEG/PPG-10/1 DIMETHICONE, HEXYL LAURATE, MAGNESIUM SULFATE, DISTEARDIMONIUM HECTORITE, TRIHYDROXYSTEARIN, CELLULOSE GUM, ALUMINUM HYDROXIDE, DISODIUM STEAROYL GLUTAMATE, ACETYLATED GLYCOL STEARATE, ACRYLONITRILE/METHYL METHACRYLATE/VINYLIDENE CHLORIDE COPOLYMER, ETHYLHEXYLGLYCERIN ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES].",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend---fluid-corrective-foundation/vichyfoundationdermablendfluidcorrective300013337875572378front-gr-728x820.png?rev=69206b5391564b1ab0b63514d537d241",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend---fluid-corrective-foundation/vichyfoundationdermablendfluidcorrective300013337875572378front-gr-728x820.png?rev=69206b5391564b1ab0b63514d537d241",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-mat-meik-ap",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871316617": {
+    "name": "Dermablend Ματ Μέικ Απ για το Πρόσωπο",
+    "subtitle": "Λεπτόρρευστο foundation με έως 16Η διάρκειας κάλυψη.",
+    "description": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [
+      "ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    ],
+    "attributes": {
+      "Σειρά": "Dermablend",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΜΠΟΡΕΙ ΝΑ ΕΦΑΡΜΟΣΤΕΙ ΜΕΤΑ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΙΚΕΣ ΠΡΑΞΕΙΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Λεπτόρρευστο foundation με ελαφριά υφή, που προσφέρει ομοιόμορφο χρωματικό τόνο για έως 16 ώρες. Προσφέρει τέλεια κάλυψη όλων των σημαδιών της επιδερμίδας χωρίς να αφήνει ίχνη και χωρίς εφέ «μάσκας».",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, UNDECANE, DIMETHICONE, GLYCERIN, TRIDECANE, POLYGLYCERYL-4 ISOSTEARATE, PENTYLENE GLYCOL, CETYL PEG/PPG-10/1 DIMETHICONE, HEXYL LAURATE, MAGNESIUM SULFATE, DISTEARDIMONIUM HECTORITE, TRIHYDROXYSTEARIN, CELLULOSE GUM, ALUMINUM HYDROXIDE, DISODIUM STEAROYL GLUTAMATE, ACETYLATED GLYCOL STEARATE, ACRYLONITRILE/METHYL METHACRYLATE/VINYLIDENE CHLORIDE COPOLYMER, ETHYLHEXYLGLYCERIN ● [+/- MAY CONTAIN: CI 77891 / TITANIUM DIOXIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES].",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend---fluid-corrective-foundation/vichyfoundationdermablendfluidcorrective300013337875572378front-gr-728x820.png?rev=69206b5391564b1ab0b63514d537d241",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/dermablend-mat-meik-ap",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871318888": {
+    "name": "Homme After Shave Balsam Sensi Baume",
+    "subtitle": "Φροντίδα για μετά το ξύρισμα, κατά των ερεθισμών και της ερυθρότητας.",
+    "description": "Καταπραϋντικό After Shave. Για άνδρες με ευαίσθητη επιδερμίδα που θέλουν να δώσουν τέλος στις κοκκινίλες και τους ερεθισμούς μετά το ξύρισμα. Καταπραΰνει άμεσα, ενδυναμώνει την επιδερμίδα, προσφέρει 24ωρη ενυδάτωση. Λεπτόρρευστη, μη λιπαρή, μη κολλώδης υφή που σχηματίζει ένα προστατευτικό φιλμ στην επιδερμίδα για εξαιρετική άνεση.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "75ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › After Shave",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "75ml"
+    },
+    "sections": {
+      "Περιγραφή": "Καταπραϋντικό After Shave. Για άνδρες με ευαίσθητη επιδερμίδα που θέλουν να δώσουν τέλος στις κοκκινίλες και τους ερεθισμούς μετά το ξύρισμα. Καταπραΰνει άμεσα, ενδυναμώνει την επιδερμίδα, προσφέρει 24ωρη ενυδάτωση. Λεπτόρρευστη, μη λιπαρή, μη κολλώδης υφή που σχηματίζει ένα προστατευτικό φιλμ στην επιδερμίδα για εξαιρετική άνεση.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, DIMETHICONE, GLYCERIN, ZEA MAYS STARCH / CORN STARCH, ISOHEXADECANE, SORBITAN STEARATE, C13-14 ISOPARAFFIN, 2,6-DIMETHYL-7-OCTEN-2-OL, STEARYL ALCOHOL, CALCIUM PANTETHEINE SULFONATE, AMMONIUM POLYACRYLDIMETHYLTAURAMIDE / AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, POLOXAMER 338, DISODIUM EDTA, SUCROSE COCOATE, CAPRYLYL GLYCOL, LAURETH-7, EPERUA FALCATA BARK EXTRACT, DEXTRIN, LACTIC ACID, POLYACRYLAMIDE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0256.jpg?rev=017808c087244f7baa88c0cef4060725",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0256.jpg?rev=017808c087244f7baa88c0cef4060725",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0256.jpg?rev=017808c087244f7baa88c0cef4060725",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensibaume3337871318888box-gr-1200x1200.jpg?rev=eda0ae8424624ecabdf0160a73a5b1a3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensibaume3337871318888hand-gr-1200x1200.jpg?rev=740adf2a103e46d2881f11bf674178f8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichy4.jpg?rev=884f8e36573a452c8a4fd47845e49732",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensibaume3337871318888texture-gr-1200x1200.jpg?rev=2e8a52150ab94ed2b1f6e2f833b5c7de",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensibaume3337871318888texturehand-gr-1200x1200.jpg?rev=abe6e09df1644ae89df78c7cf2846d6f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vie3a51.jpg?rev=ffe9e8bfc04445d0a7b673a1470eb64b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensibaume3337871318888front-gr-1200x1200.jpg?rev=a3f066095dd94670a5908a7e1656aec7"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/after-shave/homme-after-shave-balsam-sensi-baume",
+    "source": "vichy.gr",
+    "section": "homme",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875647212": {
+    "name": "Homme Structure Force Αντιρυτιδική Κρέμα για Άντρες",
+    "subtitle": "Στη Vichy μπορείτε να βρείτε την αντιρυτιδική κρέμα για άντρες Structure Force της σειράς Homme. Μπείτε στο site και μάθετε περισσότερα!",
+    "description": "Η Vichy δημιούργησε την 1η αντι-γηραντική φροντίδα για τους άνδρες, με αποδεδειγμένη αποτελεσματικότητα στα 4 σημάδια γήρανσης της ανδρικής επιδερμίδας: απώλεια σφριγηλότητας, ρυτίδες γύρω από τα μάτια, υφή της επιδερμίδας και χαλάρωση. Το περίγραμμα του προσώπου αναδιαμορφώνεται.",
+    "claims": [
+      "ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ",
+      "ΣΦΡΙΓΗΛΟΤΗΤΑ",
+      "ΤΟΝΩΣΗ",
+      "24ΩΡΗ ΕΝΥΔΑΤΩΣΗ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Κρέμες Προσώπου",
+      "Δερματολογικά": "ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ · ΣΦΡΙΓΗΛΟΤΗΤΑ · ΤΟΝΩΣΗ · 24ΩΡΗ ΕΝΥΔΑΤΩΣΗ"
+    },
+    "sections": {
+      "Περιγραφή": "Η Vichy δημιούργησε την 1η αντι-γηραντική φροντίδα για τους άνδρες, με αποδεδειγμένη αποτελεσματικότητα στα 4 σημάδια γήρανσης της ανδρικής επιδερμίδας: απώλεια σφριγηλότητας, ρυτίδες γύρω από τα μάτια, υφή της επιδερμίδας και χαλάρωση. Το περίγραμμα του προσώπου αναδιαμορφώνεται.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nAHA\nΙαματικό Ηφαιστειακό Νερό της Vichy\nEνισχύει τον επιδερμιδικό φραγμό.\nINCI: AQUA / WATER / EAU - GLYCERIN - ALCOHOL DENAT. - DIMETHICONE - PENTAERYTHRITYL TETRAETHYLHEXANOATE - GLYCERYL STEARATE SE - POLYGLYCERYL-3 METHYLGLUCOSE DISTEARATE - STEARYL ALCOHOL - SODIUM PHYTATE - CITRIC ACID - GLYCOLIC ACID - LACTIC ACID - METHYLSILANOL MANNURONATE - SODIUM HYALURONATE - TRIETHANOLAMINE - ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER - CAPRYLYL GLYCOL - CARBOMER - ISOHEXADECANE - MYRISTIC ACID - PALMITIC ACID - POLYSORBATE 80 - SORBITAN OLEATE - STEARIC ACID - XANTHAN GUM - DIMETHICONOL - PHENOXYETHANOL - SORBIC ACID - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/333787564721214371220-homme-structure001skin-caremain-728x820.png?rev=935128da8cee4bf5be10342f642d03ff",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/333787564721214371220-homme-structure001skin-caremain-728x820.png?rev=935128da8cee4bf5be10342f642d03ff",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/333787564721214371220-homme-structure001skin-caremain-728x820.png?rev=935128da8cee4bf5be10342f642d03ff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommestructureforce3337875647212dermato-gr-1200x1200.jpg?rev=03b6111d87b04ce3b4e00001e846eda1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommestructureforce3337875647212front-gr-1200x1200.jpg?rev=eb3d7cf71cc6477f989b5a9bffc379c3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommestructureforce3337875647212hand-gr-1200x1200.jpg?rev=8d0bc8dcb8f64079b722513c4b992aeb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommestructureforce3337875647212texturehand-gr-1200x1200.jpg?rev=bdb9059e854e423fa7a1fafe1523a216",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommestructureforce3337875647212packshottexturemedicalstamp-gr-1200x1200.jpg?rev=86d8de0ed2604acda10d5b2e2e928291"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/kremes-proswpou/homme-structure-force-antirutidikh-krema-gia-antres",
+    "source": "vichy.gr",
+    "section": "homme",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322571": {
+    "name": "Homme Hydra Mag C Κρέμα Προσώπου για Ευαίσθητες Επιδερμίδες",
+    "subtitle": "Ενυδατική φροντίδα ενάντια στα σημάδια της κούρασης.",
+    "description": "Ενυδατική φροντίδα ενάντια στα σημάδια κούρασης σε πρόσωπο και μάτια. Για άνδρες με ευαίσθητη επιδερμίδα που εμφανίζουν ρυτίδες και σημάδια κούρασης: αφυδατωμένη επιδερμίδα, θαμπή όψη, κουρασμένα χαρακτηριστικά, σακούλες και μαύρους κύκλους. Η επιδερμίδα τονώνεται και ενυδατώνεται, ενώ τα σημάδια κούρασης μειώνονται ορατά. Υφή gel, μη λιπαρή, μη κολλώδης, εξαιρετικά απορροφήσιμη, για εντατική ενυδάτωση για 24 ώρες και εξαιρετική άνεση.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Κρέμες Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική φροντίδα ενάντια στα σημάδια κούρασης σε πρόσωπο και μάτια. Για άνδρες με ευαίσθητη επιδερμίδα που εμφανίζουν ρυτίδες και σημάδια κούρασης: αφυδατωμένη επιδερμίδα, θαμπή όψη, κουρασμένα χαρακτηριστικά, σακούλες και μαύρους κύκλους. Η επιδερμίδα τονώνεται και ενυδατώνεται, ενώ τα σημάδια κούρασης μειώνονται ορατά. Υφή gel, μη λιπαρή, μη κολλώδης, εξαιρετικά απορροφήσιμη, για εντατική ενυδάτωση για 24 ώρες και εξαιρετική άνεση.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA, GLYCERIN, ALCOHOL DENAT., PROPANEDIOL, DIMETHICONE, PHENYL TRIMETHICONE, PROPYLENE GLYCOL, C13-14 ISOPARAFFIN, CI 15985, CI 77891, CI 77492, CI 77491, CI 77499, TRIETHANOLAMINE, TRIETHYL CITRATE, SILICA [NANO], SODIUM DEXTRAN SULFATE, ESCIN, PHENOXYETHANOL, MAGNESIUM SULFATE, MAGNESIUM ASCORBYL PHOSPHATE, BORON NITRIDE, ASCORBYL GLUCOSIDE, CAPRYLYL GLYCOL, LAURETH-7, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, POLYACRYLAMIDE, ACRYLATES/AMMONIUM METHACRYLATE COPOLYMER, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0247.jpg?rev=958aed2c9cf04838b18703c361def6b7",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0247.jpg?rev=958aed2c9cf04838b18703c361def6b7",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0247.jpg?rev=958aed2c9cf04838b18703c361def6b7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571box-gr-1200x1200.jpg?rev=6fba498b3182497bb01b991769c8ab83",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571dermato-gr-1200x1200.jpg?rev=126a0af1620b4fc595d7ed76ad212551",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571front--gr-1200x1200.jpg?rev=fe0b93f05af64e17851a48b671e5217d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571hand-gr-1200x1200.jpg?rev=43fc161b6b9c47dbb785fa16516e9fc9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571handtexture-gr-1200x1200.jpg?rev=9f5cdb318e9f4d71acfb6f69710d9363",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571texture-gr-1200x1200.jpg?rev=25dd532516864d48a3691ebbd434e47a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommehydramagc3337871322571packshottexturemedicalstamp-gr-1200x1200.jpg?rev=a6d51afe44d246f3acef25aa93d73292"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/kremes-proswpou/homme-hydra-mag-c-krema-proswpou-gia-euaisthhtes-epidermides",
+    "source": "vichy.gr",
+    "section": "homme",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875957052": {
+    "name": "Homme Clinical Control 96h Ανδρικό Υποαλλεργικό Αποσμητικό Σπρέι",
+    "subtitle": "96 ώρες προστασίας. Χωρίς ίχνη. Στεγνή αίσθηση.",
+    "description": "Απαράμιλλη αποτελεσματικότητα που συνδυάζεται με υψηλή ανοχή. Το προϊόν αυτό προστατεύει από τον ιδρώτα και την κακοσμία για έως και 96 ώρες, χωρίς ορατά ίχνη, με απόλυτα στεγνή αίσθηση. Σύνθεση με 0% αλκοόλη. Δερματολογικά ελεγμένο, υποαλλεργικό, και κατάλληλο για ευαίσθητες επιδερμίδες.",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Χωρίς αλκοόλ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό"
+    },
+    "sections": {
+      "Περιγραφή": "Απαράμιλλη αποτελεσματικότητα που συνδυάζεται με υψηλή ανοχή. Το προϊόν αυτό προστατεύει από τον ιδρώτα και την κακοσμία για έως και 96 ώρες, χωρίς ορατά ίχνη, με απόλυτα στεγνή αίσθηση. Σύνθεση με 0% αλκοόλη. Δερματολογικά ελεγμένο, υποαλλεργικό, και κατάλληλο για ευαίσθητες επιδερμίδες.",
+      "Υφή": "Ανάλαφρη υφή με άρωμα φρεσκάδας. Με στεγνή αίσθηση στην επιδερμίδα αμέσως μετά από την εφαρμογή.",
+      "Συστατικά": "Διπλή τεχνολογία Sweat-Lock: με τη δύναμη δύο αλάτων αλουμινίου, για απαράμιλλη αποτελεσματικότητα κατά του ιδρώτα και της κακοσμίας.\nINCI: ISOBUTANE ● ALUMINUM CHLOROHYDRATE ● ALUMINUM SESQUICHLOROHYDRATE ● ISOPROPYL PALMITATE ● DIMETHICONE ● ISODODECANE ● PARFUM / FRAGRANCE ● ZINC PCA ● DISTEARDIMONIUM HECTORITE ● PROPYLENE CARBONATE ● DIMETHICONOL",
+      "Χρήση": "ΚΑΘΑΡΙΣΜΟΣ\nΧρησιμοποιήστε το HYDRATING MAG C Shower Gel, για καθαρισμό και ενυδάτωση της επιδερμίδας σας πριν εφαρμόσετε το αποσμητικό σας το πρωί.\nΕΛΕΓΧΟΣ\nΧρησιμοποιήστε το CLINICAL CONTROL Aerosol Deodorant καθημερινά, πρωί & βράδυ, εφαρμόζοντας στις μασχάλες από απόσταση 15 εκ."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-8.png?rev=7261f0e9b81641b0aeb22bf200d6a456",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-8.png?rev=7261f0e9b81641b0aeb22bf200d6a456",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-8.png?rev=7261f0e9b81641b0aeb22bf200d6a456",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-4.jpg?rev=019049a1f4b84089b69ec800aee0e066",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-2.jpg?rev=6b420eb720a74a3cb19a98824ca3c280",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/vichyproductskincaredeodrantsaeorosolhyperantiperspirantmen3337875957052atfclinicalresults-gr-new-71.jpg?rev=4f21316c67f8487781d95426eb9d02ae",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei/clinical-control-96h-andriko-ypoallergiko-aposmhtiko-9.jpg?rev=7d9d708e2ff045bbbcf4610043663adc"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/homme-clinical-control-96h-andriko-ypoallergiko-aposmhtiko-sprei",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875805025": {
+    "name": "Homme Clinical Control Roll-On Ανδρικό Αποσμητικό 96H",
+    "subtitle": "Προστασία με διάρκεια 96 ωρών κατά της οσμής και της εφίδρωσης. Αντιβακτηριδιακά ενεργά δραστικά συστατικά",
+    "description": "Το \"CLINICAL CONTROL 96H είναι κλινικά αποδεδειγμένο ότι ελέγχει την υπερβολική εφίδρωση: • 96 ΩΡΕΣ στεγνή επιδερμίδα • Κατά της κακοσμίας και της εφίδρωσης • Αντιβακτηριδιακή δράση",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Χωρίς αλκοόλ · Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το \"CLINICAL CONTROL 96H είναι κλινικά αποδεδειγμένο ότι ελέγχει την υπερβολική εφίδρωση:\n• 96 ΩΡΕΣ στεγνή επιδερμίδα\n• Κατά της κακοσμίας και της εφίδρωσης\n• Αντιβακτηριδιακή δράση",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER - ALUMINUM CHLOROHYDRATE - DIMETHICONE - C14-22 ALCOHOLS - PARFUM / FRAGRANCE - STEARETH-100/PEG-136/HDI COPOLYMER - PERLITE - ZINC PCA - C12-20 ALKYL GLUCOSIDE - PENTYLENE GLYCOL"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/vichy---homme-clinical-control-96h-detranspirant--mosaic-1.png?rev=8da339584cba4e728e05f0944147f10f",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/vichy---homme-clinical-control-96h-detranspirant--mosaic-1.png?rev=8da339584cba4e728e05f0944147f10f",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/vichy---homme-clinical-control-96h-detranspirant--mosaic-1.png?rev=8da339584cba4e728e05f0944147f10f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichyproductdeodorantsrollonvichyhommeclinicalcontrol96hdetranspirant50ml3337875805025ingredients-gr.jpg?rev=93fdb12f325345b5812a0e8f7ce8da2a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichyproductdeodorantsrollonvichyhommeclinicalcontrol96hdetranspirant50ml3337875805025howtouse-gr-12.jpg?rev=6f2c0383e2a745fdb063a87c1c58de24",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichyproductdeodorantsrollonvichyhommeclinicalcontrol96hdetranspirant50ml3337875805025efficacy-gr-12.jpg?rev=b0ff9ae2a42b4939b63c04c3e79ca860",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichyproductdeodorantsrollonvichyhommeclinicalcontrol96hdetranspirant50ml3337875805025beforeafter-gr.jpg?rev=372c94c9a7a04b918839b9f32b0f5b61"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/homme-clinical-control-roll-on-andriko-aposmhtiko-96h",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875894234": {
+    "name": "Homme 72H Invisible Resist Ανδρικό Αποσμητικό",
+    "subtitle": "ΑΟΡΑΤΟ ΑΠΟΣΜΗΤΙΚΟ ΚΑΤΑ ΤΩΝ ΣΗΜΑΔΙΩΝ ΚΑΙ ΤΗΣ ΕΝΤΟΝΗΣ ΕΦΙΔΡΩΣΗΣ",
+    "description": "Το INVISIBLE RESIST 72H προσφέρει υψηλή προστασία από τον ιδρώτα, ακόμα και υπό συνθήκες έντονης εφίδρωσης: 72 ώρες προστασίας από τον ιδρώτα*, προστασία από οσμές & λεκέδες, αόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα. * * Οργανομετρική δοκιμή.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς αλκοόλ",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το INVISIBLE RESIST 72H προσφέρει υψηλή προστασία από τον ιδρώτα, ακόμα και υπό συνθήκες έντονης εφίδρωσης:\n72 ώρες προστασίας από τον ιδρώτα*,\nπροστασία από οσμές & λεκέδες,\nαόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα.\n* * Οργανομετρική δοκιμή.",
+      "Οφέλη": "72 ΩΡΕΣ ΠΡΟΣΤΑΣΙΑΣ ΑΠΟ ΤΟΝ ΙΔΡΩΤΑ*.\nΠροστασία από οσμές & λεκέδες.\nΑόρατο αποτέλεσμα, δοκιμασμένο σε 8 χρώματα.\nΑποδεδειγμένη αποτελεσματικότητα ενάντια στο ξεθώριασμα του χρώματος.\nΕνδυναμώνει τον επιδερμιδικό φραγμό.",
+      "Υφή": "Σύνθεση για άμεσα στεγνή επιδερμίδα, με μη λιπαρό και μη κολλώδες αποτέλεσμα. Αφήνει την επιδερμίδα να αναπνέει, για βέλτιστη άνεση.",
+      "Χρήση": "Εφαρμόστε καθημερινά σε καθαρές, στεγνές μασχάλες.Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU ● ALUMINUM CHLOROHYDRATE ● DIMETHICONE ● C14-22 ALCOHOLS ● PARFUM / FRAGRANCE ● STEARETH-100/PEG-136/HDI COPOLYMER ● PERLITE ● TETRASODIUM GLUTAMATE DIACETATE ● C12-20 ALKYL GLUCOSIDE ● PENTYLENE GLYCOL ●"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-72h-invisible-resist-deodorant-new/new/vichy1.png?rev=3a95f02d24664b82b6d49aafc0fd5d61",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-72h-invisible-resist-deodorant-new/new/vichy1.png?rev=3a95f02d24664b82b6d49aafc0fd5d61",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/deodorants/homme-72h-invisible-resist-deodorant-new/new/vichy1.png?rev=3a95f02d24664b82b6d49aafc0fd5d61",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/vichyproductdeodorantsrollonvichyhommeinvisibleresist72hdermodetranspirant50ml3337875895613efficacy.jpg?rev=3f84a4e3ac9c4599b6c1aac029ac568e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/vichyproductdeodorantsrollonvichyhommeinvisibleresist72hdermodetranspirant50ml3337875895613ingredien.jpg?rev=2343516a50854ddb893014a4053ad989",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/vichyproductdeodorantsrollonvichyhommeextremecontrol72hdetranspirant50ml3337871320362beforeafter-gr.jpg?rev=514f229c32044c45b5de6d8abe32d816",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/vichyproductdeodorantsrollonvichyhommeextremecontrol72hdetranspirant50ml3337871320362howtouse-gr-120.jpg?rev=d13f94ec4d8e4c9bbe0e3775ce73e49c"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/deos-72h-invisible-resist-andriko-aposmhtiko",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871320379": {
+    "name": "Homme Ανδρικό Αποσμητικό για Ευαίσθητη Επιδερμίδα",
+    "subtitle": "Αποσμητικό κατά της εφίδρωσης προσφέρει 48ωρη προστασία στις ευαίσθητες επιδερμίδες.",
+    "description": "Το αποσμητικό κατά του ιδρώτα για ευαίσθητες επιδερμίδες καταπραΰνει από τους ερεθισμούς και χαρίζει απαλότητα. Προσφέρει 48ωρη προστασία στις ευαίσθητες επιδερμίδες . Για άνδρες με ευαίσθητη επιδερμίδα που θέλουν αποσμητική προστασία κατά της εφίδρωσης με μεγάλη διάρκεια. Η σύνθεσή του με ενεργά συστατικά κατά της εφίδρωσης και καταπραϋντικό oligo-zinc ρυθμίζει την εφίδρωση και καταπραΰνει την επιδερμίδα από τους ερεθισμούς για 48 ώρες.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αποσμητικό κατά του ιδρώτα για ευαίσθητες επιδερμίδες καταπραΰνει από τους ερεθισμούς και χαρίζει απαλότητα. Προσφέρει 48ωρη προστασία στις ευαίσθητες επιδερμίδες .\nΓια άνδρες με ευαίσθητη επιδερμίδα που θέλουν αποσμητική προστασία κατά της εφίδρωσης με μεγάλη διάρκεια.\nΗ σύνθεσή του με ενεργά συστατικά κατά της εφίδρωσης και καταπραϋντικό oligo-zinc ρυθμίζει την εφίδρωση και καταπραΰνει την επιδερμίδα από τους ερεθισμούς για 48 ώρες.",
+      "Συστατικά": "Ψευδάργυρος\nINCI: AQUA / WATER - ALUMINUM CHLOROHYDRATE - ALUMINUM SESQUICHLOROHYDRATE - PPG-15 STEARYL ETHER - CETEARYL ALCOHOL - CETEARETH-33 - C12-13 ALKYL LACTATE - DIMETHICONE - GLYCERIN - HYDROLYZED ALGIN - IODOPROPYNYL BUTYLCARBAMATE - ZINC SULFATE",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-anti-perspirant-48h-anti-irritation-treatment--mosaic-1.png?rev=e802557d2eea4a36890458748d50c36d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-anti-perspirant-48h-anti-irritation-treatment--mosaic-1.png?rev=e802557d2eea4a36890458748d50c36d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-anti-perspirant-48h-anti-irritation-treatment--mosaic-1.png?rev=e802557d2eea4a36890458748d50c36d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871320379/vichyproductdeodorantsrollonvichyhommeantiperspirantantiirritation48h50ml3337871320379ingredients-gr.jpg?rev=b68fc862c95c4ccbb268647eb0084fe1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871320379/vichyproductdeodorantsrollonvichyhommeantiperspirantantiirritation48h50ml3337871320379howtouse-gr-12.jpg?rev=0e7914619a1a4236a4b5fa717341eac2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871320379/vichyproductdeodorantsrollonvichyhommeantiperspirantantiirritation48h50ml3337871320379clinicalresult.jpg?rev=941e1c6f88dc4ffda13eb40e57b0e7eb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337871320379/vichyproductdeodorantsrollonvichyhommeantiperspirantantiirritation48h50ml3337871320379beforeafter-gr.jpg?rev=2da5e6aaafba4bc6a45006bde1c38079"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/vichy-homme-andriko-aposmhtiko-gia-euaisthiti-epidermida",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871320362": {
+    "name": "Homme Ανδρικό Αποσμητικό κατά της Εφίδρωσης",
+    "subtitle": "Αποσμητικό για αποτέλεσμα διάρκειας 72 ωρών. Δεν αφήνει σημάδια, ultra απορρόφηση.",
+    "description": "Αντιιδρωτικό αποσμητικό δράσης 72 ωρών για άνδρες. Μέγιστη ανοχή. Αποσμητική και αντιιδρωτική δράση μακράς διάρκειας, σε κάθε περίσταση. Ρυθμίζει την εφίδρωση και την υγρασία για 72 ώρες. Η επιδερμίδα παραμένει άνετη χωρίς να κολλάει και χωρίς ερεθισμούς καθ’ όλη τη διάρκεια της ημέρας… και ακόμη περισσότερο.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς αλκοόλ",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς αλκοόλ · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αντιιδρωτικό αποσμητικό δράσης 72 ωρών για άνδρες. Μέγιστη ανοχή. Αποσμητική και αντιιδρωτική δράση μακράς διάρκειας, σε κάθε περίσταση. Ρυθμίζει την εφίδρωση και την υγρασία για 72 ώρες. Η επιδερμίδα παραμένει άνετη χωρίς να κολλάει και χωρίς ερεθισμούς καθ’ όλη τη διάρκεια της ημέρας… και ακόμη περισσότερο.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, ALUMINUM CHLOROHYDRATE, DIMETHICONE, C14-22 ALCOHOLS, STEARETH-100/PEG-136/HDI COPOLYMER, PARFUM / FRAGRANCE, PERLITE, ROSA GALLICA FLOWER EXTRACT, C12-20 ALKYL GLUCOSIDE, PENTYLENE GLYCOL, PROPYLENE GLYCOL, SORBITOL"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-extreme-control-72h-detranspirant--mosaic-1.png?rev=68ed8aed0d96491488087cabcb432391",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-extreme-control-72h-detranspirant--mosaic-1.png?rev=68ed8aed0d96491488087cabcb432391",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875805025/vichy---homme-extreme-control-72h-detranspirant--mosaic-1.png?rev=68ed8aed0d96491488087cabcb432391",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/716x716/vichyproductdeodorantsrollonvichyhommeinvisibleresist72hdermodetranspirant50ml3337875895613ingredien.jpg?rev=e2660f23a8424de4af111b31a90d7fa1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/716x716/vichyproductdeodorantsrollonvichyhommeinvisibleresist72hdermodetranspirant50ml3337875895613efficacy.jpg?rev=13ee5a135aba46d0946e26bfbc125bb1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/716x716/vichyproductdeodorantsrollonvichyhommeextremecontrol72hdetranspirant50ml3337871320362howtouse-gr-716.jpg?rev=55574515be42440bb4ded00711ec057f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/men/deos-72h-invisible-resist-andriko-aposmhtiko/716x716/vichyproductdeodorantsrollonvichyhommeextremecontrol72hdetranspirant50ml3337871320362beforeafter-gr.jpg?rev=377e0a852fcb4e459f65c2d7e2b53f9d"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/homme-andriko-aposmhtiko-kata-ths-efidrwshs",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875585750": {
+    "name": "Homme Ανδρικό Αποσμητικό κατά των Σημαδιών 48Η",
+    "subtitle": "Αποσμητικό με δράση κατά της εφίδρωσης που διαρκεί 48 ώρες. Κατά των σημαδιών.",
+    "description": "48Η δράση ενάντια στην εφίδρωση. Κατά των σημαδιών. Για άνδρες με ευαίσθητο δέρμα. Υποαλλεργικό. Η διάφανη σύνθεση του με τεχνολογία ”shirt protection”, προστατεύει τα ρούχα από λευκά και κίτρινα σημάδια καθώς και από τους λεκέδες που μπορεί να αφήσει ο ιδρώτας. Δρα κατά της εφίδρωσης για 48 ώρες ενώ παράλληλα καταπραϋνει την επιδερμίδα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Vichy Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "48Η δράση ενάντια στην εφίδρωση. Κατά των σημαδιών. Για άνδρες με ευαίσθητο δέρμα. Υποαλλεργικό. Η διάφανη σύνθεση του με τεχνολογία ”shirt protection”, προστατεύει τα ρούχα από λευκά και κίτρινα σημάδια καθώς και από τους λεκέδες που μπορεί να αφήσει ο ιδρώτας. Δρα κατά της εφίδρωσης για 48 ώρες ενώ παράλληλα καταπραϋνει την επιδερμίδα.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA / WATER, ALUMINUM CHLOROHYDRATE, PPG-26-BUTETH-26, STEARETH-100/PEG-136/HDI COPOLYMER, PARFUM / FRAGRANCE, PEG-40 HYDROGENATED CASTOR OIL, CAPRYLYL GLYCOL"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichy---homme-anti-perspirant-48h-anti-stains-streatment--mosaic-1.png?rev=b1fb747268dc40e68d7a86cd08365b4b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichy---homme-anti-perspirant-48h-anti-stains-streatment--mosaic-1.png?rev=b1fb747268dc40e68d7a86cd08365b4b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichy---homme-anti-perspirant-48h-anti-stains-streatment--mosaic-1.png?rev=b1fb747268dc40e68d7a86cd08365b4b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichyproductdeodorantsrollonvichyhommeantiperspirant48hantistains50ml3337875585750ingredients-gr-120.jpg?rev=65a89ed76aad47f88c62ec7ec06fe0d1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichyproductdeodorantsrollonvichyhommeantiperspirant48hantistains50ml3337875585750howtouse-gr-1200x1.jpg?rev=323a251448e64e36a771c58e6e110448",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/deos/3337875585750/vichyproductdeodorantsrollonvichyhommeantiperspirant48hantistains50ml3337875585750efficacy-gr-1200x1.jpg?rev=ea03c25133e2449fa86698d6d17fcd78"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/aposmhtika/homme-andriko-aposmhtiko-kata-twn-shmadiwn-48h",
+    "source": "vichy.gr",
+    "section": "deo",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871318901": {
+    "name": "Homme Αφρός Ξυρίσματος για Ευαίσθητες Επιδερμίδες",
+    "subtitle": "Κατά των ερεθισμών και της ερυθρότητας Η. επιδερμίδα αποκτά αίσθηση ενυδάτωσης.",
+    "description": "Αφρός ξυρίσματος κατά των ερεθισμών. Για άνδρες με ευαίσθητη επιδερμίδα ή επιδερμίδα με τάση ατελειών, που εμφανίζει κοκκινίλες ή ερεθισμούς μετά το ξύρισμα. Σύνθεση που προστατεύει από την ξηρότητα που προκαλεί το ξύρισμα και αποτρέπει την αίσθηση τραβήγματος. Πυκνή και κρεμώδης υφή αφρού, που επιτρέπει στη λεπίδα από το ξυραφάκι να γλιστράει εύκολα στην επιδερμίδα, για λείο ξύρισμα, χωρίς ερεθισμούς.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αφροί Ξυρίσματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αφρός ξυρίσματος κατά των ερεθισμών. Για άνδρες με ευαίσθητη επιδερμίδα ή επιδερμίδα με τάση ατελειών, που εμφανίζει κοκκινίλες ή ερεθισμούς μετά το ξύρισμα. Σύνθεση που προστατεύει από την ξηρότητα που προκαλεί το ξύρισμα και αποτρέπει την αίσθηση τραβήγματος. Πυκνή και κρεμώδης υφή αφρού, που επιτρέπει στη λεπίδα από το ξυραφάκι να γλιστράει εύκολα στην επιδερμίδα, για λείο ξύρισμα, χωρίς ερεθισμούς.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, STEARIC ACID, TRIETHANOLAMINE, PALMITIC ACID, GLYCERIN, ISOBUTANE, POLYSORBATE 20, ASCORBYL GLUCOSIDE, BUTANE, COCAMIDE MEA, LAURYL BETAINE, MYRISTIC ACID, POLYQUATERNIUM-7, PROPANE, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0243.jpg?rev=e9c51d7dd87f4b95ba48fdf72b3fa55c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0243.jpg?rev=e9c51d7dd87f4b95ba48fdf72b3fa55c",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0243.jpg?rev=e9c51d7dd87f4b95ba48fdf72b3fa55c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensishavemousserasage3337871318901hand-gr-1200x1200.jpg?rev=b12e2eb406a64ad08b88a9fec20750b7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensishavemousserasage3337871318901dermato-gr-1200x1200.jpg?rev=fa0b98b305ee424cbabf8c2255d0ec8c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensishavemousserasage3337871318901texture-gr-1200x1200.jpg?rev=6dd109237a1143fbb51874c5b7891315",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vvichyhommesensishavemousserasage3337871318901texturehand-gr-1200x1200.jpg?rev=5d998b91aa0d48ef9681f4adea09099f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/vichyhommesensishavemousserasage3337871318901front-gr-1200x1200.jpg?rev=369b334a2c244f3aa79ed05bc960d9f9"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/afroi-ksurismatos/homme-afros-xurismatos-gia-euaisthhtes-epidermides",
+    "source": "vichy.gr",
+    "section": "homme",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871318895": {
+    "name": "Vichy Homme Homme Gel Ξυρίσματος κατά των ερεθισμών προσώπου",
+    "subtitle": "Κατά των ερεθισμών και της ερυθρότητας Η. επιδερμίδα αποκτά αίσθηση ενυδάτωσης.",
+    "description": "Gel ξυρίσματος κατά των ερεθισμών. Για άνδρες με ευαίσθητη επιδερμίδα ή επιδερμίδα με τάση ατελειών, που εμφανίζει κοκκινίλες ή ερεθισμούς μετά το ξύρισμα. Υποαλλεργικό. Σύνθεση που προστατεύει από την ξηρότητα που προκαλεί το ξύρισμα και προλαμβάνει την αίσθηση τραβήγματος. Υφή gel που επιτρέπει στη λεπίδα από το ξυραφάκι να γλιστράει ομοιόμορφα ακόμα και στις ατέλειες, για λείο ξύρισμα χωρίς ερεθισμούς.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml",
+      "Σειρά": "Vichy Homme",
+      "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αφροί Ξυρίσματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "150ml"
+    },
+    "sections": {
+      "Περιγραφή": "Gel ξυρίσματος κατά των ερεθισμών. Για άνδρες με ευαίσθητη επιδερμίδα ή επιδερμίδα με τάση ατελειών, που εμφανίζει κοκκινίλες ή ερεθισμούς μετά το ξύρισμα. Υποαλλεργικό. Σύνθεση που προστατεύει από την ξηρότητα που προκαλεί το ξύρισμα και προλαμβάνει την αίσθηση τραβήγματος. Υφή gel που επιτρέπει στη λεπίδα από το ξυραφάκι να γλιστράει ομοιόμορφα ακόμα και στις ατέλειες, για λείο ξύρισμα χωρίς ερεθισμούς.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, PALMITIC ACID, TRIETHANOLAMINE, ISOPENTANE, COCAMIDE MEA, GLYCERIN, STEARIC ACID, DIPROPYLENE GLYCOL, ISOBUTANE, STEARYL HEPTANOATE, STYRENE/ACRYLATES COPOLYMER, STEARYL CAPRYLATE, HYDROXYETHYLCELLULOSE, CI 77891 / TITANIUM DIOXIDE, SALICYLIC ACID, BHT, HYDROXYPROPYLCELLULOSE, PEG-90M, ASCORBYL GLUCOSIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0241.jpg?rev=2dfaace405684a9bac473399b30048db",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0241.jpg?rev=2dfaace405684a9bac473399b30048db",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/vichy-220221-new-website-0241.jpg?rev=2dfaace405684a9bac473399b30048db",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/gel/vichyhommesensishavegelrasage3337871318895hand-gr-1200x1200.jpg?rev=3ee9abaa3aa94e1db62fca6cc4933378",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/gel/vichyhommesensishavegelrasage3337871318895dermato-gr-1200x1200.jpg?rev=ac9c46507ceb4b828480c1481477b548",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/men/homme-additional-content/gel/vichyhommesensishavegelrasage3337871318895front-gr-1200x1200.jpg?rev=fe7aecd1eee340609d088632068a4e2a"
+    ],
+    "url": "https://www.vichy.gr/proionta/andrikh-peripoihsh/afroi-ksurismatos/homme-gel-xurismatos-kata-twn-erethismwn",
+    "source": "vichy.gr",
+    "section": "homme",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875862097": {
+    "name": "Purete Thermale Gel Καθαρισμού Προσώπου για Ντεμακιγιάζ",
+    "subtitle": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια.",
+    "description": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια, 200ml. Αυτό το δροσερό gel καθαρισμού αφαιρεί αποτελεσματικά και εύκολα το μακιγιάζ και απομακρύνει όλα τα υπολείμματα και μικροσωματίδια ρύπων. Με Ιαματικό Ηφαιστειακό Νερό της Vichy και Νιασιναμίδη, καταπραΰνει ορατά την επιδερμίδα και μειώνει την εμφάνιση της ερυθρότητας. Η επιδερμίδα μένει καθαρή, αποκτά αίσθηση άνεσης και λαμπερή όψη. Δοκιμασμένο σε ευαίσθητη επιδερμίδα υπό δερματολογικό έλεγχο. Υποαλλεργικό.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια, 200ml. Αυτό το δροσερό gel καθαρισμού αφαιρεί αποτελεσματικά και εύκολα το μακιγιάζ και απομακρύνει όλα τα υπολείμματα και μικροσωματίδια ρύπων. Με Ιαματικό Ηφαιστειακό Νερό της Vichy και Νιασιναμίδη, καταπραΰνει ορατά την επιδερμίδα και μειώνει την εμφάνιση της ερυθρότητας. Η επιδερμίδα μένει καθαρή, αποκτά αίσθηση άνεσης και λαμπερή όψη. Δοκιμασμένο σε ευαίσθητη επιδερμίδα υπό δερματολογικό έλεγχο. Υποαλλεργικό.",
+      "Συστατικά": "ΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη, γνωστή για τις αποδεδειγμένες αντιοξειδωτικές ιδιότητες και τη βελτίωση του επιδερμικού φραγμού, που προσφέρει.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, COCO-BETAINE, GLYCERIN, PROPANEDIOL, PEG-120 METHYL GLUCOSE DIOLEATE, SODIUM COCOYL GLYCINATE, SODIUM CHLORIDE, NIACINAMIDE, HYDROXYACETOPHENONE, CAPRYLYL GLYCOL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, TOCOPHEROL, SALICYLIC ACID, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862097.png?rev=02a1f399a89f4cc286c769cbfdeb6202",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862097.png?rev=02a1f399a89f4cc286c769cbfdeb6202",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862097.png?rev=02a1f399a89f4cc286c769cbfdeb6202",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/0c8748ab8cc3b8311471476bf3801fefd0ab67ca.jpg?rev=785f1b690bf84d23bda2cbfb247c3d0b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/9d3611bfe1cdb9224133de73dc059ac4d982b2cd.jpg?rev=fc7b440146294e529da93917079507b7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/42d7f9fd2f870330c17bcc70873e8f64caca9565.jpg?rev=c5c37ef753da441f93764819f6a9c8ab",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/46b1437dd3d15b2b593da34ee69af7bc71f2abbe.jpg?rev=12997c832644481887382f1569e07709"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/purete-thermale-gel-katharismou-proswpou-gia-ntemakigiaz",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875862066": {
+    "name": "Purete Thermale Gel Καθαρισμού Προσώπου & Ματιών",
+    "subtitle": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια.",
+    "description": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια 400ml. Αυτό το δροσερό gel καθαρισμού αφαιρεί αποτελεσματικά και εύκολα το μακιγιάζ και απομακρύνει όλα τα υπολείμματα και μικροσωματίδια ρύπων. Με Ιαματικό Ηφαιστειακό Νερό της Vichy και Νιασιναμίδη, καταπραΰνει ορατά την επιδερμίδα και μειώνει την εμφάνιση της ερυθρότητας. Η επιδερμίδα μένει καθαρή, αποκτά αίσθηση άνεσης και λαμπερή όψη. Δοκιμασμένο σε ευαίσθητη επιδερμίδα υπό δερματολογικό έλεγχο. Υποαλλεργικό.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Purete Thermale Gel Καθαρισμού για ευαίσθητο πρόσωπο και μάτια 400ml. Αυτό το δροσερό gel καθαρισμού αφαιρεί αποτελεσματικά και εύκολα το μακιγιάζ και απομακρύνει όλα τα υπολείμματα και μικροσωματίδια ρύπων. Με Ιαματικό Ηφαιστειακό Νερό της Vichy και Νιασιναμίδη, καταπραΰνει ορατά την επιδερμίδα και μειώνει την εμφάνιση της ερυθρότητας. Η επιδερμίδα μένει καθαρή, αποκτά αίσθηση άνεσης και λαμπερή όψη. Δοκιμασμένο σε ευαίσθητη επιδερμίδα υπό δερματολογικό έλεγχο. Υποαλλεργικό.",
+      "Συστατικά": "ΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη, γνωστή για τις αποδεδειγμένες αντιοξειδωτικές ιδιότητες και τη βελτίωση του επιδερμικού φραγμού, που προσφέρει.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, COCO-BETAINE, GLYCERIN, PROPANEDIOL, PEG-120 METHYL GLUCOSE DIOLEATE, SODIUM COCOYL GLYCINATE, SODIUM CHLORIDE, NIACINAMIDE, HYDROXYACETOPHENONE, CAPRYLYL GLYCOL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, TOCOPHEROL, SALICYLIC ACID, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862066.png?rev=a213d02d58b84b1192f90f7591d38e46",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862066.png?rev=a213d02d58b84b1192f90f7591d38e46",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875862066.png?rev=a213d02d58b84b1192f90f7591d38e46",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/2fa587b65cc77ddccea8c690abdec3c0494950ec.jpg?rev=ad6b464b7ef04f7cb1d42935f1d11c4e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/8c3f2f4cbb4524c03c6d26f22607dab96c3c8672.jpg?rev=767684912931469bb8715595004e6415",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/11c94859c72008befb71d6cbe161826d47ecff3b.jpg?rev=59be7c8838ac430f9179f2e68803ee5a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/c7bfed2eae9d40c4f7c156836f5adf56fbc33c93.jpg?rev=cbd5eb41258b47109ef0a8a2c7e52d6e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/d25d10427a4eacb7a1096345e4b735133bd74798.jpg?rev=533d936ad16d434ca137919cabfabd82"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/purete-thermale-gel-katharismou-proswpou-matiwn",
+    "source": "vichy.gr",
+    "section": "purete",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871308612": {
+    "name": "Eau Thermale Ιαματικό Ηφαιστειακό Νερό",
+    "subtitle": "Ενδυναμώνει και ενισχύει ορατά τη λάμψη της επιδερμίδας.",
+    "description": "Το Ιαματικό Ηφαιστειακό Νερό της Vichy καταπραΰνει, ενώ ενισχύει και ενδυναμώνει τη λειτουργία του ενυδατικού φραγμού του δέρματος και συμβάλλει στην προστασία της επιδερμίδας από εξωτερικούς επιθετικούς παράγοντες. Το δέρμα δείχνει πιο υγιές, λαμπερό και φωτεινό. Πολύ απαλό για την ευαίσθητη επιδερμίδα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml, 300ml",
+      "Σειρά": "Eau Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Συσκευασία": "150ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Ιαματικό Ηφαιστειακό Νερό της Vichy καταπραΰνει, ενώ ενισχύει και ενδυναμώνει τη λειτουργία του ενυδατικού φραγμού του δέρματος και συμβάλλει στην προστασία της επιδερμίδας από εξωτερικούς επιθετικούς παράγοντες. Το δέρμα δείχνει πιο υγιές, λαμπερό και φωτεινό. Πολύ απαλό για την ευαίσθητη επιδερμίδα.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy_eau_thermale_50ml.jpg?rev=f8cc59343bcd4412b07a569a8b5783e6",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy_eau_thermale_50ml.jpg?rev=f8cc59343bcd4412b07a569a8b5783e6",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy_eau_thermale_50ml.jpg?rev=f8cc59343bcd4412b07a569a8b5783e6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/eauthe1.jpg?rev=449aa5a95a924faa84136c33c25749cb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy1.jpg?rev=a5f82508db654701a831f8d1c71bc05d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy2.jpg?rev=687aa67128704d3ba985564b908a2532",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/3337871308629_eau-thermale_variant2-(1).jpg?rev=cc1b9ed0f6634185a8488cae48803916"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/eau-thermale-iamatiko-hfaisteiako-nero",
+    "source": "vichy.gr",
+    "section": "purete",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321963": {
+    "name": "Eau Thermale Ιαματικό Ηφαιστειακό Νερό",
+    "subtitle": "Ενδυναμώνει και ενισχύει ορατά τη λάμψη της επιδερμίδας.",
+    "description": "Το Ιαματικό Ηφαιστειακό Νερό της Vichy καταπραΰνει, ενώ ενισχύει και ενδυναμώνει τη λειτουργία του ενυδατικού φραγμού του δέρματος και συμβάλλει στην προστασία της επιδερμίδας από εξωτερικούς επιθετικούς παράγοντες. Το δέρμα δείχνει πιο υγιές, λαμπερό και φωτεινό. Πολύ απαλό για την ευαίσθητη επιδερμίδα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml, 300ml",
+      "Σειρά": "Eau Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Ιαματικό Ηφαιστειακό Νερό της Vichy καταπραΰνει, ενώ ενισχύει και ενδυναμώνει τη λειτουργία του ενυδατικού φραγμού του δέρματος και συμβάλλει στην προστασία της επιδερμίδας από εξωτερικούς επιθετικούς παράγοντες. Το δέρμα δείχνει πιο υγιές, λαμπερό και φωτεινό. Πολύ απαλό για την ευαίσθητη επιδερμίδα.",
+      "Χρήση": "Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης.",
+      "Συστατικά": "INCI: AQUA"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/3337871308629_eau-thermale_variant2-(1).jpg?rev=cc1b9ed0f6634185a8488cae48803916",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy_eau_thermale_50ml.jpg?rev=f8cc59343bcd4412b07a569a8b5783e6",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy_eau_thermale_50ml.jpg?rev=f8cc59343bcd4412b07a569a8b5783e6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/eauthe1.jpg?rev=449aa5a95a924faa84136c33c25749cb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy1.jpg?rev=a5f82508db654701a831f8d1c71bc05d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/vichy2.jpg?rev=687aa67128704d3ba985564b908a2532",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/eau-thermale/3337871308629_eau-thermale_variant2-(1).jpg?rev=cc1b9ed0f6634185a8488cae48803916"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/eau-thermale-iamatiko-hfaisteiako-nero",
+    "source": "vichy.gr",
+    "section": "purete",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871320980": {
+    "name": "Purete Thermale Αφρώδες Νερό Καθαρισμού Προσώπου",
+    "subtitle": "Καθαρίζει την επιδερμίδα, με ήπια δράση κατάλληλη για την ευαίσθητη επιδερμίδα.",
+    "description": "Καθαρίζει την επιδερμίδα και απομακρύνει τους ρύπους. Ενισχύει τη φωτεινότητα για πιο λαμπερή επιδερμίδα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Συσκευασία": "150ml"
+    },
+    "sections": {
+      "Περιγραφή": "Καθαρίζει την επιδερμίδα και απομακρύνει τους ρύπους. Ενισχύει τη φωτεινότητα για πιο λαμπερή επιδερμίδα.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, DIPROPYLENE GLYCOL, SODIUM LAURETH SULFATE, GLYCERIN, PEG-200 HYDROGENATED GLYCERYL PALMATE, DISODIUM COCOAMPHODIACETATE, PEG-30 GLYCERYL COCOATE, PEG-7 GLYCERYL COCOATE, POTASSIUM CHLORIDE, SODIUM CHLORIDE, SODIUM GLYCOLATE, PHENOXYETHANOL, COCO-BETAINE, DISODIUM EDTA, CITRIC ACID, BUTYLENE GLYCOL, BUTYROSPERMUM PARKII SEEDCAKE EXTRACT / SHEA BUTTER SEEDCAKE EXTRACT, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-afrwdes-nero-katharismou-proswpou/mousse-nettoyante---3337871320980---1.png?rev=-1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-afrwdes-nero-katharismou-proswpou/mousse-nettoyante---3337871320980---1.png?rev=-1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-afrwdes-nero-katharismou-proswpou/mousse-nettoyante---3337871320980---1.png?rev=-1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-afrwdes-nero-katharismou-proswpou/3337871320980---2.jpg?rev=aa91482f6a804504868e6195b6850d2e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/purete-thermale---cleansing-foam-radiance-revealer/cleansing-foam-radiance-revealer-pack4.jpeg?rev=dcda5a7d1c0b4f6694168910cb0d512d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/purete-thermale-afrwdes-nero-katharismou-proswpou",
+    "source": "vichy.gr",
+    "section": "purete",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871330569": {
+    "name": "Purete Thermale Τονωτική Λοσιόν Καθαρισμού Προσώπου",
+    "subtitle": "Καθαριστικό προσώπου που αφαιρεί τα υπολείμματα μακιγιάζ και τους ρύπους.",
+    "description": "Καθαριστικό προσώπου που αφαιρεί τα υπολείμματα μακιγιάζ και τους ρύπους για πιο καθαρή επιδερμίδα με όψη φρεσκάδας.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Καθαριστικό προσώπου που αφαιρεί τα υπολείμματα μακιγιάζ και τους ρύπους για πιο καθαρή επιδερμίδα με όψη φρεσκάδας.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, PEG-8, GLYCERIN, PEG-60 HYDROGENATED CASTOR OIL, DISODIUM EDTA, COPPER SULFATE, MYRTRIMONIUM BROMIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/3337871330569/new/3337871330569--toner---1.png?rev=a9b4bde7dc5e47878f7c242fd3c0780c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/3337871330569/new/3337871330569--toner---1.png?rev=a9b4bde7dc5e47878f7c242fd3c0780c",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/3337871330569/new/3337871330569--toner---1.png?rev=a9b4bde7dc5e47878f7c242fd3c0780c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/3337871330569/vichytonerpuretethermaleperfecting0003337871330569back-gr-716x716.jpg?rev=697af68744d240aa9e1fa56f6077c2f2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/3337871330569/new/3337871330569-toner---3.jpg?rev=3c7a55dc94ec43ea80943afeff0d01c0"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/katharistika-proswpou/purete-thermale-tonwtikh-losion-katharismou-proswpou",
+    "source": "vichy.gr",
+    "section": "purete",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875674942": {
+    "name": "Purete Thermale Micellar Water για Ευαίσθητη Επιδερμίδα",
+    "subtitle": "Ένα ισχυρό μικυλλιακό νερό καθαρισμού εμπλουτισμένο με Ιαματικό Ηφαιστειακό Νερό Vichy και καταπραϋντική Πανθενόλη",
+    "description": "Το Minéral Νερό Micellaire - Ευαίσθητη επιδερμίδα 400 ml είναι εμπλουτισμένο με Ιαματικό Ηφαιστειακό Νερό Vichy και καταπραϋντική Πανθενόλη",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Minéral Νερό Micellaire - Ευαίσθητη επιδερμίδα 400 ml είναι εμπλουτισμένο με Ιαματικό Ηφαιστειακό Νερό Vichy και καταπραϋντική Πανθενόλη",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, HEXYLENE GLYCOL, GLYCERIN, POLOXAMER 184, PANTHENOL, SODIUM COCOAMPHOACETATE, DISODIUM EDTA, SODIUM CHLORIDE, MYRTRIMONIUM BROMIDE, BHT, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-front-200ml-716x716.jpg?rev=b34b992eec034b7f978833eb6797b15c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-front-200ml-716x716.jpg?rev=b34b992eec034b7f978833eb6797b15c",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-front-200ml-716x716.jpg?rev=b34b992eec034b7f978833eb6797b15c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-application-200ml-716x7.jpg?rev=65ed9c27813a417185369a72fa0498f2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-duo-200ml-716x716-gr.jpg?rev=63e9328bba3b4313b3e9b0a45eecf450",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-medical-200ml-716x716-g.jpg?rev=5b56b054e09e47faaa8143d2f669e120",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-packshot-screen-200ml-7.jpg?rev=144e43573216430cbf8934e514364d20",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new/purete-thermale-micellar-water-3in1-716x716/vichy--cleanser--purete-thermale--3in1-one-step-micellar-water-3337875674942-texture-200ml-716x716.jpg?rev=c68062b880da4ff0bccd1a9866b5fa07"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-micellar-water-gia-euaisthhth-epidermida",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875674423": {
+    "name": "Pureté Thermale Purete Thermale Ντεμακιγιαζ Ματιών",
+    "subtitle": "Καταπραϋντικό ντεμακιγιάζ που ανακουφίζει τα ευαίσθητα μάτια.",
+    "description": "Pureté Thermale Καταπραϋντικό ντεμακιγιάζ που ανακουφίζει τα ευαίσθητα μάτια. Για γυναίκες με ευαίσθητα μάτια. Φροντίζει και καταπραΰνει τα ευαίσθητα μάτια ενώ αφαιρεί αποτελεσματικά το μακιγιάζ. Εμπλουτισμένο με ήπιους καθαριστικούς παράγοντες, ενυδατικά και καταπραϋντικά συστατικά. Σέβεται την επιδερμίδα ακόμα και των πιο ευαίσθητων ματιών. - Αλλαντοΐνη που καταπραΰνει - Εκχύλισμα μύρτιλλου που καταπολεμά τους ερεθισμούς σε μάτια και βλέφαρα - Βιταμίνη Β5 που ενυδατώνει το περίγραμμα των ματιών",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "100ml",
+      "Σειρά": "Pureté Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Δερματολογικά": "Υποαλλεργικό · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ",
+      "Συσκευασία": "100ml"
+    },
+    "sections": {
+      "Περιγραφή": "Pureté Thermale Καταπραϋντικό ντεμακιγιάζ που ανακουφίζει τα ευαίσθητα μάτια.\nΓια γυναίκες με ευαίσθητα μάτια.\nΦροντίζει και καταπραΰνει τα ευαίσθητα μάτια ενώ αφαιρεί αποτελεσματικά το μακιγιάζ.\nΕμπλουτισμένο με ήπιους καθαριστικούς παράγοντες, ενυδατικά και καταπραϋντικά συστατικά.\nΣέβεται την επιδερμίδα ακόμα και των πιο ευαίσθητων ματιών.\n- Αλλαντοΐνη που καταπραΰνει\n- Εκχύλισμα μύρτιλλου που καταπολεμά τους ερεθισμούς σε μάτια και βλέφαρα\n- Βιταμίνη Β5 που ενυδατώνει το περίγραμμα των ματιών",
+      "Συστατικά": "Ιαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nINCI: AQUA / WATER - HEXYLENE GLYCOL - ALLANTOIN - POLOXAMER 184 - DISODIUM EDTA - DISODIUM COCOAMPHODIACETATE - PANTHENOL - CENTAUREA CYANUS EXTRACT / CENTAUREA CYANUS FLOWER EXTRACT - POLYSORBATE 20 - POLYAMINOPROPYL BIGUANIDE - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674423.png?rev=b9543cf05b1840a39f3eb7159c02fb63",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674423.png?rev=b9543cf05b1840a39f3eb7159c02fb63",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674423.png?rev=b9543cf05b1840a39f3eb7159c02fb63",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/01427003b99aefa335b1a32aaf133d28f6840afe.jpg?rev=67e83cc98466457ba1b953e1d81d1417",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/d3a58a60229f8c9eb95521843206ec434e2d4906.jpg?rev=03e24e94f6074291bed4a440dfa031af"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-ntemakigiaz-matiwn",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875674409": {
+    "name": "Purete Thermale Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ",
+    "subtitle": "Ντεμακιγιάζ ματιών που φροντίζει τα ευαίσθητα μάτια.",
+    "description": "Το αδιάβροχο μακιγιάζ ματιών έχει γίνει βασικό στοιχείο σε πολλές ρουτίνες ομορφιάς, προσφέροντας μια σειρά από οφέλη που το καθιστούν αγαπημένο στους λάτρεις του μακιγιάζ. Σχεδιασμένα για να αντέχουν την υγρασία, τον ιδρώτα και τα δάκρυα, οι αδιάβροχες συνθέσεις παρέχουν μακροχρόνια χρήση που διατηρεί ανέπαφο το μακιγιάζ των ματιών σας όλη την ημέρα. Ένα από τα κύρια πλεονεκτήματα του αδιάβροχου μακιγιάζ ματιών είναι η αντοχή του. Είτε πηγαίνετε σε ένα πάρτι στην πισίνα, σε μια προπόνηση ή βιώνετε μια βροχερή μέρα, τα αδιάβροχα προϊόντα διασφαλίζουν ότι το eyeliner, η μάσκαρα και η σκιά ματιών σας παραμένουν χωρίς μουτζούρες. Αυτή η αξιοπιστία το καθιστά ιδανική επιλογή για ειδικές περιστάσεις, όπως γάμους ή μακροχρόνιες εκδηλώσεις, όπου θέλετε να δείχνετε την καλύτερη δυνατή εμφάνιση χωρίς συνεχή επαφή. Εκτός από τη μακροζωία, το αδιάβροχο μακιγιάζ έχει συχνά πιο έντονο χρωματισμό, επιτρέποντας ζωηρά χρώματα που ξεχωρίζουν. Αυτό είναι ιδιαίτερα ωφέλιμο για όσους απολαμβάνουν τολμηρά μάτια. Ωστόσο, η πρόκληση με τα αδιάβροχα προϊόντα είναι η αφαίρεσή τους. Τα παραδοσιακά καθαριστικά μπορεί να μην είναι αποτελεσματικά, επομένως είναι απαραίτητο να χρησιμοποιείτε ένα ντεμακιγιάζ ειδικά σχεδιασμένο για αδιάβροχο μακιγιάζ. To PURETE THERMALE Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ, είναι ιδανικό για αδιάβροχο μακιγιάζ και για ευαίσθητα μάτια. Υποαλλεργικό. Σε συσκευασία 100ml travel size, για να το έχετε παντού μαζί σας. . To PURETE THERMALE Ντεμακιγιάζ ματιών φροντίζει τα ευαίσθητα μάτια και αφαιρεί το αδιάβροχο μακιγιάζ με μη λιπαρή υφή, είναι ένα απαλό και καταπραϋντικό νερό ντεμακιγιάζ για ευαίσθητα μάτια. Κατάλληλο για χρήστριες φακών επαφής. Περιέχει καταπραϋντικό και τονωτικό Ιαματικό Νερό της Vichy.",
+    "claims": [
+      "ΜΗ ΛΙΠΑΡΗ ΥΦΗ",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "100ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Δερματολογικά": "ΜΗ ΛΙΠΑΡΗ ΥΦΗ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ",
+      "Συσκευασία": "100ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αδιάβροχο μακιγιάζ ματιών έχει γίνει βασικό στοιχείο σε πολλές ρουτίνες ομορφιάς, προσφέροντας μια σειρά από οφέλη που το καθιστούν αγαπημένο στους λάτρεις του μακιγιάζ. Σχεδιασμένα για να αντέχουν την υγρασία, τον ιδρώτα και τα δάκρυα, οι αδιάβροχες συνθέσεις παρέχουν μακροχρόνια χρήση που διατηρεί ανέπαφο το μακιγιάζ των ματιών σας όλη την ημέρα.\nΈνα από τα κύρια πλεονεκτήματα του αδιάβροχου μακιγιάζ ματιών είναι η αντοχή του. Είτε πηγαίνετε σε ένα πάρτι στην πισίνα, σε μια προπόνηση ή βιώνετε μια βροχερή μέρα, τα αδιάβροχα προϊόντα διασφαλίζουν ότι το eyeliner, η μάσκαρα και η σκιά ματιών σας παραμένουν χωρίς μουτζούρες. Αυτή η αξιοπιστία το καθιστά ιδανική επιλογή για ειδικές περιστάσεις, όπως γάμους ή μακροχρόνιες εκδηλώσεις, όπου θέλετε να δείχνετε την καλύτερη δυνατή εμφάνιση χωρίς συνεχή επαφή.\nΕκτός από τη μακροζωία, το αδιάβροχο μακιγιάζ έχει συχνά πιο έντονο χρωματισμό, επιτρέποντας ζωηρά χρώματα που ξεχωρίζουν. Αυτό είναι ιδιαίτερα ωφέλιμο για όσους απολαμβάνουν τολμηρά μάτια. Ωστόσο, η πρόκληση με τα αδιάβροχα προϊόντα είναι η αφαίρεσή τους. Τα παραδοσιακά καθαριστικά μπορεί να μην είναι αποτελεσματικά, επομένως είναι απαραίτητο να χρησιμοποιείτε ένα ντεμακιγιάζ ειδικά σχεδιασμένο για αδιάβροχο μακιγιάζ. To PURETE THERMALE Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ, είναι ιδανικό για αδιάβροχο μακιγιάζ και για ευαίσθητα μάτια. Υποαλλεργικό. Σε συσκευασία 100ml travel size, για να το έχετε παντού μαζί σας. . To PURETE THERMALE Ντεμακιγιάζ ματιών φροντίζει τα ευαίσθητα μάτια και αφαιρεί το αδιάβροχο μακιγιάζ με μη λιπαρή υφή, είναι ένα απαλό και καταπραϋντικό νερό ντεμακιγιάζ για ευαίσθητα μάτια. Κατάλληλο για χρήστριες φακών επαφής. Περιέχει καταπραϋντικό και τονωτικό Ιαματικό Νερό της Vichy.",
+      "Συστατικά": "Ιαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nINCI: AQUA / WATER - ISODODECANE - ISOPROPYL PALMITATE - CI 61565 / GREEN 6 - POTASSIUM PHOSPHATE - SODIUM CHLORIDE - ARGININE - DIPOTASSIUM PHOSPHATE - TETRASODIUM EDTA - TAURINE - HEXYLENE GLYCOL - DECYL GLUCOSIDE - POLYAMINOPROPYL BIGUANIDE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674409.png?rev=4912c946e085483ab65289a6086bccec",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674409.png?rev=4912c946e085483ab65289a6086bccec",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674409.png?rev=4912c946e085483ab65289a6086bccec",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/2ef91b3122f024f2db015d789e73ec35554e4acb.jpg?rev=bdd0610a58af427988d64ac6719493ab",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/6d3f96121ad2e595619df23f36987adf1f15f009.jpg?rev=ff6fff4fee1d4f7bb1adb8600993f429",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/c3d7fd4abe0c1569389935ddced1fc6d2de5272d.jpg?rev=4caab4c477234eed8edc4f168d6e63bb"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-ntemakigiaz-matiwn-gia-adiabroxo-makigiaz",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875674928": {
+    "name": "Purete Thermale Micellar Water 3 σε 1 για Ευαίσθητο Δέρμα",
+    "subtitle": "Purete Thermale Micellar Water 3 σε 1 Για ευαίσθητο πρόσωπο και μάτια.",
+    "description": "Purete Thermale Micellar Water 3 σε 1 Για ευαίσθητο πρόσωπο και μάτια. Συγκεντρώνει την αποτελεσματικότητα ενός καθαριστικού, μιας τονωτικής λοσιόν και ενός ντεμακιγιάζ ματιών. Αφαιρεί αποτελεσματικά το μακιγιάζ από το πρόσωπο και τα μάτια με μια κίνηση, ενώ παράλληλα είναι ήπιο για την επιδερμίδα. Η σύνθεση του με Ιαματικό Ηφαιστειακό Νερό Vichy και Γλυκερίνη, καταπραΰνει την επιδερμίδα και χαρίζει άνεση. Δοκιμασμένο σε ευαίσθητη επιδερμίδα, υπό δερματολογικό έλεγχο. Νέα οικολογική, βελτιωμένη συσκευασία. Υποαλλεργικό.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Purete Thermale Micellar Water 3 σε 1 Για ευαίσθητο πρόσωπο και μάτια. Συγκεντρώνει την αποτελεσματικότητα ενός καθαριστικού, μιας τονωτικής λοσιόν και ενός ντεμακιγιάζ ματιών. Αφαιρεί αποτελεσματικά το μακιγιάζ από το πρόσωπο και τα μάτια με μια κίνηση, ενώ παράλληλα είναι ήπιο για την επιδερμίδα. Η σύνθεση του με Ιαματικό Ηφαιστειακό Νερό Vichy και Γλυκερίνη, καταπραΰνει την επιδερμίδα και χαρίζει άνεση. Δοκιμασμένο σε ευαίσθητη επιδερμίδα, υπό δερματολογικό έλεγχο. Νέα οικολογική, βελτιωμένη συσκευασία. Υποαλλεργικό.",
+      "Συστατικά": "Ιαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nΓΛΥΚΕΡΙΝΗ\nΕνυδατώνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, GLYCERIN, HEXYLENE GLYCOL, HYDROXYACETOPHENONE, TETRASODIUM GLUTAMATE DIACETATE, CITRIC ACID, PANTHENOL, DISODIUM COCOAMPHODIACETATE, POLOXAMER 184, MYRTRIMONIUM BROMIDE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674928.png?rev=49fa91612d594cd0921677c4a62cc262",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674928.png?rev=49fa91612d594cd0921677c4a62cc262",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337875674928.png?rev=49fa91612d594cd0921677c4a62cc262",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/3337875674928-3in1-purete-thermale.jpg?rev=31bfa43a502f4304bb25553678026350"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-micellar-water-3-se-1-gia-euaisthhto-derma",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871319144": {
+    "name": "Purete Thermale Γαλάκτωμα Καθαρισμού Προσώπου 3 σε 1",
+    "subtitle": "Καθαρίζει την επιδερμίδα, αφαιρεί το μακιγιάζ και τονώνει.",
+    "description": "Το Pureté Thermale Γαλάκτωμα Καθαρισμού 3 σε 1 για Ευαίσθητη Επιδερμίδα καθαρίζει νεκρά κύτταρα, σκόνη και σωματίδια ρύπων, αφαιρεί το μακιγιάζ από το πρόσωπο και τα μάτια και αφήνει την επιδερμίδα τονωμένη και με αίσθηση άνεσης χωρίς να την ξηραίνει.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 300ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Pureté Thermale Γαλάκτωμα Καθαρισμού 3 σε 1 για Ευαίσθητη Επιδερμίδα καθαρίζει νεκρά κύτταρα, σκόνη και σωματίδια ρύπων, αφαιρεί το μακιγιάζ από το πρόσωπο και τα μάτια και αφήνει την επιδερμίδα τονωμένη και με αίσθηση άνεσης χωρίς να την ξηραίνει.",
+      "Συστατικά": "Ιαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER - ETHYLHEXYL PALMITATE - GLYCERIN - DIPROPYLENE GLYCOL - SODIUM HYDROXIDE - CAPRYLYL GLYCOL - CARBOMER - ETHYLHEXYLGLYCERIN - TOCOPHEROL - PARFUM/FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337871319144.png?rev=86cd7ba6c73b4b97a93b167134b2a25b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337871319144.png?rev=86cd7ba6c73b4b97a93b167134b2a25b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337871319144.png?rev=86cd7ba6c73b4b97a93b167134b2a25b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/4c55b06cc777a95e0cea04221847abb2d1968fc8.jpg?rev=0ae9fe038d4a4979ad7b85798bb85f06",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/a5775b09dd506eb2670d065069a431964ba7c536.jpg?rev=6a4c0acec7174ac78824a6f5efa3f42c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/da9c26a9fe0762344954f173473cb7b0f38bf82b.jpg?rev=01141cdcf1124f86a38500acfaa57ecf",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/300ml-purete-thermale-galaktwma-katharismou-proswpou-3-se-1/3337871321994.jpg?rev=-1"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-galaktwma-katharismou-proswpou-3-se-1",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321994": {
+    "name": "Purete Thermale Γαλάκτωμα Καθαρισμού Προσώπου 3 σε 1",
+    "subtitle": "Καθαρίζει την επιδερμίδα, αφαιρεί το μακιγιάζ και τονώνει.",
+    "description": "Το Pureté Thermale Γαλάκτωμα Καθαρισμού 3 σε 1 για Ευαίσθητη Επιδερμίδα καθαρίζει νεκρά κύτταρα, σκόνη και σωματίδια ρύπων, αφαιρεί το μακιγιάζ από το πρόσωπο και τα μάτια και αφήνει την επιδερμίδα τονωμένη και με αίσθηση άνεσης χωρίς να την ξηραίνει.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 300ml",
+      "Σειρά": "Purete Thermale",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Pureté Thermale Γαλάκτωμα Καθαρισμού 3 σε 1 για Ευαίσθητη Επιδερμίδα καθαρίζει νεκρά κύτταρα, σκόνη και σωματίδια ρύπων, αφαιρεί το μακιγιάζ από το πρόσωπο και τα μάτια και αφήνει την επιδερμίδα τονωμένη και με αίσθηση άνεσης χωρίς να την ξηραίνει.",
+      "Συστατικά": "Ιαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER - ETHYLHEXYL PALMITATE - GLYCERIN - DIPROPYLENE GLYCOL - SODIUM HYDROXIDE - CAPRYLYL GLYCOL - CARBOMER - ETHYLHEXYLGLYCERIN - TOCOPHEROL - PARFUM/FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/300ml-purete-thermale-galaktwma-katharismou-proswpou-3-se-1/3337871321994.jpg?rev=-1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337871319144.png?rev=86cd7ba6c73b4b97a93b167134b2a25b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/3337871319144.png?rev=86cd7ba6c73b4b97a93b167134b2a25b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/4c55b06cc777a95e0cea04221847abb2d1968fc8.jpg?rev=0ae9fe038d4a4979ad7b85798bb85f06",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/a5775b09dd506eb2670d065069a431964ba7c536.jpg?rev=6a4c0acec7174ac78824a6f5efa3f42c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/new-packaging/da9c26a9fe0762344954f173473cb7b0f38bf82b.jpg?rev=01141cdcf1124f86a38500acfaa57ecf",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/purete-thermale/300ml-purete-thermale-galaktwma-katharismou-proswpou-3-se-1/3337871321994.jpg?rev=-1"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/micellar-waters-ntemakigiaz/purete-thermale-galaktwma-katharismou-proswpou-3-se-1",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875916998": {
+    "name": "Mineral 89 Moisture Recovery Ενυδατική Κρέμα Νύχτας",
+    "subtitle": "ΕΠΑΝΟΡΘΩΝΕΙ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ ΑΠΟ ΤΟΥΣ ΕΠΙΘΕΤΙΚΟΥΣ ΠΑΡΑΓΟΝΤΕΣ ΤΗΣ ΚΑΘΗΜΕΡΙΝΟΤΗΤΑΣ.",
+    "description": "Εμπλουτισμένη με Καθαρή Μελατονίνη, Υαλουρονικό Οξύ και Μεταλλικά Στοιχεία, για να επιταχύνει την επανόρθωση της επιδερμίδας από τους καθημερινούς επιθετικούς παράγοντες. Επιδερμίδα ενυδατωμένη, γεμάτη ζωντάνια και λάμψη το επόμενο πρωί.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Εμπλουτισμένη με Καθαρή Μελατονίνη, Υαλουρονικό Οξύ και Μεταλλικά Στοιχεία, για να επιταχύνει την επανόρθωση της επιδερμίδας από τους καθημερινούς επιθετικούς παράγοντες. Επιδερμίδα ενυδατωμένη, γεμάτη ζωντάνια και λάμψη το επόμενο πρωί.",
+      "Οφέλη": "Η επιδερμίδα επανορθώνεται κατά +30% πιο γρήγορα* από τις καθημερινές επιθέσεις, και φαίνεται πιο ξεκούραστη όπως μετά από έναν καλό βραδινό ύπνο.\n* Οργανομετρική αξιολόγηση, 24 άτομα, 1 ώρα.",
+      "Υφή": "Καταπραϋντική υφή που λιώνει στην επιδερμίδα. Με άρωμα σχεδιασμένο να σας βοηθά να χαλαρώσετε πριν πάτε για ύπνο.\nΑόρατο αποτέλεσμα.\nΔεν αφήνει λευκά ίχνη.\nΔεν αφήνει λεκέδες στο μαξιλάρι.",
+      "Συστατικά": "ΜΕΛΑΤΟΝΙΝΗ\nΕνεργοποιεί τους μηχανισμούς επανόρθωσης της επιδερμίδας κατά τη διάρκεια της νύχτας και ενισχύει τις αντιοξειδωτικές άμυνες.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΕνυδατώνει και «γεμίζει» την επιδερμίδα, συγκρατώντας έως και 1.000 φορές το βάρος του σε νερό.\nINCI: AQUA / WATER / EAU, GLYCERIN, SQUALANE, NIACINAMIDE, CAPRYLIC/CAPRIC TRIGLYCERIDE, PENTAERYTHRITYL TETRAETHYLHEXANOATE, BUTYLENE GLYCOL, SODIUM CARBOMER, CHRYSIN, CITRIC ACID, COPPER GLUCONATE, HYDROXYACETOPHENONE, MELATONIN, MINERAL SALTS, PALMITOYL TETRAPEPTIDE-7, ROSMARINUS OFFICINALIS LEAF EXTRACT / ROSEMARY LEAF EXTRACT, SODIUM HYALURONATE, SODIUM HYDROXIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, TOCOPHEROL, BIOSACCHARIDE GUM-1, CAPRYLYL GLYCOL, GLYCERYL ISOSTEARATE, LACTIC ACID, MALTODEXTRIN, PENTYLENE GLYCOL, SILICA, SODIUM STEAROYL GLUTAMATE, XANTHAN GUM, BENZYL ALCOHOL, EUGENOL, SALICYLIC ACID, PARFUM / FRAGRANCE",
+      "Χρήση": "MINERAL 89 - MOISTURE RECOVERY NIGHT CREAM\nΤΗ ΝΥΧΤΑ, Η ΕΠΙΔΕΡΜΙΔΑ ΕΠΑΝΟΡΘΩΝΕΤΑΙ ΑΠΟ ΤΙΣ ΚΑΘΗΜΕΡΙΝΕΣ ΕΠΙΘΕΣΕΙΣ\nΗ Μελατονίνη είναι ένα δραστικό συστατικό που έχει αποδειχθεί ότι συμβάλλει στην επανόρθωση της επιδερμίδας. Η Vichy συνδύασε τη Μελατονίνη με απαραίτητα ενυδατικά συστατικά [Υαλουρονικό Οξύ + Μεταλλικά Στοιχεία + Βιταμίνες Β3 & Ε], σε μια καταπραϋντική υφή που λιώνει και αφομοιώνεται στην επιδερμίδα καθ' όλη τη διάρκεια της νύχτας. Η μοναδική αυτή σύνθεση ενισχύει τους μηχανισμούς της επιδερμίδας, εξασφαλίζοντας την ταχύτερη επανόρθωσή της. Για επιδερμίδα ενυδατωμένη, με πιο υγιή όψη, γεμάτη ζωντάνια και λάμψη το επόμενο πρωί.\nΑπλώστε απαλά σε όλο το πρόσωπο, πριν από τον ύπνο. Ανάλαφρο, χαλαρωτικό άρωμα. Κατάλληλη για κάθε τύπο επιδερμίδας, ακόμα και την ευαίσθητη. Δερματολογικά ελεγμένη.\nΧρησιμοποιήστε τη Min&eacute;ral 89 Moisture Recovery Night Cream το βράδυ, μετά από το Mineral 89 Booster, εφαρμόζοντας αρκετή ποσότητα.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-1.png?rev=a9d998af7871458fbc8c749a8d4a3c98",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-1.png?rev=a9d998af7871458fbc8c749a8d4a3c98",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-1.png?rev=a9d998af7871458fbc8c749a8d4a3c98",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-2.jpg?rev=30a7a3e0f8d64c138b7b7f569d1da81f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-3.jpg?rev=5cb60cc74e6744cb80defccbc6b55f57",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-4.jpg?rev=69a20f9d7b3648a3a0600bd36420d1b4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-moisture-recovery-night-cream/vichy-mineral89-melatonin-night-cream-website-pdp-mosaic-5.jpg?rev=392c522ccd544482ba67befedfb66ed8"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/mineral-89-moisture-recovery-enudatikh-krema-nuxtas",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322724": {
+    "name": "Capital Soleil After Sun Γαλάκτωμα για μετά τον Ήλιο",
+    "subtitle": "Καταπραϋντικό γαλάκτωμα after sun για ευαίσθητο δέρμα.",
+    "description": "Απαλή περιποίηση after sun για ενήλικες, η οποία ενυδατώνει και καταπραΰνει την ευαίσθητη ή με ερεθισμούς επιδερμίδα. Η υφή απορροφάται γρήγορα, χαρίζοντας αίσθηση ανανέωσης και άνεση που διαρκεί.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "300ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › After Sun",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλή περιποίηση after sun για ενήλικες, η οποία ενυδατώνει και καταπραΰνει την ευαίσθητη ή με ερεθισμούς επιδερμίδα. Η υφή απορροφάται γρήγορα, χαρίζοντας αίσθηση ανανέωσης και άνεση που διαρκεί.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA, ALCOHOL DENAT., GLYCERIN, PARAFFINUM LIQUIDUM, CETEARYL ALCOHOL, BUTYROSPERMUM PARKII BUTTER, CAPRYLYL GLYCOL, CARBOMER, DIMETHICONE, EPILOBIUM ANGUSTIFOLIUM EXTRACT, GLYCERYL STEARATE, PALMITIC ACID, PEG-100 STEARATE, PHENOXYETHANOL, SODIUM HYALURONATE, SODIUM HYDROXIDE, STEARIC ACID, XANTHAN GUM, ZINC GLUCONATE, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencsaftersun0023337871322724front-728x820.png?rev=2fa75f6e7d5345f4a631e891f8bcb67e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencsaftersun0023337871322724front-728x820.png?rev=2fa75f6e7d5345f4a631e891f8bcb67e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencsaftersun0023337871322724front-728x820.png?rev=2fa75f6e7d5345f4a631e891f8bcb67e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/vichy-sunscreen-csaftersun-003-3337871322724-back.jpg?rev=f55651263ec340cc8d54aafaf3a59513"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/after-sun/capital-soleil-after-sun-galaktwma-gia-meta-ton-hlio",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871330262": {
+    "name": "Dercos Αντιπιτυριδικό Σαμπουάν για Ξηρά Μαλλιά",
+    "subtitle": "Βοηθά στη διατήρηση της ισορροπίας του μικροβιώματος & αντιμετωπίζει την πιτυρίδα.",
+    "description": "Σαμπουάν που καταπολεμά την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα ξηρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή τους για 6 εβδομάδες, για μακράς διάρκειας έλεγχο της πιτυρίδας και αίσθηση άνεσης.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Σαμπουάν που καταπολεμά την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα ξηρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή τους για 6 εβδομάδες, για μακράς διάρκειας έλεγχο της πιτυρίδας και αίσθηση άνεσης.",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΒοηθά στην καταπολέμηση της πιτυρίδας & της σμηγματορροϊκής δερματίτιδας.\nMicrobiome\nΑντιμετωπίζει την πιτυρίδα στον πυρήνα.\nINCI: AQUA / WATER, SODIUM LAURETH SULFATE, GLYCOL DISTEARATE, DIMETHICONE, COCO-BETAINE, GLYCERIN, SELENIUM SULFIDE, CARBOMER, CI 47005 / ACID YELLOW 3, CITRIC ACID, MENTHOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, PPG-5-CETETH-20, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, TOCOPHERYL ACETATE, PARFUM / FRAGRANC",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΕφαρμόστε το σαμπουάν σε βρεγμένο τριχωτό και μαλλιά.\nΜΑΣΑΖ\nΑφήστε το προϊόν να δράσει για 2 λεπτά, κάντε μασάζ και έπειτα ξεβγάλτε."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262packshotfront-gr-716x716.jpg?rev=de8b2cb53d0f454fb7c55a71a1ffee56",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262packshotfront-gr-716x716.jpg?rev=de8b2cb53d0f454fb7c55a71a1ffee56",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262packshotfront-gr-716x716.jpg?rev=de8b2cb53d0f454fb7c55a71a1ffee56",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262texture--gr-716x716.jpg?rev=716a97526afa4a48a33e140cb0acfbe6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262howtouse-gr-716x716.jpg?rev=6a7803ed2b6a4a3593d77f8826bc1a47",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/revamp-dercos-antipituridiko-sampouan-gia-xhra-mallia/vichyproductdercosantidandruffdryhairshampoo200mlatf3337871330262proendorsement--gr-726x716.jpg?rev=9f846a527069428ba8a089d926ef3df5"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-antipituridiko-sampouan-gia-xhra-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871331290": {
+    "name": "Dercos Αντιπιτυριδικό Σαμπουάν για Κανονικά & Λιπαρά Μαλλιά",
+    "subtitle": "Βοηθά στη διατήρηση της ισορροπίας του μικροβιώματος & απομακρύνει την πιτυρίδα.",
+    "description": "Το σαμπουάν Dercos Anti-dandruff DS για λιπαρά μαλλιά συνιστάται από τους δερματολόγους για την καταπολέμηση της πιτυρίδας και του κνησμού. Εξαλείφει το 100% της ορατής πιτυρίδας ενώ παράλληλα χάρη στην τεχνολογία μικροβιώματος, προσφέρει 6 εβδομάδες δράση κατά της επανεμφάνισης της πιτυρίδας. Σύνθεση με Σαλικυλικό οξύ & Selenium DS. Για άνδρες και γυναίκες με συμπτώματα πιτυρίδας ή/ και κνησμού. Για λιπαρά μαλλιά. Συνδυάζει την δερματολογικά αποδεδειγμένη αποτελεσματικότητά με την καλλυντική ευχαρίστηση, αφού έχει μοναδικό άρωμα και εξαιρετικά κρεμώδη και πλούσιο αφρό και είναι κατάλληλο για καθημερινή χρήση.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Dercos Anti-dandruff DS για λιπαρά μαλλιά συνιστάται από τους δερματολόγους για την καταπολέμηση της πιτυρίδας και του κνησμού. Εξαλείφει το 100% της ορατής πιτυρίδας ενώ παράλληλα χάρη στην τεχνολογία μικροβιώματος, προσφέρει 6 εβδομάδες δράση κατά της επανεμφάνισης της πιτυρίδας. Σύνθεση με Σαλικυλικό οξύ & Selenium DS. Για άνδρες και γυναίκες με συμπτώματα πιτυρίδας ή/ και κνησμού. Για λιπαρά μαλλιά. Συνδυάζει την δερματολογικά αποδεδειγμένη αποτελεσματικότητά με την καλλυντική ευχαρίστηση, αφού έχει μοναδικό άρωμα και εξαιρετικά κρεμώδη και πλούσιο αφρό και είναι κατάλληλο για καθημερινή χρήση.",
+      "Συστατικά": "ΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΒοηθά στην καταπολέμηση της πιτυρίδας & της σμηγματορροϊκής δερματίτιδας.\nΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, SODIUM LAURETH SULFATE, GLYCOL DISTEARATE, COCO-BETAINE, GLYCERIN, DIMETHICONE, CARBOMER, CI 19140 / YELLOW 5, CITRIC ACID, MENTHOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, PARFUM / FRAGRANCE, PPG-5-CETETH-20, SALICYLIC ACID, SELENIUM SULFIDE, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, TOCOPHERYL ACETATE",
+      "Χρήση": "ΤΕΧΝΟΛΟΓΙΑ ΜΙΚΡΟΒΙΩΜΑΤΟΣ + SELENIUM DS***\nΥΨΗΛΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑ αποδεδειγμένη σε άτομα που εκτίθενται σε στρες, κόπωση, και στο αστικό περιβάλλον.\nΝΕΑ ΕΠΙΣΤΗΜΟΝΙΚΗ ΠΡΟΣΕΓΓΙΣΗ\nΓια πρώτη φορά, η Vichy διαπιστώνει ότι η πιτυρίδα συνοδεύεται από γενικευμένη ανισορροπία στο μικροβίωμα του τριχωτού (οι μικροοργανισμοί που υπάρχουν φυσικά στην επιδερμίδα).\nΚΑΙΝΟΤΟΜΙΑ Selenium DS Τεχνολογία που συμβάλλει στην προστασία του μικροβιώματος.\nΑποτελέσματα: Μειώνει τις ορατές νιφάδες από την 1η εφαρμογή. Καταπραΰνει το τριχωτό ανακουφίζοντας από τον κνησμό. Αποτρέπει την επανεμφάνιση της πιτυρίδας μέχρι και για 6 εβδομάδες.\nΧρήση: Ανακινήστε πριν από τη χρήση. Εφαρμόστε το προϊόν σε βρεγμένα μαλλιά, κάντε μασάζ, αφήστε να δράσει για 2 λεπτά, και έπειτα ξεβγάλτε. Πρωτόκολλο 4 εβδομάδων. Περιέχει Selenium Disulfide (Δισουλφίδιο Σεληνίου). Αποφύγετε την επαφή με τα μάτια και με τραυματισμένο δέρμα. Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό. \"\nΔερματολογικά ελεγμένo:\n* Μελέτη χρήσης, 250 καταναλωτές, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία.\n** Κλινική μελέτη, 32 άτομα, μετά από 4 εβδομάδες χρήσης.\n*** Selenium Disulfide (Δισουλφίδιο Σεληνίου)."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_shampoo_anti-dandruff_400ml_oily.jpg?rev=ea104da55a7841f0932a303a7c081a1f",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_shampoo_anti-dandruff_400ml_oily.jpg?rev=ea104da55a7841f0932a303a7c081a1f",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_shampoo_anti-dandruff_400ml_oily.jpg?rev=ea104da55a7841f0932a303a7c081a1f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-ds-normal-to-oily-hair/anti-dandruff-normal-oily-hair-pack2.jpg?rev=62c5595115e04d1c8889860a0518a73d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-ds-normal-to-oily-hair/anti-dandruff-normal-oily-hair-pack3.jpg?rev=f7c8c4102b7044499de9fffba83ecdc0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-ds-normal-to-oily-hair/anti-dandruff-normal-oily-hair-pack4.jpg?rev=d57562a7a4ee45e89c8181b4077a5681"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-antipituridiko-sampouan-gia-kanonika-lipara-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875902380": {
+    "name": "Dercos Anti-dandruff DS 2σε1 Conditioning Σαμπουάν για Πιτυρίδα",
+    "subtitle": "ΕΞΑΛΕΙΦΕΙ ΤΗΝ ΠΙΤΥΡΙΔΑ ΑΠΟ ΤΗΝ 1Η ΧΡΗΣΗ & ΕΠΑΝΕΞΙΣΟΡΡΟΠΕΙ ΤΟ ΜΙΚΡΟΒΙΩΜΑ ΤΟΥ ΤΡΙΧΩΤΟΥ.",
+    "description": "Το 2in1 Conditioning Shampoo εξαλείφει το 100% της ορατής πιτυρίδας από την 1η χρήση*, ενώ η σύνθεσή του είναι εμπλουτισμένη με Υαλουρονικό Οξύ για 72 ώρες ενυδάτωσης. Εξασφαλίζει 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας* και επανεξισορροπεί το μικροβίωμα του τριχωτού.*** * Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες.",
+    "claims": [
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ",
+      "ΑΣΦΑΛΕΣ ΓΙΑ ΒΑΜΜΕΝΑ ΜΑΛΛΙΑ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 390ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ · ΑΣΦΑΛΕΣ ΓΙΑ ΒΑΜΜΕΝΑ ΜΑΛΛΙΑ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το 2in1 Conditioning Shampoo εξαλείφει το 100% της ορατής πιτυρίδας από την 1η χρήση*, ενώ η σύνθεσή του είναι εμπλουτισμένη με Υαλουρονικό Οξύ για 72 ώρες ενυδάτωσης. Εξασφαλίζει 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας* και επανεξισορροπεί το μικροβίωμα του τριχωτού.***\n* Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες.",
+      "Οφέλη": "Όλη η αποτελεσματικότητα του DERCOS Anti-Dandruff DS, τώρα σε σύνθεση με συστατικά περιποίησης.\n- Εξάλειψη του 100% της ορατής πιτυρίδας από την 1η χρήση*.\n- 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας**.\n- 72 ώρες ενυδάτωσης***, πιο απαλά & πιο λαμπερά μαλλιά.\n* Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Οργανομετρική δοκιμή.",
+      "Υφή": "Πορτοκαλί, κρεμώδης, βελούδινη υφή που απλώνεται εύκολα διευκολύνοντας το ξεμπέρδεμα των μαλλιών.\nΣτο 95% των συμμετεχόντων άρεσε η υφή*.\n* Μελέτη παρατήρησης, 1.619 άτομα (ανατολική Ευρώπη).",
+      "Συστατικά": "ΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΓια καταπολέμηση της πιτυρίδας.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΓια βαθιά ενυδάτωση της τρίχας.\nINCI: AQUA / WATER / EAU, SODIUM LAURETH SULFATE, DIMETHICONE, GLYCOL DISTEARATE, COCO-BETAINE, GLYCERIN, PPG-5-CETETH-20, SELENIUM SULFIDE, CARBOMER, CI 47005 / ACID YELLOW 3, CITRIC ACID, MENTHOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYALURONATE, SODIUM HYDROXIDE, TOCOPHERYL ACETATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Ανακινήστε πριν από τη χρήση. Εφαρμόστε σε βρεγμένα μαλλιά, κάντε μασάζ, αφήστε να δράσει για 2 λεπτά και έπειτα ξεβγάλτε.\nΝα χρησιμοποιείται ως αγωγή, 3 φορές την εβδομάδα για 4 εβδομάδες.\nΚαθώς η σύνθεση περιέχει Δισουλφίδιο Σεληνίου, αποφύγετε την επαφή με τα μάτια και τη χρήση σε ερεθισμένη / τραυματισμένη επιδερμίδα.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε καλά με άφθονο νερό.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-2.jpg?rev=c19939c448e24ecba7eb94ea17571058",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-3.jpg?rev=c808552aedf44a60b3af64178270bbc6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-4.jpg?rev=3a273080f9354125889a2d40ca35b945",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-5.jpg?rev=34c828070c214943b07d38207d7434bc"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-anti-dandruff-ds-2se1-conditioning-sampouan-gia-piturida",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875902373": {
+    "name": "Dercos Anti-dandruff DS 2σε1 Conditioning Σαμπουάν για Πιτυρίδα",
+    "subtitle": "ΕΞΑΛΕΙΦΕΙ ΤΗΝ ΠΙΤΥΡΙΔΑ ΑΠΟ ΤΗΝ 1Η ΧΡΗΣΗ & ΕΠΑΝΕΞΙΣΟΡΡΟΠΕΙ ΤΟ ΜΙΚΡΟΒΙΩΜΑ ΤΟΥ ΤΡΙΧΩΤΟΥ.",
+    "description": "Το 2in1 Conditioning Shampoo εξαλείφει το 100% της ορατής πιτυρίδας από την 1η χρήση*, ενώ η σύνθεσή του είναι εμπλουτισμένη με Υαλουρονικό Οξύ για 72 ώρες ενυδάτωσης. Εξασφαλίζει 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας* και επανεξισορροπεί το μικροβίωμα του τριχωτού.*** * Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες.",
+    "claims": [
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ",
+      "ΑΣΦΑΛΕΣ ΓΙΑ ΒΑΜΜΕΝΑ ΜΑΛΛΙΑ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml, 390ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΟ ΤΡΙΧΩΤΟ · ΑΣΦΑΛΕΣ ΓΙΑ ΒΑΜΜΕΝΑ ΜΑΛΛΙΑ",
+      "Συσκευασία": "390ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το 2in1 Conditioning Shampoo εξαλείφει το 100% της ορατής πιτυρίδας από την 1η χρήση*, ενώ η σύνθεσή του είναι εμπλουτισμένη με Υαλουρονικό Οξύ για 72 ώρες ενυδάτωσης. Εξασφαλίζει 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας* και επανεξισορροπεί το μικροβίωμα του τριχωτού.***\n* Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες.",
+      "Οφέλη": "Όλη η αποτελεσματικότητα του DERCOS Anti-Dandruff DS, τώρα σε σύνθεση με συστατικά περιποίησης.\n- Εξάλειψη του 100% της ορατής πιτυρίδας από την 1η χρήση*.\n- 6 εβδομάδες δράσης ενάντια στην επανεμφάνιση της πιτυρίδας**.\n- 72 ώρες ενυδάτωσης***, πιο απαλά & πιο λαμπερά μαλλιά.\n* Δοκιμή χρήσης, 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 45 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μη χρήσης. *** Οργανομετρική δοκιμή.",
+      "Υφή": "Πορτοκαλί, κρεμώδης, βελούδινη υφή που απλώνεται εύκολα διευκολύνοντας το ξεμπέρδεμα των μαλλιών.\nΣτο 95% των συμμετεχόντων άρεσε η υφή*.\n* Μελέτη παρατήρησης, 1.619 άτομα (ανατολική Ευρώπη).",
+      "Συστατικά": "ΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΓια καταπολέμηση της πιτυρίδας.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΓια βαθιά ενυδάτωση της τρίχας.\nINCI: AQUA / WATER / EAU, SODIUM LAURETH SULFATE, DIMETHICONE, GLYCOL DISTEARATE, COCO-BETAINE, GLYCERIN, PPG-5-CETETH-20, SELENIUM SULFIDE, CARBOMER, CI 47005 / ACID YELLOW 3, CITRIC ACID, MENTHOL, 2-OLEAMIDO-1,3-OCTADECANEDIOL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYALURONATE, SODIUM HYDROXIDE, TOCOPHERYL ACETATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Ανακινήστε πριν από τη χρήση. Εφαρμόστε σε βρεγμένα μαλλιά, κάντε μασάζ, αφήστε να δράσει για 2 λεπτά και έπειτα ξεβγάλτε.\nΝα χρησιμοποιείται ως αγωγή, 3 φορές την εβδομάδα για 4 εβδομάδες.\nΚαθώς η σύνθεση περιέχει Δισουλφίδιο Σεληνίου, αποφύγετε την επαφή με τα μάτια και τη χρήση σε ερεθισμένη / τραυματισμένη επιδερμίδα.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε καλά με άφθονο νερό.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-1.png?rev=5144451e71ef477d83b33197f4226056",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-2.jpg?rev=c19939c448e24ecba7eb94ea17571058",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-3.jpg?rev=c808552aedf44a60b3af64178270bbc6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902380-mosaic-4.jpg?rev=3a273080f9354125889a2d40ca35b945",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-2-in-1-conditioning-shampoo/vichy-dercos-anti-dandruff-ds-2in1-conditioning-shampoo-3337875902373-mosaic-5.jpg?rev=34c828070c214943b07d38207d7434bc"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-anti-dandruff-ds-2se1-conditioning-sampouan-gia-piturida",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875736459": {
+    "name": "Dercos Anti dandruff K Σαμπουάν κατά της Πιτυρίδας",
+    "subtitle": "Σαμπουάν για λιπαρά μαλλιά, με κλινικά αποδεδειγμένη αποτελεσματικότητα",
+    "description": "Εμπλουτισμός της περιγραφής: To Dercos Anti-Dandruff K είναι ένα σαμπουάν καθημερινής χρήσης κατά τις επίμονης πιτυρίδας και της λιπαρότητας. Χάρη στην απαλή απολεπιστική του σύνθεση, με 1,3% σαλικυλικό οξύ και 1% ολαμινική πιροκτόνη, το Dercos Anti-Dandruff K αφαιρεί την πιτυρίδα, την λιπαρότητα και τα κατάλοιπα, ακόμη και τα επίμονα. Είναι υποαλλεργικό και ελεγμένο σε ευαίσθητο τριχωτό.. Η σύνθεση του με pH 5,5 (το φυσικό pH του τριχωτού της κεφαλής), συμβάλλει στην εξισορρόπηση του μικροβιώματος στο τριχωτό.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "250ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Περιγραφή": "Εμπλουτισμός της περιγραφής: To Dercos Anti-Dandruff K είναι ένα σαμπουάν καθημερινής χρήσης κατά τις επίμονης πιτυρίδας και της λιπαρότητας. Χάρη στην απαλή απολεπιστική του σύνθεση, με 1,3% σαλικυλικό οξύ και 1% ολαμινική πιροκτόνη, το Dercos Anti-Dandruff K αφαιρεί την πιτυρίδα, την λιπαρότητα και τα κατάλοιπα, ακόμη και τα επίμονα. Είναι υποαλλεργικό και ελεγμένο σε ευαίσθητο τριχωτό.. Η σύνθεση του με pH 5,5 (το φυσικό pH του τριχωτού της κεφαλής), συμβάλλει στην εξισορρόπηση του μικροβιώματος στο τριχωτό.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, SODIUM LAURETH SULFATE, COCAMIDE MEA, GLYCERIN, COCO-BETAINE, LAURETH-5 CARBOXYLIC ACID, ACRYLATES COPOLYMER, SALICYLIC ACID, COCAMIDE MIPA, PIROCTONE OLAMINE, CAPRYLOYL SALICYLIC ACID, CARAMEL, CI 42090 / BLUE 1, CITRIC ACID, HEXYLENE GLYCOL, ISOPROPYL MYRISTATE, MENTHOL, NIACINAMIDE, PEG-55 PROPYLENE GLYCOL OLEATE, POLYQUATERNIUM-10, PROPYLENE GLYCOL, PRUNUS ARMENIACA SEED POWDER / APRICOT SEED POWDER, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875736459_1.jpg?rev=f91341040ccb41de93714037482195f7",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875736459_1.jpg?rev=f91341040ccb41de93714037482195f7",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875736459_1.jpg?rev=f91341040ccb41de93714037482195f7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---anti-dandruff-k/anti-dandruff-k-pack3.jpeg?rev=663e80f4dad54b2ea0197936ae7586cf",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---anti-dandruff-k/anti-dandruff-k-pack4.jpeg?rev=0e7c1a397f9044688e09a1e2c311fbd6"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-anti-dandruff-k-sampouan-kata-ths-pituridas",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871323394": {
+    "name": "Dercos Σαμπουάν για Πιτυρίδα & Ξηροδερμία",
+    "subtitle": "Εξαλείφει την πιτυρίδα και καταπραΰνει το τριχωτό της κεφαλής.",
+    "description": "Το σαμπουάν Dercos Anti-Dandruff Sensitive έχει τριπλή αποτελεσματικότητα ενάντια στην ξηροδερμία, την πιτυρίδα και τον κνησμό, ενώ παράλληλα χαρίζει απαλά και μεταξένια μαλλιά, και αίσθηση φρεσκάδας. Για άνδρες και γυναίκες με πιτυρίδα, ξηροδερμία και ευαίσθητο τριχωτό της κεφαλής. Με σύνθεση χωρίς θειικά άλατα που χαρίζει απαλά και μεταξένια μαλλιά ενώ σέβεται το τριχωτό της κεφαλής. Απομακρύνει τη πιτυρίδα και ανακουφίζει το τριχωτό της κεφαλής από την ξηροδερμία και τον κνησμό. Με πολύ υψηλή αποτελεσματικότητα καθώς καταπολεμά την επίμονη πιτυρίδα από την 1η εφαρμογή.",
+    "claims": [
+      "Χωρίς Χρωστικές"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "Χωρίς Χρωστικές",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Dercos Anti-Dandruff Sensitive έχει τριπλή αποτελεσματικότητα ενάντια στην ξηροδερμία, την πιτυρίδα και τον κνησμό, ενώ παράλληλα χαρίζει απαλά και μεταξένια μαλλιά, και αίσθηση φρεσκάδας. Για άνδρες και γυναίκες με πιτυρίδα, ξηροδερμία και ευαίσθητο τριχωτό της κεφαλής. Με σύνθεση χωρίς θειικά άλατα που χαρίζει απαλά και μεταξένια μαλλιά ενώ σέβεται το τριχωτό της κεφαλής. Απομακρύνει τη πιτυρίδα και ανακουφίζει το τριχωτό της κεφαλής από την ξηροδερμία και τον κνησμό. Με πολύ υψηλή αποτελεσματικότητα καθώς καταπολεμά την επίμονη πιτυρίδα από την 1η εφαρμογή.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, SODIUM METHYL COCOYL TAURATE, LAURETH-5 CARBOXYLIC ACID, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, BISABOLOL, FARNESOL, HEXYLENE GLYCOL, LACTIC ACID, PEG-150 DISTEARATE, PEG-55 PROPYLENE GLYCOL OLEATE, PIROCTONE OLAMINE, POLYQUATERNIUM-10, PROPYLENE GLYCOL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM HYDROXIDE, SODIUM LAUROYL GLUTAMATE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_061_vichy_dercos_anti-dandruff---sensitive-scalp-shampoo.jpg?rev=3051c8396b974f7abc6521d897525a0b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_061_vichy_dercos_anti-dandruff---sensitive-scalp-shampoo.jpg?rev=3051c8396b974f7abc6521d897525a0b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_061_vichy_dercos_anti-dandruff---sensitive-scalp-shampoo.jpg?rev=3051c8396b974f7abc6521d897525a0b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-shampoo---sensitive-scalp/anti-dandruff-shampoo-sensitive-scalp-pack2.jpeg?rev=88496bbe5dd743aa84d4ac0a6bebd580",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-shampoo---sensitive-scalp/anti-dandruff-shampoo-sensitive-scalp-pack3.jpeg?rev=45e169c469e841ceb0277a5d00623c76",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-shampoo---sensitive-scalp/anti-dandruff-shampoo-sensitive-scalp-pack4.jpeg?rev=49c4adfd0bae4a0bbff99770d3a52077",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---anti-dandruff-shampoo---sensitive-scalp/anti-dandruff-shampoo-sensitive-scalp-pack5.jpeg?rev=5bc97386b8e8414bb9dd875304872e35"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-sampouan-gia-piturida-xhrodermia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875787192": {
+    "name": "Dercos Refill Αντιπιτυριδικό Σαμπουάν για Κανονικά & Λιπαρά Μαλλιά",
+    "subtitle": "Για την καταπολέμηση της πιτυρίδας και του κνησμού.",
+    "description": "Σαμπουάν που αντιμετωπίζει την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα κανονικά έως λιπαρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή της πιτυρίσας για 6 εβδομάδες, για μακράς διάρκειας έλεγχο και αίσθηση άνεσης*. * Κλινική μελέτη σε 32 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μετά την αγωγή ** Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ",
+      "Χωρίς Χρωστικές",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "390ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "Χωρίς αλκοόλ · ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ · Χωρίς Χρωστικές · Υποαλλεργικό",
+      "Συσκευασία": "390ml"
+    },
+    "sections": {
+      "Περιγραφή": "Σαμπουάν που αντιμετωπίζει την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα κανονικά έως λιπαρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή της πιτυρίσας για 6 εβδομάδες, για μακράς διάρκειας έλεγχο και αίσθηση άνεσης*.\n* Κλινική μελέτη σε 32 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μετά την αγωγή ** Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+      "Οφέλη": "• Αντιμετωπίζει ολιστικά τα συμπτώματα της πιτυρίδας\n• Απομακρύνει το 100% των ορατών νιφάδων*.\n• Δρά 6 εβδομάδες κατά της επανεμφάνισης της πιτυρίδας**.\n• Εξισορροπει το μικροβίωμα του τριχωτού σε 4 εβδομάδες***.\n• Καταπραΰνει το τριχωτό ανακουφίζοντας από τον κνησμό και την αίσθηση δυσφορίας.\n* Δοκιμή σε 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 32 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μετά το τέλος της αγωγής. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες",
+      "Υφή": "• Πορτοκαλί κρεμώδης υφή με Δισουλφίδικό Σελήνιο\n• 95% των ασθενών βρίσκουν την υφή ευχάριστη*.\n• 88% των ασθενών βρίσκουν το άρωμα ευχάριστο*.\n* Μελέτη παρατήρησης σε 1.619 άτομα (ανατολική Ευρώπη).",
+      "Συστατικά": "ΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΒοηθά στην καταπολέμηση της πιτυρίδας & της σμηγματορροϊκής δερματίτιδας.\nΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER - SODIUM LAURETH SULFATE - GLYCOL DISTEARATE - DIMETHICONE - COCO-BETAINE - GLYCERIN - CARBOMER - CI 19140 / YELLOW 5 - CITRIC ACID - MENTHOL - 2-OLEAMIDO-1,3-OCTADECANEDIOL - PPG-5-CETETH-20 - SALICYLIC ACID - SELENIUM SULFIDE - SODIUM BENZOATE - SODIUM CHLORIDE - SODIUM HYDROXIDE - TOCOPHERYL ACETATE - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/anti-dandruff-ds-shampoo-refill---normal-to-oily-hair/3337875902830_1.jpg?rev=5d87a29e14c14490b9987eff4d4932e2",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/anti-dandruff-ds-shampoo-refill---normal-to-oily-hair/3337875902830_1.jpg?rev=5d87a29e14c14490b9987eff4d4932e2",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/anti-dandruff-ds-shampoo-refill---normal-to-oily-hair/3337875902830_1.jpg?rev=5d87a29e14c14490b9987eff4d4932e2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-shampoo-refill-normal-to-oily-hair/new/viaa721.jpg?rev=746c4f5082c94e02b30164c19fa21af8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-anti-dandruff-ds-shampoo-refill-normal-to-oily-hair/new/vichyproductskincaredercosantidandruffantidandruffrefill333787133129003337875902830atftexture-gr-120.jpg?rev=0bbd011e5ec149e7afd98780770fcd63"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-refill-antipituridiko-sampouan-gia-kanonika-lipara-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875787208": {
+    "name": "Dercos Refill Αντιπιτυριδικό Σαμπουάν για Ξηρά Μαλλιά",
+    "subtitle": "ΕΞΑΛΕΙΦΕΙ ΤΟ 100% ΤΗΣ ΟΡΑΤΗΣ ΠΙΤΥΡΙΔΑΣ ΚΑΙ ΠΡΟΛΑΜΒΑΝΕΙ ΤΗΝ ΕΠΑΝΕΜΦΑΝΙΣΗ ΤΗΣ ΓΙΑ 6 ΕΒΔΟΜΑΔΕΣ.",
+    "description": "Σαμπουάν που αντιμετωπίζει την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα ξηρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή της πιτυρίδας για 6 εβδομάδες, για μακράς διάρκειας έλεγχο και αίσθηση άνεσης.* * Κλινική μελέτη, 32 άτομα, 4 εβδομάδες χρήσης και 6 εβδομάδες μετά το τέλος της αγωγής. ** Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+    "claims": [
+      "Χωρίς αλκοόλ",
+      "ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ",
+      "Χωρίς Χρωστικές",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "390ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Πιτυρίδα",
+      "Δερματολογικά": "Χωρίς αλκοόλ · ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ · Χωρίς Χρωστικές · Υποαλλεργικό",
+      "Συσκευασία": "390ml"
+    },
+    "sections": {
+      "Περιγραφή": "Σαμπουάν που αντιμετωπίζει την πιτυρίδα, ενώ ταυτόχρονα περιποιείται τα ξηρά μαλλιά. Απομακρύνει τις ορατές νιφάδες από την πρώτη χρήση και δρα ενάντια στην επανεμφάνισή της πιτυρίδας για 6 εβδομάδες, για μακράς διάρκειας έλεγχο και αίσθηση άνεσης.*\n* Κλινική μελέτη, 32 άτομα, 4 εβδομάδες χρήσης και 6 εβδομάδες μετά το τέλος της αγωγής. ** Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+      "Οφέλη": "• Αντιμετωπίζει ολιστικά τα συμπτώματα της πιτυρίδας\n• Απομακρύνει το 100% των ορατών νιφάδων*.\n• Δρά 6 εβδομάδες κατά της επανεμφάνισης της πιτυρίδας**.\n• Εξισορροπει το μικροβίωμα του τριχωτού σε 4 εβδομάδες***.\n• Καταπραΰνει το τριχωτό ανακουφίζοντας από τον κνησμό και την αίσθηση δυσφορίας.\n* Δοκιμή σε 262 άτομα, μετά από 2 εβδομάδες συστηματικής χρήσης – Ιταλία. ** Κλινική μελέτη σε 32 άτομα, μετά από 4 εβδομάδες χρήσης και 6 εβδομάδες μετά το τέλος της αγωγής. *** Κλινική μελέτη με παρακολούθηση των κύριων μικροοργανισμών που εμπλέκονται στην πιτυρίδα – 56 άτομα, 3 εφαρμογές την εβδομάδα για 4 εβδομάδες.",
+      "Υφή": "• Πορτοκαλί κρεμώδης υφή με Δισουλφίδικό Σελήνιο\n• 95% των ασθενών βρίσκουν την υφή ευχάριστη*.\n• 88% των ασθενών βρίσκουν το άρωμα ευχάριστο*.\n* Μελέτη παρατήρησης σε 1.619 άτομα (ανατολική Ευρώπη).",
+      "Συστατικά": "ΔΙΣΟΥΛΦΙΔΙΟ ΣΕΛΗΝΙΟΥ\nΒοηθά στην καταπολέμηση της πιτυρίδας & της σμηγματορροϊκής δερματίτιδας.\nΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER - SODIUM LAURETH SULFATE - GLYCOL DISTEARATE - DIMETHICONE - COCO-BETAINE - GLYCERIN - CARBOMER - CI 19140 / YELLOW 5 - CITRIC ACID - MENTHOL - 2-OLEAMIDO-1,3-OCTADECANEDIOL - PPG-5-CETETH-20 - SALICYLIC ACID - SELENIUM SULFIDE - SODIUM BENZOATE - SODIUM CHLORIDE - SODIUM HYDROXIDE - TOCOPHERYL ACETATE - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875902847_1.jpg?rev=197132a673574b11a52bd28ed76549a4",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875902847_1.jpg?rev=197132a673574b11a52bd28ed76549a4",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875902847_1.jpg?rev=197132a673574b11a52bd28ed76549a4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-refill-antipituridiko-sampouan-gia-kshra-mallia/vichyproducthaircaredercosantidandruffdryhairshampoorefill390ml03337875902847other-gr-1200x1200.jpg?rev=3a2d98e7796040fdb3023e7c7559f8af",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-refill-antipituridiko-sampouan-gia-kshra-mallia/vichyproducthaircaredercosantidandruffdryhairshampoorefill390ml03337875902847safetyawardsseals-gr-12.jpg?rev=559cd5793f75487d89d21252195479ff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-refill-antipituridiko-sampouan-gia-kshra-mallia/vichyproducthaircaredercosantidandruffdryhairshampoorefill390ml03337875902847texture-gr-1200x1200.jpg?rev=7ae3fd2be3b543aa8d7998a89c1f2a17"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/piturida/dercos-refill-antipituridiko-sampouan-gia-kshra-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875574358": {
+    "name": "Dercos Densi-Solutions Σαμπουάν για Πύκνωση Μαλλιών",
+    "subtitle": "Αυξάνει την πυκνότητα των μαλλιών σας",
+    "description": "Το σαμπουάν Dercos Densi-solutions αυξάνει τη πυκνότητα των μαλλιών. Δρα στο τριχωτό για να απομακρύνει τους ρύπους και να διεγείρει τις ρίζες των μαλλιών. Με κάθε λούσιμο, δυναμώνει και πυκνώνει τις ίνες των τριχών, για να χαρίσει στα μαλλιά υγιή όψη. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "250ml, 400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Τριχόπτωση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Dercos Densi-solutions αυξάνει τη πυκνότητα των μαλλιών. Δρα στο τριχωτό για να απομακρύνει τους ρύπους και να διεγείρει τις ρίζες των μαλλιών. Με κάθε λούσιμο, δυναμώνει και πυκνώνει τις ίνες των τριχών, για να χαρίσει στα μαλλιά υγιή όψη. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM LAURYL SULFATE, LAURETH-5 CARBOXYLIC ACID, C11-15 PARETH-7, RHAMNOSE, LACTIC ACID, TOCOPHERYL ACETATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PHENOXYETHANOL, PPG-5-CETETH-20, PEG-60 HYDROGENATED CASTOR OIL, PEG-55 PROPYLENE GLYCOL OLEATE, AMINOPROPYL TRIETHOXYSILANE, TRIDECETH-12, CHLORPHENESIN, POLYQUATERNIUM-67, SALICYLIC ACID, LIMONENE, MENTHOL, MENTHA PIPERITA OIL, LINALOOL, PROPYLENE GLYCOL, AMODIMETHICONE, ISOEUGENOL, PIROCTONE OLAMINE, GERANIOL, CARAMEL, SORBIC ACID, DISODIUM EDTA, CITRIC ACID, LAURETH-9, HEXYL CINNAMAL, GLYCERIN, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_densi_solutions_thickening_shampoo_250ml.jpg?rev=7e0def881a9a45bf9c74218dc0db61d1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_densi_solutions_thickening_shampoo_250ml.jpg?rev=7e0def881a9a45bf9c74218dc0db61d1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_densi_solutions_thickening_shampoo_250ml.jpg?rev=7e0def881a9a45bf9c74218dc0db61d1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack2.jpeg?rev=06bd38af2b774eaa9274c53172bc48ff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack3.jpeg?rev=734e0576af124f72a171bc62724eab7c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack4.jpeg?rev=4147df95b0fc4094b6c7942893d22c83",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack5.jpeg?rev=4d197afbf62f4bd0a0377bf6d674fad9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/3337875700528_dercos_thickening_shampoo_variant2.png?rev=a33315c7b9df4ab18c7d3017435e463c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/trixoptwsh/dercos-densi-solutions-sampouan-gia-puknwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875700528": {
+    "name": "Dercos Densi-Solutions Σαμπουάν για Πύκνωση Μαλλιών",
+    "subtitle": "Αυξάνει την πυκνότητα των μαλλιών σας",
+    "description": "Το σαμπουάν Dercos Densi-solutions αυξάνει τη πυκνότητα των μαλλιών. Δρα στο τριχωτό για να απομακρύνει τους ρύπους και να διεγείρει τις ρίζες των μαλλιών. Με κάθε λούσιμο, δυναμώνει και πυκνώνει τις ίνες των τριχών, για να χαρίσει στα μαλλιά υγιή όψη. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "250ml, 400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Τριχόπτωση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το σαμπουάν Dercos Densi-solutions αυξάνει τη πυκνότητα των μαλλιών. Δρα στο τριχωτό για να απομακρύνει τους ρύπους και να διεγείρει τις ρίζες των μαλλιών. Με κάθε λούσιμο, δυναμώνει και πυκνώνει τις ίνες των τριχών, για να χαρίσει στα μαλλιά υγιή όψη. Για γυναίκες με λεπτά και αδύναμα μαλλιά, που υποφέρουν από αραίωση μαλλιών, έλλειψη πυκνότητας μαλλιών και μείωση του όγκου των μαλλιών και θέλουν πιο δυνατά, πιο πυκνά μαλλιά.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM LAURYL SULFATE, LAURETH-5 CARBOXYLIC ACID, C11-15 PARETH-7, RHAMNOSE, LACTIC ACID, TOCOPHERYL ACETATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PHENOXYETHANOL, PPG-5-CETETH-20, PEG-60 HYDROGENATED CASTOR OIL, PEG-55 PROPYLENE GLYCOL OLEATE, AMINOPROPYL TRIETHOXYSILANE, TRIDECETH-12, CHLORPHENESIN, POLYQUATERNIUM-67, SALICYLIC ACID, LIMONENE, MENTHOL, MENTHA PIPERITA OIL, LINALOOL, PROPYLENE GLYCOL, AMODIMETHICONE, ISOEUGENOL, PIROCTONE OLAMINE, GERANIOL, CARAMEL, SORBIC ACID, DISODIUM EDTA, CITRIC ACID, LAURETH-9, HEXYL CINNAMAL, GLYCERIN, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/3337875700528_dercos_thickening_shampoo_variant2.png?rev=a33315c7b9df4ab18c7d3017435e463c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_densi_solutions_thickening_shampoo_250ml.jpg?rev=7e0def881a9a45bf9c74218dc0db61d1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_densi_solutions_thickening_shampoo_250ml.jpg?rev=7e0def881a9a45bf9c74218dc0db61d1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack2.jpeg?rev=06bd38af2b774eaa9274c53172bc48ff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack3.jpeg?rev=734e0576af124f72a171bc62724eab7c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack4.jpeg?rev=4147df95b0fc4094b6c7942893d22c83",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/densi-solutions-thinning-weak-hair-pack5.jpeg?rev=4d197afbf62f4bd0a0377bf6d674fad9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---densi-solutions---thickening-shampoo/3337875700528_dercos_thickening_shampoo_variant2.png?rev=a33315c7b9df4ab18c7d3017435e463c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/trixoptwsh/dercos-densi-solutions-sampouan-gia-puknwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322243": {
+    "name": "Dercos Energy+ Σαμπουάν για Τριχόπτωση",
+    "subtitle": "Μειώνει την τριχόπτωση ενδυναμώνοντας την τρίχα και το τριχωτό.",
+    "description": "Το Dercos Energy+ είναι ένα δυναμωτικό σαμπουάν, ιδανικό συμπλήρωμα των θεραπειών κατά της τριχόπτωσης. Για κάθε τύπο μαλλιών. Ισχυρή σύνθεση εμπλουτισμένη με Aminexil, μόριο αναφοράς ενάντια στην τριχόπτωση, Νιασιναμίδη, AHA & Βιταμίνη Ε για να συμβάλλει στην καταπολέμηση της τριχόπτωσης με υψηλή αποτελεσματικότητα: • Ενίσχυση των ινών της τρίχας +47% • Όγκος 24ωρης διάρκειας με +19% αύξηση της μάζας των μαλλιών • Εντατική αποτοξίνωση του τριχωτού από την ρίζα και πιο υγιής όψη Ενδυναμώνει τα μαλλιά και το τριχωτό. Αυτό το σαμπουάν είναι το ιδανικό συμπλήρωμα των προγραμμάτων με αμπούλες DERCOS AMINEXIL CLINICAL 5 για άνδρες & γυναίκες. Όταν χρησιμοποιείται συνδυαστικά με τα προγράμματα στο πλαίσιο ενός πρωτοκόλλου, εξασφαλίζει: • -29% στην τριχόπτωση • +48% όγκο • X3 πιο δυνατά μαλλιά. Έχει ευχάριστη υφή και άρωμα και αφήνει τα μαλλιά απαλά και ενυδατωμένα. Συνιστάται από Δερματολόγους. * *Οργανομετρική αξιολόγηση",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Τριχόπτωση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Dercos Energy+ είναι ένα δυναμωτικό σαμπουάν, ιδανικό συμπλήρωμα των θεραπειών κατά της τριχόπτωσης. Για κάθε τύπο μαλλιών. Ισχυρή σύνθεση εμπλουτισμένη με Aminexil, μόριο αναφοράς ενάντια στην τριχόπτωση, Νιασιναμίδη, AHA & Βιταμίνη Ε για να συμβάλλει στην καταπολέμηση της τριχόπτωσης με υψηλή αποτελεσματικότητα:\n• Ενίσχυση των ινών της τρίχας +47%\n• Όγκος 24ωρης διάρκειας με +19% αύξηση της μάζας των μαλλιών\n• Εντατική αποτοξίνωση του τριχωτού από την ρίζα και πιο υγιής όψη Ενδυναμώνει τα μαλλιά και το τριχωτό.\nΑυτό το σαμπουάν είναι το ιδανικό συμπλήρωμα των προγραμμάτων με αμπούλες DERCOS AMINEXIL CLINICAL 5 για άνδρες & γυναίκες. Όταν χρησιμοποιείται συνδυαστικά με τα προγράμματα στο πλαίσιο ενός πρωτοκόλλου, εξασφαλίζει:\n• -29% στην τριχόπτωση\n• +48% όγκο\n• X3 πιο δυνατά μαλλιά.\nΈχει ευχάριστη υφή και άρωμα και αφήνει τα μαλλιά απαλά και ενυδατωμένα.\nΣυνιστάται από Δερματολόγους.\n* *Οργανομετρική αξιολόγηση",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, SODIUM LAURETH SULFATE, CITRIC ACID, SODIUM COCOAMPHOACETATE, HEXYLENE GLYCOL, AMMONIUM HYDROXIDE, GLYCOL DISTEARATE, CARBOMER, COCO-BETAINE, DIAMINOPYRIMIDINE OXIDE, ISOPROPYL ALCOHOL, NIACINAMIDE, PANTHENOL, PEG-55 PROPYLENE GLYCOL OLEATE, POLYQUATERNIUM-10, PROPYLENE GLYCOL, PYRIDOXINE HCl, SALICYLIC ACID, SODIUM ACETATE, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_063_vichy_dercos_energising-shampoo.jpg?rev=89fcf4fb8bc7491891fb7b64ec7487b5",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_063_vichy_dercos_energising-shampoo.jpg?rev=89fcf4fb8bc7491891fb7b64ec7487b5",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_063_vichy_dercos_energising-shampoo.jpg?rev=89fcf4fb8bc7491891fb7b64ec7487b5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---energising-shampoo/vichyproductdercosenergising-shampoo200ml3337871311292howto-685x772.jpg?rev=fc6dad0334524838b4101313d5db24c0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---energising-shampoo/energising-shampoo-pack3.jpeg?rev=0902223097f14d618f7fe869a41eff24",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---energising-shampoo/energising-shampoo-pack4.jpeg?rev=ff5d3b6d7b5b4373af6180d0c6636d77",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---energising-shampoo/vichyproductdercosenergising-shampoo200ml3337871311292lifestyle1notext-685x772.jpg?rev=c0ecb635d7bb4d6b80ddcf598d4733c6"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/trixoptwsh/dercos-energy-sampouan-gia-trixoptwsh",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875828277": {
+    "name": "DERCOS ENERGY+ REFILL ΣΑΜΠΟΥΑΝ ΓΙΑ ΤΡΙΧΟΠΤΩΣΗ",
+    "subtitle": "ΣΥΜΠΛΗΡΩΝΕΙ ΤΙΣ ΘΕΡΑΠΕΙΕΣ ΚΑΤΑ ΤΗΣ ΤΡΙΧΟΠΤΩΣΗΣ",
+    "description": "Δυναμωτικό σαμπουάν για κάθε τύπο μαλλιών. Σύνθεση εμπλουτισμένη με Aminexil, το μόριο αναφοράς ενάντια στην τριχόπτωση. * Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο",
+      "Χωρίς Paraben"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Τριχόπτωση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Χωρίς Paraben",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Δυναμωτικό σαμπουάν για κάθε τύπο μαλλιών. Σύνθεση εμπλουτισμένη με Aminexil, το μόριο αναφοράς ενάντια στην τριχόπτωση.\n* Ανά ml σε σύγκριση με το μπουκάλι των 200ml.",
+      "Συστατικά": "AMINEXIL\nΓια καταπολέμηση της τριχόπτωσης.\nΝΙΑΣΙΝΑΜΙΔΗ\nΓια ρύθμιση της παραγωγής σμήγματος και καταπράυνση του τριχωτού.\nINCI: AQUA / WATER / EAU, SODIUM LAURETH SULFATE, CITRIC ACID, SODIUM COCOAMPHOACETATE, HEXYLENE GLYCOL, AMMONIUM HYDROXIDE, GLYCOL DISTEARATE, CARBOMER, COCO-BETAINE, DIAMINOPYRIMIDINE OXIDE, NIACINAMIDE, PEG-55 PROPYLENE GLYCOL OLEATE, POLYQUATERNIUM-10, PROPYLENE GLYCOL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, TOCOPHEROL, PARFUM / FRAGRANCE (F.I.L. N295635/1)",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/3337875902823_1.jpg?rev=75e0e69e9b514ad1b3365b77135deeed",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/3337875902823_1.jpg?rev=75e0e69e9b514ad1b3365b77135deeed",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/3337875902823_1.jpg?rev=75e0e69e9b514ad1b3365b77135deeed",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/new/vichyproducthaircaredercosenergystimulatingshampoorefill400ml03337875902823other-gr-1200x1200.jpg?rev=f56bd24a87154b5489966df5b9823e65",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/new/vichyproducthaircaredercosenergystimulatingshampoorefill400ml03337875902823safetyawardsseals-gr-1200.jpg?rev=d2e3bc28e9ea458b85f1037d55404db9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos-energy-stimulating-shampoo-refill/new/vichyproducthaircaredercosenergystimulatingshampoorefill400ml03337875902823texture-gr-1200x1200.jpg?rev=7ea32d28bfd74b1295de99d5816dd399"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/trixoptwsh/dercos-energy-refill-sampouan-gia-trixoptwsh",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871324629": {
+    "name": "Dercos Neogenic Σαμπουάν για Πύκνωση Μαλλιών",
+    "subtitle": "Σαμπουάν για ορατά πιο πυκνά μαλλιά, με όγκο που διαρκεί.",
+    "description": "Το Neogenic σαμπουάν αύξησης της πυκνότητας από τη σειρά Dercos. Μαλλιά ορατά πιο πυκνά με περισσότερο όγκο που διαρκεί από την 1η στιγμή και πιο δυνατή τρίχα. Για άνδρες και γυναίκες με ορατά σημάδια αραίωσης, ορατό τριχωτό της κεφαλής με λεπτή τρίχα. Το DERCOS Neogenic είναι το 1ο σαμπουάν αύξησης της πυκνότητας, με STEMOXYDINE, ένα κατοχυρωμένο μόριο που ενισχύει τους παράγοντες που ευνοούν την ανάπτυξη των τριχών. Εμπλουτισμένο με την τεχνολογία PRO-DENSIFYING που αγκαλιάζει την τρίχα, αυξάνει τη διάμετρό της, την ενδυναμώνει και χαρίζει άμεσα περισσότερο όγκο που διαρκεί. Απαλή καθαριστική βάση εμπλουτισμένη με την τεχνολογία PRO-DENSIFYING που καλύπτει όλες τις τρίχες, ακόμα και τις πιο νέες ή και τις πιο λεπτές, χωρίς να βαραίνει τα μαλλιά.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "400ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Τριχόπτωση",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "400ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Neogenic σαμπουάν αύξησης της πυκνότητας από τη σειρά Dercos. Μαλλιά ορατά πιο πυκνά με περισσότερο όγκο που διαρκεί από την 1η στιγμή και πιο δυνατή τρίχα. Για άνδρες και γυναίκες με ορατά σημάδια αραίωσης, ορατό τριχωτό της κεφαλής με λεπτή τρίχα. Το DERCOS Neogenic είναι το 1ο σαμπουάν αύξησης της πυκνότητας, με STEMOXYDINE, ένα κατοχυρωμένο μόριο που ενισχύει τους παράγοντες που ευνοούν την ανάπτυξη των τριχών. Εμπλουτισμένο με την τεχνολογία PRO-DENSIFYING που αγκαλιάζει την τρίχα, αυξάνει τη διάμετρό της, την ενδυναμώνει και χαρίζει άμεσα περισσότερο όγκο που διαρκεί. Απαλή καθαριστική βάση εμπλουτισμένη με την τεχνολογία PRO-DENSIFYING που καλύπτει όλες τις τρίχες, ακόμα και τις πιο νέες ή και τις πιο λεπτές, χωρίς να βαραίνει τα μαλλιά.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, AMMONIUM LAURYL SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, ALCOHOL DENAT., BENZOIC ACID, CITRIC ACID, DIETHYLLUTIDINATE, HEXYLENE GLYCOL, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, POLYQUATERNIUM-30, SALICYLIC ACID, SODIUM BENZOATE, SODIUM HYDROXIDE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_neogenic_400ml.jpg?rev=e43992f3c3b94e20bfe6be139cceb255",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_neogenic_400ml.jpg?rev=e43992f3c3b94e20bfe6be139cceb255",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vichy_dercos_neogenic_400ml.jpg?rev=e43992f3c3b94e20bfe6be139cceb255",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---neogenic---redensifying-shampoo/neogenic-shampoo-pack2.jpeg?rev=4cb5770be79e44fd83db451227dbed6a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---neogenic---redensifying-shampoo/neogenic-shampoo-pack4.jpeg?rev=48bc9a1d86254d9bb789eaefed84e10f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---neogenic---redensifying-shampoo/neogenic-shampoo-pack5.jpeg?rev=040db4fb1cba4765a52499ba63cad6b0"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/trixoptwsh/dercos-neogenic-sampouan-gia-puknwsh-malliwn",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875787222": {
+    "name": "Dercos Psolution Σαμπουάν για Ψωρίαση στο Τριχωτό Κεφαλής",
+    "subtitle": "Τριχωτό με τάση ψωρίασης. Κατά των λεπιών και του κνησμού.",
+    "description": "Το Dercos P.Solution είναι ένα σαμπουάν ειδικά σχεδιασμένο για το τριχωτό με τάση ψωρίασης. Εμπλουτισμένο με δερματολογικά ενεργά συστατικά για μείωση των λεπιών και του κνησμού στο τριχωτό της κεφαλής. Προσφέρει υγιή όψη στα μαλλιά. Κατά των λεπιών* Κατά της αίσθησης τσιμπήματος.* Κατά του κνησμού.* Άμεση καταπράυνση.* Αφήνει τα μαλλιά πιο απαλά και πιο λαμπερά.* + 30% ενυδάτωση.* * Υποαλλεργικό. Δοκιμασμένο σε ευαίσθητο τριχωτό. Κατάλληλο για καθημερινή χρήση. * *Αυτοαξιολόγηση σε 50 άτομα. **Οργανομετρική μελέτη μετά από εφαρμογή του σαμπουάν έναντι συνήθους σαμπουάν. Ισχυρά δερματολογικά συστατικά 5% Ουρία, για εξάλειψη των λεπιών. 2% Σαλικυλικό Οξύ, για απολέπιση. 1% Γλυκερίνη, για ενυδάτωση. Κλινικά αποδεδειγμένη αποτελεσματικότητα στο τριχωτό με τάση ψωρίασης. 87% των χρηστών αναφέρουν ότι έχει ευχάριστη υφή.*** 93% των χρηστών αναφέρουν ότι ξεβγάζεται εύκολα.*** 84% των χρηστών αναφέρουν ότι δημιουργεί πλούσιο αφρό.*** ***Δοκιμή καταναλωτών σε 50 άτομα, μετά από 4 εβδομάδες χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Κνησμός στο Τριχωτό της Κεφαλής",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Dercos P.Solution είναι ένα σαμπουάν ειδικά σχεδιασμένο για το τριχωτό με τάση ψωρίασης. Εμπλουτισμένο με δερματολογικά ενεργά συστατικά για μείωση των λεπιών και του κνησμού στο τριχωτό της κεφαλής. Προσφέρει υγιή όψη στα μαλλιά.\nΚατά των λεπιών*\nΚατά της αίσθησης τσιμπήματος.*\nΚατά του κνησμού.*\nΆμεση καταπράυνση.*\nΑφήνει τα μαλλιά πιο απαλά και πιο λαμπερά.*\n+ 30% ενυδάτωση.*\n* Υποαλλεργικό. Δοκιμασμένο σε ευαίσθητο τριχωτό. Κατάλληλο για καθημερινή χρήση.\n* *Αυτοαξιολόγηση σε 50 άτομα. **Οργανομετρική μελέτη μετά από εφαρμογή του σαμπουάν έναντι συνήθους σαμπουάν. Ισχυρά δερματολογικά συστατικά 5% Ουρία, για εξάλειψη των λεπιών. 2% Σαλικυλικό Οξύ, για απολέπιση. 1% Γλυκερίνη, για ενυδάτωση. Κλινικά αποδεδειγμένη αποτελεσματικότητα στο τριχωτό με τάση ψωρίασης. 87% των χρηστών αναφέρουν ότι έχει ευχάριστη υφή.*** 93% των χρηστών αναφέρουν ότι ξεβγάζεται εύκολα.*** 84% των χρηστών αναφέρουν ότι δημιουργεί πλούσιο αφρό.*** ***Δοκιμή καταναλωτών σε 50 άτομα, μετά από 4 εβδομάδες χρήσης.",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΑπομακρύνει τις νιφάδες από την επιφάνεια του τριχωτού.\nINCI: AQUA / WATER, SODIUM LAURETH SULFATE, UREA, SODIUM COCOAMPHOACETATE, PEG-200 HYDROGENATED GLYCERYL PALMATE, GLYCOL DISTEARATE, GLYCERIN, SALICYLIC ACID, SODIUM LAURETH-8 SULFATE, GLYCINE, PIROCTONE OLAMINE, HEXYLENE GLYCOL, ALCOHOL DENAT., CARBOMER, CHLORPHENESIN, CITRIC ACID, COCO-BETAINE, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, MAGNESIUM LAURETH SULFATE, MAGNESIUM LAURETH-8 SULFATE, MAGNESIUM OLETH SULFATE, PEG-55 PROPYLENE GLYCOL OLEATE, PEG-7 GLYCERYL COCOATE, PHENOXYETHANOL, POLYQUATERNIUM-30, PROPYLENE GLYCOL, SODIUM CHLORIDE, SODIUM HYDROXIDE, SODIUM LACTATE, SODIUM OLETH SULFATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875787222_1.jpg?rev=86419c1126ef41eba461cce3e4b80d65",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875787222_1.jpg?rev=86419c1126ef41eba461cce3e4b80d65",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875787222_1.jpg?rev=86419c1126ef41eba461cce3e4b80d65",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/3337875787222_2.jpg?rev=a3fdb98ee1f84633b1b8501ab9e4510b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos---psolution/dercos-psolution-pack4.jpg?rev=0e6155822d0c4401a49670250ffd918f"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/knhsmos-sto-trixwto-ths-kefalhs/dercos-psolution-sampouan-gia-pswriash-sto-trixwto-kefalhs",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875485128": {
+    "name": "Dercos Σαμπουάν για Eυαίσθητο Tριχωτό - Λιπαρά & Κανονικά Μαλλιά",
+    "subtitle": "Καταπραΰνει και μειώνει την αίσθηση κνησμού, νυγμού και καύσου.",
+    "description": "To Dercos Ultra Soothing είναι η λύση της Vichy για το ευαίσθητο τριχωτό. Το σαμπουάν Ultra Soothing έχει καταπραϋντική σύνθεση, με κρεμώδη υφή για άμεσα αποτελέσματα. Δρα άμεσα από την 1η χρήση. Προσφέρει 48ωρη μείωση της ενόχλησης και του κνησμού στο τριχωτό. Για κανονικά και λιπαρά μαλλιά. Η αποτελεσματική του σύνθεση προσφέρει καταπραϋντική δράση και πιο μαλακά, λαμπερά μαλλιά. * Κλινική μελέτη, 43 άτομα, 3 εβδομάδες",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Κνησμός στο Τριχωτό της Κεφαλής",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "To Dercos Ultra Soothing είναι η λύση της Vichy για το ευαίσθητο τριχωτό. Το σαμπουάν Ultra Soothing έχει καταπραϋντική σύνθεση, με κρεμώδη υφή για άμεσα αποτελέσματα. Δρα άμεσα από την 1η χρήση. Προσφέρει 48ωρη μείωση της ενόχλησης και του κνησμού στο τριχωτό. Για κανονικά και λιπαρά μαλλιά. Η αποτελεσματική του σύνθεση προσφέρει καταπραϋντική δράση και πιο μαλακά, λαμπερά μαλλιά.\n* Κλινική μελέτη, 43 άτομα, 3 εβδομάδες",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, SODIUM METHYL COCOYL TAURATE, LAURETH-5 CARBOXYLIC ACID, COCAMIDOPROPYL BETAINE, GLYCERIN, SODIUM CHLORIDE, ASCORBYL GLUCOSIDE, COCONUT ACID, HEXYLENE GLYCOL, ISOPROPYL ALCOHOL, LACTIC ACID, PANTHENOL, PEG-150 DISTEARATE, PEG-55 PROPYLENE GLYCOL OLEATE, PIROCTONE OLAMINE, POLYQUATERNIUM-10, POLYSORBATE 21, PROPYLENE GLYCOL, SALICYLIC ACID, SODIUM ACETATE, SODIUM BENZOATE, SODIUM HYDROXIDE, SODIUM LAUROYL GLUTAMATE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/vic_071_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-normal-to-oily-hair-200ml.jpg?rev=c6f0738f2ec84a24845482c328f47dfa",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/vic_071_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-normal-to-oily-hair-200ml.jpg?rev=c6f0738f2ec84a24845482c328f47dfa",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hair-care/dercos/vic_071_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-normal-to-oily-hair-200ml.jpg?rev=c6f0738f2ec84a24845482c328f47dfa",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichy_image.jpg?rev=b1488777e3cf4439b7229abca174778f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/dercos1.jpg?rev=73c2d7204df14a90a5a41029e3bb4070",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichydercosultrasoothingoily200mlbox3337875485128-gr-1200x1200.jpg?rev=7f37fcdfd56e4a6a92cfbbbab667877d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichydercosultrasoothingoily200mldermato3337875485128-gr-1200x1200.jpg?rev=a62238208409489bbdd2a7d6b0d91e88",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichydercosultrasoothingoily200mlhand3337875485128-gr-1200x1200.jpg?rev=8d88fcb05d4942268724fce35385bb80",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/dercos-aminexil/vichydercosultrasoothingoily200mltexturehand3337875485128-gr-1200x1200.jpg?rev=cd6aff9ef0e64176af14d28399bdf0f7"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/knhsmos-sto-trixwto-ths-kefalhs/dercos-sampouan-gia-euaisthhto-trixwto-lipara-kanonika-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875486736": {
+    "name": "Dercos Σαμπουάν για Ευαίσθητο Τριχωτό - Ξηρά Μαλλιά",
+    "subtitle": "Καταπραΰνει και μειώνει την αίσθηση κνησμού, νυγμού και καύσου.",
+    "description": "To Dercos Ultra Soothing είναι η λύση της Vichy για το ευαίσθητο τριχωτό. Το σαμπουάν Ultra Soothing έχει καταπραϋντική σύνθεση, με κρεμώδη υφή για άμεσα αποτελέσματα. Δρα άμεσα από την 1η χρήση. Προσφέρει 48ωρη μείωση της ενόχλησης και του κνησμού στο τριχωτό. Για ξηρά μαλλιά. Η αποτελεσματική του σύνθεση προσφέρει καταπραϋντική δράση και πιο μαλακά, λαμπερά μαλλιά. * *Κλινική μελέτη, 37 άτομα, 3 εβδομάδες",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Dercos",
+      "Κατηγορία vichy.gr": "Περιποίηση Μαλλιών › Σαμπουάν Μαλλιών › Κνησμός στο Τριχωτό της Κεφαλής",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "To Dercos Ultra Soothing είναι η λύση της Vichy για το ευαίσθητο τριχωτό. Το σαμπουάν Ultra Soothing έχει καταπραϋντική σύνθεση, με κρεμώδη υφή για άμεσα αποτελέσματα. Δρα άμεσα από την 1η χρήση. Προσφέρει 48ωρη μείωση της ενόχλησης και του κνησμού στο τριχωτό. Για ξηρά μαλλιά. Η αποτελεσματική του σύνθεση προσφέρει καταπραϋντική δράση και πιο μαλακά, λαμπερά μαλλιά.\n* *Κλινική μελέτη, 37 άτομα, 3 εβδομάδες",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως.\nΝα φυλάσσεται μακριά από παιδιά.",
+      "Συστατικά": "INCI: AQUA / WATER, SODIUM COCOYL ISETHIONATE, DISODIUM LAURETH SULFOSUCCINATE, GLYCOL DISTEARATE, SODIUM LAURYL SULFOACETATE, SODIUM LAUROYL SARCOSINATE, GLYCERIN, AMODIMETHICONE, BENZOIC ACID, C12-13 PARETH-23, C12-13 PARETH-3, CARBOMER, CETRIMONIUM CHLORIDE, CITRIC ACID, COCAMIDOPROPYL BETAINE, COCO-BETAINE, DECYL GLUCOSIDE, DIVINYLDIMETHICONE/DIMETHICONE COPOLYMER, PANTHENOL, PEG-55 PROPYLENE GLYCOL OLEATE, PHENOXYETHANOL, PIROCTONE OLAMINE, POLYQUATERNIUM-10, POLYQUATERNIUM-7, POLYSORBATE 21, PPG-5-CETETH-20, PROPYLENE GLYCOL, PRUNUS ARMENIACA KERNEL OIL / APRICOT KERNEL OIL, SALICYLIC ACID, SODIUM BENZOATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, TRIDECETH-6, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_072_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-dry-hair-200ml.jpg?rev=ee9bca0235bc479ebc28ce35245dd53d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_072_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-dry-hair-200ml.jpg?rev=ee9bca0235bc479ebc28ce35245dd53d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dercos/vic_072_vichy_dercos_ultra-soothing---shampoo-for-reactive-scalp-and-dry-hair-200ml.jpg?rev=ee9bca0235bc479ebc28ce35245dd53d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---ultra-shooting---shampoo-for-reactive-scalp-and-dry-hair/ultra-soothing-shampoo-dry-hair-pack2.jpeg?rev=2836af49503b42ecbba8ee5b51dd7091",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---ultra-shooting---shampoo-for-reactive-scalp-and-dry-hair/ultra-soothing-shampoo-dry-hair-pack3.jpeg?rev=7c01615a22cb413db9636e1b32adf807",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---ultra-shooting---shampoo-for-reactive-scalp-and-dry-hair/ultra-soothing-shampoo-dry-hair-pack4.jpeg?rev=ffa22333785a4913a15c95ec39827c84",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/dercos---ultra-shooting---shampoo-for-reactive-scalp-and-dry-hair/ultra-soothing-shampoo-dry-hair-pack5.jpeg?rev=dcd593aff8e947e28983ebd169d4f449"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-malliwn/sampouan/knhsmos-sto-trixwto-ths-kefalhs/dercos-sampouan-gia-euaisthhto-trixwto-xhra-mallia",
+    "source": "vichy.gr",
+    "section": "dercos",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321543": {
+    "name": "Liftactiv Flexiteint Αντιρυτιδικό Make-Up Προσώπου",
+    "subtitle": "Λεπτόρρευστο foundation για άμεσο εφέ λίφτινγκ και λάμψη.",
+    "description": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου › Ρυτίδες",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL CARBONATE, ISODODECANE, COCO-CAPRYLATE/CAPRATE, PEG-30 DIPOLYHYDROXYSTEARATE, BUTYLENE GLYCOL, GLYCERIN, NIACINAMIDE, SYNTHETIC FLUORPHLOGOPITE, SILICA, SILICA SILYLATE, SODIUM HYALURONATE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, CELLULOSE GUM, ALUMINUM HYDROXIDE, PHENOXYETHANOL, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, ASCORBYL GLUCOSIDE, TOCOPHEROL, PROPYLENE CARBONATE, CAPRYLYL GLYCOL, HYDROGENATED STARCH HYDROLYSATE, HYDROLYZED HYALURONIC ACID, PENTYLENE GLYCOL, DISTEARDIMONIUM HECTORITE, PARFUM / FRAGRANCE ● [+/- ΜΠΟΡΕΙ ΝΑ ΠΕΡΙΛΑΜΒΑΝΕΙ: CI 77891 / TITANIUM DIOXIDE, CI 77163 / BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_25.jpg?rev=9b94ef68383341db88d32cc1df60a77d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_45.jpg?rev=65c0fbaf38e14e81a786a918daa70303"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/rutides/liftactiv-antirutidiko-make-up",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321567": {
+    "name": "Liftactiv Flexiteint Αντιρυτιδικό Make-Up Προσώπου",
+    "subtitle": "Λεπτόρρευστο foundation για άμεσο εφέ λίφτινγκ και λάμψη.",
+    "description": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου › Ρυτίδες",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL CARBONATE, ISODODECANE, COCO-CAPRYLATE/CAPRATE, PEG-30 DIPOLYHYDROXYSTEARATE, BUTYLENE GLYCOL, GLYCERIN, NIACINAMIDE, SYNTHETIC FLUORPHLOGOPITE, SILICA, SILICA SILYLATE, SODIUM HYALURONATE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, CELLULOSE GUM, ALUMINUM HYDROXIDE, PHENOXYETHANOL, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, ASCORBYL GLUCOSIDE, TOCOPHEROL, PROPYLENE CARBONATE, CAPRYLYL GLYCOL, HYDROGENATED STARCH HYDROLYSATE, HYDROLYZED HYALURONIC ACID, PENTYLENE GLYCOL, DISTEARDIMONIUM HECTORITE, PARFUM / FRAGRANCE ● [+/- ΜΠΟΡΕΙ ΝΑ ΠΕΡΙΛΑΜΒΑΝΕΙ: CI 77891 / TITANIUM DIOXIDE, CI 77163 / BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_25.jpg?rev=9b94ef68383341db88d32cc1df60a77d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_25.jpg?rev=9b94ef68383341db88d32cc1df60a77d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_45.jpg?rev=65c0fbaf38e14e81a786a918daa70303"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/rutides/liftactiv-antirutidiko-make-up",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321581": {
+    "name": "Liftactiv Flexiteint Αντιρυτιδικό Make-Up Προσώπου",
+    "subtitle": "Λεπτόρρευστο foundation για άμεσο εφέ λίφτινγκ και λάμψη.",
+    "description": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς Paraben",
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Προϊόντα Μακιγιάζ › Μακιγιάζ Προσώπου › Ρυτίδες",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Προσφέρει στο δέρμα σύσφιξη, άμεσο εφέ lifting και λάμψη. Καινοτόμος υφή που λειαίνει τις ρυτίδες ενώ ακολουθεί τις κινήσεις του προσώπου για φυσικό αποτέλεσμα που διαρκεί 12 ώρες.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL CARBONATE, ISODODECANE, COCO-CAPRYLATE/CAPRATE, PEG-30 DIPOLYHYDROXYSTEARATE, BUTYLENE GLYCOL, GLYCERIN, NIACINAMIDE, SYNTHETIC FLUORPHLOGOPITE, SILICA, SILICA SILYLATE, SODIUM HYALURONATE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, CELLULOSE GUM, ALUMINUM HYDROXIDE, PHENOXYETHANOL, MAGNESIUM SULFATE, DISODIUM STEAROYL GLUTAMATE, ASCORBYL GLUCOSIDE, TOCOPHEROL, PROPYLENE CARBONATE, CAPRYLYL GLYCOL, HYDROGENATED STARCH HYDROLYSATE, HYDROLYZED HYALURONIC ACID, PENTYLENE GLYCOL, DISTEARDIMONIUM HECTORITE, PARFUM / FRAGRANCE ● [+/- ΜΠΟΡΕΙ ΝΑ ΠΕΡΙΛΑΜΒΑΝΕΙ: CI 77891 / TITANIUM DIOXIDE, CI 77163 / BISMUTH OXYCHLORIDE, CI 77491, CI 77492, CI 77499 / IRON OXIDES]."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_45.jpg?rev=65c0fbaf38e14e81a786a918daa70303",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_25.jpg?rev=9b94ef68383341db88d32cc1df60a77d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_45.jpg?rev=65c0fbaf38e14e81a786a918daa70303"
+    ],
+    "url": "https://www.vichy.gr/proionta/proionta-makigiaz/make-up-proswpou/rutides/liftactiv-antirutidiko-make-up",
+    "source": "vichy.gr",
+    "section": "dermablend",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875922852": {
+    "name": "Liftactiv Collagen Specialist 16 Αντιρυτιδική Κρέμα με SPF50",
+    "subtitle": "Ενισχύει όλους τους τύπους κολλαγόνου. Προστατεύει από την ακτινοβολία UV.",
+    "description": "Vichy Liftactiv Collagen Specialist 16 SPF50 Cream με τη νέα, αποκλειστική τεχνολογία Co-Bonding, με Ραμνόζη, Πεπτίδια και Maitake, που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*. Τώρα, με SPF50 για προστασία από την καθημερινή έκθεση στον ήλιο. Η σύνθεση αυτή διορθώνει 16 σημάδια γήρανσης**, δρώντας στις εξής παραμέτρους: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, «γέμισμα», χαλάρωση, λείανση, ανάγλυφο, τονικότητα, ενδυνάμωση, επιδερμιδική κυτταρική ανανέωση, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία τόνου. Είναι κλινικά αποδεδειγμένο ότι αυτή η κρέμα ενισχύει όλους τους τύπους κολλαγόνου κατά 175%*. Ξαναγεμίζοντας το βαζάκι σας με το ανταλλακτικό, συμβάλλετε στη μείωση της χρήσης γυαλιού, πλαστικού και χαρτονιού, καθώς το βάρος συσκευασίας του είναι μειωμένο κατά 87% σε σύγκριση με την αγορά μιας νέας, κανονικής συσκευασίας. * * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Vichy Liftactiv Collagen Specialist 16 SPF50 Cream με τη νέα, αποκλειστική τεχνολογία Co-Bonding, με Ραμνόζη, Πεπτίδια και Maitake, που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*. Τώρα, με SPF50 για προστασία από την καθημερινή έκθεση στον ήλιο. Η σύνθεση αυτή διορθώνει 16 σημάδια γήρανσης**, δρώντας στις εξής παραμέτρους: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, «γέμισμα», χαλάρωση, λείανση, ανάγλυφο, τονικότητα, ενδυνάμωση, επιδερμιδική κυτταρική ανανέωση, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία τόνου. Είναι κλινικά αποδεδειγμένο ότι αυτή η κρέμα ενισχύει όλους τους τύπους κολλαγόνου κατά 175%*.\nΞαναγεμίζοντας το βαζάκι σας με το ανταλλακτικό, συμβάλλετε στη μείωση της χρήσης γυαλιού, πλαστικού και χαρτονιού, καθώς το βάρος συσκευασίας του είναι μειωμένο κατά 87% σε σύγκριση με την αγορά μιας νέας, κανονικής συσκευασίας.\n* * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+      "Οφέλη": "+175% ενίσχυση του κολλαγόνου*.\nΔιόρθωση 16 σημαδιών γήρανσης**.\n83% όσων τη δοκίμασαν παρατήρησαν πιο σφριγηλή επιδερμίδα***.\nΠροστασία από την καθημερινή έκθεση στον ήλιο.\n-87% λιγότερα υλικά συσκευασίας****.\n* * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης. *** Αυτοαξιολόγηση, 59 άτομα, 6 εβδομάδες. **** Η χρήση του ανταλλακτικού συνεπάγεται μείωση του βάρους της συσκευασίας (γυαλί, πλαστικό, χαρτόνι) κατά 87% σε σύγκριση με την αγορά ενός νέου, κανονικού προϊόντος.",
+      "Υφή": "Μεταξένια κρεμώδης υφή. Απορροφάται γρήγορα προσφέροντας αίσθηση ενυδάτωσης κατά την εφαρμογή. Μη κολλώδης. Χωρίς άρωμα.",
+      "Συστατικά": "Μετά από 15 χρόνια ερευνών, 25 επιστημονικές δημοσιεύσεις, και αξιολόγηση πάνω από 8.900 μορίων, η Vichy παρουσιάζει την επανάσταση στο κολλαγόνο: την τεχνολογία Co-Bonding. Αυτή η τεχνολογία ενισχύει και συνδέει όλους τους τύπους κολλαγόνου για ένα ισχυρότερο δίκτυο κολλαγόνου.\nINCI: AQUA / WATER / EAU, GLYCERIN, ETHYLHEXIL SALICYLATE, ETHYLHEXYL TRIAZONE, ALCOHOL DENAT., BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIMETHICONE, LAUROYL LYSINE, BUTYL METHOXYDIBENZOYLMETHANE, NIACINAMIDE, OCTYLDODECANOL, BEHENYL ALCOHOL, ISOPROPYL ISOSTEARATE, PERLITE, ALUMINUM STARCH OCTENYLSUCCINATE, CETYL ALCOHOL, ADENOSINE, CAPRYLOYL SALICYLIC ACID, CITRIC ACID, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, PHAMNOSE, SODIUM ACETYLATED HYALURONATE, SODIUM HYALURONATE, SR-TETRA (TETRA SH-POLYPEPTIDE-69 DIPEPTIDE-78) OLIGOPEPTIDE-252, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, TOCOPHEROL, ACRYLAMIDE/SODIUM ACRYLOYL DIMETHYLTAURATE COPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, CETARYL ALCOHOL, CETEARYL GLUCOSIDE, ISOHEXADECANE, MALTODEXTRIN, MYRISTIC ACID, PALMITIC ACID, PEG-100 STEARATE, PENTYLENE GLYCOL, POLYC10-30 ALKYL ACRYLATE, POLYSORBATE 20, POLYSORBATE 80, SODIUM CHLORIDE, SODIUM LACTATE, SODIUM PHOSPHATE, SODIUM POLYACRYLATE STARCH, SODIUM STEAROYL GLUTAMATE, SORBITAN OLEATE, STEARIC ACID, CI 15985 / YELLOW 6, CI 16035 / RED 40, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε κάθε πρωί, σε στεγνή επιδερμίδα.\nΜΑΣΑΖ\nΑπλώστε με απαλές κινήσεις έως ότου απορροφηθεί πλήρως.\nΠώς να την ξαναγεμίσετε\n- Αφαιρέστε το χρησιμοποιημένο ανταλλακτικό.\n- Κρατήστε το βαζάκι και το καπάκι.\n- Τοποθετήστε τη νέα κάψουλα στο βαζάκι.\n- Αφαιρέστε τη μεμβράνη του ανταλλακτικού για να αρχίσετε να χρησιμοποιείτε την κρέμα σας.\n- Ανακυκλώστε την άδεια κάψουλα."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-nnmrhi-gr.png?rev=407d4dac5c1145d09b74de1bb5c36ec8",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-nnmrhi-gr.png?rev=407d4dac5c1145d09b74de1bb5c36ec8",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-nnmrhi-gr.png?rev=407d4dac5c1145d09b74de1bb5c36ec8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-key-benefits-gr.jpg?rev=6eb02d2e83b842999c57aabba2c64d26",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-clinical-results-gr.jpg?rev=1dce0cf1a85944d5976345d9de1e086a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-texture-gr.jpg?rev=01df87b60c9e4717869cd862a6a8188a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-sustainability-gr.jpg?rev=2dc3b80dda064b3a9f51aed390b2d205",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-proendorsement-gr.jpg?rev=a20abdc66d21480e84a9e738b7c92f30"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-collagen-specialist-16-antirutidikh-krema-me-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875945851": {
+    "name": "Liftactiv Collagen Specialist 16 Collagel Gel Proswpou Gia Lampsh",
+    "subtitle": "Ενισχύει όλους τους τύπους Κολλαγόνου. Δίνει glassy λάμψη στην επιδερμίδα.",
+    "description": "Το LIFTACTIV COLLAGEN SPECIALIST 16 COLLAGEL είναι το πρώτο μας αόρατο, κρυστάλλινο τζελ με τεχνολογία Co-Bonding που ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου. Βελτιώνει 16 δείκτες νεότητας και αποκαλύπτει τη λάμψη της επιδερμίδας. Με αόρατη, δροσερή τζελ υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή και απορροφάται γρήγορα. Είναι κατάλληλο για ευαίσθητες επιδερμίδες, και αόρατο σε όλους τους τόνους επιδερμίδας. Αυτό το τζελ δρα σε 16 παραμέτρους νεότητας: λάμψη, 24ωρη ενυδάτωση, «γέμισμα», ζωντάνια, αντοχή, λεπτές γραμμές, σφριγηλότητα, ελαστικότητα, λείανση, ομοιομορφία, ευκαμψία, ανάγλυφο, σύσφιγξη πόρων, έλεγχος λιπαρότητας, τονικότητα, απαλότητα.",
+    "claims": [
+      "Χωρίς Paraben",
+      "Υποαλλεργικό",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Χωρίς Paraben · Υποαλλεργικό · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το LIFTACTIV COLLAGEN SPECIALIST 16 COLLAGEL είναι το πρώτο μας αόρατο, κρυστάλλινο τζελ με τεχνολογία Co-Bonding που ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου. Βελτιώνει 16 δείκτες νεότητας και αποκαλύπτει τη λάμψη της επιδερμίδας. Με αόρατη, δροσερή τζελ υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή και απορροφάται γρήγορα. Είναι κατάλληλο για ευαίσθητες επιδερμίδες, και αόρατο σε όλους τους τόνους επιδερμίδας. Αυτό το τζελ δρα σε 16 παραμέτρους νεότητας: λάμψη, 24ωρη ενυδάτωση, «γέμισμα», ζωντάνια, αντοχή, λεπτές γραμμές, σφριγηλότητα, ελαστικότητα, λείανση, ομοιομορφία, ευκαμψία, ανάγλυφο, σύσφιγξη πόρων, έλεγχος λιπαρότητας, τονικότητα, απαλότητα.",
+      "Οφέλη": "Ενισχύει όλους τους τύπους Κολλαγόνου.\nΔίνει glassy λάμψη στην επιδερμίδα.\nΒελτιώνει 16 δείκτες νεότητας: λάμψη, 24ωρη ενυδάτωση, «γέμισμα», ζωντάνια, αντοχή, λεπτές γραμμές, σφριγηλότητα, ελαστικότητα, λείανση, ομοιομορφία, ευκαμψία, ανάγλυφο, σύσφιγξη πόρων, έλεγχος λιπαρότητας, τονικότητα, απαλότητα.",
+      "Υφή": "Αόρατη, δροσερή τζελ υφή. Απορροφάται γρήγορα. Μη κολλώδης, μη λιπαρή αίσθηση.",
+      "Συστατικά": "ΣΥΜΠΛΟΚΟ ΕΝΙΣΧΥΣΗΣ ΚΟΛΛΑΓΟΝΟΥ\nΤο Κολλαγόνο είναι η πιο άφθονη πρωτεΐνη που παράγει το σώμα μας. Τα Πεπτίδια Προ-κολλαγόνου προάγουν την παραγωγή Κολλαγόνου στο δέρμα, συμβάλλοντας έτσι στη νεανική εμφάνιση της επιδερμίδας.\nINCI: AQUA / WATER / EAU, GLYCERIN, ALCOHOL DENAT., NIACINAMIDE, DIMETHICONE, BUTYLENE GLYCOL, ISONONYL ISONONANOATE, TOCOPHERYL ACETATE, CERAMIDE NP, BIOSACCHARIDE GUM-1, CAPRYLOYL SALICYLIC ACID, CAPRYLYL GLYCOL, CARBOMER, CITRIC ACID, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, MALTODEXTRIN, MENTHOXYPROPANEDIOL, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, POLYSORBATE 20, PSEUDOALTEROMONAS FERMENT EXTRACT, RHAMNOSE, SODIUM HYALURONATE, SODIUM HYDROXIDE, SODIUM LACTATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, DIMETHICONOL, SALICYLIC ACID, PARFUM / FRAGRANCE",
+      "Χρήση": "ΕΝΙΣΧΥΣΗ ΚΟΛΛΑΓΟΝΟΥ\nΞεκινήστε το πρωτόκολλο περιποίησής σας εφαρμόζοντας τον ορό Collagen Specialist 16 σε καθαρή και στεγνή επιδερμίδα.\nGLASSY ΛΑΜΨΗ\nΕφαρμόστε μερικές σταγόνες Collagen Specialist 16 Collagel στο πρόσωπο, αποφεύγοντας τα βλέφαρα.\nΕΝΥΔΑΤΩΣΗ\nΕφαρμόστε την κρέμα ημέρας Collagen Specialist 16 το πρωί και την αντίστοιχη κρέμα νυκτός το βράδυ, αποφεύγοντας το περίγραμμα των ματιών."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfmrhi-gr-728x820.png?rev=138e6597a2a4472890486083837a479a",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfmrhi-gr-728x820.png?rev=138e6597a2a4472890486083837a479a",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfmrhi-gr-728x820.png?rev=138e6597a2a4472890486083837a479a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfbenefits2-gr-716x716.jpg?rev=e0011233f5a04bf6a767846e86799634",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfclinicalresults-gr-716x716.jpg?rev=80be2970eef04beb8246a90be1ea97e4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyliftactivcollagenspecialist16collagelwebsitepdpbriefmosaic4-gr-716x716.jpg?rev=53d303bc3b1848469e8fe572bbb999e1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfingredients-gr-716x716.jpg?rev=518150829ee94ec8824d75ea34100821",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfhowtouse-gr-716x716.jpg?rev=37068669ae92438dbc46a58f9a481f3a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851desktopbtfproendorsement-gr-7.jpg?rev=844b3e2d9e77412996b39954cd9a443a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atftexture-gr-716x716.jpg?rev=e62c6b4fab804b14aa06d460ddbf0693",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfroutine-gr-716x716.jpg?rev=e700811b0fa64349ad77d5b855e43ebe",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfdi-gr-716x716.jpg?rev=c0d77329cf014ba18069f53757a0ccd1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfsafety-gr-716x716.jpg?rev=0e842ba2036246c783e21a28b05572cf"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-collagen-specialist-16-collagel-gel-proswpou-gia-lampsh",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875607254": {
+    "name": "Liftactiv Collagen Specialist 16 Αντιγηραντική Κρέμα Προσώπου",
+    "subtitle": "Ενισχύει όλους τους τύπους κολλαγόνου. Διορθώνει 16 σημάδια γήρανσης. +175% ενίσχυση του κολλαγόνου.",
+    "description": "Ανακαλύψτε τη Liftactiv Collagen Specialist 16 Day Cream, την πρώτη κρέμα κολλαγόνου με την πρωτοποριακή τεχνολογία Co-Bonding. Αυτή η προηγμένη κρέμα αντιγήρανσης ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*, συμπεριλαμβανομένων των τύπων Ι και ΙΙΙ. Για κλινικά αποδεδειγμένη διόρθωση 16 σημαδιών γήρανσης**. Αυτή η ενυδατική με κολλαγόνο διορθώνει 16 σημάδια γήρανσης**, εξασφαλίζοντας ολοκληρωμένη αντιγηραντική δράση. Βοηθά στη μείωση των λεπτών γραμμών και των ρυτίδων, βελτιώνει την ομοιομορφία του τόνου της επιδερμίδας και ελαττώνει τη χαλάρωση. Η επιδερμίδα ενυδατώνεται, τονώνεται και συσφίγγεται. Η πρωτοποριακή σύνθεσή της ενισχύει την ελαστικότητα και την αντοχή της επιδερμίδας, βελτιώνοντας ορατά το ανάγλυφό της και εξισορροπώντας τον τόνο της. Οι πόροι γίνονται λιγότερο ορατοί και η επιδερμίδα ανακτά τη φυσική λάμψη υγείας της. Ως μια υψηλής αποτελεσματικότητας αντιρυτιδική κρέμα, υποστηρίζει και ενισχύει τη δομή της επιδερμίδας όντας ιδανική για την πρόληψη των σημαδιών γήρανσης αλλά και τη σύσφιγξη της επιδερμίδας ενάντια στη χαλάρωση. Βελτιώνει ορατά την ελαστικότητα και τη σφριγηλότητα της επιδερμίδας, λειαίνει τις ρυτίδες, συσφίγγει τους πόρους, και εξισορροπεί τον τόνο της επιδερμίδας για πιο λαμπερή και νεανική επιδερμίδα.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε τη Liftactiv Collagen Specialist 16 Day Cream, την πρώτη κρέμα κολλαγόνου με την πρωτοποριακή τεχνολογία Co-Bonding. Αυτή η προηγμένη κρέμα αντιγήρανσης ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*, συμπεριλαμβανομένων των τύπων Ι και ΙΙΙ. Για κλινικά αποδεδειγμένη διόρθωση 16 σημαδιών γήρανσης**.\nΑυτή η ενυδατική με κολλαγόνο διορθώνει 16 σημάδια γήρανσης**, εξασφαλίζοντας ολοκληρωμένη αντιγηραντική δράση. Βοηθά στη μείωση των λεπτών γραμμών και των ρυτίδων, βελτιώνει την ομοιομορφία του τόνου της επιδερμίδας και ελαττώνει τη χαλάρωση. Η επιδερμίδα ενυδατώνεται, τονώνεται και συσφίγγεται. Η πρωτοποριακή σύνθεσή της ενισχύει την ελαστικότητα και την αντοχή της επιδερμίδας, βελτιώνοντας ορατά το ανάγλυφό της και εξισορροπώντας τον τόνο της. Οι πόροι γίνονται λιγότερο ορατοί και η επιδερμίδα ανακτά τη φυσική λάμψη υγείας της.\nΩς μια υψηλής αποτελεσματικότητας αντιρυτιδική κρέμα, υποστηρίζει και ενισχύει τη δομή της επιδερμίδας όντας ιδανική για την πρόληψη των σημαδιών γήρανσης αλλά και τη σύσφιγξη της επιδερμίδας ενάντια στη χαλάρωση.\nΒελτιώνει ορατά την ελαστικότητα και τη σφριγηλότητα της επιδερμίδας, λειαίνει τις ρυτίδες, συσφίγγει τους πόρους, και εξισορροπεί τον τόνο της επιδερμίδας για πιο λαμπερή και νεανική επιδερμίδα.",
+      "Οφέλη": "Διορθώνει 16 σημάδια γήρανσης**, δρώντας στις εξής παραμέτρους: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, «γέμισμα», χαλάρωση, λείανση, ανάγλυφο, τονικότητα, πυκνότητα, ενδυνάμωση, σύσφιγξη πόρων, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία τόνου. Εξασφαλίζει ορατά αποτελέσματα για πιο σφριγηλή και λαμπερή επιδερμίδα. Οι λεπτές γραμμές και οι ρυτίδες λειαίνονται, η επιδερμίδα ανακτά τον όγκο και την ελαστικότητά της. Η χαλάρωση μειώνεται και το οβάλ του προσώπου σμιλεύεται. Η επιδερμίδα είναι ορατά πιο λεία, και η πυκνότητά της βελτιώνεται.\nΗ πρωτοποριακή αυτή σύνθεση ενισχύει τη δομή και την αντοχή της επιδερμίδας, ενώ παράλληλα συσφίγγει τους πόρους για πιο ομοιόμορφη όψη. Η επιδερμίδα ανακτά τη φυσική λάμψη της, είναι ενυδατωμένη και απαλή. Με συστηματική, καθημερινή χρήση, αυτή η κρέμα κολλαγόνου αποκαθιστά τη δύναμη, τη ζωντάνια και την ελαστικότητα της ώριμης επιδερμίδας κάθε τύπου. Η επιδερμίδα φαίνεται πιο σφριγηλή και πιο υγιής.\n* Αποτελέσματα κλινικών και οργανομετρικών δοκιμών και δοκιμών χρήσης.",
+      "Υφή": "Ανάλαφρη, αέρινη υφή που απορροφάται γρήγορα. Μη κολλώδης. Χωρίς άρωμα.",
+      "Συστατικά": "Μετά από 15 χρόνια ερευνών, 25 επιστημονικές δημοσιεύσεις, και αξιολόγηση πάνω από 8.900 μορίων, η Vichy παρουσιάζει την επανάσταση στο κολλαγόνο: την τεχνολογία Co-Bonding. Αυτή η τεχνολογία ενισχύει και συνδέει όλους τους τύπους κολλαγόνου για ένα ισχυρότερο δίκτυο κολλαγόνου. Διορθώνει 16 σημάδια γήρανσης*, συμπεριλαμβανομένων των ρυτίδων, της έλλειψης σφριγηλότητας και του ανομοιόμορφου τόνου.\nINCI: AQUA / WATER / EAU, GLYCERIN, DIMETHICONE, SILICA, ISOHEXADECANE, ALCOHOL DENAT., HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, NIACINAMIDE, PROPANEDIOL, SYNTHETIC WAX, PEG-10 DIMETHICONE, HYDROLYZED RICE PROTEIN, SODIUM PHYTATE, ADENOSINE, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, RHAMNOSE, SH-POLYPEPTIDE-69, SODIUM HYDROXIDE, ASCORBYL GLUCOSIDE, DISTEARDIMONIUM HECTORITE, BUTYLENE GLYCOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, CAPRYLYL GLYCOL, CARBOMER, CETEARETH-6, CI 77891 / TITANIUM DIOXIDE, MALTODEXTRIN, PENTYLENE GLYCOL, POLYSORBATE 20, PROPYLENE CARBONATE, SODIUM ACRYLATES COPOLYMER, SODIUM CHLORIDE, SODIUM CITRATE, SODIUM LACTATE, SODIUM PHOSPHATE, SORBITAN OLEATE, STEARYL ALCOHOL, SYNTHETIC FLUORPHLOGOPITE, TOCOPHEROL, ZEA MAYS STARCH / CORN STARCH, DIMETHICONE/PEG-10/15 CROSSPOLYMER, DIMETHICONE/POLYGLYCERIN-3 CROSSPOLYMER, CI 15985 / YELLOW 6, DIPROPYLENE GLYCOL, PARFUM / FRAGRANCE",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε κάθε πρωί, σε στεγνή επιδερμίδα.\nΜΑΣΑΖ\nΑπλώστε με απαλές κινήσεις έως ότου απορροφηθεί πλήρως."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-4-mrhi-gr.png?rev=d7ddce698dde42f5bc70f240ee0ee529",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-4-mrhi-gr.png?rev=d7ddce698dde42f5bc70f240ee0ee529",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-4-mrhi-gr.png?rev=d7ddce698dde42f5bc70f240ee0ee529",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-key-benefits-gr.jpg?rev=1f89f9cef032450db2e78776e8d25fe4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-clinical-results-gr.jpg?rev=a7d1ca5386a44c65854a5d25bc0d2320",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-ingredients-gr.jpg?rev=44699e6adafa47989357201c88a09039",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-texture-gr.jpg?rev=f21cbcc5388249ab80f4e239382eb8f8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-cream/vichy-product-liftactiv-collagen-16-day-cream-proendorsement-gr.jpg?rev=0e0f8c0a6ece482f92863961dded0f66"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-collagen-specialist-antighrantikh-krema-proswpou",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871328795": {
+    "name": "Liftactiv H.A Αντιρυτιδική Κρέμα Προσώπου",
+    "subtitle": "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΚΑΝΟΝΙΚΕΣ ΚΑΙ ΜΕΙΚΤΕΣ ΕΠΙΔΕΡΜΙΔΕΣ. ΔΙΟΡΘΩΝΕΙ ΤΙΣ ΛΕΠΤΕΣ ΓΡΑΜΜΕΣ & ΤΙΣ ΡΥΤΙΔΕΣ.",
+    "description": "Η Liftactiv Hyaluronic Specialist H.A είναι συσφιγκτική και αντιρυτιδική κρέμα, εμπλουτισμένη με καθαρό Υαλουρονικό Οξύ και Βιταμίνες, για στόχευση των λεπτών γραμμών, των ρυτίδων, και της έλλειψης σφριγηλότητας.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Liftactiv Hyaluronic Specialist H.A είναι συσφιγκτική και αντιρυτιδική κρέμα, εμπλουτισμένη με καθαρό Υαλουρονικό Οξύ και Βιταμίνες, για στόχευση των λεπτών γραμμών, των ρυτίδων, και της έλλειψης σφριγηλότητας.",
+      "Συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΒΙΤΑΜΙΝΗ C\nΠροστατεύει την επιδερμίδα από τις ελεύθερες ρίζες.\nΗΦΑΙΣΤΕΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nΚΛΑΣΜΑΤΑ ΠΡΟΒΙΟΤΙΚΩΝ\nΑναγεννούν και καταπραΰνουν την επιδερμίδα. Βελτιώνουν την ανοχή της επιδερμίδας στα οξέα.\nINCI: AQUA / WATER / EAU - GLYCERIN - RHAMNOSE - PRUNUS ARMENIACA KERNEL OIL / APRICOT KERNEL OIL - CAPRYLIC / CAPRIC TRIGLYCERIDE - PENTAERYTHRITYL TETRAETHYLHEXANOATE - CETYLALCOHOL - ZEA MAYS STARCH / CORN STARCH - BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER - PETROLATUM GLYCERYL STEARATE - PENTYLENE GLYCOL - DIMETHICONE - PEG-40 STEARATE - CERA ALBA / BEESWAX / CIRE D’ABEILLE - HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID - ADENOSINE - PENTAERYTHRITYL TETRA-DI-T-BUTYLHYDROXYHYDROCINNAMATE - SODIUM HYALURONATE - TRIETHANOLAMINE - ASCORBYL GLUCOSIDE - MAGNESIUMASCORBYL PHOSPHATE - CAPRYLYL GLYCOL - CITRIC ACID - POLOXAMER 338 - SORBITAN TRISTEARATE XANTHAN GUM - DIMETHICONOL - PHENOXYETHANOL - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy1.jpg?rev=27a78867100e4f138629dfcca1a62160",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy1.jpg?rev=27a78867100e4f138629dfcca1a62160",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy1.jpg?rev=27a78867100e4f138629dfcca1a62160",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy2.jpg?rev=d84454957a3948689c3e45931c5e864a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy3.jpg?rev=bf027e39487f4644b26e0b300f6fdba3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vifafd1.jpg?rev=fd2e4fba259349f194a9d1b0b2575772",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-day-cream-normal-to-combination/vichy4.jpg?rev=659a62b328784a6989a775d1f67e54e4"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-ha-antirutidikh-krema-proswpou",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871328801": {
+    "name": "Liftactiv H.A Αντιρυτιδική Συσφικτική Κρέμα Ημέρας",
+    "subtitle": "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΞΗΡΕΣ ΕΠΙΔΕΡΜΙΔΕΣ. ΔΙΟΡΘΩΝΕΙ ΤΙΣ ΡΥΤΙΔΕΣ, ΕΞΟΜΑΛΥΝΕΙ ΤΟΝ ΤΟΝΟ ΤΗΣ ΕΠΙΔΕΡΜΙΔΑΣ ΚΑΙ ΕΝΙΣΧΥΕΙ ΤΗ ΛΑΜΨΗ.",
+    "description": "Η Liftactiv Hyaluronic Specialist H.A. Αντιρυτιδική-Συσφικτική κρέμα ημέρας της Vichy αποτελεί την απόλυτη καθημερινή αντιρυτιδική περιποίηση που ενισχύει τη σφριγηλότητα της επιδερμίδας και δρα ενάντια στα πρώτα σημάδια γήρανσης. Εμπλουτισμένη με Υαλουρονικό Οξύ, διορθώνει ρυτίδες και τις λεπτές γραμμές, καθιστά ομοιόμορφο τον τόνο της επιδερμίδας & μειώνει δραστικά τη θαμπάδα της. Με πλούσια υφή για να προφέρει άνεση σε πιο ξηρές επιδερμίδες.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς άρωμα",
+      "Χωρίς Paraben"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς άρωμα · Χωρίς Paraben",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Liftactiv Hyaluronic Specialist H.A. Αντιρυτιδική-Συσφικτική κρέμα ημέρας της Vichy αποτελεί την απόλυτη καθημερινή αντιρυτιδική περιποίηση που ενισχύει τη σφριγηλότητα της επιδερμίδας και δρα ενάντια στα πρώτα σημάδια γήρανσης. Εμπλουτισμένη με Υαλουρονικό Οξύ, διορθώνει ρυτίδες και τις λεπτές γραμμές, καθιστά ομοιόμορφο τον τόνο της επιδερμίδας & μειώνει δραστικά τη θαμπάδα της. Με πλούσια υφή για να προφέρει άνεση σε πιο ξηρές επιδερμίδες.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU - GLYCERIN - RHAMNOSE - PRUNUS ARMENIACA KERNEL OIL /APRICOT KERNEL OIL - CAPRYLIC/CAPRIC TRIGLYCERIDE - PENTAERYTHRITYL TETRAETHYLHEXANOATE - CETYLALCOHOL - ZEA MAYS STARCH / CORN STARCH - BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER - PETROLATUM GLYCERYL STEARATE - PENTYLENE GLYCOL - DIMETHICONE - PEG-40 STEARATE - CERA ALBA / BEESWAX / CIREDABEILLE - HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID - ADENOSINE - PENTAERYTHRITYL TETRA-DI-T-BUTYLHYDROXYHYDROCINNAMATE - SODIUM HYALURONATE - TRIETHANOLAMINE - ASCORBYL GLUCOSIDE - MAGNESIUMASCORBYL PHOSPHATE - CAPRYLYL GLYCOL - CITRIC ACID - POLOXAMER 338 - SORBITAN TRISTEARATE XANTHAN GUM - DIMETHICONOL - PHENOXYETHANOL - PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new-a-plus-content/vichyproductskincareliftactivspecialisthadaycreamnormaltocombinationskin50ml3337871328795mrhi-gr-120.jpg?rev=848d0a827d7347ccb49e3abee3c4a57d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new-a-plus-content/vichyproductskincareliftactivspecialisthadaycreamnormaltocombinationskin50ml3337871328795mrhi-gr-120.jpg?rev=848d0a827d7347ccb49e3abee3c4a57d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new-a-plus-content/vichyproductskincareliftactivspecialisthadaycreamnormaltocombinationskin50ml3337871328795mrhi-gr-120.jpg?rev=848d0a827d7347ccb49e3abee3c4a57d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new/vichyproductskincareliftactivspecialisthadaycreamdryskin50ml3337871328801benefits-gr-1200x1200.jpg?rev=90a1a02fa9b444169ebc017f41936041",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new/vichyproductskincareliftactivspecialisthadaycreamdryskin50ml3337871328801clinicalresults-gr-1200x120.jpg?rev=49135bc5a2c84fceab283e6c9229edfc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new/vichyproductskincareliftactivspecialisthadaycreamdryskin50ml3337871328801ingredients-gr-1200x1200.jpg?rev=09ab99efa12c4b8cbae25d37a91e41cc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/ha-anti-wrinkle-firming-cream/new/vichyproductskincareliftactivspecialisthadaycreamnormaltocombinationskin50ml3337871328795proendorsem.jpg?rev=05a8a88536524d479f61d92b36b5fd67"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-ha-antirutidikh-susfiktikh-krema-hmeras",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875719124": {
+    "name": "Liftactiv Αντιρυτιδική & Συσφιγκτική Κρέμα Ημέρας με SPF30",
+    "subtitle": "ΛΕΙΑΙΝΕΙ ΤΙΣ ΡΥΤΙΔΕΣ. ΕΝΙΣΧΥΕΙ ΤΗ ΣΦΡΙΓΗΛΟΤΗΤΑ ΚΑΙ ΠΡΟΣΤΑΤΕΥΕΙ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ.",
+    "description": "Η Liftactiv Hyaluronic Specialist H.A. Αντιρυτιδική-Συσφικτική κρέμα ημέρας με SPF30 αποτελεί την απόλυτη καθημερινή αντιρυτιδική περιποίηση που ενισχύει τη σφριγηλότητα της επιδερμίδας και δρα ενάντια στα πρώτα σημάδια γήρανσης. Εμπλουτισμένη με Υαλουρονικό Οξύ, διορθώνει ρυτίδες και τις λεπτές γραμμές, καθιστά ομοιόμορφο τον τόνο της επιδερμίδας & μειώνει δραστικά τη θαμπάδα της. Με υψηλή προστασία ευρέος φάσματος spf30 για προστασία ενάντια στον ήλιο και τις ακτίνες UV. Κατάλληλη για όλες τις επιδερμίδες.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Liftactiv Hyaluronic Specialist H.A. Αντιρυτιδική-Συσφικτική κρέμα ημέρας με SPF30 αποτελεί την απόλυτη καθημερινή αντιρυτιδική περιποίηση που ενισχύει τη σφριγηλότητα της επιδερμίδας και δρα ενάντια στα πρώτα σημάδια γήρανσης. Εμπλουτισμένη με Υαλουρονικό Οξύ, διορθώνει ρυτίδες και τις λεπτές γραμμές, καθιστά ομοιόμορφο τον τόνο της επιδερμίδας & μειώνει δραστικά τη θαμπάδα της. Με υψηλή προστασία ευρέος φάσματος spf30 για προστασία ενάντια στον ήλιο και τις ακτίνες UV. Κατάλληλη για όλες τις επιδερμίδες.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, GLYCERIN, NIACINAMIDE, RHAMNOSE, DICAPRYLYL ETHER, C12-15 ALKYL BENZOATE, DIISOPROPYL SEBACATE, ETHYLHEXYL TRIAZONE, ALCOHOL DENAT., PROPYLENE GLYCOL, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, POLY C10-30 ALKYL ACRYLATE, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERYL STEARATE, BEHENYL ALCOHOL, SILICA, DROMETRIZOLE TRISILOXANE, ADENOSINE, FAEX EXTRACT / YEAST EXTRACT / EXTRAIT DE LEVURE, HYDROXYACETOPHENONE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, SODIUM ACETYLATED HYALURONATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, ASCORBYL GLUCOSIDE, TOCOPHEROL, CETYL ALCOHOL, CAPRYLYL GLYCOL, DISODIUM ETHYLENE DICOCAMIDE PEG-15 DISULFATE, ETHYLHEXYLGLYCERIN, GLYCERYL STEARATE CITRATE, SODIUM ACRYLATES CROSSPOLYMER-2, SODIUM POLYACRYLATE, CI 15985 / YELLOW 6, PHENOXYETHANOL, PARFUM / FRAGRANCE (F.I.L. N70037718/1)."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy4.jpg?rev=87afd95b62ab4e04a9921df362b3166e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy4.jpg?rev=87afd95b62ab4e04a9921df362b3166e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy4.jpg?rev=87afd95b62ab4e04a9921df362b3166e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy2.jpg?rev=5002bdaca7f24df5b4c1a68534f8cfeb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy1.jpg?rev=f3d87964ccb042858c334206325c6e0a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vi8b931.jpg?rev=70bd21c1eb3e400aa0c6b7a5c488abb4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vie4861.jpg?rev=98b8aa06983549abb29cd98573a4c585",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv--specialist-ha-day-cream-with-spf30/vichy3.jpg?rev=9313744d19e644a2bcbafadbdbc70a65"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-antirutidikh-susfigktikh-krema-hmeras-me-spf30",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875832724": {
+    "name": "Liftactiv Pigment Specialist B3 Κρέμα για Κηλίδες με SPF50",
+    "subtitle": "ΔΙΟΡΘΩΝΕΙ ΤΙΣ ΚΗΛΙΔΕΣ",
+    "description": "Η LIFTACTIV PIGMENT SPECIALIST B3 DAY CREAM SPF50 είναι εμπλουτισμένη με Νιασιναμίδη Β3 και Melasyl για στόχευση των κηλίδων και των ρυτίδων. Διαθέτει SPF50 για προστασία από τον ήλιο.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό"
+    },
+    "sections": {
+      "Περιγραφή": "Η LIFTACTIV PIGMENT SPECIALIST B3 DAY CREAM SPF50 είναι εμπλουτισμένη με Νιασιναμίδη Β3 και Melasyl για στόχευση των κηλίδων και των ρυτίδων.\nΔιαθέτει SPF50 για προστασία από τον ήλιο.",
+      "Οφέλη": "Αυτή η κρέμα ημέρας εξασφαλίζει κλινικά αποδεδειγμένη μείωση όλων των τύπων κηλίδων, ενώ ταυτόχρονα παρέχει ευρέος φάσματος προστασία με SPF50 για να θωρακίζει την επιδερμίδα ενάντια στην ακτινοβολία UV. Σταδιακά, οι κηλίδες απαλύνονται, ο τόνος της επιδερμίδας γίνεται πιο ομοιόμορφος, οι ρυτίδες λειαίνονται.",
+      "Υφή": "Ανάλαφρη, μεταξένια κρέμα με υπόλευκη υφή. Απορροφάται γρήγορα, χωρίς κολλώδες ή λιπαρό τελείωμα. Δεν περιέχει άρωμα, και προσφέρει ενυδατική, καταπραϋντική αίσθηση κατά την εφαρμογή.",
+      "Συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ\nΒελτιώνει τη λάμψη, δίνει ομοιομορφία στον τόνο της επιδερμίδας.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nMELASYL\nΜειώνει ορατά τις επίμονες κηλίδες, ρυθμίζοντας την περίσσεια μελανίνης πριν οδηγήσει στον σχηματισμό δυσχρωμιών.\nINCI: AQUA / WATER ● GLYCERIN ● ETHYLHEXYL SALICYLATE ● ETHYLHEXYL TRIAZONE ● ALCOHOL DENAT. ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● DIMETHICONE ● LAUROYL LYSINE ● BUTYL METHOXYDIBENZOYLMETHANE ● NIACINAMIDE ● OCTYLDODECANOL ● BEHENYL ALCOHOL ● ISOPROPYL ISOSTEARATE ● PERLITE ● ALUMINUM STARCH OCTENYLSUCCINATE ● CETYL ALCOHOL ● ADENOSINE ● CAPRYLOYL SALICYLIC ACID ● CYSTOSEIRA TAMARISCIFOLIA EXTRACT ● HYDROXYACETOPHENONE ● SODIUM ACETYLATED HYALURONATE ● SODIUM HYALURONATE ● SODIUM HYDROXIDE ● SODIUM THIOSULFATE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● 2-MERCAPTONICOTINOYL GLYCINE ● TOCOPHEROL ● ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER ● AMMONIUM POLYACRYLOYLDIMETHYL TAURATE ● CAPRYLYL GLYCOL ● CETEARYL ALCOHOL ● CETEARYL GLUCOSIDE ● ISOHEXADECANE ● MYRISTIC ACID ● PALMITIC ACID ● PEG-100 STEARATE ● POLY C10-30 ALKYL ACRYLATE ● POLYSORBATE 80 ● SODIUM POLYACRYLATE STARCH ● SODIUM STEAROYL GLUTAMATE ● SORBITAN OLEATE ● STEARIC ACID ● CI 16035 / RED 40 ● PARFUM / FRAGRANCE ●",
+      "Χρήση": "Εφαρμόστε κάθε πρωί, μετά από τον ορό σας*.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.\n* Αποφύγετε το περίγραμμα των ματιών."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/vichy-liftactiv-b3-day-cream-website-pdp-mosaic-1.png?rev=597c96956af941d1a7b62a34466efa34",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/vichy-liftactiv-b3-day-cream-website-pdp-mosaic-1.png?rev=597c96956af941d1a7b62a34466efa34",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/vichy-liftactiv-b3-day-cream-website-pdp-mosaic-1.png?rev=597c96956af941d1a7b62a34466efa34",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-day-cream50ml3337875832724awards-gr-1200x1200.jpg?rev=26d821a5d8184e73b765220d2080e8e8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-day-cream50ml3337875832724keybenefits1-gr-716x716.jpg?rev=b71cac07ba4a4acfb7ff5cd8195a9e6a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-day-cream50ml3337875832724clinicalresults-gr-1200x1.jpg?rev=df23a394cc3a4d6a96be420c21fa344a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905beforeafter-gr-1200x1200.jpg?rev=4c53063fcc69493c8c25b1d6aec92307",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-day-cream50ml3337875832724texture-gr-1200x1200.jpg?rev=b38497daebad49cebd3ac802e3e2dcbf",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905proendorsement-gr-1200x1200.jpg?rev=8d8a733544bd496485fd88bceb52dc50"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-pigment-specialist-b3-krema-gia-khlides-me-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875921947": {
+    "name": "Liftactiv Refill Collagen Specialist 16 SPF50 Αντιρυτιδική Κρέμα",
+    "subtitle": "Ενισχύει όλους τους τύπους κολλαγόνου. Προστατεύει από την ακτινοβολία UV.",
+    "description": "Vichy Liftactiv Collagen Specialist 16 SPF50 Cream με τη νέα, αποκλειστική τεχνολογία Co-Bonding, με Ραμνόζη, Πεπτίδια και Maitake, που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*. Τώρα, με SPF50 για προστασία από την καθημερινή έκθεση στον ήλιο. Η σύνθεση αυτή διορθώνει 16 σημάδια γήρανσης**, δρώντας στις εξής παραμέτρους: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, «γέμισμα», χαλάρωση, λείανση, ανάγλυφο, τονικότητα, ενδυνάμωση, επιδερμιδική κυτταρική ανανέωση, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία τόνου. Είναι κλινικά αποδεδειγμένο ότι αυτή η κρέμα ενισχύει όλους τους τύπους κολλαγόνου κατά 175%*. * * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Vichy Liftactiv Collagen Specialist 16 SPF50 Cream με τη νέα, αποκλειστική τεχνολογία Co-Bonding, με Ραμνόζη, Πεπτίδια και Maitake, που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου*. Τώρα, με SPF50 για προστασία από την καθημερινή έκθεση στον ήλιο. Η σύνθεση αυτή διορθώνει 16 σημάδια γήρανσης**, δρώντας στις εξής παραμέτρους: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, «γέμισμα», χαλάρωση, λείανση, ανάγλυφο, τονικότητα, ενδυνάμωση, επιδερμιδική κυτταρική ανανέωση, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία τόνου. Είναι κλινικά αποδεδειγμένο ότι αυτή η κρέμα ενισχύει όλους τους τύπους κολλαγόνου κατά 175%*.\n* * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+      "Οφέλη": "+175% ενίσχυση του κολλαγόνου*.\nΔιόρθωση 16 σημαδιών γήρανσης**.\n83% όσων τη δοκίμασαν παρατήρησαν πιο σφριγηλή επιδερμίδα***.\nΠροστασία από την καθημερινή έκθεση στον ήλιο.\n* * Μελέτη in vitro για τα ενεργά συστατικά, με βάση το κολλαγόνο Ι και ΙΙΙ. ** Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης. *** Αυτοαξιολόγηση, 59 άτομα, 6 εβδομάδες.",
+      "Υφή": "Μεταξένια κρεμώδης υφή. Απορροφάται γρήγορα προσφέροντας αίσθηση ενυδάτωσης κατά την εφαρμογή. Μη κολλώδης. Χωρίς άρωμα.",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε κάθε πρωί, σε στεγνή επιδερμίδα.\nΜΑΣΑΖ\nΑπλώστε με απαλές κινήσεις έως ότου απορροφηθεί πλήρως.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, GLYCERIN, ETHYLHEXIL SALICYLATE, ETHYLHEXYL TRIAZONE, ALCOHOL DENAT., BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIMETHICONE, LAUROYL LYSINE, BUTYL METHOXYDIBENZOYLMETHANE, NIACINAMIDE, OCTYLDODECANOL, BEHENYL ALCOHOL, ISOPROPYL ISOSTEARATE, PERLITE, ALUMINUM STARCH OCTENYLSUCCINATE, CETYL ALCOHOL, ADENOSINE, CAPRYLOYL SALICYLIC ACID, CITRIC ACID, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, PHAMNOSE, SODIUM ACETYLATED HYALURONATE, SODIUM HYALURONATE, SR-TETRA (TETRA SH-POLYPEPTIDE-69 DIPEPTIDE-78) OLIGOPEPTIDE-252, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, TOCOPHEROL, ACRYLAMIDE/SODIUM ACRYLOYL DIMETHYLTAURATE COPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, CETARYL ALCOHOL, CETEARYL GLUCOSIDE, ISOHEXADECANE, MALTODEXTRIN, MYRISTIC ACID, PALMITIC ACID, PEG-100 STEARATE, PENTYLENE GLYCOL, POLYC10-30 ALKYL ACRYLATE, POLYSORBATE 20, POLYSORBATE 80, SODIUM CHLORIDE, SODIUM LACTATE, SODIUM PHOSPHATE, SODIUM POLYACRYLATE STARCH, SODIUM STEAROYL GLUTAMATE, SORBITAN OLEATE, STEARIC ACID, CI 15985 / YELLOW 6, CI 16035 / RED 40, PARFUM / FRAGRANCE."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/3337875921947_1.jpg?rev=cb687e889f0942c787eb8ec661cc0c64",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/3337875921947_1.jpg?rev=cb687e889f0942c787eb8ec661cc0c64",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/3337875921947_1.jpg?rev=cb687e889f0942c787eb8ec661cc0c64",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-refill-key-benefits-gr.jpg?rev=f97b8c81ebe54fdea2359f9b77d1316b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-refill-clinical-results-gr.jpg?rev=2c333568163847bb847fd37c873ec205",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/vichy-product-liftactiv-collagen-16-day-cream-spf50-ingredients-gr.jpg?rev=2cab6b56038245d290406524b6438104",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-spf50-refill/3337875921947_7.jpg?rev=e39ad2e1175640a4a32fef98e03f5deb"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/liftactiv-refill-collagen-specialist-16-spf50-antirutidikh-krema",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875930611": {
+    "name": "Neovadiol Longevity Κρέμα Αναδόμησης Προσώπου",
+    "subtitle": "Ορατή αναπλήρωση του όγκου σε 5 βασικές περιοχές του προσώπου",
+    "description": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με τη Vichy Neovadiol Longevity Revolumizing Cream. Μετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό, γεγονός που οδηγεί σε απώλεια του όγκου. Vichy Neovadiol Longevity Revolumizing Cream με 13% Longevisia Technology™ [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία –προϊόν 20+ ετών έρευνας στον τομέα της Μακροζωίας– που αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%1. Η σύνθεση είναι ενσωματωμένη σε μια πολυτελή, πλούσια υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή, προσφέροντάς της αίσθηση θρέψης και μεταξένια απαλότητα. Αμέσως, η επιδερμίδα θρέφεται σε βάθος και γίνεται πιο σφριγηλή. Μέρα με τη μέρα, σε κυτταρικό επίπεδο, τα κύτταρα ανακτούν τη δύναμή τους να δημιουργούν νέο ιστό1. Ο όγκος αναπληρώνεται ορατά σε 5 βασικές περιοχές του προσώπου. Έως και +42% περισσότερος όγκος2. 1 Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες. 2 Έως +42% περισσότερος όγκος στα ζυγωματικά.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με τη Vichy Neovadiol Longevity Revolumizing Cream.\nΜετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό, γεγονός που οδηγεί σε απώλεια του όγκου.\nVichy Neovadiol Longevity Revolumizing Cream με 13% Longevisia Technology™ [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία –προϊόν 20+ ετών έρευνας στον τομέα της Μακροζωίας– που αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%1.\nΗ σύνθεση είναι ενσωματωμένη σε μια πολυτελή, πλούσια υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή, προσφέροντάς της αίσθηση θρέψης και μεταξένια απαλότητα. Αμέσως, η επιδερμίδα θρέφεται σε βάθος και γίνεται πιο σφριγηλή. Μέρα με τη μέρα, σε κυτταρικό επίπεδο, τα κύτταρα ανακτούν τη δύναμή τους να δημιουργούν νέο ιστό1. Ο όγκος αναπληρώνεται ορατά σε 5 βασικές περιοχές του προσώπου. Έως και +42% περισσότερος όγκος2.\n1 Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες.\n2 Έως +42% περισσότερος όγκος στα ζυγωματικά.",
+      "Υφή": "Μοναδική, πολυστρωματική υφή, σχεδιασμένη να μιμείται τη δομή της ίδιας της επιδερμίδας για απαράμιλλη απορρόφηση και αίσθηση: υφή πλούσια στο άγγιγμα, που λιώνει στην επιδερμίδα κατά την εφαρμογή, αφήνοντας μια μεταξένια αίσθηση.",
+      "Συστατικά": "ΤΕΧΝΟΛΟΓΙΑ LONGEVISIA\nΤΕΧΝΟΛΟΓΙΑ LONGEVISIA Πρωτοποριακή τεχνολογία που συγκεντρώνει πάνω από 20 χρόνια έρευνας στην Επιστήμη της Μακροζωίας και 30 χρόνια εξειδίκευσης στην περιποίηση της ώριμης επιδερμίδας. Αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%*.\nPRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, GLYCERIN, BUTYROSPERMUMPARKII BUTTER / SHEA BUTTER, NIACINAMIDE, CERA ALBA / BEESWAX / CIRE DABEILLE, DIMETHICONE, PENTYLENE GLYCOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, OLEYL ALCOHOL, MYRISTYL MYRISTATE, PROPYLENE GLYCOL, ARACHIDYL ALCOHOL, PANTHENOL, ISONONYL ISONONANOATE, PENTAERYTHRITYL TETRAISOSTEARATE, GINKGO BILOBA LEAF EXTRACT, CITRICACID, CERAMIDE NP, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, ADENOSINE, ARACHIDYL GLUCOSIDE, BEHENYL ALCOHOL, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, GLYCERYL STEARATE, MYRISTIC ACID, PALMITIC ACID, PEG-100 STEARATE, POTASSIUM HYDROXIDE, SODIUM HYALURONATE, SODIUM POLYACRYLATE, STEARIC ACID, TRISODIUM ETHYLENEDIAMINEDISUCCINATE, XANTHAN GUM, 4-T-BUTYLCYCLOHEXANOL, BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE, CHLORPHENESIN, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε κάθε πρωί, μετά από τον ορό Longevity.\nΜΑΣΑΖ\nΑπλώστε απαλά, έως ότου απορροφηθεί πλήρως."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/reno-vichy-neovadiol-longevity/vichyproductneovadiollongevitydaycream50ml3337875930611atfpackshotfront-gr-728x820.png?rev=dabdbc4759e54f97b8c5440979455c38",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/reno-vichy-neovadiol-longevity/vichyproductneovadiollongevitydaycream50ml3337875930611atfpackshotfront-gr-728x820.png?rev=dabdbc4759e54f97b8c5440979455c38",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/reno-vichy-neovadiol-longevity/vichyproductneovadiollongevitydaycream50ml3337875930611atfpackshotfront-gr-728x820.png?rev=dabdbc4759e54f97b8c5440979455c38",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/content-block/vichyproductskincareneovadiollongevitycream3337875930611atfbeforeafter-gr-1200x1200.jpg?rev=1bcb3245044549f5b01a29dd9c474e27",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/vichyproductskincareneovadiollongevitycream3337875930611atftechnology-gr-1200x1200.jpg?rev=d96f9b8b4bf248a28d947e10b9f32223",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/content-block/vichy-neovadiol-longevity-cream-website-pdp-brief-mosaic-6.png?rev=9be27b0b90d4427fb70dfde11b13f87b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/content-block/vichy-neovadiol-longevity-cream-website-pdp-brief-mosaic-7.png?rev=9a1f7787bdeb482b930f287ab6e0fb58",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/vichyproductskincareneovadiollongevitycream3337875930611atfroutine-gr-1200x1200.jpg?rev=50eaa4158d6244b69543fc17004b57e4"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/neovadiol-longevity-krema-anadomhshs-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875930581": {
+    "name": "Neovadiol Refill Longevity Κρέμα για Αναδόμηση Προσώπου",
+    "subtitle": "Ορατή αναπλήρωση του όγκου σε 5 βασικές περιοχές του προσώπου",
+    "description": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με τη Vichy Neovadiol Longevity Revolumizing Cream. Μετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό, γεγονός που οδηγεί σε απώλεια του όγκου σε 5 βασικές περιοχές του προσώπου. Vichy Neovadiol Longevity Revolumizing Cream με 13% Longevisia Technology™ [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία –προϊόν 20+ ετών έρευνας στον τομέα της Μακροζωίας– που αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%1. Μέρα με τη μέρα, ο όγκος αναπληρώνεται ορατά σε 5 περιοχές-κλειδί: στο μέτωπο, στην περιοχή των ματιών, στα ζυγωματικά, στις γωνίες του στόματος και στο περίγραμμα του προσώπου. Έως και +42% περισσότερος όγκος2. 1 Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες. 2 Έως +42% περισσότερος όγκος στα ζυγωματικά.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Αντιγηραντικές",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με τη Vichy Neovadiol Longevity Revolumizing Cream.\nΜετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό, γεγονός που οδηγεί σε απώλεια του όγκου σε 5 βασικές περιοχές του προσώπου.\nVichy Neovadiol Longevity Revolumizing Cream με 13% Longevisia Technology™ [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία –προϊόν 20+ ετών έρευνας στον τομέα της Μακροζωίας– που αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%1.\nΜέρα με τη μέρα, ο όγκος αναπληρώνεται ορατά σε 5 περιοχές-κλειδί: στο μέτωπο, στην περιοχή των ματιών, στα ζυγωματικά, στις γωνίες του στόματος και στο περίγραμμα του προσώπου. Έως και +42% περισσότερος όγκος2.\n1 Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες.\n2 Έως +42% περισσότερος όγκος στα ζυγωματικά.",
+      "Υφή": "Μοναδική, πολυστρωματική υφή, σχεδιασμένη να μιμείται τη δομή της ίδιας της επιδερμίδας για απαράμιλλη απορρόφηση και αίσθηση: υφή πλούσια στο άγγιγμα, που λιώνει στην επιδερμίδα κατά την εφαρμογή αφήνοντας μεταξένια αίσθηση.",
+      "Συστατικά": "ΤΕΧΝΟΛΟΓΙΑ LONGEVISIA\nΤΕΧΝΟΛΟΓΙΑ LONGEVISIA Πρωτοποριακή τεχνολογία που συγκεντρώνει πάνω από 20 χρόνια έρευνας στην Επιστήμη της Μακροζωίας και 30 χρόνια εξειδίκευσης στην περιποίηση της ώριμης επιδερμίδας. Αποκαθιστά τη δύναμη αναγέννησης των κυττάρων, οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%*.\nPRO-XYLANE\n«Γεμίζει» και συσφίγγει την επιδερμίδα, απαλύνει τις ρυτίδες, μειώνει τη χαλάρωση.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, GLYCERIN, BUTYROSPERMUMPARKII BUTTER / SHEA BUTTER, NIACINAMIDE, CERA ALBA / BEESWAX / CIRE DABEILLE, DIMETHICONE, PENTYLENE GLYCOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, OLEYL ALCOHOL, MYRISTYL MYRISTATE, PROPYLENE GLYCOL, ARACHIDYL ALCOHOL, PANTHENOL, ISONONYL ISONONANOATE, PENTAERYTHRITYL TETRAISOSTEARATE, GINKGO BILOBA LEAF EXTRACT, CITRICACID, CERAMIDE NP, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, ADENOSINE, ARACHIDYL GLUCOSIDE, BEHENYL ALCOHOL, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, GLYCERYL STEARATE, MYRISTIC ACID, PALMITIC ACID, PEG-100 STEARATE, POTASSIUM HYDROXIDE, SODIUM HYALURONATE, SODIUM POLYACRYLATE, STEARIC ACID, TRISODIUM ETHYLENEDIAMINEDISUCCINATE, XANTHAN GUM, 4-T-BUTYLCYCLOHEXANOL, BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE, CHLORPHENESIN, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PARFUM / FRAGRANCE.Fil Code: N70057840/1",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε κάθε πρωί, μετά από τον ορό Longevity.\nΜΑΣΑΖ\nΑπλώστε απαλά, έως ότου απορροφηθεί πλήρως."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_1.jpg?rev=1c546cc3faf046788523672f0a9520d5",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_1.jpg?rev=1c546cc3faf046788523672f0a9520d5",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_1.jpg?rev=1c546cc3faf046788523672f0a9520d5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_8.jpg?rev=485305e6f02942029d5498f2fec3b991",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_2.jpg?rev=39b99886c6254c75a9445a824b423164",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_4.jpg?rev=97d8ce24c0a849f8a5d2f2455b159b57",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_3.jpg?rev=cde179bc824c430aa33a7ae28ac3a19f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_7.jpg?rev=1ede1c464fe043e1a6c4ced632bbde51",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-revolumizing-cream-refill/3337875930581_6.jpg?rev=94062e9e6fc44d84b554f60e89f98b6c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/antighrantikes/neovadiol-refill-longevity-krema-gia-anadomhsh-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875839501": {
+    "name": "Mineral 89 100H Ενυδατική Κρέμα με Πλούσια Υφή",
+    "subtitle": "Ενισχύει τον επιδερμιδικό φραγμό.",
+    "description": "Λόγω της έκθεσης στους επιθετικούς παράγοντες της καθημερινότητας, ο φυσικός φραγμός υγρασίας της επιδερμίδας εξασθενεί. Αυτό έχει ως συνέπεια η επιδερμίδα να χάνει ζωτικά στοιχεία: νερό, μεταλλικά στοιχεία, λιπίδια, βιταμίνες, και υαλουρονικό οξύ. Η Vichy έχει τη λύση, και είναι η MINERAL 89 Κρέμα Booster Ενυδάτωσης 100Η με πλούσια υφή. Για πρώτη φορά, τα εργαστήρια VICHY συγκεντρώνουν όλα αυτά τα ζωτικά στοιχεία για την επιδερμίδα μαζί (υαλουρονικό οξύ, βιταμίνες B3 & E, σκουαλάνιο και εκατομμύρια μεταλλικά στοιχεία από το ηφαιστειακό νερό της Vichy) με λιπίδια φυσικής προέλευσης σε μία κρέμα πλούσιας υφής που αναπληρώνει τα επίπεδα λιπιδίων της επιδερμίδας, επαναφέρει τη λειτουργία του επιδερμικού φραγμού και εξασφαλίζει ενυδάτωση μεγάλης διάρκειας. Ενισχύει τον επιδερμιδικό φραγμό, χάρη σε δραστικά συστατικά που διεισδύουν 3 στιβάδες βαθιά στην επιδερμίδα, προσφέροντάς της αποτελεσματική ενυδάτωση για 3 ημέρες. Η μοναδική της ασφαλής και ταυτόχρονα μινιμαλιστική σύνθεση (χωρίς σιλικόνη, χωρίς χρωστικές, χωρίς φαινοξυαιθανόλη, χωρίς EDTA, χωρίς BHT, χωρίς θειικά άλατα) έχει δοκιμαστεί σε ευαίσθητο δέρμα από δερματολόγους. Τα δερματολογικά δραστικά συστατικά της ενδυναμώνουν τον επιδερμικό φραγμό, ενυδατώνοντας και αναζωογονώντας τα κύτταρα της επιδερμίδας, ενώ παράλληλα ενισχύουν τη δομή της. Η επιδερμίδα τονώνεται, ενυδατώνεται και αποκτά περισσότερο λαμπερή και υγιή όψη. Πλούσια υφή, κατάλληλη για ξηρή επιδερμίδα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές"
+    },
+    "sections": {
+      "Περιγραφή": "Λόγω της έκθεσης στους επιθετικούς παράγοντες της καθημερινότητας, ο φυσικός φραγμός υγρασίας της επιδερμίδας εξασθενεί. Αυτό έχει ως συνέπεια η επιδερμίδα να χάνει ζωτικά στοιχεία: νερό, μεταλλικά στοιχεία, λιπίδια, βιταμίνες, και υαλουρονικό οξύ. Η Vichy έχει τη λύση, και είναι η MINERAL 89 Κρέμα Booster Ενυδάτωσης 100Η με πλούσια υφή.\nΓια πρώτη φορά, τα εργαστήρια VICHY συγκεντρώνουν όλα αυτά τα ζωτικά στοιχεία για την επιδερμίδα μαζί (υαλουρονικό οξύ, βιταμίνες B3 & E, σκουαλάνιο και εκατομμύρια μεταλλικά στοιχεία από το ηφαιστειακό νερό της Vichy) με λιπίδια φυσικής προέλευσης σε μία κρέμα πλούσιας υφής που αναπληρώνει τα επίπεδα λιπιδίων της επιδερμίδας, επαναφέρει τη λειτουργία του επιδερμικού φραγμού και εξασφαλίζει ενυδάτωση μεγάλης διάρκειας.\nΕνισχύει τον επιδερμιδικό φραγμό, χάρη σε δραστικά συστατικά που διεισδύουν 3 στιβάδες βαθιά στην επιδερμίδα, προσφέροντάς της αποτελεσματική ενυδάτωση για 3 ημέρες.\nΗ μοναδική της ασφαλής και ταυτόχρονα μινιμαλιστική σύνθεση (χωρίς σιλικόνη, χωρίς χρωστικές, χωρίς φαινοξυαιθανόλη, χωρίς EDTA, χωρίς BHT, χωρίς θειικά άλατα) έχει δοκιμαστεί σε ευαίσθητο δέρμα από δερματολόγους.\nΤα δερματολογικά δραστικά συστατικά της ενδυναμώνουν τον επιδερμικό φραγμό, ενυδατώνοντας και αναζωογονώντας τα κύτταρα της επιδερμίδας, ενώ παράλληλα ενισχύουν τη δομή της. Η επιδερμίδα τονώνεται, ενυδατώνεται και αποκτά περισσότερο λαμπερή και υγιή όψη.\nΠλούσια υφή, κατάλληλη για ξηρή επιδερμίδα.",
+      "Συστατικά": "Ιαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη, γνωστή για τις αποδεδειγμένες αντιοξειδωτικές ιδιότητες και τη βελτίωση του επιδερμικού φραγμού, που προσφέρει.\nΒΙΤΑΜΙΝΗ Ε\nΗ βιταμίνη Ε έχει ισχυρές αντιοξειδωτικές ιδιότητες για να προστατεύει από την οξείδωση των κυττάρων.\nΣΚΟΥΑΛΑΝΙΟ\nΛιπίδιο χαμηλού μοριακού βάρους, που ενυδατώνει και θρέφει την επιδερμίδα.\nINCI: AQUA / WATER / EAU - GLYCERIN - DICAPRYLYL ETHER - PENTYLENE GLYCOL - POLYGLYCERYL-6 DISTEARATE - NIACINAMIDE - PROPANEDIOL - CETYL ESTERS - JOJOBA ESTERS - CETEARYL ISONONANOATE - SQUALANE - BEHENYL ALCOHOL - ADENOSINE - CAPRYLOYL SALICYLIC ACID - HYDROXYACETOPHENONE - MINERAL SALTS - SODIUM HYALURONATE - TRISODIUM ETHYLENEDIAMINE DISUCCINATE - VITREOSCILLA FERMENT - TOCOPHEROL - ACACIA DECURRENS FLOWER CERA / ACACIA DECURRENS FLOWER WAX - ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER - CETYL ALCOHOL - HELIANTHUS ANNUUS SEED CERA / SUNFLOWER SEED WAX - HYDROXYPROPYL STARCH PHOSPHATE - ISOHEXADECANE - POLYGLYCERIN-3 - POLYGLYCERYL-3 BEESWAX - POLYSORBATE 80 - SODIUM STEAROYL GLUTAMATE - SORBITAN OLEATE - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501mrhi-728x820.png?rev=ecba8a4d78dc40a3b9422713bc5f83ee",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501mrhi-728x820.png?rev=ecba8a4d78dc40a3b9422713bc5f83ee",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501mrhi-728x820.png?rev=ecba8a4d78dc40a3b9422713bc5f83ee",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501howto-gr-716x716.jpg?rev=106e22f54d3048e69fd5a00ca80b2413",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501keybenefits-gr-716x716.jpg?rev=b16b28b78aaa4efd9a0fe215df91ccbc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501routine-gr-716x716.jpg?rev=824b0ed94ec44236b3494cd002c775c5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501safety-gr-716x716.jpg?rev=5cdacc18e2d148f6bcbcf6a844d40164",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichymineral-89100hmoistureboostingcream50ml3337875839501texture-gr-716x716.jpg?rev=2a9e3609b56b4183a645e32ff7118320"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-100h-enudatikh-krema-me-plousia-ufh",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875894104": {
+    "name": "Mineral 89 48H Moisture Matte Sorbet Ενυδατική Κρέμα Προσώπου",
+    "subtitle": "ΕΝΥΔΑΤΩΝΕΙ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ. ΕΞΑΣΦΑΛΙΖΕΙ ΜΑΤ ΟΨΗ.",
+    "description": "Το Minéral 89 48H Moisture Matte Sorbet προσφέρει στην επιδερμίδα μακράς διάρκειας ενυδάτωση, με ανάλαφρη και δροσιστική αίσθηση. Είναι σχεδιασμένο να μην φράζει τους πόρους, ώστε να είναι ιδανικό για μικτές και λιπαρές επιδερμίδες.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Χωρίς Χρωστικές",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ",
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
+      "Δερματολογικά": "Χωρίς άρωμα · Χωρίς Χρωστικές · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Minéral 89 48H Moisture Matte Sorbet προσφέρει στην επιδερμίδα μακράς διάρκειας ενυδάτωση, με ανάλαφρη και δροσιστική αίσθηση. Είναι σχεδιασμένο να μην φράζει τους πόρους, ώστε να είναι ιδανικό για μικτές και λιπαρές επιδερμίδες.",
+      "Οφέλη": "Τζελ που προσφέρει 48 ώρες ενυδάτωσης***, ενώ ταυτόχρονα εξασφαλίζει αμέσως ματ αποτέλεσμα**.\nΚατά την εφαρμογή, μειώνει τη θερμοκρασία της επιδερμίδας κατά 2°C* προσφέροντας αναζωογονητική, δροσιστική αίσθηση.\nΗ επιδερμίδα εξυγιαίνεται και γίνεται πιο καθαρή και λιγότερο λιπαρή**.\n* * Κλινική δοκιμή, 27 άτομα 28-64 ετών. ** Κλινική δοκιμή SEBUMETER, 24 άτομα, μετά από 15 λεπτά. *** Δοκιμή με Corneometer, 24 άτομα 37-70 ετών, 48 ώρες.",
+      "Υφή": "Δροσιστική, τζελ υφή «sorbet» που λιώνει μόλις έρθει σε επαφή με την επιδερμίδα και απορροφάται πλήρως εξασφαλίζοντας ματ αποτέλεσμα.\nΜη λιπαρή.\nΜη κολλώδης.\nΙδανική βάση για μακιγιάζ.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΗΦΑΙΣΤΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ιαματικό Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΚαταπολεμά τις ατέλειες και τα μαύρα στίγματα, χάρη στις απολεπιστικές και αντιφλεγμονώδεις ιδιότητές του. Μειώνει την περίσσεια σμήγματος.\nΠΟΥΔΡΑ ΜΑΤ ΑΠΟΤΕΛΕΣΜΑΤΟΣ\nΕξασφαλίζει αμέσως ματ αποτέλεσμα.",
+      "Χρήση": "Εφαρμόστε αρκετή ποσότητα στο πρόσωπο, πρωί και βράδυ\nΓια ένα ολοκληρωμένο πρόγραμμα περιποίησης, χρησιμοποιήστε πρώτα το Min&eacute;ral 89 Booster Serum, συνεχίστε με το Min&eacute;ral 89 Eye Fortifier και ολοκληρώστε με το Min&eacute;ral 89 48H Matte Sorbet.\nΣε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-1.png?rev=b1d25c534cb044f49b462c9e5d6eae41",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-1.png?rev=b1d25c534cb044f49b462c9e5d6eae41",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-1.png?rev=b1d25c534cb044f49b462c9e5d6eae41",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-content-block-3-mobile.jpg?rev=c1ebe31666d14162bd15e8926076ef93",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-3.jpg?rev=b2159a2d5838430fa2f66b271042914f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-4.jpg?rev=35475331fbb14f4fa8ab134d8d6ffa30",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89---48h-moisture-matte-sorbet/vichy-mineral89-matte-sorbet-website-pdp-mosaic-5.jpg?rev=d72bd17072d94452be4895d90d8f1252"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-48h-moisture-matte-sorbet-enudatikh-krema-proswpou",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875947541": {
+    "name": "Mineral 89 48H Moisture Matte Sorbet Tube Ενυδατική Κρέμα Προσώπου",
+    "subtitle": "Εξασφαλίζει μακράς διάρκειας ενυδάτωση, για 48 ώρες. Δροσιστική αίσθηση. Χωρίς άρωμα.",
+    "description": "Ανακαλύψτε το νέο Min&eacute;ral 89 48H Moisture Matte Sorbet Tube, ένα τζελ χωρίς άρωμα που προσφέρει στην επιδερμίδα μακράς διάρκειας ενυδάτωση, με ανάλαφρη και δροσιστική αίσθηση. Σχεδιασμένο να μην φράζει τους πόρους, ώστε να είναι ιδανικό για λιπαρές επιδερμίδες. Χρησιμοποιεί 4x λιγότερα υλικά συσκευασίας σε σύγκριση με το βαζάκι των 50 ml. Κλινικά αποδεδειγμένα αποτελέσματα: • Εξασφαλίζει αμέσως ματ αποτέλεσμα*. • Μειώνει τη θερμοκρασία της επιδερμίδας κατά 2°C**. • Ενδυναμώνει τον επιδερμιδικό φραγμό. * * Κλινική μελέτη SEBUMETER, 24 άτομα, 15 λεπτά μετά από τη χρήση. ** Κλινική μελέτη, 27 άτομα 28-64 ετών.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε το νέο Min&eacute;ral 89 48H Moisture Matte Sorbet Tube, ένα τζελ χωρίς άρωμα που προσφέρει στην επιδερμίδα μακράς διάρκειας ενυδάτωση, με ανάλαφρη και δροσιστική αίσθηση.\nΣχεδιασμένο να μην φράζει τους πόρους, ώστε να είναι ιδανικό για λιπαρές επιδερμίδες.\nΧρησιμοποιεί 4x λιγότερα υλικά συσκευασίας σε σύγκριση με το βαζάκι των 50 ml.\nΚλινικά αποδεδειγμένα αποτελέσματα:\n• Εξασφαλίζει αμέσως ματ αποτέλεσμα*.\n• Μειώνει τη θερμοκρασία της επιδερμίδας κατά 2°C**.\n• Ενδυναμώνει τον επιδερμιδικό φραγμό.\n* * Κλινική μελέτη SEBUMETER, 24 άτομα, 15 λεπτά μετά από τη χρήση. ** Κλινική μελέτη, 27 άτομα 28-64 ετών.",
+      "Οφέλη": "Ενυδατώνει.\nΔροσίζει.\nΜειώνει τη θερμοκρασία της επιδερμίδας.\nΕνδυναμώνει τον επιδερμιδικό φραγμό.",
+      "Υφή": "Υφή που λιώνει μόλις έρθει σε επαφή με την επιδερμίδα και απορροφάται γρήγορα με πολύ ευχάριστη αίσθηση.\nΜη λιπαρή. Μη κολλώδης.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΗΦΑΙΣΤΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ιαματικό Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nINCI: Aqua / Water / Eau, Glycerin, Alcohol Denat., Niacinamide, Butylene Glycol, Sodium Carbomer, Squalane, Citric Acid, Hydroxyacetophenone, Mineral Salts, Sodium Hyaluronate, Sodium Hydroxide, Trisodium Ethylenediamine Disuccinate, Dipotassium Glycyrrhizate, Silica, Biosaccharide Gum-1, Caprylyl Glycol, Glyceryl Isostearate, Maltodextrin, Xanthan Gum, Salicylic Acid.",
+      "Χρήση": "ΤΟΝΩΣΗ\nΞεκινήστε την περιποίησή σας εφαρμόζοντας το Minéral 89 Booster Serum σε καθαρή επιδερμίδα.\nΕΝΔΥΝΑΜΩΣΗ\nΈπειτα, εφαρμόστε απαλά το Min&eacute;ral 89 Eye Fortifier στο περίγραμμα των ματιών.\nΕΝΥΔΑΤΩΣΗ\nΟλοκληρώστε την περιποίηση της επιδερμίδας σας με το Minéral 89 48H Moisture Matte Sorbet, πρωί & βράδυ."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfmrhi-gr-728x820.png?rev=4814d6cc08ee4d8d859ee72755da6a50",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfmrhi-gr-728x820.png?rev=4814d6cc08ee4d8d859ee72755da6a50",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfmrhi-gr-728x820.png?rev=4814d6cc08ee4d8d859ee72755da6a50",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfbenefits-gr-716x716.jpg?rev=188ed40072bb491db27b1c81e3c70c3d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfingredients-gr-716x716.jpg?rev=58b8d21e89474eb49b63c44d0420585c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfdiversity-gr-716x716.jpg?rev=ca7c035d607848babcee84395ec13758",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfbeforeafter-gr-716x716.jpg?rev=7d481a097e1c4c5eadeab462c0af8b8c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/48h-moisture-matte-sorbet-tube-cream/vichyproductskincaremineral89tubecream48h40ml3337875947541atfmedicalstamp-gr-716x716.jpg?rev=057ab1b611db44afafee6c64f675be4f"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-48h-moisture-matte-sorbet-tube-enudatikh-krema-proswpou",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875934169": {
+    "name": "Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση με Ελαφριά Υφή",
+    "subtitle": "Εξασφαλίζει μακράς διάρκειας ενυδάτωση, για 72 ώρες.",
+    "description": "Η Minéral 89 72H Moisture Boosting Cream είναι τώρα διαθέσιμη σε σωληνάριο των 40 ml, για να την έχετε πάντα μαζί σας. Ενισχυμένη με Τεχνολογία OSMOSKIN, η δροσερή αυτή κρέμα περιέχει Υαλουρονικό Οξύ, μέταλλα, Βιταμίνες Β3 & Ε και Σκουαλάνιο, για επανόρθωση και ενδυνάμωση του προστατευτικού φραγμού της επιδερμίδας. Παρέχει ενισχυμένη, παρατεταμένη ενυδάτωση για έως και 72 ώρες.",
+    "claims": [
+      "ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ",
+      "Υποαλλεργικό",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "40ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
+      "Δερματολογικά": "ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ · Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "40ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Minéral 89 72H Moisture Boosting Cream είναι τώρα διαθέσιμη σε σωληνάριο των 40 ml, για να την έχετε πάντα μαζί σας.\nΕνισχυμένη με Τεχνολογία OSMOSKIN, η δροσερή αυτή κρέμα περιέχει Υαλουρονικό Οξύ, μέταλλα, Βιταμίνες Β3 & Ε και Σκουαλάνιο, για επανόρθωση και ενδυνάμωση του προστατευτικού φραγμού της επιδερμίδας. Παρέχει ενισχυμένη, παρατεταμένη ενυδάτωση για έως και 72 ώρες.",
+      "Οφέλη": "94% συμφωνούν ότι η επιδερμίδα τους φαίνεται αμέσως ενυδατωμένη*.\n94% συμφωνούν ότι η επιδερμίδα τους φαίνεται ενυδατωμένη μέχρι το τέλος της ημέρας**.\n* * Αυτοαξιολόγηση, 81 άτομα με ξηρή και ευαίσθητη επιδερμίδα, 15 λεπτά μετά από την εφαρμογή. ** Αυτοαξιολόγηση, 81 άτομα με ξηρή και ευαίσθητη επιδερμίδα, μετά από 31 ημέρες χρήσης.",
+      "Υφή": "Ανάλαφρη υφή που απορροφάται γρήγορα. Κατάλληλη για κάθε τύπο επιδερμίδας, ακόμα και την ευαίσθητη.",
+      "Συστατικά": "ΗΦΑΙΣΤΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ιαματικό Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nΥαλουρονικό Οξύ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη, γνωστή για τις αποδεδειγμένες αντιοξειδωτικές ιδιότητες και τη βελτίωση του επιδερμικού φραγμού, που προσφέρει.\nΒΙΤΑΜΙΝΗ Ε\nΗ βιταμίνη Ε έχει ισχυρές αντιοξειδωτικές ιδιότητες για να προστατεύει από την οξείδωση των κυττάρων.\nΣΚΟΥΑΛΑΝΙΟ\nΩς ελαφρύ λιπίδιο, ενυδατώνει και θρέφει το δέρμα.\nINCI: AQUA / WATER / EAU ● GLYCERIN ● DICAPRYLYL ETHER ● PENTYLENE GLYCOL ● POLYGLYCERYL-6 DISTEARATE ● NIACINAMIDE ● PROPANEDIOL ● CETYL ESTERS ● JOJOBA ESTERS ● CETEARYL ISONONANOATE ● SQUALANE ● BEHENYL ALCOHOL ● ADENOSINE ● CAPRYLOYL SALICYLIC ACID ● CITRIC ACID ● HYDROXYACETOPHENONE ● MINERAL SALTS ● SODIUM HYALURONATE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● VITREOSCILLA FERMENT ● TOCOPHEROL ● ACACIA DECURRENS FLOWER CERA / ACACIA DECURRENS FLOWER WAX ● ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER ● BUTYLENE GLYCOL ● CAPRYLYL GLYCOL ● CETYL ALCOHOL ● HELIANTHUS ANNUUS SEED CERA / SUNFLOWER SEED WAX ● HYDROXYPROPYL STARCH PHOSPHATE ● ISOHEXADECANE ● POLYGLYCERIN-3 ● POLYGLYCERYL-3 BEESWAX ● POLYSORBATE 80 ● SODIUM STEAROYL GLUTAMATE ● SORBITAN OLEATE ● PARFUM / FRAGRANCE",
+      "Χρήση": "Χρησιμοποιήστε πρωί και βράδυ."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfpackshotfront-gr-728x820.png?rev=bf39d1a707b3470aae068c3cf9aae438",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfpackshotfront-gr-728x820.png?rev=bf39d1a707b3470aae068c3cf9aae438",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfpackshotfront-gr-728x820.png?rev=bf39d1a707b3470aae068c3cf9aae438",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfkeybenefits-gr-716x716.jpg?rev=c4e61d7b7db14f4d91d8fea1bf30fb5e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfpackshotapplicator-gr-716x716.jpg?rev=7a1c45a8eb274a97950a7a8e73d217af",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfcomparison-gr-716x716.jpg?rev=49f2cd6d195d45739105ef4050349708",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfingredients-gr-716x716.jpg?rev=9b5778874c6f416b994cbf29d05de98b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh/vichyproductskincaremineral89tubecream72h40ml3337875934169atfpackshottexture-gr-716x716.jpg?rev=ab01df5e1875460c881f0780f7755cf1"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-72h-krema-proswpou-gia-enudatwsh-me-elafria-ufh",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875895781": {
+    "name": "Mineral 89 72H Moisture Boosting Fluid SPF50+ Ενυδατική Κρέμα",
+    "subtitle": "ΠΡΟΣΤΑΤΕΥΕΙ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ, ΕΝΙΣΧΥΕΙ & ΔΙΑΤΗΡΕΙ ΤΗΝ ΕΝΥΔΑΤΩΣΗ ΣΕ ΥΓΙΗ ΕΠΙΠΕΔΑ",
+    "description": "Το Moisture Boosting Daily Fluid ενισχύει την ενυδάτωση της επιδερμίδας και τη διατηρεί σε βέλτιστα επίπεδα μέχρι και για 72 ώρες. * * Δοκιμή με Corneometer, 28 άτομα, 72 ώρες.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ",
+      "ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ",
+      "Υποαλλεργικό",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
+      "Δερματολογικά": "Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ · Υποαλλεργικό · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Moisture Boosting Daily Fluid ενισχύει την ενυδάτωση της επιδερμίδας και τη διατηρεί σε βέλτιστα επίπεδα μέχρι και για 72 ώρες.\n* * Δοκιμή με Corneometer, 28 άτομα, 72 ώρες.",
+      "Οφέλη": "Προστατεύοντας την επιδερμίδα από την ακτινοβολία UV, αυτή η ενυδατική ημέρας συγκρατεί την πολύτιμη υγρασία και προσφέρει στην επιδερμίδα την απαραίτητη καθημερινή δόση ενυδατικών συστατικών, για βαθιά ενυδάτωση μέχρι και για 72 ώρες.\n* * Δοκιμή με Corneometer, 28 άτομα, 72 ώρες.",
+      "Υφή": "Ανάλαφρη, λεπτόρρευστη υφή για λαμπερό αποτέλεσμα.\n100% όσων χρησιμοποίησαν το προϊόν είπαν ότι δεν αφήνει λευκά υπολείμματα στην επιδερμίδα μετά την εφαρμογή**.\n97% όσων χρησιμοποίησαν το προϊόν είπαν ότι είναι συμβατό με τα προϊόντα μακιγιάζ τους**.\n* ** Αυτοαξιολόγηση, 105 άτομα, μετά από 4 εβδομάδες.",
+      "Συστατικά": "ΗΦΑΙΣΤΕΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη. Ένα δραστικό συστατικό πολλαπλών οφελών, με αποδεδειγμένες αντιοξειδωτικές ιδιότητες, που δρα απευθείας στον επιδερμιδικό φραγμό και βελτιώνει την ομοιομορφία του τόνου της επιδερμίδας.\nΒΙΤΑΜΙΝΗ Ε\nΔιαθέτει ισχυρές αντιοξειδωτικές ιδιότητες και συμβάλλει στην προστασία από την οξείδωση των κυττάρων.\nΣΚΟΥΑΛΑΝΙΟ\nΩς ελαφρύ λιπίδιο, ενυδατώνει και θρέφει το δέρμα.\nINCI: AQUA / WATER / EAU - ALCOHOL DENAT. / SILICA - ISOPROPYL MYRISTATE / DIISOPROPYL SEBACATE / ETHYLHEXYL SALICYLATE / ETHYLHEXYL TRIAZONE / BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE / BUTYL METHOXYDIBENZOYLMETHANE / GLYCERIN / PROPANEDIOL / C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER / NIACINAMIDE / DROMETRIZOLE TRISILOXANE / PERLITE / TOCOPHEROL / CAPRYLIC/CAPRIC TRIGLYCERIDE / CITRIC ACID / HYDROXYACETOPHENONE / MINERAL SALTS / SODIUM HYALURONATE / TRIETHANOLAMINE / TRISODIUM ETHYLENEDIAMINE DISUCCINATE / VITREOSCILLA FERMENT / SQUALANE / ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER / BUTYLENE GLYCOL / CAPRYLYL GLYCOL / DISODIUM PHOSPHATE / HYDROXYETHYLCELLULOSE / POLYSORBATE 60 / SODIUM PHOSPHATE / TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID /",
+      "Χρήση": "Εφαρμόστε 2 με 3 σταγόνες στο πρόσωπο, κάθε πρωί. Ανακινήστε καλά πριν από τη χρήση. Σε περίπτωση έντονης ηλιοφάνειας ή παρατεταμένης έκθεσης στον ήλιο, χρησιμοποιήστε το κατάλληλο αντιηλιακό.\n100% όσων χρησιμοποίησαν το προϊόν είπαν ότι εφαρμόζεται εύκολα**.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.\n* ** Αυτοαξιολόγηση, 105 άτομα, μετά από 4 εβδομάδες."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-main-image.png?rev=6a764f8f8bc6431abf8cc7bd99e19307",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-main-image.png?rev=6a764f8f8bc6431abf8cc7bd99e19307",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-main-image.png?rev=6a764f8f8bc6431abf8cc7bd99e19307",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-2.jpg?rev=306e406e18424a878fced33dee2bba8a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-3.jpg?rev=1814e1e572e94732a221517cf2b515c8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-4.jpg?rev=04794c4cd2994b4eba87cafd5686122e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/mineral-89-72h-moisture-boosting-daily-fluid-spf50-plus/vichy-website-pdp-m89-spf-3337875895781-mosaic-5.jpg?rev=a92276fc46544ad4b3930352b8674bfb"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-72h-moisture-boosting-fluid-spf50-plus-enudatikh-krema",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875831888": {
+    "name": "Minéral 89 Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση",
+    "subtitle": "ΕΝΔΥΝΑΜΩΝΕΙ ΤΟΝ ΕΠΙΔΕΡΜΙΔΙΚΟ ΦΡΑΓΜΟ ΓΙΑ ΕΝΥΔΑΤΩΣΗ ΕΩΣ ΚΑΙ 72 ΩΡΕΣ",
+    "description": "Λόγω της έκθεσης στους επιθετικούς παράγοντες της καθημερινότητας, ο φυσικός φραγμός υγρασίας της επιδερμίδας εξασθενεί. Αυτό έχει ως συνέπεια η επιδερμίδα να χάνει ζωτικά στοιχεία: νερό, μεταλλικά στοιχεία, λιπίδια, βιταμίνες, και υαλουρονικό οξύ. Η Vichy έχει τη λύση, και είναι η MINERAL 89 Κρέμα Booster Ενυδάτωσης 72Η με πλούσια υφή. Για πρώτη φορά, τα εργαστήρια VICHY συγκεντρώνουν όλα αυτά τα ζωτικά στοιχεία για την επιδερμίδα μαζί (υαλουρονικό οξύ, βιταμίνες B3 & E, σκουαλάνιο και εκατομμύρια μεταλλικά στοιχεία από το ηφαιστειακό νερό της Vichy) σε μία κρέμα ελαφριάς υφής που ενδυναμώνει, επαναφέρει τη λειτουργία του επιδερμικού φραγμού και εξασφαλίζει ενυδάτωση μεγάλης διάρκειας. Ενισχύει τον επιδερμιδικό φραγμό, χάρη σε δραστικά συστατικά που διεισδύουν 3 στιβάδες βαθιά στην επιδερμίδα, προσφέροντάς της αποτελεσματική ενυδάτωση για 3 ημέρες. Η μοναδική της ασφαλής και ταυτόχρονα μινιμαλιστική σύνθεση (χωρίς σιλικόνη, χωρίς χρωστικές, χωρίς φαινοξυαιθανόλη, χωρίς EDTA, χωρίς BHT, χωρίς θειικά άλατα) έχει δοκιμαστεί σε ευαίσθητο δέρμα από δερματολόγους. Τα δερματολογικά δραστικά συστατικά της ενδυναμώνουν τον επιδερμικό φραγμό, ενυδατώνοντας και αναζωογονώντας τα κύτταρα της επιδερμίδας, ενώ παράλληλα ενισχύουν τη δομή της. Η επιδερμίδα τονώνεται, ενυδατώνεται και αποκτά περισσότερο λαμπερή και υγιή όψη. Ελαφριά, κατάλληλη για κάθε τύπο επιδερμίδας.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Minéral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Λόγω της έκθεσης στους επιθετικούς παράγοντες της καθημερινότητας, ο φυσικός φραγμός υγρασίας της επιδερμίδας εξασθενεί. Αυτό έχει ως συνέπεια η επιδερμίδα να χάνει ζωτικά στοιχεία: νερό, μεταλλικά στοιχεία, λιπίδια, βιταμίνες, και υαλουρονικό οξύ. Η Vichy έχει τη λύση, και είναι η MINERAL 89 Κρέμα Booster Ενυδάτωσης 72Η με πλούσια υφή.\nΓια πρώτη φορά, τα εργαστήρια VICHY συγκεντρώνουν όλα αυτά τα ζωτικά στοιχεία για την επιδερμίδα μαζί (υαλουρονικό οξύ, βιταμίνες B3 & E, σκουαλάνιο και εκατομμύρια μεταλλικά στοιχεία από το ηφαιστειακό νερό της Vichy) σε μία κρέμα ελαφριάς υφής που ενδυναμώνει, επαναφέρει τη λειτουργία του επιδερμικού φραγμού και εξασφαλίζει ενυδάτωση μεγάλης διάρκειας.\nΕνισχύει τον επιδερμιδικό φραγμό, χάρη σε δραστικά συστατικά που διεισδύουν 3 στιβάδες βαθιά στην επιδερμίδα, προσφέροντάς της αποτελεσματική ενυδάτωση για 3 ημέρες.\nΗ μοναδική της ασφαλής και ταυτόχρονα μινιμαλιστική σύνθεση (χωρίς σιλικόνη, χωρίς χρωστικές, χωρίς φαινοξυαιθανόλη, χωρίς EDTA, χωρίς BHT, χωρίς θειικά άλατα) έχει δοκιμαστεί σε ευαίσθητο δέρμα από δερματολόγους.\nΤα δερματολογικά δραστικά συστατικά της ενδυναμώνουν τον επιδερμικό φραγμό, ενυδατώνοντας και αναζωογονώντας τα κύτταρα της επιδερμίδας, ενώ παράλληλα ενισχύουν τη δομή της. Η επιδερμίδα τονώνεται, ενυδατώνεται και αποκτά περισσότερο λαμπερή και υγιή όψη.\nΕλαφριά, κατάλληλη για κάθε τύπο επιδερμίδας.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΗΦΑΙΣΤΙΑΚΟ ΝΕΡΟ VICHY\nΜε εκατομμύρια μεταλλικά στοιχεία σε κάθε σταγόνα, το Ιαματικό Ηφαιστειακό Νερό Vichy ενδυναμώνει τον επιδερμιδικό φραγμό και ενισχύει τις αντιοξειδωτικές άμυνες της επιδερμίδας.\nΒΙΤΑΜΙΝΗ Β3\nΓνωστή και ως Νιασιναμίδη, γνωστή για τις αποδεδειγμένες αντιοξειδωτικές ιδιότητες και τη βελτίωση του επιδερμικού φραγμού, που προσφέρει.\nΒΙΤΑΜΙΝΗ Ε\nΗ βιταμίνη Ε έχει ισχυρές αντιοξειδωτικές ιδιότητες για να προστατεύει από την οξείδωση των κυττάρων.\nΣΚΟΥΑΛΑΝΙΟ\nΩς ελαφρύ λιπίδιο, ενυδατώνει και θρέφει το δέρμα.\nINCI: AQUA / WATER / EAU - GLYCERIN - DICAPRYLYL ETHER - PENTYLENE GLYCOL - POLYGLYCERYL-6 DISTEARATE - NIACINAMIDE - PROPANEDIOL - CETYL ESTERS - JOJOBA ESTERS - CETEARYL ISONONANOATE - SQUALANE - BEHENYL ALCOHOL - ADENOSINE - CAPRYLOYL SALICYLIC ACID - HYDROXYACETOPHENONE - MINERAL SALTS - SODIUM HYALURONATE - TRISODIUM ETHYLENEDIAMINE DISUCCINATE - VITREOSCILLA FERMENT - TOCOPHEROL - ACACIA DECURRENS FLOWER CERA / ACACIA DECURRENS FLOWER WAX - ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER - CETYL ALCOHOL - HELIANTHUS ANNUUS SEED CERA / SUNFLOWER SEED WAX - HYDROXYPROPYL STARCH PHOSPHATE - ISOHEXADECANE - POLYGLYCERIN-3 - POLYGLYCERYL-3 BEESWAX - POLYSORBATE 80 - SODIUM STEAROYL GLUTAMATE - SORBITAN OLEATE - PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888mrhi-new-1073x1073.png?rev=24844fa8708745298375ada67ee55946",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888mrhi-new-1073x1073.png?rev=24844fa8708745298375ada67ee55946",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-packshots/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888mrhi-new-1073x1073.png?rev=24844fa8708745298375ada67ee55946",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888comparison-gr-716x716.jpg?rev=f427b087fa3e42a18742d1afe7682dde",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888ingredients-gr-716x716.jpg?rev=42be39a257d046a68b4295ef49694c47",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888keybenefits-gr-716x716.jpg?rev=ed7cf8fd85204a5586674ad295fac48c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888notext-gr-716x716.jpg?rev=b40bff6fa3c642c78ad5674539c9a15b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/mineral/vichyproductmineral-8972h-moisture-boosting-cream50ml3337875831888routine-gr-716x716.jpg?rev=75804938ef3b4540949b2fa947b11c7c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/enudatikes/mineral-89-72h-krema-proswpou-gia-enudatwsh",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875774123": {
+    "name": "Neovadiol Compensating Complex Αντιγηραντική Κρέμα Ημέρας για Κανονική Επιδερμίδα",
+    "subtitle": "Η κρέμα ημέρας ενίσχυσης πυκνότητας & εφέ lifting επανενεργοποιεί τους μηχανισμούς της επιδερμίδας στην εμμηνόπαυση αυξάνοντας την πυκνότητα και την ελαστικότητα.",
+    "description": "•Κατά την εμμηνόπαυση, οι ορμονικές μεταβολές επιταχύνουν τα σημάδια γήρανσης στην επιδερμίδα, οδηγώντας σε απώλεια ελαστικότητας και πυκνότητας αλλά και σε αλλοίωση του περιγράμματος του προσώπου. •Η NEOVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΗΜΕΡΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΕΦΕ LIFTING επανενεργοποιεί τους μηχανισμούς της επιδερμίδας ενάντια σε: απώλεια ελαστικότητας, σφριγηλότητας και ρυτίδες. •Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε γυναίκες με ευαίσθητο δέρμα, στην εμμηνόπαυση.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "•Κατά την εμμηνόπαυση, οι ορμονικές μεταβολές επιταχύνουν τα σημάδια γήρανσης στην επιδερμίδα, οδηγώντας σε απώλεια ελαστικότητας και πυκνότητας αλλά και σε αλλοίωση του περιγράμματος του προσώπου.\n•Η NEOVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΗΜΕΡΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΕΦΕ LIFTING επανενεργοποιεί τους μηχανισμούς της επιδερμίδας ενάντια σε: απώλεια ελαστικότητας, σφριγηλότητας και ρυτίδες.\n•Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε γυναίκες με ευαίσθητο δέρμα, στην εμμηνόπαυση.",
+      "Συστατικά": "PRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nINCI: AQUA / WATER / EAU, GLYCERIN, DIMETHICONE, HYDROGENATED POLYISOBUTENE, NIACINAMIDE, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, ALCOHOL DENAT., PROPYLENE GLYCOL, SYNTHETIC WAX, SILICA, PEG-10 DIMETHICONE, DIMETHICONE/PEG-10/15 CROSSPOLYMER, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, CI 15985 / YELLOW 6, CI 77891 / TITANIUM DIOXIDE, SODIUM POLYACRYLATE, SODIUM HYALURONATE, SODIUM CITRATE, ADENOSINE, TOCOPHEROL, PROPYLENE CARBONATE, HYDROXYACETOPHENONE, CAPRYLYL GLYCOL, DIPROPYLENE GLYCOL, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DISTEARDIMONIUM HECTORITE, SYNTHETIC FLUORPHLOGOPITE, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamdryskin50ml3337875774161atfkeybenefits-gr-716x716.jpg?rev=8e4838b6ac0b4facb13a217af1e33a11",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamdryskin50ml3337875774161atfingredients-gr-716x716.jpg?rev=41cc23dae82c4ac5848f6d9c7cd4d994",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamnormaltocombinationskin50ml33378757741atfbeforeafter.jpg?rev=4b2795b6dae6448a94891285bd383c41",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamnormaltocombinationskin50ml3337875774161atfhowtouse.jpg?rev=7dd68ab06f6b4de8ad096c3041952713"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875774031": {
+    "name": "Neovadiol Magistral Κρέμα Ημέρας για Χαλάρωση Προσώπου",
+    "subtitle": "Επανασμίλευση του οβάλ του προσώπου, υπέροχη balm υφή. Περιποίηση εμπλουτισμένη με Proxylane και σύμπλοκο λιπιδίων.",
+    "description": "Αποκτήστε ξανά ενυδατωμένη, σμιλεμένη επιδερμίδα με το Neovadiol Magistral Balm της Vichy. Μετά τα 55, οι δομικές ίνες του δέρματος μειώνονται, οδηγώντας σε χαλάρωση του περιγράμματος του προσώπου και βαθύτερες ρυτίδες. Λόγω της απώλειας λιπιδίων, η επιδερμίδα γίνεται πιο ξηρή. Το Vichy Magistral Anti-Sagginess Nourishing Balm, με Proxylane + 13% λιπίδια και υπέροχη balm υφή, ενυδατώνει και αναπληρώνει το οβάλ του προσώπου. Εξασφαλίζει άμεση, βαθιά θρέψη με κλινικά αποδεδειγμένα αποτελέσματα. Μέρα με τη μέρα, το κάτω μέρος του προσώπου επανασμιλεύεται κατά +25%* και οι ρυτίδες μειώνονται κατά -28%*.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αποκτήστε ξανά ενυδατωμένη, σμιλεμένη επιδερμίδα με το Neovadiol Magistral Balm της Vichy.\nΜετά τα 55, οι δομικές ίνες του δέρματος μειώνονται, οδηγώντας σε χαλάρωση του περιγράμματος του προσώπου και βαθύτερες ρυτίδες. Λόγω της απώλειας λιπιδίων, η επιδερμίδα γίνεται πιο ξηρή.\nΤο Vichy Magistral Anti-Sagginess Nourishing Balm, με Proxylane + 13% λιπίδια και υπέροχη balm υφή, ενυδατώνει και αναπληρώνει το οβάλ του προσώπου.\nΕξασφαλίζει άμεση, βαθιά θρέψη με κλινικά αποδεδειγμένα αποτελέσματα. Μέρα με τη μέρα, το κάτω μέρος του προσώπου επανασμιλεύεται κατά +25%* και οι ρυτίδες μειώνονται κατά -28%*.",
+      "Οφέλη": "Αμέσως, η επιδερμίδα θρέφεται σε βάθος. Μέρα με τη μέρα, οι βαθιές ρυτίδες λειαίνονται. Το περίγραμμα στο κάτω μέρος το προσώπου επανασμιλεύεται κατά +25%*.",
+      "Υφή": "Balm υφή που λιώνει στην επιδερμίδα εξασφαλίζοντας αμέσως βαθιά θρέψη.",
+      "Συστατικά": "Proxylane: «Γεμίζει» και συσφίγγει την επιδερμίδα, λειαίνει τις ρυτίδες, μειώνει τη χαλάρωση.\nΩμέγα 3-6-9: Θρέφουν σε βάθος και ενυδατώνουν την επιδερμίδα, αντισταθμίζοντας την έλλειψη λιπιδίων.\nΕκχύλισμα Κάσσιας: «Γεμίζει» και συσφίγγει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, GLYCERIN, DIMETHICONE, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, NIACINAMIDE, CETEARYL ALCOHOL, CETEARYL ISONONANOATE, CARTHAMUS TINCTORIUS SEED OIL / SAFFLOWER SEED OIL, GLYCERYL STEARATE, BEHENYL ALCOHOL, ZEA MAYS STARCH / CORN STARCH, SODIUM PHYTATE, ADENOSINE, CAPRYLOYL SALICYLIC ACID, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, HYDROXYACETOPHENONE, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, TOCOPHEROL, ALCOHOL, CAPRYLYL GLYCOL, CITRIC ACID, DISODIUM ETHYLENE DICOCAMIDE PEG-15 DISULFATE, GLYCERYL STEARATE CITRATE, POLOXAMER 338, PROPYLENE GLYCOL, SODIUM POLYACRYLATE, DIMETHICONE CROSSPOLYMER, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΕΝΕΡΓΟΠΟΙΗΣΗ\nΕφαρμόστε το Neovadiol Peri & Post-Menopause 5 Bi-Serum σε καθαρό πρόσωπο, για επανενεργοποίηση των μηχανισμών της επιδερμίδας.\nΘΡΕΨΗ\nΤο πρωί, απλώστε το Neovadiol Mogistral Anti-Sagginess Nourishing Day Balm σε πρόσωπο & λαιμό, σε καθαρή επιδερμίδα, για σμίλευση του οβάλ και λείανση των ρυτίδων.\nΠΡΟΣΤΑΣΙΑ\nΟλοκληρώστε με το UV-Age Daily SPF50+ για προστασία της επιδερμίδας από την ακτινοβολία UV."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic-gr-728x820.png?rev=a66bd39b826a42a2b64339ea7d86e489",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic-gr-728x820.png?rev=a66bd39b826a42a2b64339ea7d86e489",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic-gr-728x820.png?rev=a66bd39b826a42a2b64339ea7d86e489",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic3-gr-1200x1200.jpg?rev=d2ed92d2618f49a88794459e9b7fe368",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic4-gr-1200x1200.jpg?rev=33c8dcbf0a7349ed83932593e0bea7cd",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/magistral-rework/vichyneovadiolmagistraldaycreamwebsitebriefmosaic6-gr-1200x1200.jpg?rev=ead6579b11bd454b918b9aed4767a64d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-krema-hmeras-gia-xalarwsh-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875774161": {
+    "name": "Neovadiol Compensating Complex Αντιγηραντική Κρέμα Ημέρας για Ξηρή Επιδερμίδα",
+    "subtitle": "Η κρέμα ημέρας ενίσχυσης πυκνότητας & εφέ lifting​ επανενεργοποιεί τους μηχανισμούς της επιδερμίδας​ στην εμμηνόπαυση αυξάνοντας την πυκνότητα και​ την ελαστικότητα.",
+    "description": "•Κατά την εμμηνόπαυση, οι ορμονικές μεταβολές επιταχύνουν τα σημάδια γήρανσης στην επιδερμίδα, οδηγώντας σε απώλεια ελαστικότητας και πυκνότητας αλλά και σε αλλοίωση του περιγράμματος του προσώπου. •Η NEOVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΗΜΕΡΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΕΦΕ LIFTING ΓΙΑ ΞΗΡΗ ΕΠΙΔΕΡΜΙΔΑ επανενεργοποιεί τους μηχανισμούς της επιδερμίδας ενάντια σε: απώλεια ελαστικότητας, σφριγηλότητας και ρυτίδων. •Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε γυναίκες στην εμμηνόπαυση με ευαίσθητο δέρμα.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "•Κατά την εμμηνόπαυση, οι ορμονικές μεταβολές επιταχύνουν τα σημάδια γήρανσης στην επιδερμίδα, οδηγώντας σε απώλεια ελαστικότητας και πυκνότητας αλλά και σε αλλοίωση του περιγράμματος του προσώπου.\n•Η NEOVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΗΜΕΡΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΕΦΕ LIFTING ΓΙΑ ΞΗΡΗ ΕΠΙΔΕΡΜΙΔΑ επανενεργοποιεί τους μηχανισμούς της επιδερμίδας ενάντια σε: απώλεια ελαστικότητας, σφριγηλότητας και ρυτίδων.\n•Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε γυναίκες στην εμμηνόπαυση με ευαίσθητο δέρμα.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nPRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, PRUNUS ARMENIACA KERNEL OIL / APRICOT KERNEL OIL, DIMETHICONE, GLYCERIN, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, ZEA MAYS STARCH / CORN STARCH, ALCOHOL DENAT., PROPANEDIOL, PROPYLENE GLYCOL, STEARIC ACID, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, ISOHEXADECANE, PALMITIC ACID, PEG-100 STEARATE, PEG-20 STEARATE, STEARYL ALCOHOL, GLYCERYL STEARATE, CERA ALBA / BEESWAX / CIRE DABEILLE, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, CI 15985 / YELLOW 6, CI 77891 / TITANIUM DIOXIDE, SORBITAN OLEATE, NIACINAMIDE, DIMETHICONOL, MYRISTIC ACID, SODIUM HYALURONATE, ADENOSINE, CAPRYLYL GLYCOL, CAPRYLOYL SALICYLIC ACID, CITRIC ACID, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, SYNTHETIC FLUORPHLOGOPITE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER, POLYSORBATE 80, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichy-product-neovadiol-compensating-complex-day-cream-dry-skin-mosaic-1.png?rev=e7dafb057c1c42249d221654f93a2130",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamdryskin50ml3337875774161atfkeybenefits-gr-716x716.jpg?rev=8e4838b6ac0b4facb13a217af1e33a11",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamdryskin50ml3337875774161atfingredients-gr-716x716.jpg?rev=41cc23dae82c4ac5848f6d9c7cd4d994",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamnormaltocombinationskin50ml33378757741atfbeforeafter.jpg?rev=4b2795b6dae6448a94891285bd383c41",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamdryskin50ml3337875774161atfpackshottexture-gr-716x71.jpg?rev=bf96c7b0ea92427e988a4929725bf1ea",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-antighrantikh-krema-hmeras-gia-kanonikh-epidermida/vichyproductneovadiolcompensatingcomplexdaycreamnormaltocombinationskin50ml3337875774161atfhowtouse.jpg?rev=7dd68ab06f6b4de8ad096c3041952713"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-antighrantikh-krema-hmeras-gia-xhrh-epidermida",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875647182": {
+    "name": "Neovadiol Phytosculpt Κρέμα Ημέρας για το Λαιμό & το Περίγραμμα Προσώπου",
+    "subtitle": "Η λύση επανασμίλευσης και σύσφιξης του περιγράμματος του λαιμού και του προσώπου.",
+    "description": "Κατά την εμμηνόπαυση, η πυκνότητα της επιδερμίδας αρχίζει να μειώνεται σημαντικά και επηρεάζεται κυρίως η ζώνη προσώπου-λαιμού. Η εύθραυστη επιδερμίδα και η απώλεια σφριγηλότητας προκαλούν πτώση του κάτω τμήματος του προσώπου και χαλάρωση του λαιμού. Καινοτομία: Phytosculpt Κρέμα Ημέρας, η πρώτη κρέμα της Vichy για επανασμίλευση και σύσφιξη του περιγράμματος του λαιμού και του προσώπου. Λαιμός: Αυξάνει την τονικότητα και την πυκνότητα της επιδερμίδας - αναδιαμορφώνει και ανορθώνει. Περίγραμμα προσώπου: Αναδιαμορφώνει το πρόσωπο - συσφίγγει και βελτιώνει το περίγραμμα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Υποαλλεργικό · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Κατά την εμμηνόπαυση, η πυκνότητα της επιδερμίδας αρχίζει να μειώνεται σημαντικά και επηρεάζεται κυρίως η ζώνη προσώπου-λαιμού. Η εύθραυστη επιδερμίδα και η απώλεια σφριγηλότητας προκαλούν πτώση του κάτω τμήματος του προσώπου και χαλάρωση του λαιμού.\nΚαινοτομία: Phytosculpt Κρέμα Ημέρας, η πρώτη κρέμα της Vichy για επανασμίλευση και σύσφιξη του περιγράμματος του λαιμού και του προσώπου.\nΛαιμός: Αυξάνει την τονικότητα και την πυκνότητα της επιδερμίδας - αναδιαμορφώνει και ανορθώνει.\nΠερίγραμμα προσώπου: Αναδιαμορφώνει το πρόσωπο - συσφίγγει και βελτιώνει το περίγραμμα.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, GLYCERIN, CYCLOHEXASILOXANE, DIPROPYLENE GLYCOL, DIMETHICONE, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, ZEA MAYS GERM OIL / CORN GERM OIL, ELAEIS GUINEENSIS OIL / PALM OIL, ALCOHOL DENAT., BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, GLYCERYL STEARATE, PROPYLENE GLYCOL, PEG-100 STEARATE, CETYL ALCOHOL, CERA ALBA / BEESWAX, MYRISTYL MYRISTATE, PRUNUS AMYGDALUS DULCIS OIL / SWEET ALMOND OIL, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, ADENOSINE, METHYLDIHYDROJASMONATE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PHYMATOSORUS GROSSUS LEAF EXTRACT, SODIUM HYALURONATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, CETYL PALMITATE, CITRIC ACID, ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CAPRYLYL GLYCOL, ISOHEXADECANE, MYRISTIC ACID, PALMITIC ACID, POLYSORBATE 80, PROPANEDIOL, SORBITAN OLEATE, SORBITAN TRISTEARATE, STEARIC ACID, POLYSILICONE-11, CI 15985 / YELLOW 6, PHENOXYETHANOL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/vic128vichyneovadiolphystosculpt-for-peri--postmenopause.jpg?rev=db17af24472a4d54b1fee2849d79bb0d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/vic128vichyneovadiolphystosculpt-for-peri--postmenopause.jpg?rev=db17af24472a4d54b1fee2849d79bb0d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/vic128vichyneovadiolphystosculpt-for-peri--postmenopause.jpg?rev=db17af24472a4d54b1fee2849d79bb0d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/neovadiol---phystosculpt-for-peri-and-post-menopause/neovadiol-phytosculpt-pack2-(1).jpg?rev=47d31f77bb3446a0a745256bfb6ea576",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/neovadiol---phystosculpt-for-peri-and-post-menopause/neovadiol-phytosculpt-pack3.jpeg?rev=92688ef7c04e473bbb0b34d60c77b189",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/neovadiol---phystosculpt-for-peri-and-post-menopause/neovadiol-phytosculpt-pack4.jpeg?rev=ebf2da1362e1488fabad019ae72b7e91",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/neovadiol---phystosculpt-for-peri-and-post-menopause/neovadiol-phytosculpt-pack5.jpg?rev=04af460ded7f4fbcb7c87709fc56ccc3"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-phytosculpt-krema-hmeras-gia-to-laimo-to-perigramma-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875579919": {
+    "name": "Neovadiol Rose Platinium Αντιρυτιδική Κρέμα",
+    "subtitle": "Αποκαθιστά τη δύναμη και τη φυσική λάμψη της επιδερμίδας.",
+    "description": "Δώστε ξανά ζωντάνια και λάμψη στην επιδερμίδα σας, με την κρέμα ημέρας NEOVADIOL Rose Platinium. Μετά τα 65, η επιδερμίδα γίνεται πιο λεπτή και πιο ευάλωτη. Ως αποτέλεσμα, χάνει σταδιακά τη σφριγηλότητα, τη ζωντάνια, και τη φυσική ρόδινη λάμψη της. Η NEOVADIOL Rose Platinium Fortifying Revitalizing Rosy Day Cream της Vichy είναι μια δροσερή κρέμα με Ασβέστιο, Κερί Μέλισσας και Ρόδινες Χρωστικές Λάμψης που θρέφει, ενδυναμώνει και αναζωογονεί την επιδερμίδα. Είναι κλινικά αποδεδειγμένο: αποκαθιστά αμέσως τη φυσική λάμψη της επιδερμίδας. Η επιδερμίδα αναζωογονείται και γίνεται πιο σφριγηλή. Μέρα με τη μέρα, ανακτά τη δύναμή της και αποκαλύπτει μια ρόδινη λάμψη υγείας.",
+    "claims": [
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Δοκιμασμένο υπό δερματολογικό έλεγχο · Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Δώστε ξανά ζωντάνια και λάμψη στην επιδερμίδα σας, με την κρέμα ημέρας NEOVADIOL Rose Platinium.\nΜετά τα 65, η επιδερμίδα γίνεται πιο λεπτή και πιο ευάλωτη. Ως αποτέλεσμα, χάνει σταδιακά τη σφριγηλότητα, τη ζωντάνια, και τη φυσική ρόδινη λάμψη της.\nΗ NEOVADIOL Rose Platinium Fortifying Revitalizing Rosy Day Cream της Vichy είναι μια δροσερή κρέμα με Ασβέστιο, Κερί Μέλισσας και Ρόδινες Χρωστικές Λάμψης που θρέφει, ενδυναμώνει και αναζωογονεί την επιδερμίδα.\nΕίναι κλινικά αποδεδειγμένο: αποκαθιστά αμέσως τη φυσική λάμψη της επιδερμίδας. Η επιδερμίδα αναζωογονείται και γίνεται πιο σφριγηλή. Μέρα με τη μέρα, ανακτά τη δύναμή της και αποκαλύπτει μια ρόδινη λάμψη υγείας.",
+      "Οφέλη": "Αμέσως, η επιδερμίδα δείχνει πιο φρέσκια, ενεργοποιείται η φυσική λάμψη της και η σφριγηλότητα βελτιώνεται. Μέρα με τη μέρα, η επιδερμίδα ανακτά τη δύναμή της και αποκαλύπτει μια ρόδινη λάμψη υγείας.",
+      "Υφή": "Δροσερή κρέμα που αμέσως θρέφει την επιδερμίδα αγκαλιάζοντάς τη με ένα ντελικάτο άρωμα τριαντάφυλλου.",
+      "Συστατικά": "ΑΣΒΕΣΤΙΟ\nΕνισχύει τον επιδερμιδικό φραγμό, για πιο δυνατή και πιο σφριγηλή επιδερμίδα.\nΧΡΩΣΤΙΚΕΣ ΛΑΜΨΗΣ\nΑποκαθιστούν τη ζωντάνια και το χρώμα της επιδερμίδας δίνοντάς της αμέσως λάμψη.\nINCI: AQUA /WATER / EAU, GLYCERIN, ALCOHOL DENAT., DIMETHICONE, PARAFFINUM LIQUIDUM /MINERAL OIL / HUILEMINERALE, BUTYROSPERMUMPARKII BUTTER / SHEA BUTTER, BIS-BEHENYL/ISOSTEARYL/PHYTOSTERYLDIMER DILINOLEYL DIMER DILINOLEATE, C30-45 ALKYL DIMETHICONE, PEG-20 STEARATE, SILICA, ORYZA SATIVA BRAN OIL /RICE BRAN OIL, SODIUM PHYTATE, CALCIUMPCA, CAPRYLOYL SALICYLICACID, FAEX EXTRACT /YEAST EXTRACT / EXTRAIT DELEVURE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, POTASSIUM HYDROXIDE, SODIUMHYALURONATE, 2-OLEAMIDO-1,3-OCTADECANEDIOL, CERA ALBA / BEESWAX / CIRE DABEILLE, CERA MICROCRISTALLINA /MICROCRYSTALLINEWAX / CIRE MICROCRISTALLINE, CETYL PALMITATE, OCTYLDODECANOL, PARAFFIN, STEARYL ALCOHOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CARBOMER, CI 77491 / IRON OXIDES, CI 77891 / TITANIUM DIOXIDE, CITRIC ACID, ETHYLHEXYLGLYCERIN, GLYCERYL STEARATE, HYDROGENATED POLYISOBUTENE, PEG-100 STEARATE, PEG-30 DIPOLYHYDROXYSTEARATE, SYNTHETIC FLUORPHLOGOPITE, TIN OXIDE, TOCOPHEROL, TRIDECETH-6, PHENOXYETHANOL, PARFUM/ FRAGRANCE FIL code : N70039740/1",
+      "Χρήση": "Χρησιμοποιήστε το πρωί, σε καθαρή επιδερμίδα, εφαρμόζοντας ομοιόμορφα στο πρόσωπο και τον λαιμό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfpackshotfront-gr-728x820.png?rev=15d96c9a25f3429eaa66105a8683fd4b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfpackshotfront-gr-728x820.png?rev=15d96c9a25f3429eaa66105a8683fd4b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfpackshotfront-gr-728x820.png?rev=15d96c9a25f3429eaa66105a8683fd4b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfpackshotback-gr-716x716.jpg?rev=023f515474324bb482fd20f92e0fe410",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfingredients-gr-716x716.jpg?rev=0dbd269be0eb448a9fd48cd4bf356f45",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfhowtouse-gr-716x716.jpg?rev=58a120c507224858bc7e70061d817cf7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfnotext3-gr-716x716.jpg?rev=a873285b3efe4298989a34e1a781811f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfnotext4-gr-716x716.jpg?rev=7ea86cce504e432ab127cec8405e5124",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfprofessionalendorsement-gr-716x716.jpg?rev=c18b05c583ee4b0caa2e33496e5eaca0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/new-rose-platinum-day-cream/reno/vichyproductneovadiolroseplatiniumdaycream50ml3337875579919atfnotext5-gr-716x716.jpg?rev=e8e7f565e8ad4c56b5e9003695cc795d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-rose-antirutidikh-krema",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875860222": {
+    "name": "Neovadiol Κρέμα Ημέρας για Σύσφιξη & Μείωση Κηλίδων με SPF50",
+    "subtitle": "Διορθώνει κηλίδες, ρυτίδες, απώλεια σφριγηλότητας.",
+    "description": "Η Neovadiol Magistral Κρέμα Ημέρας Σύσφιξης & Μείωσης Κηλίδων με δείκτη προστασίας SPF50, διορθώνει τις ρυτίδες, μειώνει τις κηλίδες και βελτιώνει την ελαστικότητα, καλύπτοντας όλες τις ανάγκες της επιδερμίδας την περίοδο της μετεμμηνόπαυσης. Την περίοδο της μετεμμηνόπαυσης, οι ορμονικές αλλαγές που βιώνουμε επιταχύνουν τη γήρανση του δέρματος. Η επιδερμίδα χάνει την πυκνότητα της και γίνεται ορατά πιο θαμπή. Το περίγραμμα αλλοιώνεται. Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε εμμηνοπαυσιακές γυναίκες με ευαίσθητο δέρμα. Η 1η κρέμα με SPF50 για την μετεμμηνόπαυση, με ενεργά συστατικά υψηλής δερματολογικής αξιολόγησης και δράσης κατά των κηλίδων* * Αποφύγετε την περιοχή των ματιών",
+    "claims": [
+      "Δερματολογικά Ελεγμένο",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Εμμηνόπαυση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Neovadiol Magistral Κρέμα Ημέρας Σύσφιξης & Μείωσης Κηλίδων με δείκτη προστασίας SPF50, διορθώνει τις ρυτίδες, μειώνει τις κηλίδες και βελτιώνει την ελαστικότητα, καλύπτοντας όλες τις ανάγκες της επιδερμίδας την περίοδο της μετεμμηνόπαυσης. Την περίοδο της μετεμμηνόπαυσης, οι ορμονικές αλλαγές που βιώνουμε επιταχύνουν τη γήρανση του δέρματος. Η επιδερμίδα χάνει την πυκνότητα της και γίνεται ορατά πιο θαμπή. Το περίγραμμα αλλοιώνεται. Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε εμμηνοπαυσιακές γυναίκες με ευαίσθητο δέρμα.\nΗ 1η κρέμα με SPF50 για την μετεμμηνόπαυση, με ενεργά συστατικά υψηλής δερματολογικής αξιολόγησης και δράσης κατά των κηλίδων*\n* Αποφύγετε την περιοχή των ματιών",
+      "Συστατικά": "ΩΜΕΓΑ 3-6-9\nΑναπλήρωση της απώλειας λιπιδίων για βαθιά θρέψη της επιδερμίδας\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nPRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nINCI: 689164 04 - AQUA / WATER / EAU ● GLYCERIN ● ETHYLHEXYL SALICYLATE ● ETHYLHEXYL TRIAZONE ● ALCOHOL DENAT. ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● LAUROYL LYSINE ● DIMETHICONE ● BUTYL METHOXYDIBENZOYLMETHANE ● OCTYLDODECANOL ● BEHENYL ALCOHOL ● ISOPROPYL ISOSTEARATE ● NIACINAMIDE ● PERLITE ● ALUMINUM STARCH OCTENYLSUCCINATE ● CETYL ALCOHOL ● ADENOSINE ● CAPRYLOYL SALICYLIC ACID ● CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE ● HYDROXYACETOPHENONE ● HYDROXYPROPYL TETRAHYDROPYRANTRIOL ● SODIUM ACETYLATED HYALURONATE ● SODIUM HYALURONATE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● TOCOPHEROL ● ORYZA SATIVA BRAN OIL / RICE BRAN OIL ● ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER ● AMMONIUM POLYACRYLOYLDIMETHYL TAURATE ● CAPRYLYL GLYCOL ● CETEARYL ALCOHOL ● CETEARYL GLUCOSIDE ● CI 77891 / TITANIUM DIOXIDE ● ISOHEXADECANE ● MICA ● MYRISTIC ACID ● PALMITIC ACID ● PEG-100 STEARATE ● POLY C10-30 ALKYL ACRYLATE ● POLYSORBATE 80 ● PROPYLENE GLYCOL ● SODIUM POLYACRYLATE STARCH ● SODIUM STEAROYL GLUTAMATE ● SORBITAN OLEATE ● STEARIC ACID ● TIN OXIDE ● CI 15985 / YELLOW 6 ● PARFUM / FRAGRANCE ●",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotfront-gr-728x820.png?rev=d552898e75a94355a69cf603bfa73551",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotfront-gr-728x820.png?rev=d552898e75a94355a69cf603bfa73551",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotfront-gr-728x820.png?rev=d552898e75a94355a69cf603bfa73551",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotbox-gr-716x716.jpg?rev=47d1dbb8ab2e4f35b43f6ecffc22fea8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfprofessionalendorsement-gr-716x716.jpg?rev=07d516a994f64ecda49badf4b434901b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_7.jpg?rev=25f633c3616b4b2a932ecb12a5afcbc0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfnotext4-gr-716x716.jpg?rev=5462bbeef62747788e1a86a65445490b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfroutine-gr-716x716.jpg?rev=d9e9633c92b34e5abaa4cb8c506b9338",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfhowtouse-gr-716x716.jpg?rev=56cde6a161bc47548a8a2405ef6324ce",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotfronttexture-gr-716x716.jpg?rev=665a795bc7244467abbdb57da359733b"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-proswpou/emmhnopaush/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875943932": {
+    "name": "Liftactiv Collagen Specialist 16 Serum Ματιών Αντιγήρανσης",
+    "subtitle": "Διορθώνει τα σημάδια γήρανσης.",
+    "description": "Το LIFTACTIV COLLAGEN SPECIALIST 16 EYE SERUM είναι ο πρώτος μας ορός ματιών με τεχνολογία Co-Bonding [Ραμνόζη, Πεπτίδια, Maitake] που ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου. Αναζωογονεί την περιοχή των ματιών σε μόλις 2 εβδομάδες. Διατίθεται σε συσκευασία σε σχήμα χαπιού, στην οποία περιλαμβάνεται τριπλό απλικατέρ για δροσιστική αίσθηση φρεσκάδας κατά την εφαρμογή. * Δερματολογικά και οφθαλμολογικά ελεγμένο",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΑ ΜΑΤΙΑ",
+      "ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "15ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΥΑΙΣΘΗΤΑ ΜΑΤΙΑ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ",
+      "Συσκευασία": "15ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το LIFTACTIV COLLAGEN SPECIALIST 16 EYE SERUM είναι ο πρώτος μας ορός ματιών με τεχνολογία Co-Bonding [Ραμνόζη, Πεπτίδια, Maitake] που ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου. Αναζωογονεί την περιοχή των ματιών σε μόλις 2 εβδομάδες.\nΔιατίθεται σε συσκευασία σε σχήμα χαπιού, στην οποία περιλαμβάνεται τριπλό απλικατέρ για δροσιστική αίσθηση φρεσκάδας κατά την εφαρμογή.\n* Δερματολογικά και οφθαλμολογικά ελεγμένο",
+      "Οφέλη": "Ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου. Αναζωογονεί την περιοχή των ματιών σε μόλις 2 εβδομάδες.\nΕνισχυμένη αποτελεσματικότητα χάρη στην τεχνολογία Co-Bonding, αλλά και το απλικατέρ με τρία σφαιρίδια για τονωτικό μασάζ και δροσιστική αίσθηση κατά την εφαρμογή.\nΗ επιδερμίδα τονώνεται, γίνεται πιο σφριγηλή και ελαστική.\nΟι ρυτίδες, οι λεπτές γραμμές και οι μαύροι κύκλοι μειώνονται.",
+      "Υφή": "Διαυγής, διάφανη υφή ορού. Συνοδεύεται από απλικατέρ σχεδιασμένο με τρία σφαιρίδια, για αίσθηση δροσιάς και φρεσκάδας στην επιδερμίδα.",
+      "Συστατικά": "Η νεότητα της επιδερμίδας εξαρτάται από την ποικιλομορφία του δικτύου Κολλαγόνου: δεν υπάρχει μόνο 1 αλλά 16 τύποι Κολλαγόνου, που συνδέονται όλοι μεταξύ τους.\nΜετά από 15 χρόνια ερευνών, 25 επιστημονικές δημοσιεύσεις, και δοκιμές σε πάνω από 89.000 μόρια, η Vichy παρουσιάζει τη νέα πρωτοποριακή τεχνολογία Co-Bonding που, για πρώτη φορά, ενισχύει και συνδέει όλους τους τύπους Κολλαγόνου για ένα ισχυρότερο δίκτυο Κολλαγόνου.\nΤο σύμπλοκο αυτό, για το οποίο εκκρεμεί κατοχύρωση με δίπλωμα ευρεσιτεχνίας, εμπεριέχεται σε υψηλή συγκέντρωση στο νέο Collagen Specialist 16 Eye Serum, για απαράμιλλη αποτελεσματικότητα.\nINCI: AQUA/WATER/EAU, GLYCERIN, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, NIACINAMIDE PENTYLENE GLYCOL, SODIUM HYALURONATE, CAFFEINE, ASCORBYL GLUCOSIDE, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, CITRIC ACID, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, MALTODEXTRIN, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, POLYSORBATE 20, RHAMNOSE, SODIUM LACTATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, N70064391/1*",
+      "Χρήση": "ΠΡΟΕΤΟΙΜΑΣΙΑ\nΤο Collagen Specialist 16 Eye Serum διαθέτει απλικατέρ σχεδιασμένο με τρία σφαιρίδια μασάζ για ενίσχυση του Κολλαγόνου.\nΕΦΑΡΜΟΓΗ\nΧρησιμοποιώντας το απλικατέρ: (1) Κάντε μασάζ με κυκλικές κινήσεις. (2) Λειάνετε την επιδερμίδα, προς την αντίθετη φορά. (3) Κάντε πιέσεις στα 10 σημεία-κλειδί γύρω από τα μάτια.\nΒΕΛΤΙΣΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ\nΕφαρμόστε πρωί και βράδυ σε καθαρή, στεγνή επιδερμίδα, μετά από τον ορό Collagen Specialist 16 και πριν από την κρέμα ημέρας Collagen Specialist 16."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfmrhi-gr-728x820.png?rev=107dd6fa3c87402eb442af00ba1c2c27",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfmrhi-gr-728x820.png?rev=107dd6fa3c87402eb442af00ba1c2c27",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfmrhi-gr-728x820.png?rev=107dd6fa3c87402eb442af00ba1c2c27",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfbenefits-gr-716x716.jpg?rev=4a1e271d1ead469fa4829e4ff467700f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfclinicalresults-gr-716x716.jpg?rev=859dcd1c223f4018b185417d0d043dd0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfingredients-gr-716x716.jpg?rev=01162119cf8e475a8a7851f27d86f13f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atftexture-gr-716x716.jpg?rev=195d4f2d3fc341a6ac4fa8007b9e266b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfpictos-gr-716x716.jpg?rev=eec65bc867bb418e8db5b5678d34a76b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-collagen-16-eye-serum/gr/vichyproductskincareliftactivecollagenspecialist16serumeye3337875943932atfother2-gr-716x716.jpg?rev=af0f95ec9f2d40efb11dbf9ea4c48215"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/antighrantikes/liftactiv-collagen-specialist-16-serum-matiwn-antighranshs",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875873048": {
+    "name": "Liftactiv Collagen Specialist 16 Κρέμα Ματιών για Σημάδια Γήρανσης",
+    "subtitle": "ΕΝΙΣΧΥΕΙ ΤΟΥΣ ΔΙΑΦΟΡΕΤΙΚΟΥΣ ΤΥΠΟΥΣ ΚΟΛΛΑΓΟΝΟΥ. ΔΙΟΡΘΩΝΕΙ 16 ΣΗΜΑΔΙΑ ΓΗΡΑΝΣΗΣ.",
+    "description": "Liftactiv Collagen Specialist 16 Eye Care Cream*: η πρώτη κρέμα ματιών με Τεχνολογία Co-Bonding για ενίσχυση και σύνδεση όλων των τύπων Κολλαγόνου**. Διορθώνει 16 σημάδια γήρανσης***. Ενισχύει το κολλαγόνο της επιδερμίδας +350%. * Μελέτη in vitro για τα ενεργά συστατικά. **Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "15ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "15ml"
+    },
+    "sections": {
+      "Περιγραφή": "Liftactiv Collagen Specialist 16 Eye Care Cream*: η πρώτη κρέμα ματιών με Τεχνολογία Co-Bonding για ενίσχυση και σύνδεση όλων των τύπων Κολλαγόνου**. Διορθώνει 16 σημάδια γήρανσης***.\nΕνισχύει το κολλαγόνο της επιδερμίδας +350%.\n* Μελέτη in vitro για τα ενεργά συστατικά. **Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+      "Οφέλη": "Διορθώνει 16 σημάδια γήρανσης*: σακούλες κάτω από τα μάτια, μαύροι κύκλοι, ρυτίδες κάτω από τα μάτια, ρυτίδες στο πόδι της χήνας, λεπτές γραμμές, σφριγηλότητα, χαλάρωση, λεία υφή, ανάγλυφο, σημάδια κούρασης, τονικότητα, δύναμη, λάμψη, ελαστικότητα, ενυδάτωση, ομοιομορφία.\n* Αποτελέσματα κλινικών και οργανομετρικών δοκιμών και δοκιμών χρήσης.",
+      "Υφή": "Ανάλαφρη υφή με αέρινη αίσθηση, που απορροφάται γρήγορα στην επιδερμίδα. Μη κολλώδης υφή. Χωρίς άρωμα.",
+      "Χρήση": "Εφαρμόστε πρωί και βράδυ στο περίγραμμα των ματιών, μετά από τον ορό σας.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, GLYCERIN, DIMETHICONE, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, ISONONYL ISONONANOATE, NIACINAMIDE, ALCOHOL DENAT., CETYL ALCOHOL, GLYCERYL STEARATE, PEG-100 STEARATE, BUTYLENE GLYCOL, ASCORBYL GLUCOSIDE, BORON NITRIDE, PROPYLENE GLYCOL, DIMETHICONE/VINYL DIMETHICONE CROSSPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, STEARIC ACID, TRIETHANOLAMINE, PALMITIC ACID, CAFFEINE, SODIUM CITRATE, HYDROXYACETOPHENONE, TOCOPHERYL ACETATE, XANTHAN GUM, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, CAPRYLOYL SALICYLIC ACID, DEXTRIN, CARBOMER, SODIUM LACTATE, MYRISTIC ACID, CITRIC ACID, CAPRYLYL GLYCOL, POLYSORBATE 20, SORBITOL, VACCINIUM MYRTILLUS FRUIT EXTRACT, OXOTHIAZOLIDINECARBOXYLIC ACID, PENTYLENE GLYCOL, HYDROLYZED RICE PROTEIN, EPERUA FALCATA BARK EXTRACT, ACETYL TETRAPEPTIDE-9, PALMITOYL TRIPEPTIDE-1, PALMITOYL TETRAPEPTIDE-7"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichyproductskincareliftactiv-collagen-16-eye-care15ml-3337875873048packshotfront-2-1-1.png?rev=8487f4664b1d49369edeed51a9620409",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichyproductskincareliftactiv-collagen-16-eye-care15ml-3337875873048packshotfront-2-1-1.png?rev=8487f4664b1d49369edeed51a9620409",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichyproductskincareliftactiv-collagen-16-eye-care15ml-3337875873048packshotfront-2-1-1.png?rev=8487f4664b1d49369edeed51a9620409",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichy-lifactiv-2nd.jpg?rev=b71905574a0c406c8d80c84c40c7a973",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichy-liftactiv-collagen-16-eye-care-website-pdp-brief-mosaic-3-(1).jpg?rev=31e4e5c2f6184f64afed676ca90ab891",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichy-liftactiv-collagen-16-eye-care-website-pdp-brief-mosaic-4.jpg?rev=aa3f221f106142169cf9f4bff44b9323",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-eye-care/vichy-liftactiv-collagen-16-eye-care-website-pdp-brief-mosaic-5.jpg?rev=f66b580a8d0248ed98272b305b240ee0"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/antighrantikes/liftactiv-collagen-specialist-krema-matiwn-gia-shmadia-ghranshs",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871323332": {
+    "name": "Liftactiv H.A Αντιρυτιδική Κρέμα Ματιών",
+    "subtitle": "Μειώνει ορατά την όψη των μαύρων κύκλων.",
+    "description": "Με την πάροδο του χρόνου και λόγω της έκθεσης στους καθημερινούς επιθετικούς παράγοντες, η παραγωγή Υαλουρονικού Οξέος στην επιδερμίδα μειώνεται οδηγώντας στον σχηματισμό λεπτών γραμμών και ρυτίδων στο περίγραμμα των ματιών. Η Liftactiv Hyaluronic Specialist H.A Anti-Wrinkle Firming Eye Care διορθώνει τις ρυτίδες στο &ldquo;πόδι της χήνας&rdquo; και κάτω από τα μάτια και μειώνει ορατά την όψη των μαύρων κύκλων. Σχεδιασμένο να χρησιμοποιείται στην ευαίσθητη περιοχή των ματιών, ακόμα και στα βλέφαρα. Δερματολογικά και οφθαλμολογικά ελεγμένο.",
+    "claims": [
+      "ΜΗ ΛΙΠΑΡΗ ΥΦΗ",
+      "ΑΠΟΡΡΟΦΑΤΑΙ ΑΜΕΣΑ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Αντιγηραντικές",
+      "Δερματολογικά": "ΜΗ ΛΙΠΑΡΗ ΥΦΗ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · ΑΠΟΡΡΟΦΑΤΑΙ ΑΜΕΣΑ"
+    },
+    "sections": {
+      "Περιγραφή": "Με την πάροδο του χρόνου και λόγω της έκθεσης στους καθημερινούς επιθετικούς παράγοντες, η παραγωγή Υαλουρονικού Οξέος στην επιδερμίδα μειώνεται οδηγώντας στον σχηματισμό λεπτών γραμμών και ρυτίδων στο περίγραμμα των ματιών.\nΗ Liftactiv Hyaluronic Specialist H.A Anti-Wrinkle Firming Eye Care διορθώνει τις ρυτίδες στο &ldquo;πόδι της χήνας&rdquo; και κάτω από τα μάτια και μειώνει ορατά την όψη των μαύρων κύκλων.\nΣχεδιασμένο να χρησιμοποιείται στην ευαίσθητη περιοχή των ματιών, ακόμα και στα βλέφαρα.\nΔερματολογικά και οφθαλμολογικά ελεγμένο.",
+      "Συστατικά": "Καθαρό Υαλουρονικό Οξύ\nΔιορθώνει τις λεπτές γραμμές και τις ρυτίδες.\nVitamin CG\nΠροστατεύει το δέρμα από τις ελεύθερες ρίζες.\nΚαφεΐνη\nΜειώνει τους μαύρους κύκλους και το πρήξιμο.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nEνισχύει τον επιδερμιδικό φραγμό.\nINCI: AQUA / WATER / EAU - DIMETHICONE - HYDROGENATED POLYISOBUTENE - GLYCERIN - RHAMNOSE - CETYL - ALCOHOL - GLYCERYL STEARATE - ZEA MAYS STARCH / CORN STARCH - PEG-40 STEARATE - CERA ALBA / - BEESWAX /CIREDABEILLEPENTYLENE - GLYCOL - ADENOSINE - CAFFEINE - HYDROLYZED HYALURONIC ACID - HYDROXYACETOPHENONELAUROYL - LYSINE - SODIUM HYALURONATE - TRIETHANOLAMINE - VITREOSCILLA - FERMENT - ASCORBYL GLUCOSIDE - PANTHENOL - TOCOPHEROL - DIPOTASSIUM GLYCYRRHIZATE - AMMONIUMPOLYACRYLOYLDIMETHYL - TAURATECAPRYLYLGLYCOLCITRIC - ACID - MYRISTIC ACID - PALMITIC - ACIDPOLOXAMER 338 - SORBITAN - TRISTEARATE - STEARIC ACID",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332mrhi-gr-1200x1200.jpg?rev=05e82cce9201405ba7942c17b3348366",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332mrhi-gr-1200x1200.jpg?rev=05e82cce9201405ba7942c17b3348366",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332mrhi-gr-1200x1200.jpg?rev=05e82cce9201405ba7942c17b3348366",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332atfother-gr-1200x1200.jpg?rev=6945f16ba5ed4a0eae948a69a7ee6b93",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332notext1-gr-1200x1200.jpg?rev=5f71416113624d68947e67e79ab6dfea",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332packshottexture-gr-1200x1200.jpg?rev=e1cad553abfd4b1f80938218e882e56e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332texture-gr-1200x1200.jpg?rev=28b7354674d94f3091196018a2f158e4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-specialist-ha-eye-care/vichyproductskincareliftactivspecialisthaeyecare15ml3337871323332packshotapplicator-gr-1200x1200.jpg?rev=07d0cb9f13fb4858a96bc88496105860"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/antighrantikes/liftactiv-ha-antirutidikh-krema-matiwn",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875918534": {
+    "name": "Liftactiv Pigment Specialist B3 Κρέμα Ματιών με SPF50",
+    "subtitle": "ΕΛΑΧΙΣΤΟΠΟΙΕΙ ΤΟΥΣ ΜΑΥΡΟΥΣ ΚΥΚΛΟΥΣ & ΚΑΤΑΠΟΛΕΜΑ ΤΗΝ ΥΠΕΡΜΕΛΑΓΧΡΩΣΗ",
+    "description": "Η LIFTACTIVE PIGMENT SPECIALIST B3 EYE CARE SPF50+ είναι εμπλουτισμένη με Νιασιναμίδη Β3 και Melasyl για στόχευση των μαύρων κύκλων και της υπερμελάγχρωσης. Το 86% των καταναλωτών συμφωνούν ότι η επιδερμίδα γύρω από τα μάτια τους φαίνεται πιο ομοιόμορφη * Αντίληψη καταναλωτών, 85 εθελοντές, διάστημα 2 μηνών.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "15ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "15ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η LIFTACTIVE PIGMENT SPECIALIST B3 EYE CARE SPF50+ είναι εμπλουτισμένη με Νιασιναμίδη Β3 και Melasyl για στόχευση των μαύρων κύκλων και της υπερμελάγχρωσης. Το 86% των καταναλωτών συμφωνούν ότι η επιδερμίδα γύρω από τα μάτια τους φαίνεται πιο ομοιόμορφη\n* Αντίληψη καταναλωτών, 85 εθελοντές, διάστημα 2 μηνών.",
+      "Οφέλη": "Μειώνει τους μαύρους κύκλους και την υπερμελάγχρωση, χάρη στον συνδυασμό Νιασιναμίδης Β3 και Melasyl. Έχει αποδειχθεί κλινικά ότι ρυθμίζει την περίσσεια μελανίνης, δίνει ομοιομορφία στον τόνο της επιδερμίδας, και λειαίνει τις ρυτίδες. Περιέχει επίσης SPF50 για προστασία της ευαίσθητης επιδερμίδας των ματιών από την ακτινοβολία UV.",
+      "Υφή": "Ανάλαφρη, μεταξένια κρέμα με υπόλευκη υφή. Απορροφάται γρήγορα, χωρίς κολλώδες ή λιπαρό τελείωμα. Δεν περιέχει άρωμα, και προσφέρει ενυδατική, καταπραϋντική αίσθηση κατά την εφαρμογή.",
+      "Συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nΝΙΑΣΙΝΑΜΙΔΗ\nΒελτιώνει τη λάμψη, δίνει ομοιομορφία στον τόνο της επιδερμίδας.\nMELASYL\nΜειώνει ορατά τις επίμονες κηλίδες, ρυθμίζοντας την περίσσεια μελανίνης πριν οδηγήσει στον σχηματισμό δυσχρωμιών.\nINCI: AQUA / WATER, ALCOHOL DENAT., SILICA, ISOPROPYL MYRISTATE, DIISOPROPYL SEBACATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, C12-15 ALKYL BENZOATE, DICAPRYLYL CARBONATE, GLYCERIN, PROPANEDIOL, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, DROMETRIZOLE TRISILOXANE, PERLITE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAFFEINE, CAPRYLYL GLYCOL, CARBOMER, CITRIC ACID, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, DISODIUM PHOSPHATE, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, 2-MERCAPTONICOTINOYL GLYCINE, NIACINAMIDE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, POLYSORBATE 20, POLYSORBATE 60, SODIUM HYALURONATE, SODIUM LACTATE, SODIUM PHOSPHATE, SODIUM THIOSULFATE, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+      "Χρήση": "Εφαρμόστε στο περίγραμμα των ματιών κάθε πρωί, μετά από τον ορό σας.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic1-new.png?rev=f07e9c5cc6d8470ea8f12052f26d99e1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic1-new.png?rev=f07e9c5cc6d8470ea8f12052f26d99e1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic1-new.png?rev=f07e9c5cc6d8470ea8f12052f26d99e1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic-2-new.jpg?rev=96e4db650a2a41bebbd0f3b03c12d961",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic-3-new.jpg?rev=360b31765e52409790647f5e0b723cc6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic-4-new.jpg?rev=3d7fc3545dd54af7a24ba437052286e7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus/vichy-liftactiv-b3-eye-care-website-pdp-mosaic-5_new.jpg?rev=98124b143bbd4e0c995694caef661a7c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/antighrantikes/liftactiv-pigment-specialist-b3-krema-matiwn-me-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875596763": {
+    "name": "Mineral 89 Ενυδατική Κρέμα Ματιών για Λαμπερό Βλέμμα",
+    "subtitle": "Ενυδατώνει, προσδίδει λάμψη και λειαίνει τις λεπτές γραμμές γύρω από την ευαίσθητη περιοχή των ματιών.",
+    "description": "Η Minéral 89 Ενυδατική Κρέμα-Gel Ματιών με Υαλουρονικό Οξύ ενυδατώνει, προσδίδει λάμψη και λειαίνει τις λεπτές γραμμές γύρω από την ευαίσθητη περιοχή των ματιών. Αυτή η σύνθεση, με υφή κρέμας-gel που χαρίζει άνεση, συνδυάζει 89% Ιαματικό Ηφαιστειακό Νερό Vichy, Καθαρό Υαλουρονικό Οξύ και Καφεΐνη για πιο λαμπερό και ξεκούραστό βλέμμα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς άρωμα",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "15ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Ενυδατικές",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς άρωμα · Χωρίς αλκοόλ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "15ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Minéral 89 Ενυδατική Κρέμα-Gel Ματιών με Υαλουρονικό Οξύ ενυδατώνει, προσδίδει λάμψη και λειαίνει τις λεπτές γραμμές γύρω από την ευαίσθητη περιοχή των ματιών. Αυτή η σύνθεση, με υφή κρέμας-gel που χαρίζει άνεση, συνδυάζει 89% Ιαματικό Ηφαιστειακό Νερό Vichy, Καθαρό Υαλουρονικό Οξύ και Καφεΐνη για πιο λαμπερό και ξεκούραστό βλέμμα.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER, PROPANEDIOL, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, GLYCERIN, CARBOMER, CAFFEINE, SODIUM HYALURONATE, ADENOSINE, PHENOXYETHANOL, CHLORELLA VULGARIS EXTRACT, CITRIC ACID, CAPRYLYL GLYCOL, BIOSACCHARIDE GUM-1"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/vichy_m89_yeux.jpg?rev=cf0fc324dea449498b108eb18adbf089",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/vichy_m89_yeux.jpg?rev=cf0fc324dea449498b108eb18adbf089",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/m89/vichy_m89_yeux.jpg?rev=cf0fc324dea449498b108eb18adbf089",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/mineral-89---eyes-gel/mineral-89-eyes-pack2.jpg?rev=8cee45ee10d546ba86faaea188769550",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/mineral-89---eyes-gel/mineral-89-eyes-pack3.jpg?rev=6566b6c27f7f4e1aad119937620b8fd6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/mineral-89---eyes-gel/mineral-89-eyes-pack4.jpeg?rev=9daaf7732a6f4ec4b6eed9d04a6fdad3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/mineral-89---eyes-gel/mineral-89-eyes-pack5.jpg?rev=10ad7e403f314873a5ec7901db2b4916"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/enudatikes/mineral-89-enudatikh-krema-matiwn-gia-lampero-blemma",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875824033": {
+    "name": "Neovadiol Αντιγηραντική Κρέμα για το Περίγραμμα Ματιών & Χειλιών",
+    "subtitle": "ΣΥΣΦΙΓΓΕΙ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ ΣΤΗΝ ΠΕΡΙΟΧΗ ΤΩΝ ΜΑΤΙΩΝ. ΜΕΙΩΝΕΙ ΤΙΣ ΣΑΚΟΥΛΕΣ ΚΑΤΩ ΑΠΌ ΤΑ ΜΑΤΙΑ. ΘΡΕΦΕΙ ΕΝΤΑΤΙΚΑ.",
+    "description": "ΜΙΑ ΠΛΟΥΣΙΑ ΥΦΗ, ΚΑΤΑΛΛΗΛΗ ΓΙΑ ΤΗΝ ΕΥΘΡΑΥΣΤΗ ΠΕΡΙΟΧΗ ΤΩΝ ΜΑΤΙΩΝ ΚΑΙ ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΧΕΙΛΙΩΝ ΜΕ ΔΡΑΣΤΙΚΗ ΣΥΝΘΕΣΗ ΣΕ PROXYLANE, ΕΚΧΥΛΙΣΜΑ CASSIA, ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ, ΝΙΑΣΙΝΑΜΙΔΗ (ΒΙΤΑΜΙΝΗ Β3) ΚΑΙ ΩΜΕΓΑ 3-6-9 ΑΠΌ ΦΥΤΙΚΑ ΕΛΑΙΑ. ΑΜΕΣΑ, ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΜΑΤΙΩΝ ΦΑΙΝΕΤΑΙ ΠΙΟ ΦΩΤΕΙΝΟ, Η ΕΠΙΔΕΡΜΙΔΑ ΓΥΡΩ ΑΠΌ ΤΑ ΜΑΤΙΑ ΚΑΙ ΤΑ ΧΕΙΛΗ ΔΕΙΧΝΕΙ ΠΙΟ ΛΕΙΑ, ΜΕ ΑΙΣΘΗΣΗ ΑΝΕΣΗΣ. ΜΕΤΑ ΑΠΌ 1 ΕΒΔΟΜΑΔΑ, ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΜΑΤΙΩΝ ΦΑΙΝΕΤΑΙ ΝΑ ΕΠΑΝΟΡΘΩΝΕΤΑΙ, ΟΙ ΡΥΤΙΔΕΣ ΓΥΡΩ ΑΠΌ ΤΑ ΧΕΙΛΗ ΜΕΙΩΝΟΝΤΑΙ ΟΡΑΤΑ.",
+    "claims": [
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Χωρίς άρωμα",
+      "Χωρίς Paraben"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "15ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Εμμηνόπαυση",
+      "Δερματολογικά": "Δοκιμασμένο υπό δερματολογικό έλεγχο · Χωρίς άρωμα · Χωρίς Paraben",
+      "Συσκευασία": "15ml"
+    },
+    "sections": {
+      "Περιγραφή": "ΜΙΑ ΠΛΟΥΣΙΑ ΥΦΗ, ΚΑΤΑΛΛΗΛΗ ΓΙΑ ΤΗΝ ΕΥΘΡΑΥΣΤΗ ΠΕΡΙΟΧΗ ΤΩΝ ΜΑΤΙΩΝ ΚΑΙ ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΧΕΙΛΙΩΝ ΜΕ ΔΡΑΣΤΙΚΗ ΣΥΝΘΕΣΗ ΣΕ PROXYLANE, ΕΚΧΥΛΙΣΜΑ CASSIA, ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ, ΝΙΑΣΙΝΑΜΙΔΗ (ΒΙΤΑΜΙΝΗ Β3) ΚΑΙ ΩΜΕΓΑ 3-6-9 ΑΠΌ ΦΥΤΙΚΑ ΕΛΑΙΑ.\nΑΜΕΣΑ, ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΜΑΤΙΩΝ ΦΑΙΝΕΤΑΙ ΠΙΟ ΦΩΤΕΙΝΟ, Η ΕΠΙΔΕΡΜΙΔΑ ΓΥΡΩ ΑΠΌ ΤΑ ΜΑΤΙΑ ΚΑΙ ΤΑ ΧΕΙΛΗ ΔΕΙΧΝΕΙ ΠΙΟ ΛΕΙΑ, ΜΕ ΑΙΣΘΗΣΗ ΑΝΕΣΗΣ. ΜΕΤΑ ΑΠΌ 1 ΕΒΔΟΜΑΔΑ, ΤΟ ΠΕΡΙΓΡΑΜΜΑ ΤΩΝ ΜΑΤΙΩΝ ΦΑΙΝΕΤΑΙ ΝΑ ΕΠΑΝΟΡΘΩΝΕΤΑΙ, ΟΙ ΡΥΤΙΔΕΣ ΓΥΡΩ ΑΠΌ ΤΑ ΧΕΙΛΗ ΜΕΙΩΝΟΝΤΑΙ ΟΡΑΤΑ.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER - DIMETHICONE - PROPYLENE GLYCOL - ISOHEXADECANE - DIMETHICONE/PEG-10/15 CROSSPOLYMER - CERA ALBA / BEESWAX - GLYCERIN - HYDROXYPROPYL TETRAHYDROPYRANTRIOL - ALUMINUM STARCH OCTENYLSUCCINATE - DIPROPYLENE GLYCOL - NIACINAMIDE - ADENOSINE - CAFFEINE - CAPRYLOYL SALICYLIC ACID - CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE - HYDROLYZED HYALURONIC ACID - HYDROXYACETOPHENONE - MAGNESIUM SULFATE - SODIUM HYALURONATE - TRISODIUM ETHYLENEDIAMINE DISUCCINATE - ORYZA SATIVA BRAN OIL / RICE BRAN OIL - CELLULOSE - SILICA SILYLATE - CAPRYLYL GLYCOL - CI 77891 / TITANIUM DIOXIDE - SODIUM CITRATE - SYNTHETIC FLUORPHLOGOPITE - TIN OXIDE - TOCOPHEROL - LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/neo-eyes-tube-openedsimplecmjn02-2000x2000.jpg?rev=734ca7eed6eb40bba755b439933a2ce5",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/neo-eyes-tube-openedsimplecmjn02-2000x2000.jpg?rev=734ca7eed6eb40bba755b439933a2ce5",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/neo-eyes-tube-openedsimplecmjn02-2000x2000.jpg?rev=734ca7eed6eb40bba755b439933a2ce5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_1.jpg?rev=6a5195d9dcba4ae284d658a4d217a8a2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_2.jpg?rev=142d4a73eb8849cf98b5c4e80bdbe163",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_3.jpg?rev=fdab0fc4aa684fc29ee84990060eb441",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_4.jpg?rev=de72a24bce2d49cbb284e553b05282d5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_6.jpg?rev=33ca721f41cb4c5d9eb8d05e375177c0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_7.jpg?rev=25f633c3616b4b2a932ecb12a5afcbc0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/3337875824033_8.jpg?rev=775ced6e4c6b4d3c8947c57eec10bf8a"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-serum-matiwn/emmhnopaush/neovadiol-antighrantikh-krema-gia-to-perigramma-matiwn-xeiliwn",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875821636": {
+    "name": "Liftactiv Retinol Specialist Serum Προσώπου για Βαθιές Ρυτίδες",
+    "subtitle": "Aποκαθιστά την πυκνότητα της επιδερμίδας.",
+    "description": "Ο ορός RETINOL SPECIALIST SERUM για τη νύχτα, είναι εμπλουτισμένος με ένα αντιγηραντικό σύμπλοκο υψηλής απόδοσης, για να στοχεύει όλους τους τύπους ρυτίδων, ακόμα και τις πιο βαθιές: Ο ορός αυτός ενισχύει την κυτταρική ανανέωση, αποκαθιστά την πυκνότητα της επιδερμίδας, και μειώνει τις λεπτές γραμμές και τις ρυτίδες. Η επιδερμίδα γίνεται πιο λεία, αποκτά λάμψη και ομοιόμορφο τόνο. Χάρη στην τεχνολογία Retinol Guard, διασφαλίζεται ότι η ισχυρότερη μορφή καθαρής ρετινόλης απελευθερώνεται με ασφάλεια και σε βάθος στο δέρμα.",
+    "claims": [
+      "ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ",
+      "ΓΙΑ ΟΛΟΥΣ ΤΟΥ ΤΥΠΟΥΣ ΔΕΡΜΑΤΟΣ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ · ΓΙΑ ΟΛΟΥΣ ΤΟΥ ΤΥΠΟΥΣ ΔΕΡΜΑΤΟΣ"
+    },
+    "sections": {
+      "Περιγραφή": "Ο ορός RETINOL SPECIALIST SERUM για τη νύχτα, είναι εμπλουτισμένος με ένα αντιγηραντικό σύμπλοκο υψηλής απόδοσης, για να στοχεύει όλους τους τύπους ρυτίδων, ακόμα και τις πιο βαθιές:\nΟ ορός αυτός ενισχύει την κυτταρική ανανέωση, αποκαθιστά την πυκνότητα της επιδερμίδας, και μειώνει τις λεπτές γραμμές και τις ρυτίδες. Η επιδερμίδα γίνεται πιο λεία, αποκτά λάμψη και ομοιόμορφο τόνο.\nΧάρη στην τεχνολογία Retinol Guard, διασφαλίζεται ότι η ισχυρότερη μορφή καθαρής ρετινόλης απελευθερώνεται με ασφάλεια και σε βάθος στο δέρμα.",
+      "Συστατικά": "ΡΕΤΙΝΟΛΗ\nΕξασφαλίζει εντατική κυτταρική ανανέωση.\nΚλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nINCI: AQUA / WATER / EAU - GLYCERIN - PENTYLENE GLYCOL - ISONONYL - ISONONANOATE - ALCOHOL DENAT. - DICAPRYLYL ETHER - GLYCINE SOJA OIL / - SOYBEAN OIL - PROPYLENE GLYCOL - PEG-6 - CAPRYLIC/CAPRIC GLYCERIDES - HYDROLYZED - RICE PROTEIN - HYDROXYACETOPHENONE - PALMITOYL TETRAPEPTIDE-7 - PALMITOYL - TRIPEPTIDE-1 - PENTAERYTHRITYL - TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE - SODIUMHYALURONATE - SODIUMHYDROXIDE - TRISODIUMETHYLENEDIAMINEDISUCCINATE - VITREOSCILLA FERMENT - RETINOL - DICAPRYLYL CARBONATE - AMMONIUM - POLYACRYLOYLDIMETHYL TAURATE - BUTYLENE - GLYCOL - CAPRYLYL GLYCOL - CARBOMER - GLYCERYL ISOSTEARATE - POLYSORBATE 20 - PPG-6-DECYLTETRADECETH-30 - SODIUM - LACTATE - TOCOPHEROL - XANTHAN GUM",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/vichy_liftactiv_retinol-serum-001-3337875821636-pack-with-shadow.png?rev=3d475233f43b43a3aef5050a3d38474b",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/vichy_liftactiv_retinol-serum-001-3337875821636-pack-with-shadow.png?rev=3d475233f43b43a3aef5050a3d38474b",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/vichy_liftactiv_retinol-serum-001-3337875821636-pack-with-shadow.png?rev=3d475233f43b43a3aef5050a3d38474b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/liftactiv-retinol-packshot-2.png?rev=888dccf1e0e04ca3b663edafc8508443",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/liftactiv-retinol-model-and-product-4.jpg?rev=dafdc907881741cbb9e4601b853f157c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/retinol-serum/5-liftactiv-retinol-visual.png?rev=91ca9c7db8b744af9e4b6f97525f5bd6"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/liftactiv-retinol-specialist-serum-proswpou-gia-bathies-rutides",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875960144": {
+    "name": "Neovadiol Longevity Regenerating Serum Προσώπου",
+    "subtitle": "Αποκαθιστά 5 χαρακτηριστικά της νεανικής επιδερμίδας, με 1 μπουκαλάκι: ανορθωμένη όψη, λιγότερο έντονες ρυτίδες, βελτιωμένη ελαστικότητα, ομοιόμορφος τόνος, λείο ανάγλυφο.",
+    "description": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με το Vichy Neovadiol Longevity Regenerating Serum. Μετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό. Τα σημάδια γήρανσης εντείνονται, και η επιδερμίδα φαίνεται λιγότερο νεανική. Το Vichy Neovadiol Longevity Regenerating Serum με τεχνολογία Longevisia [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία που υποστηρίζεται από πάνω από 20 χρόνια έρευνας και 100 επιστημονικές δημοσιεύσεις, αποκαθιστά τη δύναμη αναγέννησης των κυττάρων οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%*. Η σύνθεση είναι ενσωματωμένη σε μια πλούσια αλλά πολύ λεπτόρρευστη υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή, προσφέροντας αίσθηση βαθιάς θρέψης και ευεξίας. Αμέσως, η επιδερμίδα θρέφεται σε βάθος και γίνεται πιο σφριγηλή. Με 1 μπουκαλάκι, 5 χαρακτηριστικά της νεανικής επιδερμίδας αποκαθίστανται: ανορθωμένη όψη, λιγότερο έντονες ρυτίδες, βελτιωμένη ελαστικότητα, ομοιόμορφος τόνος, λείο ανάγλυφο * * Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο",
+      "Χωρίς άρωμα",
+      "Χωρίς Paraben"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Χωρίς άρωμα · Χωρίς Paraben",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ανακαλύψτε τη νέα καινοτομία στην αντιγήρανση για την ώριμη επιδερμίδα, με το Vichy Neovadiol Longevity Regenerating Serum.\nΜετά τα 50, τα κύτταρα χάνουν την ικανότητά τους να δημιουργούν νέο ιστό. Τα σημάδια γήρανσης εντείνονται, και η επιδερμίδα φαίνεται λιγότερο νεανική.\nΤο Vichy Neovadiol Longevity Regenerating Serum με τεχνολογία Longevisia [Proxylane + Νιασιναμίδη + Senevisium], μια πρωτοποριακή τεχνολογία που υποστηρίζεται από πάνω από 20 χρόνια έρευνας και 100 επιστημονικές δημοσιεύσεις, αποκαθιστά τη δύναμη αναγέννησης των κυττάρων οδηγώντας σε αύξηση του νεανικού ιστού κατά +31%*.\nΗ σύνθεση είναι ενσωματωμένη σε μια πλούσια αλλά πολύ λεπτόρρευστη υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή, προσφέροντας αίσθηση βαθιάς θρέψης και ευεξίας. Αμέσως, η επιδερμίδα θρέφεται σε βάθος και γίνεται πιο σφριγηλή. Με 1 μπουκαλάκι, 5 χαρακτηριστικά της νεανικής επιδερμίδας αποκαθίστανται: ανορθωμένη όψη, λιγότερο έντονες ρυτίδες, βελτιωμένη ελαστικότητα, ομοιόμορφος τόνος, λείο ανάγλυφο\n* * Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες.",
+      "Οφέλη": "Με πρωτοποριακή τεχνολογία Longevisia για αύξηση του νεανικού ιστού κατά +31%*. Αυτός ο πανίσχυρος αντιγηραντικός ορός αποκαθιστά τη φυσική δύναμη ανανέωσης των κυττάρων, στοχεύοντας 5 σημάδια γήρανσης με 1 μπουκαλάκι. Κλινικά αποδεδειγμένη κυτταρική αναγέννηση, για ορατά πιο νεανική και υγιή επιδερμίδα.\n* * Αποτελέσματα in vitro μελέτης που πραγματοποιήθηκε σε μοντέλο αναδομημένου δέρματος μετά από 6 εβδομάδες. Μελέτη in vitro για τα συστατικά: τεχνολογία Longevisia.",
+      "Υφή": "Πλούσια αλλά πολύ λεπτόρρευστη υφή που λιώνει στην επιδερμίδα κατά την εφαρμογή, προσφέροντας αίσθηση βαθιάς θρέψης και ευεξίας. Με ντελικάτο άρωμα γαρδένιας, με καταπραϋντικές νότες γάλακτος & μόσχου.",
+      "Συστατικά": "Πρωτοποριακή τεχνολογία Longevisia, που υποστηρίζεται από 20+ χρόνια έρευνας και 100 επιστημονικές δημοσιεύσεις. Περιέχει Proxylane, αντιοξειδωτική Νιασιναμίδη για προστασία των κυττάρων και φωτεινή επιδερμίδα, καθώς και το φυσικό αντιγηραντικό δραστικό συστατικό Senevisium®. Απομακρύνει τα ανενεργά κύτταρα, λειαίνει τις ρυτίδες, βελτιώνει τη λάμψη, και αυξάνει τον νεανικό ιστό κατά +31%. Κλινικά αποδεδειγμένη κυτταρική αναγέννηση.\nINCI: AQUA / WATER / EAU, GLYCERIN, PENTYLENE GLYCOL, ALCOHOL DENAT., HYDROXYPROPYL TETRAHYDROPYRANTRIOL, GLYCERETH-26, PROPYLENE GLYCOL, NIACINAMIDE, BIS-PEG-18 METHYL ETHER DIMETHYL SILANE, DIMETHICONE PEG-7 PHOSPHATE, DIMETHICONE, GINKGO BILOBA LEAF EXTRACT, HYDROGENATED LECITHIN, ISOPROPYL LAUROYL SARCOSINATE, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, SQUALANE, ZEA MAYS GERM OIL / CORN GERM OIL, AMMONIUM ACRYLOYLDIMETHYLTAURATE/VP COPOLYMER, BUTYLENE GLYCOL, CAPRYLOYL SALICYLIC ACID, CAPRYLYL GLYCOL, CARBOMER, CARNOSINE, CARRAGEENAN, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, CITRIC ACID, HYDROXYACETOPHENONE, LECITHIN, LEONTOPODIUM ALPINUM CALLUS CULTURE EXTRACT, METHYL GLUCETH-20, PULLULAN, SCLEROTIUM GUM, SILICA, TETRASODIUM GLUTAMATE DIACETATE, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE, CAPRYLIC/CAPRIC TRIGLYCERIDE, CAPRYLYL METHICONE, DIMETHICONE/VINYL DIMETHICONE CROSSPOLYMER, CI 14700 / RED 4, CI 19140 / YELLOW 5, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PARFUM / FRAGRANCEN70057911/1",
+      "Χρήση": "ΜΑΣΑΖ\nΚάντε απαλό μασάζ με τον ορό σε καθαρή επιδερμίδα, σε πρόσωπο και λαιμό.\nΕΦΑΡΜΟΓΗ\nΧρησιμοποιήστε τον ορό καθημερινά, πριν από την κρέμα Longevity."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfpackshotfront-gr-1200x1200.jpg?rev=0aed3abc19e849b6b2c8bbfb8c686102",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfpackshotfront-gr-1200x1200.jpg?rev=0aed3abc19e849b6b2c8bbfb8c686102",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfpackshotfront-gr-1200x1200.jpg?rev=0aed3abc19e849b6b2c8bbfb8c686102",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfkeybenefits-gr-1200x1200.jpg?rev=c94d38a92d5948fa845e597b4ec291b0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfclinicalresults-gr-1200x1200.jpg?rev=6dc3decf490948c9b86b7fe17550f5c8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfbeforeafter-gr-1200x1200.jpg?rev=f29b20965ac94a21ad014da9e988de00",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atftechnology-gr-1200x1200.jpg?rev=fac716c7e6a84fcc807b242c88d1888c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atftexture-gr-1200x1200.jpg?rev=b627ba3d209640ceb574f956aef2e177",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/longevity-regenerating-serum/vichyproductskincareneovadiollongevityserum3337875960144atfroutine-gr-1200x1200.jpg?rev=b4cb59640a6e4475b89e2e528432c5c8"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/neovadiol-longevity-regenerating-serum-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875719209": {
+    "name": "Liftactiv H.A. Epidermic Filler Αντιγηραντικός Ορός Προσώπου με Υαλουρονικό Οξύ",
+    "subtitle": "Μειώνει προοδευτικά τις ρυτίδες και τις λεπτές γραμμές.",
+    "description": "Ο Liftactiv Hyaluronic Specialist H.A. Epidermic Filler είναι ένας καινοτόμος αντιγηραντικός ορός που στοχεύει σε πρώτες ρυτίδες και λεπτές γραμμές που προκαλούνται από την έλλειψη σφριγηλότητας στο πρόσωπο και στην περιοχή των ματιών. Αναπληρώνει το 100% της καθημερινής απώλειας Υαλουρονικού οξέος στην επιδερμίδα* Λόγω της ισχυρής συμπυκνωμένης σύνθεσης είναι ιδανικό για καθημερινή διόρθωση και προσφέρει ορατά αποτελέσματα που βελτιώνονται προοδευτικά με τη συνεχή χρήση. Με λεπτόρρευστη υφή και πώμα-δοσομετρητή για να λαμβάνετε την ακριβή δόση προϊόντος που χρειάζεται η επιδερμίδα σας καθημερινά. * *Με βάση τη συγκέντρωση της σύνθεσης σε υαλουρονικό οξύ όταν εφαρμόζεται δύο φορές την ημέρα.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "Χωρίς άρωμα · Χωρίς αλκοόλ",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ο Liftactiv Hyaluronic Specialist H.A. Epidermic Filler είναι ένας καινοτόμος αντιγηραντικός ορός που στοχεύει σε πρώτες ρυτίδες και λεπτές γραμμές που προκαλούνται από την έλλειψη σφριγηλότητας στο πρόσωπο και στην περιοχή των ματιών.\nΑναπληρώνει το 100% της καθημερινής απώλειας Υαλουρονικού οξέος στην επιδερμίδα* Λόγω της ισχυρής συμπυκνωμένης σύνθεσης είναι ιδανικό για καθημερινή διόρθωση και προσφέρει ορατά αποτελέσματα που βελτιώνονται προοδευτικά με τη συνεχή χρήση. Με λεπτόρρευστη υφή και πώμα-δοσομετρητή για να λαμβάνετε την ακριβή δόση προϊόντος που χρειάζεται η επιδερμίδα σας καθημερινά.\n* *Με βάση τη συγκέντρωση της σύνθεσης σε υαλουρονικό οξύ όταν εφαρμόζεται δύο φορές την ημέρα.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nVitamin C\nΠροστατεύει το δέρμα από τις ελεύθερες ρίζες.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER, GLYCERIN, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, SODIUM HYALURONATE, PEG-60 HYDROGENATED CASTOR OIL, SECALE CEREALE SEED EXTRACT / RYE SEED EXTRACT, CALCIUM PANTOTHENATE, DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE, PHENOXYETHANOL, CHLORPHENESIN, ASCORBYL GLUCOSIDE, DISODIUM EDTA, PENTYLENE GLYCOL",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vie5511.jpg?rev=16e5120fda1f4fd5abcc3414b7308500",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vie5511.jpg?rev=16e5120fda1f4fd5abcc3414b7308500",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vie5511.jpg?rev=16e5120fda1f4fd5abcc3414b7308500",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vif95b1.jpg?rev=e55faa2491df48fe9ef07cdf3626164f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vichy4.jpg?rev=7b4ce3ef807645ef9376cc68ec297f4f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vichy2.jpg?rev=e09d7c05650343cba60a35d54e68e4b2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vieddf1.jpg?rev=27701390c61446efbac003af6614348a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vic7cb1.jpg?rev=27382167fd244edbbc966fc28e56c4fe",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vi0a701.jpg?rev=a605a0801f974722a036199d7af41fd9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu/vichy3.jpg?rev=2542cf75f5dc442194b1df1219b715ef"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/liftactiv-ha-epidermic-filler-antighrantikos-oros-proswpou-me-ualouroniko-oxu",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875912600": {
+    "name": "Liftactiv Collagen Specialist 16 Αντιρυτιδικός Ορός Προσώπου",
+    "subtitle": "ΕΝΙΣΧΥΕΙ ΤΟΥΣ ΔΙΑΦΟΡΕΤΙΚΟΥΣ ΤΥΠΟΥΣ ΚΟΛΛΑΓΟΝΟΥ. ΔΙΟΡΘΩΝΕΙ 16 ΣΗΜΑΔΙΑ ΓΗΡΑΝΣΗΣ. ΤΟ ΚΟΛΛΑΓΟΝΟ ΑΥΞΑΝΕΤΑΙ ΚΑΤΑ +350%.",
+    "description": "Liftactiv Collagen Specialist 16 Bonding Serum: ο πρώτος ορός* με Τεχνολογία Co-Bonding που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου**. Διορθώνει 16 σημάδια γήρανσης***. Ενισχύει το κολλαγόνο της επιδερμίδας +350%. * Μελέτη in vitro για τα ενεργά συστατικά. ***Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Liftactiv Collagen Specialist 16 Bonding Serum: ο πρώτος ορός* με Τεχνολογία Co-Bonding που ενισχύει και συνδέει όλους τους τύπους κολλαγόνου**. Διορθώνει 16 σημάδια γήρανσης***. Ενισχύει το κολλαγόνο της επιδερμίδας +350%.\n* Μελέτη in vitro για τα ενεργά συστατικά. ***Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+      "Οφέλη": "Διορθώνει 16 σημάδια γήρανσης*: . ενυδάτωση, τονικότητα, σφριγηλότητα, “γέμισμα”, λεπτές γραμμές, ρυτίδες, ελαστικότητα, λάμψη, χαλάρωση, λείανση, ενδυνάμωση, ομοιομορφία τόνου, υφή, πυκνότητα, απαλότητα, αποκατάσταση.\n* Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών αυτοαξιολόγησης.",
+      "Υφή": "Διάφανη υφή που απορροφάται άμεσα στην επιδερμίδα. Μη λιπαρή αίσθηση.",
+      "Χρήση": "Χρησιμοποιήστε πρωί και βράδυ, σε καθαρό και στεγνό πρόσωπο. Εφαρμόστε μερικές σταγόνες στο πρόσωπο, αποφεύγοντας την περιοχή των ματιών. Συνεχίστε με την ενυδατική σας φροντίδα.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, GLYCERIN, RHAMNOSE, ALCOHOL DENAT., NIACINAMIDE, DIMETHICONE, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, HYDROLYZED RICE PROTEIN, ADENOSINE, CITRIC ACID, GRIFOLA FRONDOSA FRUITING BODY EXTRACT, HYDROXYACETOPHENONE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, SH-POLYPEPTIDE-69, SODIUM HYALURONATE, TETRASODIUM GLUTAMATE DIACETATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, SILICA, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, MALTODEXTRIN, PEG-20 METHYL GLUCOSE SESQUISTEARATE, PENTYLENE GLYCOL, POLYSORBATE 20, SODIUM CHLORIDE, SODIUM LACTATE, SODIUM PHOSPHATE, TOCOPHEROL, XANTHAN GUM, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen16-serum-website-pdp-brief-mosaic-1.png?rev=e5c6142a0d334ceda7ae37f11ea6b105",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen16-serum-website-pdp-brief-mosaic-1.png?rev=e5c6142a0d334ceda7ae37f11ea6b105",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen16-serum-website-pdp-brief-mosaic-1.png?rev=e5c6142a0d334ceda7ae37f11ea6b105",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen16-serum-website-pdp-brief-mosaic-2-(1).jpg?rev=cd6225117cb646d8a10589955bee7054",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen16-serum-website-pdp-brief-mosaic-3.jpg?rev=c489407d31d242eba5c8de3d2a32982e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen-16-serum-website-pdp-brief-mosaic-4.jpg?rev=f670da58e6a44aeca06f359b352c5ea0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-collagen-specialist-16-bonding-serum/vichy-liftactiv-collagen-16-serum-website-pdp-brief-mosaic-5.jpg?rev=6c7334218ca14bf88d884eaf2e440864"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/liftactiv-collagen-specialist-16-antirutidikos-oros-proswpou",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875734905": {
+    "name": "Liftactiv Pigment Specialist B3 Serum Προσώπου για Κηλίδες",
+    "subtitle": "ΜΕΙΩΝΕΙ ΤΙΣ ΚΗΛΙΔΕΣ, ΑΚΟΜΑ ΚΑΙ ΤΙΣ ΕΠΙΜΟΝΕΣ",
+    "description": "Το Pigment Specialist B3 Serum καταπολεμά τις κηλίδες και τις ρυτίδες, με 15% περιεκτικότητα σε ενεργά συστατικά όπως Νιασιναμίδη Β3 και Melasyl. Σταδιακά, οι κηλίδες απαλύνονται, ο τόνος της επιδερμίδας γίνεται πιο ομοιόμορφος, οι ρυτίδες λειαίνονται.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς άρωμα",
+      "ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Χωρίς άρωμα · ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ · Χωρίς αλκοόλ",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Pigment Specialist B3 Serum καταπολεμά τις κηλίδες και τις ρυτίδες, με 15% περιεκτικότητα σε ενεργά συστατικά όπως Νιασιναμίδη Β3 και Melasyl. Σταδιακά, οι κηλίδες απαλύνονται, ο τόνος της επιδερμίδας γίνεται πιο ομοιόμορφος, οι ρυτίδες λειαίνονται.",
+      "Οφέλη": "Ο απόλυτος σύμμαχος ενάντια στις κηλίδες, ακόμα και τις πιο επίμονες, σε οποιαδήποτε ηλικία. Αυτός ο ορός της Vichy μειώνει τις κηλίδες μέχρι και κατά -86%.\n* Κλινική μελέτη. Μέσα αποτελέσματα για τη βελτίωση της έντασης των κηλίδων, όπως υπολογίστηκαν για το 33% των συμμετεχουσών, μετά από 3 μήνες. Μέσο αποτέλεσμα σε 39 γυναίκες ήταν το 38,5%.",
+      "Υφή": "Ανάλαφρη υγρή υφή σομόν χρώματος. Απορροφάται γρήγορα, χωρίς κολλώδες τελείωμα. Δεν περιέχει άρωμα, και προσφέρει ενυδατική, καταπραϋντική αίσθηση κατά την εφαρμογή.",
+      "Συστατικά": "MELASYL\nΜειώνει ορατά τις επίμονες κηλίδες, ρυθμίζοντας την περίσσεια μελανίνης πριν οδηγήσει στον σχηματισμό δυσχρωμιών.\nΝΙΑΣΙΝΑΜΙΔΗ\nΒελτιώνει τη λάμψη, δίνει ομοιομορφία στον τόνο της επιδερμίδας.\nΓΛΥΚΟΛΙΚΟ ΟΞΎ\nΑπολεπίζει σε βάθος και διασπά τα νεκρά κύτταρα στην επιφάνεια της επιδερμίδας, βελτιώνοντας τη λάμψη και το ανάγλυφό της και μειώνοντας τις δυσχρωμίες.\nINCI: AQUA / WATER / EAU ● NIACINAMIDE ● BUTYLENE GLYCOL ● HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID ● GLYCERIN ● PENTYLENE GLYCOL ● PROPANEDIOL ● HYDROXYETHYL UREA ● GLYCOLIC ACID ● ARGININE ● TRANEXAMIC ACID ● HYDROLYZED RICE PROTEIN ● ALLANTOIN ● CITRIC ACID ● CYSTOSEIRA TAMARISCIFOLIA EXTRACT ● SODIUM HYDROXIDE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● 2-MERCAPTONICOTINOYL GLYCINE ● ASCORBYL GLUCOSIDE ● DIPOTASSIUM GLYCYRRHIZATE ● CAPRYLYL GLYCOL ● XANTHAN GUM ● CI 16035 / RED 40 ●",
+      "Χρήση": "Εφαρμόστε 3-4 σταγόνες σε καθαρό, στεγνό πρόσωπο, πρωί και βράδυ. Αποφύγετε την επαφή με τα μάτια και τα χείλη.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/vichy-liftactiv-b3-melasyl-website-pdp-content-mosaic-1.png?rev=9801ba091518419cb55f25b89a874138",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/vichy-liftactiv-b3-melasyl-website-pdp-content-mosaic-1.png?rev=9801ba091518419cb55f25b89a874138",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/vichy-liftactiv-b3-melasyl-website-pdp-content-mosaic-1.png?rev=9801ba091518419cb55f25b89a874138",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905beforeafter-gr-716x716.jpg?rev=91b1b294eee643a68d3b62e007316348",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/vichyproductliftactivspecialist-b3-dark-spots--wrinkles-serum30ml3337875734905ingredients-gr-1200x12.jpg?rev=b334018f43b34cde9b228aedbbc7fcd9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905how-to-use-gr-716x716.jpg?rev=e6c9b05c29734afcaea78f5c8b363ae0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905proendorsement-gr-716x716.jpg?rev=b6cb6dc23c6241a7a8ee93d38fc07f59",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905texture-gr-1200x1200.jpg?rev=4f1127a9121044fca92ded3c8d54d999",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/new/vichyproductskincareliftactivpigmentspecialistb3eyecarespf5015ml3337875918534routine-gr-1200x1200.jpg?rev=e6291a4d3e2d4ed6afa70a89a57d1214",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-spf50-cream/new/vichyproductskincareliftactiv-b3-anti-dark-spots-day-cream50ml3337875832724keybenefits1-gr-716x716.jpg?rev=b71cac07ba4a4acfb7ff5cd8195a9e6a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/liftactiv-pigment-specialist-b3-anti-dark-spots-serum-relaunch/new/vichyproductskincareliftactiv-b3-anti-dark-spots-serum30ml3337875734905safety-gr-716x716.jpg?rev=a5edee28144b42f29be728b02493ac97"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/liftactiv-pigment-specialist-b3-serum-proswpou-gia-khlides",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875796583": {
+    "name": "Liftactiv Pure Vitamin C Αντιρυτιδικό Serum Προσώπου",
+    "subtitle": "Καταπολεμά τα σημάδια γήρανσης και τη γλυκοζυλίωση που οφείλονται στον καθημερινό τρόπο ζωής και την αυξημένη κατανάλωση ζάχαρης.",
+    "description": "O Liftactiv Vitamin C είναι ένας αντιοξειδωτικός ορός υψηλού δερματολογικού επιπέδου. Η μινιμαλιστική, 11 μόνο συστατικών, αλλά πολύ ισχυρή σύνθεση ενισχύουν τη λάμψη επιδερμίδας και προσδίδουν πιο ομοιόμορφο χρωματικό τόνομ χάρη στον συνδυασμό 15% Καθαρής Βιταμίνης C και αντιοξειδωτικού σύμπλοκου με Πολυφαινόλες και Βιταμίνη Ε. Το LIFTACTIV VITAMIN C SERUM έχει υποαλλεργική σύνθεση, χωρίς άρωμα. Με λεπτόρρευστη υφή και πώμα-δοσομετρητή για να λαμβάνετε την ακριβή δόση προϊόντος που χρειάζεται η επιδερμίδα σας καθημερινά. * In tubo.",
+    "claims": [
+      "ΓΙΑ ΟΛΟΥΣ ΤΟΥ ΤΥΠΟΥΣ ΔΕΡΜΑΤΟΣ",
+      "Υποαλλεργικό",
+      "Χωρίς άρωμα",
+      "ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ",
+      "Χωρίς αλκοόλ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "20ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Αντιγήρανση",
+      "Δερματολογικά": "ΓΙΑ ΟΛΟΥΣ ΤΟΥ ΤΥΠΟΥΣ ΔΕΡΜΑΤΟΣ · Υποαλλεργικό · Χωρίς άρωμα · ΧΩΡΙΣ ΣΙΛΙΚΟΝΕΣ · Χωρίς αλκοόλ",
+      "Συσκευασία": "20ml"
+    },
+    "sections": {
+      "Περιγραφή": "O Liftactiv Vitamin C είναι ένας αντιοξειδωτικός ορός υψηλού δερματολογικού επιπέδου. Η μινιμαλιστική, 11 μόνο συστατικών, αλλά πολύ ισχυρή σύνθεση ενισχύουν τη λάμψη επιδερμίδας και προσδίδουν πιο ομοιόμορφο χρωματικό τόνομ χάρη στον συνδυασμό 15% Καθαρής Βιταμίνης C και αντιοξειδωτικού σύμπλοκου με Πολυφαινόλες και Βιταμίνη Ε.\nΤο LIFTACTIV VITAMIN C SERUM έχει υποαλλεργική σύνθεση, χωρίς άρωμα. Με λεπτόρρευστη υφή και πώμα-δοσομετρητή για να λαμβάνετε την ακριβή δόση προϊόντος που χρειάζεται η επιδερμίδα σας καθημερινά.\n* In tubo.",
+      "Οφέλη": "Νέο 16% Vitamin C Serum από τη Vichy, για καταπολέμηση των πρώτων σημαδιών γήρανσης & της γήρανσης που οφείλεται στον καθημερινό τρόπο ζωής*.\n100% των γυναικών είπαν ότι μειώνει τις ρυτίδες και φωτίζει την επιδερμίδα**.\n* Ακτινοβολία UV, ρύπανση, έλλειψη ύπνου, αυξημένη κατανάλωση ζάχαρης… ** Μελέτη καταναλωτών, 40 άτομα, 90 ημέρες.",
+      "Υφή": "Λεπτόρρευστη υφή ορού, με ανοιχτό καφέ χρώμα, που απλώνεται εύκολα και απορροφάται άμεσα, αφήνοντας την επιδερμίδα ενυδατωμένη σε βάθος, άνετη και χωρίς καμία κολλώδη αίσθηση.",
+      "Συστατικά": "1,5% ΒΙΤΑΜΙΝΗ C\nΗ Βιταμίνη C, είναι ένα αντιοξειδωτικό γνωστό για την ικανότητά του να δίνει λάμψη στην επιδερμίδα και να μειώνει την εμφάνιση των σημαδιών γήρανσης.\nΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ\nΤο απόλυτο δερματολογικό συστατικό! Χάρη στην ικανότητά του να συγκρατεί έως και 1.000 φορές το βάρος του σε νερό, ενυδατώνει και «γεμίζει» την επιδερμίδα.\nINCI: AQUA / WATER ● ASCORBIC ACID ● GLYCERIN ● SODIUM HYDROXIDE ● PENTYLENE GLYCOL ● LAURETH-23 ● HAEMATOCOCCUS PLUVIALIS EXTRACT ● CARNOSINE ● NEOHESPERIDIN DIHYDROCHALCONE ● SODIUM HYALURONATE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● TOCOPHEROL ● DIPOTASSIUM GLYCYRRHIZATE ● CAPRYLIC/CAPRIC TRIGLYCERIDE ● CAPRYLYL GLYCOL ● CARRAGEENAN ● PHENOXYETHANOL",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/copy-of-vichy-liftactiv-vitamin-c-website-pdp-mosaic-1.png?rev=bf2fee6535fd4aeb93e72e575f9154d5",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/copy-of-vichy-liftactiv-vitamin-c-website-pdp-mosaic-1.png?rev=bf2fee6535fd4aeb93e72e575f9154d5",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/copy-of-vichy-liftactiv-vitamin-c-website-pdp-mosaic-1.png?rev=bf2fee6535fd4aeb93e72e575f9154d5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/vichy-liftactiv-vitamin-c-website-pdp-mosaic-2.jpg?rev=e8265ea5697b45739fa61e6bc206134d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/vichy-liftactiv-vitamin-c-website-pdp-mosaic-3.jpg?rev=47bcf724cdc64b69be09bbbb877801e5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/vichy-liftactiv-vitamin-c-website-pdp-mosaic-4.jpg?rev=d43f97573ff94bb09a7dd6b05958dcdc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv---vitamin-c-serum-20ml/vichy-liftactiv-vitamin-c-website-pdp-mosaic-5.jpg?rev=484e65add8654583a879b879af6015a6"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/antighranshs/liftactiv-pure-vitamin-c-antirutidiko-serum-proswpou",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875762908": {
+    "name": "Mineral 89 Probiotic Fractions Booster Ανάπλασης & Επανόρθωσης",
+    "subtitle": "Το serum επανόρθωσης που ενδυναμώνει την επιδερμίδα.",
+    "description": "Ορός επανόρθωσης με θρεπτική σύνθεση εμπλουτισμένη με Κλάσματα Προβιοτικών, 4% Νιασιναμίδη, Αντιοξειδωτικές Bιταμίνες και Ιαματικό Ηφαιστειακό Νερό της Vichy, που ενδυναμώνει την επιδερμίδα ενώ παράλληλα βοηθά στην προστασία της από τους έντονους στρεσογόνους παράγοντες. Το Minéral 89 Probiotic Fractions είναι αποδεδειγμένο ότι βελτιώνει ορατά τη θαμψή όψη, την ελαστικότητα, τις λεπτές γραμμές και τη συνολική λάμψη, για αναπλήρωση των αναγκών του στρεσαρισμένου δέρματος.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "30ml",
+      "Σειρά": "Mineral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
+      "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Χωρίς άρωμα · Υποαλλεργικό",
+      "Συσκευασία": "30ml"
+    },
+    "sections": {
+      "Περιγραφή": "Ορός επανόρθωσης με θρεπτική σύνθεση εμπλουτισμένη με Κλάσματα Προβιοτικών, 4% Νιασιναμίδη, Αντιοξειδωτικές Bιταμίνες και Ιαματικό Ηφαιστειακό Νερό της Vichy, που ενδυναμώνει την επιδερμίδα ενώ παράλληλα βοηθά στην προστασία της από τους έντονους στρεσογόνους παράγοντες. Το Minéral 89 Probiotic Fractions είναι αποδεδειγμένο ότι βελτιώνει ορατά τη θαμψή όψη, την ελαστικότητα, τις λεπτές γραμμές και τη συνολική λάμψη, για αναπλήρωση των αναγκών του στρεσαρισμένου δέρματος.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER, NIACINAMIDE, PROPANEDIOL, PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN, GLYCERIN, METHYL GLUCETH-20, PEG-60 HYDROGENATED CASTOR OIL, CARBOMER, SODIUM HYALURONATE, TOCOPHEROL, HYDROXYACETOPHENONE, CITRIC ACID, VITREOSCILLA FERMENT, CAPRYLYL GLYCOL, BIOSACCHARIDE GUM-1, MALTODEXTRIN, BUTYLENE GLYCOL",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack1.jpg?rev=3f8f5c63494c41b39801f89315ad3cdc",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack1.jpg?rev=3f8f5c63494c41b39801f89315ad3cdc",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack1.jpg?rev=3f8f5c63494c41b39801f89315ad3cdc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack2.jpg?rev=74d778089c4745ecaaa531e18af35fd0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack3.jpg?rev=7c81923f8a0b4a5683734cef468ceb35",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/m89/mineral89-probiotic-fractions-pack4.jpg?rev=1d2eceb2cff84f7298ca08592b51909d"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/enudatwshs/mineral-89-probiotic-fractions-booster-anaplashs-epanorthwshs",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875543248": {
+    "name": "Minéral 89 Mineral 89 Refill Ενυδατικό Booster Προσώπου",
+    "subtitle": "«Γεμίζει» ορατά την επιδερμίδα, με αποτέλεσμα μακράς διάρκειας.",
+    "description": "Οι επιθετικοί παράγοντες της καθημερινότητας αφήνουν την επιδερμίδα αφυδατωμένη και λιγότερο σφριγηλή. Η πρωτοποριακή σύνθεσή μας, με 89% Ηφαιστειακό Νερό Vichy και έναν πανίσχυρο συνδυασμό Υαλουρονικού & Γλουταμινικού Οξέος, ενυδατώνει σε βάθος και «γεμίζει» ορατά την επιδερμίδα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Χωρίς άρωμα"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Minéral 89",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Χωρίς άρωμα",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Οι επιθετικοί παράγοντες της καθημερινότητας αφήνουν την επιδερμίδα αφυδατωμένη και λιγότερο σφριγηλή. Η πρωτοποριακή σύνθεσή μας, με 89% Ηφαιστειακό Νερό Vichy και έναν πανίσχυρο συνδυασμό Υαλουρονικού & Γλουταμινικού Οξέος, ενυδατώνει σε βάθος και «γεμίζει» ορατά την επιδερμίδα.",
+      "Υφή": "Ανάλαφρη, υδάτινη, δροσερή υφή.",
+      "Συστατικά": "Υαλουρονικό Οξύ: Ενυδατώνει, δρα στην επιφάνεια της επιδερμίδας.\nΠολυγλουταμινικό Οξύ: Ενυδατώνει, δρα σε βάθος έως και 10 στρωμάτων.\nΗφαιστειακό Νερό Vichy: Πλούσιο σε 15 απαραίτητα μέταλλα που ενδυναμώνουν τον επιδερμιδικό φραγμό.\nINCI: AQUA / WATER / EAU ● PROPANEDIOL ● GLYCERIN ● PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN ● BUTYLENE GLYCOL ● CARBOMER ● METHYL GLUCETH-20 ● SODIUM HYALURONATE ● HYDROXYACETOPHENONE ● CITRIC ACID ● SODIUM POLYGLUTAMATE ● CAPRYLYL GLYCOL ● MALTODEXTRIN ● BIOSACCHARIDE GUM-1 ● N70066552/1",
+      "Χρήση": "ΤΟΝΩΣΗ\nΕφαρμόστε 3 δόσεις Mineral 89 Hydrating and Plumping Daily Booster, πρωί & βράδυ.\nΕΝΥΔΑΤΩΣΗ\nΕφαρμόστε αρκετή ποσότητα της Mineral 89 Cream για να «κλειδώσετε» την υγρασία.\nΠΡΟΣΤΑΣΙΑ\nΠροστατεύστε την επιδερμίδα σας από τις βλάβες του ήλιου, με το Mineral 89 SPF50."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_1.jpg?rev=8c4ef309712e4f36a63c8c82aae955fd",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_1.jpg?rev=8c4ef309712e4f36a63c8c82aae955fd",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_1.jpg?rev=8c4ef309712e4f36a63c8c82aae955fd",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/vichyproductmineral89boosterserumrefillatf3337875908368keybenefits-gr-716x716.jpg?rev=0028090dc91346c5b52cde53e7292127",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_6.jpg?rev=d8187bed45fd438aa081b5c9bac860ec",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_5.jpg?rev=4b5125374fff489bb019fb0758adb1b3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/vichy-mineral89-booster-serum-website-pdp-brief-mosaic4.jpg?rev=6dd092bfc2ab4fc8a4b2c4d258bca9b3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_2.jpg?rev=f0cf0e7c404a4e2bb7eebe0243178b1c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/mineral-89---booster/refill/3337875908368_7.jpg?rev=7277964379e947639edc21b8c0bb7eea"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/serum-proswpou/enudatwshs/mineral-89-refill-enudatiko-booster-proswpou",
+    "source": "vichy.gr",
+    "section": "mineral-89",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875722520": {
+    "name": "Liftactiv Collagen Specialist 16 Αντιγηραντική Κρέμα Νύχτας",
+    "subtitle": "ΕΝΙΣΧΥΕΙ ΤΟΥΣ ΔΙΑΦΟΡΕΤΙΚΟΥΣ ΤΥΠΟΥΣ ΚΟΛΛΑΓΟΝΟΥ. ΔΙΟΡΘΩΝΕΙ 16 ΣΗΜΑΔΙΑ ΓΗΡΑΝΣΗΣ.",
+    "description": "Liftactiv Collagen Specialist 16 Night Cream: η πρώτη κρέμα νύχτας με Τεχνολογία Co-Bonding για ενίσχυση και σύνδεση όλων των τύπων Κολλαγόνου*. Διορθώνει 16 σημάδια γήρανσης**. Ενισχύει το κολλαγόνο της επιδερμίδας +350%. * Μελέτη in vitro για τα ενεργά συστατικά. *Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Liftactiv Collagen Specialist 16 Night Cream: η πρώτη κρέμα νύχτας με Τεχνολογία Co-Bonding για ενίσχυση και σύνδεση όλων των τύπων Κολλαγόνου*. Διορθώνει 16 σημάδια γήρανσης**.\nΕνισχύει το κολλαγόνο της επιδερμίδας +350%.\n* Μελέτη in vitro για τα ενεργά συστατικά. *Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών χρήσης.",
+      "Οφέλη": "Διορθώνει 16 σημάδια γήρανσης*: ρυτίδες, λεπτές γραμμές, σφριγηλότητα, έλλειψη όγκου, χαλάρωση, λεία υφή, ανάγλυφο, τονικότητα, πυκνότητα, δύναμη, πόροι, λάμψη, απαλότητα, ελαστικότητα, ενυδάτωση, ζωντάνια, ομοιομορφία.\n* Αποτελέσματα κλινικών και οργανομετρικών μελετών και μελετών αυτοαξιολόγησης.",
+      "Υφή": "Ανάλαφρη με αέρινη αίσθηση, που απορροφάται άμεσα στην επιδερμίδα.\nΜη κολλώδης. Χωρίς άρωμα.",
+      "Χρήση": "Εφαρμόστε κάθε βράδυ, μετά από τον ορό σας.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.\n* Αποφύγετε την περιοχή των ματιών.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, DIMETHICONE, DIPROPYLENE GLYCOL, GLYCERIN, ZEA MAYS GERM OIL / CORN GERM OIL, ELAEIS GUINEENSIS OIL / PALM OIL, ALCOHOL DENAT., BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, GLYCERYL STEARATE, PEG-100 STEARATE, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, MYRISTYL MYRISTATE, PRUNUS AMYGDALUS DULCIS OIL / SWEET ALMOND OIL, HYDROLYZED RICE PROTEIN, RESVERATROL, ADENOSINE, CARNOSINE, HYDROXYACETOPHENONE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, SODIUM HYALURONATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, CETYL PALMITATE, CITRIC ACID, ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, ISOHEXADECANE, MYRISTIC ACID, PALMITIC ACID, PENTYLENE GLYCOL, POLYSORBATE 20, POLYSORBATE 80, SODIUM LACTATE, SORBITAN OLEATE, SORBITAN TRISTEARATE, STEARIC ACID, POLYSILICONE-11, CI 15985 / YELLOW 6, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-1.png?rev=f41ca974b0bf42d2a0d0728b42f272fb",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-1.png?rev=f41ca974b0bf42d2a0d0728b42f272fb",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-1.png?rev=f41ca974b0bf42d2a0d0728b42f272fb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-2.jpg?rev=6b8d93909fa6450f939f5358196bcfc7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-3.jpg?rev=de26e0efbc7d47d6b041d6e0ed87908e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-4.jpg?rev=8970940f85e54000b06f8ec76c756365",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/collagen-16-night-cream/vichy-liftactiv-collagen-16-night-cream-website-pdp-brief-mosaic-5.jpg?rev=a7363972587d4b4eb89ee64406e74728"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/antighrantikes/liftactiv-collagen-specialist-antighrantikh-krema-nuxtas",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322502": {
+    "name": "Liftactiv H.A Αντιρυτιδική Συσφικτική Κρέμα Νύχτας",
+    "subtitle": "Μειώνει τις ρυτίδες και συσφίγγει την επιδερμίδα κατά τη διάρκεια της νύχτας.",
+    "description": "Η Liftactiv Hyaluronic Specialist H.A Αντιγηραντική κρέμα νύχτας με Ραμνόζη (σε συγκέντρωση 5%), ενισχύει τη φυσική διαδικασία ανανέωσης της επιδερμίδας. Η φροντίδα νύχτας καταπολεμά τα σημάδια γήρανσης μειώνοντας την εμφάνιση ρυτίδων και λεπτών γραμμών. Η πλούσια, κρεμώδης υφή της απορροφάται άμεσα στην επιδερμίδα χαρίζοντας πιο σφριγηλή αίσθηση και νεανική όψη.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Αντιγηραντικές",
+      "Δερματολογικά": "Υποαλλεργικό · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η Liftactiv Hyaluronic Specialist H.A Αντιγηραντική κρέμα νύχτας με Ραμνόζη (σε συγκέντρωση 5%), ενισχύει τη φυσική διαδικασία ανανέωσης της επιδερμίδας. Η φροντίδα νύχτας καταπολεμά τα σημάδια γήρανσης μειώνοντας την εμφάνιση ρυτίδων και λεπτών γραμμών. Η πλούσια, κρεμώδης υφή της απορροφάται άμεσα στην επιδερμίδα χαρίζοντας πιο σφριγηλή αίσθηση και νεανική όψη.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA, GLYCERIN, RHAMNOSE, PRUNUS ARMENIACA KERNEL OIL, CAPRYLIC/CAPRIC TRIGLYCERIDE, PENTAERYTHRITYL TETRAETHYLHEXANOATE, CETYL ALCOHOL, ZEA MAYS STARCH, BUTYROSPERMUM PARKII BUTTER, PETROLATUM, GLYCERYL STEARATE, PENTYLENE GLYCOL, DIMETHICONE, PEG-40 STEARATE, CERA ALBA, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, STEARYL ALCOHOL, SORBITAN TRISTEARATE, DIMETHICONOL, TRIETHANOLAMINE, MYRISTYL ALCOHOL, PHENOXYETHANOL, ADENOSINE, MAGNESIUM ASCORBYL PHOSPHATE, ASCORBYL GLUCOSIDE, POLOXAMER 338, CAPRYLYL GLYCOL, XANTHAN GUM, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PARFUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502packshotfront-gr-1200x1200.jpg?rev=9f1432534cc2491a851565cb378cf9dd",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502packshotfront-gr-1200x1200.jpg?rev=9f1432534cc2491a851565cb378cf9dd",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502packshotfront-gr-1200x1200.jpg?rev=9f1432534cc2491a851565cb378cf9dd",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502packshotapplicator-gr-1200x1200.jpg?rev=1f2c7ff06be34b70ac6ab0bd0e8cfce7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502proendorsement-gr-1200x1200.jpg?rev=394e2d22ad124ab687ab93ed8a84ef02",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502safety-gr-1200x1200.jpg?rev=fbe3ff418f974bd6ad1ed8798b95bf9e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502atfother-gr-1200x1200.jpg?rev=a44638357f234b5094b6c4a08f323c2b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502notext2-gr-1200x1200.jpg?rev=9f8b433a46954ba4962f771125bdcea2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/new-images/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas/vichyproductskincareliftactivspecialisthanightcream50ml3337871322502howtouse-gr-1200x1200.jpg?rev=1006b54760134b3fbe09cb53607aaac6"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/antighrantikes/liftactiv-ha-antirutidikh-susfiktikh-krema-nuxtas",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875873086": {
+    "name": "Liftactiv Pigment Specialist B3 Κρέμα Νύχτας με Ρετινόλη",
+    "subtitle": "ΚΑΤΑΠΟΛΕΜΑ ΑΚΟΜΑ ΚΑΙ ΤΙΣ ΠΙΟ ΕΠΙΜΟΝΕΣ ΚΗΛΙΔΕΣ, ΚΑΤΑ ΤΗ ΔΙΑΡΚΕΙΑ ΤΗΣ ΝΥΧΤΑΣ",
+    "description": "Για πρώτη φορά, η VICHY συνδυάζει τη Νιασιναμίδη (Βιταμίνη Β3) και την καθαρή Ρετινόλη σε μία κρέμα. Οι κηλίδες μειώνονται έως και 45%. Η επιδερμίδα αναζωογονείται με 2 εκατομμύρια νέα κύτταρα κάθε βράδυ. * Οργανομετρική μελέτη, 23 ημέρες, 31 άτομα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Liftactiv",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Αντιγηραντικές",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Για πρώτη φορά, η VICHY συνδυάζει τη Νιασιναμίδη (Βιταμίνη Β3) και την καθαρή Ρετινόλη σε μία κρέμα. Οι κηλίδες μειώνονται έως και 45%. Η επιδερμίδα αναζωογονείται με 2 εκατομμύρια νέα κύτταρα κάθε βράδυ.\n* Οργανομετρική μελέτη, 23 ημέρες, 31 άτομα.",
+      "Οφέλη": "Μειώνει την όψη όλων των τύπων κηλίδων σε κάθε ηλικία, εξομαλύνει το χρωματικό τόνο της επιδερμίδας και μειώνει τις ρυτίδες.",
+      "Υφή": "Μη κολλώδης υφή που απορροφάται άμεσα. Αφήνει καταπραϋντική και ενυδατική αίσθηση στην επιδερμίδα. Χωρίς άρωμα.",
+      "Συστατικά": "ΡΕΤΙΝΟΛΗ\nΕξασφαλίζει εντατική κυτταρική ανανέωση & λειαίνει τις ρυτίδες.\nΝΙΑΣΙΝΑΜΙΔΗ\nΒελτιώνει τη λάμψη, δίνει ομοιομορφία στον τόνο της επιδερμίδας.\nINCI: AQUA / WATER / EAU, GLYCERIN, ISONONYL ISONONANOATE, PANTHENOL, NIACINAMIDE, DICAPRYLYL CARBONATE, PENTYLENE GLYCOL, DIISOPROPYL SEBACATE, CETYL ALCOHOL, PEG-40 STEARATE, SILICA, GLYCINE SOJA OIL / SOYBEAN OIL, HYDROLYZED RICE PROTEIN, ADENOSINE, PALMITOYL TETRAPEPTIDE-7, PALMITOYL TRIPEPTIDE-1, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, SODIUM HYDROXIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, RETINOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, CITRIC ACID, HYDROXYETHYLCELLULOSE, PEG-30 DIPOLYHYDROXYSTEARATE, POLYSORBATE 20, SODIUM LACTATE, SODIUM POLYACRYLATE STARCH, SORBITAN TRISTEARATE, TOCOPHEROL, TRIDECETH-6, CI 15985 / YELLOW 6, PHENOXYETHANOL, PARFUM / FRAGRANCE",
+      "Χρήση": "1η Εβδομάδα: Χρησιμοποιήστε την κρέμα δύο βράδια την εβδομάδα.\n2η Εβδομάδα: Χρησιμοποιήστε την κρέμα κάθε δεύτερο βράδυ.\n3η Εβδομάδα: Χρησιμοποιήστε την κρέμα κάθε βράδυ, σύμφωνα πάντα με την ανοχή της επιδερμίδας σας.\nΚάθε πρωί να εφαρμόζετε ένα προϊόν με αντηλιακή προστασία SPF30+.Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-1.png?rev=12965db25471427bb25d384a4fc9620e",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-1.png?rev=12965db25471427bb25d384a4fc9620e",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-1.png?rev=12965db25471427bb25d384a4fc9620e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-2.jpg?rev=cd3200ab2d7c4b10a87abbe1a1d34dc1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-3.jpg?rev=23241c95aa2f42f6b087d1fd0f79ccff",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-4.jpg?rev=7ecab04b088e4179af515256148625a1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/liftactiv-pigment-specialist-b3-anti-dark-spots-night-cream/vichy-liftactiv-b3-night-cream-website-pdp-mosaic-5.jpg?rev=5f13bab3b2dc48bba7e348b73288d727"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/antighrantikes/liftactiv-pigment-specialist-b3-krema-nuxtas-me-retinolh",
+    "source": "vichy.gr",
+    "section": "liftactiv",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875774017": {
+    "name": "Neovadiol Magistral Κρέμα Νύχτας για Σύσφιξη Προσώπου",
+    "subtitle": "Κρέμα νύχτας αναπλήρωσης & σύσφιξης για την περίοδο της μετεμμηνόπαυσης προσφέρει σύσφιξη, θρέψη και διορθώνει τις ρυτίδες.",
+    "description": "•Κατά τη μετεμμηνόπαυση, οι ορμονικές μεταβολές εντείνουν τα σημάδια γήρανσης στην επιδερμίδα. Η παραγωγή λιπιδίων μειώνεται, προκαλώντας έντονη ξηρότητα. Οι ρυτίδες γίνονται πιο εμφανείς, η επιδερμίδα χάνει τη σφριγηλότητά της. Η ΝΕΟVADIOL MAGISTRAL ΚΡΕΜΑ ΝΥΧΤΑΣ ΆΝΑΠΛΗΡΩΣΗΣ ΚΑΙ ΣΥΣΦΙΞΗΣ επανενεργοποιεί τους μηχανισμούς στην εμμηνόπαυση χαρίζοντας σύσφιξη, θρέψη και διόρθωση ρυτίδων. •Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε εμμηνοπαυσιακές γυναίκες με ευαίσθητο δέρμα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Εμμηνόπαυση",
+      "Δερματολογικά": "Υποαλλεργικό · Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "•Κατά τη μετεμμηνόπαυση, οι ορμονικές μεταβολές εντείνουν τα σημάδια γήρανσης στην επιδερμίδα. Η παραγωγή λιπιδίων μειώνεται, προκαλώντας έντονη ξηρότητα. Οι ρυτίδες γίνονται πιο εμφανείς, η επιδερμίδα χάνει τη σφριγηλότητά της.\nΗ ΝΕΟVADIOL MAGISTRAL ΚΡΕΜΑ ΝΥΧΤΑΣ ΆΝΑΠΛΗΡΩΣΗΣ ΚΑΙ ΣΥΣΦΙΞΗΣ επανενεργοποιεί τους μηχανισμούς στην εμμηνόπαυση χαρίζοντας σύσφιξη, θρέψη και διόρθωση ρυτίδων.\n•Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν κλινικά αξιολογηθεί από δερματολόγους σε εμμηνοπαυσιακές γυναίκες με ευαίσθητο δέρμα.",
+      "Συστατικά": "PRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nΩΜΕΓΑ 3-6-9\nΑναπλήρωση της απώλειας λιπιδίων για βαθιά θρέψη της επιδερμίδας\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nINCI: AQUA / WATER / EAU, GLYCERIN, ALCOHOL DENAT., DIMETHICONE, PROPANEDIOL, BUTYLENE GLYCOL, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, BIS-BEHENYL/ISOSTEARYL/PHYTOSTERYL DIMER DILINOLEYL DIMER DILINOLEATE, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, STEARYL ALCOHOL, LIMNANTHES ALBA SEED OIL / MEADOWFOAM SEED OIL, CARTHAMUS TINCTORIUS SEED OIL / SAFFLOWER SEED OIL, OCTYLDODECANOL, C30-45 ALKYL DIMETHICONE, PEG-20 STEARATE, SILICA, OENOTHERA BIENNIS OIL / EVENING PRIMROSE OIL, PANTHENOL, PEG-100 STEARATE, PEG-30 DIPOLYHYDROXYSTEARATE, CI 15985 / YELLOW 6, GLYCERYL STEARATE, NIACINAMIDE, TRIDECETH-6, METHYLDIHYDROJASMONATE, SALICYLOYL PHYTOSPHINGOSINE, ADENOSINE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, TOCOPHEROL, PROPYLENE GLYCOL, CAPRYLYL GLYCOL, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, CAPRYLOYL SALICYLIC ACID, CITRIC ACID, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-1-gr-728x820.png?rev=f0a33596230c40eba6de05168d78d8ed",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-1-gr-728x820.png?rev=f0a33596230c40eba6de05168d78d8ed",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-1-gr-728x820.png?rev=f0a33596230c40eba6de05168d78d8ed",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-2-gr-716x716.jpg?rev=b4370968a7484a87a92bfb73cb027834",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-3-gr-716x716.jpg?rev=6c039aeb72a5420981ed5a2bfa9a0363",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-6-gr-716x716.jpg?rev=3e05ed33205f4cb3818665fbdad28967",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-susfixh-proswpou/vichyneovadiolmagistralnightcreamwebsitepdp-briefmosaic-7-gr-716x716.jpg?rev=2a51971e9a7b413894d5473773628ac9"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/emmhnopaush/neovadiol-krema-nuxtas-gia-susfixh-proswpou",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875774086": {
+    "name": "Neovadiol Compensating Complex Κρέμα Νύχτας για Σφριγηλότητα & Λάμψη",
+    "subtitle": "Κρέμα νύχτας ενίσχυσης πυκνότητας & αναζωογόνησης για την περίοδο της εμμηνόπαυσης προσφέρει πυκνότητα, ελαστικότητα και αίσθηση δροσιάς.",
+    "description": "•Κατά την εμμηνόπαυση, οι ορμονικές αλλαγές επιταχύνουν τη γήρανση στο δέρμα, οδηγώντας σε απώλεια της ελαστικότητας και της πυκνότητας, αλλά και σε αλλοίωση του περιγράμματος του προσώπου. Ενδέχεται να εμφανιστούν εξάψεις, προκαλώντας αίσθηση δυσφορίας κατά τη διάρκεια της νύχτας. •Η ΝΕΟVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΝΥΧΤΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΑΝΑΖΩΟΓΟΝΗΣΗΣ ενεργοποιεί τους μηχανισμούς στην εμμηνόπαυση χαρίζοντας πυκνότητα, ελαστικότητα και αίσθηση δροσιάς. •Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν αξιολογηθεί κλινικά από δερματολόγους σε γυναίκες στην εμμηνόπαυση με ευαίσθητη επιδερμίδα.",
+    "claims": [
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Εμμηνόπαυση",
+      "Δερματολογικά": "Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "•Κατά την εμμηνόπαυση, οι ορμονικές αλλαγές επιταχύνουν τη γήρανση στο δέρμα, οδηγώντας σε απώλεια της ελαστικότητας και της πυκνότητας, αλλά και σε αλλοίωση του περιγράμματος του προσώπου. Ενδέχεται να εμφανιστούν εξάψεις, προκαλώντας αίσθηση δυσφορίας κατά τη διάρκεια της νύχτας.\n•Η ΝΕΟVADIOL COMPENSATING COMPLEX ΚΡΕΜΑ ΝΥΧΤΑΣ ΕΝΙΣΧΥΣΗΣ ΠΥΚΝΟΤΗΤΑΣ & ΑΝΑΖΩΟΓΟΝΗΣΗΣ ενεργοποιεί τους μηχανισμούς στην εμμηνόπαυση χαρίζοντας πυκνότητα, ελαστικότητα και αίσθηση δροσιάς. •Επειδή η αποτελεσματικότητα είναι προτεραιότητά μας στη Vichy, οι συνθέσεις έχουν αξιολογηθεί κλινικά από δερματολόγους σε γυναίκες στην εμμηνόπαυση με ευαίσθητη επιδερμίδα.",
+      "Συστατικά": "PRO-XYLANE\nΤο δέρμα είναι γεμάτο και σφριγηλό, οι ρυτίδες είναι λιγότερο έντονες και η χαλάρωση μειώνεται.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., GLYCERIN, PRUNUS ARMENIACA KERNEL OIL / APRICOT KERNEL OIL, NIACINAMIDE, DIMETHICONE, HYDROXYPROPYL TETRAHYDROPYRANTRIOL, PROPANEDIOL, PROPYLENE GLYCOL, ISONONYL ISONONANOATE, ZEA MAYS STARCH / CORN STARCH, SILICA SILYLATE, POLOXAMER 338, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, OCTYLDODECANOL, DIMETHICONOL, CAFFEINE, SODIUM ACRYLATES CROSSPOLYMER-2, SODIUM HYALURONATE, SILICA, PERLITE, ADENOSINE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, AMMONIUM ACRYLOYLDIMETHYLTAURATE/STEARETH-25 METHACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, CAPRYLOYL SALICYLIC ACID, LAURETH-7, CITRIC ACID, CASSIA ANGUSTIFOLIA SEED POLYSACCHARIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, MENTHOXYPROPANEDIOL, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, POLYACRYLAMIDE, C13-14 ISOPARAFFIN, PARFUM / FRAGRANCE",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfpackshotfront-gr-728x820.png?rev=1dd61e503eed48d4bbbb35a5fcce0b8c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfpackshotfront-gr-728x820.png?rev=1dd61e503eed48d4bbbb35a5fcce0b8c",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfpackshotfront-gr-728x820.png?rev=1dd61e503eed48d4bbbb35a5fcce0b8c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfingredients-gr-716x716.jpg?rev=ea082969ecda4184be6974eb80ae658e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfnotext2-gr-716x716.jpg?rev=1d51cb3278f34f368928d3068b04b6af",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfprofessionalendorsement-gr-716.jpg?rev=d628f53e2e934828b7a75bc805de82da",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfhowtouse-gr-716x716.jpg?rev=f9ea19f176ef49f281d996e206e80fe8",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh/vichyproductneovadiolcompensatingcomplexnightcream50ml3337875774086atfpackshotfronttexture-gr-716x71.jpg?rev=7856f4e0436b448d9e9929e0f1680ca4"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/emmhnopaush/neovadiol-krema-nuxtas-gia-sfrighlothta-lampsh",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875646796": {
+    "name": "Neovadiol Rose Platinium Κρέμα Νύχτας",
+    "subtitle": "Φροντίδα νύχτας για αναζωογόνηση. Τόνωση. Εμπλουτισμένη με ασβέστιο για ενίσχυση και φυτικά σάκχαρα για τόνωση.",
+    "description": "Μετά τα 60, η επιδερμίδα γίνεται πιο λεπτή χάνει τη σφριγηλότητά της. Σαν αποτέλεσμα, η ανάπλαση της επιδερμίδας κατά τη διάρκεια της νύχτας, μειώνεται. Στο πρωινό ξύπνημα, έχει σημάδια από γραμμές ύπνου και δείχνει ταλαιπωρημένη. Η φυσική ρόδινη λάμψη επανενεργοποιείται και η επιδερμίδα αποκτά αίσθηση φρεσκάδας. Νύχτα με τη νύχτα, η επιδερμίδα γίνεται πιο γεμάτη, πιο σφριγηλή.",
+    "claims": [
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Neovadiol",
+      "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας › Εμμηνόπαυση",
+      "Δερματολογικά": "Δερματολογικά Ελεγμένο"
+    },
+    "sections": {
+      "Περιγραφή": "Μετά τα 60, η επιδερμίδα γίνεται πιο λεπτή χάνει τη σφριγηλότητά της.\nΣαν αποτέλεσμα, η ανάπλαση της επιδερμίδας κατά τη διάρκεια της νύχτας, μειώνεται.\nΣτο πρωινό ξύπνημα, έχει σημάδια από γραμμές ύπνου και δείχνει ταλαιπωρημένη.\nΗ φυσική ρόδινη λάμψη επανενεργοποιείται και η επιδερμίδα αποκτά αίσθηση φρεσκάδας.\nΝύχτα με τη νύχτα, η επιδερμίδα γίνεται πιο γεμάτη, πιο σφριγηλή.",
+      "Χρήση": "Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, DIMETHICONE, HYDROGENATED POLYISOBUTENE, GLYCERIN, CETYL ALCOHOL, SILICA, GLYCERYL STEARATE, PENTYLENE GLYCOL, PEG-40 STEARATE, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, CERA ALBA / BEESWAX / CIRE DABEILLE, ROSA GALLICA FLOWER EXTRACT, TIN OXIDE, STEARIC ACID, SORBITAN TRISTEARATE, SORBITOL, CALCIUM PCA, CAFFEINE, ESCIN, SODIUM DEXTRAN SULFATE, MYRISTIC ACID, PALMITIC ACID, ADENOSINE, POLOXAMER 338, PROPYLENE GLYCOL, CAPRYLYL GLYCOL, CITRIC ACID, SYNTHETIC FLUORPHLOGOPITE, TOCOPHEROL, TOCOPHERYL ACETATE, PHENOXYETHANOL, CI 77491 / IRON OXIDES, CI 77891 / TITANIUM DIOXIDE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfpackshotfront-gr-728x820.png?rev=69d85c43957547a99166b0e1216a4b4a",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfpackshotfront-gr-728x820.png?rev=69d85c43957547a99166b0e1216a4b4a",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfpackshotfront-gr-728x820.png?rev=69d85c43957547a99166b0e1216a4b4a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfingredients-gr-716x716.jpg?rev=ddc3902c333b4cafa10ca03b9e63ebaf",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfhowtouse-gr-716x716.jpg?rev=86333f4915c644c0821d27e40a096d8e",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfbeforeafter-gr-716x716.jpg?rev=28e8cdcc7ba643fa82a2f9e5e2c84ee1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-rose-platinium-krema-nuxtas/vichyproductneovadiolroseplatiniumnightcream50ml3337875646796atfnotext2-gr-716x716.jpg?rev=c6266a7fe2bc4007945f7dfa82abad0c"
+    ],
+    "url": "https://www.vichy.gr/proionta/peripoihsh-dermatos/kremes-nuxtas/emmhnopaush/neovadiol-rose-platinium-krema-nuxtas",
+    "source": "vichy.gr",
+    "section": "neovadiol",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875762298": {
+    "name": "Capital Soleil UV-Age Daily Αντηλιακό Προσώπου κατά της Φωτογήρανσης",
+    "subtitle": "Προλαμβάνει και διορθώνει τα σημάδια φωτογήρανσης, εξαιρετικά λεπτόρρευστη υφή.",
+    "description": "Η καθημερινή πρόληψη της φωτογήρανσης είναι απαραίτητη για τη διατήρηση μίας υγιούς επιδερμίδας. Το UV Age Daily SPF50+ είναι ένα εξαιρετικά λεπτόρρευστο αντηλιακό, πολύ υψηλής προστασίας, που προλαμβάνει και διορθώνει τα σημάδια της φωτογήρανσης . Η τεχνολογία Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, σχηματίζει ένα εξαιρετικά λεπτόρρευστο και ανθεκτικό φιλμ πολύ υψηλής UV προστασίας με αόρατο τελείωμα, για προηγμένη αντηλιακή προστασία ενάντια στις ακτινοβολίες UVB και UVA, οι οποίες ευθύνονται για πάνω από το 80% των σημαδιών γήρανσης. Είναι εμπλουτισμένο με αντιγηραντικά δερματολογικά δραστικά συστατικά όπως πεπτίδια και νιασιναμίδη Β3, για να βελτιώνει ορατά τα σημάδια της φωτογήρανσης: κηλίδες, απώλεια σφριγηλότητας και θαμπή όψη. Κατάλληλο για κάθε τύπο επιδερμίδας.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "40ml, 80ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "40ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η καθημερινή πρόληψη της φωτογήρανσης είναι απαραίτητη για τη διατήρηση μίας υγιούς επιδερμίδας.\nΤο UV Age Daily SPF50+ είναι ένα εξαιρετικά λεπτόρρευστο αντηλιακό, πολύ υψηλής προστασίας, που προλαμβάνει και διορθώνει τα σημάδια της φωτογήρανσης . Η τεχνολογία Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, σχηματίζει ένα εξαιρετικά λεπτόρρευστο και ανθεκτικό φιλμ πολύ υψηλής UV προστασίας με αόρατο τελείωμα, για προηγμένη αντηλιακή προστασία ενάντια στις ακτινοβολίες UVB και UVA, οι οποίες ευθύνονται για πάνω από το 80% των σημαδιών γήρανσης.\nΕίναι εμπλουτισμένο με αντιγηραντικά δερματολογικά δραστικά συστατικά όπως πεπτίδια και νιασιναμίδη Β3, για να βελτιώνει ορατά τα σημάδια της φωτογήρανσης: κηλίδες, απώλεια σφριγηλότητας και θαμπή όψη.\nΚατάλληλο για κάθε τύπο επιδερμίδας.",
+      "Συστατικά": "Ιαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΠΕΠΤΙΔΙΑ\nΔρουν ενάντια στην αποδόμηση των ινών κολλαγόνου.\nΚλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., DIISOPROPYL SEBACATE, SILICA, ISOPROPYL MYRISTATE, ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, PROPANEDIOL, NIACINAMIDE, DROMETRIZOLE TRISILOXANE, PERLITE, TOCOPHEROL, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, HYDROLYZED RICE PROTEIN, HYDROXYETHYLCELLULOSE, PENTYLENE GLYCOL, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, PARFUM / FRAGRANCE (F.I.L. C265479/1).",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_3.jpg?rev=ad28ad640bc84a19a4d0e94bbe7d66a0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_2.jpg?rev=92331d6a21a6452f9eda8002a329835f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_4.jpg?rev=20122e192bac46e39919e1229e26b86d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_5.jpg?rev=6ef3213e7dbc42d182c0b1a2013a4bde"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-uv-age-daily-anthliako-proswpou-kata-ths-fwtoghranshs",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875914857": {
+    "name": "Capital Soleil UV-Age Daily Αντηλιακό Προσώπου κατά της Φωτογήρανσης",
+    "subtitle": "Προλαμβάνει και διορθώνει τα σημάδια φωτογήρανσης, εξαιρετικά λεπτόρρευστη υφή.",
+    "description": "Η καθημερινή πρόληψη της φωτογήρανσης είναι απαραίτητη για τη διατήρηση μίας υγιούς επιδερμίδας. Το UV Age Daily SPF50+ είναι ένα εξαιρετικά λεπτόρρευστο αντηλιακό, πολύ υψηλής προστασίας, που προλαμβάνει και διορθώνει τα σημάδια της φωτογήρανσης . Η τεχνολογία Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, σχηματίζει ένα εξαιρετικά λεπτόρρευστο και ανθεκτικό φιλμ πολύ υψηλής UV προστασίας με αόρατο τελείωμα, για προηγμένη αντηλιακή προστασία ενάντια στις ακτινοβολίες UVB και UVA, οι οποίες ευθύνονται για πάνω από το 80% των σημαδιών γήρανσης. Είναι εμπλουτισμένο με αντιγηραντικά δερματολογικά δραστικά συστατικά όπως πεπτίδια και νιασιναμίδη Β3, για να βελτιώνει ορατά τα σημάδια της φωτογήρανσης: κηλίδες, απώλεια σφριγηλότητας και θαμπή όψη. Κατάλληλο για κάθε τύπο επιδερμίδας.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "40ml, 80ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "80ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η καθημερινή πρόληψη της φωτογήρανσης είναι απαραίτητη για τη διατήρηση μίας υγιούς επιδερμίδας.\nΤο UV Age Daily SPF50+ είναι ένα εξαιρετικά λεπτόρρευστο αντηλιακό, πολύ υψηλής προστασίας, που προλαμβάνει και διορθώνει τα σημάδια της φωτογήρανσης . Η τεχνολογία Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, σχηματίζει ένα εξαιρετικά λεπτόρρευστο και ανθεκτικό φιλμ πολύ υψηλής UV προστασίας με αόρατο τελείωμα, για προηγμένη αντηλιακή προστασία ενάντια στις ακτινοβολίες UVB και UVA, οι οποίες ευθύνονται για πάνω από το 80% των σημαδιών γήρανσης.\nΕίναι εμπλουτισμένο με αντιγηραντικά δερματολογικά δραστικά συστατικά όπως πεπτίδια και νιασιναμίδη Β3, για να βελτιώνει ορατά τα σημάδια της φωτογήρανσης: κηλίδες, απώλεια σφριγηλότητας και θαμπή όψη.\nΚατάλληλο για κάθε τύπο επιδερμίδας.",
+      "Συστατικά": "Ιαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΠΕΠΤΙΔΙΑ\nΔρουν ενάντια στην αποδόμηση των ινών κολλαγόνου.\nΚλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., DIISOPROPYL SEBACATE, SILICA, ISOPROPYL MYRISTATE, ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, PROPANEDIOL, NIACINAMIDE, DROMETRIZOLE TRISILOXANE, PERLITE, TOCOPHEROL, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, HYDROLYZED RICE PROTEIN, HYDROXYETHYLCELLULOSE, PENTYLENE GLYCOL, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, PARFUM / FRAGRANCE (F.I.L. C265479/1).",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_1.jpg?rev=5a38782bb58d423ab068914034e29177",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_3.jpg?rev=ad28ad640bc84a19a4d0e94bbe7d66a0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_2.jpg?rev=92331d6a21a6452f9eda8002a329835f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_4.jpg?rev=20122e192bac46e39919e1229e26b86d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---uv-age/3337875762298_5.jpg?rev=6ef3213e7dbc42d182c0b1a2013a4bde"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-uv-age-daily-anthliako-proswpou-kata-ths-fwtoghranshs",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875795265": {
+    "name": "Capital Soleil UV-Age Daily Pigment Αντηλιακό με Χρώμα",
+    "subtitle": "Προλαμβάνει και διορθώνει τα σημάδια φωτογήρανσης, εξαιρετικά λεπτόρρευστη υφή.",
+    "description": "Το UV-AGE DAILY, με τεχνολογία Netlock, παρέχει πολύ υψηλή προστασία και ταυτόχρονα διορθώνει τα σημάδια φωτογήρανσης. Τώρα διαθέσιμο σε σύνθεση με χρώμα, σε δύο διαφορετικές αποχρώσεις.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ · ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    },
+    "sections": {
+      "Περιγραφή": "Το UV-AGE DAILY, με τεχνολογία Netlock, παρέχει πολύ υψηλή προστασία και ταυτόχρονα διορθώνει τα σημάδια φωτογήρανσης. Τώρα διαθέσιμο σε σύνθεση με χρώμα, σε δύο διαφορετικές αποχρώσεις.",
+      "Οφέλη": "Πολύ υψηλή προστασία και αντιγηραντικά οφέλη. Προσαρμόσιμη κάλυψη. Πρόληψη της υπερμελάγχρωσης που προκαλείται από το ορατό φως.",
+      "Υφή": "Εξαιρετικά λεπτόρρευστη και ανάλαφρη. Προσαρμόσιμη κάλυψη, σε ανοιχτή και μεσαία απόχρωση.",
+      "Συστατικά": "ΠΕΠΤΙΔΙΑ\nΔρουν ενάντια στην αποδόμηση των ινών κολλαγόνου.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΚλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER / EAU ● ALCOHOL DENAT. ● DIISOPROPYL SEBACATE ● SILICA ● ISOPROPYL MYRISTATE ● ETHYLHEXYL SALICYLATE ● ETHYLHEXYL TRIAZONE ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● BUTYL METHOXYDIBENZOYLMETHANE ● CI 77891 / TITANIUM DIOXIDE ● GLYCERIN ● PROPANEDIOL ● C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER ● NIACINAMIDE ● DROMETRIZOLE TRISILOXANE ● PERLITE ● TOCOPHEROL ● CAPRYLIC/CAPRIC TRIGLYCERIDE ● TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID ● CI 77492 / IRON OXIDES ● CAPRYLYL GLYCOL ● PENTYLENE GLYCOL ● TRIETHANOLAMINE ● HYDROLYZED RICE PROTEIN ● CI 77491 / IRON OXIDES ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● SILICA SILYLATE ● ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER ● BUTYLENE GLYCOL ● CI 77499 / IRON OXIDES ● HYDROXYETHYLCELLULOSE ● VITREOSCILLA FERMENT ● CITRIC ACID ● DISODIUM PHOSPHATE ● POLYSORBATE 60 ● SODIUM PHOSPHATE ● PARFUM / FRAGRANCE",
+      "Χρήση": "Εφαρμόστε καθημερινά, ως το τελευταίο βήμα στο πρωινό σας Πρωτόκολλο περιποίησης.\nΜε ανοδικές κινήσεις, εφαρμόστε στο πρόσωπο ποσότητα 5-6 πιέσεων του δοσομετρητή.\nΕφαρμόστε ακόμα και στην περιοχή γύρω από τα μάτια, στο λαιμό και σε όποια άλλη περιοχή εκτίθεται στον ήλιο.\nΕπαναλάβετε συχνά την εφαρμογή μέσα στη μέρα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapital-soleiluv-age-dailypigment-140ml3337875795265clinicalresults-gr-1200x1200.jpg?rev=7fd83f810a2a4ecb9be9777f3e94fd29",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapital-soleiluv-age-dailypigment-140ml3337875795265routine-gr-1200x1200.jpg?rev=4d13f98d903943a997ca19e1705b7212",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265keybenefits-gr-1200x1200.jpg?rev=e33956a0b6fc46da8b91275bfa3758e7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265safety-gr-1200x1200.jpg?rev=b9c6ee4950ea4233b0e2622cbb2a90ab",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265texture-gr-1200x1200.jpg?rev=178bb9cb0a16405fa68d66f1f499e2c9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/capital-soleil-uv-age-daily-pigment-medium/vichycapital-soleiluvage-daily-pigment-medium-spf-50pdp-briefmosaic-1.png?rev=11100e1c56324fe1b394f10644c5d4c6"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-uv-age-daily-anthliako-proswpou-me-xrwma-kata-ths-fwtoghranshs",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875915885": {
+    "name": "Capital Soleil UV-Age Daily Pigment Αντηλιακό με Χρώμα",
+    "subtitle": "Προλαμβάνει και διορθώνει τα σημάδια φωτογήρανσης, εξαιρετικά λεπτόρρευστη υφή.",
+    "description": "Το UV-AGE DAILY, με τεχνολογία Netlock, παρέχει πολύ υψηλή προστασία και ταυτόχρονα διορθώνει τα σημάδια φωτογήρανσης. Τώρα διαθέσιμο σε σύνθεση με χρώμα, σε δύο διαφορετικές αποχρώσεις.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ · ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    },
+    "sections": {
+      "Περιγραφή": "Το UV-AGE DAILY, με τεχνολογία Netlock, παρέχει πολύ υψηλή προστασία και ταυτόχρονα διορθώνει τα σημάδια φωτογήρανσης. Τώρα διαθέσιμο σε σύνθεση με χρώμα, σε δύο διαφορετικές αποχρώσεις.",
+      "Οφέλη": "Πολύ υψηλή προστασία και αντιγηραντικά οφέλη. Προσαρμόσιμη κάλυψη. Πρόληψη της υπερμελάγχρωσης που προκαλείται από το ορατό φως.",
+      "Υφή": "Εξαιρετικά λεπτόρρευστη και ανάλαφρη. Προσαρμόσιμη κάλυψη, σε ανοιχτή και μεσαία απόχρωση.",
+      "Συστατικά": "ΠΕΠΤΙΔΙΑ\nΔρουν ενάντια στην αποδόμηση των ινών κολλαγόνου.\nΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΚλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER / EAU ● ALCOHOL DENAT. ● DIISOPROPYL SEBACATE ● SILICA ● ISOPROPYL MYRISTATE ● ETHYLHEXYL SALICYLATE ● ETHYLHEXYL TRIAZONE ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● BUTYL METHOXYDIBENZOYLMETHANE ● CI 77891 / TITANIUM DIOXIDE ● GLYCERIN ● PROPANEDIOL ● C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER ● NIACINAMIDE ● DROMETRIZOLE TRISILOXANE ● PERLITE ● TOCOPHEROL ● CAPRYLIC/CAPRIC TRIGLYCERIDE ● TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID ● CI 77492 / IRON OXIDES ● CAPRYLYL GLYCOL ● PENTYLENE GLYCOL ● TRIETHANOLAMINE ● HYDROLYZED RICE PROTEIN ● CI 77491 / IRON OXIDES ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● SILICA SILYLATE ● ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER ● BUTYLENE GLYCOL ● CI 77499 / IRON OXIDES ● HYDROXYETHYLCELLULOSE ● VITREOSCILLA FERMENT ● CITRIC ACID ● DISODIUM PHOSPHATE ● POLYSORBATE 60 ● SODIUM PHOSPHATE ● PARFUM / FRAGRANCE",
+      "Χρήση": "Εφαρμόστε καθημερινά, ως το τελευταίο βήμα στο πρωινό σας Πρωτόκολλο περιποίησης.\nΜε ανοδικές κινήσεις, εφαρμόστε στο πρόσωπο ποσότητα 5-6 πιέσεων του δοσομετρητή.\nΕφαρμόστε ακόμα και στην περιοχή γύρω από τα μάτια, στο λαιμό και σε όποια άλλη περιοχή εκτίθεται στον ήλιο.\nΕπαναλάβετε συχνά την εφαρμογή μέσα στη μέρα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/capital-soleil-uv-age-daily-pigment-medium/vichycapital-soleiluvage-daily-pigment-medium-spf-50pdp-briefmosaic-1.png?rev=11100e1c56324fe1b394f10644c5d4c6",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapital-soleiluv-age-dailypigment-140ml3337875795265clinicalresults-gr-1200x1200.jpg?rev=7fd83f810a2a4ecb9be9777f3e94fd29",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapital-soleiluv-age-dailypigment-140ml3337875795265routine-gr-1200x1200.jpg?rev=4d13f98d903943a997ca19e1705b7212",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265keybenefits-gr-1200x1200.jpg?rev=e33956a0b6fc46da8b91275bfa3758e7",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265safety-gr-1200x1200.jpg?rev=b9c6ee4950ea4233b0e2622cbb2a90ab",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265texture-gr-1200x1200.jpg?rev=178bb9cb0a16405fa68d66f1f499e2c9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/capital-soleil-uv-age-daily-pigment-medium/vichycapital-soleiluvage-daily-pigment-medium-spf-50pdp-briefmosaic-1.png?rev=11100e1c56324fe1b394f10644c5d4c6"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-uv-age-daily-anthliako-proswpou-me-xrwma-kata-ths-fwtoghranshs",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875419802": {
+    "name": "Capital Soleil Αντηλιακή Κρέμα με Χρώμα για Πανάδες",
+    "subtitle": "Υψηλή αντηλιακή προστασία με τριπλή δράση ενάντια των κηλίδων, προστατεύει, διορθώνει και χαρίζει ομοιομορφία στον τόνο της επιδερμίδας.",
+    "description": "Υψηλή αντηλιακή προστασία προσώπου 3-ΣΕ-1, εμπλουτισμένη με PhE-Resorcinol για μείωση και πρόληψη της εμφάνισης κηλίδων. Με ουδέτερο χρώμα για ομοιογένεια στον τόνο της επιδερμίδας, κατάλληλο και ως βάση μακιγιάζ. Η υφή του απορροφάται γρήγορα και χαρίζει φυσικό ματ τελείωμα. Κηλίδες -19%, μετά από 8 εβδομάδες.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντηλιακή προστασία προσώπου 3-ΣΕ-1, εμπλουτισμένη με PhE-Resorcinol για μείωση και πρόληψη της εμφάνισης κηλίδων. Με ουδέτερο χρώμα για ομοιογένεια στον τόνο της επιδερμίδας, κατάλληλο και ως βάση μακιγιάζ. Η υφή του απορροφάται γρήγορα και χαρίζει φυσικό ματ τελείωμα.\nΚηλίδες -19%, μετά από 8 εβδομάδες.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER / EAU, ISOPROPYL MYRISTATE, CI 77891 / TITANIUM DIOXIDE, GLYCERIN, ETHYLHEXYL TRIAZONE, C12-15 ALKYL BENZOATE, ZEA MAYS STARCH / CORN STARCH, NIACINAMIDE, DIISOPROPYL SEBACATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIMETHICONE, BUTYL METHOXYDIBENZOYLMETHANE, POTASSIUM CETYL PHOSPHATE, CI 77492 / IRON OXIDES, STEARYL ALCOHOL, GLYCERYL STEARATE, PARFUM / FRAGRANCE, PEG-100 STEARATE, PERLITE, DROMETRIZOLE TRISILOXANE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CAPRYLOYL SALICYLIC ACID, CAPRYLYL GLYCOL, CI 77491 / IRON OXIDES, CI 77499 / IRON OXIDES, HYDROLYZED HYALURONIC ACID, HYDROXYACETOPHENONE, PHENYLETHYL RESORCINOL, POLOXAMER 338, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antidarkspots0023337875419802front-728x820.png?rev=4510add4a63a45bdb9510f123b97a621",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antidarkspots0023337875419802front-728x820.png?rev=4510add4a63a45bdb9510f123b97a621",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antidarkspots0023337875419802front-728x820.png?rev=4510add4a63a45bdb9510f123b97a621",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/capital-soleil---tinted-anti-dark-spots-3-in-1-spf-50-plus/capital-soleil-anti-dark-spots-pack3.jpeg?rev=26a2260592644a93b46018d640598c49",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/other-products/capital-soleil---tinted-anti-dark-spots-3-in-1-spf-50-plus/capital-soleil-anti-dark-spots-pack4.jpeg?rev=cfd7e2f99b304715ba235a6522b3754f"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-anthliakh-krema-me-xrwma-gia-panades",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875585231": {
+    "name": "Capital Soleil Αντηλιακό κατά των Ρυτίδων 3-σε-1 SPF50",
+    "subtitle": "Υψηλή αντηλιακή προστασία με τριπλή δράση ενάντια των ρυτίδων για ελαστικότητα και λάμψη.",
+    "description": "Υψηλή αντιηλιακή προστασία προσώπου με αντιοξειδωτική 3 σε 1 δράση ενάντια των σημαδιών γήρανσης. Διορθώνει τις ρυτίδες, ενισχύει την ελαστικότητα και τη λάμψη της επιδερμίδας & προλαμβάνει τα σημάδια φωτογήρανσης. Ρυτίδες -22%, μετά από 8 εβδομάδες.",
+    "claims": [
+      "ΥΨΗΛΗ UV ΠΡΟΣΤΑΣΙΑ",
+      "ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ",
+      "DRY TOUCH",
+      "Υποαλλεργικό",
+      "ΚΡΕΜΩΔΗΣ ΕΝΥΔΑΤΙΚΗ ΥΦΗ",
+      "DRY-TOUCH ΤΕΛΕΙΩΜΑ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "ΥΨΗΛΗ UV ΠΡΟΣΤΑΣΙΑ · ΚΑΤΑ ΤΩΝ ΡΥΤΙΔΩΝ · DRY TOUCH · Υποαλλεργικό · ΚΡΕΜΩΔΗΣ ΕΝΥΔΑΤΙΚΗ ΥΦΗ · DRY-TOUCH ΤΕΛΕΙΩΜΑ",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντιηλιακή προστασία προσώπου με αντιοξειδωτική 3 σε 1 δράση ενάντια των σημαδιών γήρανσης.\nΔιορθώνει τις ρυτίδες, ενισχύει την ελαστικότητα και τη λάμψη της επιδερμίδας & προλαμβάνει τα σημάδια φωτογήρανσης.\nΡυτίδες -22%, μετά από 8 εβδομάδες.",
+      "Συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ\nΚαταπραΰνει την επιδερμίδα.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nEνισχύει τον επιδερμιδικό φραγμό.\nINCI: AQUA / WATER / EAU, ISOPROPYL MYRISTATE, GLYCERIN, ETHYLHEXYL TRIAZONE, C12-15 ALKYL BENZOATE, ZEA MAYS STARCH / CORN STARCH, NIACINAMIDE, DIISOPROPYL SEBACATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIMETHICONE, BUTYL METHOXYDIBENZOYLMETHANE, POTASSIUM CETYL PHOSPHATE, STEARYL ALCOHOL, GLYCERYL STEARATE, PARFUM / FRAGRANCE, PEG-100 STEARATE, PERLITE, DROMETRIZOLE TRISILOXANE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CAPRYLOYL SALICYLIC ACID, CAPRYLYL GLYCOL, HYDROLYZED HYALURONIC ACID, HYDROXYACETOPHENONE, PHENYLETHYL RESORCINOL, POLOXAMER 338, SILICA, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antiage0023337875585231front-728x820.png?rev=1685f434a3e24828bc711725a49fdcee",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antiage0023337875585231front-728x820.png?rev=1685f434a3e24828bc711725a49fdcee",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1antiage0023337875585231front-728x820.png?rev=1685f434a3e24828bc711725a49fdcee",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/vichy-2.jpg?rev=0c2a9394a5fc4b19ac3d76f60530e08c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/vichy-3.jpg?rev=595ecf7c20434760ad298e694e97a2e9"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-anthliako-kata-twn-rutidwn-3-se-1-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871324445": {
+    "name": "CAPITAL SOLEIL Αντηλιακή Κρέμα για Βελούδινη Επιδερμίδα SPF 50+",
+    "subtitle": "Προστατεύει, ενυδατώνει και προσφέρει βελούδινο αποτέλεσμα στην επιδερμίδα.",
+    "description": "Η αντηλιακή κρέμα Capital Soleil από τη Vichy για Βελούδινη Επιδερμίδα SPF 50+ είναι σχεδιασμένη για να προσφέρει υψηλή και αποτελεσματική προστασία στην επιδερμίδα σας. Με SPF 50+, εξασφαλίζει υψηλή προστασία από τις βλαβερές UV ακτίνες, ελαχιστοποιώντας τον κίνδυνο εγκαυμάτων και πρόωρης γήρανσης της επιδερμίδας. Μια από τις βασικές καινοτομίες αυτής της κρέμας είναι η ειδική της φόρμουλα που ενυδατώνει βαθιά την επιδερμίδα. Ο συνδυασμός ενεργών συστατικών δημιουργεί μια βελούδινη υφή, που απορροφάται άμεσα χωρίς να αφήνει λιπαρή αίσθηση. Αυτό την καθιστά ιδανική για καθημερινή χρήση, ακόμη και κάτω από το μακιγιάζ. Η συσκευασία της κρέμας είναι πρακτική και εύκολη στη χρήση, γεγονός που διευκολύνει την εφαρμογή της σε οποιαδήποτε στιγμή της ημέρας. Η τακτική χρήση της συμβάλλει στη διατήρηση της υγείας της επιδερμίδας σας, ενώ παράλληλα ενισχύει τη φυσική της λάμψη. Χάρη στα ενυδατικά της συστατικά, προσφέρει ένα αίσθημα απαλότητας και φρεσκάδας, κάνοντάς την ιδανική επιλογή για όλες τις ηλικίες και τύπους δέρματος. Ακόμη και αν έχετε ευαίσθητη επιδερμίδα, η ήπια σύνθεσή της μειώνει την πιθανότητα ερεθισμών και εξασφαλίζει άνεση καθ&rsquo; όλη τη διάρκεια της ημέρας. Αν αναζητάτε μια αντηλιακή κρέμα που να προσφέρει ολοκληρωμένη φροντίδα και προστασία, η Capital Soleil για Βελούδινη Επιδερμίδα SPF 50+ είναι η ιδανική λύση.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντιγήρανση",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Η αντηλιακή κρέμα Capital Soleil από τη Vichy για Βελούδινη Επιδερμίδα SPF 50+ είναι σχεδιασμένη για να προσφέρει υψηλή και αποτελεσματική προστασία στην επιδερμίδα σας. Με SPF 50+, εξασφαλίζει υψηλή προστασία από τις βλαβερές UV ακτίνες, ελαχιστοποιώντας τον κίνδυνο εγκαυμάτων και πρόωρης γήρανσης της επιδερμίδας.\nΜια από τις βασικές καινοτομίες αυτής της κρέμας είναι η ειδική της φόρμουλα που ενυδατώνει βαθιά την επιδερμίδα. Ο συνδυασμός ενεργών συστατικών δημιουργεί μια βελούδινη υφή, που απορροφάται άμεσα χωρίς να αφήνει λιπαρή αίσθηση. Αυτό την καθιστά ιδανική για καθημερινή χρήση, ακόμη και κάτω από το μακιγιάζ.\nΗ συσκευασία της κρέμας είναι πρακτική και εύκολη στη χρήση, γεγονός που διευκολύνει την εφαρμογή της σε οποιαδήποτε στιγμή της ημέρας.\nΗ τακτική χρήση της συμβάλλει στη διατήρηση της υγείας της επιδερμίδας σας, ενώ παράλληλα ενισχύει τη φυσική της λάμψη.\nΧάρη στα ενυδατικά της συστατικά, προσφέρει ένα αίσθημα απαλότητας και φρεσκάδας, κάνοντάς την ιδανική επιλογή για όλες τις ηλικίες και τύπους δέρματος. Ακόμη και αν έχετε ευαίσθητη επιδερμίδα, η ήπια σύνθεσή της μειώνει την πιθανότητα ερεθισμών και εξασφαλίζει άνεση καθ&rsquo; όλη τη διάρκεια της ημέρας.\nΑν αναζητάτε μια αντηλιακή κρέμα που να προσφέρει ολοκληρωμένη φροντίδα και προστασία, η Capital Soleil για Βελούδινη Επιδερμίδα SPF 50+ είναι η ιδανική λύση.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη. Να φυλάσσεται τα μωρά και τα μικρά παιδιά μακρυά από το ηλιακό φως. Να μην μένετε για μεγάλο χρονικό διάστημα στον ήλιο, ακόμα κι αν χρησιμοποιείτε αντηλιακό επειδή δεν προσφέρει 100% προστασία. Εφαρμόζετε το αντηλιακό πριν την έκθεσή σας στον ήλιο. Εφαρμόστε ξανά με γεναιόδωρη ποσότητα για να διατηρήσετε την προστασία, ειδικά μετά το κολύμπι, την εφίδρωση ή το σκούπισμα με πετσέτα. Να κρατάτε τον εαυτό σας καλυμένο φορόντας καπέλο, μπλούζα και γυαλιά ηλίου. Αποφεύγετε την έκθεση στον ήλιο τις πιο ζεστές ώρες της ημέρας. Χρησιμοποιήστε αντηλιακά προϊόντα κατάλληλα για τον τύπο της επιδερμίδας σας. Εφαρμόστε ξανά συχνά και γενναιόδωρα για να διατηρήσετε την αντηλιακή προστασία.\nΔεν προστατεύει 100% από τον ήλιο.\nΗ υπερβολική έκθεση στον ήλιο είναι επικίνδυνη.\nΚρατήστε τα μωρά και τα μικρά παιδιά μακριά από το άμεσο\nηλιακό φως.",
+      "Συστατικά": "INCI: BUTANE, AQUA / WATER, HOMOSALATE, DICAPRYLYL ETHER, OCTOCRYLENE, GLYCERIN, ETHYLHEXYL SALICYLATE, DIMETHICONE, BUTYL METHOXYDIBENZOYLMETHANE, STYRENE/ACRYLATES COPOLYMER, DROMETRIZOLE TRISILOXANE, PEG-30 DIPOLYHYDROXYSTEARATE, NYLON-12, DICAPRYLYL CARBONATE, METHYL METHACRYLATE CROSSPOLYMER, CYCLOHEXASILOXANE, POLYMETHYLSILSESQUIOXANE, p-ANISIC ACID, CAPRYLYL GLYCOL, DISODIUM EDTA, DISTEARDIMONIUM HECTORITE, DODECENE, ETHYLHEXYL TRIAZONE, ISODODECANE, LAURYL PEG/PPG-18/18 METHICONE, PEG-8 LAURATE, PHENOXYETHANOL, POLOXAMER 407, POLY C10-30 ALKYL ACRYLATE, PROPYLENE CARBONATE, SODIUM CHLORIDE, TOCOPHEROL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hero-products/capital-soleil-cell-protect-50/vichyproductcapital-soleildry-touch-face-fluid-spf-5050ml-velvety-cream-728x820.png?rev=18638fee403d4e3b891e04dd3ef865d8",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hero-products/capital-soleil-cell-protect-50/vichyproductcapital-soleildry-touch-face-fluid-spf-5050ml-velvety-cream-728x820.png?rev=18638fee403d4e3b891e04dd3ef865d8",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/hero-products/capital-soleil-cell-protect-50/vichyproductcapital-soleildry-touch-face-fluid-spf-5050ml-velvety-cream-728x820.png?rev=18638fee403d4e3b891e04dd3ef865d8"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/antighransh/capital-soleil-anthliakh-krema-gia-beloudinh-epidermida-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875810838": {
+    "name": "Capital Soleil Kids Cell Protect Water Fluid Αντηλιακό Σπρέι SPF50+",
+    "subtitle": "Προστατεύει την ευαίσθητη παιδική επιδερμίδα από τις βλάβες του ήλιου σε κυτταρικό επίπεδο.",
+    "description": "Εξειδικευμένη αντηλιακή προστασία, για την ευαίσθητη παιδική επιδερμίδα. Με τη δύναμη της τεχνολογίας Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, η εξαιρετικά ανάλαφρη σύνθεσή του σχηματίζει ένα προηγμένο φιλμ UV προστασίας, με αόρατο τελείωμα, χωρίς λευκά ίχνη. Ενισχυμένο με υαλουρονικό οξύ, κλάσματα προβιοτικών και ιαματικό ηφαιστειακό νερό της Vichy.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Παιδικά Αντηλιακά",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Εξειδικευμένη αντηλιακή προστασία, για την ευαίσθητη παιδική επιδερμίδα. Με τη δύναμη της τεχνολογίας Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, η εξαιρετικά ανάλαφρη σύνθεσή του σχηματίζει ένα προηγμένο φιλμ UV προστασίας, με αόρατο τελείωμα, χωρίς λευκά ίχνη. Ενισχυμένο με υαλουρονικό οξύ, κλάσματα προβιοτικών και ιαματικό ηφαιστειακό νερό της Vichy.",
+      "Συστατικά": "Κλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, DROMETRIZOLE TRISILOXANE, HYDROXYACETOPHENONE, SODIUM HYALURONATE, SODIUM POLYACRYLATE, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, PARFUM / FRAGRANCE",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη. Να φυλάσσεται τα μωρά και τα μικρά παιδιά μακρυά από το ηλιακό φως. Να μην μένετε για μεγάλο χρονικό διάστημα στον ήλιο, ακόμα κι αν χρησιμοποιείτε αντηλιακό επειδή δεν προσφέρει 100% προστασία. Εφαρμόζετε το αντηλιακό πριν την έκθεσή σας στον ήλιο. Εφαρμόστε ξανά με γεναιόδωρη ποσότητα για να διατηρήσετε την προστασία, ειδικά μετά το κολύμπι, την εφίδρωση ή το σκούπισμα με πετσέτα. Να κρατάτε τον εαυτό σας καλυμένο φορόντας καπέλο, μπλούζα και γυαλιά ηλίου. Αποφεύγετε την έκθεση στον ήλιο τις πιο ζεστές ώρες της ημέρας. Χρησιμοποιήστε αντηλιακά προϊόντα κατάλληλα για τον τύπο της επιδερμίδας σας. Εφαρμόστε ξανά συχνά και γενναιόδωρα για να διατηρήσετε την αντηλιακή προστασία."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810838_1.jpg?rev=26c3cbdee29c4a829d8f7f841165e3eb",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810838_1.jpg?rev=26c3cbdee29c4a829d8f7f841165e3eb",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810838_1.jpg?rev=26c3cbdee29c4a829d8f7f841165e3eb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810838_2.jpg?rev=78a89015069741b9aa7386fc1361cd5f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---cell-protect-50/capital-soleil-cell-protect-spf50-pack3.png?rev=4437106ccbd145949dea1f487392f01e"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/paidika/capital-soleil-kids-cell-protect-water-fluid-anthliako-sprei-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871323639": {
+    "name": "Capital Soleil Παιδικό Αντηλιακό Γαλάκτωμα SPF50",
+    "subtitle": "Προστατεύει την ευαίσθητη παιδική επιδερμίδα από τις βλάβες του ήλιου και την ενυδατώνει.",
+    "description": "Πολύ ψηλή αντηλιακή προστασία, σε μορφή γαλακτώματος, εξειδικευμένη για τις ανάγκες της ευαίσθητης παιδικής επιδερμίδας. Προσφέρει άμεση και πολύ υψηλή προστασία ενάντια στις βλάβες που προκαλούν οι ηλιακές ακτίνες UV, σε μία λεπτόρρευστη σύνθεση με ανάλαφρη και απαλή υφή για μακράς διάρκειας αίσθηση άνεσης. Είναι ανθεκτικό στο νερό, μη λιπαρή υφή, που δεν αφήνει λευκά σημάδια.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "300ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Παιδικά Αντηλιακά",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Περιγραφή": "Πολύ ψηλή αντηλιακή προστασία, σε μορφή γαλακτώματος, εξειδικευμένη για τις ανάγκες της ευαίσθητης παιδικής επιδερμίδας.\nΠροσφέρει άμεση και πολύ υψηλή προστασία ενάντια στις βλάβες που προκαλούν οι ηλιακές ακτίνες UV, σε μία λεπτόρρευστη σύνθεση με ανάλαφρη και απαλή υφή για μακράς διάρκειας αίσθηση άνεσης. Είναι ανθεκτικό στο νερό, μη λιπαρή υφή, που δεν αφήνει λευκά σημάδια.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, PROPYLENE GLYCOL, GLYCERIN, DIISOPROPYL SEBACATE, ETHYLHEXYL SALICYLATE, ALCOHOL DENAT., BUTYL METHOXYDIBENZOYLMETHANE, TITANIUM DIOXIDE [NANO] / TITANIUM DIOXIDE, OCTOCRYLENE, ISOHEXADECANE, ETHYLHEXYL TRIAZONE, C12-15 ALKYL BENZOATE, ALUMINUM STARCH OCTENYLSUCCINATE, STEARIC ACID, TRIETHANOLAMINE, POTASSIUM CETYL PHOSPHATE, SYNTHETIC WAX, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, ALUMINUM HYDROXIDE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, CAPRYLYL GLYCOL, DIMETHICONE, DISODIUM EDTA, GLYCERYL STEARATE, PALMITIC ACID, PEG-100 STEARATE, PHENOXYETHANOL, SILICA [NANO] / SILICA, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, XANTHAN GUM"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductskincarecapitalsoleilmilkkidsspf50300ml3337871323639atfpackshotfront.jpg?rev=-1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductskincarecapitalsoleilmilkkidsspf50300ml3337871323639atfpackshotfront.jpg?rev=-1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductskincarecapitalsoleilmilkkidsspf50300ml3337871323639atfpackshotfront.jpg?rev=-1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---gentle-protective-milk-kids-spf-50-plus/gentle-protective-milk-kids-pack2.jpeg?rev=6ddfec3a45864550b3ef9db038adb255"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/paidika/capital-soleil-paidiko-anthliako-galaktwma-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "0000030065949": {
+    "name": "Capital Soleil Αντιηλιακό Στικ SPF50+",
+    "subtitle": "ΠΟΛΥ ΥΨΗΛΗ ΠΡΟΣΤΑΣΙΑ, ΣΕ ΕΥΧΡΗΣΤΗ ΜΟΡΦΗ STICK, ΓΙΑ ΕΥΚΟΛΗ & ΓΡΗΓΟΡΗ ΕΦΑΡΜΟΓΗ.",
+    "description": "Το Capital Soleil Invisible Stick SPF50+ παρέχει πολύ υψηλή προστασία UV. Η ενισχυμένη σύνθεσή του, εμπλουτισμένη με Airlicium, εξασφαλίζει εύκολη και γρήγορη εφαρμογή στο πρόσωπο και τις ευαίσθητες ζώνες.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "9g",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Συσκευασία": "9g"
+    },
+    "sections": {
+      "Περιγραφή": "Το Capital Soleil Invisible Stick SPF50+ παρέχει πολύ υψηλή προστασία UV. Η ενισχυμένη σύνθεσή του, εμπλουτισμένη με Airlicium, εξασφαλίζει εύκολη και γρήγορη εφαρμογή στο πρόσωπο και τις ευαίσθητες ζώνες.",
+      "Οφέλη": "Πολύ υψηλή UV προστασία, σε εύχρηστη μορφή stick, για εύκολη & γρήγορη εφαρμογή.",
+      "Υφή": "Μη λιπαρή. Απορροφάται άμεσα, χωρίς να αφήνει λευκά ίχνη.",
+      "Συστατικά": "ΒΙΤΑΜΙΝΗ Ε\nΔιαθέτει ισχυρές αντιοξειδωτικές ιδιότητες και συμβάλλει στην προστασία από την οξείδωση των κυττάρων.\nAIRLICIUM\nΕξασφαλίζει ματ αποτέλεσμα για 12 ώρες.\nINCI: RICINUS COMMUNIS SEED OIL / CASTOR SEED OIL, ISOPROPYL PALMITATE, POLYETHYLENE, ISOHEXADECANE, BEHENYL BEHENATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, THEOBROMA CACAO SEED BUTTER / COCOA SEED BUTTER, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, PARAFFIN, CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX / CIRE MICROCRISTALLINE, SILICA SILYLATE, DROMETRIZOLE TRISILOXANE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, CITRIC ACID, GLYCINE SOJA OIL / SOYBEAN OIL, SYNTHETIC WAX, TOCOPHEROL",
+      "Χρήση": "Χρησιμοποιήστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο, εφαρμόζοντας άφθονη ποσότητα. Επαναλάβετε την εφαρμογή κάθε δύο ώρες, ειδικά μετά από κολύμπι, εφίδρωση ή σκούπισμα με πετσέτα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε άφθονη ποσότητα από το προϊόν πριν την έκθεσή σας στον ήλιο. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichycapitalsoleilinvisible-stickspf50websitepdpmosaic-1.png?rev=6c283505b63d49f3bc1753a87eacfc70",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichycapitalsoleilinvisible-stickspf50websitepdpmosaic-1.png?rev=6c283505b63d49f3bc1753a87eacfc70",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichycapitalsoleilinvisible-stickspf50websitepdpmosaic-1.png?rev=6c283505b63d49f3bc1753a87eacfc70",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/b889780937bb065462d4e43690360597885a8117.png?rev=f7b1697c2b8c49edb799d5d051288a47",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfclinicalresults-gr-1200x1200.jpg?rev=983d1bf69c764811a7c1c13aa5e3a26c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfdi-gr-1200x1200.jpg?rev=628c198de35c48efa58aea7aa6b0eb44",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfhowtouse-gr-1200x1200.jpg?rev=3162826a34bb4faaaed7b9eb9d22928a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfingredients-gr-1200x1200.jpg?rev=2e140683f61549fcbcd7056a365aa5a0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfroutine-gr-1200x1200.jpg?rev=d2273d55ba3745aa8882f16b9441c74d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atfsafetyawardseals-gr-1200x1200.jpg?rev=9e9a5822827946c09f4f26105abdccad",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-stick/vichyproductsuncarecapitalsoleilinvisiblestickspf5000000030065949atftexture-gr-1200x1200.jpg?rev=d737d3518b864a50b711de772f4c5788"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-antihliako-stik-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875695176": {
+    "name": "Capital Soleil Αντηλιακό κατά της Λιπαρότητας 3-σε-1 SPF50+",
+    "subtitle": "Πολύ υψηλή αντηλιακή προστασία με τριπλή δράση ενάντια της λιπαρότητας.",
+    "description": "Υψηλή αντηλιακή προστασία προσώπου 3-ΣΕ-1 προστατεύει, απορροφά και ρυθμίζει την λιπαρότητα της επιδερμίδας. Εμπλουτισμένο με πράσινη άργιλο και bifidus, προσφέρει ματ αποτέλεσμα άμεσα με διάρκεια έως 12 ώρες. Η επιδερμίδα διατηρεί αίσθηση φρεσκάδας όλη την ημέρα και γίνεται περισσότερο καθαρή με κάθε χρήση.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντηλιακή προστασία προσώπου 3-ΣΕ-1 προστατεύει, απορροφά και ρυθμίζει την λιπαρότητα της επιδερμίδας. Εμπλουτισμένο με πράσινη άργιλο και bifidus, προσφέρει ματ αποτέλεσμα άμεσα με διάρκεια έως 12 ώρες. Η επιδερμίδα διατηρεί αίσθηση φρεσκάδας όλη την ημέρα και γίνεται περισσότερο καθαρή με κάθε χρήση.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, HOMOSALATE, SILICA, BIFIDA FERMENT LYSATE, ISONONYL ISONONANOATE, GLYCERIN, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIISOPROPYL SEBACATE, PHENYLBENZIMIDAZOLE SULFONIC ACID, OCTOCRYLENE, CAPRYLYL METHICONE, PENTYLENE GLYCOL, ALUMINUM STARCH OCTENYLSUCCINATE, TRIETHANOLAMINE, TITANIUM DIOXIDE, POTASSIUM CETYL PHOSPHATE, METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, ALUMINUM HYDROXIDE, AMMONIUM ACRYLOYLDIMETHYLTAURATE/VP COPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, DISODIUM EDTA, GLYCERYL STEARATE, KAOLIN, LAURYL METHACRYLATE/GLYCOL DIMETHACRYLATE CROSSPOLYMER, MYRISTIC ACID, PALMITIC ACID, PEG-100 STEARATE, PHENOXYETHANOL, POLOXAMER 338, POLYGLYCERYL-10 LAURATE, SILICA SILYLATE, SODIUM BENZOATE, SODIUM METHYL STEAROYL TAURATE, STEARIC ACID, STEARYL ALCOHOL, T-BUTYL ALCOHOL, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1matifiant0023337875695176front-728x820.png?rev=f3bc32e88f8b46d7ac8d3ccc86492621",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1matifiant0023337875695176front-728x820.png?rev=f3bc32e88f8b46d7ac8d3ccc86492621",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/vichysunscreencs3in1matifiant0023337875695176front-728x820.png?rev=f3bc32e88f8b46d7ac8d3ccc86492621",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---mattifying-3-in-1-spf-50-plus/mattifying-3in1-pack2.jpeg?rev=3ab1c61328774307ae500fedb8a6ac37",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---mattifying-3-in-1-spf-50-plus/mattifying-3in1-pack3.jpeg?rev=9b5b122e49ed4bfcbcdbc65549e09159"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-anthliako-kata-ths-liparothtas-3-se-1-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875940214": {
+    "name": "Capital Soleil UV-AQUA Αντηλιακό Προσώπου με Χρώμα",
+    "subtitle": "Προηγμένη, καθημερινή αντηλιακή προστασία με SPF50. Ενυδατικό, δροσερό και αόρατο, σαν το νερό.",
+    "description": "Νέο UV AQUA INVISIBLE FLUID SPF50, μια ενυδατική λοσιόν προσώπου με χρώμα για προηγμένη, καθημερινή προστασία UV. Αυτό το αντηλιακό είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Είναι σχεδιασμένο με Τεχνολογία UV AQUA για υψηλή προστασία ενάντια στις ακτίνες UVA & UVB, τη ρύπανση, την υπέρυθρη ακτινοβολία και το οξειδωτικό στρες. Προσφέρει ενυδάτωση μακράς διάρκειας, ενώ η υδάτινη υφή του απορροφάται αμέσως με αόρατο τελείωμα σε όλους τους φωτότυπους. Ανθεκτικό στο νερό και τον ιδρώτα, υποαλλεργικό, και κατάλληλο για μάτια και βλέφαρα. Με απλικατέρ ακριβείας, για την πιο ευχάριστη εμπειρία εφαρμογής. Εθιστικό άρωμα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    },
+    "sections": {
+      "Περιγραφή": "Νέο UV AQUA INVISIBLE FLUID SPF50, μια ενυδατική λοσιόν προσώπου με χρώμα για προηγμένη, καθημερινή προστασία UV. Αυτό το αντηλιακό είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Είναι σχεδιασμένο με Τεχνολογία UV AQUA για υψηλή προστασία ενάντια στις ακτίνες UVA & UVB, τη ρύπανση, την υπέρυθρη ακτινοβολία και το οξειδωτικό στρες. Προσφέρει ενυδάτωση μακράς διάρκειας, ενώ η υδάτινη υφή του απορροφάται αμέσως με αόρατο τελείωμα σε όλους τους φωτότυπους. Ανθεκτικό στο νερό και τον ιδρώτα, υποαλλεργικό, και κατάλληλο για μάτια και βλέφαρα. Με απλικατέρ ακριβείας, για την πιο ευχάριστη εμπειρία εφαρμογής. Εθιστικό άρωμα.",
+      "Υφή": "Εξαιρετικά ανάλαφρη υφή με αόρατο τελείωμα, τόσο δροσερή όσο το νερό.",
+      "Συστατικά": "Το Ενεργό Σύμπλοκο Κατά της Απώλειας Νερού περιέχει Βιταμίνη Cg (αντιοξειδωτικό) και Τοκοφερόλη (Βιταμίνη E, αντιοξειδωτικό) για προστασία της επιδερμίδας. Το Ηφαιστειακό Νερό Vichy δρα σε συνέργεια ενάντια στην απώλεια νερού, προσφέροντας αντιοξειδωτικά και ενυδατικά οφέλη.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., DIISOPROPYL SEBACATE, DICAPRYLYL CARBONATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, ISOPROPYL MYRISTATE, GLYCERIN, CI 77891 / TITANIUM DIOXIDE, SILICA, PROPYLENE GLYCOL DICAPRYLATE/DICAPRATE, POTASSIUM CETYL PHOSPHATE, COPERNICIA CERIFERA CERA / CARNAUBAWAX / CIRE DE CARNAUBA, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, GLYCERYL STEARATE, PEG-100 STEARATE, PERLITE, STEARIC ACID, TRIETHANOLAMINE, HYDROXYACETOPHENONE, PALMITIC ACID, CI 77492 / IRON OXIDES, TOCOPHEROL, ASCORBYL GLUCOSIDE, CHLORPHENESIN, SILICA SILYLATE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, CI 77491 / IRON OXIDES, XANTHAN GUM, CI 77499 / IRON OXIDES, MYRISTIC ACID, BUTYLENE GLYCOL, CITRIC ACID, CAPRYLYL GLYCOL, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΕφαρμόστε αρκετή ποσότητα, 30 λεπτά πριν από την έκθεσή σας στον ήλιο.\nΕΝΙΣΧΥΣΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑΣ\nΑνανεώνετε κάθε 2 ώρες, καθώς και μετά από κολύμπι, εφίδρωση ή σκούπισμα, χρησιμοποιώντας αρκετή ποσότητα, για να διατηρήσετε το επίπεδο προστασίας.\nΕΙΔΙΚΕΣ ΠΡΟΦΥΛΑΞΕΙΣ\nΑποφύγετε την άμεση επαφή με τα μάτια. Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό. Αποφύγετε την επαφή με τα ρούχα, για να μην δημιουργηθούν λεκέδες."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichysunscreenuvaqualightfluid20263337875940214packshotfront-gr-728x820.png?rev=f6726dcb508f4e3fafc34bb08452350c",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichysunscreenuvaqualightfluid20263337875940214packshotfront-gr-728x820.png?rev=f6726dcb508f4e3fafc34bb08452350c",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichysunscreenuvaqualightfluid20263337875940214packshotfront-gr-728x820.png?rev=f6726dcb508f4e3fafc34bb08452350c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfkeybenefits-gr-716x716.jpg?rev=00c3d12e5cd74bfb926a226da4a2bcae",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichy-capital-soleil-uv-aqua-spray-3337875940139-atf-ingredients.jpg?rev=964be70a7d3f4b6586c8ac76d684501d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichycapitalsoleiluvaquahydratedinvisiblefluidlight50ml3337875940214atftexture-gr-716x716.jpg?rev=bb2df8e89812402ab703ec409e6f1126",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichyproductskincarecapitalsoleiluvaquainvisiblefluidlight3337875940214atfclinicalresults-gr-716x716.jpg?rev=d4916d0fc48c480e8df0a9c09c06e108",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-aqua--hydrating-fluid-tinted-light/vichycapitalsoleiluvaquahydratedinvisiblefluid50ml3337875940214atfproendorsement-gr-716x716.jpg?rev=d0e4f0f81b4844fb8bbed23a614ffae0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfcomparison-gr-716x716.jpg?rev=cca5caeaad5b427d902d8f964666eaaa"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-uv-aqua-anthliako-proswpou-me-xrwma",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875940252": {
+    "name": "Capital Soleil UV-AQUA Αντηλιακό Προσώπου SPF50 με Ελαφριά Υφή",
+    "subtitle": "Προηγμένη, καθημερινή αντηλιακή προστασία με SPF50. Ενυδατικό, δροσερό και αόρατο, σαν το νερό.",
+    "description": "Νέο UV AQUA INVISIBLE FLUID SPF50, μια ενυδατική λοσιόν προσώπου για προηγμένη, καθημερινή προστασία UV. Αυτό το αντηλιακό είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Είναι σχεδιασμένο με Τεχνολογία UV AQUA για υψηλή προστασία ενάντια στις ακτίνες UVA & UVB, τη ρύπανση, την υπέρυθρη ακτινοβολία και το οξειδωτικό στρες. Προσφέρει ενυδάτωση μακράς διάρκειας, ενώ η υδάτινη υφή του απορροφάται αμέσως (5 δευτερόλεπτα) με αόρατο τελείωμα σε όλους τους φωτότυπους. Ανθεκτικό στο νερό και τον ιδρώτα, υποαλλεργικό, και κατάλληλο για μάτια και βλέφαρα. Με απλικατέρ ακριβείας, για την πιο ευχάριστη εμπειρία εφαρμογής. Εθιστικό άρωμα.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό"
+    },
+    "sections": {
+      "Περιγραφή": "Νέο UV AQUA INVISIBLE FLUID SPF50, μια ενυδατική λοσιόν προσώπου για προηγμένη, καθημερινή προστασία UV. Αυτό το αντηλιακό είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Είναι σχεδιασμένο με Τεχνολογία UV AQUA για υψηλή προστασία ενάντια στις ακτίνες UVA & UVB, τη ρύπανση, την υπέρυθρη ακτινοβολία και το οξειδωτικό στρες. Προσφέρει ενυδάτωση μακράς διάρκειας, ενώ η υδάτινη υφή του απορροφάται αμέσως (5 δευτερόλεπτα) με αόρατο τελείωμα σε όλους τους φωτότυπους. Ανθεκτικό στο νερό και τον ιδρώτα, υποαλλεργικό, και κατάλληλο για μάτια και βλέφαρα. Με απλικατέρ ακριβείας, για την πιο ευχάριστη εμπειρία εφαρμογής. Εθιστικό άρωμα.",
+      "Υφή": "Εξαιρετικά ανάλαφρη υφή με αόρατο τελείωμα, τόσο δροσερή όσο το νερό.",
+      "Συστατικά": "Το Ενεργό Σύμπλοκο Κατά της Απώλειας Νερού περιέχει Βιταμίνη Cg (αντιοξειδωτικό) και Τοκοφερόλη (Βιταμίνη E, αντιοξειδωτικό) για προστασία της επιδερμίδας. Το Ηφαιστειακό Νερό Vichy δρα σε συνέργεια ενάντια στην απώλεια νερού, προσφέροντας αντιοξειδωτικά και ενυδατικά οφέλη.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., DIISOPROPYL SEBACATE, DICAPRYLYL CARBONATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, ISOPROPYL MYRISTATE, GLYCERIN, SILICA, PROPYLENE GLYCOL DICAPRYLATE/DICAPRATE, POTASSIUM CETYL PHOSPHATE, COPERNICIA CERIFERA CERA / CARNAUBA WAX / CIRE DE CARNAUBA, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, GLYCERYL STEARATE, PEG-100 STEARATE, PERLITE, HYDROXYACETOPHENONE, TRIETHANOLAMINE, STEARIC ACID, PALMITIC ACID, TOCOPHEROL, ASCORBYL GLUCOSIDE, CHLORPHENESIN, SILICA SILYLATE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, MYRISTIC ACID, BUTYLENE GLYCOL, CITRIC ACID, CAPRYLYL GLYCOL, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΕΦΑΡΜΟΓΗ\nΕφαρμόστε αρκετή ποσότητα, 30 λεπτά πριν από την έκθεσή σας στον ήλιο.\nΕΝΙΣΧΥΣΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑΣ\nΑνανεώνετε κάθε 2 ώρες, καθώς και μετά από κολύμπι, εφίδρωση ή σκούπισμα, χρησιμοποιώντας αρκετή ποσότητα, για να διατηρήσετε τη προστασία.\nΕΙΔΙΚΕΣ ΠΡΟΦΥΛΑΞΕΙΣ\nΑποφύγετε την άμεση επαφή με τα μάτια. Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό. Αποφύγετε την επαφή με τα ρούχα, για να μην δημιουργηθούν λεκέδες."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfpackshotfront-gr-728x820.png?rev=69656a90d9b24c15938a97fd39de6669",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfpackshotfront-gr-728x820.png?rev=69656a90d9b24c15938a97fd39de6669",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfpackshotfront-gr-728x820.png?rev=69656a90d9b24c15938a97fd39de6669",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfkeybenefits-gr-716x716.jpg?rev=00c3d12e5cd74bfb926a226da4a2bcae",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichy-capital-soleil-uv-aqua-spray-3337875940139-atf-ingredients.jpg?rev=964be70a7d3f4b6586c8ac76d684501d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atftexture-gr-716x716.jpg?rev=69740e26c0b94f76a8dd8908f7f8a178",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfdi-gr-716x716.jpg?rev=47f207de0051444ca52729e4b204f6dc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfhowtouse-gr-716x716.jpg?rev=b4f3c48051a8485483368c75848c3629",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfcomparison-gr-716x716.jpg?rev=cca5caeaad5b427d902d8f964666eaaa"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-uv-aqua-anthliako-proswpou-spf-50-me-elafria-yfh",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875940993": {
+    "name": "Capital Soleil UV-AQUA Αντηλιακό Στικ για Πρόσωπο & Σώμα",
+    "subtitle": "Πολύ υψηλή προστασία SPF 50+ κατά των UVA, των UVB, των μακρών UVA, και της οξείδωσης των κυττάρων της επιδερμίδας.",
+    "description": "Νέο UV Aqua Stick: προηγμένη, εύχρηστη αντηλιακή προστασία για το πρόσωπο και τις ευάλωτες περιοχές, με τεχνολογία UV AQUA. Ενυδατώνει για 24 ώρες, χωρίς να αφήνει ίχνη στην επιδερμίδα. Απορροφάται γρήγορα, δεν κολλάει, έχει αόρατο τελείωμα σε όλους τους φωτότυπους, και είναι ασφαλές για χρήση σε ευαίσθητες επιδερμίδες. Είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Δερματολογικά και οφθαλμολογικά ελεγμένο.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Νέο UV Aqua Stick: προηγμένη, εύχρηστη αντηλιακή προστασία για το πρόσωπο και τις ευάλωτες περιοχές, με τεχνολογία UV AQUA. Ενυδατώνει για 24 ώρες, χωρίς να αφήνει ίχνη στην επιδερμίδα. Απορροφάται γρήγορα, δεν κολλάει, έχει αόρατο τελείωμα σε όλους τους φωτότυπους, και είναι ασφαλές για χρήση σε ευαίσθητες επιδερμίδες. Είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Δερματολογικά και οφθαλμολογικά ελεγμένο.",
+      "Υφή": "Ενυδατική υφή που απορροφάται γρήγορα χωρίς κολλώδη αίσθηση.",
+      "Συστατικά": "ΤΕΧΝΟΛΟΓΙΑ UV AQUA\nΒΙΤΑΜΙΝΗ E\nΑΣΤΑΞΑΝΘΙΝΗ\nINCI: OCTYLDODECANOL, ISOAMYL LAURATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, TRIHEPTANOIN, DIBUTYL LAUROYL GLUTAMIDE, DIBUTYL ETHYLHEXANOYL GLUTAMIDE, BIS – ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ETHYLHEXYL TRIAZONE, DIETHYLHEXYL BUTAMIDO TRIAZONE, CAPRYLIC/CAPRIC TRIGLYCERIDE, HAEMATOCOCCUS PLUVIALIS EXTRACT, SQUALANE, TOCOPHEROL N70076904/1",
+      "Χρήση": "ΑΝΟΙΓΜΑ & ΠΡΟΕΤΟΙΜΑΣΙΑ\nΑφαιρέστε την προστατευτική μεμβράνη, και έπειτα ανοίξτε και περιστρέψτε το προϊόν.\nΕΦΑΡΜΟΓΗ\nΕφαρμόστε αρκετή ποσότητα, 30 λεπτά πριν από την έκθεσή σας στον ήλιο.\nΑΝΑΝΕΩΣΗ\nΑνανεώνετε συχνά, ειδικά μετά από κολύμπι, εφίδρωση ή σκούπισμα, χρησιμοποιώντας αρκετή ποσότητα, για να διατηρήσετε το επίπεδο προστασίας."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atfpackshot-gr-728x820.png?rev=614034e2357847e9bfc908116809f64d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atfpackshot-gr-728x820.png?rev=614034e2357847e9bfc908116809f64d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atfpackshot-gr-728x820.png?rev=614034e2357847e9bfc908116809f64d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfkeybenefits-gr-716x716.jpg?rev=00c3d12e5cd74bfb926a226da4a2bcae",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atfclinicalresults-gr-716x716.jpg?rev=ebff21ae0d274e238f59313370319242",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichy-capital-soleil-uv-aqua-spray-3337875940139-atf-ingredients.jpg?rev=964be70a7d3f4b6586c8ac76d684501d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atfhowtouse-gr-716x716.jpg?rev=239aead74d854776a9b5b1c55f884ea6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-stick-invisible-spf-50/vichycapitalsoleiluvaquastick337875940993atftexture-gr-716x716.jpg?rev=287d34624b9441caa4f75d0e0425e078",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfdi-gr-716x716.jpg?rev=47f207de0051444ca52729e4b204f6dc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichyproductskincarecapitalsoleiluvaquainvisiblefluid3337875940252atfcomparison-gr-716x716.jpg?rev=cca5caeaad5b427d902d8f964666eaaa"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-uv-aqua-anthliako-stik-gia-proswpo-kai-swma",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875837149": {
+    "name": "Capital Soleil UV Clear Αντηλιακό κατά της Λιπαρότητας SPF50+",
+    "subtitle": "ΑΝΤΗΛΙΑΚΟ ΚΑΤΑ ΤΗΣ ΛΙΠΑΡΟΤΗΤΑΣ & ΤΩΝ ΑΤΕΛΕΙΩΝ",
+    "description": "ΠΡΟΛΑΜΒΑΝΕΙ ΚΑΙ ΔΙΟΡΘΩΝΕΙ ΤΙΣ ΑΤΕΛΕΙΕΣ ΚΑΙ ΤΗ ΛΙΠΑΡΟΤΗΤΑ • Η καθημερινή έκθεση στην ακτινοβολία UV μπορεί να επιδεινώσει τη λιπαρότητα, τις ατέλειες και τα σημάδια. • Το UV-CLEAR είναι σχεδιασμένο με Τεχνολογία Netlock (κατοχυρωμένη με δίπλωμα ευρεσιτεχνίας) και παρέχει προηγμένη προστασία ενάντια στις UVA αλλά και στις UVB με SPF 50+. • Απαράμιλλη εμπειρία εφαρμογής: -Εξαιρετικά λεπτόρρευστη, ανάλαφρη υφή. -Μη λιπαρό, μη κολλώδες τελείωμα. -Χωρίς λευκά ίχνη για το 100% των γυναικών. -Κατάλληλο για μεικτή έως λιπαρή επιδερμίδα. • Πολύ υψηλή προστασία UVA & UVB. • Προλαμβάνει και διορθώνει σημάδια, ατέλειες και λιπαρότητα. • Δερματολογικά ελεγμένο σε 100% ευαίσθητες επιδερμίδες. • Σύνθεση που δεν φράζει τους πόρους. • Δεν τσούζει τα μάτια, οφθαλμολογικά ελεγμένο. • Εξαιρετικά λεπτόρρευστη, ανάλαφρη υφή. • Αφήνει την επιδερμίδα να αναπνέει. • Αόρατο τελείωμα: χωρίς λευκά ίχνη για το 100% των γυναικών. • Δεν αφήνει λιπαρότητα και δεν προκαλεί γυαλάδα. • Ιδανική βάση για το μακιγιάζ.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "ΠΡΟΛΑΜΒΑΝΕΙ ΚΑΙ ΔΙΟΡΘΩΝΕΙ ΤΙΣ ΑΤΕΛΕΙΕΣ ΚΑΙ ΤΗ ΛΙΠΑΡΟΤΗΤΑ\n• Η καθημερινή έκθεση στην ακτινοβολία UV μπορεί να επιδεινώσει τη λιπαρότητα, τις ατέλειες και τα σημάδια.\n• Το UV-CLEAR είναι σχεδιασμένο με Τεχνολογία Netlock (κατοχυρωμένη με δίπλωμα ευρεσιτεχνίας) και παρέχει προηγμένη προστασία ενάντια στις UVA αλλά και στις UVB με SPF 50+.\n• Απαράμιλλη εμπειρία εφαρμογής:\n-Εξαιρετικά λεπτόρρευστη, ανάλαφρη υφή.\n-Μη λιπαρό, μη κολλώδες τελείωμα.\n-Χωρίς λευκά ίχνη για το 100% των γυναικών.\n-Κατάλληλο για μεικτή έως λιπαρή επιδερμίδα.\n• Πολύ υψηλή προστασία UVA & UVB.\n• Προλαμβάνει και διορθώνει σημάδια, ατέλειες και λιπαρότητα.\n• Δερματολογικά ελεγμένο σε 100% ευαίσθητες επιδερμίδες.\n• Σύνθεση που δεν φράζει τους πόρους.\n• Δεν τσούζει τα μάτια, οφθαλμολογικά ελεγμένο.\n• Εξαιρετικά λεπτόρρευστη, ανάλαφρη υφή.\n• Αφήνει την επιδερμίδα να αναπνέει.\n• Αόρατο τελείωμα: χωρίς λευκά ίχνη για το 100% των γυναικών.\n• Δεν αφήνει λιπαρότητα και δεν προκαλεί γυαλάδα.\n• Ιδανική βάση για το μακιγιάζ.",
+      "Συστατικά": "ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ\nΚαταπολεμά τις ατέλειες και μειώνει τη λιπαρότητα.\nΝΙΑΣΙΝΑΜΙΔΗ\nΔιορθώνει τα σημάδια ακμής.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., DIISOPROPYL SEBACATE, SILICA, ISOPROPYL MYRISTATE, ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, PROPANEDIOL, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, NIACINAMIDE, DROMETRIZOLE TRISILOXANE, PERLITE, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CITRIC ACID, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, SALICYLIC ACID, SARCOSINE, SILICA SILYLATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, ZINC PCA, PARFUM / FRAGRANCE",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichysunscreencsuvclear0023337875837149front-728x820.png?rev=1551dd7a2ad74de9b9e3b89fa887f1a5",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichysunscreencsuvclear0023337875837149front-728x820.png?rev=1551dd7a2ad74de9b9e3b89fa887f1a5",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichysunscreencsuvclear0023337875837149front-728x820.png?rev=1551dd7a2ad74de9b9e3b89fa887f1a5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/333787583714905-716x716.jpg?rev=9858d7eff2f74df4a51a7818055a50a0",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/333787583714901-716x716.jpg?rev=83463b7a81aa4cf39a415b82872f4efc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/333787583714902-716x716.jpg?rev=44f5740007be4b2eabfa096b58354648"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-uv-clear-anthliako-kata-ths-liparothtas-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871325787": {
+    "name": "Capital Soleil Αντηλιακή Κρέμα με Χρώμα και Ματ Αποτέλεσμα",
+    "subtitle": "ΠΟΛΥ ΥΨΗΛΗ ΠΡΟΣΤΑΣΙΑ ΜΕ ΣΤΕΓΝΟ ΤΕΛΕΙΩΜΑ, ΓΙΑ 12 ΩΡΕΣ ΜΑΤ ΕΛΑΦΡΙΑΣ ΚΑΛΥΨΗΣ",
+    "description": "Αντηλιακή κρέμα υψηλής προστασίας που προσφέρει ματ αποτέλεσμα στην επιδερμίδα και ομοιόμορφο χρωματικό τόνο. Δεν αφήνει λευκά υπολείμματα. Απαλή και ελαφριά υφή για ομοιόμορφη εφαρμογή.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αντηλιακή κρέμα υψηλής προστασίας που προσφέρει ματ αποτέλεσμα στην επιδερμίδα και ομοιόμορφο χρωματικό τόνο. Δεν αφήνει λευκά υπολείμματα. Απαλή και ελαφριά υφή για ομοιόμορφη εφαρμογή.",
+      "Οφέλη": "Προηγμένη προστασία σε 4 επίπεδα (UVB + UVA + μακρές UVA, αντιοξειδωτική).\nΜατ αποτέλεσμα για 12 ώρες*.\nΑπορροφάται πλήρως με «στεγνό» τελείωμα.\nΠολύ ανθεκτικό στο νερό, ανθεκτικό στον ιδρώτα.\n* Δοκιμή χρήσης, 81 καταναλωτές, μετά από 28 ημέρες.",
+      "Υφή": "Λεπτόρρευστη και ανάλαφρη, για ελαφριά κάλυψη.",
+      "Συστατικά": "AIRLICIUM\nΕξασφαλίζει ματ αποτέλεσμα για 12 ώρες.\nΒΙΤΑΜΙΝΗ Ε\nΔιαθέτει ισχυρές αντιοξειδωτικές ιδιότητες και συμβάλλει στην προστασία από την οξείδωση των κυττάρων.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., GLYCERIN, DIISOPROPYL SEBACATE, ISOPROPYL MYRISTATE, ETHYLHEXYL SALICYLATE, E T H Y L H E X Y L T R I A Z O N E, S I L I C A, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, PROPANEDIOL, C 1 2 - 2 2 A L K Y L A C R Y L A T E / HYDROXYETHYLACRYLATE COPOLYMER, SILICA SILYLATE, PERLITE, DROMETRIZOLE TRISILOXANE, TOCOPHEROL, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CITRIC ACID, DISODIUM PHOSPHATE, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, POLYSORBATE 60, SODIUM P HOSPHATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Εφαρμόστε το προϊόν ακριβώς πριν από την έκθεση στον ήλιο. Ανανεώνετε συχνά, ειδικά μετά από κολύμπι, εφίδρωση, ή σκούπισμα με πετσέτα, χρησιμοποιώντας αρκετή ποσότητα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichycapital-soleildry-touch-protective-face-fluid-spf50-tintedwebsitebrief-pdpmosaic-1-2.png?rev=aba2f7f7665a45efa08ede0955b17fba",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichycapital-soleildry-touch-protective-face-fluid-spf50-tintedwebsitebrief-pdpmosaic-1-2.png?rev=aba2f7f7665a45efa08ede0955b17fba",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichycapital-soleildry-touch-protective-face-fluid-spf50-tintedwebsitebrief-pdpmosaic-1-2.png?rev=aba2f7f7665a45efa08ede0955b17fba",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfhowtouse-gr-1200x1200.jpg?rev=8de70c9f2ad7452386db0d62c504002c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfpackshotapplicator-gr-1200x12.jpg?rev=86e05c88c924482fb5c3d69ec4c8573d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfpackshotback-gr-1200x1200.jpg?rev=492d81a83e7f4007a696e298f787f4cc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfpackshotbox-gr-1200x1200.jpg?rev=f6eb72ce7ec049af94109e56721b88e5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfpackshottexture-gr-1200x1200.jpg?rev=90f746dccef3444e9140c2d0487e633b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfroutine-gr-1200x1200.jpg?rev=e97b684e1af540d7a4c160ae1d5d0449",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atfsafetyawardseals-gr-1200x1200.jpg?rev=7f365ba881134ba581e26134d5e8e1ea",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleildrytouchspf50tinted50ml3337871325787atftexture-gr-1200x1200.jpg?rev=20931903592b4fa9a4df0f9a9308b24b",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/tinted-spf50/vichyproductsuncarecapitalsoleiluvagedailypigmentlight40ml3337875795265beforeafter-gr-1200x1200.jpg?rev=9805f523d7604e1eaa674aed088f9874"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-anthliakh-krema-me-xrwma-kai-mat-apotelesma",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871323196": {
+    "name": "Capital Soleil Αντηλιακή Κρέμα Προσώπου για Ματ Αποτέλεσμα SPF30",
+    "subtitle": "ΥΨΗΛΗ ΠΡΟΣΤΑΣΙΑ ΜΕ DRY TOUCH ΤΕΛΕΙΩΜΑ, ΓΙΑ 12 ΩΡΕΣ ΜΑΤ ΑΠΟΤΕΛΕΣΜΑ",
+    "description": "Το Dry Touch Protective Face Fluid SPF30 της VICHY, εμπλουτισμένο με Airlicium, παρέχει προηγμένη UV προστασία σε 4 επίπεδα και 12 ώρες ματ αποτέλεσμα*.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Dry Touch Protective Face Fluid SPF30 της VICHY, εμπλουτισμένο με Airlicium, παρέχει προηγμένη UV προστασία σε 4 επίπεδα και 12 ώρες ματ αποτέλεσμα*.",
+      "Οφέλη": "Προηγμένη προστασία σε 4 επίπεδα: UVB, UVA, Μακρές UVA, Αντιοξειδωτική δράση.\nΜατ αποτέλεσμα για 12 ώρες*.\nΜη λιπαρό τελείωμα.\nΠολύ ανθεκτικό στο νερό και ανθεκτικό στον ιδρώτα.\n* Δοκιμή χρήσης, 81 άτομα, μετά από 28 ημέρες.",
+      "Υφή": "Λεπτόρρευστη, ανάλαφρη.",
+      "Συστατικά": "AIRLICIUM\nΕξασφαλίζει ματ αποτέλεσμα για 12 ώρες.\nΒΙΤΑΜΙΝΗ Ε\nΔιαθέτει ισχυρές αντιοξειδωτικές ιδιότητες και συμβάλλει στην προστασία από την οξείδωση των κυττάρων.\nINCI: AQUA / WATER / EAU, ISOPROPYL MYRISTATE, ALCOHOL DENAT., GLYCERIN, DIISOPROPYL SEBACATE, ETHYLHEXYL TRIAZONE, SILICA, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, PROPANEDIOL, BUTYL METHOXYDIBENZOYLMETHANE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, PERLITE, DROMETRIZOLE TRISILOXANE, TOCOPHEROL, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CITRIC ACID, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, DISODIUM PHOSPHATE, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, POLYSORBATE 60, SILICA SILYLATE, SODIUM PHOSPHATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Χρησιμοποιήστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο, εφαρμόζοντας άφθονη ποσότητα. Επαναλάβετε συχνά την εφαρμογή μέσα στην ημέρα, ειδικά μετά από κολύμπι, εφίδρωση ή σκούπισμα με πετσέτα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfmrhm-gr-1073x1073.png?rev=cc0f0aab877c4d44bc0c443f64cd8fa1",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfmrhm-gr-1073x1073.png?rev=cc0f0aab877c4d44bc0c443f64cd8fa1",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfmrhm-gr-1073x1073.png?rev=cc0f0aab877c4d44bc0c443f64cd8fa1",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfpackshotapplicator-gr-1200x1200.jpg?rev=f6d9323ef8ae4a31a5e92e71010dd143",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfpackshotbox-gr-1200x1200.jpg?rev=195b8adf3f924d8f874965c911bb4857",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfpackshotingredient-gr-1200x1200.jpg?rev=baff68b39e2e4c069a9231c125a51af4",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfpackshottexture-gr-1200x1200.jpg?rev=16a8c88a4c314441967dc696394991df",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml33378713231969atfroutine-gr-1200x1200.jpg?rev=4a8dc8ebb33f42a183e3ec050e500bcc",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfhowtouse-gr-1200x1200.jpg?rev=ab196322a9244f6ea7f66adc40e99203",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atfsafetyawardseals-gr-1200x1200.jpg?rev=66c23111943c4912ac362161ad62b827",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf30/vichyproductsuncarecapitalsoleildrytouchspf3050ml3337871323196atftexture-gr-1200x1200.jpg?rev=2222f8b74b444b47bdefdc9e2fc95fe4"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-anthliakh-krema-proswpou-gia-mat-apotelesma-spf30",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871323622": {
+    "name": "Capital Soleil Αντηλιακή Κρέμα Προσώπου για Ματ Αποτέλεσμα SPF50+",
+    "subtitle": "ΠΟΛΥ ΥΨΗΛΗ ΠΡΟΣΤΑΣΙΑ ΜΕ DRY TOUCH ΤΕΛΕΙΩΜΑ, ΓΙΑ 12 ΩΡΕΣ ΜΑΤ ΑΠΟΤΕΛΕΣΜΑ",
+    "description": "Το Dry Touch Protective Face Fluid SPF50+ της VICHY, εμπλουτισμένο με Airlicium, παρέχει προηγμένη UV προστασία σε 4 επίπεδα και 12 ώρες ματ αποτέλεσμα*.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "50ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Προσώπου",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "50ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Dry Touch Protective Face Fluid SPF50+ της VICHY, εμπλουτισμένο με Airlicium, παρέχει προηγμένη UV προστασία σε 4 επίπεδα και 12 ώρες ματ αποτέλεσμα*.",
+      "Οφέλη": "Προηγμένη προστασία σε 4 επίπεδα: UVB, UVA, Μακρές UVA, Αντιοξειδωτική δράση.\nΜατ αποτέλεσμα για 12 ώρες*.\nΜη λιπαρό τελείωμα.\nΠολύ ανθεκτικό στο νερό και ανθεκτικό στον ιδρώτα\n* Δοκιμή χρήσης, 81 άτομα, μετά από 28 ημέρες.",
+      "Υφή": "Λεπτόρρευστη, ανάλαφρη.",
+      "Συστατικά": "AIRLICIUM\nΕξασφαλίζει ματ αποτέλεσμα για 12 ώρες.\nΒΙΤΑΜΙΝΗ Ε\nΔιαθέτει ισχυρές αντιοξειδωτικές ιδιότητες και συμβάλλει στην προστασία από την οξείδωση των κυττάρων.\nINCI: AQUA / WATER / EAU, ALCOHOL DENAT., GLYCERIN, DIISOPROPYL SEBACATE, ISOPROPYL MYRISTATE, ETHYLHEXYL SALICYLATE, E T H Y L H E X Y L T R I A Z O N E, S I L I C A, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, PROPANEDIOL, C 1 2 - 2 2 A L K Y L A C R Y L A T E / HYDROXYETHYLACRYLATE COPOLYMER, SILICA SILYLATE, PERLITE, DROMETRIZOLE TRISILOXANE, TOCOPHEROL, CAPRYLIC/CAPRIC TRIGLYCERIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, BUTYLENE GLYCOL, CAPRYLYL GLYCOL, CITRIC ACID, DISODIUM PHOSPHATE, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, POLYSORBATE 60, SODIUM P HOSPHATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE",
+      "Χρήση": "Χρησιμοποιήστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο, εφαρμόζοντας άφθονη ποσότητα. Επαναλάβετε συχνά την εφαρμογή μέσα στην ημέρα, ειδικά μετά από κολύμπι, εφίδρωση ή σκούπισμα με πετσέτα.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil/vichyproductsuncarecapitalsoleildrytouchspf5050ml3337871323622atfpackshotfrontshadow-gr-728x820.png?rev=7866013dd3314b0d83ace195c8b2a78d",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil/vichyproductsuncarecapitalsoleildrytouchspf5050ml3337871323622atfpackshotfrontshadow-gr-728x820.png?rev=7866013dd3314b0d83ace195c8b2a78d",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil/vichyproductsuncarecapitalsoleildrytouchspf5050ml3337871323622atfpackshotfrontshadow-gr-728x820.png?rev=7866013dd3314b0d83ace195c8b2a78d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichyproductsuncarecapitalsoleildrytouchspf5050ml3337871323622atfhowtouse-gr-1200x1200.jpg?rev=99fc1844a20741ba96e9f453e760fd38",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/capital-soleil-dry-7.jpg?rev=b835d7aed4774772902c16ab08e421d5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/capital-soleil-dry-9.jpg?rev=6fa7d63f6da748398af136f8d2446c59"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/proswpo/capital-soleil-anthliakh-krema-proswpou-gia-mat-apotelesma-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871321826": {
+    "name": "Capital Soleil Beach Protect Ενυδατικό Αντηλιακό Γαλάκτωμα SPF30",
+    "subtitle": "Προστατεύει από τις βλάβες του ήλιου και ενυδατώνει την επιδερμίδα.",
+    "description": "Υψηλή αντηλιακή προστασία, σε μορφή γαλακτώματος. Ενισχυμένο με υαλουρονικό οξύ για ενυδάτωση της επιδερμίδας. Είναι ανθεκτικό στο νερό, μη λιπαρή υφή, που δεν αφήνει λευκά σημάδια. Ιδανικό για άνδρες, γυναίκες και παιδιά.",
+    "claims": [
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "ΧΩΡΙΣ ΛΕΥΚΑ ΣΗΜΑΔΙΑ",
+      "ΜΗ ΛΙΠΑΡΗ ΥΦΗ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ · ΧΩΡΙΣ ΛΕΥΚΑ ΣΗΜΑΔΙΑ · ΜΗ ΛΙΠΑΡΗ ΥΦΗ"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντηλιακή προστασία, σε μορφή γαλακτώματος. Ενισχυμένο με υαλουρονικό οξύ για ενυδάτωση της επιδερμίδας. Είναι ανθεκτικό στο νερό, μη λιπαρή υφή, που δεν αφήνει λευκά σημάδια. Ιδανικό για άνδρες, γυναίκες και παιδιά.",
+      "Συστατικά": "Υαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nINCI: AQUA / WATER / EAU, ISOPROPYL PALMITATE, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, BUTYL METHOXYDIBENZOYLMETHANE, ETHYLHEXYL TRIAZONE, GLYCERIN, PROPANEDIOL, ISOPROPYL MYRISTATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, OXIDIZED STARCH ACETATE, COPERNICIA CERIFERA CERA / CARNAUBA WAX / CIRE DE CARNAUBA, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, ACRYLATES COPOLYMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, DROMETRIZOLE TRISILOXANE, HYDROXYACETOPHENONE, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, PARFUM / FRAGRANCE",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337871321826_1.png?rev=fc0928a75e204f9586555cdb67f35e43",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337871321826_1.png?rev=fc0928a75e204f9586555cdb67f35e43",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337871321826_1.png?rev=fc0928a75e204f9586555cdb67f35e43",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/a-plus-content/vichy1.jpg?rev=2c8a1c7623b6411ca040e8bba6ffff4e"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-beach-protect-enudatiko-anthliako-galaktwma-spf30",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875915915": {
+    "name": "CAPITAL SOLEIL CELL PROTECT INVISIBLE OIL SPF30 ΑΝΤΗΛΙΑΚΟ ΛΑΔΙ",
+    "subtitle": "ΠΡΟΣΤΑΤΕΥΕΙ ΣΕ ΚΥΤΤΑΡΙΚΟ ΕΠΙΠΕΔΟ. ΒΕΛΤΙΩΝΕΙ ΤΗΝ ΠΟΙΟΤΗΤΑ ΤΗΣ ΕΠΙΔΕΡΜΙΔΑΣ.",
+    "description": "Το Cell Protect Invisible Oil SPF30 παρέχει προστασία σε κυτταρικό επίπεδο, με μια εξαιρετικά απολαυστική υφή λαδιού με dry touch τελείωμα. Κατάλληλο για το πρόσωπο, το σώμα και τις άκρες των μαλλιών.",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό"
+    },
+    "sections": {
+      "Περιγραφή": "Το Cell Protect Invisible Oil SPF30 παρέχει προστασία σε κυτταρικό επίπεδο, με μια εξαιρετικά απολαυστική υφή λαδιού με dry touch τελείωμα. Κατάλληλο για το πρόσωπο, το σώμα και τις άκρες των μαλλιών.",
+      "Οφέλη": "Εξασφαλίζει προηγμένη κυτταρική προστασία και οφέλη περιποίησης, προσφέροντας ταυτόχρονα θρέψη και λάμψη στην επιδερμίδα.",
+      "Υφή": "Εξαιρετικά ανάλαφρη υφή λαδιού που απορροφάται άμεσα στην επιδερμίδα και αφήνει dry touch τελείωμα.",
+      "Συστατικά": "Σκουαλάνιο για ενίσχυση και συγκράτηση της ενυδάτωσης και λείανση της επιδερμίδας. Βιταμίνη Ε για απαλή επιδερμίδα, πρόληψη της οξείδωσης και προστασία του επιδερμιδικού φραγμού.\nINCI: ISOPROPYL PALMITATE, ETHYLHEXYL PALMITATE, ALCOHOL DENAT., DIISOPROPYL S E B A C AT E, E T HY LH E X Y L T R I A ZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, C12-15 ALKYL BENZOATE, DICAPRYLYL CARBONATE, ETHYLENEDIAMINE/STEARYL DIMER DILINOLEATE COPOLYMER, SQUALANE, DROMETRIZOLE TRISILOXANE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, TOCOPHEROL, PARFUM / FRAGRANCE.",
+      "Χρήση": "Εφαρμόστε άφθονη ποσότητα σε πρόσωπο και σώμα, πριν από την έκθεσή σας στον ήλιο.\nΑπλώστε με απαλές κινήσεις μασάζ για να εξασφαλίσετε μια ομοιόμορφη στρώση προστασίας.\nΕπαναλάβετε συχνά την εφαρμογή μέσα στη μέρα, ειδικά μετά το κολύμπι και την άσκηση.Η υπερέκθεση στον ήλιο είναι επικίνδυνη. Να φυλάσσεται τα μωρά και τα μικρά παιδιά μακρυά από το ηλιακό φως. Να μην μένετε για μεγάλο χρονικό διάστημα στον ήλιο, ακόμα κι αν χρησιμοποιείτε αντηλιακό επειδή δεν προσφέρει 100% προστασία. Εφαρμόζετε το αντηλιακό πριν την έκθεσή σας στον ήλιο. Εφαρμόστε ξανά με γεναιόδωρη ποσότητα για να διατηρήσετε την προστασία, ειδικά μετά το κολύμπι, την εφίδρωση ή το σκούπισμα με πετσέτα. Να κρατάτε τον εαυτό σας καλυμένο φορόντας καπέλο, μπλούζα και γυαλιά ηλίου. Αποφεύγετε την έκθεση στον ήλιο τις πιο ζεστές ώρες της ημέρας. Χρησιμοποιήστε αντηλιακά προϊόντα κατάλληλα για τον τύπο της επιδερμίδας σας. Εφαρμόστε ξανά συχνά και γενναιόδωρα για να διατηρήσετε την αντηλιακή προστασία."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichy-capitalsoleil-oil-spf-30-website-pdp-brief-mosaic-1-(1).png?rev=8b0909443c5742dfb4e7626392cf04da",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichy-capitalsoleil-oil-spf-30-website-pdp-brief-mosaic-1-(1).png?rev=8b0909443c5742dfb4e7626392cf04da",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichy-capitalsoleil-oil-spf-30-website-pdp-brief-mosaic-1-(1).png?rev=8b0909443c5742dfb4e7626392cf04da",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915texture-gr-1200x1200.jpg?rev=fc5de64f9a73464b9b4fed9449359dac",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915clinicalresults-gr-1200x1200.jpg?rev=4dc74b999fd14d69b6cd4c750a236d3c",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915howto-gr-1200x1200.jpg?rev=5d120c28f75646b2b9e08e0b77418090",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915keybenefits-gr-1200x1200.jpg?rev=12f0984632d7436a859f6e21ba1d09c5",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915proendorsement-gr-1200x1200.jpg?rev=8ba9770585d243dfbd57fa010258c079",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-cell-protect-invisible-oil-spf30/vichyproductsuncarecapital-soleilcell-oil-spf30-200ml3337875915915routine-gr-1200x1200.jpg?rev=858baf7a117c49259379e1e0a04e22c2"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-cell-protect-invisible-oil-spf30-anthliako-ladi",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875892308": {
+    "name": "Capital Soleil Cell Protect Invisible Oil SPF50+ Αντηλιακό Λάδι",
+    "subtitle": "ΠΡΟΣΤΑΤΕΥΕΙ ΣΕ ΚΥΤΤΑΡΙΚΟ ΕΠΙΠΕΔΟ. ΒΕΛΤΙΩΝΕΙ ΤΗΝ ΠΟΙΟΤΗΤΑ ΤΗΣ ΕΠΙΔΕΡΜΙΔΑΣ.",
+    "description": "Το Cell Protect Invisible Oil SPF50+ παρέχει προστασία σε κυτταρικό επίπεδο, με μια μεταξένια υφή λαδιού που απορροφάται άμεσα στην επιδερμίδα, κατάλληλο για το πρόσωπο, το σώμα, και τις άκρες των μαλλιών. * * Μελέτη αυτοαξιολόγησης, 21 ημέρες, 47 γυναίκες & 8 άνδρες, με κάθε τύπο επιδερμίδας, ευαίσθητη επιδερμίδα, και κάθε φωτότυπο (1 έως 6).",
+    "claims": [
+      "Υποαλλεργικό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το Cell Protect Invisible Oil SPF50+ παρέχει προστασία σε κυτταρικό επίπεδο, με μια μεταξένια υφή λαδιού που απορροφάται άμεσα στην επιδερμίδα, κατάλληλο για το πρόσωπο, το σώμα, και τις άκρες των μαλλιών.\n* * Μελέτη αυτοαξιολόγησης, 21 ημέρες, 47 γυναίκες & 8 άνδρες, με κάθε τύπο επιδερμίδας, ευαίσθητη επιδερμίδα, και κάθε φωτότυπο (1 έως 6).",
+      "Οφέλη": "Προσφέρει άμεσα, ενυδάτωση και λάμψη στην επιδερμίδα.",
+      "Υφή": "Εξαιρετικά ανάλαφρη σύνθεση. Υφή λαδιού που απορροφάται άμεσα στην επιδερμίδα.",
+      "Συστατικά": "Σκουαλάνιο για ενισχυμένη ενυδάτωση, συγκράτηση της πολύτιμης ενυδάτωσης και απαλότητα στην επιδερμίδα. Βιταμίνη Ε για λείανση της επιδερμίδας, πρόληψη της οξείδωσης, και προστασία του επιδερμιδικού φραγμού.\nINCI: 2071694 2 - INGREDIENTS : ISOPROPYL PALMITATE, ETHYLHEXYL PALMITATE, ALCOHOL DENAT, DIISOPROPYL SEBACATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, C12-15 ALKYL BENZOATE, DICAPRYLYL CARBONATE, ETHYLENEDIAMINE/STEARYL DIMER DILINOLEATE COPOLYMER, SQUALANE, DROMETRIZOLE TRISILOXANE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROC INNAMATE, TOCOPHEROL, PARFUM / FRAGRANCE.",
+      "Χρήση": "Εφαρμόστε αρκετή ποσότητα σε πρόσωπο και σώμα πριν από την έκθεσή σας στον ήλιο.\nΚάντε μασάζ για να απλωθεί ομοιόμορφα το προϊόν και να εξασφαλίσετε βέλτιστη προστασία.\nΑνανεώνετε τακτικά μέσα στη μέρα, ειδικά μετά το κολύμπι και την άσκηση.\nΠεριορίστε όσο είναι δυνατόν την έκθεση στον ήλιο.Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308packshotfront-728x820.png?rev=52c23747883f4dbbb8657ede2543f400",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308packshotfront-728x820.png?rev=52c23747883f4dbbb8657ede2543f400",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308packshotfront-728x820.png?rev=52c23747883f4dbbb8657ede2543f400",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308packshottexture-716x716.jpg?rev=08649185574348c98cd11d3257fa92ef",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308proendorsement-gr-716x716.jpg?rev=23939a6ec6a746e7bc64f2a8d2331cc3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/vichyproductcapital-soleilinvisible-oil200ml3337875892308safety-gr-716x716.jpg?rev=097667fb72d34239b935e049d87a6807"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-cell-protect-invisible-oil-spf50-plus-anthliako-ladi",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875915861": {
+    "name": "Capital Soleil Invisible Hydrating Milk SPF50+ Αντηλιακό",
+    "subtitle": "Προστατεύει από τις βλάβες του ήλιου και ενυδατώνει την επιδερμίδα.",
+    "description": "Αντηλιακό γαλάκτωμα πολύ υψηλής προστασίας για σώμα και πρόσωπο με SPF50+. Ιδανικό για άνδρες, γυναίκες και παιδιά που αναζητούν προηγμένη αντηλιακή προστασία με ενυδατική υφή. Είναι πολύ ανθεκτικό στο νερό, με μη λιπαρή υφή που δεν αφήνει λευκά σημάδια. Τα εργαστήρια Vichy ενσωμάτωσαν στο αντηλιακό γαλάκτωμα ένα σύστημα φίλτρων με βάση το Mexoryl® για προστασία ευρέος φάσματος UVA-UVB με μεγάλη φωτοσταθερότητα και δράση κατά των βλαβερών επιπτώσεων των ακτίνων UV, για επιδερμίδα προστατευμένη από τον ήλιο και τη φωτογήρανση.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο",
+      "Πολύ ανθεκτικό στο νερό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml, 300ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο · Πολύ ανθεκτικό στο νερό",
+      "Συσκευασία": "150ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αντηλιακό γαλάκτωμα πολύ υψηλής προστασίας για σώμα και πρόσωπο με SPF50+. Ιδανικό για άνδρες, γυναίκες και παιδιά που αναζητούν προηγμένη αντηλιακή προστασία με ενυδατική υφή. Είναι πολύ ανθεκτικό στο νερό, με μη λιπαρή υφή που δεν αφήνει λευκά σημάδια. Τα εργαστήρια Vichy ενσωμάτωσαν στο αντηλιακό γαλάκτωμα ένα σύστημα φίλτρων με βάση το Mexoryl® για προστασία ευρέος φάσματος UVA-UVB με μεγάλη φωτοσταθερότητα και δράση κατά των βλαβερών επιπτώσεων των ακτίνων UV, για επιδερμίδα προστατευμένη από τον ήλιο και τη φωτογήρανση.",
+      "Συστατικά": "ΒΙΤΑΜΙΝΗ Ε\nΗ βιταμίνη Ε έχει ισχυρές αντιοξειδωτικές ιδιότητες για να προστατεύει από την οξείδωση των κυττάρων.\nΙαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nINCI: INGREDIENTS: AQUA / WATER / EAU, ISOPROPYL PALMITATE, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, GLYCERIN, PROPANEDIOL, DICAPRYLYL ETHER, OXIDIZED STARCH ACETATE, COPERNICIA CERIFERA CERA / CARNAUBA WAX / WAX DE CARNAUBA, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, ACRYLATES COPOLYMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, DROMETRIZOLE TRISILOXANE, HYDROXYACETOPHENONE, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, PERFUME / FRAGRANCE (FIL N289065/1).",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfpackshotfr.png?rev=d245fedc60fc458ea66a225400350c17",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfpackshotfr.png?rev=d245fedc60fc458ea66a225400350c17",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfpackshotfr.png?rev=d245fedc60fc458ea66a225400350c17",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfclinicalre.jpg?rev=0c13cb01e9934274ae4d02123d8e482a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfingredient.jpg?rev=1b8b1f293e6243b384337fa7ea093ce2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfproendorse.jpg?rev=fb3df2aea2784958b6527b5ca522e972",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/3337875915861.jpg?rev=fd4a07004b6b45d9a358fa75e422fe72",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/pdps/3337871322694_1.jpg?rev=8b085b7b6f90468ca967425b494470ba"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-invisible-hydrating-milk-spf50-plus-anthliako",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871322694": {
+    "name": "Capital Soleil Invisible Hydrating Milk SPF50+ Αντηλιακό",
+    "subtitle": "Προστατεύει από τις βλάβες του ήλιου και ενυδατώνει την επιδερμίδα.",
+    "description": "Αντηλιακό γαλάκτωμα πολύ υψηλής προστασίας για σώμα και πρόσωπο με SPF50+. Ιδανικό για άνδρες, γυναίκες και παιδιά που αναζητούν προηγμένη αντηλιακή προστασία με ενυδατική υφή. Είναι πολύ ανθεκτικό στο νερό, με μη λιπαρή υφή που δεν αφήνει λευκά σημάδια. Τα εργαστήρια Vichy ενσωμάτωσαν στο αντηλιακό γαλάκτωμα ένα σύστημα φίλτρων με βάση το Mexoryl® για προστασία ευρέος φάσματος UVA-UVB με μεγάλη φωτοσταθερότητα και δράση κατά των βλαβερών επιπτώσεων των ακτίνων UV, για επιδερμίδα προστατευμένη από τον ήλιο και τη φωτογήρανση.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο",
+      "Πολύ ανθεκτικό στο νερό"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "150ml, 300ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο · Πολύ ανθεκτικό στο νερό",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Περιγραφή": "Αντηλιακό γαλάκτωμα πολύ υψηλής προστασίας για σώμα και πρόσωπο με SPF50+. Ιδανικό για άνδρες, γυναίκες και παιδιά που αναζητούν προηγμένη αντηλιακή προστασία με ενυδατική υφή. Είναι πολύ ανθεκτικό στο νερό, με μη λιπαρή υφή που δεν αφήνει λευκά σημάδια. Τα εργαστήρια Vichy ενσωμάτωσαν στο αντηλιακό γαλάκτωμα ένα σύστημα φίλτρων με βάση το Mexoryl® για προστασία ευρέος φάσματος UVA-UVB με μεγάλη φωτοσταθερότητα και δράση κατά των βλαβερών επιπτώσεων των ακτίνων UV, για επιδερμίδα προστατευμένη από τον ήλιο και τη φωτογήρανση.",
+      "Συστατικά": "ΒΙΤΑΜΙΝΗ Ε\nΗ βιταμίνη Ε έχει ισχυρές αντιοξειδωτικές ιδιότητες για να προστατεύει από την οξείδωση των κυττάρων.\nΙαματικό μεταλλικό νερό της VICHY.\nΕνισχύει τις φυσικές άμυνες της επιδερμίδας.\nINCI: INGREDIENTS: AQUA / WATER / EAU, ISOPROPYL PALMITATE, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, GLYCERIN, PROPANEDIOL, DICAPRYLYL ETHER, OXIDIZED STARCH ACETATE, COPERNICIA CERIFERA CERA / CARNAUBA WAX / WAX DE CARNAUBA, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, ACRYLATES COPOLYMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, DROMETRIZOLE TRISILOXANE, HYDROXYACETOPHENONE, TOCOPHEROL, TRIETHANOLAMINE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, PERFUME / FRAGRANCE (FIL N289065/1).",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/pdps/3337871322694_1.jpg?rev=8b085b7b6f90468ca967425b494470ba",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfpackshotfr.png?rev=d245fedc60fc458ea66a225400350c17",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfpackshotfr.png?rev=d245fedc60fc458ea66a225400350c17",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfclinicalre.jpg?rev=0c13cb01e9934274ae4d02123d8e482a",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfingredient.jpg?rev=1b8b1f293e6243b384337fa7ea093ce2",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/vichyproductsuncarecapitalsoleilinvisiblehydratingprotectivemilkspf50150ml3337875915861atfproendorse.jpg?rev=fb3df2aea2784958b6527b5ca522e972",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---invisible-hydrating-mist-spf-50/150ml/3337875915861.jpg?rev=fd4a07004b6b45d9a358fa75e422fe72",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/pdps/3337871322694_1.jpg?rev=8b085b7b6f90468ca967425b494470ba"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-invisible-hydrating-milk-spf50-plus-anthliako",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337871325770": {
+    "name": "Capital Soleil Invisible Hydrating Mist SPF50+ Αντηλιακό Σπρέι",
+    "subtitle": "ΕΝΥΔΑΤΩΝΕΙ ΣΕ ΒΑΘΟΣ ΤΗΝ ΕΠΙΔΕΡΜΙΔΑ, ΜΕ ΑΟΡΑΤΟ ΤΕΛΕΙΩΜΑ.",
+    "description": "Ενυδατικό, αόρατο αντηλιακό σπρέι υψηλής προστασίας για ενήλικες με ευαίσθητη επιδερμίδα. Σύνθεση ανθεκτική στο νερό, που διαχέεται σε μορφή μικροσταγονιδίων, για 24ωρη ενυδάτωση με αόρατο τελείωμα. Ανάλαφρη υφή γαλακτώματος, για ενυδάτωση που διαρκεί.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατικό, αόρατο αντηλιακό σπρέι υψηλής προστασίας για ενήλικες με ευαίσθητη επιδερμίδα. Σύνθεση ανθεκτική στο νερό, που διαχέεται σε μορφή μικροσταγονιδίων, για 24ωρη ενυδάτωση με αόρατο τελείωμα. Ανάλαφρη υφή γαλακτώματος, για ενυδάτωση που διαρκεί.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: 885904 6 - INGREDIENTS: BUTANE, AQUA / WATER / EAU, ISOPROPYL MYRISTATE, GLYCERIN, DIISOPROPYL SEBACATE, ETHYLHEXYL SALICYLATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, BUTYL METHOXYDIBENZOYLMETHANE, C12-15 ALKYL BENZOATE, DROMETRIZOLE TRISILOXANE, DICAPRYLYL CARBONATE, STYRENE/ACRYLATES COPOLYMER, DIMETHICONE, PROPANEDIOL, DIISOPROPYL ADIPATE, PEG-30 DIPOLYHYDROXYSTEARATE, NYLON-12, METHYL METHACRYLATE CROSSPOLYMER, POLYMETHYLSILSESQUIOXANE, CAPRYLYL GLYCOL, CARNOSINE, DISTEARDIMONIUM HECTORITE, ETHYLHEXYL TRIAZONE, HYDROXYACETOPHENONE, ISODODECANE, ISOSTEARYL ALCOHOL, LAURYL PEG/PPG-18/18 METHICONE, P-ANISIC ACID, PARFUM / FRAGRANCE, PEG-20, PEG-8 LAURATE, POLY C10-30 ALKYL ACRYLATE, PROPYLENE CARBONATE, SILICA SILYLATE, SODIUM CHLORIDE, SODIUM DODECYLBENZENESULFONATE, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE (F.I.L. N70021816/1)."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichysunscreencsmist0023337871325770front-gr-1073x1073.png?rev=ef50b77b6f50431caf4802bd1616e66f",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichysunscreencsmist0023337871325770front-gr-1073x1073.png?rev=ef50b77b6f50431caf4802bd1616e66f",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-dry-touch-spf-50-plus/vichysunscreencsmist0023337871325770front-gr-1073x1073.png?rev=ef50b77b6f50431caf4802bd1616e66f",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/vichysunscreencsmist0023337871325770back-gr-1200x1200-1.jpg?rev=2b62b1838cc74d6aa4ee2ae904f7d9da",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/vichysunscreencsmist0023337871325770applicationusage--gr-1200x1200-1.jpg?rev=7685d12943dd4fc783fff53cf3d5a1b6",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/new-images/vichysunscreencsmist0023337871325770front-gr-1200x1200-1.jpg?rev=00ac597009f4404ea885efe8ee1719bb"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-invisible-hydrating-mist-spf50-plus-anthliako-sprei",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875940139": {
+    "name": "Capital Soleil UV-AQUA Αντηλιακό Γαλάκτωμα Σώματος Σπρέι SPF 50",
+    "subtitle": "Πολύ υψηλή προστασία SPF 50 κατά των UVA, των UVB & των μακρών UVA.",
+    "description": "Σχεδιασμένο με τη νέα, πρωτοποριακή Τεχνολογία UV AQUA, αυτό το αντηλιακό για πρόσωπο & σώμα όχι μόνο προστατεύει την επιδερμίδα από τις UVA, τις UVB και τις μακρές UVA, αλλά προσφέρει επίσης 24ωρη ενυδάτωση. Η σύνθεσή του είναι εμπλουτισμένη με β-καροτένιο που συμβάλλει σε ένα υγιές, λαμπερό μαύρισμα, ενώ παράλληλα εξασφαλίζει υψηλή προστασία από τον ήλιο. Απορροφάται γρήγορα, είναι ανθεκτικό στο νερό, είναι υποαλλεργικό, και έχει αόρατο τελείωμα σε όλους τους φωτότυπους. Είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Δερματολογικά και οφθαλμολογικά ελεγμένο.",
+    "claims": [
+      "Υποαλλεργικό",
+      "ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · ΟΦΘΑΛΜΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Σχεδιασμένο με τη νέα, πρωτοποριακή Τεχνολογία UV AQUA, αυτό το αντηλιακό για πρόσωπο & σώμα όχι μόνο προστατεύει την επιδερμίδα από τις UVA, τις UVB και τις μακρές UVA, αλλά προσφέρει επίσης 24ωρη ενυδάτωση. Η σύνθεσή του είναι εμπλουτισμένη με β-καροτένιο που συμβάλλει σε ένα υγιές, λαμπερό μαύρισμα, ενώ παράλληλα εξασφαλίζει υψηλή προστασία από τον ήλιο. Απορροφάται γρήγορα, είναι ανθεκτικό στο νερό, είναι υποαλλεργικό, και έχει αόρατο τελείωμα σε όλους τους φωτότυπους. Είναι ανάλαφρο, δροσερό και αόρατο σαν το νερό. Δερματολογικά και οφθαλμολογικά ελεγμένο.",
+      "Οφέλη": "Ενυδατώνει για 24 ώρες.\nΑνθεκτικό στο νερό.\nΧωρίς λιπαρή ή κολλώδη αίσθηση.",
+      "Υφή": "Εξαιρετικά ανάλαφρη υφή με αόρατο τελείωμα, τόσο δροσερή όσο το νερό.",
+      "Συστατικά": "β-καροτένιο: βοηθά σε ένα υγιές, λαμπερό μαύρισμα.\nΤοκοφερόλη (Βιταμίνη E): αντιοξειδωτική δράση.\nΗφαιστειακό Νερό Vichy: ενυδάτωση.\nINCI: AQUA / WATER / EAU, ISOPROPYL, MYRISTATE, ALCOHOL DENAT., BIS-ETHYLHEXYLOXYPHENOL, METHOXYPHENYL TRIAZINE, GLYCERIN, ETHYLHEXYL, TRIAZONE, C12-15 ALKYL BENZOATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, BUTYL METHOXYDIBENZOYLMETHANE, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL CARBONATE, TRIETHANOLAMINE, ACRYLATES COPOLYMER, BEHENYL ALCOHOL, BUTYLENE GLYCOL, BUTYROSPERMUM, PARKII BUTTER / SHEA BUTTER, CAPRYLYL GLYCOL, CELLULOSE, CETYL ALCOHOL, CI 40800 / BETA-CAROTENE, CITRIC ACID, DISODIUM ETHYLENE DICOCAMIDE PEG-15 DISULFATE, GLYCERYL STEARATE, GLYCERYL STEARATE CITRATE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, POLY C10-30 ALKYL ACRYLATE, SODIUM STEAROYL GLUTAMATE, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE.",
+      "Χρήση": "ΠΡΟΕΤΟΙΜΑΣΙΑ\nΑνακινήστε καλά το μπουκάλι πριν από κάθε χρήση ώστε να αναμειχθεί πλήρως η σύνθεση.\nΕΦΑΡΜΟΓΗ\nΕφαρμόστε αρκετή ποσότητα, 30 λεπτά πριν από την έκθεσή σας στον ήλιο. Μην ψεκάζετε απευθείας στο πρόσωπο, βάλτε προϊόν στα χέρια σας και μετά εφαρμόστε.\nΕΝΙΣΧΥΣΗ ΑΠΟΤΕΛΕΣΜΑΤΙΚΟΤΗΤΑΣ\nΑνανεώνετε κάθε 2 ώρες, καθώς και μετά από κολύμπι, εφίδρωση ή σκούπισμα, χρησιμοποιώντας αρκετή ποσότητα, για να διατηρήσετε το επίπεδο προστασίας."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquaspray3337875940139atfpackshot-gr-728x820.png?rev=511d28f5f1bd483e90ddb21d1f5660bb",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquaspray3337875940139atfpackshot-gr-728x820.png?rev=511d28f5f1bd483e90ddb21d1f5660bb",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquaspray3337875940139atfpackshot-gr-728x820.png?rev=511d28f5f1bd483e90ddb21d1f5660bb",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquastick3337875940139atfsafety-gr-716x716.jpg?rev=485e2d2bf5a142958601f23c0bcf6471",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-invisible-fluid-spf50/vichy-capital-soleil-uv-aqua-spray-3337875940139-atf-ingredients.jpg?rev=964be70a7d3f4b6586c8ac76d684501d",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquaspray3337875940139atfhowtouse-gr-716x716.jpg?rev=44562db37f044680a0832d6b4da69a55",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichycapitalsoleiluvaquaspray3337875940139atfroutine-gr-716x716.jpg?rev=be8eb00ddf034b9ca338b4f098b7ace3",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil-uv-aqua-hydrating-invisible-spray/vichy-capital-soleil-uv-aqua-spray-3337875940139-atf-diversity.jpg?rev=774f3b94f2eb44f8b12045438c2a0bfd"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-uv-aqua-anthliako-galaktwma-swmatos-sprei-spf-50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875810890": {
+    "name": "Capital Soleil Cell Protect Water Fluid Αντηλιακό Σπρέι SPF50+",
+    "subtitle": "Προστατεύει την επιδερμίδα από τις βλάβες του ήλιου σε κυτταρικό επίπεδο.",
+    "description": "Πολύ υψηλή αντηλιακή προστασία σώματος, σε μορφή σπρέι. Με τη δύναμη της τεχνολογίας Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, η εξαιρετικά ανάλαφρη σύνθεσή του σχηματίζει ένα προηγμένο φιλμ UV προστασίας, με αόρατο τελείωμα, χωρίς λευκά ίχνη. Ενισχυμένο με υαλουρονικό οξύ, κλάσματα προβιοτικών και ιαματικό ηφαιστειακό νερό της Vichy.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Πολύ υψηλή αντηλιακή προστασία σώματος, σε μορφή σπρέι. Με τη δύναμη της τεχνολογίας Netlock, κατοχυρωμένη με πολλαπλά διπλώματα ευρεσιτεχνίας, η εξαιρετικά ανάλαφρη σύνθεσή του σχηματίζει ένα προηγμένο φιλμ UV προστασίας, με αόρατο τελείωμα, χωρίς λευκά ίχνη. Ενισχυμένο με υαλουρονικό οξύ, κλάσματα προβιοτικών και ιαματικό ηφαιστειακό νερό της Vichy.",
+      "Συστατικά": "Κλάσματα Προβιοτικών\nΑναπλάθει και καταπραΰνει το δέρμα. Βοηθά στην καλύτερη ανοχή των οξέων.\nΙαματικό Ηφαιστειακό Νερό της Vichy\nΠλούσιο σε 15 βασικά μέταλλα, το ηφαιστειακό νερό Vichy ενισχύει τον φραγμό του δέρματος.\nΥαλουρονικό Οξύ\nΔιατηρεί 1.000 φορές το βάρος του σε νερό! Δεσμεύει και απορροφά το νερό, ενυδατώνει την επιδερμίδα και αυξάνει τη σφρηγιλότητά της.\nINCI: AQUA / WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, DROMETRIZOLE TRISILOXANE, HYDROXYACETOPHENONE, SODIUM HYALURONATE, SODIUM POLYACRYLATE, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, VITREOSCILLA FERMENT, PARFUM / FRAGRANCE",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη. Να φυλάσσεται τα μωρά και τα μικρά παιδιά μακρυά από το ηλιακό φως. Να μην μένετε για μεγάλο χρονικό διάστημα στον ήλιο, ακόμα κι αν χρησιμοποιείτε αντηλιακό επειδή δεν προσφέρει 100% προστασία. Εφαρμόζετε το αντηλιακό πριν την έκθεσή σας στον ήλιο. Εφαρμόστε ξανά με γεναιόδωρη ποσότητα για να διατηρήσετε την προστασία, ειδικά μετά το κολύμπι, την εφίδρωση ή το σκούπισμα με πετσέτα. Να κρατάτε τον εαυτό σας καλυμένο φορόντας καπέλο, μπλούζα και γυαλιά ηλίου. Αποφεύγετε την έκθεση στον ήλιο τις πιο ζεστές ώρες της ημέρας. Χρησιμοποιήστε αντηλιακά προϊόντα κατάλληλα για τον τύπο της επιδερμίδας σας. Εφαρμόστε ξανά συχνά και γενναιόδωρα για να διατηρήσετε την αντηλιακή προστασία."
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810869_1.jpg?rev=1e81e0625f8f4b6aadedc4818dbbe457",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810869_1.jpg?rev=1e81e0625f8f4b6aadedc4818dbbe457",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810869_1.jpg?rev=1e81e0625f8f4b6aadedc4818dbbe457",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875810869_2.jpg?rev=16c049f3fddb413894bcb1578961a9a9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/suncare/capital-soleil---cell-protect-50/capital-soleil-cell-protect-spf50-pack3.png?rev=4437106ccbd145949dea1f487392f01e"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-cell-protect-water-fluid-anthliako-sprei-spf50",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875585217": {
+    "name": "Capital Soleil Αντηλιακό Νερό SPF30 για Λαμπερό Μαύρισμα",
+    "subtitle": "Υψηλή UV προστασία. Εξαιρετικά ανάλαφρο, εξαιρετικά δροσερό.",
+    "description": "Το αντηλιακό νερό Vichy SPF 30 είναι η ιδανική επιλογή για όσους επιθυμούν να αποκτήσουν ένα όμορφο και φυσικό μαύρισμα, χωρίς να θυσιάσουν την προστασία της επιδερμίδας τους. Με προηγμένη τεχνολογία αντηλιακής προστασίας, αυτό το προϊόν προσφέρει υψηλή κάλυψη από τις βλαβερές UV ακτίνες, μειώνοντας τον κίνδυνο εγκαυμάτων. Η ειδικά σχεδιασμένη φόρμουλα του αντηλιακού νερού Vichy επιτρέπει στην επιδερμίδα να αποκτήσει ένα ομοιόμορφο και λαμπερό χρώμα. Η ελαφριά υφή του απορροφάται άμεσα, χωρίς να αφήνει λιπαρότητα. Είναι κατάλληλο για όλους τους τύπους δέρματος. Απολαύστε τον ήλιο με σιγουριά και φροντίστε την επιδερμίδα σας με το αντηλιακό νερό Vichy SPF 30, που συνδυάζει αποτελεσματικότητα και προστασία, προσφέροντας λαμπερό και υγιές μαύρισμα.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Ανθεκτικό στον ιδρώτα",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Ανθεκτικό στον ιδρώτα · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αντηλιακό νερό Vichy SPF 30 είναι η ιδανική επιλογή για όσους επιθυμούν να αποκτήσουν ένα όμορφο και φυσικό μαύρισμα, χωρίς να θυσιάσουν την προστασία της επιδερμίδας τους. Με προηγμένη τεχνολογία αντηλιακής προστασίας, αυτό το προϊόν προσφέρει υψηλή κάλυψη από τις βλαβερές UV ακτίνες, μειώνοντας τον κίνδυνο εγκαυμάτων.\nΗ ειδικά σχεδιασμένη φόρμουλα του αντηλιακού νερού Vichy επιτρέπει στην επιδερμίδα να αποκτήσει ένα ομοιόμορφο και λαμπερό χρώμα. Η ελαφριά υφή του απορροφάται άμεσα, χωρίς να αφήνει λιπαρότητα.\nΕίναι κατάλληλο για όλους τους τύπους δέρματος. Απολαύστε τον ήλιο με σιγουριά και φροντίστε την επιδερμίδα σας με το αντηλιακό νερό Vichy SPF 30, που συνδυάζει αποτελεσματικότητα και προστασία, προσφέροντας λαμπερό και υγιές μαύρισμα.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL ETHER, DICAPRYLYL CARBONATE, OCTOCRYLENE, ETHYLHEXYLSALICYLATE, BUTYLMETHOXYDIBENZOYLMETHANE, GLYCERIN, ALCOHOL DENAT., ETHYLHEXYL TRIAZONE, PROPANEDIOL, DIISOPROPYL SEBACATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, PHENYLBENZIMIDAZOLE SULFONIC ACID, CAPRYLYL GLYCOL, CI 75130 / BETA-CAROTENE, DISODIUM EDTA, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, PHENOXYETHANOL, POLY C10-30 ALKYL ACRYLATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRIETHANOLAMINE, PARFUM/ FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585217_1.jpg?rev=a8c23326881745cf88bd45b663a39022",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585217_1.jpg?rev=a8c23326881745cf88bd45b663a39022",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585217_1.jpg?rev=a8c23326881745cf88bd45b663a39022",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-protects-at-skin-cell-level-716x716.jpg?rev=20a9a68db0bd480f86f8e8bfbb0b5589",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-4-levels-716x716.jpg?rev=958d2f53a8a848b18d00e854e92306de"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-anthliako-nero-spf30-gia-lampero-maurisma",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875585187": {
+    "name": "Capital Soleil Αντηλιακό Νερό SPF30 για Ενυδάτωση",
+    "subtitle": "Υψηλή UV προστασία. Εξαιρετικά ανάλαφρο, εξαιρετικά δροσερό.",
+    "description": "Το αντηλιακό νερό σώματος Capital Soleil από τη Vichy είναι η ιδανική επιλογή για όσους επιθυμούν ενυδάτωση και προστασία της επιδερμίδας. Με SPF 30, προσφέρει αξιόπιστη προστασία από τις βλαβερές UV ακτίνες, μειώνοντας τον κίνδυνο εγκαυμάτων και πρόωρης γήρανσης. Η μοναδική της σύνθεση θρέφει και ενυδατώνει σε βάθος, αφήνοντας μια αίσθηση φρεσκάδας και απαλότητας, ιδανική για καθημερινή χρήση. Είναι κατάλληλο για όλους τους τύπους δέρματος, καθιστώντας το ασφαλές για όλη την οικογένεια. Με το αντηλιακό νερό Capital Soleil με SPF 30, μπορείτε να απολαύσετε τον ήλιο με σιγουριά, ξέροντας ότι η επιδερμίδα σας είναι καλά προστατευμένη και ταυτόχρονα ενυδατωμένη. Η χρήση του και η τακτική εφαρμογή του πριν από την έκθεση στον ήλιο είναι απαραίτητη για την καλύτερη δυνατή και αποτελεσματική προστασία Επενδύστε στην υγεία της επιδερμίδας σας!",
+    "claims": [
+      "Υποαλλεργικό",
+      "Ανθεκτικό στον ιδρώτα",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Ανθεκτικό στον ιδρώτα · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Το αντηλιακό νερό σώματος Capital Soleil από τη Vichy είναι η ιδανική επιλογή για όσους επιθυμούν ενυδάτωση και προστασία της επιδερμίδας. Με SPF 30, προσφέρει αξιόπιστη προστασία από τις βλαβερές UV ακτίνες, μειώνοντας τον κίνδυνο εγκαυμάτων και πρόωρης γήρανσης.\nΗ μοναδική της σύνθεση θρέφει και ενυδατώνει σε βάθος, αφήνοντας μια αίσθηση φρεσκάδας και απαλότητας, ιδανική για καθημερινή χρήση.\nΕίναι κατάλληλο για όλους τους τύπους δέρματος, καθιστώντας το ασφαλές για όλη την οικογένεια.\nΜε το αντηλιακό νερό Capital Soleil με SPF 30, μπορείτε να απολαύσετε τον ήλιο με σιγουριά, ξέροντας ότι η επιδερμίδα σας είναι καλά προστατευμένη και ταυτόχρονα ενυδατωμένη. Η χρήση του και η τακτική εφαρμογή του πριν από την έκθεση στον ήλιο είναι απαραίτητη για την καλύτερη δυνατή και αποτελεσματική προστασία Επενδύστε στην υγεία της επιδερμίδας σας!",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL ETHER, DICAPRYLYL CARBONATE, OCTOCRYLENE, ETHYLHEXYL SALICYLATE, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, ALCOHOL DENAT., ETHYLHEXYL TRIAZONE, DIISOPROPYL SEBACATE, PROPANEDIOL, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, PHENYLBENZIMIDAZOLE SULFONIC ACID, CAPRYLYL GLYCOL, DISODIUM EDTA, HYDROLYZED HYALURONIC ACID, PHENOXYETHANOL, POLY C10-30 ALKYL ACRYLATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRIETHANOLAMINE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585187_1.png?rev=f9d6ee2ec53148858a7e7dc04d9fcbc9",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585187_1.png?rev=f9d6ee2ec53148858a7e7dc04d9fcbc9",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875585187_1.png?rev=f9d6ee2ec53148858a7e7dc04d9fcbc9",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-protects-at-skin-cell-level-716x716.jpg?rev=20a9a68db0bd480f86f8e8bfbb0b5589",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-4-levels-716x716.jpg?rev=958d2f53a8a848b18d00e854e92306de"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-anthliako-nero-spf30-gia-enudatwsh",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875695152": {
+    "name": "Capital Soleil Αντηλιακό Νερό SPF50 για Λαμπερό Μαύρισμα",
+    "subtitle": "Προστατεύει την επιδερμίδα και προσφέρει λαμπερό, ασφαλές μαύρισμα. Εξαιρετικά ανάλαφρη υδάτινη αίσθηση.",
+    "description": "Υψηλή αντηλιακή προστασία με καινοτόμα υδάτινη υφή, εξαιρετικά ανάλαφρη, δροσερή και αόρατη. Σύνθεση εμπλουτισμένη με β-καροτένιο που προάγει ομοιόμορφο χρωματικό τόνο και ενίσχυση του μαυρίσματος της επιδερμίδας. Διφασική τεχνολογία, μη κολλώδης υφή, χωρίς λευκά ίχνη και ανθεκτική στο νερό.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Δοκιμασμένο υπό δερματολογικό έλεγχο",
+      "Ανθεκτικό στον ιδρώτα",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δοκιμασμένο υπό δερματολογικό έλεγχο · Ανθεκτικό στον ιδρώτα · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντηλιακή προστασία με καινοτόμα υδάτινη υφή, εξαιρετικά ανάλαφρη, δροσερή και αόρατη. Σύνθεση εμπλουτισμένη με β-καροτένιο που προάγει ομοιόμορφο χρωματικό τόνο και ενίσχυση του μαυρίσματος της επιδερμίδας. Διφασική τεχνολογία, μη κολλώδης υφή, χωρίς λευκά ίχνη και ανθεκτική στο νερό.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL ETHER, DIISOPROPYL SEBACATE, OCTOCRYLENE, ETHYLHEXYL TRIAZONE, DICAPRYLYL CARBONATE, ETHYLHEXYL SALICYLATE, ALCOHOL DENAT, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, PHENYLBENZIMIDAZOLE SULFONIC ACID, PROPANEDIOL, TRIETHANOLAMINE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, CAPRYLYL GLYCOL, CI 40800 / BETA-CAROTENE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, PHENOXYETHANOL, POLY C10-30 ALKYL ACRYLATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695152_1.jpg?rev=029fceecda514df99f4501cb9425c849",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695152_1.jpg?rev=029fceecda514df99f4501cb9425c849",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695152_1.jpg?rev=029fceecda514df99f4501cb9425c849",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-water-sensation-716x716.jpg?rev=25bed6bb53e948618ef85a005cd85549",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-protects-at-skin-cell-level-716x716.jpg?rev=20a9a68db0bd480f86f8e8bfbb0b5589",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-4-levels-716x716.jpg?rev=958d2f53a8a848b18d00e854e92306de",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/vichyproductcapital-soleil-solar-protective-water-spf-50200ml3337875695152btfkeybeneprofessionalend.jpg?rev=c7e6483a9a30447a8a261cb809163fb2"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-anthliako-nero-spf50-gia-lampero-maurisma",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3337875695145": {
+    "name": "Capital Soleil Αντηλιακό Νερό SPF50 για Ενυδάτωση",
+    "subtitle": "Προστατεύει την επιδερμίδα και προσφέρει 24Η ενυδάτωση . Εξαιρετικά ανάλαφρη υδάτινη αίσθηση.",
+    "description": "Υψηλή αντηλιακή προστασία με καινοτόμα υδάτινη υφή, εξαιρετικά ανάλαφρη, δροσερή και αόρατη. Σύνθεση εμπλουτισμένη με υαλουρονικό οξύ για 24Η ενυδάτωση. Διφασική τεχνολογία, μη κολλώδης υφή, χωρίς λευκά ίχνη και ανθεκτική στο νερό.",
+    "claims": [
+      "Υποαλλεργικό",
+      "Ανθεκτικό στον ιδρώτα",
+      "ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ"
+    ],
+    "highlights": [
+      "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
+    ],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "200ml",
+      "Σειρά": "Capital Soleil",
+      "Κατηγορία vichy.gr": "Αντηλιακή Προστασία › Αντηλιακά › Αντηλιακά Σώματος",
+      "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Ανθεκτικό στον ιδρώτα · ΑΝΘΕΚΤΙΚΟ ΣΤΟ ΝΕΡΟ",
+      "Συσκευασία": "200ml"
+    },
+    "sections": {
+      "Περιγραφή": "Υψηλή αντηλιακή προστασία με καινοτόμα υδάτινη υφή, εξαιρετικά ανάλαφρη, δροσερή και αόρατη.\nΣύνθεση εμπλουτισμένη με υαλουρονικό οξύ για 24Η ενυδάτωση. Διφασική τεχνολογία, μη κολλώδης υφή, χωρίς λευκά ίχνη και ανθεκτική στο νερό.",
+      "Χρήση": "Η υπερέκθεση στον ήλιο είναι επικίνδυνη ακόμα και με αντηλιακή προστασία, καθώς δεν σας εξασφαλίζει 100% προστασία. Για μέγιστη προστασία, εφαρμόστε το προϊόν πριν την έκθεσή σας στον ήλιο, ανακινήστε καλά κι εφαρμόστε άφθονη ποσότητα. Η ανεπαρκής ποσότητα και η μη ανακίνηση του προϊόντος μειώνουν το επίπεδο προστασίας του. Για να διατηρήσετε την προστασία ανανεώστε συχνά την εφαρμογή, ιδιαίτερα μετά το κολύμπι, εάν ιδρώσετε σκουπιστείτε με πετσέτα. Μην εκθέτετε τα μωρά και τα μικρά παιδιά στον ήλιο. Προστατεύετε τα παιδιά με καπέλο, γυαλιά ηλίου και μπλουζάκι. Αποφύγετε την επαφή με τα ρούχα. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση άμεσης επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό.",
+      "Συστατικά": "INCI: AQUA / WATER, DICAPRYLYL ETHER, DIISOPROPYL SEBACATE, OCTOCRYLENE, ETHYLHEXYL TRIAZONE, DICAPRYLYL CARBONATE, ETHYLHEXYL SALICYLATE, ALCOHOL DENAT, BUTYL METHOXYDIBENZOYLMETHANE, GLYCERIN, PHENYLBENZIMIDAZOLE SULFONIC ACID, PROPANEDIOL, TRIETHANOLAMINE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, CAPRYLYL GLYCOL, CI 40800 / BETA-CAROTENE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, PHENOXYETHANOL, POLY C10-30 ALKYL ACRYLATE, TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID, TOCOPHEROL, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, PARFUM / FRAGRANCE"
+    },
+    "image": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695145_1.jpg?rev=18b8ebfb3b644ab39e1bbaadf7bbae64",
+    "imageFallback": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695145_1.jpg?rev=18b8ebfb3b644ab39e1bbaadf7bbae64",
+    "images": [
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-packaging/3337875695145_1.jpg?rev=18b8ebfb3b644ab39e1bbaadf7bbae64",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-protects-at-skin-cell-level-716x716.jpg?rev=20a9a68db0bd480f86f8e8bfbb0b5589",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/capital-soleil-4-levels-716x716.jpg?rev=958d2f53a8a848b18d00e854e92306de",
+      "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/new-images/capital-soleil-waters-716x716/vichyproductcapital-soleil-solar-protective-water-spf-50200ml3337875695152btfkeybeneprofessionalend.jpg?rev=c7e6483a9a30447a8a261cb809163fb2"
+    ],
+    "url": "https://www.vichy.gr/proionta/anthliakh-prostasia/anthliaka/swma/capital-soleil-anthliako-nero-spf50-gia-enudatwsh",
+    "source": "vichy.gr",
+    "section": "capital-soleil",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  }
+};
