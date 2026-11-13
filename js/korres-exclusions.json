@@ -1,0 +1,25 @@
+{
+  "_comment": "Κανόνες αποκλεισμού ονομάτων για τον κατάλογο Korres. Το gr.korres.com (Shopify) εκθέτει στο products.json και δώρα/web-promo (Welcome Gift, Mystery Box, ΔΩΡΟ με αγορές άνω των…, πουγκιά/νεσεσέρ, προϊόν 'test1'). Διαβάζεται από το build-brand-supplier.mjs για τιμοκατάλογο ΚΑΙ προϊόντα του site (pattern = JavaScript RegExp, flags προεπιλογή i).",
+  "rules": [
+    {
+      "name": "web-gift",
+      "pattern": "welcome\\s+gift|mystery\\s+box|\\bδ[ωώ]ρ[οo]\\b|προστίθεται\\s+αυτόματα|με\\s+(?:ηλεκτρονικές\\s+)?αγορές\\s+(?:άνω|από|\\d)",
+      "reason": "Δώρο με αγορές / web promo — δεν πωλείται"
+    },
+    {
+      "name": "pouch",
+      "pattern": "\\bpouch\\b|νεσεσ[εέ]ρ|tote\\s+bag|beauty\\s+bag|τσάντα\\s+θαλάσσης|πετσέτα\\s+θαλάσσης",
+      "reason": "Πουγκί / νεσεσέρ / τσάντα"
+    },
+    {
+      "name": "web-promo-1plus1",
+      "pattern": "αφρόλουτρο\\s+250ml\\s+σετ$|\\bσετ\\s+σαμπουάν\\b|υγρό\\s+σαπούνι\\s+ευαίσθητης\\s+περιοχής\\s+σετ$",
+      "reason": "Web promo 1+1 (PROMOS) του e-shop"
+    },
+    {
+      "name": "test",
+      "pattern": "^test\\d*$",
+      "reason": "Δοκιμαστική εγγραφή του e-shop"
+    }
+  ]
+}

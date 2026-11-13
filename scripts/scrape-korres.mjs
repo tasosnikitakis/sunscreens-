@@ -75,7 +75,9 @@ function pageExtras(html) {
   const t = html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/\s+/g, " ");
   const need = (t.match(/Η Ανάγκη σου:\s*([^€]{2,60}?)\s+(?:Ο Τύπος σου|\d+\+?%|€)/) || [])[1];
   const type = (t.match(/Ο Τύπος σου:\s*([^€]{2,60}?)\s+(?:\d+\+?%|€|Συνδέσου)/) || [])[1];
-  const natural = (t.match(/(\d{1,3}\+?%)\s*Περιεχόμενο Φυσικής Προέλευσης/) || [])[1];
+  // Ο αριθμός μπορεί να είναι σπασμένος σε spans ("9 6%") → ενώνουμε τα ψηφία
+  const nm = t.match(/((?:\d\s?){1,3}\+?%)\s*Περιεχόμενο Φυσικής Προέλευσης/);
+  const natural = nm ? nm[1].replace(/\s+/g, "") : undefined;
   return { need: need && need.trim(), type: type && type.trim(), natural };
 }
 
@@ -105,6 +107,7 @@ function buildEntry(p, js, html) {
   if (extras.natural) attributes["Φυσικής προέλευσης"] = extras.natural;
   const sizes = [...new Set(variants.map(v => v.size).filter(Boolean))];
   if (sizes.length) attributes["Διαθέσιμα μεγέθη"] = sizes.join(", ");
+  // Σειρά εικόνων = σειρά Shopify (η πρώτη είναι το packshot· τα ονόματα αρχείων «quiz…» δεν σημαίνουν banner)
   const images = [...new Set((js.images || p.images.map(i => i.src) || []).map(largeImg).filter(Boolean))];
   const fullTitle = (g && oneLine(g.gr_item_full_title)) || oneLine(p.title);
   const line = (g && oneLine(g.gr_title)) || null;     // π.χ. "Αφρόλουτρο" (κατηγορία προϊόντος στα ελληνικά)

@@ -44,11 +44,11 @@ const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 // slug της σελίδας (λατινική μεταγραφή) + το όνομα supplier/σελίδας + breadcrumb.
 const LINE_RULES = [
   // Από τα tags του gr.korres.com (ελληνικά + αγγλικά) και το όνομα. Σειρά: στενές κατηγορίες πρώτα.
-  ["set",        /GIFT SETS|GIFTS|ΣΕΤ ΔΩΡ|PROMOS|\bΣετ\b|ΔΩΡΟ|Promo|Advent|ROUTINE 20|ESSENTIALS 20/i],
+  ["set",        /GIFT SETS|ΣΕΤ ΔΩΡ|PROMOS|\bΣετ\b|\bSet\b|ΔΩΡΟ|Promo|Advent|ROUTINE 20|ESSENTIALS 20|Expert Duo|Eyes Duo/i],
   ["antiliaka",  /SUNCARE|ΑΝΤΗΛΙΑΚ|AFTER SUN|SPF ?\d|Αντηλιακ|Μαυρίσματος/i],
   ["vafes",      /COLORANTS|ΒΑΦΕΣ ΜΑΛΛΙΩΝ|Colorant|ΒΑΦΗ|ARG\.COLOR/i],
   ["makigiaz",   /MAKEUP|ΜΑΚΙΓΙΑΖ|NAILS|ΝΥΧΙΑ|ΒΕΡΝΙΚ|LIPS|ΧΕΙΛΗ|Lip Balm|LIP BALM|Lip Care|COMPLEXION|BLUSH|MASCARA|LIPSTICK/i],
-  ["paidika",    /KIDS|ΠΑΙΔΙΚ|Παιδικ|ΒΡΕΦ|Βρεφικ|BABY|ΓΑΛΑ ΒΡΕΦ|ΓΑΛΑ ΝΗΠΙΑ|Wash Me/i],
+  ["paidika",    /KIDS|ΠΑΙΔΙΚ|Παιδικ|ΒΡΕΦ|Βρεφικ|BABY|ΓΑΛΑ ΒΡΕΦ|ΓΑΛΑ ΝΗΠΙΑ|Wash Me|Πιπίλ|Μπιμπερό|Θηλές Σιλικόνης|Αλλαγής Πάνας/i],
   ["andras",     /\bMEN\b|ΑΝΔΡ|Aftershave|AFTERSHAVE|Ξυρίσμ|ξύρισμα|Shaving|GROOMING/i],
   ["aromata",    /FRAGRANCE|ΑΡΩΜΑΤΑ|EAU DE TOILETTE|EAU DE PARFUM|Eau de Toilette|Eau de Parfum|Eau de Cologne|\bEDT\b|PARFUM/i],
   ["mallia",     /\bHAIR\b|ΜΑΛΛΙΑ|ΣΑΜΠΟΥΑΝ|Σαμπουάν|SHAMPOO|Μαλακτική Κρέμα|Μάσκα (Θρέψης|Λάμψης|Επανόρθωσης|Για Μετά τη Βαφή)|Styling|ΜΑΛΛΙΩΝ|CONDITIONER/i],
@@ -126,8 +126,12 @@ async function main() {
   for (const sp of site) {
     // GTIN: το JSON-LD δίνει 14ψήφιο με 0 μπροστά ("03282770072730"), το URL το 13ψήφιο
     const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
-    if (g) { sp.gtin = g; byGtin.set(g, sp); }
-    for (const v of ((sp.details && sp.details.variants) || [])) { const vg = gtin13(v.ean); if (vg && !byGtin.has(vg)) byGtin.set(vg, sp); }
+    // Το ίδιο EAN υπάρχει σε περισσότερες σελίδες (παλιά/κρυφή σελίδα + τρέχουσα): προτιμάμε
+    // τη σελίδα που πωλείται (τιμή > 0) και είναι σε συλλογές (tags), μετά αυτήν με ελληνικά.
+    const rank = x => { const d = x.details || {}; const vs = d.variants || []; return (vs.some(v => v.price > 0) ? 4 : 0) + ((d.tags || []).length ? 2 : 0) + (d.greek ? 1 : 0); };
+    const put = (key, page) => { const cur = byGtin.get(key); if (!cur || rank(page) > rank(cur)) byGtin.set(key, page); };
+    if (g) { sp.gtin = g; put(g, sp); }
+    for (const v of ((sp.details && sp.details.variants) || [])) { const vg = gtin13(v.ean); if (vg) put(vg, sp); }
     byUrl.set(normUrl(sp.url), sp);
   }
   console.log(`Site: ${site.length} σελίδες (${byGtin.size} με GTIN), IDF λεξιλόγιο ${idf.size} tokens.`);
@@ -182,7 +186,7 @@ async function main() {
       else if (supplierVol) attributes["Συσκευασία"] = supplierVol.replace(/g$/, "g");
       else if (d.size) attributes["Συσκευασία"] = d.size;
       if (d.category) attributes["Κατηγορία gr.korres.com"] = d.category;
-      if (d.line) attributes["Σειρά"] = d.line;
+      // gr_title (d.line) είναι σύντομος τίτλος προϊόντος («Αφρόλουτρο»), όχι σειρά — δεν μπαίνει ως «Σειρά»
       const sections = {};
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
       const slug = chosen.url.split("/p/")[1] || chosen.url;
@@ -196,7 +200,7 @@ async function main() {
         images: d.images || null,
         url: chosen.url,
         source: "gr.korres.com",
-        section: lineOf(slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
+        section: lineOf((d.tags || []).join(" | "), d.productType, d.line, chosen.name, d.fullTitle, d.enTitle, p.name, slug),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"
