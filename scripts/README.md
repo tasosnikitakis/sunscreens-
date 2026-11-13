@@ -120,8 +120,15 @@ supplemental,sections}.js`, η σελίδα `<brand>.html` φορτώνει το
 τον ίδιο extractor (`scripts/lib-aderma.mjs`).
 
 Sites χωρίς κοινό template έχουν δικό τους scraper/extractor: `scripts/lib-lrp.mjs`
-(La Roche-Posay, Sitecore/Vue) και `scripts/scrape-korres.mjs` (Korres, Shopify:
-products.json + <handle>.js για barcodes + σελίδα για τα ελληνικά κείμενα).
+(La Roche-Posay, Sitecore/Vue), `scripts/scrape-korres.mjs` (Korres, Shopify:
+products.json + <handle>.js για barcodes + σελίδα για τα ελληνικά κείμενα) και
+`scripts/scrape-apivita.mjs` (Apivita, Magento/ScandiPWA πίσω από Cloudflare: οι
+σελίδες είναι κέλυφος, τα δεδομένα από GraphQL GET μέσω Playwright/Chromium με νέο
+context ανά αίτημα· ένα ερώτημα ανά προϊόν γιατί οι λίστες δεν δίνουν τα κείμενα·
+χωρίς EAN στο site → κλειδιά `AP-<sku>`, οι τιμές/barcodes θα μπουν από τον τιμοκατάλογο
+με manual matches). Τα δωρεάν δείγματα (`is_free`) μένουν εκτός στο build. Οι εικόνες του
+assets.apivita.com δίνουν 403 στο fetch → `sync-brand-images.mjs --brand=apivita --browser`
+(λήψη μέσω headless Chromium).
 
 Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
 `NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).

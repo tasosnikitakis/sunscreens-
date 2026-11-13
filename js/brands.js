@@ -68,6 +68,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Korres", imageDir: "korres", sourceKey: "_korresSource",
     fallbackDesc: "Προϊόν Korres — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Περιγραφή (EN)"]
+  },
+  apivita: {
+    key: "apivita", name: "Apivita", host: "apivita.com", page: "apivita.html",
+    icon: "🐝", initials: "AV", accent: "#15803d",
+    sheetName: "Apivita", imageDir: "apivita", sourceKey: "_apivitaSource",
+    fallbackDesc: "Προϊόν Apivita — {name}",
+    exportSections: ["Πληροφορίες", "Χρήση", "Συστατικά"]
   }
 };
 
