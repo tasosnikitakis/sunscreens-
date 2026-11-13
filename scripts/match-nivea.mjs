@@ -217,6 +217,15 @@ async function main() {
     const sb = `// Auto-generated (scripts/fill-brand-missing.mjs + match-${BRAND}.mjs).\n// Pharmacy-based συμπλήρωμα για barcodes χωρίς σελίδα στο brand site· section = ενότητα από το όνομα supplier.\n// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).\n`;
     await fs.writeFile(SUPPLEMENTAL_FILE, sb + `window.${BRAND.toUpperCase()}_SUPPLEMENTAL = ` + JSON.stringify(supplemental, null, 2) + ";\n", "utf8");
   }
+  // Ίδιο όνομα σε περισσότερα προϊόντα (διαφορετικά μεγέθη): το μέγεθος στο όνομα
+  {
+    const byName = {};
+    for (const [bc, v] of Object.entries(overrides)) (byName[v.name] = byName[v.name] || []).push(bc);
+    for (const bcs of Object.values(byName)) {
+      if (bcs.length < 2) continue;
+      for (const bc of bcs) { const size = (overrides[bc].attributes || {})["Συσκευασία"]; if (size && !overrides[bc].name.toLowerCase().includes(String(size).toLowerCase())) overrides[bc].name += ` ${size}`; }
+    }
+  }
   const banner = `// Auto-generated από το scripts/match-${BRAND}.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.\n`
     + `// Πηγή: nivea.gr (js/${BRAND}-site.json). Διορθώσεις match → js/${BRAND}-manual-matches.json.\n`
     + `// matchType: manual | exact (GTIN) | high | review (score ${MIN_SCORE}-${HIGH_SCORE}, 'Match?')\n`

@@ -188,10 +188,21 @@ export function extractBeiersdorfV2Details(html, url) {
   d.variants = d.gtin && /^\d+$/.test(d.gtin) ? [{ ean: d.gtin, size: d.size || null }] : [];
   d.sizes = d.size ? [d.size] : [];
 
-  // Εικόνες (product-stage): πρώτο srcSet κάθε slide, χωρίς παραμέτρους
+  // Εικόνες: το CDN (assets.beiersdorf.com) θέλει το hash στο query (χωρίς αυτό 404). JSON-LD image + mw=1180 = πλήρες
+  // μέγεθος· από το product-stage κρατάμε, ανά αρχείο, την έκδοση με το μεγαλύτερο mw (κάθε mw έχει δικό του hash).
+  const withMw = (u, mw) => { const x = String(u || "").replace(/&amp;/g, "&"); return /[?&]mw=/.test(x) ? x : x + (x.includes("?") ? "&" : "?") + "mw=" + mw; };
+  if (prod.image) d.images.push(withMw(String(prod.image), 1180));
   const stage = block("product-stage") || "";
-  for (const m of stage.matchAll(/(?:srcSet|src)="([^"]+)"/gi)) { const u = baseImg(m[1]); if (/assets\.beiersdorf\.com|img\.nivea\.com/i.test(u) && !d.images.includes(u)) d.images.push(u); }
-  if (!d.images.length && prod.image) d.images.push(baseImg(String(prod.image)));
+  const best = new Map();   // base path → {mw, url}
+  for (const m of stage.matchAll(/(?:srcSet|src)="([^"]+)"/gi)) {
+    for (const part of m[1].split(",")) {
+      const u = part.trim().split(/\s+/)[0].replace(/&amp;/g, "&");
+      if (!/assets\.beiersdorf\.com|img\.nivea\.com/i.test(u)) continue;
+      const base = u.split("?")[0], mw = parseInt((u.match(/[?&]mw=(\d+)/) || [])[1] || "0");
+      if (!best.has(base) || best.get(base).mw < mw) best.set(base, { mw, url: u });
+    }
+  }
+  for (const { url: u } of best.values()) if (!d.images.some(x => x.split("?")[0] === u.split("?")[0])) d.images.push(u);
   d.imageLarge = d.images[0] || null;
 
   // Περιγραφή (σύντομη) + «Περισσότερες πληροφορίες» (πλήρης)
