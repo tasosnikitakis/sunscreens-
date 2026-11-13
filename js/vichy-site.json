@@ -44,7 +44,7 @@
         "Deodorant Clinical Control 96h Αποσμητικό Roll-On"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deodorant Clinical Control 96h Αποσμητικό Roll-On",
+      "fullTitle": "Deo Clinical Control 96h Αποσμητικό Roll-On",
       "line": "Deo",
       "gtin": "3337875804431",
       "eans": [
@@ -105,7 +105,7 @@
         "Déodorant 48h Αποσμητικό Σπρέι κατά των Σημαδιών"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 48h Αποσμητικό Σπρέι κατά των Σημαδιών",
+      "fullTitle": "Deo 48h Αποσμητικό Σπρέι κατά των Σημαδιών",
       "line": "Deo",
       "gtin": "3337871324582",
       "eans": [
@@ -167,7 +167,7 @@
         "Déodorant 48h Αποσμητικό Roll-On κατά των Σημαδιών"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 48h Αποσμητικό Roll-On κατά των Σημαδιών",
+      "fullTitle": "Deo 48h Αποσμητικό Roll-On κατά των Σημαδιών",
       "line": "Deo",
       "gtin": "3337871324599",
       "eans": [
@@ -235,7 +235,7 @@
         "Déodorant 48h Αποσμητικό Roll-On"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 48h Αποσμητικό Roll-On",
+      "fullTitle": "Deo 48h Αποσμητικό Roll-On",
       "line": "Deo",
       "gtin": "3337871320300",
       "eans": [
@@ -296,7 +296,7 @@
         "Déodorant 48h Αποσμητικό Σπρέι"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 48h Αποσμητικό Σπρέι",
+      "fullTitle": "Deo 48h Αποσμητικό Σπρέι",
       "line": "Deo",
       "gtin": "3337871310592",
       "eans": [
@@ -360,7 +360,7 @@
         "Déodorant 48h Αποσμητικό Roll-On για Ευαίσθητες Επιδερμίδες"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 48h Αποσμητικό Roll-On για Ευαίσθητες Επιδερμίδες",
+      "fullTitle": "Deo 48h Αποσμητικό Roll-On για Ευαίσθητες Επιδερμίδες",
       "line": "Deo",
       "gtin": "3337871320324",
       "eans": [
@@ -486,7 +486,7 @@
         "Déodorant 72H Invisible Resist Γυναικείο Αποσμητικό"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant 72H Invisible Resist Γυναικείο Αποσμητικό",
+      "fullTitle": "Deo 72H Invisible Resist Γυναικείο Αποσμητικό",
       "line": "Deo",
       "gtin": "3337875894265",
       "eans": [
@@ -616,7 +616,7 @@
         "Déodorant Mineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant Mineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου",
+      "fullTitle": "Deo Mineral 48h Αποσμητικό Roll-On χωρίς άλατα αλουμινίου",
       "line": "Deo",
       "gtin": "3337875553278",
       "eans": [
@@ -677,7 +677,7 @@
         "Déodorant Stress Resist 72h Αποσμητικό Roll-On"
       ],
       "category": "Αποσμητικά",
-      "fullTitle": "Deo Déodorant Stress Resist 72h Αποσμητικό Roll-On",
+      "fullTitle": "Deo Stress Resist 72h Αποσμητικό Roll-On",
       "line": "Deo",
       "gtin": "3337871324001",
       "eans": [
@@ -1530,22 +1530,22 @@
       "variants": [
         {
           "ean": "3337871332303",
-          "size": null,
+          "size": "Απόχρωση 25",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-25pack3337871332303-gr-728x820.png?rev=266cbff644f14e2389c264298a56b35b"
         },
         {
           "ean": "3337871332297",
-          "size": null,
+          "size": "Απόχρωση 15",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade15pack3337871332297-gr-728x820.png?rev=e65627527b3a43df8b61f16332678cfa"
         },
         {
           "ean": "3337871332310",
-          "size": null,
+          "size": "Απόχρωση 35",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-35pack3337871332310-gr-728x820.png?rev=1989f0e50fe74d2e8ac2bc9778b15df1"
         },
         {
           "ean": "3337871332327",
-          "size": null,
+          "size": "Απόχρωση 45",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/make-up/dermablend-3d-make-up-proswpou/vichydermablend3dcorrectionshade-45pack3337871332327-gr-728x820.png?rev=e71a1b49f18348cd8febff8ad6e2bfff"
         }
       ],
@@ -1612,22 +1612,22 @@
       "variants": [
         {
           "ean": "3337871332297",
-          "size": null,
+          "size": "15 Opal",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_15_opal.jpg?rev=5a77c2be56cc4df7a695f050c0e5a95b"
         },
         {
           "ean": "3337875563031",
-          "size": null,
+          "size": "25 Nude",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_25_nude.jpg?rev=2080094cc03f43c3bd6f6ba60448adb8"
         },
         {
           "ean": "3337875563048",
-          "size": null,
+          "size": "35 Sand",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_35_sand.jpg?rev=276cb89978f04f3b88660c8ffca14261"
         },
         {
           "ean": "3337875563055",
-          "size": null,
+          "size": "45 Gold",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/vichy_dermablend_fdt_poudre_compacte_45_gold.jpg?rev=e02c6a629fc0407d8455cfddee86ff25"
         }
       ],
@@ -1695,12 +1695,12 @@
       "variants": [
         {
           "ean": "3337871316594",
-          "size": null,
+          "size": "15 Opal",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316594_vichy_dermablend_fdt_fluid_15_opal.jpg?rev=6bbfe1839239420c95c62fcfb7e1ff84"
         },
         {
           "ean": "3337871316600",
-          "size": null,
+          "size": "25 Nude",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316600_vichy_dermablend_fdt_fluid_25_nude.jpg?rev=791f73c7e0124bda90467ba6e5510a9e"
         },
         {
@@ -1710,7 +1710,7 @@
         },
         {
           "ean": "3337871316617",
-          "size": null,
+          "size": "35 Sand",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/dermablend/3337871316617_vichy_dermablend_fdt_fluid_35_sand.jpg?rev=4fe1f2bd67b84298a236d747d692c40d"
         }
       ],
@@ -2297,7 +2297,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Vichy Homme",
+        "Σειρά": "Homme",
         "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αποσμητικά",
         "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο"
       },
@@ -2334,7 +2334,7 @@
       ],
       "category": "Ανδρική Περιποίηση › Αποσμητικά",
       "fullTitle": "Homme Ανδρικό Αποσμητικό κατά των Σημαδιών 48Η",
-      "line": "Vichy Homme",
+      "line": "Homme",
       "gtin": "3337875585750",
       "eans": [
         "3337875585750"
@@ -2431,7 +2431,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "150ml",
-        "Σειρά": "Vichy Homme",
+        "Σειρά": "Homme",
         "Κατηγορία vichy.gr": "Ανδρική Περιποίηση › Αφροί Ξυρίσματος",
         "Δερματολογικά": "Υποαλλεργικό · Δερματολογικά Ελεγμένο"
       },
@@ -2467,8 +2467,8 @@
         "Homme Gel Ξυρίσματος κατά των Ερεθισμών"
       ],
       "category": "Ανδρική Περιποίηση › Αφροί Ξυρίσματος",
-      "line": "Vichy Homme",
-      "fullTitle": "Vichy Homme Homme Gel Ξυρίσματος κατά των ερεθισμών προσώπου",
+      "line": "Homme",
+      "fullTitle": "Homme Gel Ξυρίσματος κατά των ερεθισμών προσώπου",
       "gtin": "3337871318895",
       "eans": [
         "3337871318895"
@@ -2497,7 +2497,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "200ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
         "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό"
       },
@@ -2534,8 +2534,8 @@
         "Purete Thermale Gel Καθαρισμού Προσώπου για Ντεμακιγιάζ"
       ],
       "category": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
-      "fullTitle": "Purete Thermale Gel Καθαρισμού Προσώπου για Ντεμακιγιάζ",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Gel Καθαρισμού Προσώπου για Ντεμακιγιάζ",
+      "line": "Pureté Thermale",
       "gtin": "3337875862097",
       "eans": [
         "3337875862097"
@@ -2564,7 +2564,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "400ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
         "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό"
       },
@@ -2602,8 +2602,8 @@
         "Purete Thermale Gel Καθαρισμού Προσώπου & Ματιών"
       ],
       "category": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
-      "fullTitle": "Purete Thermale Gel Καθαρισμού Προσώπου & Ματιών",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Gel Καθαρισμού Προσώπου & Ματιών",
+      "line": "Pureté Thermale",
       "gtin": "3337875862066",
       "eans": [
         "3337875862066"
@@ -2702,7 +2702,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "150ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου"
       },
       "tabs": {
@@ -2733,8 +2733,8 @@
         "Purete Thermale Αφρώδες Νερό Καθαρισμού Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
-      "fullTitle": "Purete Thermale Αφρώδες Νερό Καθαρισμού Προσώπου",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Αφρώδες Νερό Καθαρισμού Προσώπου",
+      "line": "Pureté Thermale",
       "gtin": "3337871320980",
       "eans": [
         "3337871320980"
@@ -2763,7 +2763,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "200ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου"
       },
       "tabs": {
@@ -2794,8 +2794,8 @@
         "Purete Thermale Τονωτική Λοσιόν Καθαρισμού Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › Καθαριστικά Προσώπου",
-      "fullTitle": "Purete Thermale Τονωτική Λοσιόν Καθαρισμού Προσώπου",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Τονωτική Λοσιόν Καθαρισμού Προσώπου",
+      "line": "Pureté Thermale",
       "gtin": "3337871330569",
       "eans": [
         "3337871330569"
@@ -2824,7 +2824,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "200ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ"
       },
       "tabs": {
@@ -2858,8 +2858,8 @@
         "Purete Thermale Micellar Water για Ευαίσθητη Επιδερμίδα"
       ],
       "category": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
-      "fullTitle": "Purete Thermale Micellar Water για Ευαίσθητη Επιδερμίδα",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Micellar Water για Ευαίσθητη Επιδερμίδα",
+      "line": "Pureté Thermale",
       "gtin": "3337875674942",
       "eans": [
         "3337875674942"
@@ -2923,7 +2923,7 @@
         "Purete Thermale Ντεμακιγιαζ Ματιών"
       ],
       "category": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
-      "fullTitle": "Pureté Thermale Purete Thermale Ντεμακιγιαζ Ματιών",
+      "fullTitle": "Pureté Thermale Ντεμακιγιαζ Ματιών",
       "line": "Pureté Thermale",
       "gtin": "3337875674423",
       "eans": [
@@ -2953,7 +2953,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "100ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
         "Δερματολογικά": "ΜΗ ΛΙΠΑΡΗ ΥΦΗ · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ"
       },
@@ -2989,8 +2989,8 @@
         "Purete Thermale Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ"
       ],
       "category": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
-      "fullTitle": "Purete Thermale Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Ντεμακιγιάζ Ματιών για Αδιάβροχο Μακιγιάζ",
+      "line": "Pureté Thermale",
       "gtin": "3337875674409",
       "eans": [
         "3337875674409"
@@ -3019,7 +3019,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "400ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
         "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Υποαλλεργικό"
       },
@@ -3053,8 +3053,8 @@
         "Purete Thermale Micellar Water 3 σε 1 για Ευαίσθητο Δέρμα"
       ],
       "category": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
-      "fullTitle": "Purete Thermale Micellar Water 3 σε 1 για Ευαίσθητο Δέρμα",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Micellar Water 3 σε 1 για Ευαίσθητο Δέρμα",
+      "line": "Pureté Thermale",
       "gtin": "3337875674928",
       "eans": [
         "3337875674928"
@@ -3083,7 +3083,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "200ml, 300ml",
-        "Σειρά": "Purete Thermale",
+        "Σειρά": "Pureté Thermale",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
         "Δερματολογικά": "Υποαλλεργικό · Χωρίς Paraben · Δοκιμασμένο υπό δερματολογικό έλεγχο"
       },
@@ -3126,8 +3126,8 @@
         "Purete Thermale Γαλάκτωμα Καθαρισμού Προσώπου 3 σε 1"
       ],
       "category": "Περιποίηση Δέρματος › Micellar Waters & Ντεμακιγιάζ",
-      "fullTitle": "Purete Thermale Γαλάκτωμα Καθαρισμού Προσώπου 3 σε 1",
-      "line": "Purete Thermale",
+      "fullTitle": "Pureté Thermale Γαλάκτωμα Καθαρισμού Προσώπου 3 σε 1",
+      "line": "Pureté Thermale",
       "gtin": "3337871319144",
       "eans": [
         "3337871319144",
@@ -3158,7 +3158,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες Νύχτας"
       },
       "tabs": {
@@ -3193,8 +3193,8 @@
         "Mineral 89 Moisture Recovery Ενυδατική Κρέμα Νύχτας"
       ],
       "category": "Περιποίηση Δέρματος › Κρέμες Νύχτας",
-      "fullTitle": "Mineral 89 Moisture Recovery Ενυδατική Κρέμα Νύχτας",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 Moisture Recovery Ενυδατική Κρέμα Νύχτας",
+      "line": "Minéral 89",
       "gtin": "3337875916998",
       "eans": [
         "3337875916998"
@@ -4272,17 +4272,17 @@
       "variants": [
         {
           "ean": "3337871321543",
-          "size": null,
+          "size": "Απόχρωση 15",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_15.jpg?rev=d0f78569c0884166a71f6fc9196e73ee"
         },
         {
           "ean": "3337871321567",
-          "size": null,
+          "size": "Απόχρωση 25",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_25.jpg?rev=9b94ef68383341db88d32cc1df60a77d"
         },
         {
           "ean": "3337871321581",
-          "size": null,
+          "size": "Απόχρωση 45",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/liftactiv/vic_102_vichy_liftactiv_anti-wrinkle-foundation_45.jpg?rev=65c0fbaf38e14e81a786a918daa70303"
         }
       ],
@@ -4431,11 +4431,6 @@
         {
           "ean": "3337875945851",
           "size": "50ml"
-        },
-        {
-          "ean": "03337875945851",
-          "size": null,
-          "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/skincare/collagel/gr/vichyproductskincareliftactivecollagenspecialist16collagel3337875945851atfmrhi-gr-728x820.png?rev=138e6597a2a4472890486083837a479a"
         }
       ],
       "title": "Liftactiv Collagen Specialist 16 Collagel Gel Προσώπου για Λάμψη",
@@ -4453,8 +4448,7 @@
       "line": "Liftactiv",
       "gtin": "3337875945851",
       "eans": [
-        "3337875945851",
-        "03337875945851"
+        "3337875945851"
       ],
       "sizes": [
         "50ml"
@@ -5033,7 +5027,7 @@
     "subtitle": "Ενισχύει τον επιδερμιδικό φραγμό.",
     "details": {
       "attributes": {
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές"
       },
       "tabs": {
@@ -5068,8 +5062,8 @@
         "Mineral 89 100H Ενυδατική Κρέμα με Πλούσια Υφή"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Mineral 89 100H Ενυδατική Κρέμα με Πλούσια Υφή",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 100H Ενυδατική Κρέμα με Πλούσια Υφή",
+      "line": "Minéral 89",
       "gtin": "3337875839501",
       "eans": [
         "3337875839501"
@@ -5095,7 +5089,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
         "Δερματολογικά": "Χωρίς άρωμα · Χωρίς Χρωστικές · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Δερματολογικά Ελεγμένο"
       },
@@ -5139,8 +5133,8 @@
         "Mineral 89 48H Moisture Matte Sorbet Ενυδατική Κρέμα Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Mineral 89 48H Moisture Matte Sorbet Ενυδατική Κρέμα Προσώπου",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 48H Moisture Matte Sorbet Ενυδατική Κρέμα Προσώπου",
+      "line": "Minéral 89",
       "gtin": "3337875894104",
       "eans": [
         "3337875894104"
@@ -5168,7 +5162,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές"
       },
       "tabs": {
@@ -5205,8 +5199,8 @@
         "Mineral 89 48H Moisture Matte Sorbet Tube Ενυδατική Κρέμα Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Mineral 89 48H Moisture Matte Sorbet Tube Ενυδατική Κρέμα Προσώπου",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 48H Moisture Matte Sorbet Tube Ενυδατική Κρέμα Προσώπου",
+      "line": "Minéral 89",
       "gtin": "3337875947541",
       "eans": [
         "3337875947541"
@@ -5235,7 +5229,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "40ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
         "Δερματολογικά": "ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ · Υποαλλεργικό · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Δοκιμασμένο υπό δερματολογικό έλεγχο"
       },
@@ -5278,8 +5272,8 @@
         "Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση με Ελαφριά Υφή"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση με Ελαφριά Υφή",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 72H Κρέμα Προσώπου για Ενυδάτωση με Ελαφριά Υφή",
+      "line": "Minéral 89",
       "gtin": "3337875934169",
       "eans": [
         "3337875934169"
@@ -5308,7 +5302,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
         "Δερματολογικά": "Χωρίς άρωμα · ΔΕΝ ΦΡΑΖΕΙ ΤΟΥΣ ΠΟΡΟΥΣ · ΕΛΕΓΜΕΝΟ ΓΙΑ ΑΛΛΕΡΓΙΕΣ · Υποαλλεργικό · ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΧΡΗΣΤΕΣ ΦΑΚΩΝ ΕΠΑΦΗΣ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
       },
@@ -5352,8 +5346,8 @@
         "Mineral 89 72H Moisture Boosting Fluid SPF50+ Ενυδατική Κρέμα"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Mineral 89 72H Moisture Boosting Fluid SPF50+ Ενυδατική Κρέμα",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 72H Moisture Boosting Fluid SPF50+ Ενυδατική Κρέμα",
+      "line": "Minéral 89",
       "gtin": "3337875895781",
       "eans": [
         "3337875895781"
@@ -5417,7 +5411,7 @@
         "Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση"
       ],
       "category": "Περιποίηση Δέρματος › ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ › Ενυδατικές",
-      "fullTitle": "Minéral 89 Mineral 89 72H Κρέμα Προσώπου για Ενυδάτωση",
+      "fullTitle": "Minéral 89 72H Κρέμα Προσώπου για Ενυδάτωση",
       "line": "Minéral 89",
       "gtin": "3337875831888",
       "eans": [
@@ -5819,11 +5813,6 @@
         {
           "ean": "3337875860222",
           "size": "50ml"
-        },
-        {
-          "ean": "03337875860222",
-          "size": null,
-          "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/neovadiol/neovadiol-krema-hmeras-gia-susfiksh-meiwsh-khlidwn-me-spf50/vichyproductneovadiolmagistraldayspf50cream50ml3337875860222atfpackshotfront-gr-728x820.png?rev=d552898e75a94355a69cf603bfa73551"
         }
       ],
       "title": "Neovadiol Κρέμα Ημέρας για Σύσφιξη & Μείωση Κηλίδων με SPF50",
@@ -5841,8 +5830,7 @@
       "line": "Neovadiol",
       "gtin": "3337875860222",
       "eans": [
-        "3337875860222",
-        "03337875860222"
+        "3337875860222"
       ],
       "sizes": [
         "50ml"
@@ -6146,7 +6134,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "15ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Ενυδατικές",
         "Δερματολογικά": "Υποαλλεργικό · Χωρίς άρωμα · Χωρίς αλκοόλ · Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες"
       },
@@ -6186,8 +6174,8 @@
         "Mineral 89 Ενυδατική Κρέμα Ματιών για Λαμπερό Βλέμμα"
       ],
       "category": "Περιποίηση Δέρματος › Κρέμες & Serum Ματιών › Ενυδατικές",
-      "fullTitle": "Mineral 89 Ενυδατική Κρέμα Ματιών για Λαμπερό Βλέμμα",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 Ενυδατική Κρέμα Ματιών για Λαμπερό Βλέμμα",
+      "line": "Minéral 89",
       "gtin": "3337875596763",
       "eans": [
         "3337875596763"
@@ -6714,7 +6702,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "30ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
         "Δερματολογικά": "Δερματολογικά ελεγμένο σε ευαίσθητες επιδερμίδες · Χωρίς άρωμα · Υποαλλεργικό"
       },
@@ -6752,8 +6740,8 @@
         "Mineral 89 Probiotic Fractions Booster Ανάπλασης & Επανόρθωσης"
       ],
       "category": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
-      "fullTitle": "Mineral 89 Probiotic Fractions Booster Ανάπλασης & Επανόρθωσης",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 Probiotic Fractions Booster Ανάπλασης & Επανόρθωσης",
+      "line": "Minéral 89",
       "gtin": "3337875762908",
       "eans": [
         "3337875762908"
@@ -6782,7 +6770,7 @@
     "details": {
       "attributes": {
         "Διαθέσιμα μεγέθη": "50ml",
-        "Σειρά": "Mineral 89",
+        "Σειρά": "Minéral 89",
         "Κατηγορία vichy.gr": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση"
       },
       "tabs": {
@@ -6815,8 +6803,8 @@
         "Mineral 89 Ενυδατικό Booster Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
-      "fullTitle": "Mineral 89 Ενυδατικό Booster Προσώπου",
-      "line": "Mineral 89",
+      "fullTitle": "Minéral 89 Ενυδατικό Booster Προσώπου",
+      "line": "Minéral 89",
       "gtin": "3337875543248",
       "eans": [
         "3337875543248"
@@ -6887,7 +6875,7 @@
         "Mineral 89 Refill Ενυδατικό Booster Προσώπου"
       ],
       "category": "Περιποίηση Δέρματος › Serum Προσώπου › Ενυδάτωση",
-      "fullTitle": "Minéral 89 Mineral 89 Refill Ενυδατικό Booster Προσώπου",
+      "fullTitle": "Minéral 89 Refill Ενυδατικό Booster Προσώπου",
       "line": "Minéral 89",
       "gtin": "3337875543248",
       "eans": [
@@ -7426,12 +7414,12 @@
       "variants": [
         {
           "ean": "3337875795265",
-          "size": null,
+          "size": "Light",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/vichycapital-soleiluvage-daily-pigment-light-spf-50pdp-briefmosaic-1.png?rev=48fbb949d9374340a1497e7ab727238a"
         },
         {
           "ean": "3337875915885",
-          "size": null,
+          "size": "Medium",
           "packshot": "https://www.vichy.gr/-/media/project/loreal/brand-sites/vchy/emea/gr/products/product-packshots---1/capital-soleil/capital-soleil-uv-age-daily-pigment-new/capital-soleil-uv-age-daily-pigment-medium/vichycapital-soleiluvage-daily-pigment-medium-spf-50pdp-briefmosaic-1.png?rev=11100e1c56324fe1b394f10644c5d4c6"
         }
       ],

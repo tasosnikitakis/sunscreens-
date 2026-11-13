@@ -37,6 +37,19 @@ function attrJson(html, name) {
 }
 const sizeNorm = s => oneLine(s).replace(/\s+/g, "").toLowerCase().replace(/^(\d+)ml$/, "$1ml");
 
+// Απόχρωση από το όνομα αρχείου του packshot: "…_15_opal.jpg" → "15 Opal", "…shade-25pack…" ή "…foundation_25.jpg" → "Απόχρωση 25",
+// "…pigment-light-spf…" → "Light"
+export function shadeFromFilename(u) {
+  const f = String(u || "").split("/").pop().split("?")[0];
+  let m = f.match(/[_-](\d{2,3})[_-]([a-z]+)(?:[_-](?:gr|el|fr|en))?\.(?:jpe?g|png|webp)$/i);
+  if (m) return `${m[1]} ${m[2][0].toUpperCase()}${m[2].slice(1).toLowerCase()}`;
+  m = f.match(/shade-?(\d{2,3})/i) || f.match(/[_-](\d{2,3})\.(?:jpe?g|png|webp)$/i);
+  if (m) return `Απόχρωση ${m[1]}`;
+  m = f.match(/[_-](light|medium|dark|fair|deep)[_-]/i);
+  if (m) return m[1][0].toUpperCase() + m[1].slice(1).toLowerCase();
+  return null;
+}
+
 export function extractVichyDetails(html, url) {
   const host = (() => { try { return new URL(url).host; } catch { return "www.vichy.gr"; } })();
   const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [] };
@@ -125,6 +138,9 @@ export function extractVichyDetails(html, url) {
     const big = first.find(x => String(x.width) === "1073") || first[0];
     if (big && big.url) { const u = abs(host, cleanImg(unesc(big.url))); const v = d.variants.find(x => x.ean === ean); if (v) v.packshot = u; if (u && !d.images.includes(u)) d.images.push(u); }
   }
+  // Αποχρώσεις μακιγιάζ χωρίς επιλογέα (Dermablend, Flexiteint): η απόχρωση μόνο στο όνομα αρχείου του packshot
+  // (…_poudre_compacte_15_opal.jpg → «15 Opal»)
+  for (const v of d.variants) if (!v.size && v.packshot) v.size = shadeFromFilename(v.packshot);
   if (!d.images.length && prod.image) d.images.push(abs(host, cleanImg(String(prod.image))));
   d.imageLarge = (cur && cur.packshot) || d.images[0] || null;
 
