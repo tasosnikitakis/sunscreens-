@@ -52,7 +52,7 @@ export function extractVichyDetails(html, url) {
     const before = html.slice(Math.max(0, h1m.index - 800), h1m.index).replace(/<script[\s\S]*?<\/script>/g, "");
     const texts = [...before.matchAll(/>([^<>]{2,60})</g)].map(m => oneLine(m[1])).filter(t => t && !/^\s*$/.test(t));
     const cand = texts.length ? texts[texts.length - 1] : "";
-    if (cand && cand.length <= 40 && !/^(Αρχική|Προϊόντα|Selected)/i.test(cand)) d.line = cand;
+    if (cand && cand.length <= 40 && !/^(Αρχική|Προϊόντα|Selected|ΝΕΟ|NEW|Νέο|Best ?seller)/i.test(cand)) d.line = cand;
     const after = html.slice(h1m.index + h1m[0].length, h1m.index + h1m[0].length + 1200).replace(/<script[\s\S]*?<\/script>/g, "").replace(/<svg[\s\S]*?<\/svg>/g, "");
     const sub = (after.match(/>([^<>]{6,200})</) || [])[1];
     if (sub && !/rating|κριτικ|αξιολογ/i.test(sub)) d.subtitle = oneLine(sub);
@@ -66,6 +66,13 @@ export function extractVichyDetails(html, url) {
   // Σειρά: ό,τι προηγείται του ονόματος του JSON-LD στον πλήρη τίτλο («Dercos» + «Aminexil Clinical 5 …»)
   const ldName = oneLine(prod.name || "");
   if (ldName && d.fullTitle && d.fullTitle.toLowerCase().endsWith(ldName.toLowerCase()) && d.fullTitle.length > ldName.length) d.line = d.fullTitle.slice(0, d.fullTitle.length - ldName.length).trim() || d.line;
+  // Σειρά από το slug του URL όταν δεν προκύπτει αλλιώς (dercos-aminexil-… → Dercos)
+  const LINES = { "dercos": "Dercos", "capital-soleil": "Capital Soleil", "ideal-soleil": "Idéal Soleil", "liftactiv": "Liftactiv", "mineral-89": "Minéral 89", "neovadiol": "Neovadiol", "normaderm": "Normaderm", "aqualia": "Aqualia Thermal", "dermablend": "Dermablend", "homme": "Vichy Homme", "deo": "Deo", "purete-thermale": "Pureté Thermale", "slow-age": "Slow Âge" };
+  const slugL = (String(url).split("/").pop() || "").toLowerCase();
+  const slugLine = Object.keys(LINES).find(k => slugL.startsWith(k + "-"));
+  if ((!d.line || /^(ΝΕΟ|NEW|D[ée]odorant|Deodorant)$/i.test(d.line)) && slugLine) d.line = LINES[slugLine];
+  if (d.line && /^D[ée]odorant$/i.test(d.line)) d.line = "Deo";
+  if (d.fullTitle && d.line && !d.fullTitle.toLowerCase().includes(d.line.toLowerCase().replace(/^vichy\s+/, ""))) d.fullTitle = `${d.line} ${d.fullTitle}`;
   if (!d.fullTitle) d.fullTitle = d.line && d.title && !d.title.toLowerCase().startsWith(d.line.toLowerCase()) ? `${d.line} ${d.title}` : d.title;
   d.fullTitle = (d.fullTitle || "").replace(/\bSpf\b/g, "SPF").replace(/\bUv\b/g, "UV");
 
@@ -79,6 +86,16 @@ export function extractVichyDetails(html, url) {
       if (!d.variants.some(v => v.ean === ean)) d.variants.push({ ean, size: sz ? sizeNorm(sz) : null });
     }
   }
+  // Πολλαπλά μεγέθη/αποχρώσεις: <vch-package-size-selector options='[{description:"200 ml", ean}]' default-option="200 ml">
+  const opts = attrJson(html, "options");
+  if (Array.isArray(opts)) for (const o of opts) {
+    const ean = String(o.ean || "").replace(/\D/g, "").replace(/^0(?=\d{13}$)/, "");
+    if (!ean) continue;
+    const sz = o.description ? sizeNorm(o.description) : null;
+    const v = d.variants.find(x => x.ean === ean);
+    if (v) { if (!v.size && sz) v.size = sz; } else d.variants.push({ ean, size: sz });
+  }
+  const defOpt = (html.match(/\sdefault-option="([^"]+)"/) || [])[1];
   const media = attrJson(html, "variant-media-items") || {};
   for (const ean of Object.keys(media)) if (/^\d{8,14}$/.test(ean) && !d.variants.some(v => v.ean === ean)) d.variants.push({ ean, size: null });
   const ldG = String(prod.gtin13 || prod.sku || "").replace(/\D/g, "");
@@ -87,7 +104,8 @@ export function extractVichyDetails(html, url) {
   if (!d.gtin) { const slug = String(url).replace(/\/+$/, "").split("/").pop() || ""; if (slug) d.gtin = "VCH-" + slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80); }
   d.eans = [...new Set([d.gtin, ...d.variants.map(v => v.ean)].filter(Boolean))];
   d.sizes = [...new Set(d.variants.map(v => v.size).filter(Boolean))];
-  const cur = d.variants.find(v => v.ean === d.gtin) || d.variants[0];
+  const cur = d.variants.find(v => v.ean === d.gtin) || (defOpt && d.variants.find(v => v.size === sizeNorm(defOpt))) || d.variants[0];
+  if (cur && cur.ean && !dataEan && d.variants.length > 1) { d.gtin = cur.ean; d.eans = [...new Set([d.gtin, ...d.eans])]; }
   if (cur && cur.size) d.size = cur.size;
   if (d.sizes.length) d.attributes["Διαθέσιμα μεγέθη"] = d.sizes.join(", ");
 
