@@ -89,6 +89,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Liposan", imageDir: "liposan", sourceKey: "_liposanSource",
     fallbackDesc: "Προϊόν Liposan (Beiersdorf) — {name}",
     exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
+  },
+  nivea: {
+    key: "nivea", name: "Nivea", host: "nivea.gr", page: "nivea.html",
+    icon: "🔵", initials: "NV", accent: "#1e3a8a",
+    sheetName: "Nivea", imageDir: "nivea", sourceKey: "_niveaSource",
+    fallbackDesc: "Προϊόν Nivea (Beiersdorf) — {name}",
+    exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
   }
 };
 

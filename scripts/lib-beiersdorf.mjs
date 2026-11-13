@@ -150,5 +150,102 @@ export function extractBeiersdorfDetails(html, url) {
   return d;
 }
 
-// Σελίδα προϊόντος = product stage με headline και article id στο URL
-export const isBeiersdorfProductPage = (html, url) => /nx-product-stage__headline/.test(html) && (!url || /-\d{14,20}\.html/.test(url));
+// ---------------------------------------------------------------------------------------------
+// Νεότερο template Beiersdorf (nivea.gr, «agnostic» theme, React/Tailwind): δεδομένα σε JSON-LD @graph Product
+// { name, description, gtin, image, size, sku (article id), upc (αριθμός τεμαχίου), category "Α > Β > Γ" } και
+// σε blocks data-test="…": product-title, product-stage (εικόνες assets.beiersdorf.com), product-description,
+// product-variations (Μέγεθος), product-tags (Ατρίβουτο/Προβλήματα δέρματος/Τύπος επιδερμίδας…),
+// product-benefits-accordion-item (li), product-how-to-accordion-item (βήματα), product-ingredients-accordion-item
+// («Περιλαμβάνει» + INCI), product-more-information-accordion-item (rich-text + «Αριθμός τεμαχίου»).
+export const isBeiersdorfV2Page = html => /data-test="product-title"/.test(html) && /"@type"\s*:\s*"Product"/.test(html);
+
+export function extractBeiersdorfV2Details(html, url) {
+  const host = (() => { try { return new URL(url).host; } catch { return "www.nivea.gr"; } })();
+  const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
+  const nodes = [];
+  for (const n of jsonLd(html)) { if (Array.isArray(n["@graph"])) nodes.push(...n["@graph"]); else nodes.push(n); }
+  const prod = nodes.find(n => n["@type"] === "Product") || {};
+  const bc = nodes.find(n => n["@type"] === "BreadcrumbList");
+  const block = test => { const m = html.match(new RegExp(`<([a-z]+)[^>]*data-test="${test}"[^>]*>([\\s\\S]*?)(?=<[a-z]+[^>]*data-test="|$)`, "i")); return m ? m[2] : null; };
+  const blocks = test => [...html.matchAll(new RegExp(`<([a-z]+)[^>]*data-test="${test}"[^>]*>([\\s\\S]*?)(?=<[a-z]+[^>]*data-test="|$)`, "gi"))].map(m => m[2]);
+
+  const h1 = html.match(/<h1[^>]*data-test="product-title"[^>]*>([\s\S]*?)<\/h1>/i) || html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  d.title = h1 ? oneLine(h1[1]) : oneLine(prod.name || "");
+  d.fullTitle = d.title;
+  if (bc && Array.isArray(bc.itemListElement)) d.breadcrumbs = bc.itemListElement.map(x => oneLine(x.name || "")).filter(Boolean);
+  const cat = oneLine(prod.category || "").split(/\s*>\s*/).filter(Boolean);
+  if (cat.length) { d.line = cat[0]; d.category = [...new Set(cat)].join(" › "); d.subcategory = cat[cat.length - 1]; }
+
+  const art = articleFromUrl(url) || String(prod.sku || "");
+  d.gtin = String(prod.gtin || "").replace(/\D/g, "") || eanFromArticle(art) || null;
+  if (!d.gtin) { const slug = String(url).replace(/\/+$/, "").split("/").pop() || ""; if (slug) d.gtin = "BDF-" + slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80); }
+  if (art) d.articleId = art;
+  if (prod.upc) d.attributes["Αριθμός προϊόντος"] = oneLine(prod.upc);
+  d.eans = [d.gtin].filter(Boolean);
+  const sizeTxt = oneLine(prod.size || "") || oneLine((block("product-variations") || "").replace(/<[^>]+>/g, " ")).replace(/^Μέγεθος\s*/i, "");
+  if (/\d\s?(ml|g|gr|l)\b/i.test(sizeTxt)) d.size = sizeNorm(sizeTxt.match(/\d+(?:[.,]\d+)?\s?(?:ml|g|gr|l)\b/i)[0]);
+  else { const m = (d.title || "").match(/\b(\d{1,4}(?:[.,]\d+)?)\s?(ml|g|gr|l)\b/i); if (m) d.size = sizeNorm(m[0]); }
+  d.variants = d.gtin && /^\d+$/.test(d.gtin) ? [{ ean: d.gtin, size: d.size || null }] : [];
+  d.sizes = d.size ? [d.size] : [];
+
+  // Εικόνες (product-stage): πρώτο srcSet κάθε slide, χωρίς παραμέτρους
+  const stage = block("product-stage") || "";
+  for (const m of stage.matchAll(/(?:srcSet|src)="([^"]+)"/gi)) { const u = baseImg(m[1]); if (/assets\.beiersdorf\.com|img\.nivea\.com/i.test(u) && !d.images.includes(u)) d.images.push(u); }
+  if (!d.images.length && prod.image) d.images.push(baseImg(String(prod.image)));
+  d.imageLarge = d.images[0] || null;
+
+  // Περιγραφή (σύντομη) + «Περισσότερες πληροφορίες» (πλήρης)
+  const descB = block("product-description");
+  const shortDesc = descB ? text(stripSvg(descB).replace(/<button[\s\S]*$/i, "")) : oneLine(prod.description || "");
+  const more = block("product-more-information-accordion-item");
+  if (more) {
+    const rich = (more.match(/<div[^>]*rich-text[^>]*>([\s\S]*?)<\/div>/i) || [])[1];
+    if (rich) d.tabs["Περιγραφή"] = text(stripSvg(rich));
+    const num = (more.match(/Αριθμός τεμαχίου<\/div>\s*<div[^>]*>([^<]+)</i) || [])[1];
+    if (num && !d.attributes["Αριθμός προϊόντος"]) d.attributes["Αριθμός προϊόντος"] = oneLine(num);
+  }
+  if (!d.tabs["Περιγραφή"] && shortDesc) d.tabs["Περιγραφή"] = shortDesc;
+  // Οφέλη
+  const ben = block("product-benefits-accordion-item");
+  if (ben) for (const m of ben.matchAll(/<span[^>]*>([^<]{2,160})<\/span>/g)) { const t = oneLine(m[1]); if (t && !d.keyFacts.includes(t)) d.keyFacts.push(t); }
+  // Χρήση (βήματα)
+  const how = block("product-how-to-accordion-item");
+  if (how) {
+    const steps = [];
+    for (const m of how.matchAll(/<div[^>]*hta__step[^>]*>([\s\S]*?)<\/div>\s*<\/li>/gi)) {
+      const t = (m[1].match(/hta__step-title[^>]*>([\s\S]*?)<\/span>\s*<\/span>/i) || [])[1];
+      const title = t ? oneLine(t.replace(/<span[^>]*>\s*\d+\s*<\/span>/i, "")) : "";
+      const p = (m[1].match(/<p[^>]*>([\s\S]*?)<\/p>/i) || [])[1];
+      const body = p ? oneLine(p) : "";
+      if (title || body) steps.push(`Βήμα ${steps.length + 1}${title ? " – " + title : ""}: ${body}`.replace(/:\s*$/, ""));
+    }
+    if (!steps.length) { const t = text(stripSvg(how)); if (t) steps.push(t); }
+    d.tabs["Χρήση"] = steps.join("\n");
+  }
+  // Συστατικά
+  const ing = block("product-ingredients-accordion-item");
+  if (ing) {
+    // <div>Περιλαμβάνει</div><span>INCI…</span> (το κουμπί info πριν έχει class με "&gt;svg" που χαλάει το strip)
+    const m = ing.match(/Περιλαμβάνει<\/div>\s*<span[^>]*>([\s\S]*?)<\/span>/i);
+    const t = m ? oneLine(m[1]) : text(stripSvg(ing.replace(/<button[\s\S]*?<\/button>/gi, " "))).replace(/^Περιλαμβάνει\s*/i, "").trim();
+    if (t) { d.inci = t.replace(/\n/g, " "); d.tabs["Συστατικά"] = "INCI: " + d.inci; }
+  }
+  // Tags (Ατρίβουτο = χαρακτηριστικά/συστατικά, Προβλήματα δέρματος, Τύπος επιδερμίδας…)
+  for (const tb of blocks("product-tags")) {
+    const label = oneLine((tb.match(/<span[^>]*rich-text[^>]*>([\s\S]*?)<\/span>/i) || [])[1] || "");
+    const vals = [...tb.matchAll(/<span[^>]*rounded-full[^>]*>([\s\S]*?)<\/span>/gi)].map(m => oneLine(m[1])).filter(Boolean);
+    if (label && vals.length) d.attributes[label === "Ατρίβουτο" ? "Χαρακτηριστικά" : label] = vals.join(", ");
+  }
+  d.shortDescription = shortDesc || oneLine(prod.description || "") || null;
+  d.description = (d.tabs["Περιγραφή"] || shortDesc || "").replace(/\s+/g, " ").trim() || null;
+  d.subtitle = shortDesc ? shortDesc.split(/(?<=\.)\s/)[0].slice(0, 160) : null;
+  if (d.line) d.attributes["Σειρά"] = d.line;
+  if (d.category) d.attributes[`Κατηγορία ${host.replace(/^www\./, "")}`] = d.category;
+  if (d.keyFacts.length) d.attributes["Οφέλη"] = d.keyFacts.join(" · ");
+  return d;
+}
+
+// Σελίδα προϊόντος (παλιό template: product stage headline, νέο: data-test="product-title") με article id στο URL
+export const isBeiersdorfProductPage = (html, url) => (/nx-product-stage__headline/.test(html) || isBeiersdorfV2Page(html)) && (!url || /-\d{14,20}\.html/.test(url));
+// Αυτόματη επιλογή template
+export const extractBeiersdorfAny = (html, url) => isBeiersdorfV2Page(html) ? extractBeiersdorfV2Details(html, url) : extractBeiersdorfDetails(html, url);
