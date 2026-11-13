@@ -1444,48 +1444,6 @@ window.DUCRAY_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282770139082": {
-    "name": "ELUTION απαλό σαμπουάν εξισορρόπησης",
-    "subtitle": "Καταπραΰνει - Καθαρίζει απαλά",
-    "description": "• Το ELUTION Απαλό σαμπουάν εξισορρόπησης είναι κατάλληλο για καθημερινή χρήση εναλλάξ ή έπειτα από μια αγωγή κατά της πιτυρίδας.\n• Καταπραϋντικό και ενυδατικό* σύνθεση με PIROCTONE OLAMINE, ΓΛΥΚΙΝΗ και Βιταμίνη Β5, που παρατείνει την αποτελεσματικότητα της φροντίδας των μαλλιών με πιτυρίδα και περιορίζει τις υποτροπές\n• Ένα ήπιο σαμπουάν κατά της πιτυρίδας που χαρίζει στα μαλλιά λάμψη, ελαφρότητα και απαλότητα\n• Σέβεται τα βαμμένα μαλλιά",
-    "claims": [
-      "Καταπραΰνει",
-      "Καθαρίζει απαλά"
-    ],
-    "highlights": [
-      "Βιοδιασπώμενη σύνθεση**",
-      "Δερματολογικά ελεγχμένο"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Κατάλληλο για": "Μαλλιά - τριχωτό της κεφαλής",
-      "Τύπος μαλλιών": "Όλα τα είδη πιτυρίδας - Τριχωτό της κεφαλής με λιπαρή πιτυρίδα - Τριχωτό της κεφαλής με ξηρή πιτυρίδα",
-      "Ανάγκες": "Φροντίδα κατά της πιτυρίδας",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "400ml",
-      "Σειρά": "ELUTION"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Το ELUTION Απαλό σαμπουάν εξισορρόπησης περιορίζει τις υποτροπές έπειτα από αγωγές κατά της πιτυρίδας.",
-      "Οφέλη": "• ΔΙΑΤΗΡΕΙ την ισορροπία του μικροβιώματος του τριχωτού της κεφαλής\n• ΠΕΡΙΟΡΙΖΕΙ τις υποτροπές της πιτυρίδας χάρη στη συχνή χρήση\n• ΣΕΒΕΤΑΙ τα βαμμένα μαλλιά\nΑνακύκλωση",
-      "Οφέλη της υφής": "Κρεμώδης αφρός. Σέβεται τα βαμμένα μαλλιά.\nΒιοδιασπώμενη σύνθεση*",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Γλυκινικός ψευδάργυρος\nΠιροκτόνη ολαμίνη\nINCI: WATER (AQUA). SODIUM LAURETH SULFATE. GLYCINE. GLYCERIN. LAURYL BETAINE. ACRYLATES COPOLYMER. METHYL GLUCETH-20. PEG-7 GLYCERYL COCOATE. CITRIC ACID. FRAGRANCE (PARFUM). GLYCOL PALMITATE. GLYCOL STEARATE. HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE. PANTHENOL. PANTOLACTONE. PHENOXYETHANOL. PIROCTONE OLAMINE. SILICA. SODIUM CHLORIDE. SODIUM HYDROXIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE. ZINC GLYCINATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o/pf_square/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o/pf_square/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o/pf_square/u5wa3z31qn5sj5mjwejrzos58qbw6yuona5k75o?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/elution-apalo-sampoyan-exisorropisis-3282770139082-7044702c",
-    "source": "ducray.com",
-    "section": "elution",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3282770205664": {
     "name": "KERTYOL PSO καθημερινό ενυδατικό βάλσαμο",
     "subtitle": "Ενυδατώνει - Καταπραΰνει",
@@ -1577,141 +1535,6 @@ window.DUCRAY_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282770202830": {
-    "name": "DEXYANE MeD Palpebral - Θεραπεία εκζέματος βλεφάρων",
-    "subtitle": "Ιατροτεχνολογικό προϊόν",
-    "description": "• Το DEXYANE MeD Palpebral είναι ένα ιατροτεχνολογικό προϊόν* για την αντιμετώπιση του ατοπικού ή του εξ’ επαφής εκζέματος στα βλέφαρα\n• Η σύνθεσή του, ειδικά προσαρμοσμένη για να σέβεται την ευαίσθητη επιδερμίδα των βλεφάρων, λειτουργεί σαν ένα εξαιρετικά ενυδατικό επίθεμα\n• Καταπραΰνει άμεσα τον κνησμό¹ και μειώνει το αίσθημα καύσου**\n• Το DEXYANE MeD Palpebral αποκαθιστά τον δερματικό φραγμό και επανορθώνει την ξηρότητα\n• Μπορεί να χρησιμοποιηθεί ως μονοθεραπεία, σε συνδυασμό ή έπειτα από την εφαρμογή τοπικών κορτικοστεροειδών\n• Κλινικά αποδεδειγμένη αποτελεσματικότητα",
-    "claims": [
-      "Ιατροτεχνολογικό προϊόν"
-    ],
-    "highlights": [
-      "Αντιμετωπίζει και περιορίζει την επανεμφάνιση των βλαβών του εκζέματος",
-      "Αντιμετωπίζει και περιορίζει την επανεμφάνιση των βλαβών του εκζέματος. Δερματολογικά ελεγμένη."
-    ],
-    "attributes": {
-      "Μορφή": "Σωληνάριο με ρύγχος",
-      "Μπορεί να χρησιμοποιηθεί για": "Βρέφη - Παιδιά - Οικογένεια - Ενήλικες",
-      "Ηλικία": "Από 3 μηνών",
-      "Κατάλληλο για": "Βλέφαρα",
-      "Τύπος δέρματος": "Έκζεμα βλεφάρων",
-      "Ανάγκες": "Φροντίδα κατά του εκζέματος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "15ml",
-      "Σειρά": "DEXYANE MeD"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Η DEXYANE MeD κρέμα για τα βλέφαρα ανακουφίζει τις φλεγμονώδεις εκζεματικές βλάβες στα βλέφαρα.",
-      "Οφέλη": "• ΚΑΤΑΠΡΑΫΝΕΙ το αίσθημα κνησμού\n• ΑΝΑΚΟΥΦΙΖΕΙ άμεσα και αποσυμφορεί\n• ΠΕΡΙΟΡΙΖΕΙ την επανεμφάνιση των βλαβών που προκαλεί το έκζεμα",
-      "Οφέλη της υφής": "Εξαιρετικά ενυδατική υφή.",
-      "Άρωμα της σύνθεσης": "Χωρίς άρωμα",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά\nΚάθε πότε πρέπει να το εφαρμόζω;: Εφαρμόστε 1 με 2 φορές την ημέρα\nΠερισσότερες πληροφορίες: • Να μη χρησιμοποιείται εάν το σωληνάριο έχει υποστεί ζημιά • Σε περίπτωση ανεπιθύμητων ενεργειών από τη χρήση αυτού του προϊόντος, ζητήστε ιατρική συμβουλή • Κατάλληλο για χρήση σε δέρμα που έχει ευαισθητοποιηθεί από θεραπεία κατά του καρκίνου. • Εξωτερική χρήση • Μην τη χρησιμοποιείτε εάν είστε αλλεργικοί σε κάποιο από τα συστατικά • Εάν προκληθεί αλλεργική αντίδραση, αναζητήστε ιατρική βοήθεια • Λόγω έλλειψης δεδομένων, θα πρέπει να αποφεύγεται η χρήση από εγκυμονούσες ή θηλάζουσες γυναίκες • Βεβαιωθείτε ότι το σωληνάριο έχει σφραγιστεί καλά μετά τη χρήση",
-      "Συστατικά": "INCI: ΝΕΡΟ. ΓΛΥΚΕΡΙΝΗ. ΚΑΠΡΥΛΙΚΟ/ΚΑΠΡΙΚΟ ΤΡΙΓΛΥΚΕΡΙΔΙΟ. ΒΟΥΤΥΛΕΝΟΓΛΥΚΟΛΗ. ΠΟΛΥΣΟΡΒΙΚΟ 60. ΒΟΥΤΥΡΟΣΠΕΡΜΟ (ΒΟΥΤΥΡΟ ΚΑΡΙΤΕ). ΠΡΟΠΥΛΕΝΟΓΛΥΚΟΛΗ. ΜΕΛΙΣΣΟΚΕΡΙ (CERA ALBA). ΣΤΕΑΤΙΚΟ ΓΛΥΚΕΡΥΛΙΟ. ΣΤΕΑΤΙΚΟ ΠΕΓΚ-100. 10-ΥΔΡΟΞΥ-ΔΕΚΕΝΟΪΚΟ ΟΞΥ. ΚΑΠΡΥΛΥΛΟΓΛΥΚΟΛΗ. ΚΕΤΥΛΙΚΗ ΑΛΚΟΟΛΗ. ΔΙΝΑΤΡΙΟ ΑΛΑΣ ΤΟΥ EDTA. ΓΛΥΚΥΡΡΕΤΙΝΙΚΟ ΟΞΥ. ΠΟΛΥΑΚΡΥΛΙΚΟ-13. ΠΟΛΥΙΣΟΒΟΥΤΕΝΙΟ. ΠΟΛΥΣΟΡΒΙΚΟ 20. ΚΟΜΜΙ ΣΚΛΗΡΟΤΙΟΥ. ΙΣΟΣΤΕΑΤΙΚΗ ΣΟΡΒΙΤΑΝΗ. ΚΙΤΡΙΚΟ ΟΞΥ."
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge/pf_square/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge/pf_square/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge/pf_square/u5wa3z31qn5seiuz8pzbn7uo7qzph3ibr8dswge?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seiuz8pzbn7uo7qpyeobbdpzg9ya/pf_square/u5wa3z31qn5seiuz8pzbn7uo7qpyeobbdpzg9ya?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se67fdyjwe3onyafr1p93eocgqro/pf_square/u5wa3z31qn5se67fdyjwe3onyafr1p93eocgqro?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seiuz8pzbn7uo7xz43diywws4kqe/pf_square/u5wa3z31qn5seiuz8pzbn7uo7xz43diywws4kqe?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/dexyane-med-palpebral-old-3282770202830-7044702c",
-    "source": "ducray.com",
-    "section": "dexyane",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770073355": {
-    "name": "DEXYANE MED καταπραϋντική επανορθωτική κρέμα",
-    "subtitle": "Ιατροτεχνολογικό προϊόν",
-    "description": "• Η DEXYANE MeD Καταπραϋντική επανορθωτική κρέμα είναι ένα ιατροτεχνολογικό προϊόν* που αντιμετωπίζει και περιορίζει την υποτροπή των βλαβών από ατοπικό, εξ’ επαφής και χρόνιο έκζεμα\n• Το δέρμα προστατεύεται : η ευχάριστη υφή του σχηματίζει ένα ημι-αποφρακτικό φιλμ στην επιφάνεια",
-    "claims": [
-      "Ιατροτεχνολογικό προϊόν"
-    ],
-    "highlights": [
-      "Αντιμετωπίζει και περιορίζει την επανεμφάνιση των βλαβών του εκζέματος",
-      "Αντιμετωπίζει και περιορίζει την επανεμφάνιση των βλαβών του εκζέματος. Δερματολογικά ελεγμένη."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "100ml, 30ml",
-      "Μορφή": "Σωληνάριο",
-      "Μπορεί να χρησιμοποιηθεί για": "Μωρά - Παιδιά - Έφηβοι - Ενήλικες",
-      "Ηλικία": "Από 3 μηνών",
-      "Κατάλληλο για": "Σώμα - πρόσωπο - χέρια",
-      "Τύπος δέρματος": "Ξηρό δέρμα επιρρεπές σε ατοπικό έκζεμα - Εκζεμα",
-      "Ανάγκες": "Φροντίδα κατά του εκζέματος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "100ml",
-      "Σειρά": "DEXYANE MeD"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Η DEXYANE MeD Καταπραϋντική επανορθωτική κρέμα μπορεί να χρησιμοποιηθεί ως μονοθεραπεία, σε συνδυασμό με ή έπειτα από εφαρμογή τοπικών κορτικοστεροειδών για τη αντιμετώπιση και τον περιορισμό της επανεμφάνισης των βλαβών που προκαλεί το έκζεμα.",
-      "Οφέλη": "• Χρήση ως μονοθεραπεία, σε συνδυασμό με ή έπειτα από την εφαρμογή τοπικών κορτικοστεροειδών\n• Το δέρμα προστατεύεται· η ευχάριστη υφή του σχηματίζει ένα ημι-αποφρακτικό φιλμ στην επιφάνεια.",
-      "Οφέλη της υφής": "Ευχάριστη υφή που σχηματίζει ένα ημι-αποφρακτικό επιφανειακό φιλμ.",
-      "Άρωμα της σύνθεσης": "Χωρίς άρωμα",
-      "Χρήση": "Συχνότητα χρήσης: 1 με 2 φορές την ημέρα",
-      "Συστατικά": "INCI: WATER (AQUA). GLYCERIN. CAPRYLIC/CAPRIC TRIGLYCERIDE. BUTYLENE GLYCOL. POLYSORBATE 60. GLYCERYL STEARATE. BUTYROSPERMUM PARKII (SHEA) BUTTER (BUTYROSPERMUM PARKII BUTTER). PROPYLENE GLYCOL. BEESWAX (CERA ALBA). PEG-100 STEARATE. 10-HYDROXYDECENOIC ACID. CAPRYLYL GLYCOL. CETYL ALCOHOL. CITRIC ACID. DISODIUM EDTA. GLYCYRRHETINIC ACID. GUANIDINE CARBONATE. POLYACRYLATE-13. POLYISOBUTENE. POLYSORBATE 20. SCLEROTIUM GUM. SORBITAN ISOSTEARATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge/pf_square/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge/pf_square/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge/pf_square/u5wa3z31qn5sjo3yco3apczftnzph3ibr8dswge?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjo3yco3apczftn9phkwz4qu384y/pf_square/u5wa3z31qn5sjo3yco3apczftn9phkwz4qu384y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se67fdyjwe3ony5y96p4oxfa67sa/pf_square/u5wa3z31qn5se67fdyjwe3ony5y96p4oxfa67sa?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/dexyane-med-kataprayntiki-epanorthotiki-krema-3282770073355-7044702c",
-    "source": "ducray.com",
-    "section": "dexyane",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770148299": {
-    "name": "EXTRA-GENTLE σαμπουάν για όλη την οικογένεια",
-    "subtitle": "Ενισχύει τη λάμψη - Καθαρίζει απαλά",
-    "description": "• Το EXTRA-DOUX Δερμο-προστατευτικό σαμπουάν προσφέρει ήπιο καθαρισμό στα μαλλιά όλης της οικογένειας χάρη στην υψηλής ανοχής βιοδιασπώμενη* σύνθεσή του\n• Σέβεται την ισορροπία του τριχωτού της κεφαλής και χαρίζει ενυδάτωση, λάμψη και ελαστικότητα στα μαλλιά\n• Πολύ ευχάριστο για καθημερινή χρήση, δεν τσούζει στα μάτια\n• Η σύνθεση χωρίς χρωστικές και σιλικόνη αποτελείται από 11 μόνο συστατικά, το 91% των οποίων είναι φυσικής προέλευσης\n• Διατίθεται σε 100% ανακυκλωμένο και ανακυκλώσιμο μπουκάλι PET",
-    "claims": [
-      "Ενισχύει τη λάμψη",
-      "Καθαρίζει απαλά"
-    ],
-    "highlights": [
-      "Μίνιμαλ σύνθεση υψηλής ανοχής",
-      "Δερματολογικά, οφθαλμολογικά και παιδιατρικά ελεγμένο"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο με αντλία",
-      "Μπορεί να χρησιμοποιηθεί για": "Μωρά - Παιδιά - Οικογένεια - Έφηβοι - Ενήλικες",
-      "Ηλικία": "Από 1 μηνών",
-      "Κατάλληλο για": "Μαλλιά - τριχωτό της κεφαλής",
-      "Τύπος μαλλιών": "Κανονικά μαλλιά - Όλοι οι τύποι μαλλιών - Λεπτά μαλλιά",
-      "Ανάγκες": "Συχνή χρήση - Ενυδάτωση - Λάμψη",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "EXTRA-GENTLE"
-    },
-    "sections": {
-      "Οφέλη": "• ΚΑΘΑΡΙΖΕΙ ΑΠΑΛΑ τα μαλλιά όλης της οικογένειας (βρέφη, παιδιά και ενήλικες)\n• ΣΕΒΕΤΑΙ την ισορροπία του τριχωτού της κεφαλής και των μαλλιών\n• ΠΡΟΣΦΕΡΕΙ μια απλή σύνθεση με 91% φυσικά συστατικά\nΑνακύκλωση",
-      "Οφέλη της υφής": "Κρεμώδης, απαλός και διακριτικός αφρός",
-      "Άρωμα της σύνθεσης": "Δροσερό και φρουτώδες άρωμα\nΒιοδιασπώμενη σύνθεση*",
-      "Χρήση": "Συχνότητα χρήσης: Συχνή χρήση",
-      "Συστατικά": "INCI: WATER (AQUA). SODIUM LAURETH SULFATE. SODIUM CHLORIDE. COCAMIDOPROPYL BETAINE. COCO-GLUCOSIDE. CITRIC ACID. FRAGRANCE (PARFUM). GLYCERYL OLEATE. HYDROGENATED VEGETABLE GLYCERIDES CITRATE. SODIUM BENZOATE. TOCOPHEROL 91% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge/pf_square/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge/pf_square/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge/pf_square/u5wa3z31qn5sjc8ib86bz4bhi6zph3ibr8dswge?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj734hruumjryipc64pcktk99zuy/pf_square/u5wa3z31qn5sj734hruumjryipc64pcktk99zuy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjnocxpm8g66xeqx8ui1nu64ngje/pf_square/u5wa3z31qn5sjnocxpm8g66xeqx8ui1nu64ngje?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/extra-gentle-dermo-prostateytiko-sampoyan-3282770148299-7044702c",
-    "source": "ducray.com",
-    "section": "elution",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3282779367943": {
     "name": "MELASCREEN Depigmentant κατά των κηλίδων",
     "subtitle": "Χαρίζει ομοιόμορφο χρώμα στο δέρμα - Μειώνει τις χρωστικές κηλίδες",
@@ -1749,50 +1572,6 @@ window.DUCRAY_OVERRIDES = {
     "url": "https://www.ducray.com/gr-gr/p/melascreen-depigmentant-frontida-entatikis-agogis-3282779367943-7044702c",
     "source": "ducray.com",
     "section": "melascreen",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770038521": {
-    "name": "KERACNYL REPAIR βάλσαμο για ξηρά χείλη",
-    "subtitle": "Επανορθώνει - Προστατεύει - Θρέφει - Ενυδατώνει",
-    "description": "• Ενυδατική αγωγή για τα ξηρά χείλη που έχουν υποστεί βλάβη από τη λήψη από του στόματος αγωγών κατά της ακμής\n• Το HYDROXYDECIN® που περιέχεται στη σύνθεσή του ενισχύει τη φυσική ενυδάτωση του δέρματος και τον δερματικό φραγμό\n• Ένα βάλσαμο χειλιών που θρέφει, επανορθώνει και προστατεύει τα χείλη",
-    "claims": [
-      "Επανορθώνει",
-      "Προστατεύει",
-      "Θρέφει",
-      "Ενυδατώνει"
-    ],
-    "highlights": [
-      "• Αποτελεσματικό σε χείλη που έχουν ταλαιπωρηθεί από την ξηρότητα, το κρύο και τα φάρμακα κατά της ακμής\n• Επανορθώνει, ενυδατώνει και καταπραΰνει άμεσα\n• Χωρίς άρωμα",
-      "• Υφή βάλσαμου\n• Μη κολλώδες\n• Ανθεκτικό στο νερό\n• Εξαιρετικά θρεπτικό"
-    ],
-    "attributes": {
-      "Μορφή": "Σωληνάριο με ρύγχος",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Ένταση ξηρότητας": "Ξηρό δέρμα",
-      "Κατάλληλο για": "Χείλη",
-      "Ανάγκες": "Θρέψη - Προστασία - Επανόρθωση",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "15ml",
-      "Σειρά": "KERACNYL EΠΑΝΟΡΘΩΣΗ"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Η ξηρότητα των χειλιών μειώθηκε στο 88%* των ατόμων.",
-      "Οφέλη": "• ΕΠΑΝΟΡΘΩΝΕΙ από την 1η ώρα¹\n• ΚΑΤΑΠΡΑΫΝΕΙ ΑΜΕΣΑ και μειώνει το ξεφλούδισμα, το σφίξιμο και τη δυσφορία²\n• ΠΑΡΕΧΕΙ ΠΡΟΣΤΑΣΙΑ ΜΑΚΡΑΣ ΔΙΑΡΚΕΙΑΣ³\nΣυσκευασία από κυρίως ανακυκλώσιμα υλικά\n¹Μέτρηση της μη αισθητής απώλειας νερού 1 ώρα και έως 6 ώρες μετά από μία μόνο εφαρμογή σε 21 άτομα.\n²Κλινική αξιολόγηση σε 44 ασθενείς για 21 ημέρες.\n³Ερωτηματολόγιο σε 44 άτομα μετά από 21 ημέρες χρήσης.",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Οξική βιταμίνη Ε\nHydroxydecine®\nINCI: RICINUS COMMUNIS (CASTOR) SEED OIL (RICINUS COMMUNIS SEED OIL). BIS-DIGLYCERYL POLYACYLADIPATE-2. MINERAL OIL (PARAFFINUM LIQUIDUM). GLYCERIN. ISOPROPYL PALMITATE. HYDROGENATED VEGETABLE OIL. CETEARYL ETHYLHEXANOATE. HYDROGENATED POLYISOBUTENE. POLYETHYLENE. VP/HEXADECENE COPOLYMER. BEESWAX (CERA ALBA). HYDROGENATED CASTOR OIL. NYLON-12. 10-HYDROXYDECENOIC ACID. DISTEARDIMONIUM HECTORITE. GLYCERYL LINOLEATE. GLYCERYL LINOLENATE. GLYCERYL OLEATE. GLYCERYL PALMITATE. GLYCERYL STEARATE. GLYCINE SOJA (SOYBEAN) OIL (GLYCINE SOJA OIL). ISOPROPYL MYRISTATE. TOCOPHEROL. TOCOPHERYL ACETATE. WATER (AQUA)"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y/pf_square/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y/pf_square/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y/pf_square/u5wa3z31qn5sj7xusamdcnyw5ubpojewcmi116y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5senyoc1jedusshn9phkwz4qu384y/pf_square/u5wa3z31qn5senyoc1jedusshn9phkwz4qu384y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seqhw6i8geijoyrcmkyegqo3bqiy/pf_square/u5wa3z31qn5seqhw6i8geijoyrcmkyegqo3bqiy?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/keracnyl-repair-valsamo-heilion-3282770038521-7044702c",
-    "source": "ducray.com",
-    "section": "keracnyl",
     "matchType": "exact",
     "score": null,
     "review": false
@@ -1877,51 +1656,6 @@ window.DUCRAY_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282770075526": {
-    "name": "ANAPHASE Σαμπουάν κατά της τριχόπτωσης και της αραίωσης",
-    "subtitle": "Βοηθά στην ενδυνάμωση - Αποτρέπει την τριχόπτωση - Αναζωογονεί",
-    "description": "Το σαμπουάν κατά της τριχόπτωσης ANAPHASE είναι ένα συμπληρωματικό προϊόν υγιεινής για την αντιμετώπιση της τριχόπτωσης.\nΧρήση σε συνδυασμό: μεγαλύτερη αντιληπτή αποτελεσματικότητα κατά της τριχόπτωσης σε σχέση με την αγωγή μόνη της.\nΈνα σαμπουάν κατά της αραίωσης που συμβάλλει στη μείωση της χρόνιας τριχόπτωσης και προσθέτει όγκο στα μαλλιά.",
-    "claims": [
-      "Βοηθά στην ενδυνάμωση",
-      "Αποτρέπει την τριχόπτωση",
-      "Αναζωογονεί"
-    ],
-    "highlights": [
-      "Συμπληρώνει το αποτέλεσμα κατά της τριχόπτωσης και την ενδυναμωτική δράση των αγωγών",
-      "Ενισχύει και αναζωογονεί. Δερματολογικά ελεγμένο."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Σωληνάριο",
-      "Μπορεί να χρησιμοποιηθεί για": "'Εγκυες - Νέες μητέρες - Ενήλικες - Άτομα που υποβάλλονται σε αντικαρκινική θεραπεία ή βρίσκονται στην περίοδο μετα από αυτή",
-      "Κατάλληλο για": "Μαλλιά - τριχωτό της κεφαλής",
-      "Τύπος μαλλιών": "Αραίωση μαλλιών - Ξαφνική απώλεια μαλλιών - Προοδευτική τριχόπτωση - Απώλεια μαλλιών",
-      "Ανάγκες": "Απώλεια μαλλιών - Όγκος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "400ml",
-      "Σειρά": "ANAPHASE"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Το ANAPHASE Δυναμωτικό σαμπουάν κατά της τριχόπτωσης συμπληρώνει το αποτέλεσμα κατά της τριχόπτωσης και την ενδυναμωτική δράση των αγωγών.",
-      "Οφέλη": "• ΕΝΔΥΝΑΜΩΝΕΙ και αναζωογονεί την ίνα της τρίχας.\n• ΕΝΙΣΧΥΕΙ την αποτελεσματικότητα των αγωγών κατά της τριχόπτωσης**\n• ΠΡΟΣΔΙΔΕΙ όγκο και ελαστικότητα και επιβραδύνει την τριχόπτωση**\nΑνακύκλωση",
-      "Οφέλη της υφής": "Κρεμώδης υφή.",
-      "Άρωμα της σύνθεσης": "Άρωμα λουλουδιών πράσινων εσπεριδοειδών\nΒιοδιασπώμενη* σύνθεση",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά\nΠερισσότερες πληροφορίες: • Κατάλληλο για χρήση κατά τη διάρκεια της εγκυμοσύνης • Κατάλληλο για χρήση κατά τη διάρκεια του θηλασμού • Μπορεί να χρησιμοποιηθεί σε τριχωτό κεφαλής που έχει ευαισθητοποιηθεί από θεραπείες κατά του καρκίνου",
-      "Συστατικά": "Ρούσκος\nΒιοτίνη\nINCI: WATER (AQUA). SODIUM LAURETH SULFATE. BETAINE. GLYCERIN. SODIUM COCOAMPHOACETATE. ACRYLATES COPOLYMER. CETEARETH-60 MYRISTYL GLYCOL. PEG-40 HYDROGENATED CASTOR OIL. ALCOHOL. BIOTIN. CITRIC ACID. FRAGRANCE (PARFUM). GLYCERYL LAURATE. GLYCOL DISTEARATE. HYDROLYZED WHEAT PROTEIN. PANTHENOL. PANTOLACTONE. PHENOXYETHANOL. POLYQUATERNIUM-7. PYRIDOXINE HCL. RUSCUS ACULEATUS ROOT EXTRACT. SALICYLIC ACID. SODIUM BENZOATE. SODIUM CHLORIDE. SODIUM HYDROXIDE. TOCOPHERYL NICOTINATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy/pf_square/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy/pf_square/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy/pf_square/u5wa3z31qn5sefx9n5ka47xxrxhq15wppkfxyoy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5segrmgmtmud1e3xy96p4oxfa67sa/pf_square/u5wa3z31qn5segrmgmtmud1e3xy96p4oxfa67sa?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/anaphase-dynamotiko-sampoyan-kata-tis-trihoptosis-3282770075526-7044702c",
-    "source": "ducray.com",
-    "section": "anaphase",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3282770109290": {
     "name": "SABAL Σμηγματορρυθμιστικό σαμπουάν αγωγής",
     "subtitle": "Μειώνει το σμήγμα - Καθαρίζει - Μειώνει τη συχνότητα ανάμεσα στα λουσίματα",
@@ -1961,96 +1695,6 @@ window.DUCRAY_OVERRIDES = {
     "url": "https://www.ducray.com/gr-gr/p/sabal-smigmatorrythmistiko-sampoyan-agogis-3282770109290-7044702c",
     "source": "ducray.com",
     "section": "sabal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770148480": {
-    "name": "KERTYOL PSO συμπυκνωμένη κρέμα για πλάκες",
-    "subtitle": "Βοηθά στην εξάλειψη των ξηρών πλακών του δέρματος - Καταπραΰνει τον κνησμό - Καταπραΰνει από τον κνησμό",
-    "description": "• KERTYOL P.S.O. Η Συμπυκνωμένη κρέμα τοπικής χρήσης αποτελεί μια στοχευμένη αγωγή για την καταπράυνση του δέρματος και του τριχωτού της κεφαλής με τάση ψωρίασης\n• Η εξειδικευμένη σύνθεσή της, εμπλουτισμένη με ΠΟΛΙΔΟΚΑΝΟΛΗ, καταπραΰνει τον έντονο αίσθημα κνησμού* του τριχωτού της κεφαλής και βοηθά στην απομάκρυνση των πλακών\n• Αγωγή κατά των πλακών για τοπική εφαρμογή όταν εμφανίζονται πλάκες στο δέρμα και/ή στο τριχωτό της κεφαλής",
-    "claims": [
-      "Καταπραΰνει τον κνησμό",
-      "Καταπραΰνει από τον κνησμό"
-    ],
-    "highlights": [
-      "CELASTROL : Κατοχυρωμένη βιοτεχνολογική διαδικασία**",
-      "Δερματολογικά ελεγμένη. Μη κολλώδης.",
-      "Βοηθά στην εξάλειψη των ξηρών πλακών του δέρματος"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "100ml, 100ml",
-      "Μορφή": "Σωληνάριο με ρύγχος",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Ηλικία": "Από 12 ετών",
-      "Κατάλληλο για": "Σώμα - τριχωτό της κεφαλής",
-      "Τύπος δέρματος": "Δέρμα με τάση ψωρίασης",
-      "Τύπος μαλλιών": "Όλοι οι τύποι μαλλιών - Τριχωτό της κεφαλής με τάσεις ψωρίασης",
-      "Ανάγκες": "Φροντίδα κατά των ερεθισμών - Φροντίδα κατά της απολέπισης",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "100ml",
-      "Σειρά": "KERTYOL PSO"
-    },
-    "sections": {
-      "Πλεονέκτημα": "56%¹ λιγότερο αίσθημα κνησμού* σε οκτώ ημέρες από τη χρήση.",
-      "Οφέλη": "• ΚΑΤΑΠΡΑΫΝΕΙ το αίσθημα κνησμού* χάρη στην ΠΟΛΙΔΟΚΑΝΟΛΗ\n• ΒΟΗΘΑ στην απομάκρυνση των ξηρών πλακών : το ΓΛΥΚΟΛΙΚΟ ΟΞΥ βοηθά στην απομάκρυνση ορατών ερυθρών πλακών και των λεπιών (πλάκες που αποκολλώνται από το δέρμα)\n• Ειδική ΜΗ ΚΟΛΛΩΔΗΣ και μη λιπαρή σύνθεση",
-      "Οφέλη της υφής": "Ειδικά σχεδιασμένη να μην κολλάει και να μη λεκιάζει τα ρούχα.",
-      "Άρωμα της σύνθεσης": "Ανθόνερο (μήλο, αγγούρι, βιολέτα/κρίνος, φρέζια, γιασεμί)\n¹Κλινική αποτελεσματικότητα και αντιληπτή αποτελεσματικότητα μεταξύ 46 ατόμων με ελαφριά έως μέτρια ψωρίαση. Δύο εφαρμογές την ημέρα για ένα μήνα.",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά\nΚάθε πότε πρέπει να το εφαρμόζω;: Εντοπισμένες περιοχές του σώματος • Φάση εφόδου: Εφαρμόστε 1-2 φορές* την ημέρα, καθημερινά για 4 εβδομάδες • Φάση συντήρησης: Δύο φορές την εβδομάδα Τριχωτό κεφαλής • Φάση θεραπείας: Χρήση μία φορά την ημέρα, καθημερινά για 4 εβδομάδες • Φάση συντήρησης: Δύο φορές την εβδομάδα\nΠερισσότερες πληροφορίες: • Ειδικά σχεδιασμένο για να μην κολλάει ή λεκιάζει τα ρούχα • Μπορεί να χρησιμοποιηθεί σε συνδυασμό ή έπειτα από ιατρικές θεραπείες • Περιορίστε την έκθεση στον ήλιο κατά τη διάρκεια της χρήσης και χρησιμοποιείτε πάντα αντηλιακή προστασία",
-      "Συστατικά": "Πολιδοκανόλη\nVEDERINE™\nINCI: WATER (AQUA). ETHYLHEXYL PALMITATE. GLYCERIN. LACTAMIDE MEA. CETEARYL ALCOHOL. DIMETHICONE. GLYCOLIC ACID. GLYCERYL STEARATE. CETEARETH-33. HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER. ICTASOL. LAURETH-9. 1,2-HEXANEDIOL. CAPRYLYL GLYCOL. CICHORIUM INTYBUS (CHICORY) ROOT EXTRACT (CICHORIUM INTYBUS ROOT EXTRACT). DIMETHYL PHENETHYL ACETATE. FRAGRANCE (PARFUM). HYDROGENATED POLYISOBUTENE. PEG-7 TRIMETHYLOLPROPANE COCONUT ETHER. PENTYLENE GLYCOL. SODIUM HYDROXIDE. SORBITAN ISOSTEARATE. TRIPTERYGIUM WILFORDII CALLUS EXTRACT 72,4% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y/pf_square/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y/pf_square/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y/pf_square/u5wa3z31qn5se6qhf7r5uzighk9phkwz4qu384y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjrwcmi7jn38149hitc8msdhumpy/pf_square/u5wa3z31qn5sjrwcmi7jn38149hitc8msdhumpy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjnocxpm8g66xexg9ai4kco5buha/pf_square/u5wa3z31qn5sjnocxpm8g66xexg9ai4kco5buha?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/kertyol-p-s-o-sympyknomeni-frontida-topikis-hrisis-3282770148480-7044702c",
-    "source": "ducray.com",
-    "section": "kertyol",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770146028": {
-    "name": "KERACNYL αγωγή SOS κατά των ατελειών",
-    "subtitle": "Μειώνει τις ατέλειες - Στεγνώνει",
-    "description": "• S.O.S αγωγή για εντοπισμένες ατέλειες στο λιπαρό, με τάση ακμής δέρμα\n• Η καθαριστική του σύνθεση που αποτελείται από ΓΛΥΚΟΛΙΚΟ ΟΞΥ και ΣΑΛΙΚΥΛΙΚΟ ΟΞΥ βοηθά στην ξήρανση των ατελειών και στην εξαφάνισή τους\n• Το άκρο του ρύγχους εφαρμογής του εξασφαλίζει στοχευμένη εφαρμογή, με ακρίβεια",
-    "claims": [
-      "Μειώνει τις ατέλειες",
-      "Στεγνώνει"
-    ],
-    "highlights": [
-      "88%* : Αποτελεσματική κατά των εντοπισμένων ατελειών",
-      "Δερματολογικά ελεγμένο. Βοηθά στην εξάλειψη εντοπισμένων ατελειών."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "10ml, 10ml",
-      "Μορφή": "Σωληνάριο με ρύγχος",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Κατάλληλο για": "Πρόσωπο - λαιμός",
-      "Τύπος δέρματος": "Δέρμα με τάση ακμής - Δέρμα με ατέλειες",
-      "Ανάγκες": "Φροντίδα κατά των ατελειών",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "10ml",
-      "Σειρά": "KERACNYL"
-    },
-    "sections": {
-      "Οφέλη": "• ΒΟΗΘΑ στην εξάλειψη εντοπισμένων ατελειών\n• ΑΜΕΣΗ δράση\n• ΕΥΚΟΛΗ ΕΦΑΡΜΟΓΗ σε συγκεκριμένες, εντοπισμένες περιοχές",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά\nΠότε πρέπει να το εφαρμόζω;: 2 με 3 φορές την ημέρα.\nΠερισσότερες πληροφορίες: • Να μη χρησιμοποιείται σε ερεθισμένο δέρμα • Περιορίστε την έκθεση στον ήλιο κατά τη διάρκεια της χρήσης και χρησιμοποιείτε πάντα αντηλιακή προστασία • Εάν εμφανιστεί μυρμήγκιασμα, συνιστάται να εφαρμόζετε το προϊόν κάθε δεύτερη ημέρα",
-      "Συστατικά": "Γλυκολικό οξύ (KERACNYL)\nΣαλικυλικό οξύ (PSO)\nINCI: WATER (AQUA). ALCOHOL. HAMAMELIS VIRGINIANA (WITCH HAZEL) LEAF WATER (HAMAMELIS VIRGINIANA LEAF WATER). GLYCOLIC ACID. PROPYLENE GLYCOL. SALICYLIC ACID. SODIUM HYDROXIDE. HYDROXYETHYLCELLULOSE. AMMONIUM GLYCYRRHIZATE. LACTAMIDE MEA. ALUMINUM STARCH OCTENYLSUCCINATE. C13-14 ISOPARAFFIN. DIETHYL PHTHALATE. DISODIUM EDTA. LAURETH-7. METHYLPARABEN. PHENOXYETHANOL. POLYACRYLAMIDE. SODIUM CHLORIDE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy/pf_square/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy/pf_square/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy/pf_square/u5wa3z31qn5senyoc1jedusshdhitc8msdhumpy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj6zs39og4txc7z8oqxwu9tmn4po/pf_square/u5wa3z31qn5sj6zs39og4txc7z8oqxwu9tmn4po?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj373rgfejqntqecmkyegqo3bqiy/pf_square/u5wa3z31qn5sj373rgfejqntqecmkyegqo3bqiy?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/keracnyl-agogi-kata-ton-ateleion-3282770146028-7044702c",
-    "source": "ducray.com",
-    "section": "keracnyl",
     "matchType": "exact",
     "score": null,
     "review": false
@@ -2411,51 +2055,6 @@ window.DUCRAY_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282770392401": {
-    "name": "KELUAL DS ζελ καθαρισμού κατά των λεπιών",
-    "subtitle": "Μειώνει την ερυθρότητα - Αφαιρεί τις νιφάδες - Καταπραΰνει από τον κνησμό - Εξυγιαίνει - Καθαρίζει",
-    "description": "• Ο πατενταρισμένος* συνδυασμός δραστικών συστατικών CICLOPIROXOLAMINE και PIROCTONE OLAMINE ρυθμίζει την περίσσεια Malassezia που ευθύνεται για την ερυθρότητα, τα λέπια και τον κνησμό, καθώς και για τις κηλίδες μελάγχρωσης όπως η ποικιλόχρους πιτυρίαση\n• Το KELUAL DS ζελ καθαρισμού κατά των λεπιών καθαρίζει, μειώνει τα λέπια και την ερυθρότητα και καταπραΰνει τον κνησμό**\n• Αυτό το προϊόν είναι επίσης απόλυτα κατάλληλο για τον περιορισμό της ερυθρότητας, των λεπιών, του κνησμού και των κηλίδων μελάγχρωσης σε δέρμα που είναι επιρρεπές στην ποικιλόχρου πιτυρίαση",
-    "claims": [
-      "Μειώνει την ερυθρότητα",
-      "Αφαιρεί τις νιφάδες",
-      "Καταπραΰνει από τον κνησμό",
-      "Εξυγιαίνει",
-      "Καθαρίζει"
-    ],
-    "highlights": [
-      "Πατενταρισμένος συνδυασμός δραστικών συστατικών CPO/PO* (*κατατεθειμένη ευρεσιτεχνία)",
-      "Δερματολογικά ελεγμένο"
-    ],
-    "attributes": {
-      "Μορφή": "Σωληνάριο",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Κατάλληλο για": "Σώμα - πρόσωπο",
-      "Τύπος δέρματος": "Ερεθισμένο δέρμα",
-      "Ανάγκες": "Φροντίδα κατά των ερεθισμών - Φροντίδα κατά της ερυθρότητας - Φροντίδα κατά της απολέπισης - Φροντίδα κατά του κνησμού",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "KELUAL DS"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Με έναν μοναδικό πατενταρισμένο συνδυασμό δραστικών ουσιών/συστατικών και μια απαλή σύνθεση, το ζελ καθαρισμού κατά των λεπιών KELUAL DS αναγεννά και βοηθά αποτελεσματικά στην απομάκρυνση των λεπιών, της μείωσης της ερυθρότητας και του αισθήματος κνησμού",
-      "Οφέλη": "• ΜΕΙΩΝΕΙ τα λέπια και την ερυθρότητα\n• Καθαρίζει το δέρμα\n• Καταπραΰνει τον κνησμό από την πρώτη κιόλας εφαρμογή για πιο άνετο και λιγότερο ερεθισμένο δέρμα\nΑνακύκλωση",
-      "Άρωμα της σύνθεσης": "Ευχάριστα αρωματισμένο\nΒιοδιασπώμενη σύνθεση**",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
-      "Συστατικά": "Γλυκυρρητινικό οξύ\nΠιροκτόνη ολαμίνη σε συνδυασμό με CPO\nINCI: WATER (AQUA). DISODIUM LAURETH SULFOSUCCINATE. CETEARETH-60 MYRISTYL GLYCOL. LAURYL BETAINE. DECYL GLUCOSIDE. GLYCERYL LAURATE. 1,2-HEXANEDIOL. CAPRYLYL GLYCOL. CICLOPIROX OLAMINE. CITRIC ACID. GLYCYRRHETINIC ACID. PIROCTONE OLAMINE. SODIUM CHLORIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune/pf_square/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune/pf_square/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune/pf_square/u5wa3z31qn5sjzjj1e81eh5yu6w7gj556bedune?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5semxzbrje91fqnccmkyegqo3bqiy/pf_square/u5wa3z31qn5semxzbrje91fqnccmkyegqo3bqiy?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/kelual-ds-zel-katharismoy-kata-ton-lepion-3282770392401-7044702c",
-    "source": "ducray.com",
-    "section": "kelual",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3282770394252": {
     "name": "DEXYANE MED κρέμα για ατοπικό και χρόνιο έκζεμα",
     "subtitle": "Ιατροτεχνολογικό προϊόν",
@@ -2494,50 +2093,6 @@ window.DUCRAY_OVERRIDES = {
     "url": "https://www.ducray.com/gr-gr/p/dexyane-med-kataprayntiki-epanorthotiki-krema-3282770394252-7044702c",
     "source": "ducray.com",
     "section": "dexyane",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770396515": {
-    "name": "KELUAL SQUANORM Ενυδατικό Σαμπουάν αγωγής - Ξηρή πιτυρίδα",
-    "subtitle": "Εξαλείφει την πιτυρίδα από την πρώτη εφαρμογή - Ενυδατώνει - Περιορίζει τις υποτροπές",
-    "description": "Το ενυδατικό σαμπουάν θεραπείας KELUAL SQUANORM, ειδικά προσαρμοσμένο για την καταπολέμηση της ξηρής πιτυρίδας, αντιπροσωπεύει την πρώτη γενιά σαμπουάν υψηλής απόδοσης κατά της πιτυρίδας, εμπνευσμένο από τις ευεργετικές και παρατεταμένες επιδράσεις των προβιοτικών. Χάρη στην τεχνολογία PROBIOTIC-SCIENCE, εξαλείφει απαλά το 100% της ορατής πιτυρίδας από την 1η εφαρμογή*. ενώ αποτρέπει την επανεμφάνισή τους αποτελεσματικά για 2 μήνες**. Αποκτήστε ένα υγιές, ενυδατωμένο και άνετο τριχωτό της κεφαλής με 1 μόνο λούσιμο*.\nΕκτός από την αντιπιτυριδική του δράση, το σαμπουάν αγωγής χαρίζει στα μαλλιά ελαστικότητα, λάμψη και απαλότητα.",
-    "claims": [
-      "Εξαλείφει την πιτυρίδα από την πρώτη εφαρμογή",
-      "Ενυδατώνει",
-      "Περιορίζει τις υποτροπές"
-    ],
-    "highlights": [
-      "Ducray, #1 στην καταπολέμηση της πιτυρίδας στην Ευρώπη*",
-      "Εμπνευσμένο από τα προβιοτικά για μακροχρόνια αποτελεσματικότητα κατά της πιτυρίδας"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Ηλικία": "Από 12 ετών",
-      "Κατάλληλο για": "Μαλλιά - τριχωτό της κεφαλής",
-      "Τύπος μαλλιών": "Ξηρή πιτυρίδα - Τριχωτό της κεφαλής με ξηρή πιτυρίδα",
-      "Ανάγκες": "Φροντίδα κατά της πιτυρίδας",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "400ml",
-      "Σειρά": "KELUAL SQUANORM"
-    },
-    "sections": {
-      "Οφέλη": "• ΕΞΑΛΕΙΦΕΙ μόνιμα και κατά 100% την ξηρή πιτυρίδα*\n• ΕΝΥΔΑΤΩΝΕΙ και διατηρεί την ακεραιότητα του προστατευτικού φραγμού από το 1ο λούσιμο**\n• Ανακουφίζει από το αίσθημα κνησμού και το αίσθημα τραβήγματος\nΑνακύκλωση",
-      "Άρωμα της σύνθεσης": "Δροσερό, διακριτικό άρωμα λουλουδιών\nΦιάλη από 100% ανακυκλωμένο RPET",
-      "Χρήση": "Συχνότητα χρήσης: Κανονικό\nΠΕΡΙΟΔΟΣ ΧΡΗΣΗΣ: 3 φορές την εβδομάδα για 2 εβδομάδες",
-      "Συστατικά": "Γλυκερίνη\nΤεχνολογία PROBIOTIC-SCIENCE\nINCI: WATER (AQUA). GLYCERIN. DECYL GLUCOSIDE. DISODIUM COCOYL GLUTAMATE. SUCCINIC ACID. 1,2-HEXANEDIOL. CAPRYLYL GLYCOL. FRAGRANCE (PARFUM). HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE. PIROCTONE OLAMINE. SODIUM HYDROXIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE. XANTHAN GUM 98% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a/pf_square/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a/pf_square/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a/pf_square/u5wa3z31qn5sjmci86fehtewzbb5iktm337k63a?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se9sugr1bo1erxu4wzotpswydwbe/pf_square/u5wa3z31qn5se9sugr1bo1erxu4wzotpswydwbe?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/squanorm-enydatiko-sampoyan-agogis-xiri-pityrida-3282770396515-7044702c",
-    "source": "ducray.com",
-    "section": "kelual",
     "matchType": "exact",
     "score": null,
     "review": false
@@ -2823,51 +2378,6 @@ window.DUCRAY_OVERRIDES = {
     "url": "https://www.ducray.com/gr-gr/p/anaphase-dynamotiko-malaktiko-kata-toy-spasimatos-3282770398199-7044702c",
     "source": "ducray.com",
     "section": "anaphase",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770400786": {
-    "name": "KELUAL DS σαμπουάν κατά της έντονης πιτυρίδας",
-    "subtitle": "Εξαλείφει την έντονη πιτυρίδα - Ανακουφίζει από το αίσθημα καύσου - Ανακουφίζει από τον κνησμό",
-    "description": "Το σαμπουάν θεραπείας KELUAL DS INTENSIVE, ειδικά σχεδιασμένο για την έντονη πιτυρίδα, αποτελεί μια πρωτοποριακή εξέλιξη για την αντιμετώπιση του έντονου κνησμού και της αίσθησης καύσου. Εμπνευσμένο από τις τελευταίες επιστημονικές καινοτομίες, περιέχει το κατοχυρωμένο με δίπλωμα ευρεσιτεχνίας σύμπλεγμα OXYCALM* που προσφέρει ανακούφιση από τις εξάρσεις για 72 ώρες**. Αυτό το σαμπουάν παρέχει υψηλή, κλινικά αποδεδειγμένη αποτελεσματικότητα από την πρώτη χρήση και μακροχρόνια αποτελέσματα, συμβάλλοντας στη διατήρηση ενός υγιούς, καθαρού τριχωτού της κεφαλής για έως και 8 εβδομάδες***. Πολύ περισσότερο από ένα απλό σαμπουάν θεραπείας, έχει ήδη κερδίσει το 100% των καταναλωτών**** χάρη στη μη ερεθιστική του σύνθεση που σέβεται τη φυσική ισορροπία τόσο του τριχωτού της κεφαλής και όσο των ινών της τρίχας. Τα μαλλιά αποκτούν μια αίσθηση φρεσκάδας, όγκου και φωτεινότητας από τις ρίζες.",
-    "claims": [
-      "Εξαλείφει την έντονη πιτυρίδα",
-      "Ανακουφίζει από το αίσθημα καύσου",
-      "Ανακουφίζει από τον κνησμό"
-    ],
-    "highlights": [
-      "KELUAL DS, το νούμερο 1 προϊόν κατά της πιτυρίδας*",
-      "Μοναδική συνέργεια 2 κατοχυρωμένων με δίπλωμα ευρεσιτεχνίας* συμπλεγμάτων"
-    ],
-    "attributes": {
-      "Μορφή": "Φιαλίδιο",
-      "Μπορεί να χρησιμοποιηθεί για": "Έφηβοι - Ενήλικες",
-      "Κατάλληλο για": "Μαλλιά - τριχωτό της κεφαλής",
-      "Τύπος μαλλιών": "Έντονος και επαναλαμβανόμενος κνησμός - Λιπαρά μαλλιά - Σοβαρή πιτυρίδα - Τριχωτό της κεφαλής επιρρεπές σε κνησμό - Πιτυρίδα τριχωτό της κεφαλής - Τριχωτό της κεφαλής με τάση για κάψιμο",
-      "Ανάγκες": "Φροντίδα κατά της πιτυρίδας - Αντικνησμός - Κατά της κρίσης",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "100ml",
-      "Σειρά": "KELUAL DS INTENSIVE"
-    },
-    "sections": {
-      "Οφέλη": "• ΕΞΑΛΕΙΦΕΙ άμεσα το 100% της έντονης πιτυρίδας*\n• ΑΝΑΚΟΥΦΙΖΕΙ από τον έντονο και συχνό κνησμό",
-      "Άρωμα της σύνθεσης": "Δροσερό άρωμα λουλουδιών\nΠλήρως ανακυκλώσιμη συσκευασία\nΜελέτη κλινικής ανοχής και αποτελεσματικότητας που διεξήχθη σε 62 άτομα μετά από 2 εβδομάδες θεραπείας (εντατική φάση, 3 φορές την εβδομάδα), ακολουθούμενη από 8 εβδομάδες συντήρησης (μία φορά την εβδομάδα).",
-      "Χρήση": "Συχνότητα χρήσης: 3 φορές την εβδομάδα για 2 εβδομάδες\nΦάση συντήρησης: 1 φορά την εβδομάδα για τη διατήρηση των αποτελεσμάτων",
-      "Συστατικά": "OXYCALM\nCPO/PO\nINCI: WATER (AQUA). SODIUM LAURETH SULFATE. UNDECYLENAMIDOPROPYL BETAINE. DECYL GLUCOSIDE. CICLOPIROX OLAMINE. LAURETH-9. LACTAMIDE MEA. COCO-BETAINE. CETEARETH-60 MYRISTYL GLYCOL. CITRIC ACID. FRAGRANCE (PARFUM). GLYCYRRHETINIC ACID. MENTHA PIPERITA (PEPPERMINT) FLOWER/LEAF/STEM EXTRACT (MENTHA PIPERITA FLOWER/LEAF/STEM EXTRACT). PENTYLENE GLYCOL. PIROCTONE OLAMINE. POLYQUATERNIUM-10. TRISODIUM ETHYLENEDIAMINE DISUCCINATE 83% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia/pf_square/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia/pf_square/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia/pf_square/u5wa3z31qn5sji3zxrjgzab7daijs38bzmy9uia?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seif1b6knjtak86grz3ujtseo1de/pf_square/u5wa3z31qn5seif1b6knjtak86grz3ujtseo1de?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seincncuw4je9zadh8hint6q1hqe/pf_square/u5wa3z31qn5seincncuw4je9zadh8hint6q1hqe?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjyrs8sc6dbpaunp4qisuxx4mrpy/pf_square/u5wa3z31qn5sjyrs8sc6dbpaunp4qisuxx4mrpy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seif1b6knjtak894wzotpswydwbe/pf_square/u5wa3z31qn5seif1b6knjtak894wzotpswydwbe?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.ducray.com/gr-gr/p/kelual-ds-intensive-sampoyan-kata-tis-pityridas-3282770400786-7044702c",
-    "source": "ducray.com",
-    "section": "kelual",
     "matchType": "exact",
     "score": null,
     "review": false

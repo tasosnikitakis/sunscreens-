@@ -11,7 +11,7 @@
     "barcode": "5202888105166",
     "name": "FREZYDERM Anti - Age Shampoo 200ml",
     "status": "skip",
-    "bestScore": -0.2,
+    "bestScore": 3,
     "bestName": "AGE REPAIR SET",
     "bestUrl": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/age-repair-set-agwgh-antighranshs/"
   },
@@ -33,7 +33,7 @@
   },
   {
     "barcode": "5202888102882",
-    "name": "FREZYDERM AQUA CARE  VAGINAL CREAM 50ML",
+    "name": "FREZYDERM AQUA CARE VAGINAL CREAM 50ML",
     "status": "skip",
     "bestScore": 2.2,
     "bestName": "AQUA CARE GEL",
@@ -46,14 +46,6 @@
     "bestScore": 2.6,
     "bestName": "ANTI-THERMAL SPRING SEA WATER MIST",
     "bestUrl": "https://www.frezyderm.gr/adiliaka/sprei-nerou/sprei-nerou-gia-ton-ilio/"
-  },
-  {
-    "barcode": "5202888105142",
-    "name": "FREZYDERM Color Protect Shampoo 200ml",
-    "status": "skip",
-    "bestScore": -3.3,
-    "bestName": "SUN SCREEN COLOR VELVET FACE SPF 50+",
-    "bestUrl": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou-me-xroma/antiliako-me-xrwma-velvet-spf-50/"
   },
   {
     "barcode": "5202888105159",
@@ -80,14 +72,6 @@
     "bestUrl": "https://www.frezyderm.gr/peripoiisi-somatos/kremes-xeriwn/dermofilia-hand-cream-krema-xeriwn/"
   },
   {
-    "barcode": "5705675071168",
-    "name": "FREZYDERM Ecovag Balance Κολπικά Υπόθετα για Αποκατάσταση της Κολπικής Χλωρίδας 10τμχ",
-    "status": "skip",
-    "bestScore": -15.2,
-    "bestName": "PS.T. FLAKES BALANCE CREAM STEP 3",
-    "bestUrl": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/pswriash/pst-flakes-balance-eidikh-krema-gia-thn-pswriash/"
-  },
-  {
     "barcode": "5202888271175",
     "name": "FREZYDERM Facial Scrub 100ml",
     "status": "skip",
@@ -112,14 +96,6 @@
     "bestUrl": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/antiftheirika-gia-paidia/lice-rep-lotion-gia-pseires/"
   },
   {
-    "barcode": "5202888105111",
-    "name": "FREZYDERM Hair Balance Shampoo 200ml",
-    "status": "skip",
-    "bestScore": 4.7,
-    "bestName": "HAIR FORCE SHAMPOO MEN",
-    "bestUrl": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/"
-  },
-  {
     "barcode": "5202888105043",
     "name": "FREZYDERM Hair Force Mask 200ml",
     "status": "manual-skip",
@@ -136,28 +112,12 @@
     "bestUrl": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/"
   },
   {
-    "barcode": "5202888105197",
-    "name": "FREZYDERM Hair Repair Conditioner 200ml",
-    "status": "skip",
-    "bestScore": -2.2,
-    "bestName": "AGE REPAIR SET",
-    "bestUrl": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/age-repair-set-agwgh-antighranshs/"
-  },
-  {
     "barcode": "9999991010956",
     "name": "FREZYDERM Hair Repair Mask 200ml",
     "status": "skip",
     "bestScore": -2.2,
     "bestName": "AGE REPAIR SET",
     "bestUrl": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/age-repair-set-agwgh-antighranshs/"
-  },
-  {
-    "barcode": "5202888105180",
-    "name": "FREZYDERM Hair Repair Shampoo 200ml",
-    "status": "skip",
-    "bestScore": 4.7,
-    "bestName": "HAIR FORCE SHAMPOO MEN",
-    "bestUrl": "https://www.frezyderm.gr/peripoiisi-mallion/sampouan/sampouan-gia-trixoptwsh/hair-force-shampoo-men-sampouan-gia-thn-andrikh-trixoptwsh/"
   },
   {
     "barcode": "5202888261213",
@@ -185,7 +145,7 @@
   },
   {
     "barcode": "5202888222474",
-    "name": "FREZYDERM ICY  AFTER SUN  200ML",
+    "name": "FREZYDERM ICY AFTER SUN 200ML",
     "status": "manual-skip",
     "bestScore": 6.6,
     "bestName": "ACTIVE SUN SCREEN SENSITIVE FACE - BODY SPF 50",
@@ -225,7 +185,7 @@
   },
   {
     "barcode": "5202888261046",
-    "name": "FREZYDERM NASAL OINTMENT  15ML",
+    "name": "FREZYDERM NASAL OINTMENT 15ML",
     "status": "skip",
     "bestScore": 0.8,
     "bestName": "NIPPLE AID OINTMENT",
@@ -240,14 +200,6 @@
     "bestUrl": "https://www.frezyderm.gr/frontida-mwrou/brefika-kalluntika/baby-chamomile-bath-brefiko-kalluntiko/"
   },
   {
-    "barcode": "5202888009075",
-    "name": "FREZYDERM Organic Fennel 60gr",
-    "status": "skip",
-    "bestScore": 0.6,
-    "bestName": "ORGANIC COOKIES CACAO",
-    "bestUrl": "https://www.frezyderm.gr/diatrofi/viologika-biskota/organic-cookies-cacao/"
-  },
-  {
     "barcode": "5202888331596",
     "name": "FREZYDERM PRELACTIC OVULES CE 10OLUVES",
     "status": "skip",
@@ -256,28 +208,12 @@
     "bestUrl": "https://www.frezyderm.gr/frontida-mwrou/brefika-antiliaka/baby-sun-care-spf-25-brefiko-antiliako/"
   },
   {
-    "barcode": "5202888105500",
-    "name": "FREZYDERM Prodilac Ease 10τμχ",
-    "status": "skip",
-    "bestScore": -0.7,
-    "bestName": "PRODILAC START",
-    "bestUrl": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-start-symplhrwma-diatrofhs-gia-mwra/"
-  },
-  {
-    "barcode": "5202888320101",
-    "name": "FREZYDERM PRODILAC EASE 30 STICKS",
-    "status": "skip",
-    "bestScore": -3,
-    "bestName": "PRODILAC START",
-    "bestUrl": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-start-symplhrwma-diatrofhs-gia-mwra/"
-  },
-  {
     "barcode": "5202888320057",
-    "name": "FREZYDERM PRODILAC ORAL (30 ΜΑΣΩΜΕΝΑ ΔΙΣΚΙΑ)-  (Φ.Π.Α 6%)",
+    "name": "FREZYDERM PRODILAC ORAL (30 ΜΑΣΩΜΕΝΑ ΔΙΣΚΙΑ)- (Φ.Π.Α 6%)",
     "status": "skip",
-    "bestScore": -3.8,
-    "bestName": "PRODILAC START",
-    "bestUrl": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-start-symplhrwma-diatrofhs-gia-mwra/"
+    "bestScore": 0.7,
+    "bestName": "PRODILAC KIDS",
+    "bestUrl": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-thn-enterikh-xlwrida/prodilac-kids-symplhrwma-diatrofhs-gia-paidia/"
   },
   {
     "barcode": "5202888320064",
@@ -289,7 +225,7 @@
   },
   {
     "barcode": "5202888263019",
-    "name": "FREZYDERM PS T Keratolytic Cream Step 2  200ml",
+    "name": "FREZYDERM PS T Keratolytic Cream Step 2 200ml",
     "status": "manual-skip",
     "bestScore": 11.5,
     "bestName": "PS.T. SECOND SKIN CREAM STEP 4",
@@ -353,26 +289,10 @@
   },
   {
     "barcode": "5202888222290",
-    "name": "FREZYDERM SUN SCREEN SECOND SKIN FACE 50+  50ml",
+    "name": "FREZYDERM SUN SCREEN SECOND SKIN FACE 50+ 50ml",
     "status": "skip",
     "bestScore": 5.1,
     "bestName": "SUN SCREEN VELVET FACE SPF 50+",
     "bestUrl": "https://www.frezyderm.gr/adiliaka/adiliaka-prosopou/antiliako-prosopou-velvet-spf-50/"
-  },
-  {
-    "barcode": "5202888102103",
-    "name": "FREZYDERM Tripleffect Cream Gel 150ml",
-    "status": "manual-skip",
-    "bestScore": 6.7,
-    "bestName": "ABD REFORM SKIN TENSIONER CREAM GEL",
-    "bestUrl": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-susfikshs-gia-egkuous/abd-reform-skin-tensioner-cream-gel-krema-sisfiksis-somatos/"
-  },
-  {
-    "barcode": "5202888009068",
-    "name": "FREZYDERM Βιολογικό Χαμομήλι 30gr",
-    "status": "skip",
-    "bestScore": 5,
-    "bestName": "INTIM VAGINAL DOUCHE MONODOSE ΧΑΜΟΜΗΛΙ pH 4.5",
-    "bestUrl": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-xamomhli-ph-4-5-endokolpiko-katharistiko/"
   }
 ]

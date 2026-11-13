@@ -202,3 +202,22 @@ matches για άλλα μεγέθη του ίδιου προϊόντος (η σ
 την ίδια σελίδα. Σελίδες Shopify με όλες τις παραλλαγές σε τιμή 0 (δώρα,
 Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προστίθενται ως νέα προϊόντα,
 και οι κανόνες `js/<brand>-exclusions.json` ισχύουν και για τα προϊόντα του site.
+
+## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
+
+Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
+στήλες α/α, Barcode, Κωδικός είδους, Όνομα, Λιανική, Χονδρική). Το
+`build-brand-supplier.mjs --prices=Medica.tsv` τον εφαρμόζει σε ΟΛΑ τα προϊόντα του brand
+(και σε όσα ήρθαν μόνο από το site) με βάση το barcode ή τα variants/EAN σελίδας, υπερισχύει
+των τιμών του `--xlsx` της εταιρίας (νεότερος) και σημειώνει `priceSource`/`supplierCode`.
+Για sites χωρίς EAN (Apivita) το barcode του τιμοκαταλόγου έρχεται από το
+`js/<brand>-manual-matches.json` (barcode → url, αντιστοίχιση με το όνομα — scratch
+apivita-apply.mjs/apivita-pricematch.mjs). Παράδειγμα πλήρους pass:
+
+```bash
+P=--prices=Medica.tsv
+node scripts/build-brand-supplier.mjs --brand=korres --xlsx=Korres.tsv --with-site $P && node scripts/match-korres.mjs
+node scripts/build-brand-supplier.mjs --brand=apivita --with-site $P && node scripts/match-apivita.mjs
+node scripts/build-brand-supplier.mjs --brand=frezyderm --xlsx=Frezyderm.xlsx $P && node scripts/match-frezyderm.mjs
+node scripts/generate-catalog.mjs
+```

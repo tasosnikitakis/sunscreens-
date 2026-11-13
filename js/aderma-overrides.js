@@ -1955,52 +1955,6 @@ window.ADERMA_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282770141962": {
-    "name": "Επανορθωτική Εξυγιαντική CICA-κρέμα",
-    "subtitle": "Εξυγιαίνει - Επανορθώνει - Καθαρίζει - Καταπραΰνει",
-    "description": "Η DERMA DERMALIBOUR+ Επανορθωτική Eξυγιαντική CICA-Κρέμα χρησιμοποιείται για να καταπραΰνει το ερεθισμένο δέρμα της οικογένειάς σας, ακόμη και στο νεογέννητό σας. Η σύνθεση υψηλής ανοχής του είναι ιδανική για το ερεθισμένο δέρμα ενηλίκων, παιδιών και νεογέννητων, για χρήση στο πρόσωπο, το σώμα, τα βλέφαρα και τις εξωτερικές περιοχές.\nΚαταπραΰνει άμεσα, αρχίζει να επανορθώνει* 24 ώρες¹ μετά την πρώτη εφαρμογή και ανακουφίζει όλες τις περιοχές που κοκκινίζουν, προκαλούν κνησμό, τσίμπημα ή τράβηγμα, συμπεριλαμβανομένου του ερεθισμού γύρω από τη θηλή που προκαλείται από τον θηλασμό**.\nΗ 100% φυσική σύνθεσή του, με μόνο 14 βασικά συστατικά, συμπεριλαμβανομένου του καταπραϋντικού, αντι-ερεθιστικού εκχυλίσματος Νεαρών Βλαστών Βρώμης Rhealba® και ενός συμπλόκου χαλκού-ψευδαργύρου, περιορίζει τον κίνδυνο πολλαπλασιασμού των βακτηρίων.\nΗ ευχάριστη, μακράς διάρκειας και αόρατη υφή του κάνει εύκολη στην εφαρμογή και απορροφάται γρήγορα από το δέρμα. Δεν περιέχει ορυκτέλαιο ή άρωμα.\nΒρώμη Rhealba® που προέρχεται από βιολογική καλλιέργεια.",
-    "claims": [
-      "Εξυγιαίνει",
-      "Επανορθώνει",
-      "Καθαρίζει",
-      "Καταπραΰνει"
-    ],
-    "highlights": [
-      "Η 1η CICA-Κρέμα που επανορθώνει* το δέρμα μετά από 24 ώρες¹ και περιέχει 100% φυσικά συστατικά.",
-      "Ανθεκτικό στο νερό, μη φαγεσωρογόνο προϊόν χωρίς άρωμα και ορυκτέλαια."
-    ],
-    "attributes": {
-      "Μορφή": "Σωληνάριο",
-      "Μπορεί να χρησιμοποιηθεί για": "Μωρά - Παιδιά - Νέες μητέρες - Ενήλικες - Από τη γέννηση",
-      "Τμήμα για το Σώμα": "Σώμα - πρόσωπο - χέρια - ευαίσθητη περιοχή - βλέφαρα",
-      "Τύπος δέρματος": "Ερεθισμένο δέρμα",
-      "Ανάγκες": "Φροντίδα κατά των ερεθισμών",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "100ml",
-      "Σειρά": "DERMALIBOUR+"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Παρέχοντας επανορθωτική δράση μετά τις πρώτες 24 ώρες¹ και με 100% φυσικά συστατικά και καθαριστικές ιδιότητες, η κρέμα DERMALIBOUR + CICA καταπραΰνει τους ερεθισμούς σε όλη την οικογένεια.",
-      "Οφέλη": "• ΚΑΤΑΠΡΑΫΝΕΙ ΑΜΕΣΑ το ερεθισμένο δέρμα που παρουσιάζει ερυθρότητα, κνησμό, τσούξιμο ή αίσθημα τραβήγματος.\n• ΕΠΑΝΟΡΘΩΝΕΙ* το δέρμα όλης της οικογένειας στο πρόσωπο, το σώμα, τα βλέφαρα και τις εξωτερικές περιοχές από 24¹ ώρες μετά την εφαρμογή.\n• ΚΑΘΑΡΙΖΕΙ το ερεθισμένο, ταλαιπωρημένο και κατεστραμμένο δέρμα.",
-      "Οφέλη της υφής": "Απορροφάται γρήγορα.\nΑόρατο και μακράς διάρκειας.",
-      "Άρωμα της σύνθεσης": "Χωρίς άρωμα",
-      "Χρήση": "Συχνότητα χρήσης: 2 με 3 φορές την ημέρα\nΒήμα 1: Καθαρίστε το δέρμα προηγουμένως με το DERMALIBOUR+ αφρίζον καθαριστικό προσώπου CICA-Ζελ.\nΒήμα 2: Εφαρμόστε την DERMALIBOUR+ CICA-κρέμα πάνω στην ερεθισμένη περιοχή.",
-      "Συστατικά": "Εκχύλισμα Βλαστών Βρώμης Rhealba®\nΧαλκός/ψευδάργυρος\nINCI: WATER (AQUA). CAPRYLIC/CAPRIC TRIGLYCERIDE. GLYCERIN. HYDROGENATED VEGETABLE OIL. POLYGLYCERYL-2 DIPOLYHYDROXYSTEARATE. ZINC OXIDE. MAGNESIUM SULFATE. POLYGLYCERYL-3 DIISOSTEARATE. AVENA SATIVA (OAT) LEAF/STEM EXTRACT (AVENA SATIVA LEAF/STEM EXTRACT). COPPER SULFATE. ZINC SULFATE. HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS ANNUUS SEED OIL). SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL (SIMMONDSIA CHINENSIS SEED OIL). TOCOPHEROL 100% φυσικά συστατικά"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y/pf_square/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y/pf_square/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y/pf_square/u5wa3z31qn5seb5nnxpp1seiu19phkwz4qu384y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjwasp56jebq1gm8oqxwu9tmn4po/pf_square/u5wa3z31qn5sjwasp56jebq1gm8oqxwu9tmn4po?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se4kqyrfgwtaoho89b916z43f76e/pf_square/u5wa3z31qn5se4kqyrfgwtaoho89b916z43f76e?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.aderma.gr/p/dermalibour-epanorthotiki-exygiantiki-cica-krema-3282770141962-7044702c",
-    "source": "aderma.gr",
-    "section": "epitheliale",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3282770145908": {
     "name": "Υδατο-προστατευτικό ζελ καθαρισμού",
     "subtitle": "Καθαρίζει - Προστατεύει - Ενυδατώνει - Καταπραΰνει",
@@ -2446,53 +2400,6 @@ window.ADERMA_OVERRIDES = {
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sefd6rrhf14r1ujpwpxwuq4zbtoo/pf_square/u5wa3z31qn5sefd6rrhf14r1ujpwpxwuq4zbtoo?t=resize&width=800&height=800"
     ],
     "url": "https://www.aderma.gr/p/exomega-control-malaktiko-sprei-kata-toy-aisthimatos-knismoy-3282770149777-7044702c",
-    "source": "aderma.gr",
-    "section": "exomega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282770388701": {
-    "name": "Μαλακτικό έλαιο καθαρισμού κατά του αισθήματος κνησμού",
-    "subtitle": "Καθαρίζει - Θρέφει - Καταπραΰνει από τον κνησμό",
-    "description": "Κατάλληλο για χρήση από τη γέννηση, το Μαλακτικό Έλαιο Μπάνιου καθαρίζει, θρέφει και καταπραΰνει το ξηρό δέρμα με τάση ατοπικού εκζέματος χάρη στη ΒΙΟΔΙΑΣΠΩΜΕΝΗ* σύνθεσή του από 91% συστατικά φυσικής προέλευσης.\nΈνα πραγματικό προϊόν φροντίδας υγιεινής, η σύνθεσή του οποίου έχει αναπτυχθεί με τα ίδια δραστικά συστατικά που περιέχονται στα μαλακτικά προϊόντα φροντίδας της σειράς EXOMEGA CONTROL για την προστασία του δερματικού φραγμού και τη θρέψη και καταπράυνση του εύθραυστου δέρματος.",
-    "claims": [
-      "Καθαρίζει",
-      "Θρέφει",
-      "Καταπραΰνει από τον κνησμό"
-    ],
-    "highlights": [
-      "Φυσικό, καθαριστικό και καταπραϋντικό προϊόν φροντίδας της επιδερμίδας, κατάλληλο για χρήση από τη γέννηση.",
-      "ΒΙΟΔΙΑΣΠΩΜΕΝΗ* σύνθεση. Δοκιμασμένο υπό δερματολογικό και παιδιατρικό έλεγχο. Χωρίς σάπωνα."
-    ],
-    "attributes": {
-      "Μορφή": "Φιαλίδιο",
-      "Μπορεί να χρησιμοποιηθεί για": "Μωρά - Παιδιά - Ενήλικες - Από τη γέννηση",
-      "Τμήμα για το Σώμα": "Σώμα - πρόσωπο",
-      "Τύπος δέρματος": "Ξηρό δέρμα - Ξηρό δέρμα επιρρεπές σε ατοπικό έκζεμα - Δέρμα με τάση ατοπίας",
-      "Ανάγκες": "Καθαρισμός - Καταπράυνση - Φροντίδα κατά του κνησμού - Θρέψη",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "EXOMEGA CONTROL"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Το Μαλακτικό Έλαιο Μπάνιου καθαρίζει και καταπραΰνει το ξηρό δέρμα με τάση ατοπικού εκζέματος και είναι κατάλληλο για χρήση από τη γέννηση.",
-      "Οφέλη": "• ΚΑΘΑΡΙΖΕΙ ΑΠΑΛΑ το ξηρό και ατοπικό δέρμα βρεφών, παιδιών και ενηλίκων. Το EXOMEGA CONTROL Μαλακτικό Έλαιο Μπάνιου προστατεύει την επιδερμίδα από το αίσθημα τραβήγματος και την ξηρότητα.\n• ΑΝΑΚΟΥΦΙΖΕΙ το ξηρό δέρμα με τάση ατοπικού εκζέματος από το αίσθημα κνησμού.\n• ΠΡΟΣΤΑΤΕΥΕΙ το ευαίσθητο δέρμα. Με 91% συστατικά φυσικής προέλευσης, η ΒΙΟΔΙΑΣΠΩΜΕΝΗ* σύνθεση του καθαριστικού ελαίου χωρίς σάπωνα δεν τσούζει τα μάτια, καθιστώντας το κατάλληλο για όλη την οικογένεια.\nΑνακύκλωση",
-      "Οφέλη της υφής": "Ένα έλαιο σε μορφή ζελ που δεν γλιστράει και είναι κατάλληλο τόσο για το μπάνιο όσο και για το ντους. Μια σύνθεση που δημιουργεί έναν απαλό αφρό, ξεπλένεται εύκολα και δεν τσούζει τα μάτια, για μια τέλεια ισορροπία μεταξύ ευχάριστης χρήσης και αποτελεσματικότητας.",
-      "Άρωμα της σύνθεσης": "Διακριτικό άρωμα\nΑνακυκλώσιμη eco-refill συσκευασία.\nΒΙΟΔΙΑΣΠΩΜΕΝΗ* σύνθεση",
-      "Χρήση": "Συχνότητα χρήσης: Μία φορά την ημέρα.\nΒήμα 1: Εφαρμόστε στο ντους ή το μπάνιο.\nΒήμα 2: Εφαρμόστε σε βρεγμένο δέρμα, στη συνέχεια ξεπλύνετε και στεγνώστε χωρίς τρίψιμο.\nΒήμα 3: Έπειτα, εφαρμόστε το προϊόν της σειράς φροντίδας EXOMEGA CONTROL.",
-      "Συστατικά": "Εκχύλισμα Βλαστών Βρώμης Rhealba®\nINCI: WATER (AQUA). GLYCERIN. HYDROGENATED STARCH HYDROLYSATE. COCO-GLUCOSIDE. ZINC COCETH SULFATE. SODIUM COCOAMPHOACETATE. CETEARETH-60 MYRISTYL GLYCOL. PEG-40 HYDROGENATED CASTOR OIL. 10-HYDROXYDECENOIC ACID. AVENA SATIVA (OAT) LEAF/STEM EXTRACT (AVENA SATIVA LEAF/STEM EXTRACT). CITRIC ACID. FRAGRANCE (PARFUM). GLYCERYL OLEATE. HYDROGENATED VEGETABLE GLYCERIDES CITRATE. LAURIC ACID. MAGNESIUM OXIDE. OENOTHERA BIENNIS (EVENING PRIMROSE) OIL (OENOTHERA BIENNIS OIL). PEG-120 METHYL GLUCOSE DIOLEATE. PROPYLENE GLYCOL. SODIUM BENZOATE. SODIUM CHLORIDE. SODIUM HYDROXIDE. SODIUM LAUROYL METHYL ISETHIONATE. SODIUM METHYL ISETHIONATE. TOCOPHEROL. TRISODIUM ETHYLENEDIAMINE DISUCCINATE 91% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y/pf_square/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y/pf_square/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y/pf_square/u5wa3z31qn5se457cine9ez49nmc9fkm5o59h1y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj43d1bmtporw8brxye9cak8rnna/pf_square/u5wa3z31qn5sj43d1bmtporw8brxye9cak8rnna?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj43d1bmtporw8nwjcbj931q7g5y/pf_square/u5wa3z31qn5sj43d1bmtporw8nwjcbj931q7g5y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se4kqyrfgwtaoht8ng8fi9hj4ede/pf_square/u5wa3z31qn5se4kqyrfgwtaoht8ng8fi9hj4ede?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se43szauew33csuhitc8msdhumpy/pf_square/u5wa3z31qn5se43szauew33csuhitc8msdhumpy?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.aderma.gr/p/exomega-malaktiko-elaio-katharismoy-kata-toy-aisthimatos-knismoy-3282770388701-7044702c",
     "source": "aderma.gr",
     "section": "exomega",
     "matchType": "exact",

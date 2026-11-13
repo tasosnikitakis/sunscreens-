@@ -457,7 +457,7 @@ window.LRP_OVERRIDES = {
       "Διαθέσιμα μεγέθη": "200ml",
       "Σειρά": "ANTHELIOS",
       "Βασικά συστατικά": "MEXORYL, Τεχνολογία Wet Skin, ΓΛΥΚΕΡΙΝΗ",
-      "Συσκευασία": "250ml",
+      "Συσκευασία": "200ml",
       "Κατηγορία larocheposay.gr": "ANTHELIOS"
     },
     "sections": {
@@ -598,7 +598,7 @@ window.LRP_OVERRIDES = {
       "Διαθέσιμα μεγέθη": "200ml",
       "Σειρά": "ANTHELIOS",
       "Βασικά συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ, ΓΛΥΚΕΡΙΝΗ, ΠΑΝΘΕΝΟΛΗ",
-      "Συσκευασία": "400ml",
+      "Συσκευασία": "200ml",
       "Κατηγορία larocheposay.gr": "ANTHELIOS"
     },
     "sections": {
@@ -669,7 +669,7 @@ window.LRP_OVERRIDES = {
       "Διαθέσιμα μεγέθη": "400ml",
       "Σειρά": "TOLERIANE",
       "Βασικά συστατικά": "ΓΛΥΚΕΡΙΝΗ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
-      "Συσκευασία": "200ml",
+      "Συσκευασία": "400ml",
       "Κατηγορία larocheposay.gr": "TOLERIANE"
     },
     "sections": {
@@ -994,7 +994,7 @@ window.LRP_OVERRIDES = {
       "Διαθέσιμα μεγέθη": "390",
       "Σειρά": "EFFACLAR",
       "Βασικά συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ, ΕΚΧΥΛΙΣΜΑ ORELLANA, AQUA POSAE FILIFORMIS & MANOSE",
-      "Συσκευασία": "200ml",
+      "Συσκευασία": "390",
       "Κατηγορία larocheposay.gr": "EFFACLAR"
     },
     "sections": {
@@ -1028,7 +1028,7 @@ window.LRP_OVERRIDES = {
       "Διαθέσιμα μεγέθη": "400ml",
       "Σειρά": "EFFACLAR",
       "Βασικά συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ, ΨΕΥΔΑΡΓΥΡΟΣ PCA, ΓΛΥΚΕΡΙΝΗ",
-      "Συσκευασία": "100ml",
+      "Συσκευασία": "400ml",
       "Κατηγορία larocheposay.gr": "EFFACLAR"
     },
     "sections": {
@@ -1779,76 +1779,6 @@ window.LRP_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3337875886024": {
-    "name": "Anthelios Post-UV Exposure After Sun Lotion για Ευαίσθητο Δέρμα",
-    "subtitle": "Για το ευαίσθητο δέρμα που εκτίθεται στον ήλιο.",
-    "description": "Για το ευαίσθητο δέρμα που εκτίθεται στον ήλιο. Κατάλληλο για το αφυδατωμένο δέρμα που έχει εκτεθεί στον ήλιο. Δερματολογικά ελεγμένη σύνθεση. Εφαρμόστε μετά το μπάνιο ή το ντους και κάντε απαλό μασάζ.",
-    "claims": [],
-    "highlights": [
-      "Κατάλληλο για το αφυδατωμένο δέρμα που έχει εκτεθεί στον ήλιο.",
-      "Δερματολογικά ελεγμένη σύνθεση.",
-      "Εφαρμόστε μετά το μπάνιο ή το ντους και κάντε απαλό μασάζ."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "200ml",
-      "Σειρά": "ANTHELIOS",
-      "Βασικά συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ, ΓΛΥΚΕΡΙΝΗ, ΠΑΝΘΕΝΟΛΗ",
-      "Συσκευασία": "200ml",
-      "Κατηγορία larocheposay.gr": "ANTHELIOS"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Κατάλληλο για το αφυδατωμένο δέρμα που έχει εκτεθεί στον ήλιο.\n• Δερματολογικά ελεγμένη σύνθεση.\n• Εφαρμόστε μετά το μπάνιο ή το ντους και κάντε απαλό μασάζ.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι για κάθε περιοχή.\nΠΟΤΕ: Εφαρμόστε μετά το μπάνιο ή το ντους και κάντε απαλό μασάζ.\nΠΟΥ: Σε όλο το σώμα.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε αμέσως με άφθονο νερό. Αποφύγετε την επαφή με υφάσματα. Κρατήστε το μακριά από τα παιδιά.",
-      "Συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει\nΓΛΥΚΕΡΙΝΗ: Προσφέρει θρέψη\nΠΑΝΘΕΝΟΛΗ: Επανορθώνει\nINCI: AQUA / WATER / EAU • GLYCERIN • CAPRYLIC/CAPRIC TRIGLYCERIDE • ALCOHOL DENAT. • BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER • GLYCERYL STEARATE SE • OCTYLDODECANOL • CETEARYL ALCOHOL • GLYCERYL STEARATE CITRATE • TOCOPHEROL • HYDROXYACETOPHENONE • SCLEROTIUM GUM • PANTHENOL • XANTHAN GUM • PENTYLENE GLYCOL • MENTHA PIPERITA EXTRACT / PEPPERMINT EXTRACT • CAPRYLYL GLYCOL • CITRIC ACID • GLYCINE SOJA OIL / SOYBEAN OIL • PARFUM / FRAGRANCE Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/master/dmi/products/anthelios/anthelios-post-uv-exposure-after-sun-lotion/lrp_skcl_effaclar_dermatologicalbar-launch-3337875894333-beforeafter.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/master/dmi/products/anthelios/anthelios-post-uv-exposure-after-sun-lotion/lrp_skcl_effaclar_dermatologicalbar-launch-3337875894333-beforeafter.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/master/dmi/products/anthelios/anthelios-post-uv-exposure-after-sun-lotion/lrp_skcl_effaclar_dermatologicalbar-launch-3337875894333-beforeafter.png"
-    ],
-    "url": "https://www.larocheposay.gr/anthelios/anthelios-post-uv-exposure-after-sun-lotion-gia-euaisthhto-derma",
-    "source": "larocheposay.gr",
-    "section": "anthelios",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337875798181": {
-    "name": "Anthelios 100 KA+ Med Κρέμα Πρόληψης της Ακτινικής Υπερκεράτωσης",
-    "subtitle": "Ιατροτεχνολογικό προϊόν, για πρόληψη της ακτινικής υπερκεράτωσης",
-    "description": "Ιατροτεχνολογικό προϊόν, για πρόληψη της ακτινικής υπερκεράτωσης Για την πρόληψη της ακτινικής υπερκεράτωσης (AK) και μη μελανωματικού καρκίνου του δέρματος (NMSC). Μείωση του πεδίου των βλαβών στο δέρμα, συνδυαστικά με ευρύτερη αγωγή. Πολύ υψηλή προστασία ευρέος φάσματος ενάντια στις ακτίνες UVA & UVB, χάρη σε ένα κατοχυρωμένο, φωτοσταθερό σύστημα φίλτρων που συμπεριλαμβάνει και το Mexoryl®.",
-    "claims": [],
-    "highlights": [
-      "Για την πρόληψη της ακτινικής υπερκεράτωσης (AK) και μη μελανωματικού καρκίνου του δέρματος (NMSC).",
-      "Μείωση του πεδίου των βλαβών στο δέρμα, συνδυαστικά με ευρύτερη αγωγή.",
-      "Πολύ υψηλή προστασία ευρέος φάσματος ενάντια στις ακτίνες UVA & UVB, χάρη σε ένα κατοχυρωμένο, φωτοσταθερό σύστημα φίλτρων που συμπεριλαμβάνει και το Mexoryl®."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "50ml",
-      "Σειρά": "ANTHELIOS",
-      "Βασικά συστατικά": "MEXORYL 400, ΝΙΑΣΙΝΑΜΙΔΗ, ΠΑΝΘΕΝΟΛΗ",
-      "Συσκευασία": "50ml",
-      "Κατηγορία larocheposay.gr": "ANTHELIOS"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Για την πρόληψη της ακτινικής υπερκεράτωσης (AK) και μη μελανωματικού καρκίνου του δέρματος (NMSC).\n• Μείωση του πεδίου των βλαβών στο δέρμα, συνδυαστικά με ευρύτερη αγωγή.\n• Πολύ υψηλή προστασία ευρέος φάσματος ενάντια στις ακτίνες UVA & UVB, χάρη σε ένα κατοχυρωμένο, φωτοσταθερό σύστημα φίλτρων που συμπεριλαμβάνει και το Mexoryl®.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Για να εξασφαλίζεται βέλτιστη προστασία, πρέπει να εφαρμόζονται οι παρακάτω ποσότητες (2mg/cm2):\nΠΟΤΕ: Μόνο για τοπική χρήση. Εφαρμόστε πριν από την έκθεση στον ήλιο ή αμέσως μετά από θεραπεία. Αν εφαρμόζετε σε όλες τις παρακάτω περιοχές, χρησιμοποιήστε το προϊόν το πολύ 5 φορές την ημέρα.\nΠΟΥ: Εφαρμόστε το προϊόν κάθε πρωί στο δέρμα του κεφαλιού, του προσώπου, του λαιμού, του ντεκολτέ και των χεριών, και εφαρμόστε ξανά, όποτε χρειάζεται, για ολοκληρωμένη προστασία από την ηλιακή ακτινοβολία.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Τριχωτό: 5 πιέσεις, πρόσωπο: 5 πιέσεις, λαιμός: 3 πιέσεις, ντεκολτέ: 7 πιέσεις, χέρια: 8 πιέσεις.",
-      "Συστατικά": "MEXORYL 400: Η επανάσταση στην αντηλιακή προστασία τα τελευταία 30 χρόνια. Ένα νέο, αποκλειστικό φίλτρο UV από τη La Roche Posay, που προστατεύει ενάντια στις πιο ύπουλες ακτίνες UV: τις ultra μακρές UVA*. * [380-400 nm] = ultra μακρές UVA / [380-400 nm] = UVA πολύ μεγάλου μήκους κύματος, στο τέλος του φάσματος UV.\nΝΙΑΣΙΝΑΜΙΔΗ: Δραστικό συστατικό που βοηθά στην καταπράυνση του κνησμού και στην αναπλήρωση των λιπιδίων στην προστατευτική στιβάδα του δέρματος. Κατάλληλη για το ατοπικό δέρμα.\nΠΑΝΘΕΝΟΛΗ: Η Πανθενόλη (Βιταμίνη Β5) είναι γνωστή για την καταπραϋντική και αναζωογονητική της δράση στο δέρμα. Αποκαθιστά τη λειτουργία φραγμού.\nINCI: Η υπερέκθεση στον ήλιο είναι επικίνδυνη. Να φυλάσσεται τα μωρά και τα μικρά παιδιά μακρυά από το ηλιακό φως. Να μην μένετε για μεγάλο χρονικό διάστημα στον ήλιο, ακόμα κι αν χρησιμοποιείτε αντηλιακό επειδή δεν προσφέρει 100% προστασία. Εφαρμόζετε το αντηλιακό πριν την έκθεσή σας στον ήλιο. Εφαρμόστε ξανά με γεναιόδωρη ποσότητα για να διατηρήσετε την προστασία, ειδικά μετά το κολύμπι, την εφίδρωση ή το σκούπισμα με πετσέτα. Να κρατάτε τον εαυτό σας καλυμένο φορόντας καπέλο, μπλούζα και γυαλιά ηλίου. Αποφεύγετε την έκθεση στον ήλιο τις πιο ζεστές ώρες της ημέρας. Χρησιμοποιήστε αντηλιακά προϊόντα κατάλληλα για τον τύπο της επιδερμίδας σας. Εφαρμόστε ξανά συχνά και γενναιόδωρα για να διατηρήσετε την αντηλιακή προστασία. Δεν προστατεύει 100% από τον ήλιο. Η υπερβολική έκθεση στον ήλιο είναι επικίνδυνη. Κρατήστε τα μωρά και τα μικρά παιδιά μακριά από το άμεσο ηλιακό φως"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-100-ka-plus-med/larocheposayproductsunanthelioskamedspf1003337875798181front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-100-ka-plus-med/larocheposayproductsunanthelioskamedspf1003337875798181front.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-100-ka-plus-med/larocheposayproductsunanthelioskamedspf1003337875798181front.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-100-ka-plus-med/larocheposayproductsunanthelioskamedspf1003337875798181back.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune400-hydrating-cream-spf50-plus/3-lrp-n1-suncare-claim.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/anthelios/anthelios-100-ka-plus-med-krema-prolhpshs-ths-aktinikhs-uperkeratwshs",
-    "source": "larocheposay.gr",
-    "section": "anthelios",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3337875761031": {
     "name": "Anthelios Age Correct SPF50 Αντηλιακό κατά των Σημαδιών Γήρανσης",
     "subtitle": "Καθημερινό αντηλιακό κατά των σημαδιών γήρανσης",
@@ -1952,39 +1882,6 @@ window.LRP_OVERRIDES = {
       "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-dermo-pediatrics--lotion-spf50-plus/lrp-anthelios-packshot-dp-wet-skin-lotion-50-200ml-141ko.png"
     ],
     "url": "https://www.larocheposay.gr/anthelios/anthelios-dermo-pediatrics-wet-skin-lotion-spf50-plus-anthliako-gia-paidia",
-    "source": "larocheposay.gr",
-    "section": "anthelios",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337875761123": {
-    "name": "Anthelios Hydrating Lotion SPF50+ Αντηλιακό",
-    "subtitle": "Αντηλιακό σώματος με πολύ υψηλή προστασία σε οικολογική συσκευασία.",
-    "description": "Αντηλιακό σώματος με πολύ υψηλή προστασία σε οικολογική συσκευασία. Προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες IR-A και η ρύπανση.",
-    "claims": [],
-    "highlights": [
-      "Προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες IR-A και η ρύπανση."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "250ml",
-      "Σειρά": "ANTHELIOS",
-      "Βασικά συστατικά": "ΤΕΧΝΟΛΟΓΙΑ NETLOCK, XL-PROTECT, ΓΛΥΚΕΡΙΝΗ",
-      "Συσκευασία": "250ml",
-      "Κατηγορία larocheposay.gr": "ANTHELIOS"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες IR-A και η ρύπανση.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι για κάθε περιοχή.\nΠΟΤΕ: Πριν από την έκθεση στον ήλιο. Εφαρμόζετε όσο συχνά χρειάζεται, ιδίως μετά από εφίδρωση ή το σκούπισμα με πετσέτα.\nΠΟΥ: Πρόσωπο & σώμα. Εξωτερική χρήση.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Ανακινήστε καλά πριν την εφαρμογή.",
-      "Συστατικά": "ΤΕΧΝΟΛΟΓΙΑ NETLOCK: Πολύ υψηλή προστασία, αόρατη υφή μη λιπαρή που δεν \"τρέχει\". Τα μικροσταγονίδια της σύνθεσης σχηματίζουν ένα ομοιόμορφο, ανθεκτικό φιλμ για μέγιστη προστασία.\nXL-PROTECT: Κατοχυρωμένη τεχνολογία που παρέχει πολύ υψηλή προστασία ευρέος φάσματος ενάντια στις ακτίνες UVA/UVB, ενώ ταυτόχρονα συμβάλλει στην προστασία από τις βλάβες που προκαλούν η ρύπανση και οι υπέρυθρες ακτίνες.\nΓΛΥΚΕΡΙΝΗ: Ενυδατώνει άμέσα & σε βάθος το δέρμα.\nINCI: AQUA / WATER ● ISOPROPYL PALMITATE ● ALCOHOL DENAT ● DICAPRYLYL ETHER ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● DIISOPROPYL ADIPATE ● DIISOPROPYL SEBACATE ● ETHYLHEXYL TRIAZONE ● BUTYL METHOXYDIBENZOYLMETHANE ● GLYCERIN ● PROPANEDIOL ● DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE ● TRIETHANOLAMINE ● TOCOPHEROL ● C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER ● OXIDIZED STARCH ACETATE ● PHENYLBENZIMIDAZOLE SULFONIC ACID ● ORYZA SATIVA CERA / RICE BRAN WAX ● ACRYLATES COPOLYMER ● ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER ● ALUMINUM HYDROXIDE ● CAPRYLYL GLYCOL ● DROMETRIZOLE TRISILOXANE ● HYDROXYACETOPHENONE ● HYDROXYETHYLCELLULOSE ● PEG-20 ● STEARIC ACID ● TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID ● TITANIUM DIOXIDE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● XANTHAN GUM Η υπερβολική έκθεση στον ήλιο είναι επικίνδυνη. Κρατήστε βρέφη και μικρά παιδιά μακριά από τον ήλιο. Μην εκτίθεστε στον ήλιο για πολύ ώρα, ακόμα και όταν χρησιμοποιείτε αντηλιακό γιατί δεν σας εξασφαλίζει 100% προστασία. Εφαρμόστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο. Να χρησιμοποιείτε αρκετή ποσότητα και να ανανεώνετε συχνά την εφαρμοφή αντηλιακών προϊόντων, κυρίως μετά το κολύμπι, τον ιδρώτα ή το σκούπισμα με πετσέτα ώστε να διατηρείται η αρχική προστασία. Να φοράτε στα παιδιά καπέλο, μπλουζάκι και γυαλιά ηλίου. Μην ψεκάζετε απευθείας στο πρόσωπο. Ψεκάστε στη παλάμη σας και στη συνέχεια εφαρμόστε. Αποφύγετε την περιοχή των ματιών. Σε περίπτωση επαφής με τα μάτια ξεπλύνετε αμέσως με άφθονο νερό. Αποφεύγετε την επαφή με τα ρούχα"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/new/3337875761123_1.jpg",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/new/3337875761123_1.jpg",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/new/3337875761123_1.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/updated-pdp/3-lrp-n1-suncare-claim-image.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/anthelios/anthelios-hydrating-lotion-spf-50-plus-anthliako-swmatos",
     "source": "larocheposay.gr",
     "section": "anthelios",
     "matchType": "exact",
@@ -2239,47 +2136,6 @@ window.LRP_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3337875797580": {
-    "name": "Anthelios Uvmune 400 Invisible Fluid SPF50+ Αντηλιακό Προσώπου",
-    "subtitle": "Αντηλιακό. Προστασία από τις ultra μακρές UVA.",
-    "description": "Αντηλιακό. Προστασία από τις ultra μακρές UVA. Ανάλαφρη και αόρατη σύνθεση, κατάλληλη για καθημερινή χρήση ακόμα και σε δέρμα ευαίσθητο ή σε δέρμα που εμφανίζει αλλεργία στον ήλιο. Δερματολογικά ελεγμένη σύνθεση. Αόρατο τελείωμα σε κάθε φωτότυπο.",
-    "claims": [],
-    "highlights": [
-      "Ανάλαφρη και αόρατη σύνθεση, κατάλληλη για καθημερινή χρήση ακόμα και σε δέρμα ευαίσθητο ή σε δέρμα που εμφανίζει αλλεργία στον ήλιο.",
-      "Δερματολογικά ελεγμένη σύνθεση.",
-      "Αόρατο τελείωμα σε κάθε φωτότυπο."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "50ml",
-      "Σειρά": "ANTHELIOS",
-      "Βασικά συστατικά": "MEXORYL 400, ΓΛΥΚΕΡΙΝΗ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ LA ROCHE-POSAY",
-      "Συσκευασία": "50ml",
-      "Κατηγορία larocheposay.gr": "ANTHELIOS"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Ανάλαφρη και αόρατη σύνθεση, κατάλληλη για καθημερινή χρήση ακόμα και σε δέρμα ευαίσθητο ή σε δέρμα που εμφανίζει αλλεργία στον ήλιο.\n• Δερματολογικά ελεγμένη σύνθεση.\n• Αόρατο τελείωμα σε κάθε φωτότυπο.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι για κάθε περιοχή.\nΠΟΤΕ: 20 λεπτά πριν από την έκθεση στον ήλιο. Σαν τελευταίο βήμα στο πρόγραμμα περιποίησης.\nΠΟΥ: Σε πρόσωπο, λαιμό & ντεκολτέ. Σε όλες τις εκτεθειμένες περιοχές.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Κάντε απαλό μασάζ μέχρι να απορροφηθεί από το δέρμα.",
-      "Συστατικά": "MEXORYL 400: Το πιο αποτελεσματικό φίλτρο UV που προστατεύει ενάντια στις πιο επιβλαβείς ακτίνες UV: τις ultra μακρές UVA στα 380-400nm\nΓΛΥΚΕΡΙΝΗ: Συμβάλλει στην επανόρθωση και προστασία του επιδερμιδικού φραγμού.\nΙΑΜΑΤΙΚΟ ΝΕΡΟ LA ROCHE-POSAY: Καταπραΰνει και μειώνει τη φλεγμονή.\nINCI: AQUA / WATER / EAU ● ALCOHOL DENAT. ● TRIETHYL CITRATE ● DIISOPROPYL SEBACATE ● SILICA ● ETHYLHEXYL SALICYLATE ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● ETHYLHEXYL TRIAZONE ● BUTYL METHOXYDIBENZOYLMETHANE ● GLYCERIN ● PROPANEDIOL ● C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER ● CI 77891 / TITANIUM DIOXIDE ● METHOXYPROPYLAMINO CYCLOHEXENYLIDENE ETHOXYETHYLCYANOACETATE ● PERLITE ● TOCOPHEROL ● CAPRYLIC/CAPRIC TRIGLYCERIDE ● ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER ● CAPRYLYL GLYCOL ● CI 77491 / IRON OXIDES ● CI 77492 / IRON OXIDES ● CI 77499 / IRON OXIDES ● DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE ● DROMETRIZOLE TRISILOXANE ● HYDROXYETHYLCELLULOSE ● SODIUM STEAROYL GLUTAMATE ● TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID ● TRIETHANOLAMINE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● PARFUM / FRAGRANCE ●Η υπερβολική έκθεση στον ήλιο είναι επικίνδυνη. Κρατήστε βρέφη και μικρά παιδιά μακριά από τον ήλιο. Μην εκτίθεστε στον ήλιο για πολλή ώρα, ακόμα και όταν χρησιμοποιείτε αντηλιακό γιατί δεν σας εξασφαλίζει 100% προστασία. Εφαρμόστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο. Να χρησιμοποιείτε αρκετή ποσότητα και να ανανεώνετε συχνά την εφαρμογή αντηλιακών προϊόντων, κυρίως μετά το κολύμπι, τον ιδρώτα ή το σκούπισμα με πετσέτα ώστε να διατηρείται η αρχική προστασία. Σε περίπτωση επαφής με τα μάτια ξεπλύνετε αμέσως με άφθονο νερό. Αποφεύγετε την επαφή με τα ρούχα"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/homepage/lrpproductpagesunantheliosuvmune400fluidapspf503337875797580front.jpg",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/homepage/lrpproductpagesunantheliosuvmune400fluidapspf503337875797580front.jpg",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/homepage/lrpproductpagesunantheliosuvmune400fluidapspf503337875797580front.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-fluid-ap-50/larocheposayproductpagesunantheliosuvmune400fluidapspf503337875797580backjpg.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-fluid-ap-50/lrpproductpagesunantheliosuvmune400fluidapspf503337875797580blue.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-fluid-ap-50/lrpproductpagesunantheliosuvmune400fluidapspf503337875797580frontpack.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-400-invisible-fluid-spf50--plus-non-perfumed/la-roche-posay-productpage-sun-anthelios-uvmune400-fluid-superiority-claim-3337875797580.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-400-invisible-fluid-spf50--plus-non-perfumed/la-roche-posay-productpage-sun-anthelios-uvmune400-fluid-all-phototypes-3337875797580.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-400-invisible-fluid-spf50--plus-non-perfumed/la-roche-posay-productpage-sun-anthelios-uvmune400-fluid-deep-cell-damage-3337875797580.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-uvmune-400-invisible-fluid-spf50--plus-non-perfumed/la-roche-posay-productpage-sun-anthelios-uvmune400-fluid-dna-lesions-3337875797580.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/anthelios/anthelios-uvmune-400-invisible-fluid-spf50-plus-anthliako-proswpou",
-    "source": "larocheposay.gr",
-    "section": "anthelios",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3337875797597": {
     "name": "Anthelios Uvmune 400 Invisible Fluid SPF50+ Χωρίς Άρωμα",
     "subtitle": "Καθημερινή πολύ υψηλή προστασία UV",
@@ -2495,41 +2351,6 @@ window.LRP_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3337875845434": {
-    "name": "Anthelios Wet Skin Lotion SPF50+ - Αντηλιακό Σώματος",
-    "subtitle": "Πολύ υψηλή προστασία, πολύ ανθεκτικό στο νερό",
-    "description": "Πολύ υψηλή προστασία, πολύ ανθεκτικό στο νερό Πολύ ψηλή προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες ακτίνες Α, και η ρύπανση. Κατάλληλο για το ευαίσθητο ξηρό δέρμα. Δερματολογικά ελεγμένο.",
-    "claims": [],
-    "highlights": [
-      "Πολύ ψηλή προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες ακτίνες Α, και η ρύπανση.",
-      "Κατάλληλο για το ευαίσθητο ξηρό δέρμα.",
-      "Δερματολογικά ελεγμένο."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "200ml",
-      "Σειρά": "ANTHELIOS",
-      "Βασικά συστατικά": "MEXORYL, Τεχνολογία Wet Skin, ΓΛΥΚΕΡΙΝΗ",
-      "Συσκευασία": "200ml",
-      "Κατηγορία larocheposay.gr": "ANTHELIOS"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Πολύ ψηλή προστασία ευρέος φάσματος για πρόληψη των βλαβών που προκαλούν οι ακτίνες UVA & UVB, οι υπέρυθρες ακτίνες Α, και η ρύπανση.\n• Κατάλληλο για το ευαίσθητο ξηρό δέρμα.\n• Δερματολογικά ελεγμένο.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Χρησιμοποιήστε ποσότητα ίση με ένα φουντούκι για κάθε περιοχή.\nΠΟΤΕ: Εφαρμόστε το αντιηλιακό προϊόν πριν από την έκθεσή σας στον ήλιο. Να χρησιμοποιείτε αρκετή ποσότητα και να ανανεώνετε συχνά την εφαρμογή, ιδίως μετά από εφίδρωση ή σκούπισμα με πετσέτα, για να διατηρήσετε το επίπεδο προστασίας.\nΠΟΥ: Για εξωτερική χρήση.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Ανακινήστε τη συσκευασία πριν τη χρήση.",
-      "Συστατικά": "MEXORYL: Mexoryl XL: Πατενταρισμένη τεχνολογία που παρέχει πολύ υψηλή προστασία ευρέος φάσματος ενάντια στις ακτίνες UVA & UVB.\nΤεχνολογία Wet Skin: Υδρόφοβο σύμπλοκο που σχηματίζει ένα φιλμ στην επιφάνεια του δέρματος, για απώθηση του νερού.\nΓΛΥΚΕΡΙΝΗ: Ενυδατώνει άμεσα & σε βάθος το δέρμα.\nINCI: AQUA / WATER ● HOMOSALATE ● DROMETRIZOLE TRISILOXANE ● ETHYLHEXYL SALICYLATE ● BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE ● ETHYLHEXYL TRIAZONE ● GLYCERIN ● BUTYL METHOXYDIBENZOYLMETHANE ● ISOHEXADECANE ● ALCOHOL DENAT. ● PROPANEDIOL ● DICAPRYLYL ETHER ● STYRENE/ACRYLATES COPOLYMER ● DIMETHICONE ● ACRYLATES/DIMETHICONE COPOLYMER ● ASCORBYL PALMITATE ● CAPRYLYL GLYCOL ● CARBOMER ● GLYCERYL OLEATE ● HYDROGENATED PALM GLYCERIDES CITRATE ● LECITHIN ● NYLON-12 ● P-ANISIC ACID ● PEG-8 LAURATE ● PHENOXYETHANOL ● SODIUM DODECYLBENZENESULFONATE ● TOCOPHEROL ● TRIETHANOLAMINE ● TRISODIUM ETHYLENEDIAMINE DISUCCINATE ● PARFUM / FRAGRANCE ●Η υπερβολική έκθεση στον ήλιο είναι επικίνδυνη. Κρατήστε βρέφη και μικρά παιδιά μακριά από τον ήλιο. Μην εκτίθεστε στον ήλιο για πολύ ώρα, ακόμα και όταν χρησιμοποιείτε αντηλιακό γιατί δεν σας εξασφαλίζει 100% προστασία. Εφαρμόστε το προϊόν ακριβώς πριν από την έκθεσή σας στον ήλιο. Να χρησιμοποιείτε αρκετή ποσότητα και να ανανεώνετε συχνά την εφαρμογή αντηλιακών προϊόντων, κυρίως μετά το κολύμπι, τον ιδρώτα ή το σκούπισμα με πετσέτα ώστε να διατηρείται η προστασία. Αποφύγετε την περιοχή των ματιών. Σε περίπτωση επαφής με τα μάτια ξεπλύνετε αμέσως με άφθονο νερό. Αποφεύγετε την επαφή με τα ρούχα"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/3-lrp-n1-suncare-claim-image.jpg",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/3-lrp-n1-suncare-claim-image.jpg",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-lotion-spf50/lrp-anthelios-packshot-wet-skin-lotion-50-200ml-front-(1).png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/anthelios/anthelios-eco-conscious-hydrating-lotion-spf50plus/3-lrp-n1-suncare-claim-image.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/anthelios/anthelios-wet-skin-lotion-spf50-plus-anthliako-swmatos",
-    "source": "larocheposay.gr",
-    "section": "anthelios",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3337875609593": {
     "name": "Effaclar A.I. Για Ατέλειες Προσώπου",
     "subtitle": "Στοχευμένη διόρθωση των ατελειών",
@@ -2721,74 +2542,6 @@ window.LRP_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3337875777797": {
-    "name": "Effaclar H Iso-Biome Ενυδατική Κρέμα Προσώπου - Λιπαρό Δέρμα",
-    "subtitle": "Επαναφέρει την άνεση στο δέρμα, μειώνει τις ατέλειες",
-    "description": "Επαναφέρει την άνεση στο δέρμα, μειώνει τις ατέλειες Προσφέρει εντατική ενυδάτωση στο λιπαρό δέρμα που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα. Βοηθά στη μείωση των ατελειών και των σημαδιών. Με τη δύναμη της επιστήμης του μικροβιώματος.",
-    "claims": [],
-    "highlights": [
-      "Προσφέρει εντατική ενυδάτωση στο λιπαρό δέρμα που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα.",
-      "Βοηθά στη μείωση των ατελειών και των σημαδιών.",
-      "Με τη δύναμη της επιστήμης του μικροβιώματος."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "40ml",
-      "Σειρά": "EFFACLAR",
-      "Βασικά συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ, ΕΚΧΥΛΙΣΜΑ ORELLANA, AQUA POSAE FILIFORMIS & MANOSE",
-      "Συσκευασία": "40ml",
-      "Κατηγορία larocheposay.gr": "EFFACLAR"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Προσφέρει εντατική ενυδάτωση στο λιπαρό δέρμα που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα.\n• Βοηθά στη μείωση των ατελειών και των σημαδιών.\n• Με τη δύναμη της επιστήμης του μικροβιώματος.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι.\nΠΟΤΕ: Πρωί ή/και βράδυ.\nΠΟΥ: Στο πρόσωπο, αποφεύγοντας την περιοχή των ματιών.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Να εφαρμόζεται σε καθαρό δέρμα.",
-      "Συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ: Επανορθώνει και ενυδατώνει το δέρμα.\nΕΚΧΥΛΙΣΜΑ ORELLANA: Βοηθά στη μείωση του σμήγματος και της υπερκερατινοποίησης. Δρα ενάντια στις ατέλειες και εξασφαλίζει ματ αποτέλεσμα.\nAQUA POSAE FILIFORMIS & MANOSE: Αποκαθιστά την ισορροπία του μικροβιώματος, για πιο υγιές δέρμα.\nINCI: AQUA / WATER ● GLYCERIN ● SQUALANE ● DIMETHICONE ● PANTHENOL ● ZEA MAYS STARCH / CORN STARCH ● NIACINAMIDE ● AMMONIUM POLYACRYLOYLDIMETHYL TAURATE ● MYRISTYL MYRISTATE ● BIXA ORELLANA SEED EXTRACT ● STEARIC ACID ● POTASSIUM CETYL PHOSPHATE ● GLYCERYL STEARATE SE ● SODIUM HYDROXIDE ● MYRISTIC ACID ● 2-OLEAMIDO-1,3-OCTADECANEDIOL ● PALMITIC ACID ● HYDROXYACETOPHENONE ● CAPRYLOYL GLYCINE ● CAPRYLYL GLYCOL ● VITREOSCILLA FERMENT ● CITRIC ACID ● MALTODEXTRIN ● XANTHAN GUM ● PARFUM / FRAGRANCE ●Σε περίπτωση επαφής με τα μάτια, ξεπλύνετε άμεσα και σχολαστικά"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome/lrp_effaclar_h-isobiome_40ml_pack-front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome/lrp_effaclar_h-isobiome_40ml_pack-front.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome/lrp_effaclar_h-isobiome_40ml_pack-front.png"
-    ],
-    "url": "https://www.larocheposay.gr/effaclar/effaclar-h-iso-biome-enudatikh-krema-proswpou-gia-liparo-derma",
-    "source": "larocheposay.gr",
-    "section": "effaclar",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337875777773": {
-    "name": "Effaclar H Iso-Biome Κρέμα Καθαρισμού Προσώπου & Σώματος",
-    "subtitle": "Κρέμα καθαρισμού που αποκαθιστά τα επίπεδα άνεσης του δέρματος και μειώνει τις ατέλειες",
-    "description": "Κρέμα καθαρισμού που αποκαθιστά τα επίπεδα άνεσης του δέρματος και μειώνει τις ατέλειες Καταπραϋντική και ενυδατική κρέμα καθαρισμού για πρόσωπο και σώμα. Προσφέρει καταπράυνση και βοηθά στη μείωση των ατελειών του δέρματος με τάση ακμής που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα. Με τη δύναμη της επιστήμης του μικροβιώματος.",
-    "claims": [],
-    "highlights": [
-      "Καταπραϋντική και ενυδατική κρέμα καθαρισμού για πρόσωπο και σώμα.",
-      "Προσφέρει καταπράυνση και βοηθά στη μείωση των ατελειών του δέρματος με τάση ακμής που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα.",
-      "Με τη δύναμη της επιστήμης του μικροβιώματος."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "390",
-      "Σειρά": "EFFACLAR",
-      "Βασικά συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ, ΕΚΧΥΛΙΣΜΑ ORELLANA, AQUA POSAE FILIFORMIS & MANOSE",
-      "Συσκευασία": "390",
-      "Κατηγορία larocheposay.gr": "EFFACLAR"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Καταπραϋντική και ενυδατική κρέμα καθαρισμού για πρόσωπο και σώμα.\n• Προσφέρει καταπράυνση και βοηθά στη μείωση των ατελειών του δέρματος με τάση ακμής που έχει ευαισθητοποιηθεί από θεραπείες που προκαλούν ξηρότητα.\n• Με τη δύναμη της επιστήμης του μικροβιώματος.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι.\nΠΟΤΕ: Πρωί ή/και βράδυ.\nΠΟΥ: Στο πρόσωπο, αποφεύγοντας την περιοχή των ματιών.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Ξεβγάλτε με νερό και σκουπιστείτε ταμπονάροντας απαλά με μια πετσέτα.",
-      "Συστατικά": "ΝΙΑΣΙΝΑΜΙΔΗ: Επανορθώνει και ενυδατώνει το δέρμα.\nΕΚΧΥΛΙΣΜΑ ORELLANA: Βοηθά στη μείωση του σμήγματος και της υπερκερατινοποίηση. Δρα ενάντια στις ατέλειες και εξασφαλίζει ματ αποτέλεσμα.\nAQUA POSAE FILIFORMIS & MANOSE: Αποκαθιστά την ισορροπία του μικροβιώματος, για πιο υγιές δέρμα.\nINCI: AQUA / WATER ● GLYCERIN ● SODIUM LAURETH SULFATE ● PEG-200 HYDROGENATED GLYCERYL PALMATE ● COCO-BETAINE ● POLYSORBATE 20 ● CITRIC ACID ● PEG-7 GLYCERYL COCOATE ● NIACINAMIDE ● BIXA ORELLANA SEED EXTRACT ● BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER ● COCAMIDE MEA ● GLYCOL DISTEARATE ● SODIUM CHLORIDE ● SODIUM HYDROXIDE ● MANNOSE ● DISODIUM EDTA ● VITREOSCILLA FERMENT ● MALTODEXTRIN ● POLYQUATERNIUM-11 ● ACRYLATES COPOLYMER ● SODIUM BENZOATE ● PARFUM / FRAGRANCE ● Αποφύγετε την περιοχή των ματιών. Σε περίπτωση επαφής με τα μάτια, ξεβγάλετε άμεσα με άφθονο νερό"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome-cleaning-cream/lrp_effaclar_h-isobiome-cleanser-390ml-pack-front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome-cleaning-cream/lrp_effaclar_h-isobiome-cleanser-390ml-pack-front.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-h-iso-biome-cleaning-cream/lrp_effaclar_h-isobiome-cleanser-390ml-pack-front.png"
-    ],
-    "url": "https://www.larocheposay.gr/effaclar/effaclar-h-iso-biome-krema-katharismou-proswpou-swmatos",
-    "source": "larocheposay.gr",
-    "section": "effaclar",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3337875613491": {
     "name": "Effaclar K(+) Ενυδατική Κρέμα Προσώπου για Μικτή Επιδερμίδα",
     "subtitle": "Φροντίδα ανανέωσης για το λιπαρό δέρμα με τάση για ατέλειες",
@@ -2862,42 +2615,6 @@ window.LRP_OVERRIDES = {
       "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-mat-plus/larocheposayskincareproducteffaclarmat40ml3337872413025atftexture.jpg"
     ],
     "url": "https://www.larocheposay.gr/effaclar/effaclar-mat-smhgmatorruthmistikh-krema-proswpou",
-    "source": "larocheposay.gr",
-    "section": "effaclar",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337872412516": {
-    "name": "Effaclar Micellaire Water Ultra Νερό Καθαρισμού",
-    "subtitle": "Εξυγιαντική λοσιόν καθαρισμού & ντεμακιγιάζ για το λιπαρό δέρμα",
-    "description": "Εξυγιαντική λοσιόν καθαρισμού & ντεμακιγιάζ για το λιπαρό δέρμα Ειδικά σχεδιασμένο για το λιπαρό δέρμα με τάση ατελειών. Απομακρύνει απαλά τους ρύπους, την περίσσεια σμήγματος και το μακιγιάζ. Αφήνει το δέρμα καθαρό με αίσθηση φρεσκάδας.",
-    "claims": [],
-    "highlights": [
-      "Ειδικά σχεδιασμένο για το λιπαρό δέρμα με τάση ατελειών.",
-      "Απομακρύνει απαλά τους ρύπους, την περίσσεια σμήγματος και το μακιγιάζ.",
-      "Αφήνει το δέρμα καθαρό με αίσθηση φρεσκάδας."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml",
-      "Σειρά": "EFFACLAR",
-      "Βασικά συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ, ΨΕΥΔΑΡΓΥΡΟΣ PCA, ΓΛΥΚΕΡΙΝΗ",
-      "Συσκευασία": "400ml",
-      "Κατηγορία larocheposay.gr": "EFFACLAR"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Ειδικά σχεδιασμένο για το λιπαρό δέρμα με τάση ατελειών.\n• Απομακρύνει απαλά τους ρύπους, την περίσσεια σμήγματος και το μακιγιάζ.\n• Αφήνει το δέρμα καθαρό με αίσθηση φρεσκάδας.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Μερικές σταγόνες σε βαμβάκι.\nΠΟΤΕ: Πρωί ή/και βράδυ.\nΠΟΥ: Στο πρόσωπο, αποφεύγοντας την περιοχή των ματιών.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Δεν χρειάζεται ξέβγαλμα.",
-      "Συστατικά": "ΙΑΜΑΤΙΚΟ ΝΕΡΟ: Kαταπραΰνει και προστατεύει.\nΨΕΥΔΑΡΓΥΡΟΣ PCA: Μειώνει την έκκριση σμήγματος και εξυγιαίνει το δέρμα.\nΓΛΥΚΕΡΙΝΗ: Ενυδατώνει. Καταπραΰνει.\nINCI: AQUA / WATER • PEG-7 CAPRYLIC/CAPRIC GLYCERIDES • POLOXAMER 124 • POLOXAMER 184 • PEG-6 CAPRYLIC/CAPRIC GLYCERIDES • GLYCERIN • POLYSORBATE 80 • ZINC PCA • SODIUM HYDROXIDE • DISODIUM EDTA • BHT • MYRTRIMONIUM BROMIDE • PARFUM / FRAGRANCE. Δεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-micellar-water/la-roche-posay-face-cleanser-effaclar-micellar-water-ultra-400ml-3337872412516-front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-micellar-water/la-roche-posay-face-cleanser-effaclar-micellar-water-ultra-400ml-3337872412516-front.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-micellar-water/la-roche-posay-face-cleanser-effaclar-micellar-water-ultra-400ml-3337872412516-front.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-micellar-water/la-roche-posay-face-cleanser-effaclar-micellar-water-ultra-400ml-3337872412516-back.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/effaclar/effaclar-micellar-water/la-roche-posay-productpage-acne-effaclar-micellar-water-ultra-200ml-3433422408357-zoom-back.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/effaclar/effaclar-micellaire-water-ultra-nero-katharismou",
     "source": "larocheposay.gr",
     "section": "effaclar",
     "matchType": "exact",
@@ -3244,77 +2961,6 @@ window.LRP_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3337875731409": {
-    "name": "Hydraphase HA Intense Rich Ενυδατική Κρέμα για Ξηρή Επιδερμίδα",
-    "subtitle": "Καθημερινή ενυδατική για το ξηρό έως πολύ ξηρό ευαίσθητο δέρμα. 72 ώρες εντατικής ενυδάτωσης.",
-    "description": "Καθημερινή ενυδατική για το ξηρό έως πολύ ξηρό ευαίσθητο δέρμα. 72 ώρες εντατικής ενυδάτωσης. Πλούσια ενυδάτωση, ανάλαφρη αίσθηση. Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας. Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη.",
-    "claims": [],
-    "highlights": [
-      "Πλούσια ενυδάτωση, ανάλαφρη αίσθηση.",
-      "Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας.",
-      "Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "40ml",
-      "Σειρά": "HYDRAPHASE HA",
-      "Βασικά συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
-      "Συσκευασία": "40ml",
-      "Κατηγορία larocheposay.gr": "HYDRAPHASE HA"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Πλούσια ενυδάτωση, ανάλαφρη αίσθηση.\n• Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας.\n• Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι.\nΠΟΤΕ: Πρωί και βράδυ.\nΠΟΥ: Πρόσωπο.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Να εφαρμόζεται σε καθαρό δέρμα.",
-      "Συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ: Προσφέρει βαθιά, εντατική ενυδάτωση.\nΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει το δέρμα και ενισχύει τον επιδερμιδικό φραγμό.\nINCI: AQUA / WATER • GLYCERIN • ISOPROPYL PALMITATE • BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER • LAUROYL LYSINE • CETYL ALCOHOL • UREA • PEG-100 STEARATE • GLYCERYL STEARATE • CERA ALBA / BEESWAX • PENTYLENE GLYCOL • STEARIC ACID • CARBOMER • GLYCERYL ACRYLATE/ACRYLIC ACID COPOLYMER • SODIUM HYALURONATE • SODIUM HYDROXIDE • MYRISTIC ACID • PALMITIC ACID • HYDROLYZED HYALURONIC ACID • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • POLYSORBATE 60 • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE • CHLORPHENESIN • PARFUM / FRAGRANCE B269036/1"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/hydraphase-ha-riche/3337875731409_1.jpg",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/hydraphase-ha-riche/3337875731409_1.jpg",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/hydraphase-ha-riche/3337875731409_1.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/hydraphase/hydraphase-ha-intense-rich-enudatikh-krema-gia-kshrh-epidermida",
-    "source": "larocheposay.gr",
-    "section": "hydraphase",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337875731638": {
-    "name": "Hydraphase HA Light Ενυδατική Κρέμα Προσώπου",
-    "subtitle": "Καθημερινή ενυδατική για το κανονικό έως ξηρό ευαίσθητο δέρμα. 72 ώρες εντατικής ενυδάτωσης και άμεσο αποτέλεσμα λάμψης.",
-    "description": "Καθημερινή ενυδατική για το κανονικό έως ξηρό ευαίσθητο δέρμα. 72 ώρες εντατικής ενυδάτωσης και άμεσο αποτέλεσμα λάμψης. Πλούσια ενυδάτωση, ανάλαφρη αίσθηση. Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας. Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη.",
-    "claims": [],
-    "highlights": [
-      "Πλούσια ενυδάτωση, ανάλαφρη αίσθηση.",
-      "Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας.",
-      "Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "40ml",
-      "Σειρά": "HYDRAPHASE HA",
-      "Βασικά συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
-      "Συσκευασία": "40ml",
-      "Κατηγορία larocheposay.gr": "HYDRAPHASE HA"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Πλούσια ενυδάτωση, ανάλαφρη αίσθηση.\n• Με 6x μεγαλύτερη περιεκτικότητα σε Υαλουρονικό Οξύ*, προϊόν Πράσινης Τεχνολογίας.\n• Δερματολογικά ελεγμένη. Υποαλλεργική. Χωρίς αλκοόλη.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι.\nΠΟΤΕ: Πρωί και βράδυ.\nΠΟΥ: Πρόσωπο.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Να εφαρμόζεται σε καθαρό δέρμα.",
-      "Συστατικά": "ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ: Προσφέρει βαθιά, εντατική ενυδάτωση.\nΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει το δέρμα και ενισχύει τον επιδερμιδικό φραγμό.\nINCI: AQUA /WATER / EAU • GLYCERIN • CAPRYLIC/CAPRIC TRIGLYCERIDE • LAUROYL LYSINE • C15-19 ALKANE • MYRISTYL MYRISTATE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • STEARIC ACID • POTASSIUM CETYL PHOSPHATE • GLYCERYL STEARATE SE • SODIUM HYALURONATE • SODIUM HYDROXIDE • MYRI STIC ACI D • PALMITIC ACID • HYDROLYZED HYALURONIC ACID • CAPRYLOYL GLYCINE • CAPRYLYL GLYCOL • XANTHAN GUM • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE • PARFUM / FRAGRANCE"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/3337875731638_1.jpg",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/3337875731638_1.jpg",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/3337875731638_1.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/3337875731638_2.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/3337875731638_3.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/hydraphase/light/larocheposayproductskincarehydraphaselight3337875731638atfpimingredientsscience-gr-1200x1200.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/hydraphase/hydraphase-ha-light-enudatikh-krema-proswpou",
-    "source": "larocheposay.gr",
-    "section": "hydraphase",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "3337875911184": {
     "name": "Kerium Ds Anti-Dandruff Intensive Σαμπουάν για Πιτυρίδα-Φαγούρα",
     "subtitle": "Σαμπουάν μικροαπολέπισης",
@@ -3347,52 +2993,6 @@ window.LRP_OVERRIDES = {
     "url": "https://www.larocheposay.gr/kerium/kerium-ds-anti-dandruff-intensive-sampouan-gia-piturida-fagoura",
     "source": "larocheposay.gr",
     "section": "kerium",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337875930048": {
-    "name": "Lipikar Baume AP+Max Ενυδατικό Balm για Ξηρό & Ατοπικό Δέρμα",
-    "subtitle": "Balm τριπλής δράσης 72 ωρών, για το πολύ ξηρό έως ατοπικό δέρμα με τάση εκζέματος. Ελέγχει τον κνησμό. Ανακουφίζει αμέσως το ξηρό δέρμα. Δράση κατά της υποτροπής: καλύτερη ποιότητα ζωής, μέρα & νύχτα.",
-    "description": "Balm τριπλής δράσης 72 ωρών, για το πολύ ξηρό έως ατοπικό δέρμα με τάση εκζέματος. Ελέγχει τον κνησμό. Ανακουφίζει αμέσως το ξηρό δέρμα. Δράση κατά της υποτροπής: καλύτερη ποιότητα ζωής, μέρα & νύχτα. Balm τριπλής δράσης για αναπλήρωση των λιπιδίων και αποτελεσματικότητα 72 ωρών*. Μειώνει την αίσθηση κνησμού. Ελέγχει τον κνησμό για 24 ώρες**. Περιορίζει τη συχνότητα και την ένταση του κνησμού σύμφωνα με κλίμακα βαθμολόγησης της ξηρότητας. Κατάλληλο για βρέφη, παιδιά και ενήλικες με πολύ ξηρό έως ατοπικό δέρμα με τάση εκζέματος. Δοκιμασμένο σε όλους τους φωτότυπους. Δερματολογικά & παιδιατρικά ελεγμένο.",
-    "claims": [],
-    "highlights": [
-      "Balm τριπλής δράσης για αναπλήρωση των λιπιδίων και αποτελεσματικότητα 72 ωρών*. Μειώνει την αίσθηση κνησμού.",
-      "Ελέγχει τον κνησμό για 24 ώρες**.",
-      "Περιορίζει τη συχνότητα και την ένταση του κνησμού σύμφωνα με κλίμακα βαθμολόγησης της ξηρότητας.",
-      "Κατάλληλο για βρέφη, παιδιά και ενήλικες με πολύ ξηρό έως ατοπικό δέρμα με τάση εκζέματος. Δοκιμασμένο σε όλους τους φωτότυπους. Δερματολογικά & παιδιατρικά ελεγμένο."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "200ml, 400ml",
-      "Σειρά": "LIPIKAR",
-      "Συσκευασία": "200ml",
-      "Κατηγορία larocheposay.gr": "LIPIKAR"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Balm τριπλής δράσης για αναπλήρωση των λιπιδίων και αποτελεσματικότητα 72 ωρών*. Μειώνει την αίσθηση κνησμού.\n• Ελέγχει τον κνησμό για 24 ώρες**.\n• Περιορίζει τη συχνότητα και την ένταση του κνησμού σύμφωνα με κλίμακα βαθμολόγησης της ξηρότητας.\n• Κατάλληλο για βρέφη, παιδιά και ενήλικες με πολύ ξηρό έως ατοπικό δέρμα με τάση εκζέματος. Δοκιμασμένο σε όλους τους φωτότυπους. Δερματολογικά & παιδιατρικά ελεγμένο.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Απλώστε σε όλο το πρόσωπο και το σώμα.\nΠΟΤΕ: Χρησιμοποιήστε 1 φορά την ημέρα, πρωί ή βράδυ.\nΠΟΥ: Εφαρμόστε σε πρόσωπο και σώμα.\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Κάντε απαλό μασάζ. Για καλύτερα αποτελέσματα, συνδυάστε με το LIPIKAR Syndet AP+ για τον καθαρισμό.",
-      "Συστατικά": "INCI: AQUA / WATER • BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER • GLYCERIN • DIMETHICONE • NIACINAMIDE • CETEARYL ALCOHOL • BRASSICA CAMPESTRIS SEED OIL / RAPESEED SEED OIL • GLYCERYL STEARATE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • PEG-100 STEARATE • PROPANEDIOL • OPHIOPOGON JAPONICUS ROOT EXTRACT • PISUM SATIVUM EXTRACT / PEA EXTRACT • SORBITAN TRISTEARATE • DIMETHICONOL • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM CHLORIDE • CYCLODEXTRIN • MANNOSE • COCO-BETAINE • DISODIUM EDTA • CAPRYLOYL GLYCINE • CAPRYLYL GLYCOL • VITREOSCILLA FERMENT • MALTODEXTRIN • XANTHAN GUM • TOCOPHEROL • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE Y70067504/1"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/larocheposayproductskincarelipikarbalmapmax200ml3337875930048atfpimpackshotfront-1.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/larocheposayproductskincarelipikarbalmapmax200ml3337875930048atfpimpackshotfront-1.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/larocheposayproductskincarelipikarbalmapmax400ml3337875930239atfpimpackshotfront.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/larocheposayproductskincarelipikarbalmapmax200ml3337875930048atfpimpackshotfront-1.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/larocheposayproductskincarelipikarbalmapmax400ml3337875930239atfpimtexture.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_2.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_3.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_4.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_5.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_6.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_7.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-_pdp_intro_desktop_8.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_9.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_11.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/lipikar/lipikar-baume-apmax/lipikar-ap-plus-max-baume/gallery/la-roche-posay-lipikar-ap-max-pdp_intro_desktop_10.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/lipikar/lipikar-baume-ap-plus-max-enudatiko-balm-gia-kshro-atopiko-derma",
-    "source": "larocheposay.gr",
-    "section": "lipikar",
     "matchType": "exact",
     "score": null,
     "review": false
@@ -4317,42 +3917,6 @@ window.LRP_OVERRIDES = {
       "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/toleriane-dermallergo-fluid/lrp-toleriane-dermallergo-fluid-front-packshot-fss.png"
     ],
     "url": "https://www.larocheposay.gr/toleriane/toleriane-dermallergo-fluide-krema-proswpou-gia-allergiko-derma",
-    "source": "larocheposay.gr",
-    "section": "toleriane",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3337872411830": {
-    "name": "Toleriane Dermonettoyant Γαλάκτωμα Καθαρισμού",
-    "subtitle": "Καθημερινή λοσιόν καθαρισμού και ντεμακιγιάζ για το ξηρό, ευαίσθητο έως δυσανεκτικό δέρμα",
-    "description": "Καθημερινή λοσιόν καθαρισμού και ντεμακιγιάζ για το ξηρό, ευαίσθητο έως δυσανεκτικό δέρμα Λοσιόν καθαρισμού προσώπου και αφαίρεσης του μακιγιάζ. Μπορείτε είτε να το ξεβγάλετε, είτε να το αφαιρέσετε με βαμβάκι ή χαρτομάντηλο. Υψηλή ανοχή. Χωρίς συντηρητικά.",
-    "claims": [],
-    "highlights": [
-      "Λοσιόν καθαρισμού προσώπου και αφαίρεσης του μακιγιάζ.",
-      "Μπορείτε είτε να το ξεβγάλετε, είτε να το αφαιρέσετε με βαμβάκι ή χαρτομάντηλο.",
-      "Υψηλή ανοχή. Χωρίς συντηρητικά."
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml",
-      "Σειρά": "TOLERIANE",
-      "Βασικά συστατικά": "ΓΛΥΚΕΡΙΝΗ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
-      "Συσκευασία": "400ml",
-      "Κατηγορία larocheposay.gr": "TOLERIANE"
-    },
-    "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Λοσιόν καθαρισμού προσώπου και αφαίρεσης του μακιγιάζ.\n• Μπορείτε είτε να το ξεβγάλετε, είτε να το αφαιρέσετε με βαμβάκι ή χαρτομάντηλο.\n• Υψηλή ανοχή. Χωρίς συντηρητικά.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι\nΠΟΤΕ: Πρωί ή/και βράδυ\nΠΟΥ: Πρόσωπο, λαιμό και ντεκολτέ\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Εφαρμόστε κάνοντας απαλό μασάζ με τα δάχτυλά σας, με ελαφριές, κυκλικές κινήσεις. Ταμπονάρετε απαλά, χωρίς να τρίβετε. Το ξέβγαλμα είναι προαιρετικό.",
-      "Συστατικά": "ΓΛΥΚΕΡΙΝΗ: Συστατικό με ισχυρή ενυδατική δράση. Έλκοντας το βάρος της σε νερό στην εξωτερική στιβάδα του δέρματος, καταπολεμά την ξηρότητα και την αποφολίδωση αφήνοντας την επιδερμίδα λεία και ενυδατωμένη για μέρες.\nΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει το δέρμα. Μειώνει την ερυθρότητα και τον ερεθισμό.\nINCI: AQUA / WATER • ETHYLHEXYL PALMITATE • GLYCERIN • DIPROPYLENE GLYCOL • CARBOMER • SODIUM HYDROXIDE • CAPRYL GLYCOL / CAPRYLYL GLYCOL • ETHYLHEXYLGLYCERINΔεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης"
-    },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-400ml-3337872411830-front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-400ml-3337872411830-front.png",
-    "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-400ml-3337872411830-front.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-400ml-3337872411830-back.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-400ml-3337872411830.jpg"
-    ],
-    "url": "https://www.larocheposay.gr/toleriane/toleriane-dermonettouant-galaktwma-katharismou",
     "source": "larocheposay.gr",
     "section": "toleriane",
     "matchType": "exact",

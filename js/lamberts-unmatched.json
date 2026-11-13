@@ -1,7 +1,7 @@
 [
   {
     "barcode": "5055148400095",
-    "name": "LAMBERTS Acidophilus Extra 10  30caps",
+    "name": "LAMBERTS Acidophilus Extra 10 30caps",
     "status": "skip",
     "bestScore": -3.7,
     "bestName": "Rosehip 10.000mg",
@@ -9,7 +9,7 @@
   },
   {
     "barcode": "5055148411541",
-    "name": "LAMBERTS Acidophilus Extra 10  60caps",
+    "name": "LAMBERTS Acidophilus Extra 10 60caps",
     "status": "skip",
     "bestScore": -3.7,
     "bestName": "Rosehip 10.000mg",
@@ -57,7 +57,7 @@
   },
   {
     "barcode": "5055148411657",
-    "name": "LAMBERTS Eyewise® Omega 3 High Strength Lutein & Omega 3s & Vitamin D3  60caps",
+    "name": "LAMBERTS Eyewise® Omega 3 High Strength Lutein & Omega 3s & Vitamin D3 60caps",
     "status": "skip",
     "bestScore": -0.8,
     "bestName": "High Potency Omega 3s for Cats and Dogs",
@@ -66,14 +66,6 @@
   {
     "barcode": "5055148404925",
     "name": "LAMBERTS FEMA 45MG*180TABL.",
-    "status": "skip",
-    "bestScore": -5.6,
-    "bestName": "Cranberry Complex",
-    "bestUrl": "https://lamberts.gr/product/cranberry-complex/"
-  },
-  {
-    "barcode": "5055148413132",
-    "name": "LAMBERTS GARLIC 8250MG 60TABS",
     "status": "skip",
     "bestScore": -5.6,
     "bestName": "Cranberry Complex",
@@ -89,7 +81,7 @@
   },
   {
     "barcode": "5000453120268",
-    "name": "LAMBERTS Hawthorn 2500mg  60tabs",
+    "name": "LAMBERTS Hawthorn 2500mg 60tabs",
     "status": "skip",
     "bestScore": -5.6,
     "bestName": "Cranberry Complex",
@@ -99,15 +91,7 @@
     "barcode": "5055148404017",
     "name": "LAMBERTS HER GINKGO BILOBA 6000MG 180TABS",
     "status": "skip",
-    "bestScore": -9.9,
-    "bestName": "Ashwagandha Advance",
-    "bestUrl": "https://lamberts.gr/product/ashwagandha-6000mg/"
-  },
-  {
-    "barcode": "5055148404017",
-    "name": "LAMBERTS HER GINKGO BILOBA 6000MG 180TABS",
-    "status": "skip",
-    "bestScore": -9.9,
+    "bestScore": -9.6,
     "bestName": "Ashwagandha Advance",
     "bestUrl": "https://lamberts.gr/product/ashwagandha-6000mg/"
   },
@@ -130,14 +114,6 @@
   {
     "barcode": "5055148414702",
     "name": "LAMBERTS IMMUNO STRENGTH",
-    "status": "skip",
-    "bestScore": -0.7,
-    "bestName": "Maximum Strength Colladeen",
-    "bestUrl": "https://lamberts.gr/product/maximum-strength-colladeen/"
-  },
-  {
-    "barcode": "5055148405236",
-    "name": "LAMBERTS Imuno - Strength 500ml",
     "status": "skip",
     "bestScore": -0.7,
     "bestName": "Maximum Strength Colladeen",
@@ -192,20 +168,12 @@
     "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
   },
   {
-    "barcode": "5055148411985",
-    "name": "LAMBERTS Multi-Guard® High Potency One-a-Day 30tabs",
-    "status": "skip",
-    "bestScore": -5.7,
-    "bestName": "High Potency Omega 3s for Cats and Dogs",
-    "bestUrl": "https://lamberts.gr/product/high-potency-omega-3s-for-cats-and-dogs/"
-  },
-  {
     "barcode": "5055148414504",
     "name": "LAMBERTS NEURO-GUARD (B1,B6 & B12) 60 TABS",
     "status": "skip",
-    "bestScore": -10.1,
-    "bestName": "Vitamin B12 1000μg",
-    "bestUrl": "https://lamberts.gr/product/vitamin-b12-1000mg/"
+    "bestScore": 0.7,
+    "bestName": "Neuro-Logical Plus",
+    "bestUrl": "https://lamberts.gr/product/neuro-logical-plus/"
   },
   {
     "barcode": "5055148411503",
