@@ -33,6 +33,10 @@ const flag = (k) => args.includes(`--${k}`);
 
 const BRAND = (opt("brand", "") || "").toLowerCase();
 const XLSX = opt("xlsx", null);
+// Γενικός τιμοκατάλογος προμηθευτή (όλες οι εταιρίες, π.χ. Medica.tsv): τιμές ανά barcode για ΟΛΑ τα προϊόντα
+// (και τα listed:false από το site). Υπερισχύει των τιμών του --xlsx (νεότερος).
+const PRICES = opt("prices", null);
+const PRICES_COLS = opt("prices-cols", "idx,barcode,code,name,retail,wholesale").split(",").map(s => s.trim());
 // Προεπιλεγμένη διάταξη στηλών ανά brand (τα Excel Frezyderm/Lamberts δεν έχουν στήλη κωδικού)
 const DEFAULT_COLS = { frezyderm: "barcode,name,retail,wholesale,variants", lamberts: "barcode,name,retail,wholesale,variants" };
 const COLS = opt("cols", DEFAULT_COLS[(opt("brand", "") || "").toLowerCase()] || "code,barcode,name,retail,wholesale,variants").split(",").map(s => s.trim());
@@ -151,6 +155,8 @@ async function main() {
   // Προϊόντα του brand site που λείπουν από τον τιμοκατάλογο: μπαίνουν χωρίς τιμές
   // (listed:false), με barcode το GTIN της σελίδας, ώστε το match να είναι ακριβές.
   let fromSite = 0;
+  const siteUrlOf = new Map();        // EAN/κλειδί προϊόντος site → URL σελίδας
+  const manualBcOfUrl = new Map();    // URL σελίδας → barcode τιμοκαταλόγου από js/<brand>-manual-matches.json
   if (WITH_SITE) {
     let site = [];
     try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
@@ -163,6 +169,7 @@ async function main() {
     try { manual = JSON.parse(await fs.readFile(path.join(ROOT, `js/${BRAND}-manual-matches.json`), "utf8")); } catch {}
     const normUrl = u => String(u || "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
     const siteByUrl = new Map(site.map(sp => [normUrl(sp.url), sp]));
+    for (const [bc, u] of Object.entries(manual)) if (u && !bc.startsWith("_")) manualBcOfUrl.set(normUrl(u), bc);   // για --prices χωρίς --xlsx
     const sizeOf = s => { const m = String(s || "").match(/(\d{1,4}(?:[.,]\d+)?)\s?(ml|gr|g|kg|l|τμχ|caps|tabs)\b/i); return m ? (m[1].replace(",", ".") + m[2].toLowerCase().replace("gr", "g")).replace(/^(\d+)l$/, "$1000ml") : null; };
     let aliased = 0;
     for (const p of products) {
@@ -200,6 +207,7 @@ async function main() {
         known.add(g);
         const nm = size && !new RegExp(size.replace(/\s+/g, "\\s*"), "i").test(name) ? `${name} ${size}` : name;
         products.push({ barcode: g, name: nm, retail: 0, wholesale: 0, variants: [g], listed: false });
+        siteUrlOf.set(g, sp.url);
         fromSite++;
       }
     }
@@ -209,6 +217,37 @@ async function main() {
   }
   for (const d of dupes) console.log(`  διπλό ${d.barcode}: κράτησα λιανική/χονδρική ${d.kept}, αγνόησα ${d.dropped}`);
   if (excluded.length) { const by = {}; for (const e of excluded) by[e.rule] = (by[e.rule] || 0) + 1; console.log(`  εκτός με κανόνες ονόματος (js/${BRAND}-exclusions.json): ${excluded.length} — ` + Object.entries(by).map(([k, v]) => `${k} ${v}`).join(", ")); }
+  // --prices: τιμές από γενικό τιμοκατάλογο προμηθευτή, με barcode (ή variant/EAN σελίδας)
+  if (PRICES) {
+    const prows = await readSheet(path.resolve(ROOT, PRICES));
+    const pget = (r, name) => r[colLetter(PRICES_COLS.indexOf(name))] ?? "";
+    const byBc = new Map();
+    for (const r of prows) {
+      const bc = String(pget(r, "barcode")).replace(/\D/g, "").replace(/^0(?=\d{13}$)/, "");
+      if (!isBarcode(bc)) continue;
+      const retail = num(pget(r, "retail")), wholesale = num(pget(r, "wholesale"));
+      if (!(retail > 0) && !(wholesale > 0)) continue;
+      if (!byBc.has(bc)) byBc.set(bc, { retail, wholesale, code: String(pget(r, "code") || "").trim(), name: String(pget(r, "name") || "").trim() });
+    }
+    let priced = 0, newly = 0, changed = 0;
+    for (const p of products) {
+      const bcs = [p.barcode, ...(p.variants || [])].map(b => String(b).replace(/^0(?=\d{13}$)/, ""));
+      let hit = bcs.map(b => byBc.get(b)).find(Boolean);
+      if (!hit) {
+        // Σελίδες χωρίς EAN (Apivita): το barcode του τιμοκαταλόγου έρχεται από το χειροκίνητο match (barcode → url)
+        const u = siteUrlOf.get(p.barcode);
+        const mbc = u ? manualBcOfUrl.get(String(u).replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase()) : null;
+        if (mbc && byBc.get(mbc.replace(/^0(?=\d{13}$)/, ""))) { hit = byBc.get(mbc.replace(/^0(?=\d{13}$)/, "")); if (!p.variants.includes(mbc)) p.variants.push(mbc); }
+      }
+      if (!hit) continue;
+      priced++;
+      if (!(p.retail > 0)) newly++; else if (Math.abs(p.retail - hit.retail) > 0.005 || Math.abs(p.wholesale - hit.wholesale) > 0.005) changed++;
+      p.retail = hit.retail; p.wholesale = hit.wholesale; p.listed = true; p.priceSource = path.basename(PRICES);
+      if (hit.code) p.supplierCode = hit.code;
+      if (hit.name && !p.supplierName) p.supplierName = hit.name;
+    }
+    console.log(`  τιμές από ${path.basename(PRICES)} (${byBc.size} barcodes): ${priced} προϊόντα με τιμή (${newly} νέες, ${changed} αλλαγμένες)`);
+  }
   const fixed = products.filter(p => /È/.test(p.name)).length;
   if (fixed) console.log(`  διορθώθηκε κωδικοποίηση (CRÈME) σε ${fixed} ονόματα`);
   if (DRY) { for (const p of products) console.log(`  ${p.barcode} ${p.name} | ${p.retail} / ${p.wholesale} | ${p.variants.join(",")}`); return; }
