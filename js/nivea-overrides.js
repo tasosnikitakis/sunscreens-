@@ -28,10 +28,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Αφήστε αυτό το ακαταμάχητο κρεμώδες shower, με πολύτιμο Shea butter, να αγκαλιάσει την επιδερμίδας με τον απαλό αφρό και το ξεχωριστό του άρωμα. Η περιποιητική του σύνθεση προσφέρει χαλάρωση σε σώμα και πνεύμα, αφήνοντας στην επιδερμίδα σας αίσθηση μεταξένιας απαλότητας.",
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε και κάντε απαλό μασάζ. Ξεβγάλετε με νερό."
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=981F48F67573E19A12954296BF32C8B6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=981F48F67573E19A12954296BF32C8B6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/5/9/2/151616-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=981F48F67573E19A12954296BF32C8B6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/creme-smooth-40059001652750044.html",
     "source": "nivea.gr",
@@ -70,10 +70,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντουζ: Κάντε ένα ντουζ σε όλο το σώμα. Με μία πετσέτα, στεγνώστε απαλά την επιδερμίδα σας.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε πλούσια ποσότητα από τη λοσιόν σώματος, κάνοντας απαλό μασάζ στην επιδερμίδα\nΒήμα 3 – Απορρόφηση: Αφήστε τη λοσιόν να απορροφηθεί\nΒήμα 4 – Επανεφαρμογή: Εφαρμόστε ξανά τη λοσιόν σώματος στα σημεία που είναι ιδιαίτερα ξηρά",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Cetearyl Alcohol, Ethylhexyl Cocoate, Glyceryl Stearate SE, Butyrospermum Parkii Butter, Isopropyl Palmitate, Macadamia Integrifolia Seed Oil, Sodium Hyaluronate, Tocopherol, Helianthus Annuus Seed Oil, Sodium Cetearyl Sulfate, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Xanthan Gum, Trisodium Ethylenediamine Disuccinate, Ethylhexylglycerin, Phenoxyethanol, Linalool, Limonene, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png?db=web&ctx=GR&hash=283A605541C302C2D3EDF1FA2EE46640&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png?db=web&ctx=GR&hash=283A605541C302C2D3EDF1FA2EE46640&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/0/5/7/5521dfba48f9456d9f591d5b14b2537f-online_1180_png.png?db=web&ctx=GR&hash=283A605541C302C2D3EDF1FA2EE46640&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-smooth-sensation-milk-250ml-40058082472330044.html",
     "source": "nivea.gr",
@@ -112,10 +112,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθημερινή Χρήση: Χρησιμοποιήστε καθημερινά πρωί και βράδυ.\nΒήμα 2 – Εφαρμογή: Κάντε απαλό μασάζ σε βρεγμένο πρόσωπο, αποφεύγοντας την περιοχή των ματιών.\nΒήμα 3 – Αφαίρεση: Ξεπλύνετε με χλιαρό νερό.",
       "Συστατικά": "INCI: Aqua, Sodium Cocoamphoacetate, Propylene Glycol, Sodium Laureth Sulfate, Sodium Chloride, Citric Acid, Salicylic Acid, Maris Sal, Niacinamide, Sodium Benzoate"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3D6AED645B13A4EFBA28C1B3EAF3FA38&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3D6AED645B13A4EFBA28C1B3EAF3FA38&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/f/8/4/17592ef8c9a9400c8e56e0c9488aced4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3D6AED645B13A4EFBA28C1B3EAF3FA38&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-derma-skin-clear-gel-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%80%cf%8c%cf%81%cf%89%ce%bd-150ml-40059009745630044.html",
     "source": "nivea.gr",
@@ -149,10 +149,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Απλώστε το ντους τζελ σε όλο το σώμα, πρόσωπο & μαλλιά\nΒήμα 3 – Ξέβγαλμα: Ξεπλυθείτε καλά πριν στεγνώσετε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Lavandula Oil/Extract, Glycerin, Guar Hydroxypropyltrimonium Chloride, Citric Acid, Glycol Distearate, Sodium Benzoate, Hydrogenated Castor Oil, Benzoic Acid, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26C01018E1DA6BACF44E7EAD2CA70274&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26C01018E1DA6BACF44E7EAD2CA70274&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/6/e/3/f4d680ed634b43888993ddc46eb146f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26C01018E1DA6BACF44E7EAD2CA70274&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-total-relax-500ml-40060000684970044.html",
     "source": "nivea.gr",
@@ -189,10 +189,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμόγη: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-14 Butyl Ether, Cetyl Palmitate, Hydrogenated Castor Oil, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Propylene Glycol, Palmitic Acid, Stearic Acid, Parfum, Aluminum Sesquichlorohydrate, C20-40 Alkyl Stearate, Oleth-20, Palmitamidopropyltrimonium Chloride, Steareth-2, Steareth-21, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Pogostemon Cablin Oil, Pinene, Terpineol, Beta-Caryophyllene, Anethole"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=85892767373A36C3722C837C07FB1131&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=85892767373A36C3722C837C07FB1131&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/d/4/9/215a723a09364cf2a71a74cc0622deb7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=85892767373A36C3722C837C07FB1131&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-black-and-white-invisible-original-stick-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-50ml-40060002019000044.html",
     "source": "nivea.gr",
@@ -229,10 +229,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Χρησιμοποιήστε το ως μέρος της καθημερινής πρωινής σας ρουτίνας\nΒήμα 2 – Εφαρμογή: Απλώστε μερικές σταγόνες στις άκρες των δακτύλων σας και κάντε μασάζ με κυκλικές κινήσεις, αφού έχετε καθαρίσει καλά το πρόσωπο. Αποφύγετε την άμεση επαφή με τα μάτια,",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Niacinamide, Glycyrrhiza Inflata Root Extract, Sodium Hyaluronate, Panthenol, Pantolactone, Ceteareth-20, Cellulose Gum, 1,2-Hexanediol, Sodium Chloride, Sodium Sulfate, Citric Acid, Phenoxyethanol, CI 42090, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F02E0DB0D73BDDF877FEB7E820D1E786&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F02E0DB0D73BDDF877FEB7E820D1E786&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/2/a/7/1e19935fb34d4e099f9a1e5409bf76dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F02E0DB0D73BDDF877FEB7E820D1E786&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%bf%cf%81%cf%8c%cf%82-nivea-derma-skin-clear-rebalance-and-clear-40060001158630044.html",
     "source": "nivea.gr",
@@ -267,10 +267,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Oδηγίες: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Συμβατότητα: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, C12-15 Alkyl Benzoate, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Cocoate, Isopropyl Palmitate, Dibutyl Adipate, Glycerin, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Distarch Phosphate, Tapioca Starch, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydroxypropyl Starch Phosphate, Sodium Stearoyl Glutamate, Xanthan Gum, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Cellulose Gum, Sodium Hydroxide, Silica Dimethyl Silylate, Trisodium Ethylenediamine Disuccinate, Hydroxyacetophenone, Ethylhexylglycerin, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DF9807031F4B3B59E89F95A338C2E3EE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DF9807031F4B3B59E89F95A338C2E3EE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/9/6/a/395be6367bb349f29fb74d31084dc2d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DF9807031F4B3B59E89F95A338C2E3EE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-invisible-spf50plus-150ml-40060001328530044.html",
     "source": "nivea.gr",
@@ -304,10 +304,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες χρήσης: Δημιουργήστε αφρό με βρεγμένο πινέλο ή εφαρμόστε την κρέμα απευθείας με απαλό μασάζ σε βρεγμένη επιδερμίδα, αποφεύγοντας την περιοχή των ματιών. Για βέλτιστο αποτέλεσμα, χρησιμοποιήστε στη συνέχεια το NIVEA® MEN HYDROCARE After Shave.",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Stearic Acid, Cocos Nucifera Oil, Potassium Hydroxide, Glycerin, Olea Europaea Fruit Oil, Maris Sal, Aloe Barbadensis Leaf Juice Powder, Panthenol, Pantolactone, Cetearyl Alcohol, Oleic Acid, Arachidic Acid, Lauric Acid, Myristic Acid, Citric Acid, Sodium Hydroxide, Camphor, Tetramethyl Acetyloctahydronaphthalenes, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E5F512D883E0C420C5D17B292998F7A7&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E5F512D883E0C420C5D17B292998F7A7&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/9/1/e/019e870ad6cf71a89fabc9436b966d41-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E5F512D883E0C420C5D17B292998F7A7&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-hydrocare-100ml-40060002023720044.html",
     "source": "nivea.gr",
@@ -340,10 +340,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε απευθείας στην περιοχή της μασχάλης",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Paraffinum Liquidum, Butylene Glycol, Glyceryl Isostearate, Persea Gratissima Oil, PEG-150 Distearate, Linalool, Eugenol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B4EC4B76F2AB8C695CA1C189AB3C56AD&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B4EC4B76F2AB8C695CA1C189AB3C56AD&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/2/e/f/50a542313dd64d18a4b31f2ff1a54fdc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B4EC4B76F2AB8C695CA1C189AB3C56AD&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-sensation-roll-on-40060000165040044.html",
     "source": "nivea.gr",
@@ -375,10 +375,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: ΕΦΑΡΜΟΓΗ: Ανακινήστε πολύ καλά πριν τη χρήση. Εφαρμόστε σε ένα βαμβάκι και καθαρίστε απαλά την περιοχή των ματιών.",
       "Συστατικά": "INCI: Aqua, Isododecane, C15-19 Alkane, Isopropyl Palmitate, Ethylhexyl Cocoate, Glycerin, Dicaprylyl Ether, Biotin, Centaurea Cyanus Flower Extract, Helianthus Annuus Seed Oil, Tocopherol, Caprylyl/Capryl Glucoside, Sodium Chloride, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Benzethonium Chloride, CI 60725, CI 61565"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg?db=web&ctx=GR&hash=6A48CCE02FAF0A998B38DD55872E807E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg?db=web&ctx=GR&hash=6A48CCE02FAF0A998B38DD55872E807E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/f/0/4/6/c15b1db51aab4573a299899e2e529660-screen.jpg?db=web&ctx=GR&hash=6A48CCE02FAF0A998B38DD55872E807E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-%ce%bd%cf%84%ce%b5%ce%bc%ce%b1%ce%ba%ce%b9%ce%b3%ce%b9%ce%ac%ce%b6-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-2-%cf%86%ce%ac%cf%83%ce%b5%cf%89%ce%bd-40059007988860044.html",
     "source": "nivea.gr",
@@ -413,10 +413,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν την χρήση / κρατήστε το δοχείο όρθιο. Απλώστε σε βρεγμένο πρόσωπο και κάντε απαλό μασάζ\nΒήμα 2 – Ξύρισμα: Ξυρίστε απαλά\nΒήμα 3 – Ξέβγαλμα: Ξεπλύνετε με νερό και στεγνώστε\nΒήμα 4 – Μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε το After Shave, NIVEA MEN PROTECT & CARE After Shave 2 σε 1",
       "Συστατικά": "INCI: Water, Isobutane, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Glycerin, Panthenol, Aloe Barbadensis Leaf Juice Powder, Sorbitol, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, PEG-7M, Myristic Acid, Arachidic Acid, Oleic Acid, Potassium Hydroxide, Butane, Propane, Silica, BHT, Piroctone Olamine, Limonene, Linalool"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19ABE9ADDB70D25919B8C6C74EBBE208&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19ABE9ADDB70D25919B8C6C74EBBE208&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/d/7/9/4ccaa206f4af4879bf48ee36769597e6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19ABE9ADDB70D25919B8C6C74EBBE208&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/protect-and-care-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-40058082582530044.html",
     "source": "nivea.gr",
@@ -453,10 +453,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμόστε: Απλώστε την κρέμα κάνοντας μασάζ στα χέρια\nΒήμα 2 – Αφήστε το να στεγνώσει: Αφήστε την κρέμα χεριών να απορροφηθεί από την επιδερμίδα",
       "Συστατικά": "INCI: Aqua, Glycerin, Caprylic/Capric Triglyceride, Glyceryl Stearate, Cetyl Alcohol, Myristyl Myristate, Butyrospermum Parkii Butter, Simmondsia Chinensis Seed Oil, Tocopherol, Ethylhexylglycerin, Glyceryl Stearate Citrate, Tapioca Starch, Carbomer, Dimethicone, Potassium Sorbate, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=74995428DAC61B92A44EE08633FEDF46&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=74995428DAC61B92A44EE08633FEDF46&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/3/3/c/8d897283765c40b8928749199d5b3805-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=74995428DAC61B92A44EE08633FEDF46&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-care-and-protect-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%87%ce%b5%cf%81%ce%b9%cf%8e%ce%bd-40059008591050044.html",
     "source": "nivea.gr",
@@ -491,10 +491,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε καθαρό πρόσωπο.\nΒήμα 2 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια\nΒήμα 3 – Για καλύτερα αποτελέσματα: ΕΝΙΣΧΥΣΤΕ ΤΗΝ ΑΝΤΙΡΥΤΙΔΙΚΗ ΣΑΣ ΡΟΥΤΙΝΑ Βήμα 1: Ορός Dual-Action Βήμα 2: Κρέμα Ματιών Power Βήμα 3: Κρέμα Power Βήμα 4: Στοχευμένος Ορός Wrinkle Filler",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyrospermum Parkii Butter, Cetearyl Alcohol, Methylpropanediol, Glyceryl Stearate SE, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Cocoglycerides, Phenylbenzimidazole Sulfonic Acid, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glyceryl Stearate, Ubiquinone, Acetyl Hydroxyproline, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Tocopheryl Acetate, Ethylhexylglycerin, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C04AF28F99B36C3C02BA426069B33F1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C04AF28F99B36C3C02BA426069B33F1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/c/f/d/7ca1db29d48c42a1a0efd85c674a0c03-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C04AF28F99B36C3C02BA426069B33F1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-q10-power-40059006760230044.html",
     "source": "nivea.gr",
@@ -530,10 +530,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Τοποθετήστε μια μικρή ποσότητα τζελ στις παλάμες σας και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο.\nΒήμα 2 – Ξύρισμα: Ξυρίστε με απαλές κινήσεις\nΒήμα 3 – Καθαρισμός: Ξεβγάλτε\nΒήμα 4 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA MEN HYRDROCARE AFTER SHAVE",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Triethanolamine, Oleth-20, Isopentane, Glycerin, Isopropyl Palmitate, Isobutane, Aloe Barbadensis Leaf Juice Powder, Panthenol, Hydroxyethylcellulose, Hydroxypropyl Methylcellulose, Laureth-2, Cetearyl Isononanoate, PEG-90 Glyceryl Isostearate, Disodium Phosphate, Sodium Phosphate, Citric Acid, Sodium Chloride, Sodium Sulfate, Pantolactone, Piroctone Olamine, BHT, Tetramethyl Acetyloctahydronaphthalenes, Parfum, CI 42053"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg?db=web&ctx=GR&hash=465180273ABFFBA9E3047699CB0EEDE3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg?db=web&ctx=GR&hash=465180273ABFFBA9E3047699CB0EEDE3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/2/1/f/7/e610b169ec314bbe828d8e645153cf9c-screen.jpg?db=web&ctx=GR&hash=465180273ABFFBA9E3047699CB0EEDE3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-gel-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-hydrocare-200-ml-40060001710670044.html",
     "source": "nivea.gr",
@@ -569,10 +569,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ: Εφαρμόστε καθημερινά σε καθαρή επιδερμίδα. Απλώστε την ενυδατική σε όλο το πρόσωπο. Χρησιμοποιείτε προϊόντα με κατοχυρωμένο με δίπλωμα ευρεσιτεχνίας THIAMIDOL® το πολύ 2 φορές την ημέρα. Αποφύγετε την άμεση επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Cocoate, Isoamyl Laurate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Cetearyl Alcohol, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Silica, Cocoglycerides, Tapioca Starch, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Behenyl Alcohol, Methylpropanediol, Sodium Hyaluronate, Isobutylamido Thiazolyl Resorcinol, Tocopheryl Acetate, Dehydroxanthan Gum, Sodium Stearoyl Glutamate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Phenoxyethanol, Ethylhexylglycerin, Caprylyl Glycol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62BD3E48AA99313A8B4BF9F1E50FA0A2&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62BD3E48AA99313A8B4BF9F1E50FA0A2&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/0/6/8/6882a4f2add6492c9b35fb52ad33f91a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62BD3E48AA99313A8B4BF9F1E50FA0A2&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-2%cf%83%ce%b51-luminous-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-spf30-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%af%ce%b4%cf%89%ce%bd-50ml-40060000255680044.html",
     "source": "nivea.gr",
@@ -604,10 +604,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία.\nΒήμα 3 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 4 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία.\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 6 – ΠΡΟΣΟΧΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 7 – ΕΦΑΡΜΟΓΗ: Ψεκάστε το προϊόν στις παλάμες σας και στη συνέχεια εφαρμόστε στο μωρό σας.\nΒήμα 8: Αποφύγετε τον άμεσο ψεκασμό\nΒήμα 9 – ΠΡΟΣΟΧΗ: Να φοράτε στο μωρό σας προστατευτικά ρούχα και να χρησιμοποιείτε επαρκές αντηλιακό για τις μη προστατευμένες περιοχές.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Glycerin, Phenylbenzimidazole Sulfonic Acid, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Microcrystalline Cellulose, Cellulose Gum, Xanthan Gum, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Sodium Hydroxide, Maltodextrin, Sodium Chloride, Hydroxyacetophenone, Ethylhexylglycerin, Caprylyl Glycol, Trisodium EDTA"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg?db=web&ctx=GR&hash=B97419ED505BA4297D898382A6BEBAE3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg?db=web&ctx=GR&hash=B97419ED505BA4297D898382A6BEBAE3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/8/b/6/3/250572d41bf443b8b843c017d553c969-screen.jpg?db=web&ctx=GR&hash=B97419ED505BA4297D898382A6BEBAE3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-kids-sensitive-spray-spf-50plus-40059008878870044.html",
     "source": "nivea.gr",
@@ -642,10 +642,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Κάνετε απαλό μασάζ στην επιδερμίδα με ένα βαμβακερό δίσκο ντεμακιγιάζ, αποφεύγοντας την περιοχή των ματιών.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Aloe Barbadensis Leaf Juice Powder, Sodium Hyaluronate, Glycerin, Cellulose Gum, Citric Acid, Polyglyceryl-4 Caprate, Caprylyl Glycol, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=87F231A9E681CE6CFDC1132A66CF71AB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=87F231A9E681CE6CFDC1132A66CF71AB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/1/1/5/20367056ecad46b69ef7091f5825c47d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=87F231A9E681CE6CFDC1132A66CF71AB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%cf%84%ce%bf%ce%bd%cf%89%cf%84%ce%b9%ce%ba%ce%ae-%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-%ce%ba%2f%ce%bc-40060002594990044.html",
     "source": "nivea.gr",
@@ -682,10 +682,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Για καλύτερα αποτελέσματα, εφαρμόστε την κρέμα σώματος καθημερινά σε όλο το σώμα.",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, Glyceryl Stearate, Cetyl Alcohol, Caprylic/Capric Triglyceride, Glyceryl Stearate SE, Phenoxyethanol, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Parfum, Caprylyl Glycol, Butyrospermum Parkii Butter, Sodium Cetearyl Sulfate, Trisodium EDTA, Linalool, Limonene, Citrus Limon Peel Oil, Linalyl Acetate, Citrus Aurantium Peel Oil, Sodium Hyaluronate, Benzyl Alcohol, Terpineol, Pinene, Alpha-Isomethyl Ionone, Dimethyl Phenethyl Acetate"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A0CF0588E3005F06E9288037592505&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A0CF0588E3005F06E9288037592505&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/4/c/1/019e6e85e2357cc394d79832687795e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A0CF0588E3005F06E9288037592505&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-smooth-sensation-cream-jar-400ml-40058087805560044.html",
     "source": "nivea.gr",
@@ -720,10 +720,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε και κάνετε απαλό μασάζ\nΒήμα 3 – Αφρόλουτρο: Απλώστε το αφρόλουτρο στην επιδερμίδα σας\nΒήμα 4 – Μπάνιο: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycol Distearate, PEG-7 Glyceryl Cocoate, Glycerin, Sodium Chloride, Laureth-4, Citric Acid, PEG-40 Hydrogenated Castor Oil, PEG-200 Hydrogenated Glyceryl Palmate, Sodium Benzoate, Benzyl Alcohol, Limonene"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FC928DADE0715D4D853BC2D685DFE8A6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FC928DADE0715D4D853BC2D685DFE8A6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/b/a/3/b3b62180a9874921b19089f657b82a34-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FC928DADE0715D4D853BC2D685DFE8A6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/soft-care-shower-coconut-and-jojoba-oil-40059005559150044.html",
     "source": "nivea.gr",
@@ -762,10 +762,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καλύτερα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, PEG-150 Distearate, Propylene Glycol, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, Tocopherol, Citric Acid, Citronellol, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Alpha-Isomethyl Ionone, Terpineol, Benzyl Alcohol, Geranyl Acetate, Geraniol, Hydrogenated Palm Glycerides Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4F9EEAB6D30CC871A9CCFF37F06B42EA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4F9EEAB6D30CC871A9CCFF37F06B42EA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/0/8/d/9d50b22ffd4a4c4bbd6ec238bf00c892-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4F9EEAB6D30CC871A9CCFF37F06B42EA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-black-and-white-ultimate-impact-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059007302990044.html",
     "source": "nivea.gr",
@@ -801,10 +801,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Μασάζ: Καθημερινό απαλό μασάζ\nΒήμα 2 – Στοχευμένες Περιοχές: Μία και μόνο εφαρμογή την ημέρα είναι αρκετή",
       "Συστατικά": "INCI: Caprylic/Capric Triglyceride, Isopropyl Palmitate, Ethylhexyl Stearate, Isobutylamido Thiazolyl Resorcinol, Tocopherol, Helianthus Annuus Seed Oil, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=358171E93941D3A276A9EF90CBBA1CE3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=358171E93941D3A276A9EF90CBBA1CE3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/9/c/9/8a062ecfb3634cc4b9ab1d28773bcbc8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=358171E93941D3A276A9EF90CBBA1CE3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/luminous630%c2%ae-anti-stretch-mark-body-oil-serum-40060000436780044.html",
     "source": "nivea.gr",
@@ -839,10 +839,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Νέα NIVEA Cellular Epigenetics Rejuvenating Night Care: Κλινικά αποδεδειγμένη ότι αντιστρέφει τα σημάδια γήρανσης μέσα σε 2 εβδομάδες. 3 Τύποι Υαλουρονικού Οξέος: Ενισχύουν την επιδερμίδα με ενυδάτωση που διαρκεί για μεγάλο χρονικό διάστημα. Προβιταμίνη Β5: Επανορθώνει και καταπραΰνει την επιδερμίδα κατά τη διάρκεια της νύχτας. ¹ Αυτοαξιολόγηση από 53 γυναίκες, 2025. ² Αυτοαξιολόγηση από 104 γυναίκες, 2025. ³ Κλινική μελέτη σε 32 γυναίκες, 2025.",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyrospermum Parkii Butter, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Cocoglycerides, Hydrogenated Coco-Glycerides, Methylpropanediol, Glyceryl Stearate Citrate, Glyceryl Stearate, Origanum Majorana Leaf Extract, Sodium Hyaluronate, Sodium Acetylated Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Panthenol, Folic Acid, Magnolia Officinalis Bark Extract, Pantolactone, Squalane, Ethylhexylglycerin, Caprylyl Glycol, Pentylene Glycol, Xanthan Gum, Maltodextrin, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DAC62274857CC984C75A09C06DA86194&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DAC62274857CC984C75A09C06DA86194&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/6/7/3/81b1da71efba4ab28da3e861ca39e698-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DAC62274857CC984C75A09C06DA86194&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-epigenetics-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%bd%cf%8d%cf%87%cf%84%ce%b1%cf%82-50ml-90058004037620044.html",
     "source": "nivea.gr",
@@ -878,10 +878,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε την επιδερμίδα σας αφαιρώντας μακιγιάζ και ρύπους\nΒήμα 2 – Φροντίδα: Εφαρμόστε κάθε πρωί κάνοντας απαλό μασάζ στην επιδερμίδα σας\nΒήμα 3 – Καλύτερα αποτελέσματα: Ολοκληρώστε τη ρουτίνα σας με την κρέμα νύχτας",
       "Συστατικά": "INCI: Aqua, Glycerin, Ethylhexyl Salicylate, C12-15 Alkyl Benzoate, Methylpropanediol, Cetearyl Alcohol, Glyceryl Stearate Citrate, Butyl Methoxydibenzoylmethane, Caprylic/Capric Triglyceride, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Phenylbenzimidazole Sulfonic Acid, Calcium Pantothenate, Butyrospermum Parkii Butter, Argania Spinosa Kernel Oil, Creatine, 1-Methylhydantoin-2-Imide, Ubiquinone, Tocopherol, Vitis Vinifera Seed Oil, Ethylhexylglycerin, Caprylyl Glycol, Xanthan Gum, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B07584007A70627CB27AF52AAD4799F5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B07584007A70627CB27AF52AAD4799F5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/3/2/f/d879869862844b448be787ad207c3b73-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B07584007A70627CB27AF52AAD4799F5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b1%ce%bd%ce%b1%ce%b6%cf%89%ce%bf%ce%b3%cf%8c%ce%bd%ce%b7%cf%83%ce%b7%cf%82-55plus-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-50ml-40060000443610044.html",
     "source": "nivea.gr",
@@ -913,10 +913,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Alcohol Denat., Caprylic/Capric Triglyceride, C12-15 Alkyl Benzoate, Butylene Glycol Dicaprylate/Dicaprate, Dibutyl Adipate, Ethylhexyl Salicylate, Glycerin, Butyl Methoxydibenzoylmethane, Dicaprylyl Carbonate, Acrylates/Octylacrylamide Copolymer, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycyrrhetinic Acid, Tocopheryl Acetate, Tocopherol, Aqua, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Ethyl Benzoate, Methyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61DD2B0A253CF11E5E4DEBB850224D36&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61DD2B0A253CF11E5E4DEBB850224D36&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/c/6/e/2fe212ada6484077a036f26e03313d8c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61DD2B0A253CF11E5E4DEBB850224D36&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-oil-spray-spf-20-40059001287200044.html",
     "source": "nivea.gr",
@@ -953,10 +953,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν την χρήση και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο.\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN SENSITIVE After Shave Balm.",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Chamomilla Recutita Flower Extract, Panthenol, Tocopheryl Acetate, Maltodextrin, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Propane, Butane, Citric Acid, Pantolactone, Piroctone Olamine, Methylparaben, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=24389E47043FEC0728F19089924C9F88&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=24389E47043FEC0728F19089924C9F88&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/8/a/b/b0d3d66a9d5040d898adf9245e6547c2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=24389E47043FEC0728F19089924C9F88&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-sensitive-200-ml-40060001834660044.html",
     "source": "nivea.gr",
@@ -997,10 +997,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βήμα 1: Εφαρμόστε κάθε πρωί και βράδυ σε καθαρή επιδερμίδα\nΒήμα 2 – Βήμα 2: Ενισχύστε την ρουτίνα αντιγήρανσης εφαρμόζοντας επιπλέον την δική σας επιλογή από τους Ορούς Cellular Λάμψης με Βιταμίνη C και Ορό Cellular Bakuchiol 3-Zone Lifting\nΒήμα 3 – Βήμα 3: Το πρωί εφαρμόστε προϊόντα πρωινής περίποιησης Cellular, τη νύχτα Cellular περιποίησης νυκτός.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., PEG-40 Hydrogenated Castor Oil, Sodium Hyaluronate, Aloe Barbadensis Leaf Juice Powder, Cocoglycerides, 1,2-Hexanediol, Xanthan Gum, Phenoxyethanol, Citronellol, Geraniol, Hexyl Cinnamal, Limonene, Linalool, Citrus Aurantium Peel Oil, Dimethyl Phenethyl Acetate, Terpineol, Linalyl Acetate, Geranyl Acetate, Citrus Limon Peel Oil, Amyl Salicylate, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC6D1D99F876CCA3D03A4957AE53DC87&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC6D1D99F876CCA3D03A4957AE53DC87&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/6/9/b/ea8a597b208e4731ae2f2a2c743ae935-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC6D1D99F876CCA3D03A4957AE53DC87&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/expert-filler-cellular-hyaluron-%ce%bf%cf%81%cf%8c%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac%cf%82-%cf%8c%ce%b3%ce%ba%ce%bf%cf%85-40060001550670044.html",
     "source": "nivea.gr",
@@ -1038,10 +1038,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 3 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Benzyl Alcohol, Linalyl Acetate, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Citronellol, Alpha-Isomethyl Ionone, Limonene, Pogostemon Cablin Oil, Citrus Aurantium Peel Oil, Pinene, Citrus Limon Peel Oil, Vanillin, Geranyl Acetate, Rose Ketones, Citrus Aurantium Bergamia Peel Oil, Beta-Caryophyllene, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=88FA4304DF1A1B177E7E5434D0E94244&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=88FA4304DF1A1B177E7E5434D0E94244&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/8/3/8/046f730727674c08a9207538f9defd0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=88FA4304DF1A1B177E7E5434D0E94244&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-invisible-original-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-40059003886120044.html",
     "source": "nivea.gr",
@@ -1078,10 +1078,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "NIVEA Νερό Micellar με Ροδόνερο, με 5% Ορό, συμπυκνωμένο ροδόνερο, βιταμίνη E & σύμπλεγμα αμινοξέων αφαιρεί το αδιάβροχο μακιγιάζ, τους ρύπους, τις βρωμιές & τα φίλτρα SPF, χωρίς να αφήνει υπολείμματα λιπαρότητας.",
       "Συστατικά": "INCI: Aqua, Isododecane, Glycerin, C15-19 Alkane, Rosa Damascena Flower Water, Tocopheryl Acetate, Arginine HCl, Coco-Caprylate/Caprate, Isopropyl Palmitate, Caprylyl/Capryl Glucoside, Sodium Chloride, Sorbic Acid, Sodium Sulfate, Trisodium EDTA, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Benzethonium Chloride, Linalyl Acetate, Citrus Aurantium Peel Oil, Geraniol, Citronellol, Linalool, Limonene, Parfum, CI 16035, CI 61570"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A4798AAF25B03F33EEECC2F5CB2AE80&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A4798AAF25B03F33EEECC2F5CB2AE80&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/4/c/c/dd805639bfbf40619dc64374eeeb23f3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A4798AAF25B03F33EEECC2F5CB2AE80&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%bd%ce%b5%cf%81%cf%8c-micellar-%ce%bc%ce%b5-%cf%81%ce%bf%ce%b4%cf%8c%ce%bd%ce%b5%cf%81%ce%bf-40060002057310044.html",
     "source": "nivea.gr",
@@ -1117,10 +1117,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν τη χρήση και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN SENSITIVE After Shave Balm.",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Glycyrrhiza Inflata Root Extract, Chamomilla Recutita Flower Extract, Panthenol, Maltodextrin, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Sodium Chloride, Sodium Sulfate, Pantolactone, Propane, Butane, Citric Acid, Piroctone Olamine, Parfum, CI 42090, CI 10316"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61ED9469976309E0F0A718199267B229&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61ED9469976309E0F0A718199267B229&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/b/9/4/a23d5a9dc83346f0b57d8ae583bededc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=61ED9469976309E0F0A718199267B229&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/sensitive-recovery-shaving-foam-nivea-men-200-ml-59000170611840044.html",
     "source": "nivea.gr",
@@ -1156,10 +1156,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε και κάνετε απαλό μασάζ\nΒήμα 3 – Αφρόλουτρο: Απλώστε το αφρόλουτρο στην επιδερμίδα σας\nΒήμα 4 – Μπάνιο: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Glycerin, Glycol Distearate, Citric Acid, Sodium Chloride, Laureth-4, Cellulose, Cellulose Gum, Tocopherol, Sodium Benzoate, Benzoic Acid, Linalool, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F47E895FA4DCB924C57A40A4EEC6E69C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F47E895FA4DCB924C57A40A4EEC6E69C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/2/a/e/fa0369d7a6ff41c0a630491193c0becb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F47E895FA4DCB924C57A40A4EEC6E69C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-active-clean-40059001234660044.html",
     "source": "nivea.gr",
@@ -1195,10 +1195,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακίνηση: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Εφαρμογή: Απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο\nΒήμα 3 – Προσοχή: Αποφύγετε την επαφή με τα μάτια\nΒήμα 4 – Ξύρισμα: Ξυρίστε με απαλές κινήσεις",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Charcoal Powder, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Propane, Butane, Piroctone Olamine, Limonene, Linalool, Terpineol, Parfum, CI 77268:1"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B88F49CA60D85DAFFEB5B07CBB0DC451&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B88F49CA60D85DAFFEB5B07CBB0DC451&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/4/a/d/667f857e718443afa161425f4640aa4d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B88F49CA60D85DAFFEB5B07CBB0DC451&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-deep-200ml-59000170618940044.html",
     "source": "nivea.gr",
@@ -1232,10 +1232,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε απαλά σε βρεγμένο πρόσωπο και λαιμό κάνοντας μασάζ με κυκλικές κινήσεις, αποφεύγοντας την περιοχή των ματιών.\nΒήμα 2 – Αφαίρεση: Ξεβγάλετε με ζεστό νερό.",
       "Συστατικά": "INCI: Aqua, Glycerin, Coco-Glucoside, Coco-Betaine, Dehydroxanthan Gum, Rosa Damascena Flower Water, Tocopheryl Acetate, Sodium Chloride, Citric Acid, PEG-40 Hydrogenated Castor Oil, Sodium Benzoate, Potassium Sorbate, Sorbic Acid, Citrus Aurantium Peel Oil, Linalool, Citronellol, Geraniol, Limonene, Tetramethyl Acetyloctahydronaphthalenes, Methyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CAABAF2BD5F553E590AEAA9FEB5026D6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CAABAF2BD5F553E590AEAA9FEB5026D6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/d/6/0/ec5683afe8c347a493bb5b700e54c544-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CAABAF2BD5F553E590AEAA9FEB5026D6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/gel-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-rose-care-150ml-40059007299410044.html",
     "source": "nivea.gr",
@@ -1273,10 +1273,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακίνηση: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Ψέκαστε: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 3 – Στέγνωμα: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Hydrolyzed Pearl, Glycerin, Disteardimonium Hectorite, Octyldodecanol, Propylene Carbonate, Aqua, Tocopherol, Potassium Sorbate, Sorbic Acid, Linalool, Benzyl Salicylate, Benzyl Alcohol, Tetramethyl Acetyloctahydronaphthalenes, Linalyl Acetate, Juniperus Virginiana Oil, Trimethylcyclopentenyl Methylisopentenol, Benzaldehyde, Rose Ketones, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=68A4E025680E6E43A09FC4733F72047D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=68A4E025680E6E43A09FC4733F72047D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/2/0/4/38b8701927a946a5934266c76ebdf9b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=68A4E025680E6E43A09FC4733F72047D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-floral-moon-le-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-59000171061510044.html",
     "source": "nivea.gr",
@@ -1314,10 +1314,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καθαρίστε σχολαστικά το σώμα σας.\nΒήμα 2 – Στεγνώστε την επιδερμίδα: Στεγνώστε απαλά με μια πετσέτα.\nΒήμα 3 – Εφαρμογή: Εφαρμόστε το γαλάκτωμα σώματος και κάντε απαλό μασάζ μέχρι να απορροφηθεί.\nΒήμα 4 – Απορρόφηση: Αφήστε το προϊόν να απορροφηθεί πλήρως.\nΒήμα 5 – Επαναλάβετε όπου χρειάζεται: Εφαρμόστε ξανά στα ιδιαίτερα ξηρά σημεία της επιδερμίδας.",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Isohexadecane, Glycerin, Isopropyl Palmitate, PEG-40 Sorbitan Perisostearate, Cera Microcristallina, Polyglyceryl-3 Diisostearate, Sodium Hyaluronate, Prunus Amygdalus Dulcis Oil, Tocopherol, Tocopheryl Acetate, Magnesium Sulfate, Sodium Citrate, Potassium Sorbate, Citric Acid, Lavandula Oil/Extract, Citrus Limon Peel Oil, Citrus Aurantium Peel Oil, Limonene, Geraniol, Benzyl Alcohol, Linalyl Acetate, Citronellol, Terpineol, Linalool, Glycine Soja Oil, Alpha-Isomethyl Ionone, Benzyl Benzoate, Geranyl Acetate, Pinene, BHT, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8305DEDD098250BAF3E7C2E49A220088&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8305DEDD098250BAF3E7C2E49A220088&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/0/9/e/01a13a98c618743e87c5232ee50e8fb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8305DEDD098250BAF3E7C2E49A220088&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-rich-nourishing-body-milk-400ml-40060003027680044.html",
     "source": "nivea.gr",
@@ -1351,10 +1351,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε και κάνετε απαλό μασάζ\nΒήμα 3 – Αφρόλουτρο: Απλώστε το αφρόλουτρο στην επιδερμίδα σας\nΒήμα 4 – Μπάνιο: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας",
       "Συστατικά": "INCI: Parfum, Coumarin, Alpha-Isomethyl Ionone, Benzyl Alcohol, Sodium Benzoate, Laureth-2, PEG-90 Glyceryl Isostearate, PEG-200 Hydrogenated Glyceryl Palmate, Styrene/Acrylates Copolymer, Citric Acid, PEG-40 Hydrogenated Castor Oil, Glyceryl Stearate SE, Aloe Barbadensis Leaf Juice Powder, Prunus Amygdalus Dulcis Oil, Glyceryl Glucoside, Glycerin, Decyl Glucoside, Sodium Chloride, Cocamidopropyl Betaine, Sodium Laureth Sulfate, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=575D0CCC67A70F575933DBEA86ED9628&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=575D0CCC67A70F575933DBEA86ED9628&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/e/0/4/2e34ca33e45b4176bf406a15e69d0f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=575D0CCC67A70F575933DBEA86ED9628&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/care-and-roses-40059002643810044.html",
     "source": "nivea.gr",
@@ -1396,10 +1396,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βήμα 1:: Εφαρμόστε τον ορό κάθε πρωί και βράδυ σε καθαρή επιδερμίδα.\nΒήμα 2 – Βήμα 2:: Ενισχύστε την αντιγηραντική σας ρουτίνα προσθέτωντας τον ορό Cellular Hyaluron Replumping και τον ορό Cellular Vitamin C Radiance Renewing Serum.\nΒήμα 3 – Βήμα 3:: Το πρωί εφαρμόστε προϊόντα ημερήσιας περιποίησης Cellular και το βράδυ προϊόντα νυχτερινής περιποίησης Cellular. Χρησιμοποιήστε προϊόντα με Bakuchiol το πολύ 4 φορές την ημέρα. Αποφύγετε την άμεση επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Caprylyl/Capryl Glucoside, Polyglyceryl-4 Caprate, Bakuchiol, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, 1,2-Hexanediol, Xanthan Gum, Citric Acid, Sodium Chloride, Sodium Sulfate, Phenoxyethanol, Parfum, CI 16035, CI 15985"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C654B263BDC6C336297BD7FBF04989EB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C654B263BDC6C336297BD7FBF04989EB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/1/c/5/6546070c562a40c9960e1f4ca6798447-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C654B263BDC6C336297BD7FBF04989EB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-lift-expert-bakuchiol-%ce%bf%cf%81%cf%8c%cf%82-30ml-40060000128720044.html",
     "source": "nivea.gr",
@@ -1434,10 +1434,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε το προϊόν άφθονα στην ξυρισμένη περιοχή\nΒήμα 2 – Προσοχή: Αποφύγετε την περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Distarch Phosphate, Ethylhexyl Cocoate, Panthenol, Aloe Barbadensis Leaf Juice Powder, Sorbitan Stearate, Dehydroxanthan Gum, Pantolactone, Citric Acid, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Linalyl Acetate, Limonene, Juniperus Virginiana Oil, Lavandula Oil/Extract, Camphor, Citrus Aurantium Peel Oil, Menthol, Pelargonium Graveolens Flower Oil, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=937F58A3E492429DFD28B49FED877640&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=937F58A3E492429DFD28B49FED877640&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/4/b/a/243bbbf3b38d4c29815a262441d5e4df-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=937F58A3E492429DFD28B49FED877640&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-after-shave-balsam-hydrocare-100ml-84123008130060044.html",
     "source": "nivea.gr",
@@ -1473,10 +1473,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Απλώστε το ντους τζελ σε σώμα, πρόσωπο, μαλλιά\nΒήμα 3 – Ξέβγαλμα: Ξεπλύνετε καλά πριν στεγνώσετε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Menthol, Glycerin, Citric Acid, Sodium Chloride, Sodium Sulfate, Sodium Benzoate, Citrus Aurantium Peel Oil, Limonene, Linalool, Linalyl Acetate, Juniperus Virginiana Oil, Pogostemon Cablin Oil, Lavandula Oil/Extract, Citronellol, Pinene, Benzyl Alcohol, Parfum, CI 61570"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16E024B641DFB26E202BF51566506CD7&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16E024B641DFB26E202BF51566506CD7&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/2/6/a/f62974ff4d0244f9b86ef092d404cb0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16E024B641DFB26E202BF51566506CD7&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-energy-500ml-40058081301460044.html",
     "source": "nivea.gr",
@@ -1514,10 +1514,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 3 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Benzyl Alcohol, Linalyl Acetate, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Citronellol, Alpha-Isomethyl Ionone, Limonene, Pogostemon Cablin Oil, Citrus Aurantium Peel Oil, Pinene, Citrus Limon Peel Oil, Vanillin, Geranyl Acetate, Rose Ketones, Citrus Aurantium Bergamia Peel Oil, Beta-Caryophyllene, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D68E37138A3CAEF0C7A5B4396400CB4B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D68E37138A3CAEF0C7A5B4396400CB4B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/9/2/f/019f5a9961fc70f89ecc2185a58b0581-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D68E37138A3CAEF0C7A5B4396400CB4B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-invisible-original-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-250ml-40059006535740044.html",
     "source": "nivea.gr",
@@ -1551,10 +1551,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Αφήστε το προϊόν να στεγνώσει τελείως",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Aluminum Sesquichlorohydrate, Parfum, Magnesium Aluminum Silicate, Persea Gratissima Oil, Trisodium EDTA, BHT, Linalool"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1AF53D55B0E8522C87DEBDC6CCD38781&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1AF53D55B0E8522C87DEBDC6CCD38781&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/d/e/5/278423-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1AF53D55B0E8522C87DEBDC6CCD38781&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-dry-fresh-40059004852430044.html",
     "source": "nivea.gr",
@@ -1592,10 +1592,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακίνηση: Ανακινήστε καλά πριν την χρήση.\nΒήμα 3 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Parfum, Sodium Hyaluronate, Panthenol, Octyldodecanol, Persea Gratissima Oil, Glycyrrhiza Glabra Root Extract, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Citric Acid, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=750EFEA3CA7167283319DA840F54017F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=750EFEA3CA7167283319DA840F54017F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/a/0/7/e583399c498d4197824332fdc75a939d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=750EFEA3CA7167283319DA840F54017F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-derma-control-defend-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-40060001667590044.html",
     "source": "nivea.gr",
@@ -1636,10 +1636,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βήμα 1: Εφαρμόστε τον ορό κάθε πρωί και βράδυ σε καθαρή επιδερμίδα.\nΒήμα 2 – Βήμα 2: Ενισχύστε την ρουτίνα αντιγήρανσης προσθέτοντας την επιλογή σας από τους ορούς Cellular Hyaluron Replumping και Cellular Bakuchiol 3-Zone Lifting Serum.\nΒήμα 3 – Βήμα 3: Ενισχύστε την ρουτίνα αντιγήρανσης προσθέτοντας την επιλογή σας από τους ορούς Cellular Hyaluron Replumping και Cellular Bakuchiol 3-Zone Lifting Serum.",
       "Συστατικά": "INCI: Aqua, Glycerin, Propanediol, Coco-Caprylate/Caprate, C15-19 Alkane, Ascorbyl Glucoside, Glyceryl Stearate Citrate, Pentylene Glycol, Tocopherol, Arginine, Microcrystalline Cellulose, Saccharide Isomerate, Glyceryl Stearate, Silica, C14-22 Alcohols, Xanthan Gum, C12-20 Alkyl Glucoside, Sodium Phytate, Citric Acid, Sodium Citrate, Alcohol, Phenoxyethanol, Citrus Aurantium Peel Oil, Limonene, Linalool, Linalyl Acetate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=65126872D15040D240EDA8A072835EEA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=65126872D15040D240EDA8A072835EEA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/3/4/f/12a0e96a334145b2b8a0321cfd57883d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=65126872D15040D240EDA8A072835EEA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-filler-expert-vitamin-c-%ce%bf%cf%81%cf%8c%cf%82-%ce%bb%ce%ac%ce%bc%cf%88%ce%b7%cf%82-40060001550810044.html",
     "source": "nivea.gr",
@@ -1674,10 +1674,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα αρκετή ποσότητα μετά από την έκθεση στον ήλιο\nΒήμα 2 – ΑΝΑΝΕΩΣΗ: Ανανεώστε κάθε φορά που η ε\nΒήμα 3: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Glyceryl Stearate SE, Hydroxypropyl Starch Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Aloe Barbadensis Leaf Juice Powder, Xanthan Gum, Cetyl Palmitate, Sodium Cetearyl Sulfate, Hydroxyacetophenone, Phenoxyethanol, Linalyl Acetate, Linalool, Pinene, Terpineol, Pogostemon Cablin Oil, Citral, Camphor, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8579B8355D2219DF78AE77C997E80146&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8579B8355D2219DF78AE77C997E80146&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/b/1/c/93d5422cec8745788e9175b6f12f1d99-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8579B8355D2219DF78AE77C997E80146&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--after-sun-aloe-lotion%2c-200ml-40058084782000044.html",
     "source": "nivea.gr",
@@ -1715,10 +1715,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν από τη χρήση.\nΒήμα 3 – Εφαρμόστε: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Hydrolyzed Pearl, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Geranyl Acetate, Benzyl Alcohol, Alpha-Isomethyl Ionone, Pinene, Rose Ketones, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E675A061CF0ECB4BC0CF7EA85F4B3346&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E675A061CF0ECB4BC0CF7EA85F4B3346&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/8/1/f/019e3bdb9ed7733b9bda3a63afdef2e7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E675A061CF0ECB4BC0CF7EA85F4B3346&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-pearl-and-beauty-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-40059003889950044.html",
     "source": "nivea.gr",
@@ -1755,10 +1755,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Μετά το ξύρισμα απλώστε ομοιόμορφα στην ξυρισμένη περιοχή\nΒήμα 2 – ΟΛΟΚΛΗΡΩΜΕΝΗ ΠΕΡΙΠΟΙΗΣΗ: Για καλύτερο αποτέλεσμα χρησιμοποιήστε NIVEA® FOR MEN Cool Kick Αφρό ή Gel ξυρίσματος",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., PEG-40 Hydrogenated Castor Oil, Propylene Glycol, Menthol, Panthenol, Tocopheryl Acetate, Pantolactone, Citric Acid, Sodium Benzoate, Linalool, Limonene, Citronellol, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0FFA8DC4D506D6A911BC1F93F4281666&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0FFA8DC4D506D6A911BC1F93F4281666&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/4/7/2/300f6de6cb734a548fadc1e4d255ba6a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0FFA8DC4D506D6A911BC1F93F4281666&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-cool-kick-fresh-after-shave-lotion-90058003431430044.html",
     "source": "nivea.gr",
@@ -1798,10 +1798,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-14 Butyl Ether, Cetyl Palmitate, Hydrogenated Castor Oil, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Propylene Glycol, Palmitic Acid, Stearic Acid, Parfum, Aluminum Sesquichlorohydrate, C20-40 Alkyl Stearate, Oleth-20, Hydrolyzed Pearl, Octyldodecanol, Persea Gratissima Oil, Steareth-2, Steareth-21, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Tetramethyl Acetyloctahydronaphthalenes, Amyl Salicylate, Oryzanol, Benzyl Alcohol, Geranyl Acetate, Geraniol, BHT"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A1ACB850A9EDE234C780F2DEC1057F4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A1ACB850A9EDE234C780F2DEC1057F4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/c/4/7/1ec522dec3ce41c4aed527a0fcf075b3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A1ACB850A9EDE234C780F2DEC1057F4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-pearl-and-beauty-stick-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40060002341060044.html",
     "source": "nivea.gr",
@@ -1838,10 +1838,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρά Χέρια: Πλύνετε και στεγνώστε καλά τα χέρια σας\nΒήμα 2 – Εφαρμογή Κρέμας: Κάντε απαλό μασάζ στα χέρια μέχρι να απορροφηθεί\nΒήμα 3 – Επανάληψη: Χρησιμοποιείστε όσες φορές χρειάζεται μέσα στη μέρα για απαλά χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Isopropyl Palmitate, Glyceryl Stearate, Olea Europaea Fruit Oil, Tocopherol, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Xanthan Gum, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Sodium Hydroxide, Phenoxyethanol, Caprylyl Glycol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=56259C732D850FEE0CAD4A648AE4AB54&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=56259C732D850FEE0CAD4A648AE4AB54&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/7/1/e/cac3bd23823e47c6833d763a3dbb6d42-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=56259C732D850FEE0CAD4A648AE4AB54&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%87%ce%b5%cf%81%ce%b9%cf%8e%ce%bd-%ce%bc%ce%b5-%ce%b5%ce%ba%cf%87%cf%8d%ce%bb%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%ce%bb%ce%b9%ce%ac%cf%82-75ml-40060002282040044.html",
     "source": "nivea.gr",
@@ -1874,10 +1874,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν απο την έκθεση στον ήλιο\nΒήμα 2 – ΑΝΑΝΕΩΣΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας.\nΒήμα 4 – ΕΚΘΕΣΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος.\nΒήμα 5 – ΕΚΘΕΣΗ: Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία.\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 7 – ΠΡΟΣΟΧΗ: Αποφεύγετε την επαφή με τα μάτια.\nΒήμα 8 – ΠΡΟΣΟΧΗ: Επιτρέψτε την πλήρη απορρόφηση.\nΒήμα 9 – ΠΡΟΣΟΧΗ: Αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Tapioca Starch, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Glyceryl Stearate, Cetyl Alcohol, Hydrogenated Rapeseed Oil, Stearyl Alcohol, Hydroxypropyl Starch Phosphate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Glycerin, Polyglyceryl-10 Stearate, Sodium Stearoyl Glutamate, Xanthan Gum, Sodium Hydroxide, Sodium Cetearyl Sulfate, Sodium Chloride, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Limonene, Geraniol, Citronellol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6594690F2B53E41783AE466D6B627F1D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6594690F2B53E41783AE466D6B627F1D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/a/6/a/24b811d9adc54bcc8c8aeddd8683da69-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6594690F2B53E41783AE466D6B627F1D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-mat---look-cream-spf30-52011780324650044.html",
     "source": "nivea.gr",
@@ -1909,10 +1909,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA SUN UV Face Triple Protect Ultra-light Fluid προσφέρει καθημερινή προστασία ενάντια σε: 1.UV 2.Blue Light 3. Pollution. Αυτό το αντηλιακό προστατεύει την επιδερμίδα εξωτερικά από τις ακτίνες UVA/UVB & το Blue Light που προκαλούν βλάβες στην επιδερμίδα και πρόωρη γήρανση της επιδερμίδας. Επιπλέον προστατεύει την επιδερμίδα εκ των έσω χάρη στο εκχύλισμα γλυκόριζας. Αυτό το ισχυρό φυσικό αντιοξειδωτικό ενεργοποιεί τον αμυντικό μηχανισμό της ίδιας της επιδερμίδας για την προστασία των κυττάρων της επιδερμίδας και δρα ενάντια στις επιδράσεις της ρύπανσης όπως το οξειδωτικό στρες. Πολύ ελαφρύ, μη λιπαρό και ενυδατικό αντηλιακό με Υαλουρονικό που απορροφάται αμέσως και αφήνει διάφανο αποτέλεσμα στην επιδερμίδα – κατάλληλο για χρήση κάτω από το make-up & ανθεκτικό στο νερό. Προτείνεται για κανονικές, μικτές και ευαίσθητες επιδερμίδες. Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη. Το NIVEA SUN στοχεύει στην ελαχιστοποίηση των επιπτώσεων στο περιβάλλον. Σύνθεσή 76% βιοδιασπώμενη, χωρίς Octinoxate, Oxybenzone & Octocrylene και μικροπλαστικά. Το σωληνάριο και το καπάκι είναι από 50% ανακυκλωμένο πλαστικό. Κουτί από FSC εγκεκριμένο χαρτόνι. www.nivea.com/sustainability",
       "Συστατικά": "INCI: Aqua, Isopropyl Palmitate, Dicaprylyl Ether, Butylene Glycol Dicaprylate/Dicaprate, Alcohol Denat., C12-15 Alkyl Benzoate, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Titanium Dioxide (nano), Ethylhexyl Triazone, Dibutyl Adipate, Kaolin, Caprylic/Capric Triglyceride, Tapioca Starch, Phenylbenzimidazole Sulfonic Acid, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, Diethylhexyl Butamido Triazone, Glycyrrhiza Inflata Root Extract, Sodium Hyaluronate, Laminaria Ochroleuca Extract, Tocopherol, Dimethicone, Silica, Sodium Chloride, Sodium Hydroxide, Betaine, Propylene Glycol, Ethylhexylglycerin, Phenoxyethanol, Trisodium EDTA, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E9DA434688756E0EE6907AB3E253EB75&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E9DA434688756E0EE6907AB3E253EB75&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/0/9/1/28b0466d57024b408e7adc01b6f56e8e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E9DA434688756E0EE6907AB3E253EB75&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-triple-protect-spf50plus-40059009979820044.html",
     "source": "nivea.gr",
@@ -1952,10 +1952,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Κάθε πρωί σε καθαρό πρόσωπο\nΒήμα 2 – Για βέλτιστα αποτελέσματα: Για βέλτιστη αποτελεσματικότητα στη μείωση των κηλίδων, χρησιμοποιήστε το σε συνδυασμό με τον ορό LUMINOUS630® ANTISPOT Dark Spot Advanced.",
       "Συστατικά": "INCI: Aqua, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, Alcohol Denat., C12-15 Alkyl Benzoate, Distarch Phosphate, Glyceryl Stearate, Dibutyl Adipate, Ethylhexyl Triazone, Butylene Glycol Dicaprylate/Dicaprate, Phenylbenzimidazole Sulfonic Acid, Tapioca Starch, Cetyl Alcohol, Stearyl Alcohol, Cocoglycerides, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, Isobutylamido Thiazolyl Resorcinol, Sodium Hyaluronate, Tocopheryl Acetate, Sodium Stearoyl Glutamate, Ethylhexylglycerin, Caprylyl Glycol, Sodium Chloride, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Sodium Sulfate, Parfum, CI 15985, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF9CE228A454E571950A2D2E87F190EE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF9CE228A454E571950A2D2E87F190EE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/b/9/5/7d5f4b64b6494ed7a6e88e1196f8f9af-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF9CE228A454E571950A2D2E87F190EE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-luminous630%c2%ae--%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b3%ce%b9%ce%b1-%ce%ba%ce%b7%ce%bb%ce%af%ce%b4%ce%b5%cf%82-spf50-40059007869680044.html",
     "source": "nivea.gr",
@@ -1991,10 +1991,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακίνηση: Ανακινήστε καλά πριν την χρήση.\nΒήμα 3 – Εφαρμοργή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Sodium Hyaluronate, Tocopheryl Acetate, Octyldodecanol, Persea Gratissima Oil, Glycyrrhiza Glabra Root Extract, Propylene Carbonate, Tocopherol, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2AA135C14BF597E9D334B9561742759B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2AA135C14BF597E9D334B9561742759B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/e/a/4/7127289a4382442cb217768ee2bfde38-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2AA135C14BF597E9D334B9561742759B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-derma-control-restore-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-40060001752870044.html",
     "source": "nivea.gr",
@@ -2027,10 +2027,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας.\nΒήμα 3 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία.\nΒήμα 4 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 5 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες.\nΒήμα 6 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη..",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Ethylhexyl Salicylate, Isopropyl Palmitate, Dibutyl Adipate, C12-15 Alkyl Benzoate, Butyl Methoxydibenzoylmethane, Microcrystalline Cellulose, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Glycerin, Tocopheryl Acetate, Zea Mays Oil, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Xanthan Gum, Cetyl Palmitate, Sodium Stearoyl Glutamate, Tocopherol, Cellulose Gum, Citric Acid, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5EEA4010404AC0CC40D9FA602CC29307&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5EEA4010404AC0CC40D9FA602CC29307&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/f/d/1/fcf1d61469f24b0a8aa2d03eed2435f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5EEA4010404AC0CC40D9FA602CC29307&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-intense-bronze-lotion-spf6-40058084454170044.html",
     "source": "nivea.gr",
@@ -2064,10 +2064,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε την Κρέμα Ημέρας στο πρόσωπό σας\nΒήμα 3 – Μασάζ: Κάνετε μασάζ στην επιδερμίδα σας με κυκλικές κινήσεις\nΒήμα 4 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetearyl Alcohol, Methylpropanediol, Tapioca Starch, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Dicaprylyl Carbonate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Stearate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Behenyl Alcohol, Triisostearin, Glyceryl Stearate, Argania Spinosa Kernel Oil, Sodium Hyaluronate, Tocopherol, Butyrospermum Parkii Butter, Sodium Stearoyl Glutamate, Xanthan Gum, Trisodium EDTA, 1,2-Hexanediol, Ethylhexylglycerin, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0D2355B6EEF2233FEB4A7726722D4183&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0D2355B6EEF2233FEB4A7726722D4183&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/2/c/0/1c724b75d001471ebf1378f9fcdb0ec0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0D2355B6EEF2233FEB4A7726722D4183&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-%ce%b7%ce%bc%ce%b5%cf%81%ce%b1%cf%83-caring-50ml-spf30-40060002070490044.html",
     "source": "nivea.gr",
@@ -2103,10 +2103,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε το προϊόν άφθονα στην ξυρισμένη περιοχή\nΒήμα 2 – Προσοχή: Αποφύγετε την περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, PEG-40 Hydrogenated Castor Oil, Panthenol, Aloe Barbadensis Leaf Juice Powder, Pantolactone, Citric Acid, Sodium Chloride, Sodium Sulfate, Citrus Aurantium Peel Oil, Lavandula Oil/Extract, Pelargonium Graveolens Flower Oil, Juniperus Virginiana Oil, Menthol, Camphor, Limonene, Linalool, Linalyl Acetate, Tetramethyl Acetyloctahydronaphthalenes, Parfum, CI 16035, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1A33A73AE9B8360FF0016DF74C2B37E5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1A33A73AE9B8360FF0016DF74C2B37E5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/b/2/d/1b826fb5be184165a457eb16d5cb320a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1A33A73AE9B8360FF0016DF74C2B37E5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men--after-shave-hydro-care-fluid-100ml-40060001951550044.html",
     "source": "nivea.gr",
@@ -2138,10 +2138,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA SUN Protect & Bronze Mist παρέχει Διπλή δράση: άμεση προστασία από την υπεριώδη ακτινοβολία για την επιδερμίδα σας και φυσικό μαύρισμα χάρη στο εκχύλισμα προ-μελανίνης που ενισχύει τη μελανίνη της επιδερμίδας. Για όμορφο και υγιές μαύρισμα που αφήνει μια απαλή και μεταξένια αίσθηση στην επιδερμίδα. Με σύνθεση που απορροφάται γρήγορα, είναι ανθεκτική στο νερό και χωρίς αυτομαυριστικές ιδιότητες. Η σύνθεσή του σέβεται τη θάλασσα καθώς είναι απαλλαγμένη από φίλτρα UV Octinoxate & Oxybenzone.",
       "Συστατικά": "INCI: Butane, Alcohol Denat., Octyldodecanol, Caprylic/Capric Triglyceride, Isobutane, Propane, C12-15 Alkyl Benzoate, Homosalate, Octocrylene, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Acrylates/Octylacrylamide Copolymer, Glycyrrhetinic Acid, Tocopheryl Acetate, Cocoglycerides, Aqua, Linalool, Limonene, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Benzoic Acid, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C460E71A5E9D09BA125391991885791E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C460E71A5E9D09BA125391991885791E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/d/e/9/e8ea56fa2d354fb98add0560a4771964-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C460E71A5E9D09BA125391991885791E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-spf-30-40059006908690044.html",
     "source": "nivea.gr",
@@ -2174,10 +2174,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "H NIVEA SUN UV Even Skin Tone BB SPF 50 είναι ειδικά σχεδιασμένη για την ευαίσθητη επιδερμίδα του προσώπου σας. Σύνθεση με ULTRA SPECTRUM PROTECTION που προσφέρει άμεση προστασία κατά των UVA & UVB που είναι επιβλαβείς για την επιδερμίδα αλλά και των επιπτώσεων της ορατής ακτινοβολίας υψηλής ενέργειας (HEVL), όπως η πρόωρη γήρανση της επιδερμίδας. H ενυδατική του σύνθεση με διακριτικό χρώμα προσδίδει ομοιόμορφη απόχρωση στην επιδερμίδα. Η ελαφριά και μη-λιπαρή αίσθηση στην επιδερμίδα το κάνει ιδανικό για καθημερινή χρήση. Σύνθεση φιλική με το περίγραμμα το ματιών - Οφθαλμολογικά αποδεδειγμένη. Συμβατότητα με την επιδερμίδα δερματολογικά αποδεδειγμένη. NIVEA SUN στοχεύει στην ελαχιστοποίηση των επιπτώσεων στο περιβάλλον. Με σύνθεση που σέβεται τη θάλασσα χωρίς UV Φίλτρα Octinoxate, Oxybenzone & Octocrylene. Οι νέες και βελτιωμένες συνθέσεις σέβονται τη θάλασσα καθώς δεν περιέχουν τα UV φίλτρα Octinoxate και Oxybenzone. Κουτί από FSC εγκεκριμένο χαρτόνι.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Homosalate, CI 77891, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Triazone, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Distarch Phosphate, Cetearyl Alcohol, Behenyl Alcohol, Phenylbenzimidazole Sulfonic Acid, Silica Dimethyl Silylate, Propylheptyl Caprylate, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Sodium Stearoyl Glutamate, Carbomer, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Dimethicone, Trisodium EDTA, Sodium Hydroxide, Sodium Chloride, Phenoxyethanol, Linalool, Limonene, Benzyl Alcohol, Alpha-Isomethyl Ionone, Geraniol, Citronellol, Coumarin, Parfum, CI 77492, CI 77491, CI 77499"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86AC6823496F0242248CCB18AE48648&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86AC6823496F0242248CCB18AE48648&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/7/5/7/19a1986fe649425aa751a08f340608a9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86AC6823496F0242248CCB18AE48648&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/uv-face-%ce%bf%ce%bc%ce%bf%ce%b9%cf%8c%ce%bc%ce%bf%cf%81%cf%86%ce%b7-%ce%b1%cf%80%cf%8c%cf%87%cf%81%cf%89%cf%83%ce%b7-bb-spf-50plus-lotion-52011780325260044.html",
     "source": "nivea.gr",
@@ -2214,10 +2214,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗΥ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, C12-15 Alkyl Benzoate, Isopropyl Palmitate, Butylene Glycol Dicaprylate/Dicaprate, Dibutyl Adipate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Methylpropanediol, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Panthenol, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Microcrystalline Cellulose, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Caprylyl Glycol, Silica Dimethyl Silylate, Pantolactone, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Citric Acid, Ethylhexylglycerin, Hydroxyacetophenone"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=614B3A785503E17CA829C3CBE6BA8D8F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=614B3A785503E17CA829C3CBE6BA8D8F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/7/a/2/fb31ebd5410942aebb3e7cd73e4f4d1a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=614B3A785503E17CA829C3CBE6BA8D8F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-kids-daily--spf50plus-100ml-40060002291570044.html",
     "source": "nivea.gr",
@@ -2253,10 +2253,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Προσφέρει άμεση και αξιόπιστη προστασία από UVA/UVB ενώ παράλληλα προστατεύει την ευαίσθητη επιδερμίδα από ερεθισμούς. Η δερματολογικά ελεγμένη σύνθεσή του με Aloe Vera και έλαιο Jojoba καταπραΰνει την ευαίσθητη επιδερμίδα και την προστατεύει από ερεθισμούς που προκαλούνται από την ηλιακή ακτινοβολία. Ελαφριά και μη λιπαρή υφή, χωρίς άρωμα. Ανθεκτικό στο νερό.",
       "Συστατικά": "INCI: Ethylhexylglycerin, Hydroxyacetophenone, Sodium Chloride, Sodium Hydroxide, Trisodium EDTA, Sodium Stearoyl Glutamate, Hydrogenated Polyisobutene, Sucrose Polystearate, Xanthan Gum, Microcrystalline Cellulose, VP/Hexadecene Copolymer, Cellulose Gum, Tetrasodium Iminodisuccinate, Simmondsia Chinensis Seed Oil, Aloe Barbadensis Leaf Juice Powder, Tocopheryl Acetate, Glycerin, Phenylbenzimidazole Sulfonic Acid, Copernicia Cerifera Cera, Panthenol, Ethylhexyl Triazone, Dibutyl Adipate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butylene Glycol Dicaprylate/Dicaprate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, C12-15 Alkyl Benzoate, Alcohol Denat., Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B48B203EA9703CE9A197777C14C90443&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B48B203EA9703CE9A197777C14C90443&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/2/d/0/379673-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B48B203EA9703CE9A197777C14C90443&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/sensitive-immediate-protect-spray-52011780352440044.html",
     "source": "nivea.gr",
@@ -2291,10 +2291,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Persea Gratissima Oil, Vitis Vinifera Seed Oil, Sodium Ascorbyl Phosphate, Tocopherol, Glycerin, Citric Acid, Glycol Distearate, Sodium Chloride, Hydrogenated Castor Oil, Sodium Benzoate, Benzoic Acid, Limonene, Citrus Aurantium Peel Oil, Geraniol, Dimethyl Phenethyl Acetate, Tetramethyl Acetyloctahydronaphthalenes, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CD81B4346260D5815708E2C3B7DAA7C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CD81B4346260D5815708E2C3B7DAA7C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/a/b/5/3909afb5905b4e32985ab01f7d7dd3f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CD81B4346260D5815708E2C3B7DAA7C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-care-and-orange-650ml-40059009872800044.html",
     "source": "nivea.gr",
@@ -2330,10 +2330,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Τοποθετήστε μια μικρή ποσότητα τζελ στις παλάμες σας και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο.\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποιήση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN SENSITIVE After Shave Balm.",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Triethanolamine, Oleth-20, Isopentane, Glycerin, Isopropyl Palmitate, Isobutane, Chamomilla Recutita Flower Extract, Maltodextrin, Hydroxyethylcellulose, Hydroxypropyl Methylcellulose, Laureth-2, Cetearyl Isononanoate, PEG-90 Glyceryl Isostearate, Disodium Phosphate, Sodium Phosphate, Sodium Chloride, Sodium Sulfate, Piroctone Olamine, BHT, Parfum, CI 42053"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=433B5F608ADBA9296C15EA88DB95D506&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=433B5F608ADBA9296C15EA88DB95D506&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/6/d/3/9ee44b4460ee4525989783ccdfd11f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=433B5F608ADBA9296C15EA88DB95D506&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-gel-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-sensitive-cooling-200ml-40060001835030044.html",
     "source": "nivea.gr",
@@ -2374,10 +2374,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε τη λοσιόν σε ολόκληρο το σώμα\nΒήμα 2 – Επανάληψη: Επαναλάβετε σε περιοχές που μπορεί να είναι πιο ξηρές",
       "Συστατικά": "INCI: Aqua, Glycerin, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Sodium Lactate, Distarch Phosphate, Urea, Salicylic Acid, Lactic Acid, Butyrospermum Parkii Butter, Glyceryl Stearate, Glyceryl Stearate SE, Glyceryl Stearate Citrate, Hydrogenated Coco-Glycerides, Sodium Cetearyl Sulfate, Hydroxypropyl Starch Phosphate, Xanthan Gum, Ethylhexylglycerin, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg?db=web&ctx=GR&hash=62301278D0DF7AB1BCE58AAAAC7EF408&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg?db=web&ctx=GR&hash=62301278D0DF7AB1BCE58AAAAC7EF408&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/2/e/1/b/501f1456687d42e999454f48e2f1e201-screen.jpg?db=web&ctx=GR&hash=62301278D0DF7AB1BCE58AAAAC7EF408&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-repair-and-care-%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-%cf%83%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%bc%ce%b5-urea-400ml-40060002850780044.html",
     "source": "nivea.gr",
@@ -2412,10 +2412,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Μασάζ: Καθημερινό απαλό μασάζ",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Dicaprylyl Carbonate, Glyceryl Stearate, Butyrospermum Parkii Butter, Tapioca Starch, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Cocoglycerides, Octyldodecanol, Isobutylamido Thiazolyl Resorcinol, Tocopherol, Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides, Carrageenan, Trisodium EDTA, Xanthan Gum, Sodium Hydroxide, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png?db=web&ctx=GR&hash=9194424463841C9DAAA6E688D8574ED1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png?db=web&ctx=GR&hash=9194424463841C9DAAA6E688D8574ED1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/2/8/3/802850a4c61f42c8bae57ff0157b2992-online_1180_png.png?db=web&ctx=GR&hash=9194424463841C9DAAA6E688D8574ED1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/luminous630-anti-marks-and-spots-body-cream-40060000436920044.html",
     "source": "nivea.gr",
@@ -2450,10 +2450,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε απευθείας στην επιδερμίδα της μασχάλης",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Parfum, Charcoal Powder, Trisodium EDTA, BHT, Linalool, Citronellol, Limonene, Geraniol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CF35E67FDD83BEF505E60DA75F1A7EE2&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CF35E67FDD83BEF505E60DA75F1A7EE2&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/3/b/2/275882-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CF35E67FDD83BEF505E60DA75F1A7EE2&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deep-roll-on-40059005130690044.html",
     "source": "nivea.gr",
@@ -2490,10 +2490,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΤΡΟΠΟΣ ΧΡΗΣΗΣ: Για καλύτερα αποτελέσματα, εφαρμόστε την κρέμα σώματος καθημερινά σε όλο το σώμα.",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Glycerin, Glyceryl Stearate, Caprylic/Capric Triglyceride, Glyceryl Stearate SE, Hydrogenated Coco-Glycerides, Phenoxyethanol, Caprylyl Glycol, Parfum, Sodium Cetearyl Sulfate, Trisodium EDTA, Tocopheryl Acetate, Limonene, Citrus Aurantium Peel Oil, Linalool, Geraniol, Benzyl Alcohol, Linalyl Acetate, Citronellol, Butyrospermum Parkii Butter, Terpineol, Alpha-Isomethyl Ionone, Sodium Hyaluronate, Benzyl Benzoate, Citrus Limon Peel Oil, Pinene, Geranyl Acetate, Lavandula Oil/Extract"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=656D22E9ED94529F6520259553585EA9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=656D22E9ED94529F6520259553585EA9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/2/d/6/019e4efc631b78b18e164a3a1acf8e8a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=656D22E9ED94529F6520259553585EA9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/body-cream-rich-nourishing-400ml-40060002707530044.html",
     "source": "nivea.gr",
@@ -2530,10 +2530,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε σε βάθος την επιδερμίδα, απομακρύνοντας το μακιγιάζ και τους ρύπους.\nΒήμα 2 – Περιποίηση: Εφαρμόστε κάθε πρωί, κάνοντας απαλό μασάζ στην επιδερμίδα.\nΒήμα 3 – Καλύτερα Αποτελέσματα: Ολοκληρώστε τη ρουτίνα περιποίησής σας με την Contouring Night Care 65+",
       "Συστατικά": "INCI: Butyl Methoxydibenzoylmethane, Butylene Glycol Dicaprylate/Dicaprate, Glyceryl Stearate, Dibutyl Adipate, Phenylbenzimidazole Sulfonic Acid, Behenyl Alcohol, Cetearyl Alcohol, Ethylhexyl Triazone, Glycine Soja Germ Extract, Creatine, 1-Methylhydantoin-2-Imide, Sodium Stearoyl Glutamate, Ethylhexylglycerin, 1,2-Hexanediol, Tapioca Starch, Xanthan Gum, Sodium Chloride, Sodium Sulfate, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum, CI 15985"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D770F11FF8EDE7B59EE2D1A33A75405&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D770F11FF8EDE7B59EE2D1A33A75405&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/f/5/9/01a0a91773ff7789bbc00d9285cc51ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D770F11FF8EDE7B59EE2D1A33A75405&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%cf%8c%cf%81%ce%b8%cf%89%cf%83%ce%b7%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-65plus-40060002065850044.html",
     "source": "nivea.gr",
@@ -2567,10 +2567,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό/ Αποφύγετε την εισπνοή.\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας.\nΒήμα 4 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία.\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 6 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες.\nΒήμα 7 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Isopropyl Palmitate, Alcohol Denat., Caprylic/Capric Triglyceride, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Aqua, Coco-Caprylate/Caprate, Ethylhexyl Triazone, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Zea Mays Oil, Tocopheryl Acetate, Tocopherol, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Parfum, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CB6D0559E09689FC7E78C745173FCB6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CB6D0559E09689FC7E78C745173FCB6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/3/1/0/b60891709db6433abcb813db2d91e2e2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4CB6D0559E09689FC7E78C745173FCB6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-deep-tan-oil-spray-52011780323800044.html",
     "source": "nivea.gr",
@@ -2606,10 +2606,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ: Εφαρμόστε στην περιοχή μετά το ξύρισμα. Αποφύγετε την επαφή με τα μάτια. Να φυλάσσεται μακριά από την άμεση έκθεση στον ήλιο.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Distarch Phosphate, Ethylhexyl Cocoate, Ubiquinone, Sodium Hyaluronate, Panthenol, Sorbitan Stearate, Dehydroxanthan Gum, Pantolactone, Citric Acid, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9F72687DC7BB072EDFF979C38AF6A782&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9F72687DC7BB072EDFF979C38AF6A782&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/7/2/b/72de8b6ca4374908b3d24264bce68f3d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9F72687DC7BB072EDFF979C38AF6A782&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-after-shave-balm-anti-age-hyaluron-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%af%ce%b4%cf%89%ce%bd-100ml-40059008213550044.html",
     "source": "nivea.gr",
@@ -2642,10 +2642,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Οδηγίες: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές\nΒήμα 6 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 7 – Συμβατότητα: Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Isopropyl Palmitate, Glycerin, Alcohol Denat., Butyl Methoxydibenzoylmethane, Cocoglycerides, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Salicylate, Titanium Dioxide (nano), Butylene Glycol Dicaprylate/Dicaprate, C12-15 Alkyl Benzoate, Hydrogenated Rapeseed Oil, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ethylhexyl Triazone, Silica Dimethyl Silylate, Hydroxypropyl Starch Phosphate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Panthenol, Behenyl Alcohol, Stearyl Alcohol, Cellulose Gum, Pantolactone, Silica, Xanthan Gum, Sodium Stearoyl Glutamate, Sodium Hydroxide, Citric Acid, Dimethicone, Trisodium EDTA, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC214177FDBD96BD845F09A504A8FC7&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC214177FDBD96BD845F09A504A8FC7&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/8/c/c/747d89ebd167447693a97bb19cab8c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC214177FDBD96BD845F09A504A8FC7&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--kid%27s-swimandplay-spf50plus%2c-150ml-40060000616960044.html",
     "source": "nivea.gr",
@@ -2683,10 +2683,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόζετε απευθείας στην περιοχή της μασχάλης.\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Parfum, Sodium Hyaluronate, Panthenol, Sodium Ascorbyl Phosphate, Octyldodecanol, Persea Gratissima Oil, Glycyrrhiza Glabra Root Extract, Pantolactone, Glycerin, Tocopherol, Citric Acid, Trisodium EDTA"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D8A939F4B4792CD6288B842E67330C31&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D8A939F4B4792CD6288B842E67330C31&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/9/6/6/bfefe9edf41b49bbbc68eb568bf20930-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D8A939F4B4792CD6288B842E67330C31&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-derma-control-defend-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-40060001758120044.html",
     "source": "nivea.gr",
@@ -2719,10 +2719,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία.\nΒήμα 2 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 3 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 4 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Alcohol Denat., Butyl Methoxydibenzoylmethane, Cocoglycerides, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Salicylate, Titanium Dioxide (nano), C12-15 Alkyl Benzoate, Hydrogenated Rapeseed Oil, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ethylhexyl Triazone, Silica Dimethyl Silylate, Behenyl Alcohol, Stearyl Alcohol, Hydroxypropyl Starch Phosphate, Cellulose Gum, Phenylbenzimidazole Sulfonic Acid, Phenoxyethanol, Xanthan Gum, Hydroxyacetophenone, Silica, Sodium Stearoyl Glutamate, Trisodium EDTA, Dimethicone, Tocopheryl Acetate, Sodium Hydroxide, Sodium Chloride, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F2DB5CB03CC70CB88D92C29ED17B7564&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F2DB5CB03CC70CB88D92C29ED17B7564&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/f/3/a/f40b221289e14e058fcc9ee93e90c046-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F2DB5CB03CC70CB88D92C29ED17B7564&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nsun-sun-protect-and-moisture-ultra-spf-50plus-40060000030090044.html",
     "source": "nivea.gr",
@@ -2756,10 +2756,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Προετοιμάστε το πρόσωπό σας βρέχοντάς το\nΒήμα 2 – Εφαρμογή: Κάντε μασάζ με μια μικρή ποσότητα τζελ στο πρόσωπό σας\nΒήμα 3 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή γύρω από τα μάτια σας\nΒήμα 4 – Ξέβγαλμα: Ξεπλύνετε τα υπολείμματα του καθαριστικό προσώπου",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Cocamidopropyl Betaine, Disodium Cocoyl Glutamate, Coco-Glucoside, Xanthan Gum, Panthenol, Aloe Barbadensis Leaf Juice, Pantolactone, Cellulose Gum, Propylene Glycol, Citric Acid, Sodium Benzoate, Phenoxyethanol, Potassium Sorbate, Juniperus Virginiana Oil, Pogostemon Cablin Oil, Coumarin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B6E1705A9E8305D59788A0D84C628827&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B6E1705A9E8305D59788A0D84C628827&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/4/8/b/18b8c75fa17744f2848901fff8cbdb81-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B6E1705A9E8305D59788A0D84C628827&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-hydrocare-gel-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-100ml-40058082277780044.html",
     "source": "nivea.gr",
@@ -2795,10 +2795,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Προετοιμάστε το πρόσωπό σας βρέχοντάς το\nΒήμα 2 – Εφαρμογή: Κάντε μασάζ με μια μικρή ποσότητα τζελ στο πρόσωπό σας\nΒήμα 3 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή γύρω από τα μάτια σας\nΒήμα 4 – Ξέβγαλμα: Ξεβγάλτε τα υπολείμματα από το καθαριστικό προσώπου",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Caesalpinia Spinosa Gum/Ammonium AMPS Crosspolymer, Panthenol, Tocopherol, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Triolein, Tapioca Starch, Pantolactone, Citric Acid, Ethylhexylglycerin, Sodium Hydroxide, Maltodextrin, Phenoxyethanol, Piroctone Olamine, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4A0D9862AA3A3652A156C3C1581EFA7D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4A0D9862AA3A3652A156C3C1581EFA7D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/8/9/f/2bf1659c283b45dda9b6a05203de8f5e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4A0D9862AA3A3652A156C3C1581EFA7D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-gel-%ce%b3%ce%b9%ce%b1-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%bf-and-%ce%ba%ce%bf%ce%bd%cf%84%ce%ac-%ce%b3%ce%ad%ce%bd%ce%b9%ce%b1-50ml-40060000721110044.html",
     "source": "nivea.gr",
@@ -2842,10 +2842,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το Q10 Anti-Wrinkle EXPERT DAILY UV FLUID SPF 50 είναι ένα αποτελεσματικό προϊόν, προστατεύοντας αποτελεσματικά από τις ακτίνες UV, αποτρέποντας τη γλυκοζυλίωση της επιδερμίδας και ελαχιστοποιώντας την εμφάνιση των ρυτίδων. Περιέχει ένα ισχυρό συνδυασμό τριών συστατικών: Q10, GLYCOSTOP και φίλτρα UV ευρέος φάσματος, παρέχοντας τριπλή άμυνα κατά των ρυτίδων. Ενισχύει την κυτταρική ζωτικότητα της επιδερμίδας, βοηθά στη διόρθωση των ρυτίδων εκ των έσω και καταπολεμά τη γλυκοζυλίωση για την περαιτέρω πρόληψη του σχηματισμού ρυτίδων με τη βοήθεια του GLYCOSTOP. Με το ευρύ φάσμα φίλτρων UV, προστατεύει την επιδερμίδα από τις ακτίνες UVA και UVB. Προσφέρει ενυδάτωση, απαλότητα και λεία όψη από την 1η κιόλας εφαρμογή. Μέχρι τη 2η εβδομάδα χρήσης του Anti-Wrinkle EXPERT DAILY UV FLUID 50 SPF, το 76% των γυναικών αναφέρουν μείωση των λεπτών γραμμών και των ρυτίδων. Μέχρι την τέταρτη εβδομάδα, το αμυντικό σύστημα της επιδερμίδας ενισχύεται σημαντικά.",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, Alcohol Denat., C12-15 Alkyl Benzoate, Distarch Phosphate, Glyceryl Stearate, Dibutyl Adipate, Ethylhexyl Triazone, Butylene Glycol Dicaprylate/Dicaprate, Phenylbenzimidazole Sulfonic Acid, Tapioca Starch, Cetyl Alcohol, Stearyl Alcohol, Cocoglycerides, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ubiquinone, Creatine, 1-Methylhydantoin-2-Imide, Acetyl Hydroxyproline, Glycyrrhiza Inflata Root Extract, Sodium Stearoyl Glutamate, Caprylyl Glycol, Ethylhexylglycerin, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A9CAD55D47E90B6A22C73B48F0FC0D0F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A9CAD55D47E90B6A22C73B48F0FC0D0F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/c/9/5/4ff0bc54e6884deb9a7cb1413d088bbd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A9CAD55D47E90B6A22C73B48F0FC0D0F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-q10-%cf%84%cf%81%ce%b9%cf%80%ce%bb%ce%b7-%ce%b1%ce%bc%cf%85%ce%bd%ce%b1-%ce%ba%ce%b1%cf%84%ce%b1-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%b9%ce%b4%cf%89%ce%bd-daily-uv-fluid-spf50-40060001641200044.html",
     "source": "nivea.gr",
@@ -2882,10 +2882,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε τη λοσιόν σώματος σε ολόκληρο το σώμα.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε στα ξηρά σημεία της επιδερμίδας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Coco-Caprylate/Caprate, Glyceryl Stearate SE, Cetearyl Alcohol, Dicaprylyl Ether, Hydroxypropyl Starch Phosphate, Vegetable Oil, Sesamum Indicum Seed Oil, Tocopherol, Sodium Cetearyl Sulfate, Citric Acid, Ethylhexylglycerin, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg?db=web&ctx=GR&hash=6251CA2D3AAC278A560E695E05102E23&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg?db=web&ctx=GR&hash=6251CA2D3AAC278A560E695E05102E23&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/a/2/1/1/bc069f28519248489c947fbb477787a9-screen.jpg?db=web&ctx=GR&hash=6251CA2D3AAC278A560E695E05102E23&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-lemongrass-lotion-400ml-40059009806560044.html",
     "source": "nivea.gr",
@@ -2920,10 +2920,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένο πρόσωπο: Βεβαιωθείτε ότι το πρόσωπο, ο λαιμός και το ντεκολτέ σας είναι βρεγμένα πριν εφαρμόσετε το Gel\nΒήμα 2 – Μασάζ: Τώρα, κάντε μασάζ με το καθημερινό GEL καθαρισμού στο πρόσωπό σας σε μικρούς ανοδικούς κύκλους. Αποφύγετε την περιοχή των ματιών\nΒήμα 3 – Ξεβγάλετε: Ξεβγάλετε τα υπόλειμματα του προϊόντος με χλιαρό νερό.",
       "Συστατικά": "INCI: Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Acrylates Copolymer, Magnolia Officinalis Bark Extract, Lactic Acid, Glycerin, Lauryl Glucoside, Sodium Lauryl Sulfate, PEG-40 Hydrogenated Castor Oil, PEG-200 Hydrogenated Glyceryl Palmate, Benzophenone-4, Sodium Chloride, Microcrystalline Cellulose, Mannitol, Polyquaternium-10, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Methylparaben, Ethylparaben, Citronellol, Alpha-Isomethyl Ionone, Parfum, CI 74160, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E2A21C39610D742594A03185BF74826&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E2A21C39610D742594A03185BF74826&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/d/0/3/9c7283fcac2f4f4fa02d6427b1e7155b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E2A21C39610D742594A03185BF74826&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%ce%b1%ce%b8%ce%b7%ce%bc%ce%b5%cf%81%ce%b9%ce%bd%cf%8c-gel-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%cf%80%cf%8c%cf%81%cf%89%ce%bd-150-ml-40059000790080044.html",
     "source": "nivea.gr",
@@ -2958,10 +2958,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντουζ: Κάντε ντουζ σε ολόκληρο το σώμα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε πλούσα ποσότητα σε όλο το σώμα. Έπειτα εφαρμόστε στις περιοχές που απαιτούν περισσότερη ενυδάτωση.\nΒήμα 3 – Απορρόφηση: Αφήστε τη λοσιόν να απορροφηθεί",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Alcohol Denat., Glyceryl Stearate SE, Glyceryl Stearate, C12-15 Alkyl Benzoate, Ubiquinone, Sodium Ascorbyl Phosphate, Butyrospermum Parkii Butter, Dimethicone, Sodium Cetearyl Sulfate, Carbomer, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Linalool, Citronellol, Benzyl Alcohol, Alpha-Isomethyl Ionone, Linalyl Acetate, Citrus Aurantium Peel Oil, Limonene, Eugenyl Acetate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B3D17763292CD3A7081AC8EF7D11A6C0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B3D17763292CD3A7081AC8EF7D11A6C0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/f/d/3/f0b922811f354a9e9b0cb23a8b83c728-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B3D17763292CD3A7081AC8EF7D11A6C0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-firming-lotion-q10plus-400ml-40060000873200044.html",
     "source": "nivea.gr",
@@ -2996,10 +2996,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Οδηγίες: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Προσοχή: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές\nΒήμα 8 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 9 – Συμβατότητα: Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Isopropyl Palmitate, Glycerin, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Copernicia Cerifera Cera, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Hydrogenated Rapeseed Oil, Panthenol, Cetyl Palmitate, Microcrystalline Cellulose, Sodium Stearoyl Glutamate, Cellulose Gum, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Tocopheryl Acetate, Xanthan Gum, Caprylyl Glycol, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Sodium Chloride, Pantolactone, Citric Acid, Sodium Sulfate, Parfum, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DD56AA9C8216FD8673DFD12C1215D0A&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DD56AA9C8216FD8673DFD12C1215D0A&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/7/e/2/ae67f97662184d86bf01cd5000a89e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DD56AA9C8216FD8673DFD12C1215D0A&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--kid%27s-colour-spray-spf-50plus%2c-200ml-40058082868670044.html",
     "source": "nivea.gr",
@@ -3031,10 +3031,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Χαρίστε στην επιδερμίδα σας τη φροντίδα που χρειάζεται χωρίς να αφιερώσετε πολύ χρόνο. Η NIVEA Υφασμάτινη Μάσκα Ενυδάτωσης Rose Touch είναι εμπλουτισμένη με συμπυκνωμένο φυσικό ροδόνερο και υαλουρονικό οξύ, συστατικά που προσφέρουν εντατική ενυδάτωση και λάμψη στην επιδερμίδα, σε μόλις 10 λέπτα μετά την εφαρμογή της μάσκας. Αποτέλεσμα: ενυδατωμένη, αναζωογονημένη και εξαιρετικά απαλή επιδερμίδα. Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Χρήση": "Βήμα 1 – ΚΑΘΑΡΙΣΜΟΣ: Καθαρίστε την επιδερμίδα σας διεξοδικά και στεγνώστε τη πριν την εφαρμογή της μάσκας\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε τη μάσκα στο πρόσωπο και προσαρμόστε τη. Χαλαρώστε και αφήστε τη για 10 λεπτά.\nΒήμα 3 – ΑΦΑΙΡΕΣΗ: Αφαιρέστε τη μάσκα αργά από τις άκρες. Κάντε απαλό μασάζ τυχόν περίσσειας ορού στο λαιμό και στο ντεκολτέ."
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B7545072489B2D68CD461C6239133384&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B7545072489B2D68CD461C6239133384&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/f/5/1/7712373bf9b043698d06b6a17c1a20e4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B7545072489B2D68CD461C6239133384&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%cf%85%cf%86%ce%b1%cf%83%ce%bc%ce%ac%cf%84%ce%b9%ce%bd%ce%b7-%ce%bc%ce%ac%cf%83%ce%ba%ce%b1-%ce%b5%ce%bd%cf%85%ce%b4%ce%ac%cf%84%cf%89%cf%83%ce%b7%cf%82-rose-touch-90058003968040044.html",
     "source": "nivea.gr",
@@ -3068,10 +3068,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΠΡΟΣΟΧΗ: Μην ψεκάζετε απευθείας στο πρόσωπο/αποφύγετε την εισπνοή\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 4 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή.\nΒήμα 6 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες ακτινοβολία.\nΒήμα 7 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Isopropyl Palmitate, Alcohol Denat., Caprylic/Capric Triglyceride, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Aqua, Coco-Caprylate/Caprate, Ethylhexyl Triazone, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Simmondsia Chinensis Seed Oil, Tocopheryl Acetate, Tocopherol, Zea Mays Oil, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Parfum, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66716819044A9A4B3356643534D795F0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66716819044A9A4B3356643534D795F0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/f/c/0/93aa02d501aa4da49ba0422c6f5fa732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66716819044A9A4B3356643534D795F0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-deep-tan-oil-spray%2c-spf-6-52011780266860044.html",
     "source": "nivea.gr",
@@ -3105,10 +3105,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε σχολαστικά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε την Κρέμα Ημέρας κάνοντας μασάζ με κυκλικές κινήσεις\nΒήμα 3 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια\nΒήμα 4 – Καλύτερα αποτελέσματα: Χρησιμοποιήστε όλη τη σειρά προϊόντων NIVEA για κανονική επιδερμίδα",
       "Συστατικά": "INCI: Aqua, Glycerin, Ethylhexyl Salicylate, C12-15 Alkyl Benzoate, Alcohol Denat., Cetearyl Alcohol, Butyl Methoxydibenzoylmethane, Caprylic/Capric Triglyceride, Distarch Phosphate, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Phenylbenzimidazole Sulfonic Acid, Aloe Barbadensis Leaf Juice Powder, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Butyrospermum Parkii Butter, Tapioca Starch, Ethylhexylglycerin, Hydroxyacetophenone, Xanthan Gum, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7DB1E9040A670EA98A68D84F076FC696&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7DB1E9040A670EA98A68D84F076FC696&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/f/3/c/49c73fcd803f46b4bd605b57fdb3be10-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7DB1E9040A670EA98A68D84F076FC696&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-spf15-tube-50ml-40060002069500044.html",
     "source": "nivea.gr",
@@ -3142,10 +3142,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA SUN Protect & Dry Touch Μη Λιπαρό Gel SPF 30 προσφέρει υψηλής αποτελεσματικότητας και αξιόπιστη προστασία απο τις UVA/UVB και είναι διάφανο στην επιδερμίδα. Η ελαφριά, μη λιπαρή του σύνθεση είναι ανθεκτική στον ιδρώτα και έξτρα ανθετικό στο νερό, 100% διάφανη δεν αφήνει λευκά σημάδια. Επιπλέον, η σύνθεσή του απορροφάται αμέσως από την επιδερμίδα και δεν κολλάει στα χέρια. Συμβατότητα με την επιδερμίδα δερματολογικά αποδεδειγμένη. Κατάλληλο για χρήση στην άθληση. Η NIVEA SUN αποσκοπεί στην ελαχιστοποίηση των επιπτώσεων στο περιβάλλον. H νέα και βελτιωμένη σύνθεση σέβεται τη θάλασσα καθώς δεν περιέχει UV filters Octinoxate, Oxybenzone και Octocrylene και είναι 70% βιοδιασπώμενη. Προστασία για όλους! Ανακαλύψτε την παιδική σειρά NIVEA SUN και τις αντηλιακές κρέμες προσώπου UV Face. Για μια ολοκληρωμένη ρουτίνα καλοκαιρινής φροντίδας δοκιμάστε τη σειρά NIVEA SUN After Sun.",
       "Συστατικά": "INCI: Aqua, Glycerin, C12-15 Alkyl Benzoate, Alcohol Denat., Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Butylene Glycol Dicaprylate/Dicaprate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Ethylhexyl Triazone, Panthenol, Copernicia Cerifera Cera, Phenylbenzimidazole Sulfonic Acid, Tetrasodium Iminodisuccinate, Cellulose Gum, Tocopheryl Acetate, Sucrose Polystearate, Sodium Stearoyl Glutamate, Hydrogenated Polyisobutene, VP/Hexadecene Copolymer, Microcrystalline Cellulose, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium EDTA, Sodium Chloride, Sodium Hydroxide, Ethylhexylglycerin, Phenoxyethanol, Linalool, Limonene, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Coumarin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=03338C4F19CD6CD934CCE50FAABBF18F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=03338C4F19CD6CD934CCE50FAABBF18F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/d/2/2/b44bbbd7a5f34b888ed4ee88d50f2a86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=03338C4F19CD6CD934CCE50FAABBF18F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/protect-and-dry-touch-gel-spf-30-40059006907770044.html",
     "source": "nivea.gr",
@@ -3181,10 +3181,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο\nΒήμα 2 – Ανανέωση: ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – Εκθεση: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος",
       "Συστατικά": "INCI: Aqua, C12-15 Alkyl Benzoate, Paraffinum Liquidum, Glycerin, Octocrylene, Caprylic/Capric Triglyceride, Alcohol Denat., Butyl Methoxydibenzoylmethane, Cetearyl Alcohol, Ethylhexyl Salicylate, Glyceryl Stearate Citrate, Isohexadecane, Methylpropanediol, Hydrogenated Coco-Glycerides, Tocopheryl Acetate, Zea Mays Oil, VP/Hexadecene Copolymer, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Ethylparaben, Methylparaben, Linalool, Limonene, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Parfum, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A6FD000E002AAC3ACA927207D7A3BCE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A6FD000E002AAC3ACA927207D7A3BCE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/b/0/f/382948-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0A6FD000E002AAC3ACA927207D7A3BCE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/caroten-sun-lotion-40058084416240044.html",
     "source": "nivea.gr",
@@ -3213,10 +3213,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Με την ισχυρή σύνθεση MAXXTECH με μαύρο άνθρακα και ενίσχυση φρεσκάδας από το νέο αναζωογονητικό άρωμα: - Μειώνει τα βακτήρια πάνω από 99,9%* - Προστατεύει ενεργά την επιδερμίδα - Άρωμα μεγάλης διάρκειας - Ισχυρή απόδοση κατά του ιδρώτα Για αξιόπιστη προστασία πριν, κατά τη διάρκεια και μετά τον αθλητισμό.",
       "Συστατικά": "INCI: PPG-15 Stearyl Ether, Steareth-2, Parfum, Charcoal Powder, Juniperus Virginiana Oil, Pogostemon Cablin Oil, Persea Gratissima Oil, Trisodium EDTA, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Linalyl Acetate, Geranyl Acetate, Ebanol, Camphor, Terpineol, Beta-Caryophyllene, Tocopherol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E20741A4FA483ED3AB39C663051B6453&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E20741A4FA483ED3AB39C663051B6453&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/a/1/3/4a2964e0ac4e4362a5c4dd9935e9ffce-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E20741A4FA483ED3AB39C663051B6453&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-deep-sport-roll-on-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40060000903440044.html",
     "source": "nivea.gr",
@@ -3250,10 +3250,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε το τζελ και κάντε μασάζ σε βρεγμένο πρόσωπο και γένια.\nΒήμα 2 – Προσοχή: Αποφύγετε την περιοχή των ματιών.\nΒήμα 3 – Καθαρισμός: Ξεβγάλτε με άφθονο νερό.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Cocamidopropyl Betaine, Disodium Cocoyl Glutamate, Coco-Glucoside, Xanthan Gum, Charcoal Powder, Cellulose Gum, Propylene Glycol, Citric Acid, Sodium Benzoate, Phenoxyethanol, Limonene, Linalool, Terpineol, Parfum, CI 77268:1"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8D153A0B335635DA4EFACE96A931162C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8D153A0B335635DA4EFACE96A931162C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/7/a/3/9dd56b31018546cc9620ef6e3c6b97a2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8D153A0B335635DA4EFACE96A931162C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deep-gel-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%b3%ce%b9%ce%b1-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%bf-and-%ce%b3%ce%ad%ce%bd%ce%b9%ce%b1-100ml-40060000900300044.html",
     "source": "nivea.gr",
@@ -3289,10 +3289,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακίνηση: Ανακινήστε καλά το προϊόν πριν τη χρήση\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν σε ένα βαμβάκι\nΒήμα 3 – Καθαρισμός: Καθαρίστε απαλά την περιοχή των ματιών\nΒήμα 4 – Φακοί Επαφής: Το προϊόν είναι κατάλληλο για χρήστες φακών επαφής",
       "Συστατικά": "INCI: Aqua, Isododecane, C15-19 Alkane, Isopropyl Palmitate, Glycerin, Ethylhexyl Cocoate, Dicaprylyl Ether, Tocopherol, Sodium Ascorbyl Phosphate, Caprylyl/Capryl Glucoside, Citric Acid, Sodium Chloride, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Benzethonium Chloride, Sodium Sulfate, CI 16035, CI 61570"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B35CC7DF31095645DE81E90248524C10&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B35CC7DF31095645DE81E90248524C10&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/d/8/2/33637059e6f9461d85e8c3afcce1691d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B35CC7DF31095645DE81E90248524C10&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-radiance-waterproof-%ce%bd%cf%84%ce%b5%ce%bc%ce%b1%ce%ba%ce%b9%ce%b3%ce%b9%ce%ac%ce%b6-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-2-%cf%86%ce%ac%cf%83%ce%b5%cf%89%ce%bd-40059008983880044.html",
     "source": "nivea.gr",
@@ -3329,10 +3329,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Απαλό Μασάζ: Κάντε απαλό μασάζ στην επιδερμίδα μέχρι να απορροφηθεί πλήρως",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Isopropyl Palmitate, Myristyl Alcohol, Sodium Cetearyl Sulfate, Caprylic/Capric Triglyceride, Panthenol, Butyrospermum Parkii Butter, Pantolactone, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Citric Acid, Phenoxyethanol, Ethylhexylglycerin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E975C7FB125E586156343A7779D65908&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E975C7FB125E586156343A7779D65908&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/8/b/d/125be82834fc451e8ca7097bea30dfb0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E975C7FB125E586156343A7779D65908&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-repair-and-care-hand-cream-75ml-60010510041950044.html",
     "source": "nivea.gr",
@@ -3370,10 +3370,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καλύτερα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει πλήρως πριν ντυθείτε.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, PEG-150 Distearate, Propylene Glycol, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Citric Acid, Anethole, Carvone, Pogostemon Cablin Oil, Vanillin, Linalyl Acetate, Pelargonium Graveolens Flower Oil, Linalool, Hydrogenated Palm Glycerides Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD93018753A7A01D0452A1EEAB164DE4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD93018753A7A01D0452A1EEAB164DE4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/4/3/1/044830f15129448395c47d34c6421d1f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD93018753A7A01D0452A1EEAB164DE4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-black-and-white-ultimate-impact-roll-on-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-50ml-40059007303360044.html",
     "source": "nivea.gr",
@@ -3408,10 +3408,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία",
       "Συστατικά": "INCI: Aqua, Propylene Glycol Dicaprylate/Dicaprate, Alcohol Denat., Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Triazone, Distarch Phosphate, Tapioca Starch, Silica Dimethyl Silylate, Undecane, Glyceryl Stearate Citrate, Phenylbenzimidazole Sulfonic Acid, Oryza Sativa Starch, Glyceryl Stearate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, Glycyrrhiza Inflata Root Extract, Carnitine, Tocopheryl Acetate, Tocopherol, Tridecane, Stearyl Alcohol, Myristyl Myristate, Xanthan Gum, Sodium Hydroxide, Cocoglycerides, Carrageenan, Hydroxyacetophenone, Trisodium EDTA, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3C15FC8820D704337F526083B827FE9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3C15FC8820D704337F526083B827FE9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/5/0/d/647b3edfd8f64d729dda03aeee7434a1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3C15FC8820D704337F526083B827FE9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-mat---look-cream-spf50plus%2c-40ml-40060002289140044.html",
     "source": "nivea.gr",
@@ -3449,10 +3449,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Εφαρμογή: Εφαρμογή προϊόντος\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, Persea Gratissima Oil, PEG-150 Distearate, Tetramethyl Acetyloctahydronaphthalenes, Citronellol, Terpineol, Linalyl Acetate, Dimethyl Phenethyl Acetate, Limonene, Citrus Aurantium Peel Oil, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E4150B5240E53AFA5BA4FF9AFC4E02E3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E4150B5240E53AFA5BA4FF9AFC4E02E3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/b/f/7/aac117a5588440bfb29c4be148d18dcd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E4150B5240E53AFA5BA4FF9AFC4E02E3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-sensation-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40060000165350044.html",
     "source": "nivea.gr",
@@ -3487,10 +3487,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε σε ολόκληρο το σώμα & επαναλάβετε σε πιο ξηρές περιοχές",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Isopropyl Palmitate, Cetearyl Alcohol, Coco-Caprylate/Caprate, Sodium Hyaluronate, Sodium Ascorbyl Phosphate, Niacinamide, Tocopherol, Glycine Soja Oil, Sorbitan Stearate, Dehydroxanthan Gum, Tapioca Starch, Phenoxyethanol, Ethylhexylglycerin, Citric Acid, Sodium Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg?db=web&ctx=GR&hash=6B207C7EAC6E2C09AE3FFFB835D20F36&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg?db=web&ctx=GR&hash=6B207C7EAC6E2C09AE3FFFB835D20F36&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/7/4/9/0/996cb8e210d54b9aa0eb2f0e7ac07999-screen.jpg?db=web&ctx=GR&hash=6B207C7EAC6E2C09AE3FFFB835D20F36&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-skin-refining-body-serum-lotion-200ml-40060003033900044.html",
     "source": "nivea.gr",
@@ -3522,10 +3522,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Ethylhexyl Salicylate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Glycerin, Glycyrrhetinic Acid, Tocopheryl Acetate, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB4B765B14271C8E80246B6B2FE9FA8D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB4B765B14271C8E80246B6B2FE9FA8D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/e/c/b/802d782f44714a039bc0d00bec708e11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB4B765B14271C8E80246B6B2FE9FA8D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-spray-spf-30-40058086536830044.html",
     "source": "nivea.gr",
@@ -3567,10 +3567,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βήμα 3: Ιδανική βάση για το μακιγιάζ.\nΒήμα 2 – Βήμα 1: Εφαρμόστε ομοιόμορφα ως το τελευταίο βήμα της καθημερινής πρωινής ρουτίνας περιποίησης τους προσώπου.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Dipropylene Glycol Dibenzoate, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Distarch Phosphate, Glyceryl Stearate SE, Phenylbenzimidazole Sulfonic Acid, Silica Dimethyl Silylate, Sodium Hyaluronate, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Glycerin, Polyglyceryl-3 Methylglucose Distearate, Sodium Cetearyl Sulfate, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Copernicia Cerifera Cera, Hydroxyacetophenone, Tapioca Starch, Xanthan Gum, Cellulose Gum, Microcrystalline Cellulose, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Sodium Chloride, Sodium Sulfate, Phenoxyethanol, CI 15985, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=21767F3DF136B42F6B7A1BFA44BE84BE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=21767F3DF136B42F6B7A1BFA44BE84BE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/5/7/8/10dccb6499e541e48f3a88f7e488c863-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=21767F3DF136B42F6B7A1BFA44BE84BE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-filler-expert-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-uv-%ce%bb%ce%b5%cf%80%cf%84%cf%8c%cf%81%ce%b5%cf%85%cf%83%cf%84%ce%bf%cf%82-%ce%bf%cf%81%cf%8c%cf%82-spf50-40060001550740044.html",
     "source": "nivea.gr",
@@ -3609,10 +3609,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Εφαρμόστε δύο φορές την ημέρα, πρωί και βράδυ, σε καθαρό πρόσωπο πριν από την καθημερινή σας ρουτίνα περιποίησης.\nΒήμα 2 – Εφαρμογή: Απλώστε τον ορό σε όλο το πρόσωπο\nΒήμα 3 – Συνδυασμός Προϊόντων: Χρησιμοποιήστε τον Ορό και το πρωί σε συνδυασμό με την LUMINOUS630® Κρέμα Ημέρας Κατά των Κηλίδων SPF50.",
       "Συστατικά": "INCI: Aqua, Caprylic/Capric Triglyceride, Glycerin, Cocoglycerides, Alcohol Denat., Distarch Phosphate, Glyceryl Stearate, Methylpropanediol, Tapioca Starch, Cetearyl Alcohol, Sodium Hyaluronate, Tocopheryl Acetate, Sodium Stearoyl Glutamate, Xanthan Gum, Trisodium Ethylenediamine Disuccinate, Citric Acid, Sodium Chloride, Sodium Sulfate, Ethylhexylglycerin, Phenoxyethanol, Parfum, CI 15985, CI 47005"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8325D6688FBAE26AECBCF8971966DDD8&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8325D6688FBAE26AECBCF8971966DDD8&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/7/8/f/d446d7fdce644d1a9180b5c7e016e241-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8325D6688FBAE26AECBCF8971966DDD8&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-luminous630%c2%ae-%cf%83%cf%85%ce%bc%cf%80%cf%85%ce%ba%ce%bd%cf%89%ce%bc%ce%ad%ce%bd%ce%bf%cf%82-%ce%bf%cf%81%cf%8c%cf%82-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%ce%ba%ce%b7%ce%bb%ce%af%ce%b4%cf%89%ce%bd-30ml-40059007869750044.html",
     "source": "nivea.gr",
@@ -3647,10 +3647,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Shower: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Shake: Ανακινήστε καλά πριν την χρήση\nΒήμα 3 – Spray: Κρατήστε το δοχείο σε απόσταση 15 εκατοστών από την μασχάλη και ψεκάστε\nΒήμα 4 – Let dry: Αφήστε το προϊόν να στεγνώσει εντελώς.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Benzyl Alcohol, Citronellol, Geraniol, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8FA269E3C8856BF0088C6C82F84E597&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8FA269E3C8856BF0088C6C82F84E597&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/d/1/4/e10a8bc6443f40d2bd3d25f715b5a724-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8FA269E3C8856BF0088C6C82F84E597&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-cherry-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-40059007252950044.html",
     "source": "nivea.gr",
@@ -3687,10 +3687,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε τη νύχτα σε καθαρό πρόσωπο\nΒήμα 2 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια\nΒήμα 3 – Καλύτερα αποτελέσματα: Ενισχύστε την καθημερινή αντιρυτιδική σας ρουτίνα: Βελτιώστε την καθημερινή ρουτίνα του προσώπου σας με την Αντιρυτιδική Θεραπεία Ματιών Q10 & την Αντιρυτιδική Κρέμα Ημέρας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyrospermum Parkii Butter, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Cocoglycerides, Methylpropanediol, Hydrogenated Coco-Glycerides, Glyceryl Stearate Citrate, Stearyl Alcohol, Macadamia Integrifolia Seed Oil, Ubiquinone, Acetyl Hydroxyproline, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Panthenol, Pantolactone, Ricinus Communis Seed Oil, Ethylhexylglycerin, Caprylyl Glycol, Xanthan Gum, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1D203610A8DA8AC7D70D82444AE7C43B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1D203610A8DA8AC7D70D82444AE7C43B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/2/4/7/967ebd52d07d4861b9a85bfe2a355bc2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1D203610A8DA8AC7D70D82444AE7C43B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%b7-%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-%ce%bd%cf%85%cf%87%cf%84%ce%b1%cf%83-q10-power-40059006760540044.html",
     "source": "nivea.gr",
@@ -3719,10 +3719,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "\"NIVEA MEN DEEP Σύνθεση MAXXTECH με μαύρο άνθρακα και έντονη φρεσκάδα από το νέο ξυλώδες άρωμα - Μειώνει τα βακτήρια πάνω από 99,9%* - Ενεργή προστασία της επιδερμίδας - Άρωμα μεγάλης διάρκειας - Χωρίς ορατά μαύρα υπολείμματα Αξιόπιστη αντιιδρωτική προστασία για 72 ώρες.",
       "Συστατικά": "INCI: PPG-15 Stearyl Ether, Steareth-2, Charcoal Powder, Persea Gratissima Oil, Tocopherol, Citrus Aurantium Peel Oil, Pogostemon Cablin Oil, Linalyl Acetate, Limonene, Amyl Salicylate, Citronellol, Juniperus Virginiana Oil, Ebanol, Alpha-Isomethyl Ionone, Pelargonium Graveolens Flower Oil, Tetramethyl Acetyloctahydronaphthalenes, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E1E7380BA4FDD97B07EBBF67387BB23E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E1E7380BA4FDD97B07EBBF67387BB23E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/c/3/5/a5d91541cc764f4b91520433442ce815-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E1E7380BA4FDD97B07EBBF67387BB23E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-deep-beat-roll-on-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40059008749620044.html",
     "source": "nivea.gr",
@@ -3756,10 +3756,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA SUN Protect & Dry Touch Refreshing Sun Mist SPF 50 προσφέρει άμεση προστασία από τις UVA/UVB ενώ προσφέρει ευχάριστη αναζωογονητική αίσθηση στην επιδερμίδα. Η ελαφριά και μη λιπαρή σύνθεσή του είναι ανθεκτική στον ιδρώτα και έξτρα ανθεκτική στο νερό, 100% διαφανής δεν αφήνει λευκά σημάδια. Επιπλέον, απορροφάται αμέσως από την επιδερμίδα και έχει ευκολία στην εφαρμογή με ψεκασμό υπό κάθε γωνία . Συμβατότητα με την επιδερμίδα, δερματολογικά ελεγμένη. Κατάλληλο για χρήση κατά τη διάρκεια της άθλησης. Το NIVEA SUN στοχεύει στην ελαχιστοποίηση των επιπτώσεων στο περιβάλλον. Τα νέα και βελτιωμένα αντηλιακά σέβονται τη θάλασσα ύφαλο καθώς είναι απαλλαγμένα από τα φίλτρα UV Octinoxate και Oxybenzone. 90% Βιοδιασπώμενη Σύνθεση. Προστασία για όλους με τη σειρά NIVEA SUN Kids και UV Face. Για να ολοκληρώσετε τη ρουτίνα περιποίησης του καλοκαιριού, δοκιμάστε τη σειρά NIVEA SUN After Sun.",
       "Συστατικά": "INCI: Alcohol Denat., Butane, Isobutane, Propane, C12-15 Alkyl Benzoate, Homosalate, Octocrylene, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Glycerin, Isopropyl Palmitate, Propylheptyl Caprylate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Tocopherol, Acrylates/Octylacrylamide Copolymer, Aqua, Linalool, Limonene, Benzyl Alcohol, Benzyl Salicylate, Alpha-Isomethyl Ionone, Citronellol, Coumarin, Geraniol, Methyl Benzoate, Hexyl Cinnamal, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D3B3D63DEC06EB170D853784392FAB71&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D3B3D63DEC06EB170D853784392FAB71&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/4/8/d/beedd16e56f94d95badaf9f3b1f9f595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D3B3D63DEC06EB170D853784392FAB71&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/protect-and-dry-touch-refreshing-mist-spf-30-40059006891460044.html",
     "source": "nivea.gr",
@@ -3794,10 +3794,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο\nΒήμα 2 – ΑΝΑΝΕΩΣΗ: ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία",
       "Συστατικά": "INCI: Alcohol Denat., C12-15 Alkyl Benzoate, Homosalate, Octocrylene, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Glycerin, Isopropyl Palmitate, Propylheptyl Caprylate, Acrylates/Octylacrylamide Copolymer, Tocopherol, Aqua, Linalool, Limonene, Benzyl Alcohol, Benzyl Salicylate, Citronellol, Coumarin, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86503ADB170A6B9D1BA94D3C7CC13EA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86503ADB170A6B9D1BA94D3C7CC13EA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/9/0/9/eb7571d9078d4d988c6bdccab92ac622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B86503ADB170A6B9D1BA94D3C7CC13EA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/protect-and-dry-touch-invisible-spray-spf-30-40059006891770044.html",
     "source": "nivea.gr",
@@ -3831,10 +3831,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε κάθε πρωί σε καθαρό πρόσωπο, αποφεύγοντας την περιοχή των ματιών.",
       "Συστατικά": "INCI: Aqua, Glycerin, Distarch Phosphate, Alcohol Denat., Caprylic/Capric Triglyceride, Glyceryl Stearate Citrate, Hydroxypropyl Starch Phosphate, Butylene Glycol Dicaprylate/Dicaprate, Cetearyl Alcohol, Myristyl Myristate, 1,2-Hexanediol, Rosa Damascena Flower Water, Sodium Hyaluronate, Cetearyl Isononanoate, Caesalpinia Spinosa Gum, Cellulose Gum, Microcrystalline Cellulose, Sodium Hydroxide, Sodium Benzoate, Potassium Sorbate, Sorbic Acid, Phenoxyethanol, Linalool, Geraniol, Citronellol, Citrus Aurantium Peel Oil, Limonene, Linalyl Acetate, Methyl Benzoate, Parfum, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E0759943A2514D475B14FA7172B09C3F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E0759943A2514D475B14FA7172B09C3F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/f/1/1/70d85d4c500344aabc3cdeda9e6495f8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E0759943A2514D475B14FA7172B09C3F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-gel-rose-care-90058003968110044.html",
     "source": "nivea.gr",
@@ -3870,10 +3870,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν τη χρήση και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN FRESH KICK After shave Balm ή Lotion.",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Coco-Caprylate/Caprate, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Sodium Chloride, Sodium Sulfate, Propane, Butane, Citric Acid, Sodium Benzoate, Piroctone Olamine, Parfum, CI 42053"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5132E0321FF497303A5086A5F7CA88EA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5132E0321FF497303A5086A5F7CA88EA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/2/d/a/0c30bf4bd44440bcb9f4149ea2f51b67-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5132E0321FF497303A5086A5F7CA88EA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-fresh-kick-200-ml-59000170786940044.html",
     "source": "nivea.gr",
@@ -3908,10 +3908,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα (σε πρόσωπο, λαιμό και ντεκολτέ) πριν από την έκθεση στον ήλιο.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκουπίσμα, για να διατηρήσετε την αρχική προστασία..",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., CI 77891, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Dipropylene Glycol Dibenzoate, Phenylbenzimidazole Sulfonic Acid, Butylene Glycol Dicaprylate/Dicaprate, Glycerin, CI 77492, Polyglyceryl-6 Stearate, Silica Dimethyl Silylate, Silica, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycyrrhiza Inflata Root Extract, Arginine HCl, Sodium Hyaluronate, Sodium PCA, Copernicia Cerifera Cera, Glyceryl Stearate, Sodium Hydroxide, Cetearyl Alcohol, Sodium Lactate, CI 77491, Polyglyceryl-6 Behenate, CI 77499, Tapioca Starch, Carrageenan, Phenoxyethanol, Ethylhexylglycerin, Trisodium Ethylenediamine Disuccinate, Xanthan Gum, Parfum, Hydroxyacetophenone, Alumina"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=91EBC3409B31B26281DC30824096B528&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=91EBC3409B31B26281DC30824096B528&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/d/d/9/1ab7a6f2ceff44d3bf3627805ff26324-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=91EBC3409B31B26281DC30824096B528&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-invisible-medium-tinted-spf-50plus%2c-40ml-40060001730090044.html",
     "source": "nivea.gr",
@@ -3947,10 +3947,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Εφαρμογή: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Dibutyl Adipate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Dipropylene Glycol Dibenzoate, Ethylhexyl Triazone, Cetyl Alcohol, Copernicia Cerifera Cera, Silica Dimethyl Silylate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Sodium Hyaluronate, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate Citrate, Glyceryl Stearate, C18-38 Alkyl Hydroxystearoyl Stearate, Xanthan Gum, Cetyl Palmitate, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Phenoxyethanol, Hydroxyacetophenone, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0099385EEF5B2029F21B0CE88C21F635&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0099385EEF5B2029F21B0CE88C21F635&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/0/1/f/63ee8ee06b2d4413b9722f7122410f91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0099385EEF5B2029F21B0CE88C21F635&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-lotion-spf-50plus%2c-200ml-40058084298820044.html",
     "source": "nivea.gr",
@@ -3987,10 +3987,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Aloe Barbadensis Leaf Juice Powder, Prunus Amygdalus Dulcis Oil, Vitis Vinifera Seed Oil, Tocopherol, Sodium Ascorbyl Phosphate, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Sodium Chloride, Sodium Benzoate, Benzoic Acid, Tetramethyl Acetyloctahydronaphthalenes, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CA686C9E3145AD63793E454956F3032&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CA686C9E3145AD63793E454956F3032&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/4/e/5/efc1194052694a0f94aa8ad5c3ceb98a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CA686C9E3145AD63793E454956F3032&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-creme-aloe-650ml-40060000958510044.html",
     "source": "nivea.gr",
@@ -4025,10 +4025,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένη Επιδερμίδα: Βρέξτε καλά την επιδερμίδα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το τζελ-ντους σε όλο το σώμα\nΒήμα 3 – Ξέβγαλμα: Ξεβγάλτε καλά πριν σκουπιστείτε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Kaolin, Glycerin, Coco-Glucoside, Citric Acid, Glycol Distearate, Sodium Chloride, Cellulose, Cellulose Gum, Sodium Sulfate, Sodium Benzoate, Benzoic Acid, Parfum, CI 61570, CI 10316, CI 16035, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=726863FE772DA966A81F687886D64FD9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=726863FE772DA966A81F687886D64FD9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/d/7/7/8302207bd4a94c76879b012509d18f2b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=726863FE772DA966A81F687886D64FD9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-3%cf%83%ce%b51-deep-clean-500ml---real-madrid-ed-40060002475950044.html",
     "source": "nivea.gr",
@@ -4060,10 +4060,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Η αντηλιακή κρέμα προσώπου NIVEA SUN UV Face Mat-Look Medium Tinted Cream είναι ειδικά σχεδιασμένη για την ευαίσθητη επιδερμίδα του προσώπου. Προστατεύει την επιδερμίδα εξωτερικά από τις ακτίνες UVA/UVB και από τις επιπτώσεις της Ορατής Ακτινοβολίας Υψηλής Ενέργειας (HEVL), όπως η πρόωρη γήρανση της επιδερμίδας. Επιπλέον προστατεύει την επιδερμίδα εκ των έσω χάρη σε ένα ισχυρό φυσικό αντιοξειδωτικό. Η σύνθεσή του με μεσαία απόχρωση προσφέρει ομοιόμορφη απόχρωση στην επιδερμίδα και άμεσο ματ αποτέλεσμα που διαρκεί. Η ελαφριά και μη λιπαρή σύνθεση με 0% κολλώδη αίσθηση αναπτύχθηκε για κανονικούς/μικτούς τύπους επιδερμίδας. H σύνθεσή του είναι οφθαλμολογικά ελεγμένη (φιλική προς τα μάτια). Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη. To NIVEA SUN σέβεται το περιβάλλον. Η σύνθεσή του είναι 64% βιοδιασπώμενη και είναι απαλλαγμένη από φίλτρα UV Octinoxate, Oxybenzone & Octocrylene και χωρίς μικροπλαστικά. Το σωληνάριο και το καπάκι είναι από 50% ανακυκλωμένο πλαστικό. Κουτί από FSC εγκεκριμένο χαρτόνι.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, CI 77891, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Ethylhexyl Triazone, Butylene Glycol Dicaprylate/Dicaprate, Distarch Phosphate, Phenylbenzimidazole Sulfonic Acid, CI 77492, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Glycerin, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Polyglyceryl-3 Methylglucose Distearate, Sodium Stearoyl Glutamate, Cetyl Alcohol, Stearyl Alcohol, Copernicia Cerifera Cera, Hydrogenated Coco-Glycerides, Silica Dimethyl Silylate, Cocoglycerides, Xanthan Gum, Sodium Hydroxide, Sodium Chloride, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Trisodium EDTA, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Limonene, Geraniol, Citronellol, Parfum, CI 77491, CI 77499"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C3790D96CA677FC35B79BBCDBB2C1B4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C3790D96CA677FC35B79BBCDBB2C1B4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/e/8/d/eaba7678456543f390fd283aa1ed18f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C3790D96CA677FC35B79BBCDBB2C1B4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-mat---look-medium-tinted-cream-spf50-40059009953080044.html",
     "source": "nivea.gr",
@@ -4099,10 +4099,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Προετοιμάστε την επιδερμίδα καθαρίζοντάς την\nΒήμα 2 – Εφαρμογή: Εφαρμόστε την Κρέμα σε Πρόσωπο, Σώμα, Χέρια\nΒήμα 3 – Προσοχή: Αποφύγετε την επαφή με τα μάτια\nΒήμα 4 – Απολαύστε: Η Κρέμα απορροφάται άμεσα χωρίς να αφήνει λιπαρότητα",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, Alcohol Denat., Cetyl Alcohol, Glyceryl Stearate, Hydrogenated Coco-Glycerides, Stearyl Alcohol, Palmitic Acid, Stearic Acid, Cera Microcristallina, Tocopheryl Acetate, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Dimethicone, Carbomer, Sodium Hydroxide, Phenoxyethanol, Methylparaben, BHT, Trimethylbenzenepropanol, Pogostemon Cablin Oil, Amyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=78CE9CC3BA2DF3CCA00FA6550757048C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=78CE9CC3BA2DF3CCA00FA6550757048C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/9/4/0/9213ee455a9d46a0aceeb8c4cf2bcd9f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=78CE9CC3BA2DF3CCA00FA6550757048C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-creme-150-ml-40059001307610044.html",
     "source": "nivea.gr",
@@ -4138,10 +4138,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Μπάνιο: Για καλύτερα αποτελέσματα χρησιμοποιήστε το προϊόν μετά το μπάνιο.\nΒήμα 2 – Χρήση: Ανακινήστε καλά πριν τη χρήση\nΒήμα 3 – Spray: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Οδηγίες: Αφήστε το προϊόν να στεγνώσει τελείως",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Cyclomethicone, Aluminum Chlorohydrate, C12-15 Alkyl Benzoate, Isopropyl Palmitate, Parfum, Palmitamidopropyltrimonium Chloride, Octyldodecanol, Disteardimonium Hectorite, Propylene Carbonate, Dimethiconol, Citronellol, Alpha-Isomethyl Ionone, Linalool, Geraniol, Benzyl Alcohol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1B403D62F0E4488FBEAFBA29E87EE6E6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1B403D62F0E4488FBEAFBA29E87EE6E6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/5/3/1/cfe3f101403d4e36a8e7990bea11128e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1B403D62F0E4488FBEAFBA29E87EE6E6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/black-and-white-invisible-ultimate-impact-40059007302750044.html",
     "source": "nivea.gr",
@@ -4176,10 +4176,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε άφθονα στη ξυρισμένη περιοχή.\nΒήμα 2 – ΓΙΑ ΚΑΛΥΤΕΡΑ ΑΠΟΤΕΛΕΣΜΑΤΑ: Για καλύτερα αποτελέσματα, χρησιμοποιείστε τον αφρό ξυρίσματος ή τζελ NIVEA MEN DEEP\nΒήμα 3 – ΠΡΟΣΟΧΗ: Αποφύγετε την περιοχή των ματιών.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Propylene Glycol, PEG-40 Hydrogenated Castor Oil, Citrus Aurantium Peel Oil, Pogostemon Cablin Oil, Linalool, Linalyl Acetate, Geraniol, Coumarin, Geranyl Acetate, Limonene, Alpha-Isomethyl Ionone, Citronellol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=199C86191F6E58646454DE6A76E8F950&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=199C86191F6E58646454DE6A76E8F950&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/6/a/c/ddcb57bfd4a24e18a4c74224324c1207-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=199C86191F6E58646454DE6A76E8F950&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-after-shave-lotion-deep-100ml-59000171025660044.html",
     "source": "nivea.gr",
@@ -4217,10 +4217,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, Parfum, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, PEG-150 Distearate, Propylene Glycol, Tocopherol, Citric Acid, Hydrogenated Palm Glycerides Citrate"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB2527BA6B04949A5BF6F2AE8A4F4D43&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB2527BA6B04949A5BF6F2AE8A4F4D43&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/2/2/9/1aa33b23ea164bccae4dfa0069767e3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB2527BA6B04949A5BF6F2AE8A4F4D43&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-black-and-white-epic-night-roll-on-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-50ml-40060002655060044.html",
     "source": "nivea.gr",
@@ -4256,10 +4256,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 2 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Charcoal Powder, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Pogostemon Cablin Oil, Terpineol, Lavandula Oil/Extract, Anethole, Pelargonium Graveolens Flower Oil, Linalyl Acetate, Linalool, Beta-Caryophyllene, Citronellol, Camphor, Geraniol, Menthol, Limonene, Pinene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9C3BCDDF6CD95271F8E38C0929C0E934&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9C3BCDDF6CD95271F8E38C0929C0E934&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/6/6/e/ff23e816a3d64f65ab5a0b9767f8ebbf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9C3BCDDF6CD95271F8E38C0929C0E934&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-deep-spray-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-150ml-40060002479770044.html",
     "source": "nivea.gr",
@@ -4296,10 +4296,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακίνηση: Ανακινήστε καλά πριν την χρήση\nΒήμα 3 – Εφαρμόγή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Benzyl Alcohol, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Alpha-Isomethyl Ionone, Linalyl Acetate, Citronellol, Rose Ketones, Geranyl Acetate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6ACB724727D4929A69E529319430F9C8&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6ACB724727D4929A69E529319430F9C8&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/3/a/6/f2e20152f85d414b8a67fe4ee2926f40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6ACB724727D4929A69E529319430F9C8&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-authentic-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-40060002486390044.html",
     "source": "nivea.gr",
@@ -4334,10 +4334,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε άφθονα στην ξυρισμένη περιοχή.\nΒήμα 2 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή των ματιών σας.\nΒήμα 3 – Φροντίδα μετά το ξύρισμα: Για καλύτερα αποτελέσματα, χρησιμοποίηστε το NIVEA® MEN Sensitive Shaving Gel.",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Panthenol, Tocopheryl Acetate, Chamomilla Recutita Flower Extract, Tapioca Starch, Triceteareth-4 Phosphate, Carbomer, Maltodextrin, Sodium Hydroxide, Pantolactone, Citric Acid, Phenoxyethanol, Piroctone Olamine, Trimethylbenzenepropanol, Pogostemon Cablin Oil, Amyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1C2756309881E9E72950FCDF4ABAA06&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1C2756309881E9E72950FCDF4ABAA06&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/e/1/b/3a1a4a0266db4137a6b4a18624d52666-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1C2756309881E9E72950FCDF4ABAA06&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-after-shave-balm-sensitive-read-madrid-le-100ml-40060002444020044.html",
     "source": "nivea.gr",
@@ -4373,10 +4373,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε πρωί και βράδυ σε καθαρή επιδερμίδα.\nΒήμα 2 – Προσοχή: Αποφύγετε την περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Sodium Hyaluronate, Panthenol, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Cellulose Gum, PEG-40 Hydrogenated Castor Oil, Citric Acid, Pantolactone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A864053E3E9511FEA0AA2D656F255&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A864053E3E9511FEA0AA2D656F255&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/4/5/8/6f63955bc6dd49e0aa6cd15bbbfc453f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A864053E3E9511FEA0AA2D656F255&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-hydrocare-power-serum-30ml-40060002515160044.html",
     "source": "nivea.gr",
@@ -4412,10 +4412,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΠΡΙΝ ΤΗ ΧΡΗΣΗ: Ανακινήστε καλά/ κρατήστε το δοχείο σε όρθια θέση\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Απλώστε κάνοντας απαλό μασάζ απευθείας σε βρεγμένο πρόσωπο",
       "Συστατικά": "INCI: Aqua, Isobutane, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Glycerin, Chamomilla Recutita Flower Extract, Hamamelis Virginiana Bark/Leaf Extract, Maltodextrin, Tocopheryl Acetate, Caprylic/Capric Triglyceride, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, PEG-7M, Myristic Acid, Arachidic Acid, Oleic Acid, Potassium Hydroxide, Butane, Propane, Silica, BHT, Methylparaben, Piroctone Olamine, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EAD475F55E7D01DF16B6F664CCD40554&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EAD475F55E7D01DF16B6F664CCD40554&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/5/9/d/101f0ba62a7b46e898a292769c9d040d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EAD475F55E7D01DF16B6F664CCD40554&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-40058082226670044.html",
     "source": "nivea.gr",
@@ -4452,10 +4452,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Καθημερινά σε πρόσωπο, σώμα & χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Caprylic/Capric Triglyceride, Butyrospermum Parkii Butter, Glyceryl Stearate, Glyceryl Stearate Citrate, Isopropyl Palmitate, Helianthus Annuus Hybrid Oil, Coco-Caprylate/Caprate, Hydroxypropyl Starch Phosphate, Panthenol, Ceramide NP, Tocopherol, Pantolactone, Ascorbyl Palmitate, Helianthus Annuus Seed Oil, Helianthus Annuus Seed Cera, Caprylyl Glycol, Lecithin, Xanthan Gum, Citric Acid, Hydroxyacetophenone, Piroctone Olamine, Trisodium EDTA"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A70130250DF0A3E5D8985D9A0B1DDA28&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A70130250DF0A3E5D8985D9A0B1DDA28&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/5/f/e/9813539cb1434a43bb3f5a96d343ba94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A70130250DF0A3E5D8985D9A0B1DDA28&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-repair-and-care-sensitive-cream-%cf%87%cf%89%cf%81%ce%af%cf%82-%ce%ac%cf%81%cf%89%ce%bc%ce%b1-400ml-40060001274220044.html",
     "source": "nivea.gr",
@@ -4491,10 +4491,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε πρωί & βράδυ σε καθαρό πρόσωπο, λαιμό & ντεκολτέ. Μπορεί επίσης να χρησιμοποιηθεί και ως μάσκα.",
       "Συστατικά": "INCI: Aqua, Glycerin, Glyceryl Stearate, Caprylic/Capric Triglyceride, Butyrospermum Parkii Butter, Cetearyl Alcohol, Cetyl Ricinoleate, Cocoglycerides, Methylpropanediol, Polyglyceryl-3 Methylglucose Distearate, Dicaprylyl Carbonate, Myristyl Myristate, Ubiquinone, Palmitoyl Tripeptide-5, Acetyl Hydroxyproline, Ceramide NP, Creatine, 1-Methylhydantoin-2-Imide, Argania Spinosa Kernel Oil, Squalane, Ethylhexylglycerin, Hydroxyacetophenone, Caprylyl Glycol, Tocopherol, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F2A1B330E8A88A91B6862E7E40CA69C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F2A1B330E8A88A91B6862E7E40CA69C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/d/6/3/da78b437442646cb9ebe40ff080d8975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F2A1B330E8A88A91B6862E7E40CA69C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/q10-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-collagen-expert-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-and-%ce%bd%cf%8d%cf%87%cf%84%ce%b1%cf%82-90058003992180044.html",
     "source": "nivea.gr",
@@ -4532,10 +4532,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε μία μικρή ποσότητα στην παλάμη ή το σφουγγάρι μπάνιου και απλώστε στο σώμα κάνοντας απαλό μασάζ",
       "Συστατικά": "INCI: Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Sodium Laureth Sulfate, Coco-Glucoside, Tocopherol, Glycerin, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Benzoic Acid, Sodium Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44EEF3770491DC8FF79A4A98C5D0D9D5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44EEF3770491DC8FF79A4A98C5D0D9D5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/6/e/6/2fb0043ef7e94fb7a0000a5467c85806-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44EEF3770491DC8FF79A4A98C5D0D9D5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%bd%cf%84%ce%bf%cf%85%cf%82-gel-sensitive-pro-90058003548730044.html",
     "source": "nivea.gr",
@@ -4570,10 +4570,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντουζ: Κάντε ντουζ σε ολόκληρο το σώμα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε πλούσα ποσότητα σε όλο το σώμα. Έπειτα εφαρμόστε στις περιοχές που απαιτούν περισσότερη ενυδάτωση.\nΒήμα 3 – Απορρόφηση: Αφήστε τη λοσιόν να απορροφηθεί",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Alcohol Denat., Glyceryl Stearate SE, Glyceryl Stearate, C12-15 Alkyl Benzoate, Ubiquinone, Sodium Ascorbyl Phosphate, Butyrospermum Parkii Butter, Dimethicone, Sodium Cetearyl Sulfate, Carbomer, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Linalool, Citronellol, Benzyl Alcohol, Alpha-Isomethyl Ionone, Linalyl Acetate, Citrus Aurantium Peel Oil, Limonene, Eugenyl Acetate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F9267552783362C2906240F629DB3AD0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F9267552783362C2906240F629DB3AD0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/c/2/d/bfae7e8163b643c28cd955dc31476178-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F9267552783362C2906240F629DB3AD0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-firming-lotion-q10plus-250ml-40060000873820044.html",
     "source": "nivea.gr",
@@ -4609,10 +4609,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – Συμβατότητα: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Isopropyl Palmitate, Glycerin, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Copernicia Cerifera Cera, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Microcrystalline Cellulose, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ADF5120D5BE40867B301E2A0E83102BA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ADF5120D5BE40867B301E2A0E83102BA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/1/b/a/3bee8f81a53a4214a745a67ad3b41b80-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ADF5120D5BE40867B301E2A0E83102BA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-trigger-spray-spf-50plus%2c-250ml-40060002391700044.html",
     "source": "nivea.gr",
@@ -4648,10 +4648,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Για καλύτερα αποτελέσματα προετοιμάστε την επιδερμίδα σας με το NIVEA MEN HYDROCARE Face Wash Gel.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν στο πρόσωπο και το λαιμό σας\nΒήμα 3 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή των ματιών\nΒήμα 4 – Φροντίδα μετά το ξύρισμα: Η κρέμα είναι επίσης κατάλληλη για χρήση μετά το ξύρισμα",
       "Συστατικά": "INCI: Aqua, Glycerin, Caprylic/Capric Triglyceride, Ethylhexyl Cocoate, Cetearyl Alcohol, Distarch Phosphate, Glyceryl Stearate Citrate, Hydroxypropyl Starch Phosphate, Butyrospermum Parkii Butter, Panthenol, Tocopheryl Acetate, Chamomilla Recutita Flower Extract, Cellulose Gum, Maltodextrin, Xanthan Gum, Citric Acid, Pantolactone, Phenoxyethanol, Ethylhexylglycerin, Piroctone Olamine"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C30BDFD0808C699AC6BD6A3A6281A090&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C30BDFD0808C699AC6BD6A3A6281A090&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/8/e/6/cbc0382005bf4a2fa5d190feab6e8fc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C30BDFD0808C699AC6BD6A3A6281A090&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-75ml-50259700233970044.html",
     "source": "nivea.gr",
@@ -4691,10 +4691,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Ανακινήστε καλά για να αναμειχθούν και οι δύο φάσεις και στη συνέχεια εμποτίστε ένα βαμβάκι με Micellar Water.\nΒήμα 2 – Εφαρμογή: Σκουπίστε απαλά το πρόσωπό σας και τα κλειστά μάτια σας για να απομακρύνετε το μακιγιάζ, τη μάσκαρα και τα φίλτρα SPF\nΒήμα 3 – Αποτέλεσμα: Δεν χρειάζεται ξέβγαλμα",
       "Συστατικά": "INCI: Aqua, Isododecane, Glycerin, C15-19 Alkane, Niacinamide, Gluconolactone, Salicylic Acid, Arginine HCl, Tocopherol, Coco-Caprylate/Caprate, Glycolipids, Zea Mays Oil, Sodium Chloride, Sodium Lactate, Citric Acid, Sodium Hydroxide, Trisodium EDTA, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Phenoxyethanol, Sodium Benzoate, CI 61565, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00F4C63A25E4EA0102D298E512C04257&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00F4C63A25E4EA0102D298E512C04257&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/5/d/4/84f6d94ddfab42b084fac9eb2f377d9a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00F4C63A25E4EA0102D298E512C04257&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/micellar-derma-skin-clear-infused-serum-%ce%bd%ce%b5%cf%81%cf%8c-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-40060001733130044.html",
     "source": "nivea.gr",
@@ -4730,10 +4730,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Τοποθετήστε μια μικρή ποσότητα τζελ στις παλάμες σας και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο.\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN FRESH KICK After shave Balm ή Lotion.",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Triethanolamine, Oleth-20, Isopentane, Glycerin, Isopropyl Palmitate, Isobutane, Menthol, Tocopheryl Acetate, Hydroxyethylcellulose, Hydroxypropyl Methylcellulose, Laureth-2, Cetearyl Isononanoate, PEG-90 Glyceryl Isostearate, Disodium Phosphate, Sodium Phosphate, Sodium Benzoate, Citric Acid, Sodium Chloride, Sodium Sulfate, Piroctone Olamine, BHT, Parfum, CI 42053"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6A654F6BDD61D7DECB264C4E3B7461FA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6A654F6BDD61D7DECB264C4E3B7461FA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/6/8/b/79b279410f944d338a300d993644bdf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6A654F6BDD61D7DECB264C4E3B7461FA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-gel-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-fresh-kick-200ml-90058003426270044.html",
     "source": "nivea.gr",
@@ -4770,10 +4770,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-14 Butyl Ether, Cetyl Palmitate, Hydrogenated Castor Oil, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Propylene Glycol, Palmitic Acid, Stearic Acid, Parfum, Aluminum Sesquichlorohydrate, C20-40 Alkyl Stearate, Oleth-20, Palmitamidopropyltrimonium Chloride, Steareth-2, Steareth-21, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Benzyl Alcohol, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Trimethylbenzenepropanol, Citronellol, Terpineol, Limonene, Citrus Aurantium Peel Oil"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01C5F8FB8DF2DECE61A4CDC073FD86E0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01C5F8FB8DF2DECE61A4CDC073FD86E0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/8/d/0/1e965e26c7ea4d37a381a8935a4f5dc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01C5F8FB8DF2DECE61A4CDC073FD86E0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-invisible-stick-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40060002019480044.html",
     "source": "nivea.gr",
@@ -4809,10 +4809,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ: Εφαρμόστε το πρωί σε καθαρή επιδερμίδα. Αποφύγετε την άμεση επαφή με τα μάτια. Περιέχει Βιταμίνη Α. Λάβετε υπόψη τη συνολική ημερήσια πρόσληψή σας πριν από τη χρήση.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Tapioca Starch, Isopropyl Palmitate, Glycerin, C12-15 Alkyl Benzoate, Dibutyl Adipate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Glyceryl Stearate, Cetyl Alcohol, Hydrogenated Rapeseed Oil, Hydroxypropyl Starch Phosphate, Stearyl Alcohol, Ubiquinone, Retinyl Palmitate, Sodium Hyaluronate, Tocopherol, Xanthan Gum, Polyglyceryl-10 Stearate, Sodium Stearoyl Glutamate, Sodium Cetearyl Sulfate, Sodium Hydroxide, Trisodium EDTA, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ethylhexylglycerin, Caprylyl Glycol, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A7C2ADA78D04CD9B17767B5948F400&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A7C2ADA78D04CD9B17767B5948F400&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/2/5/4/1f0866bbc2424c6bb05a5fcac7199bbc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=89A7C2ADA78D04CD9B17767B5948F400&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-hyaluronplusq10-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%af%ce%b4%cf%89%ce%bd-spf30-50ml-40060002728490044.html",
     "source": "nivea.gr",
@@ -4848,10 +4848,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρά Χέρια: Πλύνετε και στεγνώστε καλά τα χέρια σας\nΒήμα 2 – Εφαρμογή Κρέμας: Απλώστε μικρή ποσότητα της κρέμας στα χέρια σας\nΒήμα 3 – Απαλό μασάζ: Κάντε απαλό μασάζ στα χέρια και στα νύχια μέχρι να απορροφηθεί\nΒήμα 4 – Επανάληψη: Χρησιμοποιείστε όσες φορές χρειάζεται μέσα στη μέρα για απαλά χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Isopropyl Palmitate, Glyceryl Stearate, Butyrospermum Parkii Butter, Sodium Hyaluronate, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Xanthan Gum, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Sodium Hydroxide, Phenoxyethanol, Caprylyl Glycol, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=81F252DAA3E5DFB0AAEEF551DACA179D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=81F252DAA3E5DFB0AAEEF551DACA179D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/0/3/3/59922984be834184b37fb906be961f55-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=81F252DAA3E5DFB0AAEEF551DACA179D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-hand-and-nail-smooth-cream-100ml-40060002218300044.html",
     "source": "nivea.gr",
@@ -4885,10 +4885,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε απαλά σε βρεγμένη επιδερμίδα, κάνοντας μασάζ με κυκλικές κινήσεις και αποφεύγοντας την περιοχή των ματιών.\nΒήμα 2 – ΑΦΑΙΡΕΣΗ: Ξεπλύνετε με νερό.",
       "Συστατικά": "INCI: Aqua, Glycerin, Xanthan Gum, Sodium Laureth Sulfate, Coco-Glucoside, Fucus Vesiculosus Extract, Zinc PCA, Tocopheryl Acetate, Retinyl Palmitate, Citric Acid, Microcrystalline Cellulose, Cellulose, Hydroxypropyl Methylcellulose, Kaolin, Silica, Caprylic/Capric Triglyceride, Caprylic/Capric Glycerides, Lactose, Sodium Sulfate, Sodium Chloride, Sodium Benzoate, Parfum, CI 77007, CI 42090, CI 47005"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A171A76DBB10089579AB583B4821D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A171A76DBB10089579AB583B4821D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/d/6/a/90083fd956194cd1add3cf6e6c9160b7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=224A171A76DBB10089579AB583B4821D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/gel-%ce%b3%ce%b9%ce%b1-%ce%b2%ce%b1%ce%b8%cf%8d-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%cf%8c-40058086698060044.html",
     "source": "nivea.gr",
@@ -4925,10 +4925,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένη Επιδερμίδα: Βρέξτε καλά την επιδερμίδα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το τζελ-ντους σε όλο το σώμα\nΒήμα 3 – Ξέβγαλμα: Ξεβγάλτε καλά πριν σκουπιστείτε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Sodium Laureth Sulfate, Coco-Glucoside, Sodium Hyaluronate, Tocopherol, Glycerin, Sodium Chloride, Citric Acid, Glycol Distearate, Hydrogenated Castor Oil, Sodium Benzoate, Benzoic Acid, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26DF42EDA51F712E7721B162498F17EE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26DF42EDA51F712E7721B162498F17EE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/f/6/b/6c793299a2a7498683fcea7276798e0b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=26DF42EDA51F712E7721B162498F17EE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-sensitive-500ml-40060002605560044.html",
     "source": "nivea.gr",
@@ -4964,10 +4964,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε τη λοσιόν σώματος σε ολόκληρο το σώμα.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε στα ξηρά σημεία της επιδερμίδας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Dicaprylyl Ether, Glyceryl Stearate SE, Isopropyl Palmitate, Dimethicone, Carbomer, Sodium Hydroxide, Sodium Cetearyl Sulfate, Phenoxyethanol, Ethylhexylglycerin, Linalool, Citronellol, Limonene, Alpha-Isomethyl Ionone, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CEF21F3EA60220565591FD7486802AB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CEF21F3EA60220565591FD7486802AB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/7/5/f/6fa24e68138d4de3815055a15e184732-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8CEF21F3EA60220565591FD7486802AB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-aloe-hydration-lotion-400ml-40059004906120044.html",
     "source": "nivea.gr",
@@ -5004,10 +5004,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Cleanse: Προετοιμάστε την επιδερμίδα σας καθαρίζοντας την καλά.\nΒήμα 2 – Apply: Κάντε μασάζ με ανοδικές κινήσεις ξεκινώντας από τον λαιμό.\nΒήμα 3 – Carefull: Αποφύγετε την άμεση επαφή με τα μάτια.\nΒήμα 4 – Best results: Για βέλτιστα αποτελέσματα, συμπληρώστε τη ρουτίνα σας με την NIVEA Cellular Expert Lift Προηγμένη Αντιγηραντική Κρέμα Νύχτας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Methylpropanediol, Tapioca Starch, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Dicaprylyl Carbonate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Cetearyl Alcohol, Ethylhexyl Stearate, Phenylbenzimidazole Sulfonic Acid, Ethylhexyl Triazone, Glyceryl Stearate, Behenyl Alcohol, Triisostearin, Bakuchiol, Creatine, 1-Methylhydantoin-2-Imide, Sodium Hyaluronate, Tocopherol, Sodium Stearoyl Glutamate, Ethylhexylglycerin, 1,2-Hexanediol, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Sodium Chloride, Phenoxyethanol, Sodium Sulfate, Parfum, CI 15985, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E7EF44BA520A88CEB0B309839E3B4C1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E7EF44BA520A88CEB0B309839E3B4C1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/b/2/5/6c8769581dff4daaadbbf5bdd83b2cf5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E7EF44BA520A88CEB0B309839E3B4C1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-expert-lift-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%ce%b7%cf%81%ce%b1%ce%bd%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-spf30-40059006007210044.html",
     "source": "nivea.gr",
@@ -5045,10 +5045,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά πριν την χρήση.\nΒήμα 3 – Εφαρμόστε: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στεγνώστε: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Parfum, Sodium Hyaluronate, Tocopheryl Acetate, Chamomilla Recutita Flower Extract, Octyldodecanol, Persea Gratissima Oil, Glycerin, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Glycine Soja Oil, Bisabolol, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5B6BD1E2CC24E6F7DCC19C3C33773247&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5B6BD1E2CC24E6F7DCC19C3C33773247&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/3/5/7/702743d4d66944b592280425d3bd4c21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5B6BD1E2CC24E6F7DCC19C3C33773247&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-derma-control-sensitive-spray-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-40060001668030044.html",
     "source": "nivea.gr",
@@ -5084,10 +5084,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, C12-15 Alkyl Benzoate, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Phenylbenzimidazole Sulfonic Acid, Ethylhexyl Triazone, Diethylhexyl Butamido Triazone, Sodium Hyaluronate, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Copernicia Cerifera Cera, Cetyl Palmitate, Hydrogenated Rapeseed Oil, Stearyl Alcohol, Sodium Stearoyl Glutamate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Xanthan Gum, Silica Dimethyl Silylate, Sodium Hydroxide, Caprylyl Glycol, Trisodium Ethylenediamine Disuccinate, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=723228740325A242EA2DF092338192FB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=723228740325A242EA2DF092338192FB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/7/c/1/7082a43aa8e94b24b74fabe4938d5608-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=723228740325A242EA2DF092338192FB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-lotion-spf-20%2c-200ml-40058084074600044.html",
     "source": "nivea.gr",
@@ -5126,10 +5126,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους βρέχοντας καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Απλώστε το Gel Ντους σε πρόσωπο, σώμα & μαλλιά\nΒήμα 3 – Ξέβγαλμα: Ξεπλύνετε καλά πριν στεγνώσετε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Menthol, Glycerin, Citric Acid, Sodium Chloride, Sodium Sulfate, Sodium Benzoate, Parfum, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF61AD9B846237C8CB0FFB093A24DDA6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF61AD9B846237C8CB0FFB093A24DDA6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/5/e/c/b601a635209542f3ad0177ad5b541777-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FF61AD9B846237C8CB0FFB093A24DDA6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%bd%cf%84%ce%bf%cf%85%cf%82-gel-power-fresh-500ml-40058087819350044.html",
     "source": "nivea.gr",
@@ -5163,10 +5163,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Προσοχή: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές\nΒήμα 8 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 9 – Συμβατότητα: Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Isopropyl Palmitate, Glycerin, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Copernicia Cerifera Cera, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Panthenol, Sodium Ascorbyl Phosphate, Pantolactone, Tocopheryl Acetate, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Microcrystalline Cellulose, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Citric Acid, Trisodium EDTA, Caprylyl Glycol, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1C4DFE6FCD90FC8D897FCB20EAAE1548&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1C4DFE6FCD90FC8D897FCB20EAAE1548&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/2/2/b/01ceb7e499914a1189bc7cc2a8c1b763-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1C4DFE6FCD90FC8D897FCB20EAAE1548&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--kid%27s-trigger-spray-spf-50plus%2c-250ml-40060002390880044.html",
     "source": "nivea.gr",
@@ -5202,10 +5202,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA SUN Babies & Kids Sensitive Protect Lotion παρέχει 5σε1 προστασία της επιδερμίδας από τα ηλιακά εγκαύματα και τις μακροχρόνιες βλάβες από την υπεριώδη ακτινοβολία. Μειώνει τον κίνδυνο αλλεργιών στον ήλιο, δεν περιέχει άρωμα και είναι εξαιρετικά ανθεκτικό στο νερό. Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη. Η NIVEA φροντίζει για το επιδερμίδα & τον πλανήτη μας: Η σύνθεσή του είναι 62% βιοδιασπώμενη & σέβεται τη θάλασσα, καθώς δεν περιέχει UV φίλτρα Octinoxate, Oxybenzone, Octocrylene & δεν περιέχει μικροπλαστικά. 50% ανακυκλωμένο πλαστικό στο μπουκάλι και στην αντλία (χωρίς την ετικέτα).",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Methylpropanediol, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Glycerin, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Hydroxypropyl Starch Phosphate, Microcrystalline Cellulose, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Silica Dimethyl Silylate, Cetyl Palmitate, Xanthan Gum, Sodium Stearoyl Glutamate, Trisodium EDTA, Ethylhexylglycerin, Hydroxyacetophenone, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Maltodextrin, Sodium Chloride"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AD4C65F2F2462BD04D680B891E8DA169&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AD4C65F2F2462BD04D680B891E8DA169&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/9/6/b/afa7693568af43dba605999d90403301-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AD4C65F2F2462BD04D680B891E8DA169&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-kids-sensitive-lotion-spf-50plus%2c-200ml-40059009155590044.html",
     "source": "nivea.gr",
@@ -5241,10 +5241,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα και αφήστε το να στεγνώσει πριν ντυθείτε. Μην εφαρμόζετε σε πληγωμένη ή ερεθισμένη επιδερμίδα\nΒήμα 2 – ΧΡΗΣΗ: Αφήστε το προϊόν να στεγνώσει εντελώς",
       "Συστατικά": "INCI: Geraniol, Coumarin, Linalool, Limonene, Trisodium EDTA, Persea Gratissima Oil, Octyldodecanol, Panthenol, Glycerin, Parfum, Steareth-21, Steareth-2, PPG-15 Stearyl Ether, Aluminum Chlorohydrate, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10F23286E5F20D4C8E899CE7EE39F2D4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10F23286E5F20D4C8E899CE7EE39F2D4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/2/4/6/150118-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10F23286E5F20D4C8E899CE7EE39F2D4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-protect-and-care-40059003889710044.html",
     "source": "nivea.gr",
@@ -5279,10 +5279,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ: Εφαρμόστε καθημερινά σε καθαρή επιδερμίδα προσώπου. Απλώστε τον ορό σε όλο το πρόσωπο. Εφαρμόζετε προϊόντα με πατενταρισμένο THIAMIDOL® έως και 2 φορές την ημέρα. Αποφύγετε την άμεση επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Butylene Glycol, Isopropyl Palmitate, Methylpropanediol, Diisopropyl Adipate, Sodium Hyaluronate, Isobutylamido Thiazolyl Resorcinol, Tapioca Starch, Xanthan Gum, Dehydroxanthan Gum, Citric Acid, Sodium Chloride, Sodium Sulfate, Phenoxyethanol, Piroctone Olamine, Parfum, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FCF73FEFFBF68C6449CE7B2D9725B69B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FCF73FEFFBF68C6449CE7B2D9725B69B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/e/8/0/531c12463db542a39fa55fabb8eb50dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FCF73FEFFBF68C6449CE7B2D9725B69B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-2%cf%83%ce%b51-luminous-power-serum-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%af%ce%b4%cf%89%ce%bd-30ml-40060000219800044.html",
     "source": "nivea.gr",
@@ -5315,10 +5315,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμόστε αρκετή ποσότητα πριν απο την έκθεση στον ήλιο: Apply generously before sun exposure\nΒήμα 2 – Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία: Reapply frequently, especially after swimming, perspiring or toweling to maintain the original protection\nΒήμα 3 – Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας: Reducing the quantity will lower the level of protection significantly\nΒήμα 4 – Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος.: Do not stay too long in the sun, even while using a sunscreen product\nΒήμα 5 – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία: Over-exposure to the sun is a serious health threat\nΒήμα 6 – Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία: Keep babies and young children out of direct sunlight\nΒήμα 7 – Αποφεύγετε την επαφή με τα μάτια: Avoid contact with eyes\nΒήμα 8 – Αφήστε να απορροφηθεί πλήρως: Allow to absorb completely\nΒήμα 9 – Αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες: Avoid direct contact with textiles and hard surfaces to prevent staining\nΒήμα 10 – Ανακινείστε καλά πριν τη χρήση: Shake well before use",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Butyl Methoxydibenzoylmethane, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Phenylbenzimidazole Sulfonic Acid, Tapioca Starch, Polyglyceryl-6 Stearate, Distarch Phosphate, Silica Dimethyl Silylate, Glycyrrhiza Inflata Root Extract, Carnitine, Niacinamide, Decylene Glycol, Tocopheryl Acetate, Glycerin, Cetearyl Alcohol, Glyceryl Stearate, Oryza Sativa Starch, Copernicia Cerifera Cera, Polyglyceryl-6 Behenate, Hydroxypropyl Methylcellulose, Hydroxypropyl Starch Phosphate, Xanthan Gum, Sodium Hydroxide, Hydroxyacetophenone, Trisodium Ethylenediamine Disuccinate, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0560BF3110D2491261F529F7B8FCEB9F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0560BF3110D2491261F529F7B8FCEB9F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/c/6/f/8009cd28edc042afbff2f3a23daefcfb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0560BF3110D2491261F529F7B8FCEB9F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-derma-skin-clear-spf50plus-40060000649700044.html",
     "source": "nivea.gr",
@@ -5355,10 +5355,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Απλώστε το ντους τζελ σε όλο το σώμα, πρόσωπο & μαλλιά\nΒήμα 3 – Ξέβγαλμα: Ξεπλυθείτε καλά πριν στεγνώσετε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Menthol, Glycerin, Citric Acid, Sodium Chloride, Sodium Sulfate, Sodium Benzoate, Parfum, CI 42090, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=858A44EE3D1930FBE80B9B6365194151&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=858A44EE3D1930FBE80B9B6365194151&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/b/d/6/f091bfbbdd614e238c15a2391664f38e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=858A44EE3D1930FBE80B9B6365194151&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%bd%cf%84%ce%bf%cf%85%cf%82-gel-cool-kick-500ml-40059008350790044.html",
     "source": "nivea.gr",
@@ -5396,10 +5396,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Νέο NIVEA Cellular Epigenetics Eye Awakening Serum: Σχεδιασμένο για την αναζωογόνηση της περιοχής των ματιών. Η επιδερμίδα γύρω από τα μάτια είναι η πιο λεπτή στο πρόσωπο και επηρεάζεται καθημερινά από 11 μύες και περισσότερα από 10.000 ανοιγοκλεισίματα των ματιών, γεγονός που την καθιστά την πρώτη περιοχή όπου εμφανίζονται τα σημάδια γήρανσης. Η συμπυκνωμένη και ελαφριά σύνθεσή του απορροφάται γρήγορα, καθιστώντας το ιδανικό για εφαρμογή κάτω από κρέμα ματιών ή μακιγιάζ. Συνδυάζοντας την Επιστήμη Μακροζωίας της Επιγενετικής με την Τεχνολογία Cryo, δρα σε κυτταρικό επίπεδο για να αναζωογονεί την επιδερμίδα και να αντιστρέφει τα σημάδια γήρανσης γύρω από τα μάτια σε μόλις 2 εβδομάδες. ¹ Κλινική μελέτη σε 41 γυναίκες, 2025. ² Αυτοαξιολόγηση από 42 γυναίκες, 2025.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Ceteareth-20, Origanum Majorana Leaf Extract, Sodium Hyaluronate, Sodium Acetylated Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Palmitoyl Tripeptide-5, Creatine, 1-Methylhydantoin-2-Imide, Menthoxypropanediol, Maltodextrin, Ethylhexylglycerin, Pentylene Glycol, Xanthan Gum, Citric Acid, Sodium Hydroxide, Phenoxyethanol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6077E830513D28BBE5FAF94D36241D6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6077E830513D28BBE5FAF94D36241D6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/f/7/8/019f27bdbf4c77d5a3beb5fcf9787a49-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6077E830513D28BBE5FAF94D36241D6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-epigenetics-%ce%bf%cf%81%cf%8c%cf%82-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-awakening-15ml-90058004037860044.html",
     "source": "nivea.gr",
@@ -5437,10 +5437,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Prunus Amygdalus Dulcis Oil, Vitis Vinifera Seed Oil, Tocopherol, Sodium Ascorbyl Phosphate, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Sodium Chloride, Sodium Benzoate, Linalool, Geraniol, Benzyl Alcohol, Citronellol, Citrus Aurantium Peel Oil, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AEFCD31EBA7E0878299F08A3798ED83B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AEFCD31EBA7E0878299F08A3798ED83B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/5/8/2/f0e00b06e2d642e6b4ffa8bf8c9e11fc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AEFCD31EBA7E0878299F08A3798ED83B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-creme-care-650ml-40060000958370044.html",
     "source": "nivea.gr",
@@ -5474,10 +5474,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία.\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας.\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία.\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία.\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες.\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Alcohol Denat., Butylene Glycol Dicaprylate/Dicaprate, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Dibutyl Adipate, Dicaprylyl Carbonate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Acrylates/Octylacrylamide Copolymer, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glycerin, Tocopherol, Aqua, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Ethyl Benzoate, Methyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B8BFAE155281550682836F4ABC87D87E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B8BFAE155281550682836F4ABC87D87E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/9/2/4/4513500978544101ac9822e409c30b40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B8BFAE155281550682836F4ABC87D87E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-dry-touch-water-spray-spf-50-40059006892070044.html",
     "source": "nivea.gr",
@@ -5513,10 +5513,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένη Επιδερμίδα: Κάντε ένα shower και βρέξτε την επιδερμίδα σας\nΒήμα 2 – Εφαρμόστε: Εφαρμόστε το shower gel στο σώμα, πρόσωπο & μαλλιά\nΒήμα 3 – Κάντε Μασάζ: Κάντε μασάζ στην επιδερμίδα σας\nΒήμα 4 – Ξεβγάλετε: Ξεβγάλετε καλά με νερό τα υπολείμματα από την επιδερμίδα σας",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Caffeine, Paullinia Cupana Seed Extract, Glycerin, Sodium Chloride, Citric Acid, Maltodextrin, Sodium Sulfate, Sodium Benzoate, Linalool, Limonene, Parfum, CI 15985"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=411B05C65898D682CD2E00803DFCB627&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=411B05C65898D682CD2E00803DFCB627&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/6/8/b/23ba7524d6034ebdbf8fa427d78971fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=411B05C65898D682CD2E00803DFCB627&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/shower-40059008307840044.html",
     "source": "nivea.gr",
@@ -5557,10 +5557,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Εφαρμόστε δύο φορές την ημέρα, πρωί και βράδυ, σε καθαρό πρόσωπο πριν από την καθημερινή σας ρουτίνα περιποίησης.\nΒήμα 2 – Εφαρμογή: Απλώστε τον ορό σε όλο το πρόσωπο",
       "Συστατικά": "INCI: Aqua, Glycerin, Caprylic/Capric Triglyceride, Cocoglycerides, Methylpropanediol, Glyceryl Stearate, Cetearyl Alcohol, Distarch Phosphate, Tapioca Starch, Butyrospermum Parkii Butter, Cetyl Palmitate, Squalane, Isobutylamido Thiazolyl Resorcinol, Glycine Soja Germ Extract, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Ethylhexylglycerin, Xanthan Gum, Trisodium EDTA, Sodium Chloride, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=31CBEB8E0AC4ED71EE267734870A1BA0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=31CBEB8E0AC4ED71EE267734870A1BA0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/9/4/4/c7c833ce9edf4189983d810c0d48201d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=31CBEB8E0AC4ED71EE267734870A1BA0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-luminous630-anti-age-%ce%bf%cf%81%cf%8c%cf%82-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%ce%ba%ce%b7%ce%bb%ce%af%ce%b4%cf%89%ce%bd-40060000114000044.html",
     "source": "nivea.gr",
@@ -5596,10 +5596,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Ανακινήστε καλά για να αναμειχθούν και οι δύο φάσεις και στη συνέχεια εφαρμόστε το προϊόν σε ένα βαμβάκι\nΒήμα 2 – Εφαρμογή: Σκουπίστε απαλά το πρόσωπό σας και την περιοχή των ματιών για να αφαιρεθεί το μακιγιάζ και η μάσκαρα\nΒήμα 3 – Ξεβγαλμα: Δεν χρειάζεται ξέβγαλμα",
       "Συστατικά": "INCI: Aqua, Isododecane, Glycerin, C15-19 Alkane, Panthenol, Squalane, Arginine HCl, Coco-Caprylate/Caprate, Isopropyl Palmitate, Caprylyl/Capryl Glucoside, Pantolactone, Sodium Chloride, Trisodium EDTA, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Benzethonium Chloride, Decyl Alcohol, CI 61565, CI 60725"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6738EDB6D72305864BB2570A5E3DAA35&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6738EDB6D72305864BB2570A5E3DAA35&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/f/f/f/940d7eaab71a4c2f976009d5a6a481dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6738EDB6D72305864BB2570A5E3DAA35&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-regenerating-micellar-water-%ce%bd%ce%b5%cf%81%cf%8c-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-40060000684350044.html",
     "source": "nivea.gr",
@@ -5637,10 +5637,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Prunus Amygdalus Dulcis Oil, Vitis Vinifera Seed Oil, Tocopherol, Sodium Ascorbyl Phosphate, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Sodium Chloride, Sodium Benzoate, Benzoic Acid, Linalool, Geraniol, Benzyl Alcohol, Citronellol, Citrus Aurantium Peel Oil, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F510779D0709C887BD1CEFB48C1FD9A8&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F510779D0709C887BD1CEFB48C1FD9A8&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/f/8/b/13128ad31cc9475e9886475889480710-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F510779D0709C887BD1CEFB48C1FD9A8&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-creme-care-250ml-40060002327370044.html",
     "source": "nivea.gr",
@@ -5677,10 +5677,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Hydrolyzed Pearl, Persea Gratissima Oil, Tocopherol, Trisodium EDTA, Tetramethyl Acetyloctahydronaphthalenes, Geranyl Acetate, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=565FC9EFDDBC7E4EDBB1B60A7452E55F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=565FC9EFDDBC7E4EDBB1B60A7452E55F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/5/f/4/b6bcc249bba84a8e8c7381866153678a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=565FC9EFDDBC7E4EDBB1B60A7452E55F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-pearl-and-beauty-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059003890150044.html",
     "source": "nivea.gr",
@@ -5715,10 +5715,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε το προϊόν πριν από τη χρήση\nΒήμα 2 – Προετοιμάστε: Εμποτίστε ένα βαμβάκι με το μικκυλιακό νερό\nΒήμα 3 – Εφαρμόστε: Κρατήστε το εμποτισμένο βαμβάκι με τα μάτια κλειστά , περιμένετε και σκουπίστε\nΒήμα 4 – Αφαιρέστε: Σκουπίστε απαλά το υπόλοιπο πρόσωπό σας",
       "Συστατικά": "INCI: CI 61565, CI 60725, Phenoxyethanol, Benzethonium Chloride, Sodium Hydroxide, Trisodium EDTA, Sodium Chloride, Coco-Caprylate/Caprate, Caprylyl/Capryl Glucoside, Isopropyl Palmitate, Vaccinium Myrtillus Fruit Extract, Camellia Sinensis Leaf Extract, C15-19 Alkane, Glycerin, Isododecane, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3B3E9C4BA2DDD0F9A970405D81D2C451&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3B3E9C4BA2DDD0F9A970405D81D2C451&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/2/d/5/76b95112da144b18aba7465cbf50e69a-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3B3E9C4BA2DDD0F9A970405D81D2C451&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/micellair-professional-%ce%bd%ce%b5%cf%81%cf%8c-%ce%bd%cf%84%ce%b5%ce%bc%ce%b1%ce%ba%ce%b9%ce%b3%ce%b9%ce%ac%ce%b6-40059004981820044.html",
     "source": "nivea.gr",
@@ -5753,10 +5753,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 2 – Ψεκάστε: Κρατήστε το δοχείο 15 cm από την μασχάλη και ψεκάστε\nΒήμα 3 – Αφήστε να στεγνώσει: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Aluminum Sesquichlorohydrate, Magnesium Aluminum Silicate, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Limonene, Linalool, Geraniol, Citronellol, Eugenol, Alpha-Isomethyl Ionone, Citral, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2C4EB102E179AFBE38430E10D16837&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2C4EB102E179AFBE38430E10D16837&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/6/b/4/578d1b2e3b6f447bbae114a508bbccda-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2C4EB102E179AFBE38430E10D16837&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-dry-impact-spray-40060000504230044.html",
     "source": "nivea.gr",
@@ -5793,10 +5793,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΚΑΘΑΡΙΣΜΟΣ: Καθαρίστε καλά το πρόσωπό σας αφού ξυπνήσετε με ένα εξειδικευμένο προϊόν.\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Κάντε απαλό μασάζ με μικρές κυκλικές κινήσεις σε πρόσωπο, λαιμό και ντεκολτέ, αποφεύγοντας την περιοχή των ματιών.",
       "Συστατικά": "INCI: Parfum, Alpha-Isomethyl Ionone, Geraniol, Benzyl Alcohol, Citronellol, Linalool, Limonene, Phenoxyethanol, Ethylhexylglycerin, Trisodium EDTA, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Xanthan Gum, Tapioca Starch, Sodium Hyaluronate, 1-Methylhydantoin-2-Imide, Creatine, Magnolia Officinalis Bark Extract, Sodium Phenylbenzimidazole Sulfonate, Ethylhexyl Stearate, Cetyl Alcohol, Butyrospermum Parkii Butter, Polymethylsilsesquioxane, Octocrylene, Methylpropanediol, Butyl Methoxydibenzoylmethane, Glyceryl Stearate SE, Dimethicone, Cetearyl Alcohol, Ethylhexyl Salicylate, Glycerin, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6AD8F85414AF68C41F78ED20D7C1924&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6AD8F85414AF68C41F78ED20D7C1924&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/4/b/1/ff1c2651da374453ab1880957a4382cf-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E6AD8F85414AF68C41F78ED20D7C1924&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-hyaluron-filler-%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-%ce%b7%ce%bc%ce%b5%cf%81%ce%b1%cf%83-40059007462210044.html",
     "source": "nivea.gr",
@@ -5834,10 +5834,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε σε φρεσκοκαθαρισμένή επιδερμίδα πρωί και βράδυ.\nΒήμα 2 – Μασάζ: Κάντε απαλό μασάζ στην περιοχή των ματιών μέχρι να απορροφηθεί πλήρως.\nΒήμα 3 – Έξτρα περιποίηση: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το σε συνδυασμό με την Cellular LUMINOUS630® ANTI-DARK SPOT Κρέμα ημέρας SPF50.\nΒήμα 4 – Προσοχή: Εφαρμόστε τα προϊόντα NIVEA LUMINOUS630® εως 4 φορές την ημέρα. Αποφύγετε την άμεση επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Dicaprylyl Carbonate, Methylpropanediol, Glyceryl Stearate, Cetearyl Alcohol, Hydrogenated Vegetable Oil, Tapioca Starch, Caprylic/Capric Triglyceride, Cocoglycerides, Octyldodecanol, 1,2-Hexanediol, Isobutylamido Thiazolyl Resorcinol, Sodium Hyaluronate, Caffeine, Tocopherol, Ethylhexylglycerin, Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides, Caprylyl Glycol, Carrageenan, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, CI 77891"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80C796F8A5B36A933FEC32D4332CDA53&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80C796F8A5B36A933FEC32D4332CDA53&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/9/2/a/089a90b3be3043f0bb9fd37c6a479417-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80C796F8A5B36A933FEC32D4332CDA53&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-luminous630-%ce%b8%ce%b5%cf%81%ce%b1%cf%80%ce%b5%ce%af%ce%b1-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%ce%ba%ce%b7%ce%bb%ce%af%ce%b4%cf%89%ce%bd-40059008865210044.html",
     "source": "nivea.gr",
@@ -5872,10 +5872,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε γενναιόδωρη ποσότητα μετά την έκθεση στον ήλιο και απλώστε ομοιόμορφα στην επιδερμίδα.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: παναλάβετε όποτε η επιδερμίδα σας νιώθει ξηρή ή καταπονημένη από τον ήλιο",
       "Συστατικά": "INCI: Aqua, Glycerin, C12-15 Alkyl Benzoate, Behenyl Alcohol, Sodium Hyaluronate, Panthenol, Tocopheryl Acetate, Creatine, Aloe Barbadensis Leaf Juice Powder, Butyrospermum Parkii Butter, Pantolactone, 1-Methylhydantoin-2-Imide, Dehydroxanthan Gum, Xanthan Gum, Citric Acid, Ethylhexylglycerin, Phenoxyethanol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D77E54968D2792290BC8C9B5A629906E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D77E54968D2792290BC8C9B5A629906E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/8/5/7/713cc70689f84912b4e02619e17e3bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D77E54968D2792290BC8C9B5A629906E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-after-sun-serum%2c-100ml-40060002291260044.html",
     "source": "nivea.gr",
@@ -5911,10 +5911,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά τη serum-lotion σε όλο το σώμα\nΒήμα 2 – Μασάζ: Απλώστε κάνοντας απαλό μασάζ",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Isopropyl Palmitate, Cetearyl Alcohol, Coco-Caprylate/Caprate, Ubiquinone, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Sorbitan Stearate, Dehydroxanthan Gum, Tapioca Starch, Phenoxyethanol, Ethylhexylglycerin, Citric Acid, Benzyl Alcohol, Citronellol, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD831BC6D6013DC6A5537179BFB67BCF&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD831BC6D6013DC6A5537179BFB67BCF&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/7/e/0/34f4464b6041447fb2650bd6f2e69c44-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD831BC6D6013DC6A5537179BFB67BCF&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-q10-firming-and-energizing-serum-lotion-200ml-40060001505050044.html",
     "source": "nivea.gr",
@@ -5950,10 +5950,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καλύτερα αποτελέσματα: Ενισχύστε την αντιρυτιδική σας ρουτίνα ΒΗΜΑ 1: Ορός Διπλής Δράσης ΒΗΜΑ 2: Κρέμα Ματιών Energy ΒΗΜΑ 3: Κρέμα Energy ΒΗΜΑ 4: Στοχευμένος Ορός Wrinkle Filler",
       "Συστατικά": "INCI: Aqua, Glycerin, Methylpropanediol, Dicaprylyl Carbonate, Glyceryl Stearate, Cetearyl Alcohol, Hydrogenated Vegetable Oil, Tapioca Starch, Caprylic/Capric Triglyceride, Octyldodecanol, 1,2-Hexanediol, Ubiquinone, Sodium Ascorbyl Phosphate, Tocopherol, Tocopheryl Acetate, Creatine, 1-Methylhydantoin-2-Imide, Potassium Cetyl Phosphate, Carrageenan, Xanthan Gum, Ethylhexylglycerin, Caprylyl Glycol, Sodium Hydroxide, Phenoxyethanol, Alumina, CI 77891"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=55770EC7F7DBCA82F09C82E86DAFB38B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=55770EC7F7DBCA82F09C82E86DAFB38B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/e/3/4/89dcacc7785f44eb8daa8e63efce5b46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=55770EC7F7DBCA82F09C82E86DAFB38B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/q10-energy-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%b8%ce%b5%cf%81%ce%b1%cf%80%ce%b5%ce%af%ce%b1-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-%ce%b1%ce%bd%ce%b1%cf%80%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7%cf%82-%ce%b5%ce%bd%ce%ad%cf%81%ce%b3%ce%b5%ce%b9%ce%b1%cf%82-40059009159000044.html",
     "source": "nivea.gr",
@@ -5985,10 +5985,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Glycyrrhetinic Acid, Glycerin, Tocopheryl Acetate, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FE4D1E5E30F0B586413D51AB071D1E27&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FE4D1E5E30F0B586413D51AB071D1E27&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/e/6/e/139fabebb2d74b8b8ee003138c2a30c3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FE4D1E5E30F0B586413D51AB071D1E27&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-trigger-spray-spf-30%2c-250ml-40060002392310044.html",
     "source": "nivea.gr",
@@ -6022,10 +6022,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΓΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα (σε πρόσωπο, λαιμό και ντεκολτέ) πριν από την έκθεση στον ήλιο.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκουπίσμα, για να διατηρήσετε την αρχική προστασία.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Dipropylene Glycol Dibenzoate, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Distarch Phosphate, Glyceryl Stearate SE, Phenylbenzimidazole Sulfonic Acid, Silica Dimethyl Silylate, Glycerin, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Sodium Hyaluronate, Tapioca Starch, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Polyglyceryl-3 Methylglucose Distearate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Xanthan Gum, Cetyl Palmitate, Trisodium Ethylenediamine Disuccinate, Cellulose Gum, Sodium Cetearyl Sulfate, Sodium Hydroxide, Sodium Chloride, Sodium Sulfate, Phenoxyethanol, Hydroxyacetophenone, CI 15985, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7101ABF5920148EB7823565543B1391B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7101ABF5920148EB7823565543B1391B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/b/1/0/e2115d4de61844318499cc3a7d32aa4b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7101ABF5920148EB7823565543B1391B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-2in1-primer-serum-spf-50plus-30ml-40060001286890044.html",
     "source": "nivea.gr",
@@ -6060,10 +6060,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΝΤΟΥΣ: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε και κάντε απαλό μασάζ\nΒήμα 3 – ΑΦΡΟΛΟΥΤΡΟ: Απλώστε το αφρόλουτρο στην επιδερμίδα σας\nΒήμα 4 – ΜΠΑΝΙΟ: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Glycerin, Sodium Chloride, Glycol Distearate, Citric Acid, Laureth-4, Cellulose, Cellulose Gum, Microcrystalline Cellulose, Sodium Sulfate, Sodium Benzoate, Benzoic Acid, Linalool, Parfum, CI 61570, CI 16035, CI 10316, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48356A000AB2489FB3B59A958887553&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48356A000AB2489FB3B59A958887553&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/1/9/f/ba4c2195aacd465db2cbb7dc9e736b21-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48356A000AB2489FB3B59A958887553&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/rock-salts-40059005147760044.html",
     "source": "nivea.gr",
@@ -6101,10 +6101,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Prunus Amygdalus Dulcis Oil, Vitis Vinifera Seed Oil, Tocopherol, Sodium Ascorbyl Phosphate, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Sodium Chloride, Sodium Benzoate, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Citrus Aurantium Peel Oil, Limonene, Benzyl Alcohol, Citronellol, Linalyl Acetate, Geraniol, Terpineol, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2259898AD4E0BF038904BE103E99689C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2259898AD4E0BF038904BE103E99689C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/c/b/a/dce5e02b8bbc4b3081d61161fe35860d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2259898AD4E0BF038904BE103E99689C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-creme-soft-650ml-40060000958130044.html",
     "source": "nivea.gr",
@@ -6141,10 +6141,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν τη χρήση και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα προετοιμάστε την επιδερμίδα σας με NIVEA® MEN SENSITIVE Face Wash και ολοκληρώστε με NIVEA® MEN SENSITIVE After Shave Balm.",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Chamomilla Recutita Flower Extract, Panthenol, Tocopheryl Acetate, Maltodextrin, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Propane, Butane, Citric Acid, Pantolactone, Piroctone Olamine, Methylparaben, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F8C0253D3FBA63BA4CD62C85BBAC5F64&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F8C0253D3FBA63BA4CD62C85BBAC5F64&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/6/9/4/1cc8296b915440c6a020f219a36a6975-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F8C0253D3FBA63BA4CD62C85BBAC5F64&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-sensitive-250-ml-40058082583140044.html",
     "source": "nivea.gr",
@@ -6181,10 +6181,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 3 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Pogostemon Cablin Oil, Linalyl Acetate, Limonene, Citrus Aurantium Peel Oil, Beta-Caryophyllene, Geraniol, Rose Ketones, Pinene, Citronellol, Camphor, Linalool, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67FCE3607CA6B2F64A241A81941CF5A4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67FCE3607CA6B2F64A241A81941CF5A4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/1/c/a/fca9f633890c4957a9c763361a56b0f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67FCE3607CA6B2F64A241A81941CF5A4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-invisible-original-spray-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-150ml-40059003886500044.html",
     "source": "nivea.gr",
@@ -6215,10 +6215,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Εφαρμογή: Εφαρμογή προϊόντος\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Parfum, Trisodium EDTA, Persea Gratissima Oil, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Benzyl Salicylate, Linalyl Acetate, Benzyl Alcohol, Juniperus Virginiana Oil, Ebanol, Glycerin, Benzaldehyde, Hydrolyzed Pearl, Tocopherol, Potassium Sorbate, Sorbic Acid"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A17E3629120B246F1C630F753CCEB9A&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A17E3629120B246F1C630F753CCEB9A&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/a/0/5/b521f913ade54af9bad439bcfe057eeb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A17E3629120B246F1C630F753CCEB9A&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-pearl-and-beauty-black-pearl-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40060000372190044.html",
     "source": "nivea.gr",
@@ -6254,10 +6254,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – Εφαρμογή: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Ethylhexyl Salicylate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Trisodium EDTA, Caprylyl Glycol, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=63C1173D8AF889D333437DA77A3A67E5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=63C1173D8AF889D333437DA77A3A67E5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/d/7/f/0dd641f5d333470eb2fa6efb4446c2e3-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=63C1173D8AF889D333437DA77A3A67E5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-trigger-spray-spf-30%2c-250ml-40060002391490044.html",
     "source": "nivea.gr",
@@ -6293,10 +6293,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρά Χέρια: Πλύνετε και στεγνώστε καλά τα χέρια σας\nΒήμα 2 – Εφαρμογή Κρέμας: Massage gently into hands until fully Κάντε απαλό μασάζ στα χέρια μέχρι να απορροφηθείabsorbed\nΒήμα 3 – Επανάληψη: Χρησιμοποιείστε όσες φορές χρειάζεται μέσα στη μέρα για απαλά χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Isopropyl Palmitate, Glyceryl Stearate, Aloe Barbadensis Leaf Juice Powder, Simmondsia Chinensis Seed Oil, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Xanthan Gum, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Sodium Hydroxide, Phenoxyethanol, Caprylyl Glycol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D89178EC8E5086AE5F747281A9660CD4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D89178EC8E5086AE5F747281A9660CD4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/2/f/6/5fcc70ec41a746f3a44672e151ca66f0-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D89178EC8E5086AE5F747281A9660CD4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-k%ce%b1%cf%84%ce%b1%cf%80%cf%81%ce%b1%cf%8b%ce%bd%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%87%ce%b5%cf%81%ce%b9%cf%8e%ce%bd-%ce%bc%ce%b5-%ce%b1%ce%bb%cf%8c%ce%b7-75ml-40060002295910044.html",
     "source": "nivea.gr",
@@ -6333,10 +6333,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε το προϊόν στις περιοχές που θέλετε και απλώστε ομοιόμορφα τον ορό με τα δάχτυλά σας\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε την άμεση επαφή με τα μάτια\nΒήμα 3 – ΚΑΛΥΤΕΡΑ ΑΠΟΤΕΛΕΣΜΑΤΑ: Χρησιμοποιήστε τον ορό καθημερινά συνδυαστικά με την αντιρυτιδική κρέμα ημέρας Q10 και πριν το make-up",
       "Συστατικά": "INCI: Aqua, Dimethicone, Glycerin, Dimethicone Crosspolymer, Methylpropanediol, Alcohol Denat., Coco-Caprylate/Caprate, Octyldodecanol, Dicaprylyl Ether, Silica, Cetearyl Alcohol, Glyceryl Stearate, Tapioca Starch, Ubiquinone, Pimpinella Anisum Fruit Extract, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Panthenol, Pantolactone, Tocopherol, Sodium Cetearyl Sulfate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Citric Acid, Trisodium EDTA, Sodium Chloride, Sodium Sulfate, Sodium Hydroxide, Phenoxyethanol, CI 77891, CI 77491, CI 15985, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E84E00A81C50DA893A551E6A1ED11D4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E84E00A81C50DA893A551E6A1ED11D4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/a/f/4/985f15378c2747dc81cd188d9a3d8d7c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=0E84E00A81C50DA893A551E6A1ED11D4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/q10-wrinkle-filler-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%cf%81%cf%85%cf%84%ce%af%ce%b4%cf%89%ce%bd-15ml-40059009722480044.html",
     "source": "nivea.gr",
@@ -6369,10 +6369,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε σε ένα βαμβάκι\nΒήμα 2 – Καθαρισμός: Καθαρίστε απαλά την περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Poloxamer 184, Glycerin, Decyl Glucoside, Sodium Cocoamphoacetate, Panthenol, Sodium Hyaluronate, Sodium Chloride, Citric Acid, Pantolactone, Trisodium EDTA, Phenoxyethanol, 1,2-Hexanediol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44A4C13C09E1C8A6A5EC7E7D78C3BECC&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44A4C13C09E1C8A6A5EC7E7D78C3BECC&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/9/9/6/d3d6bcecb3a542c3af4d792763dbfef7-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44A4C13C09E1C8A6A5EC7E7D78C3BECC&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b9%ce%b4%ce%b9%ce%b1%ce%af%cf%84%ce%b5%cf%81%ce%b1-%ce%b1%cf%80%ce%b1%ce%bb%ce%ae-%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-%ce%bd%cf%84%ce%b5%ce%bc%ce%b1%ce%ba%ce%b9%ce%b3%ce%b9%ce%ac%ce%b6-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-125ml-40059001009480044.html",
     "source": "nivea.gr",
@@ -6410,10 +6410,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Shower: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά πριν τη χρήση!\nΒήμα 3 – Ψεκάστε: Κρατήστε το δοχείο σε απόσταση 15 εκατοστών από την μασχάλη και ψεκάστε.\nΒήμα 4 – Αφήστε το προϊόν να στεγνώσει εντελώς.: Αφήστε το προϊόν να στεγνώσει εντελώς.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Linalool, Limonene, Eugenol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67A400C74B3957800166FFA278797C32&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67A400C74B3957800166FFA278797C32&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/2/3/f/e9176cb22d8642e594afa6b0c0b72aff-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=67A400C74B3957800166FFA278797C32&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-sensation-spray-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-150ml-40060000122780044.html",
     "source": "nivea.gr",
@@ -6448,10 +6448,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντουσ: Καλύτερα να χρησιμοποιείτε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμογή προίόντος\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει πλήρως πριν ντυθείτε.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Aluminum Chlorohydrate, Glycerin, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, Menthol, Propylene Glycol, Tocopherol, Hydroxyethylcellulose, Citric Acid, Disodium Phosphate, Sodium Phosphate, Hydrogenated Palm Glycerides Citrate, Sodium Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DC2D4EF57901F63F13F0E031D3D4928&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DC2D4EF57901F63F13F0E031D3D4928&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/d/3/2/463f8304ae4940c895855aff9a0e64ca-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8DC2D4EF57901F63F13F0E031D3D4928&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-cool-kick-fresh-roll-on-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40059008457020044.html",
     "source": "nivea.gr",
@@ -6486,10 +6486,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε πρόσωπο, χέρια & σώμα, κάνοντας απαλο μασάζ",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol, Paraffin, Panthenol, Pantolactone, Tocopherol, Tocopheryl Acetate, Magnesium Sulfate, Decyl Oleate, Octyldodecanol, Aluminium Stearate, Citric Acid, Magnesium Stearate, BHT, Limonene, Linalyl Acetate, Geraniol, Citrus Aurantium Peel Oil, Hydroxycitronellal, Citrus Limon Peel Oil, Linalool, Citronellol, Lavandula Oil/Extract, Beta-Caryophyllene, Pinene, Cinnamyl Alcohol, Cananga Odorata Oil/Extract, Benzyl Benzoate, Terpineol, Citral, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5E2BF808D7031C33D18CD632EB9F579F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5E2BF808D7031C33D18CD632EB9F579F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/0/6/f/01a0ce557af47f0ca6a05ac2fc092cac-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5E2BF808D7031C33D18CD632EB9F579F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-creme-250ml-40060002949950044.html",
     "source": "nivea.gr",
@@ -6526,10 +6526,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΚΑΘΑΡΙΣΜΟΣ: Καθαρίστε και στεγνώστε καλά την επιδερμίδα, πριν εφαρμόσετε τη μάσκα.\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Ξεδιπλώστε τη μάσκα. Εφαρμόστε τη λευκή πλευρά στο πρόσωπο και προσαρμόστε τη στο περίγραμμα του προσώπου.\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Κρατήστε τη μάσκα για 10 λεπτά\nΒήμα 4 – ΑΦΑΙΡΕΣΗ: Αφαιρέστε τη μάσκα κάνοντας απαλό μασάζ στην επιδερμίδα ή χρησιμοποιήστε ένα βαμβάκι για να απομακρύνετε τυχόν υπολείμματα.",
       "Συστατικά": "INCI: Aqua, Butylene Glycol, Propanediol, Ubiquinone, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Creatine, 1-Methylhydantoin-2-Imide, Sodium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Chondrus Crispus Extract, Lithothamnion Calcareum Extract, Allantoin, Betaine, Caprylic/Capric Triglyceride, Polyglyceryl-10 Laurate, Xylitylglucoside, Anhydroxylitol, Hydroxyethylcellulose, Arginine, Saccharide Isomerate, Phytic Acid, Xylitol, Sodium Polyglutamate, Citric Acid, Sodium Citrate, 1,2-Hexanediol, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=59222F576C396E2BCFAD1CD08762082D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=59222F576C396E2BCFAD1CD08762082D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/8/5/6/3f03acc6d76042ffbadbde7169fd273d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=59222F576C396E2BCFAD1CD08762082D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-q10-energy-%cf%85%cf%86%ce%b1%cf%83%ce%bc%ce%ac%cf%84%ce%b9%ce%bd%ce%b7-%ce%bc%ce%ac%cf%83%ce%ba%ce%b1-%ce%b1%ce%bd%ce%b1%cf%80%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7%cf%82-%ce%b5%ce%bd%ce%ad%cf%81%ce%b3%ce%b5%ce%b9%ce%b1%cf%82-40059006235220044.html",
     "source": "nivea.gr",
@@ -6563,10 +6563,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Cellular Expert Lift Αντιρυτιδική Υφασμάτινη Μάσκα - Η ΕΠΙΣΤΗΜΗ ΓΙΑ ΠΙΟ ΝΕΑΝΙΚΗ ΟΨΗ ΤΗΣ ΕΠΙΔΕΡΜΙΔΑΣ. Μια νεανική επιδερμίδα είναι μια ορατή αντανάκλαση της κυτταρικής δραστηριότητας βαθιά μέσα στον ιστό της επιδερμίδας. Μία νεανική επιδερμίδα είναι μια ορατή αντανάκλαση της κυτταρικής δραστηριότητας βαθιά μέσα στον ιστό της. Η προηγμένη σύνθεση της κρέμα ημέρας περιλαμβάνει έναν συνδυασμό ισχυρών αντιγηραντικών δραστικών ουσιών που δρουν βαθιά σε κυτταρικό επίπεδο για να αποκαλύψουν μια νεανική επιδερμίδα: ΚΑΘΑΡΟ BAKUCHIOL, ένα νέα αντιγηραντικό ενεργό συστατικό, που υποστηρίζει τη δραστηριότητα ενίσχυσης του κολλαγόνου των κυττάρων ξεκινώντας 4 ώρες μετά τη χρήση και βοηθά την επιδερμίδα να επαναπυκνώσει και να ενισχύσει τις υποστηρικτικές της ίνες.* ΜΙΚΡΟ & ΜΑΚΡΟ ΥΑΛΟΥΡΟΝΙΚΟ ΟΞΥ, 2 απαραίτητα αντιγηραντικά συστατικά, γνωστά ότι ενυδατώνουν, λειαίνουν και βοηθούν στην ορατή μείωση των ρυτίδων. *δοκιμασμένο σε κύτταρα επιδερμίδας",
       "Συστατικά": "INCI: Aqua, Glycerin, Pentylene Glycol, Bakuchiol, Sodium Hyaluronate, Creatine, Magnolia Officinalis Bark Extract, 1-Methylhydantoin-2-Imide, Xanthan Gum, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Tetrasodium Glutamate Diacetate, Citric Acid, Sodium Hydroxide, Benzyl Alcohol, Anise Alcohol, Citral, Citronellol, Geraniol, Linalool, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD6FCAAE80A5FE6CDB1C715A875F839B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD6FCAAE80A5FE6CDB1C715A875F839B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/f/3/d/4b25644c50974b328e7a6263ea937bf1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FD6FCAAE80A5FE6CDB1C715A875F839B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-expert-lift-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%cf%85%cf%86%ce%b1%cf%83%ce%bc%ce%ac%cf%84%ce%b9%ce%bd%ce%b7-%ce%bc%ce%ac%cf%83%ce%ba%ce%b1-40059006235390044.html",
     "source": "nivea.gr",
@@ -6602,10 +6602,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε και κάνετε απαλό μασάζ\nΒήμα 3 – Αφρόλουτρο: Απλώστε το αφρόλουτρο στην επιδερμίδα σας\nΒήμα 4 – Μπάνιο: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Parfum, Glycerin, Caprylyl/Capryl Glucoside, Cellulose, Cellulose Gum, Microcrystalline Cellulose, Sodium Chloride, Citric Acid, Mannitol, Algin, Sodium Benzoate, Benzoic Acid, Limonene, Linalool, CI 77007"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg?db=web&ctx=GR&hash=A72DD82D5E58E3BD9038CF76B0AAEF41&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg?db=web&ctx=GR&hash=A72DD82D5E58E3BD9038CF76B0AAEF41&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/f/8/2/6/53cd3fd940154db09a866e77f36eee0b-screen.jpg?db=web&ctx=GR&hash=A72DD82D5E58E3BD9038CF76B0AAEF41&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/pure-impact-40059004202200044.html",
     "source": "nivea.gr",
@@ -6643,10 +6643,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμάστε: Προετοιμάστε το πρόσωπό σας, καθαρίζοντάς το απαλά & σχολαστικά\nΒήμα 2 – Εφαρμόστε: Εφαρμόστε το προϊόν σε καθαρό πρόσωπο πριν τον ύπνο\nΒήμα 3 – Ακόμα Καλύτερα Αποτελέσματα: Για ακόμα καλύτερα αποτελέσματα χρησιμοποιήστε όλη τη σειρά NIVEA CELLULAR FILLER για Αναπλήρωση Όγκου",
       "Συστατικά": "INCI: Aqua, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Caprylic/Capric Triglyceride, Butyrospermum Parkii Butter, Cetearyl Alcohol, Glyceryl Stearate, C12-15 Alkyl Benzoate, Dimethicone, Sodium Hyaluronate, Panthenol, Tocopheryl Acetate, Pimpinella Anisum Fruit Extract, Pantolactone, Ethylhexylglycerin, Chondrus Crispus Extract, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Citric Acid, Sodium Chloride, Sodium Sulfate, Sodium Stearoyl Glutamate, Caprylyl Glycol, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Methylparaben, Parfum, CI 15985"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62FE3D3EB88C6243B3263B29970A00F6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62FE3D3EB88C6243B3263B29970A00F6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/6/4/b/f985c0b148ce454e947e3cdbfe2faaa9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=62FE3D3EB88C6243B3263B29970A00F6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-%ce%bd%cf%85%cf%87%cf%84%ce%b1%cf%83-%ce%b1%ce%bd%ce%b1%cf%80%ce%bb%ce%b7%cf%81%cf%89%cf%83%ce%b7%cf%83-%ce%bf%ce%b3%ce%ba%ce%bf%cf%85-nivea-cellular-anti-age-40059005191460044.html",
     "source": "nivea.gr",
@@ -6679,10 +6679,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ομοιόμορφη εφαρμογή: Εφαρμόστε ομοιόμορφα αρκετή ποσότητα μετά από την έκθεση στον ήλιο.\nΒήμα 2 – Ανανεώση: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – Αποφύγετε την υπερβολική έκθεση στον ήλιο: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Alcohol Denat., Titanium Dioxide (nano), Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Salicylate, Panthenol, Behenyl Alcohol, Hydrogenated Rapeseed Oil, Silica Dimethyl Silylate, Stearyl Alcohol, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Cellulose Gum, Tetrasodium Iminodisuccinate, Tocopheryl Acetate, VP/Hexadecene Copolymer, Xanthan Gum, Silica, Dimethicone, Trisodium EDTA, Sodium Stearoyl Glutamate, Sodium Chloride, Hydroxyacetophenone, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F6E16B8994767EDA5F982D7AB6EB32D6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F6E16B8994767EDA5F982D7AB6EB32D6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/2/c/e/bab64e3e279742c596897be9a28db851-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F6E16B8994767EDA5F982D7AB6EB32D6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/kids-protect-and-play-%ce%bb%ce%bf%cf%83%ce%b9%ce%bf%ce%bd-spf-30-40058084490020044.html",
     "source": "nivea.gr",
@@ -6716,10 +6716,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες χρήσης: Δημιουργήστε αφρό με βρεγμένο πινέλο ή εφαρμόστε την κρέμα απευθείας με απαλό μασάζ σε βρεγμένη επιδερμίδα, αποφεύγοντας την περιοχή των ματιών. Για βέλτιστο αποτέλεσμα, χρησιμοποιήστε στη συνέχεια το NIVEA® MEN Sensitive After Shave.",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Stearic Acid, Cocos Nucifera Oil, Potassium Hydroxide, Glycerin, Olea Europaea Fruit Oil, Maris Sal, Panthenol, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Pantolactone, Cetearyl Alcohol, Oleic Acid, Lauric Acid, Arachidic Acid, Myristic Acid, Citric Acid, Sodium Hydroxide, Maltodextrin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AF0384D0FA1502A69D7E5B849234D5E3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AF0384D0FA1502A69D7E5B849234D5E3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/8/7/9/019e87071e23726a85a24fc07922a623-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AF0384D0FA1502A69D7E5B849234D5E3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-sensitive-100-ml-40060001993200044.html",
     "source": "nivea.gr",
@@ -6756,10 +6756,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "NIVEA Cellular Luminous630 Κρέμα Nύχτας Κατά των Κηλίδων Χαρίστε στο πρόσωπο, το λαιμό και το ντεκολτέ σας μια σωστή επαναφορά της επιδερμίδας σας κατά τη διάρκεια της νύχτας. ΚΑΘΕ ΝΥΧΤΑ: Η σύνθεση με ενεργοποίηση κυττάρων* Υαλουρονικό οξύ αναγεννά και δυναμώνει την επιδερμίδα. ΜΕ ΣΥΣΤΗΜΑΤΙΚΗ ΧΡΗΣΗ: Το συστατικό LUMINOUS630® λειτουργεί για να μειώσει ορατά τις κηλίδες κατά τη διάρκεια της νύχτας. Για φρέσκια ​​και αναζωογονημένη επιδερμίδα κάθε πρωί! Ομοιόμορφη και λαμπερή επιδερμίδα μέρα με τη μέρα. Ορατά αποτελέσματα σε 4 εβδομάδες. *in-vitro Χρειάστηκαν 10 χρόνια σχολαστικής έρευνας και διαλογής 50.000 συστατικών από τους επιστήμονες της NIVEA® για να βρουν το εξαιρετικά αποτελεσματικό LUMINOUS630®, το οποίο λειτουργεί σε κυτταρικό επίπεδο για να εξισορροπήσει την μελάγρχωση της επιδερμίδας, μειώνοντας τις κηλίδες και βοηθώντας στην πρόληψη της επανεμφάνισής τους.",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Caprylic/Capric Triglyceride, Methylpropanediol, Cocoglycerides, Cetearyl Alcohol, Cetyl Palmitate, Distarch Phosphate, Glyceryl Stearate, Dimethicone, Butyrospermum Parkii Butter, Isobutylamido Thiazolyl Resorcinol, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Ethylhexylglycerin, Sodium Stearoyl Glutamate, Carrageenan, Xanthan Gum, Sodium Chloride, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E7382D430E478163EA7618B570285D84&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E7382D430E478163EA7618B570285D84&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/1/1/2/ea37c430dac3470c98792b3867195a33-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E7382D430E478163EA7618B570285D84&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-luminous630-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-n%cf%8d%cf%87%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%cf%84%ce%ac-%cf%84%cf%89%ce%bd-%ce%ba%ce%b7%ce%bb%ce%af%ce%b4%cf%89%ce%bd-40059008866510044.html",
     "source": "nivea.gr",
@@ -6795,10 +6795,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες",
       "Συστατικά": "INCI: Aqua, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Glycerin, Alcohol Denat., Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Ethylhexyl Triazone, Copernicia Cerifera Cera, Glyceryl Stearate SE, Microcrystalline Cellulose, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Xanthan Gum, Polyglyceryl-3 Methylglucose Distearate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Cellulose Gum, Trisodium Ethylenediamine Disuccinate, Hydroxyacetophenone, Ethylhexylglycerin, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=809731E52C58EB53719A40F5BF783865&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=809731E52C58EB53719A40F5BF783865&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/b/d/c/231fdfbab8284cc1a0e3bc9ba8bb768e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=809731E52C58EB53719A40F5BF783865&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-moisture-lotion-spf-30%2c-200ml-40058084229990044.html",
     "source": "nivea.gr",
@@ -6829,10 +6829,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Η NIVEA SUN UV Face Sensitive Control Cream είναι ειδικά σχεδιασμένη για την ευαίσθητη επιδερμίδα του προσώπου. Προστατεύει την επιδερμίδα εξωτερικά από τις ακτίνες UVA/UVB και από τις επιπτώσεις της Ορατής Ακτινοβολίας Υψηλής Ενέργειας (HEVL), όπως η πρόωρη γήρανση της επιδερμίδας. Επιπλέον προστατεύει την επιδερμίδα εκ των έσω χάρη σε ένα ισχυρό φυσικό αντιοξειδωτικό. Η ελαφριά και μη λιπαρή του σύνθεση με αντιοξειδωτικό είναι χωρίς άρωμα. Ειδικά σχεδιασμένο για τις ευαίσθητες επιδερμίδες – προστατεύει από τις ηλιακές αλλεργίες και τους ερεθισμούς. Ιδανική για καθημερινή χρήση, η σύνθεσή του δεν φράζει τους πόρους και είναι οφθαλμολογικά ελεγμένη (φιλική προς τα μάτια). Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη. Η σύνθεσή του είναι 67% βιοδιασπώμενη και σέβεται τη θάλασσα καθώς είναι απαλλαγμένη από φίλτρα UV Octinoxate, Oxybenzone & Octocrylene και χωρίς μικροπλαστικά. Το σωληνάριο και το καπάκι είναι από 50% ανακυκλωμένο πλαστικό. Κουτί από FSC εγκεκριμένο χαρτόνι.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Ethylhexyl Triazone, Butylene Glycol Dicaprylate/Dicaprate, Cetearyl Alcohol, Distarch Phosphate, Phenylbenzimidazole Sulfonic Acid, Glyceryl Stearate, Tapioca Starch, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Methylpropanediol, Glycerin, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Xanthan Gum, Hydroxypropyl Starch Phosphate, Cocoglycerides, Hydrogenated Coco-Glycerides, Hydrogenated Rapeseed Oil, Sodium Stearoyl Glutamate, Silica Dimethyl Silylate, Sodium Chloride, Sodium Hydroxide, Ethylhexylglycerin, Hydroxyacetophenone"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BBEF0200FC9CDF96E09331D0BDD669&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BBEF0200FC9CDF96E09331D0BDD669&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/f/2/8/b539377fa31c439f84038beac4ad9f0c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BBEF0200FC9CDF96E09331D0BDD669&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/uv-face-sensitive-cream-spf-50-52011780351070044.html",
     "source": "nivea.gr",
@@ -6869,10 +6869,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΧΡΗΣΗ: Προσθέστε 2-3 σταγόνες στο νερό του μπάνιου και πλύνετε τα μαλλιά και την επιδερμίδα του μωρού με ένα μαλακό, βρεγμένο πανάκι. Ξεπλύνετε με άφθονο, χλιαρό νερό.",
       "Συστατικά": "INCI: Δεν περιλαμβάνει Χρωστικές, Parabens"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CA9E2146B58C1166CAF80A70E9195C6F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CA9E2146B58C1166CAF80A70E9195C6F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/9/7/e/145247-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CA9E2146B58C1166CAF80A70E9195C6F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/soft-shampoo-and-bath-40058083636980044.html",
     "source": "nivea.gr",
@@ -6910,10 +6910,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Ψεκάστε: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε. Αφήστε το προϊόν να στεγνώσει τελείως.\nΒήμα 3 – Στεγνώστε: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Citronellol, Alpha-Isomethyl Ionone, Terpineol, Benzyl Alcohol, Limonene, Citrus Aurantium Peel Oil, Eucalyptus Globulus Oil, Geraniol, Rose Ketones, Pinene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=594C62DC193F89F6BA4A4FDA700CCFDF&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=594C62DC193F89F6BA4A4FDA700CCFDF&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/7/d/6/cb2c163d515a421d9e2f79a5d1b766db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=594C62DC193F89F6BA4A4FDA700CCFDF&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-starlight-garden-le-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-59000171061200044.html",
     "source": "nivea.gr",
@@ -6948,10 +6948,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε στις παλάμες και απλώστε κάνοντας μασάζ στην επιδερμίδα\nΒήμα 2 – Προσοχή: Αποφύγετε την επαφή με τα μάρια",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Sodium Hyaluronate, Tocopheryl Acetate, Sodium Ascorbyl Phosphate, Panthenol, PEG-40 Hydrogenated Castor Oil, Cellulose Gum, Citric Acid, Pantolactone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C814430AA63879A081C5139FB0403385&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C814430AA63879A081C5139FB0403385&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/c/3/8/22bdffc3934846b083004adeeb5707c1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C814430AA63879A081C5139FB0403385&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-hydrocare-%ce%bb%ce%b5%cf%80%cf%84%cf%8c%cf%81%ce%b5%cf%85%cf%83%cf%84%ce%b7-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae--100ml-40060002501510044.html",
     "source": "nivea.gr",
@@ -6999,10 +6999,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε 2 φορές τη μέρα, πρωί και βράδυ, σε καθαρό πρόσωπο πριν από την καθημερινή ρουτίνα περιποίησης της επιδερμίδας.\nΒήμα 2 – Εφαρμογή: Απλώστε ομοιόμορφα τον ορό σε όλο το πρόσωπο.",
       "Συστατικά": "INCI: Aqua, Glycerin, Cocoglycerides, Methylpropanediol, Caprylic/Capric Triglyceride, Octyldodecanol, Glyceryl Stearate, Cetearyl Alcohol, Distarch Phosphate, Tapioca Starch, Butyrospermum Parkii Butter, Cetyl Palmitate, Squalane, Dihydromyricetin, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Ethylhexylglycerin, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Citric Acid, Diethylhexyl Syringylidenemalonate, Sodium Metabisulfite, Phenoxyethanol, Citronellol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A407E9924C17995CC901E2661A340C5B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A407E9924C17995CC901E2661A340C5B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/a/6/2/be5ae1d6e6ef400a8786fc75375ae963-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A407E9924C17995CC901E2661A340C5B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-epigenetics-%ce%bf%cf%81%cf%8c%cf%82-%ce%b1%ce%bd%ce%b1%ce%b6%cf%89%ce%bf%ce%b3%cf%8c%ce%bd%ce%b7%cf%83%ce%b7%cf%82-15ml-90058003938890044.html",
     "source": "nivea.gr",
@@ -7035,10 +7035,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΠΡΟΣΟΧΗ: Κατά τη διάρκεια και μετά την εφαρμογή μείνετε μακριά από κάθε εστία ανάφλεξης.\nΒήμα 2 – ΑΝΑΚΙΝΗΣΗ: Ανακινείστε καλά πριν τη χρήση\nΒήμα 3 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο / Αποφύγετε την εισπνοή\nΒήμα 4 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 5 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 7 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 8 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες.\nΒήμα 9 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Alcohol Denat., Butane, Isobutane, Propane, Butylene Glycol Dicaprylate/Dicaprate, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Dibutyl Adipate, Dicaprylyl Carbonate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Acrylates/Octylacrylamide Copolymer, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glycerin, Tocopherol, Aqua, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C5202CE46CBBDFC4615AE2FB56B4A519&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C5202CE46CBBDFC4615AE2FB56B4A519&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/7/e/e/e6ed3f75d3af4d0cbe5743cdc3944d32-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C5202CE46CBBDFC4615AE2FB56B4A519&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-dry-touch-sport-mist-spray-spf-50-40059006907460044.html",
     "source": "nivea.gr",
@@ -7075,10 +7075,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε το πρόσωπο & τον λαιμό σας με ένα απαλό καθαριστικό προσώπου.\nΒήμα 2 – Στέγνωμα: Σκουπίστε το πρόσωπο και τον λαιμό σας.\nΒήμα 3 – Ενυδάτωση: Εφαρμόστε καθημερινά το πρωί σε καθαρό πρόσωπο και στην περιοχή του λαιμού.",
       "Συστατικά": "INCI: Aqua, Glycerin, C12-15 Alkyl Benzoate, Methylpropanediol, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Ethylhexyl Triazone, Cetearyl Alcohol, Glycyrrhiza Inflata Root Extract, Tocopheryl Acetate, Panthenol, Pantolactone, Xanthan Gum, Sodium Stearoyl Glutamate, Maltodextrin, Sodium Hydroxide, Citric Acid, 1,2-Hexanediol, Ethylhexylglycerin, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7B25EA0F139BD0C86BB7F3C42E030072&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7B25EA0F139BD0C86BB7F3C42E030072&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/7/5/6/3fe1614927b94453a488920ee9a7efdd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7B25EA0F139BD0C86BB7F3C42E030072&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-triple-protect-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-spf30-50ml-40060001598430044.html",
     "source": "nivea.gr",
@@ -7115,10 +7115,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε το προϊόν στην ξυρισμένη περιοχή\nΒήμα 2 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Dipropylene Glycol, PEG-40 Hydrogenated Castor Oil, Glycerin, Panthenol, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Pantolactone, Maltodextrin, Citric Acid, 1,2-Hexanediol, Trisodium EDTA, Benzophenone-4, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8A75606144B60E60AD5A8AD523425A35&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8A75606144B60E60AD5A8AD523425A35&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/9/c/e/ee852237b4a64fc8a3365caa3d5178c5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8A75606144B60E60AD5A8AD523425A35&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men--after-shave-sensitive-fluid-100ml-40060001951170044.html",
     "source": "nivea.gr",
@@ -7154,10 +7154,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα και αφήστε το να στεγνώσει πριν ντυθείτε. Μην εφαρμόζετε σε πληγωμένη ή ερεθισμένη επιδερμίδα\nΒήμα 2 – ΧΡΗΣΗ: Αφήστε το προϊόν να στεγνώσει εντελώς",
       "Συστατικά": "INCI: Geraniol, Coumarin, Linalool, Limonene, Trisodium EDTA, Persea Gratissima Oil, Menthoxypropanediol, Zinc Citrate, Parfum, Aluminum Sesquichlorohydrate, Steareth-21, Steareth-2, PPG-15 Stearyl Ether, Aluminum Chlorohydrate, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=98B9082A79F9535FB0D3C55AA3DEDB2C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=98B9082A79F9535FB0D3C55AA3DEDB2C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/2/d/e/343341-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=98B9082A79F9535FB0D3C55AA3DEDB2C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-stress-protect-40059003887350044.html",
     "source": "nivea.gr",
@@ -7192,10 +7192,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΣΥΧΝΟΤΗΤΑ: Χρησιμοποιήστε τη μία ή δύο φορές την εβδομάδα ως μέρος του προγράμματος περιποίησης προσώπου που ακολουθείτε\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Απλώστε αρκετή ποσότητα σε καθαρό πρόσωπο, αποφεύγοντας την περιοχή των ματιών και των χειλιών\nΒήμα 3 – ΚΑΘΑΡΙΣΜΟΣ: Αφήστε τη μάσκα να δράσει για 10-15 λεπτά και μετά καθαρίστε τα υπολείμματα με ένα νωπό βαμβάκι",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetearyl Alcohol, Ethylhexyl Cocoate, Caprylic/Capric Triglyceride, Hydrogenated Coco-Glycerides, Butylene Glycol, Butyrospermum Parkii Butter, Glyceryl Stearate Citrate, Methylpropanediol, Octyldodecanol, Mel, Prunus Amygdalus Dulcis Oil, Cera Alba, Glyceryl Glucoside, Tocopherol, Maltodextrin, Isopropyl Palmitate, Zea Mays Oil, Tricalcium Phosphate, Ethylhexylglycerin, Carbomer, Sodium Hydroxide, Phenoxyethanol, Citronellol, Geraniol, Hexyl Cinnamal, Linalool, Benzyl Alcohol, Parfum, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EFB145F1357AC37D59CA6421D73745FD&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EFB145F1357AC37D59CA6421D73745FD&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/f/5/d/358703-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=EFB145F1357AC37D59CA6421D73745FD&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b8%cf%81%ce%b5%cf%80%cf%84%ce%b9%ce%ba%ce%b7-%ce%bc%ce%b1%cf%83%ce%ba%ce%b1-%ce%bc%ce%b5-%ce%bc%ce%b5%ce%bb%ce%b9-40058081809980044.html",
     "source": "nivea.gr",
@@ -7232,10 +7232,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε καθημερινά την κρέμα σώματος σε όλη το σώμα.",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Glycerin, Glyceryl Stearate, Caprylic/Capric Triglyceride, Glyceryl Stearate SE, Hydrogenated Coco-Glycerides, Phenoxyethanol, Parfum, Caprylyl Glycol, Cocos Nucifera Oil, Sodium Cetearyl Sulfate, Trisodium EDTA, Theobroma Cacao Seed Butter, Tocopheryl Acetate, Linalool, Linalyl Acetate, Butyrospermum Parkii Butter, Benzyl Alcohol, Coumarin, Sodium Hyaluronate"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C43B21EB1418E81B4295580D076E3FF8&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C43B21EB1418E81B4295580D076E3FF8&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/a/9/d/019e6e8f62027accb103a6228d59c83b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C43B21EB1418E81B4295580D076E3FF8&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cocoa-nourish-body-cream-400ml-60010510003640044.html",
     "source": "nivea.gr",
@@ -7271,10 +7271,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Μετά το ξύρισμα απλώστε ομοιόμορφα στην ξυρισμένη περιοχή.",
       "Συστατικά": "INCI: Alcohol Denat., Cyclomethicone, Isohexadecane, Aqua, Glycerin, Parfum, Panthenol, Aloe Barbadensis Leaf Extract, Menthol, Isopropyl Myristate, Sodium Chloride, Limonene, Linalool, Citronellol, Coumarin, Alpha-Isomethyl Ionone, Geraniol, CI 42090, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6407B7EA31F62551FC8B64342E11F162&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6407B7EA31F62551FC8B64342E11F162&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/c/7/c/62e1a752852145ffb06533f601a0ee08-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6407B7EA31F62551FC8B64342E11F162&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-protect-and-care-after-shave-balsam-2-%cf%83%ce%b5-1-40059003659030044.html",
     "source": "nivea.gr",
@@ -7308,10 +7308,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 2 – Ψεκάστε: Κρατήστε το δοχείο 15 cm από την μασχάλη και ψεκάστε\nΒήμα 3 – Αφήστε να στεγνώσει: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Dicaprylyl Ether, Octyldodecanol, Triethyl Citrate, Parfum, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Linalool, Limonene, Citronellol, Geraniol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5AEE5047A9FF1CF12187B86C5E486CF1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5AEE5047A9FF1CF12187B86C5E486CF1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/7/2/b/59cc75d39c4249348e3f4865a352e456-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5AEE5047A9FF1CF12187B86C5E486CF1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/black-and-white-invisible-ultimate-impact-40059007303120044.html",
     "source": "nivea.gr",
@@ -7346,10 +7346,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία",
       "Συστατικά": "INCI: Aqua, Propylene Glycol Dicaprylate/Dicaprate, Alcohol Denat., Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Glycerin, Ethylhexyl Triazone, Distarch Phosphate, Tapioca Starch, Silica Dimethyl Silylate, Undecane, Glyceryl Stearate Citrate, Phenylbenzimidazole Sulfonic Acid, Oryza Sativa Starch, Glyceryl Stearate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ubiquinone, Glycyrrhiza Inflata Root Extract, Palmitoyl Tripeptide-5, Tocopheryl Acetate, Tocopherol, Tridecane, Stearyl Alcohol, Myristyl Myristate, Xanthan Gum, Sodium Hydroxide, Cocoglycerides, Carrageenan, Hydroxyacetophenone, Trisodium EDTA, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2B68BED2E72551B991529D1B047353&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2B68BED2E72551B991529D1B047353&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/6/d/3/f18fa99c3d024d8f8bb6af3cfc3e70d1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E2B68BED2E72551B991529D1B047353&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-anti---age-cream-spf50plus%2c-40ml-40060002289450044.html",
     "source": "nivea.gr",
@@ -7381,10 +7381,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Ethylhexyl Salicylate, Isopropyl Palmitate, Dibutyl Adipate, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, C12-15 Alkyl Benzoate, Glyceryl Stearate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Glycyrrhetinic Acid, Tocopheryl Acetate, Glycerin, Microcrystalline Cellulose, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Phenoxyethanol, Trisodium EDTA, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4ACF55EF4FF2346F09C4B736203DA833&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4ACF55EF4FF2346F09C4B736203DA833&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/8/4/8/114abb6543fb4d3db07d850e94de7abe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4ACF55EF4FF2346F09C4B736203DA833&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-trigger-spray-spf-20%2c-250ml-40060002392000044.html",
     "source": "nivea.gr",
@@ -7419,10 +7419,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιείτε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminium chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Aluminum Sesquichlorohydrate, Magnesium Aluminum Silicate, Persea Gratissima Oil, Tocopherol, Trisodium EDTA, Tetramethyl Acetyloctahydronaphthalenes, Linalool, Linalyl Acetate, Camphor, Pogostemon Cablin Oil, Ebanol, Juniperus Virginiana Oil, Benzyl Alcohol, Anethole, Beta-Caryophyllene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19844B2A81A6E3BC51000A384AA0C11D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19844B2A81A6E3BC51000A384AA0C11D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/2/0/7/97f838b680f74db789f00cc7633dbe7d-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=19844B2A81A6E3BC51000A384AA0C11D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-dry-impact-roll-on-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40059003884900044.html",
     "source": "nivea.gr",
@@ -7458,10 +7458,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν τη χρήση. Κρατήστε δοχείο 15 cm από την μασχάλη & ψεκάστε. Αφήστε το προϊόν να στεγνώσει εντελώς.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Parfum, Persea Gratissima Oil, Hydrolyzed Pearl, Glycerin, Disteardimonium Hectorite, Octyldodecanol, Propylene Carbonate, Aqua, Tocopherol, Potassium Sorbate, Sorbic Acid, Linalool, Benzyl Salicylate"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AECFEB5BEE787E571D3BBB8DE0A27959&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AECFEB5BEE787E571D3BBB8DE0A27959&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/7/8/e/8e3a26daf0884720817b9e2468a35bb5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AECFEB5BEE787E571D3BBB8DE0A27959&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-pearl-and-beauty-black-pearl-40059009421420044.html",
     "source": "nivea.gr",
@@ -7496,10 +7496,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Προετοιμάστε την επιδερμίδας σας καθαρίζοντας την καλά\nΒήμα 2 – Εφαρμογή: Απλώστε την κρέμα νύχτας κάνοντας μασάζ σε μικρούς κύκλους\nΒήμα 3 – Καλύτερα Αποτελέσματα: Το καλύτερο, χρησιμοποιήστε ολόκληρη τη σειρά προϊόντων NIVEA Q10 Energy",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetearyl Alcohol, Ethylhexyl Cocoate, Caprylic/Capric Triglyceride, Hydrogenated Coco-Glycerides, Butylene Glycol, Butyrospermum Parkii Butter, Glyceryl Stearate Citrate, Octyldodecanol, Ubiquinone, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Creatine, 1-Methylhydantoin-2-Imide, Ethylhexylglycerin, 1,2-Hexanediol, Carbomer, Sodium Hydroxide, Phenoxyethanol, Linalool, Limonene, Geraniol, Parfum, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F14361CDD6822ABA6DC39AD459EF1750&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F14361CDD6822ABA6DC39AD459EF1750&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/8/2/7/81cd5016f4a1404682ff512d239b01ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=F14361CDD6822ABA6DC39AD459EF1750&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-q10-energy-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%bd%cf%8d%cf%87%cf%84%ce%b1%cf%82-40059007763890044.html",
     "source": "nivea.gr",
@@ -7533,10 +7533,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – Συμβατότητα: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Glycerin, Phenylbenzimidazole Sulfonic Acid, Glycyrrhiza Inflata Root Extract, Aloe Barbadensis Leaf Juice Powder, Tocopheryl Acetate, Microcrystalline Cellulose, Cellulose Gum, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Xanthan Gum, Sodium Stearoyl Glutamate, Sodium Hydroxide, Sodium Chloride, Caprylyl Glycol, Ethylhexylglycerin, Trisodium EDTA"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10BD6312C2800A3ED75488B898AB4746&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10BD6312C2800A3ED75488B898AB4746&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/1/2/a/05bf7eee7be54c568bedb5fa521a6b57-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=10BD6312C2800A3ED75488B898AB4746&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-adults-sensitive-sun-allergy-spray-spf-50plus%2c-200ml-40059009197170044.html",
     "source": "nivea.gr",
@@ -7569,10 +7569,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA MEN Craft Stylers Defining Semi Matt Styling Gel προσφέρεται για δημιουργία διαφορετικών look και ευελιξία στα μαλλιά. Το δυνατό κράτημα και η αναζωογονητική αίσθηση χαρίζουν φυσικό matt αποτέλεσμα. Η σύνθεσή του με βιταμίνη Ε διατηρεί τα μαλλιά υγιή και δυνατά, χωρίς να αφήνει κατάλοιπα. Δεν ξηραίνει τα μαλλιά κάνει το Styling πιο εύκολο απο ποτέ. Το matt αποτέλεσμα που προσφέρει δεν είναι λιπαρό και πλένεται εύκολα.",
       "Συστατικά": "INCI: Water, Sorbitol, Acrylates/Hydroxyesters Acrylates Copolymer, Acrylates/Steareth-20 Methacrylate Crosspolymer, Silica, Helianthus Annuus Seed Oil, Tocopherol, Aminomethyl Propanol, PEG-40 Hydrogenated Castor Oil, Ceteareth-20, Poloxamer 231, Trisodium EDTA, Benzoic Acid, Sodium Benzoate, Phenoxyethanol, Citronellol, Coumarin, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CC0C462B3B934F3FE3C42CD7B87A90A9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CC0C462B3B934F3FE3C42CD7B87A90A9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/4/2/1/381143-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CC0C462B3B934F3FE3C42CD7B87A90A9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/craft-stylers-defining-semi-matt-styling-gel-90058003183250044.html",
     "source": "nivea.gr",
@@ -7608,10 +7608,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – Συμβατότητα: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Isopropyl Palmitate, Glycerin, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Copernicia Cerifera Cera, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Hyaluronate, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Microcrystalline Cellulose, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Xanthan Gum, Cellulose Gum, Caprylyl Glycol, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3BE3FC11E5D725F3B0141A97FA3FC7CA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3BE3FC11E5D725F3B0141A97FA3FC7CA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/8/d/4/df03b94098b54401b46fa986450b0a75-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3BE3FC11E5D725F3B0141A97FA3FC7CA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--protect-and-moisture-spray-spf-50plus%2c-200ml-40058088566950044.html",
     "source": "nivea.gr",
@@ -7648,10 +7648,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΠΡΟΕΤΟΙΜΑΣΙΑ: Βρέξτε με νερό την επιθυμητή περιοχή καθώς το strip ενεργοποιείται με το νερό\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε το strip και αφήστε το να δράσει για 10-15 λεπτά\nΒήμα 3 – ΑΦΑΙΡΕΣΗ: Αφαιρέστε προσεκτικά το strip",
       "Συστατικά": "INCI: Polyquaternium-37, Silica, Aqua, Glycerin, Polysilicone-13, PEG-12 Dimethicone, Titanium Dioxide, Sodium Citrate, Methylparaben, Citral, Citrus Aurantium Bergamia Peel Oil, Citrus Aurantium Peel Oil, Citrus Limon Peel Oil, Geraniol, Limonene, Linalool, Linalyl Acetate, Pinene, Terpineol, Terpinolene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=14E5A68CFB47004AB9F34FE98B78CCE1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=14E5A68CFB47004AB9F34FE98B78CCE1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/c/0/0/019ed4dc89b27031a84b6a8d4b4e8622-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=14E5A68CFB47004AB9F34FE98B78CCE1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/clear-up-strips-40058081855350044.html",
     "source": "nivea.gr",
@@ -7686,10 +7686,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα (σε πρόσωπο, λαιμό και ντεκολτέ) πριν από την έκθεση στον ήλιο.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκουπίσμα, για να διατηρήσετε την αρχική προστασία..",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., CI 77891, Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Dipropylene Glycol Dibenzoate, Phenylbenzimidazole Sulfonic Acid, Butylene Glycol Dicaprylate/Dicaprate, Glycerin, Polyglyceryl-6 Stearate, Silica Dimethyl Silylate, Silica, Diethylamino Hydroxybenzoyl Hexyl Benzoate, CI 77492, Glycyrrhiza Inflata Root Extract, Arginine HCl, Sodium Hyaluronate, Sodium PCA, Copernicia Cerifera Cera, Glyceryl Stearate, Sodium Hydroxide, Cetearyl Alcohol, Sodium Lactate, Polyglyceryl-6 Behenate, Tapioca Starch, Carrageenan, Phenoxyethanol, Ethylhexylglycerin, CI 77499, Trisodium Ethylenediamine Disuccinate, Xanthan Gum, Parfum, CI 77491, Hydroxyacetophenone, Alumina"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=41AF649716FDA4278B703DE55DB5E533&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=41AF649716FDA4278B703DE55DB5E533&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/4/4/3/2b865d9e69854f55b336c540d408e770-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=41AF649716FDA4278B703DE55DB5E533&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-invisible-light-tinted-spf-50plus%2c-40ml-40060001711590044.html",
     "source": "nivea.gr",
@@ -7724,10 +7724,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε κάνοντας απαλό μασάζ στην επιδερμίδα.\nΒήμα 2 – Αφαίρεση: Απομακρύνετε με ένα βαμβακερό δίσκο ντεμακιγιάζ ή με νερό.",
       "Συστατικά": "INCI: Aqua, Isopropyl Palmitate, Glycerin, Dicaprylyl Ether, Glyceryl Stearate SE, Cetearyl Alcohol, Hydroxypropyl Starch Phosphate, Aloe Barbadensis Leaf Juice Powder, Sodium Hyaluronate, Tocopheryl Acetate, Tocopherol, Xanthan Gum, Citric Acid, Sodium Cetearyl Sulfate, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2916F55BBBA22893ACB2A6B57D1511D9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2916F55BBBA22893ACB2A6B57D1511D9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/d/d/e/ce2beedd0ce14689973c3097a0560c40-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2916F55BBBA22893ACB2A6B57D1511D9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/e%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%cf%8c-%ce%b3%ce%b1%ce%bb%ce%ac%ce%ba%cf%84%cf%89%ce%bc%ce%b1-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-40058081824040044.html",
     "source": "nivea.gr",
@@ -7768,10 +7768,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Για βέλτιστα αποτελέσματα: Εφαρμόστε καθημερινά σε ολόκληρο το σώμα",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Coco-Caprylate/Caprate, Panthenol, Centella Asiatica Extract, Sorbitan Stearate, Dehydroxanthan Gum, Tapioca Starch, Phenoxyethanol, Ethylhexylglycerin, Pantolactone, Citric Acid, Sodium Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BD685538D0588594A61C252F34C599&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BD685538D0588594A61C252F34C599&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/e/a/6/538ca4eb70bb4a76928d216c9f41b20c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=34BD685538D0588594A61C252F34C599&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-repair-and-care-body-serum-lotion-200ml-40060002976750044.html",
     "source": "nivea.gr",
@@ -7806,10 +7806,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: φαρμόστε γενναιόδωρη ποσότητα μετά την έκθεση στον ήλιο και απλώστε ομοιόμορφα στην επιδερμίδα.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Επαναλάβετε όποτε η επιδερμίδα σας νιώθει ξηρή ή καταπονημένη από τον ήλιο\nΒήμα 3: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Glyceryl Stearate SE, Hydroxypropyl Starch Phosphate, Glycyrrhetinic Acid, Sodium Hyaluronate, Aloe Barbadensis Leaf Juice Powder, Tocopheryl Acetate, Xanthan Gum, Cetyl Palmitate, Sodium Cetearyl Sulfate, Hydroxyacetophenone, Phenoxyethanol, Linalyl Acetate, Linalool, Pinene, Terpineol, Pogostemon Cablin Oil, Citral, Camphor, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC63E339139A6A0B00305BD03E935EB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC63E339139A6A0B00305BD03E935EB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/2/f/d/360e8ef9ea9f43afa4e1d59ed37b89bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FBC63E339139A6A0B00305BD03E935EB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-after-sun-protect-and-bronze-tan-prolong-lotion%2c-200ml-40059001287820044.html",
     "source": "nivea.gr",
@@ -7849,10 +7849,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένη Επιδερμίδα: Βρέξτε καλά την επιδερμίδα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το τζελ-ντους σε όλο το σώμα\nΒήμα 3 – Μασάζ: Κάντε απαλό μασάζ\nΒήμα 4 – Ξέβγαλμα: Ξεβγάλτε καλά πριν σκουπιστείτε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Sodium Chloride, Decyl Glucoside, Sodium Ascorbyl Phosphate, Tocopherol, Glycerin, Citric Acid, Sodium Benzoate, Sodium Sulfate, Tetramethyl Acetyloctahydronaphthalenes, Parfum, CI 10316, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1EA53502A2BF405518FE7E6946611C74&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1EA53502A2BF405518FE7E6946611C74&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/4/3/0/45ba5891e13f4d3b9d788aeded05621e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=1EA53502A2BF405518FE7E6946611C74&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-starlight-garden-250ml-59000171059560044.html",
     "source": "nivea.gr",
@@ -7885,10 +7885,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινείστε καλά πριν τη χρήση\nΒήμα 2 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 4 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 5 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 6 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 7 – Οδηγίες: Ψεκάστε το προϊόν στις παλάμες σας και μετά εφαρμόστε στο μωρό σας\nΒήμα 8 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό\nΒήμα 9 – Προσοχή: Αποφύγετε την εισπνοή\nΒήμα 10 – Προσοχή: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, C12-15 Alkyl Benzoate, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Glycerin, Phenylbenzimidazole Sulfonic Acid, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Microcrystalline Cellulose, Cellulose Gum, Xanthan Gum, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Sodium Hydroxide, Maltodextrin, Sodium Chloride, Hydroxyacetophenone, Ethylhexylglycerin, Caprylyl Glycol, Trisodium EDTA"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E269A8B1EA2675ABFE920D9A3EC21D59&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E269A8B1EA2675ABFE920D9A3EC21D59&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/b/8/7/260d07987ed24fe59954b2de7e723a01-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E269A8B1EA2675ABFE920D9A3EC21D59&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-kids-sensitive-trigger-spf-50plus%2c-250ml-40060002391180044.html",
     "source": "nivea.gr",
@@ -7921,10 +7921,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Καθαρίστε την επιδερμίδα σας\nΒήμα 2 – Εφαρμογή: Εφαρμόστε την κρέμα ημέρας κάνονας μασάζ με κυκλικές κινήσεις\nΒήμα 3 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια\nΒήμα 4 – Καλύτερα αποτελέσματα: Χρησιμοποιήστε όλη τη σειρά προϊόντων NIVEA για κανονική επιδερμίδα",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetearyl Alcohol, Methylpropanediol, Tapioca Starch, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Dicaprylyl Carbonate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Stearate, Ethylhexyl Triazone, Phenylbenzimidazole Sulfonic Acid, Behenyl Alcohol, Triisostearin, Glyceryl Stearate, Aloe Barbadensis Leaf Juice Powder, Sodium Hyaluronate, Tocopherol, Sodium Stearoyl Glutamate, Xanthan Gum, 1,2-Hexanediol, Ethylhexylglycerin, Trisodium EDTA, Sodium Hydroxide, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=95FD7F6F68AAAED21C1A316186FF4A0E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=95FD7F6F68AAAED21C1A316186FF4A0E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/1/4/2/546cc37328c146c2b8b0d5cc9b0d38b8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=95FD7F6F68AAAED21C1A316186FF4A0E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-spf30-%ce%ba%2f%ce%bc-50ml-40060002070180044.html",
     "source": "nivea.gr",
@@ -7960,10 +7960,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε καθημερινά σε όλο σας το σώμα",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, Myristyl Alcohol, Butylene Glycol, Alcohol Denat., Myristyl Myristate, Palmitic Acid, Glyceryl Stearate, Stearic Acid, Cera Microcristallina, Hydrogenated Coco-Glycerides, Simmondsia Chinensis Seed Oil, Tocopheryl Acetate, Lanolin Alcohol (Eucerit®), Myristic Acid, Arachidic Acid, Oleic Acid, Polyglyceryl-2 Caprate, Dimethicone, Carbomer, Sodium Hydroxide, Phenoxyethanol, Linalool, Citronellol, Alpha-Isomethyl Ionone, Benzyl Alcohol, Limonene, Benzyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DBA7C3D01D2EDB71E262DDADAD22113D&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DBA7C3D01D2EDB71E262DDADAD22113D&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/d/c/c/228522-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DBA7C3D01D2EDB71E262DDADAD22113D&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-soft-40059000082680044.html",
     "source": "nivea.gr",
@@ -7995,10 +7995,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, C12-15 Alkyl Benzoate, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Glycyrrhetinic Acid, Tocopheryl Acetate, Glycerin, Microcrystalline Cellulose, C18-38 Alkyl Hydroxystearoyl Stearate, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Trisodium EDTA, Caprylyl Glycol, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4DCD3DFE499817AEB8D0F32A12E051B4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4DCD3DFE499817AEB8D0F32A12E051B4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/c/6/0/c3ef8848f0f940ada8210b8463254962-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4DCD3DFE499817AEB8D0F32A12E051B4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-trigger-spray-spf-50%2c-250ml-40060002393230044.html",
     "source": "nivea.gr",
@@ -8039,10 +8039,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε πριν την κρέμα ημέρας",
       "Συστατικά": "INCI: Aqua, Glycerin, Caprylic/Capric Triglyceride, Alcohol Denat., Cocoglycerides, Glyceryl Stearate Citrate, Butyrospermum Parkii Butter, Distarch Phosphate, Acteyl Hydroxyproline, Ubiquinone, 1-Methylhydantoin-2-Imide, Creatine, Hydroxyacetophenone, Xanthan Gum, Sodium Hydroxide, Phenoxyethanol, Pogostemon Cablin Oil, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DA60A4AAD0B9E263077696C0EE5F97BE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DA60A4AAD0B9E263077696C0EE5F97BE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/1/c/3/67821afbe7924130982d8b6e5ace4fe9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DA60A4AAD0B9E263077696C0EE5F97BE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%bf%cf%81%cf%8c%cf%82-%ce%b4%ce%b9%cf%80%ce%bb%ce%ae%cf%82-%ce%b4%cf%81%ce%ac%cf%83%ce%b7%cf%82-nivea-q10-anti-wrinkle-expert-40060000690430044.html",
     "source": "nivea.gr",
@@ -8074,10 +8074,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΑΝΑΚΙΝΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – ΠΡΟΣΟΧΗ: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – ΠΡΟΣΟΧΗ: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – ΠΡΟΣΟΧΗ: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – ΠΡΟΣΟΧΗ: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – ΑΠΟΡΡΟΦΗΣΗ: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – ΣΥΜΒΑΤΟΤΗΤΑ: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη.",
       "Συστατικά": "INCI: Alcohol Denat., Caprylic/Capric Triglyceride, C12-15 Alkyl Benzoate, Butylene Glycol Dicaprylate/Dicaprate, Dibutyl Adipate, Butyl Methoxydibenzoylmethane, Ethylhexyl Salicylate, Ethylhexyl Triazone, Glycerin, Acrylates/Octylacrylamide Copolymer, Dicaprylyl Carbonate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycyrrhetinic Acid, Tocopheryl Acetate, Tocopherol, Aqua, Limonene, Linalool, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Ethyl Benzoate, Methyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A71BA2253E236469614F0530FC4E0B3E&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A71BA2253E236469614F0530FC4E0B3E&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/f/a/e/50061546715543e89deff53a93b9e408-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A71BA2253E236469614F0530FC4E0B3E&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-protect-and-bronze-oil-spray-spf-30-52011780267850044.html",
     "source": "nivea.gr",
@@ -8113,10 +8113,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε καθημερινά σε όλο σας το σώμα",
       "Συστατικά": "INCI: Limonene, Geraniol, Alpha-Isomethyl Ionone, Citronellol, Linalool, Phenoxyethanol, Sodium Polyacrylate, Dimethicone, Isopropyl Palmitate, Cetyl Alcohol, Olus Oil, Cetyl Palmitate, Butyrospermum Parkii Butter, Glycerin, Aqua, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg?db=web&ctx=GR&hash=FED894C7B5538FC135920AEF7E1D9693&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg?db=web&ctx=GR&hash=FED894C7B5538FC135920AEF7E1D9693&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/a/6/7/d/ccefedc122f344509ff4e40ba92764ae-screen.jpg?db=web&ctx=GR&hash=FED894C7B5538FC135920AEF7E1D9693&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-care-%ce%b8%cf%81%ce%b5%cf%80%cf%84%ce%b9%ce%ba%ce%b7-%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-52011780276830044.html",
     "source": "nivea.gr",
@@ -8155,10 +8155,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βρεγμένη Επιδερμίδα: Βρέξτε καλά την επιδερμίδα\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το τζελ-ντους σε όλο το σώμα\nΒήμα 3 – Μασάζ: Κάντε απαλό μασάζ\nΒήμα 4 – Ξέβγαλμα: Ξεβγάλτε καλά πριν σκουπιστείτε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Vaccinium Myrtillus Fruit Extract, Sodium Ascorbyl Phosphate, Tocopherol, Glycerin, Citric Acid, Sodium Chloride, Sodium Sulfate, Potassium Sorbate, Sorbic Acid, Sodium Benzoate, Parfum, CI 16035, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC36612038BF8B0F5B5657454062FE63&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC36612038BF8B0F5B5657454062FE63&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/2/0/c/0a068c06e9134a75b29c8c479009309b-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=AC36612038BF8B0F5B5657454062FE63&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%cf%84%ce%b6%ce%b5%ce%bb-%ce%bd%cf%84%ce%bf%cf%85%cf%82-floral-moon-250ml-59000171061820044.html",
     "source": "nivea.gr",
@@ -8193,10 +8193,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΜΠΑΝΙΟ: Για καλύτερα αποτελέσματα χρησιμοποιήστε το προϊόν μετά το μπάνιο.\nΒήμα 2 – ΧΡΗΣΗ: Ανακινήστε καλά πριν τη χρήση\nΒήμα 3 – Spray: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – ΟΔΗΓΙΕΣ: Αφήστε το προϊόν να στεγνώσει τελείως",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Cyclomethicone, Aluminum Chlorohydrate, Isopropyl Palmitate, Parfum, Aluminum Sesquichlorohydrate, Disteardimonium Hectorite, Propylene Carbonate, Dimethicone, Dimethiconol, Citronellol, Geraniol, Linalool, Alpha-Isomethyl Ionone, Benzyl Alcohol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2E3F81D66D4951B84E2B1E309CF1D2EF&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2E3F81D66D4951B84E2B1E309CF1D2EF&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/5/a/c/706e4cadd21e4deea885c95da32b68b6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2E3F81D66D4951B84E2B1E309CF1D2EF&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-rose-touch-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-59000170780900044.html",
     "source": "nivea.gr",
@@ -8235,10 +8235,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Ανακινήστε καλά πριν την χρήση και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο\nΒήμα 2 – Ξύρισμα: Ξυρίστε με απαλές κινήσεις\nΒήμα 3 – Καθαρισμός: Πλύνετε το πρόσωπό σας με νερό και στεγνώστε το\nΒήμα 4 – Φροντίδα μετά το ξύρισμα: Για καλύτερα αποτελέσματα, χρησιμοποιήστε ένα After Shave όπως το NIVEA MEN HYDROCARE AFTER SHAVE",
       "Συστατικά": "INCI: Aqua, Isobutane, Glycerin, Triethanolamine, Laureth-23, Palmitic Acid, Stearic Acid, Aloe Barbadensis Leaf Juice Powder, Panthenol, Coco-Caprylate/Caprate, Hydroxypropyl Methylcellulose, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Potassium Hydroxide, Propane, Butane, Pantolactone, Citric Acid, Piroctone Olamine, Tetramethyl Acetyloctahydronaphthalenes, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=887DF3F5707ECEB8AB138A268B484838&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=887DF3F5707ECEB8AB138A268B484838&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/5/1/f/019e870e7c5a789b9013d414bc0e3f94-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=887DF3F5707ECEB8AB138A268B484838&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-hydrocare-40060001710360044.html",
     "source": "nivea.gr",
@@ -8276,10 +8276,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καθαρίστε σχολαστικά το σώμα σας.\nΒήμα 2 – Στεγνώστε την επιδερμίδα: Στεγνώστε απαλά με μια πετσέτα.\nΒήμα 3 – Εφαρμογή: Εφαρμόστε το γαλάκτωμα σώματος και κάντε απαλό μασάζ μέχρι να απορροφηθεί.\nΒήμα 4 – Απορρόφηση: Αφήστε το προϊόν να απορροφηθεί πλήρως.\nΒήμα 5 – Επαναλάβετε όπου χρειάζεται: Εφαρμόστε ξανά στα ιδιαίτερα ξηρά σημεία της επιδερμίδας.",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Isohexadecane, Glycerin, Isopropyl Palmitate, PEG-40 Sorbitan Perisostearate, Cera Microcristallina, Polyglyceryl-3 Diisostearate, Sodium Hyaluronate, Prunus Amygdalus Dulcis Oil, Tocopherol, Tocopheryl Acetate, Magnesium Sulfate, Sodium Citrate, Potassium Sorbate, Citric Acid, Lavandula Oil/Extract, Citrus Limon Peel Oil, Citrus Aurantium Peel Oil, Limonene, Geraniol, Benzyl Alcohol, Linalyl Acetate, Citronellol, Terpineol, Linalool, Glycine Soja Oil, Alpha-Isomethyl Ionone, Benzyl Benzoate, Geranyl Acetate, Pinene, BHT, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB599815403DBEB3AA676A974ED5DA13&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB599815403DBEB3AA676A974ED5DA13&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/a/9/d/01a13f47c3c572e48fed5199d8fc3928-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=CB599815403DBEB3AA676A974ED5DA13&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-rich-nourishing-body-milk-250ml-40060003027060044.html",
     "source": "nivea.gr",
@@ -8316,10 +8316,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καλύτερα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, PEG-150 Distearate, Propylene Glycol, Tocopherol, Citric Acid, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Citronellol, Linalyl Acetate, Benzyl Alcohol, Limonene, Citrus Aurantium Peel Oil, Terpineol, Alpha-Isomethyl Ionone, Pinene, Trimethylbenzenepropanol, Citrus Aurantium Bergamia Peel Oil, Hydrogenated Palm Glycerides Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E984224C72935DE15AD34937982B11F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E984224C72935DE15AD34937982B11F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/c/3/6/250f4ac53b9a4f3eb79c24be62e64152-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E984224C72935DE15AD34937982B11F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-black-and-white-invisible-original-ro-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059003886360044.html",
     "source": "nivea.gr",
@@ -8356,10 +8356,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε πρόσωπο, σώμα και χέρια. Κάντε απαλό μασάζ στην επιδερμίδα σας. Για μια ακόμα πιο αναζωογονητική εμπειρία, τοποθετήστε την κρέμα στο ψυγείο.",
       "Συστατικά": "INCI: Aqua, Ethylhexyl Salicylate, Glycerin, Cetearyl Alcohol, C12-15 Alkyl Benzoate, Glyceryl Stearate, Glyceryl Stearate Citrate, Butyl Methoxydibenzoylmethane, Caprylic/Capric Triglyceride, Isopropyl Palmitate, Phenylbenzimidazole Sulfonic Acid, Butyrospermum Parkii Butter, Simmondsia Chinensis Seed Oil, Tocopheryl Acetate, Hydrogenated Coco-Glycerides, Isopropyl Myristate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Hydroxypropyl Starch Phosphate, Sodium Hydroxide, Ethylhexylglycerin, Hydroxyacetophenone, Phenoxyethanol, Trisodium EDTA, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C45F6338DA592C6D7F382713AD533A11&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C45F6338DA592C6D7F382713AD533A11&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/a/b/7/b036c4f7a79548dca769c092366bcabe-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C45F6338DA592C6D7F382713AD533A11&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-soft-daily-uv-15-100ml-40060001518540044.html",
     "source": "nivea.gr",
@@ -8395,10 +8395,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Εμποτίστε ένα βαμβάκι με micellar water\nΒήμα 2 – Εφαρμογή: Σκουπίστε απαλά το πρόσωπο και τα κλειστά μάτια για να αφαιρέσετε το μακιγιάζ και τη μάσκαρα\nΒήμα 3 – Έτοιμη!: Δεν χρειάζεται ξέβγαλμα",
       "Συστατικά": "INCI: Aqua, Poloxamer 184, Glycerin, Arginine HCl, Glycyrrhiza Glabra Root Extract, Panthenol, Pantolactone, Disodium Cocoyl Glutamate, Sodium Cocoamphoacetate, Propylene Glycol, 1,2-Hexanediol, Citric Acid, Trisodium EDTA, Sodium Chloride, Phenoxyethanol, Cetrimonium Chloride"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48C295F6EF0EF576D2D88612208B828&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48C295F6EF0EF576D2D88612208B828&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/a/d/c/4d59bfd9a3414648878c5bb7708c6565-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D48C295F6EF0EF576D2D88612208B828&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%ce%b1%cf%84%ce%b1%cf%80%cf%81%ce%b1%cf%8b%ce%bd%cf%84%ce%b9%ce%ba%cf%8c-micellar-water-400ml-40059003429800044.html",
     "source": "nivea.gr",
@@ -8433,10 +8433,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο\nΒήμα 2 – Ανανέωση: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 3 – Έκθεση: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος",
       "Συστατικά": "INCI: Aqua, Homosalate, Octocrylene, Ethylhexyl Salicylate, Alcohol Denat., Butyl Methoxydibenzoylmethane, Glyceryl Stearate, Glycerin, Glycyrrhetinic Acid, Tocopheryl Acetate, VP/Hexadecene Copolymer, Copernicia Cerifera Cera, Tetrasodium Iminodisuccinate, Cellulose Gum, Microcrystalline Cellulose, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Xanthan Gum, Sodium Stearoyl Glutamate, Trisodium EDTA, Citric Acid, Sodium Chloride, Hydroxyacetophenone, Phenoxyethanol, Linalool, Limonene, Benzyl Alcohol, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=630487BF26DDBE8A69DEC24274F68F77&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=630487BF26DDBE8A69DEC24274F68F77&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/8/4/1/e429da42eabc4fab8a5030c66ca52307-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=630487BF26DDBE8A69DEC24274F68F77&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/protect-and-bronze-%cf%83%cf%80%cf%81%ce%b5%ce%b9-%ce%b5%ce%bd%ce%b5%cf%81%ce%b3%ce%bf%cf%80%ce%bf%ce%b9%ce%b7%cf%83%ce%b7%cf%83-%ce%bc%ce%b1%cf%85%cf%81%ce%b9%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%83-spf-20-40058086535530044.html",
     "source": "nivea.gr",
@@ -8473,10 +8473,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 3 – Εφαρμογή: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Pogostemon Cablin Oil, Linalyl Acetate, Limonene, Citrus Aurantium Peel Oil, Beta-Caryophyllene, Geraniol, Rose Ketones, Pinene, Citronellol, Camphor, Linalool, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E3D57FC457C34C5BC0C170221B68278&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E3D57FC457C34C5BC0C170221B68278&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/6/7/1/15258656bd62470493bef1a416e55fc4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9E3D57FC457C34C5BC0C170221B68278&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-invisible-original-spray-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-250ml-40059006536420044.html",
     "source": "nivea.gr",
@@ -8510,10 +8510,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Το NIVEA MEN Craft Stylers Fixating Shine Styling Gel προσφέρεται για δημιουργία διαφορετικών look και ευελιξία στα μαλλιά με ένα μοναδικά αρρενωπό άρωμα. Είναι εύκολο στη χρήση αφήνοντας φυσική λάμψη στα μαλλιά χωρίς λιπαρότητα. Η σύνθεσή του διατηρεί τα μαλλιά υγιή και δυνατά, χωρίς να αφήνει κατάλοιπα. Εφαρμόζοντας μικρή ποσότητα σε βρεγμένα ή στεγνά μαλλιά δημιουργήστε μοναδικά σχήματα στα μαλλιά με style.",
       "Συστατικά": "INCI: Water, Acrylates/Hydroxyesters Acrylates Copolymer, Acrylates/Steareth-20 Methacrylate Crosspolymer, Aminomethyl Propanol, Helianthus Annuus Seed Oil, Tocopherol, PEG-40 Hydrogenated Castor Oil, Ceteareth-20, Poloxamer 231, Trisodium EDTA, Sodium Benzoate, Benzoic Acid, Phenoxyethanol, Citronellol, Coumarin, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80477A3AFD669BF437824F74BE141522&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80477A3AFD669BF437824F74BE141522&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/2/5/5/381144-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=80477A3AFD669BF437824F74BE141522&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/craft-stylers-fixating-shine-styling-gel-90058003183490044.html",
     "source": "nivea.gr",
@@ -8549,10 +8549,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Επανάληψη: Εφαρμόστε εκ νέου όποτε νιώθετε τα χέρια ξηρά",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Butyrospermum Parkii Butter, Isopropyl Palmitate, Glyceryl Stearate, Distarch Phosphate, Prunus Amygdalus Dulcis Oil, Sodium Hyaluronate, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Xanthan Gum, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Sodium Hydroxide, Phenoxyethanol, Caprylyl Glycol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=543FCD770A8328BCCA33467183C379B4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=543FCD770A8328BCCA33467183C379B4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/3/d/3/5/cdea7816978842ada82780677214dd98-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=543FCD770A8328BCCA33467183C379B4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-intensive-moisture-hand-cream-75ml-40060002296380044.html",
     "source": "nivea.gr",
@@ -8589,10 +8589,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε πρόσωπο, σώμα και χέρια. Κάντε απαλό μασάζ στην επιδερμίδα σας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Myristyl Alcohol, Alcohol Denat., Myristyl Myristate, Cetearyl Glucoside, Coco-Caprylate/Caprate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Hydrogenated Coco-Glycerides, Simmondsia Chinensis Seed Oil, Tocopheryl Acetate, Prunus Amygdalus Dulcis Oil, Vegetable Oil, Cetyl Ricinoleate, Triisostearin, Sorbitan Stearate, Hydroxypropyl Starch Phosphate, Sodium Hydroxide, Cetearyl Alcohol, Gellan Gum, Xanthan Gum, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Disodium Cetearyl Sulfosuccinate, Phenoxyethanol, Linalool, Citronellol, Alpha-Isomethyl Ionone, Acetyl Cedrene, Citrus Aurantium Peel Oil, Limonene, Terpineol, Lavandula Oil/Extract, Linalyl Acetate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F3EEAD6CF8FADBECD84CF47E42F6100&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F3EEAD6CF8FADBECD84CF47E42F6100&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/3/5/6/a059513b41e745df80c802355c9dc373-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5F3EEAD6CF8FADBECD84CF47E42F6100&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-soft-tube-75ml-40058088905760044.html",
     "source": "nivea.gr",
@@ -8627,10 +8627,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφάρμοσε την κρέμα καθημερινά στο σώμα\nΒήμα 2 – Massage: Κάνε απαλό μασάζ μέχρι να απορροφηθεί από την επιδερμίδα σου.",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Cetyl Alcohol, Cocoglycerides, Glyceryl Stearate, Alcohol Denat., Coco-Caprylate/Caprate, Butyrospermum Parkii Butter, Sodium Hyaluronate, Hydroxypropyl Starch Phosphate, Caprylyl Glycol, Phenoxyethanol, Ethylhexylglycerin, Hydroxyacetophenone, Xanthan Gum, Parfum, Pinene, Benzyl Alcohol, Citronellol, Eugenyl Acetate, Alpha-Isomethyl Ionone, Trimethylcyclopentenyl Methylisopentenol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7CEED83D0049953A609E14196C1182FE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7CEED83D0049953A609E14196C1182FE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/c/2/3/018cc3bf373f434eb6fa552c2837f7dd-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7CEED83D0049953A609E14196C1182FE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/q10--firming-plus-rejuvenating-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%83%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-90058003883350044.html",
     "source": "nivea.gr",
@@ -8665,10 +8665,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε απαλά σε βρεγμένη επιδερμίδα και κάνετε μασάζ κυκλικά, αποφεύγοντας την περιοχή των ματιών.\nΒήμα 2 – Αφαίρεση: Ξεπλύνετε με νερό.",
       "Συστατικά": "INCI: Aqua, Glycerin, Coco-Glucoside, Coco-Betaine, Alcohol Denat., Xanthan Gum, Aloe Barbadensis Leaf Juice Powder, Sodium Hyaluronate, Dehydroxanthan Gum, Citric Acid, Sodium Chloride, PEG-7 Glyceryl Cocoate, Sodium Sulfate, Sodium Benzoate, Parfum, CI 42090, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=057B6D9BC9BE4CE60AEDDDB832196ADA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=057B6D9BC9BE4CE60AEDDDB832196ADA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/e/f/0/7204fe2deb864cf0adcddf4307a1107f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=057B6D9BC9BE4CE60AEDDDB832196ADA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b4%cf%81%ce%bf%cf%83%ce%b9%cf%83%cf%84%ce%b9%ce%ba%cf%8c-gel-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%cf%80%cf%81%ce%bf%cf%83%cf%8e%cf%80%ce%bf%cf%85-%ce%ba%2f%ce%bc-150ml-40060001961140044.html",
     "source": "nivea.gr",
@@ -8702,10 +8702,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 2 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 3 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 4 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 5 – Οδηγίες: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές\nΒήμα 6 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 7 – Συμβατότητα: Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Glycerin, Butyl Methoxydibenzoylmethane, C12-15 Alkyl Benzoate, Dibutyl Adipate, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Dipropylene Glycol Dibenzoate, Ethylhexyl Triazone, Cetyl Alcohol, Copernicia Cerifera Cera, Silica Dimethyl Silylate, Panthenol, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Polyglyceryl-3 Methylglucose Distearate, C18-38 Alkyl Hydroxystearoyl Stearate, Phenylbenzimidazole Sulfonic Acid, Xanthan Gum, Cetyl Palmitate, Glyceryl Stearate, Trisodium Ethylenediamine Disuccinate, Glyceryl Stearate Citrate, Sodium Hydroxide, Pantolactone, Citric Acid, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=29EAB53C611D815C8531AD6070E1168A&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=29EAB53C611D815C8531AD6070E1168A&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/6/0/b/fba065535989470c945cce49bb42f15e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=29EAB53C611D815C8531AD6070E1168A&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--kid%27s-lotion-spf-50plus%2c-200ml-52011780322670044.html",
     "source": "nivea.gr",
@@ -8741,10 +8741,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Shower: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Shake: Ανακινήστε καλά πριν τη χρήση\nΒήμα 3 – Spray: Κρατήστε το δοχείο σε απόσταση 15 cm από την μασχάλη και ψεκάστε.\nΒήμα 4 – Let dry: Αφήστε το προϊόν να στεγνώσει εντελώς.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Geraniol, Citronellol, Limonene, Linalool, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB9873273028ADDF082CA99BA8B787E2&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB9873273028ADDF082CA99BA8B787E2&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/2/2/7/3efe44f1bb4b45ea9feecc0e5994b734-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=FB9873273028ADDF082CA99BA8B787E2&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-fresh-sensation-spray-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-150ml-40060000126430044.html",
     "source": "nivea.gr",
@@ -8780,10 +8780,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Προετοιμάστε την επιδερμίδα σας καθαρίζοντας την καλά.\nΒήμα 2 – Εφαρμογή: Κάντε μασάζ με ανοδικές κινήσεις ξεκινώντας από τον λαιμό.\nΒήμα 3 – Προσοχή: Αποφύγετε την άμεση επαφή με τα μάτια.\nΒήμα 4 – Βέλτιστα αποτελέσματα: Για πρόσθετη φροντίδα κατά τη διάρκεια της νύχτας απλώστε μια πιο παχιά στρώση από την κρέμα και αφήστε τη να δράσει με την επιδερμίδα σας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyrospermum Parkii Butter, Ricinus Communis Seed Oil, Cetearyl Alcohol, Methylpropanediol, Hydrogenated Coco-Glycerides, Glyceryl Stearate, Glyceryl Stearate Citrate, Bakuchiol, Sodium Hyaluronate, Panthenol, Pantolactone, Creatine, 1-Methylhydantoin-2-Imide, Ethylhexylglycerin, Caprylyl Glycol, Xanthan Gum, Sodium Hydroxide, Citric Acid, Sodium Sulfate, Sodium Chloride, Phenoxyethanol, Parfum, CI 15985, CI 47005"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1575E0D0507E4FCB47582EA9B10E0E2&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1575E0D0507E4FCB47582EA9B10E0E2&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/e/9/9/923942d77f4c40a9b0c8d6148f2265fb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C1575E0D0507E4FCB47582EA9B10E0E2&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-expert-lift-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bc%ce%ad%ce%bd%ce%b7-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%ce%b7%cf%81%ce%b1%ce%bd%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%bd%cf%8d%cf%87%cf%84%ce%b1%cf%82-40059006007450044.html",
     "source": "nivea.gr",
@@ -8819,10 +8819,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρά Χέρια: Πλύνετε και στεγνώστε καλά τα χέρια σας\nΒήμα 2 – Εφαρμογή Κρέμας: Κάντε απαλό μασάζ στα χέρια μέχρι να απορροφηθεί\nΒήμα 3 – Επανάληψη: Χρησιμοποιείστε όσες φορές χρειάζεται μέσα στη μέρα για απαλά χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetyl Alcohol, Isopropyl Palmitate, Glyceryl Stearate, Cera Alba, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Hydrogenated Coco-Glycerides, Hydroxypropyl Starch Phosphate, Xanthan Gum, Stearic Acid, Palmitic Acid, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Sodium Hydroxide, Phenoxyethanol, Caprylyl Glycol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ED35CB43C29512E60FF017F3359B40E3&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ED35CB43C29512E60FF017F3359B40E3&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/9/7/3/dd31bf4c44234fbe8474d9a0d996a95c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ED35CB43C29512E60FF017F3359B40E3&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%cf%87%ce%b5%cf%81%ce%b9%cf%8e%ce%bd-%ce%bc%ce%b5-%ce%bc%ce%ad%ce%bb%ce%b9-75ml-40060002296140044.html",
     "source": "nivea.gr",
@@ -8856,10 +8856,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε 2 φορές την ημέρα, πρωί & βράδυ σε καθαρό πρόσωπο, λαιμό & ντεκολτέ, πριν την καθημερινή σας ρουτίνα περιποίησης της.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Caprylic/Capric Triglyceride, Cocoglycerides, Glyceryl Stearate Citrate, Distarch Phosphate, Ubiquinone, Palmitoyl Tripeptide-5, Acetyl Hydroxyproline, Ceramide NP, Creatine, 1-Methylhydantoin-2-Imide, Argania Spinosa Kernel Oil, Squalane, Butyrospermum Parkii Butter, Hydroxyacetophenone, Xanthan Gum, Sodium Hydroxide, Sodium Chloride, Sodium Sulfate, Phenoxyethanol, Parfum, CI 15985"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3051111523F0655164FE78A3E8EC3EF&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3051111523F0655164FE78A3E8EC3EF&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/6/b/6/ed883c0a727042f1a6a2786dc81cfda8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A3051111523F0655164FE78A3E8EC3EF&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/q10-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%cf%8c%cf%82-%ce%bf%cf%81%cf%8c%cf%82-collagen-expert-90058003989070044.html",
     "source": "nivea.gr",
@@ -8900,10 +8900,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Βήμα 1: Εφαρμόστε κάθε πρωί και βράδυ σε καθαρή επιδερμίδα\nΒήμα 2 – Βήμα 2: Ενισχύστε την ρουτίνα αντιγήρανσης εφαρμόζοντας επιπλέον την δική σας επιλογή από τους Ορούς Cellular Λάμψης με Βιταμίνη C και Ορό Cellular Bakuchiol 3-Zone Lifting\nΒήμα 3 – Βήμα 3: Το πρωί εφαρμόστε προϊόντα πρωινής περίποιησης Cellular, τη νύχτα Cellular περιποίησης νυκτός.",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., PEG-40 Hydrogenated Castor Oil, Sodium Hyaluronate, Aloe Barbadensis Leaf Juice Powder, Cocoglycerides, 1,2-Hexanediol, Xanthan Gum, Phenoxyethanol, Citronellol, Geraniol, Hexyl Cinnamal, Limonene, Linalool, Citrus Aurantium Peel Oil, Dimethyl Phenethyl Acetate, Terpineol, Linalyl Acetate, Geranyl Acetate, Citrus Limon Peel Oil, Amyl Salicylate, Benzyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=990B387F86B4DE6FCC031D1781C8CE62&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=990B387F86B4DE6FCC031D1781C8CE62&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/8/8/4/c7877089d5c649d8a44fc7bf793086d2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=990B387F86B4DE6FCC031D1781C8CE62&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/expert-filler-cellular-hyaluron-%ce%bf%cf%81%cf%8c%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac%cf%82-%cf%8c%ce%b3%ce%ba%ce%bf%cf%85-40059008646800044.html",
     "source": "nivea.gr",
@@ -8939,10 +8939,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε τη λοσιόν καθημερινά σε όλο σας το σώμα.\nΒήμα 2 – Χρήση: Δεν χρειάζεται να περιμένετε - μπορείτε να ντυθείτε αμέσως",
       "Συστατικά": "INCI: Water, Glycerin, Alcohol Denat., Dicaprylyl Ether, Glyceryl Stearate SE, Isopropyl Palmitate, Dimethicone, Carbomer, Sodium Hydroxide, Sodium Cetearyl Sulfate, Phenoxyethanol, Ethylhexylglycerin, Linalool, Citronellol, Limonene, Alpha-Isomethyl Ionone, Geraniol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg?db=web&ctx=GR&hash=C2C6A63E287B86D84AD937DA780AF2C6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg?db=web&ctx=GR&hash=C2C6A63E287B86D84AD937DA780AF2C6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg"
+      "https://assets.beiersdorf.com/-/media/images/1/c/e/9/223270-screen.jpg?db=web&ctx=GR&hash=C2C6A63E287B86D84AD937DA780AF2C6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%bb%ce%bf%cf%83%ce%b9%cf%8c%ce%bd-%cf%83%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-aloe-and-hydration-52011780312840044.html",
     "source": "nivea.gr",
@@ -8978,10 +8978,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Κάνετε απαλό μασάζ στην επιδερμίδα με ένα βαμβακερό δίσκο ντεμακιγιάζ, αποφύγετε την περιοχή των ματιών.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Coco-Caprylate/Caprate, Glyceryl Stearate SE, Cetearyl Alcohol, Rosa Damascena Flower Water, Tocopheryl Acetate, Xanthan Gum, Sodium Cetearyl Sulfate, Citric Acid, Sorbic Acid, Potassium Sorbate, Sodium Benzoate, Hydroxyacetophenone, Phenoxyethanol, Citrus Aurantium Peel Oil, Linalool, Citronellol, Limonene, Geraniol, Linalyl Acetate, Methyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=79E2C2A6D9EA86B76B68763F7E4137C1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=79E2C2A6D9EA86B76B68763F7E4137C1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/0/8/b/0cb3fd2c07614cdf98cb7761d0bb9cc6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=79E2C2A6D9EA86B76B68763F7E4137C1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%b3%ce%b1%ce%bb%ce%ac%ce%ba%cf%84%cf%89%ce%bc%ce%b1-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%bc%ce%b5-%cf%81%ce%bf%ce%b4%cf%8c%ce%bd%ce%b5%cf%81%ce%bf-40059007299580044.html",
     "source": "nivea.gr",
@@ -9017,10 +9017,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμόστε: Απλώστε το γαλάκτωμα στο σώμα σας\nΒήμα 2 – Αφήστε το να στεγνώσει: Αφήστε το γαλάκτωμα να απορροφηθεί από την επιδερμίδα σας",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, C15-19 Alkane, C12-15 Alkyl Benzoate, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Myristyl Alcohol, Ubiquinone, Sodium Ascorbyl Phosphate, Sorbitan Stearate, Cera Microcristallina, Hydrogenated Coco-Glycerides, Dimethicone, Carbomer, Sodium Hydroxide, Benzoic Acid, Trisodium EDTA, Phenoxyethanol, Ethylhexylglycerin, Linalool, Citronellol, Benzyl Alcohol, Alpha-Isomethyl Ionone, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=085856C78052250BBCB13C99A39280FE&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=085856C78052250BBCB13C99A39280FE&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/5/1/e/e62a721ba85043a6b4892fd642559c86-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=085856C78052250BBCB13C99A39280FE&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-firming-milk-q10plus-250-ml-40059000130570044.html",
     "source": "nivea.gr",
@@ -9056,10 +9056,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Καθαρισμός: Προετοιμάστε την επιδερμίδα καθαρίζοντάς την\nΒήμα 2 – Εφαρμογή: Εφαρμόστε την Κρέμα σε Πρόσωπο, Σώμα, Χέρια\nΒήμα 3 – Προσοχή: Αποφύγετε την επαφή με τα μάτια\nΒήμα 4 – Απολαύστε: Η Κρέμα απορροφάται άμεσα χωρίς να αφήνει λιπαρότητα",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, Alcohol Denat., Cetyl Alcohol, Glyceryl Stearate, Hydrogenated Coco-Glycerides, Stearyl Alcohol, Palmitic Acid, Stearic Acid, Cera Microcristallina, Tocopheryl Acetate, Myristic Acid, Arachidic Acid, Oleic Acid, Lauric Acid, Dimethicone, Carbomer, Sodium Hydroxide, Phenoxyethanol, Methylparaben, BHT, Trimethylbenzenepropanol, Pogostemon Cablin Oil, Amyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=457B9F8D31D78603D81DA3BC527277E4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=457B9F8D31D78603D81DA3BC527277E4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/8/6/6/05fd8f33433546eda986edb0a314ed77-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=457B9F8D31D78603D81DA3BC527277E4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-creme-75ml-52011780245900044.html",
     "source": "nivea.gr",
@@ -9096,10 +9096,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά πριν την χρήση\nΒήμα 3 – Εφαρμόστε: Κρατήστε το δοχείο σε απόσταση 15cm από την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Στεγνώστε: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Limonene, Linalyl Acetate, Terpineol, Pinene, Pogostemon Cablin Oil, Alpha-Isomethyl Ionone, Beta-Caryophyllene, Rose Ketones, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D0E40622C7EF977430840272EBB40896&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D0E40622C7EF977430840272EBB40896&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/3/d/b/7ce6e2bb1614454c85c1f38b784b0b22-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D0E40622C7EF977430840272EBB40896&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-black-and-white-epic-night-spray-%ce%b1%ce%bd%cf%84%cf%81%ce%b9%ce%ba%cf%8c-150ml-40060002485610044.html",
     "source": "nivea.gr",
@@ -9137,10 +9137,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Για βέλτιστα αποτελέσματα: Εφαρμόστε τη λοσιόν σε όλο το σώμα",
       "Συστατικά": "INCI: Aqua, Glycerin, Alcohol Denat., Cetearyl Alcohol, Ethylhexyl Cocoate, Glyceryl Stearate SE, Butyrospermum Parkii Butter, Isopropyl Palmitate, Panthenol, Niacinamide, Tocopherol, Macadamia Integrifolia Seed Oil, Helianthus Annuus Seed Oil, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Sodium Cetearyl Sulfate, Xanthan Gum, Trisodium Ethylenediamine Disuccinate, Pantolactone, Citric Acid, Ethylhexylglycerin, Phenoxyethanol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C90E64B649E1339034460A392E98285&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C90E64B649E1339034460A392E98285&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/5/7/2/d8dfe206d43e492aa78364c3c3c850f4-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C90E64B649E1339034460A392E98285&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-repair-and-care-sensitive-lotion-%cf%87%cf%89%cf%81%ce%af%cf%82-%ce%ac%cf%81%cf%89%ce%bc%ce%b1-400ml-40060001938540044.html",
     "source": "nivea.gr",
@@ -9174,10 +9174,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΓΑΡΜΟΓΗ: Εφαρμόστε αρκετή ποσότητα (σε πρόσωπο, λαιμό και ντεκολτέ) πριν από την έκθεση στον ήλιο.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: Ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία.",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Butyl Methoxydibenzoylmethane, Ethylhexyl Triazone, C12-15 Alkyl Benzoate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isopropyl Palmitate, Butylene Glycol Dicaprylate/Dicaprate, Dibutyl Adipate, Cetearyl Alcohol, Distarch Phosphate, Phenylbenzimidazole Sulfonic Acid, Glyceryl Stearate, Tapioca Starch, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, Glycyrrhiza Inflata Root Extract, Sodium Hyaluronate, Tocopheryl Acetate, Hydroxypropyl Starch Phosphate, Xanthan Gum, Sodium Stearoyl Glutamate, Cocoglycerides, Hydrogenated Coco-Glycerides, Hydrogenated Rapeseed Oil, Sodium Hydroxide, Sodium Chloride, Sodium Sulfate, Ethylhexylglycerin, Hydroxyacetophenone, Phenoxyethanol, Trisodium EDTA, Parfum, CI 15985, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A2AEB35476FD4BF8511DCB1D6292D04B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A2AEB35476FD4BF8511DCB1D6292D04B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/9/7/9/43a7b0db81fd455eb8c4cf5865f3940f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A2AEB35476FD4BF8511DCB1D6292D04B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-luminous630-spf50plus%2c-40ml-40059009952610044.html",
     "source": "nivea.gr",
@@ -9225,10 +9225,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε 2 φορές τη μέρα, πρωί και βράδυ, σε καθαρό πρόσωπο πριν από την καθημερινή ρουτίνα περιποίησης της επιδερμίδας.\nΒήμα 2 – Εφαρμογή: Απλώστε ομοιόμορφα τον ορό σε όλο το πρόσωπο.\nΒήμα 3 – Προσοχή: Αποφύγετε την επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Cocoglycerides, Methylpropanediol, Caprylic/Capric Triglyceride, Octyldodecanol, Glyceryl Stearate, Cetearyl Alcohol, Distarch Phosphate, Tapioca Starch, Butyrospermum Parkii Butter, Cetyl Palmitate, Squalane, Dihydromyricetin, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Ethylhexylglycerin, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Citric Acid, Diethylhexyl Syringylidenemalonate, Sodium Metabisulfite, Phenoxyethanol, Citronellol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D30C3E3EC3D8EBEFA28C2CC01EC1B8C0&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D30C3E3EC3D8EBEFA28C2CC01EC1B8C0&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/f/2/9/1fe94d122eb34d33b4fd9af99c254b13-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=D30C3E3EC3D8EBEFA28C2CC01EC1B8C0&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-epigenetics-%ce%bf%cf%81%cf%8c%cf%82-%ce%b1%ce%bd%ce%b1%ce%b6%cf%89%ce%bf%ce%b3%cf%8c%ce%bd%ce%b7%cf%83%ce%b7%cf%82-40060001837940044.html",
     "source": "nivea.gr",
@@ -9265,10 +9265,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Aluminum Sesquichlorohydrate, Magnesium Aluminum Silicate, Persea Gratissima Oil, Tocopherol, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Trisodium EDTA, Lavandula Oil/Extract, Limonene, Citrus Aurantium Peel Oil, Linalyl Acetate, Linalool, Alpha-Isomethyl Ionone, Citronellol, Benzyl Alcohol, Geraniol, Benzyl Salicylate, Terpineol, Citrus Limon Peel Oil, Cananga Odorata Oil/Extract, Pinene, Camphor, Geranyl Acetate, Eucalyptus Globulus Oil, Beta-Caryophyllene, Dimethyl Phenethyl Acetate, Benzyl Benzoate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6EA12846E500B6F050E3AE2ADDCFD9F9&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6EA12846E500B6F050E3AE2ADDCFD9F9&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/8/b/8/59958c57837342bcabd76f8cb5e88ef8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6EA12846E500B6F050E3AE2ADDCFD9F9&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-dry-comfort-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059003885130044.html",
     "source": "nivea.gr",
@@ -9304,10 +9304,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε καθημερινά σε όλο σας το σώμα",
       "Συστατικά": "INCI: Aqua, Glycerin, Paraffinum Liquidum, Myristyl Alcohol, Butylene Glycol, Alcohol Denat., Myristyl Myristate, Palmitic Acid, Glyceryl Stearate, Stearic Acid, Cera Microcristallina, Hydrogenated Coco-Glycerides, Simmondsia Chinensis Seed Oil, Tocopheryl Acetate, Lanolin Alcohol (Eucerit®), Myristic Acid, Arachidic Acid, Oleic Acid, Polyglyceryl-2 Caprate, Dimethicone, Carbomer, Sodium Hydroxide, Phenoxyethanol, Linalool, Citronellol, Alpha-Isomethyl Ionone, Benzyl Alcohol, Limonene, Benzyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2432C2966465811C478B15797F40AB45&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2432C2966465811C478B15797F40AB45&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/b/0/5/589ac805875d4953a14f8968db2ed3d8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2432C2966465811C478B15797F40AB45&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-soft-40059000092890044.html",
     "source": "nivea.gr",
@@ -9342,10 +9342,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα και αφήστε το να στεγνώσει πριν ντυθείτε. Μην εφαρμόζετε σε πληγωμένη ή ερεθισμένη επιδερμίδα\nΒήμα 2 – ΧΡΗΣΗ: Αφήστε το προϊόν να στεγνώσει εντελώς",
       "Συστατικά": "INCI: Benzyl Alcohol, Eugenol, Coumarin, Butylphenyl Methylpropional, Limonene, Octyldodecanol, Citric Acid, Hydroxyethylcellulose, Silver Citrate, Parfum, PEG-40 Hydrogenated Castor Oil, PEG-8, Aluminum Chlorohydrate, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ECE8F5970ED8295FC7C4B4C7FD99C7EB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ECE8F5970ED8295FC7C4B4C7FD99C7EB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/e/b/3/202394-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=ECE8F5970ED8295FC7C4B4C7FD99C7EB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-silver-protect-40059003890770044.html",
     "source": "nivea.gr",
@@ -9381,10 +9381,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε την κρέμα πρωί & βράδυ σε λαιμό & ντεκολτέ",
       "Συστατικά": "INCI: Aqua, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Butyrospermum Parkii Butter, Cocoglycerides, Methylpropanediol, Hydrogenated Coco-Glycerides, Glyceryl Stearate Citrate, Cetearyl Isononanoate, Triisostearin, Squalane, Creatine, Panthenol, Glyceryl Stearate, Xanthan Gum, Ethylhexylglycerin, Caprylyl Glycol, Phenoxyethanol, 1-Methylhydantoin-2-Imide, Pantolactone, Sodium Hydroxide, Citric Acid, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DC9164AEFA604137D46652242EFED7DF&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DC9164AEFA604137D46652242EFED7DF&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/e/8/9/376a21bfb80f4f65be1ae38e9664ccd2-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=DC9164AEFA604137D46652242EFED7DF&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-q10-firming-and-anti-wrinkle-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b3%ce%b9%ce%b1-%ce%bb%ce%b1%ce%b9%ce%bc%cf%8c-and-%ce%bd%cf%84%ce%b5%ce%ba%ce%bf%ce%bb%cf%84%ce%ad-200ml-90058003883110044.html",
     "source": "nivea.gr",
@@ -9422,10 +9422,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε σε όλο το πρόσωπο και τον λαιμό κάθε πρωί και βράδυ πριν από την κρέμα ημέρας ή νύχτας Cellular Expert Filler. Ιδανικό επίσης για βάση του μακιγιάζ σας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Methylpropanediol, Cetearyl Alcohol, Dicaprylyl Carbonate, Dibutyl Adipate, Caprylic/Capric Triglyceride, Distarch Phosphate, Lauroyl Lysine, Folic Acid, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Magnolia Officinalis Bark Extract, Tocopherol, Sodium Stearoyl Glutamate, Ethylhexylglycerin, 1,2-Hexanediol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Chloride, Sodium Hydroxide, Phenoxyethanol, Limonene, Linalool, Citronellol, Benzyl Alcohol, Geraniol, Alpha-Isomethyl Ionone, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5D099D4B09FBBA59AFEC5DE16C904805&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5D099D4B09FBBA59AFEC5DE16C904805&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/3/f/8/174977-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5D099D4B09FBBA59AFEC5DE16C904805&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-expert-filler-%ce%b5%ce%bd%ce%b9%cf%83%cf%87%cf%85%ce%bc%ce%ad%ce%bd%ce%bf%cf%82-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%cf%8c%cf%82-%ce%bf%cf%81%cf%8c%cf%82-40059005257580044.html",
     "source": "nivea.gr",
@@ -9463,10 +9463,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν σε καθαρή, στεγνή επιδερμίδα.\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-14 Butyl Ether, Cetyl Palmitate, Hydrogenated Castor Oil, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Propylene Glycol, Palmitic Acid, Stearic Acid, Aluminum Sesquichlorohydrate, C20-40 Alkyl Stearate, Oleth-20, Octyldodecanol, Persea Gratissima Oil, Steareth-2, Steareth-21, Arachidic Acid, Myristic Acid, Oleic Acid, Lauric Acid, Oryzanol, Tetramethyl Acetyloctahydronaphthalenes, Pogostemon Cablin Oil, Terpineol, Citronellol, Limonene, Citrus Aurantium Peel Oil, Linalyl Acetate, Amyl Salicylate, Eucalyptus Globulus Oil, BHT, Juniperus Virginiana Oil, Coumarin, Pinene, Beta-Caryophyllene, Rose Ketones, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png?db=web&ctx=GR&hash=3DA058812E4E4399AF43781E81A11396&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png?db=web&ctx=GR&hash=3DA058812E4E4399AF43781E81A11396&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/d/6/5/cc486cfc1c694ebdb7fd7d06e902d895-online_1180_png.png?db=web&ctx=GR&hash=3DA058812E4E4399AF43781E81A11396&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-dry-impact-stick-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40060002355160044.html",
     "source": "nivea.gr",
@@ -9505,10 +9505,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, PEG-150 Distearate, Propylene Glycol, Tocopherol, Tetramethyl Acetyloctahydronaphthalenes, Citric Acid, Citronellol, Alpha-Isomethyl Ionone, Benzyl Salicylate, Benzyl Alcohol, Hydrogenated Palm Glycerides Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16275390259B08DB191C68F65FC614C5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16275390259B08DB191C68F65FC614C5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/5/5/4/e896c3d04f4c4bf8b80d281ccb18976e-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=16275390259B08DB191C68F65FC614C5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-silky-smooth-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059005425570044.html",
     "source": "nivea.gr",
@@ -9549,10 +9549,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Ανακινήστε καλά για να αναμειχθούν και οι δύο φάσεις και στη συνέχεια μουλιάστε ένα βαμβάκι με Micellar Water.\nΒήμα 2 – Εφαρμογή: Σκουπίστε απαλά το πρόσωπό σας και τα κλειστά μάτια σας για να διαλύσετε το μακιγιάζ, τη μάσκαρα και τα φίλτρα SPF.\nΒήμα 3 – Έτοιμη: Δεν χρειάζεται ξέβγαλμα.",
       "Συστατικά": "INCI: Aqua, Isododecane, Glycerin, C15-19 Alkane, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Arginine HCl, Citrus Sinensis Fruit Extract, Coco-Caprylate/Caprate, Isopropyl Palmitate, Caprylyl/Capryl Glucoside, Tocopherol, Zea Mays Oil, Sodium Chloride, Trisodium EDTA, Sodium Hydroxide, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Phenoxyethanol, Benzethonium Chloride, Decyl Alcohol, CI 40800"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=75911A3F52F1ADB3DD691C3301B81960&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=75911A3F52F1ADB3DD691C3301B81960&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/d/5/d/99e5317a537e4eb48ce839f0249477f5-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=75911A3F52F1ADB3DD691C3301B81960&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/micellar-skin-glow-infused-serum-%ce%bd%ce%b5%cf%81%cf%8c-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-40060000684280044.html",
     "source": "nivea.gr",
@@ -9589,10 +9589,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Τοποθετήστε μια μικρή ποσότητα τζελ στις παλάμες σας και απλώστε κάνοντας μασάζ απευθείας σε βρεγμένο πρόσωπο.\nΒήμα 2 – Καθαρισμός: Ξεβγάλτε\nΒήμα 3 – Περιποίηση μετά το ξύρισμα: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN SENSITIVE After Shave Balm.",
       "Συστατικά": "INCI: Aqua, Palmitic Acid, Triethanolamine, Oleth-20, Isopentane, Glycerin, Isopropyl Palmitate, Isobutane, Chamomilla Recutita Flower Extract, Panthenol, Tocopheryl Acetate, Maltodextrin, Hydroxyethylcellulose, Hydroxypropyl Methylcellulose, Laureth-2, Cetearyl Isononanoate, PEG-90 Glyceryl Isostearate, Disodium Phosphate, Sodium Phosphate, Citric Acid, Pantolactone, Piroctone Olamine, BHT, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6E93654C36EF715F0695A70C665B13EA&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6E93654C36EF715F0695A70C665B13EA&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/1/d/b/c74c8681d7e54ff6a1e75164c74c91e8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6E93654C36EF715F0695A70C665B13EA&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-gel-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-sensitive-200ml-40060001834800044.html",
     "source": "nivea.gr",
@@ -9628,10 +9628,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΦΗ: Εφαρμόστε αρκετή ποσότητα (σε πρόσωπο, λαιμό και ντεκολτέ) πριν από την έκθεση στον ήλιο.\nΒήμα 2 – ΕΠΑΝΑΛΗΨΗ: ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκουπίσμα, για να διατηρήσετε την αρχική προστασία..",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., C12-15 Alkyl Benzoate, Butyl Methoxydibenzoylmethane, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Isopropyl Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Phenylbenzimidazole Sulfonic Acid, Tapioca Starch, Polyglyceryl-6 Stearate, Distarch Phosphate, Silica Dimethyl Silylate, Niacinamide, Tocopheryl Acetate, Decylene Glycol, Glycyrrhiza Inflata Root Extract, Copernicia Cerifera Cera, Cetearyl Alcohol, Glyceryl Stearate, Glycerin, Oryza Sativa Starch, Xanthan Gum, Hydroxypropyl Methylcellulose, Trisodium Ethylenediamine Disuccinate, Hydroxypropyl Starch Phosphate, Polyglyceryl-6 Behenate, Phenoxyethanol, Hydroxyacetophenone, Sodium Hydroxide, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A1C39D58DE4D1AB043B25A8CE7EB99B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A1C39D58DE4D1AB043B25A8CE7EB99B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/1/1/6/6e13d0965f91423d8a03b055972fecc1-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3A1C39D58DE4D1AB043B25A8CE7EB99B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-uv-face-invisible-daily-fluid-spf-50plus%2c-40ml-40060001034880044.html",
     "source": "nivea.gr",
@@ -9666,10 +9666,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα αρκετή ποσότητα μετά από την έκθεση στον ήλιο •\nΒήμα 2 – ΑΝΑΝΕΩΣΗ: Ανανεώστε κάθε φορά που η επιδερμίδα σας είναι αφυδατωμένη ή επιβαρυμένη από τον ήλιο\nΒήμα 3: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Glycerin, C12-15 Alkyl Benzoate, Behenyl Alcohol, Panthenol, Aloe Barbadensis Leaf Juice Powder, Tocopheryl Acetate, Butyrospermum Parkii Butter, Pantolactone, Dehydroxanthan Gum, Xanthan Gum, Citric Acid, Ethylhexylglycerin, Phenoxyethanol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=650D0C6B87869A8F5403397505F12AF5&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=650D0C6B87869A8F5403397505F12AF5&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/1/0/4/bb29f946df8a4d91818096edcae404f6-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=650D0C6B87869A8F5403397505F12AF5&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun-after-sun-sensitive-lotion%2c-150ml-40060002379300044.html",
     "source": "nivea.gr",
@@ -9708,10 +9708,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντουζ: Εφαρμόστε το προϊόν μετά το μπάνιο\nΒήμα 2 – Ανακινήστε: Ανακινήστε καλά πριν τη χρήση\nΒήμα 3 – Ψεκάστε: Κρατήστε το δοχείο σε απόσταση 15 εκατοστά απο την περιοχή της μασχάλης και ψεκάστε.\nΒήμα 4 – Αφήστε να στεγνώσει: Αφήστε το προιόν να στεγνώσει τελείως πριν ντυθείτε",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Octyldodecanol, Triethyl Citrate, Palmitamidopropyltrimonium Chloride, Propylene Glycol, Disteardimonium Hectorite, Propylene Carbonate, Tocopherol, Benzyl Alcohol, Citronellol, Benzyl Salicylate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A7BC5CFB44D83ACF1E49597FF5BBBD64&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A7BC5CFB44D83ACF1E49597FF5BBBD64&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/4/b/c/d/9a93b741e3e84ecda88f3a701de85b5c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A7BC5CFB44D83ACF1E49597FF5BBBD64&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/black-and-white-invisible-anti-perspirant-spray-72h-40059005473160044.html",
     "source": "nivea.gr",
@@ -9747,10 +9747,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε καλά το δοχείο πριν τη χρήση\nΒήμα 2 – Ψεκάστε: Κρατήστε το δοχείο 15 cm από την μασχάλη και ψεκάστε\nΒήμα 3 – Αφήστε να στεγνώσει: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Butane, Isobutane, Propane, Isopropyl Palmitate, Aluminum Chlorohydrate, Dicaprylyl Ether, Caprylic/Capric Triglyceride, Parfum, Kaolin, Octyldodecanol, Persea Gratissima Oil, Disteardimonium Hectorite, Propylene Carbonate, Geraniol, Linalool, Alpha-Isomethyl Ionone, Benzyl Alcohol, Limonene, Tocopherol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=140B5885ED86831118BB4A09693F454A&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=140B5885ED86831118BB4A09693F454A&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/8/0/1/b/373bd28be2f94c96a4918ba686805450-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=140B5885ED86831118BB4A09693F454A&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/talc-sensation-52011780412760044.html",
     "source": "nivea.gr",
@@ -9787,10 +9787,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν απευθείας στην επιδερμίδα της μασχάλης\nΒήμα 3 – Let dry: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Tocopheryl Acetate, Sodium Ascorbyl Phosphate, Persea Gratissima Oil, Glycerin, Tocopherol, Trisodium EDTA, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C65B270BB61AD35F8185725004A501AD&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C65B270BB61AD35F8185725004A501AD&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/6/7/e/db5537938ba24af39c1e1be9434bfa11-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=C65B270BB61AD35F8185725004A501AD&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-derma-control-restore-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-40060001758430044.html",
     "source": "nivea.gr",
@@ -9824,10 +9824,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Οδηγίες: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Προσοχή: Φοράτε προστατευτικά ρούχα και απλώστε αρκετή ποσότητα αντηλιακού στις απροστάτευτες περιοχές\nΒήμα 8 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 9 – Συμβατότητα: Συμβατότητα με την επιδερμίδα παιδιατρικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Ethylhexyl Salicylate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Ascorbyl Phosphate, Tocopheryl Acetate, Panthenol, Pantolactone, Cetyl Palmitate, Sodium Stearoyl Glutamate, Copernicia Cerifera Cera, Microcrystalline Cellulose, Hydrogenated Rapeseed Oil, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Citric Acid, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B648C5EAEBBFEE6937990829E5FE98EB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B648C5EAEBBFEE6937990829E5FE98EB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/9/4/1/5/30102a736c6e455eb1c8bca0db8c5dcc-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=B648C5EAEBBFEE6937990829E5FE98EB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--kid%27s-trigger-spray-spf-30%2c-270ml-40059009155800044.html",
     "source": "nivea.gr",
@@ -9863,10 +9863,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΚΑΘΑΡΙΣΜΟΣ: Καθαρίστε καλά το πρόσωπό σας προτού κοιμηθείτε με ένα εξειδικευμένο προϊόν\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Κάντε απαλό μασάζ με μικρές κυκλικές κινήσεις σε πρόσωπο, λαιμό και ντεκολτέ, αποφεύγοντας την περιοχή των ματιών",
       "Συστατικά": "INCI: Aqua, Glycerin, Butyrospermum Parkii Butter, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Cocoglycerides, Hydrogenated Coco-Glycerides, Methylpropanediol, Glyceryl Stearate Citrate, Glyceryl Stearate, Panthenol, Folic Acid, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Magnolia Officinalis Bark Extract, Pantolactone, Squalane, Ethylhexylglycerin, Caprylyl Glycol, Xanthan Gum, Citric Acid, Sodium Hydroxide, Phenoxyethanol, Parfum, CI 60725"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2C09CE0A56E2FFBC591D0084F00F3E64&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2C09CE0A56E2FFBC591D0084F00F3E64&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/2/f/e/1600b45267d6484287a14a68ed67a983-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2C09CE0A56E2FFBC591D0084F00F3E64&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%ce%b1-%ce%bd%cf%85%cf%87%cf%84%ce%b1%cf%83-cellular-hyaluron-filler-40059001342710044.html",
     "source": "nivea.gr",
@@ -9898,10 +9898,10 @@ window.NIVEA_OVERRIDES = {
     "sections": {
       "Περιγραφή": "Η NIVEA Creme είναι το αυθεντικό προϊόν ενυδάτωσης για όλη την οικογένεια. Η εμβληματική αυτή κρέμα είναι εμπλουτισμένη με Eucerit®, το μοναδικό συστατικό της NIVEA Creme που προσφέρει στην επιδερμίδα όλη την προστατευτική φροντίδα που χρειάζεται, διατηρώντας την απαλή και λεία. Ιδανική για καθημερινή χρήση, σε κάθε σημείο που η επιδερμίδα χρειάζεται φροντίδα. Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη."
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E9FD9841AD17666F7F913A160589FE1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E9FD9841AD17666F7F913A160589FE1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/d/5/6/8/01a0af4aae3e704092937595dcd5126f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8E9FD9841AD17666F7F913A160589FE1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-creme-150ml-xmas-limited-edition-40060002949570044.html",
     "source": "nivea.gr",
@@ -9938,10 +9938,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Χρησιμοποιήστε κάθε πρωί και βράδυ σε καθαρό πρόσωπο. Τοποθετήστε μια μικρή ποσότητα κρέμας στην εσωτερική περιοχή του ματιού. Στη συνέχεια, χρησιμοποιώντας τις άκρες των δακτύλων σας και κάντε απαλό μασάζ προς τα έξω. Επαναλάβετε στην περιοχή του περιγράμματος του χείλους.",
       "Συστατικά": "INCI: Aqua, Glycerin, Methylpropanediol, Glyceryl Stearate, Cetearyl Alcohol, Cocoglycerides, Vegetable Oil, Butyrospermum Parkii Butter, Octyldodecanol, Tapioca Starch, 1,2-Hexanediol, Folic Acid, Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Magnolia Officinalis Bark Extract, Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides, Ethylhexylglycerin, Xanthan Gum, Carrageenan, Sodium Hydroxide, Phenoxyethanol, Alumina, CI 77891"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8DBAA65DB9D289EC4AD1BE47E531911&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8DBAA65DB9D289EC4AD1BE47E531911&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/9/3/7/12098bc299944be8923bdc169678cf3c-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=A8DBAA65DB9D289EC4AD1BE47E531911&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/cellular-expert-filler-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%bc%ce%b1%cf%84%ce%b9%cf%8e%ce%bd-and-%cf%87%ce%b5%ce%b9%ce%bb%ce%b9%cf%8e%ce%bd-40058083670920044.html",
     "source": "nivea.gr",
@@ -9977,10 +9977,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Για καλύτερα αποτελέσματα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμόστε: Εφαρμόστε το προϊόν απευθείας στην επιδερμίδα της μασχάλης\nΒήμα 3 – Στεγνώστε: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Parfum, Sodium Hyaluronate, Tocopheryl Acetate, Chamomilla Recutita Flower Extract, Octyldodecanol, Persea Gratissima Oil, Glycerin, Trisodium EDTA, Tocopherol, Glycine Soja Oil, Bisabolol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C36B1971DC51DD4380A804CB3BD4AAD&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C36B1971DC51DD4380A804CB3BD4AAD&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/0/0/7/07e7fb4af1934fd3b79b2aae8698a1ee-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7C36B1971DC51DD4380A804CB3BD4AAD&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deo-derma-control-sensitive-roll-on-%ce%b1%ce%bd%ce%b4%cf%81%ce%b9%ce%ba%cf%8c-50ml-40060001757440044.html",
     "source": "nivea.gr",
@@ -10015,10 +10015,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Προετοιμασία: Για καλύτερα αποτελέσματα προετοιμάστε την επιδερμίδα σας με το NIVEA MEN HYDROCARE Face Wash Gel\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν γενναιόδωρα στο πρόσωπο και το λαιμό σας\nΒήμα 3 – Προσοχή: Αποφύγετε την ευαίσθητη περιοχή των ματιών\nΒήμα 4 – Μετά το ξύρισμα: Η κρέμα είναι κατάλληλη και για χρήση μετά το ξύρισμα",
       "Συστατικά": "INCI: Aqua, Glycerin, Cocoglycerides, Tapioca Starch, Polyglyceryl-3 Methylglucose Distearate, C12-15 Alkyl Benzoate, Isopropyl Palmitate, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Cetearyl Alcohol, Panthenol, Aloe Barbadensis Leaf Juice Powder, Xanthan Gum, Citric Acid, Pantolactone, Caprylyl Glycol, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D8AFBBC4B8EA618C4FAF00A99482162&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D8AFBBC4B8EA618C4FAF00A99482162&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/b/4/c/7/b43c83b1ba2645e78194438ee7b173d9-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=6D8AFBBC4B8EA618C4FAF00A99482162&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/hydrocare-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-75-ml-40058088880850044.html",
     "source": "nivea.gr",
@@ -10056,10 +10056,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Χρήση: Προσθέστε σε ζεστό νερό\nΒήμα 2 – Αφρός: Αφήστε το να αφρίσει στο μπάνιο\nΒήμα 3 – Χαλάρωση: Αφήστε το μυαλό και τις αισθήσεις να χαλαρώσουν",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Vitis Vinifera Seed Oil, Tocopherol, Sodium Ascorbyl Phosphate, Glycol Distearate, Hydrogenated Castor Oil, Citric Acid, Sodium Chloride, Sodium Benzoate, Tetramethyl Acetyloctahydronaphthalenes, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3E1D57D982A2742025D75FDC93B34260&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3E1D57D982A2742025D75FDC93B34260&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/d/d/e/9b09dd547c064adc846db5a1a8a8623f-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=3E1D57D982A2742025D75FDC93B34260&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%ce%ba%cf%81%ce%b5%ce%bc%cf%8e%ce%b4%ce%b5%cf%82-%ce%b1%cf%86%cf%81%cf%8c%ce%bb%ce%bf%cf%85%cf%84%cf%81%ce%bf-creme-smooth-750ml-40060000957380044.html",
     "source": "nivea.gr",
@@ -10096,10 +10096,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Απλώστε τη λοσιόν σώματος σε ολόκληρο το σώμα.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε στα ξηρά σημεία της επιδερμίδας.",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Alcohol Denat., Glyceryl Stearate SE, Cetearyl Alcohol, Argania Spinosa Kernel Oil, Dimethicone, Carbomer, Sodium Cetearyl Sulfate, Sodium Hydroxide, Trisodium EDTA, Phenoxyethanol, Linalool, Geraniol, Citronellol, Limonene, Alpha-Isomethyl Ionone, Coumarin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7FC8BFCE6272A3D8EA446A8738756F3F&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7FC8BFCE6272A3D8EA446A8738756F3F&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/a/0/f/9124b726629d4438b49f595589f76c17-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=7FC8BFCE6272A3D8EA446A8738756F3F&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-body-rose-blossom-lotion-400ml-40059009806320044.html",
     "source": "nivea.gr",
@@ -10137,10 +10137,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Ιδανικά, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει τελείως.",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Ether, Butylene Glycol, Glyceryl Isostearate, Palmitamidopropyltrimonium Chloride, Laureth-7 Citrate, PEG-150 Distearate, Propylene Glycol, Tocopherol, Citric Acid, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Alpha-Isomethyl Ionone, Linalyl Acetate, Citronellol, Benzyl Alcohol, Rose Ketones, Hydrogenated Palm Glycerides Citrate, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66A5CBD2103BD2A697A14A25D7E4EA5A&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66A5CBD2103BD2A697A14A25D7E4EA5A&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/f/c/4/2/b8f5f5ed8fa84ec49340a5a0cbadf8be-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=66A5CBD2103BD2A697A14A25D7E4EA5A&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-black-and-white-authentic-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40060002609450044.html",
     "source": "nivea.gr",
@@ -10177,10 +10177,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε καθαρό πρόσωπο.\nΒήμα 2 – Προσοχή: Αποφύγετε την απευθείας επαφή με τα μάτια.\nΒήμα 3 – Για καλύτερα αποτελέσματα: ΕΝΙΣΧΥΣΤΕ ΤΗΝ ΑΝΤΥΡΥΤΙΔΙΚΗ ΣΑΣ ΡΟΥΤΙΝΑ Βήμα 1: Ορός Dual-Action Βήμα 2: Κρέμα Ματιών Energy Βήμα 3: Κρέμα Energy Βήμα 4: Στοχευμένος Ορός Wrinkle Filler",
       "Συστατικά": "INCI: Aqua, Glycerin, Ethylhexyl Salicylate, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Methylpropanediol, Butyl Methoxydibenzoylmethane, Caprylic/Capric Triglyceride, Glyceryl Stearate, Glyceryl Stearate Citrate, Hydroxypropyl Starch Phosphate, Butyrospermum Parkii Butter, Phenylbenzimidazole Sulfonic Acid, Ubiquinone, Sodium Ascorbyl Phosphate, Caffeine, Paullinia Cupana Seed Extract, Tocopheryl Acetate, Creatine, 1-Methylhydantoin-2-Imide, Panthenol, Maltodextrin, Pantolactone, Ethylhexylglycerin, Caprylyl Glycol, Xanthan Gum, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Trisodium EDTA, Citric Acid, Sodium Hydroxide, Phenoxyethanol, Parfum, CI 16035"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01FD7EE487670190AB4D23E264CDF2F4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01FD7EE487670190AB4D23E264CDF2F4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/6/a/6/16f6494438944d0786149d05050437db-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=01FD7EE487670190AB4D23E264CDF2F4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-q10-energy-%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b3%ce%b9%ce%b1-%ce%b1%ce%bd%ce%b1%cf%80%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%ce%bd%ce%ad%cf%81%ce%b3%ce%b5%ce%b9%ce%b1%cf%82-40059007772490044.html",
     "source": "nivea.gr",
@@ -10215,10 +10215,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε κάνοντας απαλό μασάζ στην επιδερμίδα\nΒήμα 2 – Αφαίρεση: Απομακρύνετε με ένα βαμβακερό δίσκο ντεμακιγιάζ ή με νερό.",
       "Συστατικά": "INCI: Aqua, Isopropyl Palmitate, Isopropyl Stearate, Glycerin, Glyceryl Stearate SE, Butyrospermum Parkii Butter, Cetyl Alcohol, Glyceryl Stearate, Argania Spinosa Kernel Oil, Sodium Hyaluronate, Xanthan Gum, Hydroxypropyl Starch Phosphate, Ethylhexylglycerin, Citric Acid, Sodium Cetearyl Sulfate, Hydroxyacetophenone, Phenoxyethanol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8EE352C74287A13AD444CC39AAD962F6&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8EE352C74287A13AD444CC39AAD962F6&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/7/0/f/4/0fbacbc981f94301bd2fb728dbac0a76-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=8EE352C74287A13AD444CC39AAD962F6&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/%cf%80%ce%b5%cf%81%ce%b9%cf%80%ce%bf%ce%b9%ce%b7%cf%84%ce%b9%ce%ba%cf%8c-%ce%b3%ce%b1%ce%bb%ce%ac%ce%ba%cf%84%cf%89%ce%bc%ce%b1-%ce%ba%ce%b1%ce%b8%ce%b1%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-200-ml-40058081940870044.html",
     "source": "nivea.gr",
@@ -10252,10 +10252,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Ο NIVEA MEN DEEP αφρός ξυρίσματος προετοιμάζει την επιδερμίδα για να προσφέρει άνετο ξύρισμα. Η καινοτόμος σύνδεσή του με Black Carbon δρα αποτελεσματικά κατά των βακτηρίων, προετοιμάζοντας την τρίχα και προστατεύοντας την επιδερμίδα κατά το ξύρισμα βοηθώντας το ξυράφι να γλυστράει . Για καλύτερα αποτελέσματα χρησιμοποιείστε το συνδυαστικά μετά το ξύρισμα με το NIVEA MEN DEEP After Shave Lotion με αντιβακτηριδιακή δράση και αρρενωπό dark wood άρωμα.",
       "Συστατικά": "INCI: CI 77266, Parfum, Limonene, Linalool, Piroctone Olamine, Propane, Butane, Potassium Hydroxide, Oleic Acid, Arachidic Acid, Myristic Acid, PEG-7M, Hydroxypropyl Methylcellulose, Coco-Caprylate/Caprate, Charcoal Powder, Glycerin, Stearic Acid, Palmitic Acid, Laureth-23, Triethanolamine, Isobutane, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00A27D4097BCE2DD1FA9A99A732519DB&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00A27D4097BCE2DD1FA9A99A732519DB&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/5/b/6/3afbbfc5a3d24af5857d0c8d737aea93-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=00A27D4097BCE2DD1FA9A99A732519DB&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-deep-%ce%b1%cf%86%cf%81%cf%8c%cf%82-%ce%be%cf%85%cf%81%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-40059004964470044.html",
     "source": "nivea.gr",
@@ -10290,10 +10290,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ανακινήστε: Ανακινήστε καλά πριν από τη χρήση.\nΒήμα 2 – Εφαρμόστε: Εφάρμοσε πρωί και βράδυ σε καθαρή επιδερμίδα.\nΒήμα 3 – Μασάζ: Εφαρμόστε στις παλάμες και κάντε μασάζ στην επιδερμίδα.\nΒήμα 4 – Προσοχή: Αποφύγετε την επαφή με τα μάτια.",
       "Συστατικά": "INCI: Aqua, Glycerin, Isopropyl Palmitate, Distarch Phosphate, Panthenol, Ceramide NP, Zinc PCA, Glyceryl Stearate Citrate, Glyceryl Stearate, Oryza Sativa Starch, Hydrogenated Coco-Glycerides, Xanthan Gum, Pantolactone, Citric Acid, Phenoxyethanol, Piroctone Olamine"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4BF16DDAF5E4CA2E87A96C62CB794D34&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4BF16DDAF5E4CA2E87A96C62CB794D34&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/1/7/4/b/1f9674738ac9449191bde3b11a195e46-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=4BF16DDAF5E4CA2E87A96C62CB794D34&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-%ce%ba%ce%b1%cf%84%ce%b1%cf%80%cf%81%ce%b1%cf%8b%ce%bd%cf%84%ce%b9%ce%ba%ce%ae-%ce%bb%ce%b5%cf%80%cf%84%cf%8c%cf%81%ce%b5%cf%85%cf%83%cf%84%ce%b7-%ce%b5%ce%bd%cf%85%ce%b4%ce%b1%cf%84%ce%b9%ce%ba%ce%ae-100ml-40060002501820044.html",
     "source": "nivea.gr",
@@ -10330,10 +10330,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Απλώστε μια πλούσια ποσότητα στην ξυρισμένη περιοχή αποφεύγοντας την περιοχή των ματιών\nΒήμα 2 – ΟΛΟΚΛΗΡΩΜΕΝΗ ΠΕΡΙΠΟΙΗΣΗ: Για καλύτερα αποτελέσματα χρησιμοποιήστε NIVEA® MEN Sensitive Cooling Gel ξυρίσματος",
       "Συστατικά": "INCI: Parfum, Citral, Geraniol, Limonene, Linalool, Trisodium EDTA, 1,2-Hexanediol, Phenoxyethanol, Benzophenone-4, Maltodextrin, Caprylic/Capric Triglyceride, Menthoxypropanediol, Fucus Vesiculosus Extract, Chamomilla Recutita Flower Extract, Tocopheryl Acetate, Panthenol, Glycerin, Dipropylene Glycol, PEG-40 Hydrogenated Castor Oil, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44E9B78E9F76A0EAE66F9533FD833A0C&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44E9B78E9F76A0EAE66F9533FD833A0C&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/d/4/2/d08a650028b740b394fb8e37da8060bb-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=44E9B78E9F76A0EAE66F9533FD833A0C&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-sensitive-cooling-after-shave-lotion-40059001421080044.html",
     "source": "nivea.gr",
@@ -10369,10 +10369,10 @@ window.NIVEA_OVERRIDES = {
       "Περιγραφή": "Νέα Cellular Epigenetics Rejuvenating Day Cream με SPF30, κλινικά αποδεδειγμένη ότι αντιστρέφει τα σημάδια γήρανσης μέσα σε 2 εβδομάδες στις βασικές ζώνες του προσώπου: μάγουλα, μέτωπο, γραμμές χαμόγελου και περίγραμμα γνάθου. 3 τύποι Υαλουρονικού Οξέος: Ενισχύουν την επιδερμίδα με επιπλέον ενυδάτωση που διαρκεί όλη την ημέρα. SPF30: Η πρόσθετη προστασία SPF30 UVA/UVB ενισχύει τις φυσικές άμυνες της επιδερμίδας και συμβάλλει στην πρόληψη της πρόωρης γήρανσης που προκαλείται από την ηλιακή ακτινοβολία. ¹ Κλινική μελέτη σε 54 γυναίκες, 2025. Το 93% παρουσίασε σημάδια αναζωογόνησης της επιδερμίδας. ² Αυτοαξιολόγηση από 54 γυναίκες, 2025. ³ Κλινική μελέτη σε 54 γυναίκες, 2025.",
       "Συστατικά": "INCI: Aqua, Glycerin, C12-15 Alkyl Benzoate, Methylpropanediol, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Butylene Glycol Dicaprylate/Dicaprate, Glyceryl Stearate, Dibutyl Adipate, Phenylbenzimidazole Sulfonic Acid, Behenyl Alcohol, Cetearyl Alcohol, Ethylhexyl Triazone, Origanum Majorana Leaf Extract, Sodium Hyaluronate, Sodium Acetylated Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Creatine, 1-Methylhydantoin-2-Imide, Folic Acid, Magnolia Officinalis Bark Extract, Sodium Stearoyl Glutamate, Ethylhexylglycerin, 1,2-Hexanediol, Maltodextrin, Pentylene Glycol, Tapioca Starch, Xanthan Gum, Trisodium EDTA, Sodium Hydroxide, Parfum, Phenoxyethanol"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png?db=web&ctx=GR&hash=BCBDF69CA4C1ED191E0264DA4F73BBB1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png?db=web&ctx=GR&hash=BCBDF69CA4C1ED191E0264DA4F73BBB1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png"
+      "https://assets.beiersdorf.com/-/media/images/5/2/4/e/1437fd9a23a549a59efa005a9e9ece3a-online_1180_png.png?db=web&ctx=GR&hash=BCBDF69CA4C1ED191E0264DA4F73BBB1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-cellular-epigenetics-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-spf30-50ml-90058004037480044.html",
     "source": "nivea.gr",
@@ -10408,10 +10408,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Οδηγίες: Ανακινήστε καλά πριν τη χρήση\nΒήμα 2 – Προσοχή: Αποφύγετε τον άμεσο ψεκασμό στο πρόσωπο/ Αποφύγετε την εισπνοή\nΒήμα 3 – Εφαρμογή: Εφαρμόστε αρκετή ποσότητα πριν από την έκθεση στον ήλιο και ανανεώνετε συχνά, ειδικά μετά το κολύμπι, την εφίδρωση και το σκούπισμα, για να διατηρήσετε την αρχική προστασία\nΒήμα 4 – Προσοχή: Η μείωση της ποσότητας θα μειώσει σημαντικά το επίπεδο προστασίας\nΒήμα 5 – Προσοχή: Μην εκτίθεστε για πολλή ώρα στον ήλιο, ακόμα και μετά τη χρήση αντηλιακού προϊόντος – Η υπερβολική έκθεση στον ήλιο αποτελεί σοβαρή απειλή για την υγεία\nΒήμα 6 – Προσοχή: Μην αφήνετε τα βρέφη και τα μικρά παιδιά να εκτίθενται άμεσα στην ηλιακή ακτινοβολία\nΒήμα 7 – Απορρόφηση: Επιτρέψτε την πλήρη απορρόφηση και αποφύγετε την άμεση επαφή με υφάσματα και σκληρές επιφάνειες για να αποφύγετε τους λεκέδες\nΒήμα 8 – Συμβατότητα: Συμβατότητα με την επιδερμίδα δερματολογικά ελεγμένη",
       "Συστατικά": "INCI: Aqua, Alcohol Denat., Isopropyl Palmitate, Glycerin, Ethylhexyl Salicylate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Dibutyl Adipate, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Triazone, Glyceryl Stearate, Phenylbenzimidazole Sulfonic Acid, Sodium Hyaluronate, Microcrystalline Cellulose, Copernicia Cerifera Cera, Hydrogenated Rapeseed Oil, Cetyl Palmitate, Sodium Stearoyl Glutamate, Tocopheryl Acetate, Xanthan Gum, Cellulose Gum, Sodium Hydroxide, Caprylyl Glycol, Trisodium EDTA, Phenoxyethanol, Linalool, Benzyl Alcohol, Linalyl Acetate, Alpha-Isomethyl Ionone, Citronellol, Vanillin, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=57982406D7A08182F42BD2D2E049E1E1&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=57982406D7A08182F42BD2D2E049E1E1&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/a/9/a/6/bf5d7ef60c8043c2b007f19a19dd6cf8-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=57982406D7A08182F42BD2D2E049E1E1&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-sun--protect-and-moisture-spray-spf-30%2c-200ml-40058088540280044.html",
     "source": "nivea.gr",
@@ -10448,10 +10448,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Εφαρμόστε καθημερινά σε πρόσωπο, χέρια & σώμα, κάνοντας απαλο μασάζ",
       "Συστατικά": "INCI: Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol, Paraffin, Panthenol, Magnesium Sulfate, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, Magnesium Stearate, Limonene, Geraniol, Hydroxycitronellal, Linalool, Citronellol, Benzyl Benzoate, Cinnamyl Alcohol, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=97CDC9220ADE643EFB1263E6472F3D53&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=97CDC9220ADE643EFB1263E6472F3D53&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/2/a/8/6/fedadb4cce6b40adaeeb64120127db91-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=97CDC9220ADE643EFB1263E6472F3D53&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-creme-75ml-40059009480070044.html",
     "source": "nivea.gr",
@@ -10489,10 +10489,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΝΤΟΥΣ: Κάνετε ντους και βρέξτε καλά την επιδερμίδα σας\nΒήμα 2 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε και κάνετε απαλό μασάζ σε όλο το σώμα, στο πρόσωπο και στα μαλλιά\nΒήμα 3 – ΜΠΑΝΙΟ: Ξεπλύνετε καλά το αφρόλουτρο από πάνω σας πριν σκουπιστείτε με πετσέτα",
       "Συστατικά": "INCI: Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Decyl Glucoside, Sodium Chloride, Calcium Chloride, Glycerin, Citric Acid, Sodium Sulfate, Sodium Benzoate, Parfum, CI 42090"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C2527C14CD5E35A964613B5BAD76D51&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C2527C14CD5E35A964613B5BAD76D51&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/0/a/1/1/ff076d7f5c7d45299a860d9491b3d6ef-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=5C2527C14CD5E35A964613B5BAD76D51&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-%ce%bd%cf%84%ce%bf%cf%85%cf%82-gel-sport-40060000322520044.html",
     "source": "nivea.gr",
@@ -10529,10 +10529,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Εφαρμογή: Καθημερινά σε Πρόσωπο, Σώμα & Χέρια",
       "Συστατικά": "INCI: Aqua, Glycerin, Urea, Caprylic/Capric Triglyceride, Behenyl Alcohol, Sodium Lactate, Butyrospermum Parkii Butter, Glyceryl Stearate Citrate, Isopropyl Palmitate, Helianthus Annuus Hybrid Oil, Coco-Caprylate/Caprate, Glyceryl Stearate, Hydroxypropyl Starch Phosphate, Panthenol, Pantolactone, Caprylyl Glycol, Lecithin, Lactic Acid, Xanthan Gum, Citric Acid, Piroctone Olamine, Trisodium EDTA, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E8433BFAB0B844DA6E403AC3CF061C8B&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E8433BFAB0B844DA6E403AC3CF061C8B&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/c/8/9/8/b864ea6dd9294625bbd3dac0387abf25-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=E8433BFAB0B844DA6E403AC3CF061C8B&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-repair-and-care--cream-%ce%bc%ce%b5-urea-400ml-40060001274460044.html",
     "source": "nivea.gr",
@@ -10566,10 +10566,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – ΕΦΑΡΜΟΓΗ: Εφαρμόστε ομοιόμορφα και αφήστε το να στεγνώσει πριν ντυθείτε.\nΒήμα 2 – ΧΡΗΣΗ: Μην εφαρμόζετε σε πληγωμένη ή ερεθισμένη επιδερμίδα.",
       "Συστατικά": "INCI: Geraniol, Limonene, Linalool, PEG-150 Distearate, Propylene Glycol, Palmitamidopropyltrimonium Chloride, Parfum, Laureth-7 Citrate, Glyceryl Isostearate, Butylene Glycol, Paraffinum Liquidum, Isoceteth-20, Aluminum Chlorohydrate, Aqua"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2A5B0BE36712631FD509490E206354E4&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2A5B0BE36712631FD509490E206354E4&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/6/3/1/1/276600-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=2A5B0BE36712631FD509490E206354E4&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-men-invisible-for-black-and-white-40059003886740044.html",
     "source": "nivea.gr",
@@ -10604,10 +10604,10 @@ window.NIVEA_OVERRIDES = {
       "Χρήση": "Βήμα 1 – Ντους: Καλύτερα, χρησιμοποιήστε το αντιιδρωτικό μετά το ντους.\nΒήμα 2 – Εφαρμογή: Εφαρμόστε το προϊόν\nΒήμα 3 – Στέγνωμα: Αφήστε το προϊόν να στεγνώσει εντελώς πριν ντυθείτε",
       "Συστατικά": "INCI: Aqua, Aluminum Chlorohydrate, PPG-15 Stearyl Ether, Steareth-2, Steareth-21, Kaolin, Persea Gratissima Oil, Tocopherol, Trisodium EDTA, Geraniol, Linalool, Alpha-Isomethyl Ionone, Benzyl Alcohol, Limonene, Parfum"
     },
-    "image": "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png",
-    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png",
+    "image": "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9BC172095C20A724A5CAF12247CC60CD&mw=1180",
+    "imageFallback": "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9BC172095C20A724A5CAF12247CC60CD&mw=1180",
     "images": [
-      "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png"
+      "https://assets.beiersdorf.com/-/media/images/e/7/1/9/375d2ab86cdc416c8ccbf2ced122b595-web_1010x1180_transparent_png.png?db=web&ctx=GR&hash=9BC172095C20A724A5CAF12247CC60CD&mw=1180"
     ],
     "url": "https://www.nivea.gr/products/nivea-deo-powder-touch-roll-on-%ce%b3%cf%85%ce%bd%ce%b1%ce%b9%ce%ba%ce%b5%ce%af%ce%bf-50ml-40059003887730044.html",
     "source": "nivea.gr",
