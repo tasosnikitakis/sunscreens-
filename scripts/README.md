@@ -132,7 +132,11 @@ assets.apivita.com δίνουν 403 στο fetch → `sync-brand-images.mjs --br
 `scripts/lib-vichy.mjs` (Vichy, L'Oréal/Sitecore με άλλο theme από LRP: JSON-LD Product + accordions +
 επιλογέας μεγεθών/αποχρώσεων). `scripts/lib-beiersdorf.mjs` (Beiersdorf NiveaX/Sitecore: liposan.gr και
 μελλοντικά nivea.gr, eucerin.gr, hansaplast — EAN από τα 13 πρώτα ψηφία του article id στο URL,
-εικόνες img.nivea.com, κάθε μέγεθος/έκδοση έχει δική της σελίδα).
+εικόνες img.nivea.com, κάθε μέγεθος/έκδοση έχει δική της σελίδα). Ο ίδιος extractor αναγνωρίζει
+αυτόματα και τα άλλα δύο templates της Beiersdorf: nivea.gr (React/Tailwind, JSON-LD Product +
+accordions, εικόνες assets.beiersdorf.com με υποχρεωτικό hash στο URL) και hansaplast.gr / eucerin.gr
+(«cookpit», Next.js RSC payload με JSON-LD Product, NART, benefits· χωρίς sitemap → `listPages` στο
+scrape-brand για συλλογή συνδέσμων από σελίδες κατηγοριών).
 
 Σε cloud session (proxy) τα scripts που βγαίνουν στο internet θέλουν
 `NODE_USE_ENV_PROXY=1` μπροστά (Node fetch).

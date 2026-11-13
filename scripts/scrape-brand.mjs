@@ -120,7 +120,7 @@ const BRANDS = {
     // Hansaplast (Beiersdorf, template «cookpit»/Eucerin, χωρίς sitemap): προϊόντα = /products/<κατηγορία>/<slug>
     host: "hansaplast.gr",
     listPages: ["https://www.hansaplast.gr/products", "https://www.hansaplast.gr/products/%CF%80%CE%B5%CF%81%CE%B9%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7-%CF%80%CE%BB%CE%B7%CE%B3%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CE%BC%CE%B1-%CF%80%CE%BB%CE%B7%CE%B3%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%B9%CE%B8%CE%AD%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%BF%CE%B4%CE%B9%CF%8E%CE%BD", "https://www.hansaplast.gr/products/%CE%B5%CF%80%CE%AF%CE%B4%CE%B5%CF%83%CE%BC%CE%BF%CE%B9-%CF%83%CF%84%CE%B7%CF%81%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1"],
-    only: /^https:\/\/www\.hansaplast\.gr\/products\/[a-z0-9-]+\/[a-z0-9-]+\/?$/i,
+    only: /^https:\/\/www\.hansaplast\.gr\/products\/[a-z0-9-]+\/[^\/]+\/?$/i,     // slugs και με ελληνικά/κόμματα/παρενθέσεις
     skip: /\/(articles|about-hansaplast|instant-help|pages|sitecore|components)(\/|$)/i,
     prefer: /\/products\//i,
     toLocalUrl: u => u,

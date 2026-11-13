@@ -301,6 +301,7 @@ export function extractBeiersdorfV3Details(html, url) {
   const sizeTxt = oneLine((html.match(/class="size-value[^"]*"[^>]*>([^<]*)</i) || [])[1] || "");
   if (/\d\s?(ml|g|gr|l|cm|m|τεμ|τμχ|strips|pieces|units)\b/i.test(sizeTxt)) d.size = /\d\s?(ml|g|gr|l)\b/i.test(sizeTxt) ? sizeNorm(sizeTxt.match(/\d+(?:[.,]\d+)?\s?(?:ml|g|gr|l)\b/i)[0]) : sizeTxt;
   else if (sizeTxt) d.size = sizeTxt;
+  if (d.size) d.size = d.size.replace(/^(\d+)\s*ST$/i, "$1 τεμ.");   // "20 ST" (Stück) → τεμάχια
   d.variants = d.gtin && /^\d+$/.test(d.gtin) ? [{ ean: d.gtin, size: d.size || null }] : [];
   d.sizes = d.size ? [d.size] : [];
   if (d.size) d.attributes["Μέγεθος"] = d.size;

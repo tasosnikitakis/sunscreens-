@@ -47,7 +47,7 @@ const LINE_RULES = [
   ["feet",      /feet|foot|blister|corn|callus|φουσκάλ|κάλο|πόδι|ποδιών|πελμ|hallux|dry-feet|smelly/i],
   ["supports",  /support|stabilizer|brace|επίδεσμος στήριξης|στήριγμ|νάρθηκ|επιγονατίδ|περικάρπι|επιαγκωνίδ|αγκών|γόνατ|καρπ|αστράγαλ|back support|ζώνη/i],
   ["advanced",  /second-skin|scar|hydrocolloid|post-op|μετεγχειρητικ|ουλ|silicone|υδροκολλοειδ|wound-healing|επούλωσ|med-/i],
-  ["wound",     /wound-cleansing|wound-care|wound-spray|wound-healing|σπρέι πληγών|κρέμα πληγών|καθαρισμός πληγών|πληγ|αντισηπτικ|spray|cream|κρέμα/i],
+  ["wound",     /wound-cleansing|wound-care|wound-spray|wound-healing|σπρέι (?:καθαρισμού )?πληγών|κρέμα πληγών|κρέμα επούλωσης|καθαρισμός πληγών|αντισηπτικ|liquid plaster|spray plaster/i],
   ["firstaid",  /first-aid|fixation|tape|bandage|gauze|ταινί|γάζ|επίδεσμ|στερέωσ|compress|τραυμα|πρώτες βοήθειες/i],
   ["plasters",  /plaster|επίθεμ|strips|universal|sensitive|aqua[- ]protect|elastic|kids|junior|flexible|robust|classic|ultra|finger|dedos|δάκτυλ|xl|xxl/i]
 ];
