@@ -189,7 +189,7 @@ async function main() {
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
       const slug = chosen.url.split("/p/")[1] || chosen.url;
       overrides[p.barcode] = {
-        name: cleanSiteName(siteProductName(d, chosen.name)),
+        name: cleanSiteName(siteProductName(d, chosen.name)) + ((d.variants || []).length > 1 && variant && variant.size && !cleanSiteName(siteProductName(d, chosen.name)).toLowerCase().includes(String(variant.size).toLowerCase()) ? ` ${variant.size}` : ""),   // σελίδα με πολλά μεγέθη/αποχρώσεις → το μέγεθος/απόχρωση στο όνομα
         subtitle: d.subtitle || chosen.subtitle || d.shortDescription || null,
         description: description || d.shortDescription || null,
         claims, highlights, attributes, sections,

@@ -72,7 +72,12 @@ export function extractVichyDetails(html, url) {
   const slugLine = Object.keys(LINES).find(k => slugL.startsWith(k + "-"));
   if ((!d.line || /^(ΝΕΟ|NEW|D[ée]odorant|Deodorant)$/i.test(d.line)) && slugLine) d.line = LINES[slugLine];
   if (d.line && /^D[ée]odorant$/i.test(d.line)) d.line = "Deo";
-  if (d.fullTitle && d.line && !d.fullTitle.toLowerCase().includes(d.line.toLowerCase().replace(/^vichy\s+/, ""))) d.fullTitle = `${d.line} ${d.fullTitle}`;
+  // Ενιαία ονόματα σειρών (το site γράφει πότε «Purete Thermale» πότε «Pureté Thermale», «Mineral 89»/«Minéral 89»)
+  const CANON = { "purete thermale": "Pureté Thermale", "mineral 89": "Minéral 89", "vichy homme": "Homme", "eau thermale": "Eau Thermale", "ideal soleil": "Idéal Soleil", "slow age": "Slow Âge" };
+  const strip = x => String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  if (d.line && CANON[strip(d.line)]) d.line = CANON[strip(d.line)];
+  if (d.fullTitle) d.fullTitle = d.fullTitle.replace(/^D[ée]odorant\s+/i, "Deo ").replace(/^Purete Thermale\b/i, "Pureté Thermale").replace(/^Mineral 89\b/i, "Minéral 89").replace(/^Vichy Homme\b/i, "Homme");
+  if (d.fullTitle && d.line && !strip(d.fullTitle).includes(strip(d.line).replace(/^vichy\s+/, ""))) d.fullTitle = `${d.line} ${d.fullTitle}`;
   if (!d.fullTitle) d.fullTitle = d.line && d.title && !d.title.toLowerCase().startsWith(d.line.toLowerCase()) ? `${d.line} ${d.title}` : d.title;
   d.fullTitle = (d.fullTitle || "").replace(/\bSpf\b/g, "SPF").replace(/\bUv\b/g, "UV");
 
@@ -91,13 +96,16 @@ export function extractVichyDetails(html, url) {
   if (Array.isArray(opts)) for (const o of opts) {
     const ean = String(o.ean || "").replace(/\D/g, "").replace(/^0(?=\d{13}$)/, "");
     if (!ean) continue;
-    const sz = o.description ? sizeNorm(o.description) : null;
+    // μέγεθος («200 ml») ή απόχρωση μακιγιάζ («15 Opal») — η απόχρωση μένει όπως είναι
+    const desc = oneLine(o.description || "");
+    const sz = desc ? (/\d\s?(ml|g|gr|l)\b/i.test(desc) ? sizeNorm(desc) : desc) : null;
     const v = d.variants.find(x => x.ean === ean);
     if (v) { if (!v.size && sz) v.size = sz; } else d.variants.push({ ean, size: sz });
   }
   const defOpt = (html.match(/\sdefault-option="([^"]+)"/) || [])[1];
   const media = attrJson(html, "variant-media-items") || {};
-  for (const ean of Object.keys(media)) if (/^\d{8,14}$/.test(ean) && !d.variants.some(v => v.ean === ean)) d.variants.push({ ean, size: null });
+  // EAN μόνο στο media gallery (όχι στον επιλογέα): παραλλαγές που δεν προσφέρονται — μόνο αν δεν υπάρχει καμία άλλη
+  if (!d.variants.length) for (const ean of Object.keys(media)) if (/^\d{8,14}$/.test(ean)) d.variants.push({ ean, size: null });
   const ldG = String(prod.gtin13 || prod.sku || "").replace(/\D/g, "");
   const dataEan = (html.match(/data-ean="(\d{8,14})"/) || [])[1];
   d.gtin = (dataEan || ldG || (d.variants[0] || {}).ean || "").replace(/^0(?=\d{13}$)/, "") || null;
