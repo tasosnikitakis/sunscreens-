@@ -1,5 +1,5 @@
 {
-  "_comment": "Κανόνες αποκλεισμού ονομάτων για τον κατάλογο Korres. Το gr.korres.com (Shopify) εκθέτει στο products.json και δώρα/web-promo (Welcome Gift, Mystery Box, ΔΩΡΟ με αγορές άνω των…, πουγκιά/νεσεσέρ, προϊόν 'test1'). Διαβάζεται από το build-brand-supplier.mjs για τιμοκατάλογο ΚΑΙ προϊόντα του site (pattern = JavaScript RegExp, flags προεπιλογή i).",
+  "_comment": "Κανόνες αποκλεισμού ονομάτων για τον κατάλογο Korres. Το gr.korres.com (Shopify) εκθέτει στο products.json και δώρα/web-promo (Welcome Gift, Mystery Box, ΔΩΡΟ με αγορές άνω των…, πουγκιά/νεσεσέρ, προϊόν 'test1'). Διαβάζεται από το build-brand-supplier.mjs για τιμοκατάλογο ΚΑΙ προϊόντα του site (pattern = JavaScript RegExp, flags προεπιλογή i). Από 2026-11-13 εκτός και όλα τα σετ δώρου/promo (απόφαση ιδιοκτήτη): tags GIFT SETS/PROMOS (set-flag στο build) + κανόνες ονόματος.",
   "rules": [
     {
       "name": "web-gift",
@@ -12,14 +12,15 @@
       "reason": "Πουγκί / νεσεσέρ / τσάντα"
     },
     {
-      "name": "web-promo-1plus1",
-      "pattern": "αφρόλουτρο\\s+250ml\\s+σετ$|\\bσετ\\s+σαμπουάν\\b|υγρό\\s+σαπούνι\\s+ευαίσθητης\\s+περιοχής\\s+σετ$",
-      "reason": "Web promo 1+1 (PROMOS) του e-shop"
-    },
-    {
       "name": "test",
       "pattern": "^test\\d*$",
       "reason": "Δοκιμαστική εγγραφή του e-shop"
+    },
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(σετ|set|kit|ritual|essentials|routine|expert duo|eyes duo|advent calendar|duo)([^\\p{L}]|$)|&\\s*toy\\b|\\+\\s*καπέλο|σε\\s+ειδική\\s+τιμή|\\b\\d\\s*\\+\\s*\\d\\b|baby's first walk",
+      "flags": "iu",
+      "reason": "Σετ δώρου / promo πακέτο — ο κατάλογος κρατά μόνο βασικά προϊόντα"
     }
   ]
 }
