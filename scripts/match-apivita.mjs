@@ -44,7 +44,7 @@ const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 // slug της σελίδας (λατινική μεταγραφή) + το όνομα supplier/σελίδας + breadcrumb.
 const LINE_RULES = [
   // Από τις κατηγορίες (url_path) του apivita.com/hellas, τη σειρά (product_line) και το όνομα. Στενές κατηγορίες πρώτα.
-  ["set",        /prosfores-dora|\bset\b|\bΣετ\b|ΣΕΤ|gift|δώρο|Δώρου|travel kit|Συλλογή/i],
+  ["set",        /\bset\b|\bΣετ\b|ΣΕΤ|gift|δώρο|Δώρου|travel kit|Συλλογή|Ρουτίνα|Routine|\bDuo\b|Πρόγραμμα|Ειδική Τιμή|2\+1|1\+1/i],
   ["antiliaka",  /antiliaka|suncare|bee sun safe|after sun|\bSPF ?\d|Αντηλιακ|Μαυρίσματος|αυτομαυρίσματος|self tan/i],
   ["paidika",    /paidik|vrefik|baby|kids|Βρεφικ|Παιδικ|babies|\bbaby\b/i],
   ["andras",     /andriki|andras|\bmen\b|Ξύρισμ|ξυρίσμ|aftershave|after shave|Ανδρικ/i],
@@ -201,7 +201,8 @@ async function main() {
         images: d.images || null,
         url: chosen.url,
         source: "apivita.com/hellas",
-        section: lineOf(d.category, d.line, chosen.name, d.fullTitle, p.name, slug),
+        section: (d.isSet || d.size === "prepacked_set") ? "set"
+          : lineOf((d.categories || []).map(c => c.path).filter(x => !/^(prosfores-dora|free-samples|best-sellers|the-blue-collection|honey-collection|bradini-routina|hair-care)/.test(x)).join(" | "), d.line, chosen.name, d.fullTitle, p.name, slug),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"
@@ -225,6 +226,23 @@ async function main() {
   if (secChanged) {
     const sb = `// Auto-generated (scripts/fill-brand-missing.mjs + match-${BRAND}.mjs).\n// Pharmacy-based συμπλήρωμα για barcodes χωρίς σελίδα στο brand site· section = ενότητα από το όνομα supplier.\n// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).\n`;
     await fs.writeFile(SUPPLEMENTAL_FILE, sb + `window.${BRAND.toUpperCase()}_SUPPLEMENTAL = ` + JSON.stringify(supplemental, null, 2) + ";\n", "utf8");
+  }
+  // Ίδιο όνομα σε περισσότερα προϊόντα (Apivita: «Αφρόλουτρο με Αιθέρια Έλαια Ecopack 500ml» ×4 αρώματα,
+  // «Θυμαρίσιο Μέλι» ×2 μεγέθη): διακρίνουμε με μέγεθος ή κύρια δραστικά συστατικά.
+  {
+    const byName = {};
+    for (const [bc, v] of Object.entries(overrides)) (byName[v.name] = byName[v.name] || []).push(bc);
+    for (const bcs of Object.values(byName)) {
+      if (bcs.length < 2) continue;
+      const sizes = new Set(bcs.map(bc => (overrides[bc].attributes || {})["Μέγεθος"] || (overrides[bc].attributes || {})["Συσκευασία"] || ""));
+      const acts = new Set(bcs.map(bc => (overrides[bc].attributes || {})["Κύρια δραστικά συστατικά"] || ""));
+      for (const bc of bcs) {
+        const a = overrides[bc].attributes || {};
+        const size = a["Μέγεθος"] || a["Συσκευασία"] || "", act = a["Κύρια δραστικά συστατικά"] || "";
+        if (sizes.size > 1 && size && !overrides[bc].name.includes(size)) overrides[bc].name += ` ${size}`;
+        else if (acts.size > 1 && act) overrides[bc].name += ` – ${act.split(",")[0].trim()}`;
+      }
+    }
   }
   const banner = `// Auto-generated από το scripts/match-${BRAND}.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.\n`
     + `// Πηγή: apivita.com/hellas (js/${BRAND}-site.json). Διορθώσεις match → js/${BRAND}-manual-matches.json.\n`

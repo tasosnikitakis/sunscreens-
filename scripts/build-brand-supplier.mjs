@@ -185,6 +185,8 @@ async function main() {
       // Σελίδες χωρίς τιμή πώλησης στο site (Shopify: όλες οι παραλλαγές price 0 = δώρα, promo,
       // κρυφές/παλιές σελίδες) δεν μπαίνουν ως «νέα» προϊόντα. Ισχύει μόνο όταν το site δίνει τιμές.
       if (allVars.length && allVars.every(v => typeof v.price === "number") && !allVars.some(v => v.price > 0)) { unpriced++; continue; }
+      // Δωρεάν δείγματα / δώρα με αγορές (Apivita: attribute is_free) — δεν είναι προϊόντα προς πώληση
+      if (sp.details && sp.details.isFree) { unpriced++; continue; }
       const ex = excludedBy(name);
       if (ex) { siteExcluded.push({ name, rule: ex.name }); continue; }
       // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):

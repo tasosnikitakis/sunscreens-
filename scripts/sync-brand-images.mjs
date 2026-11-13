@@ -44,9 +44,38 @@ export function looksLikeImage(buf) {
   return head.startsWith("<?xml") || head.startsWith("<svg");
 }
 
+// --browser: λήψη μέσω headless Chromium (Playwright) με νέο context ανά εικόνα — για CDN πίσω από Cloudflare
+// (assets.apivita.com) που δίνουν 403 στο απλό fetch αλλά 200 σε πλοήγηση browser. Το playwright είναι global (NODE_PATH).
+const USE_BROWSER = process.argv.includes("--browser");
+let browserP = null;
+async function browserFetch(url) {
+  if (!browserP) {
+    const { createRequire } = await import("node:module");
+    const { chromium } = createRequire(import.meta.url)("playwright");
+    const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
+    browserP = chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--no-sandbox"], proxy: proxy ? { server: proxy } : undefined });
+  }
+  const b = await browserP;
+  const ctx = await b.newContext({ ignoreHTTPSErrors: true, userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" });
+  try {
+    const page = await ctx.newPage();
+    const res = await page.goto(url, { waitUntil: "load", timeout: 60000 });
+    if (!res || res.status() !== 200) throw new Error(`HTTP ${res ? res.status() : "?"}`);
+    const buf = Buffer.from(await res.body());
+    return { buf, contentType: res.headers()["content-type"] || "" };
+  } finally { await ctx.close(); }
+}
+export async function closeBrowser() { if (browserP) { const b = await browserP; await b.close(); browserP = null; } }
+
 export async function fetchBuf(url, referer) {
   // URL/Referer με μη-ASCII χαρακτήρες (ελληνικά ονόματα αρχείων, ™ στο Shopify) → percent-encoding, αλλιώς ByteString error
   const enc = u => { try { return new URL(u).href; } catch { return encodeURI(u); } };
+  if (USE_BROWSER) {
+    const r = await browserFetch(enc(url));
+    if (r.buf.length < 1500) throw new Error("image too small (blocked?)");
+    if (!looksLikeImage(r.buf)) throw new Error("not an image (HTML returned)");
+    return r;
+  }
   const res = await fetch(enc(url), { headers: { "User-Agent": UA, "Accept": "image/*,*/*;q=0.8", "Referer": enc(referer || "https://www.google.com/") }, redirect: "follow" });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
@@ -93,7 +122,7 @@ export async function loadBrand(key) {
 }
 
 async function main() {
-  if (!BRAND) { console.error("Usage: node scripts/sync-brand-images.mjs --brand=<key> [--force] [--barcode=…]"); process.exit(1); }
+  if (!BRAND) { console.error("Usage: node scripts/sync-brand-images.mjs --brand=<key> [--force] [--barcode=…] [--browser]"); process.exit(1); }
   const { cfg, supplier, overrides } = await loadBrand(BRAND);
   const manifest = await loadManifest();
   const dir = cfg.imageDir;
@@ -151,6 +180,7 @@ async function main() {
     await sleep(DELAY_MS);
   }
   await saveManifest(manifest);
+  await closeBrowser();
   console.log(`\nDone. synced=${ok}  skipped=${skip}  failed=${fail}.`);
 }
 
