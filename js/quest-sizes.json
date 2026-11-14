@@ -1,9 +1,21 @@
 {
- "_comment": "Μεγέθη συσκευασίας Quest που κυκλοφορούν στην Ελλάδα (από τον τιμοκατάλογο Medica) ανά σελίδα του qnutrapharma.com — το site δεν δίνει μέγεθος. Σελίδα με >1 μέγεθος → variants (QV-<slug>V<πλήθος>). Παράγεται από scratch quest-apply.mjs.",
+ "_comment": "Μεγέθη συσκευασίας Quest που κυκλοφορούν στην Ελλάδα (από τον τιμοκατάλογο Medica) ανά σελίδα του douni.gr — το site δεν δίνει μέγεθος. Σελίδα με >1 μέγεθος → variants (QV-<slug>V<πλήθος>). Παράγεται από scratch quest-apply.mjs.",
  "acidophilus-plus": [
   {
    "count": 60,
    "size": "60 κάψουλες"
+  }
+ ],
+ "acidophilus-plus-biotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "agnus-castus-71mg-extract": [
+  {
+   "count": 90,
+   "size": "90 δισκία"
   }
  ],
  "bio-c-complex": [
@@ -22,16 +34,10 @@
    "size": "30 δισκία"
   }
  ],
- "cholesterolbiotix": [
+ "cholesterol-biotix": [
   {
    "count": 30,
    "size": "30 κάψουλες"
-  }
- ],
- "coenzyme-q10-150mg": [
-  {
-   "count": 30,
-   "size": "30 δισκία"
   }
  ],
  "coenzyme-q10-30mg": [
@@ -46,7 +52,7 @@
    "size": "30 κάψουλες"
   }
  ],
- "echinacea-propolis-effervescent": [
+ "echinacea-propolis": [
   {
    "count": 20,
    "size": "20 δισκία"
@@ -58,13 +64,7 @@
    "size": "90 δισκία"
   }
  ],
- "equigluco": [
-  {
-   "count": 30,
-   "size": "30 δισκία"
-  }
- ],
- "evening-primrose-oil-1000mg": [
+ "evening-primrose-1000mg": [
   {
    "count": 30,
    "size": "30 κάψουλες"
@@ -74,25 +74,7 @@
    "size": "90 κάψουλες"
   }
  ],
- "flavanon-4": [
-  {
-   "count": 30,
-   "size": "30 δισκία"
-  }
- ],
- "folic-acid-400mcg": [
-  {
-   "count": 90,
-   "size": "90 δισκία"
-  }
- ],
- "forte-d-4000": [
-  {
-   "count": 60,
-   "size": "60 δισκία"
-  }
- ],
- "ginkgo-biloba-150mg": [
+ "ginkgo-biloba-150mg-extract": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -102,7 +84,7 @@
    "size": "60 δισκία"
   }
  ],
- "immune-system-biotix": [
+ "immune-biotix": [
   {
    "count": 30,
    "size": "30 κάψουλες"
@@ -114,7 +96,7 @@
    "size": "30 δισκία"
   }
  ],
- "kyolic-600": [
+ "kyolic-garlic-600": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -130,13 +112,7 @@
    "size": "30 δισκία"
   }
  ],
- "l-lysine-500mg": [
-  {
-   "count": 60,
-   "size": "60 δισκία"
-  }
- ],
- "mega8biotix": [
+ "mega-8-biotix": [
   {
    "count": 30,
    "size": "30 κάψουλες"
@@ -168,7 +144,7 @@
    "size": "30 δισκία"
   }
  ],
- "milk-thistle-150mg": [
+ "milk-thistle-150mg-extract": [
   {
    "count": 60,
    "size": "60 δισκία"
@@ -184,19 +160,13 @@
    "size": "60 δισκία"
   }
  ],
- "multimineral-10": [
-  {
-   "count": 60,
-   "size": "60 δισκία"
-  }
- ],
- "omega-3-fish-oil-1000mg": [
+ "omega-3-1000mg": [
   {
    "count": 90,
    "size": "90 κάψουλες"
   }
  ],
- "once-a-day": [
+ "once-a-day-quick-release": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -204,6 +174,12 @@
   {
    "count": 90,
    "size": "90 δισκία"
+  }
+ ],
+ "osteo-q-life": [
+  {
+   "count": 60,
+   "size": "60 δισκία"
   }
  ],
  "pregnall-bio-grow": [
@@ -212,38 +188,38 @@
    "size": "30 δισκία"
   }
  ],
- "saw-palmetto-36mg": [
+ "probiotix": [
   {
-   "count": 90,
-   "size": "90 δισκία"
+   "count": 15,
+   "size": "15 κάψουλες"
   }
  ],
- "super-omega-3-6-9": [
+ "probiotix-gold": [
+  {
+   "count": 15,
+   "size": "15 κάψουλες"
+  },
   {
    "count": 30,
    "size": "30 κάψουλες"
   }
  ],
- "super-once-a-day": [
+ "rhodiola-250mg-extract": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "super-once-a-day-timed-release": [
   {
    "count": 60,
    "size": "60 δισκία"
   }
  ],
- "synergistic-calcium": [
+ "synergistic-calcium-1000mg": [
   {
    "count": 45,
    "size": "45 δισκία"
-  }
- ],
- "synergistic-cal-mag": [
-  {
-   "count": 30,
-   "size": "30 δισκία"
-  },
-  {
-   "count": 90,
-   "size": "90 δισκία"
   }
  ],
  "synergistic-iron-15mg": [
@@ -252,7 +228,7 @@
    "size": "30 δισκία"
   }
  ],
- "synergistic-selenium-200%ce%bcg": [
+ "synergistic-selenium-200mg": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -278,31 +254,13 @@
    "size": "30 κάψουλες"
   }
  ],
- "turmeric-15000": [
-  {
-   "count": 30,
-   "size": "30 δισκία"
-  }
- ],
  "ubiquinol-qu10": [
   {
    "count": 30,
    "size": "30 δισκία"
   }
  ],
- "vitamin-b12-500mcg": [
-  {
-   "count": 60,
-   "size": "60 δισκία"
-  }
- ],
- "vitamin-b6-50mg": [
-  {
-   "count": 60,
-   "size": "60 δισκία"
-  }
- ],
- "vitamin-c-1000mg": [
+ "vitamin-c-1000mg-timed-release": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -312,19 +270,19 @@
    "size": "60 δισκία"
   }
  ],
- "effervescent-vitamin-c": [
+ "vitamin-c-1000mg": [
   {
    "count": 20,
    "size": "20 αναβράζοντα δισκία"
   }
  ],
- "vitamin-d3-2500i-u": [
+ "vitamin-d3-2500": [
   {
    "count": 120,
    "size": "120 δισκία"
   }
  ],
- "vitamin-e-400i-u": [
+ "vitamin-e-400iu": [
   {
    "count": 30,
    "size": "30 δισκία"
@@ -334,7 +292,7 @@
    "size": "60 κάψουλες"
   }
  ],
- "sea-buckthorn-oil": [
+ "ippofaes-500mg": [
   {
    "count": 60,
    "size": "60 κάψουλες"

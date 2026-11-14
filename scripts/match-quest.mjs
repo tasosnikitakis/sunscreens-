@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // scripts/match-quest.mjs
 // Ταιριάζει κάθε προϊόν του supplier (js/quest-supplier.js) με τη σελίδα του
-// στο qnutrapharma.com (js/quest-site.json). Ίδιο workflow με Frezyderm/Lamberts:
+// στο douni.gr (js/quest-site.json). Ίδιο workflow με Frezyderm/Lamberts:
 //   1. js/quest-manual-matches.json (barcode → url, ή null = "δεν έχει σελίδα")
 //   2. GTIN από το JSON-LD της σελίδας (ακριβές)
 //   3. Fuzzy (scripts/lib-match.mjs) — αν ο supplier έχει γαλλικά ονόματα η
@@ -43,7 +43,7 @@ const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 // Σειρά προϊόντος → ενότητα καταλόγου (js/quest-sections.js). Κρίνεται από το
 // slug της σελίδας (λατινική μεταγραφή) + το όνομα supplier/σελίδας + breadcrumb.
 const LINE_RULES = [
-  // Σειρά = κατηγορία «Brands › …» του qnutrapharma.com, μετά κατηγορία/όνομα. Στενές πρώτα.
+  // Σειρά = κατηγορία «Brands › …» του douni.gr, μετά κατηγορία/όνομα. Στενές πρώτα.
   ["kids",      /\bkids\b|unicorn|dino|παιδικ/i],
   ["baby",      /\bbaby\b|βρεφ|μωρο/i],
   ["acnormal",  /acnormal|ακμή|ακμ\b/i],
@@ -68,13 +68,17 @@ function siteProductName(d, fallback) {
   title = title.replace(/\bCoq\b/g, "CoQ").replace(/\bVeg\.Caps (\d+)S\b/g, "Veg. Caps");
   return title.replace(/\s+-\s*|\s*-\s+/g, " - ").trim();   // «A-Z», «D3-K2», «Anti-Wrinkle» μένουν ενωμένα
 }
-// Σειρά του qnutrapharma.com (κατηγορία «Brands › …», details.line) → ενότητα. Αν λείπει, LINE_RULES.
+// Σειρά του douni.gr (κατηγορία «Brands › …», details.line) → ενότητα. Αν λείπει, LINE_RULES.
 const LINE_MAP = {};
 // Quest: οι κατηγορίες του site είναι «ανά ανάγκη» και επικαλύπτονται → ενότητα από το είδος του προϊόντος
 // (κατηγορίες «ανά κατηγορία προϊόντος» + όνομα), με σειρά προτεραιότητας.
 function solgarSection(d) {
-  // Quest: κατηγορίες «Health Needs»/«Categories» του qnutrapharma.com + όνομα, με σειρά προτεραιότητας
+  // Quest: κατηγορίες «Health Needs»/«Categories» του douni.gr + όνομα, με σειρά προτεραιότητας
   const c = (d.categories || []).join(" | "), n = String(d.title || "").toLowerCase();
+  const L = { "Biotix": "probiotika", "Πεπτικά Ένζυμα": "probiotika", "Liposomal": "liposomal", "Q-Melt": "liposomal", "Pregnall": "egkymosyni",
+    "Ωμέγα Λιπαρά Οξέα": "omega", "Φυτοθρεπτικά": "votana", "Kyolic": "kardia", "Πολυθρεπτικά Συμπληρώματα": "polyvitamines", "Μέταλλα": "metalla" };
+  if (L[d.line]) return L[d.line];
+  if (/q-life/.test(n)) return "qlife";
   if (/biotix|probio|acidophilus|plantarum|lactase|enzyme|digest/.test(n) || /^Probiotics$|Probiotics \||\| Probiotics/.test(c)) return "probiotika";
   if (/pregna|prenatal|folate|folic|biofolic/.test(n)) return "egkymosyni";
   if (/kids|kidz|infa|brightstart|child/.test(n)) return "paidia";
@@ -140,7 +144,7 @@ async function main() {
   const supplier = (await loadWindowFile(SUPPLIER_FILE))[`${BRAND.toUpperCase()}_SUPPLIER`] || [];
   const supplemental = (await loadWindowFile(SUPPLEMENTAL_FILE))[`${BRAND.toUpperCase()}_SUPPLEMENTAL`] || {};
   const site = JSON.parse(await fs.readFile(SITE_FILE, "utf8"));
-  // Ελληνική απόδοση των αγγλικών κειμένων του qnutrapharma.com (js/quest-translations.json, handle → { subtitle, tabs }).
+  // Ελληνική απόδοση των αγγλικών κειμένων του douni.gr (js/quest-translations.json, handle → { subtitle, tabs }).
   // Ελεύθερη απόδοση (όχι κατά λέξη)· τα πρωτότυπα μένουν στο js/quest-site.json.
   let TR = {}; try { TR = JSON.parse(await fs.readFile(path.join(ROOT, "js/quest-translations.json"), "utf8")); } catch {}
   const FACT_GR = { "dairy free": "Χωρίς γαλακτοκομικά", "gluten free": "Χωρίς γλουτένη", "wheat free": "Χωρίς σιτάρι", "sugar free": "Χωρίς ζάχαρη",
@@ -164,7 +168,7 @@ async function main() {
     if (t.tabs && t.tabs["Περιγραφή"]) { d.description = t.tabs["Περιγραφή"].replace(/\s+/g, " ").trim(); sp.longDescription = d.description; sp.description = d.description.slice(0, 700); }
     if (t.tabs && t.tabs["Οφέλη"]) d.advantages = t.tabs["Οφέλη"].split("\n").map(x => x.trim()).filter(Boolean);
     if (t.subtitle) { d.subtitle = d.shortDescription = t.subtitle; sp.subtitle = t.subtitle; }
-    d.attributes = Object.assign({}, d.attributes, { "Κείμενα": "Ελληνική απόδοση των αγγλικών κειμένων του qnutrapharma.com (Quest Vitamins Ltd)" });
+    d.attributes = Object.assign({}, d.attributes, { "Κείμενα": "Ελληνική απόδοση των αγγλικών κειμένων του douni.gr" });
   }
   console.log(`Μεταφράσεις: ${trApplied}/${site.length} σελίδες με ελληνικά κείμενα (js/quest-translations.json).`);
   if (!site.length) { console.error(`Το js/${BRAND}-site.json είναι κενό. Τρέξτε πρώτα: node scripts/scrape-brand.mjs --brand=${BRAND}`); process.exit(1); }
@@ -232,7 +236,7 @@ async function main() {
       if (variant && variant.size) attributes["Συσκευασία"] = variant.size;
       else if (supplierVol) attributes["Συσκευασία"] = supplierVol.replace(/g$/, "g");
       else if (d.size) attributes["Συσκευασία"] = d.size;
-      if (d.category) attributes["Κατηγορία qnutrapharma.com"] = d.category;
+      if (d.category) attributes["Κατηγορία douni.gr"] = d.category;
       if (d.line) attributes["Σειρά"] = d.line;
       const sections = {};
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
@@ -246,7 +250,7 @@ async function main() {
         imageFallback: chosen.image || null,
         images: d.images || null,
         url: chosen.url,
-        source: "qnutrapharma.com",
+        source: "douni.gr",
         section: solgarSection(d) || lineOf(d.brand, d.category, slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
@@ -282,11 +286,11 @@ async function main() {
     }
   }
   const banner = `// Auto-generated από το scripts/match-${BRAND}.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.\n`
-    + `// Πηγή: qnutrapharma.com (js/${BRAND}-site.json). Διορθώσεις match → js/${BRAND}-manual-matches.json.\n`
+    + `// Πηγή: douni.gr (js/${BRAND}-site.json). Διορθώσεις match → js/${BRAND}-manual-matches.json.\n`
     + `// matchType: manual | exact (GTIN) | high | review (score ${MIN_SCORE}-${HIGH_SCORE}, 'Match?')\n`
     + `// Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα', λίστα στο js/${BRAND}-unmatched.json).\n`;
   await fs.writeFile(OUT_FILE, banner + `window.${BRAND.toUpperCase()}_OVERRIDES = ` + JSON.stringify(overrides, null, 2) + ";\n", "utf8");
-  const headers = ["Barcode", "Όνομα supplier", "Κατάσταση", "Score", "Σελίδα qnutrapharma.com", "URL", "Εναλλακτική 1", "Score 1", "Εναλλακτική 2", "Score 2", "Εναλλακτική 3", "Score 3"];
+  const headers = ["Barcode", "Όνομα supplier", "Κατάσταση", "Score", "Σελίδα douni.gr", "URL", "Εναλλακτική 1", "Score 1", "Εναλλακτική 2", "Score 2", "Εναλλακτική 3", "Score 3"];
   await fs.writeFile(REPORT_FILE, reportCsv(headers, report), "utf8");
   await fs.writeFile(UNMATCHED_FILE, JSON.stringify(unmatched, null, 2) + "\n", "utf8");
   console.log(`\nΑποτέλεσμα (${pool.length}): manual=${counts.manual}  gtin=${counts.exact}  high=${counts.high}  review=${counts.review}  skip=${counts.skip + counts["manual-skip"]}`);

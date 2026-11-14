@@ -260,6 +260,12 @@ Intake, Free From). Κρατά μόνο συμπληρώματα (εκτός Bod
 scratch), αλλιώς η ενότητα βγαίνει από το όνομα (`solgarSection` στο `match-powerhealth.mjs`). Κλειδιά `PH-<slug>`·
 τιμές με `js/powerhealth-manual-matches.json`.
 
+`scripts/scrape-quest.mjs` (Quest Vitamins, **www.douni.gr** — Douni Health Products, αντιπρόσωπος Quest στην Ελλάδα, Umbraco):
+λίστα από το `/sitemap` (`/etairies/quest/<σειρά>/<προϊόν>/`, σελίδα προϊόντος = `div.detail-page`), ελληνικά κείμενα από την
+περιγραφή και το accordion (Χαρακτηριστικά, Δοσολογία & οδηγίες, Θρεπτική αξία, Συστατικά, Αλλεργίες, αρ. ΕΟΦ). Προϊόν σε δύο σειρές
+→ μία εγγραφή. Το site δεν δίνει EAN ούτε μέγεθος: τα μεγέθη της ελληνικής αγοράς (από τον τιμοκατάλογο) είναι στο
+`js/quest-sizes.json` και γίνονται variants `QV-<slug>V<πλήθος>`· τιμές με `js/quest-manual-matches.json` (barcode → κλειδί).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

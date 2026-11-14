@@ -1,5116 +1,43 @@
 // Auto-generated από το scripts/match-quest.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.
-// Πηγή: qnutrapharma.com (js/quest-site.json). Διορθώσεις match → js/quest-manual-matches.json.
+// Πηγή: douni.gr (js/quest-site.json). Διορθώσεις match → js/quest-manual-matches.json.
 // matchType: manual | exact (GTIN) | high | review (score 99-14, 'Match?')
 // Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα', λίστα στο js/quest-unmatched.json).
 window.QUEST_OVERRIDES = {
-  "QV-qmeltzinc30mg": {
-    "name": "Q Melt Zinc 30mg",
-    "subtitle": "Zinc in oral dissolvable film (ODF) format to support increased zinc requirements",
-    "description": "Q Melt Zinc uses an advanced oral dissolvable Film (ODF) technology for convenient, precise zinc supplementation, presented with a wild berry & mint flavour with sweeteners. Zinc contributes to the normal function of the immune system, normal cognitive function, and normal fertility and reproduction. It also contributes to the protection of cells from oxidative stress and the maintenance of normal bones, hair, nails and skin. The convenient oral film dissolves quickly in the mouth without water, making it easy to use anytime, anywhere.",
+  "QV-immunebiotix": {
+    "name": "Immune Biotix",
+    "subtitle": "Το Immune Biotix της Quest είναι ένας μοναδικός συνδυασμός συστατικών που υποστηρίζουν το ανοσοποιητικό σύστημα.",
+    "description": "Το Immune Biotix της Quest είναι ένας μοναδικός συνδυασμός συστατικών που υποστηρίζουν το ανοσοποιητικό σύστημα. Η μοναδική του σύνθεση περιλαμβάνει βήτα 1-3, 1-6 γλυκάνες, εκχύλισμα σκόρδου ψυχρής ωρίμανσης, ψευδάργυρο, σελήνιο, χαλκό, βιταμίνη D και φιλικά βακτήρια. Ο ψευδάργυρος, το σελήνιο, ο χαλκός και η βιταμίνη D συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος. Το εκχύλισμα σκόρδου ψυχρής ωρίμανσης έχει αποδεδειγμένη αντιοξειδωτική και αντιμικροβιακή δράση. Τα φιλικά βακτήρια εμποδίζουν την ανάπτυξη παθογόνων μικροοργανισμών. Το Immune Biotix είναι ιδανικό για όσους θέλουν να ενισχύσουν δραστικά το ανοσοποιητικό τους σύστημα, να προστατευθούν από ιώσεις και κρυολογήματα, αλλά και από αλλεργίες. Μπορεί να προσφέρει σημαντική υποστήριξη ακόμα και στους πιο φιλάσθενους οργανισμούς, στα άτομα που έρχονται σε επαφή με πολύ κόσμο και παρουσιάζουν αυξημένο κίνδυνο να αρρωστήσουν και σε περιόδους έξαρσης των ιώσεων. Στο Immune Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Q Melt Range",
-      "Κατηγορίες qnutrapharma.com": "Q Melt Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails",
-      "Κατηγορία qnutrapharma.com": "Q Melt Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Q Melt Zinc uses an advanced oral dissolvable Film (ODF) technology for convenient, precise zinc supplementation, presented with a wild berry & mint flavour with sweeteners. Zinc contributes to the normal function of the immune system, normal cognitive function, and normal fertility and reproduction. It also contributes to the protection of cells from oxidative stress and the maintenance of normal bones, hair, nails and skin. The convenient oral film dissolves quickly in the mouth without water, making it easy to use anytime, anywhere.",
-      "Οφέλη": "• ODF technology for convenient, precise zinc supplementation\n• Dissolves on the tongue in under 30 seconds with no water, no swallowing\n• Wild Berry & Mint Flavour with Sweeteners\n• 30mg zinc per strip, no measuring required\n• Supports immunity, fertility, hair, skin and nails",
-      "Χρήση": "Take one film daily.\nNot recommended for children unless advised by a healthcare professional.",
-      "Συστατικά": "Zinc Citrate Dihydrate; Thickeners: Hydroxypropyl Methylcellulose, Pullulan; Humectant: Glycerol; Wild Berry Flavouring; Thickener: Xanthan Gum; Mint Flavouring; Sweeteners: Steviol Glycosides from Stevia, Sucralose, Neotame.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Zinc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Zinc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Zinc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/q-melt-zinc-30mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-qmeltvitaminb121000cebcg": {
-    "name": "Q Melt Vitamin B12 1000 mcg",
-    "subtitle": "Vitamin B12 in oral dissolvable film (ODF) format to support increased Vitamin B12 requirements",
-    "description": "Q Melt Vitamin B12 1000 µg uses an advanced oral dissolvable Film (ODF) technology for convenient, precise vitamin B12 supplementation, presented with Raspberry Flavour with Sweeteners. Vitamin B12 contributes to normal energy-yielding metabolism, the normal functioning of the nervous system and normal red blood cell formation. It also contributes to the reduction of tiredness and fatigue. The convenient oral film dissolves quickly in the mouth without water, making it easy to use anytime, anywhere.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Q Melt Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Energy | Heart & Circulation | Immunity | Q Melt Range | Senior’s Health | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Energy | Heart & Circulation | Immunity | Q Melt Range | Senior’s Health | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Q Melt Vitamin B12 1000 µg uses an advanced oral dissolvable Film (ODF) technology for convenient, precise vitamin B12 supplementation, presented with Raspberry Flavour with Sweeteners. Vitamin B12 contributes to normal energy-yielding metabolism, the normal functioning of the nervous system and normal red blood cell formation. It also contributes to the reduction of tiredness and fatigue. The convenient oral film dissolves quickly in the mouth without water, making it easy to use anytime, anywhere.",
-      "Οφέλη": "• ODF technology for convenient, precise Vitamin B12 supplementation\n• Dissolves on the tongue in under 30 seconds with no water, no swallowing\n• Raspberry Flavour with Sweeteners\n• 1000 µg Vitamin B12 per strip, no measuring required\n• Contributes to the reduction of tiredness and fatigue",
-      "Χρήση": "Take one film daily or as directed by your healthcare professional.",
-      "Συστατικά": "Thickeners: Hydroxypropyl Methylcellulose, Pullulan; Sweetener: Sorbitol; Emulsifier: Soya Lecithin; Stabiliser: Beta-Cyclodextrin; Vitamin E (DL-alpha-tocopheryl acetate); Antioxidant: Ascorbyl Palmitate; Sweetener: Mannitol; Raspberry Flavouring; Anti-caking Agent: Silicon Dioxide; Vitamin B12 (cyanocobalamin); Sweeteners: Steviol Glycosides from Stevia, Sucralose; Emulsifier: Polysorbate 80.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Vitamin-B12.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Vitamin-B12.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/11/Q-Melt-Vitamin-B12.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/q-melt-vitamin-b12-1000-%ce%bcg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-calciumvitamindeffervescent": {
-    "name": "Calcium & Vitamin D Effervescent",
-    "subtitle": "Combination of Calcium & Vitamin D in effervescent format",
-    "description": "Provides calcium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. As well as being a major structural component of bone, calcium also supports energy metabolism and the actions of digestive enzymes. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels and also helps to support immune function.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Bones | Menopause | Once a Day™ Range | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Bones | Menopause | Once a Day™ Range | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides calcium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. As well as being a major structural component of bone, calcium also supports energy metabolism and the actions of digestive enzymes. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels and also helps to support immune function.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulator: citric acid; calcium carbonate; acidity regulator: sodium carbonates; sweetener: sodium cyclamate; flavour: orange flavour; firming agent: polyethylene glycol; colour: beta carotene; sweetener: sodium saccharin; cholecalciferol."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Calcium-Vitamin-D-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Calcium-Vitamin-D-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Calcium-Vitamin-D-Effe-tube.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/calcium-vitamin-d-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-colla2joint": {
-    "name": "Colla2Joint",
-    "subtitle": "Type II Collagen with Vitamin C for joint support",
-    "description": "Colla2Joint contains native type II collagen, which is a clinically studied, new generation and low-dosage form of collagen. It is combined with vitamin C, which contributes to collagen formation for the normal function of cartilage. Type II collagen is the main structural protein in the cartilage, providing tensile strength and toughness to the tissue.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Joints and Muscles | Platinum Excellence™ Range | Senior’s Health | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Joints and Muscles | Platinum Excellence™ Range | Senior’s Health | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Colla2Joint contains native type II collagen, which is a clinically studied, new generation and low-dosage form of collagen. It is combined with vitamin C, which contributes to collagen formation for the normal function of cartilage. Type II collagen is the main structural protein in the cartilage, providing tensile strength and toughness to the tissue.",
-      "Οφέλη": "• New generation form of collagen\n• Supported by studies\n• Small capsule\n• One capsule daily dosage",
-      "Χρήση": "Take one capsule daily.",
-      "Συστατικά": "Bulking agent: Cellulose; Capsule shell (hydroxypropylmethylcellulose); Native collagen type II; L-ascorbic acid (vitamin C); Anti-caking agents: Silicon dioxide, Magnesium salts of fatty acid."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Cplla2Joint.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Cplla2Joint.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Cplla2Joint.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/colla2joint/",
-    "source": "qnutrapharma.com",
-    "section": "arthroseis",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalzinc30mg": {
-    "name": "Liposomal Zinc 30mg",
-    "subtitle": "Liposomal zinc with increased bioavailability and absorption.",
-    "description": "Liposomal zinc provides active zinc encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of zinc, increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active zinc from degradation and ensures it is well-tolerated in the stomach. Zinc contributes to the normal function of the immune system and the protection of cells from oxidative stress. It also contributes to the maintenance of normal hair, nails and skin, and plays a role in fertility and reproduction.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Immunity | Liposomal Range | Minerals | Pregnancy and Fertility | Skin, Hair and Nails",
-      "Κατηγορία qnutrapharma.com": "Immunity | Liposomal Range | Minerals | Pregnancy and Fertility | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal zinc provides active zinc encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of zinc, increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active zinc from degradation and ensures it is well-tolerated in the stomach.\nZinc contributes to the normal function of the immune system and the protection of cells from oxidative stress. It also contributes to the maintenance of normal hair, nails and skin, and plays a role in fertility and reproduction.",
-      "Οφέλη": "• Advanced delivery of oral zinc.\n• High bioavailability and absorption of zinc.\n• Increased cellular delivery of vitamin zinc.\n• Highly stable zinc protected from degradation.\n• Liposomal zinc is well tolerated.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Take one capsule daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT®-Zn Liposomal zinc (maltodextrin, zinc citrate, glycerol, lecithin (from\nsunflower oil)), Microcrystalline cellulose, Capsule shell (hydroxypropylmethylcellulose,\nzinc oxide, gellan gum), Magnesium stearate, Precipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Zinc-30mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Zinc-30mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Zinc-30mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-zinc-30mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalvitaminb121000mcg": {
-    "name": "Liposomal Vitamin B12 1000mcg",
-    "subtitle": "Liposomal vitamin B12 with increased bioavailability and absorption.",
-    "description": "Liposomal vitamin B12 provides active vitamin B12 encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of vitamin B12 increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active vitamin B12 from degradation and ensures its is well tolerated in the stomach. Vitamin B12 contributes to normal blood cell formation and normal energy-yielding metabolism, and plays a role in the reduction of tiredness and fatigue. It also contributes to the normal functioning of the immune system and nervous system. Vitamin B12 is an essential nutrient that may be chosen by vegetarians and vegans to help support adequate intake.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Energy | Heart & Circulation | Immunity | Liposomal Range | Senior’s Health | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Energy | Heart & Circulation | Immunity | Liposomal Range | Senior’s Health | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal vitamin B12 provides active vitamin B12 encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of vitamin B12 increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active vitamin B12 from degradation and ensures its is well tolerated in the stomach.\nVitamin B12 contributes to normal blood cell formation and normal energy-yielding metabolism, and plays a role in the reduction of tiredness and fatigue. It also contributes to the normal functioning of the immune system and nervous system. Vitamin B12 is an essential nutrient that may be chosen by vegetarians and vegans to help support adequate intake.",
-      "Οφέλη": "• Advanced delivery of oral vitamin B12.\n• High bioavailability and absorption of vitamin B12.\n• Increased cellular delivery of vitamin B12.\n• Highly stable vitamin B12 protected from degradation.\n• Liposomal vitamin B12 is well tolerated.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Take one capsule daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT®-B12 Liposomal vitamin B12 (maltodextrin, glycerol, lecithin (from\nsunflower oil), vitamin B12 (methylcobalamin)), Microcrystalline cellulose, Capsule\nshell (hydroxypropylmethylcellulose, zinc oxide, gellan gum), Magnesium stearate,\nPrecipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Vitamin-B12-1000mcg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Vitamin-B12-1000mcg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Liposomal-Vitamin-B12-1000mcg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-vitamin-b12-1000mcg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-questdliquid": {
-    "name": "D Liquid",
-    "subtitle": "Vitamin D in liquid format",
-    "description": "Quest D Liquid contains 400 iu of vitamin D3 per drop (50,000 iu of vitamin D per vial) and may be used by individuals or children who do not have sufficient levels of vitamin D",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Quest D Liquid contains 400 iu of vitamin D3 per drop (50,000 iu of vitamin D per vial) and may be used by individuals or children who do not have sufficient levels of vitamin D",
-      "Οφέλη": "• 400 iu per drop\n• 50,000 iu per 5ml vial (125 drops)",
-      "Χρήση": "1 drop daily or as directed by a healthcare professional.",
-      "Συστατικά": "MCT Oil, Vitamin D3 (with medium chain triglycerides, dl-alpha-tocopherol)"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Quest-D-Liquid-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Quest-D-Liquid-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Quest-D-Liquid-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/quest-d-liquid/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-magnesium300mgvitaminb6effervescent": {
-    "name": "Magnesium 300mg & Vitamin B6 Effervescent",
-    "subtitle": "Combination of Magnesium & Vitamin B6 for functioning of muscles and the nervous system",
-    "description": "Magnesium contributes to normal muscle function and the maintenance of normal bones. Magnesium and vitamin B6 contribute to normal functioning of the nervous system, normal psychological function and to the reduction of tiredness.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Heart & Circulation | Joints and Muscles | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Minerals | Heart & Circulation | Joints and Muscles | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "Magnesium contributes to normal muscle function and the maintenance of normal bones. Magnesium and vitamin B6 contribute to normal functioning of the nervous system, normal psychological function and to the reduction of tiredness.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulator: citric acid, magnesium carbonate, firming agent: sorbitols, acidity regulator: sodium carbonates,\nmagnesium oxide, flavourings, firming agent: polyethylene glycol, beetroot concentrate, sweetener: sucralose, acidity regulator: malic acid, pyridoxine hydrochloride (vitamin B6), colour: riboflavins.\nAttention: Contains sorbitol – excessive consumption may produce laxative effects.\nImportant: Excessive consumption may produce laxative effects."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Magnesium-300mg-Vitamin-B6-Effervescent.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Magnesium-300mg-Vitamin-B6-Effervescent.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Magnesium-300mg-Vitamin-B6-Effervescent.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/magnesium-300mg-vitamin-b6-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-calcium500mgmagnesiumeffervescent": {
-    "name": "Calcium 500mg & Magnesium Effervescent",
-    "subtitle": "Calcium, magnesium and additional vitamins effervescent format for bone, teeth and muscle",
-    "description": "Calcium, magnesium, vitamin K and vitamin D all work together for the maintenance of normal bones and teeth. Vitamin C contributes to normal collagen formation for the normal function of bones & teeth. Magnesium & vitamin B6 contribute to the normal functioning of the nervous system. Magnesium also contributes to normal muscle function.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Bones | Joints and Muscles | Menopause | Multi-Nutrients | Once a Day™ Range | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Bones | Joints and Muscles | Menopause | Multi-Nutrients | Once a Day™ Range | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Calcium, magnesium, vitamin K and vitamin D all work together for the maintenance of normal bones and teeth. Vitamin C contributes to normal collagen formation for the normal function of bones & teeth. Magnesium & vitamin B6 contribute to the normal functioning of the nervous system. Magnesium also contributes to normal muscle function.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Calcium carbonate; acidity regulator: citric acid; firming agent: sorbitols; acidity regulator: sodium carbonates; magnesium\ncarbonate; L-ascorbic acid (vitamin C); acidity regulator: malic acid; magnesium oxide; flavouring: natural grapefruit flavour;\ncolouring: beetroot concentrate; firming agent: polyethylene glycol; sweetener: sucralose; flavouring: natural lemon flavour;\ncholecalciferol (vitamin D); pyridoxine hydrochloride (vitamin B6); phylloquinone (vitamin K).\nImportant: Contains sweetener. Excessive consumption may cause laxative effects."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Calcium-500mg-Magnesium-Effervescent.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Calcium-500mg-Magnesium-Effervescent.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Calcium-500mg-Magnesium-Effervescent.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/calcium-500mg-magnesium-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-activefolate1000mcg": {
-    "name": "ActiveFolate 1000 mcg",
-    "subtitle": "Bio-available form of folate in higher strength",
-    "description": "Provides a higher strength of L-methyl-folate, the bioavailable metabolically active form of folate in the body. The bio-active form of folate, L-methyl-folate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Heart & Circulation | Platinum Excellence™ Range | Pregnancy and Fertility",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Heart & Circulation | Platinum Excellence™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Provides a higher strength of L-methyl-folate, the bioavailable metabolically active form of folate in the body. The bio-active form of folate, L-methyl-folate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate.",
-      "Οφέλη": "• Biologically active form",
-      "Χρήση": "Take one tablet daily.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/ActiveFolate-1000mcg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/ActiveFolate-1000mcg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/ActiveFolate-1000mcg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/activefolate-1000-mcg/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-qmeltiron": {
-    "name": "Q Melt Iron",
-    "subtitle": "Iron in oral dissolvable film (ODF) format to support increased iron requirements",
-    "description": "Q Melt Iron uses an advanced oral dissolvable Film (ODF) technology for convenient, precise iron supplementation presented with a mixed berry flavour. Iron contributes to the normal formation of red blood cells and haemoglobin and supports normal oxygen transport in the body. It also contributes to the reduction of tiredness and fatigue. Iron is an essential mineral that must be obtained from the diet and may be useful as a supplement for individuals with increased requirements or low dietary intake.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Q Melt Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Energy | Pregnancy and Fertility | Q Melt Range | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Energy | Pregnancy and Fertility | Q Melt Range | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Q Melt Iron uses an advanced oral dissolvable Film (ODF) technology for convenient, precise iron supplementation presented with a mixed berry flavour. Iron contributes to the normal formation of red blood cells and haemoglobin and supports normal oxygen transport in the body. It also contributes to the reduction of tiredness and fatigue. Iron is an essential mineral that must be obtained from the diet and may be useful as a supplement for individuals with increased requirements or low dietary intake.",
-      "Οφέλη": "• ODF technology for convenient, precise iron supplementation\n• Dissolves on the tongue in under 30 seconds with no water, no swallowing\n• Mixed berry flavour with no metallic taste\n• 20mg iron per strip, no measuring required\n• Micro encapsulated iron eliminates metallic taste and minimises GI side effects",
-      "Χρήση": "Take one film daily.\nNot recommended for children unless advised by a healthcare professional.",
-      "Συστατικά": "Microencapsulated Iron (ferric saccharate, stabiliser: calcium alginate); Thickeners: Pullulan, Hydroxypropyl Methylcellulose; Humectant: Glycerol; Sweetener: Xylitol; Mixed Berry Flavourings, Natural Flavouring (containing glycyrrhizin from liquorice); Sweeteners: Steviol Glycosides from Stevia, Sucralose, Neotame.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Q-Melt-Iron.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Q-Melt-Iron.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/Q-Melt-Iron.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/FerroMelt.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/q-melt-iron/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-gasxp120mgsimethicone": {
-    "name": "GasXP 120mg Simethicone",
-    "subtitle": "Simethicone in oral dissolvable film (ODF) format to help with gas and bloating",
-    "description": "GasXP is recommended to help relieve bloating and the discomfort associated with gas buildup. The convenient oral film dissolves quickly in the mouth without water for rapid, on-the-go relief",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Platinum Excellence™ Range | Gut and Digestion | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Platinum Excellence™ Range | Gut and Digestion | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "GasXP is recommended to help relieve bloating and the discomfort associated with gas buildup. The convenient oral film dissolves quickly in the mouth without water for rapid, on-the-go relief",
-      "Οφέλη": "• Oral film technology for convenient, precise simethicone supplementation\n• Dissolves on the tongue with no water, no swallowing\n• Peppermint flavour\n• 120mg of Simethicone per strip, no measuring required",
-      "Χρήση": "Take 1-4 films daily.\nNot recommended for children under 12 years unless advised by a healthcare professional.",
-      "Συστατικά": "Hydroxypropyl methylcellulose (E464), glycerol (E422), polyethylene oxide, maltodextrin (E1400), PVA (E1203), silica(E551), peppermint oil, menthol, neotame (E961), brilliant blue (E133).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/GasXp.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/05/GasXp.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/05/GasXp.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/gasxp-120mg-simethicone/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortehydracreatinesachets": {
-    "name": "Forte Hydra Creatine Sachets",
-    "subtitle": "Supports energy, performance and hydration with electrolytes, creatine & vitamins.",
-    "description": "Forte Hydra Creatine is an oral hydration solution formulated with electrolytes, creatine, and essential vitamins to support hydration, muscle function, energy metabolism, and physical performance. It contains sodium and chloride to help maintain water-electrolyte balance, while potassium, calcium, and magnesium contribute to normal muscle function. Magnesium, Vitamin C, Vitamin B12, Niacin, Folic Acid, and Biotin contribute to normal energy-yielding metabolism and help reduce tiredness and fatigue. Several of these nutrients also support normal psychological and nervous system function. Creatine enhances physical performance in successive bursts of short-term, high-intensity exercise.",
-    "claims": [
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Energy | Multi-Nutrients | Once a Day™ Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Energy | Multi-Nutrients | Once a Day™ Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Forte Hydra Creatine is an oral hydration solution formulated with electrolytes, creatine, and essential vitamins to support hydration, muscle function, energy metabolism, and physical performance. It contains sodium and chloride to help maintain water-electrolyte balance, while potassium, calcium, and magnesium contribute to normal muscle function. Magnesium, Vitamin C, Vitamin B12, Niacin, Folic Acid, and Biotin contribute to normal energy-yielding metabolism and help reduce tiredness and fatigue. Several of these nutrients also support normal psychological and nervous system function. Creatine enhances physical performance in successive bursts of short-term, high-intensity exercise.",
-      "Οφέλη": "• Comprehensive electrolyte blend to support hydration\n• Creatine monohydrate to support physical performance\n• Added vitamins and minerals to support normal energy metabolism, muscle function, and physiological performance",
-      "Χρήση": "Take 1 to 3 sachets per day, before, during, or after exercise; or anytime you need support for hydration, muscle function, or energy recovery.\nDo not exceed the recommended daily intake. Suitable for adults and active individuals only. Dissolve the contents of 1 sachet in 200 ml of drinking water. Stir\nuntil fully dissolved. Prepare the solution immediately before use. Do not add sweeteners or other ingredients.",
-      "Συστατικά": "Creatine monohydrate; sodium bicarbonate; calcium lactate; magnesium salts of citric acid; acidity regulator: citric acid; potassium chloride; sodium chloride; flavouring: natural lemon flavouring; L-ascorbic acid (vitamin C); natural lime flavouring with other natural flavourings; anti-caking agent: silicon dioxide; zinc citrate; nicotinamide (niacin); sweetener: sucralose; calcium d-pantothenate (pantothenic acid); cyanocobalamin (vitamin B12); pyridoxine\nhydrochloride (vitamin B6); chromium picolinate; colour: riboflavin; pteroylmonoglutamic acid (folic acid); d-biotin (biotin).",
-      "Χαρακτηριστικά": "Κατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2026/01/Forte-Hydra-Creatine.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2026/01/Forte-Hydra-Creatine.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2026/01/Forte-Hydra-Creatine.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-hydra-creatine-sachets/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalcollagen2850mg": {
-    "name": "Liposomal Collagen 2850mg",
-    "subtitle": "Liposomal collagen with additional nutrients for collagen formation, skin beauty & joint support",
-    "description": "This product combines liposomal collagen and hyaluronic acid with key nutrients vitamin C, zinc and biotin. Vitamin C supports normal collagen formation for the healthy function of skin and cartilage, helping to keep skin and joints in good condition. Together with zinc and biotin, it contributes to the maintenance of normal skin, while vitamin C and zinc also help protect cells from oxidative stress, supporting your natural beauty and wellbeing from within.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Advanced delivery of oral collagen.",
-      "High bioavailability and absorption of collagen.",
-      "Well tolerated.",
-      "With hyaluronic acid, vitamin C, zinc & biotin.",
-      "Collagen formation, skin beauty and joint support.",
-      "Supported by studies."
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Liposomal Range | Joints and Muscles | Skin, Hair and Nails | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Liposomal Range | Joints and Muscles | Skin, Hair and Nails | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "This product combines liposomal collagen and hyaluronic acid with key nutrients vitamin C, zinc and biotin. Vitamin C supports normal collagen formation for the healthy function of skin and cartilage, helping to keep skin and joints in good condition. Together with zinc and biotin, it contributes to the maintenance of normal skin, while vitamin C and zinc also help protect cells from oxidative stress, supporting your natural beauty and wellbeing from within.",
-      "Οφέλη": "Advanced delivery of oral collagen.\nHigh bioavailability and absorption of collagen.\nWell tolerated.\nWith hyaluronic acid, vitamin C, zinc & biotin.\nCollagen formation, skin beauty and joint support.\nSupported by studies.",
-      "Χρήση": "Dissolve one sachet in a glass (200ml) of water. Consume one sachet per day.",
-      "Συστατικά": "Liposomal collagen LIPOSOVIT® (from fish), Maltodextrin, Acidity regulator: citric acid, L-ascorbic acid (vitamin C), Natural flavouring, Hyaluronic acid, Colour: carotenes, Tropical fruits juice concentrate, Zinc citrate, Sweetener: sucralose, Anti-caking agent: silicon dioxide, Colour: beetroot concentrate, D-biotin (biotin).\nTropical fruit flavour with sweetener\nAllergy advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2025/12/Liposomal-Collagen.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2025/12/Liposomal-Collagen.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2025/12/Liposomal-Collagen.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-collagen-2850mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-diabaegis": {
-    "name": "Diabaegis",
-    "subtitle": "For maintenance of normal blood glucose levels.",
-    "description": "Diabaegis provides a powerful combination of Pep-2-Dia®, vitamin B6, vitamin B3 (Niacin) and chromium picolinate. Pep-2-Dia® is a whey protein hydrolysate containing an active dipeptide AP, which inhibits the activity of the alpha-glucosidase enzyme and thereby provides sugar blocking properties in the body. Chromium is required to maintain normal blood glucose levels. Vitamin B6 contributes to normal glycogen metabolism. Glycogen is the body’s long term storage energy source that helps to maintain normal blood glucose levels between meals.",
-    "claims": [
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health | Weight Management",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health | Weight Management"
-    },
-    "sections": {
-      "Περιγραφή": "Diabaegis provides a powerful combination of Pep-2-Dia®, vitamin B6, vitamin B3 (Niacin) and chromium picolinate. Pep-2-Dia® is a whey protein hydrolysate containing an active dipeptide AP, which inhibits the activity of the alpha-glucosidase enzyme and thereby provides sugar blocking properties in the body. Chromium is required to maintain normal blood glucose levels. Vitamin B6 contributes to normal glycogen metabolism. Glycogen is the body’s long term storage energy source that helps to maintain normal blood glucose levels between meals.",
-      "Οφέλη": "• Contains a new and powerful branded ingredient Pep-2-Dia®\n• Pep-2-Dia®contains active dipeptide AP and has sugar blocking properties\n• Synergistic formula with added vitamin B6, vitamin B3 and chromium picolinate",
-      "Χρήση": "Take 1 tablet before meals.",
-      "Συστατικά": "Pep2dia (whey protein hydrolysate), Microcrystalline cellulose, Silicified microcrystalline cellulose, Sepifilm LP014, Croscarmellose sodium, Sepisperse Dry 5047, Magnesium stearate, Precipitated silicon dioxide, Dicalcium phosphate anhydrous, Niacin (vitamin B3), Pyridoxine (vitamin B6), Chromium picolinate.",
-      "Χαρακτηριστικά": "Χωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2025/03/DIABAEGIS-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2025/03/DIABAEGIS-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2025/03/DIABAEGIS-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2025/03/Diabaegis-2.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/diabaegis/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-questd3k2": {
-    "name": "D3 & K2",
-    "subtitle": "Perfect combination of vitamins D3 and K2 (MK-7) for bone and heart health.",
-    "description": "Vitamin D3 and K2 work synergistically in the body to regulate calcium metabolism, supporting bone and heart health. Vitamin D3 is necessary for calcium absorption into the blood stream and the synthesis of proteins activated by vitamin K2 that place calcium into the bone matrix. Vitamin D3 is also vital in the synthesis of proteins that are activated by vitamin K2 and bind to calcium to reduce calcium levels in arteries.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Bones | Everyday Health and Wellbeing | Heart & Circulation | Platinum Excellence™ Range | Specialist Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Bones | Everyday Health and Wellbeing | Heart & Circulation | Platinum Excellence™ Range | Specialist Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin D3 and K2 work synergistically in the body to regulate calcium metabolism, supporting bone and heart health. Vitamin D3 is necessary for calcium absorption into the blood stream and the synthesis of proteins activated by vitamin K2 that place calcium into the bone matrix. Vitamin D3 is also vital in the synthesis of proteins that are activated by vitamin K2 and bind to calcium to reduce calcium levels in arteries.",
-      "Οφέλη": "• Perfect combination of D3 & K2\n• Vitamin D in the highly effective D3 form\n• Vitamin K in the highly effective K2 (MK-7) biologically active form",
-      "Χρήση": "One capsule daily with food.",
-      "Συστατικά": "Microcrystalline cellulose, Capsule shell (hydroxypropylmethylcellulose, gellan gum), D-a-tocopheryl acetate (soya), Vitamin D3 (with gum acacia, sucrose, corn starch, MCT oil, dl-alpha tocopherol), Vitamin K2 (as menaquinone-7), Magnesium stearate, Precipitated silicon dioxide.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Quest-D3-K2.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Quest-D3-K2.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Quest-D3-K2.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Quest-D3-K2-Greek.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Forte-DK.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/quest-d3-k2/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalvitaminc500mg": {
-    "name": "Liposomal Vitamin C 500mg",
-    "subtitle": "Liposomal vitamin C with increased bioavailability and absorption.",
-    "description": "Liposomal vitamin C provides active vitamin C encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of vitamin C increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active vitamin C from degradation and ensures its is well tolerated in the stomach. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Liposomal Range | Specialist Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Liposomal Range | Specialist Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal vitamin C provides active vitamin C encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of vitamin C increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active vitamin C from degradation and ensures its is well tolerated in the stomach.\nVitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "• Advanced delivery of oral vitamin C.\n• High bioavailability and absorption of vitamin C.\n• Increased cellular delivery of vitamin C.\n• Liposomal vitamin C is well tolerated.\n• Highly stable vitamin C and protected from degradation.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Take one to two capsules daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT®-C Liposomal Vitamin C (ascorbic acid, maltodextrin, glycerol, lecithin), Capsule shell (hydroxypropylmethylcellulose, zinc oxide, gellan gum), Microcrystalline cellulose, Magnesium stearate, Precipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Vitamin-C-big.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Vitamin-C-big.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Vitamin-C-big.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-vitamin-c-500mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalmagnesium150mg": {
-    "name": "Liposomal Magnesium 150mg",
-    "subtitle": "Liposomal magnesium with increased bioavailability and absorption.",
-    "description": "Liposomal magnesium provides active magnesium encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of magnesium increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active magnesium from degradation and ensures its is well tolerated in the stomach. Magnesium is an essential mineral for over 300 enzymatic processes within the body, and without it, these processes are impaired. Magnesium is required for normal psychological function and normal nerve function and is often found to inadequate in people with low moods and low mental outlooks. Magnesium is also required for sleep and the relaxation hormone GABA. Magnesium is required directly for the energy production cycle for the creation of energy. It is needed for the normal function of muscles and may help to prevent cramping and stiffness. Magnesium is particularly beneficial for the heart muscle and for regulating high blood pressure. As a key structural mineral in bones and teeth, adequate levels of magnesium are required for their maintenance, particularly for weak bones and osteoporosis.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Heart & Circulation | Joints and Muscles | Liposomal Range | Minerals | Specialist Health | Stress and Hectic Lifestyle | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Heart & Circulation | Joints and Muscles | Liposomal Range | Minerals | Specialist Health | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal magnesium provides active magnesium encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of magnesium increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active magnesium from degradation and ensures its is well tolerated in the stomach.\nMagnesium is an essential mineral for over 300 enzymatic processes within the body, and without it, these processes are impaired. Magnesium is required for normal psychological function and normal nerve function and is often found to inadequate in people with low moods and low mental outlooks. Magnesium is also required for sleep and the relaxation hormone GABA. Magnesium is required directly for the energy production cycle for the creation of energy. It is needed for the normal function of muscles and may help to prevent cramping and stiffness. Magnesium is particularly beneficial for the heart muscle and for regulating high blood pressure. As a key structural mineral in bones and teeth, adequate levels of magnesium are required for their maintenance, particularly for weak bones and osteoporosis.",
-      "Οφέλη": "• Advanced delivery of oral magnesium.\n• High bioavailability and absorption of magnesium.\n• Increased cellular delivery of magnesium.\n• Highly stable magnesium and protected from degradation.\n• Liposomal magnesium is well tolerated.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Dissolve one sachet in a glass (200ml) of cool water.\nConsume up to 2 sachets per day.",
-      "Συστατικά": "Liposomal magnesium LIPOSOVIT®-Mg (magnesium citrate,\nmaltodextrin, glycerol, lecithin), Acidity regulator:\ncitric acid, sodium hydrogen carbonate, natural orange flavouring,\nAnti-caking agent: silicon dioxide, Sweetener: sucralose,\nColour: beta carotene, beetroot concentrate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Magnesium.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Magnesium.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Magnesium.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-magnesium-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomaliron15mg": {
-    "name": "Liposomal Iron 15mg",
-    "subtitle": "Liposomal iron with increased bioavailability and absorption.",
-    "description": "Liposomal iron provides active iron encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of iron increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active iron from degradation and ensures its is well tolerated in the stomach. Liposomal iron helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Liposomal Range | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Minerals | Liposomal Range | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal iron provides active iron encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of iron increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active iron from degradation and ensures its is well tolerated in the stomach.\nLiposomal iron helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-      "Οφέλη": "• Advanced delivery of oral iron.\n• High bioavailability and absorption of iron.\n• Increased cellular delivery of iron.\n• Liposomal iron is well tolerated.\n• Highly stable iron and degradation.\n• Supported by studies and manufacturing processes.",
-      "Χρήση": "Take one capsule daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT®-Fe Liposomal iron (maltodextrin, iron bisglycinate, glycerol, lecithin), Microcrystalline cellulose, Capsule shell (hydroxypropylmethylcellulose, zinc oxide, gellan gum), Magnesium stearate, Precipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Iron-15mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Iron-15mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Iron-15mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-iron-15mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalglutathione500mg": {
-    "name": "Liposomal Glutathione 500mg",
-    "subtitle": "Liposomal glutathione with increased bioavailability and absorption.",
-    "description": "Liposomal glutathione provides active glutathione encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of glutathione increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active glutathione from degradation and ensures its is well tolerated in the stomach.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Detox and Cell Protection | Immunity | Liposomal Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Detox and Cell Protection | Immunity | Liposomal Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal glutathione provides active glutathione encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of glutathione increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active glutathione from degradation and ensures its is well tolerated in the stomach.",
-      "Οφέλη": "• Advanced delivery of oral glutathione.\n• High bioavailability and absorption of glutathione.\n• Increased cellular delivery of glutathione.\n• Highly stable glutathione and protected from degradation.\n• Liposomal glutathione is well tolerated.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Take one to two capsules daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT® Liposomal glutathione (maltodextrin, reduced glutathione, glycerol, lecithin), Capsule shell (hydroxypropylmethylcellulose, zinc oxide, gellan gum), Microcrystalline cellulose, Magnesium stearate, Precipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Glutathione-500mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Glutathione-500mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Glutathione-500mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-glutathione-500mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liposomalcurcumin600mg": {
-    "name": "Liposomal Curcumin 600mg",
-    "subtitle": "Liposomal curcumin (sourced from turmeric) with increased bioavailability and absorption.",
-    "description": "Liposomal curcumin provides active curcumin encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of curcumin increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active curcumin from degradation and ensures its is well tolerated in the stomach. Curcumin is the main active constituent of turmeric. Curcumin reduces inflammation in the body and decreases inflammation related pain. Curcumin also decreases inflammation in the gut and helps to support digestive comfort.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Liposomal Range",
-      "Κατηγορίες qnutrapharma.com": "Phyto-Nutrients | Detox and Cell Protection | Joints and Muscles | Liposomal Range | Senior’s Health | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Phyto-Nutrients | Detox and Cell Protection | Joints and Muscles | Liposomal Range | Senior’s Health | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Liposomal curcumin provides active curcumin encapsulated in liposomes. Liposomal encapsulation is an advanced delivery of curcumin increasing its absorption, intracellular uptake and bioavailability. Liposomal encapsulation also protects the active curcumin from degradation and ensures its is well tolerated in the stomach.\nCurcumin is the main active constituent of turmeric. Curcumin reduces inflammation in the body and decreases inflammation related pain. Curcumin also decreases inflammation in the gut and helps to support digestive comfort.",
-      "Οφέλη": "• Advanced delivery of oral curcumin.\n• High bioavailability and absorption of curcumin.\n• Increased cellular delivery of curcumin. Highly stable curcumin and protected from degradation.\n• Liposomal curcumin is well tolerated.\n• Supported by studies and advanced manufacturing processes.",
-      "Χρήση": "Take one tablet daily with food. Swallow with water.",
-      "Συστατικά": "LIPOSOVIT® Liposomal curcumin (maltodextrin, glycerol, turmeric extract, lecithin), Microcrystalline cellulose, Silicified microcrystalline cellulose, Crospovidone, Glazing agent: opadry yellow (hydroxypropyl methylcellulose, riboflavin, microcrystalline cellulose, stearic acid, calcium carbonate, vegetable carbon), Dicalcium phosphate anhydrous, Croscarmellose sodium, Magnesium stearate, Precipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Curcumin-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Curcumin-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/Liposomal-Curcumin-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liposomal-curcumin-600mg/",
-    "source": "qnutrapharma.com",
-    "section": "liposomal",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-meladream5mg": {
-    "name": "MelaDream 5mg",
-    "subtitle": "Melatonin that dissolves in rapidly in the mouth.",
-    "description": "Meladream is a fast dissolving tablet providing 5mg of melatonin. Allow the tablet to dissolve on the tongue for a rapid absorption and effect of the melatonin.Melatonin regulates the body’s biological day-and-night rhythm and facilitates a more peaceful sleep by enhancing sleep patterns.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Meladream is a fast dissolving tablet providing 5mg of melatonin. Allow the tablet to dissolve on the tongue for a rapid absorption and effect of the melatonin.Melatonin regulates the body’s biological day-and-night rhythm and facilitates a more peaceful sleep by enhancing sleep patterns.",
-      "Οφέλη": "• Fast dissolving tablets\n• Rapid absorption\n• Natural blackcurrant flavour",
-      "Χρήση": "One tablet daily before sleep. Place the tablet in the mouth and allow it to dissolve, then swallow.",
-      "Συστατικά": "Mannitol, Microcrystalline cellulose, Crospovidone, Croscarmellose sodium, Black current flavouring, Xylitol, Citric acid anhydrous, Precipitated silicone dioxide, Magnesium stearate, Aspartame, Beetroot powder, Melatonin.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-5mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-5mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-5mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/meladream-5mg/",
-    "source": "qnutrapharma.com",
-    "section": "ypnos",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-meladream3mg": {
-    "name": "MelaDream 3mg",
-    "subtitle": "Melatonin that dissolves in rapidly in the mouth.",
-    "description": "Meladream is a fast dissolving tablet providing 3mg of melatonin. Allow the tablet to dissolve on the tongue for a rapid absorption and effect of the melatonin.Melatonin regulates the body’s biological day-and-night rhythm and facilitates a more peaceful sleep by enhancing sleep patterns.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Specialist Supplements | Platinum Excellence™ Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "Meladream is a fast dissolving tablet providing 3mg of melatonin. Allow the tablet to dissolve on the tongue for a rapid absorption and effect of the melatonin.Melatonin regulates the body’s biological day-and-night rhythm and facilitates a more peaceful sleep by enhancing sleep patterns.",
-      "Οφέλη": "• Fast dissolving tablets\n• Rapid absorption\n• Natural blackcurrant flavour",
-      "Χρήση": "One tablet daily before sleep. Place the tablet in the mouth and allow it to dissolve, then swallow.",
-      "Συστατικά": "Mannitol, Microcrystalline cellulose, Crospovidone, Croscarmellose sodium, Black current flavouring, Xylitol, Citric acid anhydrous, Precipitated silicone dioxide, Magnesium stearate, Aspartame, Beetroot powder, Melatonin.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-3mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-3mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/08/MelaDream-3mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/meladream-3mg/",
-    "source": "qnutrapharma.com",
-    "section": "ypnos",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-questk2180mcg": {
-    "name": "K2 180Mcg",
-    "subtitle": "Bioactive all-trans vitamin K2 (MK-7) for bone and heart health.",
-    "description": "Quest K2 provides 180mcg of Vitamin K2 per capsule in Menaquinone-7 (MK-7) form. Quest K2 uses micro-encapsulated all-trans Menaquinone-7, which is the most stable and biologically active form that can be easily absorbed and utilized by the body. Vitamin K2 supports bone health, plays a role in the metabolism of calcium in the body and the activation of key proteins involved in bone formation and preventing arterial calcification. Vitamin K2 is also essential for the formation of prothrombin, which is crucial for blood to clot normally.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Heart & Circulation | Platinum Excellence™ Range | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Heart & Circulation | Platinum Excellence™ Range | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Quest K2 provides 180mcg of Vitamin K2 per capsule in Menaquinone-7 (MK-7) form. Quest K2 uses micro-encapsulated all-trans Menaquinone-7, which is the most stable and biologically active form that can be easily absorbed and utilized by the body. Vitamin K2 supports bone health, plays a role in the metabolism of calcium in the body and the activation of key proteins involved in bone formation and preventing arterial calcification. Vitamin K2 is also essential for the formation of prothrombin, which is crucial for blood to clot normally.",
-      "Οφέλη": "• 180mcg of Vitamin K2 per capsule in Menaquinone-7 (MK-7) form\n• Micro-encapsulated all-trans Menaquinone-7, the most stable and biologically active form of K2",
-      "Χρήση": "One capsule daily with food.",
-      "Συστατικά": "Vitamin K2 (with sucrose, acacia gum, corn starch, medium chain trigylcerides and tricalcium phosphate), Microcrystalline cellulose, Capsule shell (hydroxypropylmethylcellulose,\ngellan gum, purified water), D-alpha-tocopheryl acetate, Magnesium stearate,\nPrecipitated silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/06/Quest-K2-180mcg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/06/Quest-K2-180mcg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/06/Quest-K2-180mcg.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/06/Forte-K-180mcg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/quest-k2-180mcg/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayvisionlifecontributestomaintenanceofnormalvision": {
-    "name": "Once A Day Vision Life",
-    "subtitle": "Contributes to maintenance of normal vision",
-    "description": "OAD Vision life contains all the vitamins and mineral nutrients based on the latest clinical finding from AREDS2 study. AREDS2 is a major study looking at the use of key vitamins and minerals in reducing the onset and progression of age-related macular degeneration (AMD) of the eye. The vision life formulation does not include beta carotene, so is suitable for use by smokers. Riboflavin (Vitamin B2) and zinc contribute to maintenance of normal vision.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Eyes | Once a Day™ Range | Senior’s Health | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Eyes | Once a Day™ Range | Senior’s Health | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "OAD Vision life contains all the vitamins and mineral nutrients based on the latest clinical finding from AREDS2 study. AREDS2 is a major study looking at the use of key vitamins and minerals in reducing the onset and progression of age-related macular degeneration (AMD) of the eye. The vision life formulation does not include beta carotene, so is suitable for use by smokers. Riboflavin (Vitamin B2) and zinc contribute to maintenance of normal vision.",
-      "Οφέλη": "• Provides essential nutrients to maintain optimum eye health.\n• Based on AREDS2 clinical study formula.",
-      "Χρήση": "Take one to two tablets per day with food. Swallow with water.",
-      "Συστατικά": "D-alpha tocopheryl acetate, Ascorbic acid, Microcrystalline cellulose, Croscarmellose sodium, Lutein, Zinc citrate, Dicalcium phosphate anhydrous, Sepifilm LP014, Silicified microcrystalline cellulose, Croscarmellose sodium, Magnesium stearate, Sepisperse dry 5047 red, Zeaxanthin, Copper citrate, Riboflavin.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/OAD-Vision-Life-New.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/OAD-Vision-Life-New.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/03/OAD-Vision-Life-New.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-vision-lifecontributes-to-maintenance-of-normal-vision/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortecran": {
-    "name": "Forte Cran",
-    "subtitle": "For women and men",
-    "description": "Forte Cran sachets are a combination of D-mannose, cranberry and potassium citrate which together help to reduce the acidity of urine and inhibit bacterial adhesion in the urinary tract. Suitable for men and women, each sachet contains cranberry standardized extract providing 62.5mg proanthocyanidins and 1000mg D-mannose.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Phyto-Nutrients | Menopause | Once a Day™ Range | Pregnancy and Fertility | Specialist Health | Specialist Supplements | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Phyto-Nutrients | Menopause | Once a Day™ Range | Pregnancy and Fertility | Specialist Health | Specialist Supplements | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Forte Cran sachets are a combination of D-mannose, cranberry and potassium citrate which together help to reduce the acidity of urine and inhibit bacterial adhesion in the urinary tract. Suitable for men and women, each sachet contains cranberry standardized extract providing 62.5mg proanthocyanidins and 1000mg D-mannose.",
-      "Οφέλη": "• Natural cranberry flavour.\n• Power combination of three active nutrients for specialist health.",
-      "Χρήση": "Take one to two sachets daily with 200ml of drinking cool water.",
-      "Συστατικά": "D-Mannose,Potassium citrate, Cranberry extract, maltodextrin, citric acid, Natural flavouring, Beetroot concentrate, Silicon dioxide, Sucralose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Cran-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Cran-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Cran-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Cran-Mannose.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-cran/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortehydraactive": {
-    "name": "Forte Hydra Active",
-    "subtitle": "Oral hydration solution for maintaining hydration and energy",
-    "description": "Quest Forte Hydra Active is an oral hydration solution for maintaining hydration. Quest Forte Hydra Active provides a great-testing well-balanced mix of electrolyte, dextrose, vitamins, and minerals to replenish the body’s fluid levels and support energy levels. Magnesium, niacin, pantothenic acid, riboflavin (vitamin B2) and vitamins B12 & C contribute towards normal energy yielding metabolism and a reduction in tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Specialist Health | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Specialist Health | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "Quest Forte Hydra Active is an oral hydration solution for maintaining hydration. Quest Forte Hydra Active provides a great-testing well-balanced mix of electrolyte, dextrose, vitamins, and minerals to replenish the body’s fluid levels and support energy levels. Magnesium, niacin, pantothenic acid, riboflavin (vitamin B2) and vitamins B12 & C contribute towards normal energy yielding metabolism and a reduction in tiredness and fatigue.",
-      "Οφέλη": "• Provides Vitamins and Minerals.\n• Helps to maintaining hydration.\n• Also contains dextrose for energy support.\n• Helps to reduce tiredness and fatigue.",
-      "Χρήση": "Take one to three sachets daily with 500ml of drinking water.",
-      "Συστατικά": "Dextrose, Citric acid, Sodium citrate, Magnesium salts of citric acid, Natural lemon flavouring, Potassium chloride, Sodium chloride, L-ascorbic acid, D-pantothenate, Natural lime flavouring with other natural flavourings, Maltodextrin, Calcium carbonate, Nicotinamide, Sucralose, Beta-carotene (1%), Chromium (III) chloride (1%), Silicon dioxide, Zinc citrate, Cholecalciferol, Cyanocobalamin (0.1%), Thiamin mononitrate, Riboflavin, Pteroylmonoglutamic acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Hydra-Active-New.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Hydra-Active-New.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/03/Forte-Hydra-Active-New.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-hydra-active/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-ashwagandharootextract500mg": {
-    "name": "Ashwagandha Root Extract 500mg",
-    "subtitle": "Helps the body to manage stress and maintain energy levels",
-    "description": "Withanolides is a traditional adaptogen which helps to enhance the mechanisms to resist stress. It also helps to reduce anxiety, boost energy levels and can also help with insomnia and promoting a more balanced and adaptive stress response. Withanolides are thought to enhance energy levels without overstimulating the nervous system. They may support physical and mental stamina, contributing to improved focus, concentration, and memory under stress condition. It has been shown to improve muscle strength, speed, time to exhaustion, recovery time, and cardiorespiratory fitness in athletes and non-athletes.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Phyto-Nutrients | Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Phyto-Nutrients | Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "Withanolides is a traditional adaptogen which helps to enhance the mechanisms to resist stress. It also helps to reduce anxiety, boost energy levels and can also help with insomnia and promoting a more balanced and adaptive stress response. Withanolides are thought to enhance energy levels without overstimulating the nervous system. They may support physical and mental stamina, contributing to improved focus, concentration, and memory under stress condition. It has been shown to improve muscle strength, speed, time to exhaustion, recovery time, and cardiorespiratory fitness in athletes and non-athletes.",
-      "Οφέλη": "• Provides withanolides.\n• Standardised herb.\n• Helps to boost energy.\n• Helps manage stress..",
-      "Χρήση": "Take one to two capsules daily with food.",
-      "Συστατικά": "Ashwaghanda Extract, Microcrystalline Cellulose, Precipitated Silicon Dioxide, Magnesium Stearate, Capsule Shell (hydroxypropylmethylcellulose)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2024/02/Ashwagandha.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2024/02/Ashwagandha.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2024/02/Ashwagandha.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/ashwagandha-root-extract-500mg/",
-    "source": "qnutrapharma.com",
-    "section": "ypnos",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitaminczinceffervescent": {
-    "name": "Vitamin C + Zinc Effervescent",
-    "subtitle": "An immunity formulation containing 1000mg of Vitamin C & 10mg of Zinc in effervescent format",
-    "description": "Vitamin C and Zinc contribute to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient, vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Vitamin C is also involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency",
-      "Plus Rosehips",
-      "Dissolves quickly for fast nutrient absorption"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Immunity | Multi-Nutrients | Once a Day™ Range | Stress and Hectic Lifestyle | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Immunity | Multi-Nutrients | Once a Day™ Range | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin C and Zinc contribute to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient, vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Vitamin C is also involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "High potency\nPlus Rosehips\nDissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in water.",
-      "Συστατικά": "Acidity regulator: citric acid, L-ascorbic acid (vitamin C); acidity regulator: sodium carbonates; firming agent: sorbitols; natural orange flavouring; rose\nhips fruit extract (rosa canina); beetroot concentrate; zinc citrate, sweetener: sucralose; firming agent: polyethylene glycol; maltodextrin; bulking agent: arabic\ngum (acacia gum); colour: riboflavins.\nImportant: Contains sorbitol – excessive consumption may produce laxative effects.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/08/Vitamin-C-1000mg-Zinc-Effeervesent.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/08/Vitamin-C-1000mg-Zinc-Effeervesent.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/08/Vitamin-C-1000mg-Zinc-Effeervesent.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-c-zinc-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortehydralemonsachets": {
-    "name": "Forte Hydra Sachets",
-    "subtitle": "Oral hydration solution for maintaining hydration and electrolytes",
-    "description": "An electrolyte solution, scientifically formulated to rehydrate and replenish the body with vital minerals, potassium, sodium and chloride. Also contains citrates and dextrose for synergistic effect.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Energy | Once a Day™ Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Energy | Once a Day™ Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "An electrolyte solution, scientifically formulated to rehydrate and replenish the body with vital minerals, potassium, sodium and chloride. Also contains citrates and dextrose for synergistic effect.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Adults and children over 3 years, take one to two sachets daily. Dissolve one sachet in 200ml of drinking water. The oral solution should be made immediately prior to use and should not be stored. The sachet should not be reconstituted with a different volume of water than stated, or in any other liquid. Do not add sweetener or any other ingredients.",
-      "Συστατικά": "Dextrose; trisodium hydrogen citrate; sodium chloride; potassium chloride; natural lemon flavouring; sweetener (sucralose)."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Hydra-lemon-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Hydra-lemon-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Hydra-lemon-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-hydra-lemon-sachets/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-q10vitaminseffervescent": {
-    "name": "Q10 & Vitamins Effervescent",
-    "subtitle": "Coenzyme Q10 and 10 additional vitamins in effervescent format",
-    "description": "Coenzyme Q10 is also known as ubiquinone because it is naturally found in cells in the body, particularly in the mitochondria. Vitamins such as the B vitamins and Vitamin C contribute to the reduction of tiredness and fatigue.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Once a Day™ Range",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Coenzyme Q10 is also known as ubiquinone because it is naturally found in cells in the body, particularly in the mitochondria. Vitamins such as the B vitamins and Vitamin C contribute to the reduction of tiredness and fatigue.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulators: citric acid, sodium carbonates; firming agent: sorbitols; coenzyme Q10; L-ascorbic acid (vitamin C); sweetener: cyclamates; flavouring; beetroot concentrate; DL-alpha-tocopheryl acetate (vitamin E); firming agent: polyethylene glycol; nicotinamide (niacin); D-pantothenate, calcium (pantothenic acid); sweetener: saccharins; D-biotin (biotin); pteroylmonoglutamic acid (folic acid); cyanocobalamin (vitamin B12); pyridoxine hydrochloride (vitamin B6); riboflavin (vitamin B2); thiamin mononitrate (thiamin).\nImportant: Excessive consumption may produce laxative effects."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Q10-Vitamins-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Q10-Vitamins-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Q10-Vitamins-Effe-tube.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/q10-vitamins-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-multiazeffervescent": {
-    "name": "Multi A-Z Effervescent",
-    "subtitle": "Comprehensive multi nutrient formula in effervescent format",
-    "description": "An everyday supplement to support optimal well being. It contains nutrients such as the B vitamins that contribute to the reduction of tiredness and fatigue including Folic Acid, Iron, Magnesium, Niacin (B3), Pantothenic acid, Riboflavin (B2), Vitamin B12, Vitamin B6, Vitamin C. This is an “all-in-one” formula, providing 26 nutrients to augment dietary intake where needed",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Energy | Everyday Health and Wellbeing | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Energy | Everyday Health and Wellbeing | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "An everyday supplement to support optimal well being. It contains nutrients such as the B vitamins that contribute to the reduction of tiredness and fatigue including Folic Acid, Iron, Magnesium, Niacin (B3), Pantothenic acid, Riboflavin (B2), Vitamin B12, Vitamin B6, Vitamin C. This is an “all-in-one” formula, providing 26 nutrients to augment dietary intake where needed",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulator: citric acid; firming agent: sorbitols; acidity regulator: sodium carbonates; calcium salts of orthophosphoric acid; magnesium carbonate; L-ascorbic acid (vitamin C); potassium chloride; flavourings; sweetener: cyclamates; ferrous sulphate; magnesium oxide; DL-alpha-tocopheryl acetate (vitamin E); firming agent: polyethylene glycol; nicotinamide (niacin); chromium (III) chloride; calcium D-pantothenate (pantothenic acid); zinc oxide; retinyl acetate (vitamin A); sweetener: saccharins; colour: carotenes; D-biotin (biotin); pteroylmonoglutamic acid (folic acid); cyanocobalamin (vitamin B12); cholecalciferol (vitamin D); pyridoxine hydrochloride (vitamin B6); cupric sulphate; riboflavin (vitamin B2); thiamin mononitrate (thiamin); manganese sulphate; phylloquinone (vitamin K); sodium selenate; potassium iodate; sodium molybdate; silicon dioxide.\nImportant: Excessive consumption may produce laxative effects."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Multi-A-Z.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Multi-A-Z.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Multi-A-Z.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/multi-a-z-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-electrolyteswithvitaminseffervescent": {
-    "name": "Electrolytes with Vitamins Effervescent",
-    "subtitle": "Comprehensive multi nutrient formula in effervescent format",
-    "description": "An everyday supplement to support optimal well being. It contains nutrients such as the B vitamins that contribute to the reduction of tiredness and fatigue including Folic Acid, Iron, Magnesium, Niacin (B3), Pantothenic acid, Riboflavin (B2), Vitamin B12, Vitamin B6, Vitamin C. This is an “all-in-one” formula, providing 26 nutrients to augment dietary intake where needed",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Energy | Everyday Health and Wellbeing | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Energy | Everyday Health and Wellbeing | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "An everyday supplement to support optimal well being. It contains nutrients such as the B vitamins that contribute to the reduction of tiredness and fatigue including Folic Acid, Iron, Magnesium, Niacin (B3), Pantothenic acid, Riboflavin (B2), Vitamin B12, Vitamin B6, Vitamin C. This is an “all-in-one” formula, providing 26 nutrients to augment dietary intake where needed",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulator: citric acid; sodium bicarbonate; firming agent: sorbitols; sodium chloride; magnesium carbonate; potassium bicarbonate; calcium carbonate; L-ascorbic acid (vitamin C); DL-alpha-tocopheryl acetate (vitamin E); flavourings; firming agent: polyethylene glycol; nicotinamide (niacin); sweetener: sucralose; D-pantothenate, calcium (pantothenic acid); cyanocobalamin (vitamin B12); pyridoxine hydrochloride (vitamin B6); colour: riboflavins; pteroylmonoglutamic acid (folic acid); D-biotin (biotin)."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-Effe-tube.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/electrolytes-with-vitamins-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-electrolyteswithglucoseeffervescent": {
-    "name": "Electrolytes with Glucose Effervescent",
-    "subtitle": "Combination of potassium, sodium and chloride electrolytes with glucose",
-    "description": "An electrolyte solution, scientifically formulated to rehydrate and replenish the body with vital minerals, potassium, sodium and chloride. Also contains glucose and vitamin B2 for energy.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Energy | Once a Day™ Range | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Energy | Once a Day™ Range | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "An electrolyte solution, scientifically formulated to rehydrate and replenish the body with vital minerals, potassium, sodium and chloride. Also contains glucose and vitamin B2 for energy.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Adults and children over 6 years, dissolve two tablets in 200ml of cool drinking water.",
-      "Συστατικά": "Dextrose; firming agent: sorbitols; acidity regulator: citric acid; sodium bicarbonate; potassium chloride; sodium chloride; maize starch; firming agent: polyethylene glycol; natural lemon flavouring; sweetener: sucralose; riboflavin (vitamin B2).\nConsult a qualified health professional before using this product if you have diabetes, are on a low-sodium diet, have intestinal obstruction, or problems with your liver or kidney function."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-with-Glucose-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-with-Glucose-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Electrolytes-with-Glucose-Effe-tube.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Hydra-Balance.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/electrolytes-with-glucose-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-echinaceapropoliseffervescent": {
-    "name": "Echinacea & Propolis Effervescent",
-    "subtitle": "Combination of Echinacea & Propolis in effervescent format",
-    "description": "Combination of Echinacea & Propolis in effervescent format to support immune function.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Phyto-Nutrients | Immunity | Once a Day™ Range",
-      "Συσκευασία": "20 δισκία",
-      "Κατηγορία qnutrapharma.com": "Phyto-Nutrients | Immunity | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Combination of Echinacea & Propolis in effervescent format to support immune function.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one tablet daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulators: citric acid, sodium carbonates; firming agent: sorbitols; L-ascorbic acid (vitamin C); echinacea aerial part extract (Echinacea purpurea); sweetener: cyclamates; propolis extract; flavouring; firming agent: polyethylene glycol; zinc citrate; sweetener: saccharins; colour: riboflavins."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Echinacea-Propolis-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Echinacea-Propolis-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Echinacea-Propolis-Effe-tube.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/echinacea-propolis-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-activeeffervescent": {
-    "name": "Active Effervescent",
-    "subtitle": "Caffeine and vitamins for energy in effervescent format",
-    "description": "A special combination of caffeine and vitamins to support normal energy metabolism.",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "A special combination of caffeine and vitamins to support normal energy metabolism.",
-      "Οφέλη": "• Dissolves quickly for fast nutrient absorption",
-      "Χρήση": "Take one to three tablets daily dissolved in a glass of water.",
-      "Συστατικά": "Acidity regulators: citric acid, sodium carbonates; firming agent: sorbitols; glucose; flavourings; firming agent: polyethylene glycol; caffeine; sweeteners: aspartame, saccharins; inositol; nicotinamide (niacin); calcium D-pantothenate (pantothenic acid); pyridoxine hydrochloride (vitamin B6); riboflavin (vitamin B2); cyanocobalamin (vitamin B12)."
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Active-Effe-tube.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Active-Effe-tube.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Active-Effe-tube.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/active-effervescent/",
-    "source": "qnutrapharma.com",
-    "section": "energeia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortemagb": {
-    "name": "Forte Mag B",
-    "subtitle": "Supports muscle health, energy levels and the nervous system",
-    "description": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency formula",
-      "Gentle on the gut",
-      "Highly absorbable form of magnesium",
-      "Titanium dioxide free"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Bones | Energy | Heart & Circulation | Joints and Muscles | Platinum Excellence™ Range | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Bones | Energy | Heart & Circulation | Joints and Muscles | Platinum Excellence™ Range | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-      "Οφέλη": "High potency formula\nGentle on the gut\nHighly absorbable form of magnesium\nTitanium dioxide free",
-      "Χρήση": "Take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Magnesium Citrate, Bulking agent (microcrystalline cellulose), Dicalcium Phosphate, Silicified Microcrystalline Cellulose, Glazing Agent (hydroxypropyl- methylcellulose, microcrystalline cellulose, stearic acid, calcium carbonate), Croscarmellose Sodium, Vitamin B6 (pyridoxine hydrochloride), Anti-caking Agent (magnesium stearate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Mag-B-carton.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Mag-B-carton.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/Forte-Mag-B-carton.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-mag-b/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaychewablekidsprobiotic": {
-    "name": "Once A Day Kids Probiotic",
-    "subtitle": "Probiotic bacteria especially formulated for children to support gut, digestive and immune health",
-    "description": "Especially formulated for children to support everyday digestive, gut and immune health. Probiotic supplements can help support the early development of intestinal microflora in children which can have a positive impact on their future health. Beneficial probiotic bacteria help maintain balanced gut health, modulate immune function and may help reduce the occurrence of allergies and atopic eczema or dermatitis in children.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Tasty blackcurrant flavour chewable tablet",
-      "Multi-strain formula providing 2 billion friendly organisms per tablet",
-      "Lyophilised, gently tabletted and individually sealed to enhance stability"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Probiotics | Children’s Health | Gut and Digestion | Once a Day™ Range",
-      "Κατηγορία qnutrapharma.com": "Probiotics | Children’s Health | Gut and Digestion | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Especially formulated for children to support everyday digestive, gut and immune health. Probiotic supplements can help support the early development of intestinal microflora in children which can have a positive impact on their future health. Beneficial probiotic bacteria help maintain balanced gut health, modulate immune function and may help reduce the occurrence of allergies and atopic eczema or dermatitis in children.",
-      "Οφέλη": "Tasty blackcurrant flavour chewable tablet\nMulti-strain formula providing 2 billion friendly organisms per tablet\nLyophilised, gently tabletted and individually sealed to enhance stability",
-      "Χρήση": "One to two chewable tablets daily with or after a meal. Suitable from 3 years of age.",
-      "Συστατικά": "Dextrose anhydrous, microcrystalline cellulose, lyophilised lactobacilli culture, blackcurrant flavour, precipitated silicon dioxide, magnesium stearate, beetroot powder, antioxidant: citric acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/OAD-Chewable-Kids-Probiotic.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/07/OAD-Chewable-Kids-Probiotic.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/07/OAD-Chewable-Kids-Probiotic.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-chewable-kids-probiotic/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-questd1000iu": {
-    "name": "D 1000 IU",
-    "subtitle": "Supports immunity, bones, muscle and teeth",
-    "description": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Provides 1000i.u (25mcg) vitamin D per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-      "Οφέλη": "Provides 1000i.u (25mcg) vitamin D per tablet",
-      "Χρήση": "Take one tablet daily with food and swallow with water.",
-      "Συστατικά": "Microcrystalline Cellulose, Di-calcium Phosphate, Vitamin D (with bovine gelatine, sucrose, corn starch, soybean oil, dl-alpha-tocopheryl), anti-caking agent (precipitated silicon dioxide), Magnesium Stearate.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/QuestD-1000.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/QuestD-1000.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/06/QuestD-1000.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/questd-1000-iu/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-biomag150mg": {
-    "name": "BioMag 150mg",
-    "subtitle": "Supports muscle health, energy levels and the nervous system",
-    "description": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilization",
-      "Contains synergistic vitamin B6 to aid metabolism of magnesium"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Minerals | Bones | Energy | Heart & Circulation | Joints and Muscles | Platinum Excellence™ Range | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Minerals | Bones | Energy | Heart & Circulation | Joints and Muscles | Platinum Excellence™ Range | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilization\nContains synergistic vitamin B6 to aid metabolism of magnesium",
-      "Χρήση": "Take one or two tablets daily with food.",
-      "Συστατικά": "Magnesium amino acid blend (with citric acid, magnesium oxide, aspartic acid, rice protein, rice protein concentrate), bulking agent (microcrystalline cellulose), croscarmellose sodium, coating agent (hydroxypropyl methylcellulose, microcrystalline cellulose, stearic acid, titanium dioxide), magnesium stearate, pyridoxine hydrochloride (with hydroxypropyl methylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/BioMag-150mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/BioMag-150mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/06/BioMag-150mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/biomag-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-activefolate400mcg": {
-    "name": "ActiveFolate 400 mcg",
-    "subtitle": "Bio-available form of folate for pregnant women to reduce the risk of neural tube defects.",
-    "description": "Provides L-methyl-folate, the bioavailable metabolically active form of folate in the body. Folate contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. The bio-active form of folate, l-methylfolate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus. It also supports immune function, helps reduce tiredness and fatigue and supports normal homocysteine levels. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folate as a supplement daily to ensure a dietary intake.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "400mcg of folate as recommended for pregnant woman and those planning a pregnancy.",
-      "Biologically active form."
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Vitamins | Platinum Excellence™ Range | Pregnancy and Fertility",
-      "Κατηγορία qnutrapharma.com": "Vitamins | Platinum Excellence™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Provides L-methyl-folate, the bioavailable metabolically active form of folate in the body. Folate contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. The bio-active form of folate, l-methylfolate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus. It also supports immune function, helps reduce tiredness and fatigue and supports normal homocysteine levels. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folate as a supplement daily to ensure a dietary intake.",
-      "Οφέλη": "400mcg of folate as recommended for pregnant woman and those planning a pregnancy.\nBiologically active form.",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Bulking agent: Microcrystalline Cellulose, Calcium methylfolate, Di-Calcium Phosphate, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/ActiveFolate-400mcg-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2023/06/ActiveFolate-400mcg-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/06/ActiveFolate-400mcg-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2023/06/L-Methyl-Folate.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/activefolate-400-mcg/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayseleniumplus": {
-    "name": "Once A Day Selenium Plus",
-    "subtitle": "Protects body cells from oxidative stress",
-    "description": "Selenium Plus combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system, is involved in the maintenance of hair and nails and contributes to the normal production of sperm. The selenium in this product is chelated with amino acids for optimum absorption and utilization.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Immunity | Men’s Health and Fertility | Minerals | Once a Day™ Range | Skin, Hair and Nails",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Immunity | Men’s Health and Fertility | Minerals | Once a Day™ Range | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Selenium Plus combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system, is involved in the maintenance of hair and nails and contributes to the normal production of sperm. The selenium in this product is chelated with amino acids for optimum absorption and utilization.",
-      "Οφέλη": "• Amino acid chelated selenium for enhanced absorption, With synergistic nutrients vitamin C & E",
-      "Χρήση": "As a food supplement take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Dicalcium phosphate, ascorbic acid (with hydroxypropylmethylcellulose), bulking agent (microcrystalline cellulose), d-alpha tocopherol acetate (from soya) (with corn starch, maltodextrin, silicon dioxide, monoglyceride), selenium amino acid blend (with rice protein, citric acid, glycine, sodium selenite), anticaking agent (magnesium stearate).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/OAD-Selenium-Plus-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/OAD-Selenium-Plus-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/OAD-Selenium-Plus-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-selenium-plus/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-tumbiotixgold": {
-    "name": "TumBiotix Gold",
-    "subtitle": "Specialist probiotic + herbal extract combination for IBS",
-    "description": "TUMBIOTIX GOLD™ provides a potent combination of Casperome® and probiotic lactobacilli bacteria. Casperome® is a clinically researched lecithin-based formulation of boswellia serrata extract. Casperome® has anti-inflammatory properties and may be beneficial to individuals with irritable bowel diseases. This multi action formulation also contains three popular strains of probiotic bacteria, L.plantarum, L.acidophilus and L.rhamnosus which further improve gut health. This product has been encapsulated in acid-resistant DRcapsTM. DRcapsTM are designed to delay the release of the active ingredients, reducing the exposure of the sensitive probiotic bacteria to the acidic environment in the stomach and releasing these ingredients directly into the intestine.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Specialist Health"
-    },
-    "sections": {
-      "Περιγραφή": "TUMBIOTIX GOLD™ provides a potent combination of Casperome® and probiotic lactobacilli bacteria. Casperome® is a clinically researched lecithin-based formulation of boswellia serrata extract. Casperome® has anti-inflammatory properties and may be beneficial to individuals with irritable bowel diseases. This multi action formulation also contains three popular strains of probiotic bacteria, L.plantarum, L.acidophilus and L.rhamnosus which further improve gut health. This product has been encapsulated in acid-resistant DRcapsTM. DRcapsTM are designed to delay the release of the active ingredients, reducing the exposure of the sensitive probiotic bacteria to the acidic environment in the stomach and releasing these ingredients directly into the intestine.",
-      "Οφέλη": "• A multi-action formula consisting of Boswellia Serrata extract and probiotics, Standardised to 3-acetyl-11-keto-beta boswellic acid, Delayed release capsule guarantee the delivery of live probiotics",
-      "Χρήση": "One to two capsules daily with or after a meal. Swallow with water.",
-      "Συστατικά": "Maltodextrin, casperome® (boswellia serrata extract, lecithin, microcrystalline cellulose, silicon dioxide), capsule shell (hydroxypropylmethylcellulose, gellan gum), lactobacilli cultures (L.acidophilus, L.rhamnosus, L.plantarum), magnesium stearate, ascorbic acid (with hydroxypropylmethylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TumBiotix-Gold-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TumBiotix-Gold-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TumBiotix-Gold-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/tumbiotix-gold/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-calmbiotix": {
-    "name": "CalmBiotix",
-    "subtitle": "Contributes towards normal psychological function and normal function of nerves",
-    "description": "CALMBIOTIX™ is a multi-therapeutic formula for those who need support with anxiety, stress, relaxation and sleep. CalmBiotix contains lactium, probiotics, amino acids, vitamins and magnesium which contributes to normal psychological function and the normal function of nerves. This product has been encapsulated in acid-resistant DR Caps™. DR Caps™ are designed to delay the release of the active ingredients, reducing the exposure of the sensitive probiotic bacteria to the acidic environment of the stomach and releasing these ingredients directly into the intestines. The active bacteria contained in this product are lyophilised, encapsulated and then individually sealed by Quest to enhance their stability until the end of shelf life",
-    "claims": [
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Probiotics | Specialist Health | Stress and Hectic Lifestyle",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Probiotics | Specialist Health | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "CALMBIOTIX™ is a multi-therapeutic formula for those who need support with anxiety, stress, relaxation and sleep. CalmBiotix contains lactium, probiotics, amino acids, vitamins and magnesium which contributes to normal psychological function and the normal function of nerves. This product has been encapsulated in acid-resistant DR Caps™. DR Caps™ are designed to delay the release of the active ingredients, reducing the exposure of the sensitive probiotic bacteria to the acidic environment of the stomach and releasing these ingredients directly into the intestines. The active bacteria contained in this product are lyophilised, encapsulated and then individually sealed by Quest to enhance their stability until the end of shelf life",
-      "Οφέλη": "• A combination of Lactium , magnesium, B Vitamins, L.theanine and Probiotics\n• Delayed release capsules for guaranteed live delivery of probiotics",
-      "Χρήση": "One to two capsules daily with a meal. Swallow with water.",
-      "Συστατικά": "Magnesium citrate, magnesium oxide, milk protein hydrolysate (lactium),L.theanine, microcrystalline cellulose, riboflavin, thiamin mononitrate (with hydroxypropylmethycellulose), lactobacilli cultures (L.acidophilus, L.rhamnosus),magnesium stearate, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γλουτένη\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ClamBiotix-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ClamBiotix-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ClamBiotix-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/calmbiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayzincplus": {
-    "name": "Once A Day Zinc Plus",
-    "subtitle": "Supports immunity, fertility, hair, nails and skin",
-    "description": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Immunity | Minerals | Once a Day™ Range | Pregnancy and Fertility | Skin, Hair and Nails",
-      "Κατηγορία qnutrapharma.com": "Immunity | Minerals | Once a Day™ Range | Pregnancy and Fertility | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-      "Οφέλη": "• Amino acid cheated zinc for enhanced absorption, balanced with copper.",
-      "Χρήση": "Take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Dicalcium Phosphate, Zinc Amino Acid Blend (with rice protein, citric acid, zinc oxide, glycine, copper sulphate, rice protein concentrate), Bulking Agent (microcrystalline cellulose), Croscarmellose Sodium, Anticaking Agent (magnesium Stearate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-Plus-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-Plus-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-Plus-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-zinc-plus/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayimmunemulti": {
-    "name": "Once A Day Immune Multi",
-    "subtitle": "An all-in-one formula containing nutrients to support a normally functioning immune system.",
-    "description": "Once A Day Immune Multi provides 12 key nutrients, including vitamin C, D and zinc for the normal function of immune system. Providing amino acid chelated zinc, copper and selenium for enhanced absorption and utilisation of these essential minerals in the body. Vitamins A, C, D and E work together for the protection of oxidative stress and for the normal function of the immune system.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Immunity | Once a Day™ Range",
-      "Κατηγορία qnutrapharma.com": "Immunity | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Once A Day Immune Multi provides 12 key nutrients, including vitamin C, D and zinc for the normal function of immune system. Providing amino acid chelated zinc, copper and selenium for enhanced absorption and utilisation of these essential minerals in the body. Vitamins A, C, D and E work together for the protection of oxidative stress and for the normal function of the immune system.",
-      "Οφέλη": "• 12 essential nutrients, amino acid chelated minerals for enhanced absorption.",
-      "Χρήση": "1-2 tablets daily with food. Swallow with water.",
-      "Συστατικά": "Ascorbic acid (with hydroxypropylmethylcellulose), d-alpha tocopheryl acetate (with maltodextrin, starch sodium octenyl succinate, silicon dioxide, sodium stearyl lactate), zinc amino acid blend (with rice flour, citric acid, zinc oxide, glycine, copper sulphate pentahydrate, rice protein), croscarmellose sodium, dicalcium phosphate, silicified microcrystalline cellulose, beta carotene (with modified food starch, corn starch, dl-alpha-tocopherol), vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol), magnesium stearate, precipitated silicon dioxide, vitamin A palmitate (with sucrose, gum Arabic, corn starch, tricalcium phosphate, dl-alpha-tocopherol), selenium amino acid blend (with rice flour, citric acid, glycine, sodium selenite), mixed carotenoids (with maltodextrin, croscarmellose sodium, ascorbic acid, ethyl cellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Immune-Multi-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Immune-Multi-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Immune-Multi-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-immune-multi/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaybonelife": {
-    "name": "Once A Day Bone Life",
-    "subtitle": "Six key nutrients to support bone health",
-    "description": "Once A Day Bone Life provides vitamins and minerals which are essential for bone health. Vitamin D contributes towards normal absorption and utilization of calcium and for the maintenance of normal bones. Vitamin K works in balance with vitamin D and supports its action for bone health. Calcium and magnesium are some of the main minerals found in bones and work in balance with each other for normal bones and teeth. Zinc and copper also wok together. Zinc contributes towards the maintenance of bones and copper contributes towards normal connective tissue which is important for bone health.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Minerals | Once a Day™ Range",
-      "Κατηγορία qnutrapharma.com": "Bones | Minerals | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Once A Day Bone Life provides vitamins and minerals which are essential for bone health. Vitamin D contributes towards normal absorption and utilization of calcium and for the maintenance of normal bones. Vitamin K works in balance with vitamin D and supports its action for bone health. Calcium and magnesium are some of the main minerals found in bones and work in balance with each other for normal bones and teeth. Zinc and copper also wok together. Zinc contributes towards the maintenance of bones and copper contributes towards normal connective tissue which is important for bone health.",
-      "Οφέλη": "• 6 nutrients for bone health, mineral amino acid chelates for enhanced absorption.",
-      "Χρήση": "Take 1-2 tablets daily with food.",
-      "Συστατικά": "Magnesium citrate, calcium carbonate, microcrystalline cellulose, silicified microcrystalline cellulose, dicalcium phosphate, zinc citrate, croscarmellose sodium, magnesium stearate, vitamin d (with modified food starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, d-a-tocopherol), precipitated silicon dioxide, menetetrenone-7 (with dicalcium phosphate), copper citrate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bone-Life-Image.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bone-Life-Image.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bone-Life-Image.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-bone-life/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-pregnallbioplus": {
-    "name": "Pregnall bio-plus",
-    "subtitle": "Comprehensive multi-nutrient formula + DHA for women planning a pregnancy, those who are pregnant and breastfeeding women.",
-    "description": "Pregnall bio-plus is a comprehensive formula designed to provide a complete range of vitamins, minerals and DHA for women planning a pregnancy, those who are pregnant and breastfeeding women. Pregnall bio-plus provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [
-      "Comprehensive multi-nutrient formula",
-      "Provides 400 mcg of L-methyl folate",
-      "Recommended for pregnant women, and those trying to conceive"
-    ],
-    "attributes": {
-      "Σειρά": "Pregnall™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Pregnall bio-plus is a comprehensive formula designed to provide a complete range of vitamins, minerals and DHA for women planning a pregnancy, those who are pregnant and breastfeeding women. Pregnall bio-plus provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-      "Οφέλη": "Comprehensive multi-nutrient formula\nProvides 400 mcg of L-methyl folate\nRecommended for pregnant women, and those trying to conceive",
-      "Χρήση": "2 Tablets and 1 Capsule each day with food.",
-      "Συστατικά": "Ingredients-Multinutrient tablet: Ingredients: Multimineral Amino Acid Blend (with magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate pentahydrate, selenium aspartate, manganese carbonate, rice protein concentrate, potassium iodide, calcium carbonate, glycine, rice protein, chromium, molybdenum), Dicalcium Phosphate, Choline Bitartrate (with silca), Ascorbic Acid (with hydroxypropylmethylcellulose), Silicified Microcrystalline Cellulose, Croscarmellose Sodium, Magnesium Stearate, D-Alpha Tocopherol Acetate (with maltodextrin, starch, sodium octenyl succinate, silicon dioxide, sodium stearyl lactate), Nicotinamide, Calcium Methyl Folate, D-biotin (with dicalcium phosphate), Vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-a tocopherol), Beta Carotene (with modified food starch, corn starch, dl-alpha tocopherol), Vitamin K2, Calcium-D Pantothenate, Pyridoxine HCl (with hydroxypropylmethylcellulose), Thiamin Mononitrate (with hydroxypropylmethylcellulose), Riboflavin, Vitamin B12 (with dicalcium phosphate), Folic acid, Potassium Iodide, Glazing Agent (hydromellose, titanium dioxide, microcrystalline cellulose, stearic acid, copper chlorophyllin).\nIngredients – Fish oil capsules: Capsule Shell (bovine gelatin, glycerol), Fish Oil, Antioxidant (d-alpha tocopherol with sunflower oil).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-plus.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-plus.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-plus.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/pregnall-bio-plus/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-pregnallbiolact": {
-    "name": "Pregnall bio-lact",
-    "subtitle": "Comprehensive multi-nutrient formula + DHA for pregnant women and breastfeeding women.",
-    "description": "Pregnall bio-lact is a comprehensive formula designed to provide a complete range of vitamins, minerals and DHA for pregnant and breastfeeding women. Pregnall bio-lact provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [
-      "Comprehensive multi-nutrient formula",
-      "Provides 400 mcg of L-methyl folate",
-      "Recommended for pregnant women, and those trying to conceive"
-    ],
-    "attributes": {
-      "Σειρά": "Pregnall™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Pregnall bio-lact is a comprehensive formula designed to provide a complete range of vitamins, minerals and DHA for pregnant and breastfeeding women. Pregnall bio-lact provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-      "Οφέλη": "Comprehensive multi-nutrient formula\nProvides 400 mcg of L-methyl folate\nRecommended for pregnant women, and those trying to conceive",
-      "Χρήση": "One tablet daily with food. Swallow with water.",
-      "Συστατικά": "Ingredients-Multinutrient tablet: Calcium Carbonate, Multimineral Amino Acid Blend (with magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate pentahydrate, selenium aspartate, manganese carbonate, rice protein concentrate, potassium iodide, calcium carbonate, glycine, rice protein, chromium, molybdenum), Bulking Agent (microcrystalline cellulose), Choline Bitartrate (with silca), Dicalcium Phosphate, Anticaking Agent (microcrystalline cellulose), Ascorbic Acid (with hydroxyproplymethlycellulose), Croscarmellose Sodium, Bulking Agent (magnesium stearate), D-Alpha Tocopherol Acetate (with maltodextrin, starch, sodium octenyl succinate, silicon dioxide, sodium stearyl lactate), Nicotinamide, Calcium Methyl Folate, D-biotin (with dicalcium phosphate), Vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-a tocopherol), Beta Carotene (with modified food starch, corn starch, dl-alpha tocopherol), Calcium-D Pantothenate, Vitamin K2, Thiamin Mononitrate (with hydroxypropylmethylcellulose), Pyridoxine HCl (with hydroxypropylmethylcellulose), Riboflavin, Folic acid, Potassium Iodide,\nIngredients – Fish oil capsules: Capsule Shell (bovine gelatin, glycerol), Fish Oil, Antioxidant (d-alpha tocopherol with sunflower oil).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-lact.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-lact.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-lact.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/pregnall-bio-lact/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-pregnallbiogrow": {
-    "name": "Pregnall bio-grow",
-    "subtitle": "Comprehensive multi-nutrient formula for pregnant women and those wishing to conceive",
-    "description": "Pregnall bio-grow is a comprehensive formula designed to provide a complete range of vitamins and minerals for pregnant and lactating women, and for those trying to conceive. Pregnall bio-grow provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Comprehensive multi-nutrient formula",
-      "Provides 400 mcg of L-methyl folate",
-      "Recommended for pregnant women, and those trying to conceive"
-    ],
-    "attributes": {
-      "Σειρά": "Pregnall™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Pregnall™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Pregnall bio-grow is a comprehensive formula designed to provide a complete range of vitamins and minerals for pregnant and lactating women, and for those trying to conceive. Pregnall bio-grow provides the active form of folate, known as L-methyl folate, at the level of 400 mcg as officially recommended for women in this life stage.",
-      "Οφέλη": "Comprehensive multi-nutrient formula\nProvides 400 mcg of L-methyl folate\nRecommended for pregnant women, and those trying to conceive",
-      "Χρήση": "One tablet daily with food. Swallow with water.",
-      "Συστατικά": "Multimineral Amino Acid Blend (with magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate pentahydrate, selenium aspartate, manganese carbonate, rice protein concentrate, potassium iodide, calcium carbonate, glycine, rice protein, chromium, molybdenum), Dicalcium Phosphate, Choline Bitartrate (with silca), Ascorbic Acid (with hydroxypropylmethylcellulose), Silicified Microcrystalline Cellulose, Croscarmellose Sodium, Magnesium Stearate, D-Alpha Tocopherol Acetate (with maltodextrin, starch, sodium octenyl succinate, silicon dioxide, sodium stearyl lactate), Nicotinamide, Calcium Methyl Folate, D-biotin (with dicalcium phosphate), Vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-a tocopherol), Beta Carotene (with modified food starch, corn starch, dl-alpha tocopherol), Vitamin K2, Calcium-D Pantothenate, Pyridoxine HCl (with hydroxypropylmethylcellulose), Thiamin Mononitrate (with hydroxypropylmethylcellulose), Riboflavin, Vitamin B12 (with dicalcium phosphate), Folic acid, Potassium Iodide, Glazing Agent (hydromellose, titanium dioxide, microcrystalline cellulose, stearic acid, copper chlorophyllin).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-grow.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-grow.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Pregnal-bio-grow.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/pregnall-bio-grow/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-forted50000": {
-    "name": "D 50,000 IU",
-    "subtitle": "Providing high potency 50,000 iu per tablet",
-    "description": "Quest D 50,000 is a high potency vitamin D supplement providing 50,000 iu of vitamin D3 per tablet. This tablet is recommended after a blood test has confirmed a deficiency or insufficiency and should be taken under the instruction and supervision of a doctor or qualified health professional.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health | Specialist Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health | Specialist Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest D 50,000 is a high potency vitamin D supplement providing 50,000 iu of vitamin D3 per tablet. This tablet is recommended after a blood test has confirmed a deficiency or insufficiency and should be taken under the instruction and supervision of a doctor or qualified health professional.",
-      "Οφέλη": "• High potency 50,000 iu per tablet",
-      "Χρήση": "Take as directed by your doctor or health professional. This amount of vitamin D should only be taken on the advice of a doctor or qualified health professional.",
-      "Συστατικά": "Vitamin D3 (with bovine gelatin, sucrose, corn starch, soyabean oil, dl-alpha tocopherol), microcrystalline cellulose, dicalcium phosphate, croscarmellose sodium, coating agent (hydroxypropylmethylcellulose, stearic acid, microcrystalline cellulose), colouring agent (hydroxypropylmethylcellulose, titanium dioxide, iron oxide, microcrystalline cellulose), precipitated silicon dioxide, magnesium stearate.\nAllergy Advice: For allergens, see ingredients in Bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-50000iu.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-50000iu.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-50000iu.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-d-50000/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-forted10000": {
-    "name": "D 10,000 IU",
-    "subtitle": "Providing high potency 10,000 iu per tablet",
-    "description": "Quest D 10000 IU is a high potency vitamin D supplement providing 10,000 iu of vitamin D3 per tablet. This tablet is recommended after a blood test has confirmed a deficiency or insufficiency and should be taken under the instruction and supervision of a doctor or qualified health professional.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest D 10000 IU is a high potency vitamin D supplement providing 10,000 iu of vitamin D3 per tablet. This tablet is recommended after a blood test has confirmed a deficiency or insufficiency and should be taken under the instruction and supervision of a doctor or qualified health professional.",
-      "Οφέλη": "• High potency 10,000 iu per tablet",
-      "Χρήση": "Take as directed by your doctor or health professional. This amount of vitamin D should only be taken on the advice of a doctor or qualified health professional.",
-      "Συστατικά": "Microcrystalline cellulose, vitamin D3 (with bovine gelatin, sucrose, corn starch, soyabean oil, dl-alpha tocopherol, dicalcium phosphate, coating agent (hydroxypropylmethylcellulose, stearic acid, microcrystalline cellulose), magnesium stearate, colouring agent (hydroxypropylmethycellulose, titanium dioxide, iron oxide, microcrystalline cellulose), precipitated silicon dioxide, croscarmellose sodium.\nAllergy Advice: For allergens, see ingredients in Bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-10000iu.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-10000iu.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-10000iu.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-d-10000/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortedliquid": {
-    "name": "Forte D Liquid",
-    "subtitle": "Easy to take liquid, 1000iu vitamin D3 per drop",
-    "description": "Forte D Liquid is an easy to take liquid providing 1000 iu per drop. Vitamin D is required for the normal function of the immune system and contributes to the normal function of bones and teeth. A vitamin D supplement is officially recommended for those at risk of a vitamin D deficiency. Forte D Liquid is easy to take, tasteless and ideal for those who cannot or do not want to swallow tablets.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Immunity | Platinum Excellence™ Range | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Immunity | Platinum Excellence™ Range | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Forte D Liquid is an easy to take liquid providing 1000 iu per drop. Vitamin D is required for the normal function of the immune system and contributes to the normal function of bones and teeth. A vitamin D supplement is officially recommended for those at risk of a vitamin D deficiency. Forte D Liquid is easy to take, tasteless and ideal for those who cannot or do not want to swallow tablets.",
-      "Οφέλη": "1000 iu vitamin D3 per drop",
-      "Χρήση": "One to four drops daily with or after a meal. Shake well before use.",
-      "Συστατικά": "Sunflower Oil, Vitamin D3 (with medium chain triglycerides, dl-alpha-tocopherol), Precipitated Silicon Dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Forte-D-liquid-box-image-7ML.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Forte-D-liquid-box-image-7ML.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Forte-D-liquid-box-image-7ML.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-d-liquid/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-forted5000": {
-    "name": "D 5000 IU",
-    "subtitle": "High strength 5000 iu vitamin D3 per tablet",
-    "description": "High strength vitamin D3 supplement. QuestD 5000 provides 5000 iu of vitamin D3 per day and may be used by individuals who do not have sufficient levels of vitamin D. Vitamin D contributes to normal bones, teeth, muscle function and immune and inflammatory responses. Vitamin D is naturally synthesized in the body through exposure of skin to sunlight. A supplement may be recommended for those with limited sun exposure.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "High strength vitamin D3 supplement. QuestD 5000 provides 5000 iu of vitamin D3 per day and may be used by individuals who do not have sufficient levels of vitamin D. Vitamin D contributes to normal bones, teeth, muscle function and immune and inflammatory responses. Vitamin D is naturally synthesized in the body through exposure of skin to sunlight. A supplement may be recommended for those with limited sun exposure.",
-      "Οφέλη": "• High strength, bioavailable form of D3",
-      "Χρήση": "As a food supplement take one tablet daily with food. Swallow with water.",
-      "Συστατικά": "Bulking agent (microcrystalline cellulose), dicalcium phosphate, vitamin D3 (with bovine gelatin, sucrose, corn starch, soya bean oil, dl-alpha tocopherol), glazing agent (hydroxypropylmethylcellulose, stearic acid, microcrystalline cellulose, titanium dioxide, iron oxide), croscarmellose sodium, precipitated silicon dioxide, magnesium stearate.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-5000iu.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-5000iu.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/QuestD-5000iu.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-d-5000/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaykidschewablemulti": {
-    "name": "Once A Day Kids Chewable Multi",
-    "subtitle": "All in One Formula designed for children 3+",
-    "description": "Once A Day Kids Multi is an everyday supplement to support optimal well being of children. A tasty once-a-day formulation for children designed to protect against nutrient-deficiencies and providing 29 essential nutrients to promote growth, immunity, general good health and development",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Amino acid chelated minerals",
-      "One a day dosage",
-      "22 essential nutrients"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Children’s Health | Multi-Nutrients | Once a Day™ Range",
-      "Κατηγορία qnutrapharma.com": "Children’s Health | Multi-Nutrients | Once a Day™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Once A Day Kids Multi is an everyday supplement to support optimal well being of children. A tasty once-a-day formulation for children designed to protect against nutrient-deficiencies and providing 29 essential nutrients to promote growth, immunity, general good health and development",
-      "Οφέλη": "Amino acid chelated minerals\nOne a day dosage\n22 essential nutrients",
-      "Χρήση": "One tablet daily with or after food.",
-      "Συστατικά": "Fructose, calcium amino acid blend (with calcium carbonate citric acid, calcium hydroxide, rice flour, glycine, rice protein), magnesium citrate, xylitol, ascorbic acid, iron (with maize starch, sunflower lecithin), silicified microcrystalline cellulose, citric acid, nicotinamide (with mono & diglycerides, silicon dioxide), beetroot powder, precipitated silicon dioxide, d-a-tocopheryl acetate, xanthan gum, natural flavouring, soya lecithin, zinc citrate, magnesium stearate, calcium-d-pantothenate, vitamin A palmitate, pyridoxine hydrochloride, d-biotin (triturate in dicalcium phosphate), maltodextrin, microcrystalline cellulose, riboflavin (with mono & diglycerides), vitamin D3 (with sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, d-a-tocopherol, starch), selenium amino acid blend (with rice flour, citric acid, glycine, sodium selenite), copper citrate, vitamin B12 (triturate, dicalcium phosphate), folic acid, chromium picolinate, potassium iodide.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-KIDS-CHEWABLE-MULTI.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-KIDS-CHEWABLE-MULTI.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-KIDS-CHEWABLE-MULTI.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-kids-chewable-multi/",
-    "source": "qnutrapharma.com",
-    "section": "paidia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayjointplus": {
-    "name": "Once A Day Joint Plus",
-    "subtitle": "A three-in-one supplement to support joint health.",
-    "description": "Joint plus contains glucosamine, chondroitin and MSM in a convenient high strength all in one formula. Glucosamine and chondroitin are key structural components of cartilage. MSM (methyl sulphonyl methane) is a sulphur compound. Sulphur is a constituent of ligaments and tendons. With age, over use and injury, joint tissue becomes warn away which causes pain, inflammation and the development of osteoarthritis. Normal dietary levels of glucosamine, chondroitin and MSM are typically inadequate. Joint plus provides the nutrients required for rebuilding joint tissues and contributes towards joint comfort.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη"
-    ],
-    "highlights": [
-      "A combination of 3 key nutrients to support joint health",
-      "High strength"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Joints and Muscles | Once a Day™ Range | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Joints and Muscles | Once a Day™ Range | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Joint plus contains glucosamine, chondroitin and MSM in a convenient high strength all in one formula. Glucosamine and chondroitin are key structural components of cartilage. MSM (methyl sulphonyl methane) is a sulphur compound. Sulphur is a constituent of ligaments and tendons. With age, over use and injury, joint tissue becomes warn away which causes pain, inflammation and the development of osteoarthritis. Normal dietary levels of glucosamine, chondroitin and MSM are typically inadequate. Joint plus provides the nutrients required for rebuilding joint tissues and contributes towards joint comfort.",
-      "Οφέλη": "A combination of 3 key nutrients to support joint health\nHigh strength",
-      "Χρήση": "Take two to three tablets daily with food. Swallow with water.",
-      "Συστατικά": "Microcrystalline Cellulose, Glucosamine Sulphate KCL (from shellfish)(with hydroxypropyl methylcellulose), Methyl Sulphonyl Methane, Dicalcium Phosphate Dihydrate, Chondroitin Sulphate (from Bovine), Stearic Acid, Croscarmellose Sodium, Silicon Dioxide, Glazing Agent: (hydroxypropyl methylcellulose, glycerol), Magnesium Stearate.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-JOINT-PLUS.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-JOINT-PLUS.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-JOINT-PLUS.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-joint-plus/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-zinc30mg": {
-    "name": "Zinc 30mg",
-    "subtitle": "High strength Zinc citrate balanced with copper.",
-    "description": "Zinc is an essential trace mineral and is needed for hundreds of enzymatic processes within the body. Zinc works in balance with copper which is why it to added to the formulation. Zinc and copper are antioxidants, support immunity and may reduce histamine related allergic responses. Zinc is required for the normal function of the skin, hair and nails and helps with acne and hormone related skin conditions. Zinc contributes towards protein synthesis and is taken by athletes to encourage the growth of muscle mass. It is also needed for fertility, reproduction, normal testosterone concentrations and increases libido. Zinc is an important mineral for normal cognition and brain function. Copper is required for the formation of collagen in connective tissue and skin and is needed for normal skin and hair pigmentation. Zinc status may become compromised in cases of poor diet, poor gut health and high consumption of phytates found in grains.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [
-      "High potency",
-      "Balanced with copper",
-      "Highly absorbable form of zinc citrate"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Detox and Cell Protection | Essentials Range | Immunity | Minerals | Skin, Hair and Nails",
-      "Κατηγορία qnutrapharma.com": "Bones | Detox and Cell Protection | Essentials Range | Immunity | Minerals | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Zinc is an essential trace mineral and is needed for hundreds of enzymatic processes within the body. Zinc works in balance with copper which is why it to added to the formulation. Zinc and copper are antioxidants, support immunity and may reduce histamine related allergic responses. Zinc is required for the normal function of the skin, hair and nails and helps with acne and hormone related skin conditions. Zinc contributes towards protein synthesis and is taken by athletes to encourage the growth of muscle mass. It is also needed for fertility, reproduction, normal testosterone concentrations and increases libido. Zinc is an important mineral for normal cognition and brain function. Copper is required for the formation of collagen in connective tissue and skin and is needed for normal skin and hair pigmentation. Zinc status may become compromised in cases of poor diet, poor gut health and high consumption of phytates found in grains.",
-      "Οφέλη": "High potency\nBalanced with copper\nHighly absorbable form of zinc citrate",
-      "Χρήση": "Take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Dicalcium Phosphate, Zinc Citrate, Microcrystalline Cellulose, Precipitated Silicon Dioxide, Croscarmellose Sodium, Magnesium Stearate, Copper Citrate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-30mg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-30mg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Zinc-30mg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/zinc-30mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-magnesium250mg": {
-    "name": "Magnesium 250mg",
-    "subtitle": "High strength magnesium citrate.",
-    "description": "Magnesium is an essential mineral for over 300 enzymatic processes within the body, and without it, these processes are impaired. Dietary intakes are often found to be low, and low levels are exaggerated due to modern lifestyle factors which increase demand such as stress, smoking, alcohol consumption and a high sugar intake. Magnesium is required for normal psychological function and normal nerve function and is often found to inadequate in people with low moods and low mental outlooks. Magnesium is also required for sleep and the relaxation hormone GABA. Magnesium is required directly for the energy production cycle for the creation of energy. It is needed for the normal function of muscles and may help to prevent cramping and stiffness. Magnesium is particularly beneficial for the heart muscle and for regulating high blood pressure. As a key structural mineral in bones and teeth, adequate levels of magnesium are required for their maintenance, particularly for weak bones and osteoporosis. Magnesium 250mg is a high strength supplement that is gentle on the stomach.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [
-      "High potency",
-      "Bioavailable",
-      "Absorbable form"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Magnesium is an essential mineral for over 300 enzymatic processes within the body, and without it, these processes are impaired. Dietary intakes are often found to be low, and low levels are exaggerated due to modern lifestyle factors which increase demand such as stress, smoking, alcohol consumption and a high sugar intake. Magnesium is required for normal psychological function and normal nerve function and is often found to inadequate in people with low moods and low mental outlooks. Magnesium is also required for sleep and the relaxation hormone GABA. Magnesium is required directly for the energy production cycle for the creation of energy. It is needed for the normal function of muscles and may help to prevent cramping and stiffness. Magnesium is particularly beneficial for the heart muscle and for regulating high blood pressure. As a key structural mineral in bones and teeth, adequate levels of magnesium are required for their maintenance, particularly for weak bones and osteoporosis. Magnesium 250mg is a high strength supplement that is gentle on the stomach.",
-      "Οφέλη": "High potency\nBioavailable\nAbsorbable form",
-      "Χρήση": "Take one a day with food. Swallow with water.",
-      "Συστατικά": "Magnesium Citrate, Microcrystalline Cellulose, Dicalcium Phosphate, Silicified Microcrystalline Cellulose, Glazing Agent: (hydroxypropyl methylcellulose, microcrystalline cellulose, stearic acid, titanium dioxide) Croscarmellose Sodium, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Magnesium-250mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Magnesium-250mg-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Magnesium-250mg-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/magnesium-250mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-turmeric15000": {
-    "name": "Turmeric 15000",
-    "subtitle": "High strength turmeric extract with black pepper. Providing 500mg curcumins.",
-    "description": "Turmeric is a bright yellow root plant that has been used for centuries. Curcumin is the main active constituent of turmeric and its absorption is increased by black pepper. Curcumin reduces inflammation in the body and decreases inflammation related pain. Turmeric is beneficial for any inflammatory disease and is particularly beneficial for joint health and conditions such as arthritis and joint injuries. Curcumin also decreases inflammation in the gut and helps to support digestive comfort.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Κατάλληλο για vegans"
-    ],
-    "highlights": [
-      "500mg of curcumins",
-      "All three types of curcumins",
-      "With black pepper extract to enhance absorption."
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Detox and Cell Protection | Immunity | Joints and Muscles | Phyto-Nutrients",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Detox and Cell Protection | Immunity | Joints and Muscles | Phyto-Nutrients"
-    },
-    "sections": {
-      "Περιγραφή": "Turmeric is a bright yellow root plant that has been used for centuries. Curcumin is the main active constituent of turmeric and its absorption is increased by black pepper. Curcumin reduces inflammation in the body and decreases inflammation related pain. Turmeric is beneficial for any inflammatory disease and is particularly beneficial for joint health and conditions such as arthritis and joint injuries. Curcumin also decreases inflammation in the gut and helps to support digestive comfort.",
-      "Οφέλη": "500mg of curcumins\nAll three types of curcumins\nWith black pepper extract to enhance absorption.",
-      "Χρήση": "Take one daily with food. Swallow with water\nWarning : Not suitable for pregnant or lactating women.",
-      "Συστατικά": "Dicalcium Phosphate, Turmeric Extract, Microcrystalline Cellulose, Silicified Microcrystalline Cellulose, Glazing agent: (hydroxypropyl methylcellulose, stearic acid, microcrystalline cellulose), Magnesium Stearate, Colouring agent: (hydroxypropyl methylcellulose, titanium dioxide, iron oxide, microcrystalline cellulose), Croscarmellose Sodium, Precipitated Silicon Dioxide, Black Pepper Extract.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΚατάλληλο για vegans"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Turmeric-1500-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Turmeric-1500-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Turmeric-1500-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/turmeric-15000/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitaminb121000mcg": {
-    "name": "Vitamin B12 1000mcg",
-    "subtitle": "High strength cyanocobalamin",
-    "description": "Quest Vitamin B12 is an essential vitamin that is not found in plant foods. Vitamin B12 is required for many biochemical processes in the body and is required for the normal production of energy, the normal function of the immune system and for the normal function of red blood cells. It is also needed for the function of the nerves and for normal levels of homocysteine, a heart disease risk factor.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High strength",
-      "Easy one a day formula"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Immunity | Senior’s Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Immunity | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest Vitamin B12 is an essential vitamin that is not found in plant foods. Vitamin B12 is required for many biochemical processes in the body and is required for the normal production of energy, the normal function of the immune system and for the normal function of red blood cells. It is also needed for the function of the nerves and for normal levels of homocysteine, a heart disease risk factor.",
-      "Οφέλη": "High strength\nEasy one a day formula",
-      "Χρήση": "One tablet daily, taken with food.",
-      "Συστατικά": "Bulking Agent (microcrystalline cellulose), Dicalcium Phosphate, Vitamin B12 (triturate in dicalcium phosphate), Magnesium Stearate, Silicon Dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-1000mcg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-1000mcg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-1000mcg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-b12-1000mcg/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-thiamin100mg": {
-    "name": "Thiamin 100mg",
-    "subtitle": "High strength vitamin B1",
-    "description": "Quest Vitamin B1, also known as thiamin is a water-soluble vitamin that is required for the normal function of the nervous system. Vitamin B1 is found in large quantities in the brain nervous tissue and can become depleted when large amounts of alcohol are consumed. Vitamin B1 is needed for normal energy yielding metabolism where it helps to convert carbohydrates into fuel and is useful for those wishing to lose weight or those with diabetes. Thiamin is also beneficial to heart health due to its role in energy production and neurotransmission.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High strength",
-      "Easy one a day formula"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Heart & Circulation | Specialist Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Heart & Circulation | Specialist Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest Vitamin B1, also known as thiamin is a water-soluble vitamin that is required for the normal function of the nervous system. Vitamin B1 is found in large quantities in the brain nervous tissue and can become depleted when large amounts of alcohol are consumed. Vitamin B1 is needed for normal energy yielding metabolism where it helps to convert carbohydrates into fuel and is useful for those wishing to lose weight or those with diabetes. Thiamin is also beneficial to heart health due to its role in energy production and neurotransmission.",
-      "Οφέλη": "High strength\nEasy one a day formula",
-      "Χρήση": "One tablet daily, taken with your main meal.",
-      "Συστατικά": "Di-calcium Phosphate Anhydrous, Thiamine Mononitrate, Microcrystalline Cellulose, Croscarmellose Sodium, Magnesium Stearate, Precipitated Silicon Dioxide, Glazing Agent: Hydroxypropylmethylcellulose",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Thiamin-100mg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Thiamin-100mg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Thiamin-100mg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/thiamin-100mg/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-llysine1000mg": {
-    "name": "L-Lysine 1000mg",
-    "subtitle": "High strength L-lysine supplement.",
-    "description": "Quest L-Lysine is an essential amino acid that the body does not make. This means that adequate levels need to be obtained from food and supplementation. L-lysine is a building block of protein structures within the body, especially muscle and skin protein structures and bones. L-lysine works in balance with the amino acid L-arginine, and helps to prevent a high L-arginine environment and decreases the occurrence of herpes viruses such as those seen with cold sores.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High strength",
-      "Natural L-lysine form"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Essentials Range | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Bones | Essentials Range | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Quest L-Lysine is an essential amino acid that the body does not make. This means that adequate levels need to be obtained from food and supplementation. L-lysine is a building block of protein structures within the body, especially muscle and skin protein structures and bones. L-lysine works in balance with the amino acid L-arginine, and helps to prevent a high L-arginine environment and decreases the occurrence of herpes viruses such as those seen with cold sores.",
-      "Οφέλη": "High strength\nNatural L-lysine form",
-      "Χρήση": "As a food supplement take one to three tablets per day with food.\nFor maintenance take one tablet per day.\nFor acute phases, take one tablet three times per day.",
-      "Συστατικά": "L-lysine Hydrochloride, Silicified Microcrystalline Cellulose, Microcrystalline Cellulose, Precipitated Silicon Dioxide, Magnesium Stearate, Croscarmellose Sodium, Glazing Agent: Hydroxypropylmethylcellulose",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-1000mg-45s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-1000mg-45s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-1000mg-45s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/l-lysine-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-liverbiotix": {
-    "name": "LiverBiotix",
-    "subtitle": "Specialist formula designed to naturally support liver health and for individuals with fatty liver",
-    "description": "Designed to support overall liver health, protect liver function and for individuals with fatty liver and liver inflammation. Combines milk thistle extract, containing silymarin (and its active constituent, silybin), choline and probiotic lactobacilli bacteria in a single dosage form. Silymarin (from milk thistle extract), has a long standing traditional use for its liver protective properties, especially for reducing liver injury, protecting the liver from toxins, promoting liver repair, and improving liver function in individuals suffering from liver diseases. Choline is a key nutrient in the normal metabolism and transports of fats (lipids) in the body. Choline deficiency can cause an abnormal deposition of fat in the liver. Probiotics have a role in protecting the liver, including through their action in enhancing the barrier function of the gut, reducing the exposure of the liver to pathogenic bacterial translocation from the GI tract, and by reducing bacterial overgrowth of gram-negative bacteria. Probiotics can also control immune and pro-inflammatory responses in the body, including the liver.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Combines 3 potent nutrients in a unique specialist liver formula",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Probiotics | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Probiotics | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Designed to support overall liver health, protect liver function and for individuals with fatty liver and liver inflammation. Combines milk thistle extract, containing silymarin (and its active constituent, silybin), choline and probiotic lactobacilli bacteria in a single dosage form. Silymarin (from milk thistle extract), has a long standing traditional use for its liver protective properties, especially for reducing liver injury, protecting the liver from toxins, promoting liver repair, and improving liver function in individuals suffering from liver diseases. Choline is a key nutrient in the normal metabolism and transports of fats (lipids) in the body. Choline deficiency can cause an abnormal deposition of fat in the liver. Probiotics have a role in protecting the liver, including through their action in enhancing the barrier function of the gut, reducing the exposure of the liver to pathogenic bacterial translocation from the GI tract, and by reducing bacterial overgrowth of gram-negative bacteria. Probiotics can also control immune and pro-inflammatory responses in the body, including the liver.",
-      "Οφέλη": "Combines 3 potent nutrients in a unique specialist liver formula\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "One capsule daily with or after a meal. Swallow with water.",
-      "Συστατικά": "Choline bitartrate, Milk thistle (Silybum marianum) extract, bulking agent: microcrystalline cellulose, lactobacilli culture‡, magnesium stearate, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum). Contains no hydrogenated fat, artificial preservatives, colours or flavours; added starch, sucrose, lactose or salt; wheat or gluten.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/LIVERBIOTIX-2.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/LIVERBIOTIX-2.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/LIVERBIOTIX-2.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/liverbiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-restorebiotix": {
-    "name": "RestoreBiotix",
-    "subtitle": "A 6 day course of probiotics to restore your natural balance of microflora after a course of antibiotics.",
-    "description": "Quest RestoreBiotix is a multi-strain 6 day course of lactobacillus probiotics designed to restore natural microflora levels within the gut after a course of antibiotics. Antibiotics are indiscriminate and reduce the number of beneficial bacteria as well as pathogenic bacteria. Probiotics need to be re-established within the body to prevent adverse effects and chronic diseases such as food allergies and autoimmune conditions. RestoreBiotix contains 6 research-based strains of lactobacilli in a high potency, 10 billion bacteria count formulation to re-regulate the immune system and recolonise healthy gut microflora.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "6 strain probiotic supplement",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional",
-      "DR delayed release capsules"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics"
-    },
-    "sections": {
-      "Περιγραφή": "Quest RestoreBiotix is a multi-strain 6 day course of lactobacillus probiotics designed to restore natural microflora levels within the gut after a course of antibiotics. Antibiotics are indiscriminate and reduce the number of beneficial bacteria as well as pathogenic bacteria. Probiotics need to be re-established within the body to prevent adverse effects and chronic diseases such as food allergies and autoimmune conditions. RestoreBiotix contains 6 research-based strains of lactobacilli in a high potency, 10 billion bacteria count formulation to re-regulate the immune system and recolonise healthy gut microflora.",
-      "Οφέλη": "6 strain probiotic supplement\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional\nDR delayed release capsules",
-      "Χρήση": "As a food supplement take one to four capsules daily with food. Swallow with water.\nMorning Evening\nDay 1 – 2 2 2\nDay 3 – 6 1",
-      "Συστατικά": "Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lyophilised Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/RESTOREBIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/RESTOREBIOTIX.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/RESTOREBIOTIX.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/RESTOREBIOTIX-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/restorebiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-travelbiotix": {
-    "name": "TravelBiotix",
-    "subtitle": "Probiotics to protect against gastric complications when traveling abroad.",
-    "description": "Quest TravelBiotix is a probiotic supplement, containing 3 strains of research based lactobacilli bacteria, designed for those travelling abroad. Different food and environments often disrupt our natural balance of microflora leading to diarrhoea and other gastric complications. Our resistance to disease and gastric complications are reliant on the health of our gut bacteria. TravelBiotix is stable at room temperature and helps to maintain a healthy microflora and helps to prevent traveller’s diarrhoea.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Multi strain probiotic supplement",
-      "Stable at room temperature",
-      "Perfect for traveling abroad",
-      "DR delayed release capsules",
-      "Lyophilised, encapsulated and individually sealed to enhance stability"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics"
-    },
-    "sections": {
-      "Περιγραφή": "Quest TravelBiotix is a probiotic supplement, containing 3 strains of research based lactobacilli bacteria, designed for those travelling abroad. Different food and environments often disrupt our natural balance of microflora leading to diarrhoea and other gastric complications. Our resistance to disease and gastric complications are reliant on the health of our gut bacteria. TravelBiotix is stable at room temperature and helps to maintain a healthy microflora and helps to prevent traveller’s diarrhoea.",
-      "Οφέλη": "Multi strain probiotic supplement\nStable at room temperature\nPerfect for traveling abroad\nDR delayed release capsules\nLyophilised, encapsulated and individually sealed to enhance stability",
-      "Χρήση": "As a food supplement take one to two capsules daily with food. Swallow with water.",
-      "Συστατικά": "Non-GM Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lyophilised Lactobacilli Cultureꝉ, Magnesium Stearate, Antioxidant: Ascorbic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TRAVELBIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TRAVELBIOTIX.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TRAVELBIOTIX.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TRAVELBIOTIX-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/travelbiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-stressbcomplex": {
-    "name": "Stress B Complex",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "A medium potency quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Medium potency vitamin B and C complex",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "A medium potency quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-      "Οφέλη": "Medium potency vitamin B and C complex\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Ascorbic Acid (with hydroxypropyl methylcellulose), Bulking Agent (microcrystalline cellulose), Calcium D-pantothenate, Riboflavin, Nicotinamide, Choline Bitartrate (with silica), Thiamine Mononitrate (with hydroxypropyl methylcellulose), Inositol, Para Aminobenzoic Acid, Precipitated Silicon Dioxide, Pyridoxine Hydrochloride (with hydroxypropyl methyl cellulose), Croscarmellose Sodium, Magnesium Stearate, Vitamin B12 (triturate in dicalcium phosphate), D-biotin (triturate in dicalcium phosphate), Glazing Agent (hydroxypropyl methyl cellulose), Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Stress-B-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Stress-B-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Stress-B-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/stress-b-complex/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-bcomplexquickrelease": {
-    "name": "B Complex Quick Release",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "Quest B complex quick release is a gentle potency quick release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal function of the nervous system and normal psychological function.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Gentle potency vitamin B complex",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest B complex quick release is a gentle potency quick release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal function of the nervous system and normal psychological function.",
-      "Οφέλη": "Gentle potency vitamin B complex\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one tablet daily with a meal. Swallow with water.",
-      "Συστατικά": "Dicalcium Phosphate, Bulking Agent (microcrystalline cellulose), Calcium D-pantothenate, Pyridoxine Hydrochloride (with hydroxypropylmethylcellulose), Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropylmethylcellulose), Choline Bitartrate (with silica), Inositol, Para-aminobenzoic Acid, Magnesium Stearate, Vitamin B12 (triturate in dicalcium phosphate), D-biotin (triturate in dicalcium phosphate), Precipitated Silicon Dioxide, Hydroxypropyl-Methylcellulose, Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-QR-30s-75cc-Mega-B-50.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-QR-30s-75cc-Mega-B-50.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-QR-30s-75cc-Mega-B-50.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/b-complex-quick-release/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-enzymebiotix": {
-    "name": "EnzymeBiotix",
-    "subtitle": "A unique and powerful combination of six digestive enzymes and three probiotic strains to aid digestion and for the relief of digestive discomfort, bloating and gas",
-    "description": "A unique combination of six digestive enzymes and three probiotic strains to aid digestion and for the relief of digestive discomfort, bloating and gas. Papain, bromelain, amylase and lipase digest proteins, fats and carbohydrates. Alpha galactosidase helps reduce bloating and gas by digesting more complex carbohydrates. Lactase digests lactose found in milk and dairy. Lactobacilli probiotic bacteria support general digestive, bowel and intestinal health. EnzymeBiotix can help reduce the symptoms of compromised digestion, including indigestion and bloating, especially in seniors.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Combines 9 potent active ingredients in a unique specialist digestive support formula",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria and enzymes from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Enzymes | Gut and Digestion | Probiotics | Senior’s Health | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Enzymes | Gut and Digestion | Probiotics | Senior’s Health | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "A unique combination of six digestive enzymes and three probiotic strains to aid digestion and for the relief of digestive discomfort, bloating and gas. Papain, bromelain, amylase and lipase digest proteins, fats and carbohydrates. Alpha galactosidase helps reduce bloating and gas by digesting more complex carbohydrates. Lactase digests lactose found in milk and dairy. Lactobacilli probiotic bacteria support general digestive, bowel and intestinal health. EnzymeBiotix can help reduce the symptoms of compromised digestion, including indigestion and bloating, especially in seniors.",
-      "Οφέλη": "Combines 9 potent active ingredients in a unique specialist digestive support formula\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria and enzymes from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "Take one capsule with each meal, as required. Swallow with water.",
-      "Συστατικά": "Bulking agent: microcrystalline cellulose, lactase, alpha-galactosidase (with maltodextrin), lactobacilli culture‡, amylase (with maltodextrin), magnesium stearate, lipase (with maltodextrin), papain, bromelain (with maltodextrin), capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum). Contains no hydrogenated fat, artificial preservatives, colours or flavours; added starch, sucrose, lactose or salt; wheat or gluten.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ENZYMEBIOTIX-2.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ENZYMEBIOTIX-2.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ENZYMEBIOTIX-2.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/enzymebiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitamine400iuV30": {
-    "name": "Vitamin E 400i.u. 30 δισκία",
-    "subtitle": "Protective antioxidant nutrient",
-    "description": "Quest Vitamin E 400iu is made with natural source vitamin E with mixed tochopherols to provide a balanced ratio of alpha, beta, delta and gamma tocopherols. Vitamin E is an antioxidant that contributes to the protection of body cells from oxidative stress.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Provides 400iu per capsule",
-      "Natural source vitamin E",
-      "With mixed tocopherols",
-      "From non GM soya"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Pregnancy and Fertility | Skin, Hair and Nails | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 κάψουλες",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Pregnancy and Fertility | Skin, Hair and Nails | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest Vitamin E 400iu is made with natural source vitamin E with mixed tochopherols to provide a balanced ratio of alpha, beta, delta and gamma tocopherols. Vitamin E is an antioxidant that contributes to the protection of body cells from oxidative stress.",
-      "Οφέλη": "Provides 400iu per capsule\nNatural source vitamin E\nWith mixed tocopherols\nFrom non GM soya",
-      "Χρήση": "Take one capsule daily with food and swallow with water.",
-      "Συστατικά": "D-alpha tocopheryl, Capsule Shell: (gelatin (from bovine, glycerin), Sunflower Seed Oil, Mixed Tocopherols (from soya)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-e-400i-u/",
-    "source": "qnutrapharma.com",
-    "section": "andras",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitamine400iuV60": {
-    "name": "Vitamin E 400i.u. 60 κάψουλες",
-    "subtitle": "Protective antioxidant nutrient",
-    "description": "Quest Vitamin E 400iu is made with natural source vitamin E with mixed tochopherols to provide a balanced ratio of alpha, beta, delta and gamma tocopherols. Vitamin E is an antioxidant that contributes to the protection of body cells from oxidative stress.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Provides 400iu per capsule",
-      "Natural source vitamin E",
-      "With mixed tocopherols",
-      "From non GM soya"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Pregnancy and Fertility | Skin, Hair and Nails | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 κάψουλες",
-      "Συσκευασία": "60 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Pregnancy and Fertility | Skin, Hair and Nails | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest Vitamin E 400iu is made with natural source vitamin E with mixed tochopherols to provide a balanced ratio of alpha, beta, delta and gamma tocopherols. Vitamin E is an antioxidant that contributes to the protection of body cells from oxidative stress.",
-      "Οφέλη": "Provides 400iu per capsule\nNatural source vitamin E\nWith mixed tocopherols\nFrom non GM soya",
-      "Χρήση": "Take one capsule daily with food and swallow with water.",
-      "Συστατικά": "D-alpha tocopheryl, Capsule Shell: (gelatin (from bovine, glycerin), Sunflower Seed Oil, Mixed Tocopherols (from soya)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-E-400iu-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-e-400i-u/",
-    "source": "qnutrapharma.com",
-    "section": "andras",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitamind32500iu": {
-    "name": "Vitamin D3 2500i.u.",
-    "subtitle": "Supports immunity, bones, muscle and teeth",
-    "description": "Vitamin D supplement to support bone and immune health. Provides 2500iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "High strength 2500iu (62.5mcg) per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Essentials Range | Everyday Health and Wellbeing | Immunity | Pregnancy and Fertility | Senior’s Health | Vitamins",
-      "Συσκευασία": "120 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Essentials Range | Everyday Health and Wellbeing | Immunity | Pregnancy and Fertility | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin D supplement to support bone and immune health. Provides 2500iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-      "Οφέλη": "High strength 2500iu (62.5mcg) per tablet",
-      "Χρήση": "Take one tablet daily with food and swallow with water.",
-      "Συστατικά": "Dicalcium phosphate, microcrystalline cellulose, vitamin D3 (with bovine gelatine, sucrose, corn starch, soybean oil, dl-alpha-tocopheryl), magnesium stearate, croscarmellose sodium, anticaking agent (precipitated silicon dioxide).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-2500iu-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-2500iu-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-2500iu-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-d3-2500i-u/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaysunshined": {
-    "name": "Once a Day Sunshine D",
-    "subtitle": "Supports immunity, bones, muscle and teeth",
-    "description": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Provides 1000i.u (25mcg) vitamin D per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Once a Day™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Once a Day™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-      "Οφέλη": "Provides 1000i.u (25mcg) vitamin D per tablet",
-      "Χρήση": "Take one tablet daily with food and swallow with water.",
-      "Συστατικά": "Microcrystalline Cellulose, Di-Calcium Phosphate, Vitamin D3 (with Arabic Gum, Antioxidant: d-α-Tocopherol (from soya), tri-calcium phosphate), croscarmellose sodium, Magnesium Stearate, Anti-caking Agent: Silicon Dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Sunshine-D.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Sunshine-D.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Sunshine-D.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-sunshine-d/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-enonceadayimmuneceuoncedayimmunec": {
-    "name": "Once A Day Immune C",
-    "subtitle": "Antioxidant activity to protect against oxidative stress and support the function of the immune system",
-    "description": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency 1000mg per tablet",
-      "With added bioflavonoids to increase absorption of vitamin C",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Immunity | Joints and Muscles | Once a Day™ Range | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Immunity | Joints and Muscles | Once a Day™ Range | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "High potency 1000mg per tablet\nWith added bioflavonoids to increase absorption of vitamin C\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Vitamin C (Ascorbic acid), Citrus Bioflavonoids, di-Calcium Phosphate, Microcrystalline cellulose, Hydroxypropylmethylcellulose, Lecithin powder, Magnesium Stearate,",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-Day-Immune-C.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-Day-Immune-C.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-Day-Immune-C.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/enonce-a-day-immune-ceuonce-day-immune-c/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-effervescentvitaminc": {
-    "name": "Vitamin C Effervescent",
-    "subtitle": "1000mg of Vitamin C in effervescent format.",
-    "description": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient, vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency",
-      "Provides 1000mg per tablet",
-      "Plus Rutin and Rosehips",
-      "Dissolves quickly for fast nutrient absorption",
-      "Natural orange flavour."
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Heart & Circulation | Immunity | Joints and Muscles | Once a Day™ Range | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Συσκευασία": "20 αναβράζοντα δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Heart & Circulation | Immunity | Joints and Muscles | Once a Day™ Range | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient, vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "High potency\nProvides 1000mg per tablet\nPlus Rutin and Rosehips\nDissolves quickly for fast nutrient absorption\nNatural orange flavour.",
-      "Χρήση": "Take one tablet daily dissolved in water.",
-      "Συστατικά": "Acidity regulator: citric acid, L-ascorbic acid, acidity regulator: sodium hydrogen carbonate, bulking agent: sorbitol, polyethylene glycol, maltodextrin, sweetener: sucralose, natural flavouring, colours: beetroot red, riboflavin, rose hip extract, rutin, acacia gum.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Eff.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Eff.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Eff.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/effervescent-vitamin-c/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitaminb12500mcg": {
-    "name": "Vitamin B12 500mcg",
-    "subtitle": "Contributes to red blood cell formation",
-    "description": "Vitamin B12 contributes to normal red blood cell formation, is involved in energy metabolism and plays a role in the reduction of tiredness and fatigue. It also helps to support the functioning of the immune and nervous systems. Stomach acid is needed to release vitamin B12 from foods so anyone with low stomach acid or who is taking antacid medication such as a proton pump inhibitor (PPI) should consider supplementation. Vitamin B12 is primarily found in animal derived foods so supplementation is also recommended for vegetarians and vegans to safe guard their intake of this important nutrient.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency 500mcg per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Specialist Health | Vitamins",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Specialist Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin B12 contributes to normal red blood cell formation, is involved in energy metabolism and plays a role in the reduction of tiredness and fatigue. It also helps to support the functioning of the immune and nervous systems. Stomach acid is needed to release vitamin B12 from foods so anyone with low stomach acid or who is taking antacid medication such as a proton pump inhibitor (PPI) should consider supplementation. Vitamin B12 is primarily found in animal derived foods so supplementation is also recommended for vegetarians and vegans to safe guard their intake of this important nutrient.",
-      "Οφέλη": "High potency 500mcg per tablet",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Dicalcium Phosphate, Bulking agent (microcrystalline cellulose), Vitamin B12 (as cobalamin with dicalcium phosphate), Croscarmellose sodium, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-500mcg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-500mcg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B12-500mcg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-b12-500mcg/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-multibcomplex": {
-    "name": "Multi B Complex",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "A medium potency quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Medium potency Vitamin B and C complex",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "A medium potency quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-      "Οφέλη": "Medium potency Vitamin B and C complex\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Ascorbic Acid (with hydroxypropyl methylcellulose), Bulking Agent (microcrystalline cellulose), Calcium D-pantothenate, Riboflavin, Nicotinamide, Choline Bitartrate (with silica), Thiamine Mononitrate (with hydroxypropyl methylcellulose), Inositol, Para Aminobenzoic Acid, Precipitated Silicon Dioxide, Pyridoxine Hydrochloride (with hydroxypropyl methyl cellulose), Croscarmellose Sodium, Magnesium Stearate, Vitamin B12 (triturate in dicalcium phosphate), D-biotin (triturate in dicalcium phosphate), Glazing Agent (hydroxypropyl methyl cellulose), Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multi-B-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multi-B-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multi-B-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/multi-b-complex/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-bcomplextimedreleaseV30": {
-    "name": "B complex Timed Release 30 δισκία",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "Quest B complex timed release is a high potency timed release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal functioning of the nervous system and normal psychological function.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency Vitamin B complex",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest B complex timed release is a high potency timed release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal functioning of the nervous system and normal psychological function.",
-      "Οφέλη": "High potency Vitamin B complex\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Dicalcium Phosphate, Bulking Agent (microcrystalline cellulose), Hydroxypropylmethylcellulose, Calcium D-pantothenate, Pyridoxine Hydrochloride (with hydroxypropyl methylcellulose), Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropyl methylcellulose), Choline Bitartrate (with silica), Inositol, Para-aminobenzoic Acid, Lecithin (from soya), Magnesium Stearate, Vitamin B12 (triturate in dicalcium phosphate), D-biotin (triturate in dicalcium phosphate), Hydroxypropylmethylcellulose, Folic acid.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/b-complex-timed-release/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-bcomplextimedreleaseV60": {
-    "name": "B complex Timed Release 60 δισκία",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "Quest B complex timed release is a high potency timed release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal functioning of the nervous system and normal psychological function.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency Vitamin B complex",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Quest B complex timed release is a high potency timed release formula providing a full spectrum of the B vitamins to support energy levels, the nervous system and psychological function. Vitamin B1, B2, niacin (B3), B6 and pantothenic acid contribute to the reduction of tiredness and fatigue. Vitamin B1, niacin (B3), B6, B12 and biotin contribute to normal functioning of the nervous system and normal psychological function.",
-      "Οφέλη": "High potency Vitamin B complex\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Dicalcium Phosphate, Bulking Agent (microcrystalline cellulose), Hydroxypropylmethylcellulose, Calcium D-pantothenate, Pyridoxine Hydrochloride (with hydroxypropyl methylcellulose), Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropyl methylcellulose), Choline Bitartrate (with silica), Inositol, Para-aminobenzoic Acid, Lecithin (from soya), Magnesium Stearate, Vitamin B12 (triturate in dicalcium phosphate), D-biotin (triturate in dicalcium phosphate), Hydroxypropylmethylcellulose, Folic acid.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/B-Complex-TR-30s-75cc-Mega-B-100.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/b-complex-timed-release/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-biofolic": {
-    "name": "BioFolic",
-    "subtitle": "Bio-available form of folate for pregnant women to reduce the risk of neural tube defects.",
-    "description": "Provides L-methyl-folate, the bioavailable metabolically active form of folate in the body. Folate contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. The bio-active form of folate, l-methylfolate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus. It also supports immune function, helps reduce tiredness and fatigue and supports normal homocysteine levels. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folate as a supplement daily to ensure a dietary intake.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "400mcg of folate as recommended for pregnant woman and those planning a pregnancy.",
-      "Biologically active form."
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Platinum Excellence™ Range | Pregnancy and Fertility | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Platinum Excellence™ Range | Pregnancy and Fertility | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Provides L-methyl-folate, the bioavailable metabolically active form of folate in the body. Folate contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. The bio-active form of folate, l-methylfolate can be directly used by the body upon absorption without any metabolic conversion process. It directly increases the serum levels of folate. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus. It also supports immune function, helps reduce tiredness and fatigue and supports normal homocysteine levels. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folate as a supplement daily to ensure a dietary intake.",
-      "Οφέλη": "400mcg of folate as recommended for pregnant woman and those planning a pregnancy.\nBiologically active form.",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Bulking agent: Microcrystalline Cellulose, Calcium methylfolate, Di-Calcium Phosphate, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BioFolic.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BioFolic.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BioFolic.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/biofolic/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-folicacid400mcg": {
-    "name": "Folic Acid 400mcg",
-    "subtitle": "Contributes to maternal tissue growth to reduce the risk of neural tube defects",
-    "description": "Folate (folic acid) contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. Supplemental folic acid intake increases maternal folate status. Low maternal folate status is a risk factor in the development of neural tube defects in the developing fetus. It also supports immune function and may help reduce tiredness and fatigue. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folic acid as a supplement daily to ensure a dietary intake.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Provides the recommended 400mcg of folic acid during pregnancy"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Pregnancy and Fertility | Vitamins",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Pregnancy and Fertility | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Folate (folic acid) contributes to maternal tissue growth during pregnancy to reduce the risk of neural tube defects and has a role in body cell division and blood formation. Supplemental folic acid intake increases maternal folate status. Low maternal folate status is a risk factor in the development of neural tube defects in the developing fetus. It also supports immune function and may help reduce tiredness and fatigue. Women who are planning or in the early stages of pregnancy, are advised to take 400mcg of folic acid as a supplement daily to ensure a dietary intake.",
-      "Οφέλη": "Provides the recommended 400mcg of folic acid during pregnancy",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Bulking agent: Microcrystalline Cellulose, di-Calcium Phosphate, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Folacin (as folic acid).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Folic-Acid-400mcg-90s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Folic-Acid-400mcg-90s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Folic-Acid-400mcg-90s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/folic-acid-400mcg/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-llysine500mg": {
-    "name": "L-Lysine 500mg",
-    "subtitle": "Free form essential amino acid",
-    "description": "Provides 500mg of the essential amino acid L-lysine. Amino acids are used by the body to form proteins, which are required for biological functions and cell structures. L-lysine is of particular importance to those eating a vegetarian or vegan diet.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Free form essential amino acid"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Essentials Range | Skin, Hair and Nails | Specialist Health | Specialist Supplements",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Essentials Range | Skin, Hair and Nails | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Provides 500mg of the essential amino acid L-lysine. Amino acids are used by the body to form proteins, which are required for biological functions and cell structures. L-lysine is of particular importance to those eating a vegetarian or vegan diet.",
-      "Οφέλη": "Free form essential amino acid",
-      "Χρήση": "Take one to six capsules daily with food",
-      "Συστατικά": "L-Lysine Hydrochloride, Silicified Microcrystalline Cellulose, Bulking Agent (microcrystalline cellulose), Magnesium Stearate, Glazing Agent (hydroxypropylmethylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-500mg-60s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-500mg-60s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L-Lysine-500mg-60s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/l-lysine-500mg/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-coenzymeq10150mg": {
-    "name": "Coenzyme Q10 150mg",
-    "subtitle": "Supports energy levels, recommended for use alongside statin medications",
-    "description": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Natural trans-isomer for of CoQ10",
-      "High strength"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Senior’s Health | Specialist Health | Specialist Supplements",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Men’s Health and Fertility | Senior’s Health | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-      "Οφέλη": "Natural trans-isomer for of CoQ10\nHigh strength",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Croscarmellose Sodium, Coenzyme Q10, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-150mg-30-tabs.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-150mg-30-tabs.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-150mg-30-tabs.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/coenzyme-q10-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-coenzymeq1030mg": {
-    "name": "Coenzyme Q10 30mg",
-    "subtitle": "Supports energy levels, recommended for use alongside statin medications",
-    "description": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Natural trans-isomer for of CoQ10",
-      "30mg per tablet with bioflavonoids for complementary support"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Specialist Supplements",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-      "Οφέλη": "Natural trans-isomer for of CoQ10\n30mg per tablet with bioflavonoids for complementary support",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose powder, stearic acid, magnesium stearate, guar gum), Coenzyme Q10, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-30mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-30mg-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Coenzyme-Q10-30mg-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/coenzyme-q10-30mg/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-platinumbiotix": {
-    "name": "Platinum Biotix",
-    "subtitle": "A probiotic formula to support good digestive and immune health",
-    "description": "A probiotic supplement designed to support digestive and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "10 billion viable organisms per capsule",
-      "Provides 6 strains of bacteria for broad spectrum probiotic activity",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Gut and Digestion | Pregnancy and Fertility | Probiotics",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Gut and Digestion | Pregnancy and Fertility | Probiotics"
-    },
-    "sections": {
-      "Περιγραφή": "A probiotic supplement designed to support digestive and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants.",
-      "Οφέλη": "10 billion viable organisms per capsule\nProvides 6 strains of bacteria for broad spectrum probiotic activity\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "Take one to four capsules daily with food",
-      "Συστατικά": "Maltodextrin, Capsule Shell (hydroxypropyl methylcellulose, gellan gum), Lactobacilli culture, Magnesium Stearate, Ascorbic Acid (with hydroxypropyl methylcellulose).\nAllergy Advice: May contain traces of soya.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Platinum-Biotix-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Platinum-Biotix-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Platinum-Biotix-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/platinum-biotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-testomax": {
-    "name": "Testo Plus",
-    "subtitle": "For increased energy, vitality, performance and fertility",
-    "description": "Free testosterone hormone levels in the male body peaks between the ages of 25-30, and then decline steadily at a rate of 1-2% annually, as the production of testosterone decreases. Tongkat ali extract increases testosterone levels naturally, thereby increasing muscle mass, increasing energy, levels, reducing stress, increasing endurance and athletic performance, increasing fertility and enhancing sexual performance.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "125mg tongkat ali extract (eurycoma longifolia jack)",
-      "Standardised to not less than 1.1mg of eurycomanone by a patented extraction procedure"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Men’s Health and Fertility | Phyto-Nutrients | Platinum Excellence™ Range | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Men’s Health and Fertility | Phyto-Nutrients | Platinum Excellence™ Range | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Free testosterone hormone levels in the male body peaks between the ages of 25-30, and then decline steadily at a rate of 1-2% annually, as the production of testosterone decreases. Tongkat ali extract increases testosterone levels naturally, thereby increasing muscle mass, increasing energy, levels, reducing stress, increasing endurance and athletic performance, increasing fertility and enhancing sexual performance.",
-      "Οφέλη": "125mg tongkat ali extract (eurycoma longifolia jack)\nStandardised to not less than 1.1mg of eurycomanone by a patented extraction procedure",
-      "Χρήση": "Take two capsules in the morning with food or as recommended by your healthcare provider. For long-term use, a break of 2 days is recommended after every 5 days of supplementation.",
-      "Συστατικά": "Tongkat ali extract (eurycoma longifolia jack), capsule shell (hydroxypropylmethylcellulose), magnesium stearate, microcrystalline cellulose, precipitated silicon dioxide",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Testo-Plus-carton.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Testo-Plus-carton.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Testo-Plus-carton.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/testomax/",
-    "source": "qnutrapharma.com",
-    "section": "andras",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayenergybc": {
-    "name": "Once A Day Energy B+C",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "A quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Vitamin B and C complex",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Energy | Once a Day™ Range | Senior’s Health | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "A quick release formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-      "Οφέλη": "Vitamin B and C complex\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Vitamin C (with hydroxypropylmethylcellulose), Pantothenic Acid, Riboflavin, Vitamin B6 (methyl cellulose), Niacin (as niacinamide), Choline Bitartrate, Thiamin (methyl cellulose), Para-Aminobenzoic Acid, Inositol, Magnesium Stearate, silicon dioxide, croscarmellose sodium, Vitamin B12 (di-calcium phosphate), Biotin (di-calcium phosphate), Folic Acid (di-calcium phosphate), Tablet coating (hydroxypropylmethylcellulose, Colour: Titanium Dioxide, Stearic Acid, Bulking agent: Microcrystalline cellulose)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Energy-BC.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Energy-BC.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Energy-BC.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-energy-bc/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-carnozin": {
-    "name": "Carnozin",
-    "subtitle": "Gastro protectant and healing action",
-    "description": "Provides a unique chelated complex of zinc carnosine (zinc and L-carnosine) used for effective gastro protection. Zinc carnosine has anti-inflammatory and antioxidant properties and promotes epithelial wound repair and secretion of gastric mucus. It may help reduce gastric discomfort and inflammation, repairing and protecting the mucosal stomach lining. It has been used to promote the healing of peptic ulcers and in fighting H-pylori bacterial infection. It can be used as an adjunct to non steroidal anti-inflammatory drugs (NSAIDs) to reduce the risk of damage to the gastrointestinal lining.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "A unique chelated complex of zinc carnosine (zinc and L-carnosine)",
-      "Provides 75mg of zinc carnosine per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Gut and Digestion | Platinum Excellence™ Range | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Gut and Digestion | Platinum Excellence™ Range | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Provides a unique chelated complex of zinc carnosine (zinc and L-carnosine) used for effective gastro protection. Zinc carnosine has anti-inflammatory and antioxidant properties and promotes epithelial wound repair and secretion of gastric mucus. It may help reduce gastric discomfort and inflammation, repairing and protecting the mucosal stomach lining. It has been used to promote the healing of peptic ulcers and in fighting H-pylori bacterial infection. It can be used as an adjunct to non steroidal anti-inflammatory drugs (NSAIDs) to reduce the risk of damage to the gastrointestinal lining.",
-      "Οφέλη": "A unique chelated complex of zinc carnosine (zinc and L-carnosine)\nProvides 75mg of zinc carnosine per tablet",
-      "Χρήση": "One to two tablets daily with or after food.",
-      "Συστατικά": "Dicalcium phosphate, microcrystalline cellulose, zinc carnosine (L-carnosine, zinc sulphate), croscarmellose sodium, magnesium stearate, oil of peppermint, silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Carnozin.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Carnozin.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Carnozin.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/carnozin/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-curqumax": {
-    "name": "CurQuMax",
-    "subtitle": "Turmeric supplement for joint pain management and natural pain relief",
-    "description": "Contains curcumin from the spice turmeric, the amino acid DL-phenylalanine along with piperine from black pepper. Curcumin found in turmeric contributes to the regulation of inflammatory immune responses and may support joint health. It has been shown to help with the management of pain in inflammatory diseases such as rheumatoid or osteoarthritis. The amino acid DL-phenylalanine elevates endorphin levels in the body, a consequence of which is to reduce the perception of pain.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Unique combination of turmeric and DL-phenylalanine",
-      "Provides 100mg of curcumin per tablet",
-      "Contains piperine from black pepper for optimal curcumin utilisation"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Joints and Muscles | Phyto-Nutrients | Platinum Excellence™ Range | Specialist Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Joints and Muscles | Phyto-Nutrients | Platinum Excellence™ Range | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Contains curcumin from the spice turmeric, the amino acid DL-phenylalanine along with piperine from black pepper. Curcumin found in turmeric contributes to the regulation of inflammatory immune responses and may support joint health. It has been shown to help with the management of pain in inflammatory diseases such as rheumatoid or osteoarthritis. The amino acid DL-phenylalanine elevates endorphin levels in the body, a consequence of which is to reduce the perception of pain.",
-      "Οφέλη": "Unique combination of turmeric and DL-phenylalanine\nProvides 100mg of curcumin per tablet\nContains piperine from black pepper for optimal curcumin utilisation",
-      "Χρήση": "Take three to six tablets daily as required. Swallow with water.",
-      "Συστατικά": "Di-calcium phosphate, bulking agent: microcrystalline cellulose, DL-phenylalanine, turmeric extract, magnesium stearate, anti-caking agent: silicon dioxide, black pepper extract, tablet coating (hydroxypropylmethylcellulose, microcrystalline cellulose, stearic acid, colours: iron oxide red, titanium dioxide).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CurQuMax.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CurQuMax.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CurQuMax.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/curqumax/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-ubiquinolqu10": {
-    "name": "Ubiquinol Qu10",
-    "subtitle": "Recommended as a co-prescription with statins to reduce side effects such as myopathy and fatigue and for general tiredness and fatigue",
-    "description": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. Ubiquinol Qu10 contains synergistic vitamin B6 which contributes to normal energy yielding metabolism and to the reduction of tiredness and fatigue. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Provides 100mg of ubiquinol per tablet",
-      "Innovative stabilised form of ubiquinol Co Q10",
-      "Contains synergistic vitamin B6 to aid metabolism of Co Q10"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Heart & Circulation | Men’s Health and Fertility | Platinum Excellence™ Range | Senior’s Health | Specialist Health | Specialist Supplements",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Heart & Circulation | Men’s Health and Fertility | Platinum Excellence™ Range | Senior’s Health | Specialist Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Co Q10 is found naturally in cells throughout the body particularly in the mitochondria which are involved in cellular energy production. Ubiquinol Qu10 contains synergistic vitamin B6 which contributes to normal energy yielding metabolism and to the reduction of tiredness and fatigue. CoQ10 supplementation is recommended for patients on cholesterol lowering statin medications which lower CoQ10 levels in the body increasing the risk of adverse effects such as pain and muscle weakness. CoQ10 is indicated to be helpful for increasing energy levels, athletic endurance and sperm motility, it may also maintain gum health and reduce blood pressure levels.",
-      "Οφέλη": "Provides 100mg of ubiquinol per tablet\nInnovative stabilised form of ubiquinol Co Q10\nContains synergistic vitamin B6 to aid metabolism of Co Q10",
-      "Χρήση": "One to two tablets daily with food.",
-      "Συστατικά": "Di-calcium phosphate, ubiquinol, pyridoxine HCL, bulking agent: microcrystalline cellulose, croscarmellose sodium, magnesium stearate, anti-caking agent: silicon dioxide, coating (hydroxypropylmethylcellulose, microcrystalline cellulose, stearic acid, colours: iron oxide red, titanium dioxide).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ubiquinol-Qu10.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ubiquinol-Qu10.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ubiquinol-Qu10.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/ubiquinol-qu10/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-sawpalmetto36mg": {
-    "name": "Saw Palmetto 36mg",
-    "subtitle": "To support prostate health. Providing 25µg phytosterols per tablet",
-    "description": "Saw palmetto contributes to normal prostate health and is traditionally used for symptomatic relief of benign prostate enlargement.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Standardised saw palmetto extract",
-      "Equivalent to 500mg dry herb powder",
-      "Standardised to provide 25µg phytosterols per tablet."
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Men’s Health and Fertility | Phyto-Nutrients | Senior’s Health",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Men’s Health and Fertility | Phyto-Nutrients | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Saw palmetto contributes to normal prostate health and is traditionally used for symptomatic relief of benign prostate enlargement.",
-      "Οφέλη": "Standardised saw palmetto extract\nEquivalent to 500mg dry herb powder\nStandardised to provide 25µg phytosterols per tablet.",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Di–Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Saw Palmetto fruit extract, Magnesium Stearate, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Saw-Palmett0-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Saw-Palmett0-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Saw-Palmett0-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/saw-palmetto-36mg/",
-    "source": "qnutrapharma.com",
-    "section": "andras",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-milkthistle150mg": {
-    "name": "Milk Thistle 150mg",
-    "subtitle": "For liver support, protection and detoxification",
-    "description": "Milk thistle has antioxidant, hepatoprotective and choleretic (promotes bile secretions) properties to supports liver function and detoxification pathways. It may help reduce symptoms associated with liver, gall bladder and alcohol related disorders.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Standardised Milk Thistle providing 105mg silymarin per tablet",
-      "Equivalent to 7500mg dry herb powder"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Phyto-Nutrients",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Phyto-Nutrients"
-    },
-    "sections": {
-      "Περιγραφή": "Milk thistle has antioxidant, hepatoprotective and choleretic (promotes bile secretions) properties to supports liver function and detoxification pathways. It may help reduce symptoms associated with liver, gall bladder and alcohol related disorders.",
-      "Οφέλη": "Standardised Milk Thistle providing 105mg silymarin per tablet\nEquivalent to 7500mg dry herb powder",
-      "Χρήση": "Take one tablet daily with food",
-      "Συστατικά": "Dicalcium Phosphate, Bulking agent: Microcrystalline Cellulose, Milk Thistle Fruit Extract, Magnesium Stearate, Anti-caking Quest standardized Milk Thistle provides 105mg agent: Silicon Dioxide, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Milk-Thistle-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Milk-Thistle-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Milk-Thistle-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/milk-thistle-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-fortenerveb": {
-    "name": "ForteNerve B",
-    "subtitle": "Carefully selected B vitamins to support a healthy nervous system",
-    "description": "Provides a high level of three carefully selected B vitamins to support a healthy nervous system. Vitamins B1, B6 and B12 contribute to the normal functioning of the nervous system. Vitamin B6 and B12 also contribute to normal psychological function. May help support and protect mental and cognitive performance and reduce physical nerve discomfort such as neuralgia or neuritis (inflammation of one or more nerves). Also indicated to help prevent nerve damage caused by excessive alcohol consumption and diabetic neuropathy (nerve damage caused by reduced peripheral blood flow in diabetes).",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Carefully selected B vitamins to support a healthy nervous system",
-      "High potency vitamins B1, B6 and B12"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Platinum Excellence™ Range | Senior’s Health | Specialist Health | Specialist Supplements | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Platinum Excellence™ Range | Senior’s Health | Specialist Health | Specialist Supplements | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Provides a high level of three carefully selected B vitamins to support a healthy nervous system. Vitamins B1, B6 and B12 contribute to the normal functioning of the nervous system. Vitamin B6 and B12 also contribute to normal psychological function. May help support and protect mental and cognitive performance and reduce physical nerve discomfort such as neuralgia or neuritis (inflammation of one or more nerves). Also indicated to help prevent nerve damage caused by excessive alcohol consumption and diabetic neuropathy (nerve damage caused by reduced peripheral blood flow in diabetes).",
-      "Οφέλη": "Carefully selected B vitamins to support a healthy nervous system\nHigh potency vitamins B1, B6 and B12",
-      "Χρήση": "One tablet daily with food.",
-      "Συστατικά": "Microcrystalline cellulose, thiamine (methyl cellulose), vitamin B12 (with di-calcium phosphate), vitamin B6 (methyl cellulose), di-calcium phosphate, croscarmellose sodium, anti-caking agent: silicon dioxide, magnesium stearate, coating agents: hydroxypropylmethylcellulose, stearic acid, microcrystalline cellulose, titanium dioxide, iron oxide red.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteNerve-B.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteNerve-B.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteNerve-B.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/fortenerve-b/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-ginkgobiloba150mgV30": {
-    "name": "Ginkgo Biloba 150mg 30 δισκία",
-    "subtitle": "Helps support cognitive function and circulatory health",
-    "description": "Ginkgo Biloba supports circulation to help maintain a healthy heart and for eye health, it also contributes to normal cognitive function to reduce memory loss.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "150mg ginkgo biloba leaf extract per tablet",
-      "Equivalent to 7500mg of herb powder",
-      "Standardized to provide 36mg of ginkgo flavonglycosides"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Heart & Circulation | Phyto-Nutrients | Senior’s Health",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Heart & Circulation | Phyto-Nutrients | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Ginkgo Biloba supports circulation to help maintain a healthy heart and for eye health, it also contributes to normal cognitive function to reduce memory loss.",
-      "Οφέλη": "150mg ginkgo biloba leaf extract per tablet\nEquivalent to 7500mg of herb powder\nStandardized to provide 36mg of ginkgo flavonglycosides",
-      "Χρήση": "As a food supplement take one tablet daily with food. Swallow with water.",
-      "Συστατικά": "Di-Calcium phosphate, Ginkgo biloba 50:1 Extract, Bulking agent: Microcrystalline Cellulose, Magnesium stearate, Anti-caking agent: Silicon dioxide, Glazing Agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/ginkgo-biloba-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-ginkgobiloba150mgV60": {
-    "name": "Ginkgo Biloba 150mg 60 δισκία",
-    "subtitle": "Helps support cognitive function and circulatory health",
-    "description": "Ginkgo Biloba supports circulation to help maintain a healthy heart and for eye health, it also contributes to normal cognitive function to reduce memory loss.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "150mg ginkgo biloba leaf extract per tablet",
-      "Equivalent to 7500mg of herb powder",
-      "Standardized to provide 36mg of ginkgo flavonglycosides"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Heart & Circulation | Phyto-Nutrients | Senior’s Health",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Heart & Circulation | Phyto-Nutrients | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Ginkgo Biloba supports circulation to help maintain a healthy heart and for eye health, it also contributes to normal cognitive function to reduce memory loss.",
-      "Οφέλη": "150mg ginkgo biloba leaf extract per tablet\nEquivalent to 7500mg of herb powder\nStandardized to provide 36mg of ginkgo flavonglycosides",
-      "Χρήση": "As a food supplement take one tablet daily with food. Swallow with water.",
-      "Συστατικά": "Di-Calcium phosphate, Ginkgo biloba 50:1 Extract, Bulking agent: Microcrystalline Cellulose, Magnesium stearate, Anti-caking agent: Silicon dioxide, Glazing Agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Ginkgo-Biloba-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/ginkgo-biloba-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-megabcomplexV30": {
-    "name": "Mega B Complex 30 δισκία",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "A high potency timed released formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency Vitamin B and C complex",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "A high potency timed released formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-      "Οφέλη": "High potency Vitamin B and C complex\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Ascorbic Acid (with hydroxypropylmethylcellulose), Silicified Microcrystalline Cellulose, Calcium D-pantothenate, Pyridoxine Hydrochloride (with hydroxypropyl methylcellulose), Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropyl methylcellulose), Choline Bitartrate (with silica), Inositol, Para-aminobenzoic Acid, Croscarmellose Sodium, Hydroxypropylmethylcellulose, Vitamin B12 (triturate in di-calcium phosphate), D-biotin (triturate in dicalcium phosphate), Peppermint Oil, Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/mega-b-complex/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-megabcomplexV60": {
-    "name": "Mega B Complex 60 δισκία",
-    "subtitle": "Energy Formula. Contains nutrients to reduce tiredness and fatigue",
-    "description": "A high potency timed released formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency Vitamin B and C complex",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Heart & Circulation | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "A high potency timed released formula providing a full spectrum of the B vitamins plus vitamin C. Designed to support a hectic lifestyle, its helps support energy and concentration levels and reduce tiredness and fatigue and the effects of stress on the body. Vitamins B1, B2, niacin (B3), B6, pantothenic acid and vitamin C contribute to the reduction of tiredness and fatigue. Vitamins B1, niacin (B3), B6, B12, biotin and vitamin C contribute to normal functioning of the nervous system and normal psychological function. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections.",
-      "Οφέλη": "High potency Vitamin B and C complex\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one tablet daily with a meal",
-      "Συστατικά": "Ascorbic Acid (with hydroxypropylmethylcellulose), Silicified Microcrystalline Cellulose, Calcium D-pantothenate, Pyridoxine Hydrochloride (with hydroxypropyl methylcellulose), Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropyl methylcellulose), Choline Bitartrate (with silica), Inositol, Para-aminobenzoic Acid, Croscarmellose Sodium, Hydroxypropylmethylcellulose, Vitamin B12 (triturate in di-calcium phosphate), D-biotin (triturate in dicalcium phosphate), Peppermint Oil, Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega-B-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/mega-b-complex/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-glucosaminemsmchondroitin": {
-    "name": "Glucosamine, MSM & Chondroitin",
-    "subtitle": "For joint health and reduction of discomfort associated with arthritic conditions",
-    "description": "Glucosamine and chondroitin are key structural components of cartilage needed to support joint health and integrity. They have been shown to help improve joint mobility and function and reduce stiffness and pain. Glucosamine provides the structural matrix for cartilage whilst chondroitin sulphate provides much of its resistance to compression acting as a lubricant or as a shock absorber. MSM is an organic sulphur compound believed to have anti-inflammatory properties. This combination is recommended for sufferers of degenerative joint conditions such as osteoarthritis or those who place extra strain on joints such as manual or physical workers and athletes",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Combines structural components of cartilage and joints",
-      "Provides Glucosamine, chondroitin and MSM in one tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Joints and Muscles | Senior’s Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Joints and Muscles | Senior’s Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Glucosamine and chondroitin are key structural components of cartilage needed to support joint health and integrity. They have been shown to help improve joint mobility and function and reduce stiffness and pain. Glucosamine provides the structural matrix for cartilage whilst chondroitin sulphate provides much of its resistance to compression acting as a lubricant or as a shock absorber. MSM is an organic sulphur compound believed to have anti-inflammatory properties. This combination is recommended for sufferers of degenerative joint conditions such as osteoarthritis or those who place extra strain on joints such as manual or physical workers and athletes",
-      "Οφέλη": "Combines structural components of cartilage and joints\nProvides Glucosamine, chondroitin and MSM in one tablet",
-      "Χρήση": "Take three tablets daily with food. Swallow with water.",
-      "Συστατικά": "Glucosamine sulphate KCL (from corn) (with hydroxypropyl methylcellulose), Methyl sulfonyl methane, microcrystalline cellulose, silicified microcrystalline cellulose, chondroitin sulphate (bovine), croscarmellose sodium, precipitated silicon dioxide, hydroxypropylmethylcellulose, magnesium stearate",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Glucosamine-MSM-Chond-60s-250cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Glucosamine-MSM-Chond-60s-250cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Glucosamine-MSM-Chond-60s-250cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/glucosamine-msm-chondroitin/",
-    "source": "qnutrapharma.com",
-    "section": "arthroseis",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-veganglucosaminesulphate1500mg": {
-    "name": "Vegan Glucosamine Sulphate 1500mg",
-    "subtitle": "For joint health and reduction of discomfort associated with arthritic conditions",
-    "description": "Glucosamine is a key structural component of cartilage, it is needed to support joint health and integrity. It has been shown to help improve joint mobility and function and reduce stiffness and pain. Glucosamine is recommended for sufferers of degenerative joint conditions such as osteoarthritis or those who place extra strain on joints such as manual or physical workers and athletes",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency 1500mg per tablet",
-      "Convenient one a day formula",
-      "Sourced from non shellfish vegetarian material"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Joints and Muscles | Senior’s Health | Specialist Supplements",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Joints and Muscles | Senior’s Health | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "Glucosamine is a key structural component of cartilage, it is needed to support joint health and integrity. It has been shown to help improve joint mobility and function and reduce stiffness and pain. Glucosamine is recommended for sufferers of degenerative joint conditions such as osteoarthritis or those who place extra strain on joints such as manual or physical workers and athletes",
-      "Οφέλη": "High potency 1500mg per tablet\nConvenient one a day formula\nSourced from non shellfish vegetarian material",
-      "Χρήση": "Take one or two tablets daily with food.",
-      "Συστατικά": "Glucosamine Sulphate KCL, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon dioxide, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vegan-Glucosamine-1500mg-60s-250cc-Gluco-1500mg.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vegan-Glucosamine-1500mg-60s-250cc-Gluco-1500mg.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vegan-Glucosamine-1500mg-60s-250cc-Gluco-1500mg.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vegan-glucosamine-sulphate-1500mg/",
-    "source": "qnutrapharma.com",
-    "section": "arthroseis",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayV30": {
-    "name": "Once A Day 30 δισκία",
-    "subtitle": "All in one formula. Contains nutrients that contribute to the reduction of tiredness and fatigue",
-    "description": "A once a day everyday supplement to support optimal well being. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Convenient one a day comprehensive formula",
-      "Providing 17 vitamin and vitamin-related ingredients, 12 minerals and 12 additional factors",
-      "Quick release manufacture designed to deliver nutrients quickly when required",
-      "Contains amino acid chelated minerals to maximise absorption",
-      "Provides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Multi-Nutrients | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Multi-Nutrients | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "A once a day everyday supplement to support optimal well being. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-      "Οφέλη": "Convenient one a day comprehensive formula\nProviding 17 vitamin and vitamin-related ingredients, 12 minerals and 12 additional factors\nQuick release manufacture designed to deliver nutrients quickly when required\nContains amino acid chelated minerals to maximise absorption\nProvides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort",
-      "Χρήση": "Take one tablet daily with a meal.",
-      "Συστατικά": "Dicalcium phosphate, Bulking agent (microcrystalline cellulose), Multimineral amino acid blend (magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate, selenium aspartate, magnesium carbonate, rice protein concentrate, potassium iodide, chromium aminoate, molybdenum aminoate), Ascorbic acid (with hydroxypropylmethylcellulose), citrus bioflavonoids (with maltodextrin), L-lysine hydrochloride, D-alpha tocopheryl acetate (with corn starch, maltodextrin, silicon dioxide, monoglyceride), Calcium d-pantothenate, Nicotinamide, Choline bitartrate (with silica), Inositol, Dl-methionine, Soya lecithin, Croscarmellose sodium, Para-aminobenzoic acid, Beta Carotene (with modified starch, corn starch, dl-alpha tocopherol), Thiamine mononitrate (with hydroxypropylmethylcellulose), Pyridoxine hydrochloride (with hydroxypropylmethylcellulose), Betaine hydrochloride, Riboflavin, Vitamin A palmitate (with sucrose, gum arabic, corn starch, tricalcium phosphate, dl-alpha tocopherol) Anticaking agent (magnesium stearate), Vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol), Mixed carotenoids (with maltodextrin, croscarmellose sodium, ethylcellulose, ascorbic acid), Papain, Rutin, Vitamin B12 (with dicalcium phosphate), D-biotin (with dicalcium phosphate), Hydroxypropylemethylcellulose, L-cysteine, Folic acid.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayV90": {
-    "name": "Once A Day 90 δισκία",
-    "subtitle": "All in one formula. Contains nutrients that contribute to the reduction of tiredness and fatigue",
-    "description": "A once a day everyday supplement to support optimal well being. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Convenient one a day comprehensive formula",
-      "Providing 17 vitamin and vitamin-related ingredients, 12 minerals and 12 additional factors",
-      "Quick release manufacture designed to deliver nutrients quickly when required",
-      "Contains amino acid chelated minerals to maximise absorption",
-      "Provides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Multi-Nutrients | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Multi-Nutrients | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle"
-    },
-    "sections": {
-      "Περιγραφή": "A once a day everyday supplement to support optimal well being. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-      "Οφέλη": "Convenient one a day comprehensive formula\nProviding 17 vitamin and vitamin-related ingredients, 12 minerals and 12 additional factors\nQuick release manufacture designed to deliver nutrients quickly when required\nContains amino acid chelated minerals to maximise absorption\nProvides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort",
-      "Χρήση": "Take one tablet daily with a meal.",
-      "Συστατικά": "Dicalcium phosphate, Bulking agent (microcrystalline cellulose), Multimineral amino acid blend (magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate, selenium aspartate, magnesium carbonate, rice protein concentrate, potassium iodide, chromium aminoate, molybdenum aminoate), Ascorbic acid (with hydroxypropylmethylcellulose), citrus bioflavonoids (with maltodextrin), L-lysine hydrochloride, D-alpha tocopheryl acetate (with corn starch, maltodextrin, silicon dioxide, monoglyceride), Calcium d-pantothenate, Nicotinamide, Choline bitartrate (with silica), Inositol, Dl-methionine, Soya lecithin, Croscarmellose sodium, Para-aminobenzoic acid, Beta Carotene (with modified starch, corn starch, dl-alpha tocopherol), Thiamine mononitrate (with hydroxypropylmethylcellulose), Pyridoxine hydrochloride (with hydroxypropylmethylcellulose), Betaine hydrochloride, Riboflavin, Vitamin A palmitate (with sucrose, gum arabic, corn starch, tricalcium phosphate, dl-alpha tocopherol) Anticaking agent (magnesium stearate), Vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol), Mixed carotenoids (with maltodextrin, croscarmellose sodium, ethylcellulose, ascorbic acid), Papain, Rutin, Vitamin B12 (with dicalcium phosphate), D-biotin (with dicalcium phosphate), Hydroxypropylemethylcellulose, L-cysteine, Folic acid.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-A-Day-QR-30s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-equigluco": {
-    "name": "Equigluco",
-    "subtitle": "Specialist formula designed to support blood glucose regulation to help reduce the risk of type II diabetes and help a weight loss programme",
-    "description": "Designed to support normal blood sugar levels and is recommended for those at high risk of developing Type ll diabetes or to help promote weight loss. Combines standardised green coffee bean extract, chromium picolinate, magnesium, vitamin B6 and vitamin B3 (niacin). Chromium helps maintain normal blood glucose levels. Green coffee extract contains chlorogenic acid which slows down the absorption of sugars in the blood stream to help regulate blood sugar levels improve insulin sensitivity. It also inhibits fat absorption by supporting the activation of fat metabolism and elimination by the liver. Green coffee is used as an effective aid to weight reduction, the management of obesity and poor blood sugar regulation in overweight adults. Vitamin B6 contributes to normal glycogen metabolism. Glycogen is the body’s long term storage energy source that helps to maintain normal blood glucose levels between meals. Magnesium, vitamin B6 and niacin also contribute to normal energy yielding metabolism.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Specialist high potency formula",
-      "Provides green coffee, chromium and synergistic nutrients",
-      "Each tablet contains no more than 3% caffeine."
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Platinum Excellence™ Range | Specialist Health | Specialist Supplements | Weight Management",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Platinum Excellence™ Range | Specialist Health | Specialist Supplements | Weight Management"
-    },
-    "sections": {
-      "Περιγραφή": "Designed to support normal blood sugar levels and is recommended for those at high risk of developing Type ll diabetes or to help promote weight loss. Combines standardised green coffee bean extract, chromium picolinate, magnesium, vitamin B6 and vitamin B3 (niacin). Chromium helps maintain normal blood glucose levels. Green coffee extract contains chlorogenic acid which slows down the absorption of sugars in the blood stream to help regulate blood sugar levels improve insulin sensitivity. It also inhibits fat absorption by supporting the activation of fat metabolism and elimination by the liver. Green coffee is used as an effective aid to weight reduction, the management of obesity and poor blood sugar regulation in overweight adults. Vitamin B6 contributes to normal glycogen metabolism. Glycogen is the body’s long term storage energy source that helps to maintain normal blood glucose levels between meals. Magnesium, vitamin B6 and niacin also contribute to normal energy yielding metabolism.",
-      "Οφέλη": "Specialist high potency formula\nProvides green coffee, chromium and synergistic nutrients\nEach tablet contains no more than 3% caffeine.",
-      "Χρήση": "Take 1 tablet immediately before or with food/meals, up to and maximum of 3 tablets daily.",
-      "Συστατικά": "Di-calcium phosphate, green coffee extract (provides chlorogenic acids), mineral amino acid blend (provides magnesium oxide complexed with aspartic acid, citric acid, hydrolysed rice protein), microcrystalline cellulose, coating (hydroxypropylmethylcellulose, microcrystalline cellulose, stearic acid, colours: copper chlorophyllin, titanium dioxide), croscarmellose sodium, magnesium stearate, anticaking agent: silicon dioxide, niacin, vitamin B6 (with methyl cellulose), chromium picolinate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Equigluco.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Equigluco.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Equigluco.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/equigluco/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticzinc15mgV30": {
-    "name": "Synergistic Zinc 15mg 30 κάψουλες",
-    "subtitle": "Supports immunity, fertility, hair, nails and skin",
-    "description": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Provides zinc and copper which work synergistically together",
-      "High strength 15mg of zinc per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 δισκία",
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "135873/05-12-2022",
       "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails"
+      "Κατηγορία douni.gr": "Biotix"
     },
     "sections": {
-      "Περιγραφή": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nProvides zinc and copper which work synergistically together\nHigh strength 15mg of zinc per tablet",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Dicalcium phosphate, zinc amino acid blend (with rice protein, citric acid, zinc oxide, glycine, copper sulfate, rice protein concentrate), bulking agent (microcrystalline cellulose), croscarmellose sodium, magnesium stearate",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το Immune Biotix της Quest είναι ένας μοναδικός συνδυασμός συστατικών που υποστηρίζουν το ανοσοποιητικό σύστημα. Η μοναδική του σύνθεση περιλαμβάνει βήτα 1-3, 1-6 γλυκάνες, εκχύλισμα σκόρδου ψυχρής ωρίμανσης, ψευδάργυρο, σελήνιο, χαλκό, βιταμίνη D και φιλικά βακτήρια.\nΟ ψευδάργυρος, το σελήνιο, ο χαλκός και η βιταμίνη D συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος. Το εκχύλισμα σκόρδου ψυχρής ωρίμανσης έχει αποδεδειγμένη αντιοξειδωτική και αντιμικροβιακή δράση. Τα φιλικά βακτήρια εμποδίζουν την ανάπτυξη παθογόνων μικροοργανισμών.\nΤο Immune Biotix είναι ιδανικό για όσους θέλουν να ενισχύσουν δραστικά το ανοσοποιητικό τους σύστημα, να προστατευθούν από ιώσεις και κρυολογήματα, αλλά και από αλλεργίες. Μπορεί να προσφέρει σημαντική υποστήριξη ακόμα και στους πιο φιλάσθενους οργανισμούς, στα άτομα που έρχονται σε επαφή με πολύ κόσμο και παρουσιάζουν αυξημένο κίνδυνο να αρρωστήσουν και σε περιόδους έξαρσης των ιώσεων.\nΣτο Immune Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΒήτα 1-3,1-6 Γλυκάνες · 200mg\nΕκχύλισμα Σκόρδου Ψυχρής Ωρίμανσης · 200mg\nΒιταμίνη D3 · 25μg (1000i.u.)\nΨευδάργυρος · 5mg\nΣελήνιο · 100μg\nΧαλκός · 250μg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 20 δισεκατομμύρια (20x10^9): L.plantarum L.bulgaricus L.rhamnosus L.casei L.paraplantarum · 40mg\n\nΣυστατικά: Beta 1-3, 1-6 Glucans (from yeast cell wall concentrate), Aged Garlic Extract, Mineral amino acid blend (providing zinc oxide, sodium selenite and copper sulphate pentahydrate complexed with citric acid, glycine, hydrolysed rice protein), Lactobacilli Culture, bulking agent: Microcrystalline Cellulose, Vitamin D3 (with arabic gum, antioxidant d-α-tocopherol (from soya), tri-calcium phosphate), Magnesium Stearate, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Immune Biotix περιέχει τοκοφερόλη από σόγια.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png",
+    "image": "https://www.douni.gr/media/1403/immune-system-biotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1403/immune-system-biotix.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png"
+      "https://www.douni.gr/media/1403/immune-system-biotix.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-zinc-15mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticzinc15mgV90": {
-    "name": "Synergistic Zinc 15mg 90 δισκία",
-    "subtitle": "Supports immunity, fertility, hair, nails and skin",
-    "description": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Provides zinc and copper which work synergistically together",
-      "High strength 15mg of zinc per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 δισκία",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Immunity | Minerals | Pregnancy and Fertility | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Provides zinc and copper which work synergistically and contribute to the normal function of the immune system and the protection of cells from oxidative stress. Zinc also contributes to the maintenance of normal hair, nails and skin, promoting general wound, ulceration and scar healing. It plays a role in fertility and reproduction, is needed for normal growth. Low levels of zinc may contribute to infertility, hormonal imbalances, poor wound healing and increased susceptibility to infection.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nProvides zinc and copper which work synergistically together\nHigh strength 15mg of zinc per tablet",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Dicalcium phosphate, zinc amino acid blend (with rice protein, citric acid, zinc oxide, glycine, copper sulfate, rice protein concentrate), bulking agent (microcrystalline cellulose), croscarmellose sodium, magnesium stearate",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Zinc-15mg-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-zinc-15mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-celllife": {
-    "name": "Cell Life",
-    "subtitle": "Potent antioxidant formula to protect against oxidative stress",
-    "description": "A comprehensive formula designed to provide optimum levels of nutrients needed for immune support. Vitamins A & C and the minerals zinc, selenium and copper contribute to the normal functioning of the immune system. Vitamins C & E and the minerals zinc and selenium may also help protect body cells against oxidative stress and help minimise the environmental impact on delicate body tissues such as the skin. It is ideal for smokers, heavy exercisers, those living in polluted areas and the over 40’s.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Comprehensive antioxidant formula",
-      "Provides optimal amounts of 12 key water and fat soluble nutrients",
-      "Minerals in chelated amino acid form for optimum absorption and utilization"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Immunity | Multi-Nutrients | Skin, Hair and Nails",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Immunity | Multi-Nutrients | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "A comprehensive formula designed to provide optimum levels of nutrients needed for immune support. Vitamins A & C and the minerals zinc, selenium and copper contribute to the normal functioning of the immune system. Vitamins C & E and the minerals zinc and selenium may also help protect body cells against oxidative stress and help minimise the environmental impact on delicate body tissues such as the skin. It is ideal for smokers, heavy exercisers, those living in polluted areas and the over 40’s.",
-      "Οφέλη": "Comprehensive antioxidant formula\nProvides optimal amounts of 12 key water and fat soluble nutrients\nMinerals in chelated amino acid form for optimum absorption and utilization",
-      "Χρήση": "Take one tablet daily with food and swallow with water.",
-      "Συστατικά": "Vitamin C (hydroxypropylmethylcellulose), Bulking agent: Microcrystalline cellulose, Vitamin E (from soya), Dicalcium Phosphate, Mineral amino acid blend (providing zinc oxide, manganese carbonate, copper sulphate pentahydrate and sodium selenite complexed with citric acid, glycine and hydrolysed rice protein), Lutein preparation (providing lutein esters, zeaxanthin esters, with agar, sucrose, palm oil, ascorbyl palmitate, calcium stearate, sodium ascorbate, mixed tocopherols (soya)), Mixed carotenoids (providing beta-carotene, alpha-carotene, cryptoxanthin, zeaxanthin and lutein with gelatin, sucrose, olive oil, ascorbyl palmitate, mixed tocopherols (soya), anti-caking agent: silicon dioxide), Vitamin A (with antioxidant: tocopherols (soya) and tricalcium phosphate), Cellulose, Magnesium Stearate, Anti-caking agent: Silicon dioxide, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Cell-Life-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Cell-Life-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Cell-Life-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/cell-life/",
-    "source": "qnutrapharma.com",
-    "section": "eidika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticselenium200cebcgV30": {
-    "name": "Synergistic Selenium 200μg 30 δισκία",
-    "subtitle": "Combines selenium with vitamins C and E in a potent antioxidant formula to protect body cells from oxidative stress and support immunity",
-    "description": "Combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system and contributes to the normal production of sperm to support male fertility. It plays a role in normal thyroid function and is involved in the maintenance of hair and nails. Its antioxidant action may exert a protective effect, low levels of selenium may increase the risk of developing autoimmune disorders such as rheumatoid arthritis, cardiovascular disease and some cancers.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Synergistic formula with vitamins C and E to enhance utilisation of selenium"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Immunity | Joints and Muscles | Men’s Health and Fertility | Minerals | Skin, Hair and Nails",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Immunity | Joints and Muscles | Men’s Health and Fertility | Minerals | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system and contributes to the normal production of sperm to support male fertility. It plays a role in normal thyroid function and is involved in the maintenance of hair and nails. Its antioxidant action may exert a protective effect, low levels of selenium may increase the risk of developing autoimmune disorders such as rheumatoid arthritis, cardiovascular disease and some cancers.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nSynergistic formula with vitamins C and E to enhance utilisation of selenium",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Dicalcium phosphate, Ascorbic acid (with hydroxypropylmethylcellulose), Bulking agent (microcrystalline cellulose), D-alpha tocopheryl acetate (from soya) (with corn starch, maltodextrin, silicon dioxide, monoglyceride), Selenium amino acid blend (with rice protein, citric acid, glycine, sodium selenite), Anticaking agent (magnesium stearate).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-selenium-200%ce%bcg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticselenium200cebcgV90": {
-    "name": "Synergistic Selenium 200μg 90 δισκία",
-    "subtitle": "Combines selenium with vitamins C and E in a potent antioxidant formula to protect body cells from oxidative stress and support immunity",
-    "description": "Combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system and contributes to the normal production of sperm to support male fertility. It plays a role in normal thyroid function and is involved in the maintenance of hair and nails. Its antioxidant action may exert a protective effect, low levels of selenium may increase the risk of developing autoimmune disorders such as rheumatoid arthritis, cardiovascular disease and some cancers.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Synergistic formula with vitamins C and E to enhance utilisation of selenium"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Immunity | Joints and Muscles | Men’s Health and Fertility | Minerals | Skin, Hair and Nails",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Immunity | Joints and Muscles | Men’s Health and Fertility | Minerals | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "Combines selenium with vitamins C and E to create a potent antioxidant formula. Selenium, vitamin C and vitamin E help protect body cells from oxidative stress. Selenium also supports the normal function of the immune system and contributes to the normal production of sperm to support male fertility. It plays a role in normal thyroid function and is involved in the maintenance of hair and nails. Its antioxidant action may exert a protective effect, low levels of selenium may increase the risk of developing autoimmune disorders such as rheumatoid arthritis, cardiovascular disease and some cancers.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nSynergistic formula with vitamins C and E to enhance utilisation of selenium",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Dicalcium phosphate, Ascorbic acid (with hydroxypropylmethylcellulose), Bulking agent (microcrystalline cellulose), D-alpha tocopheryl acetate (from soya) (with corn starch, maltodextrin, silicon dioxide, monoglyceride), Selenium amino acid blend (with rice protein, citric acid, glycine, sodium selenite), Anticaking agent (magnesium stearate).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Selenium-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-selenium-200%ce%bcg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-eveningprimroseoil1000mgV30": {
-    "name": "Evening Primrose Oil 1000mg 30 κάψουλες",
-    "subtitle": "Provides GLA to support skin health and hormonal balance to help reduce PMS symptoms",
-    "description": "Evening primrose oil is a rich source of gamma linolenic acid (GLA) an essential omega 6 fatty acid that must be obtained from the diet. GLA supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Cold pressed evening primrose oil",
-      "High strength providing 10% (100mg) GLA per 1000mg capsule"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Omega Oils | Skin, Hair and Nails | Women’s Health",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 κάψουλες",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Omega Oils | Skin, Hair and Nails | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Evening primrose oil is a rich source of gamma linolenic acid (GLA) an essential omega 6 fatty acid that must be obtained from the diet. GLA supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health.",
-      "Οφέλη": "Cold pressed evening primrose oil\nHigh strength providing 10% (100mg) GLA per 1000mg capsule",
-      "Χρήση": "Take one to three capsules daily with food. Swallow with water.",
-      "Συστατικά": "Evening Primrose Oil (providing 10% GLA), Capsule Shell (gelatin (from bovine), glycerin), Vitamin E (from soya).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/evening-primrose-oil-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "omega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-eveningprimroseoil1000mgV90": {
-    "name": "Evening Primrose Oil 1000mg 90 κάψουλες",
-    "subtitle": "Provides GLA to support skin health and hormonal balance to help reduce PMS symptoms",
-    "description": "Evening primrose oil is a rich source of gamma linolenic acid (GLA) an essential omega 6 fatty acid that must be obtained from the diet. GLA supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Cold pressed evening primrose oil",
-      "High strength providing 10% (100mg) GLA per 1000mg capsule"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Omega Oils | Skin, Hair and Nails | Women’s Health",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 κάψουλες",
-      "Συσκευασία": "90 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Omega Oils | Skin, Hair and Nails | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Evening primrose oil is a rich source of gamma linolenic acid (GLA) an essential omega 6 fatty acid that must be obtained from the diet. GLA supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health.",
-      "Οφέλη": "Cold pressed evening primrose oil\nHigh strength providing 10% (100mg) GLA per 1000mg capsule",
-      "Χρήση": "Take one to three capsules daily with food. Swallow with water.",
-      "Συστατικά": "Evening Primrose Oil (providing 10% GLA), Capsule Shell (gelatin (from bovine), glycerin), Vitamin E (from soya).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Evening-Primrose-Oil-1000mg-30s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/evening-primrose-oil-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "omega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitaminb650mg": {
-    "name": "Vitamin B6 50mg",
-    "subtitle": "Contributes to hormone regulation during the menstrual cycle",
-    "description": "Vitamin B6 contributes to the regulation of hormonal activity; it may offer symptomatic relief for sufferers of PMS. It is required for the synthesis of neurotransmitters such as serotonin and supports the functioning of the immune and nervous systems. Vitamin B6 also has a role in the metabolism of protein and formation of red blood cells and is involved in energy metabolism in the body.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency 50mg per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Vitamins | Women’s Health",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Vitamins | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin B6 contributes to the regulation of hormonal activity; it may offer symptomatic relief for sufferers of PMS. It is required for the synthesis of neurotransmitters such as serotonin and supports the functioning of the immune and nervous systems. Vitamin B6 also has a role in the metabolism of protein and formation of red blood cells and is involved in energy metabolism in the body.",
-      "Οφέλη": "High potency 50mg per tablet",
-      "Χρήση": "Take one or two tablets daily with a meal",
-      "Συστατικά": "Dicalcium Phosphate, Bulking agent (microcrystalline cellulose), Vitamin B6 (as pyridoxine HCl), Hydroxypropylmethylcellulose, Magnesium Stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B6-50mg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B6-50mg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-B6-50mg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-b6-50mg/",
-    "source": "qnutrapharma.com",
-    "section": "vitb",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayironplus": {
-    "name": "Once A Day Iron Plus",
-    "subtitle": "Iron plus synergistic nutrients to reduce tiredness and fatigue, boost energy levels and increase iron levels",
-    "description": "Provides iron with synergistic nutrients, vitamin C, vitamins B2, niacin, B6, B12, pantothenic acid and folic acid. Helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Synergistic formula with 11 additional nutrients to enhance the utilisation and activity of iron",
-      "Gentle iron formulation",
-      "Suitable for use during pregnancy"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Minerals | Once a Day™ Range | Pregnancy and Fertility | Women’s Health",
-      "Κατηγορία qnutrapharma.com": "Energy | Minerals | Once a Day™ Range | Pregnancy and Fertility | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides iron with synergistic nutrients, vitamin C, vitamins B2, niacin, B6, B12, pantothenic acid and folic acid. Helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nSynergistic formula with 11 additional nutrients to enhance the utilisation and activity of iron\nGentle iron formulation\nSuitable for use during pregnancy",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Di-Calcium Phosphate, Mineral amino acid blend (providing ferrous sulphate, copper sulphate pentahydrate, sodium molybdate complexed with glycine, hydrolysed rice protein, sodium citrate, sodium hydroxide), Bulking agent: Microcrystalline cellulose, Vitamin C (with hydroxypropylmethylcellulose), Pantothenic Acid, Niacin (as niacinamide), Magnesium Stearate, Croscarmellose sodium, Thiamin (with methyl cellulose), Vitamin B6 (with methyl cellulose), Biotin (with di-calcium phosphate), Vitamin B12 (with di-calcium phosphate), Riboflavin, Folic Acid, Glazing agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Iron-Plus.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Iron-Plus.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Iron-Plus.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-iron-plus/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaypregnamulti": {
-    "name": "Once A Day Pregna Multi",
-    "subtitle": "All in One pregnancy formula containing 24 nutrients, including folic acid, iron and calcium",
-    "description": "Once a Day Pregna Multi contains 24 nutrients to help prepare for pregnancy, to promote the optimal health of the mother during pregnancy, and to encourage the healthy growth and development of the baby from conception and during breast-feeding. Recommended for women planning a pregnancy, pregnant women and lactating women.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency comprehensive formula for women planning a pregnancy, pregnant women and lactating women",
-      "Contains amino acid chelated minerals to maximise absorption",
-      "Provides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Once a Day™ Range | Pregnancy and Fertility",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Once a Day™ Range | Pregnancy and Fertility"
-    },
-    "sections": {
-      "Περιγραφή": "Once a Day Pregna Multi contains 24 nutrients to help prepare for pregnancy, to promote the optimal health of the mother during pregnancy, and to encourage the healthy growth and development of the baby from conception and during breast-feeding. Recommended for women planning a pregnancy, pregnant women and lactating women.",
-      "Οφέλη": "High potency comprehensive formula for women planning a pregnancy, pregnant women and lactating women\nContains amino acid chelated minerals to maximise absorption\nProvides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort",
-      "Χρήση": "Take one tablet daily with food",
-      "Συστατικά": "Multimineral amino acid blend (providing calcium carbonate, magnesium oxide, ferrous sulphate, zinc oxide, manganese carbonate, copper sulphate, potassium iodide, sodium selenite, chromium chloride, sodium molybdate complexed with citric acid, glycine, rice flour, rice protein complex, sodium hydroxide, sodium citrate, aspartic acid and maltodextrin), di-Calcium Phosphate, Vitamin C (with hydroxypropylmethylcellulose), Niacin (as niacinamide), Vitamin E (natural source vitamin E from non-GM soya), Magnesium Stearate, croscarmellose sodium, Lutein, Pantothenic Acid, Beta-carotene (with D-α-tocopherol, sodium ascorbate, ascorbyl palmitate, corn starch, glucose), Vitamin B12 (with dicalcium phosphate), Biotin (with di-calcium phosphate), Vitamin B6, Thiamin, Vitamin D3 (with arabic gum, tricalcium phosphate, D-α-tocopherol), Folic Acid (with dicalcium phosphate), Tablet coating (Glazing agent: Hydroxypropylmethylcellulose, Colour: Titanium Dioxide, Stearic Acid, Bulking agent: Microcrystalline cellulose)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Pregna-Multi.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Pregna-Multi.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Pregna-Multi.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-pregna-multi/",
-    "source": "qnutrapharma.com",
-    "section": "egkymosyni",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticiron15mg": {
-    "name": "Synergistic Iron 15mg",
-    "subtitle": "Iron plus synergistic nutrients to reduce tiredness and fatigue, boost energy levels and increase iron levels",
-    "description": "Provides iron with synergistic nutrients, vitamin C, vitamins B2, niacin, B6, B12, pantothenic acid and folic acid. Helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Synergistic formula with 11 additional nutrients to enhance the utilisation and activity of iron",
-      "Gentle iron formulation",
-      "Suitable for use during pregnancy"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Minerals | Pregnancy and Fertility | Women’s Health",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Minerals | Pregnancy and Fertility | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides iron with synergistic nutrients, vitamin C, vitamins B2, niacin, B6, B12, pantothenic acid and folic acid. Helps reduce tiredness and fatigue and alleviates symptoms of iron deficiency and anaemia. Iron plays a role in the transport of vital oxygen around the body and in the formation of red blood cells. Women of child bearing age have a higher risk of low iron levels due to the menstrual cycle. Iron supplementation is also recommended to prevent iron deficiency anaemia in pregnancy.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nSynergistic formula with 11 additional nutrients to enhance the utilisation and activity of iron\nGentle iron formulation\nSuitable for use during pregnancy",
-      "Χρήση": "Take one tablet daily with food.",
-      "Συστατικά": "Dicalcium phosphate, synergistic iron amino acid blend (iron glycinate, rice protein, copper sulphate, glycine, sodium citrate, molybdenum aminoate, rice protein concentrate), Bulking agent (microcrystalline cellulose), Ascorbic acid (with hydroxypropylmehylcellulose), Calcium d pantothenate, Nicotinamide, Magnesium Stearate, Croscarmellose Sodium, Glazing Agent (hydroxypropylmethylcellulose), Thiamine Mononitrate (with hydroxypropylmethylcellulose), D-biotin, Pyridoxone HCl (with hydroxypropylmethylcellulose), Vitamin B12 (with dicalcium phosphate), Riboflavin, Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Iron-15mg-90s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Iron-15mg-90s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Iron-15mg-90s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-iron-15mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitamind31000iu": {
-    "name": "Vitamin D3 1000i.u.",
-    "subtitle": "Supports immunity, bones, muscle and teeth",
-    "description": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Provides 1000i.u (25mcg) vitamin D per tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Essentials Range | Everyday Health and Wellbeing | Immunity | Pregnancy and Fertility | Senior’s Health | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Bones | Essentials Range | Everyday Health and Wellbeing | Immunity | Pregnancy and Fertility | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin D supplement to support bone and immune health. Provides 1000iu of vitamin D per tablet. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight and is recommended as a supplement for individuals with limited exposure to sunlight. Groups at high risk of low vitamin D levels including those of Asian and Afro Caribbean descent, pregnant and breastfeeding women, children and the elderly.",
-      "Οφέλη": "Provides 1000i.u (25mcg) vitamin D per tablet",
-      "Χρήση": "Take one tablet daily with food and swallow with water.",
-      "Συστατικά": "Microcrystalline Cellulose, Di-calcium Phosphate, Vitamin D (with bovine gelatine, sucrose, corn starch, soybean oil, dl-alpha-tocopheryl), anti-caking agent (precipitated silicon dioxide), Magnesium Stearate.\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-1000iu-90s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-1000iu-90s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-D3-1000iu-90s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-d3-1000i-u/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadaymulti": {
-    "name": "Once A Day Multi",
-    "subtitle": "All in one formula. Contains nutrients that contribute to the reduction of tiredness and fatigue",
-    "description": "A once a day everyday supplement to support optimal well being and safeguard a daily intake of a wide spectrum of nutrients. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or individuals with hectic lifestyles or poor diets.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Skin, Hair and Nails | Weight Management",
-      "Κατηγορία qnutrapharma.com": "Multi-Nutrients | Energy | Once a Day™ Range | Skin, Hair and Nails | Weight Management"
-    },
-    "sections": {
-      "Περιγραφή": "A once a day everyday supplement to support optimal well being and safeguard a daily intake of a wide spectrum of nutrients. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimize the environmental impact on delicate body tissues. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as the elderly, those with special dietary requirements such as vegetarians or individuals with hectic lifestyles or poor diets.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-MULTI-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-MULTI-1.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ONCE-A-DAY-MULTI-1.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-multi/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-onceadayosteo": {
-    "name": "Once A Day Osteo",
-    "subtitle": "Providing calcium and vitamin D for strong bones and to prevent osteoporosis",
-    "description": "Provides calcium and vitamin D needed for the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Calcium also supports energy metabolism and the actions of digestive enzymes. Calcium supplementation is also recommended for both elderly men and women to help support efficient absorption of nutrients from the diet in later years. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels to reduce loss of bone material and also helps to support immune function.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Contains vitamin D to help calcium absorption",
-      "High strength 1000mg daily dose per three tablets"
-    ],
-    "attributes": {
-      "Σειρά": "Once a Day™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Menopause | Minerals | Once a Day™ Range | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Bones | Menopause | Minerals | Once a Day™ Range | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides calcium and vitamin D needed for the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Calcium also supports energy metabolism and the actions of digestive enzymes. Calcium supplementation is also recommended for both elderly men and women to help support efficient absorption of nutrients from the diet in later years. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels to reduce loss of bone material and also helps to support immune function.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nContains vitamin D to help calcium absorption\nHigh strength 1000mg daily dose per three tablets",
-      "Χρήση": "Take three tablets daily with food. Swallow with water.",
-      "Συστατικά": "Mineral amino acid blend (providing calcium carbonate, calcium hydroxide complexed with citric acid, glycine and hydrolysed rice protein) Bulking agent: Microcrystalline cellulose, Magnesium Stearate, Vitamin D3 (with Arabic gum, Antioxidant: D-α-tocopherol (from soya), tri-calcium phosphate) Glazing agent: Hydroxypropylmethylcellulose. Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Osteo.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Osteo.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Once-a-Day-Osteo.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/once-a-day-osteo/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-forted4000": {
-    "name": "Forte D 4000",
-    "subtitle": "Supports immunity, bones, muscles and teeth",
-    "description": "High potency vitamin D supplement to support bone and immune health. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight, individuals with limited exposure to sunlight are recommended to take a vitamin D supplement. Other groups at risk of low levels of vitamin D include; individuals with darker skin tones, the elderly, pregnant and lactating women, children and those with serious illnesses or who have been hospitalised for long periods.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "Optimum high strength formula",
-      "Provides 4000iu (100mcg) vitamin D per tablet",
-      "Tasty chewable tablet"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Everyday Health and Wellbeing | Immunity | Platinum Excellence™ Range | Pregnancy and Fertility | Senior’s Health | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "High potency vitamin D supplement to support bone and immune health. Vitamin D contributes to the normal function of the immune system and muscles. It is needed for the utilisation of calcium in the body and helps to maintain bones and teeth. Vitamin D is naturally created by the body through exposure to sunlight, individuals with limited exposure to sunlight are recommended to take a vitamin D supplement. Other groups at risk of low levels of vitamin D include; individuals with darker skin tones, the elderly, pregnant and lactating women, children and those with serious illnesses or who have been hospitalised for long periods.",
-      "Οφέλη": "Optimum high strength formula\nProvides 4000iu (100mcg) vitamin D per tablet\nTasty chewable tablet",
-      "Χρήση": "One chewable tablet daily with or after a meal",
-      "Συστατικά": "Microcrystalline cellulose, dicalcium phosphate, vitamin D3 (sucrose, cholecalciferol, hydrolysed bovine gelatin, corn starch, dl-α-tocopherol), croscarmellose sodium, anti-caking agent: silicon dioxide, magnesium stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteD4000.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteD4000.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ForteD4000.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/forte-d-4000/",
-    "source": "qnutrapharma.com",
-    "section": "vitd",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticcalmagV30": {
-    "name": "Synergistic Cal-Mag 30 δισκία",
-    "subtitle": "A balanced ratio of calcium, magnesium and vitamin D for strong bones and muscle functions",
-    "description": "Provides a balanced ratio of calcium, magnesium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Magnesium helps the body utilise calcium efficiently and is a key nutrient for muscle health. Calcium and magnesium are also important to support the functioning of the nervous system. Children going through puberty have an increased requirement for calcium and magnesium to support growth spurts at this time.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Provides a balanced ratio of calcium and magnesium",
-      "Contains vitamin D to help calcium absorption",
-      "Chelated mineral form for optimum absorption and utilisation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Children’s Health | Essentials Range | Immunity | Joints and Muscles | Menopause | Minerals",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Children’s Health | Essentials Range | Immunity | Joints and Muscles | Menopause | Minerals"
-    },
-    "sections": {
-      "Περιγραφή": "Provides a balanced ratio of calcium, magnesium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Magnesium helps the body utilise calcium efficiently and is a key nutrient for muscle health. Calcium and magnesium are also important to support the functioning of the nervous system. Children going through puberty have an increased requirement for calcium and magnesium to support growth spurts at this time.",
-      "Οφέλη": "Provides a balanced ratio of calcium and magnesium\nContains vitamin D to help calcium absorption\nChelated mineral form for optimum absorption and utilisation",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Calcium-Magnesium Amino Acid Blend (magnesium oxide, aspartic acid, calcium carbonate, magnesium oxide), Magnesium Amino Acid Blend (citric acid, magnesium oxide, aspartic acid, rice protein, rice protein concentrate), Bulking Agent (microcrystalline cellulose), Calcium Amino Acid Blend (calcium carbonate, citric acid, calcium hydroxide, rice protein, glycine), Glazing Agent (hydroxypropylmethylcellulose, methacrylic acid, cellulose, titanium dioxide), Croscarmellose Sodium, Anticaking Agent (magnesium stearate, precipitated silicon dioxide), Vitamin D (with sucrose, modified starch, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-cal-mag/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticcalmagV90": {
-    "name": "Synergistic Cal-Mag 90 δισκία",
-    "subtitle": "A balanced ratio of calcium, magnesium and vitamin D for strong bones and muscle functions",
-    "description": "Provides a balanced ratio of calcium, magnesium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Magnesium helps the body utilise calcium efficiently and is a key nutrient for muscle health. Calcium and magnesium are also important to support the functioning of the nervous system. Children going through puberty have an increased requirement for calcium and magnesium to support growth spurts at this time.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Provides a balanced ratio of calcium and magnesium",
-      "Contains vitamin D to help calcium absorption",
-      "Chelated mineral form for optimum absorption and utilisation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Children’s Health | Essentials Range | Immunity | Joints and Muscles | Menopause | Minerals",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Children’s Health | Essentials Range | Immunity | Joints and Muscles | Menopause | Minerals"
-    },
-    "sections": {
-      "Περιγραφή": "Provides a balanced ratio of calcium, magnesium and vitamin D which are needed for and contribute to the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Magnesium helps the body utilise calcium efficiently and is a key nutrient for muscle health. Calcium and magnesium are also important to support the functioning of the nervous system. Children going through puberty have an increased requirement for calcium and magnesium to support growth spurts at this time.",
-      "Οφέλη": "Provides a balanced ratio of calcium and magnesium\nContains vitamin D to help calcium absorption\nChelated mineral form for optimum absorption and utilisation",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Calcium-Magnesium Amino Acid Blend (magnesium oxide, aspartic acid, calcium carbonate, magnesium oxide), Magnesium Amino Acid Blend (citric acid, magnesium oxide, aspartic acid, rice protein, rice protein concentrate), Bulking Agent (microcrystalline cellulose), Calcium Amino Acid Blend (calcium carbonate, citric acid, calcium hydroxide, rice protein, glycine), Glazing Agent (hydroxypropylmethylcellulose, methacrylic acid, cellulose, titanium dioxide), Croscarmellose Sodium, Anticaking Agent (magnesium stearate, precipitated silicon dioxide), Vitamin D (with sucrose, modified starch, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Cal-Mag-30-tabs.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-cal-mag/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-flavanon4": {
-    "name": "Flavanon-4",
-    "subtitle": "For relief of symptoms associated with the menopause",
-    "description": "Red clover contains isoflavone phytoestrogens, naturally occurring compounds capable of producing mild oestrogenic effects. Phytoestrogens have been shown to offer symptomatic relief from menopausal hot flushes and can be used as a natural alternative to conventional hormone replacement therapy (HRT). They may exert similar protective effects against oestrogen related bone loss and increased risk of heart disease for post menopausal women.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Non-soya based plant isoflavones from red clover",
-      "Equivalent to 500mg red clover herb powder",
-      "Each tablet provides 40mg of combined isoflavones"
-    ],
-    "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Menopause | Phyto-Nutrients | Platinum Excellence™ Range",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Menopause | Phyto-Nutrients | Platinum Excellence™ Range"
-    },
-    "sections": {
-      "Περιγραφή": "Red clover contains isoflavone phytoestrogens, naturally occurring compounds capable of producing mild oestrogenic effects. Phytoestrogens have been shown to offer symptomatic relief from menopausal hot flushes and can be used as a natural alternative to conventional hormone replacement therapy (HRT). They may exert similar protective effects against oestrogen related bone loss and increased risk of heart disease for post menopausal women.",
-      "Οφέλη": "Non-soya based plant isoflavones from red clover\nEquivalent to 500mg red clover herb powder\nEach tablet provides 40mg of combined isoflavones",
-      "Χρήση": "One to two tablets daily with food.",
-      "Συστατικά": "Di-calcium phosphate, plant isoflavones, bulking agent: microcrystalline cellulose, magnesium stearate, anti-caking agent: silicon dioxide, croscarmellose sodium. Coating: (hydroxypropylmethylcellulose, stearic acid,microcrystalline cellulose, colours: sodium copper chlorophyllin, titanium dioxide).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Flavanon-4.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Flavanon-4.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Flavanon-4.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/flavanon-4/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticcalcium": {
-    "name": "Synergistic Calcium",
-    "subtitle": "Providing calcium and vitamin D for strong bones and to prevent osteoporosis",
-    "description": "Provides calcium and vitamin D needed for the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Calcium also supports energy metabolism and the actions of digestive enzymes. Calcium supplementation is also recommended for both elderly men and women to help support efficient absorption of nutrients from the diet in later years. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels to reduce loss of bone material and also helps to support immune function.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Contains vitamin D to help calcium absorption",
-      "High strength 1000mg daily dose per three tablets"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Essentials Range | Menopause | Minerals | Senior’s Health",
-      "Συσκευασία": "45 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Essentials Range | Menopause | Minerals | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides calcium and vitamin D needed for the maintenance of normal bone, teeth and muscle function. Supplementing with calcium and vitamin D may help reduce the risk or bone fractures and the risk or progression of osteoporosis. Women of menopausal age are recommended to take a calcium and vitamin D supplement for bone health. Calcium also supports energy metabolism and the actions of digestive enzymes. Calcium supplementation is also recommended for both elderly men and women to help support efficient absorption of nutrients from the diet in later years. Vitamin D, included as a synergistic nutrient, helps to maintain normal blood calcium levels to reduce loss of bone material and also helps to support immune function.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nContains vitamin D to help calcium absorption\nHigh strength 1000mg daily dose per three tablets",
-      "Χρήση": "Take three tablets daily with food. Swallow with water.",
-      "Συστατικά": "Calcium Amino Acid Blend (calcium carbonate, citric acid, calcium hydroxide, rice protein, glycine, rice protein concentrate), Bulking Agent (microcrystalline cellulose), Silicified microcrystalline cellulose, Magnesium Stearate, Hydroxypropylmethylcellulose, Vitamin D (with modified starch, sucrose, sodium ascorbate, medium chain riglycerides, silicon dioxide, dl-alpha tocopherol).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Calcium-45s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Calcium-45s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Calcium-45s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-calcium/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-superonceaday": {
-    "name": "Super Once a Day",
-    "subtitle": "All in one high potency formula. Contains nutrients that contribute to the reduction of tiredness and fatigue",
-    "description": "A high potency supplement to support optimal wellbeing. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimise the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency comprehensive formula",
-      "Patented timed-release tablet releases nutrients over 6 hours",
-      "Provides 17 vitamins and 12 minerals",
-      "With additional synergistic co-factors",
-      "Contains amino acid chelated minerals to maximise absorption",
-      "Provides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Immunity | Multi-Nutrients | Skin, Hair and Nails | Stress and Hectic Lifestyle | Weight Management",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Energy | Essentials Range | Everyday Health and Wellbeing | Immunity | Multi-Nutrients | Skin, Hair and Nails | Stress and Hectic Lifestyle | Weight Management"
-    },
-    "sections": {
-      "Περιγραφή": "A high potency supplement to support optimal wellbeing. It contains nutrients such as the B vitamins and vitamin C that contribute to the reduction of tiredness and fatigue and help increase the body’s resistance to stress. It also provides nutrients to support immune function and protect body cells against oxidative stress to minimise the environmental impact on delicate body tissues such as the skin. This is a high potency “all-in-one” formula designed to augment dietary intake, particularly useful in times of stress, or for those at risk of nutritional deficiencies such as those with special dietary requirements such as vegetarians or for anyone following a weight management where calorie intake is restricted.",
-      "Οφέλη": "High potency comprehensive formula\nPatented timed-release tablet releases nutrients over 6 hours\nProvides 17 vitamins and 12 minerals\nWith additional synergistic co-factors\nContains amino acid chelated minerals to maximise absorption\nProvides a gentle form of ‘iron’ less likely to cause constipation or digestive discomfort",
-      "Χρήση": "Take one tablet daily with your main meal.",
-      "Συστατικά": "Dicalcium Phosphate, Multimineral Amino Acid Blend (with magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate, sodium selenite, aspartic acid, maltodextrin, manganese carbonate, rice protein concentrate, potassium iodide, rice flour, chromium chloride, sodium hydroxide, sodium citrate, sodiummolybdenite), Ascorbic acid (with hydroxypropylmethylcellulose), Hydroxypropylmethylcellulose, D-alpha Tocopheryl Acetate (with corn starch, maltodextrin, silicon dioxide, monoglyceride), Calcium-d Pantothenate, Pyridoxine HCl, Riboflavin, Nicotinamide, Thiamine Mononitrate (with hydroxypropylmethylcellulose), Dl-methionine, Choline Bitartrate (with silica), Para Aminobenzoic Acid, Inositol, Lecithin (soya), Anticaking Agent (magnesium stearate), Citrus Bioflavonoids (with maltodextrin), Beta Carotene (with modified starch, corn starch, dl-alpha tocopherol acetate), L-lysine HCl, Betaine HCl, Vitamin A Palmitate (with sucrose, gum Arabic, corn starch, tricalcium phosphate, dl-alpha tocopherol acetate), Glazing agent (hydroxypropylmethylcellulose), Vitamin B12 (with dicalcium phosphate), D-biotin (with dicalcium phosphate), Vitamin D3 (with sucrose, modified starch, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol), Mixed Carotenoids (with maltodextrin, croscarmellose sodium, ethylcellulose, ascorbic acid), Papain, Rutin, L-cysteine, Folic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Once-A-Day-TR-30s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Once-A-Day-TR-30s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Once-A-Day-TR-30s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/super-once-a-day/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-multimineral10": {
-    "name": "Multimineral 10",
-    "subtitle": "Safeguards an intake of 10 minerals for general wellbeing and to support bones, muscle and immune function",
-    "description": "A comprehensive broad spectrum Multimineral formula providing 10 key amino acid chelated minerals including calcium and magnesium in a balanced ratio needed for the maintenance of normal bone and muscle function. The antioxidant minerals selenium, zinc and copper help protect body cells from oxidative stress, support liver detoxification function and contribute to the normal function of the immune system. Mineral supplementation is recommended for the elderly who may not be able to absorb nutrients as efficiently from the diet in later years.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Synergistic blend of 10 key minerals",
-      "Broad spectrum mineral support",
-      "Balanced ratio calcium and magnesium",
-      "Chelated mineral form for optimum absorption and utilisation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Everyday Health and Wellbeing | Minerals | Multi-Nutrients | Senior’s Health",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Everyday Health and Wellbeing | Minerals | Multi-Nutrients | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "A comprehensive broad spectrum Multimineral formula providing 10 key amino acid chelated minerals including calcium and magnesium in a balanced ratio needed for the maintenance of normal bone and muscle function. The antioxidant minerals selenium, zinc and copper help protect body cells from oxidative stress, support liver detoxification function and contribute to the normal function of the immune system. Mineral supplementation is recommended for the elderly who may not be able to absorb nutrients as efficiently from the diet in later years.",
-      "Οφέλη": "Synergistic blend of 10 key minerals\nBroad spectrum mineral support\nBalanced ratio calcium and magnesium\nChelated mineral form for optimum absorption and utilisation",
-      "Χρήση": "One or two tablets daily with food",
-      "Συστατικά": "Calcium -magnesium amino acid chelate blend (with magnesium aspartate, calcium carbonate, magnesium oxide), Bulking agent (microcrystalline cellulose), Multimineral amino acid chelate blend (magnesium oxide, calcium carbonate, iron glycinate, citric acid, rice protein, zinc oxide, glycine, copper sulphate, selenium aspartate, manganese carbonate, rice protein concentrate, potassium iodide, chromium aminoate, molybdenum aminoate), Calcium amino acid chelate blend (with calcium carbonate, citric acid, calcium hydroxide, rice flour, glycine, rice protein), Croscarmellose sodium, Anticaking agent (precipitated dioxide, magnesium stearate), Glazing agent (hydroxypropylmethylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multimineral-10-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multimineral-10-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Multimineral-10-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/multimineral-10/",
-    "source": "qnutrapharma.com",
-    "section": "polyvitamines",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-kyolic600V30": {
-    "name": "Kyolic 600 30 δισκία",
-    "subtitle": "Helps to support heart, liver and immune function",
-    "description": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Produced from organically grown cold aged garlic cloves",
-      "Contains water and oil soluble compounds",
-      "Odourless and gentle on the stomach",
-      "Unique garlic form supported by extensive clinical studies",
-      "High strength"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
-      "Οφέλη": "Produced from organically grown cold aged garlic cloves\nContains water and oil soluble compounds\nOdourless and gentle on the stomach\nUnique garlic form supported by extensive clinical studies\nHigh strength",
-      "Χρήση": "Take one or two tablets daily with food",
-      "Συστατικά": "Aged Garlic Extract, Hydroxypropylmethylcellulose, Bulking Agent (microcrystalline cellulose), Croscarmellose Sodium, Anticaking Agent (silicon dioxide, magnesium stearate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/kyolic-600/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-kyolic600V60": {
-    "name": "Kyolic 600 60 δισκία",
-    "subtitle": "Helps to support heart, liver and immune function",
-    "description": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Produced from organically grown cold aged garlic cloves",
-      "Contains water and oil soluble compounds",
-      "Odourless and gentle on the stomach",
-      "Unique garlic form supported by extensive clinical studies",
-      "High strength"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
-      "Οφέλη": "Produced from organically grown cold aged garlic cloves\nContains water and oil soluble compounds\nOdourless and gentle on the stomach\nUnique garlic form supported by extensive clinical studies\nHigh strength",
-      "Χρήση": "Take one or two tablets daily with food",
-      "Συστατικά": "Aged Garlic Extract, Hydroxypropylmethylcellulose, Bulking Agent (microcrystalline cellulose), Croscarmellose Sodium, Anticaking Agent (silicon dioxide, magnesium stearate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-600-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/kyolic-600/",
-    "source": "qnutrapharma.com",
-    "section": "kardia",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-omega3fishoil1000mg": {
-    "name": "Omega 3 Fish Oil 1000mg",
-    "subtitle": "Provides EPA & DHA for heart and joint health",
-    "description": "The omega 3 fatty acids EPA and DHA found in fish oils have anti-inflammatory actions helping to support joint health, reduce pain and stiffness and improve mobility. They also contribute to the normal function of the heart and maintenance of skin condition. DHA contributes to maintenance of normal brain function and vision, it is a key nutrient in brain structure adequate levels are needed to influence neurocognitive development. EPA and DHA are essential fatty acids, meaning they can only be obtained via the diet or supplementation. It is recommended that post menopausal women and the elderly consider taking fish oil supplements to protect heart and joint health.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "High strength"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Heart & Circulation | Joints and Muscles | Menopause | Omega Oils | Pregnancy and Fertility | Senior’s Health | Skin, Hair and Nails",
-      "Συσκευασία": "90 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Heart & Circulation | Joints and Muscles | Menopause | Omega Oils | Pregnancy and Fertility | Senior’s Health | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "The omega 3 fatty acids EPA and DHA found in fish oils have anti-inflammatory actions helping to support joint health, reduce pain and stiffness and improve mobility. They also contribute to the normal function of the heart and maintenance of skin condition. DHA contributes to maintenance of normal brain function and vision, it is a key nutrient in brain structure adequate levels are needed to influence neurocognitive development. EPA and DHA are essential fatty acids, meaning they can only be obtained via the diet or supplementation. It is recommended that post menopausal women and the elderly consider taking fish oil supplements to protect heart and joint health.",
-      "Οφέλη": "High strength",
-      "Χρήση": "Take one to two capsules daily with food",
-      "Συστατικά": "Fish Oil Concentrate, Capsule Shell (gelatin (from bovine), glycerin),Vitamin E (as dl-alpha tocopheryl acetate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Omega-3-Fish-Oil-45s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Omega-3-Fish-Oil-45s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Omega-3-Fish-Oil-45s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/omega-3-fish-oil-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "omega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-superomega369": {
-    "name": "Super Omega 3-6-9",
-    "subtitle": "EPA & DHA for heart and joint health and hormonal balance",
-    "description": "A balanced blend of omega 3,6 and 9 fatty acids, contains omega 6 fatty acids gamma linolenic acid (GLA) and linoleic acid (LA) from evening primrose and borage oils combined with omega 3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) from fish oil. Also naturally contains the omega 9 fatty acid oleic acid. EPA and DHA found in fish oil contribute to the normal function of the heart and have anti-inflammatory actions helping to support joint health, reduce pain and stiffness and improve mobility. Gamma linolenic acid (GLA) is an essential omega 6 fatty acid that supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health. It is recommended that post menopausal women and the elderly consider supplementing with essential fatty acids to protect heart, skin and joint health.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς"
-    ],
-    "highlights": [
-      "A balanced blend of Omega, 3,6 and 9 fatty acids"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Heart & Circulation | Joints and Muscles | Menopause | Omega Oils | Pregnancy and Fertility | Senior’s Health | Skin, Hair and Nails",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Heart & Circulation | Joints and Muscles | Menopause | Omega Oils | Pregnancy and Fertility | Senior’s Health | Skin, Hair and Nails"
-    },
-    "sections": {
-      "Περιγραφή": "A balanced blend of omega 3,6 and 9 fatty acids, contains omega 6 fatty acids gamma linolenic acid (GLA) and linoleic acid (LA) from evening primrose and borage oils combined with omega 3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) from fish oil. Also naturally contains the omega 9 fatty acid oleic acid. EPA and DHA found in fish oil contribute to the normal function of the heart and have anti-inflammatory actions helping to support joint health, reduce pain and stiffness and improve mobility. Gamma linolenic acid (GLA) is an essential omega 6 fatty acid that supports hormonal balance during a womans monthly cycle to help reduce PMS symptoms and evening primrose oil is indicated in the symptomatic relief of atopic dermatitis. GLA is also involved in inflammatory responses in the body, normal blood coagulation processes and general skin health. It is recommended that post menopausal women and the elderly consider supplementing with essential fatty acids to protect heart, skin and joint health.",
-      "Οφέλη": "A balanced blend of Omega, 3,6 and 9 fatty acids",
-      "Χρήση": "Take two to three capsules daily with food",
-      "Συστατικά": "Borage oil, Fish oil, Capsule shell (bovine gelatin, glycerol), Evening primrose oil, Antioxidant (vitamin E)\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Omega-3-6-9-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Omega-3-6-9-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Super-Omega-3-6-9-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/super-omega-3-6-9/",
-    "source": "qnutrapharma.com",
-    "section": "omega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-cholesterolbiotix": {
-    "name": "CholesterolBiotix",
-    "subtitle": "A specialist formulation containing powerful natural ingredients to reduce cholesterol",
-    "description": "CholesterolBiotix is a unique formulation containing three natural-based cholesterol-lowering ingredients: plant sterols (phytosterols); red yeast rice extract (monascus purpureous), and lactobacilli probiotic bacteria. All three ingredients work in different ways to help support cholesterol levels naturally. Plant sterols inhibit the intestinal absorption of cholesterol; red yeast rice extract (containing monacolin-k) reduces the production of cholesterol by the body; and lactobacilli bacteria can remove cholesterol from the body. The formulation also includes CoQ10, which is recommended for patients on cholesterol lowering statins, such as monacolin-k contained in red yeast rice extract.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Combines four potent nutrients in a unique specialist formula",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Heart & Circulation | Probiotics | Specialist Supplements",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Heart & Circulation | Probiotics | Specialist Supplements"
-    },
-    "sections": {
-      "Περιγραφή": "CholesterolBiotix is a unique formulation containing three natural-based cholesterol-lowering ingredients: plant sterols (phytosterols); red yeast rice extract (monascus purpureous), and lactobacilli probiotic bacteria. All three ingredients work in different ways to help support cholesterol levels naturally. Plant sterols inhibit the intestinal absorption of cholesterol; red yeast rice extract (containing monacolin-k) reduces the production of cholesterol by the body; and lactobacilli bacteria can remove cholesterol from the body. The formulation also includes CoQ10, which is recommended for patients on cholesterol lowering statins, such as monacolin-k contained in red yeast rice extract.",
-      "Οφέλη": "Combines four potent nutrients in a unique specialist formula\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "Take two capsules daily with or after a meal.",
-      "Συστατικά": "Plant sterols, red yeast rice extract, microcrystalline cellulose, magnesium stearate, lactobacilli culture (L.rhamnosus, L.bulgaricus), coenzyme Q10, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum)",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CHOLESTEROLBIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CHOLESTEROLBIOTIX.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CHOLESTEROLBIOTIX.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/cholesterolbiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticmagnesium150mgV30": {
-    "name": "Synergistic Magnesium 150mg 30 κάψουλες",
-    "subtitle": "Supports muscle health, energy levels and the nervous system",
-    "description": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Contains synergistic vitamin B6 to aid metabolism of magnesium"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 60 δισκία",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nContains synergistic vitamin B6 to aid metabolism of magnesium",
-      "Χρήση": "Take one or two tablets daily with food.",
-      "Συστατικά": "Magnesium amino acid blend (with citric acid, magnesium oxide, aspartic acid, rice protein, rice protein concentrate), bulking agent (microcrystalline cellulose), croscarmellose sodium, coating agent (hydroxypropyl methylcellulose, microcrystalline cellulose, stearic acid, titanium dioxide), magnesium stearate, pyridoxine hydrochloride (with hydroxypropyl methylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-magnesium-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-synergisticmagnesium150mgV60": {
-    "name": "Synergistic Magnesium 150mg 60 δισκία",
-    "subtitle": "Supports muscle health, energy levels and the nervous system",
-    "description": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Chelated mineral form for optimum absorption and utilisation",
-      "Contains synergistic vitamin B6 to aid metabolism of magnesium"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health",
-      "Διαθέσιμα μεγέθη": "30 κάψουλες, 60 δισκία",
-      "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Bones | Energy | Essentials Range | Heart & Circulation | Joints and Muscles | Minerals | Pregnancy and Fertility | Stress and Hectic Lifestyle | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Provides magnesium and vitamin B6 which contribute to a reduction of tiredness and fatigue and to normal energy yielding metabolism. These synergistic nutrients also contribute to the normal functioning of the nervous system and to normal psychological function. Magnesium is needed for production of neurotransmitters and some hormones. Low levels may contribute to disturbed sleep, anxiety and symptoms of pre-menstrual syndrome (PMS). Magnesium is the second most abundant mineral in the body and is involved in more than 300 enzymatic reactions in the body. It plays a role in the normal function of muscles and is involved in the maintenance of bones and teeth. It is important for heart health, low levels increase the risk of arrhythmia and pre-eclampsia (and eclampsia) during pregnancy.",
-      "Οφέλη": "Chelated mineral form for optimum absorption and utilisation\nContains synergistic vitamin B6 to aid metabolism of magnesium",
-      "Χρήση": "Take one or two tablets daily with food.",
-      "Συστατικά": "Magnesium amino acid blend (with citric acid, magnesium oxide, aspartic acid, rice protein, rice protein concentrate), bulking agent (microcrystalline cellulose), croscarmellose sodium, coating agent (hydroxypropyl methylcellulose, microcrystalline cellulose, stearic acid, titanium dioxide), magnesium stearate, pyridoxine hydrochloride (with hydroxypropyl methylcellulose).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Synergistic-Magnesium-150mg-60s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/synergistic-magnesium-150mg/",
-    "source": "qnutrapharma.com",
-    "section": "metalla",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-seabuckthornoil": {
-    "name": "Sea Buckthorn Oil",
-    "subtitle": "Omega 7 fatty acid to support skin and eye health",
-    "description": "Sea Buckthorn oil is a rich source of the monounsaturated omega 7 fatty acids. It has antioxidant vulnerary (healing) and inflammatory properties. It is indicated in cases of atopic dermatitis, dry eye syndrome and burns, nourishing the skin to aid with the healing of wounds and ulcers and support the lubrication of delicate skin membranes. Sea buckthorn is commonly used to reduce vaginal skin cells atrophy in post-menopausal women.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "A rich source of the monounsaturated omega 7 fatty acids",
-      "A natural source of tocopherols, tocotrinols and carotenoids"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Menopause | Omega Oils | Skin, Hair and Nails | Women’s Health",
-      "Συσκευασία": "60 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Menopause | Omega Oils | Skin, Hair and Nails | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "Sea Buckthorn oil is a rich source of the monounsaturated omega 7 fatty acids. It has antioxidant vulnerary (healing) and inflammatory properties. It is indicated in cases of atopic dermatitis, dry eye syndrome and burns, nourishing the skin to aid with the healing of wounds and ulcers and support the lubrication of delicate skin membranes. Sea buckthorn is commonly used to reduce vaginal skin cells atrophy in post-menopausal women.",
-      "Οφέλη": "A rich source of the monounsaturated omega 7 fatty acids\nA natural source of tocopherols, tocotrinols and carotenoids",
-      "Χρήση": "Take two capsules daily with food",
-      "Συστατικά": "Sea Buckthorn oil, Modified Corn Starch, Glycerol, Capsule Shell (carrageenan), Sodium Carbonate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Sea-Buckthorn-Oil-60s-120cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Sea-Buckthorn-Oil-60s-120cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Sea-Buckthorn-Oil-60s-120cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/sea-buckthorn-oil/",
-    "source": "qnutrapharma.com",
-    "section": "omega",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-bioccomplexV30": {
-    "name": "Bio C Complex 30 δισκία",
-    "subtitle": "Supports immune and skin health, allergy response and blood vessel function",
-    "description": "Bio C Complex provides vitamin C along with bioflavonoids, which are widely distributed in plants particularly in vitamin C rich food and greatly increase the absorption of vitamin C by the body. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue. Bioflavonoids help support circulation and strengthen capillary integrity, they are also said to have a mild anti-histamine effect.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "One to one ratio of vitamin C and bioflavonoids",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Immunity | Skin, Hair and Nails | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Immunity | Skin, Hair and Nails | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Bio C Complex provides vitamin C along with bioflavonoids, which are widely distributed in plants particularly in vitamin C rich food and greatly increase the absorption of vitamin C by the body. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue. Bioflavonoids help support circulation and strengthen capillary integrity, they are also said to have a mild anti-histamine effect.",
-      "Οφέλη": "One to one ratio of vitamin C and bioflavonoids\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one to three tablets daily with a meal.",
-      "Συστατικά": "Vitamin C (with hydroxypropylmethylcellulose), Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing Agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/bio-c-complex/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-bioccomplexV90": {
-    "name": "Bio C Complex 90 δισκία",
-    "subtitle": "Supports immune and skin health, allergy response and blood vessel function",
-    "description": "Bio C Complex provides vitamin C along with bioflavonoids, which are widely distributed in plants particularly in vitamin C rich food and greatly increase the absorption of vitamin C by the body. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue. Bioflavonoids help support circulation and strengthen capillary integrity, they are also said to have a mild anti-histamine effect.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "One to one ratio of vitamin C and bioflavonoids",
-      "Quick release tablet designed to provide full potency within 30 minutes for swift tissue saturation"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Eyes | Immunity | Skin, Hair and Nails | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
-      "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Eyes | Immunity | Skin, Hair and Nails | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Bio C Complex provides vitamin C along with bioflavonoids, which are widely distributed in plants particularly in vitamin C rich food and greatly increase the absorption of vitamin C by the body. Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue. Bioflavonoids help support circulation and strengthen capillary integrity, they are also said to have a mild anti-histamine effect.",
-      "Οφέλη": "One to one ratio of vitamin C and bioflavonoids\nQuick release tablet designed to provide full potency within 30 minutes for swift tissue saturation",
-      "Χρήση": "Take one to three tablets daily with a meal.",
-      "Συστατικά": "Vitamin C (with hydroxypropylmethylcellulose), Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing Agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Bio-C-Complex-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/bio-c-complex/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-cranbiotix": {
-    "name": "CranBiotix",
-    "subtitle": "A targeted probiotic designed to help prevent and reduce the symptoms of recurring urinary tract infections, bacterial vaginosis and yeast vaginitis",
-    "description": "A specialist probiotic and botanical combination designed for use by sufferers of urinary tract infections, bacterial vaginosis and yeast vaginitis. Each capsules provides 72mg of proanthocyanidins from cranberry extract, a level shown to provide protection against bacterial adhesion and viral activity in the urinary tract. Oral consumption of probiotic bacteria may lead to colonization of friendly bacteria in the vaginal area to protect against vaginal infections such as bacterial vaginosis, urinary tract infections and yeast vaginitis. CranBiotix may be used in cases of recurring infections to avoid overuse of conventional medications such as antibiotics.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "Combines cranberry extract and lactobacilli probiotic bacteria, L.rhamnosus, L.acidophilus and L.casei",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Menopause | Phyto-Nutrients | Pregnancy and Fertility | Probiotics | Women’s Health",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Menopause | Phyto-Nutrients | Pregnancy and Fertility | Probiotics | Women’s Health"
-    },
-    "sections": {
-      "Περιγραφή": "A specialist probiotic and botanical combination designed for use by sufferers of urinary tract infections, bacterial vaginosis and yeast vaginitis. Each capsules provides 72mg of proanthocyanidins from cranberry extract, a level shown to provide protection against bacterial adhesion and viral activity in the urinary tract. Oral consumption of probiotic bacteria may lead to colonization of friendly bacteria in the vaginal area to protect against vaginal infections such as bacterial vaginosis, urinary tract infections and yeast vaginitis. CranBiotix may be used in cases of recurring infections to avoid overuse of conventional medications such as antibiotics.",
-      "Οφέλη": "Combines cranberry extract and lactobacilli probiotic bacteria, L.rhamnosus, L.acidophilus and L.casei\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "Take one or two capsules daily with or after a meal",
-      "Συστατικά": "Cranberry extract, microcrystalline cellulose, capsule shell (hydroxypropylmethylcellulose gelling agent: gellan gum), lactobacilli culture (L.rhamnosus, L.acidophilus, L.casei), magnesium stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CranBiotix-6.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CranBiotix-6.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CranBiotix-6.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Cran-UAE-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/CranBiotix-copy.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/cranbiotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-acidophilusplus": {
-    "name": "Acidophilus Plus",
-    "subtitle": "A probiotic formula to support good digestive, gut and immune health",
-    "description": "A probiotic supplement designed to support digestive, gut and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "2 billion viable organisms per capsule",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Gut and Digestion | Pregnancy and Fertility | Probiotics",
-      "Συσκευασία": "60 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Everyday Health and Wellbeing | Gut and Digestion | Pregnancy and Fertility | Probiotics"
-    },
-    "sections": {
-      "Περιγραφή": "A probiotic supplement designed to support digestive, gut and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants.",
-      "Οφέλη": "2 billion viable organisms per capsule\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "One capsule two to four times daily, with food",
-      "Συστατικά": "Maltodextrin, capsule shell (hydroxypropylmethylcellulose, gellan gum), magnesium stearate, lactobacilli culture, magnesium stearate, ascorbic acid (with hydroxypropylmethylcellulose).\nAllergy Advice: May contain traces of soya.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Acidophilus-Plus-60s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Acidophilus-Plus-60s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Acidophilus-Plus-60s-75cc.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Acidophilus-Biotix.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/acidophilus-plus/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-lplantarum": {
-    "name": "L. Plantarum",
-    "subtitle": "L. Plantarum bacteria for symptomatic relief of IBS",
-    "description": "A probiotic supplement designed to target digestive health, recommended for symptomatic relief of irritable bowel syndrome (IBS). Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Probiotic bacteria support and regulate immune and inflammatory responses.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "2 billion viable L-plantarum organisms per capsule",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Essentials Range | Gut and Digestion | Probiotics",
-      "Κατηγορία qnutrapharma.com": "Essentials Range | Gut and Digestion | Probiotics"
-    },
-    "sections": {
-      "Περιγραφή": "A probiotic supplement designed to target digestive health, recommended for symptomatic relief of irritable bowel syndrome (IBS). Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Probiotic bacteria support and regulate immune and inflammatory responses.",
-      "Οφέλη": "2 billion viable L-plantarum organisms per capsule\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "Take one or two capsules daily with or after a meal",
-      "Συστατικά": "Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, water), *Lactobacillus plantarum, Magnesium Stearate, Antioxidant: Ascorbic Acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L.-Plantarum-45s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L.-Plantarum-45s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/L.-Plantarum-45s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/l-plantarum/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/biotix/immune-biotix/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
@@ -5118,162 +45,200 @@ window.QUEST_OVERRIDES = {
   },
   "QV-tumbiotix": {
     "name": "TumBiotix",
-    "subtitle": "A targeted probiotic designed to give symptomatic relief to sufferers of IBS.",
-    "description": "A specialist probiotic designed to be used by those experiencing irritable bowel syndrome (IBS) and the management of digestive health. IBS is linked to imbalances in gut micro flora. Probiotics may offer symptomatic relief of abdominal pain, bloating, flatulence and irregular bowel habits such as alternating diarrhoea or constipation.",
+    "subtitle": null,
+    "description": "Το TumBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για εκείνους που η λειτουργία του εντέρου τους διαταράσσεται από το άγχος, την κακή ψυχολογία ή την κακή διατροφή. Για παράδειγμα, το σύνδρομο ευερέθιστου εντέρου συνδέεται με ανισορροπίες στην μικροχλωρίδα του εντέρου και όσοι πάσχουν από αυτό μπορεί να έχουν εναλλαγή δυσκοιλιότητας – διάρροιας, φουσκώματα και αυξημένα αέρια. Τα γαλακτικά βακτήρια του TumBiotix βοηθούν στη διατήρηση της ιδανικής αναλογίας φιλικών βακτηρίων στο έντερο με αποτέλεσμα να συμβάλλουν στην ομαλή του λειτουργία. Τα φιλικά βακτήρια του TumBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Provides 2 billion viable organisms of L.plantarum and L.acidophilus bacteria per capsule",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics | Senior’s Health",
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "54257/13-06-2017",
       "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Gut and Digestion | Probiotics | Senior’s Health"
+      "Κατηγορία douni.gr": "Biotix"
     },
     "sections": {
-      "Περιγραφή": "A specialist probiotic designed to be used by those experiencing irritable bowel syndrome (IBS) and the management of digestive health. IBS is linked to imbalances in gut micro flora. Probiotics may offer symptomatic relief of abdominal pain, bloating, flatulence and irregular bowel habits such as alternating diarrhoea or constipation.",
-      "Οφέλη": "Provides 2 billion viable organisms of L.plantarum and L.acidophilus bacteria per capsule\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "One to two capsules daily with or after a meal.",
-      "Συστατικά": "Maltodextrin, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), lactobacilli culture, magnesium stearate, antioxidant: ascorbic acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το TumBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για εκείνους που η λειτουργία του εντέρου τους διαταράσσεται από το άγχος, την κακή ψυχολογία ή την κακή διατροφή.\nΓια παράδειγμα, το σύνδρομο ευερέθιστου εντέρου συνδέεται με ανισορροπίες στην μικροχλωρίδα του εντέρου και όσοι πάσχουν από αυτό μπορεί να έχουν εναλλαγή δυσκοιλιότητας – διάρροιας, φουσκώματα και αυξημένα αέρια. Τα γαλακτικά βακτήρια του TumBiotix βοηθούν στη διατήρηση της ιδανικής αναλογίας φιλικών βακτηρίων στο έντερο με αποτέλεσμα να συμβάλλουν στην ομαλή του λειτουργία.\nΤα φιλικά βακτήρια του TumBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 50mg\nΑποδίδει 2 δισεκατομμύρια (2x10^9) L.plantarum L.acidophilus L.rhamnosus\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TUMBIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TUMBIOTIX.png",
+    "image": "https://www.douni.gr/media/1412/tumbiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1412/tumbiotix.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TUMBIOTIX.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TUMBIOTIX-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/TumBiotix-2.png"
+      "https://www.douni.gr/media/1412/tumbiotix.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/tumbiotix/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/biotix/tumbiotix/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-infabiotix": {
-    "name": "InfaBiotix",
-    "subtitle": "Infant probiotic drops targeted to give symptomatic relief of colic and atopic eczema conditions",
-    "description": "A liquid probiotic food supplement for infants and children containing L.rhamnosus designed to support gut, digestive and immune health. It is recommended for infants suffering from colic type symptoms and immune based atopic conditions such as eczema. Probiotic supplementation helps restore the balance of friendly bacteria in the gastrointestinal tract and supports immune function and response to reduce the risk of infections from pathogens. Ensuring a balance of friendly gut flora at an early stage of infant development is recommended to exert a positive influence on overall health throughout an individuals lifetime.",
+  "QV-probiotixgoldV15": {
+    "name": "ProBiotix Gold 15 κάψουλες",
+    "subtitle": null,
+    "description": "Το ProBiotix Gold της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους παίρνουν ισχυρή αντιβίωση ή αναζητούν μια ενισχυμένη δόση φιλικών βακτηρίων λόγω έντονων γαστρεντερικών διαταραχών. Το ProBiotix Gold είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 15 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στη γρήγορη αναδόμηση της εντερικής και της κολπικής χλωρίδας που έχει διαταραχθεί από τη λήψη αντιβίωσης και βοηθούν στη μείωση του κινδύνου εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Είναι ιδανικό για άτομα που είναι ευαίσθητα στις παρενέργειες της αντιβίωσης ή παίρνουν ισχυρές αντιβιώσεις. Λόγω της ενισχυμένης του σύνθεσης, το ProBiotix Gold είναι επίσης κατάλληλο για άτομα με έντονες γαστρεντερικές διαταραχές, όπως έντονη δυσκοιλιότητα ή διάρροια. Τα φιλικά βακτήρια του ProBiotix Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "A liquid probiotic supplement for infants and children",
-      "Suitable for infants and children aged 1 month to 3 years old"
+      "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Children’s Health | Gut and Digestion | Probiotics",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Children’s Health | Gut and Digestion | Probiotics"
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "135866/05-12-2022",
+      "Διαθέσιμα μεγέθη": "15 κάψουλες, 30 κάψουλες",
+      "Συσκευασία": "15 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
     },
     "sections": {
-      "Περιγραφή": "A liquid probiotic food supplement for infants and children containing L.rhamnosus designed to support gut, digestive and immune health. It is recommended for infants suffering from colic type symptoms and immune based atopic conditions such as eczema. Probiotic supplementation helps restore the balance of friendly bacteria in the gastrointestinal tract and supports immune function and response to reduce the risk of infections from pathogens. Ensuring a balance of friendly gut flora at an early stage of infant development is recommended to exert a positive influence on overall health throughout an individuals lifetime.",
-      "Οφέλη": "A liquid probiotic supplement for infants and children\nSuitable for infants and children aged 1 month to 3 years old",
-      "Χρήση": "Infants and children aged 1 month to 3 years old, take 5 drops (0.2ml) once or twice daily.",
-      "Συστατικά": "Sunflower oil, lactobacillus rhamnosus culture, emulsifier: silicon dioxide.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το ProBiotix Gold της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους παίρνουν ισχυρή αντιβίωση ή αναζητούν μια ενισχυμένη δόση φιλικών βακτηρίων λόγω έντονων γαστρεντερικών διαταραχών.\nΤο ProBiotix Gold είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 15 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στη γρήγορη αναδόμηση της εντερικής και της κολπικής χλωρίδας που έχει διαταραχθεί από τη λήψη αντιβίωσης και βοηθούν στη μείωση του κινδύνου εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Είναι ιδανικό για άτομα που είναι ευαίσθητα στις παρενέργειες της αντιβίωσης ή παίρνουν ισχυρές αντιβιώσεις. Λόγω της ενισχυμένης του σύνθεσης, το ProBiotix Gold είναι επίσης κατάλληλο για άτομα με έντονες γαστρεντερικές διαταραχές, όπως έντονη δυσκοιλιότητα ή διάρροια.\nΤα φιλικά βακτήρια του ProBiotix Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:​\nΚαλλιέργεια γαλακτικών βακτηρίων · 50mg\nΑποδίδει 15 δισεκατομμύρια (15x10^9): L.acidophilus L.rhamnosus L.casei L.plantarum L.paraplantarum L.bulgaricus L.gasseri L.fermentum\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Infabiotix-box-image-7ML-UAE.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Infabiotix-box-image-7ML-UAE.png",
+    "image": "https://www.douni.gr/media/1410/probiotix-gold.jpg",
+    "imageFallback": "https://www.douni.gr/media/1410/probiotix-gold.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Infabiotix-box-image-7ML-UAE.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/INFABIOTIX-3.png"
+      "https://www.douni.gr/media/1410/probiotix-gold.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/infabiotix/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/biotix/probiotix-gold/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-brightstart": {
-    "name": "BrightStart",
-    "subtitle": "Combining DHA and vitamin D to support optimal brain, visual and immune function in children",
-    "description": "Combines two essential nutrients in one convenient formula for infants and children aged between one month and five years old. Designed to support bone health and early development of the brain and eyes. DHA is a key nutrient in brain structure and function and contributes to normal brain function and maintenance of normal vision. Vitamin D is an essential vitamin for children, it contributes to the growth and development of bones. The UK Department of Health recommends that all infants and young children aged 6 months to 5 years should take a vitamin D supplement. Vitamin D also helps to maintain teeth and contributes to the normal function of the immune system and muscles.",
+  "QV-probiotixgoldV30": {
+    "name": "ProBiotix Gold 30 κάψουλες",
+    "subtitle": null,
+    "description": "Το ProBiotix Gold της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους παίρνουν ισχυρή αντιβίωση ή αναζητούν μια ενισχυμένη δόση φιλικών βακτηρίων λόγω έντονων γαστρεντερικών διαταραχών. Το ProBiotix Gold είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 15 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στη γρήγορη αναδόμηση της εντερικής και της κολπικής χλωρίδας που έχει διαταραχθεί από τη λήψη αντιβίωσης και βοηθούν στη μείωση του κινδύνου εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Είναι ιδανικό για άτομα που είναι ευαίσθητα στις παρενέργειες της αντιβίωσης ή παίρνουν ισχυρές αντιβιώσεις. Λόγω της ενισχυμένης του σύνθεσης, το ProBiotix Gold είναι επίσης κατάλληλο για άτομα με έντονες γαστρεντερικές διαταραχές, όπως έντονη δυσκοιλιότητα ή διάρροια. Τα φιλικά βακτήρια του ProBiotix Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Provides DHA and vitamin D in one formula",
-      "Easy to take liquid",
-      "Natural orange flavour",
-      "Convenient measured dropper dose"
+      "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Platinum Excellence™ Range",
-      "Κατηγορίες qnutrapharma.com": "Children’s Health | Everyday Health and Wellbeing | Eyes | Multi-Nutrients | Platinum Excellence™ Range | Vitamins",
-      "Κατηγορία qnutrapharma.com": "Children’s Health | Everyday Health and Wellbeing | Eyes | Multi-Nutrients | Platinum Excellence™ Range | Vitamins"
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "135866/05-12-2022",
+      "Διαθέσιμα μεγέθη": "15 κάψουλες, 30 κάψουλες",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
     },
     "sections": {
-      "Περιγραφή": "Combines two essential nutrients in one convenient formula for infants and children aged between one month and five years old. Designed to support bone health and early development of the brain and eyes. DHA is a key nutrient in brain structure and function and contributes to normal brain function and maintenance of normal vision. Vitamin D is an essential vitamin for children, it contributes to the growth and development of bones. The UK Department of Health recommends that all infants and young children aged 6 months to 5 years should take a vitamin D supplement. Vitamin D also helps to maintain teeth and contributes to the normal function of the immune system and muscles.",
-      "Οφέλη": "Provides DHA and vitamin D in one formula\nEasy to take liquid\nNatural orange flavour\nConvenient measured dropper dose",
-      "Χρήση": "Infants and children aged 1 month to 5 years old, take 0.5ml twice daily or 1ml once daily.",
-      "Συστατικά": "Sunflower oil, DHA algal oil (schizochytrium sp.), vitamin E (dl-alpha tocopherol acetate), vitamin A palmitate (letinyl palmitate), vitamin D3 (cholecalciferol), Natural orange flavour.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το ProBiotix Gold της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους παίρνουν ισχυρή αντιβίωση ή αναζητούν μια ενισχυμένη δόση φιλικών βακτηρίων λόγω έντονων γαστρεντερικών διαταραχών.\nΤο ProBiotix Gold είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 15 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στη γρήγορη αναδόμηση της εντερικής και της κολπικής χλωρίδας που έχει διαταραχθεί από τη λήψη αντιβίωσης και βοηθούν στη μείωση του κινδύνου εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Είναι ιδανικό για άτομα που είναι ευαίσθητα στις παρενέργειες της αντιβίωσης ή παίρνουν ισχυρές αντιβιώσεις. Λόγω της ενισχυμένης του σύνθεσης, το ProBiotix Gold είναι επίσης κατάλληλο για άτομα με έντονες γαστρεντερικές διαταραχές, όπως έντονη δυσκοιλιότητα ή διάρροια.\nΤα φιλικά βακτήρια του ProBiotix Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:​\nΚαλλιέργεια γαλακτικών βακτηρίων · 50mg\nΑποδίδει 15 δισεκατομμύρια (15x10^9): L.acidophilus L.rhamnosus L.casei L.plantarum L.paraplantarum L.bulgaricus L.gasseri L.fermentum\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BrightStart.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BrightStart.png",
+    "image": "https://www.douni.gr/media/1410/probiotix-gold.jpg",
+    "imageFallback": "https://www.douni.gr/media/1410/probiotix-gold.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/BrightStart.png"
+      "https://www.douni.gr/media/1410/probiotix-gold.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/brightstart/",
-    "source": "qnutrapharma.com",
-    "section": "paidia",
+    "url": "https://www.douni.gr/etairies/quest/biotix/probiotix-gold/",
+    "source": "douni.gr",
+    "section": "probiotika",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-lactaseenzyme": {
-    "name": "Lactase Enzyme",
-    "subtitle": "Improves lactose digestion to help reduce symptoms associated with lactose intolerance such as bloating and flatulence",
-    "description": "Helps reduce symptoms associated with lactose intolerance such as bloating, diarrhoea or flatulence. Lactase enzyme improves lactose digestion in individuals who have difficulty digesting lactose in milk or dairy produce. May be chosen by those who have difficulty in digesting the lactose found in milk and dairy products.",
+  "QV-probiotix": {
+    "name": "ProBiotix",
+    "subtitle": "Το ProBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια που έχει σχεδιαστεί ειδικά για όσους παίρνουν αντιβίωση.",
+    "description": "Το ProBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια που έχει σχεδιαστεί ειδικά για όσους παίρνουν αντιβίωση. Το ProBiotix είναι ένας μοναδικός συνδυασμός των γαλακτικών βακτηρίων L.bulgaricus, L.acidophilus και L.rhamnosus, τα οποία αποδεδειγμένα βοηθούν στην αποκατάσταση της ισορροπίας της χλωρίδας του εντέρου που έχει διαταραχθεί από τη λήψη αντιβίωσης και μειώνουν τον κίνδυνο εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Επιπλέον, τα φιλικά αυτά βακτήρια βοηθούν στην επικράτηση των καλών βακτηρίων στο έντερο και συνεπώς στην προστασία από παθογόνα. Τα φιλικά βακτήρια του ProBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Contains 2000 ALU (Acid Lactase Units) per tablet"
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Enzymes | Essentials Range | Gut and Digestion | Specialist Health",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Enzymes | Essentials Range | Gut and Digestion | Specialist Health"
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "135871/05-12-2022",
+      "Συσκευασία": "15 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
     },
     "sections": {
-      "Περιγραφή": "Helps reduce symptoms associated with lactose intolerance such as bloating, diarrhoea or flatulence. Lactase enzyme improves lactose digestion in individuals who have difficulty digesting lactose in milk or dairy produce. May be chosen by those who have difficulty in digesting the lactose found in milk and dairy products.",
-      "Οφέλη": "Contains 2000 ALU (Acid Lactase Units) per tablet",
-      "Χρήση": "Take one or two tablets with the first mouthful of meals containing milk or dairy produce.",
-      "Συστατικά": "Dicalcium Phosphate, Lactase, Bulking agent (microcrystalline cellulose), Croscarmellose sodium, Magnesium stearate.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το ProBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια που έχει σχεδιαστεί ειδικά για όσους παίρνουν αντιβίωση.\nΤο ProBiotix είναι ένας μοναδικός συνδυασμός των γαλακτικών βακτηρίων L.bulgaricus, L.acidophilus και L.rhamnosus, τα οποία αποδεδειγμένα βοηθούν στην αποκατάσταση της ισορροπίας της χλωρίδας του εντέρου που έχει διαταραχθεί από τη λήψη αντιβίωσης και μειώνουν τον κίνδυνο εμφάνισης παρενεργειών που σχετίζονται με αυτήν, όπως είναι η διάρροια. Επιπλέον, τα φιλικά αυτά βακτήρια βοηθούν στην επικράτηση των καλών βακτηρίων στο έντερο και συνεπώς στην προστασία από παθογόνα.\nΤα φιλικά βακτήρια του ProBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 30mg\nΑποδίδει 5 δισεκατομμύρια (5x10^9): L.bulgaricus L.acidophilus L.rhamnosus\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Lactase-Enzyme-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Lactase-Enzyme-30s-75cc.png",
+    "image": "https://www.douni.gr/media/1409/probiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1409/probiotix.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Lactase-Enzyme-30s-75cc.png"
+      "https://www.douni.gr/media/1409/probiotix.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/lactase-enzyme/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/biotix/probiotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-tumbiotixgold": {
+    "name": "TumBiotix Gold",
+    "subtitle": "Το TumBiotix™ Gold περιέχει έναν δραστικό συνδυασμό Casperome® και τριών φιλικών βακτηρίων, των L.plantarum, L.acidophilus & L.rhamnosus, τα οποία βοηθούν στην καλή λειτουργία του εντέρου.",
+    "description": "Το TumBiotix™ Gold περιέχει έναν δραστικό συνδυασμό Casperome® και τριών φιλικών βακτηρίων, των L.plantarum, L.acidophilus & L.rhamnosus, τα οποία βοηθούν στην καλή λειτουργία του εντέρου. Πρόκειται για μία στοχευμένη σύνθεση γαλακτικών βακτηρίων και φυτικών εκχυλισμάτων που έχει σχεδιαστεί για να παρέχει συμπτωματική ανακούφιση σε όσους πάσχουν από σύνδρομο ευερέθιστου εντέρου ή από φλεγμονώδεις παθήσεις του εντέρου. Τόσο το σύνδρομο ευερέθιστου εντέρου όσο και οι φλεγμονώδεις παθήσεις του εντέρου, συνδέονται με ανισορροπίες στη μικροχλωρίδα του εντέρου. Τα φιλικά βακτήρια προσφέρουν συμπτωματική ανακούφιση στο κοιλιακό άλγος, το φούσκωμα, τον μετεωρισμό και τις ακανόνιστες συνήθειες του εντέρου όπως η εναλλασσόμενη διάρροια ή δυσκοιλιότητα. Το Casperome® είναι μια κλινικά μελετημένη φόρμουλα boswellia serrata, με βάση τη λεκιθίνη. Μελέτες για τη Boswellia δείχνουν ότι τα τριτερπενοειδή οξέα της βοηθούν στη μείωση των φλεγμονών στο έντερο και βελτιώνουν τα συμπτώματα των παθήσεων του εντέρου. Τα φιλικά βακτήρια του TumBiotix™ Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη",
+      "Κατάλληλο για χορτοφάγους και vegans"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Κατάλληλο για χορτοφάγους και vegans."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "127908/02-12-2020",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το TumBiotix™ Gold περιέχει έναν δραστικό συνδυασμό Casperome® και τριών φιλικών βακτηρίων, των L.plantarum, L.acidophilus & L.rhamnosus, τα οποία βοηθούν στην καλή λειτουργία του εντέρου. Πρόκειται για μία στοχευμένη σύνθεση γαλακτικών βακτηρίων και φυτικών εκχυλισμάτων που έχει σχεδιαστεί για να παρέχει συμπτωματική ανακούφιση σε όσους πάσχουν από σύνδρομο ευερέθιστου εντέρου ή από φλεγμονώδεις παθήσεις του εντέρου. Τόσο το σύνδρομο ευερέθιστου εντέρου όσο και οι φλεγμονώδεις παθήσεις του εντέρου, συνδέονται με ανισορροπίες στη μικροχλωρίδα του εντέρου. Τα φιλικά βακτήρια προσφέρουν συμπτωματική ανακούφιση στο κοιλιακό άλγος, το φούσκωμα, τον μετεωρισμό και τις ακανόνιστες συνήθειες του εντέρου όπως η εναλλασσόμενη διάρροια ή δυσκοιλιότητα. Το Casperome® είναι μια κλινικά μελετημένη φόρμουλα boswellia serrata, με βάση τη λεκιθίνη. Μελέτες για τη Boswellia δείχνουν ότι τα τριτερπενοειδή οξέα της βοηθούν στη μείωση των φλεγμονών στο έντερο και βελτιώνουν τα συμπτώματα των παθήσεων του εντέρου.\nΤα φιλικά βακτήρια του TumBiotix™ Gold διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΔεν περιέχει γλουτένη και λακτόζη.\nΚατάλληλο για χορτοφάγους και vegans.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nCasperome® Αποδίδει boswellia serrata (Τυποποιημένο σε 3-acetyl-11-keto-beta boswellic acid) · 250mg 87,5mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 2 δισεκατομμύρια (2x10^9): L.acidophilus L.plantarum L.rhamnosus · 23,34mg\n\nΣυστατικά: Maltodextrin, casperome® (boswellia serrata extract, lecithinm microcrystalline cellulose, silicon dioxide), capsule shell (hydroxypropylmethylcellulose, gellan gum). Lactobacilli cultures (L.acidophilus, L.plantarum, L.rhamnosus), magnesium stearate, ascorbic acid (with hydroxypropylmethylcellulose).\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη\nΚατάλληλο για χορτοφάγους και vegans"
+    },
+    "image": "https://www.douni.gr/media/1813/tumbiotixgold.jpg",
+    "imageFallback": "https://www.douni.gr/media/1813/tumbiotixgold.jpg",
+    "images": [
+      "https://www.douni.gr/media/1813/tumbiotixgold.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/tumbiotix-gold/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
@@ -5281,41 +246,2356 @@ window.QUEST_OVERRIDES = {
   },
   "QV-kidzbiotix": {
     "name": "KidzBiotix",
-    "subtitle": "Probiotic bacteria especially formulated for children to support gut, digestive and immune health",
-    "description": "Especially formulated for children to support everyday digestive, gut and immune health. Probiotic supplements can help support the early development of intestinal microflora in children which can have a positive impact on their future health. Beneficial probiotic bacteria help maintain balanced gut health, modulate immune function and may help reduce the occurrence of allergies and atopic eczema or dermatitis in children.",
+    "subtitle": "Το KidzBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια σε μασώμενη μορφή που έχει σχεδιαστεί ειδικά για την καλή λειτουργία του παιδικού εντέρου.",
+    "description": "Το KidzBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια σε μασώμενη μορφή που έχει σχεδιαστεί ειδικά για την καλή λειτουργία του παιδικού εντέρου. Το KidzBiotix περιέχει τέσσερα διαφορετικά φιλικά βακτήρια, τα οποία έχει αποδειχθεί ότι συμβάλλουν στην ισορροπία της χλωρίδας του παιδικού εντέρου, βοηθώντας τον οργανισμό να αποτρέπει την ανάπτυξη παθογόνων βακτηρίων, τα οποία μπορεί να προκαλέσουν διάρροια, δυσκοιλιότητα ή άλλες γαστρεντερικές διαταραχές. Το KidzBiotix είναι επίσης ιδανικό για περιόδους που λαμβάνεται αντιβίωση καθώς τα φιλικά βακτήρια που περιέχει βοηθούν στην επαναφορά της εντερικής χλωρίδας που διαταράσσεται από αυτήν. Τα συμπληρώματα με φιλικά βακτήρια μπορούν να βοηθήσουν τα μικρά παιδιά να αναπτύξουν μια ισορροπημένη εντερική χλωρίδα, η οποία μπορεί να έχει θετικό αντίκτυπο στη μελλοντική τους υγεία. Τα φιλικά βακτήρια του KidzBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ειδικά σχεδιασμένο για παιδιά άνω του 1 έτους.",
+      "Μασώμενες ταμπλέτες με υπέροχη γεύση φραγκοστάφυλο (για τις ηλικίες 1-3 ετών προτείνεται ο θρυμματισμός της ταμπλέτας και η προσθήκη της σε υγρή ή στερεή τροφή).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "70470/28-06-2023",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το KidzBiotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια σε μασώμενη μορφή που έχει σχεδιαστεί ειδικά για την καλή λειτουργία του παιδικού εντέρου.\nΤο KidzBiotix περιέχει τέσσερα διαφορετικά φιλικά βακτήρια, τα οποία έχει αποδειχθεί ότι συμβάλλουν στην ισορροπία της χλωρίδας του παιδικού εντέρου, βοηθώντας τον οργανισμό να αποτρέπει την ανάπτυξη παθογόνων βακτηρίων, τα οποία μπορεί να προκαλέσουν διάρροια, δυσκοιλιότητα ή άλλες γαστρεντερικές διαταραχές.\nΤο KidzBiotix είναι επίσης ιδανικό για περιόδους που λαμβάνεται αντιβίωση καθώς τα φιλικά βακτήρια που περιέχει βοηθούν στην επαναφορά της εντερικής χλωρίδας που διαταράσσεται από αυτήν. Τα συμπληρώματα με φιλικά βακτήρια μπορούν να βοηθήσουν τα μικρά παιδιά να αναπτύξουν μια ισορροπημένη εντερική χλωρίδα, η οποία μπορεί να έχει θετικό αντίκτυπο στη μελλοντική τους υγεία.\nΤα φιλικά βακτήρια του KidzBiotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο.",
+      "Οφέλη": "Ειδικά σχεδιασμένο για παιδιά άνω του 1 έτους.\nΜασώμενες ταμπλέτες με υπέροχη γεύση φραγκοστάφυλο (για τις ηλικίες 1-3 ετών προτείνεται ο θρυμματισμός της ταμπλέτας και η προσθήκη της σε υγρή ή στερεή τροφή).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Παιδιά άνω των 3 ετών: Μια έως δύο μασώμενες ταμπλέτες την ημέρα. Οι ταμπλέτες πρέπει να μασιούνται και όχι να καταπίνονται ολόκληρες.\nΠαιδιά 1 έως 3 ετών: Θρυμματίστε την ταμπλέτα και προσθέστε τη σε στερεή ή υγρή τροφή.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 50mg\nΑποδίδει 2 δισεκατομμύρια (2x10^9): L.acidophilus L.rhamnosus L.casei L.plantarum\n\nΣυστατικά: Dextrose anhydrous, Microcrystalline Cellulose, Lyophilised Lactobacilli Culture, Blackcurrant Flavour, Precipitated Silicon Dioxide, Magnesium Stearate, Beetroot Powder, Antioxidant: Citric Acid.\n\nΑλλεργιογόνα: Το KidzBiotix δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2182/kidzbiotix-15-caps.jpg",
+    "imageFallback": "https://www.douni.gr/media/2182/kidzbiotix-15-caps.jpg",
+    "images": [
+      "https://www.douni.gr/media/2182/kidzbiotix-15-caps.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/kidzbiotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-calmbiotix": {
+    "name": "CalmBiotix",
+    "subtitle": null,
+    "description": "Το CalmBiotix της Quest είναι ένα συμπλήρωμα διατροφής που έχει σχεδιαστεί ειδικά για όσους είναι πιεσμένοι, ανήσυχοι, νιώθουν ένταση ή ταραχή λόγω αυξημένου άγχους ή στρες και αναζητούν μια φυσική υποστήριξη για τη διαχείρισή του. Προτείνεται για κάθε στρεσογόνο κατάσταση, όπως υψηλές απαιτήσεις στην εργασία, εξετάσεις, συναισθηματική ανισορροπία, προσωπικά ή κοινωνικά προβλήματα, καθώς και όταν υπάρχει εκνευρισμός λόγω διαφόρων καταστάσεων, όπως λόγω διακοπής του καπνίσματος ή επιβολής ενός αυστηρού διαιτολογίου. Περιέχει Lactium, L-theanine, φιλικά βακτήρια, βιταμίνες Β1, Β2 και μαγνήσιο. Το Lactium είναι μια υδρολυμένη πρωτεΐνη γάλακτος που περιέχει α-καζοζεπίνη, ένα βιοδραστικό πεπτίδιο με χαλαρωτική δράση. Πρόκειται για ένα συστατικό που απελευθερώνεται στο πεπτικό σύστημα των μωρών όταν πίνουν γάλα και τα ηρεμεί. Μελέτες δείχνουν ότι το Lactium μιμείται τον νευροδιαβιβαστή GABA, που έχει χαλαρωτική και αγχολυτική δράση. Είναι ένα 100% φυσικό, υποαλλεργικό συστατικό που δεν προκαλεί υπνηλία και εθισμό. Η L-theanine (L-θεανίνη) είναι ένα αμινοξύ που υπάρχει στο πράσινο τσάι και βοηθά στη χαλάρωση. Διεγείρει την παραγωγή κυμάτων άλφα στον εγκέφαλο, τα οποία προάγουν την ηρεμία. Θεωρείται ιδιαίτερα ωφέλιμη σε περιόδους στρες. Το μαγνήσιο συμβάλλει στην καλή ψυχολογική λειτουργία και στην καλή λειτουργία των μυών, συμπεριλαμβανομένης της μυϊκής χαλάρωσης. Οι βιταμίνες Β1 και Β2 βοηθούν στην καλή λειτουργία του νευρικού συστήματος και στη μείωση της κόπωσης. Τα φιλικά συμβάλλουν στην ισορροπία της εντερικής χλωρίδας, η οποία σύμφωνα με μελέτες μπορεί να παίζει ρόλο στη διάθεση. Στο CalmBiotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "135862/05-12-2022",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το CalmBiotix της Quest είναι ένα συμπλήρωμα διατροφής που έχει σχεδιαστεί ειδικά για όσους είναι πιεσμένοι, ανήσυχοι, νιώθουν ένταση ή ταραχή λόγω αυξημένου άγχους ή στρες και αναζητούν μια φυσική υποστήριξη για τη διαχείρισή του. Προτείνεται για κάθε στρεσογόνο κατάσταση, όπως υψηλές απαιτήσεις στην εργασία, εξετάσεις, συναισθηματική ανισορροπία, προσωπικά ή κοινωνικά προβλήματα, καθώς και όταν υπάρχει εκνευρισμός λόγω διαφόρων καταστάσεων, όπως λόγω διακοπής του καπνίσματος ή επιβολής ενός αυστηρού διαιτολογίου. Περιέχει Lactium, L-theanine, φιλικά βακτήρια, βιταμίνες Β1, Β2 και μαγνήσιο.\nΤο Lactium είναι μια υδρολυμένη πρωτεΐνη γάλακτος που περιέχει α-καζοζεπίνη, ένα βιοδραστικό πεπτίδιο με χαλαρωτική δράση. Πρόκειται για ένα συστατικό που απελευθερώνεται στο πεπτικό σύστημα των μωρών όταν πίνουν γάλα και τα ηρεμεί. Μελέτες δείχνουν ότι το Lactium μιμείται τον νευροδιαβιβαστή GABA, που έχει χαλαρωτική και αγχολυτική δράση. Είναι ένα 100% φυσικό, υποαλλεργικό συστατικό που δεν προκαλεί υπνηλία και εθισμό.\nΗ L-theanine (L-θεανίνη) είναι ένα αμινοξύ που υπάρχει στο πράσινο τσάι και βοηθά στη χαλάρωση. Διεγείρει την παραγωγή κυμάτων άλφα στον εγκέφαλο, τα οποία προάγουν την ηρεμία. Θεωρείται ιδιαίτερα ωφέλιμη σε περιόδους στρες.\nΤο μαγνήσιο συμβάλλει στην καλή ψυχολογική λειτουργία και στην καλή λειτουργία των μυών, συμπεριλαμβανομένης της μυϊκής χαλάρωσης. Οι βιταμίνες Β1 και Β2 βοηθούν στην καλή λειτουργία του νευρικού συστήματος και στη μείωση της κόπωσης. Τα φιλικά συμβάλλουν στην ισορροπία της εντερικής χλωρίδας, η οποία σύμφωνα με μελέτες μπορεί να παίζει ρόλο στη διάθεση.\nΣτο CalmBiotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nLactium^® · 150mg\nL-Theanine · 100mg\nΜαγνήσιο · 60mg\nΒιταμίνη Β1 (Θειαμίνη) · 19,5mg\nΒιταμίνη Β2 (Ριβοφλαβίνη) · 25mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 2 δισεκατομμύρια (2x10^9): L. acidophilus L.rhamnosus · 23,3mg\n\nΣυστατικά: Magnesium citrate buffer (magnesium citrate, magnesium oxide), Milk protein hydrolysate (Lactium®), L-Theanine, Microcrystalline cellulose, Riboflavin (Vitamin B2), Thiamine mononitrate (Vitamin B1, HPMC), Lactobacilli culture (L. acidophilus & L. rhamnosus), Magnesium stearate, Capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum). Lactium® contains little lactose and therefore presents low risks of intolerance. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το CalmBiotix περιέχει λίγη λακτόζη και παρουσιάζει χαμηλό κίνδυνο δυσανεξίας.\nΜπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη"
+    },
+    "image": "https://www.douni.gr/media/1599/calmbiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1599/calmbiotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1599/calmbiotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/calmbiotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-cranbiotix": {
+    "name": "CranBiotix",
+    "subtitle": "Το CranBiotix της Quest περιέχει έναν μοναδικό συνδυασμό εκχυλίσματος Cranberry και φιλικών βακτηρίων που μπορεί να βοηθήσει τον οργανισμό να αντιμετωπίσει τα παθογόνα βακτήρια.",
+    "description": "Το CranBiotix της Quest περιέχει έναν μοναδικό συνδυασμό εκχυλίσματος Cranberry και φιλικών βακτηρίων που μπορεί να βοηθήσει τον οργανισμό να αντιμετωπίσει τα παθογόνα βακτήρια. Οι αλλαγές στον τρόπο ζωής, το στρες και η λήψη φαρμάκων πολλές φορές μειώνουν δραστικά τον αριθμό των φιλικών βακτηρίων του οργανισμού, με αποτέλεσμα την ανάπτυξη παθογόνων βακτηρίων όπως το Ε.coli, τα οποία προκαλούν λοιμώξεις. Τέτοιου είδους λοιμώξεις μπορούν να εμφανιστούν στο ουροποιητικό σύστημα. Το CranBiotix της Quest παρέχει προανθοκυανιδίνες από Cranberry και τρία πολύ συγκεκριμένα φιλικά βακτήρια, τα οποία μπορούν να βοηθήσουν τον οργανισμό να διατηρήσει τα σωστά επίπεδα ωφέλιμων βακτηρίων στο έντερο. Μια καλή εντερική χλωρίδα μπορεί να αποτρέψει την μετάδοση παθογόνων βακτηρίων στον ουροποιητικό σωλήνα. Στο CranBiotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "54258/13-06-2017",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το CranBiotix της Quest περιέχει έναν μοναδικό συνδυασμό εκχυλίσματος Cranberry και φιλικών βακτηρίων που μπορεί να βοηθήσει τον οργανισμό να αντιμετωπίσει τα παθογόνα βακτήρια.\nΟι αλλαγές στον τρόπο ζωής, το στρες και η λήψη φαρμάκων πολλές φορές μειώνουν δραστικά τον αριθμό των φιλικών βακτηρίων του οργανισμού, με αποτέλεσμα την ανάπτυξη παθογόνων βακτηρίων όπως το Ε.coli, τα οποία προκαλούν λοιμώξεις. Τέτοιου είδους λοιμώξεις μπορούν να εμφανιστούν στο ουροποιητικό σύστημα. Το CranBiotix της Quest παρέχει προανθοκυανιδίνες από Cranberry και τρία πολύ συγκεκριμένα φιλικά βακτήρια, τα οποία μπορούν να βοηθήσουν τον οργανισμό να διατηρήσει τα σωστά επίπεδα ωφέλιμων βακτηρίων στο έντερο. Μια καλή εντερική χλωρίδα μπορεί να αποτρέψει την μετάδοση παθογόνων βακτηρίων στον ουροποιητικό σωλήνα.\nΣτο CranBiotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΕκχύλισμα Cranberry Αποδίδει 72mg Προανθοκυανιδίνες · 240mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 2 δισεκατομμύρια (2x10^9): L.acidophilus L.rhamnosus L.casei · 36mg\n\nΣυστατικά: Cranberry extract, Microcrystalline Cellulose, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture (L.rhamnosus, L.acidophilus, L.casei), Magnesium Stearate.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1401/cranbiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1401/cranbiotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1401/cranbiotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/cranbiotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-acidophilusplusbiotix": {
+    "name": "Acidophilus Plus Biotix",
+    "subtitle": "Το Acidophilus Plus Biotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους.",
+    "description": "Το Acidophilus Plus Biotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους. Το Acidophilus Plus Biotix περιέχει τρία διαφορετικά φιλικά βακτήρια που συμβάλλουν αποδεδειγμένα στην υγεία και την καλή λειτουργία του εντέρου, επαναφέροντας την ισορροπία στην εντερική χλωρίδα όταν υπάρχει διαταραχή αυτής. Η εντερική χλωρίδα μπορεί να διαταραχθεί από την κακή διατροφή, το στρες ή τα ταξίδια με αποτέλεσμα την εμφάνιση δυσκοιλιότητας, διάρροιας ή άλλων γαστρεντερικών διαταραχών. Τα φιλικά βακτήρια του Acidophilus Plus Biotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "78722/27-8-2021",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το Acidophilus Plus Biotix της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους.\nΤο Acidophilus Plus Biotix περιέχει τρία διαφορετικά φιλικά βακτήρια που συμβάλλουν αποδεδειγμένα στην υγεία και την καλή λειτουργία του εντέρου, επαναφέροντας την ισορροπία στην εντερική χλωρίδα όταν υπάρχει διαταραχή αυτής. Η εντερική χλωρίδα μπορεί να διαταραχθεί από την κακή διατροφή, το στρες ή τα ταξίδια με αποτέλεσμα την εμφάνιση δυσκοιλιότητας, διάρροιας ή άλλων γαστρεντερικών διαταραχών.\nΤα φιλικά βακτήρια του Acidophilus Plus Biotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα, δύο έως τέσσερις φορές την ημέρα με ή μετά το φαγητό μαζί με νερό ή γάλα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 36mg\nΑποδίδει 2 δισεκατομμύρια (2x10^9): L.acidophilus L.casei L.rhamnosus\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1396/accidophilusplus-biotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1396/accidophilusplus-biotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1396/accidophilusplus-biotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/acidophilus-plus-biotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-acidophilusplus": {
+    "name": "Acidophilus Plus",
+    "subtitle": "Το Acidophilus Plus της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους.",
+    "description": "Το Acidophilus Plus της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους. Το Acidophilus Plus περιέχει τρία διαφορετικά φιλικά βακτήρια που συμβάλλουν αποδεδειγμένα στην υγεία και την καλή λειτουργία του εντέρου, επαναφέροντας την ισορροπία στην εντερική χλωρίδα όταν υπάρχει διαταραχή αυτής. Η εντερική χλωρίδα μπορεί να διαταραχθεί από την κακή διατροφή, το στρες ή τα ταξίδια με αποτέλεσμα την εμφάνιση δυσκοιλιότητας, διάρροιας ή άλλων γαστρεντερικών διαταραχών. Τα φιλικά βακτήρια του Acidophilus Plus διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "78722/27-8-2021",
+      "Συσκευασία": "60 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το Acidophilus Plus της Quest είναι ένα συμπλήρωμα διατροφής με φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους έχουν ανάγκη να ρυθμίσουν τη λειτουργία του εντέρου τους.\nΤο Acidophilus Plus περιέχει τρία διαφορετικά φιλικά βακτήρια που συμβάλλουν αποδεδειγμένα στην υγεία και την καλή λειτουργία του εντέρου, επαναφέροντας την ισορροπία στην εντερική χλωρίδα όταν υπάρχει διαταραχή αυτής. Η εντερική χλωρίδα μπορεί να διαταραχθεί από την κακή διατροφή, το στρες ή τα ταξίδια με αποτέλεσμα την εμφάνιση δυσκοιλιότητας, διάρροιας ή άλλων γαστρεντερικών διαταραχών.\nΤα φιλικά βακτήρια του Acidophilus Plus διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα, δύο έως τέσσερις φορές την ημέρα με ή μετά το φαγητό μαζί με νερό ή γάλα.",
+      "Προφυλάξεις": "Να φυλάσσεται στο ψυγείο μετά το άνοιγμα. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 36mg\nΑποδίδει 2 δισεκατομμύρια (2x10^9): L.acidophilus L.casei L.rhamnosus\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Το Acidophilus Plus δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1948/acidophilus-plus-60-caps_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1948/acidophilus-plus-60-caps_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1948/acidophilus-plus-60-caps_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/acidophilus-plus/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-mega8biotix": {
+    "name": "Mega 8 Biotix",
+    "subtitle": null,
+    "description": "Το Mega 8 Biotix της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους αναζητούν mega-δόσεις φιλικών βακτηρίων ή υποφέρουν από σοβαρές γαστρεντερικές διαταραχές, όπως χρόνια δυσκοιλιότητα. Το Mega 8 Biotix είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 30 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στην άμεση επαναφορά της ισορροπίας της χλωρίδας του εντέρου και στην αποκατάσταση της καλής του λειτουργίας. Λόγω της ενισχυμένης του σύνθεσης, είναι ιδανικό για άτομα με σοβαρά προβλήματα του εντέρου και άτομα που αναζητούν υψηλές δόσεις φιλικών βακτηρίων για να δουν γρηγορότερα τα αποτελέσματα στην καλή λειτουργία του εντέρου τους. Τα φιλικά βακτήρια του Mega 8 Biotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps. Οι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "54256/13-06-2017",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το Mega 8 Biotix της Quest είναι ένα συμπλήρωμα διατροφής με υψηλή περιεκτικότητα σε φιλικά βακτήρια, το οποίο έχει σχεδιαστεί ειδικά για όσους αναζητούν mega-δόσεις φιλικών βακτηρίων ή υποφέρουν από σοβαρές γαστρεντερικές διαταραχές, όπως χρόνια δυσκοιλιότητα.\nΤο Mega 8 Biotix είναι μια μοναδική σύνθεση 8 διαφορετικών φιλικών βακτηρίων. Κάθε κάψουλα του αποδίδει 30 δισεκατομμύρια φιλικά βακτήρια, τα οποία συμβάλλουν στην άμεση επαναφορά της ισορροπίας της χλωρίδας του εντέρου και στην αποκατάσταση της καλής του λειτουργίας. Λόγω της ενισχυμένης του σύνθεσης, είναι ιδανικό για άτομα με σοβαρά προβλήματα του εντέρου και άτομα που αναζητούν υψηλές δόσεις φιλικών βακτηρίων για να δουν γρηγορότερα τα αποτελέσματα στην καλή λειτουργία του εντέρου τους.\nΤα φιλικά βακτήρια του Mega 8 Biotix διατηρούν τη σταθερότητά τους μέχρι την ημερομηνία λήξης του προϊόντος και επιβιώνουν κατά τη διέλευση τους από το στομάχι, δρώντας κατευθείαν στο έντερο, χάρη στις κάψουλες DRcaps.\nΟι κάψουλες DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται ότι τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Πολύ υψηλή περιεκτικότητα σε σταθερά ζωντανά φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν ενεργά φιλικά βακτήρια κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΚαλλιέργεια γαλακτικών βακτηρίων · 100mg\nΑποδίδει 30 δισεκατομμύρια (30x10^9): L.acidophilus L.rhamnosus L.casei L.plantarum L.paraplantarum L.bulgaricus L.gasseri L.fermentum\n\nΣυστατικά: Maltodextrin, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), Lactobacilli Culture, Magnesium Stearate, Antioxidant: Ascorbic Acid.\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1408/mega8biotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1408/mega8biotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1408/mega8biotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/mega-8-biotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-cholesterolbiotix": {
+    "name": "Cholesterol Biotix",
+    "subtitle": "Το Cholesterol Biotix της Quest είναι ένας συνδυασμός φυσικών συστατικών που απευθύνεται αποκλειστικά στα άτομα που επιθυμούν να μειώσουν τα επίπεδα της χοληστερίνης τους.",
+    "description": "Το Cholesterol Biotix της Quest είναι ένας συνδυασμός φυσικών συστατικών που απευθύνεται αποκλειστικά στα άτομα που επιθυμούν να μειώσουν τα επίπεδα της χοληστερίνης τους. Η μοναδική του σύνθεση περιλαμβάνει φυτικές στερόλες, εκχύλισμα red yeast rice (Monascus purpureous), φιλικά βακτήρια και Q10. Η ημερήσια πρόσληψη τουλάχιστον 800mg φυτικών στερολών συμβάλλει στη διατήρηση των φυσιολογικών επιπέδων χοληστερίνης στο αίμα. Στο Cholesterol Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "101704/27-10-2021",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το Cholesterol Biotix της Quest είναι ένας συνδυασμός φυσικών συστατικών που απευθύνεται αποκλειστικά στα άτομα που επιθυμούν να μειώσουν τα επίπεδα της χοληστερίνης τους.\nΗ μοναδική του σύνθεση περιλαμβάνει φυτικές στερόλες, εκχύλισμα red yeast rice (Monascus purpureous), φιλικά βακτήρια και Q10. Η ημερήσια πρόσληψη τουλάχιστον 800mg φυτικών στερολών συμβάλλει στη διατήρηση των φυσιολογικών επιπέδων χοληστερίνης στο αίμα.\nΣτο Cholesterol Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Δύο κάψουλες την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Δεν είναι κατάλληλο για εγκύους, θηλάζουσες, παιδιά & άτομα άνω των 70 ετών. Να μην συνδυάζεται με φάρμακα για τη χοληστερίνη & άλλα προϊόντα με red yeast rice. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΦυτικές στερόλες (φυτοστερόλες) · 400mg\nΣυμπυκνωμένο Εκχύλισμα Red Yeast Rice Aποδίδει 1,45mg μονακολίνη Κ · 48,5mg\nΣυνένζυμο Q10 · 10mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 1 δισεκατομμύριo (1x10^9) L.rhamnosus & L.bulgaricus · 12mg\n\nΣυστατικά: Plant sterols, Red Yeast Rice Extract, Microcrystalline Cellulose, Magnesium Stearate, Lactobacilli Culture (L.rhamnosus, L.bulgaricus), Coenzyme Q10, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum).\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1400/n1-cholesterolbiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1400/n1-cholesterolbiotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1400/n1-cholesterolbiotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/cholesterol-biotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liverbiotix": {
+    "name": "Liver Biotix",
+    "subtitle": "Το Liver Biotix της Quest είναι μια στοχευμένη σύνθεση συστατικών για την την καλή λειτουργία του συκωτιού.",
+    "description": "Το Liver Biotix της Quest είναι μια στοχευμένη σύνθεση συστατικών για την την καλή λειτουργία του συκωτιού. Η μοναδική του σύνθεση αποτελείται από χολίνη, εκχύλισμα γαϊδουράγκαθου και φιλικά βακτήρια. Η χολίνη συμβάλλει στη διατήρηση της καλής ηπατικής λειτουργίας και στο φυσιολογικό μεταβολισμό και τη μεταφορά των λιπών (λιπιδίων) στο σώμα. Το εκχύλισμα γαϊδουράγκαθου (Milk Thistle) χρησιμοποιείται παραδοσιακά για την προστατευτική του δράση στο συκώτι. Το εκχύλισμα γαϊδουράγκαθου στο Liver Biotix είναι τυποποιημένο και αποδίδει ακριβώς την ίδια ποσότητα σιλυμαρίνης, ανεξαρτήτως της παρτίδας του προϊόντος. Τα φιλικά βακτήρια εμποδίζουν την ανάπτυξη παθογόνων βακτηριδίων που θα μπορούσαν να βλάψουν τον οργανισμό. Το Liver Biotix απευθύνεται σε άτομα που θέλουν να διατηρήσουν την καλή λειτουργία του συκωτιού τους. Μπορεί να χρησιμοποιηθεί από άτομα που επιβαρύνουν το συκώτι τους λόγω αυξημένης κατανάλωσης αλκοόλ ή φαρμάκων, καθώς και από άτομα με λιπώδες ήπαρ. Στο Liver Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Σύνθεση μίας κάψουλας την ημέρα.",
+      "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "3296/14-01-2019",
+      "Κατηγορία douni.gr": "Biotix"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liver Biotix της Quest είναι μια στοχευμένη σύνθεση συστατικών για την την καλή λειτουργία του συκωτιού. Η μοναδική του σύνθεση αποτελείται από χολίνη, εκχύλισμα γαϊδουράγκαθου και φιλικά βακτήρια.\nΗ χολίνη συμβάλλει στη διατήρηση της καλής ηπατικής λειτουργίας και στο φυσιολογικό μεταβολισμό και τη μεταφορά των λιπών (λιπιδίων) στο σώμα. Το εκχύλισμα γαϊδουράγκαθου (Milk Thistle) χρησιμοποιείται παραδοσιακά για την προστατευτική του δράση στο συκώτι. Το εκχύλισμα γαϊδουράγκαθου στο Liver Biotix είναι τυποποιημένο και αποδίδει ακριβώς την ίδια ποσότητα σιλυμαρίνης, ανεξαρτήτως της παρτίδας του προϊόντος. Τα φιλικά βακτήρια εμποδίζουν την ανάπτυξη παθογόνων βακτηριδίων που θα μπορούσαν να βλάψουν τον οργανισμό.\nΤο Liver Biotix απευθύνεται σε άτομα που θέλουν να διατηρήσουν την καλή λειτουργία του συκωτιού τους. Μπορεί να χρησιμοποιηθεί από άτομα που επιβαρύνουν το συκώτι τους λόγω αυξημένης κατανάλωσης αλκοόλ ή φαρμάκων, καθώς και από άτομα με λιπώδες ήπαρ.\nΣτο Liver Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Σύνθεση μίας κάψουλας την ημέρα.\nΣε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα την ημέρα με ή μετά από κάποιο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΧολίνη Διτρυγική Αποδίδει 125mg Χολίνη · 305mg\nΕκχύλισμα καρπών Milk Thistle Αποδίδει 150mg Σιλυμαρίνη · 215mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 1 δισεκατομμύριo (1x10^9): L.rhamnosus L.plantarum L.bulgaricus · 19mg\n\nΣυστατικά: Choline Bitartrate, Milk Thistle (Silybum marianum) Fruit Extract, Bulking agent: Microcrystalline Cellulose, Lactobacilli Culture (L.rhamnosus, L.plantarum, L.bulgaricus), Magnesium Stearate, Capsule Shell (hydroxypropylmethylcellulose, gelling agent: gellan gum).\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1406/new-liverbiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1406/new-liverbiotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1406/new-liverbiotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/liver-biotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-enzymebiotix": {
+    "name": "Enzyme Biotix",
+    "subtitle": "Το Enzyme Biotix της Quest είναι ένας μοναδικός συνδυασμός πεπτικών ενζύμων και φιλικών βακτηρίων, που έχει σχεδιαστεί ειδικά για όσους έχουν δυσκολία στην πέψη των τροφών.",
+    "description": "Το Enzyme Biotix της Quest είναι ένας μοναδικός συνδυασμός πεπτικών ενζύμων και φιλικών βακτηρίων, που έχει σχεδιαστεί ειδικά για όσους έχουν δυσκολία στην πέψη των τροφών. Τα πεπτικά ένζυμα συμβάλλουν στη διάσπαση των τροφών. Το Enzyme Biotix περιέχει τα πεπτικά ένζυμα παπαΐνη, βρωμελαΐνη, λιπάση, αμυλάση, λακτάση και α-γαλακτοσιδάση. Η παπαΐνη και η βρωμελαΐνη συμβάλλουν στην πέψη των πρωτεϊνών, η λιπάση στην πέψη των λιπών και η αμυλάση στην πέψη των υδατανθράκων. Η λακτάση διασπά τη λακτόζη που περιέχεται στο γάλα και άλλα γαλακτοκομικά προϊόντα. Η α-γαλακτοσιδάση βοηθά στη διάσπαση πιο σύνθετων υδατανθράκων, οι οποίοι όταν δεν διασπώνται προκαλούν φούσκωμα και αέρια. Για ακόμη καλύτερα αποτελέσματα, το Enzyme Biotix περιέχει τα γαλακτικά βακτήρια L.acidophilus, L.casei και L.rhamnosus, τα οποία συμβάλλουν στην ισορροπία της εντερικής χλωρίδας. Στο Enzyme Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.",
+      "Σε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Biotix",
+      "Γνωστοποίηση ΕΟΦ": "28672/15-03-2019",
+      "Κατηγορία douni.gr": "Biotix | Πεπτικά Ένζυμα"
+    },
+    "sections": {
+      "Περιγραφή": "Το Enzyme Biotix της Quest είναι ένας μοναδικός συνδυασμός πεπτικών ενζύμων και φιλικών βακτηρίων, που έχει σχεδιαστεί ειδικά για όσους έχουν δυσκολία στην πέψη των τροφών.\nΤα πεπτικά ένζυμα συμβάλλουν στη διάσπαση των τροφών. Το Enzyme Biotix περιέχει τα πεπτικά ένζυμα παπαΐνη, βρωμελαΐνη, λιπάση, αμυλάση, λακτάση και α-γαλακτοσιδάση. Η παπαΐνη και η βρωμελαΐνη συμβάλλουν στην πέψη των πρωτεϊνών, η λιπάση στην πέψη των λιπών και η αμυλάση στην πέψη των υδατανθράκων. Η λακτάση διασπά τη λακτόζη που περιέχεται στο γάλα και άλλα γαλακτοκομικά προϊόντα. Η α-γαλακτοσιδάση βοηθά στη διάσπαση πιο σύνθετων υδατανθράκων, οι οποίοι όταν δεν διασπώνται προκαλούν φούσκωμα και αέρια.\nΓια ακόμη καλύτερα αποτελέσματα, το Enzyme Biotix περιέχει τα γαλακτικά βακτήρια L.acidophilus, L.casei και L.rhamnosus, τα οποία συμβάλλουν στην ισορροπία της εντερικής χλωρίδας.\nΣτο Enzyme Biotix χρησιμοποιούνται DRcaps™ κάψουλες. Οι DRcaps™ έχουν σχεδιαστεί για να καθυστερούν την απελευθέρωση των δραστικών συστατικών, με αποτέλεσμα αυτά να μην απελευθερώνονται στο στομάχι, αλλά κατευθείαν στο έντερο. Έτσι εξασφαλίζεται η καλύτερη απορρόφηση των θρεπτικών συστατικών, ενώ παράλληλα τα φιλικά βακτήρια δεν εκτίθενται και δεν καταστρέφονται στο στομάχι από το όξινο περιβάλλον του, αλλά απελευθερώνονται απευθείας στο έντερο.",
+      "Οφέλη": "Υψηλή περιεκτικότητα σε σταθερά βιώσιμα φιλικά βακτήρια μέσα στην κάψουλα.\nΣε DR κάψουλες που απελευθερώνουν τα δραστικά συστατικά κατευθείαν στο έντερο.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα με το γεύμα μαζί με νερό, μέχρι 2 φορές την ημέρα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΠαπαΐνη (48000 USP Units/g) 240 USP Units · 5mg\nΑμυλάση (40000 SKB Units/g) 400 SKB Units · 10mg\nΛιπάση (105000 Lipase Units/g) 630 Lipase Units · 6mg\nΒρωμελαΐνη (1200 GD Units/g) 6 GD Units · 5mg\nΛακτάση (10000 ALU/g) 1000 ALU · 100mg\nΆλφα-Γαλακτοσιδάση (10000 GALU/g) 150 GALU · 15mg\nΚαλλιέργεια γαλακτικών βακτηρίων Αποδίδει 8 δισεκατομμύρια (8x10^9): L.acidophilus L.casei L.rhamnosus · 14mg\n\nΣυστατικά: Bulking agent: microcrystalline cellulose, lactase, alpha-galactosidase (with maltodextrin), lactobacilli culture‡, amylase (with maltodextrin), magnesium stearate, lipase (with maltodextrin), papain, bromelain (with maltodextrin), capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum).\n\nΑλλεργιογόνα: Μπορεί να περιέχει ίχνη σόγιας.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1402/new-enzymebiotix.jpg",
+    "imageFallback": "https://www.douni.gr/media/1402/new-enzymebiotix.jpg",
+    "images": [
+      "https://www.douni.gr/media/1402/new-enzymebiotix.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/biotix/enzyme-biotix/",
+    "source": "douni.gr",
+    "section": "probiotika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-cranmannoseqlife": {
+    "name": "Cran Mannose Q-Life",
+    "subtitle": "Το Cran Mannose Q-Life είναι ένας συνδυασμός D-μαννόζης, κράνμπερι και κιτρικού καλίου.",
+    "description": "Το Cran Mannose Q-Life είναι ένας συνδυασμός D-μαννόζης, κράνμπερι και κιτρικού καλίου. Κάθε φακελάκι περιέχει 1000mg D-μαννόζη και τυποποιημένο εκχύλισμα κράνμπερι, που αποδίδει εγγυημένα 62,5mg προανθοκυανιδίνες (PACs). Η D-μαννόζη εμποδίζει την προσκόλληση παθογόνων μικροοργανισμών στο ουροποιητικό και αποβάλλεται με τα ούρα. Στη σύνθεση περιέχεται επίσης κιτρικό κάλιο, το οποίο μειώνει την οξύτητα των ούρων. Η μείωση της οξύτητας των ούρων μπορεί να ανακουφίσει από ενοχλητικά συμπτώματα στο ουροποιητικό.",
+    "claims": [
+      "Κατάλληλο για γυναίκες και άνδρες",
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για γυναίκες και άνδρες.",
+      "Με τυποποιημένο εκχύλισμα κράνμπερι με υψηλή περιεκτικότητα σε προανθοκυανιδίνες.",
+      "Με φυσική γεύση κράνμπερι.",
+      "Με γλυκαντικό (σουκραλόζη).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Q-Life",
+      "Γνωστοποίηση ΕΟΦ": "144721/22-12-2023",
+      "Κατηγορία douni.gr": "Q-Life"
+    },
+    "sections": {
+      "Περιγραφή": "Το Cran Mannose Q-Life είναι ένας συνδυασμός D-μαννόζης, κράνμπερι και κιτρικού καλίου.\nΚάθε φακελάκι περιέχει 1000mg D-μαννόζη και τυποποιημένο εκχύλισμα κράνμπερι, που αποδίδει εγγυημένα 62,5mg προανθοκυανιδίνες (PACs). Η D-μαννόζη εμποδίζει την προσκόλληση παθογόνων μικροοργανισμών στο ουροποιητικό και αποβάλλεται με τα ούρα.\nΣτη σύνθεση περιέχεται επίσης κιτρικό κάλιο, το οποίο μειώνει την οξύτητα των ούρων. Η μείωση της οξύτητας των ούρων μπορεί να ανακουφίσει από ενοχλητικά συμπτώματα στο ουροποιητικό.",
+      "Οφέλη": "Κατάλληλο για γυναίκες και άνδρες.\nΜε τυποποιημένο εκχύλισμα κράνμπερι με υψηλή περιεκτικότητα σε προανθοκυανιδίνες.\nΜε φυσική γεύση κράνμπερι.\nΜε γλυκαντικό (σουκραλόζη).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Διαλύστε ένα φακελάκι σε ένα ποτήρι (200ml) κρύο νερό. Καταναλώστε συνολικά μέχρι 2 φακελάκια την ημέρα. Κατάλληλο μόνο για ενήλικες.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Να φυλάσσεται μακριά από τα μικρά παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Το προϊόν αυτό δεν υπόκειται σε διαδικασία αδειοδότησης.",
+      "Συστατικά": "Θρεπτική αξία:\nΈνα φακελάκι (3g) παρέχει:\nD-Μαννόζη · 1000mg\nΕκχύλισμα Cranberry (Vaccinium macrocarpon) αποδίδει 25% προανθοκυανιδίνες · 250mg 62,5mg\nΚιτρικό κάλιο αποδίδει κάλιο · 880mg 300mg\n\nΣυστατικά: D-mannose, potassium citrate, maltodextrin, acidity regulator: citric acid, cranberry fruit extract (Vaccinium macrocarpon), natural flavouring, beetroot concentrate, anticaking agent: silicon dioxide, sweetener: sucralose.\n\nΑλλεργιογόνα: Το Cran Mannose Q-Life δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για γυναίκες και άνδρες\nΚατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2278/cranmannose-qlife_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2278/cranmannose-qlife_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2278/cranmannose-qlife_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-life/cran-mannose-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-gastroqlife": {
+    "name": "Gastro Q-Life",
+    "subtitle": "Το Gastro Q-Life περιέχει γλυκόριζα, μέντα, ψευδάργυρο, L-καρνοσίνη και aluminium magnesium silicate.",
+    "description": "Το Gastro Q-Life περιέχει γλυκόριζα, μέντα, ψευδάργυρο, L-καρνοσίνη και aluminium magnesium silicate. Η γλυκόριζα χρησιμοποιείται παραδοσιακά για τη διευκόλυνση της πέψης και συμβάλλει στην ανακούφιση του πεπτικού. Το έλαιο μέντας βοηθά στη διατήρηση αποτελεσματικής πέψης και μπορεί να βοηθήσει σε περιπτώσεις μετεωρισμού και σπασμών στην κοιλιά. Ο ψευδάργυρος συμβάλλει στο φυσιολογικό μεταβολισμό των οξέων, των μακροθρεπτικών συστατικών, των υδατανθράκων και των λιπών. Η καρνοσίνη είναι ένα διπεπτίδιο που αποτελείται από τα αμινοξέα ιστιδίνη και αλανίνη και μελέτες δείχνουν ότι έχει αντιοξειδωτική δράση και μπορεί να έχει θετική επίδραση στο στομάχι.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη",
+      "Κατάλληλο για χορτοφάγους και vegans"
+    ],
+    "highlights": [
+      "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Με γεύση μέντα και φραγκοστάφυλο.",
+      "Κατάλληλο για χορτοφάγους και vegans."
+    ],
+    "attributes": {
+      "Σειρά": "Q-Life",
+      "Γνωστοποίηση ΕΟΦ": "68737/23-06-2023",
+      "Κατηγορία douni.gr": "Q-Life"
+    },
+    "sections": {
+      "Περιγραφή": "Το Gastro Q-Life περιέχει γλυκόριζα, μέντα, ψευδάργυρο, L-καρνοσίνη και aluminium magnesium silicate.\nΗ γλυκόριζα χρησιμοποιείται παραδοσιακά για τη διευκόλυνση της πέψης και συμβάλλει στην ανακούφιση του πεπτικού. Το έλαιο μέντας βοηθά στη διατήρηση αποτελεσματικής πέψης και μπορεί να βοηθήσει σε περιπτώσεις μετεωρισμού και σπασμών στην κοιλιά. Ο ψευδάργυρος συμβάλλει στο φυσιολογικό μεταβολισμό των οξέων, των μακροθρεπτικών συστατικών, των υδατανθράκων και των λιπών. Η καρνοσίνη είναι ένα διπεπτίδιο που αποτελείται από τα αμινοξέα ιστιδίνη και αλανίνη και μελέτες δείχνουν ότι έχει αντιοξειδωτική δράση και μπορεί να έχει θετική επίδραση στο στομάχι.",
+      "Οφέλη": "Δεν περιέχει γλουτένη και λακτόζη.\nΜε γεύση μέντα και φραγκοστάφυλο.\nΚατάλληλο για χορτοφάγους και vegans.",
+      "Χρήση": "Λαμβάνετε μια μασώμενη ταμπλέτα όταν υπάρχει ανάγκη, μετά το γεύμα ή το βράδυ πριν τον ύπνο. Μπορείτε να λάβετε μέχρι 2 ταμπλέτες την ημέρα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Το προϊόν δεν υπόκειται σε διαδικασία αδειοδότησης.",
+      "Συστατικά": "Θρεπτική αξία:\nΜία ταμπλέτα παρέχει:\nΕκχύλισμα Γλυκόριζας · 150mg\nΈλαιο μέντας · 2mg\nΨευδάργυρος · 17mg\nL-Καρνοσίνη · 58mg\nAluminium magnesium silicate · 200mg\n\nΣυστατικά: Glycyrrhiza glabra root extract, aluminium magnesium silicate, L-carnosine, zinc, peppermint oil, xanthan gum, citric acid, fructose, xylitol, blackcurrant flavouring, silicon dioxide, microcrystalline cellulose, magnesium stearate, sodium chloride, soya lecithin powder.\n\nΑλλεργιογόνα: Το Gastro Q-Life περιέχει λεκιθίνη από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη\nΚατάλληλο για χορτοφάγους και vegans"
+    },
+    "image": "https://www.douni.gr/media/2274/gastro-q-life_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2274/gastro-q-life_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2274/gastro-q-life_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-life/gastro-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-feroqlife": {
+    "name": "Fero Q-Life",
+    "subtitle": "Το συμπλήρωμα διατροφής Fero Q-Life παρέχει την ιδανική ποσότητα σιδήρου μαζί με βιταμίνες B, C και υποστηρικτικά μέταλλα για καλύτερη απορρόφηση και δράση.",
+    "description": "Το συμπλήρωμα διατροφής Fero Q-Life παρέχει την ιδανική ποσότητα σιδήρου μαζί με βιταμίνες B, C και υποστηρικτικά μέταλλα για καλύτερη απορρόφηση και δράση. Ο σίδηρος είναι απαραίτητος για την παραγωγή ενέργειας, τη μείωση της κούρασης, την παραγωγή της αιμοσφαιρίνης, τον σχηματισμό των ερυθρών αιμοσφαιρίων και τη φυσιολογική μεταφορά του οξυγόνου στους ιστούς και τα κύτταρα του σώματος, συμπεριλαμβανομένου του εγκεφάλου. Η βιταμίνη C αυξάνει την απορρόφηση του σιδήρου, εξασφαλίζοντας καλύτερο αποτέλεσμα. Οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κόπωσης, της εξάντλησης και της ατονίας. Η Β12, η Β6 και το φολικό οξύ συμβάλλουν επιπλέον στον σχηματισμό της αιμοσφαιρίνης και των ερυθρών αιμοσφαιρίων. Ο ψευδάργυρος , που περιέχεται επίσης στο Fero Q-Life, συμβάλλει μαζί με τον σίδηρο στη φυσιολογική γνωσιακή λειτουργία. Το Fero Q-Life είναι ένα αποτελεσματικό συμπλήρωμα σιδήρου με υπέροχη γεύση πορτοκάλι και μέλι, κατάλληλο για παιδιά και ενήλικες. Προτείνεται κυρίως σε άτομα που έχουν χαμηλά επίπεδα σιδήρου ή φερριτίνης, χορτοφάγους και σε περιόδους έντονης κόπωσης, εξάντλησης και αυξημένων απαιτήσεων σε σίδηρο, όπως κατά τη διάρκεια της εμμήνου ρύσεως και της εγκυμοσύνης.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Q-Life",
+      "Κατηγορία douni.gr": "Q-Life"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Fero Q-Life παρέχει την ιδανική ποσότητα σιδήρου μαζί με βιταμίνες B, C και υποστηρικτικά μέταλλα για καλύτερη απορρόφηση και δράση.\nΟ σίδηρος είναι απαραίτητος για την παραγωγή ενέργειας, τη μείωση της κούρασης, την παραγωγή της αιμοσφαιρίνης, τον σχηματισμό των ερυθρών αιμοσφαιρίων και τη φυσιολογική μεταφορά του οξυγόνου στους ιστούς και τα κύτταρα του σώματος, συμπεριλαμβανομένου του εγκεφάλου. Η βιταμίνη C αυξάνει την απορρόφηση του σιδήρου, εξασφαλίζοντας καλύτερο αποτέλεσμα.\nΟι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κόπωσης, της εξάντλησης και της ατονίας. Η Β12, η Β6 και το φολικό οξύ συμβάλλουν επιπλέον στον σχηματισμό της αιμοσφαιρίνης και των ερυθρών αιμοσφαιρίων. Ο ψευδάργυρος , που περιέχεται επίσης στο Fero Q-Life, συμβάλλει μαζί με τον σίδηρο στη φυσιολογική γνωσιακή λειτουργία.\nΤο Fero Q-Life είναι ένα αποτελεσματικό συμπλήρωμα σιδήρου με υπέροχη γεύση πορτοκάλι και μέλι, κατάλληλο για παιδιά και ενήλικες. Προτείνεται κυρίως σε άτομα που έχουν χαμηλά επίπεδα σιδήρου ή φερριτίνης, χορτοφάγους και σε περιόδους έντονης κόπωσης, εξάντλησης και αυξημένων απαιτήσεων σε σίδηρο, όπως κατά τη διάρκεια της εμμήνου ρύσεως και της εγκυμοσύνης."
+    },
+    "image": "https://www.douni.gr/media/2273/fero-q-life_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2273/fero-q-life_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2273/fero-q-life_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-life/fero-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-osteoqlife": {
+    "name": "Osteo Q-Life",
+    "subtitle": "Το Osteo Q-Life συνδυάζει τις πιο σημαντικές βιταμίνες και μέταλλα για την καλή λειτουργία των οστών και των μυών.",
+    "description": "Το Osteo Q-Life συνδυάζει τις πιο σημαντικές βιταμίνες και μέταλλα για την καλή λειτουργία των οστών και των μυών. Περιέχει ασβέστιο, μαγνήσιο και ψευδάργυρο που είναι απαραίτητα για τη διατήρηση της καλής κατάστασης των οστών, των δοντιών και των μυών. Στη σύνθεση περιέχονται επίσης βιταμίνες K και D που εξασφαλίζουν τη βέλτιστη απορρόφηση του ασβεστίου για τη διατήρηση καλής οστικής μάζας. Το ασβέστιο είναι το βασικότερο δομικό συστατικό των οστών και είναι απαραίτητο για άνδρες και γυναίκες κάθε ηλικίας. Σε γυναίκες στην εμμηνόπαυση η λήψη ασβεστίου και βιταμίνης D συμβάλλει στην ακεραιότητα των οστών, στην καθυστέρηση της απώλειας οστικής μάζας με την πάροδο του χρόνου και στη μείωση του κινδύνου καταγμάτων. Το μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών. Οι βιταμίνες D και Κ, βοηθούν στη διατήρηση των φυσιολογικών επιπέδων ασβεστίου στο αίμα για τη μείωση της απώλειας οστικού υλικού και βοηθούν επίσης στην υποστήριξη της λειτουργίας του ανοσοποιητικού.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Q-Life",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Q-Life"
+    },
+    "sections": {
+      "Περιγραφή": "Το Osteo Q-Life συνδυάζει τις πιο σημαντικές βιταμίνες και μέταλλα για την καλή λειτουργία των οστών και των μυών. Περιέχει ασβέστιο, μαγνήσιο και ψευδάργυρο που είναι απαραίτητα για τη διατήρηση της καλής κατάστασης των οστών, των δοντιών και των μυών. Στη σύνθεση περιέχονται επίσης βιταμίνες K και D που εξασφαλίζουν τη βέλτιστη απορρόφηση του ασβεστίου για τη διατήρηση καλής οστικής μάζας. Το ασβέστιο είναι το βασικότερο δομικό συστατικό των οστών και είναι απαραίτητο για άνδρες και γυναίκες κάθε ηλικίας. Σε γυναίκες στην εμμηνόπαυση η λήψη ασβεστίου και βιταμίνης D συμβάλλει στην ακεραιότητα των οστών, στην καθυστέρηση της απώλειας οστικής μάζας με την πάροδο του χρόνου και στη μείωση του κινδύνου καταγμάτων. Το μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών. Οι βιταμίνες D και Κ, βοηθούν στη διατήρηση των φυσιολογικών επιπέδων ασβεστίου στο αίμα για τη μείωση της απώλειας οστικού υλικού και βοηθούν επίσης στην υποστήριξη της λειτουργίας του ανοσοποιητικού."
+    },
+    "image": "https://www.douni.gr/media/2277/osteo-q-life_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2277/osteo-q-life_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2277/osteo-q-life_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-life/osteo-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-immuneqlife": {
+    "name": "Immune Q-Life",
+    "subtitle": "Το συμπλήρωμα διατροφής Immune Q-Life της Quest αποτελεί έναν μοναδικό συνδυασμό των πιο σημαντικών βιταμινών και μετάλλων για το ανοσοποιητικό.",
+    "description": "Το συμπλήρωμα διατροφής Immune Q-Life της Quest αποτελεί έναν μοναδικό συνδυασμό των πιο σημαντικών βιταμινών και μετάλλων για το ανοσοποιητικό. Περιέχει βιταμίνες C, D και ψευδάργυρο σε υψηλή περιεκτικότητα (500mg, 1000iu και 10mg αντίστοιχα) που συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία από τις λοιμώξεις, καθώς και ισχυρά αντιοξειδωτικά όπως βιταμίνες Α, Ε, χαλκό και σελήνιο που βοηθούν στην προστασία των κυττάρων του σώματος από το οξειδωτικό στρες και μειώνουν τον κίνδυνο προσβολής από ιούς και βακτήρια. Το Immune Q-Life παρέχει την ιδανική ποσότητα των θρεπτικών συστατικών που απαιτούνται για την υποστήριξη της άμυνας του οργανισμού και είναι κατάλληλο για όλους (από 12 ετών). Είναι ιδανικό για όλους τους φθινοπωρινούς και χειμερινούς μήνες, για περιόδους έξαρσης των ιώσεων και για άτομα με εξασθενημένο ανοσοποιητικό.",
+    "claims": [
+      "Κατάλληλο για όλους (από 12 ετών)",
+      "Δεν περιέχει γλουτένη και λακτόζη",
       "Κατάλληλο για χορτοφάγους"
     ],
     "highlights": [
-      "Tasty blackcurrant flavour chewable tablet",
-      "Multi-strain formula providing 2 billion friendly organisms per tablet",
-      "Lyophilised, gently tabletted and individually sealed to enhance stability"
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για όλους (από 12 ετών).",
+      "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Κατάλληλο για χορτοφάγους."
     ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Children’s Health | Gut and Digestion | Probiotics",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Children’s Health | Gut and Digestion | Probiotics"
+      "Σειρά": "Q-Life",
+      "Γνωστοποίηση ΕΟΦ": "90110/10-09-2020",
+      "Κατηγορία douni.gr": "Q-Life"
     },
     "sections": {
-      "Περιγραφή": "Especially formulated for children to support everyday digestive, gut and immune health. Probiotic supplements can help support the early development of intestinal microflora in children which can have a positive impact on their future health. Beneficial probiotic bacteria help maintain balanced gut health, modulate immune function and may help reduce the occurrence of allergies and atopic eczema or dermatitis in children.",
-      "Οφέλη": "Tasty blackcurrant flavour chewable tablet\nMulti-strain formula providing 2 billion friendly organisms per tablet\nLyophilised, gently tabletted and individually sealed to enhance stability",
-      "Χρήση": "One to two chewable tablets daily with or after a meal. Suitable from 3 years of age.",
-      "Συστατικά": "Dextrose anhydrous, microcrystalline cellulose, lyophilised lactobacilli culture, blackcurrant flavour, precipitated silicon dioxide, magnesium stearate, beetroot powder, antioxidant: citric acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Immune Q-Life της Quest αποτελεί έναν μοναδικό συνδυασμό των πιο σημαντικών βιταμινών και μετάλλων για το ανοσοποιητικό.\nΠεριέχει βιταμίνες C, D και ψευδάργυρο σε υψηλή περιεκτικότητα (500mg, 1000iu και 10mg αντίστοιχα) που συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία από τις λοιμώξεις, καθώς και ισχυρά αντιοξειδωτικά όπως βιταμίνες Α, Ε, χαλκό και σελήνιο που βοηθούν στην προστασία των κυττάρων του σώματος από το οξειδωτικό στρες και μειώνουν τον κίνδυνο προσβολής από ιούς και βακτήρια.\nΤο Immune Q-Life παρέχει την ιδανική ποσότητα των θρεπτικών συστατικών που απαιτούνται για την υποστήριξη της άμυνας του οργανισμού και είναι κατάλληλο για όλους (από 12 ετών). Είναι ιδανικό για όλους τους φθινοπωρινούς και χειμερινούς μήνες, για περιόδους έξαρσης των ιώσεων και για άτομα με εξασθενημένο ανοσοποιητικό.",
+      "Οφέλη": "Σύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για όλους (από 12 ετών).\nΔεν περιέχει γλουτένη και λακτόζη.\nΚατάλληλο για χορτοφάγους.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη D3 (1000i.u.) · 25μg\nΒιταμίνη C · 500mg\nΒιταμίνη E (100i.u.) · 67mg\nΒιταμίνη Α · 400μg\nΜείγμα Καροτενοειδών Περιλαμβάνει: Βήτα Καροτένιο Άλφα Καροτένιο Κρυπτοξανθίνη Ζεαξανθίνη Λουτεΐνη · 3mg\nΨευδάργυρος · 10mg\nΣελήνιο · 100μg\nΧαλκός · 500μg\n\nΣυστατικά: Ascorbic acid (with hydroxypropylmethylcellulose), d-alpha tocopheryl acetate (with maltodextrin, starch sodium octenyl succinate, silicon dioxide, sodium stearyl lactate), zinc amino acid blend (with rice protein, citric acid, zinc oxide, glycine, copper sulphate pentahydrate, rice protein concentrate), croscarmellose sodium, dicalcium phosphate, silicified microcrystalline cellulose, beta carotene (with modified food starch, corn starch, DL-alpha-tocopherol), vitamin D3 (with modified starch, sucrose, sodium ascorbate, medium chain triglycerides, silicon dioxide, dl-alpha tocopherol), magnesium stearate, precipitated silicon dioxide, vitamin A palmitate (with sucrose, gum arabic, corn starch, tricalcium phosphate, DL-alpha-tocopherol), selenium amino acid blend (with rice protein, citric acid, glycine, sodium selenite), mixed carotenoids (with maltodextrin, croscarmellose sodium, ascorbic acid, ethyl cellulose).\n\nΑλλεργιογόνα: Το Immune Q-Life δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για όλους (από 12 ετών)\nΔεν περιέχει γλουτένη και λακτόζη\nΚατάλληλο για χορτοφάγους"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/KIDZBIOTIX-1.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/KIDZBIOTIX-1.png",
+    "image": "https://www.douni.gr/media/2276/immune-q-life_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2276/immune-q-life_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/KIDZBIOTIX-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/KIDZBIOTIX-2.png"
+      "https://www.douni.gr/media/2276/immune-q-life_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/kidzbiotix/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/q-life/immune-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-hypnosqlife": {
+    "name": "Hypnos Q-Life",
+    "subtitle": "Το Hypnos Q-Life είναι ένας καινοτόμος συνδυασμός συστατικών για πιο γρήγορο ύπνο, με μελατονίνη, μαγνήσιο και L-θεανίνη.",
+    "description": "Το Hypnos Q-Life είναι ένας καινοτόμος συνδυασμός συστατικών για πιο γρήγορο ύπνο, με μελατονίνη, μαγνήσιο και L-θεανίνη. Η μελατονίνη συμβάλλει στη μείωση του χρόνου που χρειάζεται κανείς για να κοιμηθεί και στην ανακούφιση από το τζετ λαγκ. Το μαγνήσιο βοηθά στη φυσιολογική λειτουργία του νευρικού συστήματος, των μυών και στην καλή ψυχολογική λειτουργία, οδηγώντας σε μεγαλύτερη ηρεμία και χαλάρωση πριν τον ύπνο. Η L-θεανίνη είναι ένα φυσικό αμινοξύ που υποστηρίζει σημαντικούς νευροδιαβιβαστές και είναι ιδιαίτερα χρήσιμη σε περιπτώσεις άγχους, στρες, ανησυχίας και ευερεθιστότητας. Το Hypnos Q-Life προτείνεται σε όσους υποφέρουν από αϋπνία και αναζητούν ένα συμπλήρωμα μελατονίνης για γρηγορότερη έλευση του ύπνου.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Q-Life",
+      "Κατηγορία douni.gr": "Q-Life"
+    },
+    "sections": {
+      "Περιγραφή": "Το Hypnos Q-Life είναι ένας καινοτόμος συνδυασμός συστατικών για πιο γρήγορο ύπνο, με μελατονίνη, μαγνήσιο και L-θεανίνη.\nΗ μελατονίνη συμβάλλει στη μείωση του χρόνου που χρειάζεται κανείς για να κοιμηθεί και στην ανακούφιση από το τζετ λαγκ. Το μαγνήσιο βοηθά στη φυσιολογική λειτουργία του νευρικού συστήματος, των μυών και στην καλή ψυχολογική λειτουργία, οδηγώντας σε μεγαλύτερη ηρεμία και χαλάρωση πριν τον ύπνο. Η L-θεανίνη είναι ένα φυσικό αμινοξύ που υποστηρίζει σημαντικούς νευροδιαβιβαστές και είναι ιδιαίτερα χρήσιμη σε περιπτώσεις άγχους, στρες, ανησυχίας και ευερεθιστότητας.\nΤο Hypnos Q-Life προτείνεται σε όσους υποφέρουν από αϋπνία και αναζητούν ένα συμπλήρωμα μελατονίνης για γρηγορότερη έλευση του ύπνου."
+    },
+    "image": "https://www.douni.gr/media/2275/hypnos-q-life.jpg",
+    "imageFallback": "https://www.douni.gr/media/2275/hypnos-q-life.jpg",
+    "images": [
+      "https://www.douni.gr/media/2275/hypnos-q-life.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-life/hypnos-q-life/",
+    "source": "douni.gr",
+    "section": "qlife",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalzinc30mg": {
+    "name": "Liposomal Zinc 30mg",
+    "subtitle": "Το Liposomal Zinc 30mg της Quest παρέχει στον οργανισμό ψευδάργυρο ενσωματωμένο σε λιποσώματα.",
+    "description": "Το Liposomal Zinc 30mg της Quest παρέχει στον οργανισμό ψευδάργυρο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης ψευδαργύρου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης τον ψευδάργυρο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι. Ο ψευδάργυρος είναι ένα απαραίτητο ιχνοστοιχείο που συμμετέχει σε περισσότερες από 300 ενζυματικές αντιδράσεις σε ολόκληρο το ανθρώπινο σώμα. Είναι απαραίτητος για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και την προστασία των κυττάρων από το οξειδωτικό στρες. Συμβάλλει επίσης στη διατήρηση της φυσιολογικής κατάστασης των μαλλιών, των νυχιών και του δέρματος, στα φυσιολογικά επίπεδα τεστοστερόνης στο αίμα και στη γονιμότητα. Καθώς ο ψευδάργυρος δεν αποθηκεύεται σε σημαντικό βαθμό στον οργανισμό, η επαρκής ημερήσια πρόσληψη μέσω της διατροφής ή των συμπληρωμάτων διατροφής είναι απαραίτητη για τη διατήρηση των βέλτιστων επιπέδων ψευδαργύρου.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Zinc 30mg της Quest παρέχει στον οργανισμό ψευδάργυρο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης ψευδαργύρου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης τον ψευδάργυρο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι.\nΟ ψευδάργυρος είναι ένα απαραίτητο ιχνοστοιχείο που συμμετέχει σε περισσότερες από 300 ενζυματικές αντιδράσεις σε ολόκληρο το ανθρώπινο σώμα. Είναι απαραίτητος για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και την προστασία των κυττάρων από το οξειδωτικό στρες. Συμβάλλει επίσης στη διατήρηση της φυσιολογικής κατάστασης των μαλλιών, των νυχιών και του δέρματος, στα φυσιολογικά επίπεδα τεστοστερόνης στο αίμα και στη γονιμότητα.\nΚαθώς ο ψευδάργυρος δεν αποθηκεύεται σε σημαντικό βαθμό στον οργανισμό, η επαρκής ημερήσια πρόσληψη μέσω της διατροφής ή των συμπληρωμάτων διατροφής είναι απαραίτητη για τη διατήρηση των βέλτιστων επιπέδων ψευδαργύρου."
+    },
+    "image": "https://www.douni.gr/media/2331/liposomal-zinc-30mg.jpg",
+    "imageFallback": "https://www.douni.gr/media/2331/liposomal-zinc-30mg.jpg",
+    "images": [
+      "https://www.douni.gr/media/2331/liposomal-zinc-30mg.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-zinc-30mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalvitaminc500mg": {
+    "name": "Liposomal Vitamin C 500mg",
+    "subtitle": "Το Liposomal Vitamin C 500mg της Quest παρέχει στον οργανισμό λιποσωμική βιταμίνη C, δηλαδή βιταμίνη C ενσωματωμένη σε λιποσώματα.",
+    "description": "Το Liposomal Vitamin C 500mg της Quest παρέχει στον οργανισμό λιποσωμική βιταμίνη C, δηλαδή βιταμίνη C ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης βιταμίνης C που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης τη βιταμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό. Η βιταμίνη C συμβάλλει επίσης στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στους ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Η λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C. Το Liposomal Vitamin C αποδίδει 500mg βιταμίνης ανά κάψουλα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Vitamin C 500mg της Quest παρέχει στον οργανισμό λιποσωμική βιταμίνη C, δηλαδή βιταμίνη C ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης βιταμίνης C που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης τη βιταμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό.\nΗ βιταμίνη C συμβάλλει επίσης στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στους ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων.\nΗ λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.\nΤο Liposomal Vitamin C αποδίδει 500mg βιταμίνης ανά κάψουλα."
+    },
+    "image": "https://www.douni.gr/media/2245/liposomal-vitamin-c_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2245/liposomal-vitamin-c_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2245/liposomal-vitamin-c_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-vitamin-c-500mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalvitaminb121000mg": {
+    "name": "Liposomal Vitamin B12 1000μg",
+    "subtitle": "Το Liposomal Vitamin B12 1000μg της Quest παρέχει στον οργανισμό βιταμίνη B12 (μεθυλκοβαλαμίνη) ενσωματωμένη σε λιποσώματα.",
+    "description": "Το Liposomal Vitamin B12 1000μg της Quest παρέχει στον οργανισμό βιταμίνη B12 (μεθυλκοβαλαμίνη) ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης βιταμίνης Β12 που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης τη βιταμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι. Η βιταμίνη Β12 συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην καλή λειτουργία του νευρικού και του ανοσοποιητικού συστήματος, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης που είναι απαραίτητος για την καρδιαγγειακή υγεία. Η βιταμίνη Β12 είναι μια απαραίτητη υδατοδιαλυτή βιταμίνη που δεν συντίθεται από τον ανθρώπινο οργανισμό και πρέπει να προσλαμβάνεται από τροφές ζωικής προέλευσης ή μέσω συμπληρωμάτων διατροφής. Οι χορτοφάγοι, οι vegans, οι ηλικιωμένοι, τα άτομα με γαστρεντερικές παθήσεις που επηρεάζουν την απορρόφησή της και όσοι νηστεύουν συχνά έχουν αυξημένο κίνδυνο έλλειψης στη συγκεκριμένη βιταμίνη.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Vitamin B12 1000μg της Quest παρέχει στον οργανισμό βιταμίνη B12 (μεθυλκοβαλαμίνη) ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης βιταμίνης Β12 που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης τη βιταμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι.\nΗ βιταμίνη Β12 συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην καλή λειτουργία του νευρικού και του ανοσοποιητικού συστήματος, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης που είναι απαραίτητος για την καρδιαγγειακή υγεία.\nΗ βιταμίνη Β12 είναι μια απαραίτητη υδατοδιαλυτή βιταμίνη που δεν συντίθεται από τον ανθρώπινο οργανισμό και πρέπει να προσλαμβάνεται από τροφές ζωικής προέλευσης ή μέσω συμπληρωμάτων διατροφής. Οι χορτοφάγοι, οι vegans, οι ηλικιωμένοι, τα άτομα με γαστρεντερικές παθήσεις που επηρεάζουν την απορρόφησή της και όσοι νηστεύουν συχνά έχουν αυξημένο κίνδυνο έλλειψης στη συγκεκριμένη βιταμίνη."
+    },
+    "image": "https://www.douni.gr/media/2332/liposomal-vitamin-b12.jpg",
+    "imageFallback": "https://www.douni.gr/media/2332/liposomal-vitamin-b12.jpg",
+    "images": [
+      "https://www.douni.gr/media/2332/liposomal-vitamin-b12.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-vitamin-b12-1000mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomaliron15mg": {
+    "name": "Liposomal Iron 15mg",
+    "subtitle": "Το Liposomal Iron 15mg της Quest παρέχει στον οργανισμό λιποσωμικό σίδηρο, δηλαδή σίδηρο ενσωματωμένο σε λιποσώματα.",
+    "description": "Το Liposomal Iron 15mg της Quest παρέχει στον οργανισμό λιποσωμικό σίδηρο, δηλαδή σίδηρο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης σιδήρου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης τον σίδηρο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι. Ο σίδηρος συμβάλλει στη μείωση της κούρασης και της κόπωσης, στη μεταφορά του οξυγόνου στο σώμα, στην παραγωγή της αιμοσφαιρίνης και στο σχηματισμό των ερυθρών αιμοσφαιρίων. Η λήψη του με συμπλήρωμα προτείνεται σε όσους έχουν έλλειψη σιδήρου και εμφανίζουν συμπτώματα όπως κόπωση, αδυναμία, ζαλάδα και μειωμένη συγκέντρωση, αλλά και σε αθλητές, εγκύους, χορτοφάγους, βίγκανς και γυναίκες σε αναπαραγωγική ηλικία που έχουν υψηλότερη πιθανότητα χαμηλών επιπέδων σιδήρου λόγω του εμμηνορροϊκού κύκλου. Το Liposomal Iron περιέχει 300mg λιποσωμικού σιδήρου που αποδίδουν 15mg σιδήρου ανά κάψουλα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Iron 15mg της Quest παρέχει στον οργανισμό λιποσωμικό σίδηρο, δηλαδή σίδηρο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης σιδήρου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης τον σίδηρο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι.\nΟ σίδηρος συμβάλλει στη μείωση της κούρασης και της κόπωσης, στη μεταφορά του οξυγόνου στο σώμα, στην παραγωγή της αιμοσφαιρίνης και στο σχηματισμό των ερυθρών αιμοσφαιρίων. Η λήψη του με συμπλήρωμα προτείνεται σε όσους έχουν έλλειψη σιδήρου και εμφανίζουν συμπτώματα όπως κόπωση, αδυναμία, ζαλάδα και μειωμένη συγκέντρωση, αλλά και σε αθλητές, εγκύους, χορτοφάγους, βίγκανς και γυναίκες σε αναπαραγωγική ηλικία που έχουν υψηλότερη πιθανότητα χαμηλών επιπέδων σιδήρου λόγω του εμμηνορροϊκού κύκλου.\nΤο Liposomal Iron περιέχει 300mg λιποσωμικού σιδήρου που αποδίδουν 15mg σιδήρου ανά κάψουλα."
+    },
+    "image": "https://www.douni.gr/media/2244/liposomal-iron_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2244/liposomal-iron_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2244/liposomal-iron_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-iron-15mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalmagnesium": {
+    "name": "Liposomal Magnesium",
+    "subtitle": "Το Liposomal Magnesium της Quest παρέχει στον οργανισμό λιποσωμικό μαγνήσιο, δηλαδή μαγνήσιο που είναι ενσωματωμένο σε λιποσώματα.",
+    "description": "Το Liposomal Magnesium της Quest παρέχει στον οργανισμό λιποσωμικό μαγνήσιο, δηλαδή μαγνήσιο που είναι ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης μαγνησίου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης το ενεργό μαγνήσιο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι. Το μαγνήσιο είναι ένα απαραίτητο μέταλλο για πάνω από 300 ενζυματικές διεργασίες μέσα στο σώμα. Συμβάλλει στη φυσιολογική λειτουργία των μυών και μπορεί να βοηθήσει στην πρόληψη των κραμπών και της δυσκαμψίας. Είναι ιδιαίτερα ευεργετικό και για τον καρδιακό μυ. Το μαγνήσιο συμβάλλει επίσης στην καλή κατάσταση των οστών, την ισορροπία των ηλεκτρολυτών, τη μείωση της κούρασης και της κόπωσης, τη φυσιολογική ψυχολογική λειτουργία και τη φυσιολογική λειτουργία του νευρικού συστήματος. Το Liposomal Magnesium αποδίδει 150mg μαγνησίου ανά φακελάκι. Διαλύεται σε νερό και έχει υπέροχη γεύση πορτοκάλι.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Magnesium της Quest παρέχει στον οργανισμό λιποσωμικό μαγνήσιο, δηλαδή μαγνήσιο που είναι ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης μαγνησίου που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά του. Η λιποσωμική μορφή προστατεύει επίσης το ενεργό μαγνήσιο από την αλλοίωση και εξασφαλίζει την καλή ανοχή του στο στομάχι.\nΤο μαγνήσιο είναι ένα απαραίτητο μέταλλο για πάνω από 300 ενζυματικές διεργασίες μέσα στο σώμα. Συμβάλλει στη φυσιολογική λειτουργία των μυών και μπορεί να βοηθήσει στην πρόληψη των κραμπών και της δυσκαμψίας. Είναι ιδιαίτερα ευεργετικό και για τον καρδιακό μυ. Το μαγνήσιο συμβάλλει επίσης στην καλή κατάσταση των οστών, την ισορροπία των ηλεκτρολυτών, τη μείωση της κούρασης και της κόπωσης, τη φυσιολογική ψυχολογική λειτουργία και τη φυσιολογική λειτουργία του νευρικού συστήματος.\nΤο Liposomal Magnesium αποδίδει 150mg μαγνησίου ανά φακελάκι. Διαλύεται σε νερό και έχει υπέροχη γεύση πορτοκάλι."
+    },
+    "image": "https://www.douni.gr/media/2246/liposomal-magnesium_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2246/liposomal-magnesium_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2246/liposomal-magnesium_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-magnesium/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalcollagen2850mg": {
+    "name": "Liposomal Collagen 2850mg",
+    "subtitle": "Το Liposomal Collagen 2850mg της Quest συνδυάζει λιποσωμικό κολλαγόνο και υαλουρονικό οξύ με βασικά θρεπτικά συστατικά όπως η βιταμίνη C, o ψευδάργυρος και η βιοτίνη.",
+    "description": "Το Liposomal Collagen 2850mg της Quest συνδυάζει λιποσωμικό κολλαγόνο και υαλουρονικό οξύ με βασικά θρεπτικά συστατικά όπως η βιταμίνη C, o ψευδάργυρος και η βιοτίνη. Το κολλαγόνο και το υαλουρονικό οξύ είναι βασικά δομικά συστατικά του δέρματος. Η βιταμίνη C συμβάλλει στο φυσιολογικό σχηματισμό του κολλαγόνου στο δέρμα, ενισχύοντας την ελαστικότητά του. Η βιοτίνη βοηθά στη διατήρηση της καλής κατάστασης του δέρματος και ο ψευδάργυρος συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες, καθυστερώντας την πρόωρη γήρανση και υποστηρίζοντας τη φυσική ομορφιά εκ των έσω. Το κολλαγόνο είναι βασικό δομικό συστατικό των αρθρώσεων. Η βιταμίνη C συμβάλλει στο φυσιολογικό σχηματισμό του κολλαγόνου για τη φυσιολογική λειτουργία των χόνδρων. Το Liposomal Collagen της Quest περιέχει κολλαγόνο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης που εξασφαλίζει καλύτερη απορρόφηση και βιοδιαθεσιμότητα. Το Liposomal Collagen διαλύεται σε νερό και έχει υπέροχη γεύση τροπικών φρούτων.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Collagen 2850mg της Quest συνδυάζει λιποσωμικό κολλαγόνο και υαλουρονικό οξύ με βασικά θρεπτικά συστατικά όπως η βιταμίνη C, o ψευδάργυρος και η βιοτίνη.\nΤο κολλαγόνο και το υαλουρονικό οξύ είναι βασικά δομικά συστατικά του δέρματος. Η βιταμίνη C συμβάλλει στο φυσιολογικό σχηματισμό του κολλαγόνου στο δέρμα, ενισχύοντας την ελαστικότητά του. Η βιοτίνη βοηθά στη διατήρηση της καλής κατάστασης του δέρματος και ο ψευδάργυρος συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες, καθυστερώντας την πρόωρη γήρανση και υποστηρίζοντας τη φυσική ομορφιά εκ των έσω.\nΤο κολλαγόνο είναι βασικό δομικό συστατικό των αρθρώσεων. Η βιταμίνη C συμβάλλει στο φυσιολογικό σχηματισμό του κολλαγόνου για τη φυσιολογική λειτουργία των χόνδρων.\nΤο Liposomal Collagen της Quest περιέχει κολλαγόνο ενσωματωμένο σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης που εξασφαλίζει καλύτερη απορρόφηση και βιοδιαθεσιμότητα.\nΤο Liposomal Collagen διαλύεται σε νερό και έχει υπέροχη γεύση τροπικών φρούτων."
+    },
+    "image": "https://www.douni.gr/media/2319/liposomal-collagen_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2319/liposomal-collagen_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2319/liposomal-collagen_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-collagen-2850mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalcurcumin600mg": {
+    "name": "Liposomal Curcumin 600mg",
+    "subtitle": "Το Liposomal Curcumin 600mg της Quest παρέχει στον οργανισμό λιποσωμική κουρκουμίνη, δηλαδή κουρκουμίνη ενσωματωμένη σε λιποσώματα.",
+    "description": "Το Liposomal Curcumin 600mg της Quest παρέχει στον οργανισμό λιποσωμική κουρκουμίνη, δηλαδή κουρκουμίνη ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης κουρκουμίνης που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης την κουρκουμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι. Η κουρκουμίνη είναι μια εξαιρετικά δραστική πολυφαινολική ένωση που βρίσκεται στο μπαχαρικό κουρκουμάς (turmeric) και χρησιμοποιείται παραδοσιακά στην Ασία εδώ και αιώνες. Έχει αντιοξειδωτική δράση και υποστηρίζει το πεπτικό, το ανοσοποιητικό, το ήπαρ και τις αρθρώσεις. Η κουρκουμίνη δεν μπορεί να απορροφηθεί εύκολα από τον οργανισμό αλλά η χορήγησή της σε λιποσωμική μορφή αυξάνει την απορρόφηση και τη βιοδιαθεσιμότητά της. Το Liposomal Curcumin περιέχει 600mg λιποσωμικής κουρκουμίνης που αποδίδουν 105mg κουρκουμινοειδή ανά ταμπλέτα.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Curcumin 600mg της Quest παρέχει στον οργανισμό λιποσωμική κουρκουμίνη, δηλαδή κουρκουμίνη ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης κουρκουμίνης που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης την κουρκουμίνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι.\nΗ κουρκουμίνη είναι μια εξαιρετικά δραστική πολυφαινολική ένωση που βρίσκεται στο μπαχαρικό κουρκουμάς (turmeric) και χρησιμοποιείται παραδοσιακά στην Ασία εδώ και αιώνες. Έχει αντιοξειδωτική δράση και υποστηρίζει το πεπτικό, το ανοσοποιητικό, το ήπαρ και τις αρθρώσεις. Η κουρκουμίνη δεν μπορεί να απορροφηθεί εύκολα από τον οργανισμό αλλά η χορήγησή της σε λιποσωμική μορφή αυξάνει την απορρόφηση και τη βιοδιαθεσιμότητά της.\nΤο Liposomal Curcumin περιέχει 600mg λιποσωμικής κουρκουμίνης που αποδίδουν 105mg κουρκουμινοειδή ανά ταμπλέτα."
+    },
+    "image": "https://www.douni.gr/media/2242/liposomal-curcumin_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2242/liposomal-curcumin_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2242/liposomal-curcumin_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-curcumin-600mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-liposomalglutathione500mg": {
+    "name": "Liposomal Glutathione 500mg",
+    "subtitle": "Το Liposomal Glutathione 500mg της Quest παρέχει στον οργανισμό λιποσωμική γλουταθειόνη, δηλαδή γλουταθειόνη ενσωματωμένη σε λιποσώματα.",
+    "description": "Το Liposomal Glutathione 500mg της Quest παρέχει στον οργανισμό λιποσωμική γλουταθειόνη, δηλαδή γλουταθειόνη ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης γλουταθειόνης που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης την γλουταθειόνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι. Η γλουταθειόνη βρίσκεται σε όλα τα κύτταρα του σώματος και δρα ως αντιοξειδωτικό, προστατεύοντας από τις ελεύθερες ρίζες και τις κυτταρικές βλάβες. Ως αποτέλεσμα, η ανεπάρκεια γλουταθειόνης συμβάλλει στο οξειδωτικό στρες, το οποίο παίζει βασικό ρόλο στη γήρανση του οργανισμού. Το σώμα παράγει λιγότερη γλουταθειόνη όσο μεγαλώνουμε κι επομένως μειώνεται η ικανότητά του να προστατεύεται από κυτταρικές βλάβες που προκαλούνται από ελεύθερες ρίζες, χημικές ουσίες και ρύπους. Το Liposomal Glutathione παρέχει 500mg λιποσωμικής γλουταθειόνης ανά κάψουλα, που αποδίδει 200mg γλουταθειόνη σε σταθεροποιημένη μορφή (reduced glutathione).",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Liposomal",
+      "Κατηγορία douni.gr": "Liposomal"
+    },
+    "sections": {
+      "Περιγραφή": "Το Liposomal Glutathione 500mg της Quest παρέχει στον οργανισμό λιποσωμική γλουταθειόνη, δηλαδή γλουταθειόνη ενσωματωμένη σε λιποσώματα. Η λιποσωμική μορφή είναι μια προηγμένη μορφή χορήγησης γλουταθειόνης που αυξάνει την απορρόφηση, την ενδοκυτταρική πρόσληψη και τη βιοδιαθεσιμότητά της. Η λιποσωμική μορφή προστατεύει επίσης την γλουταθειόνη από την αλλοίωση και εξασφαλίζει την καλή ανοχή της στο στομάχι.\nΗ γλουταθειόνη βρίσκεται σε όλα τα κύτταρα του σώματος και δρα ως αντιοξειδωτικό, προστατεύοντας από τις ελεύθερες ρίζες και τις κυτταρικές βλάβες. Ως αποτέλεσμα, η ανεπάρκεια γλουταθειόνης συμβάλλει στο οξειδωτικό στρες, το οποίο παίζει βασικό ρόλο στη γήρανση του οργανισμού. Το σώμα παράγει λιγότερη γλουταθειόνη όσο μεγαλώνουμε κι επομένως μειώνεται η ικανότητά του να προστατεύεται από κυτταρικές βλάβες που προκαλούνται από ελεύθερες ρίζες, χημικές ουσίες και ρύπους.\nΤο Liposomal Glutathione παρέχει 500mg λιποσωμικής γλουταθειόνης ανά κάψουλα, που αποδίδει 200mg γλουταθειόνη σε σταθεροποιημένη μορφή (reduced glutathione)."
+    },
+    "image": "https://www.douni.gr/media/2243/liposomal-glutathione_quest.jpg",
+    "imageFallback": "https://www.douni.gr/media/2243/liposomal-glutathione_quest.jpg",
+    "images": [
+      "https://www.douni.gr/media/2243/liposomal-glutathione_quest.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/liposomal/liposomal-glutathione-500mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitaminczinc": {
+    "name": "Vitamin C & Zinc",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin C & Zinc της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, ενισχυμένη με ψευδάργυρο και Rose hip (άγριο τριαντάφυλλο) για καλύτερη απορρόφηση.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin C & Zinc της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, ενισχυμένη με ψευδάργυρο και Rose hip (άγριο τριαντάφυλλο) για καλύτερη απορρόφηση. Με υπέροχη γεύση πορτοκάλι. Η βιταμίνη C και ο ψευδάργυρος συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία των κυττάρων από το οξειδωτικό στρες, θωρακίζοντας με αυτόν τον τρόπο τον οργανισμό και μειώνοντας τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα. Η βιταμίνη C και ο ψευδάργυρος έχουν πολλές ακόμη δράσεις. Η βιταμίνη C συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, το δέρμα, τα ούλα, τα δόντια και τους χόνδρους. Ο ψευδάργυρος συμβάλλει στη φυσιολογική γνωσιακή λειτουργία, τη γονιμότητα, τη διατήρηση της φυσιολογικής όρασης και την καλή κατάσταση των οστών, των μαλλιών, των νυχιών και του δέρματος. Η λήψη βιταμίνης C και ψευδαργύρου με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη για τη θωράκιση του οργανισμού και την εξασφάλιση της διατήρησης ενός δυνατού ανοσοποιητικού.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Γρήγορη απορρόφηση της βιταμίνης C λόγω της αναβράζουσας μορφής.",
+      "Με υπέροχη γεύση πορτοκάλι.",
+      "Με γλυκαντικό (σουκραλόζη).",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "67414/29-06-2020",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin C & Zinc της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, ενισχυμένη με ψευδάργυρο και Rose hip (άγριο τριαντάφυλλο) για καλύτερη απορρόφηση. Με υπέροχη γεύση πορτοκάλι.\nΗ βιταμίνη C και ο ψευδάργυρος συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία των κυττάρων από το οξειδωτικό στρες, θωρακίζοντας με αυτόν τον τρόπο τον οργανισμό και μειώνοντας τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα.\nΗ βιταμίνη C και ο ψευδάργυρος έχουν πολλές ακόμη δράσεις. Η βιταμίνη C συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, το δέρμα, τα ούλα, τα δόντια και τους χόνδρους. Ο ψευδάργυρος συμβάλλει στη φυσιολογική γνωσιακή λειτουργία, τη γονιμότητα, τη διατήρηση της φυσιολογικής όρασης και την καλή κατάσταση των οστών, των μαλλιών, των νυχιών και του δέρματος.\nΗ λήψη βιταμίνης C και ψευδαργύρου με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη για τη θωράκιση του οργανισμού και την εξασφάλιση της διατήρησης ενός δυνατού ανοσοποιητικού.",
+      "Οφέλη": "Γρήγορη απορρόφηση της βιταμίνης C λόγω της αναβράζουσας μορφής.\nΜε υπέροχη γεύση πορτοκάλι.\nΜε γλυκαντικό (σουκραλόζη).\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΨευδάργυρος · 10mg\nΕκχύλισμα Rose hip · 50mg\n\nΣυστατικά: Acidity regulator: citric acid & sodium carbonates, L-ascorbic acid (vitamin C), firming agent: sorbitols, natural orange flavouring, rose hips fruit extract (Rosa canina), beetroot concentrate, zinc citrate, sweetener: sucralose, firming agent: polyethylene glycol, maltodextrin, bulking agent: arabic gum (acacia gum), colour: riboflavins.\n\nΑλλεργιογόνα: Το Vitamin C & Zinc δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1629/quest_anavrazon_vitaminc_zinc.jpg",
+    "imageFallback": "https://www.douni.gr/media/1629/quest_anavrazon_vitaminc_zinc.jpg",
+    "images": [
+      "https://www.douni.gr/media/1629/quest_anavrazon_vitaminc_zinc.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/vitamin-c-zinc/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitaminc1000mg": {
+    "name": "Vitamin C 1000mg",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, μαζί με ρουτίνη και Rose hip (άγριο τριαντάφυλλο) που αυξάνουν την απορρόφηση της.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, μαζί με ρουτίνη και Rose hip (άγριο τριαντάφυλλο) που αυξάνουν την απορρόφηση της. Με υπέροχη γεύση πορτοκάλι. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, μειώνοντας με αυτόν τον τρόπο τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό. Η βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, το δέρμα, τα ούλα, τα δόντια και τους χόνδρους των αρθρώσεων. Η λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Γρήγορη απορρόφηση της βιταμίνης C λόγω της αναβράζουσας μορφής.",
+      "Με υπέροχη γεύση πορτοκάλι.",
+      "Με γλυκαντικό (σουκραλόζη).",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "66471/06-10-2015",
+      "Συσκευασία": "20 αναβράζοντα δισκία",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest είναι μια αναβράζουσα βιταμίνη C των 1000mg, μαζί με ρουτίνη και Rose hip (άγριο τριαντάφυλλο) που αυξάνουν την απορρόφηση της. Με υπέροχη γεύση πορτοκάλι.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, μειώνοντας με αυτόν τον τρόπο τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό.\nΗ βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, το δέρμα, τα ούλα, τα δόντια και τους χόνδρους των αρθρώσεων.\nΗ λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+      "Οφέλη": "Γρήγορη απορρόφηση της βιταμίνης C λόγω της αναβράζουσας μορφής.\nΜε υπέροχη γεύση πορτοκάλι.\nΜε γλυκαντικό (σουκραλόζη).\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΡουτίνη · 10mg\nRose hip · 50mg\n\nΣυστατικά: Acidity regulator: citric acid, L-ascorbic acid, acidity regulator: sodium hydrogen carbonate, bulking agent: sorbitol, polyethylene glycol, maltodextrin, sweetener: sucralose, natural flavouring, colours: beetroot red, riboflavin, rose hip extract, rutin, acacia gum.\n\nΑλλεργιογόνα: Το Vitamin C 1000mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1631/quest_anavrazon_vitaminc_1000mg.jpg",
+    "imageFallback": "https://www.douni.gr/media/1631/quest_anavrazon_vitaminc_1000mg.jpg",
+    "images": [
+      "https://www.douni.gr/media/1631/quest_anavrazon_vitaminc_1000mg.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/vitamin-c-1000mg/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-echinaceapropolis": {
+    "name": "Echinacea & Propolis",
+    "subtitle": "Το συμπλήρωμα διατροφής Echinacea & Propolis της Quest είναι μια αναβράζουσα εχινάκεια με πρόπολη και υψηλή περιεκτικότητα σε βιταμίνη C και ψευδάργυρο.",
+    "description": "Το συμπλήρωμα διατροφής Echinacea & Propolis της Quest είναι μια αναβράζουσα εχινάκεια με πρόπολη και υψηλή περιεκτικότητα σε βιταμίνη C και ψευδάργυρο. Με υπέροχη γεύση λεμόνι. Η βιταμίνη C και ο ψευδάργυρος συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία των κυττάρων από το οξειδωτικό στρες, θωρακίζοντας με αυτόν τον τρόπο τον οργανισμό και μειώνοντας τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα. Η εχινάκεια είναι ένα βότανο που έχει χρησιμοποιηθεί παραδοσιακά για την υποστήριξη της άμυνας του οργανισμού. Η πρόπολη είναι μια κολλώδης ουσία που παράγουν οι μέλισσες από φυτικές ρητινώδεις εκκρίσεις, κερί, γύρη, ένζυμα και άλλες ουσίες και χρησιμοποιούν για τη στεγανοποίηση και την απολύμανση του εσωτερικού της κυψέλης. Είναι γνωστή για την αντιμικροβιακή της δράση. Η λέξη πρόπολη προέρχεται από τις λέξεις προ και πόλις (μπροστά από την πόλη) και εμπεριέχει την έννοια της προστασίας και της άμυνας. Το Echinacea & Propolis είναι ιδανικό για περιόδους που απαιτείται η ενίσχυση της άμυνας του οργανισμού, όπως σε περιόδους έξαρσης των ιώσεων και των κρυολογημάτων.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Με υπέροχη γεύση λεμόνι.",
+      "Με γλυκαντικά.",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "67413/29-06-2020",
+      "Συσκευασία": "20 δισκία",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Echinacea & Propolis της Quest είναι μια αναβράζουσα εχινάκεια με πρόπολη και υψηλή περιεκτικότητα σε βιταμίνη C και ψευδάργυρο. Με υπέροχη γεύση λεμόνι.\nΗ βιταμίνη C και ο ψευδάργυρος συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και στην προστασία των κυττάρων από το οξειδωτικό στρες, θωρακίζοντας με αυτόν τον τρόπο τον οργανισμό και μειώνοντας τον κίνδυνο να αρρωστήσουμε και να ταλαιπωρηθούμε από ιώσεις και κρυολογήματα. Η εχινάκεια είναι ένα βότανο που έχει χρησιμοποιηθεί παραδοσιακά για την υποστήριξη της άμυνας του οργανισμού. Η πρόπολη είναι μια κολλώδης ουσία που παράγουν οι μέλισσες από φυτικές ρητινώδεις εκκρίσεις, κερί, γύρη, ένζυμα και άλλες ουσίες και χρησιμοποιούν για τη στεγανοποίηση και την απολύμανση του εσωτερικού της κυψέλης. Είναι γνωστή για την αντιμικροβιακή της δράση. Η λέξη πρόπολη προέρχεται από τις λέξεις προ και πόλις (μπροστά από την πόλη) και εμπεριέχει την έννοια της προστασίας και της άμυνας.\nΤο Echinacea & Propolis είναι ιδανικό για περιόδους που απαιτείται η ενίσχυση της άμυνας του οργανισμού, όπως σε περιόδους έξαρσης των ιώσεων και των κρυολογημάτων.",
+      "Οφέλη": "Με υπέροχη γεύση λεμόνι.\nΜε γλυκαντικά.\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΕκχύλισμα Εχινάκειας · 100mg\nΕκχύλισμα Πρόπολης · 50mg\nΒιταμίνη C · 500mg\nΨευδάργυρος · 10mg\n\nΣυστατικά: Acidity regulators: citric acid & sodium carbonates, firming agent: sorbitols, L-ascorbic acid (vitamin C), echinacea aerial part extract (Echinacea purpurea), sweetener: cyclamates, propolis extract, flavouring, firming agent: polyethylene glycol, zinc citrate, sweetener: saccharins, colour: riboflavins.\n\nΑλλεργιογόνα: Το Echinacea & Propolis περιέχει εχινάκεια και πρόπολη. Αποφύγετέ το αν είστε αλλεργικοί σε κάποιο από αυτά τα συστατικά.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1626/quest_anavrazon_echinacea_propolis.jpg",
+    "imageFallback": "https://www.douni.gr/media/1626/quest_anavrazon_echinacea_propolis.jpg",
+    "images": [
+      "https://www.douni.gr/media/1626/quest_anavrazon_echinacea_propolis.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/echinacea-propolis/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-electrolytes": {
+    "name": "Electrolytes",
+    "subtitle": "Οι αναβράζουσες ταμπλέτες Electrolytes παρέχουν 8 βιταμίνες & 5 μέταλλα που συμβάλλουν στην αναπλήρωση των ηλεκτρολυτών και την ενυδάτωση του οργανισμού.",
+    "description": "Οι αναβράζουσες ταμπλέτες Electrolytes παρέχουν 8 βιταμίνες & 5 μέταλλα που συμβάλλουν στην αναπλήρωση των ηλεκτρολυτών και την ενυδάτωση του οργανισμού. Οι ηλεκτρολύτες είναι απαραίτητοι για τη μεταφορά νερού και υγρών στο σώμα, την κυτταρική επικοινωνία και την παραγωγή ενέργειας στα κύτταρα, καθώς και τη σωστή λειτουργία των μυών και του νευρικού συστήματος. Αίτια διαταραχής ηλεκτρολυτών αποτελούν καταστάσεις όπως η ελλιπής αναπλήρωση ηλεκτρολυτών κατά τη διάρκεια ή μετά την άσκηση, η διάρροια, ο εμετός, η κακή διατροφή, η σοβαρή αφυδάτωση, η ηλικία, ορισμένες παθήσεις όπως η νεφρική νόσος, η ανορεξία, η βουλιμία ή ορισμένα φάρμακα, όπως τα διουρητικά.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Οι αναβράζουσες ταμπλέτες Electrolytes παρέχουν 8 βιταμίνες & 5 μέταλλα που συμβάλλουν στην αναπλήρωση των ηλεκτρολυτών και την ενυδάτωση του οργανισμού.\nΟι ηλεκτρολύτες είναι απαραίτητοι για τη μεταφορά νερού και υγρών στο σώμα, την κυτταρική επικοινωνία και την παραγωγή ενέργειας στα κύτταρα, καθώς και τη σωστή λειτουργία των μυών και του νευρικού συστήματος. Αίτια διαταραχής ηλεκτρολυτών αποτελούν καταστάσεις όπως η ελλιπής αναπλήρωση ηλεκτρολυτών κατά τη διάρκεια ή μετά την άσκηση, η διάρροια, ο εμετός, η κακή διατροφή, η σοβαρή αφυδάτωση, η ηλικία, ορισμένες παθήσεις όπως η νεφρική νόσος, η ανορεξία, η βουλιμία ή ορισμένα φάρμακα, όπως τα διουρητικά."
+    },
+    "image": "https://www.douni.gr/media/1855/anabrazon_v04electrolytes-p.jpg",
+    "imageFallback": "https://www.douni.gr/media/1855/anabrazon_v04electrolytes-p.jpg",
+    "images": [
+      "https://www.douni.gr/media/1855/anabrazon_v04electrolytes-p.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/electrolytes/",
+    "source": "douni.gr",
+    "section": "energeia",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-energizer": {
+    "name": "Energizer",
+    "subtitle": "Οι αναβράζουσες ταμπλέτες Εnergizer παρέχουν βιταμίνες του συμπλέγματος Β σε συνδυασμό με καφεΐνη, ταυρίνη και ινοσιτόλη για άμεση απελευθέρωση ενέργειας.",
+    "description": "Οι αναβράζουσες ταμπλέτες Εnergizer παρέχουν βιταμίνες του συμπλέγματος Β σε συνδυασμό με καφεΐνη, ταυρίνη και ινοσιτόλη για άμεση απελευθέρωση ενέργειας. Οι βιταμίνες του συμπλέγματος Β είναι απαραίτητες για τον μεταβολισμό της ενέργειας και την καλή λειτουργία του νευρικού συστήματος, συμβάλλοντας σε μεγαλύτερη εγρήγορση και σε υψηλότερα επίπεδα ενέργειας. Η καφεΐνη αυξάνει την εγρήγορση, βελτιώνει την αίσθηση ευεξίας, βοηθάει στη συγκέντρωση και στην αντιμετώπιση της κόπωσης. Η ταυρίνη είναι ένα θειούχο αμινοξύ που βρίσκεται φυσικά στο σώμα. Παίζει ρόλο στη σύσπαση των μυών, γι’ αυτό είναι σημαντική για την άσκηση και την αθλητική απόδοση. Η ινοσιτόλη είναι σημαντική για την ομαλή λειτουργία του νευρικού και του μυϊκού συστήματος. Το προϊόν, λόγω του συνδυασμού των βιταμινών Β, της καφεΐνης, της ταυρίνης και της ινοσιτόλης που περιέχει, είναι ιδανικό για αθλητές, δραστήρια άτομα αλλά και για όσους νιώθουν κουρασμένα και θέλουν να ενισχύσουν τα επίπεδα της ενέργειάς τους.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Οι αναβράζουσες ταμπλέτες Εnergizer παρέχουν βιταμίνες του συμπλέγματος Β σε συνδυασμό με καφεΐνη, ταυρίνη και ινοσιτόλη για άμεση απελευθέρωση ενέργειας.\nΟι βιταμίνες του συμπλέγματος Β είναι απαραίτητες για τον μεταβολισμό της ενέργειας και την καλή λειτουργία του νευρικού συστήματος, συμβάλλοντας σε μεγαλύτερη εγρήγορση και σε υψηλότερα επίπεδα ενέργειας. Η καφεΐνη αυξάνει την εγρήγορση, βελτιώνει την αίσθηση ευεξίας, βοηθάει στη συγκέντρωση και στην αντιμετώπιση της κόπωσης. Η ταυρίνη είναι ένα θειούχο αμινοξύ που βρίσκεται φυσικά στο σώμα. Παίζει ρόλο στη σύσπαση των μυών, γι’ αυτό είναι σημαντική για την άσκηση και την αθλητική απόδοση. Η ινοσιτόλη είναι σημαντική για την ομαλή λειτουργία του νευρικού και του μυϊκού συστήματος.\nΤο προϊόν, λόγω του συνδυασμού των βιταμινών Β, της καφεΐνης, της ταυρίνης και της ινοσιτόλης που περιέχει, είναι ιδανικό για αθλητές, δραστήρια άτομα αλλά και για όσους νιώθουν κουρασμένα και θέλουν να ενισχύσουν τα επίπεδα της ενέργειάς τους."
+    },
+    "image": "https://www.douni.gr/media/2250/energizer-site.jpg",
+    "imageFallback": "https://www.douni.gr/media/2250/energizer-site.jpg",
+    "images": [
+      "https://www.douni.gr/media/2250/energizer-site.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/energizer/",
+    "source": "douni.gr",
+    "section": "eidika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-magnesium300mgb6": {
+    "name": "Magnesium 300mg & B6",
+    "subtitle": "Το συμπλήρωμα διατροφής Magnesium 300mg & B6 της Quest περιλαμβάνει αναβράζουσες ταμπλέτες με 300mg μαγνησίου, μαζί με βιταμίνη Β6 που δρα υποστηρικτικά.",
+    "description": "Το συμπλήρωμα διατροφής Magnesium 300mg & B6 της Quest περιλαμβάνει αναβράζουσες ταμπλέτες με 300mg μαγνησίου, μαζί με βιταμίνη Β6 που δρα υποστηρικτικά. Με υπέροχη γεύση πορτοκάλι. Το μαγνήσιο συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα, στην σωστή λειτουργία των μυών και στη διατήρηση της καλής κατάστασης των οστών. Μειώνει τις κράμπες και τους μυϊκούς σπασμούς, για παράδειγμα μετά από έντονη άσκηση. Το Magnesium 300mg & B6 της Quest συνδυάζει το μαγνήσιο με την βιταμίνη Β6. Τα δύο αυτά συστατικά συμβάλλουν στη φυσιολογική λειτουργία του νευρικού συστήματος, στη φυσιολογική ψυχολογική λειτουργία και στη μείωση της κόπωσης. Ο συνδυασμός μαγνησίου και βιταμίνης Β6 θεωρείται επίσης ωφέλιμος για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών (μείωση κραμπών) και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Γρήγορη απορρόφηση.",
+      "Με υπέροχη γεύση πορτοκάλι.",
+      "Με γλυκαντικό (σουκραλόζη).",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "12303/7-2-2022",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Magnesium 300mg & B6 της Quest περιλαμβάνει αναβράζουσες ταμπλέτες με 300mg μαγνησίου, μαζί με βιταμίνη Β6 που δρα υποστηρικτικά. Με υπέροχη γεύση πορτοκάλι.\nΤο μαγνήσιο συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα, στην σωστή λειτουργία των μυών και στη διατήρηση της καλής κατάστασης των οστών. Μειώνει τις κράμπες και τους μυϊκούς σπασμούς, για παράδειγμα μετά από έντονη άσκηση.\nΤο Magnesium 300mg & B6 της Quest συνδυάζει το μαγνήσιο με την βιταμίνη Β6. Τα δύο αυτά συστατικά συμβάλλουν στη φυσιολογική λειτουργία του νευρικού συστήματος, στη φυσιολογική ψυχολογική λειτουργία και στη μείωση της κόπωσης.\nΟ συνδυασμός μαγνησίου και βιταμίνης Β6 θεωρείται επίσης ωφέλιμος για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών (μείωση κραμπών) και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας.",
+      "Οφέλη": "Γρήγορη απορρόφηση.\nΜε υπέροχη γεύση πορτοκάλι.\nΜε γλυκαντικό (σουκραλόζη).\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΜαγνήσιο · 300mg\nΒιταμίνη Β6 · 4,2mg\n\nΣυστατικά: Acidity regulator: citric acid, magnesium carbonate, firming agent: sorbitols, acidity regulator: sodium carbonates, magnesium oxide, flavourings, firming agent: polyethylene glycol, beetroot concentrate, sweetener: sucralose, acidity regulator: malic acid, pyridoxine hydrochloride (vitamin B6), colour: riboflavins.\n\nΑλλεργιογόνα: Το Magnesium 300mg & B6 δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1912/quest_anavrazon_magnesium-300mg-b6.jpg",
+    "imageFallback": "https://www.douni.gr/media/1912/quest_anavrazon_magnesium-300mg-b6.jpg",
+    "images": [
+      "https://www.douni.gr/media/1912/quest_anavrazon_magnesium-300mg-b6.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/magnesium-300mg-b6/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-multiaz": {
+    "name": "Multi A-Z",
+    "subtitle": "Το συμπλήρωμα διατροφής Multi A-Z της Quest είναι μια αναβράζουσα πολυβιταμίνη με 24 θρεπτικά συστατικά που εξασφαλίζει την κάλυψη των ημερήσιων αναγκών σε βιταμίνες και μέταλλα.",
+    "description": "Το συμπλήρωμα διατροφής Multi A-Z της Quest είναι μια αναβράζουσα πολυβιταμίνη με 24 θρεπτικά συστατικά που εξασφαλίζει την κάλυψη των ημερήσιων αναγκών σε βιταμίνες και μέταλλα. Το Multi A-Z είναι μια πλήρης σύνθεση με βιταμίνες Β, C, D, E, Α, Κ και μέταλλα όπως ασβέστιο, μαγνήσιο, φώσφορο, ψευδάργυρο, σελήνιο και υψηλή περιεκτικότητα σε σίδηρο (14mg). Ο σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του νευρικού συστήματος, όπως στη συγκέντρωση. Οι βιταμίνες C, D, Α, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Το ασβέστιο, το μαγνήσιο, ο φώσφορος, οι βιταμίνες D και Κ συμβάλλουν στη διατήρηση της καλή κατάστασης των οστών. Η πολυβιταμίνη Multi A-Z είναι ιδανική για ενήλικες και παιδιά άνω των 12 ετών για τη διατροφική υποστήριξη, την προσφορά ενέργειας, την τόνωση και την καλή λειτουργία του οργανισμού.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Με υπέροχη γεύση τροπικών φρούτων.",
+      "Με γλυκαντικά.",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "67412/29-06-2020",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Multi A-Z της Quest είναι μια αναβράζουσα πολυβιταμίνη με 24 θρεπτικά συστατικά που εξασφαλίζει την κάλυψη των ημερήσιων αναγκών σε βιταμίνες και μέταλλα.\nΤο Multi A-Z είναι μια πλήρης σύνθεση με βιταμίνες Β, C, D, E, Α, Κ και μέταλλα όπως ασβέστιο, μαγνήσιο, φώσφορο, ψευδάργυρο, σελήνιο και υψηλή περιεκτικότητα σε σίδηρο (14mg). Ο σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του νευρικού συστήματος, όπως στη συγκέντρωση. Οι βιταμίνες C, D, Α, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Το ασβέστιο, το μαγνήσιο, ο φώσφορος, οι βιταμίνες D και Κ συμβάλλουν στη διατήρηση της καλή κατάστασης των οστών.\nΗ πολυβιταμίνη Multi A-Z είναι ιδανική για ενήλικες και παιδιά άνω των 12 ετών για τη διατροφική υποστήριξη, την προσφορά ενέργειας, την τόνωση και την καλή λειτουργία του οργανισμού.",
+      "Οφέλη": "Με υπέροχη γεύση τροπικών φρούτων.\nΜε γλυκαντικά.\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΒιταμίνη A · 800μg\nΒιταμίνη D · 5μg\nΒιταμίνη E · 12mg\nΒιταμίνη Κ · 75μg\nΒιταμίνη C · 80mg\nΘειαμίνη (B1) · 1,1mg\nΡιβοφλαβίνη (B2) · 1,4mg\nΝιασίνη (B3) · 16mg\nΒιταμίνη B6 · 1,4mg\nΦυλλικό οξύ · 200μg\nΒιταμίνη Β12 · 2,5μg\nΒιοτίνη · 50μg\nΠαντοθενικό οξύ (B5) · 6mg\nΑσβέστιο · 160mg\nΦώσφορος · 128mg\nΜαγνήσιο · 93,75mg\nΣίδηρος · 14mg\nΨευδάργυρος · 7,5mg\nΧαλκός · 500μg\nΜαγγάνιο · 500μg\nΣελήνιο · 10μg\nΧρώμιο · 25μg\nΜολυβδαίνιο · 25μg\nΙώδιο · 75μg\n\nΣυστατικά: Acidity regulators: citric acid & sodium carbonates, firming agent: sorbitols, calcium salts of orthophosphoric acid, magnesium carbonate, L-ascorbic acid (vitamin C), potassium chloride, flavourings, sweetener: cyclamates, ferrous sulphate, magnesium oxide, DL-alpha-tocopheryl acetate (vitamin E), firming agent: polyethylene glycol, nicotinamide (niacin), chromium (III) chloride, calcium D-pantothenate (pantothenic acid), zinc oxide, retinyl acetate (vitamin A), sweetener: saccharins, colour: carotenes, D-biotin (biotin), pteroylmonoglutamic acid (folic acid), cyanocobalamin (vitamin B12), cholecalciferol (vitamin D), pyridoxine hydrochloride (vitamin B6), cupric sulphate, riboflavin (vitamin B2), thiamin mononitrate (thiamin), manganese sulphate, phylloquinone (vitamin K), sodium selenate, potassium iodate, sodium molybdate, silicon dioxide.\n\nΑλλεργιογόνα: Το Multi A-Z δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1627/quest_anavrazon_multi-a-z.jpg",
+    "imageFallback": "https://www.douni.gr/media/1627/quest_anavrazon_multi-a-z.jpg",
+    "images": [
+      "https://www.douni.gr/media/1627/quest_anavrazon_multi-a-z.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/multi-a-z/",
+    "source": "douni.gr",
+    "section": "polyvitamines",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-q10vitamins": {
+    "name": "Q10 & Vitamins",
+    "subtitle": "Το συμπλήρωμα διατροφής Q10 & Vitamins της Quest είναι ένα αναβράζον Q10 μαζί με υποστηρικτικές βιταμίνες B, C και E.",
+    "description": "Το συμπλήρωμα διατροφής Q10 & Vitamins της Quest είναι ένα αναβράζον Q10 μαζί με υποστηρικτικές βιταμίνες B, C και E. Με υπέροχη γεύση πορτοκάλι. Το συνένζυμο Q10 υπάρχει φυσιολογικά στα ανθρώπινα κύτταρα και είναι απαραίτητο για την παραγωγή ενέργειας. Οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και της κόπωσης και στην υποστήριξη του νευρικού συστήματος. Η βιταμίνη C συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και η βιταμίνη E στην προστασία των κυττάρων από το οξειδωτικό στρες. Το Q10 & Vitamins είναι ιδανικό για όσους νιώθουν κουρασμένοι, εξαντλούνται εύκολα, έχουν «ενεργειακά κενά» μέσα στην ημέρα και θέλουν να αποκτήσουν περισσότερη ενέργεια.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Με υπέροχη γεύση πορτοκάλι.",
+      "Με γλυκαντικά.",
+      "Σύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει ζάχαρη, γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Once A Day",
+      "Γνωστοποίηση ΕΟΦ": "67415/29-06-2020",
+      "Κατηγορία douni.gr": "Once A Day"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Q10 & Vitamins της Quest είναι ένα αναβράζον Q10 μαζί με υποστηρικτικές βιταμίνες B, C και E. Με υπέροχη γεύση πορτοκάλι.\nΤο συνένζυμο Q10 υπάρχει φυσιολογικά στα ανθρώπινα κύτταρα και είναι απαραίτητο για την παραγωγή ενέργειας. Οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και της κόπωσης και στην υποστήριξη του νευρικού συστήματος. Η βιταμίνη C συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και η βιταμίνη E στην προστασία των κυττάρων από το οξειδωτικό στρες.\nΤο Q10 & Vitamins είναι ιδανικό για όσους νιώθουν κουρασμένοι, εξαντλούνται εύκολα, έχουν «ενεργειακά κενά» μέσα στην ημέρα και θέλουν να αποκτήσουν περισσότερη ενέργεια.",
+      "Οφέλη": "Με υπέροχη γεύση πορτοκάλι.\nΜε γλυκαντικά.\nΣύνθεση μίας αναβράζουσας ταμπλέτας την ημέρα (once a day).\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα σε ένα ποτήρι νερό.\nΠροσοχή: Περιέχει σορβιτόλη – η υπερβολική κατανάλωση μπορεί να έχει καθαρτικά αποτελέσματα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια αναβράζουσα ταμπλέτα παρέχει:\nΣυνένζυμο Q10 · 10mg\nΘειαμίνη (B1) · 1,1mg\nΡιβοφλαβίνη (B2) · 1,4mg\nΝιασίνη (B3) · 16mg\nΒιταμίνη B6 · 1,4mg\nΦυλλικό οξύ · 200μg\nΒιταμίνη Β12 · 2,5μg\nΒιοτίνη · 50μg\nΠαντοθενικό οξύ (B5) · 6mg\nΒιταμίνη C · 80mg\nΒιταμίνη E · 12mg\n\nΣυστατικά: Acidity regulators: citric acid & sodium carbonates, firming agent: sorbitols, coenzyme Q10, L-ascorbic acid (vitamin C), sweetener: cyclamates, flavouring, beetroot concentrate, DL-alpha-tocopheryl acetate (vitamin E), firming agent: polyethylene glycol, nicotinamide (niacin), D-pantothenate, calcium (pantothenic acid), sweetener: saccharins, D-biotin (biotin), pteroylmonoglutamic acid (folic acid), cyanocobalamin (vitamin B12), pyridoxine hydrochloride (vitamin B6), riboflavin (vitamin B2), thiamin mononitrate (thiamin).\n\nΑλλεργιογόνα: Το Q10 & Vitamins δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει ζάχαρη, γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1686/quest_anavrazon_q10.jpg",
+    "imageFallback": "https://www.douni.gr/media/1686/quest_anavrazon_q10.jpg",
+    "images": [
+      "https://www.douni.gr/media/1686/quest_anavrazon_q10.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/once-a-day/q10-vitamins/",
+    "source": "douni.gr",
+    "section": "kardia",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-qmeltiron20mg": {
+    "name": "Q-Melt Iron 20mg",
+    "subtitle": "Το Q-Melt Iron 20mg της Quest είναι ένα καινοτόμο συμπλήρωμα σιδήρου σε μορφή ταινιών που διαλύονται στο στόμα.",
+    "description": "Το Q-Melt Iron 20mg της Quest είναι ένα καινοτόμο συμπλήρωμα σιδήρου σε μορφή ταινιών που διαλύονται στο στόμα. Κάθε ταινία παρέχει 20mg σιδήρου, εξασφαλίζοντας ακρίβεια στη δόση, ευκολία στη λήψη χωρίς να απαιτείται νερό ή κατάποση, γρήγορη διάλυση και απορρόφηση. Ο σίδηρος συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην παραγωγή της αιμοσφαιρίνης, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στη μεταφορά του οξυγόνου στο σώμα. Επιπλέον, συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και στη φυσιολογική γνωστική λειτουργία, συμπεριλαμβανομένης της συγκέντρωσης. Η λήψη συμπληρώματος σιδήρου προτείνεται σε όσους έχουν έλλειψη σιδήρου και εμφανίζουν συμπτώματα όπως κόπωση, αδυναμία, ζαλάδα και μειωμένη συγκέντρωση, αλλά και σε άτομα με αυξημένες απαιτήσεις σε σίδηρο όπως οι αθλητές, οι έγκυες, οι χορτοφάγοι και οι γυναίκες σε αναπαραγωγική ηλικία που έχουν υψηλότερη πιθανότητα χαμηλών επιπέδων σιδήρου λόγω του εμμηνορροϊκού κύκλου. Οι ταινίες του Q-Melt Iron παρασκευάζονται στις υπερσύγχρονες εγκαταστάσεις της Quest με μια πρωτοποριακή τεχνολογία (ODF technology), που εξασφαλίζει ακρίβεια στη δόση, ευκολία στη λήψη, γρήγορη διάλυση στη γλώσσα και καλύτερη απορρόφηση. Επιπλέον, ο σίδηρος που περιέχει το Q-Melt Iron είναι μικροενθυλακωμένος ενισχύοντας τη σταθερότητα του μετάλλου και βοηθώντας στην ελαχιστοποίηση των ενοχλήσεων στο γαστρεντερικό, στην εξάλειψη της μεταλλικής γεύσης, στην καλύτερη ανεκτικότητα και στην υψηλότερη συμμόρφωση των χρηστών.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Q-Melt",
+      "Κατηγορία douni.gr": "Q-Melt"
+    },
+    "sections": {
+      "Περιγραφή": "Το Q-Melt Iron 20mg της Quest είναι ένα καινοτόμο συμπλήρωμα σιδήρου σε μορφή ταινιών που διαλύονται στο στόμα. Κάθε ταινία παρέχει 20mg σιδήρου, εξασφαλίζοντας ακρίβεια στη δόση, ευκολία στη λήψη χωρίς να απαιτείται νερό ή κατάποση, γρήγορη διάλυση και απορρόφηση.\nΟ σίδηρος συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην παραγωγή της αιμοσφαιρίνης, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στη μεταφορά του οξυγόνου στο σώμα. Επιπλέον, συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και στη φυσιολογική γνωστική λειτουργία, συμπεριλαμβανομένης της συγκέντρωσης.\nΗ λήψη συμπληρώματος σιδήρου προτείνεται σε όσους έχουν έλλειψη σιδήρου και εμφανίζουν συμπτώματα όπως κόπωση, αδυναμία, ζαλάδα και μειωμένη συγκέντρωση, αλλά και σε άτομα με αυξημένες απαιτήσεις σε σίδηρο όπως οι αθλητές, οι έγκυες, οι χορτοφάγοι και οι γυναίκες σε αναπαραγωγική ηλικία που έχουν υψηλότερη πιθανότητα χαμηλών επιπέδων σιδήρου λόγω του εμμηνορροϊκού κύκλου.\nΟι ταινίες του Q-Melt Iron παρασκευάζονται στις υπερσύγχρονες εγκαταστάσεις της Quest με μια πρωτοποριακή τεχνολογία (ODF technology), που εξασφαλίζει ακρίβεια στη δόση, ευκολία στη λήψη, γρήγορη διάλυση στη γλώσσα και καλύτερη απορρόφηση. Επιπλέον, ο σίδηρος που περιέχει το Q-Melt Iron είναι μικροενθυλακωμένος ενισχύοντας τη σταθερότητα του μετάλλου και βοηθώντας στην ελαχιστοποίηση των ενοχλήσεων στο γαστρεντερικό, στην εξάλειψη της μεταλλικής γεύσης, στην καλύτερη ανεκτικότητα και στην υψηλότερη συμμόρφωση των χρηστών."
+    },
+    "image": "https://www.douni.gr/media/2300/iron_q-melt.jpg",
+    "imageFallback": "https://www.douni.gr/media/2300/iron_q-melt.jpg",
+    "images": [
+      "https://www.douni.gr/media/2300/iron_q-melt.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/q-melt/q-melt-iron-20mg/",
+    "source": "douni.gr",
+    "section": "liposomal",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-pregnallbiogrow": {
+    "name": "Pregnall bio-grow",
+    "subtitle": "Το συμπλήρωμα διατροφής Pregnall bio-grow της Quest παρέχει όλες τις απαραίτητες βιταμίνες και μέταλλα που χρειάζεται η γυναίκα πριν τη σύλληψη και καθ’ όλη τη διάρκεια της εγκυμοσύνης.",
+    "description": "Το συμπλήρωμα διατροφής Pregnall bio-grow της Quest παρέχει όλες τις απαραίτητες βιταμίνες και μέταλλα που χρειάζεται η γυναίκα πριν τη σύλληψη και καθ’ όλη τη διάρκεια της εγκυμοσύνης. Η σωστή, καθημερινή λήψη θρεπτικών συστατικών διασφαλίζει την υγεία της μητέρας και τη σωστή ανάπτυξη του εμβρύου. Το Pregnall περιέχει 400μg φολικού οξέος, το οποίο είναι απαραίτητο για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος για τουλάχιστον έναν μήνα πριν και έως τρεις μήνες μετά τη σύλληψη αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το φολικο οξύ παίζει επίσης ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό. Το Pregnall περιέχει συνολικά 24 θρεπτικά συστατικά, μεταξύ των οποίων σίδηρο, βιταμίνες B12, D, K, C, χολίνη, ψευδάργυρο και χρώμιο. Ο σίδηρος και η βιταμίνη Β12 συμβάλλουν στον σχηματισμό των ερυθρών αιμοσφαιρίων και της αιμοσφαιρίνης, οι βιταμίνες D και Κ στη διατήρηση της καλής κατάστασης των οστών και των δοντιών, η βιταμίνη C και ο ψευδάργυρος στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, η χολίνη στο σωστό μεταβολισμό των λιπιδίων και το χρώμιο στη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα. Μπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-grow σε οποιοδήποτε στάδιο πριν και κατά την διάρκεια της εγκυμοσύνης.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Pregnall",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Pregnall"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Pregnall bio-grow της Quest παρέχει όλες τις απαραίτητες βιταμίνες και μέταλλα που χρειάζεται η γυναίκα πριν τη σύλληψη και καθ’ όλη τη διάρκεια της εγκυμοσύνης. Η σωστή, καθημερινή λήψη θρεπτικών συστατικών διασφαλίζει την υγεία της μητέρας και τη σωστή ανάπτυξη του εμβρύου.\nΤο Pregnall περιέχει 400μg φολικού οξέος, το οποίο είναι απαραίτητο για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος για τουλάχιστον έναν μήνα πριν και έως τρεις μήνες μετά τη σύλληψη αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το φολικο οξύ παίζει επίσης ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό.\nΤο Pregnall περιέχει συνολικά 24 θρεπτικά συστατικά, μεταξύ των οποίων σίδηρο, βιταμίνες B12, D, K, C, χολίνη, ψευδάργυρο και χρώμιο. Ο σίδηρος και η βιταμίνη Β12 συμβάλλουν στον σχηματισμό των ερυθρών αιμοσφαιρίων και της αιμοσφαιρίνης, οι βιταμίνες D και Κ στη διατήρηση της καλής κατάστασης των οστών και των δοντιών, η βιταμίνη C και ο ψευδάργυρος στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, η χολίνη στο σωστό μεταβολισμό των λιπιδίων και το χρώμιο στη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα.\nΜπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-grow σε οποιοδήποτε στάδιο πριν και κατά την διάρκεια της εγκυμοσύνης."
+    },
+    "image": "https://www.douni.gr/media/1660/quest_pregnall_bio-grow.jpg",
+    "imageFallback": "https://www.douni.gr/media/1660/quest_pregnall_bio-grow.jpg",
+    "images": [
+      "https://www.douni.gr/media/1660/quest_pregnall_bio-grow.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/pregnall/pregnall-bio-grow/",
+    "source": "douni.gr",
+    "section": "egkymosyni",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-pregnallbioplus": {
+    "name": "Pregnall bio-plus",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Pregnall bio-plus της Quest είναι μια διπλή συσκευασία που συνδυάζει τις αυθεντικές πολυθρεπτικές ταμπλέτες Pregnall bio-grow και DHA κάψουλες, προσφέροντας ενισχυμένη διατροφική υποστήριξη στη μέλλουσα μητέρα καθ’ όλη τη διάρκεια της εγκυμοσύνης. Οι ταμπλέτες Pregnall bio-grow περιέχουν 24 βιο-διαθέσιμα θρεπτικά συστατικά, συμπεριλαμβανομένων των 400μg φολικού οξέος, το οποίο είναι απαραίτητο για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος για τουλάχιστον έναν μήνα πριν και έως τρεις μήνες μετά τη σύλληψη αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το φολικο οξύ παίζει επίσης ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό. Οι ταμπλέτες Pregnall bio-grow περιέχουν επίσης σίδηρο και βιταμίνη Β12 που συμβάλλουν στον σχηματισμό των ερυθρών αιμοσφαιρίων και της αιμοσφαιρίνης, βιταμίνες D και Κ για τη διατήρηση της καλής κατάστασης των οστών και των δοντιών, βιταμίνη C και ψευδάργυρο για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, χολίνη για το σωστό μεταβολισμό των λιπιδίων και χρώμιο για τη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα. Οι DHA κάψουλες περιέχουν υψηλής καθαρότητας ιχθυέλαιο που παρέχει 200mg DHA και 40mg EPA. Η πρόσληψη DHA από την έγκυο συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου, εφόσον λαμβάνονται καθημερινά 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA. Αυτήν ακριβώς την ποσότητα περιέχει το Pregnall bio-plus. Μπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-plus σε οποιοδήποτε στάδιο πριν και κατά την διάρκεια της εγκυμοσύνης.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Pregnall",
+      "Κατηγορία douni.gr": "Pregnall"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Pregnall bio-plus της Quest είναι μια διπλή συσκευασία που συνδυάζει τις αυθεντικές πολυθρεπτικές ταμπλέτες Pregnall bio-grow και DHA κάψουλες, προσφέροντας ενισχυμένη διατροφική υποστήριξη στη μέλλουσα μητέρα καθ’ όλη τη διάρκεια της εγκυμοσύνης.\nΟι ταμπλέτες Pregnall bio-grow περιέχουν 24 βιο-διαθέσιμα θρεπτικά συστατικά, συμπεριλαμβανομένων των 400μg φολικού οξέος, το οποίο είναι απαραίτητο για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος για τουλάχιστον έναν μήνα πριν και έως τρεις μήνες μετά τη σύλληψη αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το φολικο οξύ παίζει επίσης ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό.\nΟι ταμπλέτες Pregnall bio-grow περιέχουν επίσης σίδηρο και βιταμίνη Β12 που συμβάλλουν στον σχηματισμό των ερυθρών αιμοσφαιρίων και της αιμοσφαιρίνης, βιταμίνες D και Κ για τη διατήρηση της καλής κατάστασης των οστών και των δοντιών, βιταμίνη C και ψευδάργυρο για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, χολίνη για το σωστό μεταβολισμό των λιπιδίων και χρώμιο για τη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα.\nΟι DHA κάψουλες περιέχουν υψηλής καθαρότητας ιχθυέλαιο που παρέχει 200mg DHA και 40mg EPA. Η πρόσληψη DHA από την έγκυο συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου, εφόσον λαμβάνονται καθημερινά 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA. Αυτήν ακριβώς την ποσότητα περιέχει το Pregnall bio-plus.\nΜπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-plus σε οποιοδήποτε στάδιο πριν και κατά την διάρκεια της εγκυμοσύνης."
+    },
+    "image": "https://www.douni.gr/media/1662/quest_pregnall_bio-plus.jpg",
+    "imageFallback": "https://www.douni.gr/media/1662/quest_pregnall_bio-plus.jpg",
+    "images": [
+      "https://www.douni.gr/media/1662/quest_pregnall_bio-plus.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/pregnall/pregnall-bio-plus/",
+    "source": "douni.gr",
+    "section": "egkymosyni",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-pregnallbiolact": {
+    "name": "Pregnall bio-lact",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Pregnall bio-lact της Quest είναι μια διπλή συσκευασία που συνδυάζει πολυθρεπτικές ταμπλέτες με ασβέστιο και DHA κάψουλες, προσφέροντας τη μέγιστη διατροφική υποστήριξη κατά τη διάρκεια της εγκυμοσύνης και του θηλασμού. Οι πολυθρεπτικές ταμπλέτες περιέχουν όλα τα συστατικά του Pregnall bio-grow μαζί με ασβέστιο για ακόμη μεγαλύτερη υποστήριξη των οστών, όπως απαιτείται κατά τον θηλασμό. Περιέχουν σίδηρο και βιταμίνη Β12 για τον σχηματισμό της αιμοσφαιρίνης, βιταμίνες D και Κ για υγιή οστά και δόντια, βιταμίνες Β για τη μείωση της κόπωσης, βιταμίνη C και ψευδάργυρο για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, χολίνη για το σωστό μεταβολισμό των λιπιδίων, χρώμιο για τη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα και 400μg φολικού οξέος. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό. Οι DHA κάψουλες περιέχουν υψηλής καθαρότητας ιχθυέλαιο που παρέχει 200mg DHA και 40mg EPA. Η πρόσληψη DHA από τη μητέρα συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου και του θηλάζοντος βρέφους, εφόσον λαμβάνονται καθημερινά 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA. Αυτήν ακριβώς την ποσότητα περιέχει το Pregnall bio-lact. Μπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-lact σε οποιοδήποτε στάδιο κατά τη διάρκεια ή μετά την εγκυμοσύνη.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Pregnall",
+      "Κατηγορία douni.gr": "Pregnall"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Pregnall bio-lact της Quest είναι μια διπλή συσκευασία που συνδυάζει πολυθρεπτικές ταμπλέτες με ασβέστιο και DHA κάψουλες, προσφέροντας τη μέγιστη διατροφική υποστήριξη κατά τη διάρκεια της εγκυμοσύνης και του θηλασμού.\nΟι πολυθρεπτικές ταμπλέτες περιέχουν όλα τα συστατικά του Pregnall bio-grow μαζί με ασβέστιο για ακόμη μεγαλύτερη υποστήριξη των οστών, όπως απαιτείται κατά τον θηλασμό. Περιέχουν σίδηρο και βιταμίνη Β12 για τον σχηματισμό της αιμοσφαιρίνης, βιταμίνες D και Κ για υγιή οστά και δόντια, βιταμίνες Β για τη μείωση της κόπωσης, βιταμίνη C και ψευδάργυρο για τη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, χολίνη για το σωστό μεταβολισμό των λιπιδίων, χρώμιο για τη διατήρηση των φυσιολογικών επιπέδων γλυκόζης στο αίμα και 400μg φολικού οξέος. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Το Pregnall περιέχει φολικό οξύ στη βιο-διαθέσιμη μορφή L-Methyl folate, που απορροφάται εύκολα και χρησιμοποιείται άμεσα από τον οργανισμό.\nΟι DHA κάψουλες περιέχουν υψηλής καθαρότητας ιχθυέλαιο που παρέχει 200mg DHA και 40mg EPA. Η πρόσληψη DHA από τη μητέρα συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου και του θηλάζοντος βρέφους, εφόσον λαμβάνονται καθημερινά 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA. Αυτήν ακριβώς την ποσότητα περιέχει το Pregnall bio-lact.\nΜπορείτε να ξεκινήσετε τη λήψη του Pregnall bio-lact σε οποιοδήποτε στάδιο κατά τη διάρκεια ή μετά την εγκυμοσύνη."
+    },
+    "image": "https://www.douni.gr/media/1661/quest_pregnall_bio-lact.jpg",
+    "imageFallback": "https://www.douni.gr/media/1661/quest_pregnall_bio-lact.jpg",
+    "images": [
+      "https://www.douni.gr/media/1661/quest_pregnall_bio-lact.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/pregnall/pregnall-bio-lact/",
+    "source": "douni.gr",
+    "section": "egkymosyni",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-biofolic": {
+    "name": "BioFolic",
+    "subtitle": "Το συμπλήρωμα διατροφής BioFolic της Quest προσφέρει φολικό οξύ κατευθείαν στη δραστική του μορφή L-methylfolate (L-μεθυλοφολικό).",
+    "description": "Το συμπλήρωμα διατροφής BioFolic της Quest προσφέρει φολικό οξύ κατευθείαν στη δραστική του μορφή L-methylfolate (L-μεθυλοφολικό). Το L-methylfolate μπορεί να χρησιμοποιηθεί απευθείας από τον οργανισμό, χωρίς να χρειάζεται να μετατραπεί σε άλλη μορφή. Το φολικό οξύ είναι απαραίτητο πριν τη σύλληψη και κατά τη διάρκεια της εγκυμοσύνης για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Επιπλέον, παίζει ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Η λήψη 400μg φολικού οξέος με συμπλήρωμα προτείνεται σε όλες τις εγκύους και τις γυναίκες που προσπαθούν να συλλάβουν προκειμένου να εξασφαλιστεί ότι λαμβάνουν όλο το φολικό οξύ που χρειάζονται. Το BioFolic είναι ιδανικό για κάθε γυναίκα. Γυναίκες που δεν μπορούν να μεταβολίσουν την απλή μορφή του φολικού οξέος, μπορούν επίσης να χρησιμοποιήσουν το BioFolic καθώς τους προσφέρει κατευθείαν δραστικό φολικό που δεν χρειάζεται να μεταβολίσουν.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Platinum Excellence",
+      "Κατηγορία douni.gr": "Platinum Excellence | Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής BioFolic της Quest προσφέρει φολικό οξύ κατευθείαν στη δραστική του μορφή L-methylfolate (L-μεθυλοφολικό). Το L-methylfolate μπορεί να χρησιμοποιηθεί απευθείας από τον οργανισμό, χωρίς να χρειάζεται να μετατραπεί σε άλλη μορφή.\nΤο φολικό οξύ είναι απαραίτητο πριν τη σύλληψη και κατά τη διάρκεια της εγκυμοσύνης για την ανάπτυξη των μητρικών ιστών και την ομαλή ανάπτυξη του εμβρύου. Με την ημερήσια συμπληρωματική λήψη 400μg φολικού οξέος αυξάνονται τα επίπεδά του στην έγκυο, με αποτέλεσμα να αποφεύγονται τα χαμηλά επίπεδα που αποτελούν παράγοντα κινδύνου για βλάβες στο νευρικό σωλήνα του αναπτυσσόμενου εμβρύου. Επιπλέον, παίζει ρόλο στην κυτταρική διαίρεση, συμβάλλει στη φυσιολογική αιμοποίηση και στη διατήρηση φυσιολογικής ομοκυστεΐνης. Η λήψη 400μg φολικού οξέος με συμπλήρωμα προτείνεται σε όλες τις εγκύους και τις γυναίκες που προσπαθούν να συλλάβουν προκειμένου να εξασφαλιστεί ότι λαμβάνουν όλο το φολικό οξύ που χρειάζονται.\nΤο BioFolic είναι ιδανικό για κάθε γυναίκα. Γυναίκες που δεν μπορούν να μεταβολίσουν την απλή μορφή του φολικού οξέος, μπορούν επίσης να χρησιμοποιήσουν το BioFolic καθώς τους προσφέρει κατευθείαν δραστικό φολικό που δεν χρειάζεται να μεταβολίσουν."
+    },
+    "image": "https://www.douni.gr/media/1181/quest_biofolic.jpg",
+    "imageFallback": "https://www.douni.gr/media/1181/quest_biofolic.jpg",
+    "images": [
+      "https://www.douni.gr/media/1181/quest_biofolic.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/platinum-excellence/biofolic/",
+    "source": "douni.gr",
+    "section": "egkymosyni",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-curqumax": {
+    "name": "CurquMax",
+    "subtitle": "Το συμπλήρωμα διατροφής CurquMax της Quest συνδυάζει ιδανικά το εκχύλισμα Turmeric, την DL-φαινυλαλανίνη και την πιπερίνη.",
+    "description": "Το συμπλήρωμα διατροφής CurquMax της Quest συνδυάζει ιδανικά το εκχύλισμα Turmeric, την DL-φαινυλαλανίνη και την πιπερίνη. Ο συνδυασμός αυτός θεωρείται ιδιαίτερα αποτελεσματικός γιατί προάγει την απορρόφηση των συστατικών. Ο κουρκουμάς χρησιμοποιείται εδώ και χιλιάδες χρόνια στις εθνικές κουζίνες της Ασίας (Κίνα & Ινδία) ως μπαχαρικό. Περιέχει αντιοξειδωτικά και ωφελεί το πεπτικό, το ανοσοποιητικό, το ήπαρ και τις αρθρώσεις. Το CurquMax περιέχει τυποποιημένο εκχύλισμα ρίζας κουρκουμά, το οποίο ισοδυναμεί με 2500mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 100mg κουρκουμίνης, που είναι το δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Για ακόμα καλύτερα αποτελέσματα, περιέχει πιπερίνη που αυξάνει τη βιοδιαθεσιμότητα και την απορρόφηση της κουρκουμίνης, καθώς και μια ισορροπημένη αναλογία D-φαινυλαλανίνης και L- φαινυλαλανίνης.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Platinum Excellence",
+      "Γνωστοποίηση ΕΟΦ": "25862/11-03-2022",
+      "Κατηγορία douni.gr": "Platinum Excellence | Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής CurquMax της Quest συνδυάζει ιδανικά το εκχύλισμα Turmeric, την DL-φαινυλαλανίνη και την πιπερίνη. Ο συνδυασμός αυτός θεωρείται ιδιαίτερα αποτελεσματικός γιατί προάγει την απορρόφηση των συστατικών.\nΟ κουρκουμάς χρησιμοποιείται εδώ και χιλιάδες χρόνια στις εθνικές κουζίνες της Ασίας (Κίνα & Ινδία) ως μπαχαρικό. Περιέχει αντιοξειδωτικά και ωφελεί το πεπτικό, το ανοσοποιητικό, το ήπαρ και τις αρθρώσεις. Το CurquMax περιέχει τυποποιημένο εκχύλισμα ρίζας κουρκουμά, το οποίο ισοδυναμεί με 2500mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 100mg κουρκουμίνης, που είναι το δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Για ακόμα καλύτερα αποτελέσματα, περιέχει πιπερίνη που αυξάνει τη βιοδιαθεσιμότητα και την απορρόφηση της κουρκουμίνης, καθώς και μια ισορροπημένη αναλογία D-φαινυλαλανίνης και L- φαινυλαλανίνης.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες μία έως τρεις φορές την ημέρα, ανάλογα με τις απαιτήσεις.\nΠροσοχή: Το Curqumax δεν πρέπει να καταναλώνεται από πάσχοντες από φαινυλκετονουρία.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα Turmeric Aποδίδει: Κουρκουμίνη · 105mg* 100mg\nDL-Φαινυλαλανίνη · 250mg\nΕκχύλισμα Μαύρου Πιπεριού Aποδίδει: Πιπερίνη · 2,6mg 2,5mg\n*Ισοδυναμεί με 2500mg turmeric.\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, DL-Phenylalanine, Turmeric Extract, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Black Pepper Extract, Tablet Coating (hydroxypropylmethylcellulose, microcrystalline cellulose, stearic acid, colours: iron oxide red, titanium dioxide).\n\nΑλλεργιογόνα: Το CurquMax δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1182/quest_curqumax.jpg",
+    "imageFallback": "https://www.douni.gr/media/1182/quest_curqumax.jpg",
+    "images": [
+      "https://www.douni.gr/media/1182/quest_curqumax.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/platinum-excellence/curqumax/",
+    "source": "douni.gr",
+    "section": "eidika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-ubiquinolqu10": {
+    "name": "Ubiquinol Qu10",
+    "subtitle": "Το συμπλήρωμα διατροφής Ubiquinol Qu10 της Quest είναι ένα premium προϊόν υψηλής περιεκτικότητας, με 100mg ουμπικινόλη ανά ταμπλέτα.",
+    "description": "Το συμπλήρωμα διατροφής Ubiquinol Qu10 της Quest είναι ένα premium προϊόν υψηλής περιεκτικότητας, με 100mg ουμπικινόλη ανά ταμπλέτα. Η ουμπικινόλη θεωρείται η καλύτερη μορφή Q10 επειδή έχει υψηλή βιοδιαθεσιμότητα, απορροφάται βέλτιστα από τον οργανισμό και είναι πολύ πιο αποτελεσματική στην αύξηση των επιπέδων του Q10 στο σώμα από οποιαδήποτε άλλη μορφή Q10. Το Ubiquinol Qu10 περιέχει οξική ουμπικινόλη, που είναι η πιο σταθερή μορφή ουμπικινόλης, μαζί με βιταμίνη Β6 που συμβάλλει στην παραγωγή ενέργειας και στη μείωση της κούρασης. Το συνένζυμο Q10 υπάρχει φυσιολογικά σε όλα τα ανθρώπινα κύτταρα. Τα συμπληρώματα Q10 είναι από τα πιο δημοφιλή συμπληρώματα διατροφής.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Platinum Excellence",
+      "Γνωστοποίηση ΕΟΦ": "25864/11-03-2022",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Platinum Excellence | Εξειδικευμένα Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Ubiquinol Qu10 της Quest είναι ένα premium προϊόν υψηλής περιεκτικότητας, με 100mg ουμπικινόλη ανά ταμπλέτα.\nΗ ουμπικινόλη θεωρείται η καλύτερη μορφή Q10 επειδή έχει υψηλή βιοδιαθεσιμότητα, απορροφάται βέλτιστα από τον οργανισμό και είναι πολύ πιο αποτελεσματική στην αύξηση των επιπέδων του Q10 στο σώμα από οποιαδήποτε άλλη μορφή Q10. Το Ubiquinol Qu10 περιέχει οξική ουμπικινόλη, που είναι η πιο σταθερή μορφή ουμπικινόλης, μαζί με βιταμίνη Β6 που συμβάλλει στην παραγωγή ενέργειας και στη μείωση της κούρασης.\nΤο συνένζυμο Q10 υπάρχει φυσιολογικά σε όλα τα ανθρώπινα κύτταρα. Τα συμπληρώματα Q10 είναι από τα πιο δημοφιλή συμπληρώματα διατροφής.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες την ημέρα με το φαγητό, μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΟξική Ουμπικινόλη Αποδίδει: Ουμπικινόλη · 115mg 100mg\nΒιταμίνη Β6 · 10mg\n\nΣυστατικά: Microcrystalline Cellulose, Di-Calcium Phosphate, Ubiquinol Acetate, coating (hydroxypropylmethylcellulose, microcrystalline cellulose, stearic acid, colours: iron oxide red, titanium dioxide), Magnesium Stearate, anti-caking agent: Silicon Dioxide, Pyridoxine hydrochloride.\n\nΑλλεργιογόνα: Το Ubiquinol Qu10 δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1147/quest_ubiquinol_qu10.jpg",
+    "imageFallback": "https://www.douni.gr/media/1147/quest_ubiquinol_qu10.jpg",
+    "images": [
+      "https://www.douni.gr/media/1147/quest_ubiquinol_qu10.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/platinum-excellence/ubiquinol-qu10/",
+    "source": "douni.gr",
+    "section": "kardia",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitamind3k2": {
+    "name": "Vitamin D3 & K2",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin D3 & K2 της Quest περιέχει 2500i.u.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin D3 & K2 της Quest περιέχει 2500i.u. (62,5μg) βιταμίνη D στην δραστική μορφή της D3, που είναι γνωστή και ως χοληκαλσιφερόλη και 100μg βιταμίνης Κ ως μενακινόνη Κ2 στη δραστική μορφή της ΜΚ-7. Οι βιταμίνες D3 και Κ2 δρουν συνεργιστικά για τη διατήρηση της καλής κατάστασης των οστών. Επιπλέον, έχουν προστεθεί 20i.u. φυσικής βιταμίνης Ε (D-άλφα τοκοφερόλη) που λειτουργεί εξαιρετικά σε συνδυασμό με τις βιταμίνες D και Κ, αυξάνοντας την αποτελεσματικότητα του προϊόντος. Η βιταμίνη D συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, ενώ τα χαμηλά της επίπεδα στον οργανισμό έχουν συνδεθεί με αυξημένο κίνδυνο λοιμώξεων. Συμβάλλει στην καλή λειτουργία των μυών, στη φυσιολογική απορρόφηση του ασβεστίου και του φωσφόρου, στη διατήρηση φυσιολογικών επιπέδων ασβεστίου στο αίμα και στη διατήρηση της καλής κατάστασης των οστών και των δοντιών. Παρόλο που η βιταμίνη D συντίθεται στο δέρμα με την έκθεση στον ήλιο και λαμβάνεται από ορισμένες τροφές, ένα μεγάλο κομμάτι του πληθυσμού παρουσιάζει ανεπάρκεια ή έλλειψη. Η βιταμίνη Κ συμβάλλει στη φυσιολογική πήξη του αίματος και στη διατήρηση της φυσιολογικής κατάστασης των οστών. Η βιταμίνη Κ ρυθμίζει την αποθήκευση του ασβεστίου και βοηθά στην απόθεσή του στα οστά, αποτρέποντας τη συσσώρευση του στις αρτηρίες, μειώνοντας έτσι τον κίνδυνο για καρδιαγγειακά νοσήματα. Η βιταμίνη Ε, λειτουργεί ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Σε συνδυασμό με τις άλλες λιποδιαλυτές βιταμίνες D και Κ, λειτουργεί συνεργιστικά αυξάνοντας την αποτελεσματικότητά τους.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin D3 & K2 της Quest περιέχει 2500i.u. (62,5μg) βιταμίνη D στην δραστική μορφή της D3, που είναι γνωστή και ως χοληκαλσιφερόλη και 100μg βιταμίνης Κ ως μενακινόνη Κ2 στη δραστική μορφή της ΜΚ-7. Οι βιταμίνες D3 και Κ2 δρουν συνεργιστικά για τη διατήρηση της καλής κατάστασης των οστών. Επιπλέον, έχουν προστεθεί 20i.u. φυσικής βιταμίνης Ε (D-άλφα τοκοφερόλη) που λειτουργεί εξαιρετικά σε συνδυασμό με τις βιταμίνες D και Κ, αυξάνοντας την αποτελεσματικότητα του προϊόντος.\nΗ βιταμίνη D συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, ενώ τα χαμηλά της επίπεδα στον οργανισμό έχουν συνδεθεί με αυξημένο κίνδυνο λοιμώξεων. Συμβάλλει στην καλή λειτουργία των μυών, στη φυσιολογική απορρόφηση του ασβεστίου και του φωσφόρου, στη διατήρηση φυσιολογικών επιπέδων ασβεστίου στο αίμα και στη διατήρηση της καλής κατάστασης των οστών και των δοντιών.\nΠαρόλο που η βιταμίνη D συντίθεται στο δέρμα με την έκθεση στον ήλιο και λαμβάνεται από ορισμένες τροφές, ένα μεγάλο κομμάτι του πληθυσμού παρουσιάζει ανεπάρκεια ή έλλειψη.\nΗ βιταμίνη Κ συμβάλλει στη φυσιολογική πήξη του αίματος και στη διατήρηση της φυσιολογικής κατάστασης των οστών. Η βιταμίνη Κ ρυθμίζει την αποθήκευση του ασβεστίου και βοηθά στην απόθεσή του στα οστά, αποτρέποντας τη συσσώρευση του στις αρτηρίες, μειώνοντας έτσι τον κίνδυνο για καρδιαγγειακά νοσήματα.\nΗ βιταμίνη Ε, λειτουργεί ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Σε συνδυασμό με τις άλλες λιποδιαλυτές βιταμίνες D και Κ, λειτουργεί συνεργιστικά αυξάνοντας την αποτελεσματικότητά τους."
+    },
+    "image": "https://www.douni.gr/media/2023/vitamin-d3k2_site.jpg",
+    "imageFallback": "https://www.douni.gr/media/2023/vitamin-d3k2_site.jpg",
+    "images": [
+      "https://www.douni.gr/media/2023/vitamin-d3k2_site.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-d3-k2/",
+    "source": "douni.gr",
+    "section": "vitd",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitamind32500": {
+    "name": "Vitamin D3 2500",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin D3 2500i.u.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin D3 2500i.u. της Quest περιέχει 2500i.u. (62,5μg) βιταμίνη D στην δραστική μορφή της D3, που είναι γνωστή και ως χοληκαλσιφερόλη. Η βιταμίνη D συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, ενώ τα χαμηλά της επίπεδα στον οργανισμό έχουν συνδεθεί με αυξημένο κίνδυνο λοιμώξεων. Συμβάλλει στην καλή λειτουργία των μυών, στη φυσιολογική απορρόφηση του ασβεστίου και του φωσφόρου, στη διατήρηση φυσιολογικών επιπέδων ασβεστίου στο αίμα και στη διατήρηση της καλής κατάστασης των οστών και των δοντιών. Παρόλο που η βιταμίνη D συντίθεται στο δέρμα με την έκθεση στον ήλιο και λαμβάνεται από ορισμένες τροφές, ένα μεγάλο κομμάτι του πληθυσμού παρουσιάζει ανεπάρκεια ή έλλειψη. Το Vitamin D3 2500i.u. είναι το ιδανικό συμπλήρωμα βιταμίνης D για όσους αναζητούν μια αποτελεσματική δόση.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "120346/15/10/2024",
+      "Συσκευασία": "120 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin D3 2500i.u. της Quest περιέχει 2500i.u. (62,5μg) βιταμίνη D στην δραστική μορφή της D3, που είναι γνωστή και ως χοληκαλσιφερόλη.\nΗ βιταμίνη D συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, ενώ τα χαμηλά της επίπεδα στον οργανισμό έχουν συνδεθεί με αυξημένο κίνδυνο λοιμώξεων. Συμβάλλει στην καλή λειτουργία των μυών, στη φυσιολογική απορρόφηση του ασβεστίου και του φωσφόρου, στη διατήρηση φυσιολογικών επιπέδων ασβεστίου στο αίμα και στη διατήρηση της καλής κατάστασης των οστών και των δοντιών.\nΠαρόλο που η βιταμίνη D συντίθεται στο δέρμα με την έκθεση στον ήλιο και λαμβάνεται από ορισμένες τροφές, ένα μεγάλο κομμάτι του πληθυσμού παρουσιάζει ανεπάρκεια ή έλλειψη. Το Vitamin D3 2500i.u. είναι το ιδανικό συμπλήρωμα βιταμίνης D για όσους αναζητούν μια αποτελεσματική δόση.",
+      "Οφέλη": "Σύνθεση μίας ταμπλέτας την ημέρα.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη D3 · 2500 i.u. (62,5μg)\n\nΣυστατικά: Di-Calcium Phosphate, Microcrystalline Cellulose, Vitamin D3 (with bovine gelatine, sucrose, corn starch, soybean oil, dl-alpha-tocopheryl), Magnesium Stearate, Croscarmellose Sodium, anticaking agent (precipitated Silicon Dioxide). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Vitamin D3 2500i.u. περιέχει συστατικό που προέρχεται από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2025/vitamin-d3-_site.jpg",
+    "imageFallback": "https://www.douni.gr/media/2025/vitamin-d3-_site.jpg",
+    "images": [
+      "https://www.douni.gr/media/2025/vitamin-d3-_site.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-d3-2500/",
+    "source": "douni.gr",
+    "section": "vitd",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitaminc1000mgtimedreleaseV30": {
+    "name": "Vitamin C 1000mg timed release 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, με αποτέλεσμα ο οργανισμός να μπορεί να αντιστέκεται πιο αποτελεσματικά σε παθογόνους παράγοντες που προκαλούν ιώσεις, γρίπη και άλλες λοιμώξεις. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό. Η βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Η λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "3181/13-01-2022",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, με αποτέλεσμα ο οργανισμός να μπορεί να αντιστέκεται πιο αποτελεσματικά σε παθογόνους παράγοντες που προκαλούν ιώσεις, γρίπη και άλλες λοιμώξεις. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό.\nΗ βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων.\nΗ λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+      "Οφέλη": "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΣύμπλεγμα Βιοφλαβονοειδών Εσπεριδοειδών · 100mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), di-Calcium Phosphate, Bulking agent: Microcrystalline cellulose, Hydroxypropylmethylcellulose, Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), Lecithin (from soya), Magnesium Stearate, Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Vitamin C 1000mg timed release περιέχει λεκιθίνη από σόγια. Η λεκιθίνη χρησιμοποιείται στην παρασκευή της ταμπλέτας βραδείας αποδέσμευσης.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-c-1000mg-timed-release/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitaminc1000mgtimedreleaseV60": {
+    "name": "Vitamin C 1000mg timed release 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, με αποτέλεσμα ο οργανισμός να μπορεί να αντιστέκεται πιο αποτελεσματικά σε παθογόνους παράγοντες που προκαλούν ιώσεις, γρίπη και άλλες λοιμώξεις. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό. Η βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Η λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "3181/13-01-2022",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin C 1000mg της Quest παρέχει στον οργανισμό 1000mg βιταμίνη C σε συνδυασμό με βιοφλαβονοειδή.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, με αποτέλεσμα ο οργανισμός να μπορεί να αντιστέκεται πιο αποτελεσματικά σε παθογόνους παράγοντες που προκαλούν ιώσεις, γρίπη και άλλες λοιμώξεις. Ως ισχυρό αντιοξειδωτικό, προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα και άλλους παράγοντες που βλάπτουν τον οργανισμό.\nΗ βιταμίνη C έχει πολλές ακόμη δράσεις. Συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου σε πολλούς ιστούς του σώματος, όπως στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων.\nΗ λήψη βιταμίνης C με συμπλήρωμα είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες που παρατηρείται έξαρση ιώσεων και κρυολογημάτων, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες. Οι καπνιστές, όσοι έχουν άγχος και οι αθλητές έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά και μπορούν επίσης να επωφεληθούν λαμβάνοντας ένα συμπλήρωμα βιταμίνης C.",
+      "Οφέλη": "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΣύμπλεγμα Βιοφλαβονοειδών Εσπεριδοειδών · 100mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), di-Calcium Phosphate, Bulking agent: Microcrystalline cellulose, Hydroxypropylmethylcellulose, Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), Lecithin (from soya), Magnesium Stearate, Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Vitamin C 1000mg timed release περιέχει λεκιθίνη από σόγια. Η λεκιθίνη χρησιμοποιείται στην παρασκευή της ταμπλέτας βραδείας αποδέσμευσης.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2005/vitamin-c1000mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-c-1000mg-timed-release/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-bioccomplexV30": {
+    "name": "Bio C Complex 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της.",
+    "description": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της. Η βιταμίνη C προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες, συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Ο συνδυασμός βιταμίνης C και βιοφλαβονοειδών θεωρείται πολύ ωφέλιμος και απαντάται πολύ συχνά στη φύση. Η βιταμίνη C συμβάλλει επίσης στην διατήρηση της καλής λειτουργίας του καρδιακού και κυκλοφορικού συστήματος. Συμβάλλει στο μεταβολισμό των λιπιδίων, στον τόνο των αγγείων, καθώς και στα αιμοφόρα αγγεία του συνδετικού ιστού. Ως αντιοξειδωτικό προστατεύει από την υπεροξείδωση των λιπαρών οξέων που προέρχονται από ελεύθερες ρίζες και συμβάλλει στην καλή υγεία των αιμοφόρων αγγείων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, βοηθώντας τον οργανισμό να προστατευθεί από τις ιώσεις, τα κρυολογήματα και τη γρίπη. Η λήψη της είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ταμπλέτα γρήγορης αποδέσμευσης, σχεδιασμένη να απελευθερώνει άμεσα τη βιταμίνη C μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78725/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της.\nΗ βιταμίνη C προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες, συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Ο συνδυασμός βιταμίνης C και βιοφλαβονοειδών θεωρείται πολύ ωφέλιμος και απαντάται πολύ συχνά στη φύση.\nΗ βιταμίνη C συμβάλλει επίσης στην διατήρηση της καλής λειτουργίας του καρδιακού και κυκλοφορικού συστήματος. Συμβάλλει στο μεταβολισμό των λιπιδίων, στον τόνο των αγγείων, καθώς και στα αιμοφόρα αγγεία του συνδετικού ιστού. Ως αντιοξειδωτικό προστατεύει από την υπεροξείδωση των λιπαρών οξέων που προέρχονται από ελεύθερες ρίζες και συμβάλλει στην καλή υγεία των αιμοφόρων αγγείων.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, βοηθώντας τον οργανισμό να προστατευθεί από τις ιώσεις, τα κρυολογήματα και τη γρίπη. Η λήψη της είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες.",
+      "Οφέλη": "Ταμπλέτα γρήγορης αποδέσμευσης, σχεδιασμένη να απελευθερώνει άμεσα τη βιταμίνη C μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 500mg\nΣύμπλεγμα Βιοφλαβονοειδών Εσπεριδοειδών · 500mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Bio C Complex δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/bio-c-complex/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-bioccomplexV90": {
+    "name": "Bio C Complex 90 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της.",
+    "description": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της. Η βιταμίνη C προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες, συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Ο συνδυασμός βιταμίνης C και βιοφλαβονοειδών θεωρείται πολύ ωφέλιμος και απαντάται πολύ συχνά στη φύση. Η βιταμίνη C συμβάλλει επίσης στην διατήρηση της καλής λειτουργίας του καρδιακού και κυκλοφορικού συστήματος. Συμβάλλει στο μεταβολισμό των λιπιδίων, στον τόνο των αγγείων, καθώς και στα αιμοφόρα αγγεία του συνδετικού ιστού. Ως αντιοξειδωτικό προστατεύει από την υπεροξείδωση των λιπαρών οξέων που προέρχονται από ελεύθερες ρίζες και συμβάλλει στην καλή υγεία των αιμοφόρων αγγείων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, βοηθώντας τον οργανισμό να προστατευθεί από τις ιώσεις, τα κρυολογήματα και τη γρίπη. Η λήψη της είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ταμπλέτα γρήγορης αποδέσμευσης, σχεδιασμένη να απελευθερώνει άμεσα τη βιταμίνη C μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78725/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "90 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Bio C Complex της Quest παρέχει στον οργανισμό 500mg βιταμίνη C σε συνδυασμό με 500mg βιοφλαβονοειδή, που αυξάνουν την απορρόφησή της.\nΗ βιταμίνη C προστατεύει τα κύτταρα του σώματος από το οξειδωτικό στρες, συμβάλλει στην παραγωγή ενέργειας, μειώνει την κούραση και βοηθά στο φυσιολογικό σχηματισμό του κολλαγόνου στα αγγεία, στο δέρμα, στα ούλα, στα δόντια και στους χόνδρους των αρθρώσεων. Ο συνδυασμός βιταμίνης C και βιοφλαβονοειδών θεωρείται πολύ ωφέλιμος και απαντάται πολύ συχνά στη φύση.\nΗ βιταμίνη C συμβάλλει επίσης στην διατήρηση της καλής λειτουργίας του καρδιακού και κυκλοφορικού συστήματος. Συμβάλλει στο μεταβολισμό των λιπιδίων, στον τόνο των αγγείων, καθώς και στα αιμοφόρα αγγεία του συνδετικού ιστού. Ως αντιοξειδωτικό προστατεύει από την υπεροξείδωση των λιπαρών οξέων που προέρχονται από ελεύθερες ρίζες και συμβάλλει στην καλή υγεία των αιμοφόρων αγγείων.\nΗ βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος, βοηθώντας τον οργανισμό να προστατευθεί από τις ιώσεις, τα κρυολογήματα και τη γρίπη. Η λήψη της είναι ιδιαίτερα ωφέλιμη κατά τους φθινοπωρινούς και χειμερινούς μήνες, αλλά και την άνοιξη που κάνουν την εμφάνιση τους οι εποχιακές αλλεργίες.",
+      "Οφέλη": "Ταμπλέτα γρήγορης αποδέσμευσης, σχεδιασμένη να απελευθερώνει άμεσα τη βιταμίνη C μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.\nΔόσεις πάνω από 1000mg βιταμίνης C μπορεί να προκαλέσουν ήπιες στομαχικές διαταραχές σε ευαίσθητους οργανισμούς.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 500mg\nΣύμπλεγμα Βιοφλαβονοειδών Εσπεριδοειδών · 500mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose, stearic acid, magnesium stearate, guar gum), di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Bio C Complex δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2000/bio-c-complex-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/bio-c-complex/",
+    "source": "douni.gr",
+    "section": "vitc",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-megabcomplexV30": {
+    "name": "Mega B Complex 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα.",
+    "description": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα. Οι βιταμίνες Β2, Β3, Β6 και Β12 συμβάλλουν στην παραγωγή ενέργειας και μειώνουν τη σωματική και πνευματική κόπωση που προκαλείται από το άγχος. Οι βιταμίνες Β1, Β12 και βιοτίνη βοηθούν στην καλή λειτουργία του νευρικού συστήματος, τη συγκέντρωση, τη μνήμη και τη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση. Η βιταμίνη C είναι ένα αντιοξειδωτικό θρεπτικό συστατικό που συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες. Μειώνει τις τοξικές ουσίες που παράγονται στο σώμα από το άγχος και προστατεύει τον οργανισμό από τις βλαβερές του επιπτώσεις. Το άγχος έχει αρνητικές επιπτώσεις στην άμυνα του οργανισμού και αυξάνει τον κίνδυνο λοιμώξεων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος κι επομένως ασκεί προστατευτική δράση. Η καθημερινή της λήψη με συμπλήρωμα είναι απαραίτητη σε περιόδους έντονου στρες επειδή αυτό οδηγεί στη γρήγορη εξάντληση των αποθεμάτων της στον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78724/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα.\nΟι βιταμίνες Β2, Β3, Β6 και Β12 συμβάλλουν στην παραγωγή ενέργειας και μειώνουν τη σωματική και πνευματική κόπωση που προκαλείται από το άγχος. Οι βιταμίνες Β1, Β12 και βιοτίνη βοηθούν στην καλή λειτουργία του νευρικού συστήματος, τη συγκέντρωση, τη μνήμη και τη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση.\nΗ βιταμίνη C είναι ένα αντιοξειδωτικό θρεπτικό συστατικό που συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες. Μειώνει τις τοξικές ουσίες που παράγονται στο σώμα από το άγχος και προστατεύει τον οργανισμό από τις βλαβερές του επιπτώσεις.\nΤο άγχος έχει αρνητικές επιπτώσεις στην άμυνα του οργανισμού και αυξάνει τον κίνδυνο λοιμώξεων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος κι επομένως ασκεί προστατευτική δράση. Η καθημερινή της λήψη με συμπλήρωμα είναι απαραίτητη σε περιόδους έντονου στρες επειδή αυτό οδηγεί στη γρήγορη εξάντληση των αποθεμάτων της στον οργανισμό.",
+      "Οφέλη": "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.\nΗ μακροχρόνια λήψη της ποσότητας Β6 που περιέχεται στο προϊόν μπορεί να προκαλέσει ήπιο κνησμό και μούδιασμα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΘειαμίνη (B1) · 39mg\nΡιβοφλαβίνη (B2) · 50mg\nΝιασίνη (B3) · 50mg\nΒιταμίνη B6 · 41mg\nΦυλλικό Οξύ (Β9) · 400μg\nΒιταμίνη B12 · 50μg\nΒιοτίνη (Β7) · 50μg\nΠαντοθενικό Οξύ (Β5) · 50mg\nΧολίνη · 50mg\nΙνοσιτόλη · 50mg\nPABA · 50mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Bulking agent: Microcrystalline Cellulose, Pantothenic Acid, Vitamin B6 (methyl cellulose), Riboflavin, Niacin (as niacinamide), Thiamin (methyl cellulose), Choline Bitartrate, Inositol, Para-Aminobenzoic Acid (methyl cellulose), Magnesium Stearate, Vitamin B12 (with di-calcium phosphate), Biotin (di-calcium phosphate), Anti-caking agent: Silicon dioxide, Peppermint Oil, Folic Acid (di-calcium phosphate), Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Mega B Complex δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/mega-b-complex/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-megabcomplexV60": {
+    "name": "Mega B Complex 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα.",
+    "description": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα. Οι βιταμίνες Β2, Β3, Β6 και Β12 συμβάλλουν στην παραγωγή ενέργειας και μειώνουν τη σωματική και πνευματική κόπωση που προκαλείται από το άγχος. Οι βιταμίνες Β1, Β12 και βιοτίνη βοηθούν στην καλή λειτουργία του νευρικού συστήματος, τη συγκέντρωση, τη μνήμη και τη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση. Η βιταμίνη C είναι ένα αντιοξειδωτικό θρεπτικό συστατικό που συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες. Μειώνει τις τοξικές ουσίες που παράγονται στο σώμα από το άγχος και προστατεύει τον οργανισμό από τις βλαβερές του επιπτώσεις. Το άγχος έχει αρνητικές επιπτώσεις στην άμυνα του οργανισμού και αυξάνει τον κίνδυνο λοιμώξεων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος κι επομένως ασκεί προστατευτική δράση. Η καθημερινή της λήψη με συμπλήρωμα είναι απαραίτητη σε περιόδους έντονου στρες επειδή αυτό οδηγεί στη γρήγορη εξάντληση των αποθεμάτων της στον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78724/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Mega B Complex της Quest είναι μια ενισχυμένη σύνθεση βιταμινών Β και C που υποστηρίζει τον οργανισμό σε περιόδους έντονου άγχους και υψηλών απαιτήσεων στην καθημερινότητα.\nΟι βιταμίνες Β2, Β3, Β6 και Β12 συμβάλλουν στην παραγωγή ενέργειας και μειώνουν τη σωματική και πνευματική κόπωση που προκαλείται από το άγχος. Οι βιταμίνες Β1, Β12 και βιοτίνη βοηθούν στην καλή λειτουργία του νευρικού συστήματος, τη συγκέντρωση, τη μνήμη και τη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση.\nΗ βιταμίνη C είναι ένα αντιοξειδωτικό θρεπτικό συστατικό που συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες. Μειώνει τις τοξικές ουσίες που παράγονται στο σώμα από το άγχος και προστατεύει τον οργανισμό από τις βλαβερές του επιπτώσεις.\nΤο άγχος έχει αρνητικές επιπτώσεις στην άμυνα του οργανισμού και αυξάνει τον κίνδυνο λοιμώξεων. Η βιταμίνη C συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος κι επομένως ασκεί προστατευτική δράση. Η καθημερινή της λήψη με συμπλήρωμα είναι απαραίτητη σε περιόδους έντονου στρες επειδή αυτό οδηγεί στη γρήγορη εξάντληση των αποθεμάτων της στον οργανισμό.",
+      "Οφέλη": "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.\nΗ μακροχρόνια λήψη της ποσότητας Β6 που περιέχεται στο προϊόν μπορεί να προκαλέσει ήπιο κνησμό και μούδιασμα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 1000mg\nΘειαμίνη (B1) · 39mg\nΡιβοφλαβίνη (B2) · 50mg\nΝιασίνη (B3) · 50mg\nΒιταμίνη B6 · 41mg\nΦυλλικό Οξύ (Β9) · 400μg\nΒιταμίνη B12 · 50μg\nΒιοτίνη (Β7) · 50μg\nΠαντοθενικό Οξύ (Β5) · 50mg\nΧολίνη · 50mg\nΙνοσιτόλη · 50mg\nPABA · 50mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Bulking agent: Microcrystalline Cellulose, Pantothenic Acid, Vitamin B6 (methyl cellulose), Riboflavin, Niacin (as niacinamide), Thiamin (methyl cellulose), Choline Bitartrate, Inositol, Para-Aminobenzoic Acid (methyl cellulose), Magnesium Stearate, Vitamin B12 (with di-calcium phosphate), Biotin (di-calcium phosphate), Anti-caking agent: Silicon dioxide, Peppermint Oil, Folic Acid (di-calcium phosphate), Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Mega B Complex δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1997/mega-b-complex-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/mega-b-complex/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-bcomplexquickrelease": {
+    "name": "B Complex quick release",
+    "subtitle": "Το συμπλήρωμα διατροφής B Complex quick release της Quest είναι μια πλήρης ενεργειακή φόρμουλα που περιέχει όλο το σύμπλεγμα βιταμινών Β.",
+    "description": "Το συμπλήρωμα διατροφής B Complex quick release της Quest είναι μια πλήρης ενεργειακή φόρμουλα που περιέχει όλο το σύμπλεγμα βιταμινών Β. Οι γρήγορης αποδέσμευσης ταμπλέτες του απελευθερώνουν γρήγορα τις βιταμίνες Β στον οργανισμό για τον άμεσο εφοδιασμό των ιστών. Οι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση. Οι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση. Οι βιταμίνες Β6, Β12 και το φυλλικό οξύ συμβάλλουν επίσης στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης. Το B Complex quick release είναι το ιδανικό συμπλήρωμα για όσους νιώθουν κουρασμένοι, θέλουν να έχουν περισσότερη ενέργεια, καλύτερη συγκέντρωση και δυνατότερη μνήμη. Επίσης, προτείνεται σε όσους ακολουθούν δίαιτες πλούσιες σε υδατάνθρακες ή έχουν έντονη φυσική δραστηριότητα, επειδή έχουν αυξημένες απαιτήσεις σε βιταμίνες B.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "13354/10-02-2021",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής B Complex quick release της Quest είναι μια πλήρης ενεργειακή φόρμουλα που περιέχει όλο το σύμπλεγμα βιταμινών Β. Οι γρήγορης αποδέσμευσης ταμπλέτες του απελευθερώνουν γρήγορα τις βιταμίνες Β στον οργανισμό για τον άμεσο εφοδιασμό των ιστών.\nΟι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση. Οι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση. Οι βιταμίνες Β6, Β12 και το φυλλικό οξύ συμβάλλουν επίσης στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης.\nΤο B Complex quick release είναι το ιδανικό συμπλήρωμα για όσους νιώθουν κουρασμένοι, θέλουν να έχουν περισσότερη ενέργεια, καλύτερη συγκέντρωση και δυνατότερη μνήμη. Επίσης, προτείνεται σε όσους ακολουθούν δίαιτες πλούσιες σε υδατάνθρακες ή έχουν έντονη φυσική δραστηριότητα, επειδή έχουν αυξημένες απαιτήσεις σε βιταμίνες B.",
+      "Οφέλη": "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.\nΗ μακροχρόνια λήψη της ποσότητας Β6 που περιέχεται στο προϊόν μπορεί να προκαλέσει ήπιο κνησμό και μούδιασμα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΘειαμίνη (B1) · 39mg\nΡιβοφλαβίνη (B2) · 50mg\nΝιασίνη (B3) · 50mg\nΒιταμίνη B6 · 41mg\nΦυλλικό Οξύ (Β9) · 400μg\nΒιταμίνη B12 · 50μg\nΒιοτίνη (Β7) · 50μg\nΠαντοθενικό Οξύ (Β5) · 50mg\nΧολίνη · 50mg\nΙνοσιτόλη · 50mg\nPABA · 50mg\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Pantothenic Acid, Vitamin B6 (methyl cellulose), Riboflavin, Niacin (as niacinamide), Thiamin (methyl cellulose), Choline Bitartrate, Para-Aminobenzoic Acid, Inositol, Magnesium Stearate, Vitamin B12 (di-calcium phosphate), Biotin (di-calcium phosphate), Anti-caking agent: Silicon Dioxide, Folic Acid (di-calcium phosphate), Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το B Complex quick release δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1950/b-complex-quick-release-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1950/b-complex-quick-release-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1950/b-complex-quick-release-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/b-complex-quick-release/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-bcomplextimedreleaseV30": {
+    "name": "B Complex timed release 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β.",
+    "description": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β. Οι βραδείας αποδέσμευσης ταμπλέτες του απελευθερώνουν αργά τις βιταμίνες για 6 ολόκληρες ώρες, εξασφαλίζοντας τη βέλτιστη απορρόφησή τους. Οι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση, ενώ οι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση. Το B Complex timed release είναι ιδανικό για όσους αναζητούν να διατηρήσουν την καλή λειτουργία του νευρικού τους συστήματος.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "13357/10-2-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β. Οι βραδείας αποδέσμευσης ταμπλέτες του απελευθερώνουν αργά τις βιταμίνες για 6 ολόκληρες ώρες, εξασφαλίζοντας τη βέλτιστη απορρόφησή τους.\nΟι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση, ενώ οι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση.\nΤο B Complex timed release είναι ιδανικό για όσους αναζητούν να διατηρήσουν την καλή λειτουργία του νευρικού τους συστήματος.",
+      "Οφέλη": "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.\nΗ μακροχρόνια λήψη της ποσότητας Β6 που περιέχεται στο προϊόν μπορεί να προκαλέσει ήπιο κνησμό και μούδιασμα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΘειαμίνη (B1) · 79mg\nΡιβοφλαβίνη (B2) · 100mg\nΝιασίνη (B3) · 100mg\nΒιταμίνη B6 · 82mg\nΦυλλικό Οξύ (Β9) · 400μg\nΒιταμίνη B12 · 100μg\nΒιοτίνη (Β7) · 100μg\nΠαντοθενικό Οξύ (Β5) · 100mg\nΧολίνη · 100mg\nΙνοσιτόλη · 100mg\nPABA · 100mg\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Hydroxypropylmethylcellulose, Pantothenic Acid, Vitamin B6 (methyl cellulose), Riboflavin, Niacin (as niacinamide), Thiamin (methylcellulose), Choline Bitartrate, Para-Aminobenzoic Acid, Inositol, Lecithin (from soya), Magnesium Stearate, Vitamin B12 (di-calcium phosphate), Biotin (di-calcium phosphate), Folic Acid (di-calcium phosphate), Glazing Agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το B Complex timed release περιέχει λεκιθίνη από σόγια. Η λεκιθίνη χρησιμοποιείται στην παρασκευή της ταμπλέτας βραδείας αποδέσμευσης.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/b-complex-timed-release/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-bcomplextimedreleaseV60": {
+    "name": "B Complex timed release 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β.",
+    "description": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β. Οι βραδείας αποδέσμευσης ταμπλέτες του απελευθερώνουν αργά τις βιταμίνες για 6 ολόκληρες ώρες, εξασφαλίζοντας τη βέλτιστη απορρόφησή τους. Οι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση, ενώ οι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση. Το B Complex timed release είναι ιδανικό για όσους αναζητούν να διατηρήσουν την καλή λειτουργία του νευρικού τους συστήματος.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "13357/10-2-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής B Complex timed release της Quest είναι μια υψηλής περιεκτικότητας σύνθεση βιταμινών Β. Οι βραδείας αποδέσμευσης ταμπλέτες του απελευθερώνουν αργά τις βιταμίνες για 6 ολόκληρες ώρες, εξασφαλίζοντας τη βέλτιστη απορρόφησή τους.\nΟι βιταμίνες Β1, Β12 και βιοτίνη συμβάλλουν στην καλή λειτουργία του νευρικού συστήματος και στη φυσιολογική ψυχολογική λειτουργία. Το παντοθενικό οξύ, γνωστό και ως βιταμίνη Β5, βοηθά στη φυσιολογική νοητική επίδοση, ενώ οι βιταμίνες Β2, Β3, Β6 και Β12 δίνουν ενέργεια και μειώνουν την κόπωση και τη σωματική εξάντληση.\nΤο B Complex timed release είναι ιδανικό για όσους αναζητούν να διατηρήσουν την καλή λειτουργία του νευρικού τους συστήματος.",
+      "Οφέλη": "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.\nΗ μακροχρόνια λήψη της ποσότητας Β6 που περιέχεται στο προϊόν μπορεί να προκαλέσει ήπιο κνησμό και μούδιασμα.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΘειαμίνη (B1) · 79mg\nΡιβοφλαβίνη (B2) · 100mg\nΝιασίνη (B3) · 100mg\nΒιταμίνη B6 · 82mg\nΦυλλικό Οξύ (Β9) · 400μg\nΒιταμίνη B12 · 100μg\nΒιοτίνη (Β7) · 100μg\nΠαντοθενικό Οξύ (Β5) · 100mg\nΧολίνη · 100mg\nΙνοσιτόλη · 100mg\nPABA · 100mg\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Hydroxypropylmethylcellulose, Pantothenic Acid, Vitamin B6 (methyl cellulose), Riboflavin, Niacin (as niacinamide), Thiamin (methylcellulose), Choline Bitartrate, Para-Aminobenzoic Acid, Inositol, Lecithin (from soya), Magnesium Stearate, Vitamin B12 (di-calcium phosphate), Biotin (di-calcium phosphate), Folic Acid (di-calcium phosphate), Glazing Agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το B Complex timed release περιέχει λεκιθίνη από σόγια. Η λεκιθίνη χρησιμοποιείται στην παρασκευή της ταμπλέτας βραδείας αποδέσμευσης.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1951/b-complex-timed-release-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/b-complex-timed-release/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitaminb121000mg": {
+    "name": "Vitamin B12 1000μg",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin B12 1000μg της Quest περιέχει 1000μg βιταμίνη Β12, γνωστή και ως κοβαλαμίνη, ανά ταμπλέτα.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin B12 1000μg της Quest περιέχει 1000μg βιταμίνη Β12, γνωστή και ως κοβαλαμίνη, ανά ταμπλέτα. Η βιταμίνη Β12 συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην καλή λειτουργία του νευρικού και του ανοσοποιητικού συστήματος, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης που είναι απαραίτητος για την καρδιαγγειακή υγεία. Η βιταμίνη Β12 βρίσκεται κυρίως σε τροφές ζωικής προέλευσης, επομένως οι χορτοφάγοι, οι vegans και όσοι νηστεύουν συχνά έχουν αυξημένο κίνδυνο έλλειψης στη συγκεκριμένη βιταμίνη.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "3183/13-01-2022",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin B12 1000μg της Quest περιέχει 1000μg βιταμίνη Β12, γνωστή και ως κοβαλαμίνη, ανά ταμπλέτα.\nΗ βιταμίνη Β12 συμβάλλει στην παραγωγή ενέργειας, στη μείωση της κόπωσης, στην καλή λειτουργία του νευρικού και του ανοσοποιητικού συστήματος, στο σχηματισμό των ερυθρών αιμοσφαιρίων και στο φυσιολογικό μεταβολισμό της ομοκυστεΐνης που είναι απαραίτητος για την καρδιαγγειακή υγεία.\nΗ βιταμίνη Β12 βρίσκεται κυρίως σε τροφές ζωικής προέλευσης, επομένως οι χορτοφάγοι, οι vegans και όσοι νηστεύουν συχνά έχουν αυξημένο κίνδυνο έλλειψης στη συγκεκριμένη βιταμίνη.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη B12 · 1000μg\n\nΣυστατικά: Microcrystalline Cellulose, Dicalcium Phosphate Anhydrous, Vitamin B12 (1% triturate in DCP), Magnesium Stearate, Precipitated Silicon Dioxide.\n\nΑλλεργιογόνα: Το Vitamin B12 1000μg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2004/vitamin-b12-1000mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/2004/vitamin-b12-1000mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/2004/vitamin-b12-1000mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-b12-1000mg/",
+    "source": "douni.gr",
+    "section": "vitb",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitamine400iuV30": {
+    "name": "Vitamin E 400i.u. 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin E 400i.u.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin E 400i.u. της Quest παρέχει στον οργανισμό φυσική βιταμίνη Ε που περιλαμβάνει μια ισορροπημένη αναλογία από άλφα, βήτα, γάμμα και δέλτα τοκοφερόλες. Η βιταμίνη Ε, ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η καθημερινή λήψη βιταμίνης Ε από την τροφή είναι απαραίτητη διότι ο οργανισμός δεν μπορεί να τη συνθέσει.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Περιέχει φυσικής προέλευσης βιταμίνη Ε.",
+      "Η βιταμίνη Ε προέρχεται από μη μεταλλαγμένη σόγια.",
+      "Σύνθεση μίας κάψουλας την ημέρα.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78723/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 κάψουλες",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin E 400i.u. της Quest παρέχει στον οργανισμό φυσική βιταμίνη Ε που περιλαμβάνει μια ισορροπημένη αναλογία από άλφα, βήτα, γάμμα και δέλτα τοκοφερόλες.\nΗ βιταμίνη Ε, ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η καθημερινή λήψη βιταμίνης Ε από την τροφή είναι απαραίτητη διότι ο οργανισμός δεν μπορεί να τη συνθέσει.",
+      "Οφέλη": "Περιέχει φυσικής προέλευσης βιταμίνη Ε.\nΗ βιταμίνη Ε προέρχεται από μη μεταλλαγμένη σόγια.\nΣύνθεση μίας κάψουλας την ημέρα.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΒιταμίνη E (400i.u.) · 268mg\nΜίγμα Τοκοφερολών · 48mg\n\nΣυστατικά: D-alpha tocopheryl, Capsule Shell: (gelatin (from bovine, glycerin), Sunflower Seed Oil, Mixed Tocopherols (from soya). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Vitamin E 400i.u. περιέχει τοκοφερόλες από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-e-400iu/",
+    "source": "douni.gr",
+    "section": "eidika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-vitamine400iuV60": {
+    "name": "Vitamin E 400i.u. 60 κάψουλες",
+    "subtitle": "Το συμπλήρωμα διατροφής Vitamin E 400i.u.",
+    "description": "Το συμπλήρωμα διατροφής Vitamin E 400i.u. της Quest παρέχει στον οργανισμό φυσική βιταμίνη Ε που περιλαμβάνει μια ισορροπημένη αναλογία από άλφα, βήτα, γάμμα και δέλτα τοκοφερόλες. Η βιταμίνη Ε, ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η καθημερινή λήψη βιταμίνης Ε από την τροφή είναι απαραίτητη διότι ο οργανισμός δεν μπορεί να τη συνθέσει.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Περιέχει φυσικής προέλευσης βιταμίνη Ε.",
+      "Η βιταμίνη Ε προέρχεται από μη μεταλλαγμένη σόγια.",
+      "Σύνθεση μίας κάψουλας την ημέρα.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Βιταμίνες",
+      "Γνωστοποίηση ΕΟΦ": "78723/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 κάψουλες",
+      "Συσκευασία": "60 κάψουλες",
+      "Κατηγορία douni.gr": "Βιταμίνες"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Vitamin E 400i.u. της Quest παρέχει στον οργανισμό φυσική βιταμίνη Ε που περιλαμβάνει μια ισορροπημένη αναλογία από άλφα, βήτα, γάμμα και δέλτα τοκοφερόλες.\nΗ βιταμίνη Ε, ως ισχυρό αντιοξειδωτικό, συμβάλλει στην προστασία των κυττάρων από το οξειδωτικό στρες και από τις οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η καθημερινή λήψη βιταμίνης Ε από την τροφή είναι απαραίτητη διότι ο οργανισμός δεν μπορεί να τη συνθέσει.",
+      "Οφέλη": "Περιέχει φυσικής προέλευσης βιταμίνη Ε.\nΗ βιταμίνη Ε προέρχεται από μη μεταλλαγμένη σόγια.\nΣύνθεση μίας κάψουλας την ημέρα.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια κάψουλα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΒιταμίνη E (400i.u.) · 268mg\nΜίγμα Τοκοφερολών · 48mg\n\nΣυστατικά: D-alpha tocopheryl, Capsule Shell: (gelatin (from bovine, glycerin), Sunflower Seed Oil, Mixed Tocopherols (from soya). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Vitamin E 400i.u. περιέχει τοκοφερόλες από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1979/vitamin-e-400iu-30-caps_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/bitamines/vitamin-e-400iu/",
+    "source": "douni.gr",
+    "section": "eidika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticmagnesium150mgV30": {
+    "name": "Synergistic Magnesium 150mg 30 κάψουλες",
+    "subtitle": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6.",
+    "description": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6. Το μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών. Ο συνδυασμός του μαγνησίου με τη βιταμίνη Β6 είναι ιδανικός για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας. Το συμπλήρωμα μαγνησίου Synergistic Magnesium περιέχει χηλικό μαγνήσιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του μαγνησίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "39671/14-04-2022",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 60 δισκία",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6.\nΤο μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών.\nΟ συνδυασμός του μαγνησίου με τη βιταμίνη Β6 είναι ιδανικός για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας.\nΤο συμπλήρωμα μαγνησίου Synergistic Magnesium περιέχει χηλικό μαγνήσιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του μαγνησίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση μαγνησίου με αμινοξέα Αποδίδει: Μαγνήσιο · 880mg 150mg\nΒιταμίνη B6 · 5mg\n\nΣυστατικά: Mineral amino acid blend (providing magnesium oxide complexed with aspartic acid, citric acid, hydrolysed rice protein), Bulking agent: Microcrystalline Cellulose, Vitamin B6 (with methyl cellulose), Magnesium Stearate, Glazing Agent: Hydroxypropylmethylcellulose, Colour: Titanium Dioxide, Glycerol.\n\nΑλλεργιογόνα: Το Synergistic Magnesium δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-magnesium-150mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticmagnesium150mgV60": {
+    "name": "Synergistic Magnesium 150mg 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6.",
+    "description": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6. Το μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών. Ο συνδυασμός του μαγνησίου με τη βιταμίνη Β6 είναι ιδανικός για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας. Το συμπλήρωμα μαγνησίου Synergistic Magnesium περιέχει χηλικό μαγνήσιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του μαγνησίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "39671/14-04-2022",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 60 δισκία",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Magnesium της Quest παρέχει στον οργανισμό μαγνήσιο και βιταμίνη Β6.\nΤο μαγνήσιο είναι πολύ σημαντικό για την καλή λειτουργία των μυών και συμβάλλει στην ισορροπία των ηλεκτρολυτών στο σώμα. Επιπλέον, βοηθά στην καλή λειτουργία του νευρικού συστήματος, στη μείωση της κόπωσης και στη διατήρηση της καλής κατάστασης των οστών.\nΟ συνδυασμός του μαγνησίου με τη βιταμίνη Β6 είναι ιδανικός για γυναίκες με ενοχλήσεις κατά την εμμηνόρροια. Το μαγνήσιο συμβάλλει στην καλή λειτουργία των μυών και στη φυσιολογική ψυχολογική λειτουργία, ενώ η βιταμίνη Β6 στη ρύθμιση της ορμονικής δραστηριότητας.\nΤο συμπλήρωμα μαγνησίου Synergistic Magnesium περιέχει χηλικό μαγνήσιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του μαγνησίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση μαγνησίου με αμινοξέα Αποδίδει: Μαγνήσιο · 880mg 150mg\nΒιταμίνη B6 · 5mg\n\nΣυστατικά: Mineral amino acid blend (providing magnesium oxide complexed with aspartic acid, citric acid, hydrolysed rice protein), Bulking agent: Microcrystalline Cellulose, Vitamin B6 (with methyl cellulose), Magnesium Stearate, Glazing Agent: Hydroxypropylmethylcellulose, Colour: Titanium Dioxide, Glycerol.\n\nΑλλεργιογόνα: Το Synergistic Magnesium δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1973/synergistic-magnesium-150mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-magnesium-150mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticzinc15mgV30": {
+    "name": "Synergistic Zinc 15mg 30 κάψουλες",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Synergistic Zinc της Quest παρέχει στον οργανισμό την ιδανική ποσότητα ψευδαργύρου μαζί με συνεργιστικό χαλκό για την υποστήριξη του ανοσοποιητικού συστήματος, της υγείας του δέρματος, της γονιμότητας και της αναπαραγωγής. Ο ψευδάργυρος και ο χαλκός είναι δύο ιχνοστοιχεία που συμβάλλουν στην προστασία των κυττάρων από το οξειδωτικό στρες και στην καλή λειτουργία του ανοσοποιητικού συστήματος. Ο συνδυασμός ψευδαργύρου και χαλκού θεωρείται ιδιαίτερα ωφέλιμος για το δέρμα. Ο ψευδάργυρος συμβάλλει στην υγεία του δέρματος, ενώ ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και της φυσικής απόχρωσης του δέρματος. Ο ψευδάργυρος έχει πολλές ακόμη δράσεις στο σώμα. Συμβάλλει στη διατήρηση της καλής κατάστασης των νυχιών και των μαλλιών, στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή. Το Synergistic Zinc περιέχει χηλικό ψευδάργυρο και χηλικό χαλκό, μορφές που απορροφώνται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του ψευδαργύρου και του χαλκού με αμινοξέα μεγιστοποιεί την απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "78729/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 δισκία",
+      "Συσκευασία": "30 κάψουλες",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Zinc της Quest παρέχει στον οργανισμό την ιδανική ποσότητα ψευδαργύρου μαζί με συνεργιστικό χαλκό για την υποστήριξη του ανοσοποιητικού συστήματος, της υγείας του δέρματος, της γονιμότητας και της αναπαραγωγής.\nΟ ψευδάργυρος και ο χαλκός είναι δύο ιχνοστοιχεία που συμβάλλουν στην προστασία των κυττάρων από το οξειδωτικό στρες και στην καλή λειτουργία του ανοσοποιητικού συστήματος.\nΟ συνδυασμός ψευδαργύρου και χαλκού θεωρείται ιδιαίτερα ωφέλιμος για το δέρμα. Ο ψευδάργυρος συμβάλλει στην υγεία του δέρματος, ενώ ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και της φυσικής απόχρωσης του δέρματος.\nΟ ψευδάργυρος έχει πολλές ακόμη δράσεις στο σώμα. Συμβάλλει στη διατήρηση της καλής κατάστασης των νυχιών και των μαλλιών, στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή.\nΤο Synergistic Zinc περιέχει χηλικό ψευδάργυρο και χηλικό χαλκό, μορφές που απορροφώνται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του ψευδαργύρου και του χαλκού με αμινοξέα μεγιστοποιεί την απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση μετάλλων με αμινοξέα Αποδίδει: Ψευδάργυρο Χαλκό · 112,5mg 15mg 750μg\n\nΣυστατικά: Di-Calcium Phosphate, Mineral amino acid blend (providing zinc oxide and copper sulphate pentahydrate complexed with citric acid, glycine, hydrolysed rice protein), Bulking agent: Microcrystalline Cellulose, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Synergistic Zinc δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-zinc-15mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticzinc15mgV90": {
+    "name": "Synergistic Zinc 15mg 90 δισκία",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Synergistic Zinc της Quest παρέχει στον οργανισμό την ιδανική ποσότητα ψευδαργύρου μαζί με συνεργιστικό χαλκό για την υποστήριξη του ανοσοποιητικού συστήματος, της υγείας του δέρματος, της γονιμότητας και της αναπαραγωγής. Ο ψευδάργυρος και ο χαλκός είναι δύο ιχνοστοιχεία που συμβάλλουν στην προστασία των κυττάρων από το οξειδωτικό στρες και στην καλή λειτουργία του ανοσοποιητικού συστήματος. Ο συνδυασμός ψευδαργύρου και χαλκού θεωρείται ιδιαίτερα ωφέλιμος για το δέρμα. Ο ψευδάργυρος συμβάλλει στην υγεία του δέρματος, ενώ ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και της φυσικής απόχρωσης του δέρματος. Ο ψευδάργυρος έχει πολλές ακόμη δράσεις στο σώμα. Συμβάλλει στη διατήρηση της καλής κατάστασης των νυχιών και των μαλλιών, στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή. Το Synergistic Zinc περιέχει χηλικό ψευδάργυρο και χηλικό χαλκό, μορφές που απορροφώνται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του ψευδαργύρου και του χαλκού με αμινοξέα μεγιστοποιεί την απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "78729/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 δισκία",
+      "Συσκευασία": "90 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Zinc της Quest παρέχει στον οργανισμό την ιδανική ποσότητα ψευδαργύρου μαζί με συνεργιστικό χαλκό για την υποστήριξη του ανοσοποιητικού συστήματος, της υγείας του δέρματος, της γονιμότητας και της αναπαραγωγής.\nΟ ψευδάργυρος και ο χαλκός είναι δύο ιχνοστοιχεία που συμβάλλουν στην προστασία των κυττάρων από το οξειδωτικό στρες και στην καλή λειτουργία του ανοσοποιητικού συστήματος.\nΟ συνδυασμός ψευδαργύρου και χαλκού θεωρείται ιδιαίτερα ωφέλιμος για το δέρμα. Ο ψευδάργυρος συμβάλλει στην υγεία του δέρματος, ενώ ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και της φυσικής απόχρωσης του δέρματος.\nΟ ψευδάργυρος έχει πολλές ακόμη δράσεις στο σώμα. Συμβάλλει στη διατήρηση της καλής κατάστασης των νυχιών και των μαλλιών, στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή.\nΤο Synergistic Zinc περιέχει χηλικό ψευδάργυρο και χηλικό χαλκό, μορφές που απορροφώνται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του ψευδαργύρου και του χαλκού με αμινοξέα μεγιστοποιεί την απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση μετάλλων με αμινοξέα Αποδίδει: Ψευδάργυρο Χαλκό · 112,5mg 15mg 750μg\n\nΣυστατικά: Di-Calcium Phosphate, Mineral amino acid blend (providing zinc oxide and copper sulphate pentahydrate complexed with citric acid, glycine, hydrolysed rice protein), Bulking agent: Microcrystalline Cellulose, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Synergistic Zinc δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1975/synergistic-zinc-15mg-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-zinc-15mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-zinc30mg": {
+    "name": "Zinc 30mg",
+    "subtitle": "Το Zinc 30mg της Quest είναι ένα συμπλήρωμα ψευδαργύρου υψηλής περιεκτικότητας.",
+    "description": "Το Zinc 30mg της Quest είναι ένα συμπλήρωμα ψευδαργύρου υψηλής περιεκτικότητας. Κάθε ταμπλέτα περιέχει 100mg κιτρικού ψευδαργύρου και αποδίδει 30mg ψευδαργύρου, που απορροφάται βέλτιστα από τον οργανισμό. Το Zinc 30mg συνδυάζει τον ψευδάργυρο με τον χαλκό για τη διατήρηση της ισορροπίας τους στο σώμα. Ο ψευδάργυρος και ο χαλκός υποστηρίζουν το ανοσοποιητικό σύστημα και έχουν αντιοξειδωτική δράση. Ο ψευδάργυρος είναι ένα απαραίτητο ιχνοστοιχείο για εκατοντάδες ενζυμικές διεργασίες μέσα στο σώμα. Απαιτείται για την καλή κατάσταση του δέρματος, των μαλλιών και των νυχιών και συμβάλλει στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή. Ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και είναι απαραίτητος για τον φυσιολογικό χρωματισμό του δέρματος και των μαλλιών. Το Zinc 30mg περιέχει ψευδάργυρο και χαλκό σε κιτρική μορφή που απορροφάται πολύ καλά από τον οργανισμό.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη",
+      "Κατάλληλο για χορτοφάγους και vegans"
+    ],
+    "highlights": [
+      "Κιτρικός ψευδάργυρος υψηλής απορρόφησης σε συνδυασμό με χαλκό.",
+      "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Κατάλληλο για χορτοφάγους και vegans."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "3174/13-01-2022",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το Zinc 30mg της Quest είναι ένα συμπλήρωμα ψευδαργύρου υψηλής περιεκτικότητας. Κάθε ταμπλέτα περιέχει 100mg κιτρικού ψευδαργύρου και αποδίδει 30mg ψευδαργύρου, που απορροφάται βέλτιστα από τον οργανισμό. Το Zinc 30mg συνδυάζει τον ψευδάργυρο με τον χαλκό για τη διατήρηση της ισορροπίας τους στο σώμα.\nΟ ψευδάργυρος και ο χαλκός υποστηρίζουν το ανοσοποιητικό σύστημα και έχουν αντιοξειδωτική δράση. Ο ψευδάργυρος είναι ένα απαραίτητο ιχνοστοιχείο για εκατοντάδες ενζυμικές διεργασίες μέσα στο σώμα. Απαιτείται για την καλή κατάσταση του δέρματος, των μαλλιών και των νυχιών και συμβάλλει στη φυσιολογική γνωσιακή λειτουργία, στην καλή όραση, αλλά και στη φυσιολογική γονιμότητα και αναπαραγωγή. Ο χαλκός βοηθά στη διατήρηση του φυσιολογικού συνδετικού ιστού και είναι απαραίτητος για τον φυσιολογικό χρωματισμό του δέρματος και των μαλλιών.\nΤο Zinc 30mg περιέχει ψευδάργυρο και χαλκό σε κιτρική μορφή που απορροφάται πολύ καλά από τον οργανισμό.",
+      "Οφέλη": "Κιτρικός ψευδάργυρος υψηλής απορρόφησης σε συνδυασμό με χαλκό.\nΔεν περιέχει γλουτένη και λακτόζη.\nΚατάλληλο για χορτοφάγους και vegans.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΚιτρικό ψευδάργυρο Αποδίδει: Ψευδάργυρο · 100mg 30mg\nΚιτρικό χαλκό Αποδίδει: Χαλκό · 4mg 1,5mg\n\nΣυστατικά: Dicalcium Phosphate, Zinc Citrate, Microcrystalline Cellulose, Precipitated Silicon Dioxide, Croscarmellose Sodium, Magnesium Stearate, Copper Citrate.\n\nΑλλεργιογόνα: Το Zinc 30mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη\nΚατάλληλο για χορτοφάγους και vegans"
+    },
+    "image": "https://www.douni.gr/media/1980/zinc-30mg-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1980/zinc-30mg-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1980/zinc-30mg-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/zinc-30mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticselenium200mgV30": {
+    "name": "Synergistic Selenium 200μg 30 δισκία",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Synergistic Selenium της Quest είναι μια αντιοξειδωτική φόρμουλα με σελήνιο, βιταμίνη C και βιταμίνη Ε για την προστασία των κυττάρων από το οξειδωτικό στρες και για την υποστήριξη της ανοσίας. Το σελήνιο συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύει τα κύτταρα και τα όργανα του σώματος από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η προστατευτική του δράση ενισχύεται από τις αντιοξειδωτικές βιταμίνες C και Ε που μειώνουν το οξειδωτικό στρες. Το σελήνιο έχει πολλαπλές δράσεις στον οργανισμό. Συμβάλλει στη φυσιολογική λειτουργία του θυρεοειδούς και στη διατήρηση της καλής κατάστασης των μαλλιών και των νυχιών. Στους άνδρες βοηθά επίσης στη φυσιολογική παραγωγή σπέρματος. Το Synergistic Selenium περιέχει χηλικό σελήνιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του σεληνίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "78730/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Selenium της Quest είναι μια αντιοξειδωτική φόρμουλα με σελήνιο, βιταμίνη C και βιταμίνη Ε για την προστασία των κυττάρων από το οξειδωτικό στρες και για την υποστήριξη της ανοσίας.\nΤο σελήνιο συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύει τα κύτταρα και τα όργανα του σώματος από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η προστατευτική του δράση ενισχύεται από τις αντιοξειδωτικές βιταμίνες C και Ε που μειώνουν το οξειδωτικό στρες.\nΤο σελήνιο έχει πολλαπλές δράσεις στον οργανισμό. Συμβάλλει στη φυσιολογική λειτουργία του θυρεοειδούς και στη διατήρηση της καλής κατάστασης των μαλλιών και των νυχιών. Στους άνδρες βοηθά επίσης στη φυσιολογική παραγωγή σπέρματος.\nΤο Synergistic Selenium περιέχει χηλικό σελήνιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του σεληνίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση σεληνίου με αμινοξέα Αποδίδει: Σελήνιο · 20mg 200μg\nΒιταμίνη C · 100mg\nΒιταμίνη E (25 i.u.) · 17mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Di-Calcium Phosphate, Bulking agent: Microcrystalline cellulose, Vitamin E (from soya), Mineral amino acid blend (providing sodium selenite complexed with citric acid, aspartic acid, glycine, hydrolysed rice protein), Magnesium Stearate. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Synergistic Selenium περιέχει βιταμίνη Ε από σόγια.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-selenium-200mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticselenium200mgV90": {
+    "name": "Synergistic Selenium 200μg 90 δισκία",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Synergistic Selenium της Quest είναι μια αντιοξειδωτική φόρμουλα με σελήνιο, βιταμίνη C και βιταμίνη Ε για την προστασία των κυττάρων από το οξειδωτικό στρες και για την υποστήριξη της ανοσίας. Το σελήνιο συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύει τα κύτταρα και τα όργανα του σώματος από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η προστατευτική του δράση ενισχύεται από τις αντιοξειδωτικές βιταμίνες C και Ε που μειώνουν το οξειδωτικό στρες. Το σελήνιο έχει πολλαπλές δράσεις στον οργανισμό. Συμβάλλει στη φυσιολογική λειτουργία του θυρεοειδούς και στη διατήρηση της καλής κατάστασης των μαλλιών και των νυχιών. Στους άνδρες βοηθά επίσης στη φυσιολογική παραγωγή σπέρματος. Το Synergistic Selenium περιέχει χηλικό σελήνιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του σεληνίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "78730/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "90 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Selenium της Quest είναι μια αντιοξειδωτική φόρμουλα με σελήνιο, βιταμίνη C και βιταμίνη Ε για την προστασία των κυττάρων από το οξειδωτικό στρες και για την υποστήριξη της ανοσίας.\nΤο σελήνιο συμβάλλει στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύει τα κύτταρα και τα όργανα του σώματος από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Η προστατευτική του δράση ενισχύεται από τις αντιοξειδωτικές βιταμίνες C και Ε που μειώνουν το οξειδωτικό στρες.\nΤο σελήνιο έχει πολλαπλές δράσεις στον οργανισμό. Συμβάλλει στη φυσιολογική λειτουργία του θυρεοειδούς και στη διατήρηση της καλής κατάστασης των μαλλιών και των νυχιών. Στους άνδρες βοηθά επίσης στη φυσιολογική παραγωγή σπέρματος.\nΤο Synergistic Selenium περιέχει χηλικό σελήνιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό.",
+      "Οφέλη": "H 100% χηλική ένωση του σεληνίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΧηλική ένωση σεληνίου με αμινοξέα Αποδίδει: Σελήνιο · 20mg 200μg\nΒιταμίνη C · 100mg\nΒιταμίνη E (25 i.u.) · 17mg\n\nΣυστατικά: Vitamin C (with hydroxypropylmethylcellulose), Di-Calcium Phosphate, Bulking agent: Microcrystalline cellulose, Vitamin E (from soya), Mineral amino acid blend (providing sodium selenite complexed with citric acid, aspartic acid, glycine, hydrolysed rice protein), Magnesium Stearate. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Synergistic Selenium περιέχει βιταμίνη Ε από σόγια.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1974/synergistic-selenium-200mg-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-selenium-200mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticiron15mg": {
+    "name": "Synergistic Iron 15mg",
+    "subtitle": "Το συμπλήρωμα διατροφής Synergistic Iron της Quest περιέχει σίδηρο και συνεργιστικά θρεπτικά συστατικά, όπως βιταμίνη C, χαλκό και σύμπλεγμα βιταμινών B που δίνουν ενέργεια και μειώνουν την κόπωση.",
+    "description": "Το συμπλήρωμα διατροφής Synergistic Iron της Quest περιέχει σίδηρο και συνεργιστικά θρεπτικά συστατικά, όπως βιταμίνη C, χαλκό και σύμπλεγμα βιταμινών B που δίνουν ενέργεια και μειώνουν την κόπωση. Ο σίδηρος συμβάλλει στην παραγωγή της αιμοσφαιρίνης, τον σχηματισμό των ερυθρών αιμοσφαιρίων, τη μείωση της κόπωσης, την καλή γνωσιακή λειτουργία και τη μεταφορά του οξυγόνου σε όλο το σώμα. Η λήψη του με συμπλήρωμα μπορεί να βοηθήσει άτομα με συμπτώματα όπως η κόπωση, η αδυναμία, η ζαλάδα και η μειωμένη συγκέντρωση. Τα συνεργιστικά θρεπτικά συστατικά του Synergistic Iron το καθιστούν ακόμα πιο δραστικό. Η βιταμίνη C αυξάνει την απορρόφηση του σιδήρου και ο χαλκός συμβάλλει στη φυσιολογική μεταφορά του στον οργανισμό. Οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας και στη μείωση της κούρασης και της σωματικής εξάντλησης. Το Synergistic Iron περιέχει χηλικό σίδηρο, μορφή που απορροφάται βέλτιστα από τον οργανισμό. Είναι ένα φιλικό συμπλήρωμα σιδήρου που δεν προκαλεί δυσκοιλιότητα και είναι ιδανικό για όσους νιώθουν έντονη κόπωση, γυναίκες στην εμμηνόρροια, εγκύους, χορτοφάγους, βίγκανς, αλλά και για περιόδους νηστείας.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του σιδήρου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Δεν ενοχλεί το στομάχι και το έντερο.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "3176/13-01-2022",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Iron της Quest περιέχει σίδηρο και συνεργιστικά θρεπτικά συστατικά, όπως βιταμίνη C, χαλκό και σύμπλεγμα βιταμινών B που δίνουν ενέργεια και μειώνουν την κόπωση.\nΟ σίδηρος συμβάλλει στην παραγωγή της αιμοσφαιρίνης, τον σχηματισμό των ερυθρών αιμοσφαιρίων, τη μείωση της κόπωσης, την καλή γνωσιακή λειτουργία και τη μεταφορά του οξυγόνου σε όλο το σώμα. Η λήψη του με συμπλήρωμα μπορεί να βοηθήσει άτομα με συμπτώματα όπως η κόπωση, η αδυναμία, η ζαλάδα και η μειωμένη συγκέντρωση.\nΤα συνεργιστικά θρεπτικά συστατικά του Synergistic Iron το καθιστούν ακόμα πιο δραστικό. Η βιταμίνη C αυξάνει την απορρόφηση του σιδήρου και ο χαλκός συμβάλλει στη φυσιολογική μεταφορά του στον οργανισμό. Οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας και στη μείωση της κούρασης και της σωματικής εξάντλησης.\nΤο Synergistic Iron περιέχει χηλικό σίδηρο, μορφή που απορροφάται βέλτιστα από τον οργανισμό. Είναι ένα φιλικό συμπλήρωμα σιδήρου που δεν προκαλεί δυσκοιλιότητα και είναι ιδανικό για όσους νιώθουν έντονη κόπωση, γυναίκες στην εμμηνόρροια, εγκύους, χορτοφάγους, βίγκανς, αλλά και για περιόδους νηστείας.",
+      "Οφέλη": "H 100% χηλική ένωση του σιδήρου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΔεν ενοχλεί το στομάχι και το έντερο.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μία ταμπλέτα ημερησίως με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη C · 100mg\nΘειαμίνη (B1) · 4mg\nΡιβοφλαβίνη (B2) · 2mg\nΝιασίνη (B3) · 10mg\nΒιταμίνη B6 · 4mg\nΦυλλικό Οξύ · 200μg\nΒιταμίνη Β12 · 20μg\nΒιοτίνη · 50μg\nΠαντοθενικό Οξύ · 10mg\nΣίδηρος · 15mg\nΧαλκός · 1,2mg\nΜολυβδαίνιο · 30μg\n\nΣυστατικά: Di-Calcium Phosphate, Mineral amino acid blend (providing ferrous sulphate, copper sulphate pentahydrate, sodium molybdate complexed with glycine, hydrolysed rice protein, sodium citrate, sodium hydroxide), Bulking agent: Microcrystalline cellulose, Vitamin C (with hydroxypropylmethylcellulose), Pantothenic Acid, Niacin (as niacinamide), Magnesium Stearate, Thiamin (with methyl cellulose), Vitamin B6 (with methyl cellulose), Biotin (with di-calcium phosphate), Vitamin B12 (with di-calcium phosphate), Riboflavin, Folic Acid, Glazing agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Synergistic Iron δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1972/synergistic-iron-15mg-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1972/synergistic-iron-15mg-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1972/synergistic-iron-15mg-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-iron-15mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-synergisticcalcium1000mg": {
+    "name": "Synergistic Calcium 1000mg",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Synergistic Calcium της Quest παρέχει στον οργανισμό ασβέστιο και βιταμίνη D, τα οποία είναι απαραίτητα για τη διατήρηση της φυσιολογικής κατάστασης των οστών και των δοντιών και για την καλή λειτουργία των μυών. Το ασβέστιο είναι το βασικότερο δομικό συστατικό των οστών και είναι απαραίτητο για άνδρες και γυναίκες κάθε ηλικίας. Συμβάλλει στη διατήρηση της καλής κατάστασης των οστών και των δοντιών, καθώς και στην καλή λειτουργία των μυών. Η βιταμίνη D έχει συνεργιστικό ρόλο, συμβάλλοντας στην απορρόφηση του ασβεστίου από τον οργανισμό. Η λήψη ενός συμπληρώματος ασβεστίου και βιταμίνης D μπορεί να βοηθήσει στην διατήρηση της σωστής δομής των οστών, η οποία διαταράσσεται με την ηλικία και κυρίως μετά την εμμηνόπαυση στις γυναίκες. Το Synergistic Calcium περιέχει χηλικό ασβέστιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό, μαζί με βιταμίνη D3 (χοληκαλσιφερόλη) που είναι η πιο δραστική μορφή βιταμίνης D. Είναι ιδανικό για όσους έχουν αυξημένες απαιτήσεις σε ασβέστιο, όπως οι γυναίκες στην εμμηνόπαυση, οι έγκυες, οι γυναίκες που θηλάζουν, οι ηλικιωμένοι, αλλά και για όσους έχουν αποκλείσει τα γαλακτοκομικά από τη διατροφή τους και χρειάζονται ένα συμπλήρωμα ασβεστίου.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H 100% χηλική ένωση του ασβεστίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Μέταλλα",
+      "Γνωστοποίηση ΕΟΦ": "3177/13-01-2022",
+      "Συσκευασία": "45 δισκία",
+      "Κατηγορία douni.gr": "Μέταλλα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Synergistic Calcium της Quest παρέχει στον οργανισμό ασβέστιο και βιταμίνη D, τα οποία είναι απαραίτητα για τη διατήρηση της φυσιολογικής κατάστασης των οστών και των δοντιών και για την καλή λειτουργία των μυών.\nΤο ασβέστιο είναι το βασικότερο δομικό συστατικό των οστών και είναι απαραίτητο για άνδρες και γυναίκες κάθε ηλικίας. Συμβάλλει στη διατήρηση της καλής κατάστασης των οστών και των δοντιών, καθώς και στην καλή λειτουργία των μυών. Η βιταμίνη D έχει συνεργιστικό ρόλο, συμβάλλοντας στην απορρόφηση του ασβεστίου από τον οργανισμό. Η λήψη ενός συμπληρώματος ασβεστίου και βιταμίνης D μπορεί να βοηθήσει στην διατήρηση της σωστής δομής των οστών, η οποία διαταράσσεται με την ηλικία και κυρίως μετά την εμμηνόπαυση στις γυναίκες.\nΤο Synergistic Calcium περιέχει χηλικό ασβέστιο, μορφή που απορροφάται βέλτιστα από τον οργανισμό, μαζί με βιταμίνη D3 (χοληκαλσιφερόλη) που είναι η πιο δραστική μορφή βιταμίνης D. Είναι ιδανικό για όσους έχουν αυξημένες απαιτήσεις σε ασβέστιο, όπως οι γυναίκες στην εμμηνόπαυση, οι έγκυες, οι γυναίκες που θηλάζουν, οι ηλικιωμένοι, αλλά και για όσους έχουν αποκλείσει τα γαλακτοκομικά από τη διατροφή τους και χρειάζονται ένα συμπλήρωμα ασβεστίου.",
+      "Οφέλη": "H 100% χηλική ένωση του ασβεστίου με αμινοξέα μεγιστοποιεί την απορρόφησή του.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Τρεις ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΤρεις ταμπλέτες παρέχουν:\nΧηλική ένωση ασβεστίου με αμινοξέα Αποδίδει: Ασβέστιο · 4000mg 1000mg\nΒιταμίνη D · 5μg\n\nΣυστατικά: Mineral amino acid blend (providing calcium carbonate, calcium hydroxide complexed with citric acid, glycine and hydrolysed rice protein), Bulking agent: Microcrystalline cellulose, Magnesium Stearate, Anti-caking agent: Silicon dioxide, Vitamin D3 (with arabic gum, Antioxidant: D-α-tocopherol (from soya), tri-calcium phosphate), Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Synergistic Calcium περιέχει τοκοφερόλη από σόγια (ως έκδοχο).",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1971/synergistic-calcium-1000mg-45-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1971/synergistic-calcium-1000mg-45-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1971/synergistic-calcium-1000mg-45-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/metalla/synergistic-calcium-1000mg/",
+    "source": "douni.gr",
+    "section": "metalla",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-onceadayquickreleaseV30": {
+    "name": "Once A Day quick release 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους.",
+    "description": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους. Η “όλα σε ένα” σύνθεσή του προσφέρει μια πληθώρα απαραίτητων θρεπτικών συστατικών. Η Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει τη διατροφή για να μην υπάρξουν τυχόν ελλείψεις. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού. Ο σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό με ταμπλέτες γρήγορης αποδέσμευσης για τον άμεσο εφοδιασμό των ιστών. Η Once A Day είναι κατάλληλη για άνδρες και γυναίκες κάθε ηλικίας και προτείνεται κυρίως σε άτομα που δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης, είναι χορτοφάγοι ή απλώς νιώθουν κουρασμένοι και θέλουν να τονώσουν τον οργανισμό τους.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.",
+      "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει άμεσα τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Πολυθρεπτικά Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "85310/16-09-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Πολυθρεπτικά Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους. Η “όλα σε ένα” σύνθεσή του προσφέρει μια πληθώρα απαραίτητων θρεπτικών συστατικών.\nΗ Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει τη διατροφή για να μην υπάρξουν τυχόν ελλείψεις. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού.\nΟ σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό με ταμπλέτες γρήγορης αποδέσμευσης για τον άμεσο εφοδιασμό των ιστών.\nΗ Once A Day είναι κατάλληλη για άνδρες και γυναίκες κάθε ηλικίας και προτείνεται κυρίως σε άτομα που δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης, είναι χορτοφάγοι ή απλώς νιώθουν κουρασμένοι και θέλουν να τονώσουν τον οργανισμό τους.",
+      "Οφέλη": "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.\nΤαμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει άμεσα τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΘρεπτική Αξία\nΜια ταμπλέτα παρέχει:\nΒιταμίνες\nΒιταμίνη A · 750μg\nΜίγμα Καροτενοειδών Περιλαμβάνει: Άλφα Καροτένιο, Κρυπτοξανθίνη Ζεαξανθίνη Λουτεΐνη Βήτα Καροτένιο (ισοδυναμεί με Βιταμίνη A · 3,14mg 500μg)\nΒιταμίνη D · 10μg\nΒιταμίνη E (15 i.u.) · 10mg\nΒιταμίνη C · 150mg\nΘειαμίνη (B1) · 10mg\nΡιβοφλαβίνη (B2) · 11mg\nΝιασίνη (B3) · 21mg\nΒιταμίνη B6 · 10mg\nΦυλλικό Οξύ · 100μg\nΒιταμίνη B12 · 15μg\nΒιοτίνη · 12μg\nΠαντοθενικό Οξύ · 19,5mg\nΜέταλλα\nΑσβέστιο (16mg ως χηλική ένωση με αμινοξέα) · 138mg\nΦώσφορος · 94mg\nΣίδηρος* · 6mg\nΜαγνήσιο* · 24mg\nΨευδάργυρος* · 4mg\nΙώδιο · 40μg\nΜαγγάνιο* · 0,4mg\nΧαλκός* · 400μg\nΜολυβδαίνιο* · 10μg\nΧρώμιο* · 10μg\nΣελήνιο* · 13μg\nΠρόσθετοι παράγοντες\nΌξινη Τρυγική Χολίνη · 20mg\nΙνοσιτόλη · 20mg\nΜεθειονίνη · 20mg\nPABA · 15mg\nΒιοφλαβονοειδή · 29mg\nΛυσίνη HCl · 22mg\nΛεκιθίνη · 15mg\nΠαπαΐνη · 2mg\nΡουτίνη · 2mg\nΒεταΐνη HCl · 12mg\nΕσπεριδίνη · 10mg\nΚυστεΐνη · 0,6mg\n*Ως χηλικές ενώσεις με αμινοξέα\n\nΣυστατικά: Multimineral amino acid blend (providing calcium carbonate, magnesium oxide, ferrous sulphate, zinc oxide, manganese carbonate, copper sulphate, potassium iodide, sodium selenite, chromium chloride, sodium molybdate complexed with citric acid, glycine, rice flour, rice protein complex, sodium hydroxide, sodium citrate, aspartic acid and maltodextrin), lecithin (soya), Vitamin E (soya), Pantothenic Acid (Calcium Salt), Riboflavin, Vitamin B6 (with methyl cellulose), Niacin (niacinamide), Choline Bitartrate, Thiamin (with methyl cellulose), DL-Methionine, Inositol, Para-Aminobenzoic Acid, Mixed Carotenoids (with ascorbic acid, maltodextrin), Magnesium Stearate, Citrus Bioflavonoids, Lysine HCl, Beta-carotene (with dl-α-tocopherol, sodium ascorbate, ascorbyl palmitate, corn starch, glucose), Betaine HCl, Vitamin A (with antioxidant: tocopherols (soya) and tricalcium phosphate), Vitamin B12 (with dicalcium phosphate), Biotin (with di-calcium phosphate), Vitamin D3 (with Arabic gum, tricalcium phosphate, d-α-tocopherol), Papain, Rutin, Cysteine, Folic Acid (with dicalcium phosphate), Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Once A Day περιέχει συστατικά που προέρχονται από σόγια και καλαμπόκι.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/polythreptika-sympliromata/once-a-day-quick-release/",
+    "source": "douni.gr",
+    "section": "polyvitamines",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-onceadayquickreleaseV90": {
+    "name": "Once A Day quick release 90 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους.",
+    "description": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους. Η “όλα σε ένα” σύνθεσή του προσφέρει μια πληθώρα απαραίτητων θρεπτικών συστατικών. Η Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει τη διατροφή για να μην υπάρξουν τυχόν ελλείψεις. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού. Ο σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό με ταμπλέτες γρήγορης αποδέσμευσης για τον άμεσο εφοδιασμό των ιστών. Η Once A Day είναι κατάλληλη για άνδρες και γυναίκες κάθε ηλικίας και προτείνεται κυρίως σε άτομα που δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης, είναι χορτοφάγοι ή απλώς νιώθουν κουρασμένοι και θέλουν να τονώσουν τον οργανισμό τους.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.",
+      "Ταμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει άμεσα τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Πολυθρεπτικά Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "85310/16-09-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 90 δισκία",
+      "Συσκευασία": "90 δισκία",
+      "Κατηγορία douni.gr": "Πολυθρεπτικά Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Once A Day της Quest είναι μια πλήρης πολυβιταμίνη που είναι ιδανική για όλους. Η “όλα σε ένα” σύνθεσή του προσφέρει μια πληθώρα απαραίτητων θρεπτικών συστατικών.\nΗ Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει τη διατροφή για να μην υπάρξουν τυχόν ελλείψεις. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού.\nΟ σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό με ταμπλέτες γρήγορης αποδέσμευσης για τον άμεσο εφοδιασμό των ιστών.\nΗ Once A Day είναι κατάλληλη για άνδρες και γυναίκες κάθε ηλικίας και προτείνεται κυρίως σε άτομα που δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης, είναι χορτοφάγοι ή απλώς νιώθουν κουρασμένοι και θέλουν να τονώσουν τον οργανισμό τους.",
+      "Οφέλη": "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.\nΤαμπλέτα γρήγορης αποδέσμευσης (quick release), σχεδιασμένη να απελευθερώνει άμεσα τα θρεπτικά συστατικά μέσα σε 30 λεπτά για τον γρήγορο εφοδιασμό των ιστών.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΘρεπτική Αξία\nΜια ταμπλέτα παρέχει:\nΒιταμίνες\nΒιταμίνη A · 750μg\nΜίγμα Καροτενοειδών Περιλαμβάνει: Άλφα Καροτένιο, Κρυπτοξανθίνη Ζεαξανθίνη Λουτεΐνη Βήτα Καροτένιο (ισοδυναμεί με Βιταμίνη A · 3,14mg 500μg)\nΒιταμίνη D · 10μg\nΒιταμίνη E (15 i.u.) · 10mg\nΒιταμίνη C · 150mg\nΘειαμίνη (B1) · 10mg\nΡιβοφλαβίνη (B2) · 11mg\nΝιασίνη (B3) · 21mg\nΒιταμίνη B6 · 10mg\nΦυλλικό Οξύ · 100μg\nΒιταμίνη B12 · 15μg\nΒιοτίνη · 12μg\nΠαντοθενικό Οξύ · 19,5mg\nΜέταλλα\nΑσβέστιο (16mg ως χηλική ένωση με αμινοξέα) · 138mg\nΦώσφορος · 94mg\nΣίδηρος* · 6mg\nΜαγνήσιο* · 24mg\nΨευδάργυρος* · 4mg\nΙώδιο · 40μg\nΜαγγάνιο* · 0,4mg\nΧαλκός* · 400μg\nΜολυβδαίνιο* · 10μg\nΧρώμιο* · 10μg\nΣελήνιο* · 13μg\nΠρόσθετοι παράγοντες\nΌξινη Τρυγική Χολίνη · 20mg\nΙνοσιτόλη · 20mg\nΜεθειονίνη · 20mg\nPABA · 15mg\nΒιοφλαβονοειδή · 29mg\nΛυσίνη HCl · 22mg\nΛεκιθίνη · 15mg\nΠαπαΐνη · 2mg\nΡουτίνη · 2mg\nΒεταΐνη HCl · 12mg\nΕσπεριδίνη · 10mg\nΚυστεΐνη · 0,6mg\n*Ως χηλικές ενώσεις με αμινοξέα\n\nΣυστατικά: Multimineral amino acid blend (providing calcium carbonate, magnesium oxide, ferrous sulphate, zinc oxide, manganese carbonate, copper sulphate, potassium iodide, sodium selenite, chromium chloride, sodium molybdate complexed with citric acid, glycine, rice flour, rice protein complex, sodium hydroxide, sodium citrate, aspartic acid and maltodextrin), lecithin (soya), Vitamin E (soya), Pantothenic Acid (Calcium Salt), Riboflavin, Vitamin B6 (with methyl cellulose), Niacin (niacinamide), Choline Bitartrate, Thiamin (with methyl cellulose), DL-Methionine, Inositol, Para-Aminobenzoic Acid, Mixed Carotenoids (with ascorbic acid, maltodextrin), Magnesium Stearate, Citrus Bioflavonoids, Lysine HCl, Beta-carotene (with dl-α-tocopherol, sodium ascorbate, ascorbyl palmitate, corn starch, glucose), Betaine HCl, Vitamin A (with antioxidant: tocopherols (soya) and tricalcium phosphate), Vitamin B12 (with dicalcium phosphate), Biotin (with di-calcium phosphate), Vitamin D3 (with Arabic gum, tricalcium phosphate, d-α-tocopherol), Papain, Rutin, Cysteine, Folic Acid (with dicalcium phosphate), Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Once A Day περιέχει συστατικά που προέρχονται από σόγια και καλαμπόκι.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1967/once-a-day-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/polythreptika-sympliromata/once-a-day-quick-release/",
+    "source": "douni.gr",
+    "section": "polyvitamines",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-superonceadaytimedrelease": {
+    "name": "Super Once A Day timed release",
+    "subtitle": "Το συμπλήρωμα διατροφής Super Once A Day της Quest είναι μια ενισχυμένη “όλα σε ένα” πολυβιταμίνη που προσφέρει μέγιστη ενέργεια και ζωντάνια.",
+    "description": "Το συμπλήρωμα διατροφής Super Once A Day της Quest είναι μια ενισχυμένη “όλα σε ένα” πολυβιταμίνη που προσφέρει μέγιστη ενέργεια και ζωντάνια. Είναι ιδανική για όσους χρειάζονται μέγιστη υποστήριξη, νιώθουν εξαντλημένοι ή έχουν μια πολύ δραστήρια ζωή. Η Super Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει κενά που υπάρχουν στη διατροφή και να μειώσει τον κίνδυνο ελλείψεων. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού. Ο σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό σε ενισχυμένες δόσεις με ταμπλέτες βραδείας αποδέσμευσης για την καλύτερη απορρόφησή τους. Η Super Once A Day είναι ιδανική για δραστήρια άτομα, αλλά και για όσους θέλουν έξτρα ενέργεια, δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης ή είναι χορτοφάγοι.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.",
+      "Κατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Πολυθρεπτικά Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "78721/27-08-2021",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Πολυθρεπτικά Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Super Once A Day της Quest είναι μια ενισχυμένη “όλα σε ένα” πολυβιταμίνη που προσφέρει μέγιστη ενέργεια και ζωντάνια. Είναι ιδανική για όσους χρειάζονται μέγιστη υποστήριξη, νιώθουν εξαντλημένοι ή έχουν μια πολύ δραστήρια ζωή.\nΗ Super Once A Day είναι ένας ισορροπημένος συνδυασμός βιταμινών, μετάλλων και άλλων ωφέλιμων συστατικών που μπορεί να συμπληρώσει κενά που υπάρχουν στη διατροφή και να μειώσει τον κίνδυνο ελλείψεων. Περιέχει βιταμίνες A, B, C, D και Ε, σίδηρο, ψευδάργυρο, σελήνιο και πολλά άλλα θρεπτικά συστατικά που είναι απαραίτητα για την υγεία και την καλή φυσική κατάσταση του οργανισμού.\nΟ σίδηρος και οι βιταμίνες Β συμβάλλουν στην παραγωγή ενέργειας, στη μείωση της κούρασης και στην καλή λειτουργία του εγκεφάλου, όπως στην αυτοσυγκέντρωση και στη μνήμη. Οι βιταμίνες C, D, E, ο ψευδάργυρος και το σελήνιο ενισχύουν το ανοσοποιητικό σύστημα και προστατεύουν τα κύτταρα από οξειδωτικές βλάβες που προκαλούνται από τοξίνες και από το περιβάλλον. Όλα αυτά τα συστατικά συνδυάζονται με συνεργιστικούς παράγοντες για ακόμη καλύτερα αποτελέσματα και προσφέρονται στον οργανισμό σε ενισχυμένες δόσεις με ταμπλέτες βραδείας αποδέσμευσης για την καλύτερη απορρόφησή τους.\nΗ Super Once A Day είναι ιδανική για δραστήρια άτομα, αλλά και για όσους θέλουν έξτρα ενέργεια, δεν ακολουθούν ισορροπημένη διατροφή, έχουν αυξημένο κίνδυνο ελλείψεων, διανύουν περιόδους έντονου άγχους και πίεσης ή είναι χορτοφάγοι.",
+      "Οφέλη": "Οι χηλικές ενώσεις των μετάλλων με αμινοξέα μεγιστοποιούν την απορρόφησή τους.\nΚατοχυρωμένη ταμπλέτα βραδείας αποδέσμευσης (timed release), σχεδιασμένη να απελευθερώνει τα θρεπτικά συστατικά σταδιακά για 6 ολόκληρες ώρες, για τη βέλτιστη απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το κύριο γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΘρεπτική Αξία\nΜια ταμπλέτα παρέχει:\nΒιταμίνες\nΒιταμίνη A · 750μg\nΜίγμα Καροτενοειδών Περιλαμβάνει: Άλφα Καροτένιο, Κρυπτοξανθίνη Ζεαξανθίνη Λουτεΐνη Βήτα Καροτένιο (ισοδυναμεί με Βιταμίνη A · 6,14mg 1000μg)\nΒιταμίνη D · 10μg\nΒιταμίνη E (50 i.u.) · 34mg\nΒιταμίνη C · 150mg\nΘειαμίνη (B1) · 39mg\nΡιβοφλαβίνη (B2) · 50mg\nΝιασίνη (B3) · 50mg\nΒιταμίνη B6 · 41mg\nΦυλλικό Οξύ · 200μg\nΒιταμίνη B12 · 50μg\nΒιοτίνη · 50μg\nΠαντοθενικό Οξύ · 50mg\nΜέταλλα\nΑσβέστιο (16mg ως χηλική ένωση με αμινοξέα) · 194mg\nΦώσφορος · 115mg\nΣίδηρος* · 15mg\nΜαγνήσιο* · 60mg\nΨευδάργυρος* · 10mg\nΙώδιο · 100μg\nΜαγγάνιο* · 1mg\nΧαλκός* · 1000μg\nΜολυβδαίνιο* · 25μg\nΧρώμιο* · 25μg\nΣελήνιο* · 35μg\nΠρόσθετοι παράγοντες\nΌξινη Τρυγική Χολίνη · 50mg\nΙνοσιτόλη · 50mg\nΜεθειονίνη · 50mg\nPABA · 50mg\nΒιοφλαβονοειδή · 28,6mg\nΛυσίνη HCl · 22mg\nΛεκιθίνη · 40mg\nΠαπαΐνη · 2mg\nΡουτίνη · 2mg\nΒεταΐνη HCl · 12mg\nΕσπεριδίνη · 10mg\nΚυστεΐνη · 0,6mg\n*Ως χηλικές ενώσεις με αμινοξέα\n\nΣυστατικά: Dicalcium Phosphate, Multimineral amino acid blend (providing calcium carbonate, magnesium oxide, ferrous sulphate, zinc oxide, manganese carbonate, copper sulphate, potassium iodide, sodium selenite, chromium chloride, sodium molybdate complexed with citric acid, glycine, rice flour, rice protein complex, sodium hydroxide, sodium citrate, aspartic acid and maltodextrin), Vitamin C (with hydroxypropylmethylcellulose), Hydroxypropylmethylcellulose, lecithin (soya), Vitamin E (soya), Pantothenic Acid, Vitamin B6 (with methyl cellulose), Riboflavin, Niacin, Choline Bitartrate, Thiamin (with methyl cellulose), DL-Methionine, Inositol, Para-Aminobenzoic Acid, Mixed Carotenoids (with ascorbic acid and maltodextrin), Magnesium Stearate, Citrus Bioflavonoids, Lysine HCl, Beta-carotene (with d-α-tocopherol (soya), sodium ascorbate, ascorbyl palmitate, corn starch, glucose), Vitamin A (with antioxidant: tocopherols (soya) and tricalcium phosphate), Betaine HCl, Vitamin B12 (with dicalcium phosphate), Biotin (with di-calcium phosphate), Vitamin D3 (with Arabic gum, tricalcium phosphate, d-α-tocopherol (soya)), Papain, Rutin, Cysteine, Folic Acid (with dicalcium phosphate), Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Super Once A Day περιέχει συστατικά που προέρχονται από σόγια και καλαμπόκι.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1970/super-once-a-day-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1970/super-once-a-day-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1970/super-once-a-day-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/polythreptika-sympliromata/super-once-a-day-timed-release/",
+    "source": "douni.gr",
+    "section": "polyvitamines",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-celllife": {
+    "name": "Cell Life",
+    "subtitle": "Το συμπλήρωμα διατροφής Cell Life της Quest αποτελεί έναν μοναδικό συνδυασμό των κυριότερων υδατοδιαλυτών και λιποδιαλυτών αντιοξειδωτικών συστατικών.",
+    "description": "Το συμπλήρωμα διατροφής Cell Life της Quest αποτελεί έναν μοναδικό συνδυασμό των κυριότερων υδατοδιαλυτών και λιποδιαλυτών αντιοξειδωτικών συστατικών. Η μοναδική του φόρμουλα περιλαμβάνει βιταμίνες C, E και A, απαραίτητα ιχνοστοιχεία όπως ψευδάργυρο, σελήνιο, χαλκό και μαγγάνιο, καροτενοειδή και λουτεΐνη. Τα συστατικά αυτά συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύουν τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα, τη μόλυνση του περιβάλλοντος και άλλους παράγοντες που βλάπτουν τον οργανισμό. Το Cell Life μπορεί να ληφθεί από όσους θέλουν να υποστηρίξουν το ανοσοποιητικό τους σύστημα ή έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά, όπως οι καπνιστές, οι αγχώδεις χαρακτήρες, όσοι γυμνάζονται έντονα, ζουν σε μολυσμένο περιβάλλον ή είναι άνω των 40 ετών.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "H χηλική ένωση των μετάλλων με αμινοξέα μεγιστοποιεί την απορρόφησή τους.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Πολυθρεπτικά Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "3180/13-01-2022",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Πολυθρεπτικά Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Cell Life της Quest αποτελεί έναν μοναδικό συνδυασμό των κυριότερων υδατοδιαλυτών και λιποδιαλυτών αντιοξειδωτικών συστατικών.\nΗ μοναδική του φόρμουλα περιλαμβάνει βιταμίνες C, E και A, απαραίτητα ιχνοστοιχεία όπως ψευδάργυρο, σελήνιο, χαλκό και μαγγάνιο, καροτενοειδή και λουτεΐνη. Τα συστατικά αυτά συμβάλλουν στην καλή λειτουργία του ανοσοποιητικού συστήματος και προστατεύουν τα κύτταρα του σώματος από το οξειδωτικό στρες που προκαλείται από το άγχος, το κάπνισμα, τη μόλυνση του περιβάλλοντος και άλλους παράγοντες που βλάπτουν τον οργανισμό.\nΤο Cell Life μπορεί να ληφθεί από όσους θέλουν να υποστηρίξουν το ανοσοποιητικό τους σύστημα ή έχουν αυξημένες απαιτήσεις σε αντιοξειδωτικά, όπως οι καπνιστές, οι αγχώδεις χαρακτήρες, όσοι γυμνάζονται έντονα, ζουν σε μολυσμένο περιβάλλον ή είναι άνω των 40 ετών.",
+      "Οφέλη": "H χηλική ένωση των μετάλλων με αμινοξέα μεγιστοποιεί την απορρόφησή τους.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΒιταμίνη E (100i.u.) · 67mg\nΒιταμίνη C · 500mg\nΨευδάργυρος* · 10mg\nΜαγγάνιο* · 1mg\nΧαλκός* · 500μg\nΣελήνιο* · 75μg\nΒιταμίνη Α · 750μg\nΜίγμα Καροτενοειδών Περιλαμβάνει: Άλφα Καροτένιο Κρυπτοξανθίνη Ζεαξανθίνη Βήτα Καροτένιο (Ισοδυναμεί με Βιταμίνη Α · 3,13mg 500μg)\nΛουτεΐνη · 6mg\n*Ως χηλική ένωση με αμινοξέα\n\nΣυστατικά: Vitamin C (hydroxypropylmethylcellulose), Bulking agent: Microcrystalline cellulose, Vitamin E (from soya), Dicalcium Phosphate, Mineral amino acid blend (providing zinc oxide, manganese carbonate, copper sulphate pentahydrate and sodium selenite complexed with citric acid, glycine and hydrolysed rice protein), Lutein preparation (providing lutein esters, zeaxanthin esters, with agar, sucrose, palm oil, ascorbyl palmitate, calcium stearate, sodium ascorbate, mixed tocopherols (soya)), Mixed carotenoids (providing beta-carotene, alpha-carotene, cryptoxanthin, zeaxanthin and lutein with ascorbic acid, maltodextrin), Vitamin A (with antioxidant: tocopherols (soya) and tricalcium phosphate), Cellulose, Magnesium Stearate, Anti-caking agent: Silicon dioxide, Glazing agent: Hydroxypropylmethylcellulose. Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Cell Life περιέχει βιταμίνη Ε και τοκοφερόλες από σόγια.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1995/cell-life-30-tabs-_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1995/cell-life-30-tabs-_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1995/cell-life-30-tabs-_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/polythreptika-sympliromata/cell-life/",
+    "source": "douni.gr",
+    "section": "polyvitamines",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-lactaseenzyme": {
+    "name": "Lactase Enzyme",
+    "subtitle": "Το συμπλήρωμα διατροφής Lactase Enzyme της Quest περιέχει 200mg (2000 Acid Lactase Units) λακτάση ανά ταμπλέτα.",
+    "description": "Το συμπλήρωμα διατροφής Lactase Enzyme της Quest περιέχει 200mg (2000 Acid Lactase Units) λακτάση ανά ταμπλέτα. Η λακτάση είναι το πεπτικό ένζυμο που διασπά τη λακτόζη. Η λήψη συμπληρώματος με το ένζυμο λακτάση βελτιώνει την πέψη της λακτόζης στα άτομα που έχουν δυσκολία στην πέψη της (δυσανεξία στη λακτόζη).",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Πεπτικά Ένζυμα",
+      "Γνωστοποίηση ΕΟΦ": "90719/30-9-2021",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Πεπτικά Ένζυμα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Lactase Enzyme της Quest περιέχει 200mg (2000 Acid Lactase Units) λακτάση ανά ταμπλέτα.\nΗ λακτάση είναι το πεπτικό ένζυμο που διασπά τη λακτόζη. Η λήψη συμπληρώματος με το ένζυμο λακτάση βελτιώνει την πέψη της λακτόζης στα άτομα που έχουν δυσκολία στην πέψη της (δυσανεξία στη λακτόζη).",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες με γεύματα που περιέχουν γάλα ή τα παράγωγά του, μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΛακτάση · 200mg (2000 ALU)\nALU: Acid Lactase Units\n\nΣυστατικά: Di-Calcium Phosphate, Lactase, Bulking agent: Microcrystalline Cellulose, Croscarmellose Sodium, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Lactase Enzyme δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1961/lactaze-enzyme-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1961/lactaze-enzyme-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1961/lactaze-enzyme-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/peptika-enzyma/lactase-enzyme/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
@@ -5323,285 +2603,616 @@ window.QUEST_OVERRIDES = {
   },
   "QV-enzymedigest": {
     "name": "Enzyme Digest",
-    "subtitle": "Enzymes, betaine HCI & peppermint oil to aid digestion and for relief of digestive discomfort",
-    "description": "Contains a broad spectrum of enzymes needed to support proper digestion of proteins, carbohydrates and fats. Combined with betaine HCL and peppermint oil, which help maintain effective digestion, peppermint has a carminative and antispasmodic action. Supplementing additional digestive enzymes is useful with increasing age, in cases of digestive disorders where digestive potential is compromised to help reduce symptoms of disturbed digestion such as heartburn, indigestion, bloating or flatulence. Recommended for sports persons to aid digestion of protein, the elderly or when levels of enzymes produced become insufficient.",
+    "subtitle": "Το συμπλήρωμα διατροφής Enzyme Digest της Quest είναι ένας μοναδικός συνδυασμός ενζύμων, βεταΐνης και μέντας.",
+    "description": "Το συμπλήρωμα διατροφής Enzyme Digest της Quest είναι ένας μοναδικός συνδυασμός ενζύμων, βεταΐνης και μέντας. Το Enzyme Digest περιέχει 4 διαφορετικά πεπτικά ένζυμα, τα οποία βοηθούν στην διάσπαση των κύριων διατροφικών συστατικών, δηλαδή των πρωτεϊνών, των λιπών και των υδατανθράκων. Αυτά είναι η παπαΐνη (από παπάγια) και η βρωμελαΐνη (από ανανά) που διασπούν τις πρωτεΐνες, η λιπάση που διασπά τα λίπη και η αμυλάση που διασπά τους υδατάνθρακες. Για ακόμη καλύτερο αποτέλεσμα, το Enzyme Digest περιέχει υδροχλωρική βεταΐνη και έλαιο μέντας. Το Enzyme Digest είναι ιδανικό για άτομα που ο οργανισμός τους δεν παράγει αρκετά πεπτικά ένζυμα.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Broad spectrum digestive enzyme formula",
-      "Contains betaine HCl to support enzyme digestive potential",
-      "Peppermint oil acts as a carminative and antispasmodic"
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Enzymes | Essentials Range | Gut and Digestion | Senior’s Health",
+      "Σειρά": "Πεπτικά Ένζυμα",
+      "Γνωστοποίηση ΕΟΦ": "60495/25-06-2021",
       "Συσκευασία": "90 δισκία",
-      "Κατηγορία qnutrapharma.com": "Enzymes | Essentials Range | Gut and Digestion | Senior’s Health"
+      "Κατηγορία douni.gr": "Πεπτικά Ένζυμα"
     },
     "sections": {
-      "Περιγραφή": "Contains a broad spectrum of enzymes needed to support proper digestion of proteins, carbohydrates and fats. Combined with betaine HCL and peppermint oil, which help maintain effective digestion, peppermint has a carminative and antispasmodic action. Supplementing additional digestive enzymes is useful with increasing age, in cases of digestive disorders where digestive potential is compromised to help reduce symptoms of disturbed digestion such as heartburn, indigestion, bloating or flatulence. Recommended for sports persons to aid digestion of protein, the elderly or when levels of enzymes produced become insufficient.",
-      "Οφέλη": "Broad spectrum digestive enzyme formula\nContains betaine HCl to support enzyme digestive potential\nPeppermint oil acts as a carminative and antispasmodic",
-      "Χρήση": "Take up to two tablets with each meal and swallow with water.",
-      "Συστατικά": "Bulking agent: Microcrystalline Cellulose, Betaine HCl, Amylase (with maltodextrin), Lipase (with maltodextrin), Bromelain (with maltodextrin), Papain, Magnesium Stearate, Anti caking agent (silicon dioxide), Peppermint Oil, Glazing Agent: Hydroxypropylmethylcellulose.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Enzyme Digest της Quest είναι ένας μοναδικός συνδυασμός ενζύμων, βεταΐνης και μέντας.\nΤο Enzyme Digest περιέχει 4 διαφορετικά πεπτικά ένζυμα, τα οποία βοηθούν στην διάσπαση των κύριων διατροφικών συστατικών, δηλαδή των πρωτεϊνών, των λιπών και των υδατανθράκων. Αυτά είναι η παπαΐνη (από παπάγια) και η βρωμελαΐνη (από ανανά) που διασπούν τις πρωτεΐνες, η λιπάση που διασπά τα λίπη και η αμυλάση που διασπά τους υδατάνθρακες.\nΓια ακόμη καλύτερο αποτέλεσμα, το Enzyme Digest περιέχει υδροχλωρική βεταΐνη και έλαιο μέντας. Το Enzyme Digest είναι ιδανικό για άτομα που ο οργανισμός τους δεν παράγει αρκετά πεπτικά ένζυμα.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ή δύο ταμπλέτες με κάθε γεύμα μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΠαπαΐνη (48000 USP Units/g) · 4,17mg\nΑμυλάση (40000 SKB Units/g) · 10mg\nΛιπάση (105000 Lipase Units/g) · 5,56mg\nΒρωμελαΐνη (1200 GD Units/g) · 5mg\nΒεταΐνη HCl · 100mg\nΜινθέλαιο · 2mg\n\nΣυστατικά: Bulking agent: Microcrystalline Cellulose, Betaine HCl, Amylase (with maltodextrin), Lipase (with maltodextrin), Bromelain (with maltodextrin), Papain, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Peppermint Oil, Glazing Agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Enzyme Digest δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Enzyme-Digest-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Enzyme-Digest-30s-75cc.png",
+    "image": "https://www.douni.gr/media/1955/enzyme-digest-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1955/enzyme-digest-90-tabs_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Enzyme-Digest-30s-75cc.png"
+      "https://www.douni.gr/media/1955/enzyme-digest-90-tabs_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/enzyme-digest/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/peptika-enzyma/enzyme-digest/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-dairydigestbiotix": {
-    "name": "Dairy Digest Biotix",
-    "subtitle": "Improves lactose digestion to help reduce symptoms associated with lactose intolerance such as bloating and flatulence",
-    "description": "Helps reduce symptoms associated with lactose intolerance such as bloating, diarrhoea or flatulence. Lactase enzyme improves lactose digestion in individuals who have difficulty digesting lactose in milk or dairy produce. Lactobacilli bacteria create lactic acid by breaking down lactose and other carbohydrates. The combination of lactase enzyme and lactobacilli bacteria have been shown to work synergistically for more effective results. Dairy Digest Biotix may be chosen by those who have difficulty in digesting the lactose found in milk and dairy products.",
+  "QV-llysine1000mg": {
+    "name": "L-Lysine 1000mg",
+    "subtitle": "Το συμπλήρωμα διατροφής L-Lysine 1000mg της Quest παρέχει 1000mg λυσίνη ελεύθερης μορφής, η οποία μπορεί να χρησιμοποιηθεί άμεσα από τον οργανισμό.",
+    "description": "Το συμπλήρωμα διατροφής L-Lysine 1000mg της Quest παρέχει 1000mg λυσίνη ελεύθερης μορφής, η οποία μπορεί να χρησιμοποιηθεί άμεσα από τον οργανισμό. Η λυσίνη είναι ένα αμινοξύ. Τα αμινοξέα χρησιμοποιούνται από το σώμα για τη σύνθεση πρωτεϊνών που είναι απαραίτητες για τις βιολογικές του λειτουργίες και τις κυτταρικές του δομές. Το L-Lysine 1000mg περιέχει λυσίνη σε L-μορφή, που είναι αυτή που υπάρχει φυσιολογικά στον οργανισμό.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Synergistic formula providing lactase enzyme and lactobacilli bacteria for more effective results"
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Enzymes | Gut and Digestion | Probiotics | Specialist Health",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Enzymes | Gut and Digestion | Probiotics | Specialist Health"
+      "Σειρά": "Εξειδικευμένα Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "90718/20-9-2021",
+      "Κατηγορία douni.gr": "Εξειδικευμένα Συμπληρώματα"
     },
     "sections": {
-      "Περιγραφή": "Helps reduce symptoms associated with lactose intolerance such as bloating, diarrhoea or flatulence. Lactase enzyme improves lactose digestion in individuals who have difficulty digesting lactose in milk or dairy produce. Lactobacilli bacteria create lactic acid by breaking down lactose and other carbohydrates. The combination of lactase enzyme and lactobacilli bacteria have been shown to work synergistically for more effective results. Dairy Digest Biotix may be chosen by those who have difficulty in digesting the lactose found in milk and dairy products.",
-      "Οφέλη": "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nSynergistic formula providing lactase enzyme and lactobacilli bacteria for more effective results",
-      "Χρήση": "One or two capsules with meals or dairy produce.",
-      "Συστατικά": "Lactase, microcrystalline cellulose, lactobacilli culture, magnesium stearate, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής L-Lysine 1000mg της Quest παρέχει 1000mg λυσίνη ελεύθερης μορφής, η οποία μπορεί να χρησιμοποιηθεί άμεσα από τον οργανισμό.\nΗ λυσίνη είναι ένα αμινοξύ. Τα αμινοξέα χρησιμοποιούνται από το σώμα για τη σύνθεση πρωτεϊνών που είναι απαραίτητες για τις βιολογικές του λειτουργίες και τις κυτταρικές του δομές. Το L-Lysine 1000mg περιέχει λυσίνη σε L-μορφή, που είναι αυτή που υπάρχει φυσιολογικά στον οργανισμό.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις ταμπλέτες την ημέρα με άδειο στομάχι μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nL-Λυσίνη HCl Αποδίδει: L-Λυσίνη · 1250mg 1000mg\n\nΣυστατικά: L-lysine Hydrochloride, Silicified Microcrystalline Cellulose, Microcrystalline Cellulose, Precipitated Silicon Dioxide, Magnesium Stearate, Croscarmellose Sodium, Glazing Agent: Hydroxypropylmethylcellulose\n\nΑλλεργιογόνα: Το L-Lysine 1000mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/DAIRYDIGESTBIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/DAIRYDIGESTBIOTIX.png",
+    "image": "https://www.douni.gr/media/1962/l-lysine-1000mg-45-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1962/l-lysine-1000mg-45-tabs_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/DAIRYDIGESTBIOTIX.png"
+      "https://www.douni.gr/media/1962/l-lysine-1000mg-45-tabs_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/dairy-digest-biotix/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/ekseidikeymena-sympliromata/l-lysine-1000mg/",
+    "source": "douni.gr",
+    "section": "eidika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-coenzymeq1030mg": {
+    "name": "Coenzyme Q10 30mg",
+    "subtitle": "Το συμπλήρωμα διατροφής Coenzyme Q10 30mg της Quest παρέχει 30mg συνενζύμου Q10, μια ποσότητα κατάλληλη για όλους.",
+    "description": "Το συμπλήρωμα διατροφής Coenzyme Q10 30mg της Quest παρέχει 30mg συνενζύμου Q10, μια ποσότητα κατάλληλη για όλους. Το συνένζυμο Q10 υπάρχει φυσιολογικά στα ανθρώπινα κύτταρα. Το Coenzyme Q10 30mg περιέχει 100mg βιοφλαβονοειδών που δρουν ως ένα συμπληρωματικό θρεπτικό συστατικό.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Εξειδικευμένα Συμπληρώματα",
+      "Γνωστοποίηση ΕΟΦ": "78728/27-08-2021",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Εξειδικευμένα Συμπληρώματα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Coenzyme Q10 30mg της Quest παρέχει 30mg συνενζύμου Q10, μια ποσότητα κατάλληλη για όλους. Το συνένζυμο Q10 υπάρχει φυσιολογικά στα ανθρώπινα κύτταρα.\nΤο Coenzyme Q10 30mg περιέχει 100mg βιοφλαβονοειδών που δρουν ως ένα συμπληρωματικό θρεπτικό συστατικό.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΣυνένζυμο Q10 · 30mg\nΣύμπλεγμα Βιοφλαβονοειδών Εσπεριδοειδών · 100mg\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Citrus Bioflavonoids Complex (citrus powder, calcium sulphate, cellulose powder, stearic acid, magnesium stearate, guar gum), Coenzyme Q10, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Coenzyme Q10 30mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1954/coenzyme-q10-30mg-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1954/coenzyme-q10-30mg-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1954/coenzyme-q10-30mg-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/ekseidikeymena-sympliromata/coenzyme-q10-30mg/",
+    "source": "douni.gr",
     "section": "probiotika",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-kyolic1000": {
-    "name": "Kyolic 1000",
-    "subtitle": "Helps to support heart, liver and immune function",
-    "description": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
+  "QV-kyolicgarlic600V30": {
+    "name": "Kyolic Garlic 600 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς.",
+    "description": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς. Το Kyolic παράγεται από σκελίδες σκόρδου βιολογικής καλλιέργειας που έχουν υποστεί 20μηνη ψυχρή ωρίμανση προκειμένου να παραχθούν δραστικές θειούχες ενώσεις όπως η S-αλλυλ-κυστεΐνη και η S-αλλυλ-μερκαπτοκυστεΐνη. Είναι άοσμο και φιλικό για το στομάχι. Εκτός από την ωφέλιμη δράση του στην καρδιά, το σκόρδο ψυχρής ωρίμανσης συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και του ήπατος.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "Produced from organically grown cold aged garlic cloves",
-      "Contains water and oil soluble compounds",
-      "Odourless and gentle on the stomach",
-      "Unique garlic form supported by extensive clinical studies",
-      "High potency tablet"
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Kyolic Garlic | Senior’s Health"
+      "Σειρά": "Kyolic",
+      "Γνωστοποίηση ΕΟΦ": "67919/05/06/2025",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Kyolic"
     },
     "sections": {
-      "Περιγραφή": "Aged garlic contributes to normal heart, liver and immune function. Kyolic garlic is produced from organically grown cloves cold aged for 20 months to produce sulphur containing compounds including s-allyl cysteine and S-allyl mercaptocysteine. Shown to lower total and LDL blood cholesterol, improve blood circulation, support healthy blood pressure levels, reduce platelet aggregation and adhesion to blood vessel walls. Aged garlic also has antioxidant actions to enhance immune function, reducing the risk and duration of infections and protecting cells from oxidative damage by free radicals. It also enhances the activity of liver enzymes to assist detoxification pathways.",
-      "Οφέλη": "Produced from organically grown cold aged garlic cloves\nContains water and oil soluble compounds\nOdourless and gentle on the stomach\nUnique garlic form supported by extensive clinical studies\nHigh potency tablet",
-      "Χρήση": "Take one or two tablets daily with food",
-      "Συστατικά": "Aged Garlic Extract, Bulking Agent (microcrystalline cellulose), Croscarmellose Calcium, Hydroxypropyl Cellulose, Glazing Agent (hydroxypropyl methylcellulose, maltodextrin, medium chain triglycerides), Anticaking Agents (silicon dioxide, magnesium stearate).",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς.\nΤο Kyolic παράγεται από σκελίδες σκόρδου βιολογικής καλλιέργειας που έχουν υποστεί 20μηνη ψυχρή ωρίμανση προκειμένου να παραχθούν δραστικές θειούχες ενώσεις όπως η S-αλλυλ-κυστεΐνη και η S-αλλυλ-μερκαπτοκυστεΐνη. Είναι άοσμο και φιλικό για το στομάχι.\nΕκτός από την ωφέλιμη δράση του στην καρδιά, το σκόρδο ψυχρής ωρίμανσης συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και του ήπατος.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα Σκόρδου Ψυχρής Ωρίμανσης · 600mg\n\nΣυστατικά: Aged Garlic Extract, Hydroxypropylcellulose, Bulking agent: Microcrystalline Cellulose, Anti-caking agent: Silicon Dioxide, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Kyolic Garlic 600mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-1000-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-1000-30s-75cc.png",
+    "image": "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Kyolic-Garlic-1000-30s-75cc.png"
+      "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/kyolic-1000/",
-    "source": "qnutrapharma.com",
+    "url": "https://www.douni.gr/etairies/quest/kyolic/kyolic-garlic-600/",
+    "source": "douni.gr",
     "section": "kardia",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-vitaminc1000mgV30": {
-    "name": "Vitamin C 1000mg 30 δισκία",
-    "subtitle": "Antioxidant activity to protect against oxidative stress and support the function of the immune system",
-    "description": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
+  "QV-kyolicgarlic600V60": {
+    "name": "Kyolic Garlic 600 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς.",
+    "description": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς. Το Kyolic παράγεται από σκελίδες σκόρδου βιολογικής καλλιέργειας που έχουν υποστεί 20μηνη ψυχρή ωρίμανση προκειμένου να παραχθούν δραστικές θειούχες ενώσεις όπως η S-αλλυλ-κυστεΐνη και η S-αλλυλ-μερκαπτοκυστεΐνη. Είναι άοσμο και φιλικό για το στομάχι. Εκτός από την ωφέλιμη δράση του στην καρδιά, το σκόρδο ψυχρής ωρίμανσης συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και του ήπατος.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "High potency 1000mg per tablet",
-      "With added bioflavonoids to increase absorption of vitamin C",
-      "Patented timed-release tablet releases nutrients over 6 hours"
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Joints and Muscles | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
-      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
-      "Συσκευασία": "30 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Joints and Muscles | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
-    },
-    "sections": {
-      "Περιγραφή": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "High potency 1000mg per tablet\nWith added bioflavonoids to increase absorption of vitamin C\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Ascorbic acid (with hydroxypropylmethylcellulose), Bulking agent (microcrystalline cellulose), Dicalcium phosphate, Hydroxypropylmethylcellulose, Citrus bioflavonoids (with maltodextrin), Lecithin (from soya), Anticaking agent (magnesium stearate), Glazing agent (hydroxypropylmethylcellulose).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
-    },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png",
-    "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png"
-    ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-c-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "QV-vitaminc1000mgV60": {
-    "name": "Vitamin C 1000mg 60 δισκία",
-    "subtitle": "Antioxidant activity to protect against oxidative stress and support the function of the immune system",
-    "description": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-    "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
-    ],
-    "highlights": [
-      "High potency 1000mg per tablet",
-      "With added bioflavonoids to increase absorption of vitamin C",
-      "Patented timed-release tablet releases nutrients over 6 hours"
-    ],
-    "attributes": {
-      "Σειρά": "Essentials Range",
-      "Κατηγορίες qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Joints and Muscles | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins",
+      "Σειρά": "Kyolic",
+      "Γνωστοποίηση ΕΟΦ": "67919/05/06/2025",
       "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
       "Συσκευασία": "60 δισκία",
-      "Κατηγορία qnutrapharma.com": "Detox and Cell Protection | Essentials Range | Heart & Circulation | Immunity | Joints and Muscles | Senior’s Health | Skin, Hair and Nails | Stress and Hectic Lifestyle | Vitamins"
+      "Κατηγορία douni.gr": "Kyolic"
     },
     "sections": {
-      "Περιγραφή": "Vitamin C is an antioxidant nutrient that contributes to the protection of cells from oxidative stress and to the normal functioning of the immune system. As a water soluble nutrient vitamin C supplies in the body are used up quicker under stress leading to a lowering of immune function and increased incidence of infections. Low levels are also associated with an increased risk of stroke and cardiovascular disease. Vitamin C helps towards collagen formation for many body tissues including skin, gums, teeth and cartilage found in joints. It enhances the absorption of iron in the body and is involved in energy metabolism and contributes to the reduction of tiredness and fatigue.",
-      "Οφέλη": "High potency 1000mg per tablet\nWith added bioflavonoids to increase absorption of vitamin C\nPatented timed-release tablet releases nutrients over 6 hours",
-      "Χρήση": "Take one to three tablets daily with food.",
-      "Συστατικά": "Ascorbic acid (with hydroxypropylmethylcellulose), Bulking agent (microcrystalline cellulose), Dicalcium phosphate, Hydroxypropylmethylcellulose, Citrus bioflavonoids (with maltodextrin), Lecithin (from soya), Anticaking agent (magnesium stearate), Glazing agent (hydroxypropylmethylcellulose).\nAllergy Advice: For allergens, see ingredients in bold.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Kyolic Garlic 600 της Quest είναι ένα μοναδικό εκχύλισμα σκόρδου ψυχρής ωρίμανσης που συμβάλλει στην καλή λειτουργία της καρδιάς.\nΤο Kyolic παράγεται από σκελίδες σκόρδου βιολογικής καλλιέργειας που έχουν υποστεί 20μηνη ψυχρή ωρίμανση προκειμένου να παραχθούν δραστικές θειούχες ενώσεις όπως η S-αλλυλ-κυστεΐνη και η S-αλλυλ-μερκαπτοκυστεΐνη. Είναι άοσμο και φιλικό για το στομάχι.\nΕκτός από την ωφέλιμη δράση του στην καρδιά, το σκόρδο ψυχρής ωρίμανσης συμβάλλει στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος και του ήπατος.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο ταμπλέτες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα Σκόρδου Ψυχρής Ωρίμανσης · 600mg\n\nΣυστατικά: Aged Garlic Extract, Hydroxypropylcellulose, Bulking agent: Microcrystalline Cellulose, Anti-caking agent: Silicon Dioxide, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Kyolic Garlic 600mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png",
+    "image": "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Vitamin-C-1000mg-30s-75cc.png"
+      "https://www.douni.gr/media/1996/kyolic-garlic-600-30-tabs_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/vitamin-c-1000mg/",
-    "source": "qnutrapharma.com",
-    "section": "vitc",
+    "url": "https://www.douni.gr/etairies/quest/kyolic/kyolic-garlic-600/",
+    "source": "douni.gr",
+    "section": "kardia",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-mega8biotix": {
-    "name": "Mega8Biotix",
-    "subtitle": "8 Strain High Potency Probiotic Supplement. 30 billion active organisms to support digestive, gut and immune health",
-    "description": "A high potency multi-strain probiotic supplement designed to support digestive, gut and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants. Probiotics also support the metabolism and utilisation of nutrients from food and detoxification and excretion of hormones by the liver.",
+  "QV-omega31000mg": {
+    "name": "Omega 3 1000mg",
+    "subtitle": "Το συμπλήρωμα διατροφής Omega 3 1000mg της Quest είναι μια συμπυκνωμένη πηγή των ωμέγα 3 λιπαρών οξέων EPA και DHA από ιχθυέλαια θαλάσσιων ψαριών.",
+    "description": "Το συμπλήρωμα διατροφής Omega 3 1000mg της Quest είναι μια συμπυκνωμένη πηγή των ωμέγα 3 λιπαρών οξέων EPA και DHA από ιχθυέλαια θαλάσσιων ψαριών. Το EPA και το DHA συμβάλλουν στη φυσιολογική λειτουργία της καρδιάς (1), στη διατήρηση της φυσιολογικής αρτηριακής πίεσης (2) και στη διατήρηση των φυσιολογικών επιπέδων τριγλυκεριδίων στο αίμα (3). Το DHA συμβάλλει στη διατήρηση της καλής λειτουργίας του εγκεφάλου και της όρασης (4). Το Omega 3 1000mg είναι ιδανικό για την υποστήριξη της καρδιάς, του εγκεφάλου και των ματιών σε άτομα κάθε ηλικίας. Είναι κατάλληλο και για την περίοδο της εγκυμοσύνης και του θηλασμού. Η πρόσληψη DHA από τη μητέρα συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου και του θηλάζοντος βρέφους (5). Τα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 250mg ΕΡΑ και DHA. Τα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 3g ΕΡΑ και DHA. Δεν πρέπει να υπερβαίνετε την ημερήσια πρόσληψη 5g EPA και DHA σε συνδυασμό. Τα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 2g ΕΡΑ και DHA. Δεν πρέπει να υπερβαίνετε την ημερήσια πρόσληψη 5g EPA και DHA σε συνδυασμό. Τα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 250mg DHA. Τα θετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για vegans",
-      "Κατάλληλο για χορτοφάγους"
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
     "highlights": [
-      "High potency 30 billion organisms per capsule",
-      "Multi 8 strain formula for broad spectrum probiotic activity",
-      "With DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid",
-      "Lyophilised, encapsulated and individually sealed to enhance stability",
-      "Refrigeration is optional"
+      "Περιέχει υψηλής καθαρότητας συμπυκνωμένο ιχθυέλαιο θαλάσσιων ψαριών.",
+      "Περιέχει φυσική βιταμίνη E για τη συντήρηση του ιχθυελαίου.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
     ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Detox and Cell Protection | Everyday Health and Wellbeing | Gut and Digestion | Immunity | Pregnancy and Fertility | Probiotics",
-      "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Detox and Cell Protection | Everyday Health and Wellbeing | Gut and Digestion | Immunity | Pregnancy and Fertility | Probiotics"
+      "Σειρά": "Ωμέγα Λιπαρά Οξέα",
+      "Γνωστοποίηση ΕΟΦ": "40444/04-04-2024",
+      "Συσκευασία": "90 κάψουλες",
+      "Κατηγορία douni.gr": "Ωμέγα Λιπαρά Οξέα"
     },
     "sections": {
-      "Περιγραφή": "A high potency multi-strain probiotic supplement designed to support digestive, gut and immune health. Probiotic bacteria help restore a positive balance of friendly bacteria in the gastrointestinal tract which can be disrupted by poor diet, stress or use of drugs. Recommended for use as an adjunct or following antibiotic treatment. Probiotic bacteria support and regulate immune response and may contribute to reducing the risk or duration of infections or alleviate symptoms of immune based conditions such as allergies. Maternal probiotic supplementation during pregnancy has been shown to significantly reduce the development of atopic conditions in infants. Probiotics also support the metabolism and utilisation of nutrients from food and detoxification and excretion of hormones by the liver.",
-      "Οφέλη": "High potency 30 billion organisms per capsule\nMulti 8 strain formula for broad spectrum probiotic activity\nWith DR Caps, a unique delayed release capsule shell that protects sensitive bacteria from stomach acid\nLyophilised, encapsulated and individually sealed to enhance stability\nRefrigeration is optional",
-      "Χρήση": "One to two capsules daily with or after a meal.",
-      "Συστατικά": "Maltodextrin, capsule shell (hydroxypropylmethylcellulose, gelling agent: gellan gum), lyophilised lactobacilli culture, magnesium stearate, antioxidant: ascorbic acid.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για vegans\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Omega 3 1000mg της Quest είναι μια συμπυκνωμένη πηγή των ωμέγα 3 λιπαρών οξέων EPA και DHA από ιχθυέλαια θαλάσσιων ψαριών.\nΤο EPA και το DHA συμβάλλουν στη φυσιολογική λειτουργία της καρδιάς (1), στη διατήρηση της φυσιολογικής αρτηριακής πίεσης (2) και στη διατήρηση των φυσιολογικών επιπέδων τριγλυκεριδίων στο αίμα (3). Το DHA συμβάλλει στη διατήρηση της καλής λειτουργίας του εγκεφάλου και της όρασης (4).\nΤο Omega 3 1000mg είναι ιδανικό για την υποστήριξη της καρδιάς, του εγκεφάλου και των ματιών σε άτομα κάθε ηλικίας. Είναι κατάλληλο και για την περίοδο της εγκυμοσύνης και του θηλασμού. Η πρόσληψη DHA από τη μητέρα συμβάλλει στη φυσιολογική ανάπτυξη του εγκεφάλου και των οφθαλμών του εμβρύου και του θηλάζοντος βρέφους (5).\nΤα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 250mg ΕΡΑ και DHA.\nΤα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 3g ΕΡΑ και DHA. Δεν πρέπει να υπερβαίνετε την ημερήσια πρόσληψη 5g EPA και DHA σε συνδυασμό.\nΤα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 2g ΕΡΑ και DHA. Δεν πρέπει να υπερβαίνετε την ημερήσια πρόσληψη 5g EPA και DHA σε συνδυασμό.\nΤα ευεργετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 250mg DHA.\nΤα θετικά αποτελέσματα εξασφαλίζονται με την ημερήσια πρόσληψη 200mg DHA επιπλέον της συνιστώμενης ημερήσιας πρόσληψης ωμέγα 3 λιπαρών οξέων για τους ενήλικες που είναι 250mg DHA και EPA.",
+      "Οφέλη": "Περιέχει υψηλής καθαρότητας συμπυκνωμένο ιχθυέλαιο θαλάσσιων ψαριών.\nΠεριέχει φυσική βιταμίνη E για τη συντήρηση του ιχθυελαίου.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΣυμπυκνωμένο Ιχθυέλαιο Αποδίδει: EPA (Eicosapentaenoic Acid) DHA (Docosahexaenoic Acid) · 1000mg 180mg 120mg\nΒιταμίνη Ε · 5mg\n\nΣυστατικά: Fish Oil Concentrate, Capsule Shell (gelatin, glycerin),Vitamin E (as dl-alpha tocopheryl acetate).\n\nΑλλεργιογόνα: Το Omega 3 1000mg περιέχει ιχθυέλαιο κι επομένως δεν είναι κατάλληλο για άτομα που έχουν αλλεργία στα ψάρια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/MEGA8BIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/MEGA8BIOTIX.png",
+    "image": "https://www.douni.gr/media/2180/omega-3_60plus30.jpg",
+    "imageFallback": "https://www.douni.gr/media/2180/omega-3_60plus30.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/MEGA8BIOTIX.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/Mega8Biotix-3.png"
+      "https://www.douni.gr/media/2180/omega-3_60plus30.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/mega8biotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
+    "url": "https://www.douni.gr/etairies/quest/omega-lipara-oksea/omega-3-1000mg/",
+    "source": "douni.gr",
+    "section": "omega",
     "matchType": "exact",
     "score": null,
     "review": false
   },
-  "QV-immunesystembiotix": {
-    "name": "Immune System Biotix",
-    "subtitle": "Contains nutrients to support immune function to increase resistance to disease and infections.",
-    "description": "A unique potent immune supporting complex of beta glucans (beta 1-3, 1-6 glucan), aged garlic extract, lactobacilli bacteria, vitamin D, selenium, zinc and copper. Designed to support immune system function for everyday wellbeing and increase the body’s resistance to stress and to help increase resistance to disease and infections. Each ingredient has been carefully chosen for its positive action on immune cells. Beta glucans enhance immune function and reduce susceptibility to pathogenic organisms. Aged garlic enhances various immune factors and vitamin D, selenium, zinc and copper have immune modulatory properties. Lastly probiotic bacteria stimulate and regulate immune response.",
+  "QV-eveningprimrose1000mgV30": {
+    "name": "Evening Primrose 1000mg 30 κάψουλες",
+    "subtitle": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ).",
+    "description": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ). Το έλαιο νυχτολούλουδου εξάγεται με μέθοδο εκχύλισης χωρίς οργανικούς διαλύτες. Το Evening Primrose 1000mg περιέχει επιπλέον φυσική βιταμίνη E για τη συντήρηση του ελαίου.",
     "claims": [
-      "Χωρίς γαλακτοκομικά",
-      "Χωρίς γλουτένη",
-      "Χωρίς ξηρούς καρπούς",
-      "Κατάλληλο για χορτοφάγους"
+      "Δεν περιέχει γλουτένη και λακτόζη"
     ],
-    "highlights": [],
+    "highlights": [
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
     "attributes": {
-      "Σειρά": "Biotix™ Range",
-      "Κατηγορίες qnutrapharma.com": "Biotix™ Range | Everyday Health and Wellbeing | Gut and Digestion | Immunity | Multi-Nutrients | Probiotics | Senior’s Health | Stress and Hectic Lifestyle",
+      "Σειρά": "Ωμέγα Λιπαρά Οξέα",
+      "Γνωστοποίηση ΕΟΦ": "130180/04-11-2024",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 κάψουλες",
       "Συσκευασία": "30 κάψουλες",
-      "Κατηγορία qnutrapharma.com": "Biotix™ Range | Everyday Health and Wellbeing | Gut and Digestion | Immunity | Multi-Nutrients | Probiotics | Senior’s Health | Stress and Hectic Lifestyle"
+      "Κατηγορία douni.gr": "Ωμέγα Λιπαρά Οξέα"
     },
     "sections": {
-      "Περιγραφή": "A unique potent immune supporting complex of beta glucans (beta 1-3, 1-6 glucan), aged garlic extract, lactobacilli bacteria, vitamin D, selenium, zinc and copper. Designed to support immune system function for everyday wellbeing and increase the body’s resistance to stress and to help increase resistance to disease and infections. Each ingredient has been carefully chosen for its positive action on immune cells. Beta glucans enhance immune function and reduce susceptibility to pathogenic organisms. Aged garlic enhances various immune factors and vitamin D, selenium, zinc and copper have immune modulatory properties. Lastly probiotic bacteria stimulate and regulate immune response.",
-      "Χαρακτηριστικά": "Χωρίς γαλακτοκομικά\nΧωρίς γλουτένη\nΧωρίς ξηρούς καρπούς\nΚατάλληλο για χορτοφάγους"
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ).\nΤο έλαιο νυχτολούλουδου εξάγεται με μέθοδο εκχύλισης χωρίς οργανικούς διαλύτες. Το Evening Primrose 1000mg περιέχει επιπλέον φυσική βιταμίνη E για τη συντήρηση του ελαίου.",
+      "Οφέλη": "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις κάψουλες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΈλαιο Evening Primrose Από το οποίο: LA (Λινολεϊκό Οξύ) GLA (Γάμμα Λινολενικό Οξύ) · 1000mg 720mg 100mg\nΒιταμίνη E (20i.u.) · 13,4mg\n\nΣυστατικά: Evening Primrose Oil (providing 10% GLA), Capsule Shell (gelatin, glycerin), Vitamin E (from soya). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Evening Primrose περιέχει βιταμίνη Ε από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
     },
-    "image": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/IMMUNE-SYSTEM-BIOTIX.png",
-    "imageFallback": "https://www.qnutrapharma.com/wp-content/uploads/2022/12/IMMUNE-SYSTEM-BIOTIX.png",
+    "image": "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg",
     "images": [
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/IMMUNE-SYSTEM-BIOTIX.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/IMMUNE-SYSTEM-BIOTIX-1.png",
-      "https://www.qnutrapharma.com/wp-content/uploads/2022/12/ImmuneBiotix-1.png"
+      "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg"
     ],
-    "url": "https://www.qnutrapharma.com/product/immune-system-biotix/",
-    "source": "qnutrapharma.com",
-    "section": "probiotika",
+    "url": "https://www.douni.gr/etairies/quest/omega-lipara-oksea/evening-primrose-1000mg/",
+    "source": "douni.gr",
+    "section": "omega",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-eveningprimrose1000mgV90": {
+    "name": "Evening Primrose 1000mg 90 κάψουλες",
+    "subtitle": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ).",
+    "description": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ). Το έλαιο νυχτολούλουδου εξάγεται με μέθοδο εκχύλισης χωρίς οργανικούς διαλύτες. Το Evening Primrose 1000mg περιέχει επιπλέον φυσική βιταμίνη E για τη συντήρηση του ελαίου.",
+    "claims": [
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Ωμέγα Λιπαρά Οξέα",
+      "Γνωστοποίηση ΕΟΦ": "130180/04-11-2024",
+      "Διαθέσιμα μεγέθη": "30 κάψουλες, 90 κάψουλες",
+      "Συσκευασία": "90 κάψουλες",
+      "Κατηγορία douni.gr": "Ωμέγα Λιπαρά Οξέα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Evening Primrose 1000mg της Quest περιέχει έλαιο νυχτολούλουδου, το οποίο είναι μια πλούσια πηγή του ωμέγα 6 λιπαρού οξέος GLA (γάμμα λινολενικό οξύ).\nΤο έλαιο νυχτολούλουδου εξάγεται με μέθοδο εκχύλισης χωρίς οργανικούς διαλύτες. Το Evening Primrose 1000mg περιέχει επιπλέον φυσική βιταμίνη E για τη συντήρηση του ελαίου.",
+      "Οφέλη": "Δεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις κάψουλες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΈλαιο Evening Primrose Από το οποίο: LA (Λινολεϊκό Οξύ) GLA (Γάμμα Λινολενικό Οξύ) · 1000mg 720mg 100mg\nΒιταμίνη E (20i.u.) · 13,4mg\n\nΣυστατικά: Evening Primrose Oil (providing 10% GLA), Capsule Shell (gelatin, glycerin), Vitamin E (from soya). Allergy Advice: For allergens, see ingredients in bold.\n\nΑλλεργιογόνα: Το Evening Primrose περιέχει βιταμίνη Ε από σόγια.",
+      "Χαρακτηριστικά": "Δεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1956/evening-primrose-oil-1000mg-30-caps_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/omega-lipara-oksea/evening-primrose-1000mg/",
+    "source": "douni.gr",
+    "section": "omega",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-ippofaes500mg": {
+    "name": "Ιπποφαές 500mg",
+    "subtitle": "Το συμπλήρωμα διατροφής Ιπποφαές 500mg της Quest περιέχει έλαιο από το φυτό Sea Buckthorn, γνωστό και ως Ιπποφαές, το οποίο αποτελεί μια εξαιρετική «υπερτροφή».",
+    "description": "Το συμπλήρωμα διατροφής Ιπποφαές 500mg της Quest περιέχει έλαιο από το φυτό Sea Buckthorn, γνωστό και ως Ιπποφαές, το οποίο αποτελεί μια εξαιρετική «υπερτροφή». Το Ιπποφαές προσφέρει στον οργανισμό μια μοναδική ποικιλία θρεπτικών συστατικών όπως βιταμίνες, ισχυρά αντιοξειδωτικά, ωμέγα 3, 6, 7 και 9 απαραίτητα λιπαρά οξέα, φλαβονοειδή, καροτενοειδή, ιχνοστοιχεία και φυτοστερόλες. Λόγω της πολυθρεπτικής του σύνθεσης και της πλούσιας περιεκτικότητας του σε ωμέγα λιπαρά οξέα (καλά λιπαρά), το Ιπποφαες χρησιμοποιείται παραδοσιακά για την υποστήριξη της καρδιάς και του δέρματος. Το Ιπποφαές 500mg της Quest έχει πολύ υψηλή περιεκτικότητα σε παλμιτολεϊκο οξύ, το οποίο είναι ένα ωμέγα 7 λιπαρό οξύ.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Ωμέγα Λιπαρά Οξέα",
+      "Γνωστοποίηση ΕΟΦ": "25861/11-03-2022",
+      "Συσκευασία": "60 κάψουλες",
+      "Κατηγορία douni.gr": "Ωμέγα Λιπαρά Οξέα"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Ιπποφαές 500mg της Quest περιέχει έλαιο από το φυτό Sea Buckthorn, γνωστό και ως Ιπποφαές, το οποίο αποτελεί μια εξαιρετική «υπερτροφή».\nΤο Ιπποφαές προσφέρει στον οργανισμό μια μοναδική ποικιλία θρεπτικών συστατικών όπως βιταμίνες, ισχυρά αντιοξειδωτικά, ωμέγα 3, 6, 7 και 9 απαραίτητα λιπαρά οξέα, φλαβονοειδή, καροτενοειδή, ιχνοστοιχεία και φυτοστερόλες. Λόγω της πολυθρεπτικής του σύνθεσης και της πλούσιας περιεκτικότητας του σε ωμέγα λιπαρά οξέα (καλά λιπαρά), το Ιπποφαες χρησιμοποιείται παραδοσιακά για την υποστήριξη της καρδιάς και του δέρματος.\nΤο Ιπποφαές 500mg της Quest έχει πολύ υψηλή περιεκτικότητα σε παλμιτολεϊκο οξύ, το οποίο είναι ένα ωμέγα 7 λιπαρό οξύ.",
+      "Οφέλη": "Κατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως τρεις κάψουλες την ημέρα με το φαγητό μαζί με νερό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΈλαιο Ιπποφαές (Sea Buckthorn Oil) Αποδίδει: Παλμιτολεϊκό Οξύ (ωμέγα 7) · 500mg 150mg\n\nΣυστατικά: Sea Buckthorn Oil, Capsule Shell (corn starch carrageenan).\n\nΑλλεργιογόνα: Το Ιπποφαές 500mg δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1959/ippofaes_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1959/ippofaes_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1959/ippofaes_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/omega-lipara-oksea/ippofaes-500mg/",
+    "source": "douni.gr",
+    "section": "omega",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-ashwagandha500mgextract": {
+    "name": "Ashwagandha 500mg Extract",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Ashwagandha της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού ασβαγκάντα (Withania somnifera), το οποίο χρησιμοποιείται από την παραδοσιακή ινδική ιατρική (Αγιουρβέδα) για τις ιδιότητές του ως προσαρμογόνο, το οποίο ρυθμίζει το στρες του οργανισμού και βοηθάει όταν υπάρχουν προβλήματα άγχους και έντονης κόπωσης. Η Ashwagandha, γνωστή και ως ινδικό τζίνσενγκ, είναι ένα βότανο με αποδεδειγμένη παραδοσιακή χρήση. Μελέτες έχουν δείξει ότι μπορεί να επιδράσει θετικά στο νευρικό σύστημα, βοηθώντας τον οργανισμό να προσαρμόζεται σε καταστάσεις έντονου στρες, ανησυχίας και έντονης κόπωσης. Προτείνεται για τη διαχείριση του έντονου στρες και τη διατήρηση των επιπέδων ενέργειας. Το Ashwagandha της Quest περιέχει ανά κάψουλα 500mg τυποποιημένου εκχυλίσματος ρίζας ασβαγκάντα που αποδίδει 17,5mg withanolides, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "101806/27-09-2023",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Ashwagandha της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού ασβαγκάντα (Withania somnifera), το οποίο χρησιμοποιείται από την παραδοσιακή ινδική ιατρική (Αγιουρβέδα) για τις ιδιότητές του ως προσαρμογόνο, το οποίο ρυθμίζει το στρες του οργανισμού και βοηθάει όταν υπάρχουν προβλήματα άγχους και έντονης κόπωσης.\nΗ Ashwagandha, γνωστή και ως ινδικό τζίνσενγκ, είναι ένα βότανο με αποδεδειγμένη παραδοσιακή χρήση. Μελέτες έχουν δείξει ότι μπορεί να επιδράσει θετικά στο νευρικό σύστημα, βοηθώντας τον οργανισμό να προσαρμόζεται σε καταστάσεις έντονου στρες, ανησυχίας και έντονης κόπωσης. Προτείνεται για τη διαχείριση του έντονου στρες και τη διατήρηση των επιπέδων ενέργειας.\nΤο Ashwagandha της Quest περιέχει ανά κάψουλα 500mg τυποποιημένου εκχυλίσματος ρίζας ασβαγκάντα που αποδίδει 17,5mg withanolides, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια έως δύο κάψουλες την ημέρα με το φαγητό μαζί με νερό.\nΗ Ashwagandha, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Το προϊόν αυτό δεν υπόκειται σε διαδικασία αδειοδότησης.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια κάψουλα παρέχει:\nΕκχύλισμα Ρίζας Ashwagandha Αποδίδει: withanolides · 500mg 17,5mg\n\nΣυστατικά: Ashwagandha extract, Capsule shell (hydroxypropylmethylcellulose), Bulking agent (microcrystalline cellulose), Magnesium stearate, Anti-caking agent (precipitated silicon dioxide).\n\nΑλλεργιογόνα: Το Ashwagandha δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2153/ashwagandha-root-extract-500mg-60s-site.jpg",
+    "imageFallback": "https://www.douni.gr/media/2153/ashwagandha-root-extract-500mg-60s-site.jpg",
+    "images": [
+      "https://www.douni.gr/media/2153/ashwagandha-root-extract-500mg-60s-site.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/ashwagandha-500mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-agnuscastus71mgextract": {
+    "name": "Agnus Castus 71mg Extract",
+    "subtitle": "Το συμπλήρωμα διατροφής Agnus Castus της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού άγκνους κάστους (Vitex agnus castus).",
+    "description": "Το συμπλήρωμα διατροφής Agnus Castus της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού άγκνους κάστους (Vitex agnus castus). To Agnus Castus ή λυγαρια είναι γνωστό βότανο από την αρχαιότητα και είναι πλούσιο σε αλκαλοειδή και φλαβονοειδή. Το Agnus Castus της Quest περιέχει τυποποιημένο εκχύλισμα καρπών Agnus castus, το οποίο ισοδυναμεί με 900mg αποξηραμένων καρπών του βοτάνου και αποδίδει 0,3μg καμφερόλης, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "3178/13-01-2022",
+      "Συσκευασία": "90 δισκία",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Agnus Castus της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού άγκνους κάστους (Vitex agnus castus). To Agnus Castus ή λυγαρια είναι γνωστό βότανο από την αρχαιότητα και είναι πλούσιο σε αλκαλοειδή και φλαβονοειδή.\nΤο Agnus Castus της Quest περιέχει τυποποιημένο εκχύλισμα καρπών Agnus castus, το οποίο ισοδυναμεί με 900mg αποξηραμένων καρπών του βοτάνου και αποδίδει 0,3μg καμφερόλης, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα, μία έως τρεις φορές την ημέρα με το φαγητό μαζί με νερό.\nΤο Agnus Castus, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα καρπών Agnus Castus Αποδίδει: Kaempferol (καμφερόλη) · 71mg* 0,3μg\n*Ισοδυναμεί με 900mg αποξηραμένων καρπών του βοτάνου.\n\nΣυστατικά: Di-Calcium Phosphate, Bulking agent: Microcrystalline Cellulose, Agnus Castus fruit extract, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Agnus Castus δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1949/agnus-castus-71mg-extract-90-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1949/agnus-castus-71mg-extract-90-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1949/agnus-castus-71mg-extract-90-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/agnus-castus-71mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-ginkgobiloba150mgextractV30": {
+    "name": "Ginkgo Biloba 150mg Extract 30 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας.",
+    "description": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας. Το τζίνγκο μπιλόμπα, γνωστό και ως γίνκο το δίλοβο ή σαλιβουρία, είναι ένα βότανο με αποδεδειγμένη δράση στη κυκλοφορία του αίματος, το οποίο μπορεί να συμβάλλει στη φυσιολογική λειτουργία του εγκεφάλου, την πνευματική απόδοση και την γνωσιακή λειτουργία. Το Ginkgo Biloba της Quest περιέχει τυποποιημένο εκχύλισμα φύλλων Ginkgo Biloba, το οποίο ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου και αποδίδει 36mg ginkgo flavonglycosides, 4,5mg ginkgolides A, B & C και 3,8mg bilobalide, που είναι δραστικά συστατικά αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "78717/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας.\nΤο τζίνγκο μπιλόμπα, γνωστό και ως γίνκο το δίλοβο ή σαλιβουρία, είναι ένα βότανο με αποδεδειγμένη δράση στη κυκλοφορία του αίματος, το οποίο μπορεί να συμβάλλει στη φυσιολογική λειτουργία του εγκεφάλου, την πνευματική απόδοση και την γνωσιακή λειτουργία.\nΤο Ginkgo Biloba της Quest περιέχει τυποποιημένο εκχύλισμα φύλλων Ginkgo Biloba, το οποίο ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου και αποδίδει 36mg ginkgo flavonglycosides, 4,5mg ginkgolides A, B & C και 3,8mg bilobalide, που είναι δραστικά συστατικά αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.\nΤο Ginkgo Biloba, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.\nΣε σπάνιες περιπτώσεις, ενδέχεται να παρουσιαστούν φαινόμενα υπερευαισθησίας με αλλεργικές αντιδράσεις, πονοκεφάλους και εκδηλώσεις από το γαστρεντερικό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΣυμβουλευτείτε τον γιατρό σας πριν τη χρήση του Ginkgo Biloba αν παίρνετε αντιπηκτικά φάρμακα.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα φύλλων Ginkgo Biloba Αποδίδει: Ginkgo Flavonglycosides · 150mg* 36mg\n*Ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου.\n\nΣυστατικά: Di-Calcium Phosphate, Ginkgo Biloba 50:1 extract, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing agest: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Σε σπάνιες περιπτώσεις, ενδέχεται να παρουσιαστούν φαινόμενα υπερευαισθησίας με αλλεργικές αντιδράσεις.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/ginkgo-biloba-150mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-ginkgobiloba150mgextractV60": {
+    "name": "Ginkgo Biloba 150mg Extract 60 δισκία",
+    "subtitle": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας.",
+    "description": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας. Το τζίνγκο μπιλόμπα, γνωστό και ως γίνκο το δίλοβο ή σαλιβουρία, είναι ένα βότανο με αποδεδειγμένη δράση στη κυκλοφορία του αίματος, το οποίο μπορεί να συμβάλλει στη φυσιολογική λειτουργία του εγκεφάλου, την πνευματική απόδοση και την γνωσιακή λειτουργία. Το Ginkgo Biloba της Quest περιέχει τυποποιημένο εκχύλισμα φύλλων Ginkgo Biloba, το οποίο ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου και αποδίδει 36mg ginkgo flavonglycosides, 4,5mg ginkgolides A, B & C και 3,8mg bilobalide, που είναι δραστικά συστατικά αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Σύνθεση μίας ταμπλέτας την ημέρα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "78717/27-08-2021",
+      "Διαθέσιμα μεγέθη": "30 δισκία, 60 δισκία",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Ginkgo Biloba της Quest περιέχει εκχύλισμα από τα φύλλα του φυτού τζίνγκο μπιλόμπα, το οποίο χρησιμοποιείται παραδοσιακά στις χώρες της Ασίας.\nΤο τζίνγκο μπιλόμπα, γνωστό και ως γίνκο το δίλοβο ή σαλιβουρία, είναι ένα βότανο με αποδεδειγμένη δράση στη κυκλοφορία του αίματος, το οποίο μπορεί να συμβάλλει στη φυσιολογική λειτουργία του εγκεφάλου, την πνευματική απόδοση και την γνωσιακή λειτουργία.\nΤο Ginkgo Biloba της Quest περιέχει τυποποιημένο εκχύλισμα φύλλων Ginkgo Biloba, το οποίο ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου και αποδίδει 36mg ginkgo flavonglycosides, 4,5mg ginkgolides A, B & C και 3,8mg bilobalide, που είναι δραστικά συστατικά αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΣύνθεση μίας ταμπλέτας την ημέρα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα την ημέρα με το φαγητό μαζί με νερό.\nΤο Ginkgo Biloba, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.\nΣε σπάνιες περιπτώσεις, ενδέχεται να παρουσιαστούν φαινόμενα υπερευαισθησίας με αλλεργικές αντιδράσεις, πονοκεφάλους και εκδηλώσεις από το γαστρεντερικό.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΣυμβουλευτείτε τον γιατρό σας πριν τη χρήση του Ginkgo Biloba αν παίρνετε αντιπηκτικά φάρμακα.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα φύλλων Ginkgo Biloba Αποδίδει: Ginkgo Flavonglycosides · 150mg* 36mg\n*Ισοδυναμεί με 7500mg αποξηραμένων φύλλων του βοτάνου.\n\nΣυστατικά: Di-Calcium Phosphate, Ginkgo Biloba 50:1 extract, Bulking agent: Microcrystalline Cellulose, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing agest: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Σε σπάνιες περιπτώσεις, ενδέχεται να παρουσιαστούν φαινόμενα υπερευαισθησίας με αλλεργικές αντιδράσεις.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1958/ginkgo-biloba-150mg-extract-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/ginkgo-biloba-150mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-milkthistle150mgextract": {
+    "name": "Milk Thistle 150mg Extract",
+    "subtitle": "Το συμπλήρωμα διατροφής Milk Thistle της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού γαϊδουράγκαθο (Silybum marianum), το οποίο είναι αυτοφυές φυτό της βόρειας Ευρώπης.",
+    "description": "Το συμπλήρωμα διατροφής Milk Thistle της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού γαϊδουράγκαθο (Silybum marianum), το οποίο είναι αυτοφυές φυτό της βόρειας Ευρώπης. Πλέον το βρίσκουμε σε όλο τον κόσμο. Το γαϊδουράγκαθο είναι ένα βότανο με αποδεδειγμένη δράση. Μπορεί να βοηθήσει στην καλή λειτουργία του συκωτιού. Το Milk Thistle της Quest περιέχει τυποποιημένο εκχύλισμα καρπών Milk Thistle, το οποίο ισοδυναμεί με 7500mg αποξηραμένων καρπών του βοτάνου και αποδίδει 105mg σιλυμαρίνη, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "12304/07-02-2022",
+      "Συσκευασία": "60 δισκία",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Milk Thistle της Quest περιέχει εκχύλισμα από τους καρπούς του φυτού γαϊδουράγκαθο (Silybum marianum), το οποίο είναι αυτοφυές φυτό της βόρειας Ευρώπης. Πλέον το βρίσκουμε σε όλο τον κόσμο.\nΤο γαϊδουράγκαθο είναι ένα βότανο με αποδεδειγμένη δράση. Μπορεί να βοηθήσει στην καλή λειτουργία του συκωτιού.\nΤο Milk Thistle της Quest περιέχει τυποποιημένο εκχύλισμα καρπών Milk Thistle, το οποίο ισοδυναμεί με 7500mg αποξηραμένων καρπών του βοτάνου και αποδίδει 105mg σιλυμαρίνη, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα, μία έως τρεις φορές την ημέρα με το φαγητό μαζί με νερό.\nΤο Milk Thistle, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα καρπών Milk Thistle Αποδίδει: Silymarin (σιλυμαρίνη) (από την οποία: Silybin και Isosilybin · 150mg* 105mg 45mg)\n*Ισοδυναμεί με 7500mg αποξηραμένων καρπών του βοτάνου.\n\nΣυστατικά: Dicalcium Phosphate, Bulking agent: Microcrystalline Cellulose, Milk Thistle fruit extract, Magnesium Stearate, Anti-caking agent: Silicon Dioxide, Glazing agent: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Milk Thistle δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1998/milk-thistle-150mg-extract-60-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1998/milk-thistle-150mg-extract-60-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1998/milk-thistle-150mg-extract-60-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/milk-thistle-150mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-rhodiola250mgextract": {
+    "name": "Rhodiola 250mg Extract",
+    "subtitle": null,
+    "description": "Το συμπλήρωμα διατροφής Rhodiola της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού ροντιόλα (Rhodiola rosea), το οποίο χρησιμοποιείται παραδοσιακά από τους Ρώσους και τους Κινέζους για τις ιδιότητές του να ρυθμίζει το στρες του οργανισμού. Η ροντιόλα ή χρυσή ρίζα είναι ένα βότανο με αποδεδειγμένη παραδοσιακή χρήση. Μελέτες έχουν δείξει ότι μπορεί να επιδράσει θετικά στο νευρικό σύστημα, βοηθώντας τον οργανισμό να προσαρμόζεται σε στρεσογόνες καταστάσεις. Το Rhodiola της Quest περιέχει τυποποιημένο εκχύλισμα ρίζας ροντιόλας, το οποίο ισοδυναμεί με 1000mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 2,5mg salidroside, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "78719/27-08-2021",
+      "Συσκευασία": "30 δισκία",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Rhodiola της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού ροντιόλα (Rhodiola rosea), το οποίο χρησιμοποιείται παραδοσιακά από τους Ρώσους και τους Κινέζους για τις ιδιότητές του να ρυθμίζει το στρες του οργανισμού.\nΗ ροντιόλα ή χρυσή ρίζα είναι ένα βότανο με αποδεδειγμένη παραδοσιακή χρήση. Μελέτες έχουν δείξει ότι μπορεί να επιδράσει θετικά στο νευρικό σύστημα, βοηθώντας τον οργανισμό να προσαρμόζεται σε στρεσογόνες καταστάσεις.\nΤο Rhodiola της Quest περιέχει τυποποιημένο εκχύλισμα ρίζας ροντιόλας, το οποίο ισοδυναμεί με 1000mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 2,5mg salidroside, που είναι δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα, μία έως δύο φορές την ημέρα με το φαγητό μαζί με νερό.\nΤο Rhodiola, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Να φυλάσσεται μακριά από τα μικρά παιδιά. Ο αριθμός γνωστοποίησης στον ΕΟΦ δεν επέχει θέση άδειας κυκλοφορίας από τον ΕΟΦ.",
+      "Συστατικά": "Θρεπτική αξία:\nΘρεπτική Αξία\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα Ρίζας Rhodiola Αποδίδει: Salidroside · 250mg* 2,5mg\n*Ισοδυναμεί με 1000mg αποξηραμένης ρίζας του βοτάνου.\n\nΣυστατικά: Di-Calcium Phosphate, Rhodiola extract, Bulking agent: Microcrystalline Cellulose, Anti-caking agent: Silicon Dioxide, Magnesium Stearate, Glazing agest: Hydroxypropylmethylcellulose.\n\nΑλλεργιογόνα: Το Rhodiola δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/1968/rhodiola-250mg-extract-30-tabs_new.jpg",
+    "imageFallback": "https://www.douni.gr/media/1968/rhodiola-250mg-extract-30-tabs_new.jpg",
+    "images": [
+      "https://www.douni.gr/media/1968/rhodiola-250mg-extract-30-tabs_new.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/rhodiola-250mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "QV-valerian125mgextract": {
+    "name": "Valerian 125mg Extract",
+    "subtitle": "Το συμπλήρωμα διατροφής Valerian της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού βαλεριάνα (Valeriana officinalis), το οποίο χρησιμοποιείται παραδοσιακά στην Ευρώπη.",
+    "description": "Το συμπλήρωμα διατροφής Valerian της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού βαλεριάνα (Valeriana officinalis), το οποίο χρησιμοποιείται παραδοσιακά στην Ευρώπη. Το Valerian της Quest περιέχει 125mg τυποποιημένο εκχύλισμα ρίζας βαλεριάνας, το οποίο ισοδυναμεί με 500mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 250μg βαλερινικών οξέων, που είναι το δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου. Τα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+    "claims": [
+      "Κατάλληλο για χορτοφάγους και vegans",
+      "Δεν περιέχει γλουτένη και λακτόζη"
+    ],
+    "highlights": [
+      "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.",
+      "Κατάλληλο για χορτοφάγους και vegans.",
+      "Δεν περιέχει γλουτένη και λακτόζη."
+    ],
+    "attributes": {
+      "Σειρά": "Φυτοθρεπτικά",
+      "Γνωστοποίηση ΕΟΦ": "135080",
+      "Κατηγορία douni.gr": "Φυτοθρεπτικά"
+    },
+    "sections": {
+      "Περιγραφή": "Το συμπλήρωμα διατροφής Valerian της Quest περιέχει εκχύλισμα από τη ρίζα του φυτού βαλεριάνα (Valeriana officinalis), το οποίο χρησιμοποιείται παραδοσιακά στην Ευρώπη.\nΤο Valerian της Quest περιέχει 125mg τυποποιημένο εκχύλισμα ρίζας βαλεριάνας, το οποίο ισοδυναμεί με 500mg αποξηραμένης ρίζας του βοτάνου και αποδίδει 250μg βαλερινικών οξέων, που είναι το δραστικό συστατικό αυτού του παραδοσιακά χρησιμοποιούμενου βοτάνου.\nΤα τυποποιημένα εκχυλίσματα αποδίδουν μια συγκεκριμένη ποσότητα δραστικών συστατικών, η οποία είναι η ίδια ανεξαρτήτως της παρτίδας του προϊόντος και είναι ασφαλής και αποτελεσματική σύμφωνα με μελέτες.",
+      "Οφέλη": "Τυποποιημένο εκχύλισμα με σταθερή περιεκτικότητα και αποτελεσματικότητα.\nΚατάλληλο για χορτοφάγους και vegans.\nΔεν περιέχει γλουτένη και λακτόζη.",
+      "Χρήση": "Μια ταμπλέτα, μία έως τρεις φορές την ημέρα με το φαγητό μαζί με νερό.\nΤο Valerian, όπως όλα τα βότανα, δεν προτείνεται σε εγκύους, γυναίκες που θηλάζουν και παιδιά.",
+      "Προφυλάξεις": "Διατηρείται σε μέρος ξηρό και δροσερό, σε θερμοκρασία μικρότερη των 25°C. Φυλάσσεται μακριά από παιδιά.\nΝα μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Συμβουλευτείτε τον γιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε προβλήματα υγείας. Το προϊόν αυτό δεν υπόκειται σε διαδικασία αδειοδότησης.",
+      "Συστατικά": "Θρεπτική αξία:\nΜια ταμπλέτα παρέχει:\nΕκχύλισμα ρίζας Valerian Αποδίδει: Valerenic Acids (βαλερινικά οξεά) · 125mg* 250µg\n*Ισοδυναμεί με 500mg αποξηραμένης ρίζας του βοτάνου.\n\nΣυστατικά: Συστατικά: Di-Calcium Phosphate, Valerian root extract (with maltodextrin & silicon dioxide), Bulking agent: Microcrystalline Cellulose, Croscarmellose Sodium, Anti-caking agent: Silicon Dioxide, Magnesium Stearate.\n\nΑλλεργιογόνα: Το Valerian δεν περιέχει συστατικά που προκαλούν αλλεργίες.",
+      "Χαρακτηριστικά": "Κατάλληλο για χορτοφάγους και vegans\nΔεν περιέχει γλουτένη και λακτόζη"
+    },
+    "image": "https://www.douni.gr/media/2333/valerian_60tabs.jpg",
+    "imageFallback": "https://www.douni.gr/media/2333/valerian_60tabs.jpg",
+    "images": [
+      "https://www.douni.gr/media/2333/valerian_60tabs.jpg"
+    ],
+    "url": "https://www.douni.gr/etairies/quest/fytothreptika/valerian-125mg-extract/",
+    "source": "douni.gr",
+    "section": "votana",
     "matchType": "exact",
     "score": null,
     "review": false
