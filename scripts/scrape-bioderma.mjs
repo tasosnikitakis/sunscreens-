@@ -49,7 +49,7 @@ export function extractBiodermaDetails(html, url) {
   html = html.replace(/<div>\s*<a href="#" class="underline"[^>]*>\s*Δες τις πηγές\s*<\/a>\s*<div class="modal[\s\S]*?<div class="modal-body">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/div>/g, "");
   const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
   const main = html.slice(html.indexOf('itemtype="http://schema.org/Product"'), html.indexOf("</main>"));
-  d.title = oneLine((main.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "") || oneLine([...main.matchAll(/<meta itemprop="name" content="([^"]+)"/g)].map(m => m[1]).filter(n => !/^Bioderma$/i.test(n))[0] || "") || null;
+  d.title = (oneLine((main.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "") || oneLine([...main.matchAll(/<meta itemprop="name" content="([^"]+)"/g)].map(m => m[1]).filter(n => !/^Bioderma$/i.test(n))[0] || "") || "").replace(/^(Sébium) Sébium /, "$1 ") || null;
   d.line = ((main.match(/<section class="row product ([a-z0-9-]+)/) || [])[1] || "").replace(/-/g, " ") || null;
   if (d.line) { d.line = d.line[0].toUpperCase() + d.line.slice(1); d.series = d.line; d.attributes["Σειρά"] = d.line; }
   const skin = oneLine((main.match(/<p class="skin[^"]*">([\s\S]*?)<\/p>/) || [])[1] || "");
@@ -84,11 +84,11 @@ export function extractBiodermaDetails(html, url) {
   const mainEan = (main.match(/<meta itemprop="gtin" content="(\d{8,14})"/) || [])[1] || (main.match(/data-main-ean="(\d{8,14})"/) || [])[1];
   if (!d.variants.length && mainEan) d.variants.push({ ean: mainEan, size: "", vol: null });
   // όνομα μεγέθους: «Μπουκάλι με αντλία 500 ml» → «500ml»· αν δύο ίδιες ποσότητες με άλλη συσκευασία → κρατάμε όλη την ετικέτα
-  for (const v of d.variants) { const dup = d.variants.filter(x => x.vol && x.vol === v.vol).length > 1; v.short = v.vol && !dup ? v.vol : v.size; }
+  for (const v of d.variants) { const dup = d.variants.filter(x => x.vol && x.vol === v.vol).length > 1; v.label = v.size; v.short = v.vol && !dup ? v.vol : v.size.replace(/(\d)\s+ml\b/, "$1ml"); v.size = v.short; }   // όνομα: «500ml»· ίδια ποσότητα σε άλλη συσκευασία → «Σωληνάριο 200ml»
   d.gtin = d.variants[0] ? d.variants[0].ean : mainEan || null; d.eans = d.variants.map(v => v.ean);
   d.sizes = d.variants.map(v => v.short).filter(Boolean); d.size = d.sizes[0] || null;
-  if (d.variants.length > 1) d.attributes["Διαθέσιμα μεγέθη"] = d.variants.map(v => v.size).join(", ");
-  else if (d.variants[0] && d.variants[0].size) d.attributes["Συσκευασία"] = d.variants[0].size;
+  if (d.variants.length > 1) d.attributes["Διαθέσιμα μεγέθη"] = d.variants.map(v => v.label).join(", ");
+  else if (d.variants[0] && d.variants[0].label) d.attributes["Συσκευασία"] = d.variants[0].label;
   // εικόνες (fancybox 2000px)
   for (const m of main.matchAll(/class="product-fancybox"[^>]*href="([^"]+)"/g)) { const u = decodeAll(m[1]); if (!d.images.includes(u)) d.images.push(u); }
   if (!d.images.length) { const u = (main.match(/<meta itemprop="image" content="([^"]+)"/) || [])[1]; if (u) d.images.push(decodeAll(u)); }
