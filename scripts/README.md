@@ -266,6 +266,12 @@ scratch), αλλιώς η ενότητα βγαίνει από το όνομα (
 → μία εγγραφή. Το site δεν δίνει EAN ούτε μέγεθος: τα μεγέθη της ελληνικής αγοράς (από τον τιμοκατάλογο) είναι στο
 `js/quest-sizes.json` και γίνονται variants `QV-<slug>V<πλήθος>`· τιμές με `js/quest-manual-matches.json` (barcode → κλειδί).
 
+`scripts/scrape-vitabiotics.mjs` (Vitabiotics, vitabiotics.gr — WooCommerce, robots.txt Crawl-Delay 20 → 20s ανά σελίδα):
+λίστα και βασικά στοιχεία από το Store API (`/wp-json/wc/store/v1/products`: περιγραφή, μέγεθος + bullets στο short description,
+μορφή, διατροφικές συνήθειες, εικόνες). Οι σελίδες έχουν bot check («One moment…») → Playwright για τα tabs (διατροφικός
+πίνακας + συστατικά, οδηγίες, συχνές ερωτήσεις· τα slugs των tabs διαφέρουν ανά προϊόν). Κλειδιά `VB-<slug>`·
+τιμές με `js/vitabiotics-manual-matches.json` (Wellman/Wellwoman/Jointace κ.ά. δεν κυκλοφορούν στο ελληνικό site).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
