@@ -57,12 +57,12 @@ const LINE_RULES = [
 // Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
 // αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
 // προτάσσουμε τη σειρά (χωρίς τις λέξεις κατηγορίας "Πρόσωπο"/"Μαλλιά").
-const NAME_FIX = {};
+const NAME_FIX = { "shower-gel-ange-des-vigne-441": "Ange des Vignes Shower Gel", "mousse-eclat-micro-peeling-vinoperfect-431c": "Brightening Micropeel Foam" };
 function siteProductName(d, fallback) {
   if (NAME_FIX[d.handle]) return NAME_FIX[d.handle];
   // Caudalie: χωρίς το πρόθεμα της μάρκας (το προσθέτει η εφαρμογή), χωρίς ®, Latin ΚΕΦΑΛΑΙΑ → Title Case
   let title = String(d.fullTitle || d.title || fallback || "").replace(/®|™/g, "").replace(/\s+/g, " ").trim();
-  title = title.replace(/^(SOLGAR|Caudalie)\s+/i, "").replace(/^AID\b/, "Aid").replace(/1Lt$/, "1L").replace(/\|/g, "–").trim();
+  title = title.replace(/^(SOLGAR|Caudalie)\s+/i, "").replace(/\s*-\s*\d+(?:[.,]\d+)?\s?ml$/i, "").replace(/\|/g, "–").trim();
   // ελληνικά κεφαλαία μέσα σε λατινική λέξη (ΜASK → MASK)
   const G2L = { Α: "A", Β: "B", Ε: "E", Η: "H", Ι: "I", Κ: "K", Μ: "M", Ν: "N", Ο: "O", Ρ: "P", Τ: "T", Υ: "Y", Χ: "X", Ζ: "Z" };
   title = title.replace(/[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ](?=[A-Z]{2})|(?<=[A-Z]{2})[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ]/g, c => G2L[c]);
@@ -75,17 +75,18 @@ const LINE_MAP = {};
 // Caudalie: οι κατηγορίες του site είναι «ανά ανάγκη» και επικαλύπτονται → ενότητα από το είδος του προϊόντος
 // (κατηγορίες «ανά κατηγορία προϊόντος» + όνομα), με σειρά προτεραιότητας.
 function solgarSection(d) {
-  // Caudalie: σειρά (πρόθεμα ονόματος) → ενότητα
-  const n = String(d.title || ""), L = String(d.line || "");
-  if (/^Lip Treatment Kids/i.test(n)) return "kids";
-  if (/^Baby/i.test(L)) return "baby";
-  if (/^Kids/i.test(L)) return "kids";
-  if (/^Scalp Biome/i.test(L)) return "scalp";
-  if (/^Hygienic/i.test(L)) return "hygienic";
-  if (/^(Derma Balance|Mama|Lip Treatment)/i.test(L)) return "derma";
-  if (/^(Heliodor|Bite Free)/i.test(L)) return "heliodor";
-  if (/^Aid/i.test(L)) return "aid";
-  return "eidiki";
+  // Caudalie: σειρά (caudalie_range_label) + όνομα → ενότητα
+  const n = String(d.title || ""), L = String(d.line || ""), c = String(d.category || "");
+  if (/Fresh Fragrance|Eau Fraîche|Eau de Parfum|Αρώματ/i.test(n + " " + L)) return "fragrance";
+  if (/Αντηλιακ|Sun|SPF|After-Sun|Self-Tan/i.test(L + " " + n)) return "sun";
+  if (/Vinoclean|Beauty Elixir|Grape Water/i.test(L + " " + n)) return "vinoclean";
+  if (/VinoHydra/i.test(L)) return "vinohydra";
+  if (/Vinoperfect/i.test(L)) return "vinoperfect";
+  if (/Vinopure/i.test(L)) return "vinopure";
+  if (/Resveratrol/i.test(L)) return "resveratrol";
+  if (/Premier Cru/i.test(L)) return "premiercru";
+  if (/Μαλλι|Vinocrush/i.test(L + " " + c)) return "hair";
+  return "body";
 }
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
 const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (URIAGE-…) για σελίδες χωρίς EAN
@@ -240,17 +241,6 @@ async function main() {
     const sb = `// Auto-generated (scripts/fill-brand-missing.mjs + match-${BRAND}.mjs).\n// Pharmacy-based συμπλήρωμα για barcodes χωρίς σελίδα στο brand site· section = ενότητα από το όνομα supplier.\n// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).\n`;
     await fs.writeFile(SUPPLEMENTAL_FILE, sb + `window.${BRAND.toUpperCase()}_SUPPLEMENTAL = ` + JSON.stringify(supplemental, null, 2) + ";\n", "utf8");
   }
-  // Caudalie: το site δεν γράφει μέγεθος στα απλά προϊόντα → από το όνομα της γραμμής του τιμοκαταλόγου (Caudalie.tsv)
-  try {
-    const rows = (await fs.readFile(path.join(ROOT, "Caudalie.tsv"), "utf8")).trim().split("\n").map(l => l.split("\t"));
-    const nameOf = new Map(rows.map(r => [r[1], r[3]]));
-    for (const [bc, key] of Object.entries(manual)) {
-      if (!key || bc.startsWith("_") || !overrides[key] || overrides[key].attributes["Συσκευασία"]) continue;
-      const n = String(nameOf.get(bc) || "");
-      const m = n.match(/(\d{1,4})\s?(ml|gr|g|lt|l)\b/i) || n.match(/(\d{1,3})\s?(τεμάχια|τμχ|τεμ|tmx|tem)(?!\p{L})/iu) || n.match(/(\d{1,2})\s?(cm\s?x\s?\d{1,2}\s?cm)/i);
-      if (m) overrides[key].attributes["Συσκευασία"] = /τμχ|τεμ|tmx|tem/i.test(m[2]) ? `${m[1]} τεμ.` : (m[1] + m[2].toLowerCase()).replace(/gr$/, "g").replace(/^(\d+)(lt|l)$/, "$1L").replace(/\s+/g, " ");
-    }
-  } catch {}
   // Ίδιο όνομα σε περισσότερα προϊόντα (διαφορετικά μεγέθη): το μέγεθος στο όνομα
   {
     const byName = {};

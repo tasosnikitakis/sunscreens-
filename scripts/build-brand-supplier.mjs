@@ -171,8 +171,8 @@ async function main() {
     try { manual = JSON.parse(await fs.readFile(path.join(ROOT, `js/${BRAND}-manual-matches.json`), "utf8")); } catch {}
     const normUrl = u => String(u || "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
     const siteByUrl = new Map(site.map(sp => [normUrl(sp.url), sp]));
-    // Η τιμή του manual match είναι url σελίδας ή συνθετικό κλειδί μεγέθους (π.χ. "SG-…V60t" — σελίδα με πολλά μεγέθη χωρίς EAN, Solgar)
-    for (const [bc, u] of Object.entries(manual)) if (u && !bc.startsWith("_")) { if (/^[A-Z]{2,5}-/.test(u)) manualBcOfKey.set(u, bc); else manualBcOfUrl.set(normUrl(u), bc); }   // για --prices χωρίς --xlsx
+    // Η τιμή του manual match είναι url σελίδας, EAN σελίδας ή συνθετικό κλειδί μεγέθους (π.χ. "SG-…V60t" — σελίδα με πολλά μεγέθη χωρίς EAN, Solgar)
+    for (const [bc, u] of Object.entries(manual)) if (u && !bc.startsWith("_")) { if (/^[A-Z]{2,5}-|^\d{8,14}$/.test(u)) manualBcOfKey.set(u, bc); /* συνθετικό κλειδί ή EAN σελίδας (Caudalie: παλιός κωδικός → νέο EAN) */ else manualBcOfUrl.set(normUrl(u), bc); }   // για --prices χωρίς --xlsx
     const sizeOf = s => { const m = String(s || "").match(/(\d{1,4}(?:[.,]\d+)?)\s?(ml|gr|g|kg|l|τμχ|caps|tabs)\b/i); return m ? (m[1].replace(",", ".") + m[2].toLowerCase().replace("gr", "g")).replace(/^(\d+)l$/, "$1000ml") : null; };
     let aliased = 0;
     for (const p of products) {
