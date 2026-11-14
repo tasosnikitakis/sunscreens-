@@ -187,6 +187,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Superfoods", imageDir: "superfoods", sourceKey: "_superfoodsSource",
     fallbackDesc: "Προϊόν Superfoods — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  centrum: {
+    key: "centrum", name: "Centrum", host: "vitamins.centrum.gr", page: "centrum.html",
+    icon: "💊", initials: "CE", accent: "#b91c1c",
+    sheetName: "Centrum", imageDir: "centrum", sourceKey: "_centrumSource",
+    fallbackDesc: "Προϊόν Centrum — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Χαρακτηριστικά"]
   }
 };
 

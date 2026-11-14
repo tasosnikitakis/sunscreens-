@@ -283,6 +283,12 @@ scratch), αλλιώς η ενότητα βγαίνει από το όνομα (
 ΠΡΟΤΕΙΝΕΤΑΙ ΣΕ / ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ / ΧΩΡΙΣ, προειδοποιήσεις, ΕΟΦ, «Η υπερτροφή». Κλειδιά `SF-<slug>`· τιμές με
 `js/superfoods-manual-matches.json` (Herbatuss → Anasa, Slim Detox → S Detox· Cod Liver Oil/Omegadvance/SForm/Your Bar δεν έχουν σελίδα).
 
+`scripts/scrape-centrum.mjs` (Centrum / Haleon Hellas, vitamins.centrum.gr — μία landing σελίδα με όλη την ελληνική γκάμα· το
+haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update» και το haleon.com έχει bot challenge): κάθε `<div class="pic">` =
+προϊόν (.iTitle, `<li>` περιγραφή/οφέλη, .prd-ref συσκευασία/δοσολογία/ΕΟΦ, .item-type ηλικία). Πολλά μεγέθη («30, 60 δισκίων και 20
+αναβράζοντων») → variants `CE-<slug><N>`· τιμές με `js/centrum-manual-matches.json` (νεότερο barcode ανά μέγεθος, Select 50+ = Silver 50+).
+Το site δεν έχει συστατικά/προειδοποιήσεις → πολλά προϊόντα βγαίνουν «ανεπαρκής περιγραφή».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
