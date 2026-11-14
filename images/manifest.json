@@ -10630,5 +10630,29 @@
   "5204799050139": "froika/sensitive-foaming-gel-200ml-5204799050139.png",
   "5204799030193": "froika/sensitive-l-5204799030193.png",
   "5204799020132": "froika/sensitive-hydratant-milk-5204799020132.png",
-  "5204799011161": "froika/premium-cream-spf-30-5204799011161.png"
+  "5204799011161": "froika/premium-cream-spf-30-5204799011161.png",
+  "_mollersSource": {
+    "MO-omega3jellyfishcola": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/11/Pi7_Tool_Mollers_design_packshots_UK_jellies_cola_732x1024p.jpg",
+    "MO-omega3jellyfishtuttifrutti": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/Jelly_TF-Copy.png",
+    "MO-codliveroilapple": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/CLO_Apple_Uden-1.png",
+    "MO-codliveroiltuttifrutti": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/CLO_TF.png",
+    "MO-codliveroillemon": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/CLO_Lemon-1.png",
+    "MO-total": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/Cap_total_uden-1.png",
+    "MO-active": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2022/11/Digital_Mollers_clo_caps_732x1024_.png",
+    "MO-dailyhealth": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/Cap_daily_uden-2.png",
+    "MO-myfirstomega3": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/05/Digi_CLO_Myfirst-version-2.png",
+    "MO-omega3jellyfish": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/Jelly_Straw.png",
+    "MO-codliveroil": "https://www.mollersomega3.com/wp-content/uploads/sites/51/2023/03/CLO_Natural.png"
+  },
+  "MO-omega3jellyfishcola": "mollers/omega-3-cola-MO-omega3jellyfishcola.jpg",
+  "MO-omega3jellyfishtuttifrutti": "mollers/omega-3-tutti-frutti-MO-omega3jellyfishtuttifrutti.png",
+  "MO-codliveroilapple": "mollers/apple-MO-codliveroilapple.png",
+  "MO-codliveroiltuttifrutti": "mollers/tutti-frutti-MO-codliveroiltuttifrutti.png",
+  "MO-codliveroillemon": "mollers/lemon-MO-codliveroillemon.png",
+  "MO-total": "mollers/total-MO-total.png",
+  "MO-active": "mollers/-MO-active.png",
+  "MO-dailyhealth": "mollers/daily-health-MO-dailyhealth.png",
+  "MO-myfirstomega3": "mollers/my-first-omega-3-MO-myfirstomega3.png",
+  "MO-omega3jellyfish": "mollers/omega-3-strawberry-MO-omega3jellyfish.png",
+  "MO-codliveroil": "mollers/natural-MO-codliveroil.png"
 }
