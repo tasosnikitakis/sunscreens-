@@ -302,6 +302,11 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 Το Medica έχει παλιούς κωδικούς (πριν τις νέες συσκευασίες) → `js/caudalie-manual-matches.json` παλιό barcode → **νέο EAN σελίδας**
 (μόνο ίδιο προϊόν & ίδιο μέγεθος· το build-brand-supplier δέχεται πλέον και EAN ως τιμή manual match).
 
+`scripts/scrape-bioderma.mjs` (Bioderma, www.bioderma.gr — Drupal Commerce, με EAN): λίστα από το `/sitemap.xml` (/ta-proionta-mas/<σειρά>/<προϊόν>),
+μεγέθη από το `<option data-ean>` της φόρμας, κείμενα από περιγραφή / «Detailed description» (Οφέλη) / «Τι συμβαίνει στο δέρμα σου» (Δράση) /
+Οδηγίες χρήσης / Αποτελεσματικότητα / Σύνθεση (ενεργά συστατικά + INCI). Σελίδες χωρίς EAN → κλειδί `BI-<σειρά><προϊόν>`· διπλές σελίδες
+(Sébium Mat Control / Pore Refiner παλιά-νέα συσκευασία) → μόνο η πρώτη. Τιμές απευθείας με EAN + `js/bioderma-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

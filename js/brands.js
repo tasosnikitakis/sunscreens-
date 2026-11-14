@@ -208,6 +208,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Caudalie", imageDir: "caudalie", sourceKey: "_caudalieSource",
     fallbackDesc: "Προϊόν Caudalie — {name}",
     exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
+  },
+  bioderma: {
+    key: "bioderma", name: "Bioderma", host: "bioderma.gr", page: "bioderma.html",
+    icon: "🧪", initials: "BI", accent: "#0369a1",
+    sheetName: "Bioderma", imageDir: "bioderma", sourceKey: "_biodermaSource",
+    fallbackDesc: "Προϊόν Bioderma — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Ενεργά συστατικά", "Συστατικά"]
   }
 };
 
