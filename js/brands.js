@@ -173,6 +173,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Vitabiotics", imageDir: "vitabiotics", sourceKey: "_vitabioticsSource",
     fallbackDesc: "Συμπλήρωμα διατροφής Vitabiotics — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις", "Συχνές ερωτήσεις"]
+  },
+  unipharma: {
+    key: "unipharma", name: "Uni-Pharma", host: "uni-pharma.gr", page: "unipharma.html",
+    icon: "🏥", initials: "UP", accent: "#0f766e",
+    sheetName: "UniPharma", imageDir: "unipharma", sourceKey: "_unipharmaSource",
+    fallbackDesc: "Προϊόν Uni-Pharma — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
