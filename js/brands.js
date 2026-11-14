@@ -138,6 +138,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Mustela", imageDir: "mustela", sourceKey: "_mustelaSource",
     fallbackDesc: "Προϊόν Mustela — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Συστατικά", "Χρήση"]
+  },
+  solgar: {
+    key: "solgar", name: "Solgar", host: "solgar.gr", page: "solgar.html",
+    icon: "💊", initials: "SG", accent: "#b45309",
+    sheetName: "Solgar", imageDir: "solgar", sourceKey: "_solgarSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής Solgar — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
