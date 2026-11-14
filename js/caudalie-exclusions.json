@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Caudalie: σετ/promo/δώρο. Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο"
+    }
+  ]
+}
