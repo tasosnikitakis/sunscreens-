@@ -272,6 +272,12 @@ scratch), αλλιώς η ενότητα βγαίνει από το όνομα (
 πίνακας + συστατικά, οδηγίες, συχνές ερωτήσεις· τα slugs των tabs διαφέρουν ανά προϊόν). Κλειδιά `VB-<slug>`·
 τιμές με `js/vitabiotics-manual-matches.json` (Wellman/Wellwoman/Jointace κ.ά. δεν κυκλοφορούν στο ελληνικό site).
 
+`scripts/scrape-unipharma.mjs` (Uni-Pharma, www.uni-pharma.gr — WordPress, post type «nonprescriptive»): λίστα από το REST
+(`/wp-json/wp/v2/nonprescriptive` + brands/κατηγορίες· τα links του REST είναι χαλασμένα → `/el/nonprescriptive/<slug>/`).
+**Τα φάρμακα (μη συνταγογραφούμενα/συνταγογραφούμενα) μένουν εκτός**· κρατά συμπληρώματα, ιατροτεχνολογικά, αντικουνουπικά,
+δερμοκαλλυντικά. Κείμενα από .product-description (περιγραφή, χαρακτηριστικά, δοσολογία, συσκευασία, προειδοποιήσεις, ΕΟΦ) και
+.product-info. Κλειδιά `UP-<slug>`· τιμές με `js/unipharma-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

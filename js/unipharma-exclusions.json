@@ -1,0 +1,16 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Uni-Pharma: σετ/promo και επαγγελματικές συσκευασίες (SANITELL Gel 5L). Τα φάρμακα (μη συνταγογραφούμενα/συνταγογραφούμενα) δεν μπαίνουν καθόλου (scrape-unipharma.mjs). Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο|gold pack)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο / gold pack"
+    },
+    {
+      "name": "professional",
+      "pattern": "^SANITELL Gel$",
+      "reason": "Αντισηπτικό gel σε επαγγελματική συσκευασία 5L"
+    }
+  ]
+}
