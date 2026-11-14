@@ -4,7 +4,7 @@
 // Λίστα + βασικά στοιχεία: WooCommerce Store API /wp-json/wc/store/v1/products (όνομα, permalink, περιγραφή, short_description
 // με μέγεθος και bullets, εικόνες, κατηγορίες, attributes «ΜΟΡΦΗ ΠΡΟΪΟΝΤΟΣ» / «ΔΙΑΤΡΟΦΙΚΕΣ ΣΥΝΗΘΕΙΕΣ»).
 // Οι σελίδες προϊόντος έχουν bot check («One moment, please…» → reload) → ανοίγουν με Playwright· tabs WooCommerce:
-//   --description, --diatrofikes (διατροφικές πληροφορίες + συστατικά), --odigies (οδηγίες/προφυλάξεις), --sychnes (FAQ).
+//   --description, --diatrofikes / --diatrofikos-pinakas (διατροφικές πληροφορίες + συστατικά), --odigies[-chrisis], --sychnes[-erotiseis] (FAQ) — τα slugs διαφέρουν ανά προϊόν, ταιριάζουμε με πρόθεμα.
 // Κλειδί: "VB-<slug>". Τιμές με js/vitabiotics-manual-matches.json.
 // Χρήση (cloud: NODE_USE_ENV_PROXY=1): node scripts/scrape-vitabiotics.mjs [--limit=3] [--delay=20000]
 
@@ -44,7 +44,7 @@ export function extractVitabioticsDetails(p, html) {
   if (desc) d.tabs["Περιγραφή"] = desc.replace(/Αυτές οι πληροφορίες δεν προορίζονται[\s\S]*$/, "").trim();
   // διατροφικός πίνακας: μία γραμμή ανά <tr> («Συστατικό · ποσότητα · %NRV»)
   const rows = h => String(h || "").replace(/<tr[^>]*>([\s\S]*?)<\/tr>/g, (_, r) => "<p>" + [...r.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map(c => oneLine(c[1])).filter(Boolean).join(" · ") + "</p>").replace(/<\/?(table|tbody|thead)[^>]*>/g, "");
-  const nutr = text(rows(strip(panel("diatrofikes")))); if (nutr) d.tabs["Συστατικά"] = nutr;
+  const nutr = text(rows(strip(panel("diatrofik")))); if (nutr) d.tabs["Συστατικά"] = nutr;
   const dir = text(strip(panel("odigies")));
   if (dir) {
     const lines = dir.split("\n"), use = [], warn = [];
