@@ -11,5 +11,7 @@ window.HELENVITA_SECTION_LABELS = {
   "kids":     { name: "Kids — Παιδικά", icon: "🦄", accent: "#db2777" },
   "soma":     { name: "Σώμα — Bath & Body, χέρια, ευαίσθητη περιοχή", icon: "🧴", accent: "#475569" },
   "protect":  { name: "Protect & Pro — Αντισηπτικά & υγιεινή χεριών", icon: "🧼", accent: "#0e7490" },
+  "symplhrwmata":        { name: "Συμπληρώματα διατροφής — Αναβράζοντα, κάψουλες, καραμέλες", icon: "💊", accent: "#0f766e" },
+  "symplhrwmata-paidia": { name: "Συμπληρώματα για βρέφη & παιδιά — Σταγόνες, γλειφιτζούρια, jellies, σιρόπι", icon: "🍭", accent: "#c026d3" },
   "diafora":  { name: "Λοιπά προϊόντα Helenvita", icon: "📦", accent: "#64748b" }
 };
