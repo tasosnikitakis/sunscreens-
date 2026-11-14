@@ -1,0 +1,52 @@
+// Auto-generated από το brand site (js/mustela-site.json) με το scripts/build-brand-supplier.mjs --with-site — ΧΩΡΙΣ Excel προμηθευτή (όλα χωρίς τιμές).
+// Δεν επεξεργάζεται χειροκίνητα. Όταν υπάρξει τιμοκατάλογος: --xlsx=… --with-site.
+// listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο (χωρίς τιμές).
+//
+// Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/mustela-overrides.js.
+
+window.MUSTELA_SUPPLIER = [
+  {"barcode":"MU-nourishingcleansinggelwithcoldcream","name":"Nourishing Cleansing Gel with Cold Cream","retail":0,"wholesale":0,"variants":["MU-nourishingcleansinggelwithcoldcream"],"listed":false},
+  {"barcode":"MU-hydrabeberbodylotion","name":"Hydra Bébé® Body Lotion","retail":0,"wholesale":0,"variants":["MU-hydrabeberbodylotion"],"listed":false},
+  {"barcode":"MU-hairstylerskinfreshener","name":"Hair Styler & Skin Freshener","retail":0,"wholesale":0,"variants":["MU-hairstylerskinfreshener"],"listed":false},
+  {"barcode":"MU-babyoil","name":"Baby Oil","retail":0,"wholesale":0,"variants":["MU-babyoil"],"listed":false},
+  {"barcode":"MU-stelatopiarcleansingoil","name":"Stelatopia® Cleansing Oil","retail":0,"wholesale":0,"variants":["MU-stelatopiarcleansingoil"],"listed":false},
+  {"barcode":"MU-certifiedorganichydratingcream","name":"Certified Organic Hydrating Cream","retail":0,"wholesale":0,"variants":["MU-certifiedorganichydratingcream"],"listed":false},
+  {"barcode":"MU-multisensorybubblebath","name":"Multi-Sensory Bubble Bath","retail":12.8,"wholesale":7.65,"variants":["MU-multisensorybubblebath","3504105035396"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10031585","supplierName":"MUSTELA MULTISENSORY BUBBLEBATH 200ML"},
+  {"barcode":"MU-foamshampoofornewborns","name":"Foam shampoo for newborns","retail":0,"wholesale":0,"variants":["MU-foamshampoofornewborns"],"listed":false},
+  {"barcode":"MU-gentleshampoo","name":"Gentle Shampoo","retail":0,"wholesale":0,"variants":["MU-gentleshampoo"],"listed":false},
+  {"barcode":"MU-stretchmarkscream","name":"Stretch Marks Cream","retail":29.95,"wholesale":17.89,"variants":["MU-stretchmarkscream","3504105033897"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10027653","supplierName":"MUSTELA STRETCH MARKS PREV CREAM 150ML"},
+  {"barcode":"MU-soothingmoisturizinglotion","name":"Soothing Moisturizing Lotion","retail":0,"wholesale":0,"variants":["MU-soothingmoisturizinglotion"],"listed":false},
+  {"barcode":"MU-certifiedorganicnorinsemicellarwater","name":"Certified Organic No Rinse Micellar Water Face & Body","retail":0,"wholesale":0,"variants":["MU-certifiedorganicnorinsemicellarwater"],"listed":false},
+  {"barcode":"MU-nourishingfacecreamwithcoldcream","name":"Nourishing Face Cream with Cold Cream","retail":0,"wholesale":0,"variants":["MU-nourishingfacecreamwithcoldcream"],"listed":false},
+  {"barcode":"MU-soothingcleansinggel","name":"Soothing Cleansing Gel","retail":0,"wholesale":0,"variants":["MU-soothingcleansinggel"],"listed":false},
+  {"barcode":"MU-gelarnicaandcalendulabio","name":"Gel Arnica and Calendula Bio","retail":0,"wholesale":0,"variants":["MU-gelarnicaandcalendulabio"],"listed":false},
+  {"barcode":"MU-essentialcarecertifiedorganicmultipurposelotion","name":"Essential Care Certified Organic Multi-purpose Lotion","retail":0,"wholesale":0,"variants":["MU-essentialcarecertifiedorganicmultipurposelotion"],"listed":false},
+  {"barcode":"MU-certifiedorganiccleansinggelbodyhair","name":"Certified Organic Cleansing Gel Body & Hair","retail":0,"wholesale":0,"variants":["MU-certifiedorganiccleansinggelbodyhair"],"listed":false},
+  {"barcode":"MU-nourishinglotionwithcoldcream","name":"Nourishing Lotion with Cold Cream","retail":0,"wholesale":0,"variants":["MU-nourishinglotionwithcoldcream"],"listed":false},
+  {"barcode":"MU-kremaallagespanasvbc123","name":"Κρέμα Αλλαγής Πάνας VBC 1>2>3","retail":13.45,"wholesale":8.33,"variants":["MU-kremaallagespanasvbc123","3504105024932"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10023889","supplierName":"MUSTELA VITAMIN BARRIER CREAM 110G 100ML"},
+  {"barcode":"MU-hydrabeberfacialcream","name":"Hydra Bébé® Facial Cream","retail":0,"wholesale":0,"variants":["MU-hydrabeberfacialcream"],"listed":false},
+  {"barcode":"MU-soothingmoisturizingfacecream","name":"Soothing Moisturizing Face Cream","retail":0,"wholesale":0,"variants":["MU-soothingmoisturizingfacecream"],"listed":false},
+  {"barcode":"MU-gentlecleansinggel","name":"Gentle Cleansing Gel","retail":0,"wholesale":0,"variants":["MU-gentlecleansinggel"],"listed":false},
+  {"barcode":"MU-norinsecleansingwater","name":"No Rinse Cleansing Water","retail":0,"wholesale":0,"variants":["MU-norinsecleansingwater"],"listed":false},
+  {"barcode":"MU-soothingchestrub","name":"Soothing Chest Rub","retail":0,"wholesale":0,"variants":["MU-soothingchestrub"],"listed":false},
+  {"barcode":"MU-cradlecapcream","name":"Cradle Cap Cream","retail":0,"wholesale":0,"variants":["MU-cradlecapcream"],"listed":false},
+  {"barcode":"MU-certifiedorganicmultipurposebalmme3ekkhulismataabokanto","name":"Certified Organic Multi-Purpose Balm με 3 εκχυλίσματα αβοκάντο","retail":0,"wholesale":0,"variants":["MU-certifiedorganicmultipurposebalmme3ekkhulismataabokanto"],"listed":false},
+  {"barcode":"MU-scentedwatermusti","name":"Scented Water Musti","retail":0,"wholesale":0,"variants":["MU-scentedwatermusti"],"listed":false},
+  {"barcode":"MU-certifiedorganicstretchmarksoil","name":"Certified Organic Stretch Marks Oil","retail":0,"wholesale":0,"variants":["MU-certifiedorganicstretchmarksoil"],"listed":false},
+  {"barcode":"MU-highprotectionsunsprayspf50","name":"High Protection Sun Spray SPF50","retail":0,"wholesale":0,"variants":["MU-highprotectionsunsprayspf50"],"listed":false},
+  {"barcode":"MU-familysunstickspf50","name":"Family Sun Stick SPF50","retail":0,"wholesale":0,"variants":["MU-familysunstickspf50"],"listed":false},
+  {"barcode":"MU-hairbodycleansingbar","name":"Hair & Body Cleansing Bar","retail":0,"wholesale":0,"variants":["MU-hairbodycleansingbar"],"listed":false},
+  {"barcode":"MU-veryhighprotectionsunlotionspf50","name":"Very High Protection Sun Lotion SPF50+","retail":0,"wholesale":0,"variants":["MU-veryhighprotectionsunlotionspf50"],"listed":false},
+  {"barcode":"MU-stelatopiarlipidreplenishingcream","name":"Stelatopia+® Lipid-replenishing cream","retail":0,"wholesale":0,"variants":["MU-stelatopiarlipidreplenishingcream"],"listed":false},
+  {"barcode":"MU-stelatopiaremollientfaceeyelidscream","name":"Stelatopia® Emollient Face & Eyelids Cream","retail":0,"wholesale":0,"variants":["MU-stelatopiaremollientfaceeyelidscream"],"listed":false},
+  {"barcode":"MU-stelatopiarantitightnesscleansinggel","name":"Stelatopia® Anti-tightness Cleansing Gel","retail":0,"wholesale":0,"variants":["MU-stelatopiarantitightnesscleansinggel"],"listed":false},
+  {"barcode":"MU-stelatopiarfoamshampoo","name":"Stelatopia® Foam Shampoo","retail":0,"wholesale":0,"variants":["MU-stelatopiarfoamshampoo"],"listed":false},
+  {"barcode":"MU-cleansingwipes","name":"Cleansing Wipes","retail":0,"wholesale":0,"variants":["MU-cleansingwipes"],"listed":false},
+  {"barcode":"MU-certifiedorganicnursingcomfortbalm","name":"Certified Organic Nursing Comfort Balm","retail":12,"wholesale":7.14,"variants":["MU-certifiedorganicnursingcomfortbalm","3504105029432"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10022087","supplierName":"MUSTELA SOOTHING COMFORT BALM 1,3FL 40ml"},
+  {"barcode":"MU-cicastelarrepairingcream","name":"Cicastela® Repairing Cream","retail":12.96,"wholesale":8.03,"variants":["MU-cicastelarrepairingcream","3504105033347"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10029839","supplierName":"MUSTELA CICASTELA REPAIRING CREAM 40ML"},
+  {"barcode":"MU-detanglingnourishingcreamshampoo","name":"Detangling & Nourishing Cream Shampoo","retail":0,"wholesale":0,"variants":["MU-detanglingnourishingcreamshampoo"],"listed":false},
+  {"barcode":"MU-detanglingnourishingcare","name":"Detangling & Nourishing Care","retail":0,"wholesale":0,"variants":["MU-detanglingnourishingcare"],"listed":false},
+  {"barcode":"MU-liniment","name":"Liniment","retail":0,"wholesale":0,"variants":["MU-liniment"],"listed":false},
+  {"barcode":"MU-certifiedorganichairbodycleansinggelrefill","name":"Certified Organic Hair & Body Cleansing Gel Refill","retail":0,"wholesale":0,"variants":["MU-certifiedorganichairbodycleansinggelrefill"],"listed":false},
+  {"barcode":"MU-nourishingstickwithcoldcreamandbeeswax","name":"Nourishing Stick with Cold Cream and Beeswax","retail":0,"wholesale":0,"variants":["MU-nourishingstickwithcoldcreamandbeeswax"],"listed":false}
+];

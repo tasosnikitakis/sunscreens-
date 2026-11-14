@@ -131,6 +131,13 @@ window.BRAND_CATALOGS = {
     sheetName: "CeraVe", imageDir: "cerave", sourceKey: "_ceraveSource",
     fallbackDesc: "Προϊόν CeraVe — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Συστατικά", "Χρήση", "Συχνές ερωτήσεις"]
+  },
+  mustela: {
+    key: "mustela", name: "Mustela", host: "mustela.com.gr", page: "mustela.html",
+    icon: "🍼", initials: "MU", accent: "#2563eb",
+    sheetName: "Mustela", imageDir: "mustela", sourceKey: "_mustelaSource",
+    fallbackDesc: "Προϊόν Mustela — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Συστατικά", "Χρήση"]
   }
 };
 
