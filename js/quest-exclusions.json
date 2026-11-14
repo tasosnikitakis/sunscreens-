@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Quest (μόνο βασικά προϊόντα): σετ, promo, gold pack, «-75% στο δεύτερο». Διαβάζεται από το build-brand-supplier.mjs (pattern = JavaScript RegExp, flags προεπιλογή i).",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο|gold pack)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο / gold pack"
+    }
+  ]
+}

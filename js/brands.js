@@ -159,6 +159,13 @@ window.BRAND_CATALOGS = {
     sheetName: "PowerHealth", imageDir: "powerhealth", sourceKey: "_powerhealthSource",
     fallbackDesc: "Συμπλήρωμα διατροφής Power Health — {name}",
     exportSections: ["Περιγραφή", "Συστατικά", "Χρήση", "Χαρακτηριστικά", "Προφυλάξεις"]
+  },
+  quest: {
+    key: "quest", name: "Quest", host: "qnutrapharma.com", page: "quest.html",
+    icon: "🧬", initials: "QV", accent: "#0e7490",
+    sheetName: "Quest", imageDir: "quest", sourceKey: "_questSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής Quest — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
   }
 };
 
