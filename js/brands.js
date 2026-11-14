@@ -110,6 +110,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Intermed", imageDir: "intermed", sourceKey: "_intermedSource",
     fallbackDesc: "Προϊόν Intermed — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Οδηγίες χρήσης"]
+  },
+  uriage: {
+    key: "uriage", name: "Uriage", host: "uriage.com", page: "uriage.html",
+    icon: "🏔️", initials: "UR", accent: "#0284c7",
+    sheetName: "Uriage", imageDir: "uriage", sourceKey: "_uriageSource",
+    fallbackDesc: "Προϊόν Uriage — {name}",
+    exportSections: ["Περιγραφή", "Αποτελέσματα", "Συστατικά", "Χρήση"]
   }
 };
 
