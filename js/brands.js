@@ -166,6 +166,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Quest", imageDir: "quest", sourceKey: "_questSource",
     fallbackDesc: "Συμπλήρωμα διατροφής Quest — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  vitabiotics: {
+    key: "vitabiotics", name: "Vitabiotics", host: "vitabiotics.gr", page: "vitabiotics.html",
+    icon: "🤰", initials: "VB", accent: "#16a34a",
+    sheetName: "Vitabiotics", imageDir: "vitabiotics", sourceKey: "_vitabioticsSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής Vitabiotics — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις", "Συχνές ερωτήσεις"]
   }
 };
 

@@ -1,0 +1,2106 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://vitabiotics.gr/xmlrpc.php">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-V4FDLCV8H2"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V4FDLCV8H2');
+</script>
+	
+	<title>Immunace Original – VITABIOTICS</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%7COpen%20Sans&amp;subset=greek-ext%2Cgreek%2Clatin&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%7COpen%20Sans&amp;subset=greek-ext%2Cgreek%2Clatin&amp;display=swap" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%7COpen%20Sans&#038;subset=greek-ext%2Cgreek%2Clatin&#038;display=swap" /></noscript>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="VITABIOTICS » Feed" href="https://vitabiotics.gr/feed/">
+<link rel="alternate" type="application/rss+xml" title="VITABIOTICS » Comments Feed" href="https://vitabiotics.gr/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="VITABIOTICS » Immunace Original Comments Feed" href="https://vitabiotics.gr/product/immunace-original/feed/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="font-awesome-css" href="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/berocket/assets/css/font-awesome.min.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="berocket_product_brand_style-css" href="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/css/frontend.css?ver=3.7.0.5" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://vitabiotics.gr/wp-includes/css/dashicons.min.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-linecons-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/linecons/css/linecons.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-font-awesome-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/font-awesome/css/font-awesome.min.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-entypo-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/entypo/css/entypo.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-linearicons-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/lnr/css/lnr.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-typicons-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/typcn/css/typcn.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="fw-option-type-icon-v2-pack-unycon-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/static/libs/unycon/unycon.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://vitabiotics.gr/wp-includes/css/dist/block-library/style.min.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="wc-blocks-vendors-style-css" href="https://vitabiotics.gr/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.7.6" type="text/css" media="all">
+<link rel="stylesheet" id="wc-blocks-style-css" href="https://vitabiotics.gr/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.7.6" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://vitabiotics.gr/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8.1" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<link rel="stylesheet" id="uaf_client_css-css" href="https://vitabiotics.gr/wp-content/uploads/useanyfont/uaf.css?ver=1667810922" type="text/css" media="all">
+<link rel="stylesheet" id="photoswipe-css" href="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=7.1.2" type="text/css" media="all">
+<link rel="stylesheet" id="photoswipe-default-skin-css" href="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=7.1.2" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+
+<link rel="stylesheet" id="fabio-component-css" href="https://vitabiotics.gr/wp-content/themes/fabio/styles/component.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-bootstrap-css" href="https://vitabiotics.gr/wp-content/themes/fabio/assets/bootstrap/css/bootstrap.min.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-font-awesome-css" href="https://vitabiotics.gr/wp-content/themes/fabio/assets/font-awesome/css/font-awesome.min.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-arrows-font-css" href="https://vitabiotics.gr/wp-content/themes/fabio/assets/arrows-font/styles.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-magnific-popup-css" href="https://vitabiotics.gr/wp-content/themes/fabio/styles/magnific-popup.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-slick-css" href="https://vitabiotics.gr/wp-content/themes/fabio/assets/slick/slick.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-woocommerce-css" href="https://vitabiotics.gr/wp-content/themes/fabio/styles/gg-woocommerce.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-style-css" href="https://vitabiotics.gr/wp-content/themes/fabio-child/style.css?ver=6.0.18" type="text/css" media="all">
+<style id="fabio-style-inline-css" type="text/css">
+h1, h2, h3, h4, h5, h6,.table>thead>tr>th,body .wrap-forms label,label,.wc-proceed-to-checkout .checkout-button,.woocommerce .product .single_add_to_cart_button.button,input[type=submit],.single_add_to_cart_button,a.btn,a.btn-default:visited,a.btn-default:focus,a.btn-default:active,input.btn,input.btn-default:visited,input.btn-default:focus,input.btn-default:active,.top-bar .logo-wrapper h2,.top-bar .logo-wrapper div,.top-bar .cart-shop-top span.gg-products-count,.gg-searchform-wrapper input,#main-menu li a,.page-meta-wrapper h1,.fabio-post1-header h2,.posts2 .gg-module-title h2,.products-carousel-title h2,.fabio-new-items-wrapper .fabio-categoriesa,.fabio-new-items-wrapper .fabio-collection-categories a,.box-1 .box-1-left-column .box-item h4,.box-1 .box-1-left-column h2,.instagram .instagram-left h2,.instagram .instagram-right .followers,.footer-widgets .gg-widget.widget_nav_menu ul li a,.footer-widgets .gg-widget.widget_pages ul li a,.footer-widgets .gg-widget.widget_categories ul li a,.footer-widgets .gg-widget.widget_archive ul li a,.footer-widgets-holder h4,.contact-us-module-wrapper,.social-icons-shortcode ul li a,body .fw-package .fw-heading-row span,body .fw-package .fw-pricing-row span,body .fw-tabs-container .fw-tabs ul li a,body .fw-iconbox .fw-iconbox-title h3,body .fw-testimonials-2 .fw-testimonials-author .author-name,.gg_posts_grid .fabio-datetime,.entry-content a.more-link,.unyson-post-excerpt p a span,.gg_posts_grid .post-meta,aside.sidebar-nav h4,.gg-widget .tagcloud a,.fabio-posts-widget ul li .cnt .title a,.posts1 .fabio-post1-categories a,.posts2 .fabio-post1-categories a,.post1-item .post1-image .overlay .title,.fabio_countify .countify_before,.fabio_countify .countify_after,.fabio_countify .countify_number,.fabio_countify .countify_label,.single-post .posted-in-tags,.single-post .posted-in-categories,.single-post .post-date,blockquote:after,.comments-area .media-list .media .media-body h4 a,.fabio-gallery-single-header .toRight a,div.pagination ul.pagination li a,.widget_price_filter .price_slider_amount .button,.product_widget .price_slider_wrapper .price_slider_amount button,.more-link,.open > .dropdown-toggle.btn-primary:hover,.open > .dropdown-toggle.btn-primary:focus,.open > .dropdown-toggle.btn-primary.focus,mark,.mark,.widget_price_filter .ui-slider::before,.u-columns .forgot-remember .rememberme,body .fw-call-to-action .fw-action-content h2,.collection-carousel-pagination .view-button,.collection-carousel-wrapper .collection-carousel-pagInfo,.gg-breadcrumbs .delimiter,.nav_crumb .delimiter,.sidebar-nav ul li a,.sidebar-nav ol li a,#secondary-menu .mega-menu .mega-menu-col > a,.fabio-faq .faq-title,.fabio-modal .fabio-modal-wrapper .fabio-modal-content .close a,.woocommerce-form-login .form-row-button .remember-me,span.onsale,span.soldout,.woocommerce select.fabio_woo_result_count,.woocommerce form.woocommerce-ordering select,.woocommerce .products-per-page select,.product-body > a > h3,.product-body > a > h2,.product-image .overlay .wrapper a,.product .tooltip-inner,.woocommerce .product .summary h1.product_title,.woocommerce .product .summary .variations td.label,.woocommerce-tabs .tabs li a,body.woocommerce .wishlist_table td.product-stock-status,body.woocommerce .wishlist_table td.product-add-to-cart a,.woocommerce .shop_table.cart .product-name .product-remove a.remove,body.woocommerce-checkout h2,body.woocommerce-checkout h3,.woocommerce form.checkout #customer_details h3,.woocommerce form.checkout #order_review header.title h3 ,#ship-to-different-address label,.woocommerce form #shipping_method li label,.woocommerce form #shipping_method li label .woocommerce-Price-amount,.woocommerce form.checkout ul.payment_methods li label,.woocommerce .shop_attributes th,.woocommerce .shop_table.cart th,.woocommerce-MyAccount-navigation ul li a,.woocommerce .cart-actions .coupon label,.woocommerce .cart-collaterals h2,.single-product .product .summary .price,.gg-header-minicart h2,#simpleModal .close-window {font-family: Open Sans;letter-spacing: 0;font-weight: normal;}body .wrap-forms input:-moz-placeholder,body .wrap-forms textarea:-moz-placeholder {font-family: Open Sans;letter-spacing: 0;font-weight: normal;}body .wrap-forms input::-moz-placeholder,body .wrap-forms textarea::-moz-placeholder {font-family: Open Sans;letter-spacing: 0;font-weight: normal;}body .wrap-forms input:-ms-input-placeholder,body .wrap-forms textarea:-ms-input-placeholder {font-family: Open Sans;letter-spacing: 0;font-weight: normal;}body .wrap-forms input::-webkit-input-placeholder,body .wrap-forms textarea::-webkit-input-placeholder {font-family: Open Sans;letter-spacing: 0;font-weight: normal;}body,h6,.h6,caption,.top-bar .top-header > li.shop .wishlist,.top-bar .top-header > li.shop .wishlist a,#main-menu li a:hover,.navbar-secondary #secondary-menu li a,.fabio-post1-header h6,.posts2 .gg-module-title h6,.products-carousel-title h6,.products-carousel .blog-date a,.fabio-new-items-wrapper .fabio-categoriesa,.fabio-new-items-wrapper .fabio-collection-categories a,body .fw-team .fw-team-name span,.footer-copyright,.footer-copyright a,.fabio_mailchimp .email p,.fabio_mailchimp.light,.fabio_mailchimp.light h2,.fabio_mailchimp.light .email p,body .fw-iconbox .fw-iconbox-text,body .fabio-icon-box .fw-iconbox-aside,.unyson-post-excerpt p a,.gg_posts_grid .post-meta,.gg_posts_grid .entry-content,.gg_posts_grid .entry-summary,.posts1 .fabio-post1-categories a,.posts2 .fabio-post1-categories a,.posts2 .header .categories,.post1-item .post1-image .overlay .categories,.comments-area .media-list .media .media-body p.meta a:not(.comment-reply-link),.fabio-gallery-single-header .toRight a,.fabio-gallery-info .gallery-description,#fabio_filter_widget .widget_product_categories ul.product-categories li a,.white-modal-item .widget_layered_nav ul li a,.white-modal-item .widget_product_tag_cloud .tagcloud a,div.pagination ul.pagination li a,.u-columns .forgot-remember .lost-password,.gg-breadcrumbs a,.nav_crumb a,.nav_crumb,.gg-breadcrumbs,#secondary-menu .mega-menu .mega-menu-col ul.sub-menu li a,.woocommerce-form-login .form-row .fabio-woo-password-lost .woocommerce-LostPassword a,#reviews #comments .comment .description p,#reviews #comments .comment p.meta time,.woocommerce-tabs .tabs li a,.woocommerce-tabs .panel,body .wishlist_table tr td.product-stock-status span.wishlist-in-stock,body.woocommerce #content table.wishlist_table.cart a.remove,.woocommerce .shop_table.cart .product-name h3.product-price,.woocommerce .shop_table.cart .product-name .product-remove a.remove,.woocommerce .cart-collaterals .cart_totals table tr th,body.woocommerce-checkout .woocommerce form.checkout #order_review .shop_table th,.woocommerce form.checkout #order_review .shop_table dl.variation dt,.woocommerce .woocommerce-checkout-review-order-table .product-name,.woocommerce .woocommerce-MyAccount-content > p:not(.woocommerce-FormRow),.woocommerce .woocommerce-MyAccount-content > p:not(.form-row),.woocommerce-MyAccount-navigation ul li a,.cart_item .woocommerce-Price-amount,.gg-header-minicart ul li .white-modal-cnt .fabio-minicart-price,.gg-header-minicart ul li .white-modal-cnt .fabio-minicart-remove a,.gg-header-minicart .fabio-minicart-subtotal,#simpleModal .close-window {color: #000000;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th,body .wrap-forms label,label,body .wrap-forms input,body .wrap-forms select,.form-control,.select2-selection span,input.btn.btn-outline-black,a.btn.btn-outline-black,.btn-default:focus,.btn-default.focus,.btn-default:hover,input.btn-primary:hover,a.btn-primary:hover,.btn-secondary,.top-bar .top-header > li.shop .wishlist a:hover,.top-bar .cart-shop-top span.gg-products-count,#main-menu li a,.navbar-secondary #secondary-menu li a:hover,.page-meta-wrapper h1,.fabio-new-items-wrapper .fabio-categories a:hover,.fabio-new-items-wrapper .fabio-categories a.current,.fabio-new-items-wrapper .fabio-collection-categories a:hover,.fabio-new-items-wrapper .fabio-collection-categories a.current,.posts1 .fabio-post1-categories a:hover,.posts2 .fabio-post1-categories a:hover,.posts1 .fabio-post1-categories a.active,.posts2 .fabio-post1-categories a.active,.instagram .instagram-right .followers,.instagram input.btn-outline,.instagram a.btn-outline,.footer-social-icons-widget li a:hover,.contact-us-module-wrapper,.fabio_mailchimp.light .email input,.fabio_mailchimp.light .email input:focus,.fabio_mailchimp.light .email input:active,.fabio_mailchimp.light .signup .btn,body .fw-testimonials-2 .fw-testimonials-author .author-name,.entry-content a.more-link,.unyson-post-excerpt p a span,.gg-widget .tagcloud a,.posts1 .fabio-post1-categories a.active,.posts2 .fabio-post1-categories a.active,.posts1 .fabio-post1-categories a:hover,.posts2 .fabio-post1-categories a:hover,.post1-item .post1-image .overlay .title,.fabio_countify .countify_before,.fabio_countify .countify_after,.fabio_countify .countify_number,.fabio_countify .countify_label,.single-post .fabio-single-header .single_left_header_pagination a:hover,.single-post .fabio-single-header .single_right_header_pagination a:hover,blockquote:after,.post-social ul li a,.comments-area .media-list .media .media-body h4 a,.fabio-gallery-info .dl-horizontal dt,.fabio-gallery-info .dl-horizontal dd,.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus,div.pagination ul.pagination li a:hover,div.pagination ul.pagination li a:active,div.pagination ul.pagination li a:focus,div.pagination ul.pagination li.current a,.widget_price_filter .ui-slider .ui-slider-handle,.widget_price_filter .price_slider_amount .button,.u-columns .forgot-remember.rememberme,.collection-carousel-pagination .next,.collection-carousel-pagination .prev,#secondary-menu .mega-menu .mega-menu-col > a,body.woocommerce-checkout .fabio-checkout .woocommerce-info a,.fabio-faq .faq-title a,.fabio-h1-icon,#reviews #comments .comment p.meta strong,#reviews #comments .comment .star-rating,.woocommerce select.fabio_woo_result_count,.woocommerce form.woocommerce-ordering select,.woocommerce .products-per-page select,.product-body > a > h3,.product-body > a > h2,.product-image .overlay .wrapper a,.products-carousel-nav .next:hover,.products-carousel-nav .prev:hover,.woocommerce .product .summary .variations td.label,.woocommerce-tabs .tabs li.active a,body.woocommerce #content table.wishlist_table.cart a.remove:hover,.woocommerce .shop_table.cart .product-name .product-remove a.remove:hover,.woocommerce dl.variation dt,.woocommerce .cart-collaterals .cart_totals table tr td,.woocommerce .cart-collaterals .cart_totals table tr td input,.woocommerce .cart-collaterals .cross-sells h2,.woocommerce .shop_table.cart td.actions .cart-collaterals .cart_totals th,.woocommerce .shop_table.cart td.actions .cart-collaterals .cart_totals td,.woocommerce .shop_attributes th{color: #c50f3c;}body .wrap-forms input:-moz-placeholder,body .wrap-forms textarea:-moz-placeholder {color: #c50f3c;}body .wrap-forms input::-moz-placeholder,body .wrap-forms textarea::-moz-placeholder {color: #c50f3c;}body .wrap-forms input:-ms-input-placeholder,body .wrap-forms textarea:-ms-input-placeholder {color: #c50f3c;}body .wrap-forms input::-webkit-input-placeholder,body .wrap-forms textarea::-webkit-input-placeholder {color: #c50f3c;}a,a:hover,a:focus,.top-bar .logo-wrapper h2,.top-bar .logo-wrapper div,.top-bar .logo-wrapper h2 a,.top-bar .logo-wrapper .site-title a,.top-bar .cart-shop-top,body .fw-accordion .fw-accordion-title,.fw-special-title,.fabio_mailchimp .signup .btn,body .fw-btn-1,body .fw-iconbox-1 .fw-iconbox-image,aside.sidebar-nav h4,.fabio-posts-widget ul li .cnt .title a,.woocommerce .cart .quantity input.qty,.woocommerce .product .summary div[itemprop="offers"],.woocommerce .product .woocommerce-variation-price,.woocommerce .shop_table.cart th,.woocommerce .woocommerce-MyAccount-content p a {color: #7a0431;}input.btn-outline:hover,a.btn-outline:hover,.btn-default,.wc-proceed-to-checkout .checkout-button,.woocommerce .product .single_add_to_cart_button.button,input[type=submit],.btn-primary,.btn-secondary:hover,.woocommerce .product .single_add_to_cart_button.button:hover,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle .icon-bar,.navbar-nav .mega-menu .sub-menu,.navbar-nav .dropdown-menu,.navbar-nav .sub-menu,.top-bar-flags .dropdown-menu,.nav .open>a,.nav .open>a:hover,.nav .open>a:focus,.fabio_mailchimp,body .fw-btn-1:hover,body .fw-btn-1:focus,.posts2 .gg_posts_grid .entry-title .blogpost-type,.widget_price_filter .ui-slider .ui-slider-handle,.sidebar-nav ul li:hover:after,.sidebar-nav ol li:hover:after,.sidebar-nav ul li.current-cat:after,.sidebar-nav ol li.current-cat:after,.sidebar-nav ul li.chosen:after,.sidebar-nav ol li.chosen:after,p.demo_store,span.onsale,span.soldout,.woocommerce .cart .quantity input.minus:hover,.woocommerce .cart .quantity input.plus:hover,.product-image-wrapper.inverse h3 span,.fabio-woo-cart-update .btn:hover,.woocommerce div.product div.images .woocommerce-product-gallery__trigger:after {background: #c50f3c;}input.btn.btn-outline-black,a.btn.btn-outline-black,.woocommerce .product .single_add_to_cart_button.button:hover,.btn-default:focus,.btn-default.focus,.btn-default:hover,input.btn-primary:hover,a.btn-primary:hover,.navbar-default .navbar-toggle,.instagram input.btn-outline,.instagram a.btn-outline,.instagram input.btn-outline:hover,.instagram a.btn-outline:hover,.fabio-categories .product_ajax_loader,.fabio-collection-categories .product_ajax_loader,.fabio-post1-categories .gallery_ajax_loader,.fabio-post1-categories .posts_ajax_loader,.gg-ajax-loading,.ajaxLoadMore span,.fabio_mailchimp.light .signup .btn,.fabio_countify .countify-label-wrapper,.fabio_countify .countify_label,.post-social ul li a,.post-social ul li a.btn-outline:hover,.woocommerce div.product div.images .woocommerce-product-gallery__trigger:before,.woocommerce .product .single_add_to_cart_button.button,.woocommerce .product .single_add_to_cart_button.button:hover,.wc-proceed-to-checkout .checkout-button:hover {border-color: #c50f3c;}
+</style>
+<link rel="stylesheet" id="fabio-generated-css" href="https://vitabiotics.gr/wp-content/uploads/fabio/generated.css?ver=1.8" type="text/css" media="all">
+<link rel="stylesheet" id="fw-ext-builder-frontend-grid-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/extensions/builder/static/css/frontend-grid.css?ver=1.2.12" type="text/css" media="all">
+<link rel="stylesheet" id="fw-ext-forms-default-styles-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-shortcodes/framework/extensions/forms/static/css/frontend.css?ver=2.7.21" type="text/css" media="all">
+<link rel="stylesheet" id="dflip-icons-style-css" href="https://vitabiotics.gr/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/themify-icons.min.css?ver=1.7.33" type="text/css" media="all">
+<link rel="stylesheet" id="dflip-style-css" href="https://vitabiotics.gr/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=1.7.33" type="text/css" media="all">
+<link rel="stylesheet" id="video-js-css" href="https://vitabiotics.gr/wp-content/plugins/video-embed-thumbnail-generator/video-js/v7/video-js.min.css?ver=7.11.4" type="text/css" media="all">
+<link rel="stylesheet" id="video-js-kg-skin-css" href="https://vitabiotics.gr/wp-content/plugins/video-embed-thumbnail-generator/video-js/v7/kg-video-js-skin.css?ver=4.7.5" type="text/css" media="all">
+<link rel="stylesheet" id="kgvid_video_styles-css" href="https://vitabiotics.gr/wp-content/plugins/video-embed-thumbnail-generator/css/kgvid_styles.css?ver=4.7.5" type="text/css" media="all">
+<link rel="stylesheet" id="fabio-social-share-style-css" href="https://vitabiotics.gr/wp-content/plugins/fabio-social-share/assets/css/style.css?ver=6.0.18" type="text/css" media="all">
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="accordions_js-js-extra">
+/* <![CDATA[ */
+var accordions_ajax = {"accordions_ajaxurl":"https:\/\/vitabiotics.gr\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/accordions/assets/frontend/js/scripts.js?ver=6.0.18" id="accordions_js-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8.1" id="tp-tools-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.1" id="revmin-js"></script>
+<script type="text/javascript" id="fabio_translation_file-js-extra">
+/* <![CDATA[ */
+var __fabio__ = {"username_required":"Username is required.","email_required":"Email is required.","password_required":"Password is required.","error":"Error:","myaccount_page_url":"https:\/\/vitabiotics.gr\/my-account\/","css_path":"https:\/\/vitabiotics.gr\/wp-content\/themes\/fabio\/","ajax_url":"https:\/\/vitabiotics.gr\/wp-admin\/admin-ajax.php","pick_a_image":"Pick a image:","you_can_select_just_1image":"You can select just a single image","noposts":"No older posts found","loadmore":"Load more posts","loading":"Loading"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/themes/fabio/js/lang.js?ver=6.0.18" id="fabio_translation_file-js"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://vitabiotics.gr/wp-content/themes/fabio/js/html5.js?ver=6.0.18' id='fabio-html5shiv-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://vitabiotics.gr/wp-json/"><link rel="alternate" type="application/json" href="https://vitabiotics.gr/wp-json/wp/v2/product/3818"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://vitabiotics.gr/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://vitabiotics.gr/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0.18">
+<meta name="generator" content="WooCommerce 7.1.2">
+<link rel="canonical" href="https://vitabiotics.gr/product/immunace-original/">
+<link rel="shortlink" href="https://vitabiotics.gr/?p=3818">
+<link rel="alternate" type="application/json+oembed" href="https://vitabiotics.gr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvitabiotics.gr%2Fproduct%2Fimmunace-original%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://vitabiotics.gr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvitabiotics.gr%2Fproduct%2Fimmunace-original%2F&amp;format=xml">
+<style></style>
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script type="rocketlazyloadscript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-V4FDLCV8H2"></script>
+		<script type="rocketlazyloadscript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-V4FDLCV8H2');
+		</script>
+
+		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<script type="rocketlazyloadscript" data-cfasync="false"> var dFlipLocation = "https://vitabiotics.gr/wp-content/plugins/3d-flipbook-dflip-lite/assets/"; var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"true","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","enableAnnotation":"false","enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"dearflip-"};</script>
+<!-- Meta Pixel Code -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<!-- End Meta Pixel Code -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+  fbq('init', '397229118471019', {}, {
+    "agent": "wordpress-6.0.18-3.0.8"
+});
+  </script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+  fbq('track', 'PageView', []);
+  </script>
+<!-- Meta Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=397229118471019&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+<meta name="generator" content="Powered by Slider Revolution 5.4.8.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<link rel="icon" href="https://vitabiotics.gr/wp-content/uploads/2024/09/cropped-vitabiotics-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://vitabiotics.gr/wp-content/uploads/2024/09/cropped-vitabiotics-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://vitabiotics.gr/wp-content/uploads/2024/09/cropped-vitabiotics-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://vitabiotics.gr/wp-content/uploads/2024/09/cropped-vitabiotics-favicon-270x270.png">
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+		<style type="text/css" id="wp-custom-css">
+			/* MISC */
+.hide {
+	display: none;
+	visibility: hidden;
+}
+
+/* HEADER */
+.brand img {
+	width: 70%;
+}
+#main-menu li a, .navbar-secondary #secondary-menu li a {
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+.page-meta-wrapper h1 {
+	text-transform: capitalize;
+}
+/*
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, #nav_crumb {
+	display: none !important;
+}
+*/
+.navbar-secondary #secondary-menu .dropdown-menu li a {
+	background: rgba(197, 15, 60);
+	color: #ffffff;
+}
+/* HOME */
+.social-icons-shortcode ul li span.icon-text {
+	font-size: 20px;
+}
+.home-section, .social-icons-shortcode {
+	background-color: #c50f3c !important;
+}
+.home-section .fw-iconbox-1 .fw-iconbox-image img {
+	width: 50%;
+	margin-top: 40%;
+}
+.home-section .fw-iconbox-title h3 {
+	color: #ffffff;
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+.fw-tabs-container .fw-tab-content {
+	border: 0;
+}
+.fw-tabs-container .fw-tabs ul li.ui-state-active {
+	background-color: transparent !important;
+}
+.fw-tabs-container .fw-tabs ul li {
+	border: 0 !important;
+	background: transparent !important;
+	border-left: 0!important;
+}
+.fw-tabs-container .fw-tabs ul li a {
+	  font-size: 20px !important;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1.8em;
+    position: relative;
+    padding-right: 40px;
+    margin-right: 40px;
+    color: #9c9c9c;
+}
+.fw-tabs-container .fw-tabs ul li a:after {
+	position: absolute;
+    content: "X";
+    right: 0;
+}
+.fw-tabs-container .fw-tabs ul li.ui-state-active a, .fw-tabs-container .fw-tabs ul li a:hover {
+	color: #c50f3c;
+}
+.home-heading {
+	background-color: #f2f6f7 !important;
+}
+.home-tabs {
+	background-color: #ffffff !important;
+}
+/* FOOTER */
+.footer-brand img {
+	width: 15%;
+}
+.footer-widgets .gg-widget.widget_nav_menu ul li a {
+	font-size: 14px;
+}
+#footer-menu {
+    text-align: right !important; 
+}
+.footer-menu {
+	margin-top: -7%;
+}
+#menu-item-3376, #menu-item-3435 {
+	background: #C50F3C;
+	margin-right: 5px;
+}
+#menu-item-3376 a, #menu-item-3435 a {
+	color: #ffffff !important;
+}
+
+/* PORTAL */
+.page-id-3374 .content-wrapper {
+	background: url(https://vitabiotics.gr/wp-content/uploads/2021/05/PORTAL-banner.jpg);
+}
+.page-id-3374 .page-meta-wrapper {
+	text-align: left;
+}
+.page-id-3374 .page-meta-wrapper h1 {
+	text-transform: lowercase;
+}
+.form-control {
+	border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+	background: #eaeaea;
+	padding-top: 1px;
+}
+.post-password-form input.btn  {
+	border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+	padding: 10px 25px 10px 25px;
+}
+.page-id-3374 a.btn, .page-id-3429 a.btn, .home a.btn {
+	font-size: 16px!important;
+}
+.page-id-3374 .fw-heading-center .fw-special-title, .page-id-3429 .fw-heading-center .fw-special-title {
+	color: #C50F3C;
+}
+
+/* PRODUCT */
+.product-body > a > h2 {
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: center;
+}
+.accordions .accordions-head {
+	background: #ffffff !important;
+}
+.accordions .accordions-head-title, .accordions .accordion-icons {
+	color: #000000 !important;
+}
+.price, .social-with-navigation, .yikes-custom-woo-tab-title {
+	display: none;
+	visibility: hidden;
+}
+.product_title {
+  font-weight: bold !important;
+  text-transform: capitalize !important;
+  font-size: 24px !important;
+}
+.woocommerce .product .summary {
+	padding: 25px 0 !important;
+}
+.woocommerce .product .summary p {
+	font-size: 16px;
+	font-weight: bold;
+}
+.social-with-navigation .hidden-xs {
+	display: block !important;
+}
+.woocommerce-tabs .tabs li a {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+.woocommerce-tabs .tabs {
+	padding-left: 30px;
+} 
+.woocommerce-tabs .panel {
+	margin-top: 20px;
+	max-width: 1100px !important;
+	padding: 30px;
+	box-shadow: 0px 5px 20px #484848;
+}
+/*.woocommerce-Tabs-panel p, .woocommerce-Tabs-panel span {
+	font-size: 16px !important;
+}*/
+.accordions-head-title {
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.woocommerce div.product div.images {
+	margin-bottom: 0 !important;
+}
+.accordions .accordions-head {
+	box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+	padding: 15px 5px !important;
+}
+.diatrofikos-pinakas, .diatrofikos-cols, .diatrofikos-radiance {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.diatrofikos-cols tr th, .diatrofikos-radiance tr th {
+	background: #eeeeee;
+	color: #000000 !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+ .diatrofikos-radiance>tbody>tr>td {
+		font-size: 11px !important;
+	}
+}
+.featured-items {
+	border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+	table-layout: fixed;
+	background: #F6F6F6 !important;
+	border-radius: 0.8em;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border-top: 0 !important;
+}
+.featured-items .alignleft {
+	margin: 0 !important;
+}
+.featured-items .wp-caption-text {
+	font-size: 10px !important;
+	text-align: center;
+	color: #656363;
+	padding: 5px 0 !important;
+	margin-bottom: 0 !important;
+	font-style: unset;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .featured-items .wp-caption-text {
+	   font-size: 7px !important;
+   }
+}
+.featured-items img {
+	background: #ffffff;
+	border-radius: 50%;
+}
+/* pregracare */
+.berocket_brand-pregnacare .product_title, .post-2560 .woocommerce-tabs .tabs li.active a {
+	color: #00a24c;
+}
+.berocket_brand-pregnacare .woocommerce-tabs .panel {
+	border: 2px solid #00a24c;
+}
+.berocket_brand-pregnacare .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #00a24c 4vw, transparent 4.1vw);
+}
+.berocket_brand-pregnacare .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #00a24c 20vw, transparent 20.1vw);
+}
+/* feroglobin */
+.berocket_brand-feroglobin .product_title {
+	color: #e34365;
+}
+.berocket_brand-feroglobin .woocommerce-tabs .panel {
+	border: 2px solid #e34365;
+}
+.berocket_brand-feroglobin .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e34365 4vw, transparent 4.1vw);
+}
+.berocket_brand-feroglobin .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e34365 20vw, transparent 20.1vw);
+}
+/* menopace night */
+.postid-2677 .product_title, .post-2677 .woocommerce-tabs .tabs li.active a {
+	color: #4c5795;
+}
+.postid-2677 .woocommerce-tabs .panel {
+	border: 2px solid #4c5795;
+}
+.postid-2677 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #4c5795 4vw, transparent 4.1vw);
+}
+.postid-2677 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #4c5795 20vw, transparent 20.1vw);
+}
+/* menopace original */
+.postid-2683 .product_title {
+	color: #ec174f;
+}
+.postid-2683 .woocommerce-tabs .panel {
+	border: 2px solid #ec174f;
+}
+.postid-2683 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #ec174f 4vw, transparent 4.1vw);
+}
+.postid-2683 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #ec174f 20vw, transparent 20.1vw);
+}
+/* menopace plus box */
+.postid-2689 .product_title, .post-2689 .woocommerce-tabs .tabs li.active a {
+	color: #a155a0;
+}
+.postid-2689 .woocommerce-tabs .panel {
+	border: 2px solid #a155a0;
+}
+.postid-2689 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #a155a0 4vw, transparent 4.1vw);
+}
+.postid-2689 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #a155a0 20vw, transparent 20.1vw);
+}
+/* perfectil */
+.berocket_brand-perfectil .product_title {
+	color: #5e3984;
+}
+.berocket_brand-perfectil .woocommerce-tabs .panel {
+	border: 2px solid #5e3984;
+}
+.berocket_brand-perfectil .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #5e3984 4vw, transparent 4.1vw);
+}
+.berocket_brand-perfectil .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #5e3984 20vw, transparent 20.1vw);
+}
+.berocket_brand-perfectil h6 {
+	color: #000000;
+	font-size: 12px;
+}
+.berocket_brand-perfectil h5 {
+	padding-top: 16px;
+	color: #000000;
+	font-size: 12px;
+}
+.post-2710 .product_title, .post-2710 .woocommerce-tabs .tabs li.active a {
+	color: #803883; /* hair */
+}
+.post-2716 .product_title, .post-2716 .woocommerce-tabs .tabs li.active a {
+	color: #d35c94; /* nails */
+}
+.post-2734 .product_title, .post-2734 .woocommerce-tabs .tabs li.active a {
+	color: #38a2bc; /* skin */
+}
+.post-2722 .woocommerce-tabs .tabs li.active a {
+	color: #5e3984; /* original */
+}
+.post-2729 .product_title, .post-2729 .woocommerce-tabs .tabs li.active a {
+	color: #b51b39; /* radiance */
+}
+.post-2729 .gg-flex-column {
+	background: radial-gradient(circle at top right, #b51b39 4vw, transparent 4.1vw)
+}
+.postid-2729 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #b51b39 20vw, transparent 20.1vw);
+}
+
+/* WOMAN - MAN - CHILD */
+.page-id-2762 h5, .page-id-3888 h5, .page-id-3942 h5 {
+	margin-top: 12px !important;
+	margin-bottom: -15px !important;
+}
+.cats-products {
+	margin-top: 15%;
+}
+.cats-products .widget-title {
+	color: #000000;
+	font-size: 16px;
+}
+.page-id-3942 #custom_html-6 {
+	background: #F2F6F7;
+}
+.cats-products .widget_custom_html {
+	background: #ffffff;
+	padding: 20px;
+}
+.cats-products .widget_custom_html a {
+	color: #000000;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.page-id-2762 #custom_html-3, .page-id-3888 #custom_html-2, .page-id-2762 #custom_html-6, .page-id-3888 #custom_html-6, .page-id-3942 #custom_html-2, .page-id-3942 #custom_html-3 {
+	display: none;
+}
+.products > div.product, .products-carousel div.product {
+	padding-top: 0;
+}
+.products-carousel .product-image, .products-carousel .product-body {
+	background-color: #ffffff;
+}
+
+/* PERFECTIL */
+.page-id-2798 #content {
+	background: #ffffff !important;
+}
+.page-id-2798 h5 {
+		margin-top: 10px !important;
+	margin-bottom: -15px !important;
+}
+.rev_slider_wrapper {
+	margin-bottom: -1% !important;
+	margin-top: -1% !important;
+}
+.perf-fasa {
+	margin-top: -0.5% !important;
+}
+.perf-fasa p {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	margin-bottom: -1em;
+}
+.page-id-2798 h1, .page-id-3294 h1, .page-id-3340 h1 {
+	font-weight: 200;
+	color: #484848;
+	padding-top: 1em;
+	font-size: 30px;
+}
+.page-id-2798 h3 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 22px;
+}
+.perf-white img {
+	padding-top: 1em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+.perf-purple {
+	margin-top: -7em;
+	background: #a08db7; /*#b2a0c8;*/
+}
+.perf-purple p {
+	color: #ffffff;
+	font-size: 18px;
+}
+.perf-products {
+	margin-top: 5em;
+}
+.perf-products .fw-col-sm-6 {
+	background: #d8cfe2;
+	border-radius: 50%;
+	padding: 4%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .perf-products .fw-col-sm-6 {
+		border-radius: 0%;
+	}
+}
+.perf-products h6 {
+	margin-top: -7% !important;
+}
+.perf-3products h6, .perf-grey h6, .perf-products h6 {
+	font-size: 20px;
+}
+.perf-3products p, .perf-grey p, .perf-products p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.perf-products img, .perf-3products img, .perf-radiance img, .fergl-products img {  
+  transition: transform .2s; 
+}
+.perf-products img:hover, .perf-3products img:hover, .perf-radiance img:hover, .fergl-products img:hover {
+  transform: scale(1.1);
+}
+.badge-purple {
+	background: #5a2f88;
+	border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+	z-index: 10000;
+	left: 3%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .badge-purple {
+  	left: 0%;
+		position: relative;
+	}
+	.perf-fasa p {
+		letter-spacing: 0!important;
+	}
+}
+.badge-purple h5, .badge-purple p {
+	color: #ffffff;
+	text-align: center;
+}
+.badge-purple h5 {
+	font-size: 22px;
+	line-height: 25px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.badge-purple p {
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 16px;
+}
+.perf-3products {
+	background: #dbeff0; /*D8CFE2*/
+	border-radius: 50%;
+	height: 675px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .perf-3products {
+		height: auto;
+		border-radius: 0%;
+	}
+}
+.perf-3products .fw-single-img-wrapper {
+	margin-bottom: -25% !important;
+}
+.badge-turquoise {
+	background: #4ca9b1;
+	border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 60%;
+	margin-top: -5%;
+	z-index: 10000;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .badge-turquoise {
+  	left: 0%;
+		position: relative;
+	}
+}
+.badge-turquoise h5, .badge-turquoise p {
+	color: #ffffff;
+	text-align: center;
+}
+.badge-turquoise h5 {
+	font-size: 20px;
+	line-height: 22px;
+	padding-top: 8px;
+}
+.badge-turquoise p {
+	font-size: 14px;
+	line-height: 14px;
+	padding-top: 16px;
+}
+.perf-radiance {
+	margin-top: 10em;
+}
+.badge-grey {
+	background: #abb8be;/*#b51b39;*/
+	border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 70%;
+	z-index: 10000;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .badge-grey {
+  	left: 0%;
+		position: relative;
+	}
+}
+.perf-radiance img {
+	margin-bottom: -30%;
+}
+.badge-grey h5, .badge-grey p {
+	color: #ffffff;
+	text-align: center;
+}
+.badge-grey h5 {
+	font-size: 18px;
+	line-height: 25px;
+	padding-top: 24px;
+  font-weight: bold;
+}
+.badge-grey p {
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 16px;
+}
+.perf-grey {
+	margin-top: 5%;
+	background-color: #f2f6f7 !important;
+}
+.perf-grey .col-wrapper {
+	background-color: #f2f6f7 !important;
+}
+.home-catalogs {
+	margin-top: 2%;
+}
+/* FEROGLOBIN */ 
+.fergl-white {
+	background-color: #ffffff;
+}
+.fergl-text {
+	background-color: #F2F6F7;
+  padding: 0px 15px;
+  margin-top: 4.2em;
+  min-height: 545px;
+  margin-left: -4em;
+}
+.fergl-text h1, .menop-text h1 {
+	font-size: 18px;
+  font-weight: bold;
+  padding-top: 4em;
+}
+.fergl-text h2, .menop-text h2 {
+	font-size: 26px;
+	color: #000000;
+}
+.fergl-red {
+	background-color: #db0632;
+	height: 300px;
+  margin-top: -12%;
+}
+/* IMMUNANCE */
+.immun-white {
+	background-color: #ffffff;
+	margin-top: -10px;
+}
+.immun-white h2 {
+	font-size: 28px;
+	color: #5e5e5e;
+}
+.immun-text {
+	background-color: #ffffff;
+  padding: 20px 35px;
+  margin-top: 4.2em;
+  min-height: 545px;
+  margin-left: -4em;
+}
+.immun-text h1, .immun-text h1 {
+	font-size: 18px;
+  font-weight: bold;
+  padding-top: 4em;
+}
+.immun-text h2, .immun-text h2 {
+	font-size: 26px;
+	color: #000000;
+}
+.immun-blue {
+	background-color: #005398;
+	height: 300px;
+  margin-top: -12%;
+}
+.immun-fasa {
+	background-color: #f2f6f7 !important;
+}
+/* MENOPACE */
+.menop-lillac {
+	background-color: #A5519C;
+	height: 300px;
+  margin-top: -12%;
+}
+.menop-text {
+  background-color: #F2F6F7;
+  padding: 0px 18px;
+  margin-top: 4.2em;
+  min-height: 545px;
+  margin-right: -3em;
+}
+/* PREGNACARE */
+.preg-icons {
+	background-color: #ffffff !important;
+}
+.preg-icons h3 {
+	margin-top: 3% !important;
+	margin-bottom: 5% !important;
+}
+.preg-icons img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* VITA C+D */
+.cd-products {
+	margin-top: 5em;
+}
+/*.cd-products .fw-col-sm-6 {
+	background: #fef5e0;
+	border-radius: 50%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .cd-products .fw-col-sm-6 {
+		border-radius: 0%;
+	}
+}*/
+.cd-white img {
+	padding-top: 1em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+.cd-orange {
+	margin-top: -7em;
+	background: #e85f24 !important;
+}
+.cd-orange p {
+	color: #ffffff;
+	font-size: 18px;
+}
+.cd-orange h3 {
+	color: #ffffff;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .cd-orange h3 {
+		padding-top: 25%;
+	}
+}
+.cd-white h1 {
+	font-size: 22px;
+	color: #484848;
+}
+.ultra-2 {
+	background-color: #ffffff !important;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.ultra-2 .fw-row {
+	background: #fbdfd4;
+  border-radius: 20% / 70%;
+  height: auto;
+}
+.ultra-2 .fw-col-sm-6 {
+	margin-top: -16%;
+}
+.ultra-3 {
+	background-color: #d6e3da !important;
+}
+.ultra-2 .fw-divider-space, .ultra-3 .fw-divider-space {
+	padding: 30px;
+}
+
+/* CONTACT */
+.contact-us-module-wrapper .address-module, .contact-us-module-wrapper .phones-module, .contact-us-module-wrapper .emails-module {
+	text-transform: initial !important;
+	font-size: 16px;
+}
+.form-builder-item .header.title h2, .form-builder-item p, input[type=submit], .btn-primary {
+	font-size: 16px;
+}
+.post-1356 img {
+	width: 48%;
+}
+/* ABOUT */
+.page-id-3119 h1 {
+	font-size: 22px;
+  font-weight: bold;
+  color: #484848;
+}
+.page-id-3119 p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.about-red {
+	margin-top: -7em;
+	background-color: #d3033d !important;
+	margin-bottom: 7em;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-red .fw-heading.fw-heading-center, .perf-purple .fw-heading.fw-heading-center {
+		margin-top: 10em;
+	}
+}
+.about-red h3, .about-red .fw-special-subtitle {
+	color: #ffffff;
+  font-weight: bold;
+}
+.about-red .fw-special-subtitle {
+	margin-top: 0 !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .badge-grey {
+  	left: 0%;
+		position: relative;
+	}
+}
+.about-red p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* vitamin c+d fizz*/
+.postid-3515 .product_title {
+	color: #e85f25;
+}
+.postid-3515 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-3515 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-3515 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-3515 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}
+/* immunance */
+.postid-3818 .product_title, .postid-3825 .product_title {
+	color: #005398;
+}
+.postid-3818 .woocommerce-tabs .panel, .postid-3825 .woocommerce-tabs .panel {
+	border: 2px solid #005398;
+}
+.postid-3818 .gg-flex-column, .postid-3825 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #005398 4vw, transparent 4.1vw);
+}
+.postid-3818 .woocommerce-product-gallery, .postid-3825 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #005398 20vw, transparent 20.1vw);
+}
+.post-3818 .woocommerce-tabs .tabs li.active a, .post-3825 .woocommerce-tabs .tabs li.active a {
+    color: #005398;
+}
+/* wellkid */
+.page-id-3989 .perf-fasa {
+	background: #f59b02 !important;
+}
+.postid-3980 .product_title {
+	color: #56a8ab;
+}
+.postid-3980 .woocommerce-tabs .panel {
+	border: 2px solid #56a8ab;
+}
+.postid-3980 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #56a8ab 4vw, transparent 4.1vw);
+}
+.postid-3980 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #56a8ab 20vw, transparent 20.1vw);
+}
+.post-3980 .woocommerce-tabs .tabs li.active a {
+    color: #56a8ab;
+}
+/* vitamin C*/
+.postid-4039 .product_title {
+	color: #e85f25;
+}
+.postid-4039 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-4039 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-4039 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-4039 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}
+/* Ultra Vitamin C Fizz*/
+.postid-4018 .product_title {
+	color: #e85f25;
+}
+.postid-4018 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-4018 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-4018 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-4018 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}
+/* Ultra Vitamin D 1000IU*/
+.postid-4049 .product_title {
+	color: #e85f25;
+}
+.postid-4049 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-4049 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-4049 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-4049 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}
+/* Ultra Vitamin D 2000IU*/
+.postid-4063 .product_title {
+	color: #e85f25;
+}
+.postid-4063 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-4063 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-4063 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-4063 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}
+/* Ultra Vitamin D 4000IU*/
+.postid-4065 .product_title {
+	color: #e85f25;
+}
+.postid-4065 .woocommerce-tabs .panel {
+	border: 2px solid #e85f25;
+}
+.postid-4065 .gg-flex-column {
+	 right: 2.4%;
+   background: radial-gradient(circle at top right, #e85f25 4vw, transparent 4.1vw);
+}
+.postid-4065 .woocommerce-product-gallery {
+   background: radial-gradient(circle at bottom left, #e85f25 20vw, transparent 20.1vw);
+}
+.product h5 {
+    padding-top: 16px;
+    color: #000000;
+    font-size: 12px;
+}
+.product h6 {
+		color: #000000;
+    font-size: 12px
+}
+.post-4065 .woocommerce-tabs .tabs li.active a {
+    color: #e85f25;
+}		</style>
+		<link href="https://www.googletagmanager.com" rel="preconnect"></head>
+
+<body class="product-template-default single single-product postid-3818 theme-fabio woocommerce woocommerce-page woocommerce-no-js gg-slider-is-under_header gg-page-header-align-center gg-has-style_1-menu single-author pace-not-active gg-product-has-thumbs gg-shop-cols-3 gg-shop-style_1 footer-is-available footer-is-opened">
+
+<div id="st-container" class="st-container">
+
+	<!-- content push wrapper -->
+	<div class="st-pusher">
+		<nav class="st-menu st-effect-1" id="menu-1">
+<div class="fabio-woo-mini-cart">
+	</div>
+</nav>		<div class="st-content"><!-- this is the wrapper for the content -->
+			<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+			
+
+<header class="site-header default  ">
+
+<nav class="navbar navbar-default">
+    <div class="container top-bar">
+        <ul class="top-header">
+
+        	<li class="logo">
+        		<div class="logo-wrapper">
+                    <a class="brand" href="https://vitabiotics.gr/" title="VITABIOTICS" rel="home">
+<img class="brand" src="https://vitabiotics.gr/wp-content/uploads/2021/03/VITZBIOTICS-LOGO-01.png" alt="VITABIOTICS">
+</a>
+                </div><!-- .logo-wrapper -->
+            </li>
+
+        	<li class="menus">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="true">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="main-navbar-collapse">
+                    	<!-- Begin Main Navigation -->
+	<ul id="main-menu" class="nav navbar-nav"><li id="menu-item-2285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2285"><a title="ΑΡΧΙΚΗ" href="https://vitabiotics.gr/">ΑΡΧΙΚΗ</a></li>
+<li id="menu-item-3719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3719"><a title="ΕΤΑΙΡΕΙΑ" href="https://vitabiotics.gr/about-us/">ΕΤΑΙΡΕΙΑ</a></li>
+<li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2286"><a title="ΕΠΙΚΟΙΝΩΝΙΑ" href="https://vitabiotics.gr/contact-2/">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+</ul>	<!-- End Main Navigation -->
+
+                    <div class="navbar-secondary">
+	<!-- Begin Main Navigation -->
+	<ul id="secondary-menu" class="nav navbar-nav"><li id="menu-item-2797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2797 dropdown"><a title="Γυναίκα" href="https://vitabiotics.gr/gynaika/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Γυναίκα</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-3744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3744"><a title="Feroglobin" href="https://vitabiotics.gr/feroglobin/">Feroglobin</a></li>
+	<li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a title="Menopace" href="https://vitabiotics.gr/menopace/">Menopace</a></li>
+	<li id="menu-item-3746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3746"><a title="Perfectil" href="https://vitabiotics.gr/perfectil/">Perfectil</a></li>
+	<li id="menu-item-3747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a title="Pregnacare" href="https://vitabiotics.gr/pregnacare/">Pregnacare</a></li>
+	<li id="menu-item-3748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3748"><a title="Ultra" href="https://vitabiotics.gr/ultra/">Ultra</a></li>
+	<li id="menu-item-3886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3886"><a title="Immunace" href="https://vitabiotics.gr/immunace/">Immunace</a></li>
+</ul>
+</li>
+<li id="menu-item-3921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3921 dropdown"><a title="Άνδρας" href="https://vitabiotics.gr/andras/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Άνδρας</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-3749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3749"><a title="Feroglobin" href="https://vitabiotics.gr/feroglobin/">Feroglobin</a></li>
+	<li id="menu-item-3750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3750"><a title="Ultra" href="https://vitabiotics.gr/ultra/">Ultra</a></li>
+	<li id="menu-item-3887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3887"><a title="Immunace" href="https://vitabiotics.gr/immunace/">Immunace</a></li>
+</ul>
+</li>
+<li id="menu-item-3947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3947 dropdown"><a title="Παιδί" href="https://vitabiotics.gr/paidi/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Παιδί</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4218"><a title="Feroglobin Kids" href="https://vitabiotics.gr/feroglobin-kids/">Feroglobin Kids</a></li>
+	<li id="menu-item-4000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4000"><a title="Wellkid" href="https://vitabiotics.gr/wellkid/">Wellkid</a></li>
+	<li id="menu-item-4322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4322"><a title="Wellteen" href="https://vitabiotics.gr/wellteen/">Wellteen</a></li>
+</ul>
+</li>
+<li id="menu-item-2406" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2406"><a title="50+" href="https://vitabiotics.gr/product-category/50plus/">50+</a></li>
+</ul>	<!-- End Main Navigation -->
+</div><!-- nav -->                </div>
+        	</li>
+
+            <li class="shop">
+            	<ul class="flex-right">
+
+        			            		
+                    
+                                        <li class="top-search">
+                        <a href="#search" class="top-search-trigger">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    
+            							
+					<li><img src="https://vitabiotics.gr/wp-content/uploads/2022/01/awards-04.png" alt="logos"><img src="https://vitabiotics.gr/wp-content/uploads/2021/04/ETAIRIKO-LOGO-VITABIOTICS.png" alt="logos" style="width: 30%;"></li>
+            	</ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</header>
+<div class="content-wrapper">
+
+    <!-- Page header image -->
+        <!-- End Page header image -->
+
+    
+               
+            <!-- Page meta -->
+        <div class="page-meta">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="page-meta-wrapper">
+
+                        
+                        
+                                                </div><!-- .page-meta-wrapper -->
+
+                    </div><!-- .col-md-12 -->
+                    
+                </div><!-- .row -->
+            </div><!-- .container -->
+
+        </div><!-- .page-meta -->
+        <!-- End Page meta -->
+
+    
+<!-- End Header. Begin Template Content -->
+
+<section id="content">
+
+    
+        <div class="container">
+	<div class="row gg-flex-wrapper">
+		<div class="col-md-12">
+
+        <div class="woocommerce-notices-wrapper"></div><div id="nav_crumb" class="nav_crumb left"><div class="gg-breadcrumbs"><i class="icon_house_alt"></i> <a href="https://vitabiotics.gr">Home</a> <span class="delimiter">X</span> <a href="https://vitabiotics.gr/product-category/gynaika/">Γυναίκα</a> <span class="delimiter">X</span> Immunace Original</div></div>
+		</div>
+	</div>
+
+<div class="single-product-wrapper">
+<div itemscope="" id="product-3818" class="post-3818 product type-product status-publish has-post-thumbnail product_cat-andras product_cat-gynaika pa_diatrofikes_sinithies-vegan pa_diatrofikes_sinithies-vegeterian pa_morfi_proiontos-tampletes berocket_brand-immunace first instock shipping-taxable product-type-simple">
+    <div class="container">
+    	<div class="row gg-flex-wrapper">
+    		<div class="col-md-6 gg-flex-wrapper">
+    		        <style>
+            img.scroll-image-effect {
+                position: absolute;
+                top: 0px;
+                z-index: -1;
+                display: none;
+            }.woocommerce-product-gallery__image {
+                padding-top: 60px;
+            }.scroll-effect-parent{
+                position: relative;
+            }
+        </style>
+        <script type="rocketlazyloadscript">
+            jQuery(document).ready(function(){
+                jQuery('img.scroll-image-effect').hide();
+                jQuery(window).scroll(function (event) {
+                    var scroll = jQuery(window).scrollTop();
+                    if(scroll == 0){
+                        toggleEffect(false);
+                    }else{
+                        toggleEffect(true);
+                    }
+                });
+                setTimeout(resizeFlexSlider,500);
+            });
+            function resizeFlexSlider(){
+                slider = jQuery('.woocommerce-product-gallery__wrapper').flexslider();
+                slider.resize();
+            }
+            var effect_shown = false;
+            function toggleEffect(show){
+                if(show == false && effect_shown){
+                    jQuery('img.scroll-image-effect').animate({top: '0'}, 300, function(){
+                        jQuery('img.scroll-image-effect').hide();
+                    });
+                    effect_shown = false;
+                }else if(show == true && !effect_shown){
+                    jQuery('img.scroll-image-effect').show();
+                    jQuery('img.scroll-image-effect').animate({top: '-14%'}, 300);
+                    effect_shown = true;
+                }
+            }
+        </script>
+   <div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+	<figure class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-100x100.png" data-thumb-alt="" class="woocommerce-product-gallery__image scroll-effect-parent"><a href="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022.png"><img width="600" height="600" src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-600x600.png" class="wp-post-image" alt="" loading="lazy" title="Immunace original 2022" data-caption="" data-src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022.png" data-large_image_temp="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022.png" data-large_image_temp_width="3000" data-large_image_temp_height="3000" srcset="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-600x600.png 600w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-300x300.png 300w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-1024x1024.png 1024w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-150x150.png 150w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-768x768.png 768w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-1536x1536.png 1536w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-2048x2048.png 2048w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-100x100.png 100w" sizes="(max-width: 600px) 100vw, 600px"><img width="600" height="600" src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Tab.png" class="scroll-image-effect wp-post-image" alt="" loading="lazy" title="Immunace original 2022" data-caption="" data-src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022.png" data-large_image_temp="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022.png" data-large_image_temp_width="3000" data-large_image_temp_height="3000" srcset_temp="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Tab.png 600w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-300x300.png 300w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-1024x1024.png 1024w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-150x150.png 150w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-768x768.png 768w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-1536x1536.png 1536w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-2048x2048.png 2048w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-100x100.png 100w" sizes="(max-width: 600px) 100vw, 600px"></a></div><div data-thumb="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back-100x100.png" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back.png"><img width="580" height="580" src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back.png" class="" alt="" loading="lazy" title="Immunace_Original__Back" data-caption="" data-src="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back.png" data-large_image="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back.png" data-large_image_width="580" data-large_image_height="580" srcset="https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back.png 580w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back-300x300.png 300w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back-150x150.png 150w, https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace_Original__Back-100x100.png 100w" sizes="(max-width: 580px) 100vw, 580px"></a></div>	</figure>
+</div>
+    		</div><!-- .col-md-6 -->
+		
+    		<div class="col-md-6 gg-flex-wrapper-center gg-flex-column">
+    			<div class="summary entry-summary">
+
+    				<p class="price"></p>
+<h1 class="product_title entry-title">Immunace Original</h1><div itemprop="description"><p>30 δισκία</p>
+<p>Σχεδιασμένο για την υποστήριξη του ανοσοποιητικού, το Immunace Original προσφέρει ολοκληρωμένη διατροφική υποστήριξη όλον τον χρόνο.</p>
+<ul>
+<li>Υποστηρίξτε το ανοσοποιητικό σας σύστημα με στοχευμένα θρεπτικά συστατικά</li>
+<li>Με Βιταμίνη C, Ψευδάργυρο και Σελήνιο που συμβάλλουν στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος</li>
+<li>Μια ολοκληρωμένη πολυβιταμίνη, που αναπτύχθηκε από διεθνείς ειδικούς σε θέματα διατροφής</li>
+<li>Από την Νο1 εταιρεία βιταμινών του Ηνωμένου Βασιλείου</li>
+<li>Προστατεύεται από Ευρωπαϊκό Δίπλωμα Ευρεσιτεχνίας</li>
+</ul>
+<p>&nbsp;</p>
+</div>
+<div class="social-with-navigation">
+	<ul>
+		<li><a class="social-facebook" title="facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=https://vitabiotics.gr/product/immunace-original/&amp;images=https://vitabiotics.gr/wp-content/uploads/2022/10/Immunace-original-2022-150x150.png"><span class="fa fa-facebook"></span><span class="hidden-xs"></span></a></li>
+		<li><a class="social-twitter" title="twitter" target="_blank" href="https://twitter.com/share?url=https://vitabiotics.gr/product/immunace-original/&amp;text=Check out this https://vitabiotics.gr/product/immunace-original/"><span class="fa fa-twitter"></span><span class="hidden-xs"></span></a></li>
+		<li><a class="social-google" title="googleplus" target="_blank" href="https://plus.google.com/share?url=https://vitabiotics.gr/product/immunace-original/"><span class="fa fa-google"></span> <span class="hidden-xs"></span></a> </li>
+		<li><a class="social-linkedin" title="linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://vitabiotics.gr/product/immunace-original/"><span class="fa fa-linkedin"></span> <span class="hidden-xs"></span></a></li>
+		<li><a class="social-send" title="email" href="mailto:?subject=Immunace%20Original&amp;body=https://vitabiotics.gr/product/immunace-original/"><span class="fa fa-envelope"></span> <span class="hidden-xs"></span></a></li>
+	</ul>
+
+
+</div>    	    			</div><!-- .summary -->
+
+    			
+    		</div><!-- .col-md-6 -->
+    	</div><!-- .row -->
+
+        <div class="row gg-flex-wrapper">
+            <div class="col-md-12 gg-flex-wrapper">
+                
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs" role="tablist">
+							<li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
+					<a href="#tab-description">
+						ΠΕΡΙΓΡΑΦΗ ΠΡΟΪΟΝΤΟΣ					</a>
+				</li>
+							<li class="diatrofikes-plirofories_tab" id="tab-title-diatrofikes-plirofories" role="tab" aria-controls="tab-diatrofikes-plirofories">
+					<a href="#tab-diatrofikes-plirofories">
+						ΔΙΑΤΡΟΦΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ					</a>
+				</li>
+							<li class="odigies_tab" id="tab-title-odigies" role="tab" aria-controls="tab-odigies">
+					<a href="#tab-odigies">
+						ΟΔΗΓΙΕΣ					</a>
+				</li>
+							<li class="sychnes-erotiseis_tab" id="tab-title-sychnes-erotiseis" role="tab" aria-controls="tab-sychnes-erotiseis">
+					<a href="#tab-sychnes-erotiseis">
+						ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ					</a>
+				</li>
+					</ul>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+				
+
+<p><strong style="color: #005398;">Immunace Original</strong></p>
+<p><strong>Διατροφική υποστήριξη για το ανοσοποιητικό σύστημα</strong></p>
+<p>Το Immunace είναι ένα εξειδικευμένο συμπλήρωμα διατροφής που παρέχει προηγμένη διατροφική υποστήριξη για την συνολική υγεία και τη ζωτικότητα, ενώ τα θρεπτικά που περιέχει συμβάλλουν στη φυσιολογική λειτουργία του ανοσοποιητικού σας συστήματος. Η σύνθεση Immunace έχει αναπτυχθεί σε συνεργασία με διεθνείς ειδικούς σε θέματα διατροφής.</p>
+<p><strong>Φυσιολογική λειτουργία του Ανοσοποιητικού Συστήματος</strong></p>
+<p>Το Immunace παρέχει μια ολοκληρωμένη σύνθεση που περιλαμβάνει Βιταμίνη D, Ψευδάργυρο και Σελήνιο που συμβάλλουν στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, καθώς και Φυλλικό οξύ που συμβάλλει στο φυσιολογικό σχηματισμό του αίματος. Το Immunace ήταν ένα από τα πρώτα συμπληρώματα για το ανοσοποιητικό σύστημα στο Ηνωμένο Βασίλειο, που πρωτοποριακά αναγνώρισε ότι η Βιταμίνη D όχι μόνο συμβάλλει στη διατήρηση των φυσιολογικών οστών και της μυϊκής λειτουργίας, αλλά και στη φυσιολογική λειτουργία του ανοσοποιητικού<br>
+συστήματος.</p>
+<p><strong>Προστασία των κυττάρων από το οξειδωτικό στρες</strong></p>
+<p>Οι Βιταμίνες E &amp; C συμβάλλουν στην προστασία των κυττάρων από το οξειδωτικό στρες που προκαλείται από τις ελεύθερες ρίζες. Οι ελεύθερες ρίζες βρίσκονται φυσικά στο περιβάλλον, με την ύπαρξή τους να οφείλεται στο φως του ήλιου, τον καπνό του τσιγάρου, τη ρύπανση και άλλους παράγοντες της σύγχρονης καθημερινής ζωής. Το Immunace περιέχει βιταμίνες, ιχνοστοιχεία,&nbsp; αμινοξέα<u>,</u> φυσικά καροτενοειδή, και Βιταμίνη Α που συμβάλλει στη διατήρηση φυσιολογικού δέρματος και των βλεννογόνων.</p>
+<p><strong>Ολοκληρωμένη υποστήριξη</strong></p>
+<p>Το Immunace παρέχει μια ολοκληρωμένη σύνθεση βιταμινών και μετάλλων. Δεν χρειάζεται να λάβετε επιπλέον πολυβιταμίνη. Η σύνθεση του Immunace αναπτύχθηκε βάσει διεθνών επιστημονικών ερευνών για τα θρεπτικά συστατικά του και το ρόλο τους στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος.</p>
+<p>Προστατεύεται από Ευρωπαϊκό Δίπλωμα Ευρεσιτεχνίας</p>
+<p><em>Αυτές οι πληροφορίες δεν προορίζονται να υποκαταστήσουν επαγγελματικές ιατρικές συμβουλές, διάγνωση ή θεραπεία. Πάντα να αναζητάτε τη συμβουλή του γιατρού σας ή άλλων εξειδικευμένων επαγγελματιών υγείας σχετικά με οποιαδήποτε ιατρική πάθηση.</em></p>
+			</div>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--diatrofikes-plirofories panel entry-content wc-tab" id="tab-diatrofikes-plirofories" role="tabpanel" aria-labelledby="tab-title-diatrofikes-plirofories">
+				<h2 class="yikes-custom-woo-tab-title yikes-custom-woo-tab-title-διατροφικεσ-πληροφοριεσ">ΔΙΑΤΡΟΦΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ</h2><p><strong style="color: #005398;">Δισκία μικροθρεπτικών συστατικών ένα-την-ημέρα με αμινοξέα</strong></p>
+<div class="row">
+<div class="col-xs-6 col-sm-6">
+<table class="diatrofikos-cols">
+<thead>
+<tr>
+<td width="239"><strong>Διατροφικές πληροφορίες</strong></td>
+<td width="192"><strong>Μέσος όρος ανά δισκίο</strong></td>
+<td width="127"><strong>% NRV*</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="239">Βιταμίνη Α (2666 IU)</td>
+<td width="192">800 µg RE</td>
+<td width="127">100</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη D (ως D3 1000 IU)</td>
+<td width="192">25 µg</td>
+<td width="127">500</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη Ε</td>
+<td width="192">40 mg α-TE</td>
+<td width="127">333</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη Κ</td>
+<td width="192">70 µg</td>
+<td width="127">93</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη C</td>
+<td width="192">150 mg</td>
+<td width="127">188</td>
+</tr>
+<tr>
+<td width="239">Θειαμίνη (βιταμίνη Β1)</td>
+<td width="192">18 mg</td>
+<td width="127">1636</td>
+</tr>
+<tr>
+<td width="239">Ριβοφλαβίνη (Βιταμίνη Β2)</td>
+<td width="192">6 mg</td>
+<td width="127">429</td>
+</tr>
+<tr>
+<td width="239">Νιασίνη (Βιταμίνη Β3)</td>
+<td width="192">27 mg NE</td>
+<td width="127">169</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη Β6</td>
+<td width="192">10 mg</td>
+<td width="127">714</td>
+</tr>
+<tr>
+<td width="239">Φυλλικό οξύ</td>
+<td width="192">400 µg</td>
+<td width="127">200</td>
+</tr>
+<tr>
+<td width="239">Βιταμίνη Β12</td>
+<td width="192">14 µg</td>
+<td width="127">560</td>
+</tr>
+<tr>
+<td width="239">Παντοθενικό οξύ</td>
+<td width="192">20 mg</td>
+<td width="127">333</td>
+</tr>
+<tr>
+<td width="239">Μαγνήσιο</td>
+<td width="192">60 mg</td>
+<td width="127">16</td>
+</tr>
+<tr>
+<td width="239">Σίδηρος</td>
+<td width="192">8 mg</td>
+<td width="127">57</td>
+</tr>
+<tr>
+<td width="239">Ψευδάργυρος</td>
+<td width="192">15 mg</td>
+<td width="127">150</td>
+</tr>
+<tr>
+<td width="239">Χαλκός</td>
+<td width="192">500 µg</td>
+<td width="127">50</td>
+</tr>
+<tr>
+<td width="239">Μαγγάνιο</td>
+<td width="192">4 mg</td>
+<td width="127">200</td>
+</tr>
+<tr>
+<td width="239">Σελήνιο</td>
+<td width="192">180 µg</td>
+<td width="127">327</td>
+</tr>
+<tr>
+<td width="239">Χρώμιο</td>
+<td width="192">100 µg</td>
+<td width="127">250</td>
+</tr>
+<tr>
+<td width="239">Ιώδιο</td>
+<td width="192">200 µg</td>
+<td width="127">133</td>
+</tr>
+<tr>
+<td width="239">Βήτα καροτένιο</td>
+<td width="192">3 mg</td>
+<td width="127">–</td>
+</tr>
+<tr>
+<td width="239">L-Κυστεΐνη</td>
+<td width="192">40 mg</td>
+<td width="127">–</td>
+</tr>
+<tr>
+<td width="239">L-Καρνιτίνη</td>
+<td width="192">30 mg</td>
+<td width="127">–</td>
+</tr>
+<tr>
+<td width="239">Βιοφλαβονοειδή εσπεριδοειδών</td>
+<td width="192">30 mg</td>
+<td width="127">–</td>
+</tr>
+</tbody>
+</table>
+<p>* NRV = Τιμή αναφοράς Θρεπτικών Συστατικών, μg = μικρογραμμάριο<br>
+mg = χιλιοστόγραμμα, IU = Διεθνείς μονάδες</p>
+</div>
+<div class="col-xs-6 col-sm-6">
+<p style="color: #005398;" align="JUSTIFY"><b>Συστατικά</b></p>
+<p style="text-align: left;" align="JUSTIFY"><span style="font-size: 14px !important;"><br>
+Βιταμίνη C (Ασκορβικό Οξύ [Φορέας: Υδροξυπροπυλομεθυλοκυτταρίνη]), Υδροξείδιο του Μαγνησίου, Βιταμίνη Ε (DL-οξική άλφα τοκοφερόλη [Φορείς: Διοξείδιο του Πυριτίου, Κεκαθαρμένος Τάλκης]), Διογκωτικοί παράγοντες: Διβασικό Φωσφορικό Ασβέστιο και Μικροκρυσταλλική Κυτταρίνη, Βιοφλαβονοειδή εσπεριδοειδών, Επικάλυψη Δισκίου (Υδροξυπροπυλομεθυλοκυτταρίνη, Αιθυλοκυτταρίνη, Προπυλενογλυκόλη, Κεκαθαρμένος Τάλκης, Χρωστικές Φυσικής Πηγής: Διοξείδιο του Τιτανίου &amp; Οξείδια του Σιδήρου), L-Κυστεΐνη, Τρυγική L-Kαρνιτίνη, Θειικός Ψευδάργυρος, Πολυβινυλοπυρρολιδόνη, Θειαμίνη (Βιταμίνη Β1 ως Μονονιτρική), Νιασίνη (Νικοτιναμίδη), Αντισυσσωματικοί Παράγοντες: Κεκαθαρμένος Τάλκης, Στεατικό Μαγνήσιο &amp; Διοξείδιο του Πυριτίου, Παντοθενικό Οξύ (ως Άλας Ασβεστίου), Φουμαρικός Σίδηρος, Πολυβινυλοπολυπυρρολιδόνη, Βήτα καροτένιο (Φορείς: Άμυλο Πατάτας, Νερό, Αντιοξειδωτικό: DL-Άλφα Τοκοφερόλη), Βιταμίνη Β6 (Υδροχλωρική Πυριδοξίνη) , Θειικό Μαγγάνιο, Βιταμίνη Α (Οξικό Άλας [Φορείς: Κόμμι Ακακίας, Άμυλο, Αντιοξειδωτικό: DL-Άλφα Τοκοφερόλη, Σουκρόζη και Φωσφορικό Ασβέστιο]), Ριβοφλαβίνη, Αιθυλοκυτταρίνη, Άμυλο Πατάτας, Βιοταμίνη Β12 (Κυανοκοβαλαμίνη [Φορέας: Φωσφορικό Ασβέστιο]), Βιταμίνη Κ1 (Φορείς: Κόμμι Ακακίας, Σιρόπι Γλυκόζης, Φωσφορικό Ασβέστιο), Θειικός Χαλκός, Βιταμίνη D3 (Χοληκαλσιφερόλη [Φορείς: Τριγλυκερίδια Μέσης Αλυσίδας, Κολλοειδές Πυρίτιο, Κεκαθαρμένος Τάλκης, Μαλτοδεξτρίνη <strong>Βουτυλική Υδροξυανισόλη</strong> &amp; Αιθυλοκυτταρίνη]), Τριχλωριούχο Χρώμιο, Φυλλικό Οξύ (ως Πτεροϋλομονογλουταμικό Οξύ), Σεληνικό Νάτριο, Ιωδιούχο Κάλιο.</span></p>
+</div>
+</div>
+<p style="text-align: left;" align="JUSTIFY"><span style="font-size: medium;">Πάντα να διαβάζετε τις οδηγίες του προϊόντος πριν από τη χρήση. Μην υπερβαίνετε τη συνιστώμενη δοσολογία. Όπως και με άλλα συμπληρώματα διατροφής, συμβουλευτείτε το γιατρό ή το φαρμακοποιό σας πριν το χρησιμοποιήσετε εάν είστε υπό ιατρική παρακολούθηση, είστε έγκυος, θηλάζετε, έχετε επιληψία, πάσχετε από τροφικές αλλεργίες ή είστε αλλεργικοί σε οποιοδήποτε από τα συστατικά. Τα συμπληρώματα δεν προορίζονται για τη θεραπεία ή την πρόληψη οποιασδήποτε ασθένειας. Τα συμπληρώματα διατροφής δεν πρέπει να υποκαθιστούν μια ισορροπημένη και ποικίλη διατροφή και έναν υγιεινό τρόπο ζωής.</span></p>
+			</div>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--odigies panel entry-content wc-tab" id="tab-odigies" role="tabpanel" aria-labelledby="tab-title-odigies">
+				<h2 class="yikes-custom-woo-tab-title yikes-custom-woo-tab-title-οδηγιεσ">ΟΔΗΓΙΕΣ</h2><p><strong style="color: #005398;">ΕΝΑ ΔΙΣΚΙΟ ΤΗΝ ΗΜΕΡΑ ΜΕ ΤΟ ΚΥΡΙΟ ΓΕΥΜΑ ΣΑΣ. </strong></p>
+<p>Κατάποση με νερό ή κρύο ρόφημα. Δεν πρέπει να το μασάτε. Μην υπερβαίνετε τη συνιστώμενη δοσολογία. Να λαμβάνεται μόνο με γεμάτο στομάχι. Μπορεί να συνεχιστεί για όσο απαιτείται.</p>
+<p>Αυτή η περιεκτική σύνθεση αντικαθιστά άλλες πολυβιταμίνες Immunace<sup>®</sup>. Δεν χρειάζεται να λάβετε επιπλέον πολυβιταμίνη.</p>
+<ul>
+<li>Κατάλληλο για χορτοφάγους</li>
+<li>Χωρίς τεχνητές χρωστικές</li>
+<li>Χωρίς συντηρητικά</li>
+<li>Χωρίς μαγιά ή λακτόζη</li>
+<li>το Immunace δεν δοκιμάζεται σε ζώα</li>
+</ul>
+<p><strong>Συμπλήρωμα διατροφής</strong></p>
+<p>Τα συμπληρώματα διατροφής δεν πρέπει να υποκαθιστούν μια ποικίλη και ισορροπημένη διατροφή και έναν υγιεινό τρόπο ζωής. Όπως και με άλλα συμπληρώματα διατροφής, συμβουλευτείτε το γιατρό ή το φαρμακοποιό σας πριν χρησιμοποιήσετε εάν είστε υπό ιατρική παρακολούθηση, είστε έγκυος, θηλάζετε, έχετε επιληψία, πάθηση θυρεοειδούς, αιμοχρωμάτωση, <strong>πάσχετε από τροφικές αλλεργίες ή είστε αλλεργικοί σε οποιοδήποτε από τα συστατικά. Μπορεί να περιέχει ίχνη ξηρών καρπών.</strong> Δεν είναι κατάλληλο για παιδιά.</p>
+<p>Επειδή αυτό το προϊόν περιέχει Βιταμίνη Κ, εάν παίρνετε αντιπηκτική αγωγή (αραιωτικά αίματος), μην το λάβετε παρά μόνο μετά από συμβουλή γιατρού. Αυτό το προϊόν περιέχει Σίδηρο, ο οποίος εάν ληφθεί σε υπερβολική δόση, μπορεί να είναι επιβλαβής για τα πολύ μικρά παιδιά.</p>
+<p><strong>Φυλάσσεται σε θερμοκρασία μικρότερη των 25° </strong><strong>C</strong><strong> σε ξηρό μέρος, μακριά από τα παιδιά. </strong></p>
+			</div>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--sychnes-erotiseis panel entry-content wc-tab" id="tab-sychnes-erotiseis" role="tabpanel" aria-labelledby="tab-title-sychnes-erotiseis">
+				<h2 class="yikes-custom-woo-tab-title yikes-custom-woo-tab-title-συχνεσ-ερωτησεισ">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</h2><div id="accordions-3817" class="accordions-3817 accordions">
+                <style type="text/css">
+        @media only screen and (min-width: 1024px) {
+            #accordions-3817  {
+                width: 100%;
+                            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            #accordions-3817  {
+                width: 100%;
+                            }
+        }
+
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+            #accordions-3817  {
+                width: 100%;
+                            }
+        }
+
+        #accordions-3817  {
+            text-align: left;
+            background: #ffffff url() repeat scroll 0 0;
+            position: relative;
+        }
+
+        #accordions-3817 .accordions-head {
+            background: #1e73be none repeat scroll 0 0;
+            outline: none;
+        }
+
+        #accordions-3817 .accordions-head-title {
+            color: #ffffff;
+            font-size: 16px;
+                    }
+
+        #accordions-3817 .accordions-head-title-toggle {
+            color: #ffffff;
+            font-size: 16px;
+                    }
+
+        #accordions-3817 .accordions-head:hover .accordions-head-title {
+            color: #ffffff;
+                    }
+
+        #accordions-3817 .ui-state-active {
+            background: #174e7f;
+            border: none;
+        }
+
+        #accordions-3817 .accordion-content {
+            background: #ffffff none repeat scroll 0 0;
+            border: none;
+        }
+
+        #accordions-3817 .accordion-icons {
+            color: #000000;
+                    }
+
+        #accordions-3817 .accordions-head:hover .accordion-icons span {
+            color: #777777;
+                    }
+
+            </style>
+<div class="items">
+                        <div post_id="3817" itemcount="0" header_id="header-1618293506274" id="header-1618293506274" style="" class="accordions-head head1618293506274 border-none" toggle-text="" main-text="Γιατί αναπτύχθηκε το Immunace;">
+                                            <span id="header-text-1618293506274" class="accordions-head-title">Γιατί αναπτύχθηκε το Immunace;</span>
+                        <span id="accordion-icons-1618293506274" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293506274 ">
+                    <p>Η έρευνα δείχνει ότι το σώμα μας συχνά δεν διαθέτει τα συγκεκριμένα θρεπτικά συστατικά που απαιτούνται για τη διατήρηση της φυσιολογικής λειτουργίας του ανοσοποιητικού συστήματος. Τα φρούτα και τα λαχανικά είναι η πλουσιότερη πηγή σημαντικών αντιοξειδωτικών, αλλά υπάρχουν αυξανόμενες ενδείξεις ότι οι περισσότερες δυτικές δίαιτες δεν παρέχουν επαρκείς ποσότητες. Το Immunace παρέχει έναν συνεργιστικό συνδυασμό 24 θρεπτικών συστατικών για το ανοσοποιητικό σύστημα, βιταμινών, μετάλλων, αμινοξέων και βιοφλαβονοειδών, συμπεριλαμβανομένης της Βιταμίνης D3, του Ψευδαργύρου και του Σεληνίου, που συμβάλλουν στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος. Βασισμένο σε μελέτες, το Immunace περιέχει έναν ολοκληρωμένο συνδυασμό αντιοξειδωτικών και θρεπτικών, ώστε να είναι πιο αποτελεσματικό για το ανοσοποιητικό σύστημα.</p>
+                </div>
+                        <div post_id="3817" itemcount="1" header_id="header-1618293506467" id="header-1618293506467" style="" class="accordions-head head1618293506467 border-none" toggle-text="" main-text="Πότε συνιστάται το Immunace;">
+                                            <span id="header-text-1618293506467" class="accordions-head-title">Πότε συνιστάται το Immunace;</span>
+                        <span id="accordion-icons-1618293506467" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293506467 ">
+                    <p>Το Immunace συνιστάται σε γυναίκες και άνδρες ως την καθημερινή διατροφική κάλυψη με Βιταμίνη D3, Ψευδάργυρο και Σελήνιο που συμβάλλουν στη φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, αλλά και βιταμίνες C &amp; E που συμβάλλουν στην ολοκληρωμένη προστασία από το οξειδωτικό στρες. Πέρα από την υποστήριξη που προσφέρει στο ανοσοποιητικό σύστημα, το Immunace είναι ένα πολύτιμο συμπλήρωμα πολυβιταμινών και μετάλλων. Το Immunace μπορεί να ληφθεί για όσο χρονικό διάστημα απαιτείται.</p>
+                </div>
+                        <div post_id="3817" itemcount="2" header_id="header-1618293506672" id="header-1618293506672" style="" class="accordions-head head1618293506672 border-none" toggle-text="" main-text="Μπορεί το Immunace να χρησιμοποιηθεί ταυτόχρονα με φάρμακα;">
+                                            <span id="header-text-1618293506672" class="accordions-head-title">Μπορεί το Immunace να χρησιμοποιηθεί ταυτόχρονα με φάρμακα;</span>
+                        <span id="accordion-icons-1618293506672" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293506672 ">
+                    <p>Γενικά, το Immunace μπορεί να χρησιμοποιηθεί παράλληλα με φάρμακα επειδή περιέχει μόνο μέτρια επίπεδα βιταμινών και μετάλλων και είναι απαλλαγμένο από φάρμακα και ορμόνες. Για συγκεκριμένες συμβουλές σχετικά με τη λήψη του Immunace με φάρμακα, σας συνιστούμε να επικοινωνήσετε πρώτα με το γιατρό ή το φαρμακοποιό σας.</p>
+                </div>
+                        <div post_id="3817" itemcount="3" header_id="header-1618293506830" id="header-1618293506830" style="" class="accordions-head head1618293506830 border-none" toggle-text="" main-text="Πόσα δισκία περιέχει μία συσκευασία Immunace;">
+                                            <span id="header-text-1618293506830" class="accordions-head-title">Πόσα δισκία περιέχει μία συσκευασία Immunace;</span>
+                        <span id="accordion-icons-1618293506830" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293506830 ">
+                    <p>Το Immunace περιέχει 30 δισκία - ένα την ημέρα - ανά συσκευασία.</p>
+                </div>
+                        <div post_id="3817" itemcount="4" header_id="header-1618293507038" id="header-1618293507038" style="" class="accordions-head head1618293507038 border-none" toggle-text="" main-text="Πώς και πότε πρέπει να χρησιμοποιείται το Immunace;">
+                                            <span id="header-text-1618293507038" class="accordions-head-title">Πώς και πότε πρέπει να χρησιμοποιείται το Immunace;</span>
+                        <span id="accordion-icons-1618293507038" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507038 ">
+                    <p>Συνιστάται η λήψη ενός δισκίου την ημέρα με ή αμέσως μετά το κυρίως &nbsp;γεύμα σας. Κατάποση με νερό ή κρύο ρόφημα. Η λήψη του δισκίου με ένα καλό γεύμα μεγιστοποιεί την απορρόφηση των θρεπτικών ουσιών και μπορεί να μειώσει τη ναυτία, η οποία μερικές φορές παρατηρείται εάν ληφθούν πολυβιταμίνες με άδειο στομάχι. Το Immunace πρέπει να λαμβάνεται μόνο με γεμάτο στομάχι. Βεβαιωθείτε ότι το Immunace λαμβάνεται με άφθονο υγρό για να καταποθεί το δισκίο.</p>
+                </div>
+                        <div post_id="3817" itemcount="5" header_id="header-1618293507215" id="header-1618293507215" style="" class="accordions-head head1618293507215 border-none" toggle-text="" main-text="Χρειάζεστε βοήθεια με την κατάποση ενός δισκίου ή μιας κάψουλας;">
+                                            <span id="header-text-1618293507215" class="accordions-head-title">Χρειάζεστε βοήθεια με την κατάποση ενός δισκίου ή μιας κάψουλας;</span>
+                        <span id="accordion-icons-1618293507215" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507215 ">
+                    <p>Η δυσκολία στην κατάποση δισκίων είναι μια πολύ κοινή εμπειρία. Η VITABIOTICS το έχει ερευνήσει εκτενώς και προτείνει μετά το μάσημα κάποιου φαγητού (π.χ. μπανάνα), λίγο πριν καταπιείτε, να βάλετε το δισκίο στο στόμα σας και να το καταπιείτε μαζί με τη μασώμενη τροφή, ακολουθούμενο από λίγο υγρό. Ο λαιμός ανοίγει ευρύτερα για να καταποθεί η μασώμενη τροφή και έτσι το δισκίο μπορεί να καταποθεί με μεγαλύτερη ευκολία. Εναλλακτικά, τα δισκία μπορούν να καταπίνονται με πυκνόρευστα υγρά όπως τα γιαούρτια ή τα smoothies.</p>
+                </div>
+                        <div post_id="3817" itemcount="6" header_id="header-1618293507365" id="header-1618293507365" style="" class="accordions-head head1618293507365 border-none" toggle-text="" main-text="Υπάρχουν ανεπιθύμητα αποτελέσματα κατά τη λήψη του Immunace;">
+                                            <span id="header-text-1618293507365" class="accordions-head-title">Υπάρχουν ανεπιθύμητα αποτελέσματα κατά τη λήψη του Immunace;</span>
+                        <span id="accordion-icons-1618293507365" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507365 ">
+                    <p>Το Immunace δεν έχει γνωστές παρενέργειες όταν λαμβάνεται σύμφωνα με τις οδηγίες. Μην υπερβαίνετε τη συνιστώμενη δοσολογία του δισκίου. Σε περίπτωση υπερδοσολογίας, ζητήστε αμέσως ιατρική συμβουλή.</p>
+                </div>
+                        <div post_id="3817" itemcount="7" header_id="header-1618293507539" id="header-1618293507539" style="" class="accordions-head head1618293507539 border-none" toggle-text="" main-text="Τι θρεπτικά συστατικά περιέχονται;">
+                                            <span id="header-text-1618293507539" class="accordions-head-title">Τι θρεπτικά συστατικά περιέχονται;</span>
+                        <span id="accordion-icons-1618293507539" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507539 ">
+                    <p>Τα βασικά θρεπτικά συστατικά που περιέχονται στο προϊόν Immunace Original περιλαμβάνουν Βιταμίνη D, Βιταμίνη Ε, Βιταμίνη Κ, Βιταμίνη C, Φυλλικό οξύ, Βιταμίνη Β12, Μαγνήσιο, Σίδηρο, Ψευδάργυρο, Σελήνιο, L-Καρνιτίνη, L-Κυστεΐνη. Για να δείτε την πλήρη λίστα των συστατικών για αυτό το προϊόν κάντε κλικ στην καρτέλα διατροφικές πληροφορίες.</p>
+                </div>
+                        <div post_id="3817" itemcount="8" header_id="header-1618293507742" id="header-1618293507742" style="" class="accordions-head head1618293507742 border-none" toggle-text="" main-text="Πόσος χρόνος χρειάζεται για να βιώσετε κάποιο όφελος;">
+                                            <span id="header-text-1618293507742" class="accordions-head-title">Πόσος χρόνος χρειάζεται για να βιώσετε κάποιο όφελος;</span>
+                        <span id="accordion-icons-1618293507742" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507742 ">
+                    <p>Τα αποτελέσματα ποικίλλουν μεταξύ των ατόμων, αλλά στις περισσότερες περιπτώσεις αναμένουμε ότι τα ευεργετικά αποτελέσματα των βιταμινών και των μετάλλων από το Immunace θα φανούν σε &nbsp;μερικές εβδομάδες. Δεν υπάρχει μέγιστο χρονικό διάστημα για το οποίο πρέπει να χρησιμοποιείται το Immunace. Συνίσταται τακτική λήψη.</p>
+                </div>
+                        <div post_id="3817" itemcount="9" header_id="header-1618293507948" id="header-1618293507948" style="" class="accordions-head head1618293507948 border-none" toggle-text="" main-text="Ορισμένα επίπεδα των Τιμών Αναφοράς των Θρεπτικών Συστατικών (NRV) είναι πάνω από 100%, είναι αυτό ασφαλές;">
+                                            <span id="header-text-1618293507948" class="accordions-head-title">Ορισμένα επίπεδα των Τιμών Αναφοράς των Θρεπτικών Συστατικών (NRV) είναι πάνω από 100%, είναι αυτό ασφαλές;</span>
+                        <span id="accordion-icons-1618293507948" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293507948 ">
+                    <p>Ορισμένες βιταμίνες είναι πολύ ασφαλείς σε επίπεδα δεκάδων ή ακόμη και εκατοντάδων των τιμών της NRV, ενώ για άλλες το επίπεδο ασφάλειας είναι πολύ πιο κοντά στην NRV. Για το λόγο αυτό, κάθε βιταμίνη και μέταλλο πρέπει να εξετάζεται σε εξατομικευμένη βάση ως προς το ανώτερο ασφαλές επίπεδο.</p>
+<p>Η Τιμή Αναφοράς των Θρεπτικών Συστατικών (NRV) είναι η ποσότητα μιας βιταμίνης ή μετάλλου η οποία έχει υπολογιστεί για να αποτρέψει τις βασικές καταστάσεις ανεπάρκειας στον γενικό πληθυσμό. Ωστόσο, ορισμένες βιταμίνες και μέταλλα σε βέλτιστα επίπεδα, πάνω από το NRV, έχει αποδειχθεί σταθερά ότι έχουν θετικά οφέλη σε συγκεκριμένους τομείς της υγείας. Αυτός είναι ο λόγος για τον οποίο ορισμένες συνθέσεις της VITABIOTICS έχουν ορισμένα επίπεδα θρεπτικών συστατικών μεγαλύτερα από το 100% της NRV.</p>
+<p>Όλα τα προϊόντα VITABIOTICS έχουν αναπτυχθεί χρησιμοποιώντας την τελευταία επιστημονική έρευνα και περιέχουν αποτελεσματικά επίπεδα βιταμινών και μετάλλων, αποφεύγοντας παράλληλα τυχόν υπερβολικές ποσότητες, σύμφωνα με τα επίσημα ανώτερα ασφαλή όρια για τις βιταμίνες και τα μέταλλα.</p>
+<p>Η VITABIOTICS αποφεύγει τα επίπεδα των μεμονωμένων θρεπτικών συστατικών της «μεγίστης δόσης» και αντ' αυτού υπογραμμίζει τη σημασία ασφαλών, μέτριων και λογικών επιπέδων βιταμινών και μετάλλων, προσεκτικά ισορροπημένων για τη μεγιστοποίηση της συνδυασμένης δράσης τους, μια προσέγγιση που υποστηρίζεται από πολλούς ειδικούς επιστήμονες και ερευνητές όλα αυτά τα χρόνια.</p>
+                </div>
+                        <div post_id="3817" itemcount="10" header_id="header-1618293508133" id="header-1618293508133" style="" class="accordions-head head1618293508133 border-none" toggle-text="" main-text="Πώς να προμηθεύεστε το Immunace Original;">
+                                            <span id="header-text-1618293508133" class="accordions-head-title">Πώς να προμηθεύεστε το Immunace Original;</span>
+                        <span id="accordion-icons-1618293508133" class="accordion-icons">
+                            <span class="accordion-icon-active accordion-plus"><i class="fas fa-plus"></i></span>
+                            <span class="accordion-icon-inactive accordion-minus"><i class="fas fa-minus"></i></span>
+                        </span>
+                                    </div>
+                <div class="accordion-content content1618293508133 ">
+                    <p>Το Immunace Original διατίθεται στα φαρμακεία. Κάθε συσκευασία Immunace Original περιέχει 30 δισκία και σας καλύπτει για 30 ημέρες (1 μήνα).</p>
+                </div>
+            </div>
+    <script type="rocketlazyloadscript">
+        (function($) {
+
+            $(document).ready(function() {
+                accordions_active_index_3817 = [];
+                        })
+        })(jQuery);
+    </script>    <script type="rocketlazyloadscript">
+        (function($) {
+            $(document).ready(function() {
+                accordion_3817 = $("#accordions-3817   .items").accordion({
+                    event: "click",
+                    collapsible: true,
+                    heightStyle: "content",
+                    animate: ("swing", 1000),
+                    navigation: true,
+                    active: 999,
+                                            beforeActivate: function(event, ui) {
+                            if (ui.newHeader[0] != undefined) {
+                                var disabled = ui.newHeader[0].getAttribute('disabled');
+                                console.log(disabled);
+                                if (disabled == 'disabled') {
+                                    event.preventDefault();
+                                }
+                            }
+                        },
+                                    });
+            })
+        })(jQuery);
+    </script>
+                </div>
+			</div>
+		
+			</div>
+
+            </div>
+        </div>
+
+
+    	<meta itemprop="url" content="https://vitabiotics.gr/product/immunace-original/">
+    </div>
+</div><!-- #product-3818 -->
+</div>
+
+<div class="container">
+	<div class="row gg-flex-wrapper">
+		<div class="col-md-12 gg-flex-wrapper-center">
+					</div>
+	</div>
+</div>
+        
+    
+
+</div></section>
+
+  </div> <!-- end content wrapper -->  
+    <footer class="site-footer">
+                
+                
+        <div class="footer-trigger-wrapper">
+            <a href="#" class="footer-trigger"></a>
+        </div>
+        
+                
+                <div class="footer-widgets-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-widgets col-md-12">
+                        
+
+
+<div class="footer-widgets-holder">	
+
+
+			
+						<div class="gg-footer-column col-xs-4 col-sm-4 col-md-4">
+				  			</div>
+			
+						<div class="gg-footer-column col-xs-4 col-sm-4 col-md-4">
+				  			</div>
+									<div class="gg-footer-column col-xs-4 col-sm-4 col-md-4">
+				  			</div>
+			
+</div>
+		
+                    </div>
+                </div><!-- .row -->
+            </div><!-- /.container --> 
+        </div><!-- /.footer-widgets -->
+        
+        		
+        <!-- logo footer and social icons -->
+		<div class="footer-logo-sm">
+			<div class="container">
+				<div class="row">
+					
+                    <span class="logo"> <a class="footer-brand" href="https://vitabiotics.gr/" title="VITABIOTICS" rel="home">
+<img class="footer-brand" src="https://vitabiotics.gr/wp-content/uploads/2021/03/VITZBIOTICS-LOGO-01.png" alt="VITABIOTICS">
+</a>
+</span>
+
+										
+						<ul class="footer-social-icons-widget">
+							<li><a href="https://www.facebook.com/VitabioticsGR/" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a href="https://www.instagram.com/vitabiotics.greece/" target="_blank"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com/channel/UCM4TC1DO76K0wYYCZSyyVIQ" target="_blank"><i class="fa fa-youtube"></i></a></li>						</ul>
+	
+										
+					<div class="footer-menu">
+						<img src="https://vitabiotics.gr/wp-content/uploads/2022/01/prisum-logo-01-NEW.png" style="width: 25%; float: right; position: relative;"><br>
+						<!-- Begin Main Navigation -->
+						<ul id="footer-menu" class="nav navbar-nav"><li id="menu-item-3435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3435"><a title="ΙΑΤΡΟΙ" href="https://vitabiotics.gr/portal-2/">ΙΑΤΡΟΙ</a></li>
+<li id="menu-item-3376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3376"><a title="ΦΑΡΜΑΚΟΠΟΙΟΙ" href="https://vitabiotics.gr/portal/">ΦΑΡΜΑΚΟΠΟΙΟΙ</a></li>
+<li id="menu-item-3141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3141"><a title="ΕΤΑΙΡΕΙΑ" href="https://vitabiotics.gr/about-us/">ΕΤΑΙΡΕΙΑ</a></li>
+<li id="menu-item-2943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2943"><a title="ΕΠΙΚΟΙΝΩΝΙΑ" href="https://vitabiotics.gr/contact-2/">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+</ul>						<!-- End Main Navigation -->
+						</div>
+				</div>
+			</div>
+			
+		</div>	
+		<!-- end logo footer and social icons -->
+        
+               	<div class="footer-extras"> 
+						<div class="container">
+				<div class="row">
+					<!-- Copyright -->
+										<div class="footer-copyright">
+						© 2022 Vitabiotics.gr. All rights reserved.					</div>    
+									</div><!-- /footer-extras -->
+			</div>
+		</div>	
+        
+    
+    </footer>
+				<!-- the content -->
+			</div><!-- /st-content-inner -->
+		</div><!-- /st-content -->
+
+	</div><!-- /st-pusher -->
+</div>
+
+            <div class="search-form-overlay">
+                <div class="col-md-6 col-md-offset-3">
+                    <a href="#" class="overlay-close">Close</a>
+                    <form method="get" id="searchformoverlay" class="" action="https://vitabiotics.gr/">
+                        <input class="form-control" type="text" value="" placeholder="Search" name="s" id="s">
+                        <input class="btn btn-primary" type="submit" id="searchsubmit" value="Go">
+                    </form>
+                </div>
+        </div>
+    
+        <!-- Meta Pixel Event Code -->
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+    <!-- End Meta Pixel Event Code -->
+    <div id="fb-pxl-ajax-code"></div><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/vitabiotics.gr"}},{"@type":"ListItem","position":2,"item":{"name":"\u0393\u03c5\u03bd\u03b1\u03af\u03ba\u03b1","@id":"https:\/\/vitabiotics.gr\/product-category\/gynaika\/"}},{"@type":"ListItem","position":3,"item":{"name":"Immunace Original","@id":"https:\/\/vitabiotics.gr\/product\/immunace-original\/"}}]}</script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="accordions-style-css" href="https://vitabiotics.gr/wp-content/plugins/accordions/assets/frontend/css/style.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-ui-css" href="https://vitabiotics.gr/wp-content/plugins/accordions/assets/frontend/css/jquery-ui.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="accordions-themes-css" href="https://vitabiotics.gr/wp-content/plugins/accordions/assets/global/css/themes.style.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-5-css" href="https://vitabiotics.gr/wp-content/plugins/accordions/assets/global/css/font-awesome-5.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="berocket_framework_tippy-css" href="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/berocket/libraries/../assets/tippy/tippy.css?ver=6.0.18" type="text/css" media="all">
+<link rel="stylesheet" id="berocket_framework_popup-animate-css" href="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/berocket/libraries/../assets/popup/animate.css?ver=6.0.18" type="text/css" media="all">
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/berocket/libraries/../assets/tippy/tippy.min.js?ver=6.0.18" id="berocket_framework_tippy-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/brands-for-woocommerce/js/front.js?ver=6.0.18" id="berocket_front-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.2" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/vitabiotics.gr\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.1.2" id="wc-add-to-cart-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.7.1.2" id="zoom-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.7.1.2" id="flexslider-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.7.1.2" id="photoswipe-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.7.1.2" id="photoswipe-ui-default-js"></script>
+<script type="text/javascript" id="wc-single-product-js-extra">
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=7.1.2" id="wc-single-product-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.1.2" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.1.2" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_d63ce16783602c1b48663deac85a7a9d","fragment_name":"wc_fragments_d63ce16783602c1b48663deac85a7a9d","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.1.2" id="wc-cart-fragments-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/checkout\/|\/cart\/|\/my-account\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/vitabiotics.gr","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="text/javascript" id="woo-inputs-js-extra">
+/* <![CDATA[ */
+var ajax_wc_object = {"ajax_url":"https:\/\/vitabiotics.gr\/wp-admin\/admin-ajax.php","myaccount_page_url":"https:\/\/vitabiotics.gr\/my-account\/"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/themes/fabio/js/woocommerce.js?ver=1.8" id="woo-inputs-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/themes/fabio/js/pack.js?ver=1.8" id="fabio-pack-js"></script>
+<script type="text/javascript" id="fabio-custom-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/vitabiotics.gr\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/themes/fabio/js/custom.js?ver=1.8" id="fabio-custom-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=1.7.33" id="dflip-script-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1" id="jquery-ui-accordion-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://vitabiotics.gr/wp-includes/js/jquery/ui/effect.min.js?ver=1.13.1" id="jquery-effects-core-js"></script>
+<!-- WooCommerce JavaScript -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+jQuery(function($) { 
+
+<!-- Meta Pixel Event Code -->
+
+  fbq('set', 'agent', 'wordpress-6.0.18-3.0.8', '397229118471019');
+  fbq('track', 'ViewContent', {
+    "currency": "usd",
+    "content_name": "Immunace Original",
+    "content_category": "\u0386\u03bd\u03b4\u03c1\u03b1\u03c2",
+    "content_ids": [
+        "wc_post_id_3818"
+    ],
+    "content_type": "product",
+    "fb_integration_tracking": "woocommerce"
+}, {
+    "eventID": "05cb8a63-0ec9-4cf0-8142-a648eaba6d2a"
+});
+
+<!-- End Meta Pixel Event Code -->
+      
+ });
+</script>
+<div class="fabio-modal" id="fabio-modal-login" role="dialog">
+<div class="fabio-modal-wrapper">
+	
+	<div class="fabio-modal-content withRegisterForm">
+		<div class="close">
+            <a href="#">Close</a>
+	   </div>
+	<div class="woocommerce">
+
+<div class="woocommerce-notices-wrapper"></div>
+
+<div class="u-columns col2-set" id="customer_login">
+
+	<div class="u-column1 col-1">
+
+	<div class="fabio-login-modal">	
+		<h2>Login</h2>
+		<hr>
+		<form class="woocomerce-form woocommerce-form-login login" method="post">
+
+			
+			<div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="username">Username or email address <span class="required">*</span></label>
+				<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" value="">
+			</div>
+			<div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<div class="fabio-woo-password-lost">
+					<label for="password">Password <span class="required">*</span></label>
+					<div class="woocommerce-LostPassword lost_password">
+					<a href="https://vitabiotics.gr/my-account/lost-password/">Lost your password?</a>
+						</div>
+				</div>
+				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password">
+			</div>
+
+			
+			<div class="form-row form-row-button">
+				<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="e0e8e03d8f"><input type="hidden" name="_wp_http_referer" value="/product/immunace-original/">				<div class="woo-form-button">
+					<input type="submit" class="woocommerce-Button button btn btn-primary " name="login" value="Login">
+				</div>
+				<label class="woocommerce-form__label woocommerce-form__label_pass woocommerce-form__label-for-checkbox inline">
+					<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span class="remember-me">Remember me</span>
+				</label>
+			</div>
+	
+
+			
+		</form>
+	</div>
+
+	</div>
+
+	<div class="u-column2 col-2">
+
+    <div class="fabio-register-modal"> 
+		<h2>Register</h2>
+		<hr>
+		<form method="post" class="register">
+
+			
+			
+			<div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="reg_email">Email address <span class="required">*</span></label>
+				<input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" value="">
+			</div>
+
+			
+				<div class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+					<label for="reg_password">Password <span class="required">*</span></label>
+					<input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password">
+				</div>
+
+			
+			<!-- Spam Trap -->
+			<div style="left: -999em; position: absolute;"><label for="trap">Anti-spam</label><input type="text" name="email_2" id="trap" tabindex="-1" autocomplete="off"></div>
+
+			<div class="woocommerce-privacy-policy-text"></div>
+			<div class="woocomerce-FormRow form-row">
+				<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="64be9164f7"><input type="hidden" name="_wp_http_referer" value="/product/immunace-original/">				<input type="submit" class="woocommerce-Button button" name="register" value="Register">
+			</div>
+
+			
+		</form>
+    </div>
+	</div>
+
+</div>
+
+</div>	</div>
+	
+</div>
+</div>	    
+
+</body></html>
