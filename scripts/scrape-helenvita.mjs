@@ -6,8 +6,8 @@
 //   h1.product_title, div.product-ml (μέγεθος: «200ml & 400ml»), περιγραφή στο div.font-light αμέσως μετά το <hr>,
 //   tabs #specifications (Προδιαγραφές), #ingredients (Συστατικά), #usage-tips (Χρήση/Συμβουλές),
 //   εικόνες .product-images-carousel img (wp-content/uploads).
-// Κλειδί (χωρίς EAN): "HV-<slug>". Τα συμπληρώματα διατροφής σημειώνονται (κατηγορία) και εξαιρούνται στο build
-// μέσω js/helenvita-exclusions.json — θα μπουν σε ξεχωριστό κατάλογο συμπληρωμάτων.
+// Κλειδί (χωρίς EAN): "HV-<slug>". Τα συμπληρώματα διατροφής σημειώνονται (details.isSupplement, από την κατηγορία)
+// και μπαίνουν σε δικές τους ενότητες (match-helenvita.mjs).
 // Χρήση (cloud: NODE_USE_ENV_PROXY=1): node scripts/scrape-helenvita.mjs [--limit=10] [--delay=600]
 
 import fs from "node:fs/promises";

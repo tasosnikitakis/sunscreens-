@@ -219,8 +219,9 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 `scripts/scrape-helenvita.mjs` (Helenvita/Pharmex, www.helenvita.com — WordPress, όχι WooCommerce): λίστα και
 κατηγορίες από το WP REST (`/wp-json/wp/v2/product`, `/product_category`), κείμενα από τη σελίδα (περιγραφή,
 Προδιαγραφές, Συστατικά, Χρήση/Συμβουλές), σειρά = κατηγορία «Brands › …» (→ ενότητα με `LINE_MAP` στο
-`match-helenvita.mjs`). Κλειδιά `HV-<slug>`. Συμπληρώματα διατροφής, σιρόπια/καραμέλες, η δοκιμαστική σελίδα και
-το απολυμαντικό εργαλείων μένουν εκτός (`js/helenvita-exclusions.json`). Τιμές: γραμμές HELENVITA του `Medica.tsv`
+`match-helenvita.mjs`). Κλειδιά `HV-<slug>`. Τα συμπληρώματα διατροφής (κατηγορία «Συμπληρώματα Διατροφής»)
+μπαίνουν σε δύο ενότητες (ενήλικες / βρέφη & παιδιά)· η δοκιμαστική σελίδα και το απολυμαντικό εργαλείων μένουν
+εκτός (`js/helenvita-exclusions.json`). Τιμές: γραμμές HELENVITA του `Medica.tsv`
 (`Helenvita.tsv`) → `js/helenvita-manual-matches.json`.
 
 `scripts/scrape-cerave.mjs` (CeraVe, www.cerave.gr — L'Oréal/Sitecore, χωρίς sitemap): BFS στις σελίδες

@@ -65,7 +65,7 @@ function siteProductName(d, fallback) {
   const G2L = { Α: "A", Β: "B", Ε: "E", Η: "H", Ι: "I", Κ: "K", Μ: "M", Ν: "N", Ο: "O", Ρ: "P", Τ: "T", Υ: "Y", Χ: "X", Ζ: "Z" };
   title = title.replace(/[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ](?=[A-Z]{2})|(?<=[A-Z]{2})[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ]/g, c => G2L[c]);
   title = title.replace(/(?<![A-Za-zÀ-ÿ])[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'&]{2,}(?![A-Za-zÀ-ÿ])/g, w => /^(SPF|UVA|UVB|LSF|EDT|EDP|RED|SOS|PSO)$/.test(w) && w !== "RED" ? w : w[0] + w.slice(1).toLowerCase());
-  return title.replace(/\s*-\s*/g, " - ").trim();
+  return title.replace(/\s+-\s*|\s*-\s+/g, " - ").trim();   // «A-Z», «D3-K2», «Anti-Wrinkle» μένουν ενωμένα
 }
 // Σειρά του helenvita.com (κατηγορία «Brands › …», details.line) → ενότητα. Αν λείπει, LINE_RULES.
 const LINE_MAP = {
@@ -203,7 +203,7 @@ async function main() {
         images: d.images || null,
         url: chosen.url,
         source: "helenvita.com",
-        section: LINE_MAP[d.line] || lineOf(d.brand, d.category, slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
+        section: (d.isSupplement || /cough syrup/i.test(d.title || "")) ? (/drops|σταγόν|lollipop|jellies|syrup|kids/i.test(d.title || "") ? "symplhrwmata-paidia" : "symplhrwmata") : LINE_MAP[d.line] || lineOf(d.brand, d.category, slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"
