@@ -112,7 +112,11 @@ async function main() {
       const html = await fetchText(url);
       if (!/itemtype="http:\/\/schema.org\/Product"/.test(html)) { console.log(`[${i + 1}/${cap}] skip (όχι προϊόν) ${url}`); await sleep(DELAY_MS); continue; }
       const d = extractBiodermaDetails(html, url);
-      if (!d.title || !d.gtin) { err++; console.log(`[${i + 1}/${cap}] χωρίς τίτλο/EAN ${url}`); await sleep(DELAY_MS); continue; }
+      if (!d.title) { err++; console.log(`[${i + 1}/${cap}] χωρίς τίτλο ${url}`); await sleep(DELAY_MS); continue; }
+      if (!d.gtin) {   // σελίδα χωρίς EAN (κενό gtin / χωρίς μεγέθη) → συνθετικό κλειδί
+        d.gtin = "BI-" + d.handle.replace(/[^A-Za-z0-9]/g, "").slice(0, 60); d.eans = [d.gtin];
+        d.variants = [{ ean: d.gtin, size: "", vol: null, short: null }];
+      }
       out.push({ url, section: "p", name: d.title, description: (d.description || "").slice(0, 700), longDescription: d.description, subtitle: d.subtitle, details: d, image: d.images[0] || null, gtin: d.gtin });
       console.log(`[${i + 1}/${cap}] ${d.images.length ? "img+" : "img-"} ${Object.keys(d.tabs).length}tabs ${String(d.eans.length).padStart(2)}sz ${(d.size || "-").slice(0, 14).padEnd(14)} ${(d.line || "-").padEnd(12)} | ${d.title}`);
     } catch (ex) { err++; console.log(`[${i + 1}/${cap}] ERR ${url} ${ex.message}`); }
@@ -121,6 +125,8 @@ async function main() {
   // ίδιο EAN σε δύο σελίδες → μόνο στην πρώτη
   const seen = new Set(); for (const p of out) { p.details.variants = p.details.variants.filter(v => !seen.has(v.ean) && seen.add(v.ean)); p.details.eans = p.details.variants.map(v => v.ean); }
   const kept = out.filter(p => p.details.eans.length); for (const p of kept) p.gtin = p.details.gtin = p.details.eans[0];
+  // ίδιο όνομα σε δύο σελίδες (Sébium Mat Control / Pore Refiner: παλιά και νέα συσκευασία, ίδιο μέγεθος) → κρατάμε την πρώτη
+  const byName = new Map(); for (const p of kept) { const k = p.name.toLowerCase(); if (byName.has(k)) p.details.duplicateOf = byName.get(k).url; else byName.set(k, p); }
   await fs.writeFile(OUT_FILE, JSON.stringify(kept, null, 2), "utf8");
   console.log(`\nDone. products=${kept.length} errors=${err}. Έγραψε ${path.relative(ROOT, OUT_FILE)}.`);
 }
