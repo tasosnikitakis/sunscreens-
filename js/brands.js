@@ -103,6 +103,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Hansaplast", imageDir: "hansaplast", sourceKey: "_hansaplastSource",
     fallbackDesc: "Προϊόν Hansaplast (Beiersdorf) — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Συχνές ερωτήσεις"]
+  },
+  intermed: {
+    key: "intermed", name: "Intermed", host: "intermed.com.gr", page: "intermed.html",
+    icon: "💊", initials: "IM", accent: "#0e7490",
+    sheetName: "Intermed", imageDir: "intermed", sourceKey: "_intermedSource",
+    fallbackDesc: "Προϊόν Intermed — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Οδηγίες χρήσης"]
   }
 };
 
