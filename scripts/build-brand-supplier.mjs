@@ -124,7 +124,8 @@ async function main() {
   // Κανόνες αποκλεισμού με βάση το όνομα (js/<brand>-exclusions.json): promo πακέτα, νεσεσέρ, boosters 5ml…
   let exclusionRules = [];
   try { exclusionRules = (JSON.parse(await fs.readFile(EXCLUSIONS_FILE, "utf8")).rules || []).map(r => ({ ...r, re: new RegExp(r.pattern, r.flags || "i") })); } catch {}
-  const excludedBy = name => exclusionRules.find(r => r.re.test(name));
+  // Κανόνας με "field": "category" ελέγχει την κατηγορία/breadcrumbs της σελίδας του site (π.χ. Intermed: Φάρμακα)
+  const excludedBy = (name, category = "") => exclusionRules.find(r => r.field === "category" ? (category && r.re.test(category)) : r.re.test(name));
   const excluded = [];
   const byBarcode = new Map();
   const dupes = [];
@@ -194,9 +195,11 @@ async function main() {
       if (allVars.length && allVars.every(v => typeof v.price === "number") && !allVars.some(v => v.price > 0)) { unpriced++; continue; }
       // Δωρεάν δείγματα / δώρα με αγορές (Apivita: attribute is_free) — δεν είναι προϊόντα προς πώληση
       if (sp.details && sp.details.isFree) { unpriced++; continue; }
+      // Διπλή σελίδα του ίδιου προϊόντος στο site (Intermed «…-2»)
+      if (sp.details && sp.details.duplicateOf) { siteExcluded.push({ name, rule: "duplicate-page" }); continue; }
       // Σετ δώρου / promo πακέτα (Apivita: is_offer_set ή size "prepacked_set") — ο κατάλογος κρατά μόνο βασικά προϊόντα
       if (sp.details && (sp.details.isSet || sp.details.size === "prepacked_set")) { siteExcluded.push({ name, rule: "set-flag" }); continue; }
-      const ex = excludedBy(name);
+      const ex = excludedBy(name, sp.details ? [sp.details.category, ...(sp.details.breadcrumbs || [])].filter(Boolean).join(" › ") : "");
       if (ex) { siteExcluded.push({ name, rule: ex.name }); continue; }
       // Σελίδες με πολλές παραλλαγές (μεγέθη με δικό τους EAN, π.χ. larocheposay.gr):
       // μία εγγραφή ανά παραλλαγή, με το μέγεθος στο όνομα.
