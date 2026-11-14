@@ -210,6 +210,12 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 χρήσης εξαιρούνται με κανόνες κατηγορίας (`"field": "category"` στο `js/intermed-exclusions.json`).
 Τιμές: γραμμές INTERMED του `Medica.tsv` → `js/intermed-manual-matches.json` (αντιστοίχιση ονόματος).
 
+`scripts/scrape-uriage.mjs` (Uriage, www.uriage.com/GR/el — το uriage.gr δεν απαντά): λίστα από το
+`/GR/el/site-map.xml`, κείμενα από τα `.c-product__*` (περιγραφή, Αποτελέσματα, Ενεργά συστατικά + INCI,
+Συμβουλή), μέγεθος από το «Μέγεθος». Χωρίς EAN: κλειδιά `UR-<slug>` (ελληνικά slugs με μεταγραφή σε λατινικά).
+Τιμές: γραμμές URIAGE του `Medica.tsv` (`Uriage.tsv`) → `js/uriage-manual-matches.json` (όνομα + μέγεθος·
+σελίδες με πολλά μεγέθη παίρνουν την τιμή ενός μεγέθους, promo/σετ και παλιοί κωδικοί → null).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
