@@ -180,6 +180,13 @@ window.BRAND_CATALOGS = {
     sheetName: "UniPharma", imageDir: "unipharma", sourceKey: "_unipharmaSource",
     fallbackDesc: "Προϊόν Uni-Pharma — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  superfoods: {
+    key: "superfoods", name: "Superfoods", host: "superfoods.eu", page: "superfoods.html",
+    icon: "🌿", initials: "SF", accent: "#ea580c",
+    sheetName: "Superfoods", imageDir: "superfoods", sourceKey: "_superfoodsSource",
+    fallbackDesc: "Προϊόν Superfoods — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
