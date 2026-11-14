@@ -117,6 +117,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Uriage", imageDir: "uriage", sourceKey: "_uriageSource",
     fallbackDesc: "Προϊόν Uriage — {name}",
     exportSections: ["Περιγραφή", "Αποτελέσματα", "Συστατικά", "Χρήση"]
+  },
+  helenvita: {
+    key: "helenvita", name: "Helenvita", host: "helenvita.com", page: "helenvita.html",
+    icon: "🌼", initials: "HV", accent: "#4f46e5",
+    sheetName: "Helenvita", imageDir: "helenvita", sourceKey: "_helenvitaSource",
+    fallbackDesc: "Προϊόν Helenvita — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Συστατικά", "Χρήση"]
   }
 };
 

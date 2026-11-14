@@ -1,0 +1,32 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Helenvita (μόνο βασικά δερμοκαλλυντικά/προϊόντα περιποίησης). Τα συμπληρώματα διατροφής (κατηγορία «Συμπληρώματα Διατροφής» του helenvita.com) και τα σιρόπια/καραμέλες μένουν για τον ξεχωριστό κατάλογο συμπληρωμάτων. Επίσης εκτός: δοκιμαστική σελίδα, απολυμαντικό εργαλείων επαγγελματικής χρήσης. Διαβάζεται από το build-brand-supplier.mjs (pattern = JavaScript RegExp, flags προεπιλογή i· field: category = έλεγχος κατηγοριών).",
+  "rules": [
+    {
+      "name": "supplements",
+      "field": "category",
+      "pattern": "Συμπληρώματα Διατροφής",
+      "reason": "Συμπλήρωμα διατροφής — θα μπει στον κατάλογο συμπληρωμάτων"
+    },
+    {
+      "name": "supplement-like",
+      "pattern": "cough syrup|candies|lollipop|super jellies",
+      "reason": "Σιρόπι / καραμέλες — με τα συμπληρώματα"
+    },
+    {
+      "name": "test-page",
+      "pattern": "^asdfga$",
+      "reason": "Δοκιμαστική σελίδα του site"
+    },
+    {
+      "name": "professional",
+      "pattern": "instru glutacare",
+      "reason": "Απολυμαντικό εργαλείων επαγγελματικής χρήσης"
+    },
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift set|promo|δώρο|δωρο)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο"
+    }
+  ]
+}
