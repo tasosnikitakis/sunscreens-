@@ -222,6 +222,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Sebamed", imageDir: "sebamed", sourceKey: "_sebamedSource",
     fallbackDesc: "Προϊόν Sebamed — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Ενδείξεις", "Χρήση", "Συστατικά"]
+  },
+  froika: {
+    key: "froika", name: "Froika", host: "froika.com", page: "froika.html",
+    icon: "🩺", initials: "FR", accent: "#0e7490",
+    sheetName: "Froika", imageDir: "froika", sourceKey: "_froikaSource",
+    fallbackDesc: "Προϊόν Froika — {name}",
+    exportSections: ["Περιγραφή", "Ενδείξεις", "Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
