@@ -215,6 +215,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Bioderma", imageDir: "bioderma", sourceKey: "_biodermaSource",
     fallbackDesc: "Προϊόν Bioderma — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Ενεργά συστατικά", "Συστατικά"]
+  },
+  sebamed: {
+    key: "sebamed", name: "Sebamed", host: "intramed-pharma.gr", page: "sebamed.html",
+    icon: "🫧", initials: "SB", accent: "#be123c",
+    sheetName: "Sebamed", imageDir: "sebamed", sourceKey: "_sebamedSource",
+    fallbackDesc: "Προϊόν Sebamed — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Ενδείξεις", "Χρήση", "Συστατικά"]
   }
 };
 
