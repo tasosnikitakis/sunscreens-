@@ -289,6 +289,12 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 αναβράζοντων») → variants `CE-<slug><N>`· τιμές με `js/centrum-manual-matches.json` (νεότερο barcode ανά μέγεθος, Select 50+ = Silver 50+).
 Το site δεν έχει συστατικά/προειδοποιήσεις → πολλά προϊόντα βγαίνουν «ανεπαρκής περιγραφή».
 
+`scripts/scrape-pharmasept.mjs` (Pharmasept, pharmasept.gr/el — WooCommerce + Elementor, χωρίς EAN): λίστα από το Store API
+(`/wp-json/wc/store/v1/products`· εκτός προσφορές/promo/gift sets/mini essentials/διπλά πακέτα), κείμενα από το accordion της σελίδας
+(Περιγραφή → Οφέλη, Οδηγίες χρήσης, Συστατικά). Μεγέθη (variations «Μέγεθος») → κλειδιά `PS-<τίτλος><μέγεθος>`· διπλή σελίδα
+«Baby Mild Bath 500ml» εκτός. Τιμές με `js/pharmasept-manual-matches.json` (μετονομασίες Aid/Hygienic)· το site δεν γράφει
+μέγεθος στα απλά προϊόντα → το match το παίρνει από το όνομα της γραμμής του `Pharmasept.tsv`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

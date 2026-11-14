@@ -194,6 +194,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Centrum", imageDir: "centrum", sourceKey: "_centrumSource",
     fallbackDesc: "Προϊόν Centrum — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Χαρακτηριστικά"]
+  },
+  pharmasept: {
+    key: "pharmasept", name: "Pharmasept", host: "pharmasept.gr", page: "pharmasept.html",
+    icon: "🧴", initials: "PS", accent: "#1d4ed8",
+    sheetName: "Pharmasept", imageDir: "pharmasept", sourceKey: "_pharmaseptSource",
+    fallbackDesc: "Προϊόν Pharmasept — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
   }
 };
 
