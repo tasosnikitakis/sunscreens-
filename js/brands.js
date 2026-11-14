@@ -145,6 +145,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Solgar", imageDir: "solgar", sourceKey: "_solgarSource",
     fallbackDesc: "Συμπλήρωμα διατροφής Solgar — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  healthaid: {
+    key: "healthaid", name: "Health Aid", host: "healthaid.co.uk", page: "healthaid.html",
+    icon: "🌱", initials: "HA", accent: "#15803d",
+    sheetName: "HealthAid", imageDir: "healthaid", sourceKey: "_healthaidSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής Health Aid — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χωρίς"]
   }
 };
 
