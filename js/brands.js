@@ -152,6 +152,13 @@ window.BRAND_CATALOGS = {
     sheetName: "HealthAid", imageDir: "healthaid", sourceKey: "_healthaidSource",
     fallbackDesc: "Συμπλήρωμα διατροφής Health Aid — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χωρίς"]
+  },
+  powerhealth: {
+    key: "powerhealth", name: "Power Health", host: "powerhealth.gr", page: "powerhealth.html",
+    icon: "⚡", initials: "PH", accent: "#b91c1c",
+    sheetName: "PowerHealth", imageDir: "powerhealth", sourceKey: "_powerhealthSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής Power Health — {name}",
+    exportSections: ["Περιγραφή", "Συστατικά", "Χρήση", "Χαρακτηριστικά", "Προφυλάξεις"]
   }
 };
 
