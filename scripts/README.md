@@ -321,6 +321,11 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 σε TLS): 11 προϊόντα από το Store API. Τα ελληνικά κείμενα (ελεύθερη απόδοση) στο `js/mollers-translations.json` (handle → name/subtitle/size/tabs)·
 τα αγγλικά μένουν στο `details.sourceEn`. Κλειδιά `MO-<slug>`· τιμές με `js/mollers-manual-matches.json`.
 
+`scripts/scrape-lanes.mjs` (Lanes / Γρ. Σαράντης, www.laneshealth.gr — WordPress, post type «product» στο REST, χωρίς EAN): 50 προϊόντα από
+`/wp-json/wp/v2/product?_embed`· το content σπάει στις επικεφαλίδες h2-h4 (Περιγραφή / Ιδιότητες / Συνιστάται σε / Σύνθεση / Πίνακας / Δοσολογία /
+Μορφή – Συσκευασία / Προειδοποιήσεις). Κουκκίδες «• 200 ταμπλέτες / • 400 …» ή «50 ή 100 κάψουλες» → κλειδί ανά μέγεθος `LA-<slug><N>`·
+ίδιο όνομα (PropolCare καραμέλες) → γεύση από το excerpt. Τιμές με `js/lanes-manual-matches.json` (νεότερος κωδικός όπου υπάρχουν δύο).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

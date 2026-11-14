@@ -236,6 +236,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Mollers", imageDir: "mollers", sourceKey: "_mollersSource",
     fallbackDesc: "Προϊόν Möller’s — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  lanes: {
+    key: "lanes", name: "Lanes", host: "laneshealth.gr", page: "lanes.html",
+    icon: "🍋", initials: "LA", accent: "#c2410c",
+    sheetName: "Lanes", imageDir: "lanes", sourceKey: "_lanesSource",
+    fallbackDesc: "Προϊόν Lanes — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Ενδείξεις", "Χρήση", "Συστατικά"]
   }
 };
 
