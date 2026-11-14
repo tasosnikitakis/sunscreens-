@@ -278,6 +278,11 @@ scratch), αλλιώς η ενότητα βγαίνει από το όνομα (
 δερμοκαλλυντικά. Κείμενα από .product-description (περιγραφή, χαρακτηριστικά, δοσολογία, συσκευασία, προειδοποιήσεις, ΕΟΦ) και
 .product-info. Κλειδιά `UP-<slug>`· τιμές με `js/unipharma-manual-matches.json`.
 
+`scripts/scrape-superfoods.mjs` (Superfoods, superfoods.eu/el — WordPress με δικό τους theme + Polylang, το post type «product» δεν είναι στο REST):
+λίστα από το `/product-sitemap.xml` (μόνο `/el/product/*`). Κείμενα: περιγραφή, «Πληροφορίες» (bullets → Οφέλη), πίνακας συστατικών,
+ΠΡΟΤΕΙΝΕΤΑΙ ΣΕ / ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ / ΧΩΡΙΣ, προειδοποιήσεις, ΕΟΦ, «Η υπερτροφή». Κλειδιά `SF-<slug>`· τιμές με
+`js/superfoods-manual-matches.json` (Herbatuss → Anasa, Slim Detox → S Detox· Cod Liver Oil/Omegadvance/SForm/Your Bar δεν έχουν σελίδα).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
