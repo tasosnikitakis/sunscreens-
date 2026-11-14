@@ -295,6 +295,13 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 «Baby Mild Bath 500ml» εκτός. Τιμές με `js/pharmasept-manual-matches.json` (μετονομασίες Aid/Hygienic)· το site δεν γράφει
 μέγεθος στα απλά προϊόντα → το match το παίρνει από το όνομα της γραμμής του `Pharmasept.tsv`.
 
+`scripts/scrape-caudalie.mjs` (Caudalie, gr.caudalie.com — Nuxt 3 SSR πάνω από Magento, με EAN): λίστα από το `/sitemap.xml` (/p/…),
+δεδομένα από το payload `__NUXT_DATA__` (`scripts/lib-nuxt.mjs`, devalue unflatten) → `state["$spdp-product"]`: περιγραφή, ενεργά
+συστατικά, οδηγίες, INCI, συχνές ερωτήσεις, χαρακτηριστικά φόρμουλας, σειρά, μέγεθος. Πολλά μεγέθη: η σελίδα δίνει μόνο το EAN του πρώτου
+→ ξανά η σελίδα με `?<attribute_uid>=<value uid>` ανά μέγεθος. Εκτός σετ/duo/trio/gift sets. Εικόνες από caudalie-europe.imgix.net.
+Το Medica έχει παλιούς κωδικούς (πριν τις νέες συσκευασίες) → `js/caudalie-manual-matches.json` παλιό barcode → **νέο EAN σελίδας**
+(μόνο ίδιο προϊόν & ίδιο μέγεθος· το build-brand-supplier δέχεται πλέον και EAN ως τιμή manual match).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

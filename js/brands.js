@@ -201,6 +201,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Pharmasept", imageDir: "pharmasept", sourceKey: "_pharmaseptSource",
     fallbackDesc: "Προϊόν Pharmasept — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
+  },
+  caudalie: {
+    key: "caudalie", name: "Caudalie", host: "gr.caudalie.com", page: "caudalie.html",
+    icon: "🍇", initials: "CA", accent: "#7e22ce",
+    sheetName: "Caudalie", imageDir: "caudalie", sourceKey: "_caudalieSource",
+    fallbackDesc: "Προϊόν Caudalie — {name}",
+    exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
   }
 };
 
