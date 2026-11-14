@@ -1,0 +1,16 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές MOLLER'S) → προϊόν mollersomega3.com (κλειδί MO-<slug>· το site δεν δίνει EAN). null = δεν υπάρχει στο διεθνές site (Forte 60/150, Omega-3 Cardio, Total Plus, ζελεδάκια Lemon/Orange) ή ασαφές (MOLLERS CAPS x30 NEW: κάψουλες μουρουνέλαιου ή Daily Health;).",
+  "7070866022594": null,
+  "7070866038236": "MO-omega3jellyfishcola",
+  "5702071505785": null,
+  "7070866015480": null,
+  "7070866021801": null,
+  "5702071505549": null,
+  "5702071501541": "MO-total",
+  "5702071389262": null,
+  "7070866027674": "MO-omega3jellyfish",
+  "7070866030759": "MO-codliveroilapple",
+  "7028156630219": "MO-codliveroillemon",
+  "7070866021122": "MO-codliveroil",
+  "7070866013462": "MO-codliveroiltuttifrutti"
+}

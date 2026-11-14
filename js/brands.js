@@ -229,6 +229,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Froika", imageDir: "froika", sourceKey: "_froikaSource",
     fallbackDesc: "Προϊόν Froika — {name}",
     exportSections: ["Περιγραφή", "Ενδείξεις", "Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  mollers: {
+    key: "mollers", name: "Möller’s", host: "mollersomega3.com", page: "mollers.html",
+    icon: "🐟", initials: "MO", accent: "#0369a1",
+    sheetName: "Mollers", imageDir: "mollers", sourceKey: "_mollersSource",
+    fallbackDesc: "Προϊόν Möller’s — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 

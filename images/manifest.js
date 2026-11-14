@@ -5558,5 +5558,16 @@ window.IMAGE_MANIFEST = {
   "5204799050139": "froika/sensitive-foaming-gel-200ml-5204799050139.png",
   "5204799030193": "froika/sensitive-l-5204799030193.png",
   "5204799020132": "froika/sensitive-hydratant-milk-5204799020132.png",
-  "5204799011161": "froika/premium-cream-spf-30-5204799011161.png"
+  "5204799011161": "froika/premium-cream-spf-30-5204799011161.png",
+  "MO-omega3jellyfishcola": "mollers/omega-3-cola-MO-omega3jellyfishcola.jpg",
+  "MO-omega3jellyfishtuttifrutti": "mollers/omega-3-tutti-frutti-MO-omega3jellyfishtuttifrutti.png",
+  "MO-codliveroilapple": "mollers/apple-MO-codliveroilapple.png",
+  "MO-codliveroiltuttifrutti": "mollers/tutti-frutti-MO-codliveroiltuttifrutti.png",
+  "MO-codliveroillemon": "mollers/lemon-MO-codliveroillemon.png",
+  "MO-total": "mollers/total-MO-total.png",
+  "MO-active": "mollers/-MO-active.png",
+  "MO-dailyhealth": "mollers/daily-health-MO-dailyhealth.png",
+  "MO-myfirstomega3": "mollers/my-first-omega-3-MO-myfirstomega3.png",
+  "MO-omega3jellyfish": "mollers/omega-3-strawberry-MO-omega3jellyfish.png",
+  "MO-codliveroil": "mollers/natural-MO-codliveroil.png"
 };

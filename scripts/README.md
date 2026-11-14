@@ -317,6 +317,10 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 `/product-sitemap.xml` (μόνο /product/…, όχι /en/), κείμενα από τη σύντομη περιγραφή και τα tabs ΕΝΔΕΙΞΕΙΣ / ΙΔΙΟΤΗΤΕΣ / ΣΥΝΘΕΣΗ / ΣΥΣΤΑΤΙΚΑ /
 ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ· σειρά = κατηγορία «Σειρές προϊόντων». Εκτός σετ και Froisept 4-5L (επαγγελματικά). Τιμές απευθείας με EAN.
 
+`scripts/scrape-mollers.mjs` (Möller's, www.mollersomega3.com — διεθνές WooCommerce site, αγγλικά, χωρίς EAN· το ελληνικό mollers.gr δεν απαντά
+σε TLS): 11 προϊόντα από το Store API. Τα ελληνικά κείμενα (ελεύθερη απόδοση) στο `js/mollers-translations.json` (handle → name/subtitle/size/tabs)·
+τα αγγλικά μένουν στο `details.sourceEn`. Κλειδιά `MO-<slug>`· τιμές με `js/mollers-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
