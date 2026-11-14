@@ -145,6 +145,33 @@ async function main() {
   const supplier = (await loadWindowFile(SUPPLIER_FILE))[`${BRAND.toUpperCase()}_SUPPLIER`] || [];
   const supplemental = (await loadWindowFile(SUPPLEMENTAL_FILE))[`${BRAND.toUpperCase()}_SUPPLEMENTAL`] || {};
   const site = JSON.parse(await fs.readFile(SITE_FILE, "utf8"));
+  // Ελληνική απόδοση των αγγλικών κειμένων του healthaid.co.uk (js/healthaid-translations.json, handle → { subtitle, tabs }).
+  // Ελεύθερη απόδοση (όχι κατά λέξη)· τα πρωτότυπα μένουν στο js/healthaid-site.json.
+  let TR = {}; try { TR = JSON.parse(await fs.readFile(path.join(ROOT, "js/healthaid-translations.json"), "utf8")); } catch {}
+  const FACT_GR = { "dairy free": "Χωρίς γαλακτοκομικά", "gluten free": "Χωρίς γλουτένη", "wheat free": "Χωρίς σιτάρι", "sugar free": "Χωρίς ζάχαρη",
+    "salt free": "Χωρίς αλάτι", "yeast free": "Χωρίς μαγιά", "soya free": "Χωρίς σόγια", "soy free": "Χωρίς σόγια", "lactose free": "Χωρίς λακτόζη",
+    "no preservatives": "Χωρίς συντηρητικά", "no flavourings": "Χωρίς αρωματικές ύλες", "vegan": "Vegan", "vegetarian": "Κατάλληλο για χορτοφάγους",
+    "gelatin free": "Χωρίς ζελατίνη", "gelatine free": "Χωρίς ζελατίνη", "corn free": "Χωρίς καλαμπόκι", "nut free": "Χωρίς ξηρούς καρπούς", "egg free": "Χωρίς αυγά" };
+  const sizeGr = s => String(s || "").replace(/\bEffervescent Tablets\b/i, "αναβράζουσες ταμπλέτες").replace(/\bChewable Tablets\b/i, "μασώμενες ταμπλέτες")
+    .replace(/\bVegicaps\b/i, "φυτικές κάψουλες").replace(/\bSoftgels\b/i, "μαλακές κάψουλες").replace(/\bCapsules\b/i, "κάψουλες").replace(/\bTablets\b/i, "ταμπλέτες")
+    .replace(/\bGummies\b/i, "ζελεδάκια").replace(/\bSachets\b/i, "φακελάκια").replace(/\bLozenges\b/i, "παστίλιες");
+  let trApplied = 0;
+  for (const sp of site) {
+    const d = sp.details || {}; const t = TR[d.handle];
+    d.keyFacts = (d.keyFacts || []).map(k => FACT_GR[k.toLowerCase()] || k);
+    if (d.tabs && d.tabs["Χαρακτηριστικά"]) d.tabs["Χαρακτηριστικά"] = d.keyFacts.join("\n");
+    for (const v of d.variants || []) v.size = sizeGr(v.size);
+    if (d.size) d.size = sizeGr(d.size);
+    if (d.attributes && d.attributes["Διαθέσιμα μεγέθη"]) d.attributes["Διαθέσιμα μεγέθη"] = d.attributes["Διαθέσιμα μεγέθη"].split(", ").map(sizeGr).join(", ");
+    if (!t) continue;
+    trApplied++;
+    for (const [k, v] of Object.entries(t.tabs || {})) if (v && d.tabs) d.tabs[k] = v;
+    if (t.tabs && t.tabs["Περιγραφή"]) { d.description = t.tabs["Περιγραφή"].replace(/\s+/g, " ").trim(); sp.longDescription = d.description; sp.description = d.description.slice(0, 700); }
+    if (t.tabs && t.tabs["Οφέλη"]) d.advantages = t.tabs["Οφέλη"].split("\n").map(x => x.trim()).filter(Boolean);
+    if (t.subtitle) { d.subtitle = d.shortDescription = t.subtitle; sp.subtitle = t.subtitle; }
+    d.attributes = Object.assign({}, d.attributes, { "Κείμενα": "Ελληνική απόδοση των αγγλικών κειμένων του healthaid.co.uk" });
+  }
+  console.log(`Μεταφράσεις: ${trApplied}/${site.length} σελίδες με ελληνικά κείμενα (js/healthaid-translations.json).`);
   if (!site.length) { console.error(`Το js/${BRAND}-site.json είναι κενό. Τρέξτε πρώτα: node scripts/scrape-brand.mjs --brand=${BRAND}`); process.exit(1); }
   for (const sp of site) sp.name = cleanSiteName(sp.name);
   let manual = {};
