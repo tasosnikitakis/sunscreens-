@@ -223,6 +223,13 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 το απολυμαντικό εργαλείων μένουν εκτός (`js/helenvita-exclusions.json`). Τιμές: γραμμές HELENVITA του `Medica.tsv`
 (`Helenvita.tsv`) → `js/helenvita-manual-matches.json`.
 
+`scripts/scrape-cerave.mjs` (CeraVe, www.cerave.gr — L'Oréal/Sitecore, χωρίς sitemap): BFS στις σελίδες
+`/peripoihsh-dermatos/*`· σελίδα προϊόντος = div.product-details + JSON-LD Product. Κείμενα από περιγραφή, accordions
+(Συστατικά/Οφέλη/Χρήση/Προφυλάξεις), κάρτες χαρακτηριστικών και FAQ (JSON-LD), κατηγορίες = οι σελίδες λίστας που
+δείχνουν το προϊόν. Το site δίνει σε μερικές σελίδες το EAN άλλου προϊόντος: EAN που εμφανίζεται σε >1 σελίδα
+αντικαθίσταται από κλειδί `CV-<slug>`. Τιμές: όσα EAN ταιριάζουν με το `Medica.tsv` αυτόματα, τα υπόλοιπα (νέα 3606000…
+στο site / παλιά 3337875… στον τιμοκατάλογο) με `js/cerave-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
