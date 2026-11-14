@@ -249,7 +249,9 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 site δεν υπάρχει): `/products.json` + σελίδα (Product Benefits, Nutritional Information, Ingredients, Recommended Daily
 Intake, Free From). Κρατά μόνο συμπληρώματα (εκτός Body Care/Aromatherapy/Essential Oils και τα Combo Pack). Κλειδί
 ανά μέγεθος `HA-<SKU>` (variant του Shopify)· τιμές με `js/healthaid-manual-matches.json` (barcode → κλειδί SKU).
-Οι περιγραφές είναι αγγλικές, γι' αυτό ο έλεγχος ποιότητας του καταλόγου τις σημειώνει «Αγγλικά αντί για ελληνικά».
+Τα αγγλικά κείμενα αποδίδονται στα ελληνικά (ελεύθερη απόδοση, όχι κατά λέξη) στο `js/healthaid-translations.json`
+(handle → subtitle + tabs), που εφαρμόζει το `match-healthaid.mjs`· μεγέθη και χαρακτηριστικά (Χωρίς γλουτένη…) μεταφράζονται εκεί
+με σταθερό λεξικό. Τα πρωτότυπα μένουν στο `js/healthaid-site.json`· κάθε προϊόν έχει χαρακτηριστικό «Κείμενα: Ελληνική απόδοση…».
 
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
