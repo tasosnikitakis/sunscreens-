@@ -1,9 +1,9 @@
 {
-  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Caudalie: σετ/promo/δώρο. Διαβάζεται από το build-brand-supplier.mjs.",
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Caudalie: σετ/promo/δώρο. Διαβάζεται από το build-brand-supplier.mjs. Το «Beauty Elixir Prep, Set, Glow» δεν είναι σετ (μόνο «set» στο τέλος του ονόματος).",
   "rules": [
     {
       "name": "set",
-      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο)([^\\p{L}]|$)",
+      "pattern": "(^|[^\\p{L}])(kit|σετ|gift|promo|δώρο|δωρο|duo|trio)([^\\p{L}]|$)|(^|[^\\p{L}])set$",
       "flags": "iu",
       "reason": "Σετ / promo / δώρο"
     }

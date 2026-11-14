@@ -41,7 +41,7 @@ async function fetchText(url) {
 const productOf = html => { const r = nuxtData(html); return r && r.state && r.state["$spdp-product"]; };
 const eanOf = s => (String(s || "").match(/\d{13}/) || [])[0] || null;
 const SET_RE = /\b(duo|trio|kit|gift|coffret|essentials|ritual|routine|collection|box)\b|\bset$/i;   // «Beauty Elixir Prep, Set, Glow» = βασικό προϊόν
-const sizeNorm = s => String(s || "").replace(/mL\b/g, "ml").replace(/γρ\b/g, "g").replace(/\s+/g, " ").trim();
+const sizeNorm = s => String(s || "").replace(/mL\b/g, "ml").replace(/(\d)\s?γρ(?!\p{L})/gu, "$1g").replace(/^tint\s+(\d+)$/i, "Shade $1").replace(/\s+/g, " ").trim();
 
 export function extractCaudalieDetails(p, url) {
   const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
@@ -110,7 +110,7 @@ async function main() {
           }
           if (ean) d.variants.push({ ean, size: sizeNorm(v.label), name: vname });
         }
-        d.variants = d.variants.filter((v, k, a) => a.findIndex(x => x.ean === v.ean) === k);   // το site δίνει μερικές φορές ίδιο EAN και στο refill
+              d.variants = d.variants.filter((v, k, a) => a.findIndex(x => x.ean === v.ean) === k);   // το site δίνει μερικές φορές ίδιο EAN και στο refill
         if (d.variants.length) {
           d.gtin = d.variants[0].ean; d.eans = d.variants.map(v => v.ean);
           d.sizes = d.variants.map(v => v.size); d.size = d.sizes[0]; d.attributes["Διαθέσιμα μεγέθη"] = d.sizes.join(", "); delete d.attributes["Συσκευασία"];

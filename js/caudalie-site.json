@@ -385,7 +385,7 @@
         "Ανάγκη": "Σύσφιξη σώματος",
         "Σειρά": "Ενυδάτωση σώματος",
         "Κατηγορίες gr.caudalie.com": "Σύσφιξη σώματος | Σώμα | Απολέπιση σώματος | Περιποίηση σώματος",
-        "Συσκευασία": "175γρ"
+        "Συσκευασία": "175g"
       },
       "tabs": {
         "Περιγραφή": "Εμβληματική περιποίηση του Spa Vinothérapie™, το Crushed Cabernet Scrub απομακρύνει απαλά τα νεκρά κύτταρα, μειώνει τις ατέλειες και την τραχύτητα ενώ θρέφει την επιδερμίδα. Η απολεπιστική σύνθεση επιταχύνει την κυτταρική ανανέωση, λειαίνει και βελτιώνει τη σφριγηλότητα για άμεση όψη ανανεωμένης επιδερμίδας.",
@@ -433,9 +433,9 @@
         "Σύσφιξη σώματος"
       ],
       "imageLarge": "https://caudalie-europe.imgix.net/media/catalog/product/p/a/packshot_body_scrub.jpg?w=1200&auto=format,compress",
-      "size": "175γρ",
+      "size": "175g",
       "sizes": [
-        "175γρ"
+        "175g"
       ],
       "isSet": false,
       "sku": "542R1",
@@ -1251,7 +1251,7 @@
         "Υφή": "Λεπτόρρευστος ορός",
         "Ανάγκη": "Αντιρυτιδική δράση, σύσφιξη",
         "Σειρά": "Resveratrol-Lift",
-        "Διαθέσιμα μεγέθη": "30ml, 30ml - Refill"
+        "Συσκευασία": "30ml"
       },
       "tabs": {
         "Περιγραφή": "N°1 στην αντιγήρανση στη Γαλλία*, το Resveratrol–Lift Instant Firming Serum διορθώνει τις ρυτίδες, ανορθώνει το περίγραμμα του προσώπου και ενυδατώνει. Η εξειδικευμένη σύνθεσή του, εμπλουτισμένη με Πολυπεπτίδια Σταφυλιού Pro-Κολλαγόνου - πάνω από 500 βιομιμητικά πεπτίδια φυσικής προέλευσης - ενεργοποιεί τους βασικούς μηχανισμούς σφριγηλότητας. Σε συνδυασμό με μια αποκλειστική πατέντα (Ρεσβερατρόλη αμπελιού και μικρο-υαλουρονικά οξέα), δρα αποτελεσματικά σε 20 τύπους κολλαγόνου και ενισχύει ολόκληρη τη δομή της επιδερμίδας, για ορατά αναζωογονημένη όψη και πιο σφριγηλή επιδερμίδα.\nΔιατίθεται και refill.\n*GERSDATA - SOG EARLY – Κατηγορία περιποίησης προσώπου – Υποκατηγορία Αντιγήρανση – με βάση τις πωλήσεις από το κανάλι πωλήσεων τουφαρμακείου – στη Γαλλία –στο CMA τον Μάρτιο 2025.",
@@ -1301,18 +1301,7 @@
         "https://caudalie-europe.imgix.net/media/catalog/product/1/2/12_recycle_rvl_serum_el.jpg?w=1200&auto=format,compress",
         "https://caudalie-europe.imgix.net/media/catalog/product/2/1/2197351963-5622ceabe4ff8f658739c54bde51d1c0ea5b645739a4caa5b76f06a0cbbf3309-d_200x150_region_us_1_1?w=1200&auto=format,compress"
       ],
-      "variants": [
-        {
-          "ean": "3522930005704",
-          "size": "30ml",
-          "name": "Instant Firming Serum"
-        },
-        {
-          "ean": "3522930005704",
-          "size": "30ml - Refill",
-          "name": "Instant Firming Serum - Σωληνάριο refill"
-        }
-      ],
+      "variants": [],
       "advantages": [
         "Ρεσβερατρόλη: Φυσικό αντιοξειδωτικό που παράγεται από τα κλήματα της αμπέλου ως απόκριση σε τραυματισμό ή όταν δέχονται επίθεση από παθογόνους παράγοντες, συσφίγγει και ενεργοποιεί τις πρωτεΐνες νεότητας της επιδερμίδας.",
         "Μικρο-Υαλουρονικά Οξέα: Χάρη στη δομή τους - υαλουρονικά οξέα πολύ χαμηλού μοριακού βάρους - εισχωρούν βαθιά στην επιδερμίδα για να την ενυδατώσουν και να «γεμίσουν» τις ρυτίδες."
@@ -1327,14 +1316,12 @@
       "imageLarge": "https://caudalie-europe.imgix.net/media/catalog/product/p/a/packshot_rvl_serum_2026.jpg?w=1200&auto=format,compress",
       "size": "30ml",
       "sizes": [
-        "30ml",
-        "30ml - Refill"
+        "30ml"
       ],
       "isSet": false,
       "sku": "570R1C",
       "gtin": "3522930005704",
       "eans": [
-        "3522930005704",
         "3522930005704"
       ],
       "subtitle": "Συσφίξτε άμεσα την επιδερμίδα σας με τον ορό σύσφιξης προσώπου: ενισχύει την ελαστικότητα, λειαίνει τις ρυτίδες και επαναφέρει το περίγραμμα.",
@@ -4078,7 +4065,7 @@
         "Υφή": "Κρέμα με πλούσια υφή",
         "Ανάγκη": "Ολική αντιγήρανση",
         "Σειρά": "Premier Cru",
-        "Διαθέσιμα μεγέθη": "50ml, 50ml - Refill"
+        "Συσκευασία": "50ml"
       },
       "tabs": {
         "Περιγραφή": "Νέα σύνθεση Μακροζωίας για όψη πιο νεανικής επιδερμίδα, με διάρκεια.\nΕνισχυμένη με την αποκλειστική πατέντα μακροζωίας και ένα φυσικό filler που «γεμίζει» την επιδερμίδα, η Premier Cru The Rich Cream ενισχύει τη διαδικασία αναγέννησης της επιδερμίδας και αναζωογονεί τους μηχανισμούς της νεότητας, διορθώνει όλα τα σημάδια γήρανσης: ρυτίδες, κηλίδες, όγκο. Η πλούσια υφή της, εμπλουτισμένη με βιο-κεραμίδια που αναπληρώνουν τα λιπίδια, συμβάλλει στην αποκατάσταση του επιδερμικού φραγμού.\nΔιατίθεται σε δοχείο αναπλήρωσης.",
@@ -4124,18 +4111,7 @@
         "https://caudalie-europe.imgix.net/media/catalog/product/2/0/2026_11_premiercru_therichcream_recycling_caudalie_el.jpg?w=1200&auto=format,compress",
         "https://caudalie-europe.imgix.net/media/catalog/product/2/0/2026_12_premiercru_therichcream_vigne_caudalie_el.jpg?w=1200&auto=format,compress"
       ],
-      "variants": [
-        {
-          "ean": "3522930004592",
-          "size": "50ml",
-          "name": "The Rich Cream"
-        },
-        {
-          "ean": "3522930004592",
-          "size": "50ml - Refill",
-          "name": "The Rich Cream - Refill"
-        }
-      ],
+      "variants": [],
       "advantages": [
         "Βιο-κεραμίδια: Παράγονται από μια κατοχυρωμένη με δίπλωμα ευρεσιτεχνίας διαδικασία βιοζύμωσης, τα Ceramides είναι παρόμοια με τα λιπίδια φραγμού του δέρματος και μπορούν να το ενισχύσουν, περιορίζοντας την απώλεια νερού και παρέχοντας άνεση στο ξηρό και ευαίσθητο δέρμα.",
         "Πατέντα Μακροζωίας (Caudalie x Harvard Medical School)*: Ενισχυμένη με Ρεσβερατρόλη. Η πατέντα αυξάνει κατά 128x τη δραστηριότητα των Σιρτουινών, πρωτεϊνών μακροζωίας**, αυξάνοντας έτσι την επίδοση της επιδερμίδας και την παραγωγή κολλαγόνου, υαλουρονικού οξέος και ελαστίνης. *Πατέντα κατατεθειμένη από κοινού με το πανεπιστήμιο Harvard, N°FR21/04931. **Τεστ in vitro στα συστατικά.",
@@ -4151,14 +4127,12 @@
       "imageLarge": "https://caudalie-europe.imgix.net/media/catalog/product/3/5/358_1_premier_cru_recharge_creme_riche_caudalie_packshot_offwhite_1.jpg?w=1200&auto=format,compress",
       "size": "50ml",
       "sizes": [
-        "50ml",
-        "50ml - Refill"
+        "50ml"
       ],
       "isSet": false,
       "sku": "459C",
       "gtin": "3522930004592",
       "eans": [
-        "3522930004592",
         "3522930004592"
       ],
       "subtitle": "Θρέψτε την επιδερμίδα σας με την πλούσια κρέμα αντιγήρανσης για ξηρή επιδερμίδα: μειώνει τις ρυτίδες, συσφίγγει και προσφέρει βαθιά, διαρκή ενυδάτωση.",
@@ -5289,7 +5263,7 @@
         "Υφή": "Κρέμα",
         "Ανάγκη": "Self-tan και υγιής λάμψη",
         "Σειρά": "Vinocrush",
-        "Διαθέσιμα μεγέθη": "tint 2, tint 3"
+        "Διαθέσιμα μεγέθη": "Shade 2, Shade 3"
       },
       "tabs": {
         "Περιγραφή": "Crush, Color & Correct\nΗ Skin Tint Vinocrush διορθώνει την επιδερμίδα και της χαρίζει ομοιόμορφο τόνο ενώ παράλληλα αναδεικνύει τη φυσική της ομορφιά. Καθώς απλώνεται, οι ενθυλακωμένες χρωστικές φυσικής προέλευσης γίνονται ένα με την επιδερμίδα σας, αποκαλύπτοντας μια απόλυτα ταιριαστή απόχρωση με τον τόνο της για αψεγάδιαστο και εξαιρετικά φυσικό αποτέλεσμα. Ένα προϊόν περιποίησης και μακιγιάζ, με καθαρή και φυσική σύνθεση που περιέχει υαλουρονικό οξύ και νερό σταφυλιών, που χαρίζει ενυδάτωση στην επιδερμίδα και φωτεινό τόνο όλη την ημέρα.",
@@ -5333,12 +5307,12 @@
       "variants": [
         {
           "ean": "3522930004103",
-          "size": "tint 2",
+          "size": "Shade 2",
           "name": "Skin Tint - Shade 2"
         },
         {
           "ean": "3522930004110",
-          "size": "tint 3",
+          "size": "Shade 3",
           "name": "Skin Tint - Shade 3"
         }
       ],
@@ -5353,10 +5327,10 @@
       "category": null,
       "breadcrumbs": [],
       "imageLarge": "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_vinocrush_cre_me_teinte_e_1_packshot_caudalie-fr_1.jpg?w=1200&auto=format,compress",
-      "size": "tint 2",
+      "size": "Shade 2",
       "sizes": [
-        "tint 2",
-        "tint 3"
+        "Shade 2",
+        "Shade 3"
       ],
       "isSet": false,
       "sku": "409C",
@@ -6337,6 +6311,97 @@
     },
     "image": "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_the_des_vignes_gel_douche_200ml_caudalie_packshot_offwhite_1.jpg?w=1200&auto=format,compress",
     "gtin": "3522930003823"
+  },
+  {
+    "url": "https://gr.caudalie.com/p/319C/beauty-elixir-319c.html",
+    "section": "p",
+    "name": "Beauty Elixir Prep, Set, Glow Face Mist",
+    "description": "A Caudalie cult product, Beauty Elixir is a 100% natural skincare mist with multiple properties. It reveals the complexion’s glow and tightens pores all while setting make-up.",
+    "longDescription": "A Caudalie cult product, Beauty Elixir is a 100% natural skincare mist with multiple properties. It reveals the complexion’s glow and tightens pores all while setting make-up.",
+    "subtitle": "Σταθεροποιήστε το μακιγιάζ σας με το setting spray: συσφίγγει τους πόρους, δροσίζει και χαρίζει άμεση λάμψη στο πρόσωπο όλη μέρα.",
+    "details": {
+      "attributes": {
+        "Για ποιον": "Για όλους τους τύπους επιδερμίδας",
+        "Πότε": "Οποιαδήποτε στιγμή της ημέρας",
+        "Υφή": "Mist",
+        "Ανάγκη": "Αναζωογονεί τη λάμψη της επιδερμίδας",
+        "Διαθέσιμα μεγέθη": "30ml, 100ml"
+      },
+      "tabs": {
+        "Περιγραφή": "A Caudalie cult product, Beauty Elixir is a 100% natural skincare mist with multiple properties. It reveals the complexion’s glow and tightens pores all while setting make-up.",
+        "Ενεργά συστατικά": "Πράσινο σταφύλι: Ενυδάτωση και ενίσχυση της λάμψης.\nΑιθέριο έλαιο τριαντάφυλλου: Σπάνιο και πολύτιμο απόσταγμα.\nΑιθέριο έλαιο δεντρολίβανου: Πλούσιο σε πτητικά έλαια, φλαβονοειδή και φαινολικά οξέα.",
+        "Χρήση": "Shake before use, then spritz on the face and décolleté avoiding the eyes.\nDiscover the many ways to use the Beauty Elixir:\n- In the morning, as a toner.\n- Just after applying foundation, it sets make-up for hours.\n- Used any time of the day, it tightens pores and gives dull and tired complexions a boost of radiance.\n- After make-up removal in the evening, it purifies the complexion.\n- Spritzed onto the neckline or nape of the neck, it soothes the senses and refreshes instantly.\n- During a flight, it protects dry and sensitive skin.\n- At the office it keeps stress at bay.\n- After a workout it refreshes, hydrates and smooths facial features.\n- At night as a pillow mist, for a restful night’s sleep.\n- Kept in the fridge during the summer, it becomes a refreshing mist.\n- For men, after shaving.",
+        "Συστατικά": "aqua/water/eau, alcohol, citrus aurantium amara (bitter orange) flower water, parfum (fragrance)*, rosmarinus officinalis (rosemary) leaf oil, glycerin, mentha piperita (peppermint) oil, commiphora myrrha resin extract, styrax tonkinensis resin extract, melissa officinalis leaf oil, citral, linalool, limonene, geraniol, citronellol, vitis vinifera (grape) fruit extract, helianthus annuus (sunflower) seed oil, tocopherol, farnesol, benzyl benzoate.(403/001) * 100% natural fragrance which contains citrus aurantium amara (bitter orange) flower oil, rosa damascena flower oil",
+        "Συχνές ερωτήσεις": "Can you use Beauty Elixir if you are pregnant?\nNo. We do not recommend using products that contain essential oils if you are pregnant or breastfeeding.\n\nCan you go out in the sun after using Beauty Elixir?\nNo. Beauty Elixir contains essential oils and alcohol that may be photosensitizing.\n\nCan you use Beauty Elixir if you have acne-prone skin?\nYes. It is suitable for acne-prone skin and offers a purifying action with its essential oils. If you suffer from maskne, you can even spray it on your mask before putting it on.\n\nThere is a layer of oil on the surface, is this normal?\nYes. Beauty Elixir is composed of distilled plant water and essential oils. The droplets of essential oils are suspended on the surface. Do not forget to shake it well before use.\n\nCan Beauty Elixir be used on sensitive skin?\nYes. There are no risks for using Beauty elixir on sensitive skin. However, it is better suited to normal, combination and oily skin.",
+        "Χαρακτηριστικά": "100% συστατικά φυσικής προέλευσης"
+      },
+      "keyFacts": [
+        "100% συστατικά φυσικής προέλευσης"
+      ],
+      "images": [
+        "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_beauty-elixir_100ml_pack_caudalie_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_beauty_elixir_edb_2_caudalie_packshot_offwhite_travel-size_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/b/e/beauty_elixir_100ml.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/2/_/2_beauty-elixir_100ml_claim_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/3/_/3_beauty-elixir_clinical-1_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/4/_/4_beauty-elixir_ingr_dient_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/5/_/5_beauty-elixir_clinical-2_100ml_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/6/_/6_beauty-elixir_educ_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/7/_/7_beauty-elixir_duo_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/8/_/8_beauty-elixir_formats_caudalie-el.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/2/_/2_beauty-elixir_30ml_claim_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/3/_/3_beauty-elixir_clinical-1_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/5/_/5_beauty-elixir_clinical-2_100ml_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/4/_/4_beauty-elixir_ingr_dient_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/6/_/6_beauty-elixir_educ_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/7/_/7_beauty-elixir_duo_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/8/_/8_beauty-elixir_formats_caudalie-el_1.jpg?w=1200&auto=format,compress",
+        "https://caudalie-europe.imgix.net/media/catalog/product/2/0/2026_pp_vigne_caudalie_el_8.jpg?w=1200&auto=format,compress"
+      ],
+      "variants": [
+        {
+          "ean": "3522930003182",
+          "size": "30ml",
+          "name": "Beauty Elixir Prep, Set Makeup, Glow Face Mist - 30ml"
+        },
+        {
+          "ean": "3522930003199",
+          "size": "100ml",
+          "name": "Beauty Elixir -100ml"
+        }
+      ],
+      "advantages": [
+        "Πράσινο σταφύλι: Ενυδάτωση και ενίσχυση της λάμψης.",
+        "Αιθέριο έλαιο τριαντάφυλλου: Σπάνιο και πολύτιμο απόσταγμα.",
+        "Αιθέριο έλαιο δεντρολίβανου: Πλούσιο σε πτητικά έλαια, φλαβονοειδή και φαινολικά οξέα."
+      ],
+      "title": "Beauty Elixir Prep, Set, Glow Face Mist",
+      "typename": "ConfigurableProduct",
+      "series": null,
+      "line": null,
+      "categories": [],
+      "category": null,
+      "breadcrumbs": [],
+      "imageLarge": "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_beauty-elixir_100ml_pack_caudalie_1.jpg?w=1200&auto=format,compress",
+      "size": "30ml",
+      "sizes": [
+        "30ml",
+        "100ml"
+      ],
+      "isSet": false,
+      "sku": "319C",
+      "gtin": "3522930003182",
+      "eans": [
+        "3522930003182",
+        "3522930003199"
+      ],
+      "subtitle": "Σταθεροποιήστε το μακιγιάζ σας με το setting spray: συσφίγγει τους πόρους, δροσίζει και χαρίζει άμεση λάμψη στο πρόσωπο όλη μέρα.",
+      "description": "A Caudalie cult product, Beauty Elixir is a 100% natural skincare mist with multiple properties. It reveals the complexion’s glow and tightens pores all while setting make-up.",
+      "shortDescription": "Σταθεροποιήστε το μακιγιάζ σας με το setting spray: συσφίγγει τους πόρους, δροσίζει και χαρίζει άμεση λάμψη στο πρόσωπο όλη μέρα.",
+      "handle": "beauty-elixir-319c"
+    },
+    "image": "https://caudalie-europe.imgix.net/media/catalog/product/1/_/1_beauty-elixir_100ml_pack_caudalie_1.jpg?w=1200&auto=format,compress",
+    "gtin": "3522930003182"
   },
   {
     "url": "https://gr.caudalie.com/p/463/dark-spot-correcting-hand-cream-vinoperfect-463.html",
