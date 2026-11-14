@@ -1,0 +1,23 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Intermed (απόφαση: μόνο βασικά προϊόντα φαρμακείου/δερμοκαλλυντικά). Φάρμακα και οδοντιατρικά επαγγελματικής χρήσης μένουν εκτός με βάση την κατηγορία του site· σετ, kits, τσάντες, πετσέτες, συσκευές με βάση το όνομα. Διαβάζεται από το build-brand-supplier.mjs (pattern = JavaScript RegExp, flags προεπιλογή i· field: category = έλεγχος breadcrumbs).",
+  "rules": [
+    {
+      "name": "medicines",
+      "field": "category",
+      "pattern": "(^|›)\\s*Φάρμακα\\s*(›|$)",
+      "reason": "Φάρμακο (κατηγορία «Φάρμακα» στο intermed.com.gr)"
+    },
+    {
+      "name": "professional-dental",
+      "field": "category",
+      "pattern": "Επαγγελματική χρήση",
+      "reason": "Οδοντιατρικό επαγγελματικής χρήσης (1,5 lt, ενδοδοντία, λεύκανση ιατρείου)"
+    },
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|pack|giftpack|backpack|toiletry bag|towel|πετσέτα|τσάντα|τσαντάκι|νεσεσ[εέ]ρ)([^\\p{L}]|$)|μάσκα µε λάμπες led",
+      "flags": "iu",
+      "reason": "Σετ / kit / τσάντα / αξεσουάρ / συσκευή"
+    }
+  ]
+}

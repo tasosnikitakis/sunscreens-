@@ -71,10 +71,27 @@ export function extractIntermedDetails(html, url) {
   d.shortDescription = d.subtitle || (d.description || "").split(/(?<=\.)\s/)[0] || null;
   if (d.category) d.attributes["Κατηγορία intermed.com.gr"] = d.category;
   const slug = String(url).replace(/\/+$/, "").split("/").pop();
-  d.gtin = "IM-" + slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80);
+  const key = slug.replace(/[^A-Za-z0-9]/g, "").slice(0, 80);
+  d.gtin = "IM-" + (key.length >= 4 ? key : key + "item");     // το builder θέλει ≥4 χαρακτήρες μετά το πρόθεμα ("seb" → "sebitem")
   d.eans = [d.gtin];
   d.handle = slug;
   return d;
+}
+
+// Το site έχει διπλές σελίδες του ίδιου προϊόντος (slug «…-2», «…-3» με ίδιο τίτλο και ίδια συσκευασία):
+// σημειώνονται details.duplicateOf = url της βασικής σελίδας και μένουν εκτός στο build.
+export function markDuplicates(entries) {
+  const norm = x => String(x || "").toLowerCase().replace(/\s+/g, " ").trim();
+  const bySlug = new Map(entries.map(e => [e.details.handle, e]));
+  for (const e of entries) {
+    const m = String(e.details.handle || "").match(/^(.+)-(\d)$/);
+    if (!m) continue;
+    const base = bySlug.get(m[1]);
+    if (!base || norm(base.name) !== norm(e.name)) continue;
+    if (norm((base.details.attributes || {})["Συσκευασία"]) !== norm((e.details.attributes || {})["Συσκευασία"])) continue;
+    e.details.duplicateOf = base.url;
+  }
+  return entries;
 }
 
 async function main() {
@@ -111,6 +128,7 @@ async function main() {
     if (out.length % 25 === 0) await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
     await sleep(DELAY_MS);
   }
+  markDuplicates(out);
   await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
   console.log(`\nDone. products=${out.length} errors=${err}. Έγραψε ${path.relative(ROOT, OUT_FILE)}.`);
 }

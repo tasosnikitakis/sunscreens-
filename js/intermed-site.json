@@ -13876,15 +13876,15 @@
       ],
       "description": "Το Seboderm Shampoo αποτελεί ένα ειδικά σχεδιασμένο απαλυντικό και μαλακτικό σαμπουάν για την αποτελεσματική απομάκρυνση των φολίδων της βρεφικής νινίδας (σμηγματορροϊκή δερματίτιδα βρεφών) καθώς και για τη φροντίδα και περιποίηση του τριχωτού της ευαίσθητης βρεφικής κεφαλής.",
       "shortDescription": "Καθαρισμός & απομάκρυνση νινίδας",
-      "gtin": "IM-seb",
+      "gtin": "IM-sebitem",
       "eans": [
-        "IM-seb"
+        "IM-sebitem"
       ],
       "handle": "seb",
       "brand": "Seboderm"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/972/seboderm_shampoo.png",
-    "gtin": "IM-seb"
+    "gtin": "IM-sebitem"
   },
   {
     "url": "https://intermed.com.gr/el/products/seboderm-oil",
@@ -19572,7 +19572,8 @@
         "IM-evabellevaluepack2"
       ],
       "handle": "eva-belle-value-pack-2",
-      "brand": "Eva Belle"
+      "brand": "Eva Belle",
+      "duplicateOf": "https://intermed.com.gr/el/products/eva-belle-value-pack"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/2844/2.png",
     "gtin": "IM-evabellevaluepack2"
@@ -25882,7 +25883,8 @@
         "IM-evabellefoam2"
       ],
       "handle": "eva-belle-foam-2",
-      "brand": "Eva Belle"
+      "brand": "Eva Belle",
+      "duplicateOf": "https://intermed.com.gr/el/products/eva-belle-foam"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5024/eva_belle_foam.png",
     "gtin": "IM-evabellefoam2"
@@ -27652,7 +27654,8 @@
         "IM-luxurioussuncarefacecream2"
       ],
       "handle": "luxurious-sun-care-face-cream-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-face-cream"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5525/lux_face_cream_75ml.png",
     "gtin": "IM-luxurioussuncarefacecream2"
@@ -27713,7 +27716,8 @@
         "IM-luxurioussuncaresilkcoverwithhyaluronicacidspf502"
       ],
       "handle": "luxurious-sun-care-silk-cover-with-hyaluronic-acid-spf50-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-silk-cover-with-hyaluronic-acid-spf50"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5530/lux_silk_cover_natural.png",
     "gtin": "IM-luxurioussuncaresilkcoverwithhyaluronicacidspf502"
@@ -27774,7 +27778,8 @@
         "IM-luxurioussuncaresilkcoverbronzewithhyaluronicacidspf502"
       ],
       "handle": "luxurious-sun-care-silk-cover-bronze-with-hyaluronic-acid-spf50-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-silk-cover-bronze-with-hyaluronic-acid-spf50"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5533/lux_silk_cover_bronze.png",
     "gtin": "IM-luxurioussuncaresilkcoverbronzewithhyaluronicacidspf502"
@@ -27831,7 +27836,8 @@
         "IM-luxurioussuncarebodycreamspf302"
       ],
       "handle": "luxurious-sun-care-body-cream-spf30-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-body-cream-spf30"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5558/lux_body_cream_30spf_200ml.png",
     "gtin": "IM-luxurioussuncarebodycreamspf302"
@@ -27879,7 +27885,8 @@
       "eans": [
         "IM-luxurioussuncarebodycreamspf502"
       ],
-      "handle": "luxurious-sun-care-body-cream-spf50-2"
+      "handle": "luxurious-sun-care-body-cream-spf50-2",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-body-cream-spf50"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5560/lux_body_cream_50spf_200ml.png",
     "gtin": "IM-luxurioussuncarebodycreamspf502"
@@ -27936,7 +27943,8 @@
         "IM-luxurioussuncaredarktanningoil2"
       ],
       "handle": "luxurious-sun-care-dark-tanning-oil-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-dark-tanning-oil"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5574/lux_dark_tanning_oil.png",
     "gtin": "IM-luxurioussuncaredarktanningoil2"
@@ -27993,7 +28001,8 @@
         "IM-luxurioussuncaretanningoilspf62"
       ],
       "handle": "luxurious-sun-care-tanning-oil-spf6-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-tanning-oil-spf6"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5577/lux_tanning_oil_6.png",
     "gtin": "IM-luxurioussuncaretanningoilspf62"
@@ -28051,7 +28060,8 @@
         "IM-luxurioussuncaremonoioil2"
       ],
       "handle": "luxurious-sun-care-monoi-oil-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-monoi-oil"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5579/lux_monoi_copy.png",
     "gtin": "IM-luxurioussuncaremonoioil2"
@@ -28108,7 +28118,8 @@
         "IM-luxurioussuncareaftersuncoolinggelfacebody2"
       ],
       "handle": "luxurious-sun-care-after-sun-cooling-gel-face-body-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-after-sun-cooling-gel-face-body"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5586/lux_after_sun_150ml.png",
     "gtin": "IM-luxurioussuncareaftersuncoolinggelfacebody2"
@@ -28164,7 +28175,8 @@
         "IM-luxurioussuncarehairprotectionspray2"
       ],
       "handle": "luxurious-sun-care-hair-protection-spray-2",
-      "brand": "Luxurious Sun Care"
+      "brand": "Luxurious Sun Care",
+      "duplicateOf": "https://intermed.com.gr/el/products/luxurious-sun-care-hair-protection-spray"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5596/lux_hair_protection_spray.png",
     "gtin": "IM-luxurioussuncarehairprotectionspray2"
@@ -28332,7 +28344,8 @@
         "IM-bunafon2"
       ],
       "handle": "bunafon-2",
-      "brand": "BUNAFON"
+      "brand": "BUNAFON",
+      "duplicateOf": "https://intermed.com.gr/el/products/bunafon"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/5643/bunafon_kids.png",
     "gtin": "IM-bunafon2"
@@ -30151,7 +30164,8 @@
         "IM-dextrolyteplushydratingelectrolytemix2"
       ],
       "handle": "dextrolyte-plus-hydrating-electrolyte-mix-2",
-      "brand": "Dextrolyte Plus"
+      "brand": "Dextrolyte Plus",
+      "duplicateOf": "https://intermed.com.gr/el/products/dextrolyte-plus-hydrating-electrolyte-mix"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/6043/orange.png",
     "gtin": "IM-dextrolyteplushydratingelectrolytemix2"
@@ -30205,7 +30219,8 @@
         "IM-dextrolyteplushydratingelectrolytemix3"
       ],
       "handle": "dextrolyte-plus-hydrating-electrolyte-mix-3",
-      "brand": "Dextrolyte Plus"
+      "brand": "Dextrolyte Plus",
+      "duplicateOf": "https://intermed.com.gr/el/products/dextrolyte-plus-hydrating-electrolyte-mix"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/6045/rasb.png",
     "gtin": "IM-dextrolyteplushydratingelectrolytemix3"
@@ -31246,7 +31261,8 @@
         "IM-unidentkidschildrenstoothbrush2"
       ],
       "handle": "unident-kids-childrens-toothbrush-2",
-      "brand": "Unident Kids"
+      "brand": "Unident Kids",
+      "duplicateOf": "https://intermed.com.gr/el/products/unident-kids-childrens-toothbrush"
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/6465/UNIDENT_KIDS_Toothbrushes_300x470_YellowB.png",
     "gtin": "IM-unidentkidschildrenstoothbrush2"
@@ -33520,5 +33536,1081 @@
     },
     "image": "https://intermed.com.gr/system/uploads/image/image/6812/unident-kids-fluo-max-mouthwash-250ml-300x470.jpg",
     "gtin": "IM-unidentkidsfluomaxmouthwash250ml"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/unident-pharma-white-smile-after-bleaching-kit",
+    "section": "p",
+    "name": "UNIDENT® PHARMA White Smile After Bleaching Kit",
+    "description": "Το UNIDENT® PHARMA AFTER BLEACHING KIT αποτελεί ένα ολοκληρωμένο σετ στοματικής φροντίδας, σχεδιασμένο ειδικά για χρήση μετά από θεραπείες λεύκανσης. Περιλαμβάνει λευκαντική οδοντόπαστα και αντίστοιχο στοματικό διάλυμα, τα οποία επαναφέρουν και διατηρούν το φυσικό λευκό χρώμα των δοντιών. Συστατικά: Υπεροξείδιο του Υδρογόνου, Υπεροξείδιο του ασβεστίου, Υδροξυαπατίτης (nano), Ξυλιτόλη, Μονοφθοροφωσφορικό Νάτριο & Φθοριούχο Νάτριο 1400 ppm / 250 ppm",
+    "longDescription": "Το UNIDENT® PHARMA AFTER BLEACHING KIT αποτελεί ένα ολοκληρωμένο σετ στοματικής φροντίδας, σχεδιασμένο ειδικά για χρήση μετά από θεραπείες λεύκανσης. Περιλαμβάνει λευκαντική οδοντόπαστα και αντίστοιχο στοματικό διάλυμα, τα οποία επαναφέρουν και διατηρούν το φυσικό λευκό χρώμα των δοντιών. Συστατικά: Υπεροξείδιο του Υδρογόνου, Υπεροξείδιο του ασβεστίου, Υδροξυαπατίτης (nano), Ξυλιτόλη, Μονοφθοροφωσφορικό Νάτριο & Φθοριούχο Νάτριο 1400 ppm / 250 ppm",
+    "subtitle": "Σετ συντήρησης αποτελέσματος της επαγγελματικής λεύκανσης",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Στοματική Φροντίδα › Λεύκανση",
+        "Brand": "Unident Pharma"
+      },
+      "tabs": {
+        "Περιγραφή": "Το UNIDENT® PHARMA AFTER BLEACHING KIT αποτελεί ένα ολοκληρωμένο σετ στοματικής φροντίδας, σχεδιασμένο ειδικά για χρήση μετά από θεραπείες λεύκανσης.\nΠεριλαμβάνει λευκαντική οδοντόπαστα και αντίστοιχο στοματικό διάλυμα, τα οποία επαναφέρουν και διατηρούν το φυσικό λευκό χρώμα των δοντιών.\nΣυστατικά: Υπεροξείδιο του Υδρογόνου, Υπεροξείδιο του ασβεστίου, Υδροξυαπατίτης (nano), Ξυλιτόλη, Μονοφθοροφωσφορικό Νάτριο & Φθοριούχο Νάτριο 1400 ppm / 250 ppm",
+        "Οφέλη": "Οι ήπιοι και ασφαλείς λευκαντικοί παράγοντες συμβάλλουν στην απομάκρυνση των επιφανειακών δυσχρωμιών, ενώ η παρουσία φθορίου και υδροξυαπατίτη ενισχύει την αδαμαντίνη, προσφέροντας προστασία και ενδυνάμωση.\nΙδανική επιλογή για χρήση τόσο ανάμεσα στις συνεδρίες επαγγελματικής λεύκανσης όσο και μετά την ολοκλήρωσή τους, εξασφαλίζοντας λαμπερό χαμόγελο με διάρκεια.",
+        "Οδηγίες χρήσης": "Mετά από το βούρτσισμα των δοντιών με την UNIDENT® PHARMA White Smile Toothpaste, πραγματοποιείται στοματόπλυση για 60'' με 10 ml UNIDENT® PHARMA White Smile Mouthwash.",
+        "Προφυλάξεις": "Μην το καταπίνετε."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6821/unident-pharma-white-smile-after-bleaching-kit-package-300x470__002_.jpg",
+        "https://intermed.com.gr/system/uploads/image/image/6823/unident-pharma-white-smile-after-bleaching-kit-300x470__002_.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Οι ήπιοι και ασφαλείς λευκαντικοί παράγοντες συμβάλλουν στην απομάκρυνση των επιφανειακών δυσχρωμιών, ενώ η παρουσία φθορίου και υδροξυαπατίτη ενισχύει την αδαμαντίνη, προσφέροντας προστασία και ενδυνάμωση.",
+        "Ιδανική επιλογή για χρήση τόσο ανάμεσα στις συνεδρίες επαγγελματικής λεύκανσης όσο και μετά την ολοκλήρωσή τους, εξασφαλίζοντας λαμπερό χαμόγελο με διάρκεια."
+      ],
+      "breadcrumbs": [
+        "Στοματική Φροντίδα",
+        "Λεύκανση",
+        "UNIDENT® PHARMA White Smile Aft..."
+      ],
+      "title": "UNIDENT® PHARMA White Smile After Bleaching Kit",
+      "subtitle": "Σετ συντήρησης αποτελέσματος της επαγγελματικής λεύκανσης",
+      "fullTitle": "UNIDENT® PHARMA White Smile After Bleaching Kit",
+      "category": "Στοματική Φροντίδα › Λεύκανση",
+      "rootCategory": "Στοματική Φροντίδα",
+      "line": "Λεύκανση",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6821/unident-pharma-white-smile-after-bleaching-kit-package-300x470__002_.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το UNIDENT® PHARMA AFTER BLEACHING KIT αποτελεί ένα ολοκληρωμένο σετ στοματικής φροντίδας, σχεδιασμένο ειδικά για χρήση μετά από θεραπείες λεύκανσης. Περιλαμβάνει λευκαντική οδοντόπαστα και αντίστοιχο στοματικό διάλυμα, τα οποία επαναφέρουν και διατηρούν το φυσικό λευκό χρώμα των δοντιών. Συστατικά: Υπεροξείδιο του Υδρογόνου, Υπεροξείδιο του ασβεστίου, Υδροξυαπατίτης (nano), Ξυλιτόλη, Μονοφθοροφωσφορικό Νάτριο & Φθοριούχο Νάτριο 1400 ppm / 250 ppm",
+      "shortDescription": "Σετ συντήρησης αποτελέσματος της επαγγελματικής λεύκανσης",
+      "gtin": "IM-unidentpharmawhitesmileafterbleachingkit",
+      "eans": [
+        "IM-unidentpharmawhitesmileafterbleachingkit"
+      ],
+      "handle": "unident-pharma-white-smile-after-bleaching-kit",
+      "brand": "Unident Pharma"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6821/unident-pharma-white-smile-after-bleaching-kit-package-300x470__002_.jpg",
+    "gtin": "IM-unidentpharmawhitesmileafterbleachingkit"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/luxurious-suncare-face-body-pack-high-uv-protection-hydration",
+    "section": "p",
+    "name": "Luxurious SunCare Face & Body Pack (High UV Protection & Hydration)",
+    "description": "Το πακέτο Luxurious SunCare Face & Body Pack (High UV Protection & Hydration) περιλαμβάνει τα προϊόντα: Sunscreen Face Cream SPF50 & Antioxidant Sunscreen Invisible Spray SPF 50+.",
+    "longDescription": "Το πακέτο Luxurious SunCare Face & Body Pack (High UV Protection & Hydration) περιλαμβάνει τα προϊόντα: Sunscreen Face Cream SPF50 & Antioxidant Sunscreen Invisible Spray SPF 50+.",
+    "subtitle": "Αντηλιακή προστασία για το σώμα και το πρόσωπο",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Σώμα",
+        "Brand": "Luxurious Sun Care"
+      },
+      "tabs": {
+        "Περιγραφή": "Το πακέτο Luxurious SunCare Face & Body Pack (High UV Protection & Hydration) περιλαμβάνει τα προϊόντα:\nSunscreen Face Cream SPF50 & Antioxidant Sunscreen Invisible Spray SPF 50+."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6841/luxurious-suncare-face-body-pack-high-uv-protection-hydration-products-300x470-2.jpg"
+      ],
+      "variants": [],
+      "advantages": [],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Αντιηλιακή Προστασία",
+        "Σώμα",
+        "Luxurious SunCare Face & Body P..."
+      ],
+      "title": "Luxurious SunCare Face & Body Pack (High UV Protection & Hydration)",
+      "subtitle": "Αντηλιακή προστασία για το σώμα και το πρόσωπο",
+      "fullTitle": "Luxurious SunCare Face & Body Pack (High UV Protection & Hydration)",
+      "category": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Σώμα",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Σώμα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6841/luxurious-suncare-face-body-pack-high-uv-protection-hydration-products-300x470-2.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το πακέτο Luxurious SunCare Face & Body Pack (High UV Protection & Hydration) περιλαμβάνει τα προϊόντα: Sunscreen Face Cream SPF50 & Antioxidant Sunscreen Invisible Spray SPF 50+.",
+      "shortDescription": "Αντηλιακή προστασία για το σώμα και το πρόσωπο",
+      "gtin": "IM-luxurioussuncarefacebodypackhighuvprotectionhydration",
+      "eans": [
+        "IM-luxurioussuncarefacebodypackhighuvprotectionhydration"
+      ],
+      "handle": "luxurious-suncare-face-body-pack-high-uv-protection-hydration",
+      "brand": "Luxurious Sun Care"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6841/luxurious-suncare-face-body-pack-high-uv-protection-hydration-products-300x470-2.jpg",
+    "gtin": "IM-luxurioussuncarefacebodypackhighuvprotectionhydration"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/luxurious-suncare-skin-barrier-protection-spf50",
+    "section": "p",
+    "name": "Luxurious SunCare SKIN BARRIER PROTECTION SPF50",
+    "description": "Αντηλιακή κρέμα προσώπου με προηγμένα οργανικά φίλτρα ευρέως φάσματος για υψηλή προστασία απο την UVB, UVA ακτινοβολία. Ειδικά σχεδιασμένη σύνθεση για ευαίσθητες επιδερμίδες, που συμβάλλει στην προστασία απο το περιβαλλοντικό στρες, καταπραύνει και αναζωογονεί την επιδερμίδα ενω παράλληλα προσφέρει αντιοξειδωτική δράση, διατηρώντας την φυσική υγρασία και την ομοοιόμορφη όψη. Μη φωτοτοξικό Υποαλλεργικό Μη Φαγεσωρογόνο Χωρίς άρωμα Ανθεκτικό στο νερό Vegan Συστατικά: Εκτοίνη 2%, Νιασιναμίδη, Βιταμίνη Ε, Εκχυλίσματα γλυκόριζας και φασκόμηλου",
+    "longDescription": "Αντηλιακή κρέμα προσώπου με προηγμένα οργανικά φίλτρα ευρέως φάσματος για υψηλή προστασία απο την UVB, UVA ακτινοβολία. Ειδικά σχεδιασμένη σύνθεση για ευαίσθητες επιδερμίδες, που συμβάλλει στην προστασία απο το περιβαλλοντικό στρες, καταπραύνει και αναζωογονεί την επιδερμίδα ενω παράλληλα προσφέρει αντιοξειδωτική δράση, διατηρώντας την φυσική υγρασία και την ομοοιόμορφη όψη. Μη φωτοτοξικό Υποαλλεργικό Μη Φαγεσωρογόνο Χωρίς άρωμα Ανθεκτικό στο νερό Vegan Συστατικά: Εκτοίνη 2%, Νιασιναμίδη, Βιταμίνη Ε, Εκχυλίσματα γλυκόριζας και φασκόμηλου",
+    "subtitle": "Αντηλιακή κρέμα προσώπου ειδικά σχεδιασμένη για ευαίσθητες επιδερμίδες",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Πρόσωπο",
+        "Brand": "Luxurious Sun Care"
+      },
+      "tabs": {
+        "Περιγραφή": "Αντηλιακή κρέμα προσώπου με προηγμένα οργανικά φίλτρα ευρέως φάσματος για υψηλή προστασία απο την UVB, UVA ακτινοβολία. Ειδικά σχεδιασμένη σύνθεση για ευαίσθητες επιδερμίδες, που συμβάλλει στην προστασία απο το περιβαλλοντικό στρες, καταπραύνει και αναζωογονεί την επιδερμίδα ενω παράλληλα προσφέρει αντιοξειδωτική δράση, διατηρώντας την φυσική υγρασία και την ομοοιόμορφη όψη.\nΜη φωτοτοξικό\nΥποαλλεργικό\nΜη Φαγεσωρογόνο\nΧωρίς άρωμα\nΑνθεκτικό στο νερό\nVegan\nΣυστατικά: Εκτοίνη 2%, Νιασιναμίδη, Βιταμίνη Ε, Εκχυλίσματα γλυκόριζας και φασκόμηλου",
+        "Οφέλη": "Αντηλιακή προστασία κατάλληλη για ευαίσθητες επιδερμίδες.",
+        "Οδηγίες χρήσης": "Ανακινήστε καλά πριν τη χρήση. Εφαρμόστε ομοιόμορφα μία γενναιόδωρη ποσότητα στο πρόσωπο πριν την έκθεση στον ήλιο. Ανανεώνετε συχνά για να διατηρήσετε την προστασία, ιδιαίτερα μετά το κολύμπι, την εφίδρωση ή αν σκουπιστείτε με πετσέτα.",
+        "Προφυλάξεις": "Αποφύγετε το μεσημεριανό ήλιο και την παρατεταμένη έκθεση, ακόμη και με τη χρήση αντηλιακού. Αποφύγετε την περιοχή των ματιών. Φυλάσσεται σε μέρος ξηρό και δροσερό (<25°c), μακριά από τα παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6844/Luxurious-SunCare-SKIN-BARRIER-PROTECTION-SPF50-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Αντηλιακή προστασία κατάλληλη για ευαίσθητες επιδερμίδες."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Αντιηλιακή Προστασία",
+        "Πρόσωπο",
+        "Luxurious SunCare SKIN BARRIER..."
+      ],
+      "title": "Luxurious SunCare SKIN BARRIER PROTECTION SPF50",
+      "subtitle": "Αντηλιακή κρέμα προσώπου ειδικά σχεδιασμένη για ευαίσθητες επιδερμίδες",
+      "fullTitle": "Luxurious SunCare SKIN BARRIER PROTECTION SPF50",
+      "category": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Πρόσωπο",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Πρόσωπο",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6844/Luxurious-SunCare-SKIN-BARRIER-PROTECTION-SPF50-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "Αντηλιακή κρέμα προσώπου με προηγμένα οργανικά φίλτρα ευρέως φάσματος για υψηλή προστασία απο την UVB, UVA ακτινοβολία. Ειδικά σχεδιασμένη σύνθεση για ευαίσθητες επιδερμίδες, που συμβάλλει στην προστασία απο το περιβαλλοντικό στρες, καταπραύνει και αναζωογονεί την επιδερμίδα ενω παράλληλα προσφέρει αντιοξειδωτική δράση, διατηρώντας την φυσική υγρασία και την ομοοιόμορφη όψη. Μη φωτοτοξικό Υποαλλεργικό Μη Φαγεσωρογόνο Χωρίς άρωμα Ανθεκτικό στο νερό Vegan Συστατικά: Εκτοίνη 2%, Νιασιναμίδη, Βιταμίνη Ε, Εκχυλίσματα γλυκόριζας και φασκόμηλου",
+      "shortDescription": "Αντηλιακή κρέμα προσώπου ειδικά σχεδιασμένη για ευαίσθητες επιδερμίδες",
+      "gtin": "IM-luxurioussuncareskinbarrierprotectionspf50",
+      "eans": [
+        "IM-luxurioussuncareskinbarrierprotectionspf50"
+      ],
+      "handle": "luxurious-suncare-skin-barrier-protection-spf50",
+      "brand": "Luxurious Sun Care"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6844/Luxurious-SunCare-SKIN-BARRIER-PROTECTION-SPF50-300x470.png",
+    "gtin": "IM-luxurioussuncareskinbarrierprotectionspf50"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/eva-intima-pure-mist",
+    "section": "p",
+    "name": "Eva Intima Pure Mist",
+    "description": "Το Eva Intima Pure Mist pH 4.5 είναι ένα ειδικά σχεδιασμένο mist καθαρισμού για την ευαίσθητη περιοχή, ιδανικό για καθημερινή χρήση ή κάθε στιγμή που επιθυμείτε μια δροσερή αίσθηση καθαριότητας και άνεσης. Με εφαρμογή χωρίς χέρια, προσφέρει ομοιόμορφο, απαλό και υγιεινό καθαρισμό χωρίς τριβή, σεβόμενο τη φυσική ισορροπία της επιδερμίδας. Η σύνθεσή του είναι φιλική προς το μικροβίωμα, εμπλουτισμένη με φυτικά εκχυλίσματα, πρεβιοτικά και καταπραϋντικούς παράγοντες, που ενισχύουν τη φυσική άμυνα του δέρματος και συμβάλλουν στη διατήρηση ενός υγιούς δερματικού μικροβιώματος. Ιδανικό για καθημερινή χρήση, ακόμη και σε ευαίσθητα δέρματα. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρό",
+    "longDescription": "Το Eva Intima Pure Mist pH 4.5 είναι ένα ειδικά σχεδιασμένο mist καθαρισμού για την ευαίσθητη περιοχή, ιδανικό για καθημερινή χρήση ή κάθε στιγμή που επιθυμείτε μια δροσερή αίσθηση καθαριότητας και άνεσης. Με εφαρμογή χωρίς χέρια, προσφέρει ομοιόμορφο, απαλό και υγιεινό καθαρισμό χωρίς τριβή, σεβόμενο τη φυσική ισορροπία της επιδερμίδας. Η σύνθεσή του είναι φιλική προς το μικροβίωμα, εμπλουτισμένη με φυτικά εκχυλίσματα, πρεβιοτικά και καταπραϋντικούς παράγοντες, που ενισχύουν τη φυσική άμυνα του δέρματος και συμβάλλουν στη διατήρηση ενός υγιούς δερματικού μικροβιώματος. Ιδανικό για καθημερινή χρήση, ακόμη και σε ευαίσθητα δέρματα. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρότητας, Χωρίς σαπούνι, Χωρίς SLS & SLES, Χωρίς GMO, Χωρίς οινόπνευμα, Ασφαλές για χρήση κατά την εγκυμοσύνη, Δερματολογικά ελεγμένη.",
+    "subtitle": "Mist καθαρισμού & ανακούφισης της ευαίσθητης περιοχής",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+        "Brand": "Eva"
+      },
+      "tabs": {
+        "Περιγραφή": "Το Eva Intima Pure Mist pH 4.5 είναι ένα ειδικά σχεδιασμένο mist καθαρισμού για την ευαίσθητη περιοχή, ιδανικό για καθημερινή χρήση ή κάθε στιγμή που επιθυμείτε μια δροσερή αίσθηση καθαριότητας και άνεσης.\nΜε εφαρμογή χωρίς χέρια, προσφέρει ομοιόμορφο, απαλό και υγιεινό καθαρισμό χωρίς τριβή, σεβόμενο τη φυσική ισορροπία της επιδερμίδας.\nΗ σύνθεσή του είναι φιλική προς το μικροβίωμα, εμπλουτισμένη με φυτικά εκχυλίσματα, πρεβιοτικά και καταπραϋντικούς παράγοντες, που ενισχύουν τη φυσική άμυνα του δέρματος και συμβάλλουν στη διατήρηση ενός υγιούς δερματικού μικροβιώματος.\nΙδανικό για καθημερινή χρήση, ακόμη και σε ευαίσθητα δέρματα.\nΗ σύνθεσή μας είναι:\nΜε συστατικά φαρμακευτικού βαθμού καθαρότητας,\nΧωρίς σαπούνι, Χωρίς SLS & SLES,\nΧωρίς GMO,\nΧωρίς οινόπνευμα,\nΑσφαλές για χρήση κατά την εγκυμοσύνη,\nΔερματολογικά ελεγμένη.",
+        "Οφέλη": "Καθαρισμός & ανακούφιση της ευαίσθητης περιοχής on the go.",
+        "Οδηγίες χρήσης": "Ψεκάστε απευθείας στο εξωτερικό τμήμα της ευαίσθητης περιοχής και έπειτα σκουπίστε απαλά.\nΜην ξεβγάλετε.\nΧρησιμοποιήστε όσες φορές χρειάζεται κατά τη διάρκεια της ημέρας.",
+        "Προφυλάξεις": "• Για εξωτερική χρήση.\n• Αποφύγετε την επαφή με τα μάτια.\n• Σε περίπτωση που εμφανιστεί ερεθισμός ή υπάρχει ευαισθησία σε κάποιο από τα συστατικά του διακόψτε τη χρήση.\n• Αποθηκεύστε σε μέρος δροσερό (15-25οC) και ξηρό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6878/eva-intima-pure-mist-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Καθαρισμός & ανακούφιση της ευαίσθητης περιοχής on the go."
+      ],
+      "breadcrumbs": [
+        "Γυναικεία Φροντίδα",
+        "Ευαίσθητη περιοχή",
+        "Καθημερινή φροντίδα",
+        "Eva Intima Pure Mist"
+      ],
+      "title": "Eva Intima Pure Mist",
+      "subtitle": "Mist καθαρισμού & ανακούφισης της ευαίσθητης περιοχής",
+      "fullTitle": "Eva Intima Pure Mist",
+      "category": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+      "rootCategory": "Γυναικεία Φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6878/eva-intima-pure-mist-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "Το Eva Intima Pure Mist pH 4.5 είναι ένα ειδικά σχεδιασμένο mist καθαρισμού για την ευαίσθητη περιοχή, ιδανικό για καθημερινή χρήση ή κάθε στιγμή που επιθυμείτε μια δροσερή αίσθηση καθαριότητας και άνεσης. Με εφαρμογή χωρίς χέρια, προσφέρει ομοιόμορφο, απαλό και υγιεινό καθαρισμό χωρίς τριβή, σεβόμενο τη φυσική ισορροπία της επιδερμίδας. Η σύνθεσή του είναι φιλική προς το μικροβίωμα, εμπλουτισμένη με φυτικά εκχυλίσματα, πρεβιοτικά και καταπραϋντικούς παράγοντες, που ενισχύουν τη φυσική άμυνα του δέρματος και συμβάλλουν στη διατήρηση ενός υγιούς δερματικού μικροβιώματος. Ιδανικό για καθημερινή χρήση, ακόμη και σε ευαίσθητα δέρματα. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρότητας, Χωρίς σαπούνι, Χωρίς SLS & SLES, Χωρίς GMO, Χωρίς οινόπνευμα, Ασφαλές για χρήση κατά την εγκυμοσύνη, Δερματολογικά ελεγμένη.",
+      "shortDescription": "Mist καθαρισμού & ανακούφισης της ευαίσθητης περιοχής",
+      "gtin": "IM-evaintimapuremist",
+      "eans": [
+        "IM-evaintimapuremist"
+      ],
+      "handle": "eva-intima-pure-mist",
+      "brand": "Eva"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6878/eva-intima-pure-mist-300x470.png",
+    "gtin": "IM-evaintimapuremist"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/eva-intima-deodorant-spray",
+    "section": "p",
+    "name": "Eva Intima Deodorant Spray",
+    "description": "Το Eva Intima Deodorant Spray είναι ειδικά σχεδιασμένο για την ευαίσθητη περιοχή, για άμεση αίσθηση φρεσκάδας και άνεσης. Περιέχει εκχύλισμα λωτού το οποίο εξουδετερώνει τις δυσάρεστες οσμές, προσφέροντας φυσική αποσμητική δράση που διαρκεί και εκχυλίσματα ευκαλύπτου & αζαντιράχτα για ήπια αντιμικροβιακή προστασία. Εμπλουτισμένο με αλόη, εκχύλισμα χαμομηλιού και υαλουρονικό νάτριο, για την ανακούφιση και ενυδάτωση του δέρματος. Με ελαφρύ άρωμα με νότες από άνθη εσπεριδοειδών και αποσμητικούς παράγοντες. 24ωρη αποσμητική δράση. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρότητας, Χωρίς σαπούνι, Χωρίς SLS & SLES, Χωρίς GMO, Χωρίς οινόπνευμα, Ασφαλές για χρήση κατά την εγκυμοσύνη",
+    "longDescription": "Το Eva Intima Deodorant Spray είναι ειδικά σχεδιασμένο για την ευαίσθητη περιοχή, για άμεση αίσθηση φρεσκάδας και άνεσης. Περιέχει εκχύλισμα λωτού το οποίο εξουδετερώνει τις δυσάρεστες οσμές, προσφέροντας φυσική αποσμητική δράση που διαρκεί και εκχυλίσματα ευκαλύπτου & αζαντιράχτα για ήπια αντιμικροβιακή προστασία. Εμπλουτισμένο με αλόη, εκχύλισμα χαμομηλιού και υαλουρονικό νάτριο, για την ανακούφιση και ενυδάτωση του δέρματος. Με ελαφρύ άρωμα με νότες από άνθη εσπεριδοειδών και αποσμητικούς παράγοντες. 24ωρη αποσμητική δράση. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρότητας, Χωρίς σαπούνι, Χωρίς SLS & SLES, Χωρίς GMO, Χωρίς οινόπνευμα, Ασφαλές για χρήση κατά την εγκυμοσύνη, Δερματολογικά ελεγμένη.",
+    "subtitle": "Αποσμητικό εκνέφωμα για την ευαίσθητη περιοχή με εκχύλισμα λωτού",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+        "Brand": "Eva"
+      },
+      "tabs": {
+        "Περιγραφή": "Το Eva Intima Deodorant Spray είναι ειδικά σχεδιασμένο για την ευαίσθητη περιοχή, για άμεση αίσθηση φρεσκάδας και άνεσης.\nΠεριέχει εκχύλισμα λωτού το οποίο εξουδετερώνει τις δυσάρεστες οσμές, προσφέροντας φυσική αποσμητική δράση που διαρκεί και εκχυλίσματα ευκαλύπτου & αζαντιράχτα για ήπια αντιμικροβιακή προστασία.\nΕμπλουτισμένο με αλόη, εκχύλισμα χαμομηλιού και υαλουρονικό νάτριο, για την ανακούφιση και ενυδάτωση του δέρματος.\nΜε ελαφρύ άρωμα με νότες από άνθη εσπεριδοειδών και αποσμητικούς παράγοντες.\n24ωρη αποσμητική δράση.\nΗ σύνθεσή μας είναι:\nΜε συστατικά φαρμακευτικού βαθμού καθαρότητας,\nΧωρίς σαπούνι, Χωρίς SLS & SLES,\nΧωρίς GMO,\nΧωρίς οινόπνευμα,\nΑσφαλές για χρήση κατά την εγκυμοσύνη,\nΔερματολογικά ελεγμένη.",
+        "Οφέλη": "Απόσμηση της ευαίσθητης περιοχής.",
+        "Οδηγίες χρήσης": "Καθαρίστε με μαντηλάκι την περιγεννητική περιοχή. Ψεκάστε το Eva Intima Deodorant Spray σε απόσταση τουλάχιστον 10 εκατοστών για 3-4 δευτερόλεπτα. Αφήστε να στεγνώσει και φορέστε τα ρούχα σας.\nΜπορείτε να επαναλάβετε για όσες φορές επιθυμείτε.",
+        "Προφυλάξεις": "• Για εξωτερική χρήση.\n• Αποφύγετε την επαφή με τα μάτια.\n• Σε περίπτωση που εμφανιστεί ερεθισμός ή υπάρχει ευαισθησία σε κάποιο από τα συστατικά του διακόψτε τη χρήση.\n• Αποθηκεύστε σε μέρος δροσερό (15-25οC) και ξηρό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6873/eva-intima-deodorant-spray-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Απόσμηση της ευαίσθητης περιοχής."
+      ],
+      "breadcrumbs": [
+        "Γυναικεία Φροντίδα",
+        "Ευαίσθητη περιοχή",
+        "Καθημερινή φροντίδα",
+        "Eva Intima Deodorant Spray"
+      ],
+      "title": "Eva Intima Deodorant Spray",
+      "subtitle": "Αποσμητικό εκνέφωμα για την ευαίσθητη περιοχή με εκχύλισμα λωτού",
+      "fullTitle": "Eva Intima Deodorant Spray",
+      "category": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+      "rootCategory": "Γυναικεία Φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6873/eva-intima-deodorant-spray-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "Το Eva Intima Deodorant Spray είναι ειδικά σχεδιασμένο για την ευαίσθητη περιοχή, για άμεση αίσθηση φρεσκάδας και άνεσης. Περιέχει εκχύλισμα λωτού το οποίο εξουδετερώνει τις δυσάρεστες οσμές, προσφέροντας φυσική αποσμητική δράση που διαρκεί και εκχυλίσματα ευκαλύπτου & αζαντιράχτα για ήπια αντιμικροβιακή προστασία. Εμπλουτισμένο με αλόη, εκχύλισμα χαμομηλιού και υαλουρονικό νάτριο, για την ανακούφιση και ενυδάτωση του δέρματος. Με ελαφρύ άρωμα με νότες από άνθη εσπεριδοειδών και αποσμητικούς παράγοντες. 24ωρη αποσμητική δράση. Η σύνθεσή μας είναι: Με συστατικά φαρμακευτικού βαθμού καθαρότητας, Χωρίς σαπούνι, Χωρίς SLS & SLES, Χωρίς GMO, Χωρίς οινόπνευμα, Ασφαλές για χρήση κατά την εγκυμοσύνη, Δερματολογικά ελεγμένη.",
+      "shortDescription": "Αποσμητικό εκνέφωμα για την ευαίσθητη περιοχή με εκχύλισμα λωτού",
+      "gtin": "IM-evaintimadeodorantspray",
+      "eans": [
+        "IM-evaintimadeodorantspray"
+      ],
+      "handle": "eva-intima-deodorant-spray",
+      "brand": "Eva"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6873/eva-intima-deodorant-spray-300x470.png",
+    "gtin": "IM-evaintimadeodorantspray"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/biolact-start-cran-syrup",
+    "section": "p",
+    "name": "Biolact Start Cran Syrup",
+    "description": "Περιέχει εκχύλισμα και συμπυκνωμένο χυμό cranberry, πλούσια σε προανθοκυανιδίνες, σε συνδυασμό με φρουκτοολιγοσακχαρίτες (FOS), πρεβιοτικά με ευεργετική δράση στο μικροβίωμα. Θρεπτικό Συστατικό Ποσότητα ανά 5 mL % ΔΤΑ* Εκχύλισμα Cranberry (40% PAC**) 61,1 mg (25,2 mg PAC) – Χυμός cranberry 88,2 mg – Φρουκτοολιγοσακχαρίτες 3.400 mg – * Διατροφικές Τιμές Αναφοράς ** PAC = Προανθοκυανιδίνες",
+    "longDescription": "Περιέχει εκχύλισμα και συμπυκνωμένο χυμό cranberry, πλούσια σε προανθοκυανιδίνες, σε συνδυασμό με φρουκτοολιγοσακχαρίτες (FOS), πρεβιοτικά με ευεργετική δράση στο μικροβίωμα. Θρεπτικό Συστατικό Ποσότητα ανά 5 mL % ΔΤΑ* Εκχύλισμα Cranberry (40% PAC**) 61,1 mg (25,2 mg PAC) – Χυμός cranberry 88,2 mg – Φρουκτοολιγοσακχαρίτες 3.400 mg – * Διατροφικές Τιμές Αναφοράς ** PAC = Προανθοκυανιδίνες",
+    "subtitle": "Καινοτόμο συμπλήρωμα διατροφής σε πόσιμη μορφή, ειδικά σχεδιασμένο για την υποστήριξη της υγείας του ουροποιητικού συστήματος σε παιδιά και ενήλικες.",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Παιδική φροντίδα › Υγεία Ουροποιητικού",
+        "Brand": "Biolact Start"
+      },
+      "tabs": {
+        "Περιγραφή": "Περιέχει εκχύλισμα και συμπυκνωμένο χυμό cranberry, πλούσια σε προανθοκυανιδίνες, σε συνδυασμό με φρουκτοολιγοσακχαρίτες (FOS), πρεβιοτικά με ευεργετική δράση στο μικροβίωμα.\nΘρεπτικό Συστατικό\nΠοσότητα ανά 5 mL\n% ΔΤΑ*\nΕκχύλισμα Cranberry (40% PAC**)\n61,1 mg (25,2 mg PAC)\n–\nΧυμός cranberry\n88,2 mg\n–\nΦρουκτοολιγοσακχαρίτες\n3.400 mg\n–\n* Διατροφικές Τιμές Αναφοράς\n** PAC = Προανθοκυανιδίνες",
+        "Οφέλη": "Προληπτική υποστήριξη έναντι ουρολοιμώξεων & λοιμώξεων γεννητικού συστήματος.",
+        "Οδηγίες χρήσης": "ΔOΣΟΛΟΓΙΑ\n• Παιδιά από 3 έως 6 ετών: 5 mL την ημέρα.\n• Παιδιά από 6 έως 12 ετών: 10 mL την ημέρα.\n• Παιδιά από 12 ετών & ενήλικες: 15 mL την ημέρα.",
+        "Προφυλάξεις": "Τα συμπληρώματα διατροφής δεν πρέπει να χρησιμοποιούνται ως υποκατάστατο μιας ισορροπημένης δίαιτας. Το προϊόν αυτό δεν προορίζεται για την πρόληψη, αγωγή ή θεραπεία ανθρώπινης νόσου. Να μη γίνεται υπέρβαση της συνιστώμενης ημερήσιας δόσης. Συμβουλευτείτε τον ιατρό σας αν είστε έγκυος, θηλάζετε, βρίσκεστε υπό φαρμακευτική αγωγή ή αντιμετωπίζετε πρόβλημα υγέιας. Να φυλάσσεται σε μέρος ξηρό και δροσερό (15-25oC), μακριά από παιδιά. Τηλ. Κέντρου Δηλητηριάσεων: 210 7793777."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6908/Biolact-Start-Cran-Syrup-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Προληπτική υποστήριξη έναντι ουρολοιμώξεων & λοιμώξεων γεννητικού συστήματος."
+      ],
+      "breadcrumbs": [
+        "Παιδική φροντίδα",
+        "Υγεία Ουροποιητικού",
+        "Biolact Start Cran Syrup"
+      ],
+      "title": "Biolact Start Cran Syrup",
+      "subtitle": "Καινοτόμο συμπλήρωμα διατροφής σε πόσιμη μορφή, ειδικά σχεδιασμένο για την υποστήριξη της υγείας του ουροποιητικού συστήματος σε παιδιά και ενήλικες.",
+      "fullTitle": "Biolact Start Cran Syrup",
+      "category": "Παιδική φροντίδα › Υγεία Ουροποιητικού",
+      "rootCategory": "Παιδική φροντίδα",
+      "line": "Υγεία Ουροποιητικού",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6908/Biolact-Start-Cran-Syrup-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "Περιέχει εκχύλισμα και συμπυκνωμένο χυμό cranberry, πλούσια σε προανθοκυανιδίνες, σε συνδυασμό με φρουκτοολιγοσακχαρίτες (FOS), πρεβιοτικά με ευεργετική δράση στο μικροβίωμα. Θρεπτικό Συστατικό Ποσότητα ανά 5 mL % ΔΤΑ* Εκχύλισμα Cranberry (40% PAC**) 61,1 mg (25,2 mg PAC) – Χυμός cranberry 88,2 mg – Φρουκτοολιγοσακχαρίτες 3.400 mg – * Διατροφικές Τιμές Αναφοράς ** PAC = Προανθοκυανιδίνες",
+      "shortDescription": "Καινοτόμο συμπλήρωμα διατροφής σε πόσιμη μορφή, ειδικά σχεδιασμένο για την υποστήριξη της υγείας του ουροποιητικού συστήματος σε παιδιά και ενήλικες.",
+      "gtin": "IM-biolactstartcransyrup",
+      "eans": [
+        "IM-biolactstartcransyrup"
+      ],
+      "handle": "biolact-start-cran-syrup",
+      "brand": "Biolact Start"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6908/Biolact-Start-Cran-Syrup-300x470.png",
+    "gtin": "IM-biolactstartcransyrup"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/luxurious-suncare-towel-kit",
+    "section": "p",
+    "name": "Luxurious SunCare Towel Kit",
+    "description": "Luxurious SunCare Face Cream SPF50 75ml + Luxurious SunCare Body Cream SPF30 200ml",
+    "longDescription": "Luxurious SunCare Face Cream SPF50 75ml + Luxurious SunCare Body Cream SPF30 200ml",
+    "subtitle": "Προστασία προσώπου και σώματος με πετσέτα θαλάσσης Luxurious SunCare",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Σώμα",
+        "Brand": "Luxurious Sun Care"
+      },
+      "tabs": {
+        "Περιγραφή": "Luxurious SunCare Face Cream SPF50 75ml + Luxurious SunCare Body Cream SPF30 200ml"
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6921/Luxurious-SunCare-300x470-5205152019749.png",
+        "https://intermed.com.gr/system/uploads/image/image/6922/Luxurious-SunCare-300x470-5205152019749-2.png"
+      ],
+      "variants": [],
+      "advantages": [],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Αντιηλιακή Προστασία",
+        "Σώμα",
+        "Luxurious SunCare Towel Kit"
+      ],
+      "title": "Luxurious SunCare Towel Kit",
+      "subtitle": "Προστασία προσώπου και σώματος με πετσέτα θαλάσσης Luxurious SunCare",
+      "fullTitle": "Luxurious SunCare Towel Kit",
+      "category": "Λοιπά Προϊόντα › Αντιηλιακή Προστασία › Σώμα",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Σώμα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6921/Luxurious-SunCare-300x470-5205152019749.png",
+      "size": null,
+      "sizes": [],
+      "description": "Luxurious SunCare Face Cream SPF50 75ml + Luxurious SunCare Body Cream SPF30 200ml",
+      "shortDescription": "Προστασία προσώπου και σώματος με πετσέτα θαλάσσης Luxurious SunCare",
+      "gtin": "IM-luxurioussuncaretowelkit",
+      "eans": [
+        "IM-luxurioussuncaretowelkit"
+      ],
+      "handle": "luxurious-suncare-towel-kit",
+      "brand": "Luxurious Sun Care"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6921/Luxurious-SunCare-300x470-5205152019749.png",
+    "gtin": "IM-luxurioussuncaretowelkit"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/eva-belle-firming-collagen-essence-mist",
+    "section": "p",
+    "name": "Eva Belle Firming Collagen Essence Mist",
+    "description": "Η ε&micro;πλουτισ&micro;ένη σύνθεση &micro;ε φυτικό κολλαγόνο, βλαστοκύτταρα από το ρόδο της Δα&micro;ασκού, νιασινα&micro;ίδη, και φυτικά εκχυλίσ&micro;ατα βοηθά στη &micro;είωση της ε&micro;φάνισης των ρυτίδων και τη βελτίωση της ελαστικότητας, ενώ παράλληλα ενυδατώνει και καταπραΰνει το δέρ&micro;α, αφήνοντάς το λείο, σφριγηλό και αναζωογονη&micro;ένο. Η σύνθεσή μας είναι: AQUA, GLYCERIN, PANTHENOL, PENTYLENE GLYCOL, PROPYLENE GLYCOL, BUTYLENE GLYCOL, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PHENOXYETHANOL, PARFUM, CAMELLIA SINENSIS LEAF EXTRACT, ETHYLHEXYLGLYCERIN, NICOTIANA BENTHAMIANA HEXAPEPTIDE-40 SH-POLY PEPTIDE-76, ROSA DAMASCENA LEAF CELL EXTRACT, HEXAMIDINE DIISETHIONATE, DIS",
+    "longDescription": "Η ε&micro;πλουτισ&micro;ένη σύνθεση &micro;ε φυτικό κολλαγόνο, βλαστοκύτταρα από το ρόδο της Δα&micro;ασκού, νιασινα&micro;ίδη, και φυτικά εκχυλίσ&micro;ατα βοηθά στη &micro;είωση της ε&micro;φάνισης των ρυτίδων και τη βελτίωση της ελαστικότητας, ενώ παράλληλα ενυδατώνει και καταπραΰνει το δέρ&micro;α, αφήνοντάς το λείο, σφριγηλό και αναζωογονη&micro;ένο. Η σύνθεσή μας είναι: AQUA, GLYCERIN, PANTHENOL, PENTYLENE GLYCOL, PROPYLENE GLYCOL, BUTYLENE GLYCOL, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PHENOXYETHANOL, PARFUM, CAMELLIA SINENSIS LEAF EXTRACT, ETHYLHEXYLGLYCERIN, NICOTIANA BENTHAMIANA HEXAPEPTIDE-40 SH-POLY PEPTIDE-76, ROSA DAMASCENA LEAF CELL EXTRACT, HEXAMIDINE DIISETHIONATE, DISODIUM EDTA, ALOE BARBADENSIS LEAF JUICE POWDER, POTENTILLA ERECTA ROOT EXTRACT, CITRIC ACID, TETRASODIUM GLUTAMATE DIACETATE",
+    "subtitle": "Mist φυτικού κολλαγόνου για πρόσωπο και λαιμό",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Πρόσωπο › Αντιγήρανση",
+        "Brand": "Eva Belle"
+      },
+      "tabs": {
+        "Περιγραφή": "Η ε&micro;πλουτισ&micro;ένη σύνθεση &micro;ε φυτικό κολλαγόνο, βλαστοκύτταρα από το ρόδο της Δα&micro;ασκού, νιασινα&micro;ίδη, και φυτικά εκχυλίσ&micro;ατα βοηθά στη &micro;είωση της ε&micro;φάνισης των ρυτίδων και τη βελτίωση της ελαστικότητας, ενώ παράλληλα ενυδατώνει και καταπραΰνει το δέρ&micro;α, αφήνοντάς το λείο, σφριγηλό και αναζωογονη&micro;ένο.\nΗ σύνθεσή μας είναι:\nAQUA, GLYCERIN, PANTHENOL, PENTYLENE GLYCOL, PROPYLENE GLYCOL, BUTYLENE GLYCOL, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PHENOXYETHANOL, PARFUM, CAMELLIA SINENSIS LEAF EXTRACT, ETHYLHEXYLGLYCERIN, NICOTIANA BENTHAMIANA HEXAPEPTIDE-40 SH-POLY PEPTIDE-76, ROSA DAMASCENA LEAF CELL EXTRACT, HEXAMIDINE DIISETHIONATE, DISODIUM EDTA, ALOE BARBADENSIS LEAF JUICE POWDER, POTENTILLA ERECTA ROOT EXTRACT, CITRIC ACID, TETRASODIUM GLUTAMATE DIACETATE",
+        "Οφέλη": "Κατάλληλο για κάθε τύπο δέρματος.\nΣύνθεση δερματολογικά ελεγμένη, χωρίς σιλικόνη, παραφινέλαιο, GMO, χρωστικές και οινόπνευμα.",
+        "Οδηγίες χρήσης": "Εφαρ&micro;όστε &micro;ία &micro;ε δύο φορές την η&micro;έρα σε καθαρό δέρ&micro;α.\nΨεκάστε απευθείας στην περιοχή που επιθυ&micro;είτε (κλείνοντας τα &micro;άτια σας για το πρόσωπο) ή ψεκάστε στα χέρια σας και στη συνέχεια κάντε απαλό &micro;ασάζ στην περιοχή &micro;έχρι να απορροφηθεί.",
+        "Προφυλάξεις": "• Για εξωτερική χρήση.\n• Αποφύγετε την ά&micro;εση επαφή &micro;ε τα &micro;άτια.\n• Σε περίπτωση επαφής &micro;ε τα &micro;άτια, ξεπλύνετε &micro;ε άφθονο νερό.\n• Σε περίπτωση που ε&micro;φανιστεί ερεθισ&micro;ός ή υπάρχει ευαισθησία σε κάποιο από τα συστατικά του διακόψτε τη χρήση.\n• Αποθηκεύστε σε &micro;έρος δροσερό και ξηρό (15-25°C), &micro;ακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6928/Eva-Belle-Firming-Collagen-Essence-Mist-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Κατάλληλο για κάθε τύπο δέρματος.",
+        "Σύνθεση δερματολογικά ελεγμένη, χωρίς σιλικόνη, παραφινέλαιο, GMO, χρωστικές και οινόπνευμα."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Δερμοκαλλυντική Φροντίδα",
+        "Πρόσωπο",
+        "Αντιγήρανση",
+        "Eva Belle Firming Collagen Esse..."
+      ],
+      "title": "Eva Belle Firming Collagen Essence Mist",
+      "subtitle": "Mist φυτικού κολλαγόνου για πρόσωπο και λαιμό",
+      "fullTitle": "Eva Belle Firming Collagen Essence Mist",
+      "category": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Πρόσωπο › Αντιγήρανση",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Αντιγήρανση",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6928/Eva-Belle-Firming-Collagen-Essence-Mist-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "Η ε&micro;πλουτισ&micro;ένη σύνθεση &micro;ε φυτικό κολλαγόνο, βλαστοκύτταρα από το ρόδο της Δα&micro;ασκού, νιασινα&micro;ίδη, και φυτικά εκχυλίσ&micro;ατα βοηθά στη &micro;είωση της ε&micro;φάνισης των ρυτίδων και τη βελτίωση της ελαστικότητας, ενώ παράλληλα ενυδατώνει και καταπραΰνει το δέρ&micro;α, αφήνοντάς το λείο, σφριγηλό και αναζωογονη&micro;ένο. Η σύνθεσή μας είναι: AQUA, GLYCERIN, PANTHENOL, PENTYLENE GLYCOL, PROPYLENE GLYCOL, BUTYLENE GLYCOL, NIACINAMIDE, PEG-40 HYDROGENATED CASTOR OIL, PHENOXYETHANOL, PARFUM, CAMELLIA SINENSIS LEAF EXTRACT, ETHYLHEXYLGLYCERIN, NICOTIANA BENTHAMIANA HEXAPEPTIDE-40 SH-POLY PEPTIDE-76, ROSA DAMASCENA LEAF CELL EXTRACT, HEXAMIDINE DIISETHIONATE, DISODIUM EDTA, ALOE BARBADENSIS LEAF JUICE POWDER, POTENTILLA ERECTA ROOT EXTRACT, CITRIC ACID, TETRASODIUM GLUTAMATE DIACETATE",
+      "shortDescription": "Mist φυτικού κολλαγόνου για πρόσωπο και λαιμό",
+      "gtin": "IM-evabellefirmingcollagenessencemist",
+      "eans": [
+        "IM-evabellefirmingcollagenessencemist"
+      ],
+      "handle": "eva-belle-firming-collagen-essence-mist",
+      "brand": "Eva Belle"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6928/Eva-Belle-Firming-Collagen-Essence-Mist-300x470.png",
+    "gtin": "IM-evabellefirmingcollagenessencemist"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/optofresh-eye-comfort-care",
+    "section": "p",
+    "name": "OptoFresh EYE COMFORT SET",
+    "description": "OptoFresh Eye Comfort set – Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση. Όλα όσα χρειάζονται τα μάτια σας για καθημερινή φροντίδα και άνεση, συγκεντρωμένα σε ένα κομψό και πρακτικό τσαντάκι μεταφοράς: • 10 αποστειρωμένες OptoFresh Αμπούλες για αναζωογόνηση και άμεση ανακούφιση των κουρασμένων και ερεθισμένων ματιών. • 20 αποστειρωμένα OptoFresh Μαντηλάκια για τον καθημερινό καθαρισμό και τη φροντίδα των βλεφάρων. • Δώρο OptoFresh Αφρός Καθαρισμού Βλεφάρων 20 ml, για ολοκληρωμένη υγιεινή των βλεφάρων.",
+    "longDescription": "OptoFresh Eye Comfort set – Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση. Όλα όσα χρειάζονται τα μάτια σας για καθημερινή φροντίδα και άνεση, συγκεντρωμένα σε ένα κομψό και πρακτικό τσαντάκι μεταφοράς: • 10 αποστειρωμένες OptoFresh Αμπούλες για αναζωογόνηση και άμεση ανακούφιση των κουρασμένων και ερεθισμένων ματιών. • 20 αποστειρωμένα OptoFresh Μαντηλάκια για τον καθημερινό καθαρισμό και τη φροντίδα των βλεφάρων. • Δώρο OptoFresh Αφρός Καθαρισμού Βλεφάρων 20 ml, για ολοκληρωμένη υγιεινή των βλεφάρων.",
+    "subtitle": "Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση.",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Ρινική – Οφθαλμολογική – Ωτική... › Οφθαλμολογικά Προϊόντα",
+        "Brand": "Optofresh"
+      },
+      "tabs": {
+        "Περιγραφή": "OptoFresh Eye Comfort set – Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση.\nΌλα όσα χρειάζονται τα μάτια σας για καθημερινή φροντίδα και άνεση, συγκεντρωμένα σε ένα κομψό και πρακτικό τσαντάκι μεταφοράς:\n• 10 αποστειρωμένες OptoFresh Αμπούλες για αναζωογόνηση και άμεση ανακούφιση των κουρασμένων και ερεθισμένων ματιών.\n• 20 αποστειρωμένα OptoFresh Μαντηλάκια για τον καθημερινό καθαρισμό και τη φροντίδα των βλεφάρων.\n• Δώρο OptoFresh Αφρός Καθαρισμού Βλεφάρων 20 ml, για ολοκληρωμένη υγιεινή των βλεφάρων."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6931/OptoFresh-EYE-COMFORT-SET-300x470.png"
+      ],
+      "variants": [],
+      "advantages": [],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Ρινική – Οφθαλμολογική – Ωτική...",
+        "Οφθαλμολογικά Προϊόντα",
+        "OptoFresh EYE COMFORT SET"
+      ],
+      "title": "OptoFresh EYE COMFORT SET",
+      "subtitle": "Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση.",
+      "fullTitle": "OptoFresh EYE COMFORT SET",
+      "category": "Λοιπά Προϊόντα › Ρινική – Οφθαλμολογική – Ωτική... › Οφθαλμολογικά Προϊόντα",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Οφθαλμολογικά Προϊόντα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6931/OptoFresh-EYE-COMFORT-SET-300x470.png",
+      "size": null,
+      "sizes": [],
+      "description": "OptoFresh Eye Comfort set – Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση. Όλα όσα χρειάζονται τα μάτια σας για καθημερινή φροντίδα και άνεση, συγκεντρωμένα σε ένα κομψό και πρακτικό τσαντάκι μεταφοράς: • 10 αποστειρωμένες OptoFresh Αμπούλες για αναζωογόνηση και άμεση ανακούφιση των κουρασμένων και ερεθισμένων ματιών. • 20 αποστειρωμένα OptoFresh Μαντηλάκια για τον καθημερινό καθαρισμό και τη φροντίδα των βλεφάρων. • Δώρο OptoFresh Αφρός Καθαρισμού Βλεφάρων 20 ml, για ολοκληρωμένη υγιεινή των βλεφάρων.",
+      "shortDescription": "Τρία βήματα καθημερινής φροντίδας, μία ολοκληρωμένη λύση.",
+      "gtin": "IM-optofresheyecomfortcare",
+      "eans": [
+        "IM-optofresheyecomfortcare"
+      ],
+      "handle": "optofresh-eye-comfort-care",
+      "brand": "Optofresh"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6931/OptoFresh-EYE-COMFORT-SET-300x470.png",
+    "gtin": "IM-optofresheyecomfortcare"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/unident-kids-mouthwash-250-ppm",
+    "section": "p",
+    "name": "UNIDENT KIDS Mouthwash 250 ppm",
+    "description": "Tο νέο UNIDENT KIDS Mouthwash 250 ppm, είναι ειδικά σχεδιασμένo φθοριούχο παιδικό στοματικό διάλυμα για την καθημερινή προστασία και την ενδυνάμωση των ευαίσθητων παιδικών δοντιών. Με τον εξειδικευμένο συνδυασμό βιοδιαθέσιμου ασβεστίου και 250 μονάδων φθορίου, προσφέρει αποτελεσματική και μεγάλης διάρκειας προστασία από την τερηδόνα. Η ξυλιτόλη, ένα φυσικό γλυκαντικό, προστατεύει καθημερινά τα δόντια από τα οξέα που προκαλούν τερηδόνα και προλαμβάνει τον σχηματισμό της μικροβιακής πλάκας. Με υπέροχη γεύση φράουλα. Συστατικά: Ξυλιτόλη, Μονοφθοροφωσφορικό νάτριο, Γλυκεροφωσφορικό ασβέστιο, Μενθόλη, Εκχύλισμα άνθους Chamomilla Recutita.",
+    "longDescription": "Tο νέο UNIDENT KIDS Mouthwash 250 ppm, είναι ειδικά σχεδιασμένo φθοριούχο παιδικό στοματικό διάλυμα για την καθημερινή προστασία και την ενδυνάμωση των ευαίσθητων παιδικών δοντιών. Με τον εξειδικευμένο συνδυασμό βιοδιαθέσιμου ασβεστίου και 250 μονάδων φθορίου, προσφέρει αποτελεσματική και μεγάλης διάρκειας προστασία από την τερηδόνα. Η ξυλιτόλη, ένα φυσικό γλυκαντικό, προστατεύει καθημερινά τα δόντια από τα οξέα που προκαλούν τερηδόνα και προλαμβάνει τον σχηματισμό της μικροβιακής πλάκας. Με υπέροχη γεύση φράουλα. Συστατικά: Ξυλιτόλη, Μονοφθοροφωσφορικό νάτριο, Γλυκεροφωσφορικό ασβέστιο, Μενθόλη, Εκχύλισμα άνθους Chamomilla Recutita.",
+    "subtitle": "Παιδικό Στοματικό Διάλυμα.",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "500ml.",
+        "Κατηγορία intermed.com.gr": "Παιδική φροντίδα › Στοματική Φροντίδα",
+        "Brand": "Unident Kids"
+      },
+      "tabs": {
+        "Περιγραφή": "Tο νέο UNIDENT KIDS Mouthwash 250 ppm, είναι ειδικά σχεδιασμένo φθοριούχο παιδικό στοματικό διάλυμα για την καθημερινή προστασία και την ενδυνάμωση των ευαίσθητων παιδικών δοντιών.\nΜε τον εξειδικευμένο συνδυασμό βιοδιαθέσιμου ασβεστίου και 250 μονάδων φθορίου, προσφέρει αποτελεσματική και μεγάλης διάρκειας προστασία από την τερηδόνα.\nΗ ξυλιτόλη, ένα φυσικό γλυκαντικό, προστατεύει καθημερινά τα δόντια από τα οξέα που προκαλούν τερηδόνα και προλαμβάνει τον σχηματισμό της μικροβιακής πλάκας.\nΜε υπέροχη γεύση φράουλα.\nΣυστατικά: Ξυλιτόλη, Μονοφθοροφωσφορικό νάτριο, Γλυκεροφωσφορικό ασβέστιο, Μενθόλη, Εκχύλισμα άνθους Chamomilla Recutita.\nΣυσκευασία 500ml.",
+        "Οφέλη": "Προστασία από την τερηδόνα με το σύστημα βιοδιαθέσιμου ασβεστίου και 250ppm φθορίου.\nΠρόληψη της μικροβιακής πλάκας και καθημερινή προστασία των δοντιών από τα οξέα που προκαλούν τερηδόνα.",
+        "Οδηγίες χρήσης": "Mετά από το βούρτσισμα των δοντιών πραγματοποιείται στοματόπλυση για 30'' με 10 ml UNIDENT KIDS Mouthwash 250 ppm, που λαμβάνονται με το δοσιμετρικό καπάκι της συσκευασίας.",
+        "Προφυλάξεις": "Μην το καταπίνετε.\nΗ εφαρμογή του προϊόντος να γίνεται υπό την επίβλεψη του ενήλικα.\nΓια παιδιά κάτω των 6 ετών συμβουλευθείτε τον οδοντίατρό σας."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6942/UNIDENT-KIDS-Mouthwash-250-ppm.png"
+      ],
+      "variants": [],
+      "advantages": [
+        "Προστασία από την τερηδόνα με το σύστημα βιοδιαθέσιμου ασβεστίου και 250ppm φθορίου.",
+        "Πρόληψη της μικροβιακής πλάκας και καθημερινή προστασία των δοντιών από τα οξέα που προκαλούν τερηδόνα."
+      ],
+      "breadcrumbs": [
+        "Παιδική φροντίδα",
+        "Στοματική Φροντίδα",
+        "UNIDENT KIDS Mouthwash 250 ppm"
+      ],
+      "title": "UNIDENT KIDS Mouthwash 250 ppm",
+      "subtitle": "Παιδικό Στοματικό Διάλυμα.",
+      "fullTitle": "UNIDENT KIDS Mouthwash 250 ppm",
+      "category": "Παιδική φροντίδα › Στοματική Φροντίδα",
+      "rootCategory": "Παιδική φροντίδα",
+      "line": "Στοματική Φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6942/UNIDENT-KIDS-Mouthwash-250-ppm.png",
+      "size": "500ml",
+      "sizes": [
+        "500ml"
+      ],
+      "description": "Tο νέο UNIDENT KIDS Mouthwash 250 ppm, είναι ειδικά σχεδιασμένo φθοριούχο παιδικό στοματικό διάλυμα για την καθημερινή προστασία και την ενδυνάμωση των ευαίσθητων παιδικών δοντιών. Με τον εξειδικευμένο συνδυασμό βιοδιαθέσιμου ασβεστίου και 250 μονάδων φθορίου, προσφέρει αποτελεσματική και μεγάλης διάρκειας προστασία από την τερηδόνα. Η ξυλιτόλη, ένα φυσικό γλυκαντικό, προστατεύει καθημερινά τα δόντια από τα οξέα που προκαλούν τερηδόνα και προλαμβάνει τον σχηματισμό της μικροβιακής πλάκας. Με υπέροχη γεύση φράουλα. Συστατικά: Ξυλιτόλη, Μονοφθοροφωσφορικό νάτριο, Γλυκεροφωσφορικό ασβέστιο, Μενθόλη, Εκχύλισμα άνθους Chamomilla Recutita.",
+      "shortDescription": "Παιδικό Στοματικό Διάλυμα.",
+      "gtin": "IM-unidentkidsmouthwash250ppm",
+      "eans": [
+        "IM-unidentkidsmouthwash250ppm"
+      ],
+      "handle": "unident-kids-mouthwash-250-ppm",
+      "brand": "Unident Kids"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6942/UNIDENT-KIDS-Mouthwash-250-ppm.png",
+    "gtin": "IM-unidentkidsmouthwash250ppm"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/algofren-compositum",
+    "section": "p",
+    "name": "Algofren COMPOSITUM",
+    "description": "Κάθε επικαλυμμένο με λεπτό υμένιο δισκίο περιέχει 500 mg παρακεταμόλης και 200 mg ιβουπροφαίνης. ΤΟ ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ ΚΑΙ Ο ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΦΑΡΜΑΚΩΝ ΣΥΝΙΣΤΟΥΝ: ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΙΣ ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ-ΣΥΜΒΟΥΛΕΥΤΕΙΤΕ ΤΟ ΓΙΑΤΡΟ Η ΤΟ ΦΑΡΜΑΚΟΠΟΙΟ ΣΑΣ. ΣΥΣΤΑΤΙΚΑ: ΠΑΡΑΚΕΤΑΜΟΛΗ - ΙΒΟΥΠΡΟΦΑΙΝΗ",
+    "longDescription": "Κάθε επικαλυμμένο με λεπτό υμένιο δισκίο περιέχει 500 mg παρακεταμόλης και 200 mg ιβουπροφαίνης. ΤΟ ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ ΚΑΙ Ο ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΦΑΡΜΑΚΩΝ ΣΥΝΙΣΤΟΥΝ: ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΙΣ ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ-ΣΥΜΒΟΥΛΕΥΤΕΙΤΕ ΤΟ ΓΙΑΤΡΟ Η ΤΟ ΦΑΡΜΑΚΟΠΟΙΟ ΣΑΣ. ΣΥΣΤΑΤΙΚΑ: ΠΑΡΑΚΕΤΑΜΟΛΗ - ΙΒΟΥΠΡΟΦΑΙΝΗ",
+    "subtitle": "Aναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "20 δισκία",
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Φάρμακα › Αναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+        "Brand": "Algofren"
+      },
+      "tabs": {
+        "Περιγραφή": "Κάθε επικαλυμμένο με λεπτό υμένιο δισκίο περιέχει 500 mg παρακεταμόλης και 200 mg ιβουπροφαίνης.\nΤΟ ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ ΚΑΙ Ο ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΦΑΡΜΑΚΩΝ ΣΥΝΙΣΤΟΥΝ: ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΙΣ ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ-ΣΥΜΒΟΥΛΕΥΤΕΙΤΕ ΤΟ ΓΙΑΤΡΟ Η ΤΟ ΦΑΡΜΑΚΟΠΟΙΟ ΣΑΣ.\nΣυσκευασία: 20 δισκία\nΣΥΣΤΑΤΙΚΑ:\nΠΑΡΑΚΕΤΑΜΟΛΗ - ΙΒΟΥΠΡΟΦΑΙΝΗ",
+        "Οφέλη": "Για την προσωρινή ανακούφιση από ήπιας έως μέτριας έντασης πόνο που σχετίζεται με ημικρανία, κεφαλαλγία, οσφυαλγία, πόνους περιόδου, πονόδοντο, ρευματικούς και μυϊκούς πόνους, πόνο μη σοβαρής αρθρίτιδας, συμπτώματα κρυολογήματος και γρίπης, πονόλαιμο και πυρετό. Αυτό το προϊόν είναι ιδιαίτερα κατάλληλο για τον πόνο που απαιτεί ισχυρότερη αναλγησία από σκευάσματα ιβουπροφαίνης ή παρακεταμόλης ξεχωριστά.",
+        "Οδηγίες χρήσης": "1 επικαλυμμένο με λεπτό υμένιο δισκίο 3 φορές την ημέρα.\nΘα πρέπει να μεσολαβούν τουλάχιστον έξι ώρες μεταξύ των δόσεων.\nΜέγιστη δόση: 2 επικαλυμμένα με λεπτό υμένιο δισκία 3 φορές την ημέρα. Θα πρέπει να μεσολαβούν τουλάχιστον έξι ώρες μεταξύ των δόσεων.\nΝα μη χορηγούνται περισσότερα από 6 επικαλυμμένα με λεπτό υμένιο δισκία (3000 mg παρακεταμόλης, 1200 mg ιβουπροφαίνης) την ημέρα.\nΠαιδιατρικός πληθυσμός:\nΝα μη χορηγείται σε παιδιά κάτω των 18 ετών.\nΓια περαιτέρω πληροφορίες διαβάστε το φύλλο οδηγιών χρήσης.",
+        "Προφυλάξεις": "Για περαιτέρω πληροφορίες διαβάστε το φύλλο οδηγιών χρήσης."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6964/Algofren-COMPOSITUM-300x470.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Για την προσωρινή ανακούφιση από ήπιας έως μέτριας έντασης πόνο που σχετίζεται με ημικρανία, κεφαλαλγία, οσφυαλγία, πόνους περιόδου, πονόδοντο, ρευματικούς και μυϊκούς πόνους, πόνο μη σοβαρής αρθρίτιδας, συμπτώματα κρυολογήματος και γρίπης, πονόλαιμο και πυρετό. Αυτό το προϊόν είναι ιδιαίτερα κατάλληλο για τον πόνο που απαιτεί ισχυρότερη αναλγησία από σκευάσματα ιβουπροφαίνης ή παρακεταμόλης ξεχωριστά."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Φάρμακα",
+        "Αναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+        "Algofren COMPOSITUM"
+      ],
+      "title": "Algofren COMPOSITUM",
+      "subtitle": "Aναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+      "fullTitle": "Algofren COMPOSITUM",
+      "category": "Λοιπά Προϊόντα › Φάρμακα › Αναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Αναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6964/Algofren-COMPOSITUM-300x470.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Κάθε επικαλυμμένο με λεπτό υμένιο δισκίο περιέχει 500 mg παρακεταμόλης και 200 mg ιβουπροφαίνης. ΤΟ ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ ΚΑΙ Ο ΕΘΝΙΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΦΑΡΜΑΚΩΝ ΣΥΝΙΣΤΟΥΝ: ΔΙΑΒΑΣΤΕ ΠΡΟΣΕΚΤΙΚΑ ΤΙΣ ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ-ΣΥΜΒΟΥΛΕΥΤΕΙΤΕ ΤΟ ΓΙΑΤΡΟ Η ΤΟ ΦΑΡΜΑΚΟΠΟΙΟ ΣΑΣ. ΣΥΣΤΑΤΙΚΑ: ΠΑΡΑΚΕΤΑΜΟΛΗ - ΙΒΟΥΠΡΟΦΑΙΝΗ",
+      "shortDescription": "Aναλγητικό - Αντιπυρετικό – Αντιφλεγμονώδες",
+      "gtin": "IM-algofrencompositum",
+      "eans": [
+        "IM-algofrencompositum"
+      ],
+      "handle": "algofren-compositum",
+      "brand": "Algofren"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6964/Algofren-COMPOSITUM-300x470.jpg",
+    "gtin": "IM-algofrencompositum"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-babyderm-tummy-massage-oil",
+    "section": "p",
+    "name": "EUDERMA BABYDERM TUMMY MASSAGE OIL",
+    "description": "Το EUDERMA BABYDERM TUMMY MASSAGE OIL είναι ειδικά μελετημένο για να προσφέρει ανακούφιση της βρεφικής κοιλιακής δυσφορίας (κολικοί, μετεωρισμός) μέσω της εφαρμογής απαλού μασάζ με φορά του ρολογιού. Παράλληλα, ενυδατώνει και προστατεύει την ευαίσθητη βρεφική επιδερμίδα, χάρη στη φυσική του σύνθεση. ΣΥΣΤΑΤΙΚΑ: EΛΑΙΑ ΑΓΡΙΟΤΡΙΑΝΤΑΦΥΛΛΙAΣ & ΒΟΡAΓΙΝΟΥ (Ω3 & Ω6 ΛΙΠΑΡA ΟΞEΑ): Συμβάλλουν στην ενίσχυση του δερματικού φραγμού. ΗΛΙEΛΑΙΟ: Ήπιο, καλά ανεκτό, προσφέρει μαλακτική δράση. ΧΑΜΟΜHΛΙ & ΚΑΛEΝΤΟΥΛΑ: Καταπραΰνουν και υποστηρίζουν την τοπική άνεση, μειώνοντας ερεθισμούς. ΒΡΩΜΗ: Βοηθά στη διατήρηση της υγρασίας και στη φυσική προστασία του δέρματος.",
+    "longDescription": "Το EUDERMA BABYDERM TUMMY MASSAGE OIL είναι ειδικά μελετημένο για να προσφέρει ανακούφιση της βρεφικής κοιλιακής δυσφορίας (κολικοί, μετεωρισμός) μέσω της εφαρμογής απαλού μασάζ με φορά του ρολογιού. Παράλληλα, ενυδατώνει και προστατεύει την ευαίσθητη βρεφική επιδερμίδα, χάρη στη φυσική του σύνθεση. ΣΥΣΤΑΤΙΚΑ: EΛΑΙΑ ΑΓΡΙΟΤΡΙΑΝΤΑΦΥΛΛΙAΣ & ΒΟΡAΓΙΝΟΥ (Ω3 & Ω6 ΛΙΠΑΡA ΟΞEΑ): Συμβάλλουν στην ενίσχυση του δερματικού φραγμού. ΗΛΙEΛΑΙΟ: Ήπιο, καλά ανεκτό, προσφέρει μαλακτική δράση. ΧΑΜΟΜHΛΙ & ΚΑΛEΝΤΟΥΛΑ: Καταπραΰνουν και υποστηρίζουν την τοπική άνεση, μειώνοντας ερεθισμούς. ΒΡΩΜΗ: Βοηθά στη διατήρηση της υγρασίας και στη φυσική προστασία του δέρματος.",
+    "subtitle": "Εξειδικευμένο λάδι για κοιλιακή ανακούφιση & φροντίδα βρεφών",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Παιδική φροντίδα › Καθημερινή φροντίδα",
+        "Brand": "Euderma Babyderm"
+      },
+      "tabs": {
+        "Περιγραφή": "Το EUDERMA BABYDERM TUMMY MASSAGE OIL είναι ειδικά μελετημένο για να προσφέρει ανακούφιση της βρεφικής κοιλιακής δυσφορίας (κολικοί, μετεωρισμός) μέσω της εφαρμογής απαλού μασάζ με φορά του ρολογιού. Παράλληλα, ενυδατώνει και προστατεύει την ευαίσθητη βρεφική επιδερμίδα, χάρη στη φυσική του σύνθεση.\nΣΥΣΤΑΤΙΚΑ:\nEΛΑΙΑ ΑΓΡΙΟΤΡΙΑΝΤΑΦΥΛΛΙAΣ & ΒΟΡAΓΙΝΟΥ (Ω3 & Ω6 ΛΙΠΑΡA ΟΞEΑ): Συμβάλλουν στην ενίσχυση του δερματικού φραγμού.\nΗΛΙEΛΑΙΟ: Ήπιο, καλά ανεκτό, προσφέρει μαλακτική δράση.\nΧΑΜΟΜHΛΙ & ΚΑΛEΝΤΟΥΛΑ: Καταπραΰνουν και υποστηρίζουν την τοπική άνεση, μειώνοντας ερεθισμούς.\nΒΡΩΜΗ: Βοηθά στη διατήρηση της υγρασίας και στη φυσική προστασία του δέρματος.",
+        "Οφέλη": "Κοιλιακή ανακούφιση: το απαλό μασάζ με το Tummy Massage Oil προάγει τη φυσιολογική κινητικότητα του εντέρου και συμβάλλει στη μείωση των επεισοδίων κολικών και μετεωρισμού.\nΣυνολική χαλάρωση: βελτιώνει την αίσθηση ευεξίας και την ποιότητα ύπνου του βρέφους.\nΔερματική προστασία: ενυδατώνει και θωρακίζει την ευαίσθητη βρεφική επιδερμίδα.",
+        "Οδηγίες χρήσης": "1. Ζεστάνετε λίγες σταγόνες στις παλάμες.\n2. Κάντε απαλό μασάζ στην κοιλιά του μωρού με φορά του ρολογιού, γύρω από τον αφαλό και στην κάτω κοιλιακή χώρα.\n3. Επαναλάβετε 1–2 φορές την ημέρα, ιδανικά μετά το μπάνιο ή πριν τον ύπνο.\n(Αποφύγετε την εφαρμογή αμέσως μετά το γεύμα.)",
+        "Προφυλάξεις": "Για τοπική εξωτερική χρήση. Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση που εμφανιστεί ερεθισμός διακόψτε τη χρήση. Αποθηκεύστε σε μέρος δροσερό (15-25οC) και ξηρό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6967/EUDERMA-BABYDERM-TUMMY-MASSAGE-OIL-300x470.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Κοιλιακή ανακούφιση: το απαλό μασάζ με το Tummy Massage Oil προάγει τη φυσιολογική κινητικότητα του εντέρου και συμβάλλει στη μείωση των επεισοδίων κολικών και μετεωρισμού.",
+        "Συνολική χαλάρωση: βελτιώνει την αίσθηση ευεξίας και την ποιότητα ύπνου του βρέφους.",
+        "Δερματική προστασία: ενυδατώνει και θωρακίζει την ευαίσθητη βρεφική επιδερμίδα."
+      ],
+      "breadcrumbs": [
+        "Παιδική φροντίδα",
+        "Καθημερινή φροντίδα",
+        "EUDERMA BABYDERM TUMMY MASSAGE..."
+      ],
+      "title": "EUDERMA BABYDERM TUMMY MASSAGE OIL",
+      "subtitle": "Εξειδικευμένο λάδι για κοιλιακή ανακούφιση & φροντίδα βρεφών",
+      "fullTitle": "EUDERMA BABYDERM TUMMY MASSAGE OIL",
+      "category": "Παιδική φροντίδα › Καθημερινή φροντίδα",
+      "rootCategory": "Παιδική φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6967/EUDERMA-BABYDERM-TUMMY-MASSAGE-OIL-300x470.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το EUDERMA BABYDERM TUMMY MASSAGE OIL είναι ειδικά μελετημένο για να προσφέρει ανακούφιση της βρεφικής κοιλιακής δυσφορίας (κολικοί, μετεωρισμός) μέσω της εφαρμογής απαλού μασάζ με φορά του ρολογιού. Παράλληλα, ενυδατώνει και προστατεύει την ευαίσθητη βρεφική επιδερμίδα, χάρη στη φυσική του σύνθεση. ΣΥΣΤΑΤΙΚΑ: EΛΑΙΑ ΑΓΡΙΟΤΡΙΑΝΤΑΦΥΛΛΙAΣ & ΒΟΡAΓΙΝΟΥ (Ω3 & Ω6 ΛΙΠΑΡA ΟΞEΑ): Συμβάλλουν στην ενίσχυση του δερματικού φραγμού. ΗΛΙEΛΑΙΟ: Ήπιο, καλά ανεκτό, προσφέρει μαλακτική δράση. ΧΑΜΟΜHΛΙ & ΚΑΛEΝΤΟΥΛΑ: Καταπραΰνουν και υποστηρίζουν την τοπική άνεση, μειώνοντας ερεθισμούς. ΒΡΩΜΗ: Βοηθά στη διατήρηση της υγρασίας και στη φυσική προστασία του δέρματος.",
+      "shortDescription": "Εξειδικευμένο λάδι για κοιλιακή ανακούφιση & φροντίδα βρεφών",
+      "gtin": "IM-eudermababydermtummymassageoil",
+      "eans": [
+        "IM-eudermababydermtummymassageoil"
+      ],
+      "handle": "euderma-babyderm-tummy-massage-oil",
+      "brand": "Euderma Babyderm"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6967/EUDERMA-BABYDERM-TUMMY-MASSAGE-OIL-300x470.jpg",
+    "gtin": "IM-eudermababydermtummymassageoil"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/647",
+    "section": "p",
+    "name": "Eva Intima Protection Pack",
+    "description": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus.",
+    "longDescription": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus.",
+    "subtitle": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό, τη φροντίδα μέσα στην ημέρα και την υποστήριξη του τοπικού μικροβιώματος κατά την περίοδο.",
+        "Κατηγορία intermed.com.gr": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα"
+      },
+      "tabs": {
+        "Περιγραφή": "Το Eva Intima Protection Pack είναι μια limited edition συσκευασία τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό, τη φροντίδα μέσα στην ημέρα και την υποστήριξη του τοπικού μικροβιώματος κατά την περίοδο.\nΠεριεχόμενα συσκευασίας\nEva Intima Herbosept pH 3.5, 250 ml: Υγρό καθημερινού καθαρισμού με φυτικά εκχυλίσματα και φυσική αντιβακτηριδιακή δράση.\nEva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα.\nEva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus.",
+        "Οφέλη": "Βασικά οφέλη\nΚαθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής.\nΠρακτική φροντίδα εντός και εκτός σπιτιού.\nΑπορροφητική προστασία με προβιοτικά κατά την περίοδο.\nΤρεις συμπληρωματικές επιλογές σε μία συσκευασία.\nΧρήση\nΚάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.\nΣυσκευασία: Limited Edition Pack με 3 προϊόντα."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6972/300x470-Eva-Intima-Protection-Pack.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Βασικά οφέλη",
+        "Καθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής.",
+        "Πρακτική φροντίδα εντός και εκτός σπιτιού.",
+        "Απορροφητική προστασία με προβιοτικά κατά την περίοδο.",
+        "Τρεις συμπληρωματικές επιλογές σε μία συσκευασία.",
+        "Χρήση",
+        "Κάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.",
+        "Συσκευασία: Limited Edition Pack με 3 προϊόντα."
+      ],
+      "breadcrumbs": [
+        "Γυναικεία Φροντίδα",
+        "Ευαίσθητη περιοχή",
+        "Καθημερινή φροντίδα",
+        "Eva Intima Protection Pack"
+      ],
+      "title": "Eva Intima Protection Pack",
+      "subtitle": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+      "fullTitle": "Eva Intima Protection Pack",
+      "category": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+      "rootCategory": "Γυναικεία Φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6972/300x470-Eva-Intima-Protection-Pack.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus.",
+      "shortDescription": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+      "gtin": "IM-647item",
+      "eans": [
+        "IM-647item"
+      ],
+      "handle": "647"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6972/300x470-Eva-Intima-Protection-Pack.jpg",
+    "gtin": "IM-647item"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/eva-intima-fresh-confidence-pack",
+    "section": "p",
+    "name": "Eva Intima Fresh Confidence Pack",
+    "description": "Το Eva Intima Fresh Confidence Pack είναι μια limited edition Περιεχόμενα Eva Intima Deodorant Spray, 50 ml: Αποσμητικό εκνέφωμα με εκχύλισμα λωτού για εξουδετέρωση των δυσάρεστων οσμών και 24ωρη αποσμητική δράση. Eva Intima Active Oxygen Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με ενεργό οξυγόνο για εξουδετέρωση οσμών. Βασικά οφέλη Καθημερινός καθαρισμός με ενισχυμένη αποσμητική φροντίδα. Αίσθηση φρεσκάδας και άνεσης μέσα στην ημέρα. Υψηλή απορροφητικότητα και έλεγχος οσμών κατά την περίοδο. Συνδυασμός προϊόντων για τις ανάγκες της περιόδου, της εφίδρωσης και της δραστήριας καθημερινότητας.",
+    "longDescription": "Το Eva Intima Fresh Confidence Pack είναι μια limited edition Περιεχόμενα Eva Intima Deodorant Spray, 50 ml: Αποσμητικό εκνέφωμα με εκχύλισμα λωτού για εξουδετέρωση των δυσάρεστων οσμών και 24ωρη αποσμητική δράση. Eva Intima Active Oxygen Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με ενεργό οξυγόνο για εξουδετέρωση οσμών. Βασικά οφέλη Καθημερινός καθαρισμός με ενισχυμένη αποσμητική φροντίδα. Αίσθηση φρεσκάδας και άνεσης μέσα στην ημέρα. Υψηλή απορροφητικότητα και έλεγχος οσμών κατά την περίοδο. Συνδυασμός προϊόντων για τις ανάγκες της περιόδου, της εφίδρωσης και της δραστήριας καθημερινότητας.",
+    "subtitle": "Συνδυαστική φροντίδα για καθαριότητα, φρεσκάδα και έλεγχο των δυσάρεστων οσμών",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό και την αποσμητική φροντίδα της ευαίσθητης περιοχής, καθώς και την απορροφητική προστασία κατά την περίοδο.",
+        "Κατηγορία intermed.com.gr": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+        "Brand": "Eva"
+      },
+      "tabs": {
+        "Περιγραφή": "Το Eva Intima Fresh Confidence Pack είναι μια limited edition συσκευασία τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό και την αποσμητική φροντίδα της ευαίσθητης περιοχής, καθώς και την απορροφητική προστασία κατά την περίοδο.\nΠεριεχόμενα συσκευασίας\nEva Intima Special pH 3.5, 250 ml: Υγρό καθημερινού καθαρισμού με ενισχυμένη αποσμητική δράση.\nEva Intima Deodorant Spray, 50 ml: Αποσμητικό εκνέφωμα με εκχύλισμα λωτού για εξουδετέρωση των δυσάρεστων οσμών και 24ωρη αποσμητική δράση.\nEva Intima Active Oxygen Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με ενεργό οξυγόνο για εξουδετέρωση οσμών.\nΒασικά οφέλη\nΚαθημερινός καθαρισμός με ενισχυμένη αποσμητική φροντίδα.\nΑίσθηση φρεσκάδας και άνεσης μέσα στην ημέρα.\nΥψηλή απορροφητικότητα και έλεγχος οσμών κατά την περίοδο.\nΣυνδυασμός προϊόντων για τις ανάγκες της περιόδου, της εφίδρωσης και της δραστήριας καθημερινότητας.",
+        "Οφέλη": "Χρήση\nΚάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.\nΣυσκευασία: Limited Edition Pack με 3 προϊόντα."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6975/300x470-Eva-Intima-Fresh-Confidence-Pack.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Χρήση",
+        "Κάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.",
+        "Συσκευασία: Limited Edition Pack με 3 προϊόντα."
+      ],
+      "breadcrumbs": [
+        "Γυναικεία Φροντίδα",
+        "Ευαίσθητη περιοχή",
+        "Καθημερινή φροντίδα",
+        "Eva Intima Fresh Confidence Pac..."
+      ],
+      "title": "Eva Intima Fresh Confidence Pack",
+      "subtitle": "Συνδυαστική φροντίδα για καθαριότητα, φρεσκάδα και έλεγχο των δυσάρεστων οσμών",
+      "fullTitle": "Eva Intima Fresh Confidence Pack",
+      "category": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+      "rootCategory": "Γυναικεία Φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6975/300x470-Eva-Intima-Fresh-Confidence-Pack.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το Eva Intima Fresh Confidence Pack είναι μια limited edition Περιεχόμενα Eva Intima Deodorant Spray, 50 ml: Αποσμητικό εκνέφωμα με εκχύλισμα λωτού για εξουδετέρωση των δυσάρεστων οσμών και 24ωρη αποσμητική δράση. Eva Intima Active Oxygen Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με ενεργό οξυγόνο για εξουδετέρωση οσμών. Βασικά οφέλη Καθημερινός καθαρισμός με ενισχυμένη αποσμητική φροντίδα. Αίσθηση φρεσκάδας και άνεσης μέσα στην ημέρα. Υψηλή απορροφητικότητα και έλεγχος οσμών κατά την περίοδο. Συνδυασμός προϊόντων για τις ανάγκες της περιόδου, της εφίδρωσης και της δραστήριας καθημερινότητας.",
+      "shortDescription": "Συνδυαστική φροντίδα για καθαριότητα, φρεσκάδα και έλεγχο των δυσάρεστων οσμών",
+      "gtin": "IM-evaintimafreshconfidencepack",
+      "eans": [
+        "IM-evaintimafreshconfidencepack"
+      ],
+      "handle": "eva-intima-fresh-confidence-pack",
+      "brand": "Eva"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6975/300x470-Eva-Intima-Fresh-Confidence-Pack.jpg",
+    "gtin": "IM-evaintimafreshconfidencepack"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/eva-intima-protection-pack",
+    "section": "p",
+    "name": "Eva Intima Protection Pack",
+    "description": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus. Βασικά οφέλη Καθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής. Πρακτική φροντίδα εντός και εκτός σπιτιού. Απορροφητική προστασία με προβιοτικά κατά την περίοδο. Τρεις συμπληρωματικές επιλογές σε μία",
+    "longDescription": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus. Βασικά οφέλη Καθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής. Πρακτική φροντίδα εντός και εκτός σπιτιού. Απορροφητική προστασία με προβιοτικά κατά την περίοδο. Τρεις συμπληρωματικές επιλογές σε μία",
+    "subtitle": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό, τη φροντίδα μέσα στην ημέρα και την υποστήριξη του τοπικού μικροβιώματος κατά την περίοδο.",
+        "Κατηγορία intermed.com.gr": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+        "Brand": "Eva"
+      },
+      "tabs": {
+        "Περιγραφή": "Το Eva Intima Protection Pack είναι μια limited edition συσκευασία τριών συμπληρωματικών προϊόντων για τον καθημερινό καθαρισμό, τη φροντίδα μέσα στην ημέρα και την υποστήριξη του τοπικού μικροβιώματος κατά την περίοδο.\nΠεριεχόμενα συσκευασίας\nEva Intima Herbosept pH 3.5, 250 ml: Υγρό καθημερινού καθαρισμού με φυτικά εκχυλίσματα και φυσική αντιβακτηριδιακή δράση.\nEva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα.\nEva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus.\nΒασικά οφέλη\nΚαθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής.\nΠρακτική φροντίδα εντός και εκτός σπιτιού.\nΑπορροφητική προστασία με προβιοτικά κατά την περίοδο.\nΤρεις συμπληρωματικές επιλογές σε μία συσκευασία.",
+        "Οφέλη": "Χρήση\nΚάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.\nΣυσκευασία: Limited Edition Pack με 3 προϊόντα."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6978/300x470-Eva-Intima-Protection-Pack.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Χρήση",
+        "Κάθε προϊόν χρησιμοποιείται ξεχωριστά, σύμφωνα με τις οδηγίες της επιμέρους συσκευασίας του.",
+        "Συσκευασία: Limited Edition Pack με 3 προϊόντα."
+      ],
+      "breadcrumbs": [
+        "Γυναικεία Φροντίδα",
+        "Ευαίσθητη περιοχή",
+        "Καθημερινή φροντίδα",
+        "Eva Intima Protection Pack"
+      ],
+      "title": "Eva Intima Protection Pack",
+      "subtitle": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+      "fullTitle": "Eva Intima Protection Pack",
+      "category": "Γυναικεία Φροντίδα › Ευαίσθητη περιοχή › Καθημερινή φροντίδα",
+      "rootCategory": "Γυναικεία Φροντίδα",
+      "line": "Καθημερινή φροντίδα",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6978/300x470-Eva-Intima-Protection-Pack.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το Eva Intima Protection Pack είναι μια limited edition Περιεχόμενα Eva Intima Pure Mist pH 4.5, 50 ml: Mist καθαρισμού και ανακούφισης με πρεβιοτικά, κατάλληλο για εφαρμογή χωρίς ξέβγαλμα. Eva Intima Probio Pads, 18 σερβιέτες με φτερά: Λεπτές, υπερ-απορροφητικές σερβιέτες με προβιοτικά Lactobacillus acidophilus. Βασικά οφέλη Καθημερινή καθαριότητα και περιποίηση της ευαίσθητης περιοχής. Πρακτική φροντίδα εντός και εκτός σπιτιού. Απορροφητική προστασία με προβιοτικά κατά την περίοδο. Τρεις συμπληρωματικές επιλογές σε μία",
+      "shortDescription": "Συνδυαστική φροντίδα της ευαίσθητης περιοχής με έμφαση στη φυσική ισορροπία",
+      "gtin": "IM-evaintimaprotectionpack",
+      "eans": [
+        "IM-evaintimaprotectionpack"
+      ],
+      "handle": "eva-intima-protection-pack",
+      "brand": "Eva"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6978/300x470-Eva-Intima-Protection-Pack.jpg",
+    "gtin": "IM-evaintimaprotectionpack"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-dermatopia-hydrating-cream",
+    "section": "p",
+    "name": "euderma® DERMATOPIA MOISTURIZING AND EMOLLIENT CREAM",
+    "description": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα. Ιδανική για την καθημερινή φροντίδα του ξηρού και ατοπικού δέρματος",
+    "longDescription": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα. Ιδανική για την καθημερινή φροντίδα του ξηρού και ατοπικού δέρματος",
+    "subtitle": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα.",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+        "Brand": "euderma DERMATOPIA"
+      },
+      "tabs": {
+        "Περιγραφή": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα. Ιδανική για την καθημερινή φροντίδα του ξηρού και ατοπικού δέρματος",
+        "Οφέλη": "Για την καθημερινή ενυδάτωση και ανακούφιση των ατοπικών ή πολύ ξηρών δερμάτων.\nΑπορροφάται γρήγορα χωρίς να αφήνει υπολείμματα\nΜε βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, μολόχα, αγριοτριανταφυλλιά, αβοκάντο, βοράγινο, αλόη, βούτυρο Karite, τζοτζόμπα) & δερμοπροστατευτικές βιταμίνες.\nΔερματολογικά ελεγμένο.\nΧωρίς parabens και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα).",
+        "Οδηγίες χρήσης": "Εφαρμόστε μια ποσότητα κρέμας στην επιθυμητή περιοχή και κάντε απαλό μασάζ μέχρι να απορροφηθεί.",
+        "Προφυλάξεις": "Για τοπική εξωτερική χρήση Αποφύγετε την επαφή με τα μάτια. Σε περίπτωση που εμφανιστεί ερεθισμός διακόψτε τη χρήση. Αποθηκεύστε σε μέρος δροσερό(15-25οC) και ξηρό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6981/euderma-DERMATOPIA-HYDRATING-CREAM.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Για την καθημερινή ενυδάτωση και ανακούφιση των ατοπικών ή πολύ ξηρών δερμάτων.",
+        "Απορροφάται γρήγορα χωρίς να αφήνει υπολείμματα",
+        "Με βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, μολόχα, αγριοτριανταφυλλιά, αβοκάντο, βοράγινο, αλόη, βούτυρο Karite, τζοτζόμπα) & δερμοπροστατευτικές βιταμίνες.",
+        "Δερματολογικά ελεγμένο.",
+        "Χωρίς parabens και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα)."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Δερμοκαλλυντική Φροντίδα",
+        "Σώμα",
+        "Καθημερινή Φροντίδα Σώματος",
+        "euderma® DERMATOPIA MOISTURIZIN..."
+      ],
+      "title": "euderma® DERMATOPIA MOISTURIZING AND EMOLLIENT CREAM",
+      "subtitle": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα.",
+      "fullTitle": "euderma® DERMATOPIA MOISTURIZING AND EMOLLIENT CREAM",
+      "category": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Καθημερινή Φροντίδα Σώματος",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6981/euderma-DERMATOPIA-HYDRATING-CREAM.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα. Ιδανική για την καθημερινή φροντίδα του ξηρού και ατοπικού δέρματος",
+      "shortDescription": "Ενυδατική & μαλακτική κρέμα προσώπου & σώματος για ατοπικά & πολύ ξηρά δέρματα.",
+      "gtin": "IM-eudermadermatopiahydratingcream",
+      "eans": [
+        "IM-eudermadermatopiahydratingcream"
+      ],
+      "handle": "euderma-dermatopia-hydrating-cream",
+      "brand": "euderma DERMATOPIA"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6981/euderma-DERMATOPIA-HYDRATING-CREAM.jpg",
+    "gtin": "IM-eudermadermatopiahydratingcream"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-dermatopia-hydrating-cleanser",
+    "section": "p",
+    "name": "euderma® DERMATOPIA HYDRATING CLEANSER",
+    "description": "Το euderma® DERMATOPIA Hydrating Cleanser περιέχει συστατικά που έχουν μελετηθεί ως προς την ικανότητά τους να προσφέρουν απαλό & βαθύ καθαρισμό χωρίς να διαταράσσουν τον δερματικό φραγμό της επιδερμίδας ενώ παράλληλα προσφέρουν την ενυδάτωση και προστασία που έχει ανάγκη το ατοπικό δέρμα κατά τη διαδικασία του καθημερινού μπάνιου.",
+    "longDescription": "Το euderma® DERMATOPIA Hydrating Cleanser περιέχει συστατικά που έχουν μελετηθεί ως προς την ικανότητά τους να προσφέρουν απαλό & βαθύ καθαρισμό χωρίς να διαταράσσουν τον δερματικό φραγμό της επιδερμίδας ενώ παράλληλα προσφέρουν την ενυδάτωση και προστασία που έχει ανάγκη το ατοπικό δέρμα κατά τη διαδικασία του καθημερινού μπάνιου.",
+    "subtitle": "Ενυδατική Κρέμα καθαρισμού Κεφαλής & Σώματος",
+    "details": {
+      "attributes": {
+        "Συσκευασία": "φιάλη με αντλία των 250 ml",
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+        "Brand": "euderma DERMATOPIA"
+      },
+      "tabs": {
+        "Περιγραφή": "Το euderma® DERMATOPIA Hydrating Cleanser περιέχει συστατικά που έχουν μελετηθεί ως προς την ικανότητά τους να προσφέρουν απαλό & βαθύ καθαρισμό χωρίς να διαταράσσουν τον δερματικό φραγμό της επιδερμίδας ενώ παράλληλα προσφέρουν την ενυδάτωση και προστασία που έχει ανάγκη το ατοπικό δέρμα κατά τη διαδικασία του καθημερινού μπάνιου.\nΣυσκευασία: φιάλη με αντλία των 250 ml",
+        "Οφέλη": "Απαλός καθημερινός καθαρισμός του τριχωτού της κεφαλής και του σώματος ατόμων με ατοπικό ή πολύ ξηρό δέρμα.\nΜε βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, αγριοτριανταφυλλιά, βοράγινο, αλόη, ελιά) & δερμοπροστατευτικές βιταμίνες\nΔερματολογικά ελεγμένο.\nΧωρίς parabens, SLS/SLES, σαπούνι και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα).",
+        "Οδηγίες χρήσης": "Πριν τη χρήση απαιτείται καλή ανακίνηση. Εφαρμογή με απαλές κινήσεις αρκούσας ποσότητας Babyderm DERMATOPIA bath cream σε βρεγμένο δέρμα, μέχρι να σχηματιστεί αφρός. Στη συνέχεια Ξεπλένεται καλά με άφθονη ποσότητα νερού.",
+        "Προφυλάξεις": "Για εξωτερική χρήση μόνο. Αποφύγετε την άμεση επαφή με τα μάτια. Σε περίπτωση ερεθισμού ή ευαισθησίας σε κάποιο από τα συστατικά του διακόψτε τη χρήση. Αποθηκεύστε σε μέρος δροσερό (15-25οC) και σκιερό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6984/euderma-DERMATOPIA-HYDRATING-CLEANSER.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Απαλός καθημερινός καθαρισμός του τριχωτού της κεφαλής και του σώματος ατόμων με ατοπικό ή πολύ ξηρό δέρμα.",
+        "Με βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, αγριοτριανταφυλλιά, βοράγινο, αλόη, ελιά) & δερμοπροστατευτικές βιταμίνες",
+        "Δερματολογικά ελεγμένο.",
+        "Χωρίς parabens, SLS/SLES, σαπούνι και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα)."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Δερμοκαλλυντική Φροντίδα",
+        "Σώμα",
+        "Καθημερινή Φροντίδα Σώματος",
+        "euderma® DERMATOPIA HYDRATING C..."
+      ],
+      "title": "euderma® DERMATOPIA HYDRATING CLEANSER",
+      "subtitle": "Ενυδατική Κρέμα καθαρισμού Κεφαλής & Σώματος",
+      "fullTitle": "euderma® DERMATOPIA HYDRATING CLEANSER",
+      "category": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Καθημερινή Φροντίδα Σώματος",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6984/euderma-DERMATOPIA-HYDRATING-CLEANSER.jpg",
+      "size": "250ml",
+      "sizes": [
+        "250ml"
+      ],
+      "description": "Το euderma® DERMATOPIA Hydrating Cleanser περιέχει συστατικά που έχουν μελετηθεί ως προς την ικανότητά τους να προσφέρουν απαλό & βαθύ καθαρισμό χωρίς να διαταράσσουν τον δερματικό φραγμό της επιδερμίδας ενώ παράλληλα προσφέρουν την ενυδάτωση και προστασία που έχει ανάγκη το ατοπικό δέρμα κατά τη διαδικασία του καθημερινού μπάνιου.",
+      "shortDescription": "Ενυδατική Κρέμα καθαρισμού Κεφαλής & Σώματος",
+      "gtin": "IM-eudermadermatopiahydratingcleanser",
+      "eans": [
+        "IM-eudermadermatopiahydratingcleanser"
+      ],
+      "handle": "euderma-dermatopia-hydrating-cleanser",
+      "brand": "euderma DERMATOPIA"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6984/euderma-DERMATOPIA-HYDRATING-CLEANSER.jpg",
+    "gtin": "IM-eudermadermatopiahydratingcleanser"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-dermatopia-hydrating-bath-oil",
+    "section": "p",
+    "name": "euderma® DERMATOPIA HYDRATING BATH OIL",
+    "description": "Το euderma® DERMATOPIA HYDRATING BATH OIL σχεδιάστηκε ειδικά ώστε σφραγίζει την απαραίτητη υγρασία στις βαθύτερες στοιβάδες τις επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου, αφήνοντας το δέρμα απαλό και ελαστικό ενώ παράλληλα να ανακουφίζει από ερεθισμούς & φλεγμονές. Κατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.",
+    "longDescription": "Το euderma® DERMATOPIA HYDRATING BATH OIL σχεδιάστηκε ειδικά ώστε σφραγίζει την απαραίτητη υγρασία στις βαθύτερες στοιβάδες τις επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου, αφήνοντας το δέρμα απαλό και ελαστικό ενώ παράλληλα να ανακουφίζει από ερεθισμούς & φλεγμονές. Κατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.",
+    "subtitle": "Γαλακτώδες Λάδι Μπάνιου για ατοπικά & πολύ ξηρά δέρματα",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+        "Brand": "euderma DERMATOPIA"
+      },
+      "tabs": {
+        "Περιγραφή": "Το euderma® DERMATOPIA HYDRATING BATH OIL σχεδιάστηκε ειδικά ώστε σφραγίζει την απαραίτητη υγρασία στις βαθύτερες στοιβάδες τις επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου, αφήνοντας το δέρμα απαλό και ελαστικό ενώ παράλληλα να ανακουφίζει από ερεθισμούς & φλεγμονές. Κατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.",
+        "Οφέλη": "Εντατική ενυδάτωση της επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου.\nΚατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.\nΜε βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, αγριοτριανταφυλλιά, βοράγινο, βερύκοκο, ελιά, ηλίανθο) & δερμοπροστατευτικές βιταμίνες.\nΔερματολογικά ελεγμένο.\nΧωρίς parabens και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα).",
+        "Οδηγίες χρήσης": "Αρκετή ποσότητα από τοeuderma® DERMATOPIA HYDRATING BATH OIL προστίθεται στο νερό του μπάνιου κατά το τελευταίο ξέβγαλμα όπου το βρέφος παραμένει για μερικά λεπτά και απομακρύνεται χωρίς να ξυπλυθεί. Μεγαλύτερα παιδιά ή ενήλικες εφαρμόζουν το Babyderm dermatopia milky bath oil απευθείας σε βρεγμένο δέρμα μετά το τελευταίο ξέβγαλμα. Ακολουθεί σκούπισμα με ήπιες ταμποναριστές κινήσεις.",
+        "Προφυλάξεις": "Για τοπική εξωτερική χρήση Αποφύγετε την επαφή με τα μάτια Σε περίπτωση που εμφανιστεί ερεθισμός διακόψτε τη χρήση. Αποθηκεύστε σε μέρος δροσερό (15-25οC) και ξηρό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/6987/euderma-DERMATOPIA-HYDRATING-BATH-OIL.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Εντατική ενυδάτωση της επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου.",
+        "Κατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.",
+        "Με βρώμη και τα απαραίτητα λιπαρά οξέα Ωμέγα 6 (γ- λινολενικό) & Ωμέγα 3 (α- λινολενικό). Εμπλουτισμένο με εκχυλίσματα βοτάνων (χαμομήλι, αγριοτριανταφυλλιά, βοράγινο, βερύκοκο, ελιά, ηλίανθο) & δερμοπροστατευτικές βιταμίνες.",
+        "Δερματολογικά ελεγμένο.",
+        "Χωρίς parabens και αλλεργιογόνους παράγοντες (τεχνητά χρώματα, ερεθιστικά αρώματα)."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Δερμοκαλλυντική Φροντίδα",
+        "Σώμα",
+        "Καθημερινή Φροντίδα Σώματος",
+        "euderma® DERMATOPIA HYDRATING B..."
+      ],
+      "title": "euderma® DERMATOPIA HYDRATING BATH OIL",
+      "subtitle": "Γαλακτώδες Λάδι Μπάνιου για ατοπικά & πολύ ξηρά δέρματα",
+      "fullTitle": "euderma® DERMATOPIA HYDRATING BATH OIL",
+      "category": "Λοιπά Προϊόντα › Δερμοκαλλυντική Φροντίδα › Σώμα › Καθημερινή Φροντίδα Σώματος",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "Καθημερινή Φροντίδα Σώματος",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/6987/euderma-DERMATOPIA-HYDRATING-BATH-OIL.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Το euderma® DERMATOPIA HYDRATING BATH OIL σχεδιάστηκε ειδικά ώστε σφραγίζει την απαραίτητη υγρασία στις βαθύτερες στοιβάδες τις επιδερμίδας κατά τη διαδικασία του καθημερινού μπάνιου, αφήνοντας το δέρμα απαλό και ελαστικό ενώ παράλληλα να ανακουφίζει από ερεθισμούς & φλεγμονές. Κατάλληλο σε περιόδους έξαρσης των συμπτωμάτων της ατοπικής δερματίτιδας.",
+      "shortDescription": "Γαλακτώδες Λάδι Μπάνιου για ατοπικά & πολύ ξηρά δέρματα",
+      "gtin": "IM-eudermadermatopiahydratingbathoil",
+      "eans": [
+        "IM-eudermadermatopiahydratingbathoil"
+      ],
+      "handle": "euderma-dermatopia-hydrating-bath-oil",
+      "brand": "euderma DERMATOPIA"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/6987/euderma-DERMATOPIA-HYDRATING-BATH-OIL.jpg",
+    "gtin": "IM-eudermadermatopiahydratingbathoil"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-aid-arnica-cream",
+    "section": "p",
+    "name": "euderma AID ARNICA CREAM",
+    "description": "Ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα. Συστατικά: Άρνικα, Αλόη, Ελίχρυσος, Χαμομήλι, Βούτυρο Καριτέ, Εσκίνη, Πανθενόλη, Αλλαντοΐνη, Υαλουρονικό Νάτριο.",
+    "longDescription": "Ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα. Συστατικά: Άρνικα, Αλόη, Ελίχρυσος, Χαμομήλι, Βούτυρο Καριτέ, Εσκίνη, Πανθενόλη, Αλλαντοΐνη, Υαλουρονικό Νάτριο.",
+    "subtitle": "Καταπραϋντική κρέμα κατάλληλη για μώλωπες σε πρόσωπο & σώμα",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Brands › euderma AID",
+        "Brand": "euderma AID"
+      },
+      "tabs": {
+        "Περιγραφή": "Ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα.\nΣυστατικά: Άρνικα, Αλόη, Ελίχρυσος, Χαμομήλι, Βούτυρο Καριτέ, Εσκίνη, Πανθενόλη, Αλλαντοΐνη, Υαλουρονικό Νάτριο.",
+        "Οφέλη": "Η euderma AID ARNICA CREAM είναι μια ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα. Η εμπλουτισμένη σύνθεσή της εκχυλίσματα αλόης, ελίχρυσου και χαμομηλιού σε συνδυασμό με εσκίνη πανθενόλη, αλλαντοΐνη, υαλουρονικό νάτριο και βούτυρο καριτέ καταπραΰνει,και ενυδατώνει το δέρμα, ενώ προστατεύειτον επιδερμιδικό φραγμό.",
+        "Οδηγίες χρήσης": "Εφαρμόστε με απαλές κινήσεις στην πάσχουσα περιοχή. Επαναλαμβάνετε τακτικά για τις επόμενες 2-3 ημέρες. Να μην χρησιμοποιείται σε ανοιχτά τραύματα. Κατάλληλο για παιδιά άνω του 1 έτους & ενήλικες.",
+        "Προφυλάξεις": "Για εξωτερική χρήση μόνο • Αποφύγετε την επαφή με τα μάτια • Να μη χρησιμοποιείται κατά τη διάρκεια της εγκυμοσύνης και του θηλασμού • Σε περίπτωση που εμφανιστεί ερεθισμός ή υπάρχει ευαισθησία σε κάποιο από τα συστατικά του διακόψτε τη χρήση • Αποθηκεύστε σε μέρος δροσερό (15-25οC) και σκιερό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/7005/euderma-AID-ARNICA-CREAM-300x470......jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Η euderma AID ARNICA CREAM είναι μια ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα. Η εμπλουτισμένη σύνθεσή της εκχυλίσματα αλόης, ελίχρυσου και χαμομηλιού σε συνδυασμό με εσκίνη πανθενόλη, αλλαντοΐνη, υαλουρονικό νάτριο και βούτυρο καριτέ καταπραΰνει,και ενυδατώνει το δέρμα, ενώ προστατεύειτον επιδερμιδικό φραγμό."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Brands",
+        "euderma AID",
+        "euderma AID ARNICA CREAM"
+      ],
+      "title": "euderma AID ARNICA CREAM",
+      "subtitle": "Καταπραϋντική κρέμα κατάλληλη για μώλωπες σε πρόσωπο & σώμα",
+      "fullTitle": "euderma AID ARNICA CREAM",
+      "category": "Λοιπά Προϊόντα › Brands › euderma AID",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "euderma AID",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/7005/euderma-AID-ARNICA-CREAM-300x470......jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Ενισχυμένη κρέμα άρνικας, κατάλληλη για χρήση σε μώλωπες στο πρόσωπο και το σώμα. Συστατικά: Άρνικα, Αλόη, Ελίχρυσος, Χαμομήλι, Βούτυρο Καριτέ, Εσκίνη, Πανθενόλη, Αλλαντοΐνη, Υαλουρονικό Νάτριο.",
+      "shortDescription": "Καταπραϋντική κρέμα κατάλληλη για μώλωπες σε πρόσωπο & σώμα",
+      "gtin": "IM-eudermaaidarnicacream",
+      "eans": [
+        "IM-eudermaaidarnicacream"
+      ],
+      "handle": "euderma-aid-arnica-cream",
+      "brand": "euderma AID"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/7005/euderma-AID-ARNICA-CREAM-300x470......jpg",
+    "gtin": "IM-eudermaaidarnicacream"
+  },
+  {
+    "url": "https://intermed.com.gr/el/products/euderma-aid-panthenol-5-cream",
+    "section": "p",
+    "name": "euderma AID Panthenol 5% Cream",
+    "description": "Υποστηρίζει την φυσική ανάπλαση του δέρματος και ενυδατώνει. Συστατικά: 5% Προβιταμίνη Β5 και Υαλουρονικό Νάτριο",
+    "longDescription": "Υποστηρίζει την φυσική ανάπλαση του δέρματος και ενυδατώνει. Συστατικά: 5% Προβιταμίνη Β5 και Υαλουρονικό Νάτριο",
+    "subtitle": "Καθημερινή περιποίηση της ευαίσθητης επιδερμίδας",
+    "details": {
+      "attributes": {
+        "Κατηγορία intermed.com.gr": "Λοιπά Προϊόντα › Brands › euderma AID",
+        "Brand": "euderma AID"
+      },
+      "tabs": {
+        "Περιγραφή": "Υποστηρίζει την φυσική ανάπλαση του δέρματος και ενυδατώνει.\nΣυστατικά: 5% Προβιταμίνη Β5 και Υαλουρονικό Νάτριο",
+        "Οφέλη": "Η euderma AID Panthenol 5% Cream είναι μια ειδικά σχεδιασμένη κρέμα για την καθημερινή περιποίηση του ξηρού και ευαίσθητου δέρματος. Υποστηρίζει την φυσική ανάπλαση του δέρματος ενώ παράλληλα το καταπραύνει και το ενυδατώνει. Ιδανική μετά από έκθεση στον ήλιο.",
+        "Οδηγίες χρήσης": "Να απλώνεται αρκούσα ποσότητα στην επιδερμίδα όποτε υπάρχει ανάγκη.",
+        "Προφυλάξεις": "Για εξωτερική χρήση μόνο • Αποφύγετε την επαφή με τα μάτια • Να μη χρησιμοποιείται κατά τη διάρκεια της εγκυμοσύνης και του θηλασμού • Σε περίπτωση που εμφανιστεί ερεθισμός ή υπάρχει ευαισθησία σε κάποιο από τα συστατικά του διακόψτε τη χρήση • Αποθηκεύστε σε μέρος δροσερό (15-25οC) και σκιερό, μακριά από παιδιά."
+      },
+      "keyFacts": [],
+      "images": [
+        "https://intermed.com.gr/system/uploads/image/image/7002/euderma-AID-PANTHENOL-5_-CREAM-300x470.jpg"
+      ],
+      "variants": [],
+      "advantages": [
+        "Η euderma AID Panthenol 5% Cream είναι μια ειδικά σχεδιασμένη κρέμα για την καθημερινή περιποίηση του ξηρού και ευαίσθητου δέρματος. Υποστηρίζει την φυσική ανάπλαση του δέρματος ενώ παράλληλα το καταπραύνει και το ενυδατώνει. Ιδανική μετά από έκθεση στον ήλιο."
+      ],
+      "breadcrumbs": [
+        "Λοιπά Προϊόντα",
+        "Brands",
+        "euderma AID",
+        "euderma AID Panthenol 5% Cream"
+      ],
+      "title": "euderma AID Panthenol 5% Cream",
+      "subtitle": "Καθημερινή περιποίηση της ευαίσθητης επιδερμίδας",
+      "fullTitle": "euderma AID Panthenol 5% Cream",
+      "category": "Λοιπά Προϊόντα › Brands › euderma AID",
+      "rootCategory": "Λοιπά Προϊόντα",
+      "line": "euderma AID",
+      "imageLarge": "https://intermed.com.gr/system/uploads/image/image/7002/euderma-AID-PANTHENOL-5_-CREAM-300x470.jpg",
+      "size": null,
+      "sizes": [],
+      "description": "Υποστηρίζει την φυσική ανάπλαση του δέρματος και ενυδατώνει. Συστατικά: 5% Προβιταμίνη Β5 και Υαλουρονικό Νάτριο",
+      "shortDescription": "Καθημερινή περιποίηση της ευαίσθητης επιδερμίδας",
+      "gtin": "IM-eudermaaidpanthenol5cream",
+      "eans": [
+        "IM-eudermaaidpanthenol5cream"
+      ],
+      "handle": "euderma-aid-panthenol-5-cream",
+      "brand": "euderma AID"
+    },
+    "image": "https://intermed.com.gr/system/uploads/image/image/7002/euderma-AID-PANTHENOL-5_-CREAM-300x470.jpg",
+    "gtin": "IM-eudermaaidpanthenol5cream"
   }
 ]

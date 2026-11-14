@@ -45,17 +45,17 @@ const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 const LINE_RULES = [
   // Από breadcrumbs του intermed.com.gr (d.category), brand και όνομα. Στενές κατηγορίες πρώτα.
   ["antiliaka",   /αντ[ιη]+λιακ|sun care|sun protect|\bspf\s?\d|after sun|μαύρισμ/i],
-  ["stoma",       /στοματικ|οδοντ|unident|actisept|chlorhexil.*(στοματ|mouth)|periofix|ξηροστομ|κακοσμ|λεύκανσ|toothbrush|βουρτσ|mouthwash|dental/i],
-  ["gynaikeia",   /γυναικεία|eva intima|eva belle|ευαίσθητη περιοχή|κολπ|εμμηνόπαυσ|εγκυμοσύν|περίοδο|hpv|γονιμότητ|αποτρίχωσ|ph\b|ουροποιητικ/i],
+  ["stoma",       /στοματικ|οδοντ|protegum|unident|actisept|chlorhexil.*(στοματ|mouth)|periofix|ξηροστομ|κακοσμ|λεύκανσ|toothbrush|βουρτσ|mouthwash|dental/i],
+  ["gynaikeia",   /γυναικεία|eva intima|ευαίσθητη περιοχή|κολπ|εμμηνόπαυσ|εγκυμοσύν|περίοδο|hpv|γονιμότητ|αποτρίχωσ|ph\b|ουροποιητικ/i],
   ["paidika",     /βρεφ|παιδ|babyderm|kids|school kit|νινίδα|κολικ/i],
-  ["rino",        /ρινικ|οφθαλμ|ωτικ|optofresh|nasal|ear|eye|αλλεργ/i],
+  ["rino",        /ρινικ|οφθαλμ|ωτικ|optofresh|nasal|ear|eye|αλλεργ|κρυολόγημα|calmovix|bunafon|selva/i],
   ["sympliromata",/συμπλήρωμ|διατροφικ|αφεψήματ|υποκατάστατα ζάχαρης|βιταμίν|vitamin|\bd3\b|μαγνήσιο|caps|tabs|κάψουλ/i],
   ["gastro",      /γαστρεντερ|δυσκοιλιότ|διάρροι|δυσπεψ|αιμορρο|προβιοτικ/i],
   ["apolymansi",  /απολύμανσ|απολυμαντ|αντισηπτ|unisept|reval|chlorhexil|hand gel|επιφανει/i],
   ["andras",      /ανδρικ|\bmen\b|mens|ξύρισμ/i],
   ["mallia",      /μαλλι|τριχόπτωσ|σαμπουάν|shampoo|hair/i],
-  ["prosopo",     /πρόσωπο|ακμή|αντιγήρανσ|ενυδάτωσ|ευαισθησί|επανόρθωσ|face|serum|ορός/i],
-  ["soma",        /σώμα|σώματος|χεριών|ποδιών|ατοπικ|έκζεμα|κατάκλισ|σύσφιξ|εντομοαπωθ|rikital|body/i]
+  ["prosopo",     /πρόσωπο|ακμή|αντιγήρανσ|ενυδάτωσ|ευαισθησί|επανόρθωσ|face|serum|ορός|the skin pharmacist|acnofix|eva belle/i],
+  ["soma",        /σώμα|σώματος|χεριών|ποδιών|ατοπικ|έκζεμα|κατάκλισ|σύσφιξ|εντομοαπωθ|rikital|body|\bsos\b|euderma aid|x-?cort|panthenol|arnica/i]
 ];
 // Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
 // αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
