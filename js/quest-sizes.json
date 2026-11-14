@@ -1,0 +1,301 @@
+{
+ "_comment": "Μεγέθη συσκευασίας Quest που κυκλοφορούν στην Ελλάδα (από τον τιμοκατάλογο Medica) ανά σελίδα του douni.gr — το site δεν δίνει μέγεθος. Σελίδα με >1 μέγεθος → variants (QV-<slug>V<πλήθος>). Παράγεται από scratch quest-apply.mjs.",
+ "acidophilus-plus": [
+  {
+   "count": 60,
+   "size": "60 κάψουλες"
+  }
+ ],
+ "acidophilus-plus-biotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "agnus-castus-71mg-extract": [
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "bio-c-complex": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "cell-life": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "cholesterol-biotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "coenzyme-q10-30mg": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "cranbiotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "echinacea-propolis": [
+  {
+   "count": 20,
+   "size": "20 δισκία"
+  }
+ ],
+ "enzyme-digest": [
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "evening-primrose-1000mg": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  },
+  {
+   "count": 90,
+   "size": "90 κάψουλες"
+  }
+ ],
+ "ginkgo-biloba-150mg-extract": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "immune-biotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "kidzbiotix": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "kyolic-garlic-600": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "lactase-enzyme": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "mega-8-biotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "b-complex-timed-release": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "mega-b-complex": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "b-complex-quick-release": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "milk-thistle-150mg-extract": [
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "synergistic-magnesium-150mg": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "omega-3-1000mg": [
+  {
+   "count": 90,
+   "size": "90 κάψουλες"
+  }
+ ],
+ "once-a-day-quick-release": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "osteo-q-life": [
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "pregnall-bio-grow": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "probiotix": [
+  {
+   "count": 15,
+   "size": "15 κάψουλες"
+  }
+ ],
+ "probiotix-gold": [
+  {
+   "count": 15,
+   "size": "15 κάψουλες"
+  },
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "rhodiola-250mg-extract": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "super-once-a-day-timed-release": [
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "synergistic-calcium-1000mg": [
+  {
+   "count": 45,
+   "size": "45 δισκία"
+  }
+ ],
+ "synergistic-iron-15mg": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "synergistic-selenium-200mg": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "synergistic-zinc-15mg": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  },
+  {
+   "count": 90,
+   "size": "90 δισκία"
+  }
+ ],
+ "tumbiotix": [
+  {
+   "count": 30,
+   "size": "30 κάψουλες"
+  }
+ ],
+ "ubiquinol-qu10": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  }
+ ],
+ "vitamin-c-1000mg-timed-release": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 δισκία"
+  }
+ ],
+ "vitamin-c-1000mg": [
+  {
+   "count": 20,
+   "size": "20 αναβράζοντα δισκία"
+  }
+ ],
+ "vitamin-d3-2500": [
+  {
+   "count": 120,
+   "size": "120 δισκία"
+  }
+ ],
+ "vitamin-e-400iu": [
+  {
+   "count": 30,
+   "size": "30 δισκία"
+  },
+  {
+   "count": 60,
+   "size": "60 κάψουλες"
+  }
+ ],
+ "ippofaes-500mg": [
+  {
+   "count": 60,
+   "size": "60 κάψουλες"
+  }
+ ]
+}
