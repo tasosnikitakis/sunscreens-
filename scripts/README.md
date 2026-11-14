@@ -253,6 +253,13 @@ Intake, Free From). Κρατά μόνο συμπληρώματα (εκτός Bod
 (handle → subtitle + tabs), που εφαρμόζει το `match-healthaid.mjs`· μεγέθη και χαρακτηριστικά (Χωρίς γλουτένη…) μεταφράζονται εκεί
 με σταθερό λεξικό. Τα πρωτότυπα μένουν στο `js/healthaid-site.json`· κάθε προϊόν έχει χαρακτηριστικό «Κείμενα: Ελληνική απόδοση…».
 
+`scripts/scrape-powerhealth.mjs` (Power Health, www.powerhealth.gr — WordPress/WPBakery, custom post type «proionta»,
+χωρίς REST/EAN): λίστα από το `/proionta-sitemap.xml`, κείμενα από τη σελίδα (όνομα, μορφή, περιγραφή, tabs ΣΥΝΘΕΣΗ /
+ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ, από τα οποία βγαίνουν «Χωρίς», «Περιεχόμενο», «Κατάλληλο για…», προφυλάξεις, αρ. ΕΟΦ). Οι σελίδες
+κατηγοριών φορτώνουν προϊόντα με Ajax Load More· προαιρετικός χάρτης κατηγοριών με `--catmap=<json>` (Playwright στο
+scratch), αλλιώς η ενότητα βγαίνει από το όνομα (`solgarSection` στο `match-powerhealth.mjs`). Κλειδιά `PH-<slug>`·
+τιμές με `js/powerhealth-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
