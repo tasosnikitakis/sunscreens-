@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο CeraVe (μόνο βασικά προϊόντα): σετ, promo, δώρα, samples. Διαβάζεται από το build-brand-supplier.mjs (pattern = JavaScript RegExp, flags προεπιλογή i).",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο|sample|routine|ρουτίνα)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο / sample"
+    }
+  ]
+}

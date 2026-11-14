@@ -124,6 +124,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Helenvita", imageDir: "helenvita", sourceKey: "_helenvitaSource",
     fallbackDesc: "Προϊόν Helenvita — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Συστατικά", "Χρήση"]
+  },
+  cerave: {
+    key: "cerave", name: "CeraVe", host: "cerave.gr", page: "cerave.html",
+    icon: "🧪", initials: "CV", accent: "#1d4ed8",
+    sheetName: "CeraVe", imageDir: "cerave", sourceKey: "_ceraveSource",
+    fallbackDesc: "Προϊόν CeraVe — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Συστατικά", "Χρήση", "Συχνές ερωτήσεις"]
   }
 };
 
