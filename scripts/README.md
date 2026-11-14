@@ -245,6 +245,12 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 είτε url σελίδας είτε συνθετικό κλειδί variant (σελίδες με πολλά μεγέθη χωρίς EAN, όπου κάθε μέγεθος έχει δική του τιμή).
 Ενότητα = είδος συμπληρώματος (`solgarSection` στο `match-solgar.mjs`), γιατί οι κατηγορίες «ανά ανάγκη» επικαλύπτονται.
 
+`scripts/scrape-healthaid.mjs` (HealthAid, www.healthaid.co.uk — επίσημο site της μάρκας, Shopify, **αγγλικά**· ελληνικό
+site δεν υπάρχει): `/products.json` + σελίδα (Product Benefits, Nutritional Information, Ingredients, Recommended Daily
+Intake, Free From). Κρατά μόνο συμπληρώματα (εκτός Body Care/Aromatherapy/Essential Oils και τα Combo Pack). Κλειδί
+ανά μέγεθος `HA-<SKU>` (variant του Shopify)· τιμές με `js/healthaid-manual-matches.json` (barcode → κλειδί SKU).
+Οι περιγραφές είναι αγγλικές, γι' αυτό ο έλεγχος ποιότητας του καταλόγου τις σημειώνει «Αγγλικά αντί για ελληνικά».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
