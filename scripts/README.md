@@ -216,6 +216,13 @@ Mystery Box, κρυφές/παλιές σελίδες — Korres) δεν προ�
 Τιμές: γραμμές URIAGE του `Medica.tsv` (`Uriage.tsv`) → `js/uriage-manual-matches.json` (όνομα + μέγεθος·
 σελίδες με πολλά μεγέθη παίρνουν την τιμή ενός μεγέθους, promo/σετ και παλιοί κωδικοί → null).
 
+`scripts/scrape-helenvita.mjs` (Helenvita/Pharmex, www.helenvita.com — WordPress, όχι WooCommerce): λίστα και
+κατηγορίες από το WP REST (`/wp-json/wp/v2/product`, `/product_category`), κείμενα από τη σελίδα (περιγραφή,
+Προδιαγραφές, Συστατικά, Χρήση/Συμβουλές), σειρά = κατηγορία «Brands › …» (→ ενότητα με `LINE_MAP` στο
+`match-helenvita.mjs`). Κλειδιά `HV-<slug>`. Συμπληρώματα διατροφής, σιρόπια/καραμέλες, η δοκιμαστική σελίδα και
+το απολυμαντικό εργαλείων μένουν εκτός (`js/helenvita-exclusions.json`). Τιμές: γραμμές HELENVITA του `Medica.tsv`
+(`Helenvita.tsv`) → `js/helenvita-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
