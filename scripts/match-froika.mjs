@@ -76,15 +76,20 @@ const LINE_MAP = {};
 // Froika: οι κατηγορίες του site είναι «ανά ανάγκη» και επικαλύπτονται → ενότητα από το είδος του προϊόντος
 // (κατηγορίες «ανά κατηγορία προϊόντος» + όνομα), με σειρά προτεραιότητας.
 function solgarSection(d) {
-  // Froika: όνομα + κατηγορία του froika.com → ενότητα
-  const n = String(d.title || ""), c = String(d.category || "");
-  if (/SPF|Sun\b|Αντηλιακ/i.test(n + " " + c) && !/Lipstick/i.test(n)) return "sun";
-  if (/Baby|Βρεφικ/i.test(n + " " + c)) return "baby";
-  if (/Deodorant|Αποσμητ/i.test(n + " " + c)) return "aposmitika";
-  if (/Shampoo|Conditioner|Μαλλιά/i.test(n + " " + c)) return "mallia";
-  if (/Hand|Foot|Lip|Intimate|After Shave|Χεριών|Γυναικολογ/i.test(n + " " + c)) return "xeria";
-  if (/Body|Shower|Liquid|Wash|Bar|Lotion|Stretch|σώματος/i.test(n + " " + c) && !/Facial|Clear Face|Micellar/i.test(n)) return "soma";
-  return "prosopo";
+  // Froika: σειρά («Σειρές προϊόντων» του froika.com) → ενότητα· χωρίς σειρά → κατηγορία
+  const L = String(d.line || ""), c = String(d.category || ""), n = String(d.title || "");
+  if (/Oral Care/i.test(L)) return "oral";
+  if (/Baby Care/i.test(L)) return "baby";
+  if (/Hair Care/i.test(L)) return "hair";
+  if (/^AC Line/i.test(L)) return "ac";
+  if (/Sunscreens|Silk Touch|Suncare/i.test(L)) return "sun";
+  if (/Sensitive|DS Line|ω-Plus|Anti-Pigment/i.test(L) || /Λεύκανση/.test(c)) return "sensitive";
+  if (/Ultracare/i.test(L)) return "body";
+  if (L) return "antiageing";
+  if (/Αντισηπτικ|Αποσμητικ|Γυναικολογ/.test(c)) return "hygiene";
+  if (/Ουλών|Ερεθισμένο|Κνησμό|Εντομοαπωθ|After Sun/.test(c)) return "repair";
+  if (/Ξηρότητα|Ενυδάτωση|Χεριών|Καθαρισμός/.test(c)) return "body";
+  return "diafora";
 }
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
 const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (URIAGE-…) για σελίδες χωρίς EAN

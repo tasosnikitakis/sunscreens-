@@ -313,6 +313,10 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 (με αντλία), 400ml (Refill)» → ένα κλειδί ανά μέγεθος `SB-<slug><μέγεθος>`. Ο server επιστρέφει πού και πού άλλη σελίδα → ξαναζητείται.
 Τιμές με `js/sebamed-manual-matches.json`.
 
+`scripts/scrape-froika.mjs` (Froika, froika.com — WooCommerce + Elementor, ελληνικά, SKU = EAN· το Store API είναι κλειστό): λίστα από το
+`/product-sitemap.xml` (μόνο /product/…, όχι /en/), κείμενα από τη σύντομη περιγραφή και τα tabs ΕΝΔΕΙΞΕΙΣ / ΙΔΙΟΤΗΤΕΣ / ΣΥΝΘΕΣΗ / ΣΥΣΤΑΤΙΚΑ /
+ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ· σειρά = κατηγορία «Σειρές προϊόντων». Εκτός σετ και Froisept 4-5L (επαγγελματικά). Τιμές απευθείας με EAN.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
