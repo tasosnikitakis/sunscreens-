@@ -271,6 +271,13 @@ window.BRAND_CATALOGS = {
     sheetName: "PierreFabreOral", imageDir: "pforal", sourceKey: "_pforalSource",
     fallbackDesc: "Προϊόν Pierre Fabre Oral Care (Elgydium / Eludril) — {name}",
     exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
+  },
+  tepe: {
+    key: "tepe", name: "TePe & Plac Control", host: "placcontrol.gr", page: "tepe.html",
+    icon: "🧵", initials: "TP", accent: "#1e3a8a", noNamePrefix: true,
+    sheetName: "TePe", imageDir: "tepe", sourceKey: "_tepeSource",
+    fallbackDesc: "Προϊόν στοματικής υγιεινής (Plac Control) — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Συστατικά"]
   }
 };
 
