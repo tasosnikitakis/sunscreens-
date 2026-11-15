@@ -2,7 +2,7 @@
 // scripts/scrape-gehwol.mjs
 // GEHWOL (Eduard Gerlach) — αντιπρόσωπος Naturapharm = naturapharm.gr — WordPress + Beaver Builder, ελληνικά, χωρίς EAN/τιμές.
 // Λίστα από το REST: /wp-json/wp/v2/b2c-products (κρέμες, λάδια, ποδόλουτρα — ταξινομία katigoria_proiontos: Classic / Med / Fusskraft /
-// Soft Feet) + /wp-json/wp/v2/products (επιθέματα ποδιών). Εκτός Gerlasan / Gerlavit (άλλες μάρκες του ίδιου αντιπροσώπου).
+// Soft Feet / Gerlasan – Gerlavit) + /wp-json/wp/v2/products (επιθέματα ποδιών). Gerlasan & Gerlavit = μάρκες της ίδιας εταιρίας (Eduard Gerlach).
 // Σελίδα: «Διατίθεται σε: 75ml 125ml» (μεγέθη → variants), «Κωδικός Προϊόντος 11. 40. 805 …», accordion «Περιγραφή προϊόντος /
 // Συστατικά / Οδηγίες χρήσης», εικόνα fl-photo. Κλειδί "GW-<slug>" (+ μέγεθος). Τιμές (Medica) με js/gehwol-manual-matches.json.
 // Χρήση (cloud: NODE_USE_ENV_PROXY=1): node scripts/scrape-gehwol.mjs [--cache=<dir>] [--delay=1000]
@@ -26,7 +26,7 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const text = s => htmlToText(decodeAll(String(s || "").replace(/\s+/g, " ").replace(/<br\s*\/?>/gi, "\n").replace(/<li[^>]*>/gi, "\n• ").replace(/<\/(p|li|div|h\d|ul)>/gi, "\n"))).replace(/[ \t ]+/g, " ").replace(/\s*\n\s*/g, "\n").trim();
 const oneLine = s => text(s).replace(/\s+/g, " ").trim();
-const LINE_GR = { "gehwol-classic": "GEHWOL Classic", "gehwol-med": "GEHWOL med", "gehwol-fusskraft": "GEHWOL Fusskraft", "gehwol-soft-feet": "GEHWOL Fusskraft Soft Feet" };
+const LINE_GR = { "gehwol-classic": "GEHWOL Classic", "gehwol-med": "GEHWOL med", "gehwol-fusskraft": "GEHWOL Fusskraft", "gehwol-soft-feet": "GEHWOL Fusskraft Soft Feet", "gerlasan-gerlavit": "Gerlasan & Gerlavit" };
 const SEC = [[/Περιγραφή/i, "Περιγραφή"], [/Συστατικ/i, "Συστατικά"], [/Οδηγίες|Χρήση|Εφαρμογή/i, "Χρήση"], [/Προειδοποι|Προσοχή/i, "Προφυλάξεις"]];
 
 async function fetchText(url) {
@@ -78,7 +78,7 @@ export function extractGehwolDetails(html, p, kind) {
   d.description = (d.tabs["Περιγραφή"] || "").replace(/\s+/g, " ").trim() || null;
   d.shortDescription = d.description ? d.description.slice(0, 220) : null;
   d.handle = decodeURIComponent(p.slug);
-  const key = d.handle.replace(/^gehwol-(gehwol-)?/, "").normalize("NFD").replace(/[^A-Za-z0-9]/g, "").slice(0, 40) || String(p.id);
+  const key = d.handle.replace(/^gehwol-(gehwol-)?/, "").replace(/^(gerlasan|gerlavit)-/, "$1").normalize("NFD").replace(/[^A-Za-z0-9]/g, "").slice(0, 40) || String(p.id);
   d.gtin = "GW-" + key; d.eans = [d.gtin];
   if (d.sizes.length > 1) {
     const tag = z => /\d/.test(z) && !/Mini|Small|Medium|Large/.test(z) ? z.replace(/[^0-9]/g, "") : ({ "Δεξί": "R", "Αριστερό": "L" }[z] || z.replace(/\s*\(.*$/, "").replace(/[^A-Za-z]/g, ""));
@@ -92,10 +92,10 @@ async function main() {
   const list = [];
   for (const [rest, kind] of [["b2c-products", "care"], ["products", "pads"]]) {
     const a = JSON.parse(await fetchText(`${BASE}/wp-json/wp/v2/${rest}?per_page=100&_fields=id,slug,link,title,content,class_list`));
-    for (const p of a) if (/gehwol|gΕhwol/i.test(p.title.rendered + p.slug)) list.push([p, kind]);
+    for (const p of a) if (/gehwol|gΕhwol|gerlasan|gerlavit/i.test(p.title.rendered + p.slug)) list.push([p, kind]);
     await sleep(DELAY_MS);
   }
-  console.log(`naturapharm.gr: ${list.length} προϊόντα GEHWOL`);
+  console.log(`naturapharm.gr: ${list.length} προϊόντα GEHWOL / Gerlasan / Gerlavit`);
   if (CACHE) await fs.mkdir(CACHE, { recursive: true });
   const out = [];
   for (let i = 0; i < list.length; i++) {

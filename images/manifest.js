@@ -6234,5 +6234,8 @@ window.IMAGE_MANIFEST = {
   "GW-bunionrings": "gehwol/-GW-bunionrings.webp",
   "GW-bunioncushiong": "gehwol/g-GW-bunioncushiong.webp",
   "GW-blisterplastersorted1": "gehwol/3-GW-blisterplastersorted1.webp",
-  "GW-blisterplasterlarge": "gehwol/-GW-blisterplasterlarge.webp"
+  "GW-blisterplasterlarge": "gehwol/-GW-blisterplasterlarge.webp",
+  "GW-gerlasanwildrosehandcream": "gehwol/gerlasan-wild-rose-hand-cream-GW-gerlasanwildrosehandcream.png",
+  "GW-gerlasandeodorantspray": "gehwol/gerlasan-spray-GW-gerlasandeodorantspray.webp",
+  "GW-gerlavitmoorvitamincream": "gehwol/gerlavit-moor-vitamin-GW-gerlavitmoorvitamincream.webp"
 };
