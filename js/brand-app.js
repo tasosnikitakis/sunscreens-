@@ -16,6 +16,20 @@ const sectionNavEl = document.getElementById("section-nav");
 const noResultsEl = document.getElementById("no-results");
 const resultCountEl = document.getElementById("result-count");
 
+// Λογότυπο του brand (js/brand-logos.js, scripts/fetch-brand-logos.mjs) σε λευκή κάρτα δίπλα στον τίτλο του header
+(function brandLogo() {
+  const src = (window.BRAND_LOGOS || {})[document.body.dataset.brand];
+  const h1 = document.querySelector("header h1");
+  if (!src || !h1) return;
+  const wrap = document.createElement("div");
+  wrap.className = "flex items-center gap-4 flex-wrap";
+  h1.parentNode.insertBefore(wrap, h1);
+  const chip = document.createElement("div");
+  chip.className = "bg-white rounded-2xl shadow-lg px-4 py-3 h-16 sm:h-20 flex items-center";
+  chip.innerHTML = `<img src="${src}" alt="${String(BRAND.name).replace(/"/g, "&quot;")}" class="max-h-10 sm:max-h-14 max-w-[180px] sm:max-w-[220px] object-contain">`;
+  wrap.appendChild(chip); wrap.appendChild(h1);
+})();
+
 function enrichmentFor(barcode) { return BU.enrichmentFor(BRAND, barcode, DATA); }
 function fmtPriceLocal(n) { return n > 0 ? n.toFixed(2).replace(".", ",") + " €" : "—"; }
 function escapeText(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }

@@ -413,3 +413,18 @@ node scripts/build-brand-supplier.mjs --brand=apivita --with-site $P && node scr
 node scripts/build-brand-supplier.mjs --brand=frezyderm --xlsx=Frezyderm.xlsx $P && node scripts/match-frezyderm.mjs
 node scripts/generate-catalog.mjs
 ```
+
+## Σελίδα «Εταιρίες» (brands.html) και λογότυπα
+
+Το nav έχει πλέον μόνο Αντηλιακά / Καλλυντικά / Εποχιακά / Vican / **Εταιρίες** / Αγορά. Όλα τα brand catalogs φαίνονται στη
+`brands.html` ως κάρτες (λογότυπο, όνομα, πλήθος προϊόντων / με τιμή, αναζήτηση & ταξινόμηση — `js/brands-page.js`).
+Στις σελίδες brand το «Εταιρίες» είναι ενεργό, πάνω από τον τίτλο υπάρχει breadcrumb «Εταιρίες › Brand» και το `brand-app.js`
+δείχνει το λογότυπο σε λευκή κάρτα δίπλα στον τίτλο.
+
+- `scripts/fetch-brand-logos.mjs [--only=key] [--force]`: ανοίγει την αρχική κάθε brand σε Playwright, βρίσκει το στοιχείο-λογότυπο
+  (img/svg/link με «logo» ψηλά στη σελίδα, χωρίς icons/cookie banners) και κρατά στιγμιότυπό του σε διάφανο PNG → `images/logos/<key>.png`
+  και `js/brand-logos.js`. `LOGO_SRC`: σελίδα ή απευθείας εικόνα ανά brand (π.χ. Sebamed / Quest / TePe από διανομείς). `NO_LOGO`: brands
+  χωρίς δικό τους λογότυπο στην πηγή (Gehwol, Corega, Sensodyne) → η κάρτα δείχνει τα αρχικά (`initials`/`accent` του brands.js).
+- `scripts/build-brand-stats.mjs` → `js/brand-stats.js` (προϊόντα / με τιμή / ενότητες ανά brand). Τρέχει μετά από κάθε build.
+- `scripts/restructure-nav.py`: η μετατροπή του nav (μία φορά). **Νέο brand:** καταχώριση στο `js/brands.js` + σελίδα `<key>.html`
+  (αντιγραφή από υπάρχουσα σελίδα brand — το nav της είναι ήδη το σωστό), μετά `fetch-brand-logos --only=<key>` και `build-brand-stats`.
