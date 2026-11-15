@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Pierre Fabre Oral Care: σετ/promo/δώρο/1+1/-50% στο 2ο. Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|set|σετ|gift|promo|δώρο|δωρο|duo|1\\+1|2\\+1|2\\s?x\\s?\\d+|-50%)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο / διπλά πακέτα"
+    }
+  ]
+}

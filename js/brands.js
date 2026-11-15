@@ -264,6 +264,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Curaprox", imageDir: "curaprox", sourceKey: "_curaproxSource",
     fallbackDesc: "Προϊόν Curaprox — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Χαρακτηριστικά"]
+  },
+  pforal: {
+    key: "pforal", name: "Pierre Fabre Oral Care", host: "pierrefabre-oralcare.com", page: "pforal.html",
+    icon: "🦷", initials: "PF", accent: "#0369a1", noNamePrefix: true,
+    sheetName: "PierreFabreOral", imageDir: "pforal", sourceKey: "_pforalSource",
+    fallbackDesc: "Προϊόν Pierre Fabre Oral Care (Elgydium / Eludril) — {name}",
+    exportSections: ["Οφέλη", "Χρήση", "Συστατικά"]
   }
 };
 
@@ -286,6 +293,7 @@ window.BRAND_CATALOGS_UTIL = {
     const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
     if (brandRe.test(trimmed)) return trimmed.replace(brandRe, cfg.name);
     if (cfg.key === "lrp" && /^L\s?R\s+Posay\b/i.test(trimmed)) return trimmed.replace(/^L\s?R\s+Posay\b/i, cfg.name);
+    if (cfg.noNamePrefix) return trimmed;   // π.χ. Pierre Fabre Oral Care: τα ονόματα έχουν ήδη Elgydium / Eludril
     return cfg.name + " " + trimmed;
   },
   // Σελίδα στο brand site (override) → ΜΟΝΟ αυτή· αλλιώς fallback φαρμακείου.
