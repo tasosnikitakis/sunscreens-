@@ -47,15 +47,36 @@ export function looksLikeImage(buf) {
 // --browser: λήψη μέσω headless Chromium (Playwright) με νέο context ανά εικόνα — για CDN πίσω από Cloudflare
 // (assets.apivita.com) που δίνουν 403 στο απλό fetch αλλά 200 σε πλοήγηση browser. Το playwright είναι global (NODE_PATH).
 const USE_BROWSER = process.argv.includes("--browser");
-let browserP = null;
+// --warmup=<url>: ένα κοινό context που πρώτα ανοίγει τη σελίδα του site (bot-check / cookies, π.χ. bepanthol.gr) και μετά κατεβάζει τις εικόνες
+const WARMUP = (process.argv.find(a => a.startsWith("--warmup=")) || "").slice(9) || null;
+let browserP = null, warmCtxP = null;
 async function browserFetch(url) {
   if (!browserP) {
     const { createRequire } = await import("node:module");
     const { chromium } = createRequire(import.meta.url)("playwright");
     const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
-    browserP = chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--no-sandbox"], proxy: proxy ? { server: proxy } : undefined });
+    browserP = chromium.launch({ executablePath: "/opt/pw-browsers/chromium", args: ["--no-sandbox", "--disable-blink-features=AutomationControlled"], proxy: proxy ? { server: proxy } : undefined });
   }
   const b = await browserP;
+  if (WARMUP) {
+    if (!warmCtxP) warmCtxP = (async () => {
+      const c = await b.newContext({ ignoreHTTPSErrors: true, locale: "el-GR", userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" });
+      const pg = await c.newPage(); await pg.goto(WARMUP, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => null); await pg.waitForTimeout(3000);
+      return { c, pg };
+    })();
+    const { pg } = await warmCtxP;
+    // request του ίδιου context (κοινά cookies) με Accept χωρίς AVIF → ο server δίνει PNG/WebP/JPEG
+    // fetch μέσα από τη σελίδα (ίδιο fingerprint/cookies με τον browser) με Accept χωρίς AVIF → PNG/WebP/JPEG
+    const r = await pg.evaluate(async u => {
+      const res = await fetch(u, { headers: { Accept: "image/webp,image/png,image/jpeg,image/*;q=0.8" }, credentials: "include" });
+      const ab = await res.arrayBuffer(); let bin = ""; const bytes = new Uint8Array(ab);
+      for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+      return { status: res.status, ct: res.headers.get("content-type") || "", b64: btoa(bin) };
+    }, url);
+    if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+    await pg.waitForTimeout(1200);
+    return { buf: Buffer.from(r.b64, "base64"), contentType: r.ct };
+  }
   const ctx = await b.newContext({ ignoreHTTPSErrors: true, userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" });
   try {
     const page = await ctx.newPage();

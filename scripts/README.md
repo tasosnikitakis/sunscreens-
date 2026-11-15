@@ -388,6 +388,13 @@ Corega (Haleon) — χωρίς ελληνικό επίσημο site (το corega
 Sensodyne & parodontax (Haleon, κλειδί `sensodyne`) — ίδια διαδικασία με την Corega (`Sensodyne.tsv`, `js/sensodyne-manual-pharmacy.json`,
 `js/sensodyne-discontinued.json` για διπλά barcodes και όσα δεν βρίσκονται σε προσβάσιμο ελληνικό φαρμακείο, `enrich-pharmacy-text.mjs`).
 
+`scripts/scrape-bepanthol.mjs` (Bepanthol / Bayer, www.bepanthol.gr/el — Drupal + Cohesion): το site μπλοκάρει τα απλά HTTP requests
+(«bot rated as harmful», 403), οπότε crawl με Playwright (Chromium) από το `/el/proionta/`, με cache HTML. Ενότητες από τα
+`data-anchor-link` (ΠΕΡΙΓΡΑΦΗ / ΕΠΙΣΚΟΠΗΣΗ / ΠΛΗΡΟΦΟΡΙΕΣ ΠΡΟΪΟΝΤΟΣ / ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ / ΣΥΣΚΕΥΑΣΙΑ, σύγκριση χωρίς τόνους), «Συστατικά:» και
+«Οδηγίες χρήσης» μέσα σε άλλες ενότητες → δικές τους, παραπομπές `<sup>` εκτός. Derma γαλακτώματα 200/400 ml και Γαλάκτωμα Σώματος (FAMILIES)
+→ variants. Τιμές Medica με `js/bepanthol-manual-matches.json`. Εικόνες: **`sync-brand-images --browser --warmup=https://www.bepanthol.gr/el/`**
+— ένα κοινό browser context που πρώτα ανοίγει το site και μετά κατεβάζει κάθε εικόνα με `fetch` μέσα από τη σελίδα (Accept χωρίς AVIF).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
