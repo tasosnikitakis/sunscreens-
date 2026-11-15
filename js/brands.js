@@ -250,6 +250,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Eubos", imageDir: "eubos", sourceKey: "_eubosSource",
     fallbackDesc: "Προϊόν Eubos — {name}",
     exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
+  },
+  vencil: {
+    key: "vencil", name: "Vencil", host: "vencil.gr", page: "vencil.html",
+    icon: "🌱", initials: "VE", accent: "#15803d",
+    sheetName: "Vencil", imageDir: "vencil", sourceKey: "_vencilSource",
+    fallbackDesc: "Προϊόν Vencil — {name}",
+    exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Ενδείξεις", "Χρήση", "Προφυλάξεις"]
   }
 };
 
