@@ -43,6 +43,7 @@ const COLS = opt("cols", DEFAULT_COLS[(opt("brand", "") || "").toLowerCase()] ||
 const SKIP = parseInt(opt("skip", "0"));
 const DRY = flag("dry-run");
 const WITH_SITE = flag("with-site");
+const SITE_RETAIL = flag("site-retail");   // λιανική τιμή του brand site (details.retailPrice / variant.retailPrice) → p.retail (π.χ. curaprox.gr)
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
 const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
 const EXCLUSIONS_FILE = path.join(ROOT, `js/${BRAND}-exclusions.json`);         // { rules: [{ name, pattern, flags?, reason }] } — κανόνες ονόματος (promo, boosters…)
@@ -252,6 +253,15 @@ async function main() {
       if (hit.name && !p.supplierName) p.supplierName = hit.name;
     }
     console.log(`  τιμές από ${path.basename(PRICES)} (${byBc.size} barcodes): ${priced} προϊόντα με τιμή (${newly} νέες, ${changed} αλλαγμένες)`);
+  }
+  // --site-retail: η λιανική του επίσημου site υπερισχύει (τρέχουσα τιμή καταναλωτή)· η χονδρική μένει από τον τιμοκατάλογο
+  if (SITE_RETAIL && WITH_SITE) {
+    let site = []; try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch {}
+    const retailOf = new Map();
+    for (const sp of site) { const d = sp.details || {}; for (const e of (d.eans || [sp.gtin])) { const v = (d.variants || []).find(x => x.ean === e); const r = (v && v.retailPrice) || d.retailPrice; if (e && r > 0) retailOf.set(String(e), r); } }
+    let n = 0;
+    for (const p of products) { const r = [p.barcode, ...(p.variants || [])].map(b => retailOf.get(String(b))).find(Boolean); if (r) { p.retail = r; p.retailSource = "site"; n++; } }
+    console.log(`  λιανική από το site: ${n} προϊόντα`);
   }
   const fixed = products.filter(p => /È/.test(p.name)).length;
   if (fixed) console.log(`  διορθώθηκε κωδικοποίηση (CRÈME) σε ${fixed} ονόματα`);

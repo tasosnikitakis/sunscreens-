@@ -335,6 +335,13 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 ΠΡΟΤΕΙΝΟΜΕΝΗ ΧΡΗΣΗ…). Τίτλοι με πολλά μεγέθη («Tired Legs Gel 100 & 200ml», «Hairnail 30 & Extra 90 Caps») → κλειδί ανά μέγεθος. Εκτός
 τα προϊόντα αισθητικής ιατρικής (επαγγελματικά). Κλειδιά `VE-<slug>`· τιμές με `js/vencil-manual-matches.json`.
 
+`scripts/scrape-curaprox.mjs` (Curaprox, curaprox.gr — PrestaShop με e-shop, EAN + **λιανική τιμή**): λίστα από το `/sitemap-el-only-images.xml`
+(σελίδες «…-p<id>»), JSON-LD Product (gtin13, offers.price, εικόνες) + accordion «Περιγραφή / Χρήση / Χαρακτηριστικά» (κόβεται ανά κάρτα· μπορεί
+να βρίσκεται μετά τα «σχετικά προϊόντα»). Τα χρώματα οδοντόβουρτσας είναι επιλογές της ίδιας σελίδας → μία καρτέλα με το EAN της
+προεπιλογής. Εκτός ταξιδιωτικά σετ, σετ φροντίδας, CS 5460 Box. **`build-brand-supplier --site-retail`**: η λιανική του site (`details.retailPrice`)
+γράφεται στο `p.retail` (retailSource "site")· η χονδρική μένει από το Medica. Η κάρτα δείχνει «Λιαν. X €» όταν δεν υπάρχει χονδρική και
+η σελίδα προϊόντος «Λιανική (curaprox.gr)». `keepCaps: true` στο brands.js → το prettify δεν κάνει «CS» → «Cs».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

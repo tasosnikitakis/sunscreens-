@@ -70,7 +70,9 @@ function makeCard(p) {
     ${remoteUrl ? `<img src="${remoteUrl}" loading="lazy" decoding="async" alt="${escapeText(displayName(p))}" class="absolute inset-0 w-full h-full object-contain p-3 bg-white" onerror="this.remove()">` : ""}
     ${p.wholesale > 0
       ? `<div class="absolute top-2 right-2 px-2 py-0.5 text-xs font-bold rounded-md bg-white/95 text-slate-800 shadow-sm">${fmtPriceLocal(p.wholesale)}</div>`
-      : `<div class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-violet-600/95 text-white shadow-sm" title="Υπάρχει στο ${escapeText(BRAND.host)} αλλά όχι στον τιμοκατάλογο του προμηθευτή">Χωρίς Τιμή</div>`}
+      : p.retail > 0
+        ? `<div class="absolute top-2 right-2 px-2 py-0.5 text-[10px] font-semibold rounded-md bg-violet-50/95 text-violet-800 ring-1 ring-violet-200 shadow-sm" title="Δεν υπάρχει στον τιμοκατάλογο του προμηθευτή — λιανική τιμή από το ${escapeText(BRAND.host)}">Λιαν. ${fmtPriceLocal(p.retail)}</div>`
+        : `<div class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide rounded bg-violet-600/95 text-white shadow-sm" title="Υπάρχει στο ${escapeText(BRAND.host)} αλλά όχι στον τιμοκατάλογο του προμηθευτή">Χωρίς Τιμή</div>`}
     ${topBadge}${descBadge}
   `;
   card.appendChild(imgWrap);
