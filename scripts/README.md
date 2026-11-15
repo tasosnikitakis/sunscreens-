@@ -358,6 +358,13 @@ Forhans, Megasonex, Brush Baby, Plac Aid, Epic, ProxySoft, bioXtra, Protexin, Du
 αφαιρούνται. Οι «τιμοκατάλογοι» του site είναι κατάλογοι issuu χωρίς τιμές → χονδρική από το Medica (`Tepe.tsv` = γραμμές TePe/PLAC AID,
 `js/tepe-manual-matches.json`). `match-tepe.mjs`: ενότητα από την κατηγορία του site (`details.catSlug`), τα παιδικά από όλες τις κατηγορίες στο «kids».
 
+`scripts/scrape-gum.mjs` (GUM / Sunstar, www.sunstargum.com/gr-el — Adobe AEM + CIF, ελληνικά): λίστα από το `/gr-el/sitemap.xml`
+(`/proionta/<κατηγορία>/<προϊόν>.html`, εκτός `/lysi/`). h1, περιγραφή (role=description), teaser «ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ & ΟΦΕΛΗ» → Οφέλη, υπόλοιπα
+teasers → Πληροφορίες, εικόνες από το `data-gallery-items`. Χωρίς EAN: ο κωδικός GUM (6070, 1312, 690…) βγαίνει από το όνομα της φωτογραφίας
+και γίνεται κλειδί `GU-gum<κωδικός>`· οι γραμμές του Medica έχουν τον ίδιο κωδικό («GUM 1312 TRAV-LER …») → `js/gum-manual-matches.json`.
+Trav-ler / Soft-Picks / Soft-Picks Pro / Bi-Direction / Easy-Flossers = variants ανά μέγεθος (`FAMILIES`). Promo 40+10 και Soft-Picks Advanced
+(χωρίς σελίδα) μένουν εκτός.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

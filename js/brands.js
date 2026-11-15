@@ -278,6 +278,13 @@ window.BRAND_CATALOGS = {
     sheetName: "TePe", imageDir: "tepe", sourceKey: "_tepeSource",
     fallbackDesc: "Προϊόν στοματικής υγιεινής (Plac Control) — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Συστατικά"]
+  },
+  gum: {
+    key: "gum", name: "GUM (Sunstar)", host: "sunstargum.com", page: "gum.html",
+    icon: "🪥", initials: "GU", accent: "#0b4ea2", noNamePrefix: true,
+    sheetName: "GUM", imageDir: "gum", sourceKey: "_gumSource",
+    fallbackDesc: "Προϊόν GUM (Sunstar) — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Πληροφορίες"]
   }
 };
 

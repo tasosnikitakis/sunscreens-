@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο GUM: σετ/promo/δώρο (το Travel Kit μένει — βασικό προϊόν της σειράς). Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(σετ|gift|promo|δώρο|δωρο|1\\+1|\\d+\\+\\d+)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο"
+    }
+  ]
+}
