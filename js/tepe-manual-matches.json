@@ -1,0 +1,22 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές TePe / PLAC AID) → κλειδί σελίδας/μεγέθους στο placcontrol.gr. Τα μεσοδόντια xsoft/Angle και οι σκληρότητες Nova/Select Compact είναι variants της ίδιας σελίδας (scrape-placcontrol.mjs). null = δεν υπάρχει σελίδα (GOOD Mini, Implant Care, Assorti set όλα τα μεγέθη), άλλο προϊόν (Kid Soft 3+ ≠ TePe Kids 6+) ή αβέβαιη αντιστοίχιση (Flosser Code101 32τεμ, Flossers & Picks Mint — η σελίδα έχει το EAN της έκδοσης χωρίς γεύση).",
+  "7317400002347": "TP-interdentalbrushesxsoft06",
+  "7317400002354": "TP-interdentalbrushesxsoft07",
+  "7317400002378": "TP-interdentalbrushesxsoft11",
+  "7317400011509": "TP-angleinterdentalbrushes045",
+  "7317400011561": "TP-angleinterdentalbrushes06",
+  "7317400011592": "TP-angleinterdentalbrushes07",
+  "7317400011622": "TP-angleinterdentalbrushes08",
+  "7350121251090": "TP-novamedium",
+  "7317400000886": "TP-selectcompactxsoft",
+  "7317400000879": "TP-selectcompactmedium",
+  "4260097032070": "TP-durimplantgel",
+  "7317400022178": "TP-goodtonguecleaner",
+  "0744163000308": "TP-bridgeandimplantfloss",
+  "7317400022475": null,
+  "7317400010687": null,
+  "7317400001982": null,
+  "7317400007748": null,
+  "5206880000061": null,
+  "5206880000559": null
+}
