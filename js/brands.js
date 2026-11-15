@@ -285,6 +285,13 @@ window.BRAND_CATALOGS = {
     sheetName: "GUM", imageDir: "gum", sourceKey: "_gumSource",
     fallbackDesc: "Προϊόν GUM (Sunstar) — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Πληροφορίες"]
+  },
+  gehwol: {
+    key: "gehwol", name: "GEHWOL", host: "naturapharm.gr", page: "gehwol.html",
+    icon: "🦶", initials: "GW", accent: "#b91c1c", noNamePrefix: true,
+    sheetName: "GEHWOL", imageDir: "gehwol", sourceKey: "_gehwolSource",
+    fallbackDesc: "Προϊόν περιποίησης ποδιών GEHWOL — {name}",
+    exportSections: ["Περιγραφή", "Συστατικά", "Χρήση", "Χαρακτηριστικά"]
   }
 };
 
