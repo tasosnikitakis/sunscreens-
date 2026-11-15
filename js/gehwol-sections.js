@@ -4,6 +4,7 @@ window.GEHWOL_SECTION_LABELS = {
   "med":       { name: "GEHWOL med — Εξειδικευμένη φροντίδα (κάλοι, σκασίματα, νύχια, ξηροδερμία)", icon: "🩺", accent: "#1d4ed8" },
   "fusskraft": { name: "GEHWOL Fusskraft — Καθημερινή φροντίδα ποδιών", icon: "🌿", accent: "#15803d" },
   "softfeet":  { name: "GEHWOL Fusskraft Soft Feet", icon: "🌸", accent: "#db2777" },
+  "gerlach":   { name: "Gerlasan & Gerlavit — Περιποίηση χεριών, σώματος & προσώπου (Eduard Gerlach)", icon: "🌹", accent: "#9d174d" },
   "pads":      { name: "Επιθέματα ποδιών — δακτύλιοι, διαχωριστές, μαξιλαράκια, έμπλαστρα", icon: "🩹", accent: "#64748b" },
   "diafora":   { name: "Λοιπά προϊόντα GEHWOL", icon: "📦", accent: "#64748b" }
 };

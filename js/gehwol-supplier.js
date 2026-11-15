@@ -5,6 +5,9 @@
 // Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/gehwol-overrides.js.
 
 window.GEHWOL_SUPPLIER = [
+  {"barcode":"GW-gerlasanwildrosehandcream","name":"GERLASAN Wild Rose Hand Cream","retail":0,"wholesale":0,"variants":["GW-gerlasanwildrosehandcream"],"listed":false},
+  {"barcode":"GW-gerlasandeodorantspray","name":"GERLASAN Αποσμητικό spray σώματος","retail":0,"wholesale":0,"variants":["GW-gerlasandeodorantspray"],"listed":false},
+  {"barcode":"GW-gerlavitmoorvitamincream","name":"GERLAVIT Moor Vitamin Κρέμα προσώπου","retail":0,"wholesale":0,"variants":["GW-gerlavitmoorvitamincream"],"listed":false},
   {"barcode":"GW-medsalveforcrackedskin75","name":"GEHWOL med Salve for cracked skin Αλοιφή για σκασίματα, ανάπλαση και θρέψη 75 ml","retail":13.5,"wholesale":8.08,"variants":["GW-medsalveforcrackedskin75","4013474117019"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10020830","supplierName":"GEHWOL MED SALVE FOR CRACKED SKIN 75ML"},
   {"barcode":"GW-medsalveforcrackedskin125","name":"GEHWOL med Salve for cracked skin Αλοιφή για σκασίματα, ανάπλαση και θρέψη 125 ml","retail":0,"wholesale":0,"variants":["GW-medsalveforcrackedskin125"],"listed":false},
   {"barcode":"GW-mednailsoftener","name":"GEHWOL med Nail Softener Μαλακτικό λάδι νυχιών","retail":12.08,"wholesale":7.22,"variants":["GW-mednailsoftener","4013474117194"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019849","supplierName":"GEHWOL MED NAIL SOFTENER 15ML"},

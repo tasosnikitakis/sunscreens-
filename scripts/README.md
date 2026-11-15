@@ -366,8 +366,8 @@ Trav-ler / Soft-Picks / Soft-Picks Pro / Bi-Direction / Easy-Flossers = variants
 (χωρίς σελίδα) μένουν εκτός.
 
 `scripts/scrape-gehwol.mjs` (GEHWOL, αντιπρόσωπος naturapharm.gr — WordPress + Beaver Builder): λίστα από το REST `/wp-json/wp/v2/b2c-products`
-(Classic / med / Fusskraft / Soft Feet από την ταξινομία `katigoria_proiontos`) και `/wp-json/wp/v2/products` (επιθέματα ποδιών)· εκτός
-Gerlasan/Gerlavit. Σελίδα: «Διατίθεται σε: 75ml 125ml» και ετικέτες κωδικών «11. 26. 931 Small …» → variants ανά μέγεθος, accordion
+(Classic / med / Fusskraft / Soft Feet / Gerlasan – Gerlavit από την ταξινομία `katigoria_proiontos`) και `/wp-json/wp/v2/products`
+(επιθέματα ποδιών). Gerlasan & Gerlavit (ίδια εταιρία, Eduard Gerlach) σε δική τους ενότητα «gerlach». Σελίδα: «Διατίθεται σε: 75ml 125ml» και ετικέτες κωδικών «11. 26. 931 Small …» → variants ανά μέγεθος, accordion
 Περιγραφή / Συστατικά / Οδηγίες χρήσης, φωτογραφία fl-photo. Χωρίς EAN (μόνο κωδικοί Gehwol) → τιμές Medica με
 `js/gehwol-manual-matches.json` (όνομα + μέγεθος).
 

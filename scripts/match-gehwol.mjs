@@ -86,7 +86,7 @@ function solgarSection(d) {
 }
 // Ενότητα = κατηγορία του naturapharm.gr (details.catSlug)· τα παιδικά/βρεφικά από όλες τις κατηγορίες πάνε στο «kids»
 // Ενότητα = σειρά του naturapharm.gr (details.catSlug)
-const CAT_SECTION = { "gehwol-classic": "classic", "gehwol-med": "med", "gehwol-fusskraft": "fusskraft", "gehwol-soft-feet": "softfeet", "epithemata": "pads" };
+const CAT_SECTION = { "gehwol-classic": "classic", "gehwol-med": "med", "gehwol-fusskraft": "fusskraft", "gehwol-soft-feet": "softfeet", "gerlasan-gerlavit": "gerlach", "epithemata": "pads" };
 const gehwolSection = (d, name) => CAT_SECTION[d.catSlug] || lineOf(d.category, name);
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
 const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (URIAGE-…) για σελίδες χωρίς EAN
