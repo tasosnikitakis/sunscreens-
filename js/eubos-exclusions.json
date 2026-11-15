@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Eubos: σετ/promo/δώρο και επαγγελματικές συσκευασίες (Froisept 4L/5L). Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(kit|σετ|gift|promo|δώρο|δωρο|duo|trio)([^\\p{L}]|$)|(^|[^\\p{L}])set$",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο"
+    }
+  ]
+}

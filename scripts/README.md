@@ -326,6 +326,10 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 Μορφή – Συσκευασία / Προειδοποιήσεις). Κουκκίδες «• 200 ταμπλέτες / • 400 …» ή «50 ή 100 κάψουλες» → κλειδί ανά μέγεθος `LA-<slug><N>`·
 ίδιο όνομα (PropolCare καραμέλες) → γεύση από το excerpt. Τιμές με `js/lanes-manual-matches.json` (νεότερος κωδικός όπου υπάρχουν δύο).
 
+`scripts/scrape-eubos.mjs` (Eubos, www.eubos.gr — WordPress, post type «product» στο REST χωρίς content, χωρίς EAN): λίστα από το REST,
+κείμενα από τη σελίδα (.product__short-desc → Περιγραφή + «Οι κύριοι ενεργοί παράγοντες», tabs Προδιαγραφές / Χρήση / Συστατικά, μέγεθος από
+.product__extra-field-aroma· «75ml & 150ml» → κλειδί ανά μέγεθος). Κλειδιά `EU-<slug>`· τιμές με `js/eubos-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

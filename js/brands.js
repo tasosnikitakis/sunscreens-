@@ -243,6 +243,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Lanes", imageDir: "lanes", sourceKey: "_lanesSource",
     fallbackDesc: "Προϊόν Lanes — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Ενδείξεις", "Χρήση", "Συστατικά"]
+  },
+  eubos: {
+    key: "eubos", name: "Eubos", host: "eubos.gr", page: "eubos.html",
+    icon: "🧼", initials: "EU", accent: "#b91c1c",
+    sheetName: "Eubos", imageDir: "eubos", sourceKey: "_eubosSource",
+    fallbackDesc: "Προϊόν Eubos — {name}",
+    exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
   }
 };
 
