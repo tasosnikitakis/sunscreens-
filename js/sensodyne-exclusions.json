@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Sensodyne & parodontax: promo/δώρο. Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(σετ|gift|promo|δώρο|δωρο|1\\+1|-\\d+%)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Promo / δώρο"
+    }
+  ]
+}
