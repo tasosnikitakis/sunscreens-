@@ -1,0 +1,6 @@
+{
+  "_comment": "Γραμμές του Medica που είναι το ίδιο προϊόν με άλλη γραμμή (παλιός/άλλης αγοράς κωδικός, ίδια τιμή) — κρατάμε μία κάρτα ανά προϊόν.",
+  "5054563177650": { "name": "COREGA MAX HOLD & COMFORT 1X40G", "reason": "ίδιο με 5054563262370 (Power Max 12h Hold & Comfort 40g — το barcode του φαρμακείου)" },
+  "5054563234711": { "name": "Corega Max Hold + Comfort 40G", "reason": "ίδιο με 5054563262370 (Power Max 12h Hold & Comfort 40g)" },
+  "5054563033338": { "name": "COREGA 3 MINUTES 36 TABS", "reason": "ίδιο με 5054563287410 (Corega 3 Minutes / Bio Formula 36 ταμπλέτες)" }
+}

@@ -378,6 +378,13 @@ notice (Αντενδείξεις → Προφυλάξεις). Video/στατισ
 `FAMILIES` (κάλυμμα/κύλινδρος γέλης S/M/L, ανατομικοί πάτοι Νο 39/44) → variants. Χωρίς EAN → τιμές Medica με `js/podia-manual-matches.json`
 (τα PODIAKRO είναι άλλη εταιρία).
 
+Corega (Haleon) — χωρίς ελληνικό επίσημο site (το corega.com ανακατευθύνει στο αμερικανικό mydenturecare.com, το haleonhealthpartner.com/el-gr
+είναι εκτός λειτουργίας). Ο κατάλογος χτίζεται από τον τιμοκατάλογο: `build-brand-supplier --brand=corega --xlsx=Corega.tsv
+--cols=idx,barcode,code,name,retail,wholesale --prices=Medica.tsv` (κενό `js/corega-site.json`, promo εκτός, ίδια προϊόντα με άλλο barcode
+στο `js/corega-discontinued.json`), μετά `fill-brand-missing --brand=corega` (σελίδες pharm24.gr, `js/corega-manual-pharmacy.json` για όσα δεν
+βρίσκει η αναζήτηση) και **`scripts/enrich-pharmacy-text.mjs --brand=corega`**: προσθέτει τις καρτέλες της pharm24 (Περιγραφή / Οδηγίες - Χρήσης
+/ Συστατικά) ως `sections` στο supplemental — το `brands.js enrichmentFor` τις εμφανίζει πλέον και για προϊόντα χωρίς επίσημη σελίδα.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

@@ -299,6 +299,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Podia", imageDir: "podia", sourceKey: "_podiaSource",
     fallbackDesc: "Προϊόν περιποίησης ποδιών Podia — {name}",
     exportSections: ["Περιγραφή", "Δράση", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  corega: {
+    key: "corega", name: "Corega", host: "corega.com", page: "corega.html",
+    icon: "😁", initials: "CO", accent: "#0369a1",
+    sheetName: "Corega", imageDir: "corega", sourceKey: "_coregaSource",
+    fallbackDesc: "Προϊόν φροντίδας τεχνητής οδοντοστοιχίας Corega (Haleon) — {name}",
+    exportSections: ["Περιγραφή"]
   }
 };
 
@@ -338,9 +345,10 @@ window.BRAND_CATALOGS_UTIL = {
     }
     const s = data.supplemental[barcode] || {};
     return {
-      name: s.name || null, subtitle: null, description: s.description || null, image: s.image || null,
+      name: s.name || null, subtitle: s.subtitle || null, description: s.description || null, image: s.image || null,
       url: s.url || null, source: s.source || null, section: s.section || null,
-      claims: [], highlights: [], attributes: {}, sections: {}, matchType: null, review: false, official: false, noBrandPage: true
+      // ενότητες κειμένου από τη σελίδα του φαρμακείου (scripts/enrich-pharmacy-text.mjs), όταν δεν υπάρχει επίσημο site
+      claims: [], highlights: s.highlights || [], attributes: {}, sections: s.sections || {}, matchType: null, review: false, official: false, noBrandPage: true
     };
   },
   data(cfg, scope) {
