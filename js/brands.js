@@ -313,6 +313,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Sensodyne-parodontax", imageDir: "sensodyne", sourceKey: "_sensodyneSource",
     fallbackDesc: "Προϊόν στοματικής υγιεινής Haleon — {name}",
     exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
+  },
+  bepanthol: {
+    key: "bepanthol", name: "Bepanthol", host: "bepanthol.gr", page: "bepanthol.html",
+    icon: "🧴", initials: "BP", accent: "#0e7490", noNamePrefix: true,
+    sheetName: "Bepanthol", imageDir: "bepanthol", sourceKey: "_bepantholSource",
+    fallbackDesc: "Προϊόν Bepanthol (Bayer) — {name}",
+    exportSections: ["Περιγραφή", "Δράση", "Χρήση", "Συστατικά"]
   }
 };
 
