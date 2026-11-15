@@ -385,6 +385,9 @@ Corega (Haleon) — χωρίς ελληνικό επίσημο site (το corega
 βρίσκει η αναζήτηση) και **`scripts/enrich-pharmacy-text.mjs --brand=corega`**: προσθέτει τις καρτέλες της pharm24 (Περιγραφή / Οδηγίες - Χρήσης
 / Συστατικά) ως `sections` στο supplemental — το `brands.js enrichmentFor` τις εμφανίζει πλέον και για προϊόντα χωρίς επίσημη σελίδα.
 
+Sensodyne & parodontax (Haleon, κλειδί `sensodyne`) — ίδια διαδικασία με την Corega (`Sensodyne.tsv`, `js/sensodyne-manual-pharmacy.json`,
+`js/sensodyne-discontinued.json` για διπλά barcodes και όσα δεν βρίσκονται σε προσβάσιμο ελληνικό φαρμακείο, `enrich-pharmacy-text.mjs`).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

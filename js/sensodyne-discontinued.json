@@ -1,0 +1,31 @@
+{
+  "_comment": "Γραμμές του Medica εκτός καταλόγου: ίδιο προϊόν με άλλη γραμμή (άλλος/παλιός κωδικός) ή χωρίς σελίδα σε ελληνικό φαρμακείο (άρα χωρίς εικόνα/περιγραφή).",
+  "5202217005037": {
+    "name": "SENSODYNE REPAIR&PROTECT 75ML",
+    "reason": "ίδιο με 5054563176202 (Repair & Protect 75ml)"
+  },
+  "5054563079534": {
+    "name": "PARODONTAX PASTA ORIGINAL HERBAL 75ML",
+    "reason": "ίδιο με 5054563267979 (Complete Protection Original 75ml)"
+  },
+  "5054563120519": {
+    "name": "PARODONTAX GUM & BREATH & SENSITIVITY",
+    "reason": "ίδιο με 5054563203595 (Gum+ Breath & Sensitivity 75ml)"
+  },
+  "5054563205551": {
+    "name": "parodontax gum strengthen & protect mouthwash",
+    "reason": "δεν βρέθηκε σε ελληνικό φαρμακείο (μόνο Skroutz, που μπλοκάρει)"
+  },
+  "5054563019462": {
+    "name": "sensodyne repair &protect extra soft",
+    "reason": "οδοντόβουρτσα — δεν βρέθηκε σε ελληνικό φαρμακείο"
+  },
+  "5054563071101": {
+    "name": "PARODONTAX PASTA ULTRA CLEAN 75ML",
+    "reason": "δεν βρέθηκε σε προσβάσιμο ελληνικό φαρμακείο (ofarmakopoiosmou/pharmacy295/skroutz μπλοκάρουν) — χωρίς εικόνα/περιγραφή"
+  },
+  "5054563026699": {
+    "name": "SENSODYNE RAPID ACTION 75ML",
+    "reason": "δεν βρέθηκε σε προσβάσιμο ελληνικό φαρμακείο (ofarmakopoiosmou/bestpharmacy/skroutz μπλοκάρουν) — χωρίς εικόνα/περιγραφή"
+  }
+}

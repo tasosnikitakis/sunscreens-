@@ -306,6 +306,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Corega", imageDir: "corega", sourceKey: "_coregaSource",
     fallbackDesc: "Προϊόν φροντίδας τεχνητής οδοντοστοιχίας Corega (Haleon) — {name}",
     exportSections: ["Περιγραφή"]
+  },
+  sensodyne: {
+    key: "sensodyne", name: "Sensodyne & parodontax", host: "pharm24.gr", page: "sensodyne.html",
+    icon: "🦷", initials: "SP", accent: "#1d4ed8", noNamePrefix: true,
+    sheetName: "Sensodyne-parodontax", imageDir: "sensodyne", sourceKey: "_sensodyneSource",
+    fallbackDesc: "Προϊόν στοματικής υγιεινής Haleon — {name}",
+    exportSections: ["Περιγραφή", "Χρήση", "Συστατικά"]
   }
 };
 
