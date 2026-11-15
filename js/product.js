@@ -72,6 +72,7 @@ const found = (productId || productBarcode) ? findProduct(productId, typeHint, p
     const active = (tab === "cosmetic" && cat === "cosmetic") ||
                    (tab === "seasonal" && cat === "seasonal") ||
                    (tab === "vican" && cat === "vican") ||
+                   (tab === "brands" && !!_BRANDS[cat]) ||
                    (!!_BRANDS[tab] && cat === tab) ||
                    (tab === "sunscreen" && (!cat || cat === "sunscreen"));
     a.className = active
