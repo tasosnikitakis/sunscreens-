@@ -257,6 +257,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Vencil", imageDir: "vencil", sourceKey: "_vencilSource",
     fallbackDesc: "Προϊόν Vencil — {name}",
     exportSections: ["Περιγραφή", "Ενεργά συστατικά", "Ενδείξεις", "Χρήση", "Προφυλάξεις"]
+  },
+  curaprox: {
+    key: "curaprox", name: "Curaprox", host: "curaprox.gr", page: "curaprox.html",
+    icon: "🪥", initials: "CP", accent: "#e11d48", keepCaps: true,
+    sheetName: "Curaprox", imageDir: "curaprox", sourceKey: "_curaproxSource",
+    fallbackDesc: "Προϊόν Curaprox — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Χαρακτηριστικά"]
   }
 };
 
@@ -271,7 +278,7 @@ window.BRAND_CATALOGS_UTIL = {
   prettify(raw, cfg) {
     if (!raw) return "";
     const titled = String(raw)
-      .replace(/[A-ZÀ-ÖØ-Þ]{2,}/g, m => m[0] + m.slice(1).toLowerCase())              // CRÈME → Crème
+      .replace(/[A-ZÀ-ÖØ-Þ]{2,}/g, m => cfg.keepCaps ? m : m[0] + m.slice(1).toLowerCase())              // CRÈME → Crème (εκτός cfg.keepCaps: CS 5460, CPS, UHS)
       .replace(/(\d)\s?(Ml|Gr|Mg|Iu|Kg|L|G)\b/g, (m, d, u) => d + " " .trim() + u.toLowerCase())    // 400Ml / 30 ML → 400ml / 30ml
       // Γνωστά ακρωνύμια μένουν κεφαλαία: SPF, UV/UVA/UVB, XL, BB/CC, HA, B3/B5, KA, DP, AP+M, PP+, A.D, DS, AC, PSO, SOS, AHA/BHA, INCI
       .replace(/\b(Spf|Uva|Uvb|Uv|Xl|Bb|Cc|Ha|Ka|Dp|Ap|Pp|Ad|Ds|Ac|Pso|Sos|Aha|Bha|Inci|Lrp|Med|Defi|Nf|Rp|Nc|Cica)(?![a-zà-ÿ])/g, m => m.toUpperCase());

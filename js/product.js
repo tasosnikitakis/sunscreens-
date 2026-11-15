@@ -246,7 +246,7 @@ function render({ product: p, brands, catalog }) {
             ${p.line ? `<dt class="text-slate-500">Γραμμή / Κατηγορία</dt><dd class="font-medium text-slate-800">${escapeHtml(p.line)}</dd>` : ""}
             ${(isSeasonal || isVican || isBrand) && sectionInfo ? `<dt class="text-slate-500">Ενότητα</dt><dd class="font-medium text-slate-800">${escapeHtml(sectionInfo.name)}</dd>` : ""}
             ${p.vat ? `<dt class="text-slate-500">ΦΠΑ</dt><dd class="font-medium text-slate-800">${p.vat}%</dd>` : ""}
-            ${isBrand && p.retail ? `<dt class="text-slate-500">Λιανική ενδεικτική</dt><dd class="font-medium text-slate-800">${p.retail.toFixed(2).replace(".", ",")} €</dd>` : ""}
+            ${isBrand && p.retail ? `<dt class="text-slate-500">Λιανική ${p.retailSource === "site" ? `(${escapeHtml(brandCfg.host)})` : "ενδεικτική"}</dt><dd class="font-medium text-slate-800">${p.retail.toFixed(2).replace(".", ",")} €</dd>` : ""}
             ${isBrand && (p.variants || []).length > 1 ? `<dt class="text-slate-500">Παραλλαγές (variants)</dt><dd class="font-mono text-slate-800 text-xs">${p.variants.filter(v => v !== p.barcode).map(v => escapeHtml(v)).join(", ")}</dd>` : ""}
             ${isBrand && enrich.attributes ? Object.entries(enrich.attributes).map(([k, v]) => `<dt class="text-slate-500">${escapeHtml(k)}</dt><dd class="font-medium text-slate-800">${escapeHtml(Array.isArray(v) ? v.join(", ") : v)}</dd>`).join("") : ""}
             ${isBrand && enrich.official && enrich.url ? `<dt class="text-slate-500">Επίσημη σελίδα</dt><dd><a href="${escapeHtml(enrich.url)}" target="_blank" rel="noopener" class="font-medium text-teal-700 hover:underline">${escapeHtml(brandCfg.host)} ↗</a></dd>` : ""}

@@ -1,0 +1,16 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Curaprox: σετ/promo/δώρο και επαγγελματικές συσκευασίες (CS 5460 Box 36 τεμ.). Τα ταξιδιωτικά σετ μένουν εκτός ήδη στο scrape-curaprox.mjs. Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(σετ φροντίδας|gift|promo|δώρο|δωρο)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Σετ / promo / δώρο"
+    },
+    {
+      "name": "professional",
+      "pattern": "^CS 5460 Box$",
+      "reason": "Κουτί 36 οδοντόβουρτσες (επαγγελματική / display συσκευασία)"
+    }
+  ]
+}
