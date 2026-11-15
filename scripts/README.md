@@ -349,6 +349,15 @@ Build χωρίς Excel: `build-brand-supplier --brand=pforal --with-site --price
 Medica → νέα EAN στο `js/pforal-manual-matches.json`). `Pforal.tsv` = οι γραμμές ELGYDIUM/ELUDRIL του Medica (αναφορά). `noNamePrefix: true` στο
 brands.js → τα ονόματα έχουν ήδη Elgydium/Eludril και δεν προτάσσεται «Pierre Fabre Oral Care».
 
+`scripts/scrape-placcontrol.mjs` (TePe & Plac Control, placcontrol.gr — WordPress + Elementor, ο αντιπρόσωπος της TePe με Apagard/Apadent,
+Forhans, Megasonex, Brush Baby, Plac Aid, Epic, ProxySoft, bioXtra, Protexin, Durimplant): οι σελίδες HTML έχουν anti-bot (SiteGround), οπότε
+όλα από το REST `/wp-json/wp/v2/pages` (σελίδες-παιδιά των λιανικών κατηγοριών `/proionta/<κατηγορία>/`· εκτός είδη οδοντιατρείου, αφίσες,
+βιβλία, εκμαγεία). Κείμενο εκτός toggles → Περιγραφή/Χαρακτηριστικά, toggles → ενότητες. Δεν υπάρχουν EAN/τιμές στις σελίδες· το EAN
+βγαίνει από το όνομα αρχείου της φωτογραφίας όταν υπάρχει (24 προϊόντα), αλλιώς κλειδί `TP-<slug>`. Μεσοδόντια xsoft/Angle → μία κάρτα ανά
+μέγεθος (λίστα «0.6 mm – Μπλε»), Nova / Select Compact → μία ανά σκληρότητα. Διπλές σελίδες (Plac Aid Fresh Μέντα/Mint, Apagard Deep Care)
+αφαιρούνται. Οι «τιμοκατάλογοι» του site είναι κατάλογοι issuu χωρίς τιμές → χονδρική από το Medica (`Tepe.tsv` = γραμμές TePe/PLAC AID,
+`js/tepe-manual-matches.json`). `match-tepe.mjs`: ενότητα από την κατηγορία του site (`details.catSlug`), τα παιδικά από όλες τις κατηγορίες στο «kids».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

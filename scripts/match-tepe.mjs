@@ -13,7 +13,7 @@
 // Χρήση:
 //   node scripts/match-tepe.mjs            # όλα
 //   node scripts/match-tepe.mjs --debug    # top-3 ανά προϊόν
-//   node scripts/match-tepe.mjs --barcode=3282770141320
+//   node scripts/match-tepe.mjs --barcode=3337875549493
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -37,7 +37,7 @@ const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); ret
 const flag = (k) => args.includes(`--${k}`);
 const DEBUG = flag("debug");
 const ONLY = opt("barcode", null);
-const MIN_SCORE = parseFloat(opt("min-score", "9"));
+const MIN_SCORE = parseFloat(opt("min-score", "99"));   // fuzzy ουσιαστικά OFF: ελληνικά ονόματα supplier vs ελληνικές σελίδες δίνουν ψευδείς ταυτίσεις
 const HIGH_SCORE = parseFloat(opt("high-score", "14"));
 
 // Σειρά προϊόντος → ενότητα καταλόγου (js/tepe-sections.js). Κρίνεται από το
@@ -59,16 +59,46 @@ const LINE_RULES = [
 // Όνομα προϊόντος = <title> της σελίδας (σειρά + προϊόν). Αν ο τίτλος SEO δεν
 // αναφέρει τη σειρά ("Λοσιόν αγωγής κατά της τριχόπτωσης", σειρά CREASTIM REACTIV)
 // προτάσσουμε τη σειρά (χωρίς τις λέξεις κατηγορίας "Πρόσωπο"/"Μαλλιά").
+const NAME_FIX = {};
+// «TePe & Plac Control Lipstick SPF30 (Lip Defense Stick)» → χωρίς την παρένθεση· «SUN LOTION SPF30» → «Sun Lotion SPF30»
 function siteProductName(d, fallback) {
-  const title = d.fullTitle || d.title || fallback || "";
-  const line = String(d.line || "").replace(/\s+(Πρόσωπο|Μαλλιά|Σώμα)\s*$/i, "").trim();
-  const first = line.split(/\s+/)[0] || "";
-  if (!line || !first || first.length < 3) return title;
-  const norm = x => x.toLowerCase().replace(/[^a-zα-ωά-ώ0-9]/gi, "");
-  return norm(title).includes(norm(first)) ? title : `${line} ${title}`;
+  // TePe & Plac Control: τα ονόματα του site είναι ήδη σωστά (CS, CPS, UHS, BDC κεφαλαία) — μόνο πρώτο γράμμα κεφαλαίο
+  { const t = String(d.fullTitle || d.title || fallback || "").replace(/\s+/g, " ").trim(); if (t) return t[0].toUpperCase() + t.slice(1).replace(/\bΒαση μεσοδοντιασ βουρτσασ\b/i, "Βάση μεσοδόντιας βούρτσας").replace(/μεσοδοντια βουρτσακια/gi, "μεσοδόντια βουρτσάκια").replace(/μεγεθοσ/gi, "μέγεθος").replace(/Συσκευασια τσεπησ - μεσοδοντια βουρτσα/i, "Συσκευασία τσέπης - μεσοδόντια βούρτσα").replace(/Ανταλλακτικο μεσοδοντιασ βουρτσασ/i, "Ανταλλακτικό μεσοδόντιας βούρτσας").replace(/Ξυλινξ/i, "Ξύλινη").replace(/Αφροσ για μασελακι/i, "Αφρός για μασελάκι"); }
+  if (NAME_FIX[d.handle]) return NAME_FIX[d.handle];
+  // TePe & Plac Control: χωρίς το πρόθεμα της μάρκας (το προσθέτει η εφαρμογή), χωρίς ®, Latin ΚΕΦΑΛΑΙΑ → Title Case
+  let title = String(d.fullTitle || d.title || fallback || "").replace(/®|™/g, "").replace(/\s+/g, " ").trim();
+  title = title.replace(/^(SOLGAR|TePe & Plac Control)\s+/i, "").replace(/\s*-\s*\d+(?:[.,]\d+)?\s?ml$/i, "").replace(/\|/g, "–").trim();
+  // ελληνικά κεφαλαία μέσα σε λατινική λέξη (ΜASK → MASK)
+  const G2L = { Α: "A", Β: "B", Ε: "E", Η: "H", Ι: "I", Κ: "K", Μ: "M", Ν: "N", Ο: "O", Ρ: "P", Τ: "T", Υ: "Y", Χ: "X", Ζ: "Z" };
+  title = title.replace(/[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ](?=[A-Z]{2})|(?<=[A-Z]{2})[ΑΒΕΗΙΚΜΝΟΡΤΥΧΖ]/g, c => G2L[c]);
+  title = title.replace(/(?<![A-Za-zÀ-ÿ])[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'&]{2,}(?![A-Za-zÀ-ÿ])/g, w => /^(SPF|UVA|UVB|LSF|EDT|EDP|RED|SOS|PSO|CLA|MSM|BCAA|DHA|EPA|HTP|GABA|MCT|NAC|MK|VM|SFP|HSN|ADHD|IU)$/.test(w) && w !== "RED" ? w : w[0] + w.slice(1).toLowerCase());
+  title = title.replace(/\bCoq\b/g, "CoQ").replace(/\bVeg\.Caps (\d+)S\b/g, "Veg. Caps");
+  return title.replace(/\s+-\s*|\s*-\s+/g, " - ").trim();   // «A-Z», «D3-K2», «Anti-Wrinkle» μένουν ενωμένα
 }
+// Σειρά του placcontrol.gr (κατηγορία «Brands › …», details.line) → ενότητα. Αν λείπει, LINE_RULES.
+const LINE_MAP = {};
+// TePe & Plac Control: οι κατηγορίες του site είναι «ανά ανάγκη» και επικαλύπτονται → ενότητα από το είδος του προϊόντος
+// (κατηγορίες «ανά κατηγορία προϊόντος» + όνομα), με σειρά προτεραιότητας.
+function solgarSection(d) {
+  // TePe & Plac Control: όνομα + κατηγορία του placcontrol.gr → ενότητα
+  const n = String(d.title || ""), c = String(d.category || "");
+  if (/BDC|μασελ|οδοντοστοιχ/i.test(n + " " + c)) return "denture";
+  if (/πιπίλ|Baby|kids|Παιδικ|παιδικ/i.test(n) || /μωρά|παιδιά/i.test(c)) return "kids";
+  if (/Perio plus/i.test(n)) return "perio";
+  if (/Hydrosonic|Sonic/i.test(n)) return "sonic";
+  if (/Οδοντόκρεμα|Τσίχλα/i.test(n)) return "toothpaste";
+  if (/μεσοδόντ|μεσοδοντ|UHS|CPS|Βάση|Βαση|carbon|θήκη/i.test(n + " " + c)) return "interdental";
+  if (/νήμα|ταινία|γλώσσας|χρωματισμού/i.test(n)) return "floss";
+  return "brushes";
+}
+// Ενότητα = κατηγορία του placcontrol.gr (details.catSlug)· τα παιδικά/βρεφικά από όλες τις κατηγορίες πάνε στο «kids»
+const CAT_SECTION = { "odontovourtses": "brushes", "mesodontia-vourtsakia": "interdental", "odontoglyfides-odontika-nimata": "floss", "odontokremes": "toothpaste",
+  "stomatika-dialymata": "mouthwash", "xirostomia-kakosmia": "drymouth", "gia-vrefi-kai-paidia": "kids", "ilektrika-proionta": "electric",
+  "proionta-gia-odontostoixies": "denture", "proionta-xylitolis": "xylitol", "apokalyptika-plakas": "special", "frontida-emfyteumaton": "special", "proionta-idroxyapatiti": "toothpaste" };
+const tepeSection = (d, name) => (/\bKids\b|\bBaby\b|\bJunior\b|Tenders|TePe Mini™$|παιδ|βρεφ/i.test(name) ? "kids" : null) || CAT_SECTION[d.catSlug] || lineOf(d.category, name);
 const lineOf = (...texts) => { const s = texts.filter(Boolean).join(" | "); return (LINE_RULES.find(([, re]) => re.test(s)) || ["diafora"])[0]; };
-const gtin13 = g => { const d = String(g || "").replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 ? d : null); };
+const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (URIAGE-…) για σελίδες χωρίς EAN
+  const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
 
 function extractVolume(s) {
   if (!s) return null;
@@ -81,10 +111,10 @@ function extractSpf(s) {
 }
 
 const matcher = createMatcher({
-  // "P.S.O." → "PSO", "ANAPHASE+" → "ANAPHASE", "SPF50+" → "SPF 50+"
-  normalize: s => s.replace(/\bP\.?S\.?O\.?(?=\s|$)/gi, "PSO").replace(/\+/g, " ").replace(/\b(SPF)\s*(\d)/gi, "$1 $2"),
+  // "AP+M" → "APM", "SPF50+" → "SPF 50+"
+  normalize: s => s.replace(/\bAP\+M\b/gi, "APM").replace(/\+/g, " ").replace(/\b(SPF)\s*(\d)/gi, "$1 $2"),
   stopwords: new Set([
-    "tepe", "ml", "gr", "g", "l",
+    "la", "roche", "posay", "roche-posay", "l", "r", "solgar", "ml", "gr", "g",
     "the", "of", "and", "with", "for", "in", "de", "la", "le", "les", "des", "du", "et", "pour", "au", "aux", "a",
     "και", "με", "για", "σε", "αντλια", "τεμ", "τμχ",
     "el", "en", "fr"
@@ -125,6 +155,7 @@ async function main() {
     // GTIN: το JSON-LD δίνει 14ψήφιο με 0 μπροστά ("03282770072730"), το URL το 13ψήφιο
     const g = gtin13(sp.gtin) || gtin13((sp.url.match(/-(\d{13})-[a-z0-9]+\/?$/i) || [])[1]);
     if (g) { sp.gtin = g; byGtin.set(g, sp); }
+    for (const v of ((sp.details && sp.details.variants) || [])) { const vg = gtin13(v.ean); if (vg && !byGtin.has(vg)) byGtin.set(vg, sp); }
     byUrl.set(normUrl(sp.url), sp);
   }
   console.log(`Site: ${site.length} σελίδες (${byGtin.size} με GTIN), IDF λεξιλόγιο ${idf.size} tokens.`);
@@ -173,8 +204,10 @@ async function main() {
       for (const c of (d.keyFacts || [])) { const t = c.length <= 45 ? claims : highlights; if (!t.some(x => x.toLowerCase() === c.toLowerCase())) t.push(c); }
       const attributes = Object.assign({}, d.attributes || {});
       // Μέγεθος: του supplier αν το ξέρουμε (η σελίδα καλύπτει πολλά μεγέθη), αλλιώς της σελίδας
+      const variant = ((d.variants || []).find(v => barcodes.includes(v.ean)));
       const supplierVol = extractVolume(p.name);
-      if (supplierVol) attributes["Συσκευασία"] = supplierVol.replace(/g$/, "g");
+      if (variant && variant.size) attributes["Συσκευασία"] = variant.size;
+      else if (supplierVol) attributes["Συσκευασία"] = supplierVol.replace(/g$/, "g");
       else if (d.size) attributes["Συσκευασία"] = d.size;
       if (d.category) attributes["Κατηγορία placcontrol.gr"] = d.category;
       if (d.line) attributes["Σειρά"] = d.line;
@@ -182,16 +215,16 @@ async function main() {
       for (const [t, text] of Object.entries(d.tabs || {})) if (text) sections[tabLabel(t)] = text;
       const slug = chosen.url.split("/p/")[1] || chosen.url;
       overrides[p.barcode] = {
-        name: cleanSiteName(siteProductName(d, chosen.name)),
+        name: cleanSiteName(siteProductName(d, chosen.name)) + ((d.variants || []).length > 1 && variant && variant.size && !cleanSiteName(siteProductName(d, chosen.name)).toLowerCase().includes(String(variant.size).toLowerCase()) ? ` ${variant.size}` : ""),   // σελίδα με πολλά μεγέθη/αποχρώσεις → το μέγεθος/απόχρωση στο όνομα
         subtitle: d.subtitle || chosen.subtitle || d.shortDescription || null,
         description: description || d.shortDescription || null,
         claims, highlights, attributes, sections,
-        image: d.imageLarge || chosen.image || null,
+        image: (variant && variant.packshot) || d.imageLarge || chosen.image || null,
         imageFallback: chosen.image || null,
         images: d.images || null,
         url: chosen.url,
         source: "placcontrol.gr",
-        section: lineOf(slug, d.line, chosen.name, (d.breadcrumbs || []).join(" "), p.name),
+        section: tepeSection(d, chosen.name),
         matchType: type,
         score: score === null ? null : Number(score.toFixed(1)),
         review: type === "review"
@@ -215,6 +248,15 @@ async function main() {
   if (secChanged) {
     const sb = `// Auto-generated (scripts/fill-brand-missing.mjs + match-${BRAND}.mjs).\n// Pharmacy-based συμπλήρωμα για barcodes χωρίς σελίδα στο brand site· section = ενότητα από το όνομα supplier.\n// Ο site το διαβάζει μόνο ως fallback (OVERRIDES > SUPPLEMENTAL > supplier).\n`;
     await fs.writeFile(SUPPLEMENTAL_FILE, sb + `window.${BRAND.toUpperCase()}_SUPPLEMENTAL = ` + JSON.stringify(supplemental, null, 2) + ";\n", "utf8");
+  }
+  // Ίδιο όνομα σε περισσότερα προϊόντα (διαφορετικά μεγέθη): το μέγεθος στο όνομα
+  {
+    const byName = {};
+    for (const [bc, v] of Object.entries(overrides)) (byName[v.name] = byName[v.name] || []).push(bc);
+    for (const bcs of Object.values(byName)) {
+      if (bcs.length < 2) continue;
+      for (const bc of bcs) { const size = (overrides[bc].attributes || {})["Συσκευασία"]; if (size && !overrides[bc].name.toLowerCase().includes(String(size).toLowerCase())) overrides[bc].name += ` ${size}`; }
+    }
   }
   const banner = `// Auto-generated από το scripts/match-${BRAND}.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.\n`
     + `// Πηγή: placcontrol.gr (js/${BRAND}-site.json). Διορθώσεις match → js/${BRAND}-manual-matches.json.\n`

@@ -34,6 +34,12 @@ export const CATEGORIES = {
   "proionta-xylitolis": "Προϊόντα ξυλιτόλης", "apokalyptika-plakas": "Αποκαλυπτικά πλάκας", "frontida-emfyteumaton": "Φροντίδα εμφυτευμάτων",
   "proionta-idroxyapatiti": "Προϊόντα υδροξυαπατίτη"
 };
+// σελίδες εκτός /proionta/ που είναι προϊόντα (id → κατηγορία) και σελίδες προϊόντων χωρίς κείμενο → κείμενο από τη σελίδα-παρουσίαση
+const EXTRA_PAGES = { 9201: "ilektrika-proionta", 6687: "odontokremes" };   // SMILLE Sonic Brush, APADENT Perio
+const CONTENT_FROM = { 6571: 6573 };
+const TITLE_FIX = { 9201: "SMILLE Sonic Brush — Ηχητική οδοντόβουρτσα", 6687: "APADENT Perio Οδοντόκρεμα" };                                           // TePe Choice → /tepe-choice/
+// σκληρότητες ινών ως ξεχωριστά προϊόντα (ο τιμοκατάλογος τα έχει με διαφορετικό EAN)
+const HARDNESS = { "tepe-nova": ["x-soft", "soft", "medium"], "tepe-select-compact": ["x-soft", "soft", "medium"] };
 const SEC = [[/^ΠΕΡΙΓΡΑΦΗ/i, "Περιγραφή"], [/ΠΡΟΣΘΕΤΕΣ ΠΛΗΡΟΦΟΡΙΕΣ|ΠΛΗΡΟΦΟΡΙΕΣ|ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ|ΟΦΕΛΗ|ΠΛΕΟΝΕΚΤΗΜΑΤΑ/i, "Χαρακτηριστικά"],
   [/ΣΥΣΤΑΤΙΚΑ|ΣΥΝΘΕΣΗ|INGREDIENTS/i, "Συστατικά"], [/ΧΡΗΣΗ|ΟΔΗΓΙΕΣ|ΤΡΟΠΟΣ/i, "Χρήση"], [/ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ|FAQ/i, "Συχνές ερωτήσεις"],
   [/ΠΡΟΕΙΔΟΠΟΙΗΣ|ΠΡΟΣΟΧΗ/i, "Προφυλάξεις"], [/ΣΥΣΚΕΥΑΣΙΑ|ΜΕΓΕΘ|ΔΙΑΘΕΣΙΜ/i, "Συσκευασία"]];
@@ -54,7 +60,7 @@ async function getJson(url) {
 
 export function extractPlacDetails(p, catSlug) {
   const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
-  d.title = decodeAll(p.title.rendered).replace(/\s+/g, " ").replace(/^Βrush/, "Brush").trim();
+  d.title = TITLE_FIX[p.id] || decodeAll(p.title.rendered).replace(/\s+/g, " ").replace(/^Βrush/, "Brush").trim();
   let c = String(p.content.rendered || "").replace(/<(script|style|noscript)[\s\S]*?<\/\1>/g, "");
   // toggles / accordions του Elementor
   const toggles = [];
@@ -66,7 +72,10 @@ export function extractPlacDetails(p, catSlug) {
   }
   // υπόλοιπο κείμενο (πριν/εκτός toggles) → εισαγωγή
   const lines = text(c).split("\n").map(l => l.trim()).filter(l => l && !/^(A choice that matters|Smile with us|www\.|ΤΗΛ\.|Made in)/i.test(l));
-  const intro = lines.filter(l => l !== d.title && l.length > 2);
+  const seenL = new Set();
+  const intro = lines.filter(l => l !== d.title && l.length > 2 && !/^(Media:|Share:|Συστατικά:?|ΣΑΣ ΣΥΝΙΣΤΟΥΜΕ:?|Αναλυτικές πληροφορίες:?)$/i.test(l)).filter(l => { const k = l.toLowerCase().replace(/\s+/g, " "); if (seenL.has(k)) return false; seenL.add(k); return true; })
+    .filter((l, i, arr) => !(arr[i + 1] && arr[i + 1].replace(/\s+/g, " ").startsWith(l.replace(/\s+/g, " ").replace(/[.\s]+$/, ""))))
+    .filter((l, i, arr) => !(i > 0 && arr[i - 1].replace(/\s+/g, " ").startsWith(l.replace(/\s+/g, " ").replace(/[.\s]+$/, ""))));   // πρώτη πρόταση που επαναλαμβάνεται στην επόμενη παράγραφο
   if (intro.length) {
     const long = intro.filter(l => l.length > 60);
     const short = intro.filter(l => l.length <= 60 && l.length > 3);
@@ -82,10 +91,13 @@ export function extractPlacDetails(p, catSlug) {
   const ok = full.filter(u => !BAD_IMG.test(u));
   d.images = [...new Set([...(p._featured ? [p._featured] : []), ...good, ...ok])];
   d.imageCandidates = full;
+  // EAN στο όνομα αρχείου της φωτογραφίας συσκευασίας (π.χ. «5-206880-000412-PLACAID_MANGO_100ml.jpg», «7350121253933_front.jpg»)
+  const eanOk = e => { const n = e.split("").map(Number); const sum = n.slice(0, 12).reduce((s, x, i) => s + x * (i % 2 ? 3 : 1), 0); return (10 - sum % 10) % 10 === n[12]; };
+  for (const u of d.images) { const m = decodeURIComponent(u.split("/").pop()).replace(/-(?=\d)/g, "").match(/(?:^|\D)(\d{13})(?!\d)/); if (m && eanOk(m[1])) { d.ean = m[1]; break; } }
   d.imageLarge = d.images[0] || null;
   // μέγεθος από τον τίτλο / το κείμενο
   const all = [d.title, ...Object.values(d.tabs)].join("\n");
-  const sz = d.title.match(/(\d+(?:[.,]\d+)?)\s?(ml|cc|g|gr|τεμ\.?|τμχ)\b/i) || all.match(/(\d+(?:[.,]\d+)?)\s?(ml|g|gr)\b/i);
+  const sz = d.title.match(/(\d+(?:[.,]\d+)?)\s?(ml|cc|g|gr|τεμ\.?|τμχ)\b/i) || all.match(/(?:Συσκευασία|Περιεχόμενο|Διατίθεται|σωληνάριο|φιάλη|μπουκάλι|tube)[^\n]{0,40}?(\d{2,4})\s?(ml|g|gr)\b/i);
   d.size = sz ? (sz[1].replace(",", ".") + sz[2].toLowerCase().replace("gr", "g").replace("cc", "ml")) : null;
   d.sizes = d.size ? [d.size] : [];
   if (d.size) d.attributes["Συσκευασία"] = d.size;
@@ -98,7 +110,13 @@ export function extractPlacDetails(p, catSlug) {
   d.shortDescription = d.description ? d.description.slice(0, 220) : null;
   d.handle = decodeURIComponent(p.slug || String(p.link).replace(/\/+$/, "").split("/").pop());
   const key = d.handle.replace(/^tepe-/, "").normalize("NFD").replace(/[^A-Za-z0-9]/g, "").slice(0, 60) || String(p.id);
-  d.gtin = "TP-" + (key.length >= 4 ? key : key + p.id); d.eans = [d.gtin];
+  d.gtin = d.ean || ("TP-" + (key.length >= 4 ? key : key + p.id)); d.eans = [d.gtin];
+  // μεγέθη μεσοδοντίων «0.6 mm – Μπλε» (xsoft, Angle) → μία κάρτα ανά μέγεθος· σκληρότητες (Nova, Select Compact) → μία ανά σκληρότητα
+  const mm = [...String(d.tabs["Συσκευασία"] || "").matchAll(/(\d\.\d+)\s?mm\s*[–-]\s*([Α-ΩA-Zα-ωάέήίόύώa-z]+)/g)];
+  const base = "TP-" + key.slice(0, 40);
+  if (mm.length > 1) d.variants = mm.map(m => ({ ean: base + m[1].replace(".", ""), size: `${m[1]} mm ${m[2]}` }));
+  else if (HARDNESS[d.handle]) d.variants = HARDNESS[d.handle].map(h => ({ ean: (h === "soft" && d.ean) ? d.ean : base + h.replace("-", ""), size: h }));
+  if (d.variants.length) { d.eans = d.variants.map(v => v.ean); d.gtin = d.eans[0]; d.sizes = d.variants.map(v => v.size); d.attributes["Διαθέσιμα μεγέθη"] = d.sizes.join(", "); }
   return d;
 }
 
@@ -106,6 +124,7 @@ async function main() {
   const pages = [];
   for (let pg = 1; pg < 6; pg++) { let a; try { a = await getJson(`${BASE}/wp-json/wp/v2/pages?per_page=100&page=${pg}&_fields=id,parent,link,slug,title,featured_media`); } catch { break; } pages.push(...a); if (a.length < 100) break; await sleep(DELAY_MS); }
   const catOf = new Map(pages.filter(p => /\/proionta\/[^/]+\/?$/.test(p.link)).map(p => [p.id, String(p.link).replace(/\/+$/, "").split("/").pop()]));
+  for (const [id, cat] of Object.entries(EXTRA_PAGES)) { const p = pages.find(x => x.id === +id); if (p) catOf.set("x" + id, cat), p.parent = "x" + id; }
   const prods = pages.filter(p => catOf.has(p.parent) && CATEGORIES[catOf.get(p.parent)] && !/\/en\//.test(p.link));
   console.log(`placcontrol.gr: ${pages.length} σελίδες, ${prods.length} προϊόντα σε λιανικές κατηγορίες`);
   if (CACHE) await fs.mkdir(CACHE, { recursive: true });
@@ -116,21 +135,32 @@ async function main() {
     try { full = JSON.parse(await fs.readFile(cf, "utf8")); } catch {
       full = await getJson(`${BASE}/wp-json/wp/v2/pages/${p.id}?_fields=id,parent,link,slug,title,content,featured_media`); await sleep(DELAY_MS);
       if (full.featured_media) { try { const m = await getJson(`${BASE}/wp-json/wp/v2/media/${full.featured_media}?_fields=source_url`); full._featured = m.source_url; } catch {} await sleep(DELAY_MS); }
+      if (CONTENT_FROM[p.id] && !String(full.content.rendered || "").trim()) { const o = await getJson(`${BASE}/wp-json/wp/v2/pages/${CONTENT_FROM[p.id]}?_fields=content`); full.content = o.content; await sleep(DELAY_MS); }
       if (cf) await fs.writeFile(cf, JSON.stringify(full), "utf8");
     }
+    const txt = String(full.content.rendered || "").replace(/<[^>]+>/g, "").trim();
+    if (!txt && !full._featured) { console.log(`[${i + 1}/${prods.length}] κενή σελίδα — παραλείπεται: ${p.link}`); continue; }
     const d = extractPlacDetails(full, catOf.get(p.parent));
     out.push({ url: p.link, section: "p", name: d.title, description: (d.description || "").slice(0, 700), longDescription: d.description, details: d, image: d.images[0] || null, gtin: d.gtin });
     console.log(`[${i + 1}/${prods.length}] ${d.images.length ? "img+" : "img-"} ${Object.keys(d.tabs).length}tabs ${(d.size || "-").padEnd(7)} ${(d.brand || "-").padEnd(10)} | ${d.title}`);
   }
-  // ίδιος τίτλος δύο φορές (παλιά + νέα σελίδα) → κρατάμε αυτή με το περισσότερο κείμενο
-  const byName = {}; for (const p of out) (byName[p.name.toLowerCase().replace(/[^a-zα-ωάέήίόύώϊϋ0-9]/g, "")] ||= []).push(p);
-  for (const g of Object.values(byName)) if (g.length > 1) {
-    g.sort((a, b) => JSON.stringify(b.details.tabs).length - JSON.stringify(a.details.tabs).length);
-    for (const p of g.slice(1)) p.details.duplicateOf = g[0].url;
+  // ίδιο προϊόν σε δύο σελίδες (παλιά + νέα, «Μέντα»/«Mint», «Μάνγκο»/«Mango») → κρατάμε αυτή με EAN στη φωτογραφία, αλλιώς με το περισσότερο κείμενο
+  const tSize = t => (t.match(/(\d+)\s?(ml|cc|g)\b/i) || [])[1] || "";
+  const nkey = t => t.toLowerCase().replace(/mint/g, "μέντα").replace(/mango/g, "μάνγκο").replace(/\d+\s?(ml|cc|g)\b/g, "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zα-ω0-9]/g, "");
+  const byName = {}; for (const p of out) (byName[nkey(p.name)] ||= []).push(p);
+  for (const g of Object.values(byName)) {
+    const sizes = new Set(g.map(p => tSize(p.name)).filter(Boolean));
+    const bySize = {}; for (const p of g) (bySize[tSize(p.name) || (sizes.size === 1 ? [...sizes][0] : "")] ||= []).push(p);
+    for (const h of Object.values(bySize)) if (h.length > 1) {
+      h.sort((a, b) => (!!b.details.ean - !!a.details.ean) || (JSON.stringify(b.details.tabs).length - JSON.stringify(a.details.tabs).length));
+      for (const p of h.slice(1)) p.details.duplicateOf = h[0].url;
+    }
   }
+  const dups = out.filter(p => p.details.duplicateOf); for (const p of dups) console.log(`  διπλή σελίδα: ${p.url} → ${p.details.duplicateOf}`);
+  out.splice(0, out.length, ...out.filter(p => !p.details.duplicateOf));
   const seen = {}; for (const p of out) { if (seen[p.gtin]) { p.gtin = p.details.gtin = p.gtin + "x" + (++seen[p.gtin]); p.details.eans = [p.gtin]; } else seen[p.gtin] = 1; }
   await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
-  console.log(`\nDone. products=${out.length} (διπλές ${out.filter(p => p.details.duplicateOf).length}). Έγραψε ${path.relative(ROOT, OUT_FILE)}.`);
+  console.log(`\nDone. products=${out.length} (εκτός ${dups.length} διπλές). Έγραψε ${path.relative(ROOT, OUT_FILE)}.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch(e => { console.error("FATAL:", e); process.exit(1); });
