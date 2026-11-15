@@ -292,6 +292,13 @@ window.BRAND_CATALOGS = {
     sheetName: "GEHWOL", imageDir: "gehwol", sourceKey: "_gehwolSource",
     fallbackDesc: "Προϊόν περιποίησης ποδιών GEHWOL — {name}",
     exportSections: ["Περιγραφή", "Συστατικά", "Χρήση", "Χαρακτηριστικά"]
+  },
+  podia: {
+    key: "podia", name: "Podia", host: "podiafootcare.com", page: "podia.html",
+    icon: "👣", initials: "PD", accent: "#0e7490",
+    sheetName: "Podia", imageDir: "podia", sourceKey: "_podiaSource",
+    fallbackDesc: "Προϊόν περιποίησης ποδιών Podia — {name}",
+    exportSections: ["Περιγραφή", "Δράση", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
