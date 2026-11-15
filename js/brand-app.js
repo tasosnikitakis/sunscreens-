@@ -61,12 +61,12 @@ function makeCard(p) {
   const localUrl = p.barcode ? getLocalImageUrl(p.barcode) : null;
   const remoteUrl = localUrl || enrich.image || null;
   const quality = frezydermDescriptionQuality(enrich.description);
-  card.dataset.needsReview = quality.ok ? "0" : "1";
-  card.dataset.noPage = enrich.noBrandPage ? "1" : "0";
-  // listed:false = υπάρχει στο brand site αλλά όχι στον τιμοκατάλογο του προμηθευτή
-  card.dataset.noPrice = (p.listed === false || !(p.wholesale > 0)) ? "1" : "0";
-  // "Όλα ΟΚ" = επίσημη σελίδα + πλήρης περιγραφή + εικόνα
-  card.dataset.allOk = (!enrich.noBrandPage && quality.ok && !enrich.review && !!remoteUrl) ? "1" : "0";
+  // κοινή λογική φίλτρων με τη μαζική λήψη της σελίδας «Εταιρίες» (CatalogExport.flags)
+  const f = CatalogExport.flags(p, enrich);
+  card.dataset.needsReview = f.needsReview ? "1" : "0";
+  card.dataset.noPage = f.noPage ? "1" : "0";
+  card.dataset.noPrice = f.noPrice ? "1" : "0";
+  card.dataset.allOk = f.allOk ? "1" : "0";
   card.dataset.barcode = p.barcode;
 
   const topBadge = enrich.noBrandPage
@@ -137,7 +137,8 @@ const QUALITY_LABEL = {
   complete:   "με πλήρη περιγραφή",
   incomplete: "με ανεπαρκή περιγραφή",
   nopage:     `χωρίς σελίδα ${BRAND.host}`,
-  noprice:    "χωρίς τιμή προμηθευτή"
+  noprice:    "χωρίς τιμή προμηθευτή",
+  priced:     "με τιμή προμηθευτή"
 };
 
 function passesQuality(card, mode) {
@@ -147,6 +148,7 @@ function passesQuality(card, mode) {
   if (mode === "incomplete") return card.dataset.needsReview === "1";
   if (mode === "nopage")     return card.dataset.noPage === "1";
   if (mode === "noprice")    return card.dataset.noPrice === "1";
+  if (mode === "priced")     return card.dataset.noPrice === "0";
   return true;
 }
 
