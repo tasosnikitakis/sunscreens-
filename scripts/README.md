@@ -330,6 +330,11 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 κείμενα από τη σελίδα (.product__short-desc → Περιγραφή + «Οι κύριοι ενεργοί παράγοντες», tabs Προδιαγραφές / Χρήση / Συστατικά, μέγεθος από
 .product__extra-field-aroma· «75ml & 150ml» → κλειδί ανά μέγεθος). Κλειδιά `EU-<slug>`· τιμές με `js/eubos-manual-matches.json`.
 
+`scripts/scrape-vencil.mjs` (Vencil Pharmaceuticals, www.vencil.gr — nopCommerce, ελληνικά στο /el/, χωρίς EAN): λίστα από το `/sitemap.xml`
+(σελίδα προϊόντος = έχει .product-essential), κείμενα από .short-description και τις <h3> ενότητες της .full-description (ΣΥΣΤΑΤΙΚΑ / ΕΝΔΕΙΞΕΙΣ /
+ΠΡΟΤΕΙΝΟΜΕΝΗ ΧΡΗΣΗ…). Τίτλοι με πολλά μεγέθη («Tired Legs Gel 100 & 200ml», «Hairnail 30 & Extra 90 Caps») → κλειδί ανά μέγεθος. Εκτός
+τα προϊόντα αισθητικής ιατρικής (επαγγελματικά). Κλειδιά `VE-<slug>`· τιμές με `js/vencil-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
