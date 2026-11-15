@@ -371,6 +371,13 @@ Trav-ler / Soft-Picks / Soft-Picks Pro / Bi-Direction / Easy-Flossers = variants
 Περιγραφή / Συστατικά / Οδηγίες χρήσης, φωτογραφία fl-photo. Χωρίς EAN (μόνο κωδικοί Gehwol) → τιμές Medica με
 `js/gehwol-manual-matches.json` (όνομα + μέγεθος).
 
+`scripts/scrape-podia.mjs` (Podia footcare, www.podiafootcare.com — WordPress + Elementor, θέμα «artware»): λίστα από το `/pproducts-sitemap.xml`
+(εκτός `/en/`). Τα widgets διαβάζονται με τη σειρά: product-features (h1 + χαρακτηριστικά → Οφέλη), content-toggle (Περιγραφή, ή κείμενο της
+προηγούμενης επικεφαλίδας title-tagline → Δράση / Χρήση / Πληροφορίες), steps-carousel (Βήματα → Χρήση), nested-repeater (Συστατικά),
+notice (Αντενδείξεις → Προφυλάξεις). Video/στατιστικά/ρουτίνες/blog/ερωτήσεις παραλείπονται. «Διαθέσιμα μεγέθη: Small … Large» και
+`FAMILIES` (κάλυμμα/κύλινδρος γέλης S/M/L, ανατομικοί πάτοι Νο 39/44) → variants. Χωρίς EAN → τιμές Medica με `js/podia-manual-matches.json`
+(τα PODIAKRO είναι άλλη εταιρία).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
