@@ -1,0 +1,11 @@
+{
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο Corega: promo συσκευασίες (+1 τεμ. -30%, δώρο). Διαβάζεται από το build-brand-supplier.mjs.",
+  "rules": [
+    {
+      "name": "set",
+      "pattern": "(^|[^\\p{L}])(σετ|gift|promo|δώρο|δωρο|\\+\\s?1\\s?τεμ|-30%|\\+\\s?4\\s?tabs)([^\\p{L}]|$)",
+      "flags": "iu",
+      "reason": "Promo / δώρο"
+    }
+  ]
+}

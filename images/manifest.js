@@ -6274,5 +6274,15 @@ window.IMAGE_MANIFEST = {
   "PD-podiaypopterniogelisMedium": "podia/medium-38-40-PD-podiaypopterniogelisMedium.webp",
   "PD-podiaypopterniogelisLarge": "podia/large-41-44-PD-podiaypopterniogelisLarge.webp",
   "PD-podiamiconailkitgiaonychomykitiasi": "podia/miconail-kit-kit-PD-podiamiconailkitgiaonychomykitiasi.webp",
-  "PD-epithemamikroudaktylou": "podia/-PD-epithemamikroudaktylou.webp"
+  "PD-epithemamikroudaktylou": "podia/-PD-epithemamikroudaktylou.webp",
+  "5054563287410": "corega/3-minutes-36-effer-tabs-pharm24-5054563287410.jpg",
+  "5054563287045": "corega/power-max-clean-4in1-power-36tabs-pharm24-5054563287045.jpg",
+  "5054563177650": "corega/power-max-12h-hold-comfort-40gr-pharm24-5054563177650.jpg",
+  "5054563234711": "corega/power-max-12h-hold-comfort-40gr-pharm24-5054563234711.jpg",
+  "5054563076687": "corega/3d-hold-neutral-40g-pharm24-5054563076687.jpg",
+  "5054563209320": "corega/power-max-ultimate-all-in-one-40g-pharm24-5054563209320.jpg",
+  "5054563262370": "corega/power-max-12h-hold-comfort-40gr-pharm24-5054563262370.jpg",
+  "5054563109491": "corega/power-max-hold-seal-40g-pharm24-5054563109491.jpg",
+  "5054563027924": "corega/super-40g-pharm24-5054563027924.jpg",
+  "5054563027894": "corega/ultra-fresh-40g-pharm24-5054563027894.jpg"
 };

@@ -1,0 +1,3 @@
+{
+  "_comment": "Corega (Haleon): δεν υπάρχει ελληνικό επίσημο site (το corega.com ανακατευθύνει στο αμερικανικό mydenturecare.com, το haleonhealthpartner.com/el-gr είναι εκτός λειτουργίας). Ο κατάλογος χτίζεται από τον τιμοκατάλογο Medica και τα στοιχεία (τίτλος, περιγραφή, εικόνα) έρχονται από ελληνικά φαρμακεία μέσω scripts/fill-brand-missing.mjs (js/corega-supplemental.js)."
+}
