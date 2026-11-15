@@ -1,0 +1,2195 @@
+// Auto-generated από το scripts/match-eubos.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.
+// Πηγή: eubos.gr (js/eubos-site.json). Διορθώσεις match → js/eubos-manual-matches.json.
+// matchType: manual | exact (GTIN) | high | review (score 99-14, 'Match?')
+// Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα', λίστα στο js/eubos-unmatched.json).
+window.EUBOS_OVERRIDES = {
+  "EU-antiagepigmentcontrolserum": {
+    "name": "Anti Age Pigment Control Serum",
+    "subtitle": "Ορός αντιμετώπισης των κηλίδων",
+    "description": "Η νέα γενιά στην αντιμετώπιση των κηλίδων. Ορός προσώπου για την αντιμετώπιση των κηλίδων και των δυσχρωμιών, για λαμπερή επιδερμίδα με ομοιόμορφο τόνο. Με ελαφριά σύνθεση που απορροφάται γρήγορα, ιδανικός για καθημερινή χρήση, κάτω από την κρέμα ημέρας ή νύχτας. Βασικά συστατικά Melazero®N: διασπά αποτελεσματικά την ήδη υπάρχουσα μελανίνη και αναστέλλει τον νέο σχηματισμό της. Phytessence™ White Peony: μειώνει αποδεδειγμένα τις κηλίδες υπερμελάγχρωσης, συμβάλλοντας σε πιο ομοιόμορφο τόνο της επιδερμίδας. Νιασιναμίδη: μειώνει την παραγωγή σμήγματος, συμβάλλει στη σύσφιξη και βελτιώνει την όψη των πόρων. Έλαιο Macadamia: θρέφει την επιδερμίδα και ενισχύει τη λειτουργία του φραγμού της. Βιταμίνη C υποστηρίζει την παραγωγή κολλαγόνου και προστατεύει από το οξειδωτικό στρες.",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Η νέα γενιά στην αντιμετώπιση των κηλίδων.\nΟρός προσώπου για την αντιμετώπιση των κηλίδων και των δυσχρωμιών, για λαμπερή επιδερμίδα με ομοιόμορφο τόνο.\nΜε ελαφριά σύνθεση που απορροφάται γρήγορα, ιδανικός για καθημερινή χρήση, κάτω από την κρέμα ημέρας ή νύχτας.\nΒασικά συστατικά\nMelazero®N: διασπά αποτελεσματικά την ήδη υπάρχουσα μελανίνη και αναστέλλει τον νέο σχηματισμό της.\nPhytessence™ White Peony: μειώνει αποδεδειγμένα τις κηλίδες υπερμελάγχρωσης, συμβάλλοντας σε πιο ομοιόμορφο τόνο της επιδερμίδας.\nΝιασιναμίδη: μειώνει την παραγωγή σμήγματος, συμβάλλει στη σύσφιξη και βελτιώνει την όψη των πόρων.\nΈλαιο Macadamia: θρέφει την επιδερμίδα και ενισχύει τη λειτουργία του φραγμού της.\nΒιταμίνη C υποστηρίζει την παραγωγή κολλαγόνου και προστατεύει από το οξειδωτικό στρες.",
+      "Χαρακτηριστικά": "Χωρίς Μικροπλαστικά σωματίδια, PEG, Σιλικόνη, Δερματολογικά/Κλινικά\nελεγμένο",
+      "Χρήση": "Καθημερινή χρήση, πρωί και βράδυ πριν την κρέμα ημέρας και νύχτας, στο\nπρόσωπο, λαιμό, & ντεκολτέ.",
+      "Συστατικά": "Aqua (Water), Glycerin, Pentylene Glycol, Distarch Phosphate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Sodium Ascorbyl Phosphate, Caprylyl Caprylate/Caprate, Niacinamide, Microcrystalline Cellulose, Propanediol, Zinc, PCA, Persea Gratissima (Avocado) Oil, Citric Acid, Acacia Senegal Gum, Xanthan Gum, Cellulose Gum, Ethylhexylglycerin, Sodium Stearoyl Glutamate, Paeonia Lactiflora Root Extract, Eriobotrya Japonica Leaf Extract, Olea Europaea (Olive) Oil Unsaponifiables, Phytosterols, Mentha Viridis (Spearmint) Extract, Tocopherol, Parfum (Fragrance), Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Geranyl Acetate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-pv-20098975-339-fr-_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-pv-20098975-339-fr-_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-pv-20098975-339-fr-_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-pv-20098975-339-fr.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-pv-20098975-339-rue.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-sv-4021354033397-403339-front.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-sv-4021354033397-403339-left.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-sv-4021354033397-403339-back.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/09/eubos-anti-age-pigment-control-serum-30ml-sv-4021354033397-403339-right.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-anti-age-pigment-control-serum/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveshowercreamrefill": {
+    "name": "Sensitive Shower & Cream Refill",
+    "subtitle": "Απαλό Κρεμώδες Καθαριστικό Σώματος",
+    "description": "Κρεμοντούς. Απαλός καθαρισμός και περιποίηση του δέρματος κατά το ντους. Η Πανθενόλη, φυτικά έλαια και ενυδατικά συστατικά, αφήνουν το δέρμα αισθητά πιο απαλό και προστατεύουν από την αφυδάτωση. Χωρίς αλκαλικούς σάπωνες, με ήπιους επιφανειοδραστικούς παράγοντες, ουδέτερο pH για το δέρμα. Το ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+    "claims": [],
+    "highlights": [
+      "Λιπίδια, εφοδιάζουν, λειάνουν και αφήνουν το δέρμα αισθητά πιο απαλό.",
+      "Πανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία, προστατεύει από ερεθισμούς και κοκκινίλες.",
+      "Ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα."
+    ],
+    "attributes": {
+      "Συσκευασία": "400ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Κρεμοντούς. Απαλός καθαρισμός και περιποίηση του δέρματος κατά το ντους.\nΗ Πανθενόλη, φυτικά έλαια και ενυδατικά συστατικά, αφήνουν το δέρμα αισθητά πιο απαλό και προστατεύουν από την αφυδάτωση. Χωρίς αλκαλικούς σάπωνες, με ήπιους επιφανειοδραστικούς παράγοντες, ουδέτερο pH για το δέρμα.\nΤο ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+      "Ενεργά συστατικά": "Λιπίδια, εφοδιάζουν, λειάνουν και αφήνουν το δέρμα αισθητά πιο απαλό.\nΠανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία, προστατεύει από ερεθισμούς και κοκκινίλες.\nΙαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+      "Χαρακτηριστικά": "Χωρίς αλκάλια, σαπούνι, cocamidopropylbetaine",
+      "Χρήση": "Καθημερινή χρήση",
+      "Συστατικά": "Glycine Soja (Soybean) Oil, Laureth-4, MIPA-Laureth Sulfate, Ethylhexyl Stearate, PEG-6 Caprylic/Capric Glycerides, Cocoamide DEA, Laureth-3, Carthamus Tinctorius (Safflower) Seed Oil, Parfum (Fragrance), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Laureth-9, Lactic Acid, Tocopherol, Aqua (Water), Bisabolol, Helianthus Annuus (Sunflower) Seed Oil, Chamomilla Recutita (Matricaria) Flower Extract, Hexyl Cinnamal, Benzyl Salicylate, Linalool, Linalyl Acetate, Citronellol, Terpineol, Geranyl Acetate, Citrus Limon Peel Oil, Limonene"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2026/02/eubos-sensitive-care-shower-cream-refill-400ml-pp-4021354006537-653-fr_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2026/02/eubos-sensitive-care-shower-cream-refill-400ml-pp-4021354006537-653-fr_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2026/02/eubos-sensitive-care-shower-cream-refill-400ml-pp-4021354006537-653-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2026/02/eubos-sensitive-care-shower-cream-refill-400ml-pp-4021354006537-653-back_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/sensitive-shower-cream-refill/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolandcalmrednessrelievingdaycreamspf50": {
+    "name": "Cool & Calm Redness Relieving Day Cream SPF 50+",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΗ ΚΡΕΜΑ ΗΜΕΡΑΣ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Κρέμα ημέρας SPF50+ με καταπραϋντικές ιδιότητες κατά της ροδόχρου ακμής και με αντιγηραντική δράση.",
+    "claims": [
+      "Χωρίς μικροπλαστικά σωματίδια",
+      "Χωρίς σιλικόνες",
+      "Χωρίς mineral oil",
+      "Χωρίς άρωμα"
+    ],
+    "highlights": [
+      "Σύμπλεγμα φυτοδραστικών συστατικών με Ιταλικό αθάνατο, ο οποίος μειώνει ορατά την ερυθρότητα.",
+      "Η Εκτοΐνη προστατεύει τα κύτταρα, αυξάνει την ελαστικότητα του δέρματος και μειώνει την υπερμελάγχρωση."
+    ],
+    "attributes": {
+      "Συσκευασία": "40ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Κρέμα ημέρας SPF50+ με καταπραϋντικές ιδιότητες κατά της ροδόχρου ακμής και με αντιγηραντική δράση.",
+      "Ενεργά συστατικά": "Σύμπλεγμα φυτοδραστικών συστατικών με Ιταλικό αθάνατο, ο οποίος μειώνει ορατά την ερυθρότητα.\nΗ Εκτοΐνη προστατεύει τα κύτταρα, αυξάνει την ελαστικότητα του δέρματος και μειώνει την υπερμελάγχρωση.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς σιλικόνες\nΧωρίς mineral oil\nΧωρίς άρωμα",
+      "Χρήση": "Εφαρμογή το πρωί.",
+      "Συστατικά": "Aqua (Water), C12-15 Alkyl Benzoate, Glycerin, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Triheptanoin, Phenylbenzimidazole Sulfonic Acid, Arginine, Ethylhexyl Triazone, Dibutyl Adipate, CI 77891 (Titanium Dioxide), Potassium Cetyl Phosphate, Cetearyl Alcohol, Hydrogenated Palm Glycerides, Ectoin, Tocopheryl Acetate, Caprylyl Glycol, Panthenol, Diethylhexyl Syringylidenemalonate, Lauroyl Lysine, Sodium Polyphosphate, Sodium Stearoyl Glutamate, Sodium Cetearyl Sulfate, Glyceryl Caprylate, Dipropylene Glycol, Lysolecithin, Sclerotium Gum, Microcrystalline Cellulose, Mica, Xanthan Gum, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Pullulan, Hydrolyzed Algin, Caprylic/Capric Triglyceride, Cellulose Gum, Sodium Citrate, Silica, Sodium Sulfate, Helichrysum Italicum Extract, Sodium Chloride, CI 42051 (Acid Blue 3), CI 77288 (Chromium Oxide Greens)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-kuehl-und-klar-tagescreme-lsf-50-40ml-pvsv-19509781-537-frli-fr_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-kuehl-und-klar-tagescreme-lsf-50-40ml-pvsv-19509781-537-frli-fr_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-kuehl-und-klar-tagescreme-lsf-50-40ml-pvsv-19509781-537-frli-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-cool-and-calm-redness-relieving-day-cream-spf-50-40ml-pp-sp-4021354035377-403537-frle-fr-2.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-cool-and-calm-redness-relieving-day-cream-spf-50-40ml-sp-4021354035377-403537-fr.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-cool-and-calm-redness-relieving-day-cream-spf-50-40ml-sp-4021354035377-403537-le.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-cool-and-calm-redness-relieving-day-cream-spf-50-40ml-sp-4021354035377-403537-back.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-cool-and-calm-redness-relieving-day-cream-spf-50-40ml-sp-4021354035377-403537-ri.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-cool-and-calm-redness-relieving-day-cream-spf-50/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-basiccareskinbalmf": {
+    "name": "Basic Care Skin Balm F",
+    "subtitle": "Λοσιόν περιποίησης",
+    "description": "Λοσιόν περιποίησης, πλούσια σε λιπίδια για ξηρό και πολύ ξηρό δέρμα. Βελτιώνει σημαντικά την απορρόφηση και παρέχει εντατική φροντίδα. Βασικά Συστατικά: Με 30% φυσικά λιπίδια όπως έλαιο Jojoba και Αμυγδάλου. Βελτιώνουν σημαντικά την απορρόφηση και την ευκολία στην εφαρμογή, ενώ προσφέρουν εντατική φροντίδα Ενυδατικά συστατικά ενισχύουν τη λειτουργία του φυσικού φραγμού και προάγουν μια ισορροπημένη ισορροπία υγρασίας.",
+    "claims": [
+      "Χωρίς Μικροπλαστικά",
+      "Χωρίς PEG",
+      "Χωρίς Ορυκτά έλαια",
+      "Χωρίς Σιλικόνες",
+      "Χωρίς Λανολίνη"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Λοσιόν περιποίησης, πλούσια σε λιπίδια για ξηρό και πολύ ξηρό δέρμα. Βελτιώνει σημαντικά την απορρόφηση και παρέχει εντατική φροντίδα.\nΒασικά Συστατικά:\nΜε 30% φυσικά λιπίδια όπως έλαιο Jojoba και Αμυγδάλου. Βελτιώνουν σημαντικά την απορρόφηση και την ευκολία στην εφαρμογή, ενώ προσφέρουν εντατική φροντίδα\nΕνυδατικά συστατικά ενισχύουν τη λειτουργία του φυσικού φραγμού και προάγουν μια ισορροπημένη ισορροπία υγρασίας.",
+      "Χαρακτηριστικά": "Χωρίς Μικροπλαστικά\nΧωρίς PEG\nΧωρίς Ορυκτά έλαια\nΧωρίς Σιλικόνες\nΧωρίς Λανολίνη",
+      "Χρήση": "Καθημερινή χρήση. Επανάληψη όσες φορές απαιτείται.",
+      "Συστατικά": "Aqua (Water), Dicaprylyl Ether, Glycerin, Oleyl Erucate, Cetearyl Ethylhexanoate, Caprylic/Capric Triglyceride, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Silica, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Butylene Glycol, Magnesium Sulfate, Simmondsia Chinensis (Jojoba) Seed Oil, Cera Alba (Beeswax), Hydrogenated Castor Oil, Caprylyl Glycol, Tetrasodium Iminodisuccinate, Potassium Sorbate, Citric Acid, Parfum (Fragrance), Benzyl Alcohol, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-basis-pflege-hautbalsam-f-200ml-pvsv-06306987-303-frli-fr_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-basis-pflege-hautbalsam-f-200ml-pvsv-06306987-303-frli-fr_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-basis-pflege-hautbalsam-f-200ml-pvsv-06306987-303-frli-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/07/eubos-basis-pflege-hautbalsam-f-200ml-pv-06306987-303-fr_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-basic-care-skin-balm-f/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingintensivecream": {
+    "name": "Cool & Calm Redness Relieving Intensive Cream",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΗ ΚΡΕΜΑ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Ιδανική κρέμα νυκτός που παρέχει φροντίδα αναδόμησης με καταπραϋντική δράση για την ευαίσθητη, ξηρή επιδερμίδα.",
+    "claims": [],
+    "highlights": [
+      "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.",
+      "Δραστικό συστατικό synovea DOI, αναπληρώνει τις αποθήκες υγρασίας παρέχοντας ενυδάτωση μακράς διάρκειας.",
+      "Μicrosilver, σταθεροποιεί και ενισχύει τη μικροχλωρίδα.",
+      "Phycosaccharide AIG, προάγει την ανανέωση του δέρματος."
+    ],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Ιδανική κρέμα νυκτός που παρέχει φροντίδα αναδόμησης με καταπραϋντική δράση για την ευαίσθητη, ξηρή επιδερμίδα.",
+      "Ενεργά συστατικά": "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.\nΔραστικό συστατικό synovea DOI, αναπληρώνει τις αποθήκες υγρασίας παρέχοντας ενυδάτωση μακράς διάρκειας.\nΜicrosilver, σταθεροποιεί και ενισχύει τη μικροχλωρίδα.\nPhycosaccharide AIG, προάγει την ανανέωση του δέρματος.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή το βράδυ.",
+      "Συστατικά": "Aqua (Water), Caprylic/Capric Triglyceride, Cetearyl Alcohol, Glycerin, Pentylene Glycol, Isoamyl Laurate, Glyceryl Stearate Citrate, Cetearyl Isononanoate, Prunus Domestica Seed Extract, Panthenol, Isosorbide Dicaprylate, Ectoin, Simmondsia Chinensis (Jojoba) Seed Oil, Tocopheryl Acetate, Rosa Canina Fruit Oil, Xanthan Gum, Sodium Polyphosphate, Magnolia Officinalis Bark Extract, Gellan Gum, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Lactic Acid, Hydrolyzed Algin, Helichrysum Italicum Extract, CI 77820 (Silver)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-pvsv-16917686-542-100085_60-fr-300185_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-pvsv-16917686-542-100085_60-fr-300185_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-pvsv-16917686-542-100085_60-fr-300185_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-pv-16917686-542-100085_60-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-pv-16917686-542-100085_60-rue_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-sv-16917686-542-100085_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-intensivcreme-30ml-sv-16917686-542-100085_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-intensive-cream/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingcccream": {
+    "name": "Cool & Calm Redness Relieving CC Cream",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΗ ΚΡΕΜΑ CC ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Κρέμα ημέρας με χρώμα και δείκτη προστασίας SPF 50+. Χαρίζει λαμπερή και ομοιόμορφη επιδερμίδα.",
+    "claims": [],
+    "highlights": [
+      "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.",
+      "CM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.",
+      "Εκτοΐνη, ενυδατώνει το δέρμα και λειαίνει τις ρυτίδες.",
+      "Phycosaccharide AIG, προάγει την ανανέωση του δέρματος."
+    ],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Κρέμα ημέρας με χρώμα και δείκτη προστασίας SPF 50+. Χαρίζει λαμπερή και ομοιόμορφη επιδερμίδα.",
+      "Ενεργά συστατικά": "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.\nCM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.\nΕκτοΐνη, ενυδατώνει το δέρμα και λειαίνει τις ρυτίδες.\nPhycosaccharide AIG, προάγει την ανανέωση του δέρματος.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή το πρωί απευθείας ή μετά την καθημερινή σας κρέμα ή ορό προσώπου. Χάρη στη σύνθεσή της χωρίς μικροπλαστικά και σιλικόνες, συνιστάται η εφαρμογή της με σφουγγαράκι μακιγιάζ όπου χρειάζεται.",
+      "Συστατικά": "Aqua (Water), Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, C12-15 Alkyl Benzoate, Bis–Ethylhexyloxyphenol Methoxyphenyl Triazine, CI 77891 (Titanium Dioxide), Phenylbenzimidazole Sulfonic Acid, Arginine, Ethylhexyl Triazone, Potassium Cetyl Phosphate, Isopropyl Lauroyl Sarcosinate, Cetearyl Alcohol, Hydrogenated Palm Glycerides, Ectoin, Tocopheryl Acetate, Triheptanoin, Caprylic/Capric Triglyceride, Caprylyl Glycol, Panthenol, Diethylhexyl Syringylidenemalonate, Sodium Stearoyl Glutamate, Lauroyl Lysine, Sodium Polyphosphate, Sodium Cetearyl Sulfate, Dipropylene Glycol, Glyceryl Caprylate, Lysolecithin, Sclerotium Gum, Microcrystalline Cellulose, Hydrogenated Rapeseed Oil, Xanthan Gum, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Pullulan, Sodium Citrate, Hydrolyzed Algin, Cellulose Gum, Silica, Helichrysum Italicum Extract, CI 77491 (Iron Oxides), CI 77492 (Iron Oxides) , CI 77499 (Iron Oxides)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-pvsv-16917692-543-100099_60-fr-300199_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-pvsv-16917692-543-100099_60-fr-300199_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-pvsv-16917692-543-100099_60-fr-300199_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-pv-16917692-543-100099_60-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-pv-16917692-543-100099_60-rue_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-sv-16917692-543-100099_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-sv-16917692-543-100099_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-cc-creme-lsf-50-30ml-sv-16917692-543-100099_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-cc-cream/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingdaycream": {
+    "name": "Cool & Calm Redness Relieving Day Cream",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΗ ΚΡΕΜΑ ΗΜΕΡΑΣ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Mατ κρέμα ημέρας με καταπραϋντικές ιδιότητες κατά της ροδόχρου ακμής και με αντιγηραντική δράση.",
+    "claims": [],
+    "highlights": [
+      "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.",
+      "CM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.",
+      "Πράσινες χρωστικές, δημιουργούν την αίσθηση πιο λείας επιδερμίδας και μειώνουν άμεσα τις ρυτίδες.",
+      "Εκτοΐνη, ενυδατώνει το δέρμα και λειαίνει τις ρυτίδες.",
+      "Ευρέως φάσματος προστασία από την υπεριώδη ακτινοβολία με μεσαίο δείκτη προστασίας SPF 20, με παράλληλη προστασία από το μπλε φως, θωρακίζει το ευαίσθητο δέρμα έναντι της φωτογήρανσης που προκαλεί η έκθεση σε φυσικό ή τεχνητό φως."
+    ],
+    "attributes": {
+      "Συσκευασία": "40ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Mατ κρέμα ημέρας με καταπραϋντικές ιδιότητες κατά της ροδόχρου ακμής και με αντιγηραντική δράση.",
+      "Ενεργά συστατικά": "Φυτο-ενεργό σύμπλεγμα, αναστέλλει τις φλεγμονώδεις διεργασίες, ενισχύει τα αιμοφόρα αγγεία και μειώνει ορατά την ερυθρότητα.\nCM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.\nΠράσινες χρωστικές, δημιουργούν την αίσθηση πιο λείας επιδερμίδας και μειώνουν άμεσα τις ρυτίδες.\nΕκτοΐνη, ενυδατώνει το δέρμα και λειαίνει τις ρυτίδες.\nΕυρέως φάσματος προστασία από την υπεριώδη ακτινοβολία με μεσαίο δείκτη προστασίας SPF 20, με παράλληλη προστασία από το μπλε φως, θωρακίζει το ευαίσθητο δέρμα έναντι της φωτογήρανσης που προκαλεί η έκθεση σε φυσικό ή τεχνητό φως.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή το πρωί.",
+      "Συστατικά": "Aqua (Water), Dibutyl Adipate, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Silica, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Glycerin, Ethylhexyl Triazone, CI 77891 (Titanium Dioxide), Glyceryl Undecylenate, Bis–Ethylhexyloxyphenol Methoxyphenyl Triazine, Glyceryl Stearate, Titanium Dioxide, Cetyl Alcohol, Cetearyl Glucoside, Ectoin, Panthenol, Phenylbenzimidazole Sulfonic Acid, Hydroxyacetophenone, Sodium Stearoyl Glutamate, Xanthan Gum, Glyceryl Glucoside, Sodium Hydroxide, Tocopherol, Bisabolol, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Lecithin, Sclerotium Gum, Tetrasodium Iminodisuccinate, Pullulan, Sodium Sulfate, Helichrysum Italicum Extract, Sodium Chloride, Mica, Tin Oxide, CI 42051 (Acid Blue 3), CI 77288 (Chromium Oxide Greens)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-pvsv-16917717-541-100075_60-fr-300175_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-pvsv-16917717-541-100075_60-fr-300175_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-pvsv-16917717-541-100075_60-fr-300175_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-pv-16917717-541-100075_60-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-pv-16917717-541-100075_60-rue_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-sv-16917717-541-100075_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-sv-16917717-541-100075_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-tagescreme-lsf-20-40ml-sv-16917717-541-100075_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-day-cream/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingserum": {
+    "name": "Cool & Calm Redness Relieving Serum",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΟΣ ΟΡΟΣ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Ορός ταχείας δράσης ειδικά για την αίσθηση καύσου που προκαλείται από την αυξημένη ροή αίματος στην επιδερμίδα, ως αποτέλεσμα των διεσταλμένων αιμοφόρων αγγείων.",
+    "claims": [],
+    "highlights": [
+      "Φυτο-ενεργό σύμπλεγμα, μειώνει σημαντικά την ερυθρότητα στην επιδερμίδα.",
+      "CM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.",
+      "Εκτοΐνη, δρα κατά των εξάψεων σταθεροποιώντας τις κυτταρικές μεμβράνες και τα λιπίδια, μειώνοντας έτσι την επερχόμενη ερυθρότητα.",
+      "Phycosaccharide AIG, προάγει την ανανέωση του δέρματος.",
+      "Εκχύλισμα φλοιού μανόλιας, δρα ως αντιφλεγμονώδης και αντιβακτηριδιακός παράγοντας."
+    ],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Ορός ταχείας δράσης ειδικά για την αίσθηση καύσου που προκαλείται από την αυξημένη ροή αίματος στην επιδερμίδα, ως αποτέλεσμα των διεσταλμένων αιμοφόρων αγγείων.",
+      "Ενεργά συστατικά": "Φυτο-ενεργό σύμπλεγμα, μειώνει σημαντικά την ερυθρότητα στην επιδερμίδα.\nCM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.\nΕκτοΐνη, δρα κατά των εξάψεων σταθεροποιώντας τις κυτταρικές μεμβράνες και τα λιπίδια, μειώνοντας έτσι την επερχόμενη ερυθρότητα.\nPhycosaccharide AIG, προάγει την ανανέωση του δέρματος.\nΕκχύλισμα φλοιού μανόλιας, δρα ως αντιφλεγμονώδης και αντιβακτηριδιακός παράγοντας.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή μετά τον καθαρισμό και με οποιοδήποτε προϊόν περιποίησης.",
+      "Συστατικά": "Aqua (Water), Pentylene Glycol, Glycerin, Polyglyceryl-3 Methylglucose Distearate, Panthenol, Distarch Phosphate, Ectoin, Ethyl Oleate, Vitis Vinifera (Grape) Seed Oil, Xanthan Gum, Microcrystalline Cellulose, Dehydroxanthan Gum, Sodium Polyphosphate, Sodium Stearoyl Glutamate, Magnolia Officinalis Bark Extract, Cellulose Gum, Lactic Acid, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Tocopherol, Hydrolyzed Algin, Helianthus Annuus (Sunflower) Seed Oil, Helichrysum Italicum Extract"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-pvsv-16917700-540-100065_60-fr-300165_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-pvsv-16917700-540-100065_60-fr-300165_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-pvsv-16917700-540-100065_60-fr-300165_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-pv-16917700-540-100065_60-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-pv-16917700-540-100065_60-rue_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-sv-16917700-540-100065_55-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-sv-16917700-540-100065_55-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-serum-30ml-sv-16917700-540-100065_60-fr-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-serum/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingtoner": {
+    "name": "Cool & Calm Redness Relieving Toner",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΗ ΛΟΣΙΟΝ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Toner για βαθύ καθαρισμό προσώπου. Καταπραΰνει τον ερεθισμό και τις κοκκινίλες του δέρματος.",
+    "claims": [],
+    "highlights": [
+      "CM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.",
+      "Πανθενόλη και Αλόη, καταπραΰνουν και ενυδατώνουν το δέρμα.",
+      "Εκτοΐνη, ενυδατώνει το δέρμα, βελτιώνει την υφή του δέρματος και λειαίνει τις ρυτίδες.",
+      "Ολιγοσακχαρίτης α-γλυκάνης bioecolia®, ενισχύει το μικροβιολογικό φραγμό και ρυθμίζει τον όξινο μανδύα του δέρματος."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Toner για βαθύ καθαρισμό προσώπου. Καταπραΰνει τον ερεθισμό και τις κοκκινίλες του δέρματος.",
+      "Ενεργά συστατικά": "CM naringenin chalcone, προστατεύει και εξισορροπεί το προβληματικό δέρμα.\nΠανθενόλη και Αλόη, καταπραΰνουν και ενυδατώνουν το δέρμα.\nΕκτοΐνη, ενυδατώνει το δέρμα, βελτιώνει την υφή του δέρματος και λειαίνει τις ρυτίδες.\nΟλιγοσακχαρίτης α-γλυκάνης bioecolia®, ενισχύει το μικροβιολογικό φραγμό και ρυθμίζει τον όξινο μανδύα του δέρματος.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή μετά τον καθαρισμό με ένα βαμβάκι πριν από κάποιο προϊόν περιποίησης της επιδερμίδας. Ανακινήστε πριν τη χρήση.",
+      "Συστατικά": "Aqua (Water), Pentylene Glycol, Panthenol, Sodium Polyphosphate, Ectoin, Alpha–Glucan Oligosaccharide, Aloe Barbadensis Leaf Juice Powder, Sodium Phytate, Lactic Acid, Dehydroxanthan Gum, Xanthan Gum, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Polyglyceryl-4 Caprate, Polyglyceryl-6 Caprylate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-toner-200ml-pv-18029903-555-000000_00-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-toner-200ml-pv-18029903-555-000000_00-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-toner-200ml-pv-18029903-555-000000_00-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-toner-200ml-pv-18029903-555-000000_00-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-toner/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-coolcalmrednessrelievingcreamcleanser": {
+    "name": "Cool & Calm Redness Relieving Cream Cleanser",
+    "subtitle": "COOL & CALM ΚΑΤΑΠΡΑΫΝΤΙΚΟ ΓΑΛΑΚΤΩΜΑ ΓΙΑ ΤΗΝ ΕΡΥΘΡΟΤΗΤΑ",
+    "description": "Καθαριστικό γαλάκτωμα για επιδερμίδα, ευαίσθητη και με ερυθρότητα. Αφαιρεί εύκολα και το make-up. Έχει ως αποτέλεσμα ένα αισθητά πιο απαλό δέρμα ενώ χαρίζει αίσθηση προστασίας.",
+    "claims": [],
+    "highlights": [
+      "Ήπιοι, χωρίς σάπωνες, καθαριστικοί παράγοντες, επιτρέπουν τον απαλό αλλά σε βάθος καθαρισμό χωρίς να προκαλούν ερεθισμούς στην επιδερμίδα.",
+      "Φυτο-ενεργό σύμπλεγμα, μειώνει σημαντικά την ερυθρότητα στην επιδερμίδα.",
+      "Αλόη, καταπραΰνει και ενυδατώνει το δέρμα.",
+      "Φυσικά υψηλής ποιότητας έλαια, μειώνουν την αίσθηση τραβήγματος και ενισχύουν τον επιδερμικό φραγμό.",
+      "Βισαβολόλη, καταπολεμά τις φλεγμονώδεις διεργασίες ενώ παράλληλα καταπραΰνει."
+    ],
+    "attributes": {
+      "Συσκευασία": "150ml",
+      "Σειρά": "Cool & Calm",
+      "Κατηγορία eubos.gr": "Cool & Calm"
+    },
+    "sections": {
+      "Περιγραφή": "Καθαριστικό γαλάκτωμα για επιδερμίδα, ευαίσθητη και με ερυθρότητα. Αφαιρεί εύκολα και το make-up. Έχει ως αποτέλεσμα ένα αισθητά πιο απαλό δέρμα ενώ χαρίζει αίσθηση προστασίας.",
+      "Ενεργά συστατικά": "Ήπιοι, χωρίς σάπωνες, καθαριστικοί παράγοντες, επιτρέπουν τον απαλό αλλά σε βάθος καθαρισμό χωρίς να προκαλούν ερεθισμούς στην επιδερμίδα.\nΦυτο-ενεργό σύμπλεγμα, μειώνει σημαντικά την ερυθρότητα στην επιδερμίδα.\nΑλόη, καταπραΰνει και ενυδατώνει το δέρμα.\nΦυσικά υψηλής ποιότητας έλαια, μειώνουν την αίσθηση τραβήγματος και ενισχύουν τον επιδερμικό φραγμό.\nΒισαβολόλη, καταπολεμά τις φλεγμονώδεις διεργασίες ενώ παράλληλα καταπραΰνει.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα\nΠροϊόν κατάλληλο για VEGAN",
+      "Χρήση": "Εφαρμογή στο πρόσωπο με τα χέρια ή με βαμβάκι. Στη συνέχεια αφαιρέστε όταν στεγνώσει με ή/και χωρίς χλιαρό νερό.",
+      "Συστατικά": "Aqua (Water), Isoamyl Laurate, Pentylene Glycol, Glycerin, Caprylic/Capric Triglyceride, Polyglyceryl-3 Dicitrate/Stearate, Prunus Domestica Seed Extract, Propanediol Dicaprylate, Panthenol, Simmondsia Chinensis (Jojoba) Seed Oil, Xanthan Gum, Rosa Canina Fruit Oil, Tocopherol, Lecithin, Sclerotium Gum, Sodium Polyphosphate, Pullulan, Helianthus Annuus (Sunflower) Seed Oil, Magnolia Officinalis Bark Extract, Aloe Barbadensis Leaf Juice Powder, Bisabolol, Tetrasodium Tetracarboxymethyl Naringeninchalcone, Lactic Acid, Sodium Cocoyl Glutamate, Silica, Helichrysum Italicum Extract, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_frontleft-1.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_frontleft-1.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_frontleft-1.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-reinigungsmilch-150ml-pv-16917663-544-100135_60-fr_original-1.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/eubos-kuehl-und-klar-anti-roetung-reinigungsmilch-150ml-pv-16917663-544-100135_60-rue_original-1.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_front.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_left.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_back.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/11/Preview_303135_80_ROSA_FS_ReinMilch_150ml_INT_right.png"
+    ],
+    "url": "https://www.eubos.gr/product/cool-calm-redness-relieving-cream-cleanser/",
+    "source": "eubos.gr",
+    "section": "coolcalm",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveultrarepairprotecthandcream": {
+    "name": "Sensitive Ultra Repair & Protect Hand Cream",
+    "subtitle": "Ενυδατική κρέμα για έντονα καταπονημένα χέρια",
+    "description": "Εγγυημένη ανακούφιση για ξηρά και σκασμένα χέρια. Μειώνει άμεσα την αίσθηση τραβήγματος και κνησμού σε τραχιές περιοχές. Ιδιαίτερα κατάλληλο για συχνό πλύσιμο χεριών και για εφαρμογή κάτω από γάντια. Κατάλληλο και για ελαφρά εγκαύματα.",
+    "claims": [],
+    "highlights": [
+      "Ectoin®, αποτρέπει τη βλάβη του δέρματος και των κυττάρων & προάγει την επιδιόρθωση και την αναγέννηση της επιδερμίδας",
+      "MicroSilver, έχει ενισχυτική, ρυθμιστική και σταθεροποιητική δράση στη μικροχλωρίδα του δέρματος",
+      "Πανθενόλη Αλλαντοΐνη, καταπραΰνουν το δέρμα και παρέχουν υγρασία"
+    ],
+    "attributes": {
+      "Συσκευασία": "75ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Εγγυημένη ανακούφιση για ξηρά και σκασμένα χέρια. Μειώνει άμεσα την αίσθηση τραβήγματος και κνησμού σε τραχιές περιοχές. Ιδιαίτερα κατάλληλο για συχνό πλύσιμο χεριών και για εφαρμογή κάτω από γάντια. Κατάλληλο και για ελαφρά εγκαύματα.",
+      "Ενεργά συστατικά": "Ectoin®, αποτρέπει τη βλάβη του δέρματος και των κυττάρων & προάγει την επιδιόρθωση και την αναγέννηση της επιδερμίδας\nMicroSilver, έχει ενισχυτική, ρυθμιστική και σταθεροποιητική δράση στη μικροχλωρίδα του δέρματος\nΠανθενόλη Αλλαντοΐνη, καταπραΰνουν το δέρμα και παρέχουν υγρασία",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς PEG\nΧωρίς ορυκτέλαια\nΧωρίς σιλικόνες\nΧωρίς άρωμα",
+      "Χρήση": "Εφαρμογή πολλές φορές την ημέρα με μασάζ.",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Cetearyl Ethylhexanoate, Propylheptyl Caprylate, Sorbitol, Butyrospermum Parkii (Shea) Butter, Amaranthus Caudatus Seed Oil, Ectoin, Panthenol, Sodium Cetearyl Sulfate, Tocopheryl Acetate, Hydroxyacetophenone, Lactic Acid, Allantoin, 1,2-Hexanediol, Caprylyl Glycol, Sodium Polyphosphate, Bisabolol, Hamamelis Virginiana Leaf Extract, Hydrolyzed Algin, Maris Aqua (Sea Water), Chlorella Vulgaris Extract, Tocopherol, CI 77820 (Silver)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/06/eubos-sensitive-care-ultra-repair-protect-75ml-pp-4021354034400-403440-fr_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/06/eubos-sensitive-care-ultra-repair-protect-75ml-pp-4021354034400-403440-fr_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/06/eubos-sensitive-care-ultra-repair-protect-75ml-pp-4021354034400-403440-fr_2.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-ultra-repair-protect-hand-cream/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitivesolidwashingbar": {
+    "name": "Sensitive Solid Washing Bar",
+    "subtitle": "Πλάκα Καθαρισμού Για Ευαίσθητο Δέρμα",
+    "description": "Ήπιος, καθημερινός καθαρισμός της ευαίσθητης επιδερμίδας αντί σαπουνιού, χωρίς άρωμα, με ουδέτερο pH ως προς το δέρμα. Διατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και ένα ειδικό σύμπλεγμα με πανθενόλη και αλλαντοΐνη. Προστατεύει από την αφυδάτωση. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι ή προβληματικό δέρμα.",
+    "claims": [
+      "0% Mικροπλαστικά",
+      "Χωρίς άρωμα",
+      "Xωρίς σάπωνες και αλκάλια",
+      "Δερματολογικά ελεγμένο"
+    ],
+    "highlights": [
+      "Ισορροπημένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό καθαρισμό.",
+      "Οι Πανθενόλη και Αλλαντοΐνη ανακουφίζουν από ερεθισμούς, βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία και υποστηρίζουν την αναγέννηση της επιδερμίδας."
+    ],
+    "attributes": {
+      "Συσκευασία": "125g",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ήπιος, καθημερινός καθαρισμός της ευαίσθητης επιδερμίδας αντί σαπουνιού, χωρίς άρωμα, με ουδέτερο pH ως προς το δέρμα.\nΔιατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και ένα ειδικό σύμπλεγμα με πανθενόλη και αλλαντοΐνη.\nΠροστατεύει από την αφυδάτωση. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι ή προβληματικό δέρμα.",
+      "Ενεργά συστατικά": "Ισορροπημένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό καθαρισμό.\nΟι Πανθενόλη και Αλλαντοΐνη ανακουφίζουν από ερεθισμούς, βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία και υποστηρίζουν την αναγέννηση της επιδερμίδας.",
+      "Χαρακτηριστικά": "0% Mικροπλαστικά\nΧωρίς άρωμα\nXωρίς σάπωνες και αλκάλια\nΔερματολογικά ελεγμένο",
+      "Συστατικά": "Disodium Lauryl Sulfosuccinate , Sodium Coco-Sulfate , Triticum Vulgare (Wheat) Starch , Cetearyl Alcohol , Hydrogenated Palm Glycerides , Aqua (Water) , PEG-15 Glyceryl Isostearate , Citric Acid , Lauryl PCA , Glyceryl Stearate , Panthenol , Allantoin , Polyquaternium-10 , CI 77891 (Titanium Dioxide)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2021/07/eubos-sensitive-care-solid-washing-bar-125g-ppsp-4021354030044-403004-frle-fr-_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2021/07/eubos-sensitive-care-solid-washing-bar-125g-ppsp-4021354030044-403004-frle-fr-_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2021/07/eubos-sensitive-care-solid-washing-bar-125g-ppsp-4021354030044-403004-frle-fr-_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2021/07/eubos-sensitive-pflege-fest-waschstueck-sensitive-125g-pv-08818154-004-fr.png"
+    ],
+    "url": "https://www.eubos.gr/product/sensitive-solid-washing-bar/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-basiceubosredliquidwashingemulsion": {
+    "name": "Basic Red Liquid Washing Emulsion 200ml",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, με φρέσκο άρωμα. Τα ήπια επι-φανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος. Επίσης, κατάλληλο για δυ-σανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς. Οι κυριότεροι",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Με υποαλλεργικό άρωμα"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.",
+      "— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.",
+      "— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, με φρέσκο άρωμα.\nΤα ήπια επι-φανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος.\nΕπίσης, κατάλληλο για δυ-σανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα.\nΗ συχνή χρήση καταπραΰνει τους ερεθισμούς.\nΟι κυριότεροι",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.\n— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.\n— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΜε υποαλλεργικό άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο, όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua (Water), Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Sodium Benzoate, Tetrasodium Iminodisuccinate, Potassium Sorbate, Tocopheryl Acetate, Benzoic Acid, Parfum (Fragrance), Terpineol, CI 14720 (Acid Red 14)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basic-care-liquid-washing-emulsion-red-200ml-ppsp-4021354031515-403151-500802_60-fr-303604_560-frle-int_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basic-care-liquid-washing-emulsion-red-200ml-ppsp-4021354031515-403151-500802_60-fr-303604_560-frle-int_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basic-care-liquid-washing-emulsion-red-200ml-ppsp-4021354031515-403151-500802_60-fr-303604_560-frle-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-200ml-pv-02474771-151-500802_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-200ml-pv-02474771-151-500802_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basic-care-liquid-washing-emulsion-red-200ml-sp-4021354031515-403151-303604_60-frle-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2021/05/eubos-basic-care-liquid-washing-emulsion-red-200ml-sp-4021354031515-403151-303604_60-back-int_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/basic-eubos-red-liquid-washing-emulsion/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-liquidredrefill": {
+    "name": "Basic Red Liquid Washing Emulsion Refill",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Καθαρίζει αποτελεσματικά, χωρίς να αφυδατώνει την επιδερμίδα όπως το κοινό σαπούνι και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας. Η ουδέτερη σύνθεσή του με 6 % Amphoacetate (μη ιονικό και αμφοτερικό επιφανειοδραστικό), καθαρίζει απαλά, ενώ διατηρεί τη φυσική βιόσφαιρα του δέρματος. Ο φυσικός ενυδατικός παράγοντας Sodium PCA ενυδατώνει σε βάθος, ενώ η Αλλαντοΐνη προστατεύει το δέρμα. Ιδανικό για τον καθημερινό καθαρισμό της επιδερμίδας Καθαρίζει σε βάθος χωρίς να βλάπτει τον υδρολιπιδικό μανδύα της επιδερμίδας Αφαιρεί ρύπους, λιπαρότητα και τα νεκρά κύτταρα Προστατεύει τη φυσική βιόσφαιρα του δέρματος",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Με υποαλλεργικό άρωμα"
+    ],
+    "highlights": [
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "400ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Καθαρίζει αποτελεσματικά, χωρίς να αφυδατώνει την επιδερμίδα όπως το κοινό σαπούνι και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας. Η ουδέτερη σύνθεσή του με 6 % Amphoacetate (μη ιονικό και αμφοτερικό επιφανειοδραστικό), καθαρίζει απαλά, ενώ διατηρεί τη φυσική βιόσφαιρα του δέρματος. Ο φυσικός ενυδατικός παράγοντας Sodium PCA ενυδατώνει σε βάθος, ενώ η Αλλαντοΐνη προστατεύει το δέρμα.\nΙδανικό για τον καθημερινό καθαρισμό της επιδερμίδας\nΚαθαρίζει σε βάθος χωρίς να βλάπτει τον υδρολιπιδικό μανδύα της επιδερμίδας\nΑφαιρεί ρύπους, λιπαρότητα και τα νεκρά κύτταρα\nΠροστατεύει τη φυσική βιόσφαιρα του δέρματος",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΜε υποαλλεργικό άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο , όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua (Water), Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Sodium Benzoate, Tetrasodium Iminodisuccinate, Potassium Sorbate, Tocopheryl Acetate, Benzoic Acid, Parfum (Fragrance), Terpineol, CI 14720 (Acid Red 14)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347070-158-100812_60-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347070-158-100812_60-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347070-158-100812_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347070-158-100812_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-liquid-red-refill/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-liquidbluerefill": {
+    "name": "Basic Blue Liquid Washing Emulsion Refill",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Καθαρίζει αποτελεσματικά, χωρίς να αφυδατώνει την επιδερμίδα όπως το κοινό σαπούνι και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας. Η ουδέτερη σύνθεσή του με 6 % Amphoacetate (μη ιονικό και αμφοτερικό επιφανειοδραστικό), καθαρίζει απαλά, ενώ διατηρεί τη φυσική βιόσφαιρα του δέρματος. Ο φυσικός ενυδατικός παράγοντας Sodium PCA ενυδατώνει σε βάθος, ενώ η Αλλαντοΐνη προστατεύει το δέρμα. Ιδανικό για τον καθημερινό καθαρισμό της επιδερμίδας Καθαρίζει σε βάθος χωρίς να βλάπτει τον υδρολιπιδικό μανδύα της επιδερμίδας Αφαιρεί ρύπους, λιπαρότητα και τα νεκρά κύτταρα Προστατεύει τη φυσική βιόσφαιρα του δέρματος",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς άρωμα"
+    ],
+    "highlights": [
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "400ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Καθαρίζει αποτελεσματικά, χωρίς να αφυδατώνει την επιδερμίδα όπως το κοινό σαπούνι και προστατεύει τον υδρολιπιδικό μανδύα της επιδερμίδας. Η ουδέτερη σύνθεσή του με 6 % Amphoacetate (μη ιονικό και αμφοτερικό επιφανειοδραστικό), καθαρίζει απαλά, ενώ διατηρεί τη φυσική βιόσφαιρα του δέρματος. Ο φυσικός ενυδατικός παράγοντας Sodium PCA ενυδατώνει σε βάθος, ενώ η Αλλαντοΐνη προστατεύει το δέρμα.\nΙδανικό για τον καθημερινό καθαρισμό της επιδερμίδας\nΚαθαρίζει σε βάθος χωρίς να βλάπτει τον υδρολιπιδικό μανδύα της επιδερμίδας\nΑφαιρεί ρύπους, λιπαρότητα και τα νεκρά κύτταρα\nΠροστατεύει τη φυσική βιόσφαιρα του δέρματος",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΧωρίς άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο , όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua, Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Potassium Sorbate, Tocopheryl Acetate, Sodium Benzoate, Benzoic Acid, C.I. 42051, C.I. 14720"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347064-108-100811_60-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347064-108-100811_60-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347064-108-100811_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/11/eubos-basis-pflege-fluessig-wasch-dusch-nachfuellbeutel-ecolabel-400ml-pv-06347064-108-100811_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-liquid-blue-refill/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-basiceubossolidwashingbar": {
+    "name": "Basic Solid Washing Bar Blue",
+    "subtitle": "Στερεή Πλακά Καθαρισμού Προσώπου & Σώματος",
+    "description": "Ήπιος, καθημερινός καθαρισμός της επιδερμίδας, αντί σαπουνιού, χωρίς άρωμα και με ουδέτερο pH. Διατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και παράγοντες που προσφέρουν προστασία όπως η αλλαντοΐνη. Δεν προκαλεί αλκαλικό οίδημα στην επιδερμίδα. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα.",
+    "claims": [
+      "Ουδέτερο pH",
+      "Χωρίς συντηρητικά",
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς άρωμα",
+      "Χωρίς μικροπλαστικά"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό και βαθύ καθαρισμό.",
+      "— Γλυκερίνη αυξάνει την ενυδάτωση της επιδερμίδας.",
+      "— Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "125g",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Ήπιος, καθημερινός καθαρισμός της επιδερμίδας, αντί σαπουνιού, χωρίς άρωμα και με ουδέτερο pH.\nΔιατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και παράγοντες που προσφέρουν προστασία όπως η αλλαντοΐνη.\nΔεν προκαλεί αλκαλικό οίδημα στην επιδερμίδα. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα.",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό και βαθύ καθαρισμό.\n— Γλυκερίνη αυξάνει την ενυδάτωση της επιδερμίδας.\n— Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Ουδέτερο pH\nΧωρίς συντηρητικά\nΧωρίς αλκαλικούς σάπωνες\nΧωρίς άρωμα\nΧωρίς μικροπλαστικά",
+      "Συστατικά": "Disodium Lauryl Sulfosuccinate, Sodium Coco-Sulfate, Triticum Vulgare (Wheat) Starch, Cetearyl Alcohol , Paraffin , Aqua (Water), PEG-6 Caprylic/Capric Glycerides, Sodium Lauroyl Glutamate, Glycerin, Aluminium Triformate, Sodium Hydroxide, Allantoin, Polyquaternium-10, Titanium Dioxide, Sodium Polynaphthalenesulfonate, CI 74160 (Pigment Blue 15)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-125g-ppsp-403003-4021354030037-3-fr-frle-pp-ri-int_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-125g-ppsp-403003-4021354030037-3-fr-frle-pp-ri-int_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-125g-ppsp-403003-4021354030037-3-fr-frle-pp-ri-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-blue-125g-pp-4021354030037-403003-003HF1_50-fr-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-125g-sp-4021354030037-403003-fr-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-125g-sp-4021354030037-403003-back-int_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/basic-eubos-solid-washing-bar/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-basiceubosblueliquidwashingemulsion": {
+    "name": "Basic Blue Liquid Washing Emulsion 200ml",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, χωρίς άρωμα. Τα ήπια επιφανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς. Οι κυριότεροι",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς άρωμα"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.",
+      "— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.",
+      "— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, χωρίς άρωμα.\nΤα ήπια επιφανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος.\nΕπίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς.\nΟι κυριότεροι",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.\n— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.\n— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΧωρίς άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο , όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua, Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Potassium Sorbate, Tocopheryl Acetate, Sodium Benzoate, Benzoic Acid, C.I. 42051, C.I. 14720"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-pvsv-02261532-101-500800_60-fr-300603_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-pvsv-02261532-101-500800_60-fr-300603_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-pvsv-02261532-101-500800_60-fr-300603_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-pv-02261532-101-500800_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-pv-02261532-101-500800_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-sv-02261532-101-500800_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-sv-02261532-101-500800_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2024/12/eubos-basis-pflege-fluessig-wasch-dusch-200ml-sv-02261532-101-500800_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/basic-eubos-blue-liquid-washing-emulsion/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-solidblue400ml": {
+    "name": "Basic Blue Liquid Washing Emulsion 400ml",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, χωρίς άρωμα. Τα ήπια επιφανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς. Οι κυριότεροι",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς άρωμα"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.",
+      "— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.",
+      "— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "400ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, χωρίς άρωμα.\nΤα ήπια επιφανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος.\nΕπίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς.\nΟι κυριότεροι",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.\n— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.\n— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΧωρίς άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο , όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua, Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Potassium Sorbate, Tocopheryl Acetate, Sodium Benzoate, Benzoic Acid, C.I. 42051, C.I. 14720"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-basis-pflege-fluessig-wasch-dusch-mit-dosierspender-400ml-pvsv-06306993-106-frli-fr_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-basis-pflege-fluessig-wasch-dusch-mit-dosierspender-400ml-pvsv-06306993-106-frli-fr_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-basis-pflege-fluessig-wasch-dusch-mit-dosierspender-400ml-pvsv-06306993-106-frli-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-basis-pflege-fluessig-wasch-dusch-mit-dosierspender-400ml-pv-06306993-106-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-basis-pflege-fluessig-wasch-dusch-mit-dosierspender-400ml-sv-06306993-106-fr_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-solid-blue400ml/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-dryskinchildrencream": {
+    "name": "Dry Skin Children Cream",
+    "subtitle": "Ενυδατική Κρέμα Σώματος",
+    "description": "Πλούσια φροντίδα για την αποκατάσταση της τραχύτητας σε σημεία του σώματος όπως αγκώνες και γόνατα. Αυξάνει διαρκώς και εντατικά το περιεχόμενο υγρασίας της επιδερμίδας. Με 10% έλαιο evening primrose, αλλαντοΐνη και 3% πανθενόλη. Συμβάλλει στην προστασία του επιδερμικού φραγμού. Ανακουφίζει από τη φαγούρα. Το εκχύλισμα St. John’s wort και η βισαβολόλη καταπραΰνουν και προστατεύουν από τους ερεθισμούς.",
+    "claims": [
+      "Χωρίς parabens, PEG, ορυκτέλαιο",
+      "Χωρίς άρωμα",
+      "Xωρίς μικροπλαστικά",
+      "Χωρίς ορυκτελαια"
+    ],
+    "highlights": [
+      "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.",
+      "Αλλαντοΐνη και πανθενόλη ενισχύουν την αναγέννηση, καταπραΰνουν από τους ερεθισμούς και βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Dry Skin Children",
+      "Κατηγορία eubos.gr": "Dry Skin Children"
+    },
+    "sections": {
+      "Περιγραφή": "Πλούσια φροντίδα για την αποκατάσταση της τραχύτητας σε σημεία του σώματος όπως αγκώνες και γόνατα.\nΑυξάνει διαρκώς και εντατικά το περιεχόμενο υγρασίας της επιδερμίδας.\nΜε 10% έλαιο evening primrose, αλλαντοΐνη και 3% πανθενόλη. Συμβάλλει στην προστασία του επιδερμικού φραγμού.\nΑνακουφίζει από τη φαγούρα. Το εκχύλισμα St. John’s wort και η βισαβολόλη καταπραΰνουν και προστατεύουν από τους ερεθισμούς.",
+      "Ενεργά συστατικά": "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.\nΑλλαντοΐνη και πανθενόλη ενισχύουν την αναγέννηση, καταπραΰνουν από τους ερεθισμούς και βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, ορυκτέλαιο\nΧωρίς άρωμα\nXωρίς μικροπλαστικά\nΧωρίς ορυκτελαια",
+      "Χρήση": "Καθημερινή χρήση 1-2 φορές",
+      "Συστατικά": "Aqua (Water) , Oenothera Biennis (Evening Primrose) Oil , Dicaprylyl Ether , Glycerin , Cetearyl Ethylhexanoate , Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate , Panthenol , Tocopheryl Acetate , Magnesium Sulfate , Hydrogenated Vegetable Oil , Butylene Glycol , Hypericum Perforatum Flower/Stem/Leaf Extract , Hydrogenated Castor Oil , Allantoin , Urea , Phenethyl Alcohol , p-Anisic Acid , Bisabolol , Cera Alba (Beeswax) , Sodium Phytate , Tocopherol , Sodium Hydroxide , Glycine Soja (Soybean) Oil , Lactic Acid , Citric Acid , Ascorbyl Palmitate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-pvsv-05133295-801-100860_60-fr-300638_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-pvsv-05133295-801-100860_60-fr-300638_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-pvsv-05133295-801-100860_60-fr-300638_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-pv-05133295-801-000000_00-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-pv-05133295-801-000000_00-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-sv-05133295-801-300638_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-sv-05133295-801-300638_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-creme-50ml-sv-05133295-801-300638_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-dry-skin-children-cream/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-dryskinchildrenfacecream": {
+    "name": "Dry Skin Children Face Cream",
+    "subtitle": "Ενυδατική Κρέμα Προσώπου",
+    "description": "Δερματολογική φροντίδα ενδυνάμωσης για το τρυφερό, ευαίσθητο δέρμα των μωρών και των παιδιών. Καταπραΰνει ερεθισμούς και φαγούρα. Αυξάνει σταδιακά το περιεχόμενο ενυδάτωσης. Το 6% έλαιο evening primrose και το έλαιο echium σταθεροποιούν τον διαταραγμένο δερματικό φραγμό. Το εκχύλισμα Cardiospermum αντιμετωπίζει τους ερεθισμούς και τις φλεγμονές.",
+    "claims": [
+      "Χωρίς parabens, PEG, ορυκτέλαιο",
+      "Χωρίς άρωμα",
+      "Χωρίς σιλικόνη",
+      "Χωρίς μικροπλαστικά"
+    ],
+    "highlights": [
+      "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.",
+      "Shea butter, βιταμίνη E και πανθενόλη προωθούν την καλή ενυδάτωση του δέρματος."
+    ],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Dry Skin Children",
+      "Κατηγορία eubos.gr": "Dry Skin Children"
+    },
+    "sections": {
+      "Περιγραφή": "Δερματολογική φροντίδα ενδυνάμωσης για το τρυφερό, ευαίσθητο δέρμα των μωρών και των παιδιών.\nΚαταπραΰνει ερεθισμούς και φαγούρα. Αυξάνει σταδιακά το περιεχόμενο ενυδάτωσης. Το 6% έλαιο evening primrose και το έλαιο echium σταθεροποιούν τον διαταραγμένο δερματικό φραγμό. Το εκχύλισμα Cardiospermum αντιμετωπίζει τους ερεθισμούς και τις φλεγμονές.",
+      "Ενεργά συστατικά": "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.\nShea butter, βιταμίνη E και πανθενόλη προωθούν την καλή ενυδάτωση του δέρματος.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, ορυκτέλαιο\nΧωρίς άρωμα\nΧωρίς σιλικόνη\nΧωρίς μικροπλαστικά",
+      "Χρήση": "Καθημερινή χρήση κάνοντας μασάζ σε καθαρό δέρμα",
+      "Συστατικά": "Aqua (Water) , Oenothera Biennis (Evening Primrose) Oil , Glycerin , Pentylene Glycol , Prunus Amygdalus Dulcis (Sweet Almond) Oil , Simmondsia Chinensis (Jojoba) Seed Oil , Pentaerythrityl Distearate , Glyceryl Stearate , Butyrospermum Parkii (Shea) Butter , Octyldodecanol , Betaine , Potassium Cetyl Phosphate , Tocopheryl Acetate , Panthenol , Hydrogenated Palm Glycerides , Xanthan Gum , Allantoin , Echium Plantagineum Seed Oil , Bisabolol , Lecithin , Sclerotium Gum , Tocopherol , Pullulan , Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables , Ascorbyl Palmitate , Glycine Soja (Soybean) Oil , Cardiospermum Halicacabum Flower/Leaf/Vine Extract , Sodium Hydroxide , Silica"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-pvsv-05967445-803-100869_60-fr-300642_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-pvsv-05967445-803-100869_60-fr-300642_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-pvsv-05967445-803-100869_60-fr-300642_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-pv-05967445-803-000000_00-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-pv-05967445-803-000000_00-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-sv-05967445-803-300642_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-sv-05967445-803-300642_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-gesichtscreme-30ml-sv-05967445-803-300642_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-dry-skin-children-face-cream/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-dryskinchildrenlotion": {
+    "name": "Dry Skin Children Lotion",
+    "subtitle": "Ενυδατική Λοσιόν",
+    "description": "Λοσιόν που καταπραΰνει εντατικά, με 6% έλαιο evening primrose για την καθημερινή περιποίηση του παιδικού και βρεφικού ευαίσθητου δέρματος. Ενισχύει την προστασία του επιδερμικού φραγμού και ανακουφίζει από τη φαγούρα. Με το εκχύλισμα St. John’s wort και βισαβολόλη, που διαθέτουν καταπραϋντική και αντιφλεγμονώδη δράση.",
+    "claims": [
+      "Χωρίς parabens, PEG, ορυκτέλαιο",
+      "Χωρίς άρωμα",
+      "Χωρίς μικροπλαστικά",
+      "Χωρίς σιλικόνη"
+    ],
+    "highlights": [
+      "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.",
+      "Έλαια αμυγδάλου και jojoba θρέφουν και προστατεύουν.",
+      "Αλλαντοΐνη και πανθενόλη ενισχύουν την αναγέννηση, καταπραΰνουν τους ερεθισμούς και βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "125ml",
+      "Σειρά": "Dry Skin Children",
+      "Κατηγορία eubos.gr": "Dry Skin Children"
+    },
+    "sections": {
+      "Περιγραφή": "Λοσιόν που καταπραΰνει εντατικά, με 6% έλαιο evening primrose για την καθημερινή περιποίηση του παιδικού και βρεφικού ευαίσθητου δέρματος.\nΕνισχύει την προστασία του επιδερμικού φραγμού και ανακουφίζει από τη φαγούρα.\nΜε το εκχύλισμα St. John’s wort και βισαβολόλη, που διαθέτουν καταπραϋντική και αντιφλεγμονώδη δράση.",
+      "Ενεργά συστατικά": "Έλαιο evening primrose, πλούσιο σε ωμέγα-6 λιπαρά οξέα, ενισχύει την προστασία του επιδερμικού φραγμού, αποτρέπει την απώλεια υγρασίας και ανακουφίζει το ατοπικό δέρμα.\nΈλαια αμυγδάλου και jojoba θρέφουν και προστατεύουν.\nΑλλαντοΐνη και πανθενόλη ενισχύουν την αναγέννηση, καταπραΰνουν τους ερεθισμούς και βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, ορυκτέλαιο\nΧωρίς άρωμα\nΧωρίς μικροπλαστικά\nΧωρίς σιλικόνη",
+      "Χρήση": "Καθημερινή χρήση κάνοντας μασάζ σε καθαρό δέρμα",
+      "Συστατικά": "Aqua (Water) , Glycerin , Oenothera Biennis (Evening Primrose) Oil , Pentylene Glycol , Prunus Amygdalus Dulcis (Sweet Almond) Oil , Simmondsia Chinensis (Jojoba) Seed Oil , Pentaerythrityl Distearate , Panthenol , Glyceryl Stearate , Butyrospermum Parkii (Shea) Butter , Betaine , Potassium Cetyl Phosphate , Tocopheryl Acetate , Hydrogenated Palm Glycerides , Butylene Glycol , Hypericum Perforatum Flower/Leaf/Stem Extract , Allantoin , Xanthan Gum , Caprylyl Glycol , Bisabolol , Arginine , Sodium Stearoyl Glutamate , Lactic Acid , Tocopherol , Lecithin , Sclerotium Gum , Pullulan , Ascorbyl Palmitate , Glycine Soja (Soybean) Oil , Helianthus Annuus (Sunflower) Seed Oil , Rosmarinus Officinalis (Rosemary Leaf) Extract , Silica"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-pvsv-05133303-802-100861_60-fr-300639_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-pvsv-05133303-802-100861_60-fr-300639_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-pvsv-05133303-802-100861_60-fr-300639_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-pv-05133303-802-000000_00-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-pv-05133303-802-00000_00-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-sv-05133303-802-300639_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-sv-05133303-802-300639_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-lotion-125ml-sv-05133303-802-300639_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-dry-skin-children-lotion/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-dryskinchildrencleansinggel": {
+    "name": "Dry Skin Children Cleansing Gel",
+    "subtitle": "Υγρό Kαθαρισμού Για Δέρμα & Μαλλιά",
+    "description": "Ιδιαίτερα απαλό υγρό καθαρισμού για το ευαίσθητο δέρμα και τα λεπτά μαλλιά μωρών και παιδιών. Με μέταλλα της θάλασσας και aloe vera που καταπραΰνουν και συστατικά φιλικά προς το δέρμα που το εφοδιάζουν με λιπίδια. Με ουδέτερο pH για το δέρμα, που συμβάλλει στη διατήρηση του φυσικού όξινου μανδύα. Το φυσικό έλαιο λεβάντας καταπραΰνει και ηρεμεί το δέρμα.",
+    "claims": [
+      "Χωρίς Μικροπλαστικά",
+      "Χωρίς PEG",
+      "Χωρίς σιλικόνη",
+      "Χωρίς Ορυκτέλαια"
+    ],
+    "highlights": [
+      "Aloe vera gel, ενυδατώνει και καταπραΰνει το δέρμα, προστατεύει από ερεθισμούς και κοκκινίλες.",
+      "Φιλικά προς το δέρμα λιπίδια, φυτικής προέλευσης, εφοδιάζουν το δέρμα και προστατεύουν από την αφυδάτωση.",
+      "Μέταλλα της θάλασσας, πλούσια σε ιχνοστοιχεία, αυξάνουν τα επίπεδα υγρασίας και καταπραΰνουν το δέρμα"
+    ],
+    "attributes": {
+      "Συσκευασία": "125ml",
+      "Σειρά": "Dry Skin Children",
+      "Κατηγορία eubos.gr": "Dry Skin Children"
+    },
+    "sections": {
+      "Περιγραφή": "Ιδιαίτερα απαλό υγρό καθαρισμού για το ευαίσθητο δέρμα και τα λεπτά μαλλιά μωρών και παιδιών.\nΜε μέταλλα της θάλασσας και aloe vera που καταπραΰνουν και συστατικά φιλικά προς το δέρμα που το εφοδιάζουν με λιπίδια. Με ουδέτερο pH για το δέρμα, που συμβάλλει στη διατήρηση του φυσικού όξινου μανδύα. Το φυσικό έλαιο λεβάντας καταπραΰνει και ηρεμεί το δέρμα.",
+      "Ενεργά συστατικά": "Aloe vera gel, ενυδατώνει και καταπραΰνει το δέρμα, προστατεύει από ερεθισμούς και κοκκινίλες.\nΦιλικά προς το δέρμα λιπίδια, φυτικής προέλευσης, εφοδιάζουν το δέρμα και προστατεύουν από την αφυδάτωση.\nΜέταλλα της θάλασσας, πλούσια σε ιχνοστοιχεία, αυξάνουν τα επίπεδα υγρασίας και καταπραΰνουν το δέρμα",
+      "Χαρακτηριστικά": "Χωρίς Μικροπλαστικά\nΧωρίς PEG\nΧωρίς σιλικόνη\nΧωρίς Ορυκτέλαια",
+      "Χρήση": "Καθημερινή χρήση",
+      "Συστατικά": "Aqua (Water), Sorbitol, Disodium Cocoamphodiacetate, Glycerin, Decyl Glucoside, Sodium Chloride, Sodium Lactate, Sodium Lauroyl Sarcosinate, Lactic Acid, Coco-Glucoside, Glyceryl Oleate, Maris Sal (Sea Salt), p-Anisic Acid, Tetrasodium Iminodisuccinate, Citric Acid, Aloe Barbadensis Leaf Juice Powder, Lavandula Angustifolia (Lavender) Oil, Sodium Hydroxide, Tocopherol, Hydrogenated Vegetable Glycerides Citrate, Linalool, Linalyl Acetate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-cleansing-gel-skin-hair-125ml_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-cleansing-gel-skin-hair-125ml_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-cleansing-gel-skin-hair-125ml_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-haut-ruhe-waschgel-haut-haar-125ml-pv-06728984-804-fr-e1788208393282.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-dry-skin-children-cleansing-gel/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-omega12facecream": {
+    "name": "Omega 12% Face Cream",
+    "subtitle": "12% OMEGA KPEMA ΠPOΣΩΠOY",
+    "description": "Ενυδατική κρέμα προσώπου. Προστασία και καταπράυνση για το ξηρό, ευαίσθητο με τάση για ερυθρότητα και έκζεμα δέρμα. Πολύτιμα φυσικά έλαια εφοδιάζουν το δέρμα με όλα τα OMEGA λιπαρά οξέα. Υψηλής ποιότητας",
+    "claims": [
+      "Χωρίς paraben, PEG",
+      "Χωρίς λανολίνη, σιλικόνη, ορυκτέλαιο"
+    ],
+    "highlights": [
+      "Οι κύριοι ενεργοί παράγοντες:",
+      "CELLIGENT® και RADICARE® προστατεύουν τα κύτταρα και το DNA και παγιδεύουν τις ελεύθερες ρίζες.",
+      "TRIMOISTTM KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας.",
+      "DEFENSIL® καταπραΰνει άμεσα το ερεθισμένο και κοκκινισμένο δέρμα, προστατεύει και αναζωογονεί το δερματικό φραγμό αποτελεσματικά"
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Omega",
+      "Κατηγορία eubos.gr": "Omega"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική κρέμα προσώπου. Προστασία και καταπράυνση για το ξηρό, ευαίσθητο με τάση για ερυθρότητα και έκζεμα δέρμα.\nΠολύτιμα φυσικά έλαια εφοδιάζουν το δέρμα με όλα τα OMEGA λιπαρά οξέα.\nΥψηλής ποιότητας",
+      "Ενεργά συστατικά": "Οι κύριοι ενεργοί παράγοντες:\nCELLIGENT® και RADICARE® προστατεύουν τα κύτταρα και το DNA και παγιδεύουν τις ελεύθερες ρίζες.\nTRIMOISTTM KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας.\nDEFENSIL® καταπραΰνει άμεσα το ερεθισμένο και κοκκινισμένο δέρμα, προστατεύει και αναζωογονεί το δερματικό φραγμό αποτελεσματικά",
+      "Χαρακτηριστικά": "Χωρίς paraben, PEG\nΧωρίς λανολίνη, σιλικόνη, ορυκτέλαιο",
+      "Χρήση": "Εφαρμόζετε τακτικά και κάνετε απαλό μασάζ",
+      "Συστατικά": "Aqua (Water), Oenothera Biennis (Evening Primrose) Oil, Carthamus Tinctorius (Safflower) Seed Oil, Glycerin, Butyrospermum Parkii (Shea) Butter, Olea Europaea (Olive) Fruit Oil, Neopentyl Glycol Diheptanoate, Polyglyceryl-3 Methylglucose Distearate, Octyldodecanol, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate, Stearyl Alcohol, Linum Usitatissimum (Linseed) Seed Oil, Panthenol, Phenoxyethanol, Tocopheryl Acetate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Echium Plantagineum Seed Oil, Tetrasodium Iminodisuccinate, Olus Oil (Vegetable Oil), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Xanthan Gum, Benzoic Acid, Sodium Stearoyl Lactylate, Sodium Lactate, Dehydroacetic Acid, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Rosmarinus Officinalis (Rosemary Leaf) Extract, Polyglyceryl-5 Trioleate, Ethyl Ferulate, Cetyl Alcohol, Potassium Hydroxide, Ethylhexylglycerin, Sodium Carboxymethyl Betaglucan, Cardiospermum Halicacabum Flower/Leaf/Vine Extract, Glycine Soja/Glycine Soja (Soybean) Sterols, Sodium Benzoate, Tocopherol, Carnosine, Lactic Acid, Melissa Officinalis Leaf Extract, Hordeum Distichon (Barley) Extract, Disodium Rutinyl Disulfate, Disodium Uridine Phosphate, Citric Acid, Parfum (Fragrance)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-pvsv-07392894-462-100890_60-fr-300652_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-pvsv-07392894-462-100890_60-fr-300652_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-pvsv-07392894-462-100890_60-fr-300652_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-pv-07392894-462-100890_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-pv-07392894-462-100890_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-sv-07392894-462-300652_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-sv-07392894-462-300652_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/03/eubos-omega-12-rescue-12omega-gesichtscreme-50ml-sv-07392894-462-300652_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/omega-12-facecream/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureawashinglotion": {
+    "name": "Urea 5% Washing Lotion",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "5% UREA YΓPO ΣΑΠOYNI Υγρό καθαρισμού που αναπληρώνει τα λιπίδια, ιδανικό για καθημερινή χρήση. Διατηρεί τη φυσική προστατευτική λειτουργία της επιδερμίδας. Περιέχει καταπραϋντικούς παράγοντες, δυναμωτικά θαλάσσια μεταλλικά ιχνοστοιχεία και 5% ΟΥΡΙΑ. Συγκρατεί αποτελεσματικά την υγρασία και απαλύνει την επιδερμίδα. Προστατεύει από την αφυδάτωση, μειώνει την αίσθηση τραβήγματος και τον κνησμό. Οι επιλεγμένοι ενεργοί καθαριστικοί παράγοντες διατηρούν τη φυσική προστατευτική λειτουργία της επιδερμίδας. Τα φυτικά λιπίδια που σχετίζονται με την επιδερμίδα διασφαλίζουν τη διαδικασία αναπλήρωσης τους. Προδιαγραφές: Χωρίς άρωμα Χωρίς paraben, PEG Χωρίς ορυκτέλαιο",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "5% UREA YΓPO ΣΑΠOYNI\nΥγρό καθαρισμού που αναπληρώνει τα λιπίδια, ιδανικό για καθημερινή χρήση.\nΔιατηρεί τη φυσική προστατευτική λειτουργία της επιδερμίδας. Περιέχει καταπραϋντικούς παράγοντες, δυναμωτικά θαλάσσια μεταλλικά ιχνοστοιχεία και 5% ΟΥΡΙΑ.\nΣυγκρατεί αποτελεσματικά την υγρασία και απαλύνει την επιδερμίδα. Προστατεύει από την αφυδάτωση, μειώνει την αίσθηση τραβήγματος και τον κνησμό.\nΟι επιλεγμένοι ενεργοί καθαριστικοί παράγοντες διατηρούν τη φυσική προστατευτική λειτουργία της επιδερμίδας.\nΤα φυτικά λιπίδια που σχετίζονται με την επιδερμίδα διασφαλίζουν τη διαδικασία αναπλήρωσης τους.\nΠροδιαγραφές:\nΧωρίς άρωμα\nΧωρίς paraben, PEG\nΧωρίς ορυκτέλαιο",
+      "Χαρακτηριστικά": "Χωρίς άρωμα, parabens, PEG, ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση. Κατάλληλο και για τα παιδιά",
+      "Συστατικά": "Aqua (Water) , Disodium Cocoamphodiacetate , Sorbitol , Glycerin , Urea , Decyl Glucoside , Sodium Chloride , Inulin , Lactic Acid , Coco-Glucoside , Glyceryl Oleate , Sodium Lauroyl Sarcosinate , Sodium Lactate , Disodium Cocoyl Glutamate , Triacetin , Maris Sal (Sea Salt) , Sodium Cocoyl Glutamate , Tetrasodium Iminodisuccinate , Citric Acid , Tocopherol , Hydrogenated Palm Glycerides Citrate , Silica"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-pvsv-03679498-758-500820_60-fr-300614_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-pvsv-03679498-758-500820_60-fr-300614_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-pvsv-03679498-758-500820_60-fr-300614_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-pv-03679498-758-500820_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-pv-03679498-758-500820_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-sv-03679498-758-300614_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-sv-03679498-758-300614_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-waschlotion-200ml-sv-03679498-758-300614_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-washing-lotion/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureashampoo": {
+    "name": "Urea 5% Shampoo",
+    "subtitle": "5% UREA ΣΑMΠΟΥAN",
+    "description": "Ειδικός συνδυασμός ενεργών συστατικών που εξασφαλίζουν τον ήπιο καθαρισμό και τη φροντίδα του ξηρού, πολύ ξηρού τριχωτού της κεφαλής. Ο ενυδατικός παράγοντας ΟΥΡΙΑ 5% και τα στοιχεία της θάλασσας θρέφουν και προστατεύουν από την αφυδάτωση. Η Πανθενόλη και η Ολιγοφρουκτόζη βελτιώνουν την όψη και την αντοχή των μαλλιών.",
+    "claims": [],
+    "highlights": [
+      "ΟΥΡΙΑ 5% και Γλυκερίνη αυξάνουν την ενυδάτωση.",
+      "— Μέταλλα της θάλασσας, πλούσια σε ιχνοστοιχεία, προστατεύουν από την ξηρότητα.",
+      "— Πανθενόλη και Ολιγοφρουκτόζη καταπραΰνουν, βελτιώνουν την όψη και την αντοχή των μαλλιών."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "Ειδικός συνδυασμός ενεργών συστατικών που εξασφαλίζουν τον ήπιο καθαρισμό και τη φροντίδα του ξηρού, πολύ ξηρού τριχωτού της κεφαλής. Ο ενυδατικός παράγοντας ΟΥΡΙΑ 5% και τα στοιχεία της θάλασσας θρέφουν και προστατεύουν από την αφυδάτωση. Η Πανθενόλη και η Ολιγοφρουκτόζη βελτιώνουν την όψη και την αντοχή των μαλλιών.",
+      "Ενεργά συστατικά": "ΟΥΡΙΑ 5% και Γλυκερίνη αυξάνουν την ενυδάτωση.\n— Μέταλλα της θάλασσας, πλούσια σε ιχνοστοιχεία, προστατεύουν από την ξηρότητα.\n— Πανθενόλη και Ολιγοφρουκτόζη καταπραΰνουν, βελτιώνουν την όψη και την αντοχή των μαλλιών.",
+      "Χαρακτηριστικά": "Χωρίς άρωμα, parabens, PEG, ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση. Κατάλληλο και για τα παιδιά",
+      "Συστατικά": "Aqua (Water), Sodium Laureth Sulfate, Glycerin, Urea, Disodium Cocoampho-diacetate, Inulin, Sodium Chloride, Disodium Cocoyl Glutamate, Panthenol, Coco-Glucoside, Glyceryl Oleate, Lactic Acid, Sodium Lactate, Maris Sal (Sea Salt), Triacetin Polyquater-nium-10, Sodium Cocoyl Glutamate, PEG-18 Glyceryl Oleate/Cocoate, Potassium Sorbate, Citric Acid, Tocopherol, Hydrogenated Vegetable Glycerides Citrate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-pvsv-03679481-757-100850_60-fr-300619_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-pvsv-03679481-757-100850_60-fr-300619_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-pvsv-03679481-757-100850_60-fr-300619_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-pv-03679481-757-100850_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-pv-03679481-757-100850_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-sv-03679481-757-300619_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-sv-03679481-757-300619_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-shampoo-200ml-sv-03679481-757-300619_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-shampoo/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-urealiporeapairlotion": {
+    "name": "Urea 10% Lipo Repair Body Lotion",
+    "subtitle": "10% UREA ΕΝΤΑΤΙΚΗ ΦΡΟΝΤΙΔΑ",
+    "description": "Πλούσια Ενυδατική Κρέμα Σώματος. Καταπραϋντική φροντίδα για την εξαιρετικά ξηρή, με φολίδες επιδερμίδα. Πλούσιο γαλάκτωμα (Ν/Ε) με ΟΥΡΙΑ 10% και Γλυκερίνη. Καταπραΰνει την φαγούρα, απαλύνει σημαντικά το δέρμα. Αυξάνει αποδεδειγμένα το περιεχόμενο της επιδερμίδας σε υγρασία. Το Αμυγδαλέλαιο και επιλεγμένα έλαια από εστέρες παρέχουν στο δέρμα σημαντικά λιπίδια. Η Αλλαντοΐνη ανακουφίζει από τους ερεθισμούς.",
+    "claims": [
+      "Χωρίς paraben, PEG",
+      "Χωρίς ορυκτέλαιο"
+    ],
+    "highlights": [
+      "10% ΟΥΡΙΑ και Γλυκερίνη αυξάνουν την ενυδάτωση.",
+      "Αμυγδαλέλαιο, πλούσιο σε ακόρεστα, απαραίτητα λιπαρά οξέα, εξισορροπεί το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, προλαμβάνοντας την απολέπιση και την ξηρότητα.",
+      "Αλλαντοΐνη καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασίαΣυνοδευτική περιποίηση της ατοπικής δερματίτιδας και της ψωρίασης."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "Πλούσια Ενυδατική Κρέμα Σώματος.\nΚαταπραϋντική φροντίδα για την εξαιρετικά ξηρή, με φολίδες επιδερμίδα. Πλούσιο γαλάκτωμα (Ν/Ε) με ΟΥΡΙΑ 10% και Γλυκερίνη. Καταπραΰνει την φαγούρα, απαλύνει σημαντικά το δέρμα. Αυξάνει αποδεδειγμένα το περιεχόμενο της επιδερμίδας σε υγρασία. Το Αμυγδαλέλαιο και επιλεγμένα έλαια από εστέρες παρέχουν στο δέρμα σημαντικά λιπίδια. Η Αλλαντοΐνη ανακουφίζει από τους ερεθισμούς.",
+      "Ενεργά συστατικά": "10% ΟΥΡΙΑ και Γλυκερίνη αυξάνουν την ενυδάτωση.\nΑμυγδαλέλαιο, πλούσιο σε ακόρεστα, απαραίτητα λιπαρά οξέα, εξισορροπεί το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, προλαμβάνοντας την απολέπιση και την ξηρότητα.\nΑλλαντοΐνη καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασίαΣυνοδευτική περιποίηση της ατοπικής δερματίτιδας και της ψωρίασης.",
+      "Χαρακτηριστικά": "Χωρίς paraben, PEG\nΧωρίς ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση, Προτιμάται για βραδινή χρήση",
+      "Συστατικά": "Aqua (Water), Olea Europaea (Olive) Fruit Oil, Urea, Glycerin, Butyrospermum Parkii (Shea) Butter, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Citric Acid, Cetearyl Alcohol, Neopentyl Glycol Diheptanoate, Sodium Hydroxide, Lactic Acid, Arachidyl Alcohol, Dimethicone, Alpha-Glucan Oligosaccharide, Cetearyl Glucoside, Silybum Marianum Ethyl Ester, Behenyl Alcohol, Sclerotium Gum, Arachidyl Glucoside, Caprylyl Glycol, Allantoin, Xanthan Gum, p-Anisic Acid, Linalool, Tocopherol, Parfum (Fragrance)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-pvsv-03447641-754-500818_60-fr-300613_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-pvsv-03447641-754-500818_60-fr-300613_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-pvsv-03447641-754-500818_60-fr-300613_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-pv-03447641-754-500818_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-pv-03447641-754-500818_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-sv-03447641-754-300613_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-sv-03447641-754-300613_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-koerperlotion-200ml-sv-03447641-754-300613_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-lipo-reapair-lotion/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureahydroreapairlotion": {
+    "name": "Urea 10% Hydro Repair Body Lotion",
+    "subtitle": "Ενυδατική Λοσιόν Σώματος",
+    "description": "Ενυδατική Λοσιόν Σώματος. Ενυδατική λοσιόν σώματος κατάλληλη για το τραχύ, σκασμένο δέρμα με προβλήματα κνησμού. Προσφέρει ισχυρή ενυδάτωση. Γρήγορα απορρoφούμενο γαλάκτωμα (Ε/Ν) με ΟΥΡΙΑ 10% και Γλυκερίνη που βελτιώνει την ενυδάτωση και συμβάλλει στην απομάκρυνση των νεκρών κυττάρων της επιδερμίδας. Με ευχάριστο άρωμα.",
+    "claims": [
+      "Χωρίς Paraben, PEG",
+      "Χωρίς Oρυκτέλαιο",
+      "Χωρίς Μικροπλαστικά",
+      "Χωρίς Λανολίνη"
+    ],
+    "highlights": [
+      "ΟΥΡΙΑ 10% και Γλυκερίνη αυξάνουν την ενυδάτωση.",
+      "Ελαιόλαδο και Αμυγδαλέλαιο ενισχύουν τον δερματικό φραγμό.",
+      "Shea butter προσφέρει εντατική ενυδάτωση, ηρεμεί και καταπραΰνει την επιδερμίδα, ανακουφίζοντας την φαγούρα."
+    ],
+    "attributes": {
+      "Συσκευασία": "150ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική Λοσιόν Σώματος. Ενυδατική λοσιόν σώματος κατάλληλη για το τραχύ, σκασμένο δέρμα με προβλήματα κνησμού. Προσφέρει ισχυρή ενυδάτωση. Γρήγορα απορρoφούμενο γαλάκτωμα (Ε/Ν) με ΟΥΡΙΑ 10% και Γλυκερίνη που βελτιώνει την ενυδάτωση και συμβάλλει στην απομάκρυνση των νεκρών κυττάρων της επιδερμίδας. Με ευχάριστο άρωμα.",
+      "Ενεργά συστατικά": "ΟΥΡΙΑ 10% και Γλυκερίνη αυξάνουν την ενυδάτωση.\nΕλαιόλαδο και Αμυγδαλέλαιο ενισχύουν τον δερματικό φραγμό.\nShea butter προσφέρει εντατική ενυδάτωση, ηρεμεί και καταπραΰνει την επιδερμίδα, ανακουφίζοντας την φαγούρα.",
+      "Χαρακτηριστικά": "Χωρίς Paraben, PEG\nΧωρίς Oρυκτέλαιο\nΧωρίς Μικροπλαστικά\nΧωρίς Λανολίνη",
+      "Χρήση": "Καθημερινή χρήση με επαναλήψεις, Προτιμάται για πρωινή χρήση\nΚατάλληλο και για τα παιδιά.",
+      "Συστατικά": "Aqua (Water), Olea Europaea (Olive) Fruit Oil, Urea, Glycerin, Butyrospermum Parkii (Shea) Butter, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Citric Acid, Cetearyl Alcohol, Neopentyl Glycol Diheptanoate, Sodium Hydroxide, Lactic Acid, Arachidyl Alcohol, Dimethicone, Alpha-Glucan Oligosaccharide, Cetearyl Glucoside, Silybum Marianum Ethyl Ester, Behenyl Alcohol, Sclerotium Gum, Arachidyl Glucoside, Caprylyl Glycol, Allantoin, Xanthan Gum, p-Anisic Acid, Tocopherol, Parfum (Fragrance), Linalool, Acetyl Cedrene, Linalyl Acetate, Terpineol"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-pvsv-09683532-761-100918_60-fr-300628_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-pvsv-09683532-761-100918_60-fr-300628_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-pvsv-09683532-761-100918_60-fr-300628_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-pv-09683532-761-100918_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-pv-09683532-761-100918_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-sv-09683532-761-300628_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-sv-09683532-761-300628_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-hydro-repair-lotion-150ml-sv-09683532-761-300628_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-hydro-reapair-lotion/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureahandcream": {
+    "name": "Urea 5% Hand Cream",
+    "subtitle": "5% UREA KPEMA XEPIΩΝ",
+    "description": "Εντατική φροντίδα για το εξαιρετικά ξηρό, τραχύ και σκασμένο δέρμα των χεριών. Γρήγορα απορρoφούμενο, μη λιπαρό γαλάκτωμα (Ε/Ν) για καθημερινή χρήση. Προσφέρει στην επιδερμίδα ενυδάτωση μακράς διάρκειας και πολύτιμα λιπίδια. Προωθεί την ανανέωση των κυττάρων και αναζωογονεί. Μετά από μερικές εφαρμογές, ακόμα και τα πολύ ξηρά χέρια γίνονται ορατά πιο απαλά, χωρίς αίσθηση λιπαρότητας.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Χωρίς paraben, PEG",
+      "Χωρίς ορυκτέλαιο"
+    ],
+    "highlights": [
+      "OYPIA 5% και Γλυκερίνη που αυξάνουν την ενυδάτωση.",
+      "— Πανθενόλη, Βιταμίνη Ε και Αλλαντοΐνη που βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "— Shea butter που προσφέρει εντατική ενυδάτωση, ηρεμεί και καταπραΰνει την επιδερμίδα, ανακουφίζοντας την φαγούρα."
+    ],
+    "attributes": {
+      "Συσκευασία": "75ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "Εντατική φροντίδα για το εξαιρετικά ξηρό, τραχύ και σκασμένο δέρμα των χεριών. Γρήγορα απορρoφούμενο, μη λιπαρό γαλάκτωμα (Ε/Ν) για καθημερινή χρήση. Προσφέρει στην επιδερμίδα ενυδάτωση μακράς διάρκειας και πολύτιμα λιπίδια. Προωθεί την ανανέωση των κυττάρων και αναζωογονεί. Μετά από μερικές εφαρμογές, ακόμα και τα πολύ ξηρά χέρια γίνονται ορατά πιο απαλά, χωρίς αίσθηση λιπαρότητας.",
+      "Ενεργά συστατικά": "OYPIA 5% και Γλυκερίνη που αυξάνουν την ενυδάτωση.\n— Πανθενόλη, Βιταμίνη Ε και Αλλαντοΐνη που βελτιώνουν την ικανότητα του δέρματος να συγκρατεί την υγρασία.\n— Shea butter που προσφέρει εντατική ενυδάτωση, ηρεμεί και καταπραΰνει την επιδερμίδα, ανακουφίζοντας την φαγούρα.",
+      "Χαρακτηριστικά": "Χωρίς άρωμα\nΧωρίς paraben, PEG\nΧωρίς ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση, με έμφαση στις περιοχές μεταξύ των δακτύλων",
+      "Συστατικά": "Aqua (Water), Cetearyl Alcohol, Glycerin, Cetearyl Ethylhexanoate, Urea, Citric Acid, Butyrospermum Parkii (Shea) Butter, Sorbitol, Niacinamide, Dicaprylyl Carbonate, Sodium Hydroxide, Dimethicone, Sodium Cetearyl Sulfate, Phenoxyethanol, Panthenol, Tocopheryl Acetate, Lactic Acid, Allantoin, Tocopherol"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/EUBOS-UREA-5-HAND-CREAM-75-ml.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/EUBOS-UREA-5-HAND-CREAM-75-ml.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/EUBOS-UREA-5-HAND-CREAM-75-ml.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/EUBOS-UREA-5-HAND-CREAM-75-ml_2-1.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/EUBOS-UREA-5-HAND-CREAM-75-ml_3.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-hand-cream/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureafootcream": {
+    "name": "Urea 10% Foot Cream",
+    "subtitle": "10% Urea Kρέμα Ποδιών.",
+    "description": "Κρέμα Ποδιών. Εντατική φροντίδα για το εξαιρετικά ξηρό, σκληρό και σκασμένο δέρμα των ποδιών. Γρήγορα απορρoφούμενο γαλάκτωμα (Ε/Ν) με ΟΥΡΙΑ 10%. Σε συνδυασμό με την Γλυκερίνη, βελτιώνει την ενυδάτωση της επιδερμίδας και λειαίνει τα ανώτερα στρώματα του δέρματος. Μειώνει κάλους και σκληρύνσεις και εμποδίζει τον επανασχηματισμό τους. Βελτιώνει αισθητά την κατάσταση του δέρματος.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Χωρίς paraben, PEG"
+    ],
+    "highlights": [
+      "ΟΥΡΙΑ 10% και Γλυκερίνη αυξάνουν την ενυδάτωση.",
+      "Έλαιο Macadamia, που απορροφάται γρήγορα, ενισχύοντας τον δερματικό φραγμό και προσφέροντας βελούδινη και απαλή αίσθηση στην επιδερμίδα.",
+      "Αλλαντοΐνη, που καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "100ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "Κρέμα Ποδιών. Εντατική φροντίδα για το εξαιρετικά ξηρό, σκληρό και σκασμένο δέρμα των ποδιών.\nΓρήγορα απορρoφούμενο γαλάκτωμα (Ε/Ν) με ΟΥΡΙΑ 10%. Σε συνδυασμό με την Γλυκερίνη, βελτιώνει την ενυδάτωση της επιδερμίδας και λειαίνει τα ανώτερα στρώματα του δέρματος. Μειώνει κάλους και σκληρύνσεις και εμποδίζει τον επανασχηματισμό τους.\nΒελτιώνει αισθητά την κατάσταση του δέρματος.",
+      "Ενεργά συστατικά": "ΟΥΡΙΑ 10% και Γλυκερίνη αυξάνουν την ενυδάτωση.\nΈλαιο Macadamia, που απορροφάται γρήγορα, ενισχύοντας τον δερματικό φραγμό και προσφέροντας βελούδινη και απαλή αίσθηση στην επιδερμίδα.\nΑλλαντοΐνη, που καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς άρωμα\nΧωρίς paraben, PEG",
+      "Χρήση": "Καθημερινή χρήση, με έμφαση στις περιοχές μεταξύ των δακτύλων.\nΕφαρμόζετε πρωί και βράδυ σε καθαρά και στεγνά πόδια. Κάνετε απαλό μασάζ, ιδιαίτερα στα σημεία που εμφανίζεται έντονη κερατινοποίηση (πτέρνες).",
+      "Συστατικά": "Aqua (Water), Urea, Cetearyl Alcohol, Dicaprylyl Ether, Glycerin, Sodium Citrate, Caprylic/Capric Triglyceride, Macadamia Integrifolia Seed Oil, Propanediol Dicaprylate, Glyceryl Stearate, Cetearyl Glucoside, Lactic Acid, Isopropyl Lauroyl Sarcosinate, Caprylyl Glycol, Potassium Cetyl Phosphate, Sodium Cetearyl Sulfate, Allantoin, Xanthan Gum, p-Anisic Acid"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-pvsv-03447871-755-100847_60-fr-300618_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-pvsv-03447871-755-100847_60-fr-300618_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-pvsv-03447871-755-100847_60-fr-300618_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-pv-03447871-755-100847_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-pv-03447871-755-100847_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-sv-03447871-755-300618_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-sv-03447871-755-300618_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-10urea-fusscreme-100ml-sv-03447871-755-300618_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-foot-cream/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-ureafacecream": {
+    "name": "Urea 5% Face Cream",
+    "subtitle": "Κρέμα Προσώπου",
+    "description": "5% UREA KPEMA ΠPOΣΩΠOY Πολύτιμη ενυδάτωση για το ξηρό, τεταμένο δέρμα του προσώπου. Ελαφρύ γαλάκτωμα, που απορροφάται γρήγορα με 5% ΟΥΡΙΑ. Αυξάνει σημαντικά την ενυδάτωση. Το πολύτιμο έλαιο Macadamia μειώνει την αίσθηση τραβήγματος, προστατεύει και θρέφει. Για πιο απαλό και ομοιόμορφο δέρμα.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Χωρίς paraben, PEG",
+      "Χωρίς ορυκτέλαιο"
+    ],
+    "highlights": [
+      "5% ΟΥΡΙΑ και Γλυκερίνη αυξάνουν την ενυδάτωση.",
+      "Έλαιο Macadamia, απορροφάται γρήγορα, απαλύνει, ενδυναμώνει τον δερματικό φραγμό και αφήνει μια βελούδινη υφή στην επιδερμίδα.",
+      "Αλλαντοΐνη ενισχύει την ανανέωση των κυττάρων, καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Προδιαγραφές:",
+      "Χωρίς άρωμα",
+      "Χωρίς paraben, PEG",
+      "Χωρίς ορυκτέλαιο",
+      "Συστατικά:",
+      "Aqua | Urea | Cetearyl Alcohol | Hydrogenated Polydecene | Cyclomethicone | Macadamia Ternifolia Seed Oil | Caprylic/Capric Triglyceride | Citric Acid | Glycerin | Sodium Hydroxide | Cetyl Alcohol | Glyceryl Stearate | Cetearyl Glucoside | Lactic Acid | Dimethicone | Allantoin | Potassium Cetyl Phosphate | p-Anisic Acid | Benzyl Alcohol | Caprylyl Glycol | Xanthan Gum",
+      "Καθημερινή χρήση πρωί και βράδυ",
+      "Συσκευασία:"
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Urea",
+      "Κατηγορία eubos.gr": "Urea"
+    },
+    "sections": {
+      "Περιγραφή": "5% UREA KPEMA ΠPOΣΩΠOY\nΠολύτιμη ενυδάτωση για το ξηρό, τεταμένο δέρμα του προσώπου. Ελαφρύ γαλάκτωμα, που απορροφάται γρήγορα με 5% ΟΥΡΙΑ.\nΑυξάνει σημαντικά την ενυδάτωση. Το πολύτιμο έλαιο Macadamia μειώνει την αίσθηση τραβήγματος, προστατεύει και θρέφει.\nΓια πιο απαλό και ομοιόμορφο δέρμα.",
+      "Ενεργά συστατικά": "5% ΟΥΡΙΑ και Γλυκερίνη αυξάνουν την ενυδάτωση.\nΈλαιο Macadamia, απορροφάται γρήγορα, απαλύνει, ενδυναμώνει τον δερματικό φραγμό και αφήνει μια βελούδινη υφή στην επιδερμίδα.\nΑλλαντοΐνη ενισχύει την ανανέωση των κυττάρων, καταπραΰνει τους ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.\nΠροδιαγραφές:\nΧωρίς άρωμα\nΧωρίς paraben, PEG\nΧωρίς ορυκτέλαιο\nΣυστατικά:\nAqua | Urea | Cetearyl Alcohol | Hydrogenated Polydecene | Cyclomethicone | Macadamia Ternifolia Seed Oil | Caprylic/Capric Triglyceride | Citric Acid | Glycerin | Sodium Hydroxide | Cetyl Alcohol | Glyceryl Stearate | Cetearyl Glucoside | Lactic Acid | Dimethicone | Allantoin | Potassium Cetyl Phosphate | p-Anisic Acid | Benzyl Alcohol | Caprylyl Glycol | Xanthan Gum\nΧρήση:\nΚαθημερινή χρήση πρωί και βράδυ\nΣυσκευασία:\n50ml",
+      "Χαρακτηριστικά": "Χωρίς άρωμα\nΧωρίς paraben, PEG\nΧωρίς ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση πρωί & βράδυ",
+      "Συστατικά": "Aqua , Urea , Cetearyl Alcohol , Hydrogenated Polydecene , Cyclomethicone , Macadamia Ternifolia Seed Oil , Caprylic/Capric Triglyceride , Citric Acid , Glycerin , Sodium Hydroxide , Cetyl Alcohol , Glyceryl Stearate , Cetearyl Glucoside , Lactic Acid , Dimethicone , Allantoin , Potassium Cetyl Phosphate , p-Anisic Acid , Benzyl Alcohol , Caprylyl Glycol , Xanthan Gum"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-pvsv-04401397-752-100842_60-fr-300616_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-pvsv-04401397-752-100842_60-fr-300616_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-pvsv-04401397-752-100842_60-fr-300616_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-pv-04401397-752-100842_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-pv-04401397-752-100842_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-sv-04401397-752-300616_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-sv-04401397-752-300616_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-urea-intensive-care-5urea-nachtcreme-50ml-sv-04401397-752-300616_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-urea-face-cream/",
+    "source": "eubos.gr",
+    "section": "urea",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveshoweroilf": {
+    "name": "Sensitive Shower Oil F",
+    "subtitle": "Ελαιώδες Καθαριστικό Σώματος",
+    "description": "Ελαιώδες Ντους. Θρέφει και προστατεύει την επιδερμίδα κατά την διάρκεια του ντους. Καθαρίζει ήπια και αναπληρώνει τα χαμένα λιπίδια της επιδερμίδας. Ειδικά σχεδιασμένο για τις ανάγκες της ευαίσθητης, ξηρής επιδερμίδας. Καταπραΰνει και ανακουφίζει από την φαγούρα. Τα θρεπτικά έλαια ενισχύουν τον δερματικό φραγμό. Δεν περιέχει αλκαλικούς σάπωνες, με ουδέτερο pH προς το δέρμα.",
+    "claims": [
+      "Χωρίς αλκάλια, σαπούνι",
+      "Χωρίς cocamidopropylbetaine"
+    ],
+    "highlights": [
+      "Έλαια Σόγιας, Αμυγδάλου και Κνήκου, πλούσια σε ακόρεστα, απαραίτητα λιπαρά οξέα, βελτιώνουν το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, εμποδίζοντας την τραχύτητα και την ξηρότητα.",
+      "Εκχύλισμα Χαμομηλιού καταπραΰνει την επιδερμίδα, ενώ εμποδίζει τους ερεθισμούς και τις φλεγμονές."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ελαιώδες Ντους. Θρέφει και προστατεύει την επιδερμίδα κατά την διάρκεια του ντους.\nΚαθαρίζει ήπια και αναπληρώνει τα χαμένα λιπίδια της επιδερμίδας.\nΕιδικά σχεδιασμένο για τις ανάγκες της ευαίσθητης, ξηρής επιδερμίδας.\nΚαταπραΰνει και ανακουφίζει από την φαγούρα. Τα θρεπτικά έλαια ενισχύουν τον δερματικό φραγμό.\nΔεν περιέχει αλκαλικούς σάπωνες, με ουδέτερο pH προς το δέρμα.",
+      "Ενεργά συστατικά": "Έλαια Σόγιας, Αμυγδάλου και Κνήκου, πλούσια σε ακόρεστα, απαραίτητα λιπαρά οξέα, βελτιώνουν το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, εμποδίζοντας την τραχύτητα και την ξηρότητα.\nΕκχύλισμα Χαμομηλιού καταπραΰνει την επιδερμίδα, ενώ εμποδίζει τους ερεθισμούς και τις φλεγμονές.",
+      "Χαρακτηριστικά": "Χωρίς αλκάλια, σαπούνι\nΧωρίς cocamidopropylbetaine",
+      "Χρήση": "Καθημερινή χρήση",
+      "Συστατικά": "Glycine Soja (Soybean) Oil, Laureth-4, MIPA-Laureth Sulfate, Ethylhexyl Stearate, PEG-6 Caprylic/Capric Glycerides, Cocoamide DEA, Laureth-3, Carthamus Tinctorius (Safflower) Seed Oil, Parfum (Fragrance), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Laureth-9, Lactic Acid, Tocopherol, Aqua (Water), Bisabolol, Helianthus Annuus (Sunflower) Seed Oil, Chamomilla Recutita (Matricaria) Flower Extract, Hexyl Cinnamal, Benzyl Salicylate, Linalool, Linalyl Acetate, Citronellol, Terpineol, Geranyl Acetate, Citrus Limon Peel Oil, Limonene"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-pvsv-08419796-655-500814_60-fr-300609_60-frli-pv-re-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-pvsv-08419796-655-500814_60-fr-300609_60-frli-pv-re-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-pvsv-08419796-655-500814_60-fr-300609_60-frli-pv-re-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-pv-08419796-655-500814_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-pv-08419796-655-500814_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-sv-08419796-655-300609_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-sv-08419796-655-300609_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-duschoel-200ml-sv-08419796-655-300609_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-shower-oil-f/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveshampoo": {
+    "name": "Sensitive Shampoo Dermo-protective",
+    "subtitle": "Σαμπουάν για Ευαίσθητη Επιδερμίδα",
+    "description": "Σαμπουάν για ευαίσθητα και ξηρά μαλλιά. Ο ήπιος συνδυασμός επιφανειοδραστικών ουσιών με ενυδατικούς παράγοντες καθαρίζει απαλά και προσεκτικά τα μαλλιά και το τριχωτό της κεφαλής και ενισχύει τη λειτουργία του φραγμού. Το ενεργό συστατικό keralogisches και οι πρωτεϊνες σίτου, επιδιορθώνουν τις κατεστραμμένες δομές της τρίχας, ενώ βελτιώνουν την όψη των μαλλιών. Τα μαλλιά αποκτούν λάμψη και όγκο. Τα φυσικά λιπίδια συμβάλλουν στην ενίσχυση του ξηρού δέρματος, χωρίς να βαραίνουν τα μαλλιά. Η Πανθενόλη, η Γλυκερίνη και το ιαματικό νερό Salies-de–Béarn καταπραΰνουν την ευαίσθητη επιδερμίδα. Καθαρίζει απαλά αλλά σε βάθος μαλλιά και το τριχωτό της κεφαλής Αυξάνει τον όγκο των μαλλιών Βελτιώνει την ενυδάτωση και αποκαθιστά την ξηρότητα που προκαλείται από το χτένισμα Προσφέρει φυσική λάμψη και ελαστικότητα Με διακριτικό υποαλλεργικό άρωμα",
+    "claims": [
+      "Χωρίς paraben",
+      "Χωρίς λανολίνη"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "150ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Σαμπουάν για ευαίσθητα και ξηρά μαλλιά. Ο ήπιος συνδυασμός επιφανειοδραστικών ουσιών με ενυδατικούς παράγοντες καθαρίζει απαλά και προσεκτικά τα μαλλιά και το τριχωτό της κεφαλής και ενισχύει τη λειτουργία του φραγμού. Το ενεργό συστατικό keralogisches και οι πρωτεϊνες σίτου, επιδιορθώνουν τις κατεστραμμένες δομές της τρίχας, ενώ βελτιώνουν την όψη των μαλλιών. Τα μαλλιά αποκτούν λάμψη και όγκο. Τα φυσικά λιπίδια συμβάλλουν στην ενίσχυση του ξηρού δέρματος, χωρίς να βαραίνουν τα μαλλιά. Η Πανθενόλη, η Γλυκερίνη και το ιαματικό νερό Salies-de–Béarn καταπραΰνουν την ευαίσθητη επιδερμίδα.\nΚαθαρίζει απαλά αλλά σε βάθος μαλλιά και το τριχωτό της κεφαλής\nΑυξάνει τον όγκο των μαλλιών\nΒελτιώνει την ενυδάτωση και αποκαθιστά την ξηρότητα που προκαλείται από το χτένισμα\nΠροσφέρει φυσική λάμψη και ελαστικότητα\nΜε διακριτικό υποαλλεργικό άρωμα",
+      "Χαρακτηριστικά": "Χωρίς paraben\nΧωρίς λανολίνη",
+      "Χρήση": "Πλύνετε και ξεπλύνετε τα μαλλιά σας καθημερινά ή ανάλογα με τις ανάγκες. Συνιστάται επίσης για λεπτά και κατεστραμμένα μαλλιά.",
+      "Συστατικά": "Aqua (Water), Sodium Laureth Sulfate, Sodium Cocoamphoacetate, Laureth-9, Panthenol, Coco-Glucoside, Glyceryl Oleate, Sodium Chloride, Sodium PCA, Citric Acid, Guar Hydroxypropyltrimonium Chloride, Hydrolyzed Wheat Protein, Polyquaternium-10, Sodium Benzoate, Potassium Sorbate, Tocopherol, Sodium Sulfate, Hydrogenated Vegetable Glycerides Citrate, Parfum (Fragrance), Tetramethyl Acetyloctahydronaphthalenes, Acetyl Cedrene, Linalyl Acetate, CI 42051 (Acid Blue 3)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-shampoo-dermo-protective-150ml-pv-16363213-513-100705_60-front-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-shampoo-dermo-protective-150ml-pv-16363213-513-100705_60-front-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-shampoo-dermo-protective-150ml-pv-16363213-513-100705_60-front-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-shampoo-dermo-protective-150ml-pv-16363213-513-100705_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-shampoo/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveshowercream": {
+    "name": "Sensitive Shower & Cream",
+    "subtitle": "Απαλό Κρεμώδες Καθαριστικό Σώματος",
+    "description": "Κρεμοντούς. Απαλός καθαρισμός και περιποίηση του δέρματος κατά το ντους. Η Πανθενόλη, φυτικά έλαια και ενυδατικά συστατικά, αφήνουν το δέρμα αισθητά πιο απαλό και προστατεύουν από την αφυδάτωση. Χωρίς αλκαλικούς σάπωνες, με ήπιους επιφανειοδραστικούς παράγοντες, ουδέτερο pH για το δέρμα. Το ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+    "claims": [],
+    "highlights": [
+      "Λιπίδια, εφοδιάζουν, λειάνουν και αφήνουν το δέρμα αισθητά πιο απαλό.",
+      "— Πανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία, προστατεύει από ερεθισμούς και κοκκινίλες.",
+      "— Ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Κρεμοντούς. Απαλός καθαρισμός και περιποίηση του δέρματος κατά το ντους.\nΗ Πανθενόλη, φυτικά έλαια και ενυδατικά συστατικά, αφήνουν το δέρμα αισθητά πιο απαλό και προστατεύουν από την αφυδάτωση. Χωρίς αλκαλικούς σάπωνες, με ήπιους επιφανειοδραστικούς παράγοντες, ουδέτερο pH για το δέρμα.\nΤο ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+      "Ενεργά συστατικά": "Λιπίδια, εφοδιάζουν, λειάνουν και αφήνουν το δέρμα αισθητά πιο απαλό.\n— Πανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία, προστατεύει από ερεθισμούς και κοκκινίλες.\n— Ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+      "Χαρακτηριστικά": "Χωρίς αλκάλια, σαπούνι,cocamidopropylbetaine",
+      "Χρήση": "Καθημερινή χρήση",
+      "Συστατικά": "Glycine Soja (Soybean) Oil, Laureth-4, MIPA-Laureth Sulfate, Ethylhexyl Stearate, PEG-6 Caprylic/Capric Glycerides, Cocoamide DEA, Laureth-3, Carthamus Tinctorius (Safflower) Seed Oil, Parfum (Fragrance), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Laureth-9, Lactic Acid, Tocopherol, Aqua (Water), Bisabolol, Helianthus Annuus (Sunflower) Seed Oil, Chamomilla Recutita (Matricaria) Flower Extract, Hexyl Cinnamal, Benzyl Salicylate, Linalool, Linalyl Acetate, Citronellol, Terpineol, Geranyl Acetate, Citrus Limon Peel Oil, Limonene"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-pvsv-07212337-651-500810_60-fr-300608_60-frli-pv-re-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-pvsv-07212337-651-500810_60-fr-300608_60-frli-pv-re-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-pvsv-07212337-651-500810_60-fr-300608_60-frli-pv-re-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-pv-07212337-651-500810_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-pv-07212337-651-500810_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-sv-07212337-651-300608_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-sv-07212337-651-300608_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-dusch-creme-200ml-sv-07212337-651-300608_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-shower-cream/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitiveregeneratingcream": {
+    "name": "Sensitive Regenerating Cream",
+    "subtitle": "Aναπλαστική Κρέμα Nυκτός",
+    "description": "Αναπλαστική κρέμα Νυκτός. Πλούσια φροντίδα με ιαματικό νερό που καταπραΰνει το δέρμα. Το συστατικό SEPILIFT® λειαίνει το δέρμα και ενισχύει τη δομή του. To σύμπλεγμα βιταμινών προωθεί την κυτταρική ανανέωση και προσφέρει ενυδάτωση. Με έλαια φυτικής προέλευσης που χαρίζουν ευκολία στο άπλωμα της κρέμας και προστατεύουν από την αφυδάτωση.",
+    "claims": [
+      "Με διακριτικό υποαλλεργικό άρωμα",
+      "Χωρίς paraben",
+      "Χωρίς λανολίνη & PEG"
+    ],
+    "highlights": [
+      "SEPILIFT® λειαίνει και βελτιώνει τη σφριγηλότητα του δέρματος.",
+      "Περιποιητικά έλαια φυτικής προέλευσης, πλούσια σε φυτικό σκουαλένιο, βελτιώνουν την ελαστικότητα του δέρματος και προστατεύουν από την απώλεια υγρασίας.",
+      "Προ-Ρετινόλη, βιταμίνη Ε και προβιταμίνη Β5 ενισχύουν την κυτταρική ανανέωση, αφήνοντας το δέρμα λείο και ενυδατωμένο."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Αναπλαστική κρέμα Νυκτός. Πλούσια φροντίδα με ιαματικό νερό που καταπραΰνει το δέρμα. Το συστατικό SEPILIFT® λειαίνει το δέρμα και ενισχύει τη δομή του.\nTo σύμπλεγμα βιταμινών προωθεί την κυτταρική ανανέωση και προσφέρει ενυδάτωση.\nΜε έλαια φυτικής προέλευσης που χαρίζουν ευκολία στο άπλωμα της κρέμας και προστατεύουν από την αφυδάτωση.",
+      "Ενεργά συστατικά": "SEPILIFT® λειαίνει και βελτιώνει τη σφριγηλότητα του δέρματος.\nΠεριποιητικά έλαια φυτικής προέλευσης, πλούσια σε φυτικό σκουαλένιο, βελτιώνουν την ελαστικότητα του δέρματος και προστατεύουν από την απώλεια υγρασίας.\nΠρο-Ρετινόλη, βιταμίνη Ε και προβιταμίνη Β5 ενισχύουν την κυτταρική ανανέωση, αφήνοντας το δέρμα λείο και ενυδατωμένο.",
+      "Χαρακτηριστικά": "Με διακριτικό υποαλλεργικό άρωμα\nΧωρίς paraben\nΧωρίς λανολίνη & PEG",
+      "Χρήση": "Καθημερινή χρήση σε καθαρό πρόσωπο, λαιμό και ντεκολτέ κάνοντας απαλό μασάζ.",
+      "Συστατικά": "Aqua (Water), Cetearyl Ethylhexanoate, Dicaprylyl Ether, Diethylhexyl Carbonate, Butylene Glycol, Glycerin, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Squalane, Caprylic/Capric Triglyceride, Magnesium Sulfate, Hydrogenated Rapeseed Oil, Cera Alba (Beeswax), Panthenol, Tocopheryl Acetate, Hydrogenated Castor Oil, Dipalmitoyl Hydroxyproline, Phenoxyethanol, Allantoin, Retinyl Palmitate, Helianthus Annuus (Sunflower) Seed Oil, Potassium Sorbate, Bisabolol, Tocopherol, Tetrasodium Iminodisuccinate, Citric Acid, Parfum (Fragrance), Benzyl Alcohol, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pvsv-00109487-361-100809_60-fr-325020_60-frli-pv-re-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pvsv-00109487-361-100809_60-fr-325020_60-frli-pv-re-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pvsv-00109487-361-100809_60-fr-325020_60-frli-pv-re-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pv-00109487-361-100809_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pv-00109487-361-100809_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-pv-00109487-361-100809_60-rue-d_original-1.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-sv-00109487-361-325020_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-aufbaucreme-50ml-sv-00109487-361-325020_60-re-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-regenerating-cream/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitivemoisturizingcream": {
+    "name": "Sensitive Moisturizing Day Cream",
+    "subtitle": "Ενυδατική Κρέμα Ημέρας Προσώπου",
+    "description": "Ενυδατική φροντίδα με ιαματικό νερό που καταπραΰνει το δέρμα και ενεργό σύστημα πολλαπλής προστασίας. Ενισχύει τη δομή του δέρματος και προστατεύει από το οξειδωτικό στρες. Ο ρυθμιστικός παράγοντας ενυδάτωσης με πανθενόλη βελτιώνει την ενυδάτωση της επιδερμίδας. Το έλαιο Macadamia ενισχύει τα επίπεδα υγρασίας και λιπιδίων της επιδερμίδας.",
+    "claims": [
+      "0% Μικροπλαστικά",
+      "Χωρίς paraben",
+      "Χωρίς PEG",
+      "Χωρίς Ορυκτέλαιο",
+      "Δερματολογικά Ελεγμένο"
+    ],
+    "highlights": [
+      "To Ενεργό σύστημα πολλαπλής προστασίας με εκχύλισμα καφέ φυκιών, ρίζα γλυκόριζας και βιταμίνη Ε, προστατεύει από το οξειδωτικό στρες και τους ερεθισμούς.",
+      "— O Ρυθμιστικός παράγοντας ενυδάτωσης με Πανθενόλη βελτιώνει τη δυνατότητα συγκράτησης υγρασίας στην επιδερμίδα.",
+      "— To Έλαιο Macadamia προστατεύει και θρέφει, χαρίζοντας στην επιδερμίδα μεταξένια υφή."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική φροντίδα με ιαματικό νερό που καταπραΰνει το δέρμα και ενεργό σύστημα πολλαπλής προστασίας.\nΕνισχύει τη δομή του δέρματος και προστατεύει από το οξειδωτικό στρες. Ο ρυθμιστικός παράγοντας ενυδάτωσης με πανθενόλη βελτιώνει την ενυδάτωση της επιδερμίδας.\nΤο έλαιο Macadamia ενισχύει τα επίπεδα υγρασίας και λιπιδίων της επιδερμίδας.",
+      "Ενεργά συστατικά": "To Ενεργό σύστημα πολλαπλής προστασίας με εκχύλισμα καφέ φυκιών, ρίζα γλυκόριζας και βιταμίνη Ε, προστατεύει από το οξειδωτικό στρες και τους ερεθισμούς.\n— O Ρυθμιστικός παράγοντας ενυδάτωσης με Πανθενόλη βελτιώνει τη δυνατότητα συγκράτησης υγρασίας στην επιδερμίδα.\n— To Έλαιο Macadamia προστατεύει και θρέφει, χαρίζοντας στην επιδερμίδα μεταξένια υφή.",
+      "Χαρακτηριστικά": "0% Μικροπλαστικά\nΧωρίς paraben\nΧωρίς PEG\nΧωρίς Ορυκτέλαιο\nΔερματολογικά Ελεγμένο",
+      "Χρήση": "Καθημερινή χρήση σε καθαρό πρόσωπο, λαιμό και ντεκολτέ κάνοντας απαλό μασάζ",
+      "Συστατικά": "Aqua (Water), Butylene Glycol, Caprylic/Capric Triglyceride, Ethylhexyl Stearate, Oleyl Erucate, Polyglyceryl-3 Methylglucose Distearate, Stearyl Alcohol, Macadamia Integrifolia Seed Oil, Glyceryl Stearate, Hexyldecanol, Hexyldecyl Laurate, Glycerin, Panthenol, Sclerotium Gum, Tocopheryl Acetate, Phenoxyethanol, Isopropyl Lauroyl Sarcosinate, Caprylyl Glycol, Sodium Stearoyl Glutamate, Sodium PCA, Xanthan Gum, Sodium Lactate, Tetrasodium Iminodisuccinate, Stearyl Glycyrrhetinate, Ethylhexylglycerin, Lactic Acid, Inulin, Urea, Hydrolyzed Algin, Niacinamide, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Parfum (Fragrance), Tetramethyl Acetyloctahydronaphthalenes, Linalyl Acetate, Terpineol"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-pvsv-00109470-360-100810_60-fr-325018_60-frli-pv-re-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-pvsv-00109470-360-100810_60-fr-325018_60-frli-pv-re-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-pvsv-00109470-360-100810_60-fr-325018_60-frli-pv-re-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-pv-00109470-360-100810_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-pv-00109470-360-100810_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-sv-00109470-360-325018_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-sv-00109470-360-325018_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-sensitive-feuchtigkeitscreme-50ml-sv-00109470-360-325018_60-re-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-moisturizing-cream/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitivelotion": {
+    "name": "Sensitive Lotion Dermo-protective",
+    "subtitle": "Ενυδατική Λοσιόν Σώματος",
+    "description": "Ενυδάτωση Σώματος. Προστασία του δέρματος. Ελαφριά περιποίηση της ευαίσθητης επιδερμίδας. Ενισχύει την απαλότητα και παρέχει σύσφιξη. Αυξάνει αποδεδειγμένα τα επίπεδα υγρασίας. Ενισχύει την άμυνα του δέρματος. Περιέχει ιαματικό νερό από τα Πυρηναία που καταπραΰνει το δέρμα. Ιδανικό για την περιποίηση μετά την έκθεση στον ήλιο.",
+    "claims": [],
+    "highlights": [
+      "Έλαιο Macadamia, πλούσιο σε παλμιτελαϊκό οξύ, προστατεύει και θρέφει, αφήνοντας βελούδινη υφή στο δέρμα.",
+      "— Φυτικό σύμπλεγμα από Αβοκάντο και Καριτέ, Αλλα￾ ντοΐνη και βιταμίνη Ε, ανακουφίζουν και προστατεύουν το δερματικό φραγμό.",
+      "— Ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Sensitive Care",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδάτωση Σώματος.\nΠροστασία του δέρματος. Ελαφριά περιποίηση της ευαίσθητης επιδερμίδας.\nΕνισχύει την απαλότητα και παρέχει σύσφιξη. Αυξάνει αποδεδειγμένα τα επίπεδα υγρασίας. Ενισχύει την άμυνα του δέρματος. Περιέχει ιαματικό νερό από τα Πυρηναία που καταπραΰνει το δέρμα. Ιδανικό για την περιποίηση μετά την έκθεση στον ήλιο.",
+      "Ενεργά συστατικά": "Έλαιο Macadamia, πλούσιο σε παλμιτελαϊκό οξύ, προστατεύει και θρέφει, αφήνοντας βελούδινη υφή στο δέρμα.\n— Φυτικό σύμπλεγμα από Αβοκάντο και Καριτέ, Αλλα￾ ντοΐνη και βιταμίνη Ε, ανακουφίζουν και προστατεύουν το δερματικό φραγμό.\n— Ιαματικό νερό, πλούσιο σε μέταλλα και ιχνοστοιχεία, καταπραΰνει το δέρμα.",
+      "Χαρακτηριστικά": "Χωρίς λανολίνη&PEG",
+      "Χρήση": "Καθημερινή χρήση",
+      "Συστατικά": "Aqua (Water), Glycerin, Caprylic/Capric Triglyceride, Macadamia Integrifolia Seed Oil, Dicaprylyl Carbonate, Persea Gratissima (Avocado) Oil, Cetearyl Alcohol, Butyrospermum Parkii (Shea) Butter, Sorbitol, Dimethicone, Tocopheryl Acetate, Rosa Centifolia Flower Extract, Phenoxyethanol, Allantoin, 1,2-Hexanediol, Caprylyl Glycol, Sodium Cetearyl Sulfate, Carbomer, Lactic Acid, Serine, Sodium Lactate, Urea, Potassium Hydroxide, Olea Europaea (Olive) Oil Unsaponifiables, Phytosterols, Glucose, Glycine, Tocopherol, Parfum (Fragrance) , Benzyl Alcohol, Linalool, Acetyl Cedrene, Linalyl Acetate, Terpineol, Benzaldehyde, Vanillin"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-pvsv-01449044-601-500812_60-fr-300610_60-frli-pv-re-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-pvsv-01449044-601-500812_60-fr-300610_60-frli-pv-re-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-pvsv-01449044-601-500812_60-fr-300610_60-frli-pv-re-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-pv-01449044-601-500812_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-pv-01449044-601-500812_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-sv-01449044-601-300610_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-sv-01449044-601-300610_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-lotion-dermo-protective-200ml-sv-01449044-601-300610_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-lotion/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitivehand75": {
+    "name": "Sensitive Hand Repair & Care Cream 75ml",
+    "subtitle": "Ενυδατική & Αναπλαστική Κρέμα Χεριών",
+    "description": "Ενυδατική και Αναπλαστική Κρέμα Χεριών. Προσφέρει εντατική ενυδάτωση, αναζωογόνηση και προστασία, συσφίγγει και επιδιορθώνει το δέρμα. Η Πανθενόλη, η βιταμίνη E και η Αλαντοΐνη προστατεύουν και επιδιορθώνουν τα ταλαπωρημένα χέρια . Ο παράγοντας Hygroderm®, με αμινοξέα, γαλακτικό οξύ, ροδόνερο και γλυκερίνη, βελτιώνει και σταθεροποιεί την περιεκτικότητα του δέρματος σε υγρασία. Ενισχύει τη λειτουργία του φυσικού φραγμού του δέρματος και προστατεύει από τις καθημερινές φθορές. Το δέρμα γίνεται ελαστικό και απαλό. Επαναφέρει τη κατεστραμμένη επιδερμίδα Ενυδατώνει εντατικά Συσφίγγει και προστατεύει από το σκάσιμο του δέρματος Αφήνει μια μεταξένια & μαλακή αίσθηση Παρέχει προστασία που διαρκεί",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "75ml, 150ml",
+      "Σειρά": "Sensitive Care",
+      "Συσκευασία": "75ml",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική και Αναπλαστική Κρέμα Χεριών. Προσφέρει εντατική ενυδάτωση, αναζωογόνηση και προστασία, συσφίγγει και επιδιορθώνει το δέρμα. Η Πανθενόλη, η βιταμίνη E και η Αλαντοΐνη προστατεύουν και επιδιορθώνουν τα ταλαπωρημένα χέρια . Ο παράγοντας Hygroderm®, με αμινοξέα, γαλακτικό οξύ, ροδόνερο και γλυκερίνη, βελτιώνει και σταθεροποιεί την περιεκτικότητα του δέρματος σε υγρασία. Ενισχύει τη λειτουργία του φυσικού φραγμού του δέρματος και προστατεύει από τις καθημερινές φθορές. Το δέρμα γίνεται ελαστικό και απαλό.\nΕπαναφέρει τη κατεστραμμένη επιδερμίδα\nΕνυδατώνει εντατικά\nΣυσφίγγει και προστατεύει από το σκάσιμο του δέρματος\nΑφήνει μια μεταξένια & μαλακή αίσθηση\nΠαρέχει προστασία που διαρκεί",
+      "Χαρακτηριστικά": "Χωρίς λανολίνη & PEG",
+      "Χρήση": "Πολλές φορές την ημέρα ή μετά το πλύσιμο των χεριών.",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Cetearyl Ethylhexanoate, Isohexadecane, Alcohol, Sorbitol,Butyrospermum Parkii(Shea) Butter, Dimethicone, Sodium Cetearyl Sulfate,Phenoxyethanol, Rosa Centifolia Flower Extract, Citric Acid, Panthenol, Tocopheryl Acetate, Allantoin, Sodium Hydroxide, Lactic Acid, Serine, Sodium Lactate, Urea, Glucose, Glycine, Parfum (Fragrance), Benzyl Alcohol, Linalool, Hexyl Cinnamal, Citronellol, Dimethyl Phenethyl Acetate, Linalyl Acetate, Alpha-Isomethyl Ionone, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original-1.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-hand/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-sensitivehand150": {
+    "name": "Sensitive Hand Repair & Care Cream 150ml",
+    "subtitle": "Ενυδατική & Αναπλαστική Κρέμα Χεριών",
+    "description": "Ενυδατική και Αναπλαστική Κρέμα Χεριών. Προσφέρει εντατική ενυδάτωση, αναζωογόνηση και προστασία, συσφίγγει και επιδιορθώνει το δέρμα. Η Πανθενόλη, η βιταμίνη E και η Αλαντοΐνη προστατεύουν και επιδιορθώνουν τα ταλαπωρημένα χέρια . Ο παράγοντας Hygroderm®, με αμινοξέα, γαλακτικό οξύ, ροδόνερο και γλυκερίνη, βελτιώνει και σταθεροποιεί την περιεκτικότητα του δέρματος σε υγρασία. Ενισχύει τη λειτουργία του φυσικού φραγμού του δέρματος και προστατεύει από τις καθημερινές φθορές. Το δέρμα γίνεται ελαστικό και απαλό. Επαναφέρει τη κατεστραμμένη επιδερμίδα Ενυδατώνει εντατικά Συσφίγγει και προστατεύει από το σκάσιμο του δέρματος Αφήνει μια μεταξένια & μαλακή αίσθηση Παρέχει προστασία που διαρκεί",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Διαθέσιμα μεγέθη": "75ml, 150ml",
+      "Σειρά": "Sensitive Care",
+      "Συσκευασία": "150ml",
+      "Κατηγορία eubos.gr": "Sensitive Care"
+    },
+    "sections": {
+      "Περιγραφή": "Ενυδατική και Αναπλαστική Κρέμα Χεριών. Προσφέρει εντατική ενυδάτωση, αναζωογόνηση και προστασία, συσφίγγει και επιδιορθώνει το δέρμα. Η Πανθενόλη, η βιταμίνη E και η Αλαντοΐνη προστατεύουν και επιδιορθώνουν τα ταλαπωρημένα χέρια . Ο παράγοντας Hygroderm®, με αμινοξέα, γαλακτικό οξύ, ροδόνερο και γλυκερίνη, βελτιώνει και σταθεροποιεί την περιεκτικότητα του δέρματος σε υγρασία. Ενισχύει τη λειτουργία του φυσικού φραγμού του δέρματος και προστατεύει από τις καθημερινές φθορές. Το δέρμα γίνεται ελαστικό και απαλό.\nΕπαναφέρει τη κατεστραμμένη επιδερμίδα\nΕνυδατώνει εντατικά\nΣυσφίγγει και προστατεύει από το σκάσιμο του δέρματος\nΑφήνει μια μεταξένια & μαλακή αίσθηση\nΠαρέχει προστασία που διαρκεί",
+      "Χαρακτηριστικά": "Χωρίς λανολίνη & PEG",
+      "Χρήση": "Πολλές φορές την ημέρα ή μετά το πλύσιμο των χεριών.",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Cetearyl Ethylhexanoate, Isohexadecane, Alcohol, Sorbitol,Butyrospermum Parkii(Shea) Butter, Dimethicone, Sodium Cetearyl Sulfate,Phenoxyethanol, Rosa Centifolia Flower Extract, Citric Acid, Panthenol, Tocopheryl Acetate, Allantoin, Sodium Hydroxide, Lactic Acid, Serine, Sodium Lactate, Urea, Glucose, Glycine, Parfum (Fragrance), Benzyl Alcohol, Linalool, Hexyl Cinnamal, Citronellol, Dimethyl Phenethyl Acetate, Linalyl Acetate, Alpha-Isomethyl Ionone, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-sensitive-pflege-hand-repair-schutz-75ml-pv-00677398-410-100820-fr-d_original-1.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-sensitive-hand/",
+    "source": "eubos.gr",
+    "section": "sensitive",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-omegahydroactivlotion": {
+    "name": "Omega 12% Hydro Active Lotion",
+    "subtitle": "12% OMEGA HYDRO-ACTIVE ΛΟΣΙΟΝ",
+    "description": "Λοσιόν Σώματος. Καταπράυνση και ανακούφιση για το πολύ ξηρό, ευαίσθητο με τάση για ερυθρότητα και έκζεμα δέρμα. Ενεργός δερματολογικός παράγοντας που απορροφάται εύκολα. Εντατική ενυδάτωση. Ενισχύει τον επιδερμικό φραγμό. Μειώνει τη φαγούρα, το τράβηγμα και την τραχύτητα. Πιο απαλό, σφριγηλό δέρμα.",
+    "claims": [],
+    "highlights": [
+      "— Πολύτιμα φυσικά έλαια εφοδιάζουν το δέρμα με",
+      "OMEGA 3-6-9 λιπαρά οξέα.",
+      "TRIMOISTTM KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας.",
+      "DEFENSIL® καταπραΰνει άμεσα το ερεθισμένο και κοκκινισμένο δέρμα, προστατεύει και αναζωογονεί το δερματικό φραγμό αποτελεσματικά."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Omega",
+      "Κατηγορία eubos.gr": "Omega"
+    },
+    "sections": {
+      "Περιγραφή": "Λοσιόν Σώματος. Καταπράυνση και ανακούφιση για το πολύ ξηρό, ευαίσθητο με τάση για ερυθρότητα και έκζεμα δέρμα.\nΕνεργός δερματολογικός παράγοντας που απορροφάται εύκολα. Εντατική ενυδάτωση.\nΕνισχύει τον επιδερμικό φραγμό. Μειώνει τη φαγούρα, το τράβηγμα και την τραχύτητα.\nΠιο απαλό, σφριγηλό δέρμα.",
+      "Ενεργά συστατικά": "— Πολύτιμα φυσικά έλαια εφοδιάζουν το δέρμα με\nOMEGA 3-6-9 λιπαρά οξέα.\nTRIMOISTTM KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας.\nDEFENSIL® καταπραΰνει άμεσα το ερεθισμένο και κοκκινισμένο δέρμα, προστατεύει και αναζωογονεί το δερματικό φραγμό αποτελεσματικά.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, σιλικόνη, ορυκτέλαιο",
+      "Χρήση": "Εφαρμόζετε τακτικά και κάνετε απαλό μασάζ όσο συχνά χρειάζεται",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Oenothera Biennis (Evening Primrose) Oil, Carthamus Tinctorius (Safflower) Seed Oil, Alcohol, Decyl Oleate, Sorbitol, Butyrospermum Parkii (Shea) Butter, Linum Usitatissimum (Linseed) Seed Oil, Olea Europaea (Olive) Fruit Oil, Octyldodecanol, Phenoxyethanol, Sodium Cetearyl Sulfate, Tocopheryl Acetate, Citric Acid, Panthenol, Squalane, Allantoin, Sodium Hydroxide, Olus Oil (Vegetable Oil), Sodium Stearoyl Lactylate, Sodium Lactate, Echium Plantagineum Seed Oil, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Sodium Carboxymethyl Betaglucan, Cardiospermum Halicacabum Flower/Leaf/Vine Extract, Glucosyl Hesperidin, Glycine Soja/Glycine Soja (Soybean) Sterols, Carnosine, Lactic Acid, Tocopherol, Hordeum Distichon (Barley) Extract, Melissa Officinalis Leaf Extract, Sodium Benzoate, Parfum (Fragrance), Benzyl Alcohol, Benzaldehyde"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-pvsv-07392983-460-100889_60-fr-300650_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-pvsv-07392983-460-100889_60-fr-300650_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-pvsv-07392983-460-100889_60-fr-300650_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-pv-07392983-460-100889_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-pv-07392983-460-100889_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-sv-07392983-460-300650_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-sv-07392983-460-300650_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-omega-12-rescue-12omega-hydro-activ-lotion-200ml-sv-07392983-460-300650_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-omega-hydro-activlotion/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-intimatewomanskincarebalm": {
+    "name": "Intimate Woman Skin Care Balm",
+    "subtitle": "INTIMATE WOMAN ΓΑΛΑΚΤΩΜΑ ΠΕΡΙΠΟΙΗΣΗΣ ΕΥΑΙΣΘΗΤΗΣ ΠΕΡΙΟΧΗΣ",
+    "description": "Προστατευτική φροντίδα και υγιεινή αίσθηση φρεσκάδας. Έχει καταπραϋντική δράση. Mειώνει τον κίνδυνο ερεθισμού μετά το ξύρισμα και την αποτρίχωση.",
+    "claims": [],
+    "highlights": [
+      "Γαλακτικό οξύ, διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής.",
+      "— Πανθενόλη, βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.",
+      "— PhytoDefense CLR™, προστατεύει, καταπραΰνει, μειώνει την ερυθρότητα του δέρματος μετά από μηχανική καταπόνηση.",
+      "—Λάδι Jojoba, θρέφει και ενυδατώνει το δέρμα.",
+      "— Αλόη, παρέχει υγρασία.",
+      "— Πρεβιοτικό Bioecolia®, διεγείρει την ανάπτυξη ωφέλιμων βακτηρίων και υποστηρίζει την κολπική χλωρίδα."
+    ],
+    "attributes": {
+      "Συσκευασία": "125ml",
+      "Σειρά": "Intimate Woman",
+      "Κατηγορία eubos.gr": "Intimate Woman"
+    },
+    "sections": {
+      "Περιγραφή": "Προστατευτική φροντίδα και υγιεινή αίσθηση φρεσκάδας.\nΈχει καταπραϋντική δράση.\nMειώνει τον κίνδυνο ερεθισμού μετά το ξύρισμα και την αποτρίχωση.",
+      "Ενεργά συστατικά": "Γαλακτικό οξύ, διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής.\n— Πανθενόλη, βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.\n— PhytoDefense CLR™, προστατεύει, καταπραΰνει, μειώνει την ερυθρότητα του δέρματος μετά από μηχανική καταπόνηση.\n—Λάδι Jojoba, θρέφει και ενυδατώνει το δέρμα.\n— Αλόη, παρέχει υγρασία.\n— Πρεβιοτικό Bioecolia®, διεγείρει την ανάπτυξη ωφέλιμων βακτηρίων και υποστηρίζει την κολπική χλωρίδα.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς PEG\nΧωρίς σιλικόνες\nΧωρίς mineral oil\nΧωρίς άρωμα\nΚατάλληλο για VEGAN\nΓΥΝΑΙΚΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ",
+      "Χρήση": "Εξωτερική χρήση στην ευαίσθητη περιοχή.",
+      "Συστατικά": "Aqua (Water), Caprylic/Capric Triglyceride, Pentylene Glycol, Sorbitol, Glycine Soja (Soybean) Oil, Glycerin, Polyglyceryl-3 Dicitrate/Stearate, Propanediol Dicaprylate, Alpha-Glucan Oligosaccharide, Panthenol, Sodium Stearoyl Glutamate, Simmondsia Chinensis (Jojoba) Seed Oil, Dehydroxanthan Gum, Sodium Polyphosphate, Lactic Acid, Aloe Barbadensis Leaf Juice Powder, Magnolia Officinalis Bark Extract, Zinc PCA, Allantoin, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Dicaprylyl Ether, Lauryl Alcohol, Magnolia Grandiflora Bark Extract, Hamamelis Virginiana Leaf Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-pvsv-17378033-488-100069_60-fr-300620_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-pvsv-17378033-488-100069_60-fr-300620_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-pvsv-17378033-488-100069_60-fr-300620_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-pv-17378033-488-100069_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-pv-17378033-488-100069_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-sv-17378033-488-300620_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-sv-17378033-488-300620_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-pflegebalsam-125ml-sv-17378033-488-300620_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/intimate-woman-skin-care-balm/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-intimatewomanshowerfoam": {
+    "name": "Intimate Woman Shower Foam",
+    "subtitle": "INTIMATE WOMAN ΑΦΡΟΣ ΚΑΘΑΡΙΣΜΟΥ ΕΥΑΙΣΘΗΤΗΣ ΠΕΡΙΟΧΗΣ",
+    "description": "Απαλός καθαρισμός βέλτιστα προσαρμοσμένος στο pH της γυναικείας γεννητικής περιοχής. Καταπραΰνει και προστατεύει την ευαίσθητη κολπική χλωρίδα. Αφήνει το δέρμα περιποιημένο και ο φραγμός του ενισχύεται. Ιδανική προετοιμασία πριν το ξύρισμα ή την αποτρίχωση.",
+    "claims": [],
+    "highlights": [
+      "Γαλακτικό οξύ, διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής.",
+      "— Πανθενόλη, βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.",
+      "— AquaCacteen, καταπραΰνει, μειώνει την ερυθρότητα και παρέχει υγρασία.",
+      "— Αλόη, ρυθμίζει την περιεκτικότητα σε υγρασία.",
+      "— Πρεβιοτικό Bioecolia® & Aquaxyl™, υποστηρίζουν τον φυσικό προστατευτικό φραγμό του δέρματος.",
+      "— Βισαβολόλη, καταπραΰνει και ηρεμεί το ερεθισμένο δέρμα."
+    ],
+    "attributes": {
+      "Συσκευασία": "100ml",
+      "Σειρά": "Intimate Woman",
+      "Κατηγορία eubos.gr": "Intimate Woman"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλός καθαρισμός βέλτιστα προσαρμοσμένος στο pH της γυναικείας γεννητικής περιοχής.\nΚαταπραΰνει και προστατεύει την ευαίσθητη κολπική χλωρίδα.\nΑφήνει το δέρμα περιποιημένο και ο φραγμός του ενισχύεται.\nΙδανική προετοιμασία πριν το ξύρισμα ή την αποτρίχωση.",
+      "Ενεργά συστατικά": "Γαλακτικό οξύ, διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής.\n— Πανθενόλη, βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.\n— AquaCacteen, καταπραΰνει, μειώνει την ερυθρότητα και παρέχει υγρασία.\n— Αλόη, ρυθμίζει την περιεκτικότητα σε υγρασία.\n— Πρεβιοτικό Bioecolia® & Aquaxyl™, υποστηρίζουν τον φυσικό προστατευτικό φραγμό του δέρματος.\n— Βισαβολόλη, καταπραΰνει και ηρεμεί το ερεθισμένο δέρμα.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς PEG\nΧωρίς σιλικόνες\nΧωρίς mineral oil\nΧωρίς άρωμα\nΚατάλληλο για VEGAN\nΓΥΝΑΙΚΟΛΟΓΙΚΑ ΕΛΕΓΜΕΝΟ",
+      "Χρήση": "Εξωτερική χρήση στην ευαίσθητη περιοχή δημιουργώντας απαλό αφρό.",
+      "Συστατικά": "Aqua (Water), Glycerin, Sorbitol, Decyl Glucoside, Sodium Cocoamphoacetate, Lactic Acid, Sodium Polyphosphate, Sodium Chloride, Xylitylglucoside, Hydroxyacetophenone, Panthenol, Alpha-Glucan Oligosaccharide, Anhydroxylitol, 1,2-Hexanediol, Caprylyl Glycol, Aloe Barbadensis Leaf Juice Powder, Zinc PCA, Xylitol, Bisabolol, Allantoin, Opuntia Ficus- Indica Stem Extract, Hamamelis Virginiana Leaf Extract, Disodium Phosphate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-schaumdusche-100ml-pv-17378056-487-100193_60-fr-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-schaumdusche-100ml-pv-17378056-487-100193_60-fr-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-schaumdusche-100ml-pv-17378056-487-100193_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2022/12/eubos-intimate-woman-schaumdusche-100ml-pv-17378056-487-100193_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/intimate-woman-shower-foam/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-intimatewomanwashingemulsion": {
+    "name": "Intimate Woman Washing Emulsion",
+    "subtitle": "INTIMATE WOMAN ΥΓΡΟ ΚΑΘΑΡΙΣΜΟΥ ΕΥΑΙΣΘΗΤΗΣ ΠΕΡΙΟΧΗΣ",
+    "description": "Ήπιο υγρό καθαρισμού της ευαίσθητης περιοχής. Ήπια, ισορροπημένη σύνθεση, εμπλουτισμένη με ενυδατικούς παράγοντες περιποίησης, όπως η Βισαβολόλη και η Πανθενόλη. Περιέχει γαλακτικό οξύ, που διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής. Χωρίς αλκαλικούς σάπωνες. Για εξωτερική χρήση.",
+    "claims": [],
+    "highlights": [
+      "Η Πανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.",
+      "— Η Φυσική Βισαβολόλη καταπραΰνει και ηρεμεί την επιδερμίδα.",
+      "— Υδρολυμένες πρωτεΐνες Γάλακτος και Σίτου δεσμεύουν την υγρασία, αφήνοντας την επιδερμίδα απαλή και λεία."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Intimate Woman",
+      "Κατηγορία eubos.gr": "Intimate Woman"
+    },
+    "sections": {
+      "Περιγραφή": "Ήπιο υγρό καθαρισμού της ευαίσθητης περιοχής. Ήπια, ισορροπημένη σύνθεση, εμπλουτισμένη με ενυδατικούς παράγοντες περιποίησης, όπως η Βισαβολόλη και η Πανθενόλη. Περιέχει γαλακτικό οξύ, που διαφυλάσσει το ελαφρώς φυσικό όξινο pH της ευαίσθητης περιοχής. Χωρίς αλκαλικούς σάπωνες. Για εξωτερική χρήση.",
+      "Ενεργά συστατικά": "Η Πανθενόλη βελτιώνει την ικανότητα του δέρματος να διατηρεί την υγρασία.\n— Η Φυσική Βισαβολόλη καταπραΰνει και ηρεμεί την επιδερμίδα.\n— Υδρολυμένες πρωτεΐνες Γάλακτος και Σίτου δεσμεύουν την υγρασία, αφήνοντας την επιδερμίδα απαλή και λεία.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια\nΧωρίς PEG\nΧωρίς αλκαλικούς σάπωνες",
+      "Χρήση": "Εξωτερική χρήση στην ευαίσθητη περιοχή δημιουργώντας απαλό αφρό.",
+      "Συστατικά": "Aqua (Water), Glycerin, Sorbitol, Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Caprylyl/Capryl Glucoside, Lactic Acid, Sodium Lactate, Glyceryl Oleate, Coco-Glucoside, Sodium Chloride, Panthenol, Caprylyl Glycol, Hydrolyzed Milk Protein, Hydrolyzed Wheat Protein, p-Anisic Acid, Bisabolol, Citric Acid, Sodium Hydroxide, Tocopherol, Hydrogenated Vegetable Glycerides Citrate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-pvsv-17378085-486-100197_60-fr-303712_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-pvsv-17378085-486-100197_60-fr-303712_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-pvsv-17378085-486-100197_60-fr-303712_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-pv-17378085-486-100197_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-pv-17378085-486-100197_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-sv-17378085-486-303712_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-sv-17378085-486-303712_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-intimate-woman-waschemulsion-200ml-sv-17378085-486-303712_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-intimate-woman-washing-emulsion/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-diabeticsmultiactivecream": {
+    "name": "Diabetic Foot & Leg",
+    "subtitle": "Γαλάκτωμα ενεργών συστατικών 3 σε 1",
+    "description": "ΚΡΕΜΑ ΠΟΔΙΩΝ Ευεργετική και αναζωογονητική περιποίηση για τα κουρασμένα, βαριά πόδια. Ενισχύει τον φυσικό δερματικό φραγμό με pheohydrane, ουρία, γαλακτικό, γλυκερίνη και decalact. Βισαβολόλη, αλλαντοΐνη και πανθενόλη καταπραΰνουν την επιδερμίδα. Εντατική και διαρκής ενυδάτωση. Αισθητά πιο απαλό δέρμα σε λίγες μόνο ημέρες.",
+    "claims": [],
+    "highlights": [
+      "Legactiftm, σύμπλεγμα από 3 φυτικά εκχυλίσματα, θρέφει και αναζωογονεί.",
+      "— Pheohydrane, από άλγη, εξασφαλίζει σε συνδυασμό με ουρία, γαλακτικό και γλυκερίνη, διαρκή, εντατική συγκράτηση της υγρασίας και βοηθάει στην αναδόμηση του υδρολιπιδικού φιλμ."
+    ],
+    "attributes": {
+      "Συσκευασία": "100ml",
+      "Σειρά": "Diabetic",
+      "Κατηγορία eubos.gr": "Diabetic"
+    },
+    "sections": {
+      "Περιγραφή": "ΚΡΕΜΑ ΠΟΔΙΩΝ\nΕυεργετική και αναζωογονητική περιποίηση για τα κουρασμένα, βαριά πόδια.\nΕνισχύει τον φυσικό δερματικό φραγμό με pheohydrane, ουρία, γαλακτικό, γλυκερίνη και decalact.\nΒισαβολόλη, αλλαντοΐνη και πανθενόλη καταπραΰνουν την επιδερμίδα.\nΕντατική και διαρκής ενυδάτωση. Αισθητά πιο απαλό δέρμα σε λίγες μόνο ημέρες.",
+      "Ενεργά συστατικά": "Legactiftm, σύμπλεγμα από 3 φυτικά εκχυλίσματα, θρέφει και αναζωογονεί.\n— Pheohydrane, από άλγη, εξασφαλίζει σε συνδυασμό με ουρία, γαλακτικό και γλυκερίνη, διαρκή, εντατική συγκράτηση της υγρασίας και βοηθάει στην αναδόμηση του υδρολιπιδικού φιλμ.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, ορυκτέλαιο",
+      "Χρήση": "Εφαρμόζετε τακτικά και κάνετε απαλό μασάζ",
+      "Συστατικά": "Aqua (Water), Glycerin, Olea Europaea (Olive) Fruit Oil, Urea, Sodium Citrate, Caprylyl Caprylate/Caprate, Cetearyl Alcohol, Butyrospermum Parkii (Shea) Butter, Pentaerythrityl Distearate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Neopentyl Glycol Diheptanoate, Panthenol, Sodium Acrylates Copolymer, Sodium Caproyl/Lauroyl Lactylate, Arachidyl Alcohol, Lactic Acid, Cetearyl Glucoside, Dimethicone, Behenyl Alcohol, Lecithin, Arachidyl Glucoside, Xanthan Gum, Citric Acid, Allantoin, Sodium Benzoate, Bisabolol, Potassium Sorbate, Ruscus Aculeatus Root Extract, Citrus Limon (Lemon) Peel Extract, Solidago Virgaurea (Goldenrod) Extract, Hydrolyzed Algin, Maris Aqua (Sea Water), Chlorella Vulgaris Extract, Tocopherol, Parfum (Fragrance), Acetyl Cedrene, Linalyl Acetate, Citronellol"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-pvsv-01617412-712-100982_60-fr-300852_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-pvsv-01617412-712-100982_60-fr-300852_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-pvsv-01617412-712-100982_60-fr-300852_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-pv-01617412-712-100982_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-pv-01617412-712-100982_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-sv-01617412-712-300852_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-sv-01617412-712-300852_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-fuss-bein-100ml-sv-01617412-712-300852_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-diabetics-multi-active-cream/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-diabeticskorperbalsam": {
+    "name": "Diabetic Skin Care Body Balm",
+    "subtitle": "Γαλάκτωμα Σώματος",
+    "description": "Γαλάκτωμα Σώματος για αίσθηση χαλάρωσης, διαρκής και βαθιά ενυδάτωση. Εξασφαλίζει ένα αισθητά πιο απαλό και σφριγηλό δέρμα. Ο ειδικός συνδυασμός ενεργών συστατικών με pheohydrane προσφέρει εντατική ενυδάτωση και ενισχύει τον επιδερμικό φραγμό. Το σύμπλεγμα αμαμηλίς-πανθενόλη, με βισαβολόλη και αλλαντοΐνη καταπραΰνουν το δέρμα.",
+    "claims": [],
+    "highlights": [
+      "— Καρνοσίνη αναζωογονεί, δρα κατά των ελεύθερων ριζών και προστατεύει από την πρόωρη γήρανση.",
+      "— Zinc PCA ενυδατώνει και ενισχύει την άμυνα του δέρματος.",
+      "— Pheohydrane, από άλγη, εξασφαλίζει διαρκή, εντατική συγκράτηση της υγρασίας και βοηθάει στην αναδόμηση του υδρολιπιδικού φιλμ."
+    ],
+    "attributes": {
+      "Συσκευασία": "150ml",
+      "Σειρά": "Diabetic",
+      "Κατηγορία eubos.gr": "Diabetic"
+    },
+    "sections": {
+      "Περιγραφή": "Γαλάκτωμα Σώματος για αίσθηση χαλάρωσης, διαρκής και βαθιά ενυδάτωση.\nΕξασφαλίζει ένα αισθητά πιο απαλό και σφριγηλό δέρμα.\nΟ ειδικός συνδυασμός ενεργών συστατικών με pheohydrane προσφέρει εντατική ενυδάτωση και ενισχύει τον επιδερμικό φραγμό.\nΤο σύμπλεγμα αμαμηλίς-πανθενόλη, με βισαβολόλη και αλλαντοΐνη καταπραΰνουν το δέρμα.",
+      "Ενεργά συστατικά": "— Καρνοσίνη αναζωογονεί, δρα κατά των ελεύθερων ριζών και προστατεύει από την πρόωρη γήρανση.\n— Zinc PCA ενυδατώνει και ενισχύει την άμυνα του δέρματος.\n— Pheohydrane, από άλγη, εξασφαλίζει διαρκή, εντατική συγκράτηση της υγρασίας και βοηθάει στην αναδόμηση του υδρολιπιδικού φιλμ.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, ορυκτέλαιο",
+      "Χρήση": "Καθημερινή χρήση. Εφαρμόζετε και κάνετε απαλό μασάζ",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Dicaprylyl Ether, Urea, Sodium Citrate, Caprylic/Capric Triglyceride, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Panthenol, Cetyl Alcohol, Glyceryl Stearate, Cetearyl Glucoside, Zinc PCA, Lactic Acid, Dimethicone, Caprylyl Glycol, 1,2-Hexanediol, Sodium Stearoyl Glutamate, Allantoin, Xanthan Gum, Carnosine, Citric Acid, p-Anisic Acid, Bisabolol, Hamamelis Virginiana Leaf Extract, Zingiber Officinale (Ginger) Root Extract, Hydrolyzed Algin, Maris Aqua (Sea Water), Phenethyl Alcohol, Chlorella Vulgaris Extract, Parfum (Fragrance), Acetyl Cedrene, Linalyl Acetate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-pvsv-01647028-711-100981_60-fr-300851_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-pvsv-01647028-711-100981_60-fr-300851_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-pvsv-01647028-711-100981_60-fr-300851_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-pv-01647028-711-100981_60-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-pv-01647028-711-100981_60-rue_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-sv-01647028-711-300851_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-sv-01647028-711-300851_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-koerperbalsam-150ml-sv-01647028-711-300851_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-diabetics-korper-balsam/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-diabeticsgesichtscreme": {
+    "name": "Diabetic Skin Care Face Cream",
+    "subtitle": "Κρέμα Προσώπου",
+    "description": "Κρέμα Προσώπου για αισθητά ανανεωμένη και νεανική εμφάνιση. Παρέχει ενεργή προστασία των κυττάρων και των πρωτεϊνών από την πρόωρη γήρανση. Προσφέρει διαρκή, εντατική ενυδάτωση και προστασία από την απώλεια ελαστικότητας. Το συστατικό RADICARE® είναι αποτελεσματικό ενάντια στις ελεύθερες ρίζες, ενισχύει τους μηχανισμούς άμυνας και βοηθά στην προστασία των κυτταρικών δομών.",
+    "claims": [],
+    "highlights": [
+      "Creatine ενισχύει τη λειτουργία των κυττάρων, ανα￾ ζωογονεί, αφήνοντας το δέρμα απαλό.",
+      "— Καρνοσίνη αναζωογονεί, δρα κατά των ελεύθερων ριζών και προστατεύει από την πρόωρη γήρανση.",
+      "— TRIMOIST™ KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Diabetic",
+      "Κατηγορία eubos.gr": "Diabetic"
+    },
+    "sections": {
+      "Περιγραφή": "Κρέμα Προσώπου για αισθητά ανανεωμένη και νεανική εμφάνιση. Παρέχει ενεργή προστασία των κυττάρων και των πρωτεϊνών από την πρόωρη γήρανση.\nΠροσφέρει διαρκή, εντατική ενυδάτωση και προστασία από την απώλεια ελαστικότητας.\nΤο συστατικό RADICARE® είναι αποτελεσματικό ενάντια στις ελεύθερες ρίζες, ενισχύει τους μηχανισμούς άμυνας και βοηθά στην προστασία των κυτταρικών δομών.",
+      "Ενεργά συστατικά": "Creatine ενισχύει τη λειτουργία των κυττάρων, ανα￾ ζωογονεί, αφήνοντας το δέρμα απαλό.\n— Καρνοσίνη αναζωογονεί, δρα κατά των ελεύθερων ριζών και προστατεύει από την πρόωρη γήρανση.\n— TRIMOIST™ KMF προσφέρει εντατική, διαρκή ενυδάτωση και ενισχύει τους φυσικούς μηχανισμούς προστασίας της επιδερμίδας.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, ορυκτέλαιο",
+      "Χρήση": "Εφαρμόζετε τακτικά και κάνετε απαλό μασάζ.Κατάλληλο και σαν βάση make-up",
+      "Συστατικά": "Aqua (Water), Glycerin, Carthamus Tinctorius (Safflower) Seed Oil, Neopentyl Glycol Diheptanoate, Oenothera Biennis (Evening Primrose) Oil, Polyglyceryl-3 Methylglucose Distearate, Butyrospermum Parkii (Shea) Butter, Olea Europaea (Olive) Fruit Oil, Panthenol, Octyldodecanol, Stearyl Alcohol, Polymethylsilsesquioxane, Glyceryl Stearate, Sclerotium Gum, Dimethicone, Sodium Lactate, Creatine, Sodium PCA, Xanthan Gum, Citric Acid, Chondrus Crispus Powder, Sodium Benzoate, Caprylyl Glycol, Olus Oil (Vegetable Oil), p-Anisic Acid, Tetrasodium Iminodisuccinate, Carnosine, Sodium Stearoyl Lactylate, Arginine, Tocopheryl Acetate, Echium Plantagineum Seed Oil, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Helianthus Annuus (Sunflower) Seed Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract, Sodium Carboxymethyl Betaglucan, Cardiospermum Halicacabum Flower/Leaf/Vine Extract, Glucosyl Hesperidin, Glycine Soja/Glycine Soja (Soybean) Sterols, Lactic Acid, Hordeum Distichon (Barley) Extract, Melissa Officinalis Leaf Extract, Tocopherol, Parfum (Fragrance), Acetyl Cedrene"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-pvsv-01308272-710-100980_60-fr-300850_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-pvsv-01308272-710-100980_60-fr-300850_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-pvsv-01308272-710-100980_60-fr-300850_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-pv-01308272-710-100980_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-pv-01308272-710-100980_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-sv-01308272-710-300850_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-sv-01308272-710-300850_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-diabetische-hautpflege-gesichtscreme-50ml-sv-01308272-710-300850_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-diabetics-gesichtscreme/",
+    "source": "eubos.gr",
+    "section": "special",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-redwashingemulsion400ml": {
+    "name": "Basic Red Liquid Washing Emulsion 400ml",
+    "subtitle": "Υγρό Καθαρισμού Προσώπου και Σώματος",
+    "description": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, με φρέσκο άρωμα. Τα ήπια επι-φανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος. Επίσης, κατάλληλο για δυ-σανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Η συχνή χρήση καταπραΰνει τους ερεθισμούς. Οι κυριότεροι",
+    "claims": [
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Με υποαλλεργικό άρωμα"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.",
+      "— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.",
+      "— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Ειδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH"
+    ],
+    "attributes": {
+      "Συσκευασία": "400ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Απαλό υγρό καθαρισμού, αντί σαπουνιού, με ουδέτερο pH ως προς το δέρμα, με φρέσκο άρωμα.\nΤα ήπια επι-φανειοδραστικά που έχουν επιλεχθεί προσεκτικά βάσει δερματολογικών ευρημάτων, καθαρίζουν σε βάθος τους πόρους, ενώ παράλληλα προστατεύουν τον φυσικό όξινο μανδύα του δέρματος.\nΕπίσης, κατάλληλο για δυ-σανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα.\nΗ συχνή χρήση καταπραΰνει τους ερεθισμούς.\nΟι κυριότεροι",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για τον απαλό και βαθύ καθαρισμό.\n— Φυσικός ενυδατικός παράγοντας που συμβάλλει στην περιποίηση και την προστασία της επιδερμίδας κατά τη διάρκεια του καθαρισμού.\n— Η Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Χωρίς αλκαλικούς σάπωνες\nΜε υποαλλεργικό άρωμα\nΕιδικά μελετημένη σύνθεση με ουδέτερο για την επιδερμίδα pH",
+      "Χρήση": "Καθημερινή χρήση. Χρησιμοποιείται για όλο το σώμα και το πρόσωπο, όπως τα συμβατικά προϊόντα",
+      "Συστατικά": "Aqua (Water), Sodium Laureth Sulfate, Disodium Cocoamphodiacetate, Sodium Chloride, PEG-6 Caprylic/Capric Glycerides, Citric Acid, Sodium PCA, PEG-3 Distearate, Allantoin, Sodium Benzoate, Tetrasodium Iminodisuccinate, Potassium Sorbate, Tocopheryl Acetate, Benzoic Acid, Parfum (Fragrance), Terpineol, CI 14720 (Acid Red 14)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-mit-dosierspender-400ml-pvsv-06307001-156-100669_60-fr-300824_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-mit-dosierspender-400ml-pvsv-06307001-156-100669_60-fr-300824_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-mit-dosierspender-400ml-pvsv-06307001-156-100669_60-fr-300824_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-mit-dosierspender-400ml-pv-06307001-156-100669_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-fluessig-wasch-dusch-frischeduft-mit-dosierspender-400ml-sv-06307001-156-100669_55-fr-d_original-1.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-red-washing-emulsion-400ml/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-redwashingbar": {
+    "name": "Basic Solid Washing Bar Red",
+    "subtitle": "Στερεή Πλακά Καθαρισμού Προσώπου & Σώματος",
+    "description": "Ήπιος, καθημερινός καθαρισμός της επιδερμίδας. Αντί σαπουνιού, με άρωμα φρεσκάδας και ουδέτερο pH. Διατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και παράγοντες που προσφέρουν προστασία όπως η αλλαντοΐνη. Δεν προκαλεί αλκαλικό οίδημα στην επιδερμίδα. Επίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα. Οι κυριότεροι",
+    "claims": [
+      "Ουδέτερο pH",
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς μικροπλαστικά"
+    ],
+    "highlights": [
+      "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό και βαθύ καθαρισμό.",
+      "— Γλυκερίνη αυξάνει την ενυδάτωση της επιδερμίδας.",
+      "— Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "125g",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Ήπιος, καθημερινός καθαρισμός της επιδερμίδας. Αντί σαπουνιού, με άρωμα φρεσκάδας και ουδέτερο pH.\nΔιατηρεί τον φυσικό όξινο μανδύα του δέρματος. Με ήπια επιφανειοδραστικά και παράγοντες που προσφέρουν προστασία όπως η αλλαντοΐνη.\nΔεν προκαλεί αλκαλικό οίδημα στην επιδερμίδα.\nΕπίσης, κατάλληλο για δυσανεκτικό στο σαπούνι, προβληματικό ή λιπαρό δέρμα.\nΟι κυριότεροι",
+      "Ενεργά συστατικά": "Επιλεγμένος συνδυασμός ήπιων επιφανειοδραστικών για απαλό και βαθύ καθαρισμό.\n— Γλυκερίνη αυξάνει την ενυδάτωση της επιδερμίδας.\n— Αλλαντοΐνη ανακουφίζει από ερεθισμούς και βελτιώνει την ικανότητα του δέρματος να συγκρατεί την υγρασία.",
+      "Χαρακτηριστικά": "Ουδέτερο pH\nΧωρίς αλκαλικούς σάπωνες\nΧωρίς μικροπλαστικά",
+      "Συστατικά": "Disodium Lauryl Sulfosuccinate, Sodium Coco-Sulfate, Triticum Vulgare (Wheat) Starch, Cetearyl Alcohol, Paraffin, Aqua (Water), PEG-6 Caprylic/Capric Glycerides, Cocamidopropyl Betaine, Aluminium Triformate, Glycerin, Sodium Hydroxide, Glyceryl Stearate, Allantoin, Sodium Chloride, Parfum (Fragrance), Terpineol, CI 12490 (Pigment Red 5)"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-ppsp-403053-4021354030532-53-fr-frle-pp-ri-int_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-ppsp-403053-4021354030532-53-fr-frle-pp-ri-int_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-ppsp-403053-4021354030532-53-fr-frle-pp-ri-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-pp-4021354030532-403053-053HF1_50-fr-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-sp-4021354030532-403053-fr-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basic-care-solid-washing-bar-red-125g-sp-4021354030532-403053-back-int_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-red-washing-bar/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-redcreambathoil": {
+    "name": "Basic Cream Bath Oil Blue",
+    "subtitle": "Ελαιώδες Αφρόλουτρο",
+    "description": "Ελαιώδες Αφρόλουτρο. Φροντίδα κατά την διάρκεια του μπάνιου με απαλό αφρό. Συνδυασμός ήπιου καθαρισμού με εντατική φροντίδα. Ειδικά σχεδιασμένο για τις ανάγκες της ξηρής, πολύ ξηρής επιδερμίδας. Πλούσια, θρεπτικά έλαια παρέχουν προστασία, ενώ παράλληλα εφοδιάζουν την επιδερμίδα με τα απαραίτητα λιπίδια.",
+    "claims": [
+      "65% θρεπτικά έλαια",
+      "Ουδέτερο pH",
+      "Χωρίς αλκαλικούς σάπωνες",
+      "Χωρίς συντηρητικά",
+      "Με υποαλλεργικό άρωμα"
+    ],
+    "highlights": [
+      "Έλαια Σόγιας και Αμυγδάλου, πλούσια σε ακόρεστα, απαραίτητα λιπαρά οξέα, βελτιώνουν το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, εμποδίζοντας την τραχύτητα και την ξηρότητα.",
+      "Εκχύλισμα Χαμομηλιού καταπραΰνει την επιδερμίδα, ενώ εμποδίζει τους ερεθισμούς και τις φλεγμονές."
+    ],
+    "attributes": {
+      "Συσκευασία": "200ml",
+      "Σειρά": "Basic care",
+      "Κατηγορία eubos.gr": "Basic care"
+    },
+    "sections": {
+      "Περιγραφή": "Ελαιώδες Αφρόλουτρο. Φροντίδα κατά την διάρκεια του μπάνιου με απαλό αφρό. Συνδυασμός ήπιου καθαρισμού με εντατική φροντίδα. Ειδικά σχεδιασμένο για τις ανάγκες της ξηρής, πολύ ξηρής επιδερμίδας. Πλούσια, θρεπτικά έλαια παρέχουν προστασία, ενώ παράλληλα εφοδιάζουν την επιδερμίδα με τα απαραίτητα λιπίδια.",
+      "Ενεργά συστατικά": "Έλαια Σόγιας και Αμυγδάλου, πλούσια σε ακόρεστα, απαραίτητα λιπαρά οξέα, βελτιώνουν το περιεχόμενο της επιδερμίδας σε λιπίδια και υγρασία, εμποδίζοντας την τραχύτητα και την ξηρότητα.\nΕκχύλισμα Χαμομηλιού καταπραΰνει την επιδερμίδα, ενώ εμποδίζει τους ερεθισμούς και τις φλεγμονές.",
+      "Χαρακτηριστικά": "65% θρεπτικά έλαια\nΟυδέτερο pH\nΧωρίς αλκαλικούς σάπωνες\nΧωρίς συντηρητικά\nΜε υποαλλεργικό άρωμα",
+      "Συστατικά": "Glycine Soja (Soybean) Oil, Paraffinum Liquidum (Mineral Oil), Laureth-4, MIPA-Laureth Sulfate, Cocoamide DEA, Laureth-3, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Parfum (Fragrance), Laureth-9, Lactic Acid, Ascorbyl Palmitate, Aqua (Water), Bisabolol, Chamomilla Recutita (Matricaria) Flower Extract, Tocopherol, Terpineol, Citronellol, Linalool, Tetramethyl Acetyloctahydronaphthalenes, Pogostemon Cablin Oil"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-pvsv-02781415-201-500808_60-fr-300607_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-pvsv-02781415-201-500808_60-fr-300607_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-pvsv-02781415-201-500808_60-fr-300607_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-pv-02781415-201-500808_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-pv-02781415-201-500808_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-sv-02781415-201-500808_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-basis-pflege-creme-oelbad-200ml-sv-02781415-201-500808_60-li-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-red-cream-bathoil/",
+    "source": "eubos.gr",
+    "section": "basic",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-antiagehydratingdefencefluidspf30": {
+    "name": "Anti Age Hydrating Defence Fluid SPF30",
+    "subtitle": "Κρέμα ημέρας εντατικής φροντίδας με SPF 30",
+    "description": "Κρέμα ημέρας εντατικής φροντίδας με SPF 30. Λειαίνει ορατά και συσφίγγει την επιδερμίδα, ενώ την προστατεύει από το περιβαλλοντικό στρες. Βασικά συστατικά: Ασταξανθίνη: Aντιοξειδωτική προστασία – το πιο ισχυρό αντιοξειδωτικό στον κόσμο – και επιβραδύνει την αποικοδόμηση του κολλαγόνου Ectoin®: Παρέχει κυτταρική προστασία από τις ελεύθερες ρίζες Υαλουρονικό οξύ & Pentavitin™: Προσφέρουν μακράς διαρκείας ενυδάτωση (έως 72h)",
+    "claims": [],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Κρέμα ημέρας εντατικής φροντίδας με SPF 30.\nΛειαίνει ορατά και συσφίγγει την επιδερμίδα, ενώ την προστατεύει από το περιβαλλοντικό στρες.\nΒασικά συστατικά:\nΑσταξανθίνη: Aντιοξειδωτική προστασία – το πιο ισχυρό αντιοξειδωτικό στον κόσμο – και επιβραδύνει την αποικοδόμηση του κολλαγόνου\nEctoin®: Παρέχει κυτταρική προστασία από τις ελεύθερες ρίζες\nΥαλουρονικό οξύ & Pentavitin™: Προσφέρουν μακράς διαρκείας ενυδάτωση (έως 72h)",
+      "Χαρακτηριστικά": "Χωρίς Μικροπλαστικά σωματίδια, PEG,Σιλικόνη\nΟφθαλμολογικά ελεγμένο",
+      "Χρήση": "Καθημερινή χρήση στο πρόσωπο, λαιμό, & ντεκολτέ",
+      "Συστατικά": "Aqua (Water), Ethylhexyl Salicylate, Isoamyl Laurate, Pentylene Glycol, Cellulose, Coconut Alkanes, Glycerin, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Phenylbenzimidazole Sulfonic Acid, Cetearyl Alcohol, Vitis Vinifera (Grape) Seed Oil, Ethylhexyl Triazone, Arginine, Saccharide Isomerate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ectoin, Hectorite, Cetearyl Glucoside, Diethylhexyl Butamido Triazone, Coco-Caprylate/Caprate, Ethylhexylglycerin, Sodium Hyaluronate, Sodium Stearoyl Glutamate, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Chondrus Crispus Powder, Simmondsia Chinensis (Jojoba) Seed Oil, Citric Acid, Sodium Citrate, Haematococcus Pluvialis Extract, Astaxanthin, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Lecithin, Parfum (Fragrance), Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Geranyl Acetate, Camphor"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2025/09/eubos-anti-age-hydrating-defence-fluid-50ml-sv-00000000-403558-frli-fr_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2025/09/eubos-anti-age-hydrating-defence-fluid-50ml-sv-00000000-403558-frli-fr_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2025/09/eubos-anti-age-hydrating-defence-fluid-50ml-sv-00000000-403558-frli-fr_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2025/09/eubos-anti-age-hydrating-defence-fluid-lsf-30-50ml-pv-18212607-558-fr_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-anti-age-hydrating-defence-fluid-spf30/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-antiagemultiactivemousse": {
+    "name": "Anti Age Multi Active Mousse",
+    "subtitle": "Αφρός Καθαρισμού Προσώπου",
+    "description": "AΠAΛOΣ AΦPOΣ ΚΑΘΑΡΙΣΜΟΥ ΠPOΣΩΠOY Ήπιος αφρός καθαρισμού που καθαρίζει το δέρμα απαλά και σε βάθος από τους ρύπους που διαταράσσουν τον επιδερμικό φραγμό και προκαλούν πρόωρη γήρανση. Αφαιρεί υπολείμματα make-up, βρωμιά, σωματίδια σκόνης και την έντονη λιπαρότητα. Χάρη στον αποτελεσματικό καθαρισμό των πόρων, το δέρμα αναπνέει ξανά. Περιέχει το φυσικό συστατικό Ectoin® που προστατεύει από τη ρύπανση.",
+    "claims": [],
+    "highlights": [
+      "Ectoin® προστατεύει από τη βλάβη των κυττάρων και του DNA που προκαλεί η πρόωρη γήρανση.",
+      "Glycoin® ενισχύει τη λειτουργία των κύτταρων, προωθεί τον σχηματισμό προκολλαγόνου, χαρίζοντας απαλότητα στο δέρμα.",
+      "Aloe vera καταπραΰνει το δέρμα και προσφέρει ενυδάτωση."
+    ],
+    "attributes": {
+      "Συσκευασία": "100ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "AΠAΛOΣ AΦPOΣ ΚΑΘΑΡΙΣΜΟΥ ΠPOΣΩΠOY\nΉπιος αφρός καθαρισμού που καθαρίζει το δέρμα απαλά και σε βάθος από τους ρύπους που διαταράσσουν τον επιδερμικό φραγμό και προκαλούν πρόωρη γήρανση. Αφαιρεί υπολείμματα make-up, βρωμιά, σωματίδια σκόνης και την έντονη λιπαρότητα.\nΧάρη στον αποτελεσματικό καθαρισμό των πόρων, το δέρμα αναπνέει ξανά. Περιέχει το φυσικό συστατικό Ectoin® που προστατεύει από τη ρύπανση.",
+      "Ενεργά συστατικά": "Ectoin® προστατεύει από τη βλάβη των κυττάρων και του DNA που προκαλεί η πρόωρη γήρανση.\nGlycoin® ενισχύει τη λειτουργία των κύτταρων, προωθεί τον σχηματισμό προκολλαγόνου, χαρίζοντας απαλότητα στο δέρμα.\nAloe vera καταπραΰνει το δέρμα και προσφέρει ενυδάτωση.",
+      "Χαρακτηριστικά": "Χωρίς μικροπλαστικά σωματίδια, PEG, ορυκτέλαια και σιλικόνες",
+      "Χρήση": "Εφαρμόστε σε ελαφρά βρεγμένο δέρμα του προσώπου και κάνετε απαλό μασάζ. (self-foaming: μετατρέπεται αμέσως σε απαλό αφρό αμέσως μόλις ψεκαστεί).\nΞεπλένετε καλά με χλιαρό νερό.",
+      "Συστατικά": "Aqua (Water), Capryloyl/Caproyl Methyl Glucamide, Lauroyl/Myristoyl Methyl Glucamide, Pentylene Glycol, Sodium Cocoyl Glycinate, Sodium Polyphosphate, Ectoin, Glyceryl Glucoside, Citric Acid, Aloe Barbadensis Leaf Juice Powder, Parfum (Fragrance), Amyl Salicylate, Terpineol"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-multi-active-mousse-100ml-new.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-multi-active-mousse-100ml-new.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-multi-active-mousse-100ml-new.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-multi-active-mousse-100ml-new2.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-antiage-multi-active-mousse/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-198198": {
+    "name": "Anti Age Hyaluron Repair Filler Night",
+    "subtitle": "Αντιρυτιδική Κρέμα Νυκτός",
+    "description": "Hyaluron Kρέμα Nυκτός. Νυχτερινή φροντίδα που προωθεί την αναγέννηση της επιδερμίδας με πολύτιμα έλαια φυτικής προέλευσης. Για πιο λείο, σφριγηλό δέρμα. Υποστηρίζει τη διαδικασία ανανέωσης της επιδερμίδας κατά τη διάρκεια της νύχτας και ενισχύει το δερματικό φραγμό. Αναπληρώνει τα αποθέματα υγρασίας, ενισχύει την κυτταρική ανανέωση, αναζωογονεί και συσφίγγει. Μειώνει τις ρυτίδες και εξασφαλίζει εντατική και μακράς διάρκειας ενυδάτωση.",
+    "claims": [],
+    "highlights": [
+      "— DermCom διεγείρει την παραγωγή κολλαγόνου και ελαστίνης, ενισχύοντας την κυτταρική ανανέωση.",
+      "— Εκχύλισμα Άλγης αναζωογονεί και συσφίγγει την επιδερμίδα.",
+      "— Εκχύλισμα Μανόλιας, με ισχυρή αντιφλεγμονώδη δράση, παρέχει αντιοξειδωτική προστασία."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Hyaluron Kρέμα Nυκτός. Νυχτερινή φροντίδα που προωθεί την αναγέννηση της επιδερμίδας με πολύτιμα έλαια φυτικής προέλευσης.\nΓια πιο λείο, σφριγηλό δέρμα. Υποστηρίζει τη διαδικασία ανανέωσης της επιδερμίδας κατά τη διάρκεια της νύχτας και ενισχύει το δερματικό φραγμό. Αναπληρώνει τα αποθέματα υγρασίας, ενισχύει την κυτταρική ανανέωση, αναζωογονεί και συσφίγγει.\nΜειώνει τις ρυτίδες και εξασφαλίζει εντατική και μακράς διάρκειας ενυδάτωση.",
+      "Ενεργά συστατικά": "— DermCom διεγείρει την παραγωγή κολλαγόνου και ελαστίνης, ενισχύοντας την κυτταρική ανανέωση.\n— Εκχύλισμα Άλγης αναζωογονεί και συσφίγγει την επιδερμίδα.\n— Εκχύλισμα Μανόλιας, με ισχυρή αντιφλεγμονώδη δράση, παρέχει αντιοξειδωτική προστασία.",
+      "Χαρακτηριστικά": "Χωρίς parabens,PEG, λανολίνη, παραφίνη",
+      "Χρήση": "Εφαρμόζετε κάθε βράδυ στο καθαρό δέρμα του προσώπου,του λαιμού και στο ντεκολτέ. Κάνετε απαλό μασάζ.",
+      "Συστατικά": "Aqua (Water), Glycerin, Cetearyl Alcohol, Persea Gratissima (Avocado) Oil, Propanediol, Caprylic/Capric Triglyceride, Diheptyl Succinate, Argania Spinosa Kernel Oil, Pentaerythrityl Distearate, Isosorbide Dicaprylate, Butyrospermum Parkii (Shea) Butter, Cetearyl Ethylhexanoate, Cetearyl Glucoside, Heptyl Undecylenate, Acacia Senegal Gum, Dimethicone, Glyceryl Caprylate, Pentylene Glycol, Xanthan Gum, Caprylyl Glycol, Sodium Stearoyl Glutamate, Arginine, Carbomer, Chondrus Crispus Powder, p-Anisic Acid, Sodium Gluconate, Tocopherol, Sodium Hyaluronate, Magnolia Officinalis Bark Extract, Capryloyl Glycerin/Sebacic Acid Copolymer, Helianthus Annuus (Sunflower) Seed Oil, Alaria Esculenta Extract, Ascorbyl Palmitate, Adansonia Digitata Fruit Extract, Hibiscus Sabdariffa Flower Extract, Crocus Chrysanthus Bulb Extract, Parfum (Fragrance), Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Geranyl Acetate, Camphor"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-night-50ml-pvsv-13649707-403365-frli-fr_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-night-50ml-pvsv-13649707-403365-frli-fr_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-night-50ml-pvsv-13649707-403365-frli-fr_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-night-50ml-pv-13649707-365-fr.png"
+    ],
+    "url": "https://www.eubos.gr/product/%ce%b1%ce%bd%cf%84%ce%b9%cf%81%cf%85%cf%84%ce%b9%ce%b4%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%b5%ce%bc%ce%ac-%ce%bd%cf%8d%cf%87%cf%84%ce%b1%cf%82/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-repairfillerday": {
+    "name": "Anti Age Hyaluron Repair Filler Day",
+    "subtitle": "Αντιγηραντική Κρέμα Ημέρας",
+    "description": "Hyaluron Κρέμα Ημέρας. Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος, για πιο φωτεινό και απαλό δέρμα. Γεμίζει τις ρυτίδες εσωτερικά. Αυξάνει σημαντικά την ενυδάτωση του δέρματος και ενισχύει την κυτταρική ανανέωση στα βαθύτερα στρώματα της επιδερμίδας. Τα πεπτίδια Ματρικίνες ενισχύουν τους φυσικούς μηχανισμούς επανόρθωσης της επιδερμίδας.",
+    "claims": [],
+    "highlights": [
+      "— Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος με διαφορετικά μήκη αλυσίδας που συγκρατούν μεγάλα αποθέματα υγρασίας στην επιδερμίδα.",
+      "— Συνένζυμο Q10 και βιταμίνη Β3 προστατεύουν τις δομές των κυττάρων, ενώ ταυτόχρονα ενισχύουν την παραγωγή των κεραμιδίων και του κολλαγόνου.",
+      "— Βιταμίνη Ε συμβάλλει στην προστασία από την πρόωρη γήρανση που προκαλούν οι ελεύθερες ρίζες."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Hyaluron Κρέμα Ημέρας. Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος, για πιο φωτεινό και απαλό δέρμα. Γεμίζει τις ρυτίδες εσωτερικά.\nΑυξάνει σημαντικά την ενυδάτωση του δέρματος και ενισχύει την κυτταρική ανανέωση στα βαθύτερα στρώματα της επιδερμίδας.\nΤα πεπτίδια Ματρικίνες ενισχύουν τους φυσικούς μηχανισμούς επανόρθωσης της επιδερμίδας.",
+      "Ενεργά συστατικά": "— Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος με διαφορετικά μήκη αλυσίδας που συγκρατούν μεγάλα αποθέματα υγρασίας στην επιδερμίδα.\n— Συνένζυμο Q10 και βιταμίνη Β3 προστατεύουν τις δομές των κυττάρων, ενώ ταυτόχρονα ενισχύουν την παραγωγή των κεραμιδίων και του κολλαγόνου.\n— Βιταμίνη Ε συμβάλλει στην προστασία από την πρόωρη γήρανση που προκαλούν οι ελεύθερες ρίζες.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, παραφίνη",
+      "Χρήση": "Εφαρμόστε στο πρόσωπο, λαιμό, & ντεκολτέ.",
+      "Συστατικά": "Aqua (Water), Glycerin, Caprylic/Capric Triglyceride, Cetearyl Ethylhexanoate, Cetyl Alcohol, Macadamia Integrifolia Seed Oil, Niacinamide, Squalane, Butyrospermum Parkii (Shea) Butter, Myristyl Myristate, Polyglyceryl-3 Dicitrate/Stearate, Glyceryl Stearate, Panthenol, Tocopheryl Acetate, Hydroxypropyl Starch Phosphate, Sodium Benzoate, Stearyl Dimethicone, Citric Acid, Dimethicone, Sodium Stearoyl Glutamate, Phenoxyethanol, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sodium Formate, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Sodium Lactate, Ubiquinone, Xanthan Gum, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Parfum (Fragrance), Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Geranyl Acetate, Camphor"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-day-50ml-pvsv-13649676-403363-frli-fr_2-.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-day-50ml-pvsv-13649676-403363-frli-fr_2-.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-day-50ml-pvsv-13649676-403363-frli-fr_2-.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-repair-filler-day-50ml-pv-13649676-363-fr-e1788208479559.png"
+    ],
+    "url": "https://www.eubos.gr/product/%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%ce%b7%cf%81%ce%b1%ce%bd%cf%84%ce%b9%ce%ba%ce%ae-%ce%ba%cf%81%ce%ad%ce%bc%ce%b1-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-repair-filler-day/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-antiagehyaluroneyecontour": {
+    "name": "Anti Age Hyaluron Eye Contour Cream Serum",
+    "subtitle": "Hyaluron Eye Contour Cream Serum",
+    "description": "Αντιρυτιδικός Ορός ματιών. Εξειδικευμένη φροντίδα με άμεσο αποτέλεσμα για ορατά πιο λείο περίγραμμα ματιών. Ο συνδυασμός ενεργών συστατικών υψηλών προδιαγραφών αναδομεί, μειώνει τις ρυτίδες, λειαίνει και βελτιώνει άμεσα και αισθητά το δέρμα, ενώ παράλληλα αυξάνει τη δυνατότητα συγκράτησης υγρασίας στην επιδερμίδα. Κατάλληλο για χρήστες φακών επαφής. Οφθαλμολογικά ελεγμένο.",
+    "claims": [],
+    "highlights": [
+      "— LIFTONIN®, σύμπλεγμα ενεργών συστατικών φυτικής προέλευσης, που βελτιώνει αισθητά τη δομή του δέρματος, μειώνει τις ρυτίδες και ενισχύει το σχηματισμό κολλαγόνου.",
+      "— Βούτυρο Cupuaçu και βούτυρο Καριτέ παρέχουν εντατική φροντίδα και προστασία από την αφυδάτωση, αφήνοντας το δέρμα λείο.",
+      "— MATRIXYL®, με αποδεδειγμένη αντιγηραντική δράση, αυξάνει την παραγωγή κολλαγόνου και υαλουρονικού οξέος."
+    ],
+    "attributes": {
+      "Συσκευασία": "15ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Αντιρυτιδικός Ορός ματιών. Εξειδικευμένη φροντίδα με άμεσο αποτέλεσμα για ορατά πιο λείο περίγραμμα ματιών. Ο συνδυασμός ενεργών συστατικών υψηλών προδιαγραφών αναδομεί, μειώνει τις ρυτίδες, λειαίνει και βελτιώνει άμεσα και αισθητά το δέρμα, ενώ παράλληλα αυξάνει τη δυνατότητα συγκράτησης υγρασίας στην επιδερμίδα. Κατάλληλο για χρήστες φακών επαφής.\nΟφθαλμολογικά ελεγμένο.",
+      "Ενεργά συστατικά": "— LIFTONIN®, σύμπλεγμα ενεργών συστατικών φυτικής προέλευσης, που βελτιώνει αισθητά τη δομή του δέρματος, μειώνει τις ρυτίδες και ενισχύει το σχηματισμό κολλαγόνου.\n— Βούτυρο Cupuaçu και βούτυρο Καριτέ παρέχουν εντατική φροντίδα και προστασία από την αφυδάτωση, αφήνοντας το δέρμα λείο.\n— MATRIXYL®, με αποδεδειγμένη αντιγηραντική δράση, αυξάνει την παραγωγή κολλαγόνου και υαλουρονικού οξέος.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη & παραφίνη",
+      "Χρήση": "Καθημερινή 24ωρη φροντίδα του την ευαίσθητη περιοχή των ματιών",
+      "Συστατικά": "Aqua (Water), Butylene Glycol, Glycerin, Silica, Propanediol Dicaprylate, Squalane, Hydrogenated Rapeseed Oil, Butyrospermum Parkii (Shea) Butter, Theobroma Grandiflorum Seed Butter, Cetearyl Alcohol, Arachidyl Alcohol, Tocopheryl Acetate, Behenyl Alcohol, Cetearyl Glucoside, Arachidyl Glucoside, Phenoxyethanol, Allantoin, Xanthan Gum, Potassium Sorbate, Panicum Miliaceum (Millet) Seed Extract, Bisabolol, Sodium Lactate, Lecithin, Sclerotium Gum, Citric Acid, Carbomer, Hyaluronic Acid,Tocopherol, Coco-Glucoside, Silanetriol, Pullulan, Sorbic Acid, Tannic Acid, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Parfum (Fragrance), Benzyl Alcohol, Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Benzaldehyde, Geranyl Acetate"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-eye-contour-cream-serum-15ml-ppsp-4021354033649-403364-frle-fr_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-eye-contour-cream-serum-15ml-ppsp-4021354033649-403364-frle-fr_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-eye-contour-cream-serum-15ml-ppsp-4021354033649-403364-frle-fr_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-augen-kontur-cremeserum-15ml-pv-07564102-364-fr.png"
+    ],
+    "url": "https://www.eubos.gr/product/anti-age-hyaluron-eye-contour/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-antiagehyalurondayrepairplus": {
+    "name": "Anti Age Hyaluron Day Repair Plus (SPF 20)",
+    "subtitle": "Αντιρυτιδική Κρέμα Ημέρας με δείκτη προστασίας SPF20",
+    "description": "Hyaluron Κρέμα Ημέρας Με SPF 20. Εντατική φροντίδα και προστασία. Το βιοενεργό υαλουρονικό οξύ προσφέρει ενυδάτωση, αναζωογονεί, λειαίνει και ενισχύει την σύνθεση του κολλαγόνου. Ο συνδυασμός φίλτρων UVA/UVB προστατεύει από τις βλαβερές συνέπειες της ηλιακής ακτινοβολίας. Αποτελεσματική προστασία από την πρόωρη γήρανση και τις κηλίδες.",
+    "claims": [],
+    "highlights": [
+      "Βιοενεργό υαλουρονικό οξύ προσφέρει εντατική και διαρκή ενυδάτωση, σύσφιξη της επιδερμίδας.",
+      "Συνένζυμο Q10 προστατεύει την κυτταρική δομή, ενώ παράλληλα ενισχύει την παραγωγή κεραμιδίων και κολλαγόνου.",
+      "Βιταμίνη C και βιταμίνη Ε προσφέρουν αποτελεσματική προστασία από την πρόωρη γήρανση που προκαλείται από τις ελεύθερες ρίζες."
+    ],
+    "attributes": {
+      "Συσκευασία": "50ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Hyaluron Κρέμα Ημέρας Με SPF 20. Εντατική φροντίδα και προστασία. Το βιοενεργό υαλουρονικό οξύ προσφέρει ενυδάτωση, αναζωογονεί, λειαίνει και ενισχύει την σύνθεση του κολλαγόνου. Ο συνδυασμός φίλτρων UVA/UVB προστατεύει από τις βλαβερές συνέπειες της ηλιακής ακτινοβολίας. Αποτελεσματική προστασία από την πρόωρη γήρανση και τις κηλίδες.",
+      "Ενεργά συστατικά": "Βιοενεργό υαλουρονικό οξύ προσφέρει εντατική και διαρκή ενυδάτωση, σύσφιξη της επιδερμίδας.\nΣυνένζυμο Q10 προστατεύει την κυτταρική δομή, ενώ παράλληλα ενισχύει την παραγωγή κεραμιδίων και κολλαγόνου.\nΒιταμίνη C και βιταμίνη Ε προσφέρουν αποτελεσματική προστασία από την πρόωρη γήρανση που προκαλείται από τις ελεύθερες ρίζες.",
+      "Χαρακτηριστικά": "Χωρίς parabens, PEG, λανολίνη, παραφίνη",
+      "Χρήση": "Καθημερινή χρήση στο πρόσωπο, λαιμό, & ντεκολτέ",
+      "Συστατικά": "Aqua (Water), Dibutyl Adipate, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Methylpropanediol, Ethylhexyl Triazone, Glycerin, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Sodium Ascorbyl Phosphate, Propanediol, Cetyl Alcohol, Glyceryl Stearate, Cetearyl Glucoside, Phenylbenzimidazole Sulfonic Acid, Tromethamine, Caprylyl Glycol, Sodium Stearoyl Glutamate, Tetrasodium Iminodisuccinate, Allantoin, Carbomer, Xanthan Gum, Phenethyl Alcohol, Ethylhexylglycerin, Phenylpropanol, Caprylhydroxamic Acid, Tocopherol, Sodium Hyaluronate, Chondrus Crispus Extract,Citric Acid, Ubiquinone, Lithothamnion Calcareum Extract, Polygonum Aviculare Extract, Potassium Sorbate, Sodium Sorbate, Parfum (Fragrance), Amyl Salicylate, Terpineol, Juniperus Virginiana Oil, Linalyl Acetate, Geranyl Acetate, Camphor"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-spf-20-50ml-ppsp-4021354033489-403348-100110_50-fr-303762_50-frle-int_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-spf-20-50ml-ppsp-4021354033489-403348-100110_50-fr-303762_50-frle-int_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-spf-20-50ml-ppsp-4021354033489-403348-100110_50-fr-303762_50-frle-int_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-lsf-20-50ml-new1.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-lsf-20-50ml-new2.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-lsf-20-50ml-new4.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-lsf-20-50ml-new6.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-day-repair-plus-lsf-20-50ml-new5.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-antiage-hyaluron-dayrepairplus/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-antiagehyaluron": {
+    "name": "Anti Age Hyaluron 3D Booster",
+    "subtitle": "BOOSTER ΕΝΥΔΑΤΩΣΗΣ",
+    "description": "Εντατική αντιγηραντική φροντίδα. Γεμίζει, λειαίνει και συσφίγγει. Καινοτόμο τριπλό σύστημα υαλουρονικού οξέος συγκρατεί σημαντική ποσότητα νερού στο δέρμα, διεισδύει στα βαθύτερα στρώματα της επιδερμίδας και διεγείρει την κυτταρική ανανέωση. Το δέρμα δείχνει πιο σφριγηλό και πιο γεμάτο. Μπορεί να συνδυαστεί ιδανικά και με τα υπόλοιπα προϊόντα φροντίδας της σειράς EUBOS ANTI AGE.",
+    "claims": [
+      "0% Μικροπλαστικά",
+      "Δερματολογικά ελεγμένο",
+      "Xωρίς άρωμα"
+    ],
+    "highlights": [
+      "Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος που παρέχει στο δέρμα εντατική και διαρκή ενυδάτωση, γεμίζει τις ρυτίδες.",
+      "Βιταμίνη Β3 που βελτιώνει τη δομή του δέρματος, ενεργοποιώντας την κυτταρική λειτουργία.",
+      "Βιταμίνη C που χαρίζει ομοιόμορφο τόνο στο δέρμα, προστατεύει από τις επιβλαβείς ελεύθερες ρίζες."
+    ],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Anti Age",
+      "Κατηγορία eubos.gr": "Anti Age"
+    },
+    "sections": {
+      "Περιγραφή": "Εντατική αντιγηραντική φροντίδα. Γεμίζει, λειαίνει και συσφίγγει.\nΚαινοτόμο τριπλό σύστημα υαλουρονικού οξέος συγκρατεί σημαντική ποσότητα νερού στο δέρμα, διεισδύει στα βαθύτερα στρώματα της επιδερμίδας και διεγείρει την κυτταρική ανανέωση.\nΤο δέρμα δείχνει πιο σφριγηλό και πιο γεμάτο.\nΜπορεί να συνδυαστεί ιδανικά και με τα υπόλοιπα προϊόντα φροντίδας της σειράς EUBOS ANTI AGE.",
+      "Ενεργά συστατικά": "Καινοτόμος σύνθεση με 3 είδη υαλουρονικού οξέος που παρέχει στο δέρμα εντατική και διαρκή ενυδάτωση, γεμίζει τις ρυτίδες.\nΒιταμίνη Β3 που βελτιώνει τη δομή του δέρματος, ενεργοποιώντας την κυτταρική λειτουργία.\nΒιταμίνη C που χαρίζει ομοιόμορφο τόνο στο δέρμα, προστατεύει από τις επιβλαβείς ελεύθερες ρίζες.",
+      "Χαρακτηριστικά": "0% Μικροπλαστικά\nΔερματολογικά ελεγμένο\nXωρίς άρωμα",
+      "Χρήση": "Εφαρμόζετε μερικές σταγόνες το πρωί και το βράδυ σε καθαρό δέρμα στο πρόσωπο, το λαιμό και το ντεκολτέ και κάνετε απαλό μασάζ.",
+      "Συστατικά": "Aqua (Water) , Glycerin , Panthenol , Sodium Ascorbyl Phosphate , Sodium Hyaluronate , Sodium Benzoate , Niacinamide , Citric Acid , Hydrolyzed Hyaluronic Acid , Arginine , Caffeine , Carbomer , Phenoxyethanol , Chondrus Crispus Powder"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-3d-booster-30ml-pvsv-11674919-403356-frli-fr-_2.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-3d-booster-30ml-pvsv-11674919-403356-frli-fr-_2.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-3d-booster-30ml-pvsv-11674919-403356-frli-fr-_2.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/02/eubos-anti-age-hyaluron-3d-booster-30ml-pv-11674919-356-fr.png"
+    ],
+    "url": "https://www.eubos.gr/product/eubos-antiage-hyaluron/",
+    "source": "eubos.gr",
+    "section": "antiage",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "EU-dryskinchildrenectoin7": {
+    "name": "Dry Skin Children Ectoin 7%",
+    "subtitle": "Κρέμα EUBOS HAUT RUHE EctoAkut® FORTE Ectoin 7 %",
+    "description": "Η κρέμα EUBOS HAUT RUHE EctoAkut® FORTE Ectoin 7 % είναι ιατροτεχνολογικό προϊόν για τη συμπτωματική αντιμετώπιση διαφόρων τύπων φλεγμονώδους δερματοπάθειας, όπως ατοπικής δερματίτιδας, δερματίτιδας εξ επαφής και ακτινοδερματίτιδας. -Ανακουφίζει τον κνησμό και την ερυθρότητα του δέρματος. -Καταπραΰνει τις περιοχές του δέρματος με ερεθισμό και υποστηρίζει τη διαδικασία αναγέννησης του κατεστραμένου δέρματος. -Σταθεροποιεί το φυσικό φραγμό του δέρματος και προστατεύει από νέα καταστροφή. -Είναι κατάλληλη για την προληπτική θεραπεία της ατοπικής δερματίτιδας στο υποξύ στάδιο. -Ενυδατώνει τις περιοχές του δέρματος με ξηρότητα, εξομαλύνει το τραχύ δέρμα. -Προστατεύει το ανοσοποιητικό σύστημα του δέρματος και προλαμβάνει τη γήρανση και την καταστροφή του δέρματος από τη UVA ακτινοβολία. -Αυξάνει την ελαστικότητα του δέρματος. Το EUBOS HAUT RUHE EctoAkut® FORTE περιέχει 7% εκτοΐνη, ένα φυσικό μόριο κυτταροπροστατευτικό με ιδιότητες αντιφλεγμονώδεις και σταθεροποιητικές των μεμβρανών. Κατάλληλο για μωρά από 1 μηνός. Χωρίς κορτιζόνη, αρώματα, χρωστικές ουσίες και συντηρητικά.",
+    "claims": [
+      "Χωρίς κορτιζόνη",
+      "Χωρίς parabens, PEG, ορυκτέλαιο",
+      "Χωρίς άρωμα",
+      "Ιατροτεχνολογικό προϊόν CE0197",
+      "Κατάλληλο για μωρά από 1 μηνός"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "30ml",
+      "Σειρά": "Dry Skin Children",
+      "Κατηγορία eubos.gr": "Dry Skin Children"
+    },
+    "sections": {
+      "Περιγραφή": "Η κρέμα EUBOS HAUT RUHE EctoAkut® FORTE Ectoin 7 % είναι ιατροτεχνολογικό προϊόν για τη συμπτωματική αντιμετώπιση διαφόρων τύπων φλεγμονώδους δερματοπάθειας, όπως ατοπικής δερματίτιδας, δερματίτιδας εξ επαφής και ακτινοδερματίτιδας.\n-Ανακουφίζει τον κνησμό και την ερυθρότητα του δέρματος.\n-Καταπραΰνει τις περιοχές του δέρματος με ερεθισμό και υποστηρίζει τη διαδικασία αναγέννησης του κατεστραμένου δέρματος.\n-Σταθεροποιεί το φυσικό φραγμό του δέρματος και προστατεύει από νέα καταστροφή.\n-Είναι κατάλληλη για την προληπτική θεραπεία της ατοπικής δερματίτιδας στο υποξύ στάδιο.\n-Ενυδατώνει τις περιοχές του δέρματος με ξηρότητα, εξομαλύνει το τραχύ δέρμα.\n-Προστατεύει το ανοσοποιητικό σύστημα του δέρματος και προλαμβάνει τη γήρανση και την καταστροφή του δέρματος από τη UVA ακτινοβολία.\n-Αυξάνει την ελαστικότητα του δέρματος.\nΤο EUBOS HAUT RUHE EctoAkut® FORTE περιέχει 7% εκτοΐνη, ένα φυσικό μόριο κυτταροπροστατευτικό με ιδιότητες αντιφλεγμονώδεις και σταθεροποιητικές των μεμβρανών. Κατάλληλο για μωρά από 1 μηνός. Χωρίς κορτιζόνη, αρώματα, χρωστικές ουσίες και συντηρητικά.",
+      "Χαρακτηριστικά": "Χωρίς κορτιζόνη\nΧωρίς parabens, PEG, ορυκτέλαιο\nΧωρίς άρωμα\nΙατροτεχνολογικό προϊόν CE0197\nΚατάλληλο για μωρά από 1 μηνός",
+      "Χρήση": "Καθημερινή χρήση 1-2 φορές για 28 μέρες",
+      "Συστατικά": "Action , Aqua (Water) , Hydrogenated Lecithin , Ceramide-3 , Squalane , Olea Europaea Fruit Oil , Caprylic/Capric Triglyceride , Butyrospermum Parkii Butter , Oryza Sativa (Rice) Bran Cera , Carbomer , Xanthan Gum , Sodium Carbomer , Cardiospermum Halicacabum Flower/Leaf/Vine Extract , Glycine , Alanine , Pentylene Glycol , Butylene Glycol , Hydroxyethylcellulose , Glycerine , Hydroxyphenyl Propamidobenzoic Acid"
+    },
+    "image": "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-pvsv-12727026-809-100954_60-fr-300751_60-frli-d_original.png",
+    "imageFallback": "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-pvsv-12727026-809-100954_60-fr-300751_60-frli-d_original.png",
+    "images": [
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-pvsv-12727026-809-100954_60-fr-300751_60-frli-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-pv-12727026-809-100954_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-pv-12727026-809-100954_60-rue-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-sv-12727026-809-100954_60-fr-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-sv-12727026-809-100954_60-li-d_original.png",
+      "https://www.eubos.gr/wp-content/uploads/2020/01/eubos-haut-ruhe-ectoakut-forte-7ectoin-30ml-sv-12727026-809-100954_60-rue-d_original.png"
+    ],
+    "url": "https://www.eubos.gr/product/dry-skin-children-ectoin-7/",
+    "source": "eubos.gr",
+    "section": "children",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  }
+};
