@@ -128,6 +128,16 @@ const BRANDS = {
     isProduct: (html, url) => isBeiersdorfProductPage(html, url),
     extractor: async (html, url) => extractBeiersdorfAny(html, url)
   },
+  pforal: {
+    // Pierre Fabre Oral Care (Elgydium, Eludril, Inava, Arthrodont…) — ίδιο template με ducray.com / klorane.com
+    host: "pierrefabre-oralcare.com",
+    only: /\/gr-gr\/product\.xml$|\/gr-gr\/p\//i,
+    skip: /\/(blog|news|article|articles|about|contact|stores|store-locator|legal|privacy|cookies|terms|tag|tags|search|cart|account|faq|routine|routines|conseils|advice|sitemap|media|files)(\/|$)/i,
+    prefer: /\/gr-gr\/p\//i,
+    toLocalUrl: u => u,
+    delay: 5000,            // robots.txt: Crawl-delay: 5
+    extractor: async (html, url) => extractPierreFabreDetails(html, url)
+  },
   klorane: {
     host: "klorane.com",
     only: /\/gr-el\/product\.xml$|\/gr-el\/p\//i,

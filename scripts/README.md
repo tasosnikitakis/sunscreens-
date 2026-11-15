@@ -342,6 +342,13 @@ haleonhealthpartner.com/el-gr ανακατευθύνει σε «service update»
 γράφεται στο `p.retail` (retailSource "site")· η χονδρική μένει από το Medica. Η κάρτα δείχνει «Λιαν. X €» όταν δεν υπάρχει χονδρική και
 η σελίδα προϊόντος «Λιανική (curaprox.gr)». `keepCaps: true` στο brands.js → το prettify δεν κάνει «CS» → «Cs».
 
+Pierre Fabre Oral Care (Elgydium, Eludril — pierrefabre-oralcare.com/gr-gr, ίδιο template με ducray.com/klorane.com): `scrape-brand.mjs --brand=pforal`
+(sitemap `/gr-gr/product.xml`, Crawl-delay 5s, EAN στο URL/JSON-LD) και μετά `node scripts/fix-pforal-site.mjs` (καθαρίζει « | Oral Care» από τους
+τίτλους, πετάει τη διπλή σελίδα Antiplaque «…-7044702c2», βάζει «(νέα έκδοση)» στο νεότερο EAN όταν το site έχει παλιά + νέα σύνθεση με ίδιο όνομα).
+Build χωρίς Excel: `build-brand-supplier --brand=pforal --with-site --prices=Medica.tsv` → 99 προϊόντα, 40 με τιμή (32 με EAN + 8 παλιοί κωδικοί
+Medica → νέα EAN στο `js/pforal-manual-matches.json`). `Pforal.tsv` = οι γραμμές ELGYDIUM/ELUDRIL του Medica (αναφορά). `noNamePrefix: true` στο
+brands.js → τα ονόματα έχουν ήδη Elgydium/Eludril και δεν προτάσσεται «Pierre Fabre Oral Care».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
