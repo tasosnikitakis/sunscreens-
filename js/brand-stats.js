@@ -674,5 +674,20 @@ window.BRAND_STATS = {
       "noprice": 0,
       "priced": 17
     }
+  },
+  "nuk": {
+    "products": 166,
+    "priced": 30,
+    "sections": 13,
+    "modes": {
+      "all": 166,
+      "ok": 163,
+      "issue": 3,
+      "complete": 163,
+      "incomplete": 3,
+      "nopage": 0,
+      "noprice": 136,
+      "priced": 30
+    }
   }
 };

@@ -1,11 +1,11 @@
 {
-  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο NUK: promo/δώρο/σετ (1+1, -20%, & Δώρο, Σετ). Διαβάζεται από το build-brand-supplier.mjs.",
+  "_comment": "Κανόνες αποκλεισμού για τον κατάλογο NUK: promo/δώρο (1+1, -20%, & Δώρο). Τα πακέτα πολλών προϊόντων (Starter Set, Multipack, Σετ μπιμπερό) αφαιρούνται ήδη στο scripts/scrape-nuk.mjs· μένουν μόνο όσα «σετ» είναι το ίδιο το προϊόν (βούρτσα-χτένα, δακτύλιοι οδοντοφυΐας, οδοντόβουρτσες κ.λπ.). Διαβάζεται από το build-brand-supplier.mjs.",
   "rules": [
     {
-      "name": "set",
-      "pattern": "(^|[^\\p{L}])(σετ|gift|promo|δώρο|δωρο|1\\+1|-\\d+%|free)([^\\p{L}]|$)|^PBEPANTHOL",
+      "name": "promo",
+      "pattern": "(^|[^\\p{L}])(gift|promo|δώρο|δωρο|1\\+1|-\\d+%|free)([^\\p{L}]|$)",
       "flags": "iu",
-      "reason": "Promo / δώρο / σετ"
+      "reason": "Promo / δώρο"
     }
   ]
 }

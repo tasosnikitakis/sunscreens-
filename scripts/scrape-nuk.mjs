@@ -71,9 +71,96 @@ const DISCOVERY = [
 ];
 // Αν η σελίδα δεν βρέθηκε σε «φύλλο» κατηγορία (π.χ. 21ο προϊόν της κατηγορίας), ενότητα από το όνομα
 const NAME_SECTION = [
-  ["sets", /\bΣετ\b|Set\b|Δώρο/i], ["teats", /Θηλ(ή|ές)/i], ["soothers", /Πιπίλ/i], ["cups", /Cup|ποτηράκι|παγουράκι|Εκπαιδευτικό/i],
+  ["sets", /(^|\s)Σετ(\s|$)|Set\b|Δώρο/i], ["teats", /Θηλ(ή|ές)/i], ["soothers", /Πιπίλ/i], ["cups", /Cup|ποτηράκι|παγουράκι|Εκπαιδευτικό/i],
   ["bottles", /Μπιμπερό/i], ["breastfeeding", /Θήλαστρ|στήθους|θηλασ/i], ["teething", /Δακτύλι|οδοντ/i], ["electric", /Αποστειρωτ|Θερμαντ|Ενδοεπικοινων/i]
 ];
+
+// Διορθώσεις τίτλων του nuk.gr (γερμανικά υπολείμματα, λατινικά γράμματα μέσα σε ελληνικές λέξεις, τυπογραφικά)
+const TITLE_FIX = [
+  [/Trinklernflasche/g, "Μπιμπερό εκπαίδευσης"], [/Silikon-Schnuller/g, "Πιπίλα σιλικόνης"],
+  [/First Choice Soother 18-36 months/g, "First Choice Πιπίλα 18-36 μηνών"],
+  [/ with με /g, " με "], [/\(ΡΡ\)/g, "(PP)"], [/(^|\s)Mπιμπερό/g, "$1Μπιμπερό"], [/Πόλυπροπυλενίου/g, "Πολυπροπυλενίου"],
+  [/Τhermo/g, "Thermo"], [/EASY LEARNING/g, "Easy Learning"], [/\s{2,}/g, " "]
+];
+const fixTitle = t => TITLE_FIX.reduce((a, [re, to]) => a.replace(re, to), t).trim();
+// Πακέτα πολλών διαφορετικών προϊόντων → εκτός (πολιτική: μόνο βασικά προϊόντα).
+// Μένουν όσα «σετ» είναι το ίδιο το προϊόν (βούρτσα-χτένα, δακτύλιοι, οδοντόβουρτσες, καλύμματα στήθους, πολτοποίηση).
+const BUNDLE = /(^|\s)Σετ(\s|$)|\bSet\b|Multipack|includes|Δώρο|Gift/i;
+const BUNDLE_OK = /Σετ βούρτσα|Σετ δακτυλίων|Σετ στοματικής|Σετ εκπαιδευτικών οδοντοβουρτσών|Σετ καλυμμάτων|Σετ Πολτοποίησης/i;
+// Η ενότητα από την κατηγορία του site δεν είναι πάντα σωστή (π.χ. μπιμπερό στις «Θηλές») → κανόνες ονόματος έχουν προτεραιότητα
+const SECTION_FIX = [
+  ["bottle-acc", /Βούρτσα μπιμπερό|Στεγνωτήρας|Δοσομετρητής/i],
+  ["hygiene", /Υγρό καθαρισμού/i],
+  ["parts", /Καπάκι για Μπιμπερό/i],
+  ["electric", /Θερμαντήρας|Αποστειρωτής/i],
+  ["babycare", /Θερμόμετρο/i],
+  ["breastfeeding", /Θήλαστρ|μητρικού γάλακτος|Ασπίδες θηλής/i],
+  ["cups", /Μπιμπερό εκπαίδευσης/i],
+  ["bottles", /Μπιμπερό/i],
+  ["teats", /Θηλή/i],
+  ["tableware", /Snack Box/i],
+];
+// Διπλές σελίδες του site (ίδιο προϊόν, άλλο URL) → κρατάμε μία
+const DROP_SKU = new Set(["10256361", "90255615", "10256495"]);
+// Ίδιος τίτλος για διαφορετικά προϊόντα → ξεχωριστό όνομα
+const RENAME_SKU = {
+  "90125019": "NUK First Choice Plus Θηλή σιλικόνης", "10120013": "NUK First Choice Plus Θηλή καουτσούκ (latex)",
+  "90175294": "NUK for Nature Πιπίλα σιλικόνης", "90171000": "NUK for Nature Πιπίλα καουτσούκ (latex)",
+};
+// Σελίδα του nuk.gr που είναι μόνο στα γερμανικά → ελεύθερη ελληνική απόδοση
+const GREEK_TEXT = {
+  "90175336": {
+    subtitle: "NUK Perfect Match Πιπίλα σιλικόνης, 0-6 μηνών, 2 τεμάχια",
+    advantages: [
+      "Για υγιή ανάπτυξη των δοντιών και της γνάθου*",
+      "Μοναδικά φιλική προς τον θηλασμό – το 98% των μητέρων λέει ότι ηρεμεί αξιόπιστα το μωρό χωρίς να επηρεάζει τη σχέση θηλασμού**",
+      "Μαλακή και οικεία: η σιλικόνη με υφή δέρματος μιμείται το στήθος της μητέρας και ηρεμεί με φυσικό τρόπο",
+      "Απαλή στο ευαίσθητο δέρμα του μωρού – ακουμπά μαλακά, χωρίς σημάδια πίεσης ή ερεθισμούς",
+      "Κατασκευάζεται στη Γερμανία, 2 τεμάχια ανά συσκευασία, με ανθεκτική επαναχρησιμοποιούμενη θήκη",
+    ],
+    "Περιγραφή": "Η πιπίλα NUK Perfect Match*** μοιάζει με το στήθος της μητέρας\nΗ πιπίλα που «ταιριάζει» σωστά: εμπνευσμένη από την αίσθηση της μητέρας, προσφέρει ασφάλεια, εγγύτητα και σιγουριά – ό,τι χρειάζονται τα μωρά. Η φιλική προς το δέρμα σιλικόνη είναι μαλακή, εύκαμπτη και καταπραϋντική. Η φαρδιά βάση για τα χείλη υποστηρίζει τη φυσική εφαρμογή – όπως στον θηλασμό. Το επίπεδο, ορθοδοντικό σχήμα αφήνει χώρο στη γλώσσα και μειώνει την πίεση σε γνάθο και δόντια, υποστηρίζοντας από την αρχή την υγιή τους ανάπτυξη. Σε συγκριτική δοκιμή τεσσάρων σχημάτων πιπίλας η NUK είχε τα καλύτερα αποτελέσματα, με τη μικρότερη επίδραση σε γνάθο και δόντια.* Η πιπίλα ταιριάζει ιδανικά με το μπιμπερό NUK Perfect Match – μαζί προσφέρουν οικεία αίσθηση και προστατεύουν τη σχέση θηλασμού.\nΠρακτική για τις μετακινήσεις: με επαναχρησιμοποιούμενη θήκη\nΗ πιπίλα συνοδεύεται από ανθεκτική, επαναχρησιμοποιούμενη θήκη που την προστατεύει υγιεινά – ιδανική για έξω και κατάλληλη για αποστείρωση στον φούρνο μικροκυμάτων.",
+    "Σημειώσεις": "*Επιστημονική σύγκριση τεσσάρων σχημάτων πιπίλας, Pharmawissen aktuell, 2022.\n**Γερμανία 2022: ανεξάρτητες έρευνες αγοράς.\n***Η Perfect Match (0-6 μηνών) σχεδιάστηκε ειδικά για την περίοδο του θηλασμού· μετά τον απογαλακτισμό προτιμήστε άλλο μοντέλο πιπίλας NUK.\nΟι πιπίλες NUK κατασκευάζονται 100% στη Γερμανία και πληρούν το ευρωπαϊκό πρότυπο ασφαλείας EN 1400. Για λόγους ασφάλειας και υγιεινής οι πιπίλες σιλικόνης πρέπει να αντικαθίστανται κάθε 1–2 μήνες. Διαβάστε προσεκτικά τις οδηγίες χρήσης και τις προειδοποιήσεις μέσα στη συσκευασία.",
+  },
+};
+// Μεμονωμένες γερμανικές γραμμές μέσα σε ελληνικές περιγραφές → ελληνικά
+const LINE_FIX = [
+  [/^• Elterneinheit:.*$/m, "• Μονάδα γονέα: περιλαμβάνει φορτιστή και 1 επαναφορτιζόμενη μπαταρία (τύπος BYD SCD 530-1, έξοδος 3,7 V, 950 mAh [3,5 Wh])"],
+  [/^• Babyeinheit:.*$/m, "• Μονάδα μωρού: λειτουργία με 4 αλκαλικές μπαταρίες AA 1,5 V ή με το παρεχόμενο τροφοδοτικό 230 V (βύσμα DC)"],
+  [/^Carefully read warnings and instructions inside\. Please retain product information and article\/ LOT no\. for future use\. NUK Cups and Spouts are only compatible with the corresponding range\.$/m, "Διαβάστε προσεκτικά τις προειδοποιήσεις και τις οδηγίες μέσα στη συσκευασία. Φυλάξτε τις πληροφορίες του προϊόντος και τον αριθμό είδους/LOT για μελλοντική χρήση. Τα ποτηράκια και τα ρύγχη NUK είναι συμβατά μόνο με την αντίστοιχη σειρά."],
+  [/^Carefully read warnings and instructions inside\. Please retain product information and article\/ LOT no\. for future use\.$/m, "Διαβάστε προσεκτικά τις προειδοποιήσεις και τις οδηγίες μέσα στη συσκευασία. Φυλάξτε τις πληροφορίες του προϊόντος και τον αριθμό είδους/LOT για μελλοντική χρήση."],
+  [/^NUK baby bottles comply with the European safety standard EN14350\.$/m, "Τα μπιμπερό NUK πληρούν το ευρωπαϊκό πρότυπο ασφαλείας EN 14350."],
+  [/^NUK Cups comply with the European safety standard EN14350\.$/m, "Τα ποτηράκια NUK πληρούν το ευρωπαϊκό πρότυπο ασφαλείας EN 14350."],
+  [/^If your child’s condition is causing you concern, please consult a doctor\.$/m, "Αν η κατάσταση του παιδιού σας σας ανησυχεί, συμβουλευτείτε γιατρό."],
+  [/^NUK Disney Winnie the Pooh Active Cup, Soft Spout Silicone, 300 ml, Age 12m\+, Leakproof, With Clip, BPA-free$/m, "NUK Disney Winnie the Pooh Active Cup, μαλακό ρύγχος σιλικόνης, 300 ml, από 12 μηνών, προστασία από διαρροές, με κλιπ, χωρίς BPA"],
+  [/^• \*\*In accordance with applicable regulation\.$/m, "• **Σύμφωνα με την ισχύουσα νομοθεσία."],
+  [/^NUK Fresh Foods TM Food Pots: letting fresh baby food be stacked away quickly and easily!$/m, "NUK Fresh Foods δοχεία φαγητού: η φρέσκια βρεφική τροφή αποθηκεύεται γρήγορα και εύκολα!"],
+  [/^• Flexible, soft silicone shape$/m, "• Εύκαμπτο, μαλακό σχήμα από σιλικόνη"],
+  [/^\* In accordance with EU regulations$/m, "* Σύμφωνα με τους κανονισμούς της ΕΕ"],
+  [/\(ΡΡ\)/g, "(PP)"],
+  [/^Beachten Sie bitte.*$/m, "Σημείωση: για χρήση με το NUK Easy Learning Cup Fun κόψτε λίγο από το κάτω μέρος του καλαμακιού, γιατί αλλιώς είναι πολύ μακρύ."],
+];
+GREEK_TEXT["10177250"] = {
+  subtitle: "NUK First Choice ορθοδοντική πιπίλα σιλικόνης, 18-36 μηνών, με θήκη",
+  advantages: ["Ορθοδοντική πιπίλα με μαλακή ζώνη και εξαιρετικά λεπτό λαιμό για υγιή ανάπτυξη του στόματος, σε μέγεθος 18-36 μηνών"],
+  "Περιγραφή": "Η πιπίλα NUK First Choice έχει σχεδιαστεί για να καλύπτει την ανάγκη του μωρού για θηλασμό.\nΗ μοναδική ορθοδοντική θηλή της έχει μια ευχάριστη μαλακή ζώνη στο πάνω μέρος, που προσαρμόζεται απαλά στον ουρανίσκο. Το εξαιρετικά επίπεδο σχήμα αφήνει περισσότερο χώρο στη γλώσσα για φυσική κίνηση, ενώ ο πολύ λεπτός και στενός λαιμός επιτρέπει στα χειλάκια να κλείνουν σχεδόν πλήρως. Έτσι υποστηρίζεται η υγιής ανάπτυξη των δοντιών και της γνάθου*.\nΟι πιπίλες NUK First Choice συνοδεύουν το μωρό σε κάθε στάδιο και κυκλοφορούν σε μεγέθη 0-6, 6-18 και 18-36 μηνών, για τέλεια εφαρμογή καθώς μεγαλώνει.\nΤις εμπιστεύεται το 95% των μωρών**· κατασκευάζονται στη Γερμανία και συνοδεύονται από ανθεκτική, επαναχρησιμοποιούμενη θήκη για υγιεινή φύλαξη και εύκολη αποστείρωση.",
+};
+GREEK_TEXT["10255635"] = {
+  subtitle: "NUK Mini Cups 3 σε 1: 1x Mini Trainer Cup, 1x Mini Magic Cup, 1x χείλος πόσης, 160 ml, χωρίς BPA",
+  advantages: [
+    "Πολύ μικρό και εύχρηστο – ενθαρρύνει το παιδί να πίνει μόνο του",
+    "1x NUK Mini Trainer Cup, 1x NUK Mini Magic Cup, 1x NUK χείλος πόσης",
+    "Τα στόμια συνδυάζονται ελεύθερα μεταξύ τους",
+    "Χωρητικότητα 160 ml, από 6 μηνών",
+    "Ανθεκτικό ποτηράκι από πολυπροπυλένιο",
+  ],
+  "Περιγραφή": "NUK Mini Trainer Cup με εργονομικές λαβές και καπάκι, από 6 μηνών\nΤο NUK Mini Trainer Cup διευκολύνει τη μετάβαση από το μπιμπερό στο ποτήρι. Το μαλακό ρύγχος είναι ιδιαίτερα απαλό για τον ουρανίσκο και τα ούλα, οι εργονομικές λαβές πιάνονται εύκολα από τα μικρά χεράκια και το ποτηράκι είναι 100% προστατευμένο από διαρροές.\nNUK Mini Magic Cup με χείλος πόσης 360° και καπάκι, από 6 μηνών\nΜε το NUK Mini Magic Cup και τα πιο μικρά παιδιά πίνουν «σαν μεγάλα»: το περιμετρικό χείλος 360° τα μαθαίνει να πίνουν από όλη την περίμετρο, σχεδόν όπως από κανονικό ποτήρι. Η μόνη «μαγική» διαφορά: ένας δίσκος σιλικόνης σφραγίζει το ποτήρι από μέσα, ώστε να μη χύνεται. Αρκεί το παιδί να ρουφήξει ελαφρά το χείλος. Είναι πολύ μικρό και εύχρηστο, και το καπάκι το κρατά καθαρό όπου κι αν βρίσκεστε.\nNUK χείλος πόσης, από 12 μηνών\nΤο χείλος πόσης ενθαρρύνει το παιδί να πίνει από ανοιχτό ποτήρι και ταιριάζει και με άλλα ποτηράκια της σειράς NUK Evolution Cup.\nΤα NUK Evolution Cups «μεγαλώνουν» μαζί με το παιδί: δύο μεγέθη και διαφορετικά στόμια για κάθε στάδιο εκμάθησης, που αλλάζουν εύκολα όσο αναπτύσσονται οι δεξιότητές του – όλα 100% χωρίς διαρροές.",
+  "Σημειώσεις": "Διαβάστε προσεκτικά τις προειδοποιήσεις και τις οδηγίες μέσα στη συσκευασία. Φυλάξτε τις πληροφορίες του προϊόντος και τον αριθμό είδους/LOT για μελλοντική χρήση. Τα ποτηράκια και τα ρύγχη NUK είναι συμβατά μόνο με την αντίστοιχη σειρά.\nΤα ποτηράκια NUK πληρούν το ευρωπαϊκό πρότυπο ασφαλείας EN 14350.",
+};
+// Αγγλικοί υπότιτλοι → ελληνικά
+const SUBTITLE_FIX = {
+  "10255257": "NUK Fresh Foods θήκη κατάψυξης για βρεφικές τροφές, 9 μερίδες των 60 ml, που αφαιρούνται μεμονωμένα",
+  "10255635": "NUK Mini Cups 3 σε 1: 1x Mini Trainer Cup, 1x Mini Magic Cup, 1x χείλος πόσης, 160 ml, χωρίς BPA",
+};
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", ndash: "–", mdash: "—", hellip: "…", rsquo: "’", lsquo: "‘", ldquo: "“", rdquo: "”", deg: "°", reg: "®", trade: "™", times: "×" };
@@ -123,7 +210,7 @@ function parseProduct(html, url) {
   const ov = (html.match(/c-product-attribute--overview[^>]*>\s*<div class="value"[^>]*>([\s\S]*?)<\/div>/) || [])[1] || "";
   d.advantages = strip(ov).split("\n").map(l => l.replace(/^•\s*/, "").trim()).filter(Boolean);
   const desc = (html.match(/c-product-attribute--description[^>]*>\s*<div class="value"\s*>([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>/) || [])[1] || "";
-  let lines = strip(desc).split("\n").filter(l => !/^MAPA GmbH|^\*{0,3}$/.test(l));
+  let lines = strip(desc).split("\n").filter(l => !/^MAPA GmbH|^Newell Brands|^\*{0,3}$|^.$/.test(l));
   // 1η γραμμή = πλήρης περιγραφή-τίτλος (μέγεθος, ηλικία, χρώμα) → υπότιτλος
   if (lines.length && /^NUK\b/i.test(lines[0])) d.subtitle = lines.shift();
   const notes = lines.filter(l => /^\*|EN\s?\d{4,5}|Διαβάστε προσεκτικά|For more information/i.test(l));
@@ -144,7 +231,7 @@ function parseProduct(html, url) {
   if (age) d.attributes["Ηλικία"] = age[1].replace(/\s/g, "").replace("–", "-") + " μηνών";
   if (/σιλικόνη|silicone/i.test(all)) d.attributes["Υλικό"] = "Σιλικόνη"; else if (/latex|καουτσούκ/i.test(all)) d.attributes["Υλικό"] = "Latex (καουτσούκ)";
   if (d.sku) d.attributes["Κωδικός NUK"] = d.sku;
-  d.gtin = d.sku ? `NUK-${d.sku}` : `NUK-${url.replace(/^.*\/nuk-|\.html$/g, "").replace(/[^a-z0-9]/gi, "").slice(0, 40)}`;
+  d.gtin = d.sku ? `NUK-${d.sku.replace(/[^a-z0-9]/gi, "")}` : `NUK-${url.replace(/^.*\/nuk-|\.html$/g, "").replace(/[^a-z0-9]/gi, "").slice(0, 40)}`;
   return d;
 }
 
@@ -174,12 +261,26 @@ async function main() {
     const html = pages.get(u);
     if (!html) continue;
     const d = parseProduct(html, u);
+    if (DROP_SKU.has(d.sku)) { console.log(`   (διπλή σελίδα — παραλείπεται) ${d.title} ${u}`); continue; }
+    d.title = RENAME_SKU[d.sku] || fixTitle(d.title);
+    if (SUBTITLE_FIX[d.sku]) d.subtitle = SUBTITLE_FIX[d.sku];
+    for (const k of Object.keys(d.tabs)) d.tabs[k] = LINE_FIX.reduce((t, [re, to]) => t.replace(re, to), d.tabs[k]);
+    const gr = GREEK_TEXT[d.sku];
+    if (gr) {
+      d.subtitle = gr.subtitle; d.advantages = gr.advantages;
+      d.tabs = { "Περιγραφή": gr["Περιγραφή"], "Χαρακτηριστικά": gr.advantages.map(a => "• " + a).join("\n") };
+      if (gr["Σημειώσεις"]) d.tabs["Σημειώσεις"] = gr["Σημειώσεις"];
+    }
+    else d.advantages = d.advantages.map(a => LINE_FIX.reduce((t, [re, to]) => t.replace(re, to), "• " + a).replace(/^• /, ""));
+    // περιγραφή-σύνοψη ξανά από τα διορθωμένα κείμενα
+    d.description = ((d.tabs["Περιγραφή"] || "").split("\n").slice(0, 3).join(" ") || d.advantages.join(" ")).replace(/\s+/g, " ").trim();
     if (!d.title) { console.warn("  ! χωρίς τίτλο:", u); continue; }
     d.category = category.get(u) || null;
     d.section = section.get(u) || (NAME_SECTION.find(([, re]) => re.test(d.title)) || ["diafora"])[0];
     // Σετ/δώρα εκτός καταλόγου (πολιτική: μόνο βασικά προϊόντα)· τα απλά προϊόντα της «Σετ & δώρα» → ενότητα από το όνομα
-    if (/\bΣετ\b|\bSet\b|Feeding Set|Δώρο|Gift/i.test(d.title)) { console.log(`   (σετ/δώρο — εκτός καταλόγου) ${d.title}`); continue; }
+    if (BUNDLE.test(d.title) && !BUNDLE_OK.test(d.title)) { console.log(`   (σετ/δώρο — εκτός καταλόγου) ${d.title}`); continue; }
     if (d.section === "sets") d.section = (NAME_SECTION.find(([k, re]) => k !== "sets" && re.test(d.title)) || ["diafora"])[0];
+    const fix = SECTION_FIX.find(([, re]) => re.test(d.title)); if (fix) d.section = fix[0];
     if (d.category) d.attributes["Κατηγορία nuk.gr"] = d.category;
     out.push({ url: u, section: "p", name: d.title, description: d.description.slice(0, 700), longDescription: d.description, details: d, image: d.images[0] || null, gtin: d.gtin });
     console.log(`${String(d.images.length).padStart(2)} img ${d.section.padEnd(13)} ${d.gtin.padEnd(14)} | ${d.title}`);
