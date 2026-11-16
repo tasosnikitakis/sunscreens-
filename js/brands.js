@@ -327,6 +327,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Eviol", imageDir: "eviol", sourceKey: "_eviolSource",
     fallbackDesc: "Συμπλήρωμα διατροφής EVIOL — {name}",
     exportSections: ["Περιγραφή", "Δράση", "Δοσολογία", "Συστατικά"]
+  },
+  nuk: {
+    key: "nuk", name: "NUK", host: "nuk.gr", page: "nuk.html",
+    icon: "🍼", initials: "NUK", accent: "#0369a1", keepCaps: true,
+    sheetName: "NUK", imageDir: "nuk", sourceKey: "_nukSource",
+    fallbackDesc: "Βρεφικό προϊόν NUK — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Σημειώσεις"]
   }
 };
 
