@@ -23,9 +23,9 @@ const OUT = path.join(ROOT, "js/nuk-site.json");
 const args = process.argv.slice(2);
 const opt = (k, def) => { const a = args.find(x => x.startsWith(`--${k}=`)); return a ? a.slice(k.length + 3) : def; };
 const CACHE = opt("cache", null);
-const DELAY = parseInt(opt("delay", "1000"), 10);
+const DELAY = parseInt(opt("delay", "6000"), 10);
 const BASE = "https://www.nuk.gr/";
-const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36";
+const UA = "Mozilla/5.0 (compatible; catalog-fetch/1.0)";
 
 // Κατηγορία του nuk.gr → ενότητα καταλόγου (η πρώτη που ταιριάζει κερδίζει, από τις πιο ειδικές)
 const CATEGORIES = [
@@ -93,16 +93,19 @@ const strip = s => tidy(unescape(String(s || "")
 async function get(url) {
   const key = url.replace(BASE, "").replace(/[^a-z0-9.-]+/gi, "__");
   if (CACHE) { try { return await fs.readFile(path.join(CACHE, key), "utf8"); } catch {} }
-  // το nuk.gr απαντά αργά και κατά διαστήματα κόβει τη σύνδεση → έως 4 προσπάθειες με αυξανόμενη αναμονή
+  // το nuk.gr περιορίζει τον ρυθμό: μετά από λίγες κλήσεις απαντά 302 (σελίδα επαλήθευσης).
+  // Αργό crawl (6s) και, όταν μας κόβει, αναμονή 1 → 2 → 4 λεπτά πριν την επόμενη προσπάθεια.
+  const BACKOFF = [0, 60000, 120000, 240000];
   let html, lastErr;
-  for (let attempt = 0; attempt < 4 && html === undefined; attempt++) {
-    await sleep(DELAY * (1 + attempt * 5));
+  for (let attempt = 0; attempt < BACKOFF.length && html === undefined; attempt++) {
+    if (attempt) console.warn(`  … ${lastErr?.message} — αναμονή ${BACKOFF[attempt] / 1000}s`);
+    await sleep(DELAY + BACKOFF[attempt]);
     try {
       // curl αντί για fetch: το fetch της Node μέσω proxy κόβεται συχνά σε αυτό το site
-      const { stdout } = await execFileP("curl", ["-sS", "--fail", "--compressed", "--max-time", "60",
+      const { stdout } = await execFileP("curl", ["-sS", "--fail", "--compressed", "--max-time", "60", "--max-redirs", "0",
         "-A", UA, "-H", "Accept-Language: el-GR,el;q=0.9", url], { maxBuffer: 64 << 20 });
-      // υπό φόρτο το site επιστρέφει 200 με κενό σώμα → το μετράμε ως αποτυχία
-      if (stdout.length < 2000) throw new Error(`κενή απάντηση (${stdout.length} bytes)`);
+      // περιορισμός ρυθμού: 302 με σώμα ~35 bytes → αποτυχία, όχι cache
+      if (stdout.length < 2000) throw new Error(`περιορισμός ρυθμού (${stdout.length} bytes)`);
       html = stdout;
     } catch (e) { lastErr = e; }
   }
