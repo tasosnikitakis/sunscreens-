@@ -395,6 +395,12 @@ Sensodyne & parodontax (Haleon, κλειδί `sensodyne`) — ίδια διαδ�
 → variants. Τιμές Medica με `js/bepanthol-manual-matches.json`. Εικόνες: **`sync-brand-images --browser --warmup=https://www.bepanthol.gr/el/`**
 — ένα κοινό browser context που πρώτα ανοίγει το site και μετά κατεβάζει κάθε εικόνα με `fetch` μέσα από τη σελίδα (Accept χωρίς AVIF).
 
+`scripts/scrape-eviol.mjs` (EVIOL, συμπληρώματα διατροφής, eviol.gr — WordPress + Elementor): όλα τα προϊόντα με ένα αίτημα στο WP REST
+(`/wp-json/wp/v2/product`, cloud: `NODE_USE_ENV_PROXY=1`). Ενότητες από τις επικεφαλίδες της σελίδας (Σε τι μας βοηθάει → Δράση, Ποιοι το έχουν
+ανάγκη → Για ποιους, Δοσολογία, Συσκευασία, Μην ξεχνάς → Προειδοποιήσεις)· ο πίνακας «Διατροφικές πληροφορίες» (UAEL price list ή ζεύγη γραμμών)
+→ Συστατικά ως «• ΣΥΣΤΑΤΙΚΟ — ποσότητα». Χωρίς EAN στο site → κλειδιά `EV-…`· «30 & 60 κάψουλες» και Vitamin D3 1200/2200/4000IU (με δικό
+τους packshot) → variants. Τιμές Medica με `js/eviol-manual-matches.json` (build `--with-site --prices=Medica.tsv`), `keepCaps` για να μένει «IU».
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

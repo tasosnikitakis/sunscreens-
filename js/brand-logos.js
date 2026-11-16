@@ -35,5 +35,6 @@ window.BRAND_LOGOS = {
   "bepanthol": "images/logos/bepanthol.png",
   "intermed": "images/logos/intermed.png",
   "healthaid": "images/logos/healthaid.png",
-  "quest": "images/logos/quest.jpg"
+  "quest": "images/logos/quest.jpg",
+  "eviol": "images/logos/eviol.png"
 };
