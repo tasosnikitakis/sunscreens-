@@ -6327,5 +6327,22 @@ window.IMAGE_MANIFEST = {
   "BP-tattooantiliakikremaspf50": "bepanthol/tattoo-spf50-BP-tattooantiliakikremaspf50.webp",
   "BP-gentletattoowash": "bepanthol/gentle-tattoo-wash-BP-gentletattoowash.webp",
   "BP-lipcream": "bepanthol/lip-cream-BP-lipcream.webp",
-  "BP-sprayafrou": "bepanthol/bepanthene-BP-sprayafrou.webp"
+  "BP-sprayafrou": "bepanthol/bepanthene-BP-sprayafrou.webp",
+  "EV-multivitamin": "eviol/multivitamin-30-EV-multivitamin.jpg",
+  "EV-multivitaminenergyplus": "eviol/multivitamin-energy-plus-30-EV-multivitaminenergyplus.jpg",
+  "EV-lactobalance": "eviol/lactobalance-30-EV-lactobalance.jpg",
+  "EV-brainfunction": "eviol/brain-function-30-EV-brainfunction.jpg",
+  "EV-vitamind31200": "eviol/vitamin-d3-1200iu-60-EV-vitamind31200.jpg",
+  "EV-vitamind32200": "eviol/vitamin-d3-2200iu-60-EV-vitamind32200.jpg",
+  "EV-vitamind34000": "eviol/vitamin-d3-4000iu-60-EV-vitamind34000.jpg",
+  "EV-vitaminb12": "eviol/vitamin-b12-30-EV-vitaminb12.jpg",
+  "EV-bcomplex30": "eviol/b-complex-30-EV-bcomplex30.jpg",
+  "EV-bcomplex60": "eviol/b-complex-60-EV-bcomplex60.jpg",
+  "EV-naturalcalm": "eviol/natural-calm-30-EV-naturalcalm.jpg",
+  "EV-mgmagnesium": "eviol/mg-magnesium-30-EV-mgmagnesium.jpg",
+  "EV-omega3": "eviol/omega-3-30-EV-omega3.jpg",
+  "EV-sleepwell30": "eviol/sleep-well-30-EV-sleepwell30.jpg",
+  "EV-sleepwell60": "eviol/sleep-well-60-EV-sleepwell60.jpg",
+  "EV-echinaceavitaminc30": "eviol/echinacea-vitamin-c-30-EV-echinaceavitaminc30.jpg",
+  "EV-echinaceavitaminc60": "eviol/echinacea-vitamin-c-60-EV-echinaceavitaminc60.jpg"
 };

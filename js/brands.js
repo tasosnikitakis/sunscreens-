@@ -320,6 +320,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Bepanthol", imageDir: "bepanthol", sourceKey: "_bepantholSource",
     fallbackDesc: "Προϊόν Bepanthol (Bayer) — {name}",
     exportSections: ["Περιγραφή", "Δράση", "Χρήση", "Συστατικά"]
+  },
+  eviol: {
+    key: "eviol", name: "Eviol", host: "eviol.gr", page: "eviol.html",
+    icon: "💊", initials: "EV", accent: "#ea580c", keepCaps: true,
+    sheetName: "Eviol", imageDir: "eviol", sourceKey: "_eviolSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής EVIOL — {name}",
+    exportSections: ["Περιγραφή", "Δράση", "Δοσολογία", "Συστατικά"]
   }
 };
 

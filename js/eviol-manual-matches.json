@@ -1,0 +1,20 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές EVIOL) → κλειδί σελίδας/συσκευασίας στο eviol.gr (το site δεν έχει EAN).",
+  "5213004240012": "EV-multivitamin",
+  "5213004240081": "EV-multivitaminenergyplus",
+  "5213004240197": "EV-lactobalance",
+  "5213004240043": "EV-brainfunction",
+  "5213004240135": "EV-vitamind31200",
+  "5213004240142": "EV-vitamind32200",
+  "5213004240159": "EV-vitamind34000",
+  "5213004240166": "EV-vitaminb12",
+  "5213004240029": "EV-bcomplex30",
+  "5213004240036": "EV-bcomplex60",
+  "5213004240180": "EV-naturalcalm",
+  "5213004240173": "EV-mgmagnesium",
+  "5213004240104": "EV-omega3",
+  "5213004240111": "EV-sleepwell30",
+  "5213004240128": "EV-sleepwell60",
+  "5213004240050": "EV-echinaceavitaminc30",
+  "5213004240067": "EV-echinaceavitaminc60"
+}

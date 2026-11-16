@@ -659,5 +659,20 @@ window.BRAND_STATS = {
       "noprice": 6,
       "priced": 23
     }
+  },
+  "eviol": {
+    "products": 17,
+    "priced": 17,
+    "sections": 6,
+    "modes": {
+      "all": 17,
+      "ok": 17,
+      "issue": 0,
+      "complete": 17,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 0,
+      "priced": 17
+    }
   }
 };
