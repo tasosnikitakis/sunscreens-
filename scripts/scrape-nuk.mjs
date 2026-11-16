@@ -93,7 +93,7 @@ const strip = s => tidy(unescape(String(s || "")
 async function get(url) {
   const key = url.replace(BASE, "").replace(/[^a-z0-9.-]+/gi, "__");
   if (CACHE) { try { return await fs.readFile(path.join(CACHE, key), "utf8"); } catch {} }
-  // το nuk.gr κατά διαστήματα απαντά κενό σώμα (12 bytes) ή 302 → μία γρήγορη νέα προσπάθεια εδώ·
+  // μία γρήγορη νέα προσπάθεια εδώ·
   // όσες αποτύχουν ξαναδοκιμάζονται σε επόμενους γύρους από τη main() (το crawl δεν «κολλάει» σε μία σελίδα).
   const BACKOFF = [0, 15000];
   let html, lastErr;
@@ -103,9 +103,10 @@ async function get(url) {
     try {
       // curl αντί για fetch: το fetch της Node μέσω proxy κόβεται συχνά σε αυτό το site
       const { stdout } = await execFileP("curl", ["-sS", "--fail", "--compressed", "--max-time", "60", "--max-redirs", "0",
-        "-A", UA, "-H", "Accept-Language: el-GR,el;q=0.9", url], { maxBuffer: 64 << 20 });
-      // περιορισμός ρυθμού: 302 με σώμα ~35 bytes → αποτυχία, όχι cache
-      if (stdout.length < 2000) throw new Error(`περιορισμός ρυθμού (${stdout.length} bytes)`);
+        "-A", UA, url], { maxBuffer: 64 << 20 });
+      // ΟΧΙ Accept-Language: σε cache-MISS το Magento απαντά 302 προς /stores/store/redirect/… (κενό σώμα).
+      // Το nuk.gr είναι ήδη ελληνικό (el_GR). Ό,τι μικρό σώμα έρθει → αποτυχία, όχι cache.
+      if (stdout.length < 2000) throw new Error(`κενή απάντηση (${stdout.length} bytes)`);
       html = stdout;
     } catch (e) { lastErr = e; }
   }
