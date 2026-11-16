@@ -45,7 +45,7 @@ const CATEGORIES = [
   ["igiene-e-benessere/salute-e-protezione/pulizia-naso", "nose"],
 ];
 // εκτός: σετ/δώρα/πακέτα, ρούχα-πετσέτες-μπουρνούζια, έπιπλα/μπανιέρες, παιχνίδια
-const EXCLUDE = /\b(set|kit regalo|gift|bundle|confezione regalo|cofanetto|accappatoio|asciugamano|telo|poncho|vaschetta|bagnetto|fasciatoio|gioco|giochi|pupazzo|bavaglin)\b/i;
+const EXCLUDE = /\b(set|kit regalo|gift|bundle|confezione regalo|cofanetto|accappatoio|asciugamano|telo|poncho|vaschetta|bagnetto|fasciatoio|gioco|giochi|pupazzo|bavaglin|boppy|bilancia|asciugacapelli|mangiapannolini|quadrato di spugna)\b/i;
 const EXCLUDE_OK = /oral care set|set igiene orale|kit aspirazione/i;   // «σετ» που είναι το ίδιο το προϊόν
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -133,7 +133,9 @@ async function main() {
 
   // ομαδοποίηση χρωμάτων: ίδιο όνομα + ίδια ενότητα → ένα προϊόν με variants
   const groups = new Map();
-  for (const d of items) { const k = d.section + "|" + d.title.toLowerCase(); (groups.get(k) || groups.set(k, []).get(k)).push(d); }
+  // κλειδί: όνομα χωρίς «(2 pcs)/2 pz», σημεία στίξης και πεζά/κεφαλαία (ίδιο προϊόν σε παλιό και νέο κωδικό)
+  const gkey = d => d.section + "|" + d.title.toLowerCase().replace(/\(?\b2\s?(pcs|pz)\b\)?|soother/g, "").replace(/[^a-z0-9à-ù]+/g, " ").trim();
+  for (const d of items) { const k = gkey(d); (groups.get(k) || groups.set(k, []).get(k)).push(d); }
   const out = [];
   for (const g of groups.values()) {
     const d = g[0];

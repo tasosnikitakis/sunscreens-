@@ -37,5 +37,6 @@ window.BRAND_LOGOS = {
   "healthaid": "images/logos/healthaid.png",
   "quest": "images/logos/quest.jpg",
   "eviol": "images/logos/eviol.png",
-  "nuk": "images/logos/nuk.png"
+  "nuk": "images/logos/nuk.png",
+  "chicco": "images/logos/chicco.svg"
 };
