@@ -26,7 +26,6 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 // Κατηγορία του nuk.gr → ενότητα καταλόγου (η πρώτη που ταιριάζει κερδίζει, από τις πιο ειδικές)
 const CATEGORIES = [
-  ["sets-and-presents.html", "sets"],
   ["replacement-parts.html", "parts"],
   ["bottles-accessories/teats.html", "teats"],
   ["bottles-accessories/bottles.html", "bottles"],
@@ -55,7 +54,9 @@ const CATEGORIES = [
   ["electric-products/baby-food-warmers.html", "electric"],
   ["electric-products/other.html", "electric"],
   ["household-hygiene/product-hygiene.html", "hygiene"],
-  ["household-hygiene/household-hygiene-2.html", "hygiene"]
+  ["household-hygiene/household-hygiene-2.html", "hygiene"],
+  // τελευταία: η «Σετ & δώρα» περιέχει και απλά προϊόντα (π.χ. μπιμπερό Monochrome Animals) → βλ. φίλτρο σετ στο main()
+  ["sets-and-presents.html", "sets"]
 ];
 // Σελίδες μόνο για εύρεση URLs (όλη η γκάμα + συλλογές/νέα)
 const DISCOVERY = [
@@ -89,10 +90,17 @@ const strip = s => tidy(unescape(String(s || "")
 async function get(url) {
   const key = url.replace(BASE, "").replace(/[^a-z0-9.-]+/gi, "__");
   if (CACHE) { try { return await fs.readFile(path.join(CACHE, key), "utf8"); } catch {} }
-  await sleep(DELAY);
-  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "el-GR,el;q=0.9" } });
-  if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
-  const html = await res.text();
+  // το nuk.gr απαντά αργά και κατά διαστήματα κόβει τη σύνδεση → έως 4 προσπάθειες με αυξανόμενη αναμονή
+  let html, lastErr;
+  for (let attempt = 0; attempt < 4 && html === undefined; attempt++) {
+    await sleep(DELAY * (1 + attempt * 5));
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "el-GR,el;q=0.9" }, signal: AbortSignal.timeout(60000) });
+      if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+      html = await res.text();
+    } catch (e) { lastErr = e; }
+  }
+  if (html === undefined) throw new Error(`${url} → ${lastErr && (lastErr.cause?.code || lastErr.message)}`);
   if (CACHE) { await fs.mkdir(CACHE, { recursive: true }); await fs.writeFile(path.join(CACHE, key), html); }
   return html;
 }
@@ -148,7 +156,9 @@ async function main() {
     if (!d.title) { console.warn("  ! χωρίς τίτλο:", u); continue; }
     d.category = category.get(u) || null;
     d.section = section.get(u) || (NAME_SECTION.find(([, re]) => re.test(d.title)) || ["diafora"])[0];
-    if (d.section === "sets") { console.log(`   (σετ/δώρο — εκτός καταλόγου) ${d.title}`); continue; }
+    // Σετ/δώρα εκτός καταλόγου (πολιτική: μόνο βασικά προϊόντα)· τα απλά προϊόντα της «Σετ & δώρα» → ενότητα από το όνομα
+    if (/\bΣετ\b|\bSet\b|Feeding Set|Δώρο|Gift/i.test(d.title)) { console.log(`   (σετ/δώρο — εκτός καταλόγου) ${d.title}`); continue; }
+    if (d.section === "sets") d.section = (NAME_SECTION.find(([k, re]) => k !== "sets" && re.test(d.title)) || ["diafora"])[0];
     if (d.category) d.attributes["Κατηγορία nuk.gr"] = d.category;
     out.push({ url: u, section: "p", name: d.title, description: d.description.slice(0, 700), longDescription: d.description, details: d, image: d.images[0] || null, gtin: d.gtin });
     console.log(`${String(d.images.length).padStart(2)} img ${d.section.padEnd(13)} ${d.gtin.padEnd(14)} | ${d.title}`);
