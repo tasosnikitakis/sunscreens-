@@ -334,6 +334,13 @@ window.BRAND_CATALOGS = {
     sheetName: "NUK", imageDir: "nuk", sourceKey: "_nukSource",
     fallbackDesc: "Βρεφικό προϊόν NUK — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Σημειώσεις"]
+  },
+  chicco: {
+    key: "chicco", name: "Chicco", host: "chicco.it", page: "chicco.html",
+    icon: "🐣", initials: "CH", accent: "#dc2626", keepCaps: true,
+    sheetName: "Chicco", imageDir: "chicco", sourceKey: "_chiccoSource",
+    fallbackDesc: "Βρεφικό προϊόν Chicco — {name}",
+    exportSections: ["Χαρακτηριστικά", "Περιγραφή", "Οδηγίες & προειδοποιήσεις"]
   }
 };
 

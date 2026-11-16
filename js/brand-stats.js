@@ -689,5 +689,20 @@ window.BRAND_STATS = {
       "noprice": 136,
       "priced": 30
     }
+  },
+  "chicco": {
+    "products": 167,
+    "priced": 27,
+    "sections": 9,
+    "modes": {
+      "all": 167,
+      "ok": 166,
+      "issue": 1,
+      "complete": 166,
+      "incomplete": 1,
+      "nopage": 0,
+      "noprice": 140,
+      "priced": 27
+    }
   }
 };
