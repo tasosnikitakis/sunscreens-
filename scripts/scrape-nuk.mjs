@@ -13,6 +13,9 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+const execFileP = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -95,9 +98,12 @@ async function get(url) {
   for (let attempt = 0; attempt < 4 && html === undefined; attempt++) {
     await sleep(DELAY * (1 + attempt * 5));
     try {
-      const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "el-GR,el;q=0.9" }, signal: AbortSignal.timeout(60000) });
-      if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
-      html = await res.text();
+      // curl αντί για fetch: το fetch της Node μέσω proxy κόβεται συχνά σε αυτό το site
+      const { stdout } = await execFileP("curl", ["-sS", "--fail", "--compressed", "--max-time", "60",
+        "-A", UA, "-H", "Accept-Language: el-GR,el;q=0.9", url], { maxBuffer: 64 << 20 });
+      // υπό φόρτο το site επιστρέφει 200 με κενό σώμα → το μετράμε ως αποτυχία
+      if (stdout.length < 2000) throw new Error(`κενή απάντηση (${stdout.length} bytes)`);
+      html = stdout;
     } catch (e) { lastErr = e; }
   }
   if (html === undefined) throw new Error(`${url} → ${lastErr && (lastErr.cause?.code || lastErr.message)}`);
