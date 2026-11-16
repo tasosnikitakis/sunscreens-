@@ -211,7 +211,7 @@ async function main() {
       for (const { g, size } of entries) {
         if (!g || known.has(g) || isDiscontinued(g)) continue;
         known.add(g);
-        const nm = size && !new RegExp(size.replace(/\s+/g, "\\s*"), "i").test(name) ? `${name} ${size}` : name;
+        const nm = size && !new RegExp(size.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s*"), "i").test(name) ? `${name} ${size}` : name;
         products.push({ barcode: g, name: nm, retail: 0, wholesale: 0, variants: [g], listed: false });
         siteUrlOf.set(g, sp.url);
         fromSite++;

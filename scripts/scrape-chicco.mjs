@@ -96,6 +96,10 @@ function parseProduct(html, url) {
     else if (/Età|Eta/i.test(k)) d.attributes._age = v;
     else if (/Capacit|Contenuto|Formato/i.test(k)) d.attributes._size = v;
   }
+  // επιλεγμένη συσκευασία (select «size» του SFCC: 200 ml / 500 ml, 16 / 72 τεμ. …)
+  const sz = html.match(/_size=\d+&amp;[^"]*"[^>]*data-attr-value="([^"]+)"\s+selected/);
+  if (sz) d.size = text(sz[1]);
+  if (d.color && /nessun colore/i.test(d.color)) d.color = null;
   const warn = (html.match(/warn-instruction-section">([\s\S]*?)<div class="pdf-list"/) || [])[1] || "";
   d.warnings = [...warn.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/g)].map(x => text(x[1])).filter(l => l && !/^Prima dell'utilizzo, ti invitiamo/i.test(l));
   const grid = (html.match(/<div class="grid-features">([\s\S]*?)<div class="(?:compontentTabListati|container mb-60-50[^"]*" data-section="body\/(?!features))/) || [])[1] || "";
@@ -108,10 +112,18 @@ function parseProduct(html, url) {
   return d;
 }
 
+// ετικέτα παραλλαγής: συσκευασία · χρώμα (πεζά, «pcs/pz» → «τεμ.»)· διπλές ετικέτες → + κωδικός Chicco
+const shortCode = sku => "κωδ. " + String(sku || "").replace(/^0+/, "").replace(/0{4}$/, "");
+function variantLabels(g, T) {
+  const lab = g.map(x => [x.size && x.size.replace(/\b(pcs|pz)\b/gi, "τεμ.").replace(/\s*\+\s*TOP\b/i, " με καπάκι"), x.color && T(x.color).toLowerCase()]
+    .filter(Boolean).join(" · ") || shortCode(x.sku));
+  return g.map((x, i) => ({ ean: x.ean, size: lab.filter(l => l === lab[i]).length > 1 ? `${lab[i]} (${shortCode(x.sku)})` : lab[i], packshot: x.images[0] }));
+}
+
 async function main() {
   let tr = {}; try { tr = JSON.parse(await fs.readFile(TR_FILE, "utf8")); } catch {}
   const missing = new Set();
-  const T = s => { if (!s) return s; const k = s.trim(); if (tr[k]) return tr[k]; missing.add(k); return k; };
+  const T = s => { if (!s) return s; const k = s.trim(); if (k in tr) return tr[k]; missing.add(k); return k; };
 
   const section = new Map(), cat = new Map(), urls = [];
   for (const [c, sec] of CATEGORIES) {
@@ -134,7 +146,7 @@ async function main() {
   // ομαδοποίηση χρωμάτων: ίδιο όνομα + ίδια ενότητα → ένα προϊόν με variants
   const groups = new Map();
   // κλειδί: όνομα χωρίς «(2 pcs)/2 pz», σημεία στίξης και πεζά/κεφαλαία (ίδιο προϊόν σε παλιό και νέο κωδικό)
-  const gkey = d => d.section + "|" + d.title.toLowerCase().replace(/\(?\b2\s?(pcs|pz)\b\)?|soother/g, "").replace(/[^a-z0-9à-ù]+/g, " ").trim();
+  const gkey = d => d.title.toLowerCase().replace(/\(?\b2\s?(pcs|pz)\b\)?|soother/g, "").replace(/[^a-z0-9à-ù]+/g, " ").trim();
   for (const d of items) { const k = gkey(d); (groups.get(k) || groups.set(k, []).get(k)).push(d); }
   const out = [];
   for (const g of groups.values()) {
@@ -142,17 +154,19 @@ async function main() {
     const name = "Chicco " + T(d.title).replace(/^Chicco\s+/i, "");
     const det = {
       section: d.section, title: name, sku: d.sku, ean: d.ean,
-      advantages: d.advantages.map(T),
+      advantages: d.advantages.map(T).filter(Boolean),
       tabs: {}, attributes: {}, images: d.images,
-      variants: g.length > 1 ? g.map(x => ({ ean: x.ean, size: x.color ? T(x.color) : x.sku, packshot: x.images[0] })) : [],
+      variants: g.length > 1 ? variantLabels(g, T) : [],
     };
     const desc = d.features.map(f => [f.t && T(f.t), f.body && T(f.body)].filter(Boolean).join("\n")).filter(Boolean);
+    // (κενή μετάφραση = παράλειψη γραμμής)
     if (det.advantages.length) det.tabs["Χαρακτηριστικά"] = det.advantages.map(a => "• " + a).join("\n");
     if (desc.length) det.tabs["Περιγραφή"] = desc.join("\n");
-    const w = d.warnings.map(T); if (w.length) det.tabs["Οδηγίες & προειδοποιήσεις"] = w.map(a => "• " + a).join("\n");
+    const w = d.warnings.map(T).filter(Boolean); if (w.length) det.tabs["Οδηγίες & προειδοποιήσεις"] = w.map(a => "• " + a).join("\n");
     if (d.attributes._dims) det.attributes["Διαστάσεις συσκευασίας"] = d.attributes._dims;
     if (d.attributes._weight) det.attributes["Βάρος συσκευασίας"] = d.attributes._weight;
     if (g.length === 1 && d.color) det.attributes["Χρώμα"] = T(d.color);
+    if (g.length === 1 && d.size) det.attributes["Συσκευασία"] = d.size.replace(/\b(pcs|pz)\b/gi, "τεμ.");
     det.attributes["Κωδικός Chicco"] = g.map(x => x.sku).join(", ");
     const description = (det.advantages.join(" ") || desc.join(" ")).replace(/\s+/g, " ").trim();
     out.push({ url: d.url, section: "p", name, description: description.slice(0, 700), longDescription: description, details: det, image: d.images[0], gtin: d.ean });
