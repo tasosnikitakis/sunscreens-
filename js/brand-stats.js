@@ -122,7 +122,7 @@ window.BRAND_STATS = {
   },
   "apivita": {
     "products": 288,
-    "priced": 192,
+    "priced": 189,
     "sections": 9,
     "modes": {
       "all": 288,
@@ -131,8 +131,8 @@ window.BRAND_STATS = {
       "complete": 261,
       "incomplete": 27,
       "nopage": 0,
-      "noprice": 96,
-      "priced": 192
+      "noprice": 99,
+      "priced": 189
     }
   },
   "vichy": {
@@ -197,7 +197,7 @@ window.BRAND_STATS = {
   },
   "intermed": {
     "products": 497,
-    "priced": 239,
+    "priced": 238,
     "sections": 12,
     "modes": {
       "all": 497,
@@ -206,8 +206,8 @@ window.BRAND_STATS = {
       "complete": 472,
       "incomplete": 25,
       "nopage": 0,
-      "noprice": 258,
-      "priced": 239
+      "noprice": 259,
+      "priced": 238
     }
   },
   "uriage": {
@@ -272,7 +272,7 @@ window.BRAND_STATS = {
   },
   "solgar": {
     "products": 242,
-    "priced": 153,
+    "priced": 151,
     "sections": 14,
     "modes": {
       "all": 242,
@@ -281,8 +281,8 @@ window.BRAND_STATS = {
       "complete": 241,
       "incomplete": 1,
       "nopage": 0,
-      "noprice": 89,
-      "priced": 153
+      "noprice": 91,
+      "priced": 151
     }
   },
   "healthaid": {
