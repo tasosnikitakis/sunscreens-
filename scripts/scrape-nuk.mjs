@@ -93,9 +93,9 @@ const strip = s => tidy(unescape(String(s || "")
 async function get(url) {
   const key = url.replace(BASE, "").replace(/[^a-z0-9.-]+/gi, "__");
   if (CACHE) { try { return await fs.readFile(path.join(CACHE, key), "utf8"); } catch {} }
-  // το nuk.gr περιορίζει τον ρυθμό: μετά από λίγες κλήσεις απαντά 302 (σελίδα επαλήθευσης).
-  // Αργό crawl (6s) και, όταν μας κόβει, αναμονή 1 → 2 → 4 λεπτά πριν την επόμενη προσπάθεια.
-  const BACKOFF = [0, 60000, 120000, 240000];
+  // το nuk.gr κατά διαστήματα απαντά κενό (12 bytes) ή 302 — συνήθως σε σελίδες που δεν είναι «ζεστές» στην cache του.
+  // Σελίδες που δεν είναι «ζεστές» στην cache του site επιστρέφουν κενές την πρώτη φορά → νέα προσπάθεια σε 15s, 45s, 2΄, 4΄.
+  const BACKOFF = [0, 15000, 45000, 120000, 240000];
   let html, lastErr;
   for (let attempt = 0; attempt < BACKOFF.length && html === undefined; attempt++) {
     if (attempt) console.warn(`  … ${lastErr?.message} — αναμονή ${BACKOFF[attempt] / 1000}s`);
