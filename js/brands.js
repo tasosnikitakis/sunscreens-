@@ -341,6 +341,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Chicco", imageDir: "chicco", sourceKey: "_chiccoSource",
     fallbackDesc: "Βρεφικό προϊόν Chicco — {name}",
     exportSections: ["Χαρακτηριστικά", "Περιγραφή", "Οδηγίες & προειδοποιήσεις"]
+  },
+  hydrovit: {
+    key: "hydrovit", name: "Hydrovit", host: "targetpharma.gr", page: "hydrovit.html",
+    icon: "💧", initials: "HY", accent: "#0e7490",
+    sheetName: "Hydrovit", imageDir: "hydrovit", sourceKey: "_hydrovitSource",
+    fallbackDesc: "Προϊόν Hydrovit — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
   }
 };
 

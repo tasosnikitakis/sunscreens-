@@ -1,0 +1,21 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές HYDROVIT) → προϊόν targetpharma.gr (κλειδί HY-<τίτλος>· το site δεν δίνει EAN). Όλες οι συσκευασίες συμφωνούν με τη σελίδα. Χωρίς γραμμή στη Medica: μονοδόσεις (Retinol, Vitamin C, 3D Superlifter), Baby Shampoo/Sun/Body Milk/Cream, Anti Ageing, Eye & Lip, Total Care SPF15, αντηλιακά Sun, Hand Cream, Colpo-Cure.",
+  "5203957170016": "HY-antiacnecream",
+  "5203957170030": "HY-antiacnelotion",
+  "5203957350609": "HY-antiacnemask",
+  "5203957170023": "HY-antiacnewash",
+  "5203957320008": "HY-antispotcream",
+  "5203957450064": "HY-babyfacebodycream",
+  "5203957400014": "HY-babyliquidtalc",
+  "5203957330137": "HY-basedpanthenolcream",
+  "5203957160000": "HY-bodymilk",
+  "5203957550030": "HY-intimcarecolpofreshgel",
+  "5203957550023": "HY-intimcarecolporeliefovules",
+  "5201004044181": "HY-facialpeelingcream",
+  "5203957100006": "HY-intimintimcarerefreshingdeoliquid",
+  "5203957110005": "HY-mildsoftsoapmoisturizingcleansingliquid",
+  "5203957360523": "HY-protectivepowder",
+  "5203957130003": "HY-selectdayemulsion",
+  "5203957370522": "HY-urea10cream",
+  "5203957180008": "HY-zincoprotectivecream"
+}
