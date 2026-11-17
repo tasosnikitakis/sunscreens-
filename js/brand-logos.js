@@ -40,5 +40,6 @@ window.BRAND_LOGOS = {
   "nuk": "images/logos/nuk.png",
   "chicco": "images/logos/chicco.svg",
   "lactacyd": "images/logos/lactacyd.png",
-  "elladent": "images/logos/elladent.png"
+  "elladent": "images/logos/elladent.png",
+  "physiomer": "images/logos/physiomer.png"
 };

@@ -6740,5 +6740,20 @@ window.IMAGE_MANIFEST = {
   "ED-p117": "elladent/x-soft-perio-5000-ED-p117.jpg",
   "ED-p108": "elladent/sensi-d-ED-p108.jpg",
   "ED-p109": "elladent/sensi-d-ED-p109.jpg",
-  "ED-p110": "elladent/sensi-d-ED-p110.png"
+  "ED-p110": "elladent/sensi-d-ED-p110.png",
+  "PY-ypertono": "physiomer/-PY-ypertono.png",
+  "PY-normaljet": "physiomer/normal-jet-PY-normaljet.png",
+  "PY-strongjet": "physiomer/strong-jet-PY-strongjet.png",
+  "PY-eykalyptos": "physiomer/-PY-eykalyptos.png",
+  "PY-express": "physiomer/express-PY-express.png",
+  "PY-sorethroat": "physiomer/sore-throat-PY-sorethroat.png",
+  "PY-systimarinikonplyseon": "physiomer/-PY-systimarinikonplyseon.png",
+  "PY-fakeliskoi": "physiomer/-PY-fakeliskoi.png",
+  "PY-babyisotono": "physiomer/baby-PY-babyisotono.png",
+  "PY-babyypertono": "physiomer/baby-PY-babyypertono.png",
+  "PY-babyampoyles": "physiomer/baby-PY-babyampoyles.png",
+  "PY-babyrinikosapofraktiras": "physiomer/baby-PY-babyrinikosapofraktiras.png",
+  "PY-kidsspray": "physiomer/kids-spray-PY-kidsspray.png",
+  "PY-expresskids": "physiomer/express-kids-PY-expresskids.png",
+  "PY-allergyrelief": "physiomer/allergy-relief-PY-allergyrelief.png"
 };

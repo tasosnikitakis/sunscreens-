@@ -40,7 +40,8 @@ export const LOGO_SRC = {
   // chicco: το chicco.it απορρίπτει (403) το UA «browser» του script· το logo.svg κατέβηκε με curl → images/logos/chicco.svg
   chicco: "https://www.chicco.it/on/demandware.static/Sites-Chicco-Italy-Site/-/default/dw1ab986ad/images/logo.svg",
   lactacyd: "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/inline-images/logo-lactacyd-1%201.png?VersionId=Mm.c2ODyFThI9qmtle2nFollWNxI2Ej2",
-  elladent: "https://www.elladent.gr/image/data/New-final-logo-black.png"
+  elladent: "https://www.elladent.gr/image/data/New-final-logo-black.png",
+  physiomer: "https://s3.eu-west-3.amazonaws.com/perrigo.com/dev-centralbrandmasterr-assets/inline-images/Physiomer_logo.png?VersionId=cmenuoYUNV8VWOOrbRrkaMG2zCFM8c4o"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
