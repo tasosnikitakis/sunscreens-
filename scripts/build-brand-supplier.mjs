@@ -107,6 +107,16 @@ async function readSheet(file) {
 const colLetter = i => String.fromCharCode(65 + i);
 const num = v => { const n = parseFloat(String(v).replace(",", ".")); return Number.isFinite(n) ? Math.round(n * 100) / 100 : 0; };
 const isBarcode = v => /^\d{8,14}$/.test(String(v).trim());
+// Έγκυρο EAN-8/UPC-A/EAN-13/GTIN-14 (ψηφίο ελέγχου) και όχι «ψεύτικο» (1111111…, 9999999…).
+// Χρησιμοποιείται για τα επιπλέον barcode (variants) — λάθη πληκτρολόγησης των τιμοκαταλόγων
+// δεν σκανάρονται ποτέ και απλώς μπερδεύουν. Το κύριο barcode μένει όπως είναι (είναι κλειδί).
+const validGtin = v => {
+  const s = String(v).trim();
+  if (!/^(\d{8}|\d{12,14})$/.test(s) || /^(\d)\1{6}/.test(s.replace(/^0+/, ""))) return false;
+  const d = s.padStart(14, "0").split("").map(Number);
+  const sum = d.slice(0, 13).reduce((a, x, i) => a + x * (i % 2 ? 1 : 3), 0);
+  return (10 - sum % 10) % 10 === d[13];
+};
 
 function fixName(s) {
   let out = String(s).replace(/\s+/g, " ").trim();
@@ -130,16 +140,30 @@ async function main() {
   const excluded = [];
   const byBarcode = new Map();
   const dupes = [];
+  const promoted = [];
+  const priceAlias = new Map();
   let skippedHeader = 0;
   for (const r of rows.slice(SKIP)) {
     const get = name => r[colLetter(COLS.indexOf(name))] ?? "";
-    const barcode = String(get("barcode")).trim();
+    let barcode = String(get("barcode")).trim();
     if (!isBarcode(barcode)) { skippedHeader++; continue; }   // κεφαλίδα ή κενή γραμμή
     if (isDiscontinued(barcode)) { dropped++; continue; }
     const name = fixName(get("name"));
     const ex = excludedBy(name);
     if (ex) { excluded.push({ barcode, name, rule: ex.name }); continue; }
-    const variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(isBarcode)])];
+    let variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(validGtin)])];
+    // Κύριο barcode άκυρο (λάθος ψηφίο ελέγχου / 1111111…) αλλά υπάρχει έγκυρο δεύτερο → γίνεται αυτό κύριο.
+    if (!validGtin(barcode) && variants.length > 1) {
+      // προτιμάμε το πιο «κοντινό» (λάθος ενός ψηφίου: 8055148408848 → 5055148408848)
+      const diff = v => v.length !== barcode.length ? 99 : [...v].filter((c, i) => c !== barcode[i]).length;
+      const good = variants.filter(v => v !== barcode).sort((a, b) => diff(a) - diff(b))[0];
+      promoted.push({ from: barcode, to: good, name });
+      const bad = barcode;
+      barcode = good;
+      variants = [good, ...variants.filter(v => v !== good && validGtin(v))];
+      // το άκυρο μένει μόνο για την αναζήτηση τιμής στο Medica (εκεί είναι καταχωρημένο έτσι) — δεν γράφεται
+      priceAlias.set(good, bad);
+    }
     const rec = { barcode, name, retail: num(get("retail")), wholesale: num(get("wholesale")), variants };
     if (byBarcode.has(barcode)) {
       // Ίδιο barcode δύο φορές (πχ. δύο τιμοκατάλογοι) — κρατάμε την πρώτη γραμμή,
@@ -152,6 +176,7 @@ async function main() {
     byBarcode.set(barcode, rec);
   }
   const products = [...byBarcode.values()];
+  for (const x of promoted) console.log(`  άκυρο κύριο barcode ${x.from} → ${x.to} (${x.name})`);
   console.log(`${XLSX || "(χωρίς Excel)"}: ${rows.length} γραμμές → ${products.length} προϊόντα (${skippedHeader} γραμμές χωρίς barcode, ${dupes.length} διπλά barcode${dropped ? `, ${dropped} αποσυρμένα εκτός` : ""})`);
 
   // Προϊόντα του brand site που λείπουν από τον τιμοκατάλογο: μπαίνουν χωρίς τιμές
@@ -237,7 +262,7 @@ async function main() {
     }
     let priced = 0, newly = 0, changed = 0;
     for (const p of products) {
-      const bcs = [p.barcode, ...(p.variants || [])].map(b => String(b).replace(/^0(?=\d{13}$)/, ""));
+      const bcs = [p.barcode, ...(p.variants || []), ...(priceAlias.has(p.barcode) ? [priceAlias.get(p.barcode)] : [])].map(b => String(b).replace(/^0(?=\d{13}$)/, ""));
       let hit = bcs.map(b => byBc.get(b)).find(Boolean);
       if (!hit) {
         // Σελίδες χωρίς EAN (Apivita): το barcode του τιμοκαταλόγου έρχεται από το χειροκίνητο match (barcode → url)
