@@ -193,7 +193,7 @@ async function main() {
   let fromSite = 0;
   const siteUrlOf = new Map();        // EAN/κλειδί προϊόντος site → URL σελίδας
   const manualBcOfUrl = new Map();    // URL σελίδας → barcode τιμοκαταλόγου από js/<brand>-manual-matches.json
-  const manualBcOfKey = new Map();    // κλειδί μεγέθους σελίδας (variant) → barcode τιμοκαταλόγου
+  const manualBcOfKey = new Map();    // κλειδί μεγέθους σελίδας (variant) → [barcode τιμοκαταλόγου…] (π.χ. παλιά + νέα συσκευασία· τιμή από το πρώτο)
   if (WITH_SITE) {
     let site = [];
     try { site = JSON.parse(await fs.readFile(SITE_FILE, "utf8")); } catch { console.warn(`  ! δεν βρέθηκε ${path.relative(ROOT, SITE_FILE)} — τρέξτε πρώτα scrape-brand.mjs --brand=${BRAND}`); }
@@ -207,7 +207,7 @@ async function main() {
     const normUrl = u => String(u || "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
     const siteByUrl = new Map(site.map(sp => [normUrl(sp.url), sp]));
     // Η τιμή του manual match είναι url σελίδας, EAN σελίδας ή συνθετικό κλειδί μεγέθους (π.χ. "SG-…V60t" — σελίδα με πολλά μεγέθη χωρίς EAN, Solgar)
-    for (const [bc, u] of Object.entries(manual)) if (u && !bc.startsWith("_")) { if (/^[A-Z]{2,5}-|^\d{8,14}$/.test(u)) manualBcOfKey.set(u, bc); /* συνθετικό κλειδί ή EAN σελίδας (Caudalie: παλιός κωδικός → νέο EAN) */ else manualBcOfUrl.set(normUrl(u), bc); }   // για --prices χωρίς --xlsx
+    for (const [bc, u] of Object.entries(manual)) if (u && !bc.startsWith("_")) { if (/^[A-Z]{2,5}-|^\d{8,14}$/.test(u)) manualBcOfKey.set(u, [...(manualBcOfKey.get(u) || []), bc]); /* συνθετικό κλειδί ή EAN σελίδας (Caudalie: παλιός κωδικός → νέο EAN) */ else manualBcOfUrl.set(normUrl(u), bc); }   // για --prices χωρίς --xlsx
     const sizeOf = s => { const m = String(s || "").match(/(\d{1,4}(?:[.,]\d+)?)\s?(ml|gr|g|kg|l|τμχ|caps|tabs)\b/i); return m ? (m[1].replace(",", ".") + m[2].toLowerCase().replace("gr", "g")).replace(/^(\d+)l$/, "$1000ml") : null; };
     let aliased = 0;
     for (const p of products) {
@@ -276,8 +276,12 @@ async function main() {
       if (!hit) {
         // Σελίδες χωρίς EAN (Apivita): το barcode του τιμοκαταλόγου έρχεται από το χειροκίνητο match (barcode → url)
         const u = siteUrlOf.get(p.barcode);
-        const mbc = manualBcOfKey.get(p.barcode) || (u ? manualBcOfUrl.get(String(u).replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase()) : null);
-        if (mbc && byBc.get(mbc.replace(/^0(?=\d{13}$)/, ""))) { hit = byBc.get(mbc.replace(/^0(?=\d{13}$)/, "")); if (!p.variants.includes(mbc)) p.variants.push(mbc); }
+        const mbcs = manualBcOfKey.get(p.barcode) || (u && manualBcOfUrl.get(String(u).replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase()) ? [manualBcOfUrl.get(String(u).replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase())] : []);
+        for (const mbc of mbcs) {
+          const h = byBc.get(mbc.replace(/^0(?=\d{13}$)/, "")); if (!h) continue;
+          if (!hit) hit = h;
+          if (!p.variants.includes(mbc)) p.variants.push(mbc);
+        }
       }
       if (!hit) continue;
       priced++;

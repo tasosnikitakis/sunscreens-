@@ -362,6 +362,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Elladent", imageDir: "elladent", sourceKey: "_elladentSource",
     fallbackDesc: "Προϊόν στοματικής υγιεινής Elladent — {name}",
     exportSections: ["Περιγραφή", "Ενδείξεις", "Δραστικά συστατικά", "Πλεονεκτήματα", "Χρήση", "Χαρακτηριστικά"]
+  },
+  physiomer: {
+    key: "physiomer", name: "Physiomer", host: "physiomer.gr", page: "physiomer.html",
+    icon: "🌊", initials: "PH", accent: "#0369a1", keepCaps: true,
+    sheetName: "Physiomer", imageDir: "physiomer", sourceKey: "_physiomerSource",
+    fallbackDesc: "Ρινικό διάλυμα Physiomer — {name}",
+    exportSections: ["Περιγραφή", "Ενδείξεις", "Κατάλληλο για", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 

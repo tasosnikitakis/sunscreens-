@@ -749,5 +749,20 @@ window.BRAND_STATS = {
       "noprice": 6,
       "priced": 11
     }
+  },
+  "physiomer": {
+    "products": 15,
+    "priced": 13,
+    "sections": 4,
+    "modes": {
+      "all": 15,
+      "ok": 15,
+      "issue": 0,
+      "complete": 15,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 2,
+      "priced": 13
+    }
   }
 };
