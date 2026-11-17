@@ -1,18 +1,18 @@
 // Auto-generated (scripts/build-brand-stats.mjs): πλήθος προϊόντων ανά brand και ανά φίλτρο για τη σελίδα «Εταιρίες».
 window.BRAND_STATS = {
   "frezyderm": {
-    "products": 298,
-    "priced": 298,
+    "products": 297,
+    "priced": 297,
     "sections": 17,
     "modes": {
-      "all": 298,
-      "ok": 250,
+      "all": 297,
+      "ok": 249,
       "issue": 48,
-      "complete": 262,
+      "complete": 261,
       "incomplete": 36,
       "nopage": 41,
       "noprice": 0,
-      "priced": 298
+      "priced": 297
     }
   },
   "lamberts": {

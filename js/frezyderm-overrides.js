@@ -3053,7 +3053,7 @@ window.FREZYDERM_OVERRIDES = {
     "score": 32.1,
     "review": false
   },
-  "5202888320072": {
+  "5202888320125": {
     "name": "PRODILAC IMMUNO SHIELD FAST MELT Συμπλήρωμα Διατροφής",
     "subtitle": null,
     "description": "1 φακελίσκος Prodilac Immuno Shield Fast Melt περιέχει:\n- 1 δισεκατομμύρια ζώντα στελέχη Lactobacillus rhamnosus GG\n- 2 δισεκατομμύρια ζώντα στελέχη Bifidobacterium lactis BL-04\n\nΗμερήσια συνιστώμενη δοσολογία:\n\n1 φακελάκι την ημέρα για συνήθη χρήση\nΜε γεύση ροδάκινο\n\nΑρ. Γνωστοποίησης ΕΟΦ: 60076/28.07.2016 . Δεν επέχει θέση άδειας κυκλοφορίας.\n\nΑνιχνεύονται ίχνη γάλακτος\nΔεν χορηγείται σε ανοσοκατεσταλμένα άτομα",
@@ -5135,32 +5135,6 @@ window.FREZYDERM_OVERRIDES = {
     "section": "proionta-egkumosunhs",
     "matchType": "high",
     "score": 16.4,
-    "review": false
-  },
-  "5202888320125": {
-    "name": "PRODILAC IMMUNO SHIELD FAST MELT Συμπλήρωμα Διατροφής",
-    "subtitle": null,
-    "description": "1 φακελίσκος Prodilac Immuno Shield Fast Melt περιέχει:\n- 1 δισεκατομμύρια ζώντα στελέχη Lactobacillus rhamnosus GG\n- 2 δισεκατομμύρια ζώντα στελέχη Bifidobacterium lactis BL-04\n\nΗμερήσια συνιστώμενη δοσολογία:\n\n1 φακελάκι την ημέρα για συνήθη χρήση\nΜε γεύση ροδάκινο\n\nΑρ. Γνωστοποίησης ΕΟΦ: 60076/28.07.2016 . Δεν επέχει θέση άδειας κυκλοφορίας.\n\nΑνιχνεύονται ίχνη γάλακτος\nΔεν χορηγείται σε ανοσοκατεσταλμένα άτομα",
-    "claims": [
-      "Κατάλληλο για χορτοφάγους",
-      "Νέο"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Συσκευασία": "30 φακελάκια",
-      "Κατηγορία frezyderm.gr": "Συμπληρώματα Διατροφής για το Ανώτερο Αναπνευστικό",
-      "SKU": "432012"
-    },
-    "sections": {
-      "Χρήση": "ΣΥΝΙΣΤΩΜΕΝΗ ΧΡΗΣΗ\n\nΓια παιδιά και ενήλικες.\nΕγχύστε τη σκόνη απευθείας στο στόμα σας. Η σκόνη διαλύεται αμέσως. Δεν απαιτείται νερό.\nΕπί παράλληλης χορήγησης, να χορηγείται 2 ώρες μετά το αντιβιοτικό."
-    },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/1/products/sumplirwmata/proviotika_new/new_/Prodilac_Immuno_Shield_FAST_MELT_2026-1.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/1/products/sumplirwmata/proviotika_new/new_/Prodilac_Immuno_Shield_FAST_MELT_2026-1.jpg",
-    "url": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplhrwmata-diatrofhs-gia-to-anwtero-anapneystiko/prodilac-immuno-shield-fast-melt-symplhrwma/",
-    "source": "frezyderm.gr",
-    "section": "sumplhrwmata-diatrofis",
-    "matchType": "high",
-    "score": 57.9,
     "review": false
   },
   "5202888320088": {
