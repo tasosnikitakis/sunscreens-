@@ -355,6 +355,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Lactacyd", imageDir: "lactacyd", sourceKey: "_lactacydSource",
     fallbackDesc: "Προϊόν Lactacyd — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Προφυλάξεις"]
+  },
+  elladent: {
+    key: "elladent", name: "Elladent", host: "elladent.gr", page: "elladent.html",
+    icon: "🦷", initials: "ED", accent: "#dc2626",
+    sheetName: "Elladent", imageDir: "elladent", sourceKey: "_elladentSource",
+    fallbackDesc: "Προϊόν στοματικής υγιεινής Elladent — {name}",
+    exportSections: ["Περιγραφή", "Ενδείξεις", "Δραστικά συστατικά", "Πλεονεκτήματα", "Χρήση", "Χαρακτηριστικά"]
   }
 };
 

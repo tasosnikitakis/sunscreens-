@@ -734,5 +734,20 @@ window.BRAND_STATS = {
       "noprice": 5,
       "priced": 11
     }
+  },
+  "elladent": {
+    "products": 17,
+    "priced": 11,
+    "sections": 5,
+    "modes": {
+      "all": 17,
+      "ok": 17,
+      "issue": 0,
+      "complete": 17,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 6,
+      "priced": 11
+    }
   }
 };

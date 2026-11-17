@@ -6723,5 +6723,22 @@ window.IMAGE_MANIFEST = {
   "LC-pharma40": "lactacyd/pharma-40-LC-pharma40.png",
   "LC-intimatewipes": "lactacyd/intimate-wipes-LC-intimatewipes.png",
   "LC-deeplynourishing": "lactacyd/deeply-nourishing-LC-deeplynourishing.png",
-  "LC-deeplymoisturising": "lactacyd/deeply-moisturising-LC-deeplymoisturising.png"
+  "LC-deeplymoisturising": "lactacyd/deeply-moisturising-LC-deeplymoisturising.png",
+  "ED-p119": "elladent/perioxygen-ED-p119.jpg",
+  "ED-p120": "elladent/dayoxygen-ED-p120.jpg",
+  "ED-p106": "elladent/daily-ED-p106.png",
+  "ED-p107": "elladent/daily-ED-p107.png",
+  "ED-p105": "elladent/plus-030-ED-p105.png",
+  "ED-p101": "elladent/perio-020-ED-p101.png",
+  "ED-p102": "elladent/perio-020-ED-p102.png",
+  "ED-p103": "elladent/care-012-ED-p103.png",
+  "ED-p104": "elladent/care-012-ED-p104.jpg",
+  "ED-psucrayl": "elladent/sucra-yl-ED-psucrayl.png",
+  "ED-p115": "elladent/novapulse-sonic-ED-p115.jpg",
+  "ED-p116": "elladent/novapulse-sonic-ED-p116.jpg",
+  "ED-p118": "elladent/novafloss-water-flosser-ED-p118.png",
+  "ED-p117": "elladent/x-soft-perio-5000-ED-p117.jpg",
+  "ED-p108": "elladent/sensi-d-ED-p108.jpg",
+  "ED-p109": "elladent/sensi-d-ED-p109.jpg",
+  "ED-p110": "elladent/sensi-d-ED-p110.png"
 };
