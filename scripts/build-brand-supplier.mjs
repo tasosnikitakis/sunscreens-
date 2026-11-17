@@ -46,6 +46,7 @@ const WITH_SITE = flag("with-site");
 const SITE_RETAIL = flag("site-retail");   // λιανική τιμή του brand site (details.retailPrice / variant.retailPrice) → p.retail (π.χ. curaprox.gr)
 const SITE_FILE = path.join(ROOT, `js/${BRAND}-site.json`);
 const DISCONTINUED_FILE = path.join(ROOT, `js/${BRAND}-discontinued.json`);   // barcode → {name, reason, …}
+const BARCODE_FIXES_FILE = path.join(ROOT, `js/${BRAND}-barcode-fixes.json`);  // { "<άκυρο barcode τιμοκαταλόγου>": "<σωστό>" } — επιβεβαιωμένες διορθώσεις
 const EXCLUSIONS_FILE = path.join(ROOT, `js/${BRAND}-exclusions.json`);         // { rules: [{ name, pattern, flags?, reason }] } — κανόνες ονόματος (promo, boosters…)
 const gtin13 = g => { const raw = String(g || "").trim(); if (/^[A-Z]{2,5}-[A-Za-z0-9]{4,}$/.test(raw)) return raw;   // συνθετικό κλειδί (π.χ. LRP-CA024786) για προϊόντα χωρίς EAN στο site
   const d = raw.replace(/\D/g, ""); return d.length === 14 && d[0] === "0" ? d.slice(1) : (d.length === 13 || d.length === 8 ? d : null); };   // EAN-13 ή EAN-8 (30102415)
@@ -142,6 +143,8 @@ async function main() {
   const dupes = [];
   const promoted = [];
   const priceAlias = new Map();
+  let barcodeFixes = {};
+  try { barcodeFixes = Object.fromEntries(Object.entries(JSON.parse(await fs.readFile(BARCODE_FIXES_FILE, "utf8"))).filter(([k]) => !k.startsWith("_"))); } catch {}
   let skippedHeader = 0;
   for (const r of rows.slice(SKIP)) {
     const get = name => r[colLetter(COLS.indexOf(name))] ?? "";
@@ -151,6 +154,12 @@ async function main() {
     const name = fixName(get("name"));
     const ex = excludedBy(name);
     if (ex) { excluded.push({ barcode, name, rule: ex.name }); continue; }
+    if (barcodeFixes[barcode]) {
+      // επιβεβαιωμένη διόρθωση: το παλιό barcode μένει μόνο για την αναζήτηση τιμής στο Medica
+      promoted.push({ from: barcode, to: barcodeFixes[barcode], name });
+      priceAlias.set(barcodeFixes[barcode], barcode);
+      barcode = barcodeFixes[barcode];
+    }
     let variants = [...new Set([barcode, ...String(get("variants")).split(/[\s,;]+/).filter(validGtin)])];
     // Κύριο barcode άκυρο (λάθος ψηφίο ελέγχου / 1111111…) αλλά υπάρχει έγκυρο δεύτερο → γίνεται αυτό κύριο.
     if (!validGtin(barcode) && variants.length > 1) {

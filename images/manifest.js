@@ -1033,7 +1033,6 @@ window.IMAGE_MANIFEST = {
   "5202888273117": "frezyderm/face-serum-face-tightener-5202888273117.jpg",
   "5202888271175": "frezyderm/facial-scrub-100ml-online-pharmacy-ofarmakopoiosmou-gr-5202888271175.jpg",
   "5202888221200": "frezyderm/first-aid-butter-5202888221200.jpg",
-  "5202888320072": "frezyderm/prodilac-immuno-shield-fast-melt-5202888320072.jpg",
   "5202888277474": "frezyderm/moisturizing-rich-micellar-water-50ml-5202888277474.png",
   "5202888102868": "frezyderm/frezyfeet-diaped-cream-5202888102868.jpg",
   "5202888102875": "frezyderm/frezyfeet-heavy-legs-5202888102875.jpg",
