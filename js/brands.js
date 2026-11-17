@@ -348,6 +348,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Hydrovit", imageDir: "hydrovit", sourceKey: "_hydrovitSource",
     fallbackDesc: "Προϊόν Hydrovit — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χρήση", "Συστατικά", "Χαρακτηριστικά"]
+  },
+  lactacyd: {
+    key: "lactacyd", name: "Lactacyd", host: "lactacyd.gr", page: "lactacyd.html",
+    icon: "🌸", initials: "LC", accent: "#be185d",
+    sheetName: "Lactacyd", imageDir: "lactacyd", sourceKey: "_lactacydSource",
+    fallbackDesc: "Προϊόν Lactacyd — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Προφυλάξεις"]
   }
 };
 

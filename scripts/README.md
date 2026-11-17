@@ -429,6 +429,14 @@ site (το chicco.co.uk έχει μόνο έπιπλα/καρότσια). Μόν
 → αρχικά στη σελίδα «Εταιρίες». Σειρά: `scrape-hydrovit` → `build-brand-supplier --brand=hydrovit --with-site --prices=Medica.tsv`
 → `match-hydrovit` → `sync-brand-images` → `generate-catalog` → `build-brand-stats`.
 
+`scripts/scrape-lactacyd.mjs` (Lactacyd / Perrigo, **www.lactacyd.gr** — Drupal, χωρίς EAN και χωρίς συσκευασία): 16 σελίδες από το
+sitemap (`/product/…`, καθυστέρηση 2s). Σειρά στοιχείων: h1 · υπότιτλος · «Χαρακτηριστικά» (li) · h2 + p (Περιγραφή) · «Συνιστώμενη χρήση»
+(p → Χρήση, li → Προφυλάξεις)· τα εικονίδια h3 είναι ίδια παντού και παραλείπονται. Κλειδιά `LC-<τίτλος>`, 11 γραμμές Medica στο
+`js/lactacyd-manual-matches.json` (Daily Lotion = Classic, Pharma Ultra Moisturizing = Pharma 40+)· η συσκευασία (250ml / 300ml /
+15 τεμ.) έρχεται από το όνομα της Medica στο `match-lactacyd`. Εικόνες από S3 (`s3.eu-west-3.amazonaws.com`, ~1,5MB PNG) →
+μικραίνουν σε 900px με `convert -resize '900x900>' -strip` μετά το `sync-brand-images`.
+**Προσοχή:** μην περνάτε την έξοδο του `generate-catalog` σε `| head` — κόβεται η εγγραφή των CSV (άδειασε το vican-catalog.csv).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

@@ -1,0 +1,539 @@
+// Auto-generated από το scripts/match-lactacyd.mjs — ΜΗΝ το επεξεργάζεστε χειροκίνητα.
+// Πηγή: lactacyd.gr (js/lactacyd-site.json). Διορθώσεις match → js/lactacyd-manual-matches.json.
+// matchType: manual | exact (GTIN) | high | review (score 99-14, 'Match?')
+// Προϊόντα χωρίς εγγραφή εδώ = δεν βρέθηκε σελίδα ('Χωρίς Σελίδα', λίστα στο js/lactacyd-unmatched.json).
+window.LACTACYD_OVERRIDES = {
+  "LC-classic": {
+    "name": "Classic",
+    "subtitle": "Το Lactacyd® Classic είναι το κλασικό προϊόν της σειράς μας, που δρα σε αρμονία με το σώμα σας, σε κάθε φάση της ζωής σας.",
+    "description": "Η Lactacyd® Classic λοσιόν καθαρισμού της ευαίσθητης περιοχής είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ, – συστατικό που παράγεται φυσικά στο σώμα – προκειμένου να διατηρηθεί η ισορροπία της φυσικής οξύτητας της κολπικής χλωρίδας. Βοηθά στη διατήρηση της αίσθησης φρεσκάδας, άνεσης, και κρατά μακριά οποιαδήποτε δυσφορία.",
+    "claims": [
+      "Για κανονικό δέρμα",
+      "Ισορροπημένο pH",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Σέβεται τη φυσική ισορροπία της ευαίσθητης περιοχής"
+    ],
+    "attributes": {
+      "Σειρά": "Daily",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Για κανονικό δέρμα\nΣέβεται τη φυσική ισορροπία της ευαίσθητης περιοχής\nΙσορροπημένο pH\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Μπορεί να χρησιμοποιηθεί στο μπάνιο ή το ντους ως υγρό σαπούνι. Κατάλληλη για καθημερινή χρήση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Daily-H_0.png?VersionId=RhNDpwi3dPaELnnqiJ9hQlqwtJXnGtyu",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Daily-H_0.png?VersionId=RhNDpwi3dPaELnnqiJ9hQlqwtJXnGtyu",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Daily-H_0.png?VersionId=RhNDpwi3dPaELnnqiJ9hQlqwtJXnGtyu"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-classic",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-sensitive": {
+    "name": "Sensitive / Ευαίσθητες Επιδερμίδες",
+    "subtitle": "Το Lactacyd® Sensitive είναι μια εξαιρετικά ήπια λοσιόν καθαρισμού σχεδιασμένη για τον απαλό καθαρισμό της ευαίσθητης περιοχής.",
+    "description": "Η σύνθεση του χωρίς σαπούνι, είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ και εκχύλισμα βαμβακιού για ήπια και αίσθηση καθαριότητας. Το Lactacyd® Sensitive βοηθά στην προστασία του ευαίσθητου δέρματος και στη διατήρηση της ισορροπίας της ευαίσθητης περιοχής.",
+    "claims": [
+      "Για ευαίσθητες επιδερμίδες",
+      "Δεν περιέχει άρωμα",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Ισορροπημένο pH",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Βοηθά στον περιορισμό της δυσφορίας στην ευαίσθητη περιοχή"
+    ],
+    "attributes": {
+      "Σειρά": "Daily"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Για ευαίσθητες επιδερμίδες\nΔεν περιέχει άρωμα\nΒοηθά στον περιορισμό της δυσφορίας στην ευαίσθητη περιοχή\nΜε φυσικό L-γαλακτικό οξύ\nΙσορροπημένο pH\nΚλινικα ελεγμενο",
+      "Χρήση": "Το Lactacyd® Sensitive συνιστάται σε γυναίκες με ευαίσθητο δέρμα ή με αλλεργία στα αρώματα. Αυτή η ήπια λοσιόν καθαρισμού είναι κατάλληλη για καθημερινή χρήση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Sensitive-H_1.png?VersionId=FzYdC8i4n0PssWx65rN0IkzM4M0Oe1xn",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Sensitive-H_1.png?VersionId=FzYdC8i4n0PssWx65rN0IkzM4M0Oe1xn",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Sensitive-H_1.png?VersionId=FzYdC8i4n0PssWx65rN0IkzM4M0Oe1xn"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-sensitive-eyaisthites-epidermides",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-fresh": {
+    "name": "Fresh",
+    "subtitle": "Το Lactacyd® Fresh είναι ένα gel καθαρισμού της ευαίσθητης περιοχής που εξασφαλίζει φρεσκάδα που διαρκεί και βοηθά στην πρόληψη ανεπιθύμητων οσμών.",
+    "description": "Η τριπλής δράσης σύνθεση χωρίς σαπούνι είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ, μενθόλη και Deo Active Complex® για μια ευχάριστη αίσθηση δροσιάς και αναζωογόνησης. Το gel καθαρισμού σας βοηθά να νιώθετε φρεσκάδα, οποιαδήποτε στιγμή της ημέρας.",
+    "claims": [
+      "Προστατεύει ενεργά από τις οσμές",
+      "Φρεσκάδα που διαρκεί",
+      "Υφή απαλής γέλης",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Ισορροπημένο pH",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Daily"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Προστατεύει ενεργά από τις οσμές\nΦρεσκάδα που διαρκεί\nΥφή απαλής γέλης\nΜε φυσικό L-γαλακτικό οξύ\nΙσορροπημένο pH\nΚλινικα ελεγμενο",
+      "Χρήση": "Το Lactacyd® Fresh ενδείκνυται για χρήση κατά τη διάρκεια της εμμήνου ρύσεως και μετά από την άσκηση, το κολύμπι και τη σάουνα. Είναι κατάλληλο για καθημερινή χρήση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Fresh-H_0.png?VersionId=_o1PxHXYMflU9FCevuXvk6QoY26Yvjuy",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Fresh-H_0.png?VersionId=_o1PxHXYMflU9FCevuXvk6QoY26Yvjuy",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Fresh-H_0.png?VersionId=_o1PxHXYMflU9FCevuXvk6QoY26Yvjuy"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-fresh",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-prebioticplus": {
+    "name": "Prebiotic Plus με Πρεβιοτικά",
+    "subtitle": "Το Lactacyd® Prebiotic Plus με Πρεβιοτικά είναι μια λοσιόν καθαρισμού της ευαίσθητης περιοχής, που δημιουργήθηκε για την ενίσχυση της φυσικής μικροχλωρίδας.",
+    "description": "Η ήπια φόρμουλα της λοσιόν καθαρισμού είναι ειδικά σχεδιασμένη με πρεβιοτικά για να ενισχύσει τη φυσική σας μικροχλωρίδα. Είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ για την αποκατάσταση και τη διατήρηση της ισορροπίας στην ευαίσθητη περιοχή. Με ευχάριστο άρωμα.",
+    "claims": [
+      "Ήπιο στο μικροβίωμα",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Ειδικά σχεδιασμένο για γυναίκες που είναι επιρρεπείς σε κολπικές λοιμώξεις"
+    ],
+    "attributes": {
+      "Σειρά": "Daily"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Ήπιο στο μικροβίωμα\nΕιδικά σχεδιασμένο για γυναίκες που είναι επιρρεπείς σε κολπικές λοιμώξεις\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Το Lactacyd® Prebiotic Plus με Πρεβιοτικά είναι ειδικά σχεδιασμένο για γυναίκες που ταλαιπωρούνται συχνά από κολπικές λοιμώξεις. Κατάλληλο για καθημερινή χρήση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Prebiotic_Plus-H_0.png?VersionId=Owla9nBkx3SPWCPXao6VE7MzjgV_RHdu",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Prebiotic_Plus-H_0.png?VersionId=Owla9nBkx3SPWCPXao6VE7MzjgV_RHdu",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Prebiotic_Plus-H_0.png?VersionId=Owla9nBkx3SPWCPXao6VE7MzjgV_RHdu"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-prebiotic-plus-me-prebiotika",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-oxygenfresh": {
+    "name": "Oxygen Fresh",
+    "subtitle": "Το Lactacyd® Oxygen Fresh προσφέρει μεγαλύτερη φρεσκάδα από ποτέ, καθ' όλη τη διάρκεια της ημέρας.",
+    "description": "Eίναι ένα εξαιρετικά αναζωογονητικό καθαριστικό σε μορφή gel. Η σύνθεση του είναι εμπλουτισμένη με φυσαλίδες οξυγόνου και τα αρκτικά μούρα που παρέχουν αίσθηση άνεσης, καθαριότητας και φρεσκάδας έως και 12 ώρες*. Επιπλέον οι φυσαλίδες οξυγόνου διασφαλίζουν μια ευχάριστη εφαρμογή. Η απαλή του σύνθεση δεν περιέχει σαπούνι, ενώ είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ και ένα μείγμα συστατικών αναπλήρωσης. Παρέχει αίσθημα ενυδάτωσης και φρεσκάδας, ενώ σέβεται τη φυσιολογική μικροχλωρίδα της ευαίσθητης περιοχής.",
+    "claims": [
+      "12ωρη καθαριότητα και φρεσκάδα*",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Ισορροπημένο pH",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Εμπλουτισμένο με φυσαλίδες οξυγόνου και αρκτικά μούρα"
+    ],
+    "attributes": {
+      "Σειρά": "Daily"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "12ωρη καθαριότητα και φρεσκάδα*\nΕμπλουτισμένο με φυσαλίδες οξυγόνου και αρκτικά μούρα\nΜε φυσικό L-γαλακτικό οξύ\nΙσορροπημένο pH\nΚλινικα ελεγμενο",
+      "Χρήση": "Είναι ένα εξαιρετικά αναζωογονητικό καθαριστικό gel για καθημερινή χρήση.\n*κλινική δοκιμή σε 31 εθελοντές, με καθημερινή χρήση πάνω από 28 ημέρες",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Oxygen_Fresh-H_0.png?VersionId=TLx479zBkTcgUgKyxcLxY5wc5Q3n2Gdm",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Oxygen_Fresh-H_0.png?VersionId=TLx479zBkTcgUgKyxcLxY5wc5Q3n2Gdm",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Oxygen_Fresh-H_0.png?VersionId=TLx479zBkTcgUgKyxcLxY5wc5Q3n2Gdm"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-oxygen-fresh",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-girl": {
+    "name": "Girl",
+    "subtitle": "Το Lactacyd® Girl είναι ήπιο gel καθαρισμού για κορίτσια από 3 ετών.",
+    "description": "Το gel καθαρισμού Lactacyd® Girl για την ευαίσθητη περιοχή παρέχει εξαιρετικά ήπιο καθαρισμό προσαρμοσμένο στο λεπτό και ευαίσθητο δέρμα των μικρών κοριτσιών. Η σύνθεση του περιέχει φυσικό L-γαλακτικό οξύ, Εκχύλισμα Ροδάκινου και Aloe Vera που βοηθούν στην ανακούφιση και ενυδάτωση του δέρματος. Δεν περιέχει σαπούνι και οινόπνευμα.",
+    "claims": [
+      "Για κορίτσια από 3 ετών",
+      "Καταπραϋντικό και ενυδατικό",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Παιδιατρικα ελεγμενο"
+    ],
+    "highlights": [
+      "Εμπλουτισμένο με εκχύλισμα ροδάκινου & Aloe Vera"
+    ],
+    "attributes": {
+      "Σειρά": "Daily"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Για κορίτσια από 3 ετών\nΚαταπραϋντικό και ενυδατικό\nΕμπλουτισμένο με εκχύλισμα ροδάκινου & Aloe Vera\nΜε φυσικό L-γαλακτικό οξύ\nΠαιδιατρικα ελεγμενο",
+      "Χρήση": "Το Lactacyd Girl καθιστά την καθημερινή υγιεινή της ευαίσθητης περιοχής πιο ευχάριστη για τα μικρά κορίτσια. Ενδείκνυται για την καθημερινή υγιεινή της ευαίσθητης περιοχής κοριτσιών ηλικίας 3 ετών και άνω.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Lactacyd_girl.png?VersionId=QeCpzldbqUaRT9reRBjIwViX1PgOMbtl",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Lactacyd_girl.png?VersionId=QeCpzldbqUaRT9reRBjIwViX1PgOMbtl",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Lactacyd_girl.png?VersionId=QeCpzldbqUaRT9reRBjIwViX1PgOMbtl"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-girl",
+    "source": "lactacyd.gr",
+    "section": "daily",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmasensitive": {
+    "name": "Pharma Sensitive / Ευαίσθητες Επιδερμίδες",
+    "subtitle": "Το Lactacyd® Pharma Sensitive / Ευαίσθητες Επιδερμίδες, έχει αναπτυχθεί ειδικά για την ευερέθιστη ευαίσθητη περιοχή.",
+    "description": "Το Lactacyd Pharma Sensitive / Ευαίσθητες Επιδερμίδες προσφέρει ιδιαίτερη φροντίδα για τον ευερέθιστο και ευαίσθητο βλεννογόνο. Σύνθεση με ένα εξαιρετικά ήπιο σύστημα καθαρισμού και χωρίς άρωμα, εγγυάται τη μέγιστη απαλότητα.\nΣύνθεση με φυσικό L-γαλακτικό οξύ και με pH 3,5 για την ήπια αποκατάσταση της φυσικής ισορροπίας και προστασία της ευαίσθητης περιοχής.",
+    "claims": [
+      "Χωρίς άρωμα",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Εξαιρετικά ήπια σύνθεση - Τόσο ήπια όσο το νερό"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Εξαιρετικά ήπια σύνθεση - Τόσο ήπια όσο το νερό\nΧωρίς άρωμα\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Η ήπια λοσιόν καθαρισμού είναι κατάλληλη για καθημερινή χρήση και συνιστάται σε περιπτώσεις ελαφρού ερεθισμού και ευαισθησίας στο άρωμα.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Sensitive-H_1.png?VersionId=w.toS.YNNcKIlwge0ZsQXfE9lmxPK6kh",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Sensitive-H_1.png?VersionId=w.toS.YNNcKIlwge0ZsQXfE9lmxPK6kh",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Sensitive-H_1.png?VersionId=w.toS.YNNcKIlwge0ZsQXfE9lmxPK6kh"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-pharma-sensitive-eyaisthites-epidermides",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmasoothing": {
+    "name": "Pharma Soothing / Καταπραϋντικό",
+    "subtitle": "Το Lactacyd® Pharma Soothing / Καταπραϋντικό, βοηθά στην ανακούφιση των συμπτωμάτων των κολπικών λοιμώξεων, όπως ερεθισμός, κνησμός και ερυθρότητα.",
+    "description": "Το Lactacyd® Pharma Soothing / Καταπραϋντικό, βοηθά στην ανακούφιση των συμπτωμάτων των κολπικών λοιμώξεων, όπως ερεθισμός, κνησμός και ερυθρότητα. Εμπλουτισμένο με εκχύλισμα Aloe Vera και μπλε μαργαρίτας, γνωστά για τα καταπραϋντικά και αντιφλεγμονώδη οφέλη τους, τα οποία ξεπλένουν την περιοχή και ανακουφίζουν τον ευαίσθητο ή φλεγμονώδη βλεννογόνο.\nΣύνθεση με φυσικό L-γαλακτικό οξύ και με pH 3,5 για την ήπια αποκατάσταση της φυσικής ισορροπίας και προστασία της ευαίσθητης περιοχής.",
+    "claims": [
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Βοηθά στην ανακούφιση των συμπτωμάτων της κολπικής δυσφορίας",
+      "Εμπλουτισμένο με καταπραϋντικό εκχύλισμα μπλε μαργαρίτας",
+      "Κλινικά αποδεδειγμένη αποτελεσματικότητα και ηπιότητα"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Βοηθά στην ανακούφιση των συμπτωμάτων της κολπικής δυσφορίας\nΕμπλουτισμένο με καταπραϋντικό εκχύλισμα μπλε μαργαρίτας\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικά αποδεδειγμένη αποτελεσματικότητα και ηπιότητα\nΚλινικα ελεγμενο",
+      "Χρήση": "Κολπικές ενοχλήσεις: Καύσος, κνησμός, ερυθρότητα και ερεθισμένο δέρμα. Συμπληρωματικά σε αντιμετώπιση κολπικών λοιμώξεων",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Soothing-H_0.png?VersionId=S7phD1jFdRT5RRToi3sdT2MsdgfpvgE7",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Soothing-H_0.png?VersionId=S7phD1jFdRT5RRToi3sdT2MsdgfpvgE7",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Soothing-H_0.png?VersionId=S7phD1jFdRT5RRToi3sdT2MsdgfpvgE7"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-pharma-soothing-kataprayntiko",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmaprebioticplus": {
+    "name": "Pharma Prebiotic Plus / Με Πρεβιοτικά",
+    "subtitle": "Το Lactacyd® Pharma Prebiotic Plus με Πρεβιοτικά είναι μια λοσιόν καθαρισμού της ευαίσθητης περιοχής, που δημιουργήθηκε για την ενίσχυση της φυσικής μικροχλωρίδας.",
+    "description": "Η ήπια φόρμουλα της λοσιόν καθαρισμού είναι ειδικά σχεδιασμένη με πρεβιοτικά για να ενισχύσει τη φυσική σας μικροχλωρίδα. Είναι εμπλουτισμένη με φυσικό L-γαλακτικό οξύ για την αποκατάσταση και τη διατήρηση της ισορροπίας στην ευαίσθητη περιοχή. Με ευχάριστο άρωμα.",
+    "claims": [
+      "Ήπιο στο μικροβίωμα",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Ειδικά σχεδιασμένο για γυναίκες που είναι επιρρεπείς σε κολπικές λοιμώξεις"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Ήπιο στο μικροβίωμα\nΕιδικά σχεδιασμένο για γυναίκες που είναι επιρρεπείς σε κολπικές λοιμώξεις\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Το Lactacyd® Pharma Prebiotic Plus με Πρεβιοτικά είναι ειδικά σχεδιασμένο για γυναίκες που ταλαιπωρούνται συχνά από κολπικές λοιμώξεις. Κατάλληλο για καθημερινή χρήση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Prebiotic_Plus-H_0.png?VersionId=.d6.ddtq0_nEi1L8yZZwYpX83anOMis.",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Prebiotic_Plus-H_0.png?VersionId=.d6.ddtq0_nEi1L8yZZwYpX83anOMis.",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Prebiotic_Plus-H_0.png?VersionId=.d6.ddtq0_nEi1L8yZZwYpX83anOMis."
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-pharma-prebiotic-plus-me-prebiotika",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmamoisturising": {
+    "name": "Pharma Moisturising / Ενυδατικό",
+    "subtitle": "Το Lactacyd® Pharma Moisturising / Ενυδατικό, προστατεύει και βελτιώνει την ενυδάτωση στην ευαίσθητη περιοχή.",
+    "description": "Η ενυδατική λοσιόν περιποίησης δημιουργήθηκε με το μοναδικό ενυδατικό συστατικό L2G-complex™ που βοηθά στην ενίσχυση και ανανέωση του φυσικού υδρολιπιδικού στρώματος του δέρματός. Η ενυδατική λοσιόν καθαρισμού σας προστατεύει ενεργά από την ταλαιπωρία και τον ερεθισμό που προκαλείται από την ξηρότητα της ευαίσθητης περιοχής.\nΣύνθεση με φυσικό L-γαλακτικό οξύ και με pH 3,5 για την ήπια αποκατάσταση της φυσικής ισορροπίας και προστασία της ευαίσθητης περιοχής.",
+    "claims": [
+      "Για την ξηρότητα της ευαίσθητης περιοχής",
+      "Κατάλληλο για καθημερινή χρήση",
+      "24% περισσότερη ενυδάτωση μετά τη χρήση",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Για την ξηρότητα της ευαίσθητης περιοχής\nΚατάλληλο για καθημερινή χρήση\n24% περισσότερη ενυδάτωση μετά τη χρήση\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Κατάλληλο για χρήση σε περιπτώσεις κολπικής ξηρότητας, κατά τη διάρκεια της εμμηνόπαυσης ή για οποιαδήποτε γυναίκα που επιθυμεί να χρησιμοποιήσει προϊόντα φροντίδας της ευαίσθητης περιοχής με ενυδατική δράση.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Moisturizing-H_0.png?VersionId=.ngWwGrO.uxr5pxHYDPBVreJNjBp0Bib",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Moisturizing-H_0.png?VersionId=.ngWwGrO.uxr5pxHYDPBVreJNjBp0Bib",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Moisturizing-H_0.png?VersionId=.ngWwGrO.uxr5pxHYDPBVreJNjBp0Bib"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-pharma-moisturising-enydatiko",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmawithantibacterialsproperties": {
+    "name": "Pharma with Antibacterials properties / Με Αντιβακτηριακές Ιδιότητες",
+    "subtitle": "Το Lactacyd® Pharma Antibacterials με αντιβακτηριακές ιδιότητες βοηθά στην ανακούφιση της δυσφορίας σε περίπτωση βακτηριακής λοίμωξης*",
+    "description": "Απαλή λοσιόν καθαρισμού που ενισχύει τη φυσική άμυνα της ευαίσθητης περιοχής. Περιέχει φυσικούς αντιβακτηριακούς παράγοντες που βοηθούν στην αναστολή της ανάπτυξης βλαβερών βακτηρίων και στην ενεργό πρόληψη της δυσοσμίας.",
+    "claims": [
+      "Εμπλουτισμένο με αντισηπτικό θυμάρι",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Συνιστάται κατά τη διάρκεια της εμμηνόρροιας, της εγκυμοσύνης και μετά τον τοκετό"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Συνιστάται κατά τη διάρκεια της εμμηνόρροιας, της εγκυμοσύνης και μετά τον τοκετό\nΕμπλουτισμένο με αντισηπτικό θυμάρι\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Συνιστάται για χρήση κατά τη διάρκεια της εμμηνόρροιας, της εγκυμοσύνης και μετά τον τοκετό, αλλά και κάθε φορά που υπάρχει υψηλός κίνδυνος μόλυνσης (στενά ρούχα, κολύμπι, αθλητισμός,…).",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antibacterial-H_0.png?VersionId=B7rR2WSqhx4aXbNwuk5Et3PciMyFtDSr",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antibacterial-H_0.png?VersionId=B7rR2WSqhx4aXbNwuk5Et3PciMyFtDSr",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antibacterial-H_0.png?VersionId=B7rR2WSqhx4aXbNwuk5Et3PciMyFtDSr"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-pharma-antibacterials-properties-me-antibaktiriakes-idiotites",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharmawithantifungalproperties": {
+    "name": "Pharma with Antifungal properties / Με Αντιμυκητιασικές Ιδιότητες",
+    "subtitle": "Το Lactacyd® Pharma Antifungal με αντιμυκητιασικές ιδιότητες βοηθά στην ανακούφιση της δυσφορίας σε περίπτωση λοίμωξης από ζυμομύκητες*",
+    "description": "Το Lactacyd® Pharma με αντιμυκητιασικές ιδιότητες είναι μία λοσιόν καθαρισμού ειδικά σχεδιασμένη για να καταπραΰνει τον κνησμό, την αίσθηση καύσου και τον ερεθισμό που προκαλείται από την μυκητίαση*. Εμπλουτισμένο με αντιμυκητιασικές ιδιότητες και καταπραϋντικό εκχύλισμα Καλέντουλας, σέβεται τη φυσική ισορροπία της κολπικής χλωρίδας αφήνοντας μια αίσθηση φρεσκάδας.\nEίναι σχεδιασμένη με ήπιο αλκαλικό pH 8, το οποίο μπορεί να βοηθήσει στην καταπολέμηση της υπερβολικής οξύτητας, η οποία είναι ευνοϊκή για την ανάπτυξη της Candida Albicans, υπεύθυνη για την αιδοιοκολπική μυκητίαση.",
+    "claims": [
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Κλινικα ελεγμενο"
+    ],
+    "highlights": [
+      "Βοηθά στην ανακούφιση της δυσφορίας σε περίπτωση λοίμωξης από ζυμομύκητες*",
+      "Εμπλουτισμένο με καταπραϋντικό εκχύλισμα Καλέντουλας"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Βοηθά στην ανακούφιση της δυσφορίας σε περίπτωση λοίμωξης από ζυμομύκητες*\nΕμπλουτισμένο με καταπραϋντικό εκχύλισμα Καλέντουλας\nΜε φυσικό L-γαλακτικό οξύ\nΚλινικα ελεγμενο",
+      "Χρήση": "Ενδείκνυται για τακτική χρήση ή συμπληρωματικά στην αντιμετώπιση της αιδοιοκολπικής μυκητίασης.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antifungal-H_0.png?VersionId=ze_p7L_NkIGoT7kwjUO7Lv29JlGN5SMr",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antifungal-H_0.png?VersionId=ze_p7L_NkIGoT7kwjUO7Lv29JlGN5SMr",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Pharma_Antifungal-H_0.png?VersionId=ze_p7L_NkIGoT7kwjUO7Lv29JlGN5SMr"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacyd-pharma-antifungal-properties-me-antimykitiasikes-idiotites",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-pharma40": {
+    "name": "Pharma Ενυδάτωση Μακράς Διάρκειας 40+",
+    "subtitle": "Το Lactacyd Pharma Ενυδάτωση Μακράς Διάρκειας 40+ είναι μια λοσιόν καθαρισμού της ευαίσθητης περιοχής που ανακουφίζει από την ξηρότητα, τον κνησμό και παρέχει ενυδάτωση μακράς διάρκειας - επιβεβαιώνεται από το 100% των γυναικών.",
+    "description": "Οι γυναίκες κατά τη διάρκεια της εμμηνόπαυσης ή μετά την εμμηνόπαυση είναι επιρρεπείς στην ξηρότητα του δέρματος. Το Lactacyd Pharma Ενυδάτωση Μακράς Διάρκειας 40+ ανακουφίζει από την ξηρότητα και τον κνησμό του δέρματος της ευαίσθητης περιοχής.\nΗ φόρμουλα του νέου καθαριστικού της ευαίσθητης περιοχής, ειδικά σχεδιασμένο για γυναίκες που βιώνουν ξηρότητα, είναι εμπλουτισμένη με υαλουρονικό οξύ και πανθενόλη, παρέχοντας ενυδάτωση μακράς διάρκειας στην ευαίσθητη περιοχή.\nΌπως όλα τα προϊόντα Lactacyd, το Lactacyd Pharma Ενυδάτωση Μακράς Διάρκειας 40+ περιέχει φυσικό γαλακτικό οξύ που βοηθάει στην βέλτιστη προστασία της χλωρίδας της ευαίσθητης περιοχής και διατηρεί το pH σε ισορροπία.",
+    "claims": [
+      "8 ώρες ενυδάτωσης",
+      "Ανακουφίζει από την ξηρότητα και τον κνησμό",
+      "Με υαλουρονικό οξύ & πανθενόλη",
+      "Δερματολογικά & γυναικολογικά ελεγμένο"
+    ],
+    "highlights": [
+      "Με φυσικό γαλακτικό οξύ για να διατηρεί το pH της ευαίσθητης περιοχής σας σε ισορροπία"
+    ],
+    "attributes": {
+      "Σειρά": "Pharma",
+      "Συσκευασία": "250ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "8 ώρες ενυδάτωσης\nΑνακουφίζει από την ξηρότητα και τον κνησμό\nΜε φυσικό γαλακτικό οξύ για να διατηρεί το pH της ευαίσθητης περιοχής σας σε ισορροπία\nΜε υαλουρονικό οξύ & πανθενόλη\nΔερματολογικά & γυναικολογικά ελεγμένο",
+      "Χρήση": "Αυτή η λοσιόν καθαρισμού μπορεί να χρησιμοποιηθεί στο μπάνιο ή στο ντους ως υγρό σαπούνι.",
+      "Προφυλάξεις": "Μόνο για εξωτερική χρήση\nΞεπλύνετε καλά με νερό μετά τη χρήση\nΚατάλληλη για καθημερινή χρήση\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Moisturizing_Plus-H_0.png?VersionId=zVVlfqezQgOhq0d7baOcq2AGCK1pC.vB",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Moisturizing_Plus-H_0.png?VersionId=zVVlfqezQgOhq0d7baOcq2AGCK1pC.vB",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Moisturizing_Plus-H_0.png?VersionId=zVVlfqezQgOhq0d7baOcq2AGCK1pC.vB"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacyd-pharma-enydatosi-makras-diarkeias-40",
+    "source": "lactacyd.gr",
+    "section": "pharma",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-intimatewipes": {
+    "name": "Intimate Wipes / Υγρά Μαντηλάκια καθαρισμού",
+    "subtitle": "Lactacyd® Intimate Wipes / Υγρά Μαντηλάκια καθαρισμού, είναι κατάλληλα για την καθημερινή σας υγιεινή και προστατεύουν την ευαίσθητη περιοχή.",
+    "description": "Tα Lactacyd® Intimate Wipes / Υγρά Μαντηλάκια καθαρισμού, είναι εμπλουτισμένα με φυσικό L-γαλακτικό οξύ ώστε να σέβονται τη φυσική ισορροπία της ευαίσθητης περιοχής καθώς και με αλλαντοΐνη, γνωστή για τις καταπραϋντικές της ιδιότητες.",
+    "claims": [
+      "On-the-go συσκευασία",
+      "Για κανονικές επιδερμίδες",
+      "Με φυσικό L-γαλακτικό οξύ",
+      "Ισορροπημένο pH",
+      "100% βιοδιασπώμενο",
+      "Δερματολογικά & Γυναικολογικά ελεγμένα"
+    ],
+    "highlights": [],
+    "attributes": {
+      "Συσκευασία": "15 τεμ.",
+      "Σειρά": "Wipes"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "On-the-go συσκευασία\nΓια κανονικές επιδερμίδες\nΜε φυσικό L-γαλακτικό οξύ\nΙσορροπημένο pH\n100% βιοδιασπώμενο\nΔερματολογικά & Γυναικολογικά ελεγμένα",
+      "Χρήση": "Πρακτικά απαλά και ήπια μαντηλάκια καθαρισμού που μπορούν να χρησιμοποιηθούν οποιαδήποτε στιγμή της ημέρας. Για την τσάντα, το γραφείο, το ταξίδι, το σπίτι. Εύκολη καθημερινή χρήση."
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Untitled-1-618x600.png?VersionId=At3XAZAzFjMCI_s9gKQGnb0OOs0xn3QE",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Untitled-1-618x600.png?VersionId=At3XAZAzFjMCI_s9gKQGnb0OOs0xn3QE",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/Untitled-1-618x600.png?VersionId=At3XAZAzFjMCI_s9gKQGnb0OOs0xn3QE"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-intimate-wipes-ygra-mantilakia-katharismoy",
+    "source": "lactacyd.gr",
+    "section": "wipes",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-deeplynourishing": {
+    "name": "Κρεμώδες Αφρόλουτρο Deeply Nourishing",
+    "subtitle": "Προσφέρει θρέψη μακράς διάρκειας στο δέρμα σας",
+    "description": "Το Lactacyd® Αφρόλουτρο Deeply Nourishing είναι ένα κρεμώδες αφρόλουτρο, το οποίο καθαρίζει απαλά και θρέφει σε βάθος το δέρμα σας. Εμπλουτισμένο με το μοναδικό SHEA BUTTER COMPLEX, που προέρχεται από το γνωστό για τις θρεπτικές του ιδιότητες βούτυρο καριτέ, προσφέρει θρέψη μακράς διάρκειας στο δέρμα σας.\nΉπια αρωματισμένο.",
+    "claims": [
+      "Κατάλληλο για κανονικό, ξηρό και ευαίσθητο δέρμα",
+      "pH για την ισορροπία του δέρματος",
+      "Αποδεδειγμένη αποτελεσματικότητα και ηπιότητα",
+      "Δερματολογικά ελεγμένο",
+      "Με SΗΕΑ BUTTER COMPLEX"
+    ],
+    "highlights": [
+      "Μεγαλύτερη από ποτέ διάρκεια θρέψης στο δέρμα σας"
+    ],
+    "attributes": {
+      "Σειρά": "Body Care",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Μεγαλύτερη από ποτέ διάρκεια θρέψης στο δέρμα σας\npH για την ισορροπία του δέρματος\nΑποδεδειγμένη αποτελεσματικότητα και ηπιότητα\nΔερματολογικά ελεγμένο\nΜε SΗΕΑ BUTTER COMPLEX",
+      "Χρήση": "Κάντε μασάζ με τη θρεπτική φόρμουλα στο δέρμα σας και απολαύστε τον πλούσιο, κρεμώδη αφρό. Ξεπλύνετε για να αποκαλύψετε το λείο, απαλό δέρμα σας.\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Nourishing-H_1.png?VersionId=LH4U2ou3P.1.ijP.jJR1inFKMzX5LYKk",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Nourishing-H_1.png?VersionId=LH4U2ou3P.1.ijP.jJR1inFKMzX5LYKk",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Nourishing-H_1.png?VersionId=LH4U2ou3P.1.ijP.jJR1inFKMzX5LYKk"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacyd-%CE%BA%CF%81%CE%B5%CE%BC%CF%8E%CE%B4%CE%B5%CF%82-%CE%B1%CF%86%CF%81%CF%8C%CE%BB%CE%BF%CF%85%CF%84%CF%81%CE%BF-deeply-nourishing",
+    "source": "lactacyd.gr",
+    "section": "body",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "LC-deeplymoisturising": {
+    "name": "Κρεμώδες Αφρόλουτρο Deeply Moisturising",
+    "subtitle": "Άμεση και έντονη ενυδάτωση η οποία διαρκεί όλη την ημέρα",
+    "description": "Το Lactacyd® Αφρόλουτρο Deeply Moisturising είναι ένα κρεμώδες αφρόλουτρο, το οποίο καθαρίζει απαλά, θρέφει και ενυδατώνει σε βάθος το δέρμα σας. Εμπλουτισμένο με το μοναδικό TRIPLE MOIST COMPLEX, το οποίο παρέχει άμεση και έντονη ενυδάτωση η οποία διαρκεί όλη την ημέρα.\nΉπια αρωματισμένο.",
+    "claims": [
+      "Κατάλληλο για κανονικό, ξηρό και ευαίσθητο δέρμα",
+      "Mε TRIPLE MOIST COMPLEX",
+      "pH για την ισορροπία του δέρματος",
+      "Αποδεδειγμένη αποτελεσματικότητα και ηπιότητα",
+      "Δερματολογικά ελεγμένο"
+    ],
+    "highlights": [
+      "Ενυδάτωση & προστασία μακράς διάρκειας μετά την πρώτη χρήση"
+    ],
+    "attributes": {
+      "Σειρά": "Body Care",
+      "Συσκευασία": "300ml"
+    },
+    "sections": {
+      "Χαρακτηριστικά": "Ενυδάτωση & προστασία μακράς διάρκειας μετά την πρώτη χρήση\nMε TRIPLE MOIST COMPLEX\npH για την ισορροπία του δέρματος\nΑποδεδειγμένη αποτελεσματικότητα και ηπιότητα\nΔερματολογικά ελεγμένο",
+      "Χρήση": "Κάντε μασάζ με τη θρεπτική φόρμουλα στο δέρμα σας και απολαύστε τον πλούσιο, κρεμώδη αφρό. Ξεπλύνετε για να αποκαλύψετε το απαλό δέρμα σας.\nΣε περίπτωση ερεθισμού, διακόψτε τη χρήση"
+    },
+    "image": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Moisturizing-H_0.png?VersionId=Jb2CvFG8JBIVoD9G3Ba_x7656raA1rwu",
+    "imageFallback": "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Moisturizing-H_0.png?VersionId=Jb2CvFG8JBIVoD9G3Ba_x7656raA1rwu",
+    "images": [
+      "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/product-images/BodyCare_Moisturizing-H_0.png?VersionId=Jb2CvFG8JBIVoD9G3Ba_x7656raA1rwu"
+    ],
+    "url": "https://www.lactacyd.gr/product/lactacydr-kremodes-afroloytro-deeply-moisturising",
+    "source": "lactacyd.gr",
+    "section": "body",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  }
+};
