@@ -6,11 +6,11 @@ window.BRAND_STATS = {
     "sections": 17,
     "modes": {
       "all": 298,
-      "ok": 251,
-      "issue": 47,
-      "complete": 263,
-      "incomplete": 35,
-      "nopage": 40,
+      "ok": 250,
+      "issue": 48,
+      "complete": 262,
+      "incomplete": 36,
+      "nopage": 41,
       "noprice": 0,
       "priced": 298
     }
