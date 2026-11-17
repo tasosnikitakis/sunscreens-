@@ -422,6 +422,13 @@ site (το chicco.co.uk έχει μόνο έπιπλα/καρότσια). Μόν
 (ιταλικό κείμενο → ελληνικό· κενή τιμή = παράλειψη γραμμής, π.χ. ιταλικές εγκρίσεις διαφήμισης). Ό,τι λείπει γράφεται στο
 `<cache>/chicco-untranslated.json` για μετάφραση. Εικόνες από `cdn.artsana.com`.
 
+`scripts/scrape-hydrovit.mjs` (Hydrovit, **targetpharma.gr** — ο διανομέας Target Pharma, WooCommerce χωρίς EAN): λίστα από το Store API,
+μόνο η κατηγορία HYDROVIT + τα «HYDROVIT Intimcare Colpo-…» (ιατροτεχνολογικά, όχι φάρμακα· τα άλλα φάρμακα/μάρκες του διανομέα εκτός).
+Σελίδα: `div.ml` = συσκευασία, accordion (Οφέλη / Συστατικά / Χρήση / Προφυλάξεις), `.characteristics` → Χαρακτηριστικά.
+Κλειδιά `HY-<τίτλος>`, τιμές Medica μέσω `js/hydrovit-manual-matches.json` (18 γραμμές). Χωρίς καθαρό λογότυπο (μόνο μέσα σε φωτογραφία)
+→ αρχικά στη σελίδα «Εταιρίες». Σειρά: `scrape-hydrovit` → `build-brand-supplier --brand=hydrovit --with-site --prices=Medica.tsv`
+→ `match-hydrovit` → `sync-brand-images` → `generate-catalog` → `build-brand-stats`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

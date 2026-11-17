@@ -42,7 +42,7 @@ export const LOGO_SRC = {
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
-const NO_LOGO = new Set(["gehwol", "corega", "sensodyne"]);
+const NO_LOGO = new Set(["gehwol", "corega", "sensodyne", "hydrovit"]);   // hydrovit: το targetpharma.gr έχει το λογότυπο μόνο μέσα σε φωτογραφία
 // προτιμώμενη λέξη στο όνομα αρχείου/alt (όταν η σελίδα έχει πολλά logos, π.χ. διανομείς)
 const HINT = { sebamed: /sebamed/i, gehwol: /gehwol/i, corega: /corega/i, sensodyne: /sensodyne/i, quest: /quest/i, pforal: /elgydium|pierre|oral/i };
 

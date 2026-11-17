@@ -704,5 +704,20 @@ window.BRAND_STATS = {
       "noprice": 140,
       "priced": 27
     }
+  },
+  "hydrovit": {
+    "products": 33,
+    "priced": 18,
+    "sections": 6,
+    "modes": {
+      "all": 33,
+      "ok": 31,
+      "issue": 2,
+      "complete": 31,
+      "incomplete": 2,
+      "nopage": 0,
+      "noprice": 15,
+      "priced": 18
+    }
   }
 };
