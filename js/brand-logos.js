@@ -39,5 +39,6 @@ window.BRAND_LOGOS = {
   "eviol": "images/logos/eviol.png",
   "nuk": "images/logos/nuk.png",
   "chicco": "images/logos/chicco.svg",
-  "lactacyd": "images/logos/lactacyd.png"
+  "lactacyd": "images/logos/lactacyd.png",
+  "elladent": "images/logos/elladent.png"
 };

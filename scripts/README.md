@@ -437,6 +437,12 @@ sitemap (`/product/…`, καθυστέρηση 2s). Σειρά στοιχείω
 μικραίνουν σε 900px με `convert -resize '900x900>' -strip` μετά το `sync-brand-images`.
 **Προσοχή:** μην περνάτε την έξοδο του `generate-catalog` σε `| head` — κόβεται η εγγραφή των CSV (άδειασε το vican-catalog.csv).
 
+`scripts/scrape-elladent.mjs` (Elladent, **www.elladent.gr** — OpenCart/Journal2, χωρίς EAN): η προεπιλογή γλώσσας είναι αγγλικά →
+POST `index.php?route=module/language` (`language_code=gr`) με το cookie της συνεδρίας, όπως το κουμπί γλώσσας. Λίστα από
+`index.php?route=information/sitemap` (17 προϊόντα, μαζί οδοντόβουρτσες/water flosser). Περιγραφή = γραμμές του `#tab-description` με
+επικεφαλίδες «Ιδανικό» / «Περιέχει»·«Σύνθεση» / «Πλεονεκτήματα» / «Οδηγίες Χρήσης» / «Συνδυάζεται» (+ ΚΕΦΑΛΑΙΑ στις συσκευές)·
+πρώτη γραμμή = όνομα + συσκευασία. Κλειδιά `ED-p<product_id>`, 11 γραμμές Medica στο `js/elladent-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
