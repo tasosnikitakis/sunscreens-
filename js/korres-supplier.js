@@ -335,7 +335,6 @@ window.KORRES_SUPPLIER = [
   {"barcode":"5203069130526","name":"Κυστίνη + Γλυκοπρωτεϊνες Σαμπουάν Κατά Της Τριχόπτωσης Για Γυναίκες 400ml","retail":0,"wholesale":0,"variants":["5203069130526"],"listed":false},
   {"barcode":"5203069130502","name":"Αλόη + Δίκταμο Σαμπουάν Για Κανονικά Μαλλιά 400ml","retail":0,"wholesale":0,"variants":["5203069130502"],"listed":false},
   {"barcode":"5203069127908","name":"Τσάι Ολύμπου Ρύθμιση Λιπαρότητας Gel Καθαρισμού 400ml","retail":0,"wholesale":0,"variants":["5203069127908"],"listed":false},
-  {"barcode":"5203069127731","name":"Cashmere Kumquat Eau de Toilette + Αφρόλουτρο","retail":37.5,"wholesale":21.45,"variants":["5203069127731"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10029818","supplierName":"PKORRES SET CASH KUMQUAT EDT 50ML & SGEL 250ML"},
   {"barcode":"5203069122415","name":"Black Pine Primus Ορός Ενεργοποίησης Νεότητας","retail":0,"wholesale":0,"variants":["5203069122415"],"listed":false},
   {"barcode":"5203069127236","name":"Black Pine Primus Λείανση Ρυτίδων + Ελαστικότητα Κρέμα Νεότητας Νύχτας","retail":0,"wholesale":0,"variants":["5203069127236"],"listed":false},
   {"barcode":"5203069122408","name":"Black Pine Primus Λείανση Ρυτίδων + Ελαστικότητα Κρέμα Νεότητας Ημέρας","retail":0,"wholesale":0,"variants":["5203069122408"],"listed":false},
@@ -391,7 +390,6 @@ window.KORRES_SUPPLIER = [
   {"barcode":"5203069126475","name":"Γιαούρτι Παιδικό Αντηλιακό Spray Σώματος + Προσώπου SPF 50","retail":0,"wholesale":0,"variants":["5203069126475"],"listed":false},
   {"barcode":"5203069123078","name":"Aegean Bronzer - Light Shade","retail":0,"wholesale":0,"variants":["5203069123078"],"listed":false},
   {"barcode":"5203069132278","name":"Natural Fresh Blush 03 Dusty Rose","retail":0,"wholesale":0,"variants":["5203069132278"],"listed":false},
-  {"barcode":"5203069133985","name":"Oceanic Amber Eau de Toilette + Αφρόλουτρο","retail":37.5,"wholesale":22.4,"variants":["5203069133985"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10030341","supplierName":"PKORRES SET OCEANIC AMBER EDT 50ML & SGEL 250ML"},
   {"barcode":"5203069130519","name":"Κυστίνη + Ιχνοστοιχεία Σαμπουάν Κατά Της Τριχόπτωσης Για Άντρες 400ml","retail":0,"wholesale":0,"variants":["5203069130519"],"listed":false},
   {"barcode":"5203069112324","name":"2 Θηλές Σιλικόνης Μεσαίας Ροής","retail":0,"wholesale":0,"variants":["5203069112324"],"listed":false},
   {"barcode":"5203069108143","name":"Coconut + Almond Κρέμα Αλλαγής Πάνας","retail":0,"wholesale":0,"variants":["5203069108143"],"listed":false}

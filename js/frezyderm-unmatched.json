@@ -24,6 +24,14 @@
     "bestUrl": "https://www.frezyderm.gr/frontida-mwrou/kremes-gia-sygkama/baby-cream-50-ml-krema-gia-sygkama/"
   },
   {
+    "barcode": "5202888271663",
+    "name": "FREZYDERM Antioxidant Radiation Guard Cream SPF80 50ml",
+    "status": "manual-skip",
+    "bestScore": 28.8,
+    "bestName": "ANTIOXIDANT RADIATION GUARD SPF 50+",
+    "bestUrl": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/antiokseidwtikh-krema/antioxidant-radiation-guard/"
+  },
+  {
     "barcode": "5202888271052",
     "name": "FREZYDERM ANTI-WRINKLE EYE CREAM 15 ML",
     "status": "manual-skip",
@@ -168,6 +176,14 @@
     "bestUrl": "https://www.frezyderm.gr/proionta-gia-th-stomatikh-ygieinh/proionta-stomatikhs-ygieinhs-gia-enhlikes/proionta-leykanshs-dontiwn/instant-whitening-blue-mouthfoam-stomatiko-dialyma/"
   },
   {
+    "barcode": "5202888222436",
+    "name": "FREZYDERM KID'S SUN NIP SPF50+ 175ml",
+    "status": "manual-skip",
+    "bestScore": 14,
+    "bestName": "SUN SCREEN VELVET BODY LOTION SPF 50+",
+    "bestUrl": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-swmatos-velvet/"
+  },
+  {
     "barcode": "5202888271229",
     "name": "FREZYDERM Matte Effect Cream 50ml",
     "status": "manual-skip",
@@ -206,6 +222,14 @@
     "bestScore": -9.6,
     "bestName": "BABY SUN CARE SPF 25",
     "bestUrl": "https://www.frezyderm.gr/frontida-mwrou/brefika-antiliaka/baby-sun-care-spf-25-brefiko-antiliako/"
+  },
+  {
+    "barcode": "5202888102899",
+    "name": "FREZYDERM PRELACTIC VAGINAL CREAM 50ML",
+    "status": "manual-skip",
+    "bestScore": 9.6,
+    "bestName": "PRELACTIC GEL",
+    "bestUrl": "https://www.frezyderm.gr/omoiopathitiki/euaisthhth-perioxh/prelactic-gel-apokatastash-kolpou-sthn-emmhnopaush/"
   },
   {
     "barcode": "5202888320057",

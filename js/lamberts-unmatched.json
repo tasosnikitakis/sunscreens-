@@ -40,6 +40,14 @@
     "bestUrl": "https://lamberts.gr/product/echinacea-1000mg/"
   },
   {
+    "barcode": "5055148411572",
+    "name": "LAMBERTS DIG PEPPERMINT OIL 50MG 90CAPS",
+    "status": "manual-skip",
+    "bestScore": 9.8,
+    "bestName": "Peppermint Oil Capsules 100mg",
+    "bestUrl": "https://lamberts.gr/product/peppermint-oil-capsules-100mg/"
+  },
+  {
     "barcode": "5055148403003",
     "name": "LAMBERTS DIGESTIZYME 100CAPS",
     "status": "skip",
@@ -136,6 +144,14 @@
     "bestUrl": "https://lamberts.gr/product/cranberry-complex/"
   },
   {
+    "barcode": "5055148401931",
+    "name": "LAMBERTS MIN IRON 14MG 100TABS",
+    "status": "manual-skip",
+    "bestScore": 3.2,
+    "bestName": "Bio-Iron Complex",
+    "bestUrl": "https://lamberts.gr/product/bio-iron-complex/"
+  },
+  {
     "barcode": "5055148400163",
     "name": "LAMBERTS MIN ZINC 15MG/COPPER 1MG 90TABS",
     "status": "skip",
@@ -166,6 +182,14 @@
     "bestScore": 7.6,
     "bestName": "MultiGuard OsteoAdvance 50+",
     "bestUrl": "https://lamberts.gr/product/multiguard-osteoadvance-50/"
+  },
+  {
+    "barcode": "5055148411985",
+    "name": "LAMBERTS Multi-Guard® High Potency One-a-Day 30tabs",
+    "status": "manual-skip",
+    "bestScore": 5.7,
+    "bestName": "High Potency Omega 3s for Cats and Dogs",
+    "bestUrl": "https://lamberts.gr/product/high-potency-omega-3s-for-cats-and-dogs/"
   },
   {
     "barcode": "5055148414504",
