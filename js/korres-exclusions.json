@@ -21,6 +21,12 @@
       "pattern": "(^|[^\\p{L}])(σετ|set|kit|ritual|essentials|routine|expert duo|eyes duo|advent calendar|duo)([^\\p{L}]|$)|&\\s*toy\\b|\\+\\s*καπέλο|σε\\s+ειδική\\s+τιμή|\\b\\d\\s*\\+\\s*\\d\\b|baby's first walk",
       "flags": "iu",
       "reason": "Σετ δώρου / promo πακέτο — ο κατάλογος κρατά μόνο βασικά προϊόντα"
+    },
+    {
+      "name": "edt-duo",
+      "pattern": "eau\\s+de\\s+toilette\\s*\\+",
+      "flags": "iu",
+      "reason": "Σετ δώρου άρωμα + αφρόλουτρο (στον τιμοκατάλογο «PKORRES SET …»)"
     }
   ]
 }

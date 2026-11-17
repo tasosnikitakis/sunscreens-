@@ -90,7 +90,7 @@ window.FREZYDERM_OVERRIDES = {
     "review": false
   },
   "5202888100413": {
-    "name": "CHRISTIALEN EMULSION Ενυδατικό Γαλάκτωμα Σώματος 200 ml",
+    "name": "CHRISTIALEN EMULSION Ενυδατικό Γαλάκτωμα Σώματος 100 ml",
     "subtitle": null,
     "description": "Ενυδατικό γαλάκτωμα σώματος για την καθημερινή περιποίηση και θρέψη του δέρματος. Ενυδατώνει άμεσα και σε βάθος την επιδερμίδα σας, αποκαθιστώντας το υδατικό ισοζύγιο, ενώ παράλληλα αποτελεί μια ασπίδα προστασίας από δυσμενείς περιβαλλοντικές συνθήκες. Με δροσερή λεπτόρρευστη και μη λιπαρή υφή που δεν αφήνει ίχνη λιπαρότητας και σας επιτρέπει να ντυθείτε αμέσως. Απλώστε το στην επιδερμίδα σας μετά το ντους και ζήστε την εμπειρία της μεταξένιας επιδερμίδας.",
     "claims": [
@@ -100,21 +100,21 @@ window.FREZYDERM_OVERRIDES = {
       "Εξασφαλίζει 28% πιο ενυδατωμένη επιδερμίδα από την πρώτη μισή ώρα μετά την εφαρμογή"
     ],
     "attributes": {
-      "Συσκευασία": "200ml",
+      "Συσκευασία": "100ml",
       "Κατηγορία frezyderm.gr": "Γαλακτώματα και Λάδι Σώματος",
-      "SKU": "427110"
+      "SKU": "427109"
     },
     "sections": {
       "Κατάλληλο για": "Κάθε τύπο δέρματος\n\nΧρόνια ή εποχική ξηρότητα\n\nΔερματολογικά προβλήματα που συνοδεύονται από παθολογική ξηρότητα\n\nΜετά από τεχνητό μαύρισμα (solarium)",
       "Χρήση": "Καθημερινά μετά το ντους, απλώστε μια γενναία ποσότητα σε όλο το σώμα και κάντε ελαφρύ μασάζ με κυκλικές κινήσεις, από πάνω προς τα κάτω.",
       "Δράση – Ενεργά συστατικά": "Ενεργοποιητές Φιλαγρίνης | Πανθενόλη: Αποκατάσταση υδατικού ισοζυγίου\nΈλαιο αμυγδάλου | Βιταμίνη F: Αποκατάσταση δερματικού φραγμού\nΥαλουρανικό νάτριο: Ενυδάτωση"
     },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/christialen/Christialen_200ml_new_700x963_01.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/christialen/Christialen_200ml_new_700x963_01.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-200/",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/body/peripoiisi/Christialen_Emulsion_100ml.jpg",
+    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/files/1/products/body/peripoiisi/Christialen_Emulsion_100ml.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-100/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "matchType": "exact",
+    "matchType": "manual",
     "score": null,
     "review": false
   },
@@ -1150,25 +1150,6 @@ window.FREZYDERM_OVERRIDES = {
     "score": 35.7,
     "review": false
   },
-  "5202888271168": {
-    "name": "AGE REPAIR SET",
-    "subtitle": null,
-    "description": "Σύστημα αντιγήρανσης και επανόρθωσης της επιδερμίδας που αποτελεί ένα πραγματικό ελιξίριο νεότητας. Προσφέρει αυτό ακριβώς που χρειάζεται η ώριμη επιδερμίδα, αύξηση της σύνθεσης κολλαγόνου, διέγερση του πολλαπλασιασμού των κυττάρων, επανόρθωση από τα σημάδια φωτογήρανσης, μείωση των κηλίδων και προστασία από τις ελεύθερες ρίζες. Μια εξαιρετική κούρα ομορφιάς που χαρίζει ελαστική, σφριγηλή και χωρίς τα σημάδια του χρόνου επιδερμίδα.\n\nΔερματολογικά Ελεγμένo",
-    "claims": [
-      "Νέο"
-    ],
-    "highlights": [],
-    "attributes": {},
-    "sections": {},
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/face/antigiransi_susfixi/Frezyderm_Age_Repair_Set_Key.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/face/antigiransi_susfixi/Frezyderm_Age_Repair_Set_Key.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoiisis-prosopou/kremes-prosopou/antigirantikes-kremes/age-repair-set-agwgh-antighranshs/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoiisis-prosopou",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "5202888271137": {
     "name": "ANTI-AGEING BODY CREAM Αντιγηραντικό Γαλάκτωμα Σώματος",
     "subtitle": null,
@@ -1314,30 +1295,6 @@ window.FREZYDERM_OVERRIDES = {
     "section": "peripoiisi-mallion",
     "matchType": "exact",
     "score": null,
-    "review": false
-  },
-  "5202888271663": {
-    "name": "ANTIOXIDANT RADIATION GUARD SPF 50+",
-    "subtitle": "Αντηλιακό με λευκαντικά και αντιοξειδωτικά ενεργά",
-    "description": "Ενεργή αντηλιακή κρέμα με πολύ υψηλό δείκτη προστασίας που προλαμβάνει και βελτιώνει τις δυσχρωμίες.\n\nΠεριέχει φωτοσταθερά φίλτρα νέας γενιάς για ισχυρή προστασία από τη UVA II, UVA I (που σχετίζεται με την εμφάνιση κηλίδων) και τη UVB ακτινοβολία. Παράλληλα, η προηγμένη σύνθεσή του ενισχύει την άμυνα της επιδερμίδας απέναντι στην ορατή ακτινοβολία (VIS), συμπεριλαμβανομένου του μπλε φωτός που εκπέμπεται από τις οθόνες των ηλεκτρονικών συσκευών, καθώς και απέναντι στην υπέρυθρη ακτινοβολία (ΙR).\n\nΟι εξειδικευμένοι λευκαντικοί παράγοντες μειώνουν άμεσα και ορατά τις δυσχρωμίες, επαναφέροντας τον χρωματικό τόνο για φωτεινό, αψεγάδιαστο τόνο.\n\nΕπιπλέον τα πολύτιμα αντιοξειδωτικά ενεργά προστατεύουν τους μηχανισμούς αυτοεπιδιόρθωσης του δέρματος από το οξειδωτικό στρες.\nΆμεση μείωση της μελανογένεσης\nσε μόλις 4 ημέρες*\n\n-10% δυσχρωμίες σε 28 ημέρες*",
-    "claims": [],
-    "highlights": [],
-    "attributes": {
-      "Συσκευασία": "50ml",
-      "Κατηγορία frezyderm.gr": "Αντιοξειδωτική Κρέμα",
-      "SKU": "427179"
-    },
-    "sections": {
-      "Κατάλληλο για": "Αντηλιακή προστασία\nΠρόληψη και διόρθωση κηλίδων διαφόρου αιτιολογίας\nΑντιοξειδωτική φροντίδα",
-      "Χρήση": "Απλώνετε επαρκή ποσότητα (2mg/cm2 ) 15 λεπτά πριν την έκθεση στην ακτινοβολία. Ανανεώνετε συχνά. Αποφύγετε την επαφή με τα μάτια, τους βλεννογόνους και τα υφάσματα."
-    },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/radiation_guard/New/Antioxidant_Radiation_Guard_700x936_1.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/radiation_guard/New/Antioxidant_Radiation_Guard_700x936_1.jpg",
-    "url": "https://www.frezyderm.gr/proionta-peripoihshs-ekseidikeumenh-frontida/antiokseidwtikh-krema/antioxidant-radiation-guard/",
-    "source": "frezyderm.gr",
-    "section": "proionta-peripoihshs-ekseidikeumenh-frontida",
-    "matchType": "high",
-    "score": 28.8,
     "review": false
   },
   "5202888271038": {
@@ -2308,7 +2265,7 @@ window.FREZYDERM_OVERRIDES = {
     "review": false
   },
   "5202888271106": {
-    "name": "CHRISTIALEN EMULSION Ενυδατικό Γαλάκτωμα Σώματος 100 ml",
+    "name": "CHRISTIALEN EMULSION Ενυδατικό Γαλάκτωμα Σώματος 200 ml",
     "subtitle": null,
     "description": "Ενυδατικό γαλάκτωμα σώματος για την καθημερινή περιποίηση και θρέψη του δέρματος. Ενυδατώνει άμεσα και σε βάθος την επιδερμίδα σας, αποκαθιστώντας το υδατικό ισοζύγιο, ενώ παράλληλα αποτελεί μια ασπίδα προστασίας από δυσμενείς περιβαλλοντικές συνθήκες. Με δροσερή λεπτόρρευστη και μη λιπαρή υφή που δεν αφήνει ίχνη λιπαρότητας και σας επιτρέπει να ντυθείτε αμέσως. Απλώστε το στην επιδερμίδα σας μετά το ντους και ζήστε την εμπειρία της μεταξένιας επιδερμίδας.",
     "claims": [
@@ -2318,22 +2275,22 @@ window.FREZYDERM_OVERRIDES = {
       "Εξασφαλίζει 28% πιο ενυδατωμένη επιδερμίδα από την πρώτη μισή ώρα μετά την εφαρμογή"
     ],
     "attributes": {
-      "Συσκευασία": "100ml",
+      "Συσκευασία": "200ml",
       "Κατηγορία frezyderm.gr": "Γαλακτώματα και Λάδι Σώματος",
-      "SKU": "427109"
+      "SKU": "427110"
     },
     "sections": {
       "Κατάλληλο για": "Κάθε τύπο δέρματος\n\nΧρόνια ή εποχική ξηρότητα\n\nΔερματολογικά προβλήματα που συνοδεύονται από παθολογική ξηρότητα\n\nΜετά από τεχνητό μαύρισμα (solarium)",
       "Χρήση": "Καθημερινά μετά το ντους, απλώστε μια γενναία ποσότητα σε όλο το σώμα και κάντε ελαφρύ μασάζ με κυκλικές κινήσεις, από πάνω προς τα κάτω.",
       "Δράση – Ενεργά συστατικά": "Ενεργοποιητές Φιλαγρίνης | Πανθενόλη: Αποκατάσταση υδατικού ισοζυγίου\nΈλαιο αμυγδάλου | Βιταμίνη F: Αποκατάσταση δερματικού φραγμού\nΥαλουρανικό νάτριο: Ενυδάτωση"
     },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/files/1/products/body/peripoiisi/Christialen_Emulsion_100ml.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/files/1/products/body/peripoiisi/Christialen_Emulsion_100ml.jpg",
-    "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-100/",
+    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/christialen/Christialen_200ml_new_700x963_01.jpg",
+    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/anti-ageing_moisturizing/christialen/Christialen_200ml_new_700x963_01.jpg",
+    "url": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-200/",
     "source": "frezyderm.gr",
     "section": "peripoiisi-somatos",
-    "matchType": "high",
-    "score": 19.9,
+    "matchType": "manual",
+    "score": null,
     "review": false
   },
   "5202888106149": {
@@ -4289,37 +4246,6 @@ window.FREZYDERM_OVERRIDES = {
     "score": 19.2,
     "review": false
   },
-  "5202888222436": {
-    "name": "SUN SCREEN VELVET BODY SPF 50+ Διάφανο αντηλιακό σώματος",
-    "subtitle": null,
-    "description": "Η προστασία από τον ήλιο δεν χωρά διαπραγματεύσεις. Το πρωτοποριακό διάφανο αντηλιακό σώματος προσφέρει πολύ υψηλή προστασία με βελούδινη, υπερ-ανάλαφρη υφή που απλώνεται εύκολα και γρήγορα στο δέρμα, χωρίς τριβή.\nΑΠΟΚΛΕΙΣΤΙΚΗ ΚΑΙ ΚΑΤΟΧΥΡΩΜΕΝΗ ΠΑΤΕΝΤΑ ΤΗΣ FREZYDERΜ\n\nΤεχνολογία Second Skin\n\nΕΝΑ ΕΚΠΛΗΚΤIΚΑ ΒΕΛΟΥΔΙΝΟ, ΑΝΑΛΑΦΡΟ, ΔΙΑΦΑΝΟ ΠΕΠΛΟ ΣΤΟ ΔΕΡΜΑ\n\nΤο αντηλιακό σώματος που άλλαξε τον χάρτη της ηλιοπροστασίας έχει ως σήμα κατατεθέν του τη διάφανη σύνθεση με την υπέροχη βελούδινη υφή που απλώνεται σαν αόρατο δεύτερο δέρμα.\n\nΔΕΝ ΑΦΗΝΕΙ ΛΙΠΑΡΟΤΗΤΑ\n\nΈχει μη λιπαρή σύνθεση που επιτρέπει στο δέρμα να αναπνέει και δεν δημιουργεί ασφυκτικό φιλμ.\n\nαλλά και στις ανοιξιάτικες και καλοκαιρινές βόλτες.\n\nΠΡΟΗΓΜΕΝΑ ΑΝΤΗΛΙΑΚΑ ΦΙΛΤΡΑ\n\nΗ σύνθεση του με νεότερης τεχνολογίας φωτοσταθερά αντηλιακά φίλτρα προσφέρει πολύ υψηλή προστασία ευρέος φάσματος (UVA, UVB, Μπλε Φως που εκπέμπουν οι οθόνες και IR ακτινοβολία).\n\nΑΡΙΣΤΗ ΚΑΤΑΝΟΜΗ & ΥΨΗΛΗ ΑΓΚΙΣΤΡΩΣΗ ΤΩΝ ΑΝΤΗΛΙΑΚΩΝ ΦΙΛΤΡΩΝ\n\nΗ τεχνολογία Second Skin κατανέμει ομοιόμορφα τα φίλτρα στην επιδερμίδα, εύκολα και άμεσα, χωρίς να χρειάζεται τριβή κατά την επάλειψη. Τα φίλτρα αγκιστρώνονται ισχυρά στο δέρμα για υψηλή ανθεκτικότητα στο νερό και τον ιδρώτα και πιο αποτελεσματική προστασία από την ηλιακή ακτινοβολία.\n\nΜΕ ΣΕΒΑΣΜΟ ΣΤΟΝ ΑΝΘΡΩΠΟ ΚΑΙ ΤΟ ΠΕΡΙΒΑΛΛΟΝ\n\nΗ Τεχνολογία Second Skin εξασφαλίζει υψηλή αγκίστρωση των φίλτρων στο δέρμα, κι έτσι:\n- Δεν διεισδύουν στις βαθύτερες στιβάδες της επιδερμίδας1\n- Δεν εισχωρούν στην κυκλοφορία του αίματος1\n- Δεν απομακρύνονται και δεν ανιχνεύονται στο θαλασσινό νερό2, διαφυλάσσοντας το θαλάσσιο περιβάλλον\n\nΑνθεκτικό στο νερό\n\nΗ προστασία ολοκληρώνεται με το αντηλιακό προσώπου SUN SCREEN VELVET.\n\n1. Μελέτη και αξιολόγηση διαπερατότητας UV-φίλτρων αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) από ανθρώπινο δέρμα.\n2. Μελέτη προσδιορισμού περιβαλλοντικού αποτυπώματος- Προσδιορισμός αντηλιακών φίλτρων των αντηλιακών Velvet Second Skin Technology SPF50+ & Color Velvet Second Skin Technology SPF50+ (FREZYDERM) στο θαλασσινό νερό.",
-    "claims": [
-      "Ιδανικό για καθημερινή χρήση, όχι μόνο στην παραλία",
-      "Δερματολογικά ελεγμένο",
-      "Βελούδινη, ανάλαφρη υφή",
-      "Χωρίς λιπαρότητα",
-      "Δεν φράσσει τους πόρους",
-      "Νέο"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Συσκευασία": "125ml",
-      "Κατηγορία frezyderm.gr": "Αντηλιακά Σώματος",
-      "SKU": "422231"
-    },
-    "sections": {
-      "Κατάλληλο για": "Όλους τους φωτότυπους και όλους τους τύπους δέρματος\n\nΦωτοευαίσθητα δέρματα",
-      "Χρήση": "Καλύπτουμε ομοιόμορφα με το αντηλιακό ακόμα και τα δύσκολα σημεία, όπως πέλματα και πίσω από τα γόνατα. Εφαρμόζουμε αρκετή ποσότητα αντηλιακού. Για το σώμα ενός ενήλικα απαιτείται ποσότητα που αντιστοιχεί σε 2 κουταλιές της σούπας. Εφαρμόζουμε ο αντηλιακό σε στεγνό δέρμα 20 - 30 λεπτά πριν από την έκθεση στον ήλιο και το ανανεώνουμε κάθε 2 ώρες, καθώς και αμέσως μετά το κολύμπι ή το σκούπισμα με την πετσέτα."
-    },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_body/Sunscreen_Velvet_Body_50_medium_700x963.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/Sunscreens/Velvet/velvet_body/Sunscreen_Velvet_Body_50_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/adiliaka/adiliaka-somatos/antiliako-swmatos-velvet/",
-    "source": "frezyderm.gr",
-    "section": "adiliaka",
-    "matchType": "review",
-    "score": 14,
-    "review": true
-  },
   "5202888221996": {
     "name": "LICE FREE SET",
     "subtitle": null,
@@ -5181,37 +5107,6 @@ window.FREZYDERM_OVERRIDES = {
     "matchType": "exact",
     "score": null,
     "review": false
-  },
-  "5202888102899": {
-    "name": "PRELACTIC GEL",
-    "subtitle": null,
-    "description": "Για τη ρύθμιση του κολπικού pH\n\nΚολπικό gel με ολιγοσακχαρίτη α-γλυκάνη και γαλακτικό οξύ για τη ρύθμιση του κολπικού pH. Συντελεί στην αποκατάσταση και τη διατήρηση της φυσιολογικής κολπικής χλωρίδας και την ανακούφιση του κολπικού βλεννογόνου από κνησμό, ερεθισμό και ξηρότητα.\n\nΔεν περιέχει δραστικές φαρμακευτικές ουσίες και ουσίες με ορμονική δράση- Δεν είναι αντισυλληπτικό.\n\nΤοξικολογικά Test Ασφάλειας\nΣύμφωνα με το ISO 10993-1:2018",
-    "claims": [
-      "Χωρίς parabens",
-      "pH 3.8",
-      "Ιατροτεχνολογικό προϊόν",
-      "CE 2803",
-      "Νέο"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Συσκευασία": "50g",
-      "Κατηγορία frezyderm.gr": "Προϊόντα Ομοιοπαθητικής για την Περιποίηση Ευαίσθητης Περιοχής",
-      "SKU": "422751"
-    },
-    "sections": {
-      "Κατάλληλο για": "Ασθενείς με κολπική δυσφορία, όπως κνησμό, ερεθισμό και ξηρότητα που μπορεί να επέρχονται από μεταβολή του κολπικού pH.",
-      "Χρήση": "Η γέλη Prelactic μπορεί να χρησιμοποιηθεί εσωτερικά και εξωτερικά. Η συχνότητα χρήσης και ο τρόπος εφαρμογής καθορίζεται από τις ανάγκες σας ή τις οδηγίες του γιατρού σας.\n\nΠεριέχει 9 δοσομετρικούς εφαρμοστές μίας χρήσης.\n\nΓυναικολογικά ελεγμένο.\n\nΠΡΟΕΙΔΟΠΟΙΗΣΕΙΣ:\n\nΝα μη χρησιμοποιείται σε περιπτώσεις αλλεργίας σε κάποιο από τα συστατικά του προϊόντος και μετά την ημερομηνία λήξης. Να φυλάσσεται μακριά από παιδιά και σε ξηρό και δροσερό μέρος.\n\nΑΝΤΕΝΔΕΙΞΕΙΣ:\n\nΔεν υπάρχουν\n\nΙατροτεχνολογικό προϊόν. Να διαβάζετε πάντα την ετικέτα και τις πληροφορίες για το προϊόν πριν από τη χρήση. Συμβουλευθείτε τον γιατρό ή τον φαρμακοποιό σας.",
-      "Δράση – Ενεργά συστατικά": "Lactic acid: Ρύθμιση και διατήρηση του κολπικού pH | Ενυδάτωση και προστασία της ευαίσθητης περιοχής\nΑ-Glucane oligosaccharide: Προστασία φυσιολογικής χλωρίδας"
-    },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Prelactic_Vaginal/Prelactic_Vaginal.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/feminine/New_feminine_line_2024/Prelactic_Vaginal/Prelactic_Vaginal.jpg",
-    "url": "https://www.frezyderm.gr/omoiopathitiki/euaisthhth-perioxh/prelactic-gel-apokatastash-kolpou-sthn-emmhnopaush/",
-    "source": "frezyderm.gr",
-    "section": "omoiopathitiki",
-    "matchType": "review",
-    "score": 9.6,
-    "review": true
   },
   "5202888102110": {
     "name": "PREVENSTRIA PROTECTIVE ANTI-STRIA CREAM Προληπτική Κρέμα για Ραγάδες",
@@ -6166,33 +6061,6 @@ window.FREZYDERM_OVERRIDES = {
     "source": "frezyderm.gr",
     "section": "proionta-paidikhs-peripoihshs",
     "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "5202888230691": {
-    "name": "SENSITEETH KIDS TOOTHPASTE 1.000ppm Παιδική Οδοντόκρεμα",
-    "subtitle": null,
-    "description": "Παιδική οδοντόκρεμα κατά της τερηδόνας με ενισχυμένη σύνθεση Φθορίου 1.000 ppm και Ασβεστίου, ασφαλή για τον στοματικό βλενογόνο που προστατεύει από την τερηδόνα, τα μικρόβια και τους ερεθισμούς των ούλων, ενισχύει το σμάλτο των δοντιών και εξασφαλίζει γερά δόντια χωρίς σφραγίσματα! Με υπέροχη γεύση φράουλας.\n\nΚλινικά Ελεγμένη",
-    "claims": [],
-    "highlights": [
-      "Χωρίς γλουτένη, aromatic allergens, SLES, σαπούνι, χρώμα"
-    ],
-    "attributes": {
-      "Συσκευασία": "50ml",
-      "Κατηγορία frezyderm.gr": "Παιδικές Οδοντόκρεμες",
-      "SKU": "423009"
-    },
-    "sections": {
-      "Κατάλληλο για": "Καθημερινή χρήση\n\nΠαιδιά με κοιλιοκάκη (χωρίς γλουτένη)\n\nOμοιοπαθητικές αγωγές",
-      "Χρήση": "Ποσότητα σε μέγεθος μπιζελιού, σε μαλακή παιδική οδοντόβουρτσα.\nΝα αποφεύγεται η κατάποση.\n\nΗ καθημερινή και σωστή χρήση της οδοντόκρεμας μετά από κάθε γεύμα μειώνει αρκετά την πιθανότητα δημιουργίας τερηδόνας και πλάκας.",
-      "Δράση – Ενεργά συστατικά": "Φθόριο 1.000ppm και Ασβέστιο (F – Ca): Προστασία από την τερηδόνα | Ενίσχυση αδαμαντίνης\nΜύρο | Φασκόμηλο | Ξυλιτόλη: Αντιφλογιστικές, στυπτικές και αντιμικροβιακές ιδιότητες\nΉπια επιφανειοδραστικά: Αποτελεσματικός καθαρισμός"
-    },
-    "image": "https://www.frezyderm.gr/Images/f/ProductLarge//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/1000/SENSITEETH_TOOTHPASTE_1000ppm_50ml_medium_700x963.jpg",
-    "imageFallback": "https://www.frezyderm.gr/Images/f/ProductDetail//Content/Files/3D_PRODUCTS/KIDS/sensiteeth/1000/SENSITEETH_TOOTHPASTE_1000ppm_50ml_medium_700x963.jpg",
-    "url": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidikes-odontokremes/sensiteeth-kids-toothpaste/",
-    "source": "frezyderm.gr",
-    "section": "proionta-paidikhs-peripoihshs",
-    "matchType": "manual",
     "score": null,
     "review": false
   },

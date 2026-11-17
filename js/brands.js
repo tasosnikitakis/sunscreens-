@@ -368,14 +368,56 @@ window.BRAND_CATALOGS_UTIL = {
   },
   // Σελίδα στο brand site (override) → ΜΟΝΟ αυτή· αλλιώς fallback φαρμακείου.
   // Ποτέ μείγμα πεδίων από τις δύο πηγές.
+  // Συσκευασία από όνομα: «150ml», «30 & 60 caps», «250 gr» → [{ unit, nums }] (ml / g / τεμάχια)
+  sizesOf(s) {
+    const out = [];
+    const re = /((?:\d+(?:[.,]\d+)?\s*(?:&|\/|,|και|ή)\s*)*\d+(?:[.,]\d+)?)\s*(ml|gr|g|γρ|caps?|capsules|κάψ\w*|καψ\w*|tabs?|tablets|ταμπλ\w*|δισκ\w*|softgels?)(?![\p{L}])/giu;
+    // «59 2ML» / «4 8gr» (τιμοκατάλογος χωρίς υποδιαστολή) → 59.2 / 4.8
+    const str = String(s || "").replace(/(\d+)\s(\d)(?=\s?(?:ml|gr?)(?![\p{L}]))/giu, "$1.$2");
+    for (const m of str.matchAll(re)) {
+      const u = /^(ml)$/i.test(m[2]) ? "ml" : /^(gr|g|γρ)$/i.test(m[2]) ? "g" : "n";
+      out.push({ unit: u, nums: m[1].split(/[^\d.,]+/).filter(Boolean).map(x => parseFloat(x.replace(",", "."))), raw: m[0].trim() });
+    }
+    return out;
+  },
+  // Σελίδα που ταιριάστηκε με το όνομα αλλά είναι άλλης συσκευασίας (τιμοκατάλογος 150ml, σελίδα 200ml):
+  // η «Συσκευασία» της σελίδας αντικαθίσταται από αυτήν του barcode, και το μέγεθος μπαίνει στο όνομα.
+  _sizeFix(cfg, barcode, data, o) {
+    // (ισχύει και για σελίδες με το ίδιο barcode: συχνά η σελίδα καλύπτει πολλές συσκευασίες και δείχνει μία)
+    const attrs = o.attributes || {};
+    const pageSize = attrs["Συσκευασία"] || attrs["Χωρητικότητα"] || "";
+    if (!pageSize) return null;
+    if (!data._byBc) data._byBc = new Map((data.supplier || []).map(p => [String(p.barcode), p]));
+    const p = data._byBc.get(String(barcode)); if (!p) return null;
+    const own = this.sizesOf(p.supplierName || p.name), page = this.sizesOf(pageSize);
+    for (const a of own) {
+      const pn = page.filter(x => x.unit === a.unit).flatMap(x => x.nums);   // όλες οι συσκευασίες που αναφέρει η σελίδα
+      if (pn.length && !a.nums.some(n => pn.includes(n))) {
+        const src = String(p.supplierName || p.name), i = src.toLowerCase().indexOf(a.raw.toLowerCase());
+        const mult = i > 0 ? (src.slice(Math.max(0, i - 6), i).match(/(\d+)\s?[x×*]\s?$/i) || [])[1] : null;   // «10x11ML» → «10 x 11 ml»
+        return (mult ? `${mult} x ` : "") + a.raw.replace(/\s*(ml|gr|g)$/i, " $1").replace(/(\d)\s(\d)/, "$1,$2").toLowerCase();
+      }
+    }
+    return null;
+  },
   enrichmentFor(cfg, barcode, data) {
     const o = data.overrides[barcode];
     if (o) {
+      let attributes = o.attributes || {}, name = o.name || null;
+      const fixed = this._sizeFix(cfg, barcode, data, o);
+      if (fixed) {
+        attributes = { ...attributes, "Συσκευασία": fixed };
+        if (attributes["Χωρητικότητα"]) delete attributes["Χωρητικότητα"];
+        if (name) {
+          const unit = this.sizesOf(fixed)[0]?.unit, inName = this.sizesOf(name).find(s => s.unit === unit);
+          name = inName ? name.replace(inName.raw, fixed) : `${name} ${fixed}`;
+        }
+      }
       return {
-        name: o.name || null, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
+        name, subtitle: o.subtitle || null, description: o.description || null, image: o.image || null,
         url: o.url || null, source: cfg.host, section: o.section || null,
-        claims: o.claims || [], highlights: o.highlights || [], attributes: o.attributes || {}, sections: o.sections || {},
-        matchType: o.matchType || null, review: !!o.review, official: true, noBrandPage: false
+        claims: o.claims || [], highlights: o.highlights || [], attributes, sections: o.sections || {},
+        matchType: o.matchType || null, review: !!o.review, official: true, noBrandPage: false, sizeFromList: !!fixed
       };
     }
     const s = data.supplemental[barcode] || {};

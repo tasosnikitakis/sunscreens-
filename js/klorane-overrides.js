@@ -647,53 +647,6 @@ window.KLORANE_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282779084390": {
-    "name": "Απαλό, εξαιρετικά πλούσιο βρεφικό σαπούνι, φυσικά συστατικά",
-    "subtitle": "Καθαρίζει - Καταπραΰνει - Παρέχει άνεση",
-    "description": "Το Βρεφικό/Παιδικό Σαπούνι για Πρόσωπο & Σώμα χρησιμοποιείται καθημερινά για τον καθαρισμό του προσώπου και του σώματος των νηπίων. Ένα πρακτικό προϊόν για το μπάνιο βρεφών με φυσιολογικό ή ευαίσθητο δέρμα, κατάλληλο για χρήση από τη γέννηση. Η βιοδιασπώμενη* σύνθεσή του με καταπραϋντική Καλέντουλα αποτελείται κατά 97% από συστατικά φυσικής προέλευσης και είναι εξαιρετικά απαλή, διατηρώντας την ισορροπία της επιδερμίδας. Το δέρμα του μωρού ανακτά καταπράυνση και θρέψη.",
-    "claims": [
-      "Καθαρίζει",
-      "Καταπραΰνει",
-      "Παρέχει άνεση"
-    ],
-    "highlights": [
-      "Βιοδιασπώμενη σύνθεση. Ήπιο, χαλαρωτικό άρωμα",
-      "Καθαρισμός, καταπράυνση, θρέψη."
-    ],
-    "attributes": {
-      "Μορφή": "Σαπούνι σε μπάρα",
-      "Ιδανικό για": "Βρέφη - Μωρά - Από τη γέννηση",
-      "Ηλικία": "Από 0 μηνών",
-      "Τύπος δέρματος": "Κανονικό δέρμα",
-      "Ανάγκες": "Καταπράυνση - Άνεση - Καθαρισμός",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "250g",
-      "Σειρά": "Καλέντουλα"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Το εμπλουτισμένο με έλαια σαπούνι είναι εξαιρετικά απαλό χάρη στο συνδυασμό θρεπτικών και προστατευτικών δραστικών συστατικών του. Ευνοεί την ενυδάτωση της επιδερμίδας την οποία τυλίγει με ένα φίνο, καταπραϋντικό άρωμα.",
-      "Οφέλη": "• Καθαρισμός : καθαρίζει απαλά το δέρμα στο σώμα και το πρόσωπο χωρίς να ερεθίζει ή να ξηραίνει.\n• Καταπράυνση : περιορίζει το αίσθημα τραβήγματος και καταπραΰνει την επιδερμίδα χάρη στους ενυδατικούς του παράγοντες, καθώς και του φυσικού ελαίου καμελίνης και του καταπραϋντικού εκχυλίσματος καλέντουλας βιολογικής καλλιέργειας.\n• Θρέψη : η εμπλουτισμένη με έλαια σύνθεσή του, προστατεύει το δέρμα από εξωτερικούς ερεθισμούς και ενισχύει την υδρολιπιδική μεμβράνη.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Λεπτός αφρός",
-      "Οφέλη της υφής": "Κρεμώδης και φίνος αφρός.",
-      "Άρωμα της σύνθεσης": "Ήπιο, χαλαρωτικό άρωμα\nΒιοδιασπώμενη σύνθεση*.",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Καλέντουλα\nΙσολευκίνη\nINCI: SODIUM PALMATE. SODIUM PALM KERNELATE. WATER (AQUA). GLYCERIN. FRAGRANCE (PARFUM). PALM KERNEL ACID. CALENDULA OFFICINALIS FLOWER EXTRACT. CAMELINA SATIVA SEED OIL. ISOLEUCINE. POLYSORBATE 80. PROPYLENE GLYCOL. SODIUM CHLORIDE. TETRASODIUM EDTA. TETRASODIUM ETIDRONATE 97% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe/pf_square/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe/pf_square/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe/pf_square/u5wa3z31qn5sjdgmqa9qfyc3f9z43diywws4kqe?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjb94sbbhnm4gc5hitc8msdhumpy/pf_square/u5wa3z31qn5sjb94sbbhnm4gc5hitc8msdhumpy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj4pkqmmq3hpcsdy96p4oxfa67sa/pf_square/u5wa3z31qn5sj4pkqmmq3hpcsdy96p4oxfa67sa?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj5coyezr85xj8hkqcmm9o3j3m8y/pf_square/u5wa3z31qn5sj5coyezr85xj8hkqcmm9o3j3m8y?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/vrefiko-paidiko-sapoyni-gia-prosopo-soma-me-kataprayntiki-kalentoyla-3282770104738-7044702c",
-    "source": "klorane.com",
-    "section": "vrefika",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
   "3282770074420": {
     "name": "Μαλακτική κρέμα με Ρόδι: θρέψη για βαμμένα μαλλιά",
     "subtitle": "Προστατεύει το χρώμα - Ξεμπλέκει",
@@ -1310,51 +1263,6 @@ window.KLORANE_OVERRIDES = {
     "url": "https://www.klorane.com/gr-el/p/dry-shampoo-me-galaktoma-vromis-3282770200850-7044702c",
     "source": "klorane.com",
     "section": "xiro-sampouan",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
-  "3282779257251": {
-    "name": "Νερό καθαρισμού 3 σε 1 με βιολογική κυανή Κενταύρια",
-    "subtitle": "Καθαρίζει - Ενυδατώνει - Αφαιρεί το μακιγιάζ",
-    "description": "Ειδικά σχεδιασμένο για ευαίσθητα μάτια και χρήστες φακών επαφής, το νερό καθαρισμού με μικκύλια με βιολογική κυανή Κενταύρια προσφέρει τριπλό καθαρισμό, ντεμακιγιάζ και ενυδατική δράση. Βιολογικά πιστοποιημένο και φτιαγμένο με 100% φυσικά συστατικά, αυτό το νερό με μικκύλια είναι εμπλουτισμένο με ενυδατικούς παράγοντες (aloe vera και γλυκερίνη) για να αφαιρεί απαλά το μακιγιάζ από το πρόσωπο και τα μάτια χωρίς να ξηραίνει το δέρμα.",
-    "claims": [
-      "Καθαρίζει",
-      "Ενυδατώνει",
-      "Αφαιρεί το μακιγιάζ"
-    ],
-    "highlights": [
-      "Εύκολη εφαρμογή, οικονομική συσκευασία.",
-      "Αφαιρεί το μακιγιάζ, απαλύνει"
-    ],
-    "attributes": {
-      "Μορφή": "Φιαλίδιο με αντλία",
-      "Ιδανικό για": "Ενήλικες",
-      "Κατάλληλο για": "Στους φακούς σας - στα βλέφαρα",
-      "Τύπος δέρματος": "Ολοι οι τύποι δέρματος",
-      "Ανάγκες": "Αφαίρεση μακιγιάζ - Καθαριστικό",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "400ml",
-      "Σειρά": "κυανή Κενταύρια"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Η πρακτική, καινοτόμος αντλία προσφέρει ακριβώς τη σωστή ποσότητα για ένα αποτελεσματικό, απαλό τελετουργικό ντεμακιγιάζ για ολόκληρο το πρόσωπο και την περιοχή των ματιών.",
-      "Οφέλη": "• ΑΦΑΙΡΕΙ ΤΟ ΜΑΚΙΓΙΑΖ: Το νερό με μικκύλια αφαιρεί τέλεια το μακιγιάζ** στο πρόσωπο, τα χείλη και την ευαίσθητη περιοχή των ματιών για καθαρό***, υγιές δέρμα.\n• ΣΕΒΕΤΑΙ ΤΗΝ ΙΣΟΡΡΟΠΙΑ ΤΟΥ ΔΕΡΜΑΤΟΣ: η minimal σύνθεσή του με 90% φυσικά συστατικά ελαχιστοποιεί τον κίνδυνο αλλεργικής αντίδρασης.\n• ΚΑΤΑΠΡΑΫΝΕΙ : με ΒΙΟΛΟΓΙΚΗ κυανή Κενταύρια με καταπραϋντικές ιδιότητες.",
-      "Υφή": "Υγρό",
-      "Άρωμα της σύνθεσης": "Άρωμα κενταύριας",
-      "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
-      "Συστατικά": "κυανή Κενταύρια\nINCI: WATER (AQUA). GLYCERIN. PENTYLENE GLYCOL. BUTYLENE GLYCOL. CENTAUREA CYANUS FLOWER WATER*. ALOE BARBADENSIS LEAF JUICE POWDER*. CITRIC ACID. COCO-GLUCOSIDE. ETHYL LAUROYL ARGINATE HCL. POLYGLYCERYL-4 CAPRATE. POLYGLYCERYL-6 CAPRYLATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gqhwj4b36xoscce/pf_square/u5wa3z31qn5sjdkokjy8jsz5gqhwj4b36xoscce?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/3-se-1-nero-katharismoy-me-mikkylia-me-viologiki-kyani-kentayria-prosopo-matia-3282770390292-7044702c",
-    "source": "klorane.com",
-    "section": "prosopo",
     "matchType": "manual",
     "score": null,
     "review": false
@@ -2051,51 +1959,6 @@ window.KLORANE_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282779080682": {
-    "name": "Ενυδατική κρέμα με Καλέντουλα για βρέφη",
-    "subtitle": "Προστατεύει - Ενυδατώνει - Καταπραΰνει",
-    "description": "Τα βρέφη παρουσιάζουν πολύ καλή ανεκτικότητα** στην βρεφική ενυδατική κρέμα της Klorane που παρέχει καθημερινή ενυδάτωση στο κανονικό προς ξηρό δέρμα. Για χρήση στο πρόσωπο και το σώμα από τη γέννηση. Σύνθεση που γίνεται ένα με το δέρμα με άνθη Καλέντουλας από ΒΙΟΛΟΓΙΚΗ καλλιέργεια και 97% συστατικά φυτικής προέλευσης*, προσεκτικά επιλεγμένα για να διατηρούν την ελαστικότητα του δέρματος των μικρών παιδιών. Τα φυτικά έλαια και οι ενυδατικοί παράγοντες αποτρέπουν τους ερεθισμούς και προστατεύουν το δέρμα από την ξηρότητα. Χαρίζει θρέψη, ανακούφιση*** και φίνο άρωμα στην επιδερμίδα του μωρού και τη διατηρεί εξαιρετικά απαλή, μέρα παρά μέρα.",
-    "claims": [
-      "Προστατεύει",
-      "Ενυδατώνει",
-      "Καταπραΰνει"
-    ],
-    "highlights": [
-      "Βιολογικό δραστικό συστατικό. Φυσική σύνθεση. Ήπιο, χαλαρωτικό άρωμα",
-      "Ενυδάτωση, προστασία του δέρματος, καταπραϋντική δράση."
-    ],
-    "attributes": {
-      "Μορφή": "Σωληνάριο",
-      "Ιδανικό για": "Βρέφη - Μωρά - Από τη γέννηση",
-      "Ηλικία": "Από 0 μηνών",
-      "Τύπος δέρματος": "Κανονικό δέρμα",
-      "Ανάγκες": "Ενυδάτωση - Καταπράυνση - Άνεση",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Καλέντουλα"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Η ενυδατική κρέμα με Καλέντουλα απορροφάται από το δέρμα του μωρού χαρίζοντάς του μια άμεση αίσθηση άνεσης. Το δέρμα ανακουφίζεται, ανακτά την ελαστικότητά του και τυλίγεται με ένα ευχάριστο άρωμα.",
-      "Οφέλη": "• Ενυδάτωση : το καρθαμέλαιο παρέχει ενυδάτωση που διαρκεί για το ιδιαίτερα ευαίσθητο δέρμα των νηπίων.\n• Προστασία : εξασφαλίζει προστασία από τους καθημερινούς ερεθισμούς, όπως το κρύο και την τριβή του δέρματος με τα ρούχα.\n• Καταπράυνση : η καλέντουλα συμβάλλει στην ανακούφιση από την αίσθηση τραβήγματος στο δέρμα, ενώ περιορίζει τις κοκκινίλες και τους ερεθισμούς.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Κρέμα",
-      "Οφέλη της υφής": "Απορροφάται γρήγορα από το δέρμα, καταπραΰνοντας και χαρίζοντας ενυδάτωση.",
-      "Άρωμα της σύνθεσης": "Ήπιο, χαλαρωτικό άρωμα\nΣωληνάριο με οικολογικά σχεδιασμένο καπάκι (46% λιγότερο πλαστικό). Χωρίς εσώκλειστο φύλλο οδηγιών.",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Καλέντουλα\nΙσολευκίνη\nINCI: WATER (AQUA). GLYCERIN. CAPRYLIC/CAPRIC TRIGLYCERIDE. CARTHAMUS TINCTORIUS (SAFFLOWER) SEED OIL (CARTHAMUS TINCTORIUS SEED OIL). BEHENYL ALCOHOL. ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER. BENZOIC ACID. CALENDULA OFFICINALIS FLOWER EXTRACT. CAPRYLYL GLYCOL. FRAGRANCE (PARFUM). GLYCERYL LINOLEATE. GLYCERYL LINOLENATE. GLYCERYL OLEATE. GLYCERYL PALMITATE. GLYCERYL STEARATE. GLYCINE SOJA (SOYBEAN) OIL (GLYCINE SOJA OIL). ISOLEUCINE. POLYSORBATE 80. PROPYLENE GLYCOL. SODIUM HYDROXIDE. TOCOPHEROL. TOCOPHERYL ACETATE. XANTHAN GUM 97% φυσικά συστατικά"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y/pf_square/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y/pf_square/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y/pf_square/u5wa3z31qn5ser6gf87rdp3n6hkqcmm9o3j3m8y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjako3xwgbx189uhitc8msdhumpy/pf_square/u5wa3z31qn5sjako3xwgbx189uhitc8msdhumpy?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/enydatiki-krema-3282770113136-7044702c",
-    "source": "klorane.com",
-    "section": "vrefika",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
   "3282770209105": {
     "name": "Ενυδατική ζελ-κρέμα σώματος με Παιώνια",
     "subtitle": "Ενυδατώνει - Καταπραΰνει",
@@ -2508,54 +2371,6 @@ window.KLORANE_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282779098250": {
-    "name": "Εξαιρετικά ήπιο σαμπουάν καθημερινής χρήσης",
-    "subtitle": "Καθαρίζει απαλά - Προστατεύει το τριχωτό της κεφαλής και τα μαλλιά",
-    "description": "Το Εξαιρετικά ήπιο Σαμπουάν καθημερινής χρήσης και υψηλής ανοχής με φαρμακευτική Βιολογική Βρώμη καθαρίζει τα μαλλιά όλης της οικογένειας με ήπιο τρόπο, από την ηλικία των 3 ετών. Η βιοδιασπώμενη* σύνθεσή του με 87% συστατικά φυσικής προέλευσης, στην οποία τα βρέφη παρουσιάζουν υψηλή ανεκτικότητα, προσφέρει απαλή αίσθηση και προστασία ακόμα και στα πιο ευαίσθητα μαλλιά και τριχωτό. Πρόκειται για ένα εξαιρετικά ήπιο σαμπουάν χάρη στην περιεκτικότητά του σε φαρμακευτική Βιολογική Βρώμη, ένα δραστικό συστατικό που καλλιεργείται στη Νοτιοδυτική Γαλλία. Ιδανικό για συχνή χρήση. Διευκολύνει το ξέμπλεγμα.",
-    "claims": [
-      "Καθαρίζει απαλά"
-    ],
-    "highlights": [
-      "• Καθαρισμός : η απαλή, χωρίς θειικά άλατα βάση καθαρισμού του καθαρίζει τα μαλλιά και το τριχωτό της κεφαλής όλης της οικογένειας χωρίς να προκαλεί ερεθισμούς, από 3 ετών και άνω.",
-      "Καθαρισμός, απαλότητα, προστασία.",
-      "Προστατεύει το τριχωτό της κεφαλής και τα μαλλιά"
-    ],
-    "attributes": {
-      "Μορφή": "Φιαλίδιο",
-      "Ιδανικό για": "Οικογένεια",
-      "Ηλικία": "Από 3 ετών",
-      "Τύπος μαλλιών": "Όλοι οι τύποι μαλλιών - Όλοι οι τύποι τριχωτού της κεφαλής",
-      "Ανάγκες": "Απαλό - εξαιρετικά απαλό αποτέλεσμα",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Βρώμη"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Εξαιρετικά απαλό για να προστατεύει τα μαλλιά όλης της οικογένειας",
-      "Οφέλη": "ΚΑΘΑΡΙΣΜΟΣ: Η απαλή καθαριστική του βάση χωρίς θειικά άλατα καθαρίζει τα μαλλιά και το τριχωτό της κεφαλής όλης της οικογένειας χωρίς να προκαλεί ερεθισμό, από την ηλικία των 3 ετών.\nΥΨΗΛΗ ΑΝΟΧΗ: Δερματολογικά και παιδιατρικά ελεγμένο, αυτό το σαμπουάν είναι ιδανικό για παιδιά από την ηλικία των 3 ετών.\nΜΑΛΑΚΩΝΕΙ: Το βιολογικό εκχύλισμα βρώμης μαλακώνει, προστατεύει και προσδίδει ελαστικότητα στα μαλλιά.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Υγρό",
-      "Οφέλη της υφής": "Πολύτιμη, εξαιρετικά απαλή σύνθεση.",
-      "Άρωμα της σύνθεσης": "Διακριτικό άρωμα\nΒιοδιασπώμενη σύνθεση*",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται\n1. ΕΦΑΡΜΟΓΗ: Εφαρμόστε σε βρεγμένα μαλλιά και τριχωτό της κεφαλής.\n2. ΑΦΡΟΣ: Δημιουργήστε αφρό και κάντε απαλό μασάζ.\n3. ΞΕΠΛΥΜΑ: Ξεπλύνετε τα μαλλιά και το τριχωτό της κεφαλής. Ξεπλύνετε σε περίπτωση επαφής με τα μάτια.",
-      "Συστατικά": "Βρώμη βιολογικής καλλιέργειας\nINCI: WATER (AQUA)*. SODIUM COCOYL ISETHIONATE. DECYL GLUCOSIDE*. DISODIUM COCOAMPHODIACETATE. DISODIUM LAURETH SULFOSUCCINATE. GLYCERIN*. ACRYLATES COPOLYMER. AVENA SATIVA (OAT) LEAF/STEM EXTRACT (AVENA SATIVA LEAF/STEM EXTRACT)*. CAPRYLYL GLYCOL. CETEARETH-60 MYRISTYL GLYCOL. CITRIC ACID*. COCO-GLUCOSIDE*. FRAGRANCE (PARFUM). GLYCERYL OLEATE*. GLYCOL STEARATE*. HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS ANNUUS SEED OIL)*. HEXAMETHYLINDANOPYRAN. HYDROGENATED VEGETABLE GLYCERIDES CITRATE*. LINALYL ACETATE. POLYQUATERNIUM-22. SODIUM BENZOATE. SODIUM HYDROXIDE*. SODIUM LAURYL SULFATE. TOCOPHEROL. TRISODIUM ETHYLENEDIAMINE DISUCCINATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy/pf_square/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy/pf_square/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy/pf_square/u5wa3z31qn5sjhzfgekqso73c5gtckoorpk3fdy?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5setq4sj9zhi3hiuzw9qtzh955sho/pf_square/u5wa3z31qn5setq4sj9zhi3hiuzw9qtzh955sho?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5setq4sj9zhi3hiokcxkd3y5ber9y/pf_square/u5wa3z31qn5setq4sj9zhi3hiokcxkd3y5ber9y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5setq4sj9zhi3hitb5iktm337k63a/pf_square/u5wa3z31qn5setq4sj9zhi3hitb5iktm337k63a?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5setq4sj9zhi3hiodeay7fqzaetto/pf_square/u5wa3z31qn5setq4sj9zhi3hiodeay7fqzaetto?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjhzfgekqso73c58h5uz8qd4s4ky/pf_square/u5wa3z31qn5sjhzfgekqso73c58h5uz8qd4s4ky?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/sampoyan-me-bromi-3282770145366-7044702c",
-    "source": "klorane.com",
-    "section": "sampouan",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
   "3282770106305": {
     "name": "Σαμπουάν με Κενταύρια κατά του κιτρινίσματος",
     "subtitle": "Εξουδετερώνει τους κίτρινους και χάλκινους τόνους - Ενισχύει τη λάμψη",
@@ -2600,51 +2415,6 @@ window.KLORANE_OVERRIDES = {
     "source": "klorane.com",
     "section": "sampouan",
     "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "3282779271097": {
-    "name": "Σαμπουάν με Ρόδι που προστατεύει το χρώμα",
-    "subtitle": "Ενισχύει τη λάμψη - Προστατεύει το χρώμα",
-    "description": "Με 85% φυσικά συστατικά , το Σαμπουάν με Ρόδι σταθεροποιεί, προστατεύει και ξαναζωντανεύει το χρώμα έως και για 8 εβδομάδες*.\nΗ βιοδιασπώμενη** σύνθεσή του, χωρίς σιλικόνη και χωρίς θειικά άλατα είναι εμπλουτισμένη με εκχύλισμα από φλοιό ροδιού.\nΈνα συμπυκνωμένο εκχύλισμα που προστατεύει το χρώμα με αποδεδειγμένες ιδιότητες προέρχεται από αυτό το πανάρχαιο φυτό***.\nΠλούσιο σε τανίνες, σταθεροποιεί και αναδεικνύει τις χρωστικές της κερατίνης της τρίχας για να προλάβει το ξεθώριασμα του χρώματος.\nΑυτές οι τανίνες είναι φυσικά αντιοξειδωτικά, που προλαμβάνουν το ξεθώριασμα του χρώματος και προστατεύουν την έντασή του από τις εξωτερικές επιθέσεις.\nΤα μαλλιά αποκτούν θρέψη, είναι απαλά και λαμπερά, τα χρώμα είναι ζωντανό και φωτεινό με ένα απολαυστικό άρωμα που θυμίζει ηλιόλουστο φρούτο.",
-    "claims": [
-      "Ενισχύει τη λάμψη",
-      "Προστατεύει το χρώμα"
-    ],
-    "highlights": [
-      "Προστατευμένο για περισσότερες από 8 εβδομάδες, το χρώμα αναζωογονείται*",
-      "Καθαρίζει, χαρίζει λάμψη στο χρώμα, προστατεύει"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Ιδανικό για": "Ενήλικες",
-      "Τύπος μαλλιών": "Βαμμένα μαλλιά",
-      "Ανάγκες": "Λάμψη χρώματος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Ρόδι"
-    },
-    "sections": {
-      "Οφέλη": "ΚΑΘΑΡΙΣΜΟΣ: Η καθαριστική του βάση χωρίς θειικά άλατα καθαρίζει απαλά τα μαλλιά και το τριχωτό της κεφαλής, χωρίς να ξεθωριάζει το χρώμα.\nΑΝΑΖΩΟΓΟΝΗΣΗ: Αναζωογονεί τη λάμψη των βαμμένων μαλλιών, αποκαλύπτοντας όλες τις αποχρώσεις τους.\nΔΙΑΤΗΡΗΣΗ: Σταθεροποιεί και ενισχύει το χρώμα, προστατεύοντάς το από το ξεθώριασμα και την απώλεια λάμψης για έως και 8 εβδομάδες* παρατεταμένης έντασης.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Υγρό",
-      "Οφέλη της υφής": "Πολύτιμο, με υφή εύκολη στην εφαρμογή που κάνει πλούσιο αφρό.",
-      "Άρωμα της σύνθεσης": "Πολύτιμο άρωμα μούρων\nΒιοδιασπώμενη σύνθεση σύμφωνα με τη δοκιμή του ΟΟΣΑ 301Β",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Ρόδι\nINCI: WATER (AQUA)*. DISODIUM LAURETH SULFOSUCCINATE. CETEARETH-60 MYRISTYL GLYCOL. DECYL GLUCOSIDE*. LAURYL BETAINE. LAURETH-3. PUNICA GRANATUM EXTRACT*. ALCOHOL*. CAPRYLYL GLYCOL. CITRIC ACID*. FRAGRANCE (PARFUM). MALEIC ACID. POLYQUATERNIUM-22. RED 33 (CI 17200). RED 40 (CI 16035). SODIUM BENZOATE. SODIUM CHLORIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE. YELLOW 6 (CI 15985) 85% συστατικά φυσική προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjb8bse8683p5gz8oqxwu9tmn4po/pf_square/u5wa3z31qn5sjb8bse8683p5gz8oqxwu9tmn4po?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuyjjq5pnuop4ykqcmm9o3j3m8y/pf_square/u5wa3z31qn5seuyjjq5pnuop4ykqcmm9o3j3m8y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjb794d9qy5n19a18b6nioaghd7e/pf_square/u5wa3z31qn5sjb794d9qy5n19a18b6nioaghd7e?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/sampoyan-me-rodi-3282770143560-7044702c",
-    "source": "klorane.com",
-    "section": "sampouan",
-    "matchType": "manual",
     "score": null,
     "review": false
   },
@@ -3990,54 +3760,6 @@ window.KLORANE_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282779271127": {
-    "name": "Σαμπουάν με Χαμομήλι για ξανθές ανταύγειες",
-    "subtitle": "Αναδεικνύει τις ξανθές ανταύγειες - Αναζωογονεί τις ξανθές ανταύγειες - Καθαρίζει",
-    "description": "Το σαμπουάν λάμψης με χαμομήλι είναι σχεδιασμένο για να προσφέρει φυσικές χρυσαφένιες ανταύγειες σε φυσικά, βαμμένα ή με ανταύγειες ξανθά μαλλιά. Η υψηλής ανεκτικότητας, βιοδιασπώμενη* σύνθεσή του με 85% φυσικά συστατικά είναι κατάλληλη για όλη την οικογένεια, από τριών ετών και άνω. Εξυγιαντική και ανάλαφρη, η καθαριστική του βάση λούζει απαλά τα μαλλιά. Το χαμομήλι, πλούσιο σε φυσικές κίτρινες χρωστικές ουσίες, χρησιμοποιείται παραδοσιακά για να φωτίσει απαλά όλες τις αποχρώσεις των ξανθών μαλλιών. Τα μαλλιά αποκτούν διακριτική λάμψη και αναδεικνύονται χάρη στις χρυσαφένιες ανταύγειες με απαλότητα, καθαρότητα και λάμψη.",
-    "claims": [
-      "Αναδεικνύει τις ξανθές ανταύγειες",
-      "Αναζωογονεί τις ξανθές ανταύγειες",
-      "Καθαρίζει"
-    ],
-    "highlights": [
-      "Τα μαλλιά ανακτούν τη χαμένη τους απαλότητα, λάμψη και φωτεινότητα.",
-      "Καθαρίζει, απαλύνει, φωτίζει"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Ιδανικό για": "Οικογένεια",
-      "Ηλικία": "Από 3 ετών",
-      "Τύπος μαλλιών": "Μαλλιά με ανταύγειες - Ξανθά μαλλιά",
-      "Ανάγκες": "Λάμψη στις ξανθές ανταύγειες",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Χαμομήλι"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Χάρη στο Χαμομήλι (το φυσικό δραστικό συστατικό που χαρίζει λάμψη), την μελένια υφή και το λουλουδάτο άρωμά του, το Σαμπουάν Χαμομηλιού χαρίζει φωτεινότητα στα ξανθά μαλλιά που θυμίζει την ευτυχία της παιδικής μας ηλικίας.",
-      "Οφέλη": "- Καθαρισμός: καθαρίζει απαλά τα μαλλιά όλης της οικογένειας, ακόμα και τα πιο εύθραυστα.\n- Φωτεινότητα: τα μαλλιά αποκτούν φυσικές χρυσαφένιες ανταύγειες.\n- Απαλότητα: τα μαλλιά αποκτούν μεταξένια όψη και είναι εξαιρετικά απαλά.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Υγρό",
-      "Οφέλη της υφής": "Λεπτόρρευστη υφή.",
-      "Άρωμα της σύνθεσης": "Χαμομήλι\n100% ανακυκλωμένο και ανακυκλώσιμο φιαλίδιο\nΒιοδιασπώμενη σύνθεση*.",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Χαμομήλι\nINCI: WATER (AQUA)*. DISODIUM LAURETH SULFOSUCCINATE. CETEARETH-60 MYRISTYL GLYCOL. LAURYL BETAINE. DECYL GLUCOSIDE*. GLYCERIN*. LAURETH-3. PENTYLENE GLYCOL*. CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT (CHAMOMILLA RECUTITA FLOWER EXTRACT)*. VINEGAR (ACETUM)*. CITRIC ACID*. FRAGRANCE (PARFUM). MALEIC ACID. OLETH-10. POLYQUATERNIUM-22. SODIUM BENZOATE. SODIUM CHLORIDE. TOCOPHEROL. TRISODIUM ETHYLENEDIAMINE DISUCCINATE"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se3975d3839bacxz43diywws4kqe/pf_square/u5wa3z31qn5se3975d3839bacxz43diywws4kqe?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se3975d3839bacxz43diywws4kqe/pf_square/u5wa3z31qn5se3975d3839bacxz43diywws4kqe?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5se3975d3839bacxz43diywws4kqe/pf_square/u5wa3z31qn5se3975d3839bacxz43diywws4kqe?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seji8b47okijzhkri98rfxc3aene/pf_square/u5wa3z31qn5seji8b47okijzhkri98rfxc3aene?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sj5coyezr85xj898oqxwu9tmn4po/pf_square/u5wa3z31qn5sj5coyezr85xj898oqxwu9tmn4po?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjc485winony7stgu4qunonm66to/pf_square/u5wa3z31qn5sjc485winony7stgu4qunonm66to?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/sampoyan-me-hamomili-3282770149272-7044702c",
-    "source": "klorane.com",
-    "section": "sampouan",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
   "3282779028400": {
     "name": "Σαμπουάν με Χαμομήλι για ξανθές ανταύγειες",
     "subtitle": "Αναδεικνύει τις ξανθές ανταύγειες - Αναζωογονεί τις ξανθές ανταύγειες - Καθαρίζει",
@@ -4546,49 +4268,6 @@ window.KLORANE_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "3282779271202": {
-    "name": "Σαμπουάν με ίνες ΒΙΟΛΟΓΙΚΟΥ Λιναριού",
-    "subtitle": "Χαρίζει ορατό όγκο στα μαλλιά",
-    "description": "Αυτό το σαμπουάν για όγκο με Βιολογικό λινάρι έχει σχεδιαστεί για να καθαρίζει απαλά τα λεπτά μαλλιά που στερούνται όγκου. Η υψηλή ανεκτικότητα και η βιοδιασπώμενη* σύνθεσή του περιέχει 86% συστατικά φυσικής προέλευσης. Είναι εμπλουτισμένο με βιολογικό λινάρι, βιολογικής καλλιέργειας σύμφωνα με πιστοποιημένη βιολογική γεωργία. Αυτές οι διαλυτές φυτικές ίνες, που ονομάζονται γλισχράματα, είναι γνωστές για τα οφέλη φροντίδας στα μαλλιά. Παρέχουν άμεσα όγκο που διαρκεί για μεγάλο χρονικό διάστημα από τις ρίζες** Απόλυτα καθαρά, γεμάτα πλούσια υφή και γεμάτα, τα μαλλιά αποκαλύπτουν έναν αέρινο φυσικό όγκο γεμάτα ελαστικότητα.",
-    "claims": [
-      "Χαρίζει ορατό όγκο στα μαλλιά"
-    ],
-    "highlights": [
-      "Καθαρίζει και προσφέρει όγκο στα μαλλιά χωρίς να βαραίνει.",
-      "Καθαρίζει, προσφέρει πλούσια υφή και ελαστικότητα"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Ιδανικό για": "Ενήλικες",
-      "Τύπος μαλλιών": "Λεπτά μαλλιά - χωρίς όγκο",
-      "Ανάγκες": "Όγκος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Λινάρι"
-    },
-    "sections": {
-      "Πλεονέκτημα": "Μια σύνθεση που ικανοποιεί τις αισθήσεις με 86% φυσικά συστατικά για να χαρίσει όγκο και ανάλαφρη αίσθηση στα μαλλιά, συσκευασμένο με 100% ανακυκλωμένο και ανακυκλώσιμο πλαστικό φιαλίδιο χωρίς κουτί.",
-      "Οφέλη": "-Kαθαρίζει: η εξαιρετικά ανάλαφρη, καθαριστική του βάση καθαρίζει και ξεμπλέκει τα λεπτά μαλλιά με απαλότητα χωρίς να τα βαραίνει.\n-Προσθέτει πλούσια υφή: Το Σαμπουάν για όγκο οφείλει τη δύναμη και την αποτελεσματικότητά του στις ίνες βιολογικού λιναριού, γνωστές για τις ιδιότητές τους να χαρίζουν όγκο**\n-Χαρίζει πιο ανάλαφρα μαλλιά: τα λεπτά μαλλιά αποκτούν πλούσιο όγκο, παραμένοντας παράλληλα ανάλαφρα με ελαστικότητα για φυσικό αποτέλεσμα που διαρκεί.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Υγρό",
-      "Οφέλη της υφής": "Εξαιρετικά ανάλαφρη σύνθεση.",
-      "Άρωμα της σύνθεσης": "Εξαιρετικά απαλό ανοιξιάτικο άρωμα “αγριολούλουδου”\n100% ανακυκλωμένο και ανακυκλώσιμο φιαλίδιο.\nΒιοδιασπώμενη σύνθεση σύμφωνα με τη δοκιμή του ΟΟΣΑ 301B",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "ΒΙΟΛΟΓΙΚΟ λινάρι\nINCI: WATER (AQUA)*. DISODIUM LAURETH SULFOSUCCINATE. DECYL GLUCOSIDE*. CETEARETH-60 MYRISTYL GLYCOL. LAURYL BETAINE. LAURETH-3. LINUM USITATISSIMUM (LINSEED) SEED EXTRACT (LINUM USITATISSIMUM SEED EXTRACT)*. BLUE 1 (CI 42090). CAPRYLYL GLYCOL. CITRIC ACID*. EXT. VIOLET 2 (CI 60730). FRAGRANCE (PARFUM). LIMONENE. MALEIC ACID. PROPYLENE GLYCOL*. SODIUM BENZOATE. SODIUM CHLORIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE 86% συστατικά φυσικής προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme/pf_square/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme/pf_square/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme/pf_square/u5wa3z31qn5seuhxchwyd9g1f34moc5jo1uzhme?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjk3zf7ocnw8w858oqxwu9tmn4po/pf_square/u5wa3z31qn5sjk3zf7ocnw8w858oqxwu9tmn4po?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/sampoyan-me-ines-viologikoy-linarioy-3282770147292-7044702c",
-    "source": "klorane.com",
-    "section": "sampouan",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
   "3282770039139": {
     "name": "Σαμπουάν με ίνες ΒΙΟΛΟΓΙΚΟΥ Λιναριού",
     "subtitle": "Χαρίζει ορατό όγκο στα μαλλιά",
@@ -4812,51 +4491,6 @@ window.KLORANE_OVERRIDES = {
       "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjw789m76ucos66zph3ibr8dswge/pf_square/u5wa3z31qn5sjw789m76ucos66zph3ibr8dswge?t=resize&width=800&height=800"
     ],
     "url": "https://www.klorane.com/gr-el/p/sampoyan-me-viologiki-menta-3282770144864-7044702c",
-    "source": "klorane.com",
-    "section": "sampouan",
-    "matchType": "manual",
-    "score": null,
-    "review": false
-  },
-  "3282779271066": {
-    "name": "Σαμπουάν με Ρόδι που προστατεύει το χρώμα",
-    "subtitle": "Ενισχύει τη λάμψη - Προστατεύει το χρώμα",
-    "description": "Με 85% φυσικά συστατικά , το Σαμπουάν με Ρόδι σταθεροποιεί, προστατεύει και ξαναζωντανεύει το χρώμα έως και για 8 εβδομάδες*.\nΗ βιοδιασπώμενη** σύνθεσή του, χωρίς σιλικόνη και χωρίς θειικά άλατα είναι εμπλουτισμένη με εκχύλισμα από φλοιό ροδιού.\nΈνα συμπυκνωμένο εκχύλισμα που προστατεύει το χρώμα με αποδεδειγμένες ιδιότητες προέρχεται από αυτό το πανάρχαιο φυτό***.\nΠλούσιο σε τανίνες, σταθεροποιεί και αναδεικνύει τις χρωστικές της κερατίνης της τρίχας για να προλάβει το ξεθώριασμα του χρώματος.\nΑυτές οι τανίνες είναι φυσικά αντιοξειδωτικά, που προλαμβάνουν το ξεθώριασμα του χρώματος και προστατεύουν την έντασή του από τις εξωτερικές επιθέσεις.\nΤα μαλλιά αποκτούν θρέψη, είναι απαλά και λαμπερά, τα χρώμα είναι ζωντανό και φωτεινό με ένα απολαυστικό άρωμα που θυμίζει ηλιόλουστο φρούτο.",
-    "claims": [
-      "Ενισχύει τη λάμψη",
-      "Προστατεύει το χρώμα"
-    ],
-    "highlights": [
-      "Προστατευμένο για περισσότερες από 8 εβδομάδες, το χρώμα αναζωογονείται*",
-      "Καθαρίζει, χαρίζει λάμψη στο χρώμα, προστατεύει"
-    ],
-    "attributes": {
-      "Διαθέσιμα μεγέθη": "400ml, 200ml",
-      "Μορφή": "Φιαλίδιο",
-      "Ιδανικό για": "Ενήλικες",
-      "Τύπος μαλλιών": "Βαμμένα μαλλιά",
-      "Ανάγκες": "Λάμψη χρώματος",
-      "Χώρα παρασκευής": "Γαλλία",
-      "Συσκευασία": "200ml",
-      "Σειρά": "Ρόδι"
-    },
-    "sections": {
-      "Οφέλη": "ΚΑΘΑΡΙΣΜΟΣ: Η καθαριστική του βάση χωρίς θειικά άλατα καθαρίζει απαλά τα μαλλιά και το τριχωτό της κεφαλής, χωρίς να ξεθωριάζει το χρώμα.\nΑΝΑΖΩΟΓΟΝΗΣΗ: Αναζωογονεί τη λάμψη των βαμμένων μαλλιών, αποκαλύπτοντας όλες τις αποχρώσεις τους.\nΔΙΑΤΗΡΗΣΗ: Σταθεροποιεί και ενισχύει το χρώμα, προστατεύοντάς το από το ξεθώριασμα και την απώλεια λάμψης για έως και 8 εβδομάδες* παρατεταμένης έντασης.\nΟικολογικός σχεδιασμός",
-      "Υφή": "Υγρό",
-      "Οφέλη της υφής": "Πολύτιμο, με υφή εύκολη στην εφαρμογή που κάνει πλούσιο αφρό.",
-      "Άρωμα της σύνθεσης": "Πολύτιμο άρωμα μούρων\nΒιοδιασπώμενη σύνθεση σύμφωνα με τη δοκιμή του ΟΟΣΑ 301Β",
-      "Χρήση": "Συχνότητα χρήσης: Όσο συχνά χρειάζεται",
-      "Συστατικά": "Ρόδι\nINCI: WATER (AQUA)*. DISODIUM LAURETH SULFOSUCCINATE. CETEARETH-60 MYRISTYL GLYCOL. DECYL GLUCOSIDE*. LAURYL BETAINE. LAURETH-3. PUNICA GRANATUM EXTRACT*. ALCOHOL*. CAPRYLYL GLYCOL. CITRIC ACID*. FRAGRANCE (PARFUM). MALEIC ACID. POLYQUATERNIUM-22. RED 33 (CI 17200). RED 40 (CI 16035). SODIUM BENZOATE. SODIUM CHLORIDE. TRISODIUM ETHYLENEDIAMINE DISUCCINATE. YELLOW 6 (CI 15985) 85% συστατικά φυσική προέλευσης"
-    },
-    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-    "images": [
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a/pf_square/u5wa3z31qn5seuhxchwyd9g1f459jsw3bo5uq5a?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjb8bse8683p5gz8oqxwu9tmn4po/pf_square/u5wa3z31qn5sjb8bse8683p5gz8oqxwu9tmn4po?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5seuyjjq5pnuop4ykqcmm9o3j3m8y/pf_square/u5wa3z31qn5seuyjjq5pnuop4ykqcmm9o3j3m8y?t=resize&width=800&height=800",
-      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjb794d9qy5n19a18b6nioaghd7e/pf_square/u5wa3z31qn5sjb794d9qy5n19a18b6nioaghd7e?t=resize&width=800&height=800"
-    ],
-    "url": "https://www.klorane.com/gr-el/p/sampoyan-me-rodi-3282770143560-7044702c",
     "source": "klorane.com",
     "section": "sampouan",
     "matchType": "manual",
@@ -7141,6 +6775,51 @@ window.KLORANE_OVERRIDES = {
     "url": "https://www.klorane.com/gr-el/p/viologika-pistopoiimeno-stereo-sapoyni-3282770389708-7044702c",
     "source": "klorane.com",
     "section": "vrefika",
+    "matchType": "exact",
+    "score": null,
+    "review": false
+  },
+  "3282770390292": {
+    "name": "Νερό καθαρισμού 3 σε 1 με βιολογική κυανή Κενταύρια",
+    "subtitle": "Καθαρίζει - Ενυδατώνει - Αφαιρεί το μακιγιάζ",
+    "description": "Ειδικά σχεδιασμένο για ευαίσθητα μάτια και χρήστες φακών επαφής, το νερό καθαρισμού με μικκύλια με βιολογική κυανή Κενταύρια προσφέρει τριπλό καθαρισμό, ντεμακιγιάζ και ενυδατική δράση. Βιολογικά πιστοποιημένο και φτιαγμένο με 100% φυσικά συστατικά, αυτό το νερό με μικκύλια είναι εμπλουτισμένο με ενυδατικούς παράγοντες (aloe vera και γλυκερίνη) για να αφαιρεί απαλά το μακιγιάζ από το πρόσωπο και τα μάτια χωρίς να ξηραίνει το δέρμα.",
+    "claims": [
+      "Καθαρίζει",
+      "Ενυδατώνει",
+      "Αφαιρεί το μακιγιάζ"
+    ],
+    "highlights": [
+      "Εύκολη εφαρμογή, οικονομική συσκευασία.",
+      "Αφαιρεί το μακιγιάζ, απαλύνει"
+    ],
+    "attributes": {
+      "Μορφή": "Φιαλίδιο με αντλία",
+      "Ιδανικό για": "Ενήλικες",
+      "Κατάλληλο για": "Στους φακούς σας - στα βλέφαρα",
+      "Τύπος δέρματος": "Ολοι οι τύποι δέρματος",
+      "Ανάγκες": "Αφαίρεση μακιγιάζ - Καθαριστικό",
+      "Χώρα παρασκευής": "Γαλλία",
+      "Συσκευασία": "400ml",
+      "Σειρά": "κυανή Κενταύρια"
+    },
+    "sections": {
+      "Πλεονέκτημα": "Η πρακτική, καινοτόμος αντλία προσφέρει ακριβώς τη σωστή ποσότητα για ένα αποτελεσματικό, απαλό τελετουργικό ντεμακιγιάζ για ολόκληρο το πρόσωπο και την περιοχή των ματιών.",
+      "Οφέλη": "• ΑΦΑΙΡΕΙ ΤΟ ΜΑΚΙΓΙΑΖ: Το νερό με μικκύλια αφαιρεί τέλεια το μακιγιάζ** στο πρόσωπο, τα χείλη και την ευαίσθητη περιοχή των ματιών για καθαρό***, υγιές δέρμα.\n• ΣΕΒΕΤΑΙ ΤΗΝ ΙΣΟΡΡΟΠΙΑ ΤΟΥ ΔΕΡΜΑΤΟΣ: η minimal σύνθεσή του με 90% φυσικά συστατικά ελαχιστοποιεί τον κίνδυνο αλλεργικής αντίδρασης.\n• ΚΑΤΑΠΡΑΫΝΕΙ : με ΒΙΟΛΟΓΙΚΗ κυανή Κενταύρια με καταπραϋντικές ιδιότητες.",
+      "Υφή": "Υγρό",
+      "Άρωμα της σύνθεσης": "Άρωμα κενταύριας",
+      "Χρήση": "Συχνότητα χρήσης: Καθημερινά",
+      "Συστατικά": "κυανή Κενταύρια\nINCI: WATER (AQUA). GLYCERIN. PENTYLENE GLYCOL. BUTYLENE GLYCOL. CENTAUREA CYANUS FLOWER WATER*. ALOE BARBADENSIS LEAF JUICE POWDER*. CITRIC ACID. COCO-GLUCOSIDE. ETHYL LAUROYL ARGINATE HCL. POLYGLYCERYL-4 CAPRATE. POLYGLYCERYL-6 CAPRYLATE"
+    },
+    "image": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
+    "imageFallback": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
+    "images": [
+      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke/pf_square/u5wa3z31qn5sjdkokjy8jsz5gq4yrfjm4hnw6ke?t=resize&width=800&height=800",
+      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy/pf_square/u5wa3z31qn5sjn8oztcrn785gfznedhhyry5pxy?t=resize&width=800&height=800",
+      "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sjdkokjy8jsz5gqhwj4b36xoscce/pf_square/u5wa3z31qn5sjdkokjy8jsz5gqhwj4b36xoscce?t=resize&width=800&height=800"
+    ],
+    "url": "https://www.klorane.com/gr-el/p/3-se-1-nero-katharismoy-me-mikkylia-me-viologiki-kyani-kentayria-prosopo-matia-3282770390292-7044702c",
+    "source": "klorane.com",
+    "section": "prosopo",
     "matchType": "exact",
     "score": null,
     "review": false

@@ -441,6 +441,15 @@ node scripts/build-brand-supplier.mjs --brand=frezyderm --xlsx=Frezyderm.xlsx $P
 node scripts/generate-catalog.mjs
 ```
 
+### Συσκευασία barcode ≠ συσκευασία σελίδας
+
+Μια σελίδα του site καλύπτει συχνά πολλές συσκευασίες και δείχνει μία (π.χ. σελίδα 200ml, barcode τιμοκαταλόγου 150ml).
+Το `BRAND_CATALOGS_UTIL.enrichmentFor` (js/brands.js) συγκρίνει τη συσκευασία στο όνομα του τιμοκαταλόγου (`supplierName`)
+με τη «Συσκευασία»/«Χωρητικότητα» της σελίδας (ml / g / τεμάχια, «30 & 60 caps», «10x11ML», «59 2ML» = 59,2 ml)· αν δεν
+ταιριάζει, εμφανίζεται η συσκευασία του barcode (και στο όνομα), σε σελίδα προϊόντος, κάρτες και export (`sizeFromList: true`).
+Λάθος σελίδα που ταιριάστηκε → `null` (ή σωστό URL) στο `js/<brand>-manual-matches.json`· γραμμές προσφοράς του τιμοκαταλόγου
+(«-25%», «σε προνομιακή τιμή», «& ΔΩΡΟ», σετ δώρου) → κανόνες στο `js/<brand>-exclusions.json`.
+
 ## Σελίδα «Εταιρίες» (brands.html) και λογότυπα
 
 Το nav έχει πλέον μόνο Αντηλιακά / Καλλυντικά / Εποχιακά / Vican / **Εταιρίες** / Αγορά. Όλα τα brand catalogs φαίνονται στη

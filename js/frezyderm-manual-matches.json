@@ -1,6 +1,5 @@
 {
   "_comment": "Χειροκίνητες διορθώσεις match: barcode → URL σελίδας στο frezyderm.gr. Τιμή null = το προϊόν ΔΕΝ έχει σελίδα (μην το ταιριάξεις με τίποτα). Διαβάζεται από scripts/match-frezyderm.mjs και υπερισχύει GTIN/fuzzy. Για να εγκρίνετε μια πρόταση από το frezyderm-match-report.csv, αντιγράψτε εδώ barcode + URL.",
-
   "5202888227554": "https://www.frezyderm.gr/omoiopathitiki/euaisthhth-perioxh/aqua-care-gel-lipantiko-kolpou-gia-thn-emmhnopaush/",
   "5202888106194": "https://www.frezyderm.gr/sumplhrwmata-diatrofis/symplirwmata-diatrofhs-gia-tin-kolpikh-xlwrida/intimeo-symplhrwma-diatrofhs-gia-thn-kolpikh-xlwrida/",
   "5202888102127": "https://www.frezyderm.gr/proionta-egkumosunhs/kremes-gia-ragades-egkumosunhs/reconstria-cream-krema-antimetwpishs-ragadwn/",
@@ -9,7 +8,6 @@
   "5202888230165": "https://www.frezyderm.gr/peripoiisi-somatos/aposmhtika-gia-paidia-enhlikes/sensitive-kids-deodorant-cream-aposmhtiko-gia-paidia/",
   "5202888223143": "https://www.frezyderm.gr/peripoihsh-euaisthhths-perioxhs/endokolpikos-katharismos/intim-ksudi-ph-3-5-endokolpiko-katharistiko/",
   "5202888230691": "https://www.frezyderm.gr/proionta-paidikhs-peripoihshs/stomatikh-ugieinh/paidikes-odontokremes/sensiteeth-kids-toothpaste/",
-
   "_no_page": "Τα παρακάτω δεν υπάρχουν στο frezyderm.gr (ελέγχθηκαν με όνομα σε όλες τις 327 σελίδες):",
   "5202888102226": null,
   "5202888222474": null,
@@ -22,5 +20,10 @@
   "5202888102509": null,
   "5202888271052": null,
   "5202888105098": null,
-  "5202888263019": null
+  "5202888263019": null,
+  "5202888222436": null,
+  "5202888271663": null,
+  "5202888102899": null,
+  "5202888100413": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-100/",
+  "5202888271106": "https://www.frezyderm.gr/peripoiisi-somatos/galaktomata-somatos/christialen-emulsion-enudatiko-galaktwma-swmatos-200/"
 }

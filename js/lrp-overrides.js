@@ -4297,38 +4297,43 @@ window.LRP_OVERRIDES = {
     "review": false
   },
   "3337872419621": {
-    "name": "Toleriane Sensitive Κρέμα Ενυδάτωσης Προσώπου",
-    "subtitle": "Καθημερινή ενυδατική καταπράυνσης & προστασίας, για το ξηρό ευαίσθητο δέρμα",
-    "description": "Καθημερινή ενυδατική καταπράυνσης & προστασίας, για το ξηρό ευαίσθητο δέρμα Ενυδατική προσώπου που επανορθώνει και προστατεύει το ευαίσθητο δέρμα. Καταπραΰνει, ενυδατώνει, προστατεύει. Μια επαναστατική δερματολογική καινοτομία για την ενυδάτωση του δέρματος. Προϊόν ασφαλές ακόμα και για βρέφη.",
+    "name": "Toleriane Micellar Water Καθαρισμός Προσώπου για Ευαίσθητο Δέρμα",
+    "subtitle": "Καθαρίζει, αφαιρεί το μακιγιάζ και καταπραΰνει το ευαίσθητο δέρμα",
+    "description": "Καθαρίζει, αφαιρεί το μακιγιάζ και καταπραΰνει το ευαίσθητο δέρμα Απομακρύνει απαλά τους ρύπους και το μακιγιάζ από το ευαίσθητο δέρμα. Καταπραΰνει το ευαίσθητο δέρμα Σέβεται τη φυσιολογική ισορροπία του δέρματος",
     "claims": [],
     "highlights": [
-      "Ενυδατική προσώπου που επανορθώνει και προστατεύει το ευαίσθητο δέρμα.",
-      "Καταπραΰνει, ενυδατώνει, προστατεύει.",
-      "Μια επαναστατική δερματολογική καινοτομία για την ενυδάτωση του δέρματος. Προϊόν ασφαλές ακόμα και για βρέφη."
+      "Απομακρύνει απαλά τους ρύπους και το μακιγιάζ από το ευαίσθητο δέρμα.",
+      "Καταπραΰνει το ευαίσθητο δέρμα",
+      "Σέβεται τη φυσιολογική ισορροπία του δέρματος"
     ],
     "attributes": {
-      "Διαθέσιμα μεγέθη": "40ml",
+      "Διαθέσιμα μεγέθη": "200ml, 400ml",
       "Σειρά": "TOLERIANE",
-      "Βασικά συστατικά": "CERAMIDE, ΓΛΥΚΕΡΙΝΗ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
+      "Βασικά συστατικά": "ΗΠΙΑ ΕΠΙΦΑΝΕΙΟΔΡΑΣΤΙΚΑ, ΓΛΥΚΕΡΙΝΗ, ΙΑΜΑΤΙΚΟ ΝΕΡΟ",
       "Συσκευασία": "40ml",
       "Κατηγορία larocheposay.gr": "TOLERIANE"
     },
     "sections": {
-      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Ενυδατική προσώπου που επανορθώνει και προστατεύει το ευαίσθητο δέρμα.\n• Καταπραΰνει, ενυδατώνει, προστατεύει.\n• Μια επαναστατική δερματολογική καινοτομία για την ενυδάτωση του δέρματος. Προϊόν ασφαλές ακόμα και για βρέφη.",
-      "Χρήση": "ΠΟΣΟΤΗΤΑ: Ποσότητα ίση με ένα φουντούκι\nΠΟΤΕ: Πρωί ή/και βράδυ\nΠΟΥ: Πρόσωπο, λαιμό και ντεκολτέ\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Να εφαρμόζεται σε καθαρό δέρμα",
-      "Συστατικά": "CERAMIDE: Επανορθώνει και προστατεύει τον επιδερμιδικό φραγμό.\nΓΛΥΚΕΡΙΝΗ: Ενυδατώνει για 48 ώρες.\nΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει το δέρμα. Μειώνει την ερυθρότητα και τον ερεθισμό.\nINCI: AQUA / WATER • GLYCERIN • SQUALANE • DIMETHICONE • ZEA MAYS STARCH / CORN STARCH • NIACINAMIDE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • MYRISTYL MYRISTATE • STEARIC ACID • CERAMIDE NP • POTASSIUM CETYL PHOSPHATE • GLYCERYL STEARATE SE • SODIUM HYDROXIDE • MYRISTIC ACID • PALMITIC ACID • CAPRYLOYL GLYCINE • CAPRYLYL GLYCOL • XANTHAN GUM (F.I.L. B228390/1)"
+      "Οφέλη": "ΣΥΝΙΣΤΑΤΑΙ ΑΠΟ ΔΕΡΜΑΤΟΛΟΓΟΥΣ:\n• Απομακρύνει απαλά τους ρύπους και το μακιγιάζ από το ευαίσθητο δέρμα.\n• Καταπραΰνει το ευαίσθητο δέρμα\n• Σέβεται τη φυσιολογική ισορροπία του δέρματος",
+      "Χρήση": "ΠΟΣΟΤΗΤΑ: Εμποτίστε ένα βαμβάκι με το προϊόν.\nΠΟΤΕ: Πρωί και βράδυ, ειδικά για να αφαιρέσετε το μακιγιάζ σας\nΠΟΥ: Στο πρόσωπο\nΣΥΜΒΟΥΛΕΣ ΕΦΑΡΜΟΓΗΣ: Για μεγαλύτερη αποτελεσματικότητα και λιγότερη τριβή, κρατήστε το βαμβάκι πάνω στο δέρμα για λίγα δευτερόλεπτα και έπειτα σκουπίστε απαλά.",
+      "Συστατικά": "ΗΠΙΑ ΕΠΙΦΑΝΕΙΟΔΡΑΣΤΙΚΑ: Καθαρίζουν και απομακρύνουν τους ρύπους\nΓΛΥΚΕΡΙΝΗ: Ενυδατώνει και αντιμετωπίζει την αίσθηση τραβήγματος\nΙΑΜΑΤΙΚΟ ΝΕΡΟ: Καταπραΰνει το δέρμα και απομακρύνει τους ρύπους\nINCI: AQUA / WATER • PEG-7 CAPRYLIC/CAPRIC GLYCERIDES • POLOXAMER 124 • POLOXAMER 184 • PEG-6 CAPRYLIC/CAPRIC GLYCERIDES • GLYCERIN • POLYSORBATE 80 • DISODIUM EDTA • BHT • MYRTRIMONIUM BROMIDE • PARFUM / FRAGRANCEΔεν απαιτούνται ειδικές προφυλάξεις για τη χρήση αυτού του προϊόντος υπό κανονικές ή ευλόγως προβλέψιμες συνθήκες χρήσης"
     },
-    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-sensitive-prebiotic-40ml-3337875578486-front.png",
-    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-sensitive-prebiotic-40ml-3337875578486-front.png",
+    "image": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/lrp-toleriane-micellar-sensitive-cleanser-pack-front.png",
+    "imageFallback": "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/lrp-toleriane-micellar-sensitive-cleanser-pack-front.png",
     "images": [
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-sensitive-prebiotic-40ml-3337875578486-front.png",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-sensitive-prebiotic-40ml-3337875578486-back.jpg",
-      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-prebiotic-moisturizer-40ml-3337875578486.jpg"
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/lrp-toleriane-micellar-sensitive-cleanser-pack-front.png",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-benefits.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-diversity.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-efficacy.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-ingredients.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-safetyseals.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-superiorityclaim.jpg",
+      "https://www.larocheposay.gr/-/media/project/loreal/brand-sites/lrp/emea/gr/products/physiological/micellar-water-ultra-sensitive/larocheposay-product-skincare-tolerianesensitive-launch-3337872411595-atf-texture.jpg"
     ],
-    "url": "https://www.larocheposay.gr/toleriane/toleriane-sensitive-krema-enudatwshs-proswpou",
+    "url": "https://www.larocheposay.gr/toleriane/toleriane-micellar-water-katharismos-proswpou-gia-euaisthhto-derma",
     "source": "larocheposay.gr",
     "section": "toleriane",
-    "matchType": "exact",
+    "matchType": "manual",
     "score": null,
     "review": false
   },

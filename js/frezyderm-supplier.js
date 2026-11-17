@@ -1,7 +1,7 @@
 // Auto-generated από supplier Excel (Frezyderm.xlsx) με το scripts/build-brand-supplier.mjs.
 // Πηγή: χονδρικός κατάλογος του προμηθευτή. Δεν επεξεργάζεται χειροκίνητα.
 // Αποσυρμένα (εξαιρούνται): js/frezyderm-discontinued.json.
-// Εκτός με κανόνες ονόματος (promo/boosters…): js/frezyderm-exclusions.json (38).
+// Εκτός με κανόνες ονόματος (promo/boosters…): js/frezyderm-exclusions.json (40).
 //
 // Enrichment (ονόματα/περιγραφές/εικόνες από το brand site) στο js/frezyderm-overrides.js.
 
@@ -48,7 +48,6 @@ window.FREZYDERM_SUPPLIER = [
   {"barcode":"5202888400018","name":"FREZYDERM Active Sun Screen Lip Balm SPF50+ 15ml","retail":6.9,"wholesale":4.14,"variants":["5202888400018"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025800","supplierName":"FREZYDERM Active Sun Screen Lip Balm SPF50+ 15ml"},
   {"barcode":"5202888400049","name":"FREZYDERM Active Sun Screen Tinded Face Fluid Spf50+ 50ml","retail":25.28,"wholesale":15.1,"variants":["5202888400049"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025803","supplierName":"FREZYDERM Active Sun Screen Tinded Face Fluid Spf50+ 50ml"},
   {"barcode":"5202888102226","name":"FREZYDERM After Sun Mousse 150ml","retail":21.7,"wholesale":12.96,"variants":["5202888102226"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025730","supplierName":"FREZYDERM After Sun Mousse 150ml"},
-  {"barcode":"5202888271168","name":"FREZYDERM Age Repair Set 25caps & Elixir 15ml","retail":40.18,"wholesale":24,"variants":["5202888271168"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025721","supplierName":"FREZYDERM Age Repair Set 25caps & Elixir 15ml"},
   {"barcode":"5202888105166","name":"FREZYDERM Anti - Age Shampoo 200ml","retail":14.41,"wholesale":8.61,"variants":["5202888105166"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025675","supplierName":"FREZYDERM Anti - Age Shampoo 200ml"},
   {"barcode":"5202888271137","name":"FREZYDERM Anti- Ageing Body cream 200ml","retail":20.09,"wholesale":12,"variants":["5202888271137"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025722","supplierName":"FREZYDERM Anti- Ageing Body cream  200ml"},
   {"barcode":"5202888222368","name":"FREZYDERM Anti Thermal Water Mist 300ml","retail":18.13,"wholesale":10.83,"variants":["5202888222368"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025767","supplierName":"FREZYDERM Anti Thermal Water Mist 300ml"},
@@ -256,7 +255,6 @@ window.FREZYDERM_SUPPLIER = [
   {"barcode":"5202888230127","name":"FREZYDERM SENSITEETH FIRST TOOTH PASTE40ML","retail":5.7,"wholesale":3.39,"variants":["5202888230127"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019645","supplierName":"FREZYDERM SENSITEETH FIRST TOOTH PASTE40ML"},
   {"barcode":"5202888230134","name":"FREZYDERM SENSITEETH KIDS APHTHAE GEL 25 ML","retail":11.73,"wholesale":7.01,"variants":["5202888230134"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019309","supplierName":"FREZYDERM SENSITEETH KIDS APHTHAE GEL 25 ML"},
   {"barcode":"5202888230080","name":"FREZYDERM SENSITEETH KID'S MOUTHWASH 250ml","retail":8,"wholesale":5.08,"variants":["5202888230080"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019810","supplierName":"FREZYDERM SENSITEETH KID'S MOUTHWASH 250ml"},
-  {"barcode":"5202888230691","name":"FREZYDERM SensiTeeth Kids Tooth Paste 1000ppm 50ml & ΔΩΡΟ SensiTeeth Kids Mouthwash 100ml","retail":5.86,"wholesale":3.5,"variants":["5202888230691","5202888230592"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10025770","supplierName":"FREZYDERM SensiTeeth Kids Tooth Paste 1000ppm 50ml & ΔΩΡΟ SensiTeeth Kids Mouthwash 100ml"},
   {"barcode":"5202888230097","name":"FREZYDERM SENSITEETH KIDS TOOTH PASTE1000ppm 50 ML","retail":6.5,"wholesale":3.89,"variants":["5202888230097"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019095","supplierName":"FREZYDERM SENSITEETH KIDS TOOTH PASTE1000ppm 50 ML"},
   {"barcode":"5202888230059","name":"FREZYDERM SENSITEETH KID'S TOOTHPASTE 50ml","retail":5,"wholesale":2.98,"variants":["5202888230059"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10019175","supplierName":"FREZYDERM SENSITEETH KID'S TOOTHPASTE 50ml"},
   {"barcode":"5202888230158","name":"FREZYDERM SENSITIVE INTIM GIRL FOAM 250ML","retail":13.2,"wholesale":7.9,"variants":["5202888230158"],"listed":true,"priceSource":"Medica.tsv","supplierCode":"10021926","supplierName":"FREZYDERM SENSITIVE INTIM GIRL FOAM 250ML"},

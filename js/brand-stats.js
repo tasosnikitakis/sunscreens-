@@ -1,18 +1,18 @@
 // Auto-generated (scripts/build-brand-stats.mjs): πλήθος προϊόντων ανά brand και ανά φίλτρο για τη σελίδα «Εταιρίες».
 window.BRAND_STATS = {
   "frezyderm": {
-    "products": 300,
-    "priced": 300,
+    "products": 298,
+    "priced": 298,
     "sections": 17,
     "modes": {
-      "all": 300,
-      "ok": 254,
-      "issue": 46,
-      "complete": 267,
-      "incomplete": 33,
-      "nopage": 37,
+      "all": 298,
+      "ok": 251,
+      "issue": 47,
+      "complete": 263,
+      "incomplete": 35,
+      "nopage": 40,
       "noprice": 0,
-      "priced": 300
+      "priced": 298
     }
   },
   "lamberts": {
@@ -21,11 +21,11 @@ window.BRAND_STATS = {
     "sections": 9,
     "modes": {
       "all": 104,
-      "ok": 69,
-      "issue": 35,
-      "complete": 84,
-      "incomplete": 20,
-      "nopage": 33,
+      "ok": 67,
+      "issue": 37,
+      "complete": 83,
+      "incomplete": 21,
+      "nopage": 36,
       "noprice": 0,
       "priced": 104
     }
@@ -61,18 +61,18 @@ window.BRAND_STATS = {
     }
   },
   "klorane": {
-    "products": 169,
-    "priced": 115,
+    "products": 162,
+    "priced": 108,
     "sections": 10,
     "modes": {
-      "all": 169,
-      "ok": 169,
+      "all": 162,
+      "ok": 162,
       "issue": 0,
-      "complete": 169,
+      "complete": 162,
       "incomplete": 0,
       "nopage": 0,
       "noprice": 54,
-      "priced": 115
+      "priced": 108
     }
   },
   "avene": {
@@ -106,18 +106,18 @@ window.BRAND_STATS = {
     }
   },
   "korres": {
-    "products": 388,
-    "priced": 160,
+    "products": 386,
+    "priced": 158,
     "sections": 10,
     "modes": {
-      "all": 388,
-      "ok": 367,
+      "all": 386,
+      "ok": 365,
       "issue": 21,
-      "complete": 367,
+      "complete": 365,
       "incomplete": 21,
       "nopage": 0,
       "noprice": 228,
-      "priced": 160
+      "priced": 158
     }
   },
   "apivita": {

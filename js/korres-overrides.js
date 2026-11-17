@@ -10314,39 +10314,6 @@ window.KORRES_OVERRIDES = {
     "score": null,
     "review": false
   },
-  "5203069127731": {
-    "name": "Cashmere Kumquat Eau de Toilette + Αφρόλουτρο",
-    "subtitle": "To Herbarium of Cashmere Kumquat Σετ περιέχει: Cashmere Kumquat Eau de Toilette 50ml + Cashmere Kumquat Αφρόλουτρο 250ml",
-    "description": "To Herbarium of Cashmere Kumquat Σετ περιέχει: Cashmere Kumquat Eau de Toilette 50ml + Cashmere Kumquat Αφρόλουτρο 250ml\nTOP NOTES: KUMQUAT, MANDARINE, ORANGE\nHEART NOTES: ORANGE BLOSSOM, JASMINE, ALMOND\nBASE NOTES: CASHMERE, CEDARWOOD, VANILLA\nCashmere Kumquat Eau de Toilette 50ml\n88% Φυσικής Προέλευσης Περιεχόμενο\nΜπορεί να περιέχει ίχνη σιταριού/ξηρών καρπών\nCashmere Kumquat Αφρόλουτρο 250ml\n90.4% Φυσικής Προέλευσης Περιεχόμενο\nΑυτό το κουτί περιέχει τη δέσμευσή μας για ένα βιώσιμο μέλλον.\nΠαράγεται με 100% ανακυκλωμένο FSC / Πιστοποιημένο χαρτί Kraft\nΣυναρμολογείται στην Ελλάδα\nΘυμηθείτε να δώσετε σε αυτό το κουτί μια δεύτερη ευκαιρία, ελέγξτε τις τοπικές οδηγίες ανακύκλωσης.",
-    "claims": [
-      "Καταλληλο για Vegans",
-      "Δερματολογικά ελεγμένο"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Τύπος δέρματος": "Όλοι οι τύποι δέρματος",
-      "Ανάγκη": "Eau De Toilette"
-    },
-    "sections": {
-      "Χρήση": "Cashmere Kumquat Eau de Toilette: Ψεκάστε απευθείας στην επιδερμίδα στα σημεία των παλμών (λαιμός, εσωτερικό καρπών / αγκώνων) και αφήστε να στεγνώσει αποφεύγοντας την τριβή για τη μέγιστη διάρκεια και απόδοση του αρώματος. Για εξωτερική χρήση μόνο.\nCashmere Kumquat Αφρόλουτρο: Χρησιμοποιήστε καθημερινά το αφρόλουτρο στο ντους ή στο μπάνιο σας. Απλώστε αρκετή ποσότητα με απαλές κυκλικές κινήσεις σε βρεγμένο δέρμα και δημιουργήστε αφρό. Ξεπλύνετε με άφθονο νερό. Αποφύγετε την επαφή με τα μάτια.",
-      "Σύνθεση": "Υψηλή αρωματοποιία. Πολύπλοκο αλλά και ισορροπημένο. Κλασικό αλλά και σύγχρονο. Με έμπνευση τα αρώματα της Μεσογείου και με βάση τα υψηλής ποιότητας συστατικά. Όλα τα παραπάνω συνθέτουν το χαρακτήρα του αρώματος KORRES. Αρωματικές πυραμίδες που έχουν δημιουργηθεί σε συνεργασία με αρωματοποιούς από όλο τον κόσμο. Φόρμουλες που έχουν αναπτυχθεί από το δικό μας Εργαστήριο Ανάπτυξης: με φυσικό αντιοξειδωτικό από δενδρολίβανο, χωρίς PCM, phthalates και nitro-musks.",
-      "Περιγραφή (EN)": "Fragrance Set The Herbarium of Cashmere Kumquat Set contains: Cashmere Kumquat Eau de Toilette 50ml + Cashmere Kumquat Showergel 250ml\nTOP NOTES: KUMQUAT, MANDARINE, ORANGE\nHEART NOTES: ORANGE BLOSSOM, JASMINE, ALMOND\nBASE NOTES: CASHMERE, CEDARWOOD, VANILLA\nCashmere Kumquat Eau de Toilette 50ml\n88% Natural Origin Content\nMay Contain Traces Of Wheat/Nuts\nSuitable For Vegans\nCashmere Kumquat Showergel 250ml\n90.4% Natural Origin Content\nDermatologically Tested\nThis box contains our commitment to a sustainable future.\nProduced with 100% Recycled FSC / Certified Kraft Paper\nAssembled in Greece\nRemember to give this box a second chance, check your local recycling instructions.\nCashmere Kumquat Eau de Toilette:\nALCOHOL DENAT., AQUA/WATER/EAU, PARFUM/FRAGRANCE, BENZYL SALICYLATE, BRASSICA CAMPESTRIS (RAPESEED) SEED OIL, ROSMARINUS OFFICINALIS ROSEMARY LEAF EXTRACT, ALPHAISOMETHYL IONONE, COUMARIN, GERANIOL, LINALOOL.\nCashmere Kumquat Showergel:\nAQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM COCOYL ISETHIONATE, COCO-GLUCOSIDE, GLYCERYL OLEATE, PARFUM/FRAGRANCE, ALOE BARBADENSIS LEAF JUICE POWDER, ALTHAEA OFFICINALIS ROOT EXTRACT, ARGININE, CASTORYL MALEATE, CITRIC ACID, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, HYDROLYZED WHEAT GLUTEN, LACTIC ACID, POLYQUATERNIUM-7, SODIUM CHLORIDE, SODIUM GLUCONATE, TOCOPHEROL, BENZYL ALCOHOL, IMIDAZOLIDINYL UREA, PHENOXYETHANOL, POTASSIUM SORBATE, SODIUM BENZOATE, SODIUM DEHYDROACETATE, BENZYL SALICYLATE, COUMARIN, GERANIOL, LINALOOL.\n898 Conscious yet premium. Complex yet balanced. Classic yet contemporary. Mediterranean-inspired. Fine ingredients-oriented. Dedicated to create fine perfumes with pure raw materials, working together with fragrance houses across the world. KORRES Fragrance is consciously made with natural antioxidant rosemary extract, without PCM, phthalates, and nitro-musks.\n0 As light rays strike the brown transparent glass bottle, an intriguing dance of shadows and amber reflections catches the eye. Minimal design, soft around the edges with a lab-inspired white top, it feels like holding a fragrance bottle of another era; an ode to simplicity of timeless quality. Wrapped in an all-white box, that tells the story of each KORRES scent through its notes.\n90% of our packaging across all our product lines is recyclable.\nAt KORRES we collect packaging waste and ensure it is transformed and reused. We wish to turn empties into beautiful recycled objects, offering them and us a second chance. Our Recycle Lab is fully operational in Greece, aspiring to expand across the globe.\nCashmere Kumquat Eau de Toilette: Spray directly to skin on pulse points (neck, inside the wrists and elbows) and let dry without rubbing, for maximum duration. For external use only.\nCashmere Kumquat Showergel: Rub gently onto wet skin and rinse off with plenty of water. Avoid the touch with eyes. Ideal for daily use.\n0 Over 88% Natural Origin Content true"
-    },
-    "image": "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_c5077769-0f1e-4452-86a6-3fde4014e602.jpg?v=1774258059&width=1200",
-    "imageFallback": "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_c5077769-0f1e-4452-86a6-3fde4014e602.jpg?v=1774258059&width=1200",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_c5077769-0f1e-4452-86a6-3fde4014e602.jpg?v=1774258059&width=1200",
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizhomemob_b602f787-babd-4ead-a8d2-7a94d06aa98b.jpg?v=1774258052&width=1200",
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizhomemob_2852b0b0-f45e-4c2a-88ba-496b061f5217.jpg?v=1774258054&width=1200",
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestweb_2f13dc97-b004-40e5-9667-fab84055f577.jpg?v=1774258057&width=1200"
-    ],
-    "url": "https://gr.korres.com/el/products/cashmere-kumquat-eau-de-toilette-showergel-1",
-    "source": "gr.korres.com",
-    "section": "aromata",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
   "5203069122415": {
     "name": "Black Pine Primus Ορός Ενεργοποίησης Νεότητας",
     "subtitle": "Ενισχυμένο water-gel booster serum με 6 τύπους Υαλουρονικού Οξέος για λείανση λεπτών γραμμών και ρυτίδων.",
@@ -12008,35 +11975,6 @@ window.KORRES_OVERRIDES = {
     "url": "https://gr.korres.com/el/products/natural-fresh-blush-03-dusty-rose",
     "source": "gr.korres.com",
     "section": "makigiaz",
-    "matchType": "exact",
-    "score": null,
-    "review": false
-  },
-  "5203069133985": {
-    "name": "Oceanic Amber Eau de Toilette + Αφρόλουτρο",
-    "subtitle": "Το σετ περιλαμβάνει: Oceanic Amber Eau de Toilette 50ml + Oceanic Amber Αφρόλουτρο 250ml",
-    "description": "Το σετ περιλαμβάνει: Oceanic Amber Eau de Toilette 50ml + Oceanic Amber Αφρόλουτρο 250ml\nOceanic Amber Eau de Toilette 50ml\nΝερό και γη συναντώνται σε ένα άρωμα που ανακατεύει με τέχνη τις δροσερές νότες που θυμίζουν θάλασσα με το ζεστό κάρδαμο και την αναζωογονητική μέντα. Κέδρος, μαύρο πιπέρι και άνθη μηλιάς αφήνουν το αποτύπωμά τους στο τέλος.\nTop Notes: Amber\nHeart Notes: Peppermint\nBase Notes: Cardamom\n88% φυσικής προέλευσης\nΔερματολογικά Eλεγμένο\nOceanic Amber Αφρόλουτρο 250ml\n89.6% φυσικής προέλευσης\nΔερματολογικά Eλεγμένο",
-    "claims": [
-      "Κατάλληλο για Vegans"
-    ],
-    "highlights": [],
-    "attributes": {
-      "Ανάγκη": "Eau De Toilette"
-    },
-    "sections": {
-      "Χρήση": "Oceanic Amber Eau de Toilette: Kίνδυνος: Yγρό και ατμοί πολύ εύφλεκτα. μακριά από θερμότητα, θέρμες επιφάνειες, σπινθήρες, γυμνή φλόγα και άλλες πήγες ανάφλεξης. μην καπνίζετε. μακριά από παιδιά. για εξωτερική χρήση μονό. μην ψεκάζετε προς τα μάτια. να μην χρησιμοποιείται για σκοπό άλλο από αυτόν για τον οποίο προορίζεται.",
-      "Σύνθεση": "Υψηλή αρωματοποιία. Πολύπλοκο αλλά και ισορροπημένο. Κλασικό αλλά και σύγχρονο. Με έμπνευση τα αρώματα της Μεσογείου και με βάση τα υψηλής ποιότητας συστατικά. Όλα τα παραπάνω συνθέτουν το χαρακτήρα του αρώματος KORRES. Αρωματικές πυραμίδες που έχουν δημιουργηθεί σε συνεργασία με αρωματοποιούς από όλο τον κόσμο. Φόρμουλες που έχουν αναπτυχθεί από το δικό μας Εργαστήριο Ανάπτυξης: με φυσικό αντιοξειδωτικό από δενδρολίβανο, χωρίς PCM, phthalates και nitro-musks.",
-      "Περιγραφή (EN)": "Fragrance Set The Set contains: Oceanic Amber Eau de Toilette 50ml + Oceanic Amber Showergel 250ml\nOceanic Amber Eau de Toilette 50ml\nEarth and water; fresh and bold. Oceanic notes blend with warm amber and energizing peppermint.\nTop Notes: Amber\nHeart Notes: Peppermint\nBase Notes: Cardamom\n88% Natural Origin Content\nDermatologically Dested\nSuitable for Vegans\nOceanic Amber Showergel 250ml\n89.6% Natural Origin Content\nDermatologically Dested\nSuitable for Vegans\nOceanic Amber Eau de Toilette:\nALCOHOL DENAT., AQUA/WATER/EAU, PARFUM/FRAGRANCE, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, BRASSICA CAMPESTRIS (RAPESEED) SEED OIL, ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT, ALPHA-ISOMETHYL IONONE, ALPHA-TERPINENE, BETA-CARYOPHYLLENE, CITRAL, CITRUS LIMON PEEL OIL, COUMARIN, GERANIOL, GERANYL ACETATE, LIMONENE, LINALOOL, LINALYL ACETATE, MENTHA PIPERITA OIL, MENTHOL, PINENE, ROSE KETONES, TERPINEOL, TERPINOLENE, VANILLIN.\nOceanic Amber Showergel:\nAQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM COCOYL ISETHIONATE, COCO-GLUCOSIDE, GLYCERYL OLEATE, ALOE BARBADENSIS LEAF JUICE POWDER, ALTHAEA OFFICINALIS ROOT EXTRACT, ARGININE, CASTORYL MALEATE, CITRIC ACID, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, HYDROGENATED PALM GLYCERIDES CITRATE, HYDROLYZED WHEAT GLUTEN, LACTIC ACID, POLYQUATERNIUM-7, SODIUM CHLORIDE, SODIUM GLUCONATE, TOCOPHEROL, BENZYL ALCOHOL, IMIDAZOLIDINYL UREA, PHENOXYETHANOL, POTASSIUM SORBATE, SODIUM BENZOATE, SODIUM DEHYDROACETATE, ALPHA-ISOMETHYL IONONE, COUMARIN, LIMONENE, PARFUM/FRAGRANCE.\n938 Conscious yet premium. Complex yet balanced. Classic yet contemporary. Mediterranean-inspired. Fine ingredients-oriented. Dedicated to create fine perfumes with pure raw materials, working together with fragrance houses across the world. KORRES Fragrance is consciously made with natural antioxidant rosemary extract, without PCM, phthalates, and nitro-musks.\n0 As light rays strike the brown transparent glass bottle, an intriguing dance of shadows and amber reflections catches the eye. Minimal design, soft around the edges with a lab-inspired white top, it feels like holding a fragrance bottle of another era; an ode to simplicity of timeless quality. Wrapped in an all-white box, that tells the story of each KORRES scent through its notes. We use 90% recyclable packaging across all our product lines.\nAt KORRES we collect packaging waste and ensure it is transformed and reused. We wish to turn empties into beautiful recycled objects, offering them and us a second chance. Our Recycle Lab is fully operational in Greece, aspiring to expand across the globe.\nOceanic Amber Eau de Toilette\nDanger: highly flammable liquid and vapour. Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking. Keep out of reach of children. External use only. Avoid spraying in eyes. Use for intended purpose only.\n0 true"
-    },
-    "image": "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_1a13388e-6074-49ba-8eb9-85e3c754d455.jpg?v=1774257974&width=1200",
-    "imageFallback": "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_1a13388e-6074-49ba-8eb9-85e3c754d455.jpg?v=1774257974&width=1200",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestmob_1a13388e-6074-49ba-8eb9-85e3c754d455.jpg?v=1774257974&width=1200",
-      "https://cdn.shopify.com/s/files/1/0515/5785/9489/files/quizquestweb_49f5a75f-95de-4b7e-a802-f156ebf4be38.jpg?v=1774257973&width=1200"
-    ],
-    "url": "https://gr.korres.com/el/products/oceanic-amber-eau-de-toilette-showergel",
-    "source": "gr.korres.com",
-    "section": "aromata",
     "matchType": "exact",
     "score": null,
     "review": false
