@@ -6707,5 +6707,21 @@ window.IMAGE_MANIFEST = {
   "HY-antiacnecream": "hydrovit/anti-acne-cream-HY-antiacnecream.jpg",
   "HY-antiacnelotion": "hydrovit/anti-acne-lotion-HY-antiacnelotion.jpg",
   "HY-handcream": "hydrovit/hand-cream-HY-handcream.jpg",
-  "HY-bodymilk": "hydrovit/body-milk-HY-bodymilk.jpg"
+  "HY-bodymilk": "hydrovit/body-milk-HY-bodymilk.jpg",
+  "LC-classic": "lactacyd/classic-LC-classic.png",
+  "LC-sensitive": "lactacyd/sensitive-LC-sensitive.png",
+  "LC-fresh": "lactacyd/fresh-LC-fresh.png",
+  "LC-prebioticplus": "lactacyd/prebiotic-plus-LC-prebioticplus.png",
+  "LC-oxygenfresh": "lactacyd/oxygen-fresh-LC-oxygenfresh.png",
+  "LC-girl": "lactacyd/girl-LC-girl.png",
+  "LC-pharmasensitive": "lactacyd/pharma-sensitive-LC-pharmasensitive.png",
+  "LC-pharmasoothing": "lactacyd/pharma-soothing-LC-pharmasoothing.png",
+  "LC-pharmaprebioticplus": "lactacyd/pharma-prebiotic-plus-LC-pharmaprebioticplus.png",
+  "LC-pharmamoisturising": "lactacyd/pharma-moisturising-LC-pharmamoisturising.png",
+  "LC-pharmawithantibacterialsproperties": "lactacyd/pharma-with-antibacterials-properties-LC-pharmawithantibacterialsproperties.png",
+  "LC-pharmawithantifungalproperties": "lactacyd/pharma-with-antifungal-properties-LC-pharmawithantifungalproperties.png",
+  "LC-pharma40": "lactacyd/pharma-40-LC-pharma40.png",
+  "LC-intimatewipes": "lactacyd/intimate-wipes-LC-intimatewipes.png",
+  "LC-deeplynourishing": "lactacyd/deeply-nourishing-LC-deeplynourishing.png",
+  "LC-deeplymoisturising": "lactacyd/deeply-moisturising-LC-deeplymoisturising.png"
 };

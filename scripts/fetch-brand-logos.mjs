@@ -38,7 +38,8 @@ export const LOGO_SRC = {
   bepanthol: "https://www.bepanthol.gr/el/", eviol: "https://eviol.gr/wp-content/uploads/2025/08/EVIOL-logo-blue_2-350x100.png",
   nuk: "https://www.nuk.gr/static/version1793172922/frontend/Mapa/nuk/default/images/logo_nuk.png",
   // chicco: το chicco.it απορρίπτει (403) το UA «browser» του script· το logo.svg κατέβηκε με curl → images/logos/chicco.svg
-  chicco: "https://www.chicco.it/on/demandware.static/Sites-Chicco-Italy-Site/-/default/dw1ab986ad/images/logo.svg"
+  chicco: "https://www.chicco.it/on/demandware.static/Sites-Chicco-Italy-Site/-/default/dw1ab986ad/images/logo.svg",
+  lactacyd: "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/inline-images/logo-lactacyd-1%201.png?VersionId=Mm.c2ODyFThI9qmtle2nFollWNxI2Ej2"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand

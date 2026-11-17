@@ -719,5 +719,20 @@ window.BRAND_STATS = {
       "noprice": 15,
       "priced": 18
     }
+  },
+  "lactacyd": {
+    "products": 16,
+    "priced": 11,
+    "sections": 4,
+    "modes": {
+      "all": 16,
+      "ok": 16,
+      "issue": 0,
+      "complete": 16,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 5,
+      "priced": 11
+    }
   }
 };

@@ -1,0 +1,14 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές LACTACYD) → προϊόν lactacyd.gr (κλειδί LC-<τίτλος>· το site δεν δίνει EAN ούτε συσκευασία — η συσκευασία έρχεται από τη Medica). Daily Lotion 300ml = Classic (εικόνα «Daily» στη σελίδα). Pharma Ultra Moisturizing = Pharma Ενυδάτωση Μακράς Διάρκειας 40+ (εικόνα «Moisturizing_Plus»). Χωρίς γραμμή στη Medica: Sensitive, Fresh, Prebiotic Plus, Oxygen Fresh, Girl (καθημερινή σειρά).",
+  "5391520942549": "LC-classic",
+  "5391520942426": "LC-pharmasensitive",
+  "5391520942433": "LC-pharmasoothing",
+  "5391520949593": "LC-pharmaprebioticplus",
+  "5391520942419": "LC-pharmamoisturising",
+  "5391520942402": "LC-pharmawithantibacterialsproperties",
+  "5391520945816": "LC-pharmawithantifungalproperties",
+  "5400951990965": "LC-pharma40",
+  "8470001744401": "LC-intimatewipes",
+  "5400951990897": "LC-deeplynourishing",
+  "5400951990873": "LC-deeplymoisturising"
+}

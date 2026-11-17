@@ -38,5 +38,6 @@ window.BRAND_LOGOS = {
   "quest": "images/logos/quest.jpg",
   "eviol": "images/logos/eviol.png",
   "nuk": "images/logos/nuk.png",
-  "chicco": "images/logos/chicco.svg"
+  "chicco": "images/logos/chicco.svg",
+  "lactacyd": "images/logos/lactacyd.png"
 };
