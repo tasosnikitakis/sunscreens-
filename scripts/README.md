@@ -496,6 +496,12 @@ Summerline/Winter Herbs, Kaiser, X-Med, Dalee …). Η Medica έχει τα Kais
 με το όνομα στο `js/medisei-manual-matches.json` (+ Milder Salbei → Waldhonig Salbei, Sugar Scrub Gel → Coffee & Sugar Scrub).
 Εκτός: τα βερνίκια νυχιών Dalee (Gel Effect, Top Coat) — απόφαση χρήστη.
 
+`scripts/scrape-isdin.mjs` (ISDIN, **isdin.gr** — WooCommerce/Woodmart, διανομή ΥΓΕΙΑΣΗ Α.Ε., χωρίς EAN και τιμές): λίστα από το Store API
+(σειρά = Woo «brand»: Fotoprotector, Foto Ultra, Pediatrics, Eryfotona, Isdinceutics, Acniben, Ureadin …). Σελίδα: σύντομη περιγραφή +
+`ul.mysite-feature-list` (εικονίδια: icon-ml = συσκευασία/τύπος, icon-sun = SPF, icon-human = τύπος δέρματος, icon-heart = ενδείξεις,
+icon-ingredients = βασικά συστατικά) + modals «Πλήρης Σύνθεση (INCI)», «Προφυλάξεις», «Τρόπος Χρήσης». Κλειδί `IS-<slug>`·
+η σελίδα-οικογένεια «CC+ CREAMS» εκτός (οι αποχρώσεις υπάρχουν χωριστά). Η Medica έχει μόνο 6 γραμμές ISDIN → `js/isdin-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

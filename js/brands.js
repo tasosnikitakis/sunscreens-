@@ -418,6 +418,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Medisei", imageDir: "medisei", sourceKey: "_mediseiSource",
     fallbackDesc: "Προϊόν Medisei — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Βασικά συστατικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  isdin: {
+    key: "isdin", name: "ISDIN", host: "isdin.gr", page: "isdin.html",
+    icon: "☀️", initials: "IS", accent: "#1d4ed8", keepCaps: true,
+    sheetName: "ISDIN", imageDir: "isdin", sourceKey: "_isdinSource",
+    fallbackDesc: "Προϊόν ISDIN — {name}",
+    exportSections: ["Περιγραφή", "Κατάλληλο για", "Ενδείξεις", "Χαρακτηριστικά", "Βασικά συστατικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 

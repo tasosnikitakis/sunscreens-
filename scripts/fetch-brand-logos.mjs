@@ -50,7 +50,8 @@ export const LOGO_SRC = {
   zwitter: "https://zwitter.gr/wp-content/uploads/2024/09/ZWITTER-LOGO.png",
   helenvision: "https://helenvision.gr/wp-content/uploads/2025/12/LOGO-HELENVISION-400x107.webp",
   sostar: "https://www.sostar.gr/",
-  medisei: "https://www.medisei.gr/el/"
+  medisei: "https://www.medisei.gr/el/",
+  isdin: "https://isdin.gr/"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
