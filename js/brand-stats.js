@@ -854,5 +854,20 @@ window.BRAND_STATS = {
       "noprice": 31,
       "priced": 27
     }
+  },
+  "medisei": {
+    "products": 204,
+    "priced": 10,
+    "sections": 7,
+    "modes": {
+      "all": 204,
+      "ok": 204,
+      "issue": 0,
+      "complete": 204,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 194,
+      "priced": 10
+    }
   }
 };

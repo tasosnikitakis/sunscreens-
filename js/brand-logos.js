@@ -47,5 +47,6 @@ window.BRAND_LOGOS = {
   "alcon": "images/logos/alcon.png",
   "zwitter": "images/logos/zwitter.webp",
   "helenvision": "images/logos/helenvision.webp",
-  "sostar": "images/logos/sostar.png"
+  "sostar": "images/logos/sostar.png",
+  "medisei": "images/logos/medisei.png"
 };

@@ -1,0 +1,23 @@
+{
+  "_comment": "Medisei: το site δίνει το EAN (gtin13 στο JSON-LD) → ακριβές match με τη Medica. Εδώ μόνο όσα η Medica έχει με παλιότερο/εισαγωγής barcode (Kaiser 4017200…/9000154…, Winter Herbs) → EAN σελίδας. null = χωρίς σελίδα ή διαφορετικό προϊόν (Kaiser Milder Salbei, Salbei-Zitronenmelisse, Grüne Minze Lime· Summerline Aloe Gel/Cream/Stick After Bite· Panthenol Extra Aloe Gel, Baby, CC Cream, Sugar Scrub Gel, Black Peel Off, Green Clay· σύστημα καθαρισμού).",
+  "9000154081543": "5200312221109",
+  "4017200082633": "5200312221130",
+  "4017200081117": "5200312221154",
+  "5200312263000": "5200312263017",
+  "4017200081124": null,
+  "4017200081001": null,
+  "4017200082688": null,
+  "5200312240094": null,
+  "5200312240100": null,
+  "5200312240018": null,
+  "5200312241138": null,
+  "5200312243507": null,
+  "5200312243538": null,
+  "5200312241428": null,
+  "5200312241480": null,
+  "5200312243743": null,
+  "5200312243736": null,
+  "5200312241541": null,
+  "5200312242173": null,
+  "020251643429": null
+}
