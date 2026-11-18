@@ -502,6 +502,12 @@ Summerline/Winter Herbs, Kaiser, X-Med, Dalee …). Η Medica έχει τα Kais
 icon-ingredients = βασικά συστατικά) + modals «Πλήρης Σύνθεση (INCI)», «Προφυλάξεις», «Τρόπος Χρήσης». Κλειδί `IS-<slug>`·
 η σελίδα-οικογένεια «CC+ CREAMS» εκτός (οι αποχρώσεις υπάρχουν χωριστά). Η Medica έχει μόνο 6 γραμμές ISDIN → `js/isdin-manual-matches.json`.
 
+`scripts/scrape-altion.mjs` (ALTION / ΒΙΑΝΕΞ, **www.altion.gr** — Joomla, χωρίς sitemap/EAN/τιμές): λίστα από το μενού «Ανάγκες υγείας»
+της αρχικής + `/altion-kids` (οι ανάγκες → «Κατάλληλο για»). Σελίδα `div.product`: εικόνα συσκευασίας (.product-image), περιγραφή,
+οφέλη (.product-features h3), καρτέλες «Συστατικά» (συνήθως μόνο εικόνα πίνακα) / «Τρόπος Λήψης» (+ «Συσκευασία: … - Με γεύση …»),
+σημειώσεις ΕΟΦ (αρ. γνωστοποίησης). Το D3 Sticks (μία σελίδα, 1000 & 2000 I.U.) → 2 εγγραφές. Κλειδί `AL-<slug>`·
+15 γραμμές Medica στο `js/altion-manual-matches.json` (Tonovit 40 softcaps, Lacticus 10 caps, Vit-C+Zinc, Winter χωρίς σελίδα).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
