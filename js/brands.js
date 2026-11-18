@@ -397,6 +397,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Zwitter", imageDir: "zwitter", sourceKey: "_zwitterSource",
     fallbackDesc: "Προϊόν Zwitter — {name}",
     exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Οφέλη", "Χρήση", "Προφυλάξεις"]
+  },
+  helenvision: {
+    key: "helenvision", name: "Helenvision", host: "helenvision.gr", page: "helenvision.html",
+    icon: "👁️", initials: "HV", accent: "#6d28d9", keepCaps: true,
+    sheetName: "Helenvision", imageDir: "helenvision", sourceKey: "_helenvisionSource",
+    fallbackDesc: "Προϊόν Helenvision — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 

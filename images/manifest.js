@@ -6811,5 +6811,18 @@ window.IMAGE_MANIFEST = {
   "ZW-hylopanlipo": "zwitter/hylopan-lipo-ZW-hylopanlipo.jpg",
   "ZW-vitadex": "zwitter/vitadex-ZW-vitadex.jpg",
   "ZW-omk2": "zwitter/omk2-ZW-omk2.jpg",
-  "ZW-triadecremagel": "zwitter/triade-cremagel-ZW-triadecremagel.jpg"
+  "ZW-triadecremagel": "zwitter/triade-cremagel-ZW-triadecremagel.jpg",
+  "5213010813972": "helenvision/meni-sept-5213010813972.png",
+  "5213010813682": "helenvision/duo-wipes-5213010813682.png",
+  "5213010813644": "helenvision/lid-protect-5213010813644.png",
+  "5213010813637": "helenvision/lid-gel-5213010813637.png",
+  "5213010813620": "helenvision/lid-pads-5213010813620.png",
+  "5213010813491": "helenvision/vit-a-ointment-5213010813491.png",
+  "5213010813668": "helenvision/shield-5213010813668.png",
+  "5213010813453": "helenvision/balance-5213010813453.png",
+  "5213010813460": "helenvision/dual-5213010813460.png",
+  "5213010813422": "helenvision/ultra-5213010813422.png",
+  "5213010813477": "helenvision/max-5213010813477.png",
+  "5213010813484": "helenvision/pure-5213010813484.png",
+  "8057729510909": "helenvision/lite-8057729510909.png"
 };
