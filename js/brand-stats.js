@@ -869,5 +869,20 @@ window.BRAND_STATS = {
       "noprice": 146,
       "priced": 12
     }
+  },
+  "isdin": {
+    "products": 89,
+    "priced": 6,
+    "sections": 6,
+    "modes": {
+      "all": 89,
+      "ok": 89,
+      "issue": 0,
+      "complete": 89,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 83,
+      "priced": 6
+    }
   }
 };

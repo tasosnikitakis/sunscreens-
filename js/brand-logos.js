@@ -48,5 +48,6 @@ window.BRAND_LOGOS = {
   "zwitter": "images/logos/zwitter.webp",
   "helenvision": "images/logos/helenvision.webp",
   "sostar": "images/logos/sostar.png",
-  "medisei": "images/logos/medisei.png"
+  "medisei": "images/logos/medisei.png",
+  "isdin": "images/logos/isdin.png"
 };
