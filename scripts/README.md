@@ -477,6 +477,10 @@ text-editor widgets → υπότιτλος, «Ιατροτεχνολογικό �
 «20 μονοδόσεις × 0,5ml»)· Salz 5% χειροκίνητα (Medica «50*0,50ML»). 9 γραμμές Medica στο `js/zwitter-manual-matches.json`.
 **Σημ. για νέα brands:** για άτομα με ελληνικά χωρίς `\b` στο JS (μη-ASCII) χρησιμοποιήστε `(?!\p{L})` με σημαία `u`.
 
+`scripts/scrape-helenvision.mjs` (Helenvision, **helenvision.gr** — WooCommerce): όλα από ένα αίτημα στο Store API. short_description =
+«συσκευασία» (1η γραμμή) + περιγραφή· description = ενότητες «ΟΦΕΛΗ / ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ / ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ / ΣΥΝΘΕΣΗ / ΠΡΟΕΙΔΟΠΟΙΗΣΕΙΣ» και
+**«BARCODE: …» = πραγματικό EAN** → ακριβές match με τη Medica (11/11, χωρίς manual matches). Meni-Sept = «MENI SOFT 100ML» της Medica (ίδιο EAN).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

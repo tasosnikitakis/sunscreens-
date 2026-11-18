@@ -45,5 +45,6 @@ window.BRAND_LOGOS = {
   "neilmed": "images/logos/neilmed.png",
   "bausch": "images/logos/bausch.svg",
   "alcon": "images/logos/alcon.png",
-  "zwitter": "images/logos/zwitter.webp"
+  "zwitter": "images/logos/zwitter.webp",
+  "helenvision": "images/logos/helenvision.webp"
 };

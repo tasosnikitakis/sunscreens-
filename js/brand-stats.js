@@ -824,5 +824,20 @@ window.BRAND_STATS = {
       "noprice": 5,
       "priced": 8
     }
+  },
+  "helenvision": {
+    "products": 13,
+    "priced": 12,
+    "sections": 4,
+    "modes": {
+      "all": 13,
+      "ok": 13,
+      "issue": 0,
+      "complete": 13,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 1,
+      "priced": 12
+    }
   }
 };

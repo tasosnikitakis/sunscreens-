@@ -47,7 +47,8 @@ export const LOGO_SRC = {
   // alcon: το λογότυπο του site είναι λευκό (footer) → images/logos/alcon.png = ίδιο αρχείο χρωματισμένο #003595 με ImageMagick
   // (convert alcon-logo-see2.png -fill '#003595' -colorize 100 alcon.png)· μην το ξανατρέξετε με --only=alcon.
   alcon: "https://www.myalcon.com/gr/sites/g/files/rbvwei3081/files/alcon-logo-see2.png",
-  zwitter: "https://zwitter.gr/wp-content/uploads/2024/09/ZWITTER-LOGO.png"
+  zwitter: "https://zwitter.gr/wp-content/uploads/2024/09/ZWITTER-LOGO.png",
+  helenvision: "https://helenvision.gr/wp-content/uploads/2025/12/LOGO-HELENVISION-400x107.webp"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
