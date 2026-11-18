@@ -369,6 +369,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Physiomer", imageDir: "physiomer", sourceKey: "_physiomerSource",
     fallbackDesc: "Ρινικό διάλυμα Physiomer — {name}",
     exportSections: ["Περιγραφή", "Ενδείξεις", "Κατάλληλο για", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  neilmed: {
+    key: "neilmed", name: "NeilMed", host: "sinusrinse.gr", page: "neilmed.html",
+    icon: "💦", initials: "NM", accent: "#1d4ed8", keepCaps: true,
+    sheetName: "NeilMed", imageDir: "neilmed", sourceKey: "_neilmedSource",
+    fallbackDesc: "Προϊόν ρινικής φροντίδας NeilMed — {name}",
+    exportSections: ["Περιγραφή", "Κατάλληλο για", "Χρήση", "Συστατικά"]
   }
 };
 

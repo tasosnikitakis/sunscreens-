@@ -764,5 +764,20 @@ window.BRAND_STATS = {
       "noprice": 2,
       "priced": 13
     }
+  },
+  "neilmed": {
+    "products": 9,
+    "priced": 9,
+    "sections": 3,
+    "modes": {
+      "all": 9,
+      "ok": 9,
+      "issue": 0,
+      "complete": 9,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 0,
+      "priced": 9
+    }
   }
 };

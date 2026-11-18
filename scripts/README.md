@@ -450,6 +450,11 @@ POST `index.php?route=module/language` (`language_code=gr`) με το cookie τ�
 **Πολλά barcode Medica σε ένα κλειδί** (νέα GR/IT + παλιά συσκευασία): το `build-brand-supplier` δέχεται πλέον στο
 `manual-matches.json` πολλές γραμμές με την ίδια τιμή-κλειδί — η τιμή από την πρώτη που υπάρχει στη Medica, όλα μπαίνουν στα variants.
 
+`scripts/scrape-neilmed.mjs` (NeilMed, **www.sinusrinse.gr** — WordPress του Έλληνα διανομέα, χωρίς EAN): 9 προϊόντα από το
+`product-sitemap.xml`· περιγραφή, «ΓΙΑ ΝΗΠΙΑ/ΠΑΙΔΙΑ/ΕΝΗΛΙΚΕΣ», «Δοσολογία», «Συστατικά» (ΚΕΦΑΛΑΙΑ → πεζά με τόνους μέσω λεξικού),
+PDF φύλλου οδηγιών. Τα Refill παίρνουν και την περιγραφή του αντίστοιχου kit (το site έχει μία φράση). Κλειδιά `NM-<slug>`,
+9 γραμμές Medica (Kit 10/60 ενηλίκων = «SINUSRINSE KIT FESS 10/60»)· NasaMist, PediaMist, Airmax κ.ά. δεν έχουν σελίδα.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
