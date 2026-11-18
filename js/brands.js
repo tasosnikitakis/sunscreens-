@@ -390,6 +390,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Alcon", imageDir: "alcon", sourceKey: "_alconSource",
     fallbackDesc: "Προϊόν Alcon — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  zwitter: {
+    key: "zwitter", name: "Zwitter", host: "zwitter.gr", page: "zwitter.html",
+    icon: "👁️", initials: "ZW", accent: "#0f766e", keepCaps: true,
+    sheetName: "Zwitter", imageDir: "zwitter", sourceKey: "_zwitterSource",
+    fallbackDesc: "Προϊόν Zwitter — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Οφέλη", "Χρήση", "Προφυλάξεις"]
   }
 };
 

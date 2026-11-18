@@ -809,5 +809,20 @@ window.BRAND_STATS = {
       "noprice": 1,
       "priced": 7
     }
+  },
+  "zwitter": {
+    "products": 13,
+    "priced": 8,
+    "sections": 5,
+    "modes": {
+      "all": 13,
+      "ok": 13,
+      "issue": 0,
+      "complete": 13,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 5,
+      "priced": 8
+    }
   }
 };

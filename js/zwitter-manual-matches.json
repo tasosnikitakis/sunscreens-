@@ -1,0 +1,12 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές ZWITTER) → προϊόν zwitter.gr (κλειδί ZW-<slug>· το site δεν δίνει EAN). Hyalovet 0,15%: δύο γραμμές (30 × 0,35ml και παλιά 20 × 0,35) → η σελίδα δείχνει 30 μονοδόσεις· τιμή από την πρώτη. Χωρίς γραμμή στη Medica: Hylopan Lipo, Lidblef Intensive Care, Neukron Ofta Mese, OMK2, Xytea.",
+  "5200416700166": "ZW-hyalovet",
+  "5200416700012": "ZW-hyalovet",
+  "5200416700029": "ZW-hyalovetgel",
+  "5200416700111": "ZW-hylopanmax",
+  "5200416700036": "ZW-hylopan",
+  "3760332910138": "ZW-lidblefdailycare",
+  "5200416700043": "ZW-salz5",
+  "5200416700081": "ZW-triadecremagel",
+  "5200416700074": "ZW-vitadex"
+}
