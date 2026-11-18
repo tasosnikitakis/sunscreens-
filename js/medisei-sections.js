@@ -6,6 +6,6 @@ window.MEDISEI_SECTION_LABELS = {
   "kaiser":    { name: "Kaiser — Καραμέλες λαιμού, σιρόπια, βιταμίνες", icon: "🍬", accent: "#b45309" },
   "xmed":      { name: "X-Med — Επιδεσμικό υλικό, τσιρότα, γάζες", icon: "🩹", accent: "#dc2626" },
   "hygiene":   { name: "Medi Mask, Microbe End, Primo Test, Dills — Μάσκες, αντισηπτικά, τεστ, πεπτικό", icon: "🧪", accent: "#475569" },
-  "dalee":     { name: "Dalee — Βερνίκια νυχιών & αξεσουάρ", icon: "💅", accent: "#db2777" },
+  "dalee":     { name: "Dalee — Περιποίηση νυχιών & αξεσουάρ μαλλιών", icon: "💅", accent: "#db2777" },
   "diafora":   { name: "Λοιπά προϊόντα Medisei", icon: "📦", accent: "#64748b" }
 };

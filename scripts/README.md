@@ -493,7 +493,8 @@ text-editor widgets → υπότιτλος, «Ιατροτεχνολογικό �
 εικόνες → thickbox_default), `.product-miligram` (συσκευασία), `.product-extra-attribute` (βασικά συστατικά), καρτέλες «Περιγραφή»
 («Κύρια Συστατικά:» / «Οφέλη:»), «Χρήση», «Συστατικά» («Προφυλάξεις:»). Ενότητες καταλόγου ανά μάρκα (Panthenol Extra, Time Eraser,
 Summerline/Winter Herbs, Kaiser, X-Med, Dalee …). Η Medica έχει τα Kaiser με γερμανικά barcode (4017200…/9000154…) → 4 αντιστοιχίσεις
-με το όνομα στο `js/medisei-manual-matches.json`.
+με το όνομα στο `js/medisei-manual-matches.json` (+ Milder Salbei → Waldhonig Salbei, Sugar Scrub Gel → Coffee & Sugar Scrub).
+Εκτός: τα βερνίκια νυχιών Dalee (Gel Effect, Top Coat) — απόφαση χρήστη.
 
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
