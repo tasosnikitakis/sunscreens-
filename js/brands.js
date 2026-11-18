@@ -411,6 +411,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Sostar", imageDir: "sostar", sourceKey: "_sostarSource",
     fallbackDesc: "Καλλυντικό Sostar — {name}",
     exportSections: ["Περιγραφή", "Βασικό συστατικό", "Χρήση"]
+  },
+  medisei: {
+    key: "medisei", name: "Medisei", host: "medisei.gr", page: "medisei.html",
+    icon: "🩹", initials: "MS", accent: "#0369a1", keepCaps: true,
+    sheetName: "Medisei", imageDir: "medisei", sourceKey: "_mediseiSource",
+    fallbackDesc: "Προϊόν Medisei — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Βασικά συστατικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 

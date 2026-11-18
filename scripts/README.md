@@ -488,6 +488,13 @@ text-editor widgets → υπότιτλος, «Ιατροτεχνολογικό �
 Εικόνα: το og:image (600x315) → η 1000x1000 παραλλαγή του ίδιου αρχείου. 28 γραμμές Medica στο `js/sostar-manual-matches.json`
 (όνομα + συσκευασία)· η σειρά Λιβάνι & Baobab δεν έχει σελίδα.
 
+`scripts/scrape-medisei.mjs` (Medisei, **www.medisei.gr/el** — PrestaShop): λίστα από το `1_el_0_sitemap.xml` (μόνο «φύλλα»· εκτός
+`/set-dora/` = κοσμήματα/κεριά/σετ δώρων και σετ/πακέτα). Σελίδα: JSON-LD Product (όνομα, **gtin13 = EAN**, sku, μάρκα, κατηγορία, τιμή,
+εικόνες → thickbox_default), `.product-miligram` (συσκευασία), `.product-extra-attribute` (βασικά συστατικά), καρτέλες «Περιγραφή»
+(«Κύρια Συστατικά:» / «Οφέλη:»), «Χρήση», «Συστατικά» («Προφυλάξεις:»). Ενότητες καταλόγου ανά μάρκα (Panthenol Extra, Time Eraser,
+Summerline/Winter Herbs, Kaiser, X-Med, Dalee …). Η Medica έχει τα Kaiser με γερμανικά barcode (4017200…/9000154…) → 4 αντιστοιχίσεις
+με το όνομα στο `js/medisei-manual-matches.json`.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,
