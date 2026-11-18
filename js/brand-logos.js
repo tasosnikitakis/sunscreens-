@@ -43,5 +43,6 @@ window.BRAND_LOGOS = {
   "elladent": "images/logos/elladent.png",
   "physiomer": "images/logos/physiomer.png",
   "neilmed": "images/logos/neilmed.png",
-  "bausch": "images/logos/bausch.svg"
+  "bausch": "images/logos/bausch.svg",
+  "alcon": "images/logos/alcon.png"
 };

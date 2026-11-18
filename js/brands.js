@@ -383,6 +383,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Bausch + Lomb", imageDir: "bausch", sourceKey: "_bauschSource",
     fallbackDesc: "Προϊόν Bausch + Lomb — {name}",
     exportSections: ["Περιγραφή", "Ενδείξεις", "Κατάλληλο για", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  alcon: {
+    key: "alcon", name: "Alcon", host: "systane.myalcon.com", page: "alcon.html",
+    icon: "👁️", initials: "AL", accent: "#1e3a8a", keepCaps: true,
+    sheetName: "Alcon", imageDir: "alcon", sourceKey: "_alconSource",
+    fallbackDesc: "Προϊόν Alcon — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
