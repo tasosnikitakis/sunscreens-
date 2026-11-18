@@ -856,18 +856,18 @@ window.BRAND_STATS = {
     }
   },
   "medisei": {
-    "products": 204,
-    "priced": 10,
+    "products": 158,
+    "priced": 12,
     "sections": 7,
     "modes": {
-      "all": 204,
-      "ok": 204,
+      "all": 158,
+      "ok": 158,
       "issue": 0,
-      "complete": 204,
+      "complete": 158,
       "incomplete": 0,
       "nopage": 0,
-      "noprice": 194,
-      "priced": 10
+      "noprice": 146,
+      "priced": 12
     }
   }
 };

@@ -2,7 +2,7 @@
 // scripts/scrape-medisei.mjs
 // Medisei (ελληνική εταιρία/διανομέας: Panthenol Extra, Time Eraser, Summerline, Winter Herbs, X-Med, Kaiser, Dills,
 // Medi-Mask, Microbe-End, Primo Test, Dalee …) = www.medisei.gr — PrestaShop (iqit theme).
-// Λίστα: 1_el_0_sitemap.xml → «φύλλα» (URLs που δεν είναι πρόθεμα άλλων). ΕΚΤΟΣ: /set-dora/ (κοσμήματα, κεριά, σετ δώρων),
+// Λίστα: 1_el_0_sitemap.xml → «φύλλα» (URLs που δεν είναι πρόθεμα άλλων). ΕΚΤΟΣ: /set-dora/ (κοσμήματα, κεριά, σετ δώρων), βερνίκια νυχιών Dalee,
 // σετ/πακέτα (URL ή όνομα «σετ/set»), /content/.
 // Σελίδα: JSON-LD Product (όνομα, gtin13 = EAN, sku, brand, category, τιμή, εικόνες) · .product-miligram (συσκευασία) ·
 //   .product-extra-attribute (βασικά συστατικά) · .product-extra-list-attribute li (χαρακτηριστικά) ·
@@ -36,6 +36,7 @@ const toLines = h => decodeAll(String(h || "").replace(/<(br|\/?p|\/?div|\/?li|\
 const eanOk = s => { if (!/^\d{13}$/.test(s)) return false; const d = s.split("").map(Number); return (10 - d.slice(0, 12).reduce((a, x, i) => a + x * (i % 2 ? 3 : 1), 0) % 10) % 10 === d[12]; };
 const EXCLUDE_URL = /\/(set-dora|content)\/|\/set-|\/σετ-/i;
 const EXCLUDE_NAME = /\bσετ\b|\bset\b|\bπακέτο\b|δώρο|gift/i;
+const EXCLUDE_POLISH = /Gel Effect|Top Coat/i;   // βερνίκια νυχιών Dalee: εκτός καταλόγου (απόφαση χρήστη)
 
 export function extractMediseiDetails(url, raw) {
   const d = { attributes: {}, tabs: {}, keyFacts: [], images: [], variants: [], advantages: [] };
@@ -110,6 +111,7 @@ async function main() {
     const d = extractMediseiDetails(u, html);
     if (!d.title || (!d.ean && !d.sku)) { skipped.push(`χωρίς προϊόν (σελίδα κατηγορίας): ${u}`); continue; }
     if (EXCLUDE_NAME.test(d.title)) { skipped.push(`σετ/δώρο: ${d.title}`); continue; }
+    if (/Dalee/i.test(d.brand || "") && EXCLUDE_POLISH.test(d.title)) { skipped.push(`βερνίκι νυχιών: ${d.title}`); continue; }
     if (d.isMedicine) { skipped.push(`φάρμακο: ${d.title}`); continue; }
     if (out.some(o => o.gtin === d.gtin)) { skipped.push(`διπλό ${d.gtin}: ${d.title}`); continue; }
     out.push({ url: u, section: "p", name: d.title, description: (d.description || "").slice(0, 700), longDescription: d.description, subtitle: d.subtitle, details: d, image: d.images[0] || null, gtin: d.gtin });
