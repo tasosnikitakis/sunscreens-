@@ -404,6 +404,13 @@ window.BRAND_CATALOGS = {
     sheetName: "Helenvision", imageDir: "helenvision", sourceKey: "_helenvisionSource",
     fallbackDesc: "Προϊόν Helenvision — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  sostar: {
+    key: "sostar", name: "Sostar", host: "sostar.gr", page: "sostar.html",
+    icon: "🥛", initials: "SO", accent: "#b45309",
+    sheetName: "Sostar", imageDir: "sostar", sourceKey: "_sostarSource",
+    fallbackDesc: "Καλλυντικό Sostar — {name}",
+    exportSections: ["Περιγραφή", "Βασικό συστατικό", "Χρήση"]
   }
 };
 
