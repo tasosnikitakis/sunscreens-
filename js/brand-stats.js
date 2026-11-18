@@ -794,5 +794,20 @@ window.BRAND_STATS = {
       "noprice": 8,
       "priced": 18
     }
+  },
+  "alcon": {
+    "products": 8,
+    "priced": 7,
+    "sections": 3,
+    "modes": {
+      "all": 8,
+      "ok": 8,
+      "issue": 0,
+      "complete": 8,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 1,
+      "priced": 7
+    }
   }
 };

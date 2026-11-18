@@ -43,7 +43,10 @@ export const LOGO_SRC = {
   elladent: "https://www.elladent.gr/image/data/New-final-logo-black.png",
   physiomer: "https://s3.eu-west-3.amazonaws.com/perrigo.com/dev-centralbrandmasterr-assets/inline-images/Physiomer_logo.png?VersionId=cmenuoYUNV8VWOOrbRrkaMG2zCFM8c4o",
   neilmed: "https://www.sinusrinse.gr/wp-content/themes/nemesys/assets/images/LOGO_SINUSRINSE_NEILMED_V3.png",
-  bausch: "https://www.bausch.gr/siteassets/img/logo-crop.svg"
+  bausch: "https://www.bausch.gr/siteassets/img/logo-crop.svg",
+  // alcon: το λογότυπο του site είναι λευκό (footer) → images/logos/alcon.png = ίδιο αρχείο χρωματισμένο #003595 με ImageMagick
+  // (convert alcon-logo-see2.png -fill '#003595' -colorize 100 alcon.png)· μην το ξανατρέξετε με --only=alcon.
+  alcon: "https://www.myalcon.com/gr/sites/g/files/rbvwei3081/files/alcon-logo-see2.png"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand

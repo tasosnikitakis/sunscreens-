@@ -13111,5 +13111,23 @@
   "BL-cebrolux": "bausch/cebrolux-nf-neurofactor-BL-cebrolux.jpg",
   "BL-countercoolgel": "bausch/countercool-gel-BL-countercoolgel.png",
   "BL-countercoolspray": "bausch/countercool-spray-BL-countercoolspray.png",
-  "BL-artelacnasalectoin": "bausch/artelac-ectoin-nasal-BL-artelacnasalectoin.png"
+  "BL-artelacnasalectoin": "bausch/artelac-ectoin-nasal-BL-artelacnasalectoin.png",
+  "_alconSource": {
+    "AL-completepreservativefree": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Complete-pf-packshot-banner-GR-new.jpg",
+    "AL-ultrapreservativefree10ml": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Ultra-pf-packshot-banner-GR-new.jpg",
+    "AL-ultrapreservativefreeud30": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Ultra-pf-packshot-banner-GR-new.jpg",
+    "AL-hydrationpreservativefree10ml": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Hydration-pf-packshot-banner-GR-new.jpg",
+    "AL-hydrationpreservativefreeud30": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Hydration-pf-packshot-banner-GR-new.jpg",
+    "AL-balance": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Balance-packshot-banner-GR-new.jpg",
+    "AL-geldrops": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Gel-drops-packshot-banner-GR-new.jpg",
+    "AL-eyelidwipes": "https://systane.myalcon.com/sites/g/files/rbvwei3936/files/Systane-Lid-Wipes-packshot-banner-GR-new.jpg"
+  },
+  "AL-completepreservativefree": "alcon/systane-complete-AL-completepreservativefree.jpg",
+  "AL-ultrapreservativefree10ml": "alcon/systane-ultra-AL-ultrapreservativefree10ml.jpg",
+  "AL-ultrapreservativefreeud30": "alcon/systane-ultra-AL-ultrapreservativefreeud30.jpg",
+  "AL-hydrationpreservativefree10ml": "alcon/systane-hydration-AL-hydrationpreservativefree10ml.jpg",
+  "AL-hydrationpreservativefreeud30": "alcon/systane-hydration-AL-hydrationpreservativefreeud30.jpg",
+  "AL-balance": "alcon/systane-balance-AL-balance.jpg",
+  "AL-geldrops": "alcon/systane-gel-drops-AL-geldrops.jpg",
+  "AL-eyelidwipes": "alcon/systane-lid-wipes-AL-eyelidwipes.jpg"
 }

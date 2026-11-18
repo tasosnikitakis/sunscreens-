@@ -1,0 +1,18 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές ALCON/SYSTANE) → προϊόν systane.myalcon.com/gr (κλειδί AL-<slug>[10ml|ud30]· το site δεν δίνει EAN). Ultra MPDF 10ml = Ultra χωρίς συντηρητικά (φιάλη PureFlow). null: Systane Complete & Ultra 10ml ΜΕ συντηρητικό (το ελληνικό site έχει μόνο τις εκδόσεις χωρίς συντηρητικά), Opti-Free Express (χωρίς ελληνική σελίδα), Tears Naturale (χωρίς σελίδα), promo -30%.",
+  "300651509960": "AL-completepreservativefree",
+  "300652507279": "AL-ultrapreservativefree10ml",
+  "3700028501189": "AL-ultrapreservativefreeud30",
+  "300652510330": "AL-hydrationpreservativefree10ml",
+  "300652433240": "AL-balance",
+  "0300650454964": "AL-geldrops",
+  "0300658052148": "AL-eyelidwipes",
+  "300656144388": null,
+  "300656144067": null,
+  "0300650481465": null,
+  "8427324859596": null,
+  "300650416702": null,
+  "8427324895372": null,
+  "5206892300036": null,
+  "5206892300029": null
+}

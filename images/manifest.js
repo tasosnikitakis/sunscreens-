@@ -6790,5 +6790,13 @@ window.IMAGE_MANIFEST = {
   "BL-cebrolux": "bausch/cebrolux-nf-neurofactor-BL-cebrolux.jpg",
   "BL-countercoolgel": "bausch/countercool-gel-BL-countercoolgel.png",
   "BL-countercoolspray": "bausch/countercool-spray-BL-countercoolspray.png",
-  "BL-artelacnasalectoin": "bausch/artelac-ectoin-nasal-BL-artelacnasalectoin.png"
+  "BL-artelacnasalectoin": "bausch/artelac-ectoin-nasal-BL-artelacnasalectoin.png",
+  "AL-completepreservativefree": "alcon/systane-complete-AL-completepreservativefree.jpg",
+  "AL-ultrapreservativefree10ml": "alcon/systane-ultra-AL-ultrapreservativefree10ml.jpg",
+  "AL-ultrapreservativefreeud30": "alcon/systane-ultra-AL-ultrapreservativefreeud30.jpg",
+  "AL-hydrationpreservativefree10ml": "alcon/systane-hydration-AL-hydrationpreservativefree10ml.jpg",
+  "AL-hydrationpreservativefreeud30": "alcon/systane-hydration-AL-hydrationpreservativefreeud30.jpg",
+  "AL-balance": "alcon/systane-balance-AL-balance.jpg",
+  "AL-geldrops": "alcon/systane-gel-drops-AL-geldrops.jpg",
+  "AL-eyelidwipes": "alcon/systane-lid-wipes-AL-eyelidwipes.jpg"
 };
