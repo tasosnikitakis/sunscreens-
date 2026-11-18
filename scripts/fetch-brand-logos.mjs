@@ -51,13 +51,14 @@ export const LOGO_SRC = {
   helenvision: "https://helenvision.gr/wp-content/uploads/2025/12/LOGO-HELENVISION-400x107.webp",
   sostar: "https://www.sostar.gr/",
   medisei: "https://www.medisei.gr/el/",
-  isdin: "https://isdin.gr/"
+  isdin: "https://isdin.gr/",
+  altion: "https://www.altion.gr/"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
 const NO_LOGO = new Set(["gehwol", "corega", "sensodyne", "hydrovit"]);   // hydrovit: το targetpharma.gr έχει το λογότυπο μόνο μέσα σε φωτογραφία
 // προτιμώμενη λέξη στο όνομα αρχείου/alt (όταν η σελίδα έχει πολλά logos, π.χ. διανομείς)
-const HINT = { sebamed: /sebamed/i, gehwol: /gehwol/i, corega: /corega/i, sensodyne: /sensodyne/i, quest: /quest/i, pforal: /elgydium|pierre|oral/i };
+const HINT = { sebamed: /sebamed/i, gehwol: /gehwol/i, corega: /corega/i, sensodyne: /sensodyne/i, quest: /quest/i, pforal: /elgydium|pierre|oral/i, altion: /altion/i };
 
 const abs = (u, base) => { try { return new URL(u.replace(/&amp;/g, "&"), base).href; } catch { return null; } };
 async function getHtml(url, useBrowser) {

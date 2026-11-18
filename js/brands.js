@@ -425,6 +425,13 @@ window.BRAND_CATALOGS = {
     sheetName: "ISDIN", imageDir: "isdin", sourceKey: "_isdinSource",
     fallbackDesc: "Προϊόν ISDIN — {name}",
     exportSections: ["Περιγραφή", "Κατάλληλο για", "Ενδείξεις", "Χαρακτηριστικά", "Βασικά συστατικά", "Χρήση", "Συστατικά", "Προφυλάξεις"]
+  },
+  altion: {
+    key: "altion", name: "ALTION", host: "altion.gr", page: "altion.html",
+    icon: "💊", initials: "AL", accent: "#ea580c", keepCaps: true,
+    sheetName: "ALTION", imageDir: "altion", sourceKey: "_altionSource",
+    fallbackDesc: "Συμπλήρωμα διατροφής ALTION — {name}",
+    exportSections: ["Περιγραφή", "Οφέλη", "Κατάλληλο για", "Χρήση", "Προφυλάξεις"]
   }
 };
 

@@ -7129,5 +7129,21 @@ window.IMAGE_MANIFEST = {
   "IS-essentialscrub": "isdin/ceutics-essential-scrub-IS-essentialscrub.webp",
   "IS-essentialpurifier": "isdin/ceutics-essential-purifier-IS-essentialpurifier.webp",
   "IS-essentialcleansing": "isdin/ceutics-essential-cleansing-IS-essentialcleansing.webp",
-  "IS-micellarsolution4in1": "isdin/micellar-solution-4-in-1-IS-micellarsolution4in1.webp"
+  "IS-micellarsolution4in1": "isdin/micellar-solution-4-in-1-IS-micellarsolution4in1.webp",
+  "AL-tonovit": "altion/tonovit-AL-tonovit.png",
+  "AL-tonovitsenior": "altion/tonovit-senior-AL-tonovitsenior.png",
+  "AL-kidspolyvitamins": "altion/kids-polyvitamins-AL-kidspolyvitamins.png",
+  "AL-kidsironspray": "altion/kids-iron-spray-AL-kidsironspray.png",
+  "AL-ironfortesticks": "altion/iron-forte-sticks-AL-ironfortesticks.png",
+  "AL-bcomplexsyrup": "altion/b-complex-syrup-AL-bcomplexsyrup.png",
+  "AL-magnesium": "altion/magnesium-AL-magnesium.png",
+  "AL-4sleep": "altion/4sleep-AL-4sleep.png",
+  "AL-osteo": "altion/osteo-AL-osteo.png",
+  "AL-d3sticks1000": "altion/d3-sticks-1000-i-u-AL-d3sticks1000.png",
+  "AL-d3sticks2000": "altion/d3-sticks-2000-i-u-AL-d3sticks2000.png",
+  "AL-kidsd3": "altion/kids-d3-AL-kidsd3.png",
+  "AL-kidsd3sun": "altion/kids-d3-sun-AL-kidsd3sun.png",
+  "AL-kidsvitaminc": "altion/kids-vitamin-c-AL-kidsvitaminc.png",
+  "AL-kidsiq": "altion/kids-iq-AL-kidsiq.png",
+  "AL-kidslacticus": "altion/kids-lacticus-AL-kidslacticus.png"
 };

@@ -884,5 +884,20 @@ window.BRAND_STATS = {
       "noprice": 83,
       "priced": 6
     }
+  },
+  "altion": {
+    "products": 16,
+    "priced": 15,
+    "sections": 2,
+    "modes": {
+      "all": 16,
+      "ok": 16,
+      "issue": 0,
+      "complete": 16,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 1,
+      "priced": 15
+    }
   }
 };

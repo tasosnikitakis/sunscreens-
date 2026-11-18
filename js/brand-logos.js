@@ -49,5 +49,6 @@ window.BRAND_LOGOS = {
   "helenvision": "images/logos/helenvision.webp",
   "sostar": "images/logos/sostar.png",
   "medisei": "images/logos/medisei.png",
-  "isdin": "images/logos/isdin.png"
+  "isdin": "images/logos/isdin.png",
+  "altion": "images/logos/altion.png"
 };
