@@ -839,5 +839,20 @@ window.BRAND_STATS = {
       "noprice": 1,
       "priced": 12
     }
+  },
+  "sostar": {
+    "products": 58,
+    "priced": 27,
+    "sections": 5,
+    "modes": {
+      "all": 58,
+      "ok": 58,
+      "issue": 0,
+      "complete": 58,
+      "incomplete": 0,
+      "nopage": 0,
+      "noprice": 31,
+      "priced": 27
+    }
   }
 };

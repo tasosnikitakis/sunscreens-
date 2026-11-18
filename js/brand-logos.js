@@ -46,5 +46,6 @@ window.BRAND_LOGOS = {
   "bausch": "images/logos/bausch.svg",
   "alcon": "images/logos/alcon.png",
   "zwitter": "images/logos/zwitter.webp",
-  "helenvision": "images/logos/helenvision.webp"
+  "helenvision": "images/logos/helenvision.webp",
+  "sostar": "images/logos/sostar.png"
 };
