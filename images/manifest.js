@@ -6798,5 +6798,18 @@ window.IMAGE_MANIFEST = {
   "AL-hydrationpreservativefreeud30": "alcon/systane-hydration-AL-hydrationpreservativefreeud30.jpg",
   "AL-balance": "alcon/systane-balance-AL-balance.jpg",
   "AL-geldrops": "alcon/systane-gel-drops-AL-geldrops.jpg",
-  "AL-eyelidwipes": "alcon/systane-lid-wipes-AL-eyelidwipes.jpg"
+  "AL-eyelidwipes": "alcon/systane-lid-wipes-AL-eyelidwipes.jpg",
+  "ZW-xytea": "zwitter/xytea-ZW-xytea.jpg",
+  "ZW-neukronoftamese": "zwitter/neukron-ofta-mese-ZW-neukronoftamese.jpg",
+  "ZW-lidblefintensivecare": "zwitter/lidblef-intensive-care-ZW-lidblefintensivecare.png",
+  "ZW-lidblefdailycare": "zwitter/lidblef-daily-care-ZW-lidblefdailycare.png",
+  "ZW-hyalovet": "zwitter/hyalovet-ZW-hyalovet.png",
+  "ZW-salz5": "zwitter/salz-5-ZW-salz5.png",
+  "ZW-hyalovetgel": "zwitter/hyalovet-gel-ZW-hyalovetgel.jpg",
+  "ZW-hylopan": "zwitter/hylopan-ZW-hylopan.jpg",
+  "ZW-hylopanmax": "zwitter/hylopan-max-ZW-hylopanmax.jpg",
+  "ZW-hylopanlipo": "zwitter/hylopan-lipo-ZW-hylopanlipo.jpg",
+  "ZW-vitadex": "zwitter/vitadex-ZW-vitadex.jpg",
+  "ZW-omk2": "zwitter/omk2-ZW-omk2.jpg",
+  "ZW-triadecremagel": "zwitter/triade-cremagel-ZW-triadecremagel.jpg"
 };

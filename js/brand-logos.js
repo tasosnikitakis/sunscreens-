@@ -44,5 +44,6 @@ window.BRAND_LOGOS = {
   "physiomer": "images/logos/physiomer.png",
   "neilmed": "images/logos/neilmed.png",
   "bausch": "images/logos/bausch.svg",
-  "alcon": "images/logos/alcon.png"
+  "alcon": "images/logos/alcon.png",
+  "zwitter": "images/logos/zwitter.webp"
 };
