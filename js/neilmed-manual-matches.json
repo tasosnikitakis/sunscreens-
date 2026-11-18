@@ -1,0 +1,12 @@
+{
+  "_comment": "Χειροκίνητες αντιστοιχίσεις τιμοκαταλόγου (Medica, γραμμές NEILMED) → προϊόν sinusrinse.gr (κλειδί NM-<slug>· το site δεν δίνει EAN). Kit 10/60 ενηλίκων = «SINUSRINSE KIT FESS 10/60» της Medica (προς επιβεβαίωση: «FESS»). Χωρίς σελίδα στο site (μένουν εκτός): Airmax, ASO plast, NasaMist, PediaMist, Naspira filters, Pediatric Kit 60· γραμμές χωρίς barcode (Regular 10 sachets, Pediatric 30 με συσκευή).",
+  "705928001220": "NM-sinusrinsekit60",
+  "0705928003101": "NM-sinusrinsekit10",
+  "0705928002005": "NM-sinusrinse120refill",
+  "705928052000": "NM-sinusrinse50refill",
+  "705928002043": "NM-sinusrinse120refillgiapaidia",
+  "705928004023": "NM-sinusrinsegiapaidia",
+  "705928110014": "NM-nasadrops",
+  "705928919013": "NM-nasadockplus",
+  "705928045224": "NM-nasogel"
+}

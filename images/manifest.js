@@ -6755,5 +6755,14 @@ window.IMAGE_MANIFEST = {
   "PY-babyrinikosapofraktiras": "physiomer/baby-PY-babyrinikosapofraktiras.png",
   "PY-kidsspray": "physiomer/kids-spray-PY-kidsspray.png",
   "PY-expresskids": "physiomer/express-kids-PY-expresskids.png",
-  "PY-allergyrelief": "physiomer/allergy-relief-PY-allergyrelief.png"
+  "PY-allergyrelief": "physiomer/allergy-relief-PY-allergyrelief.png",
+  "NM-sinusrinsekit60": "neilmed/sinus-rinse-kit-60-NM-sinusrinsekit60.jpg",
+  "NM-sinusrinse120refill": "neilmed/sinus-rinse-120-refill-NM-sinusrinse120refill.jpg",
+  "NM-nasadrops": "neilmed/nasadrops-NM-nasadrops.jpg",
+  "NM-nasadockplus": "neilmed/nasa-dock-plus-NM-nasadockplus.jpg",
+  "NM-nasogel": "neilmed/nasogel-NM-nasogel.jpg",
+  "NM-sinusrinse120refillgiapaidia": "neilmed/sinus-rinse-120-refill-NM-sinusrinse120refillgiapaidia.jpg",
+  "NM-sinusrinsekit10": "neilmed/sinus-rinse-kit-10-NM-sinusrinsekit10.jpg",
+  "NM-sinusrinsegiapaidia": "neilmed/sinus-rinse-kit-30-NM-sinusrinsegiapaidia.jpg",
+  "NM-sinusrinse50refill": "neilmed/sinus-rinse-50-refill-NM-sinusrinse50refill.png"
 };
