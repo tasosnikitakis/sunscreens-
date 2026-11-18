@@ -168,7 +168,7 @@ async function main() {
     await fs.writeFile(OUT_FILE, banner + `window.${BRAND.toUpperCase()}_SUPPLEMENTAL = ` + JSON.stringify(supplemental, null, 2) + ";\n", "utf8");
     await saveManifest(manifest);
   };
-  const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?") + "\\s*", "i");
+  const brandRe = new RegExp("^" + cfg.name.replace(/[.*?^${}()|[\]\\]/g, "\\$&").replace(/\+/g, "[+&]").replace(/[-\s]/g, "[-\\s]?") + "\\s*", "i");
   let ok = 0, imgOk = 0, miss = 0, n = 0;
   for (const p of pool) {
     if (n >= LIMIT) break;
