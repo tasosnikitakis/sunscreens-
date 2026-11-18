@@ -42,7 +42,8 @@ export const LOGO_SRC = {
   lactacyd: "https://s3.eu-west-3.amazonaws.com/perrigo.com/lactacyd-gr-assets/inline-images/logo-lactacyd-1%201.png?VersionId=Mm.c2ODyFThI9qmtle2nFollWNxI2Ej2",
   elladent: "https://www.elladent.gr/image/data/New-final-logo-black.png",
   physiomer: "https://s3.eu-west-3.amazonaws.com/perrigo.com/dev-centralbrandmasterr-assets/inline-images/Physiomer_logo.png?VersionId=cmenuoYUNV8VWOOrbRrkaMG2zCFM8c4o",
-  neilmed: "https://www.sinusrinse.gr/wp-content/themes/nemesys/assets/images/LOGO_SINUSRINSE_NEILMED_V3.png"
+  neilmed: "https://www.sinusrinse.gr/wp-content/themes/nemesys/assets/images/LOGO_SINUSRINSE_NEILMED_V3.png",
+  bausch: "https://www.bausch.gr/siteassets/img/logo-crop.svg"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand

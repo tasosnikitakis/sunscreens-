@@ -455,6 +455,14 @@ POST `index.php?route=module/language` (`language_code=gr`) με το cookie τ�
 PDF φύλλου οδηγιών. Τα Refill παίρνουν και την περιγραφή του αντίστοιχου kit (το site έχει μία φράση). Κλειδιά `NM-<slug>`,
 9 γραμμές Medica (Kit 10/60 ενηλίκων = «SINUSRINSE KIT FESS 10/60»)· NasaMist, PediaMist, Airmax κ.ά. δεν έχουν σελίδα.
 
+`scripts/scrape-bausch.mjs` (Bausch + Lomb, **www.bausch.gr** — Episerver, χωρίς EAN): μόνο προϊόντα φαρμακείου χωρίς συνταγή —
+εκτός οι φακοί επαφής (`/fakoi-epafis/`) και ό,τι η σελίδα γράφει «Κατηγορία: Συνταγογραφούμενο / ΜΗ.ΣΥ.ΦΑ / νοσοκομειακή χρήση»
+(+ λίστα slugs φαρμάκων για ασφάλεια). Accordion `<p onclick="toggle(this)"><b>…`· ο πίνακας «ΔΙΑΘΕΣΙΜΕΣ ΣΥΣΚΕΥΑΣΙΕΣ» δίνει
+μία εγγραφή ανά συσκευασία (π.χ. Artelac drops / μονοδόσεις)· πίνακας άλλου προϊόντος (Desosept/Recugel → «Corneregel 15gr»,
+λάθος του site) αγνοείται. Πίνακας θρεπτικών (Ocuvite) → «συστατικό: ανά δισκίο …». Εικόνες ~600KB PNG → 900px με `convert`.
+**Όνομα brand με «+»** (Bausch + Lomb): οι regex του ονόματος (`js/brands.js`, `sync-brand-images`, `fill-brand-missing`)
+κάνουν πλέον escape τους ειδικούς χαρακτήρες και το «+» ταιριάζει και με «&» (Medica: «BAUSCH & LOMB …»).
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

@@ -188,7 +188,7 @@ async function main() {
       }
       const { buf, contentType } = fetched;
       const ext = extFromContentType(contentType, o.image);
-      const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?") + "\\s*", "i");
+      const brandRe = new RegExp("^" + cfg.name.replace(/[.*?^${}()|[\]\\]/g, "\\$&").replace(/\+/g, "[+&]").replace(/[-\s]/g, "[-\\s]?") + "\\s*", "i");
       const relPath = `${dir}/${slugify((o.name || p.name || p.barcode).replace(brandRe, ""))}-${p.barcode}.${ext}`;
       await fs.writeFile(path.join(IMG_DIR, relPath), buf);
       if (existing && existing !== relPath && existing.startsWith(dir + "/")) { try { await fs.unlink(path.join(IMG_DIR, existing)); } catch {} }

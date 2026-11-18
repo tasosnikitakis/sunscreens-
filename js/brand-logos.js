@@ -42,5 +42,6 @@ window.BRAND_LOGOS = {
   "lactacyd": "images/logos/lactacyd.png",
   "elladent": "images/logos/elladent.png",
   "physiomer": "images/logos/physiomer.png",
-  "neilmed": "images/logos/neilmed.png"
+  "neilmed": "images/logos/neilmed.png",
+  "bausch": "images/logos/bausch.svg"
 };

@@ -376,6 +376,13 @@ window.BRAND_CATALOGS = {
     sheetName: "NeilMed", imageDir: "neilmed", sourceKey: "_neilmedSource",
     fallbackDesc: "Προϊόν ρινικής φροντίδας NeilMed — {name}",
     exportSections: ["Περιγραφή", "Κατάλληλο για", "Χρήση", "Συστατικά"]
+  },
+  bausch: {
+    key: "bausch", name: "Bausch + Lomb", host: "bausch.gr", page: "bausch.html",
+    icon: "👁️", initials: "B+L", accent: "#0e7490", keepCaps: true,
+    sheetName: "Bausch + Lomb", imageDir: "bausch", sourceKey: "_bauschSource",
+    fallbackDesc: "Προϊόν Bausch + Lomb — {name}",
+    exportSections: ["Περιγραφή", "Ενδείξεις", "Κατάλληλο για", "Οφέλη", "Χρήση", "Συστατικά", "Προφυλάξεις"]
   }
 };
 
@@ -395,7 +402,7 @@ window.BRAND_CATALOGS_UTIL = {
       // Γνωστά ακρωνύμια μένουν κεφαλαία: SPF, UV/UVA/UVB, XL, BB/CC, HA, B3/B5, KA, DP, AP+M, PP+, A.D, DS, AC, PSO, SOS, AHA/BHA, INCI
       .replace(/\b(Spf|Uva|Uvb|Uv|Xl|Bb|Cc|Ha|Ka|Dp|Ap|Pp|Ad|Ds|Ac|Pso|Sos|Aha|Bha|Inci|Lrp|Med|Defi|Nf|Rp|Nc|Cica)(?![a-zà-ÿ])/g, m => m.toUpperCase());
     const trimmed = titled.replace(/\s+/g, " ").trim();
-    const brandRe = new RegExp("^" + cfg.name.replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
+    const brandRe = new RegExp("^" + cfg.name.replace(/[.*?^${}()|[\]\\]/g, "\\$&").replace(/\+/g, "[+&]").replace(/[-\s]/g, "[-\\s]?").replace(/è/g, "[èe]") + "\\b", "i");
     if (brandRe.test(trimmed)) return trimmed.replace(brandRe, cfg.name);
     if (cfg.key === "lrp" && /^L\s?R\s+Posay\b/i.test(trimmed)) return trimmed.replace(/^L\s?R\s+Posay\b/i, cfg.name);
     if (cfg.noNamePrefix) return trimmed;   // π.χ. Pierre Fabre Oral Care: τα ονόματα έχουν ήδη Elgydium / Eludril

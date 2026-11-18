@@ -779,5 +779,20 @@ window.BRAND_STATS = {
       "noprice": 0,
       "priced": 9
     }
+  },
+  "bausch": {
+    "products": 26,
+    "priced": 18,
+    "sections": 5,
+    "modes": {
+      "all": 26,
+      "ok": 24,
+      "issue": 2,
+      "complete": 24,
+      "incomplete": 2,
+      "nopage": 0,
+      "noprice": 8,
+      "priced": 18
+    }
   }
 };
