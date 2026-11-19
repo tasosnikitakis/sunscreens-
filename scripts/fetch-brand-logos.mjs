@@ -24,18 +24,15 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 // σελίδα (ή εικόνα) από την οποία παίρνουμε το λογότυπο, όταν δεν είναι η αρχική του cfg.host
 export const LOGO_SRC = {
-  frezyderm: "https://www.frezyderm.gr/", lamberts: "https://www.lamberts.gr/", aderma: "https://www.aderma.gr/", ducray: "https://www.ducray.com/gr-gr",
-  klorane: "https://www.klorane.com/gr-el", avene: "https://www.eau-thermale-avene.gr/", lrp: "https://www.larocheposay.gr/", korres: "https://gr.korres.com/",
-  apivita: "https://www.apivita.com/hellas/", vichy: "https://www.vichy.gr/", liposan: "https://www.liposan.gr/", nivea: "https://www.nivea.gr/",
+  ducray: "https://www.ducray.com/gr-gr",
+  klorane: "https://www.klorane.com/gr-el", avene: "https://www.eau-thermale-avene.gr/", vichy: "https://www.vichy.gr/", liposan: "https://www.liposan.gr/", nivea: "https://www.nivea.gr/",
   hansaplast: "https://www.hansaplast.gr/", intermed: "https://intermed.com.gr/assets/intermed_logo-925f68ab0f1153cc8e7f8fb5a2a659cb6171d162c42cd0cfc6131119d9fc06cd.png", uriage: "https://www.uriage.com/GR/el/", helenvita: "https://www.helenvita.com/",
-  cerave: "https://www.cerave.gr/", mustela: "https://www.mustela.com.gr/", solgar: "https://www.solgar.gr/", healthaid: "https://www.healthaid.co.uk/cdn/shop/files/healthaid-logo-459x161.png?width=459",
-  powerhealth: "https://www.powerhealth.gr/", quest: "https://www.douni.gr/media/1391/logo_quest_blue.jpg?mode=pad&width=350&height=250&bgcolor=fff", vitabiotics: "https://www.vitabiotics.gr/", unipharma: "https://www.uni-pharma.gr/",
-  superfoods: "https://superfoods.eu/el/", centrum: "https://vitamins.centrum.gr/", pharmasept: "https://pharmasept.gr/", caudalie: "https://gr.caudalie.com/",
+  cerave: "https://www.cerave.gr/", mustela: "https://www.mustela.com.gr/", healthaid: "https://www.healthaid.co.uk/cdn/shop/files/healthaid-logo-459x161.png?width=459",
+  powerhealth: "https://www.powerhealth.gr/", quest: "https://www.douni.gr/media/1391/logo_quest_blue.jpg?mode=pad&width=350&height=250&bgcolor=fff", vitabiotics: "https://www.vitabiotics.gr/", superfoods: "https://superfoods.eu/el/", caudalie: "https://gr.caudalie.com/",
   bioderma: "https://www.bioderma.gr/", sebamed: "https://www.intramed-pharma.gr/wp-content/uploads/2019/09/Logo-sebamed-E-N_VH.png", froika: "https://www.froika.com/", mollers: "https://www.mollersomega3.com/",
   lanes: "https://www.laneshealth.gr/", eubos: "https://www.eubos.gr/", vencil: "https://www.vencil.gr/", curaprox: "https://www.curaprox.gr/",
   pforal: "https://www.pierrefabre-oralcare.com/gr-gr", tepe: "https://www.placcontrol.gr/wp-content/uploads/2021/09/tepelogo_thin.png", gum: "https://www.sunstargum.com/gr-el/",
-  gehwol: "https://naturapharm.gr/", podia: "https://www.podiafootcare.com/", corega: "https://www.pharm24.gr/corega-m-62.html", sensodyne: "https://www.pharm24.gr/sensodyne-m-44.html",
-  bepanthol: "https://www.bepanthol.gr/el/", eviol: "https://eviol.gr/wp-content/uploads/2025/08/EVIOL-logo-blue_2-350x100.png",
+  podia: "https://www.podiafootcare.com/", bepanthol: "https://www.bepanthol.gr/el/", eviol: "https://eviol.gr/wp-content/uploads/2025/08/EVIOL-logo-blue_2-350x100.png",
   nuk: "https://www.nuk.gr/static/version1793172922/frontend/Mapa/nuk/default/images/logo_nuk.png",
   // chicco: το chicco.it απορρίπτει (403) το UA «browser» του script· το logo.svg κατέβηκε με curl → images/logos/chicco.svg
   chicco: "https://www.chicco.it/on/demandware.static/Sites-Chicco-Italy-Site/-/default/dw1ab986ad/images/logo.svg",
@@ -53,11 +50,27 @@ export const LOGO_SRC = {
   medisei: "https://www.medisei.gr/el/",
   isdin: "https://isdin.gr/",
   altion: "https://www.altion.gr/",
-  karabinis: "https://karabinismedical.gr/"
+  karabinis: "https://karabinismedical.gr/wp-content/uploads/2023/04/logo-karabinis.svg",
+  // Από το pharm24.gr (σελίδα μαρκών, αρχεία πλήρους μεγέθους) όταν το επίσημο site δεν δίνει καθαρό λογότυπο ή δεν είναι διαθέσιμο.
+  // Μετά τη λήψη: convert <αρχείο>[0] -background white -flatten -fuzz 6% -trim +repage -bordercolor white -border 6 images/logos/<key>.png
+  frezyderm: "https://cdn.pharm24.gr/images/FREZYDERM__LOGO.jpg",
+  lamberts: "https://cdn.pharm24.gr/images/manufacturers/lamberts-logo.gif",
+  aderma: "https://cdn.pharm24.gr/images/manufacturers/ADERMA_.jpg",
+  korres: "https://cdn.pharm24.gr/images/korreslogopharm24.jpg",
+  apivita: "https://cdn.pharm24.gr/images/newlogoapivoita.jpg",
+  centrum: "https://cdn.pharm24.gr/images/manufacturers/centrum.png",
+  gehwol: "https://cdn.pharm24.gr/images/manufacturers/gehwol.jpg",
+  corega: "https://cdn.pharm24.gr/images/manufacturers/adcdascdsdsavsacsz.jpg",
+  sensodyne: "https://cdn.pharm24.gr/images/manufacturers/sensodyned.png",
+  hydrovit: "https://cdn.pharm24.gr/images/manufacturers/HydroVitlogo.jpg",
+  lrp: "https://cdn.pharm24.gr/images/LRPLogo_New_.jpg",
+  pharmasept: "https://cdn.pharm24.gr/images/manufacturers/PHARMASEPT_LOGO.png",
+  solgar: "https://cdn.pharm24.gr/images/manufacturers/solgarLogoPharm24_.jpg",
+  unipharma: "https://cdn.pharm24.gr/images/manufacturers/unipharm.jpg"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
-const NO_LOGO = new Set(["gehwol", "corega", "sensodyne", "hydrovit"]);   // hydrovit: το targetpharma.gr έχει το λογότυπο μόνο μέσα σε φωτογραφία
+const NO_LOGO = new Set([]);   // (gehwol, corega, sensodyne, hydrovit: πλέον από το pharm24.gr)
 // προτιμώμενη λέξη στο όνομα αρχείου/alt (όταν η σελίδα έχει πολλά logos, π.χ. διανομείς)
 const HINT = { sebamed: /sebamed/i, gehwol: /gehwol/i, corega: /corega/i, sensodyne: /sensodyne/i, quest: /quest/i, pforal: /elgydium|pierre|oral/i, altion: /altion/i };
 
