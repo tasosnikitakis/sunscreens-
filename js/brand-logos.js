@@ -50,5 +50,6 @@ window.BRAND_LOGOS = {
   "sostar": "images/logos/sostar.png",
   "medisei": "images/logos/medisei.png",
   "isdin": "images/logos/isdin.png",
-  "altion": "images/logos/altion.png"
+  "altion": "images/logos/altion.png",
+  "karabinis": "images/logos/karabinis.png"
 };

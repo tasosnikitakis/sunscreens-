@@ -899,5 +899,20 @@ window.BRAND_STATS = {
       "noprice": 1,
       "priced": 15
     }
+  },
+  "karabinis": {
+    "products": 282,
+    "priced": 91,
+    "sections": 8,
+    "modes": {
+      "all": 282,
+      "ok": 278,
+      "issue": 4,
+      "complete": 278,
+      "incomplete": 4,
+      "nopage": 0,
+      "noprice": 191,
+      "priced": 91
+    }
   }
 };

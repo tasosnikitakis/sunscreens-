@@ -132,7 +132,9 @@ export function karabinisRecords(p, d) {
       out.push(base(d, gtin, parts, codeKey(r) ? r[codeKey(r)] : null));
     }
   } else {
-    const gtin = d.ean && eanOk(d.ean) ? d.ean : `KM-${(d.code || d.handle).replace(/[^A-Za-z0-9]/g, "").toLowerCase().slice(0, 40)}`;
+    // χωρίς barcode: κωδικός Karabinis, αλλιώς λατινικό slug, αλλιώς το id του WooCommerce (ελληνικό slug)
+    const slug = /^[\x00-\x7f]+$/.test(d.handle) ? d.handle.replace(/[^A-Za-z0-9]/g, "").toLowerCase().slice(0, 40) : "";
+    const gtin = d.ean && eanOk(d.ean) ? d.ean : `KM-${d.code ? d.code.replace(/[^A-Za-z0-9]/g, "").toLowerCase() : slug.length >= 5 ? slug : `p${p.id}`}`;
     out.push(base(d, gtin, [], d.code));
   }
   return out;
