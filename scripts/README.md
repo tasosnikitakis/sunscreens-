@@ -508,6 +508,12 @@ icon-ingredients = βασικά συστατικά) + modals «Πλήρης Σύ
 σημειώσεις ΕΟΦ (αρ. γνωστοποίησης). Το D3 Sticks (μία σελίδα, 1000 & 2000 I.U.) → 2 εγγραφές. Κλειδί `AL-<slug>`·
 15 γραμμές Medica στο `js/altion-manual-matches.json` (Tonovit 40 softcaps, Lacticus 10 caps, Vit-C+Zinc, Winter χωρίς σελίδα).
 
+`scripts/scrape-karabinis.mjs` (Karabinis Medical, **karabinismedical.gr** — WooCommerce + Elementor): λίστα από το Store API (247),
+μάρκα από το πρόθεμα/εικόνα brand (Microlife, HD Corner, Alfacheck, Alfashield, ESI, SON, Attends, Bionime, Mylife). Καρτέλες
+WooCommerce (Περιγραφή, Λεπτομέρειες, Χρήση, Γνωστοποιήσεις, Χαρακτηριστικά). Ο πίνακας «Λεπτομέρειες» δίνει **barcode ανά
+συσκευασία/μέγεθος** → μία εγγραφή ανά barcode (ακριβές match Medica)· χωρίς πίνακα, «Barcode: …» στην περιγραφή· αλλιώς `KM-<κωδικός|slug|p<id>>`.
+Εκτός: 36 κενά «Microlife mains adapter», επαγγελματικά (WatchBP, Nipro, γάζες X-RAY/λαπαροτομίας, τολύπια, σκούφιες, ποδιές …) και ανταλλακτικά.
+
 ## Τιμές από γενικό τιμοκατάλογο προμηθευτή (`--prices`)
 
 Ο προμηθευτής στέλνει έναν ενιαίο τιμοκατάλογο για όλες τις εταιρίες (`Medica.tsv`,

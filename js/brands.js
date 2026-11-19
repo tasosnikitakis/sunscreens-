@@ -432,6 +432,13 @@ window.BRAND_CATALOGS = {
     sheetName: "ALTION", imageDir: "altion", sourceKey: "_altionSource",
     fallbackDesc: "Συμπλήρωμα διατροφής ALTION — {name}",
     exportSections: ["Περιγραφή", "Οφέλη", "Κατάλληλο για", "Χρήση", "Προφυλάξεις"]
+  },
+  karabinis: {
+    key: "karabinis", name: "Karabinis Medical", host: "karabinismedical.gr", page: "karabinis.html",
+    icon: "🩺", initials: "KM", accent: "#0f766e", keepCaps: true,
+    sheetName: "Karabinis Medical", imageDir: "karabinis", sourceKey: "_karabinisSource",
+    fallbackDesc: "Προϊόν Karabinis Medical — {name}",
+    exportSections: ["Περιγραφή", "Χαρακτηριστικά", "Χρήση", "Συστατικά", "Προφυλάξεις", "Πιστοποιήσεις"]
   }
 };
 
