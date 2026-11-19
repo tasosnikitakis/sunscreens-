@@ -52,7 +52,8 @@ export const LOGO_SRC = {
   sostar: "https://www.sostar.gr/",
   medisei: "https://www.medisei.gr/el/",
   isdin: "https://isdin.gr/",
-  altion: "https://www.altion.gr/"
+  altion: "https://www.altion.gr/",
+  karabinis: "https://karabinismedical.gr/"
 };
 const BROWSER = new Set(["bepanthol"]);
 // χωρίς λογότυπο του ίδιου του brand στη διαθέσιμη πηγή (διανομέας/φαρμακείο) → η σελίδα «Εταιρίες» δείχνει τα αρχικά του brand
