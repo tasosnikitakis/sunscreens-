@@ -564,8 +564,11 @@ node scripts/generate-catalog.mjs
 
 - `scripts/fetch-brand-logos.mjs [--only=key] [--force]`: ανοίγει την αρχική κάθε brand σε Playwright, βρίσκει το στοιχείο-λογότυπο
   (img/svg/link με «logo» ψηλά στη σελίδα, χωρίς icons/cookie banners) και κρατά στιγμιότυπό του σε διάφανο PNG → `images/logos/<key>.png`
-  και `js/brand-logos.js`. `LOGO_SRC`: σελίδα ή απευθείας εικόνα ανά brand (π.χ. Sebamed / Quest / TePe από διανομείς). `NO_LOGO`: brands
-  χωρίς δικό τους λογότυπο στην πηγή (Gehwol, Corega, Sensodyne) → η κάρτα δείχνει τα αρχικά (`initials`/`accent` του brands.js).
+  και `js/brand-logos.js`. `LOGO_SRC`: σελίδα ή απευθείας εικόνα ανά brand (π.χ. Sebamed / Quest / TePe από διανομείς). Όταν το επίσημο
+  site δεν δίνει καθαρό λογότυπο: αρχείο πλήρους μεγέθους από τη σελίδα μαρκών του **pharm24.gr** (`cdn.pharm24.gr/images/…`, χωρίς το
+  `133x133-90/`) + `convert … -flatten -fuzz 6% -trim +repage -bordercolor white -border 6` → Frezyderm, Lamberts, A-Derma, Korres, Apivita,
+  Centrum, Gehwol, Corega, Sensodyne, Hydrovit, La Roche-Posay, Pharmasept, Solgar, Uni-Pharma. Karabinis: το SVG του site.
+  `NO_LOGO` (κενό πλέον): brands χωρίς λογότυπο → η κάρτα δείχνει τα αρχικά (`initials`/`accent` του brands.js).
 - `scripts/build-brand-stats.mjs` → `js/brand-stats.js` (προϊόντα / με τιμή / ενότητες ανά brand). Τρέχει μετά από κάθε build.
 - `scripts/restructure-nav.py`: η μετατροπή του nav (μία φορά). **Νέο brand:** καταχώριση στο `js/brands.js` + σελίδα `<key>.html`
   (αντιγραφή από υπάρχουσα σελίδα brand — το nav της είναι ήδη το σωστό), μετά `fetch-brand-logos --only=<key>` και `build-brand-stats`.
